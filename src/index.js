@@ -4,6 +4,7 @@ import Logo from './components/logo'
 import SocialButtons from './components/social-buttons'
 import Navigation from './components/navigation'
 import Home from './components/home'
+import Footer from './components/footer'
 
 class Page {
   render() {
@@ -15,6 +16,7 @@ class Page {
           <Navigation />
         </header>
         <Home/>
+        <Footer />
       </div>
     )
   }
