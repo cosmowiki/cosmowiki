@@ -3,16 +3,28 @@
   "version": "1.0.0",
   "description": "an online encyclopedia about astronomy and space flight",
   "main": "index.js",
+  "browser": {
+    "react": "./src/shim/react.js"
+  },
   "directories": {
     "doc": "docs"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server"
+    "start": "http-server dist",
+    "build": "mkdir -p dist; npm run build:html; npm run build:app",
+    "build:html": "cp src/index.html dist/",
+    "build:app": "browserify src/index.js --outfile=dist/index.min.js --transform=babelify"
   },
   "author": "H. Porsch",
   "license": "MIT",
   "devDependencies": {
-    "http-server": "^0.8.0"
+    "http-server": "^0.8.0",
+    "browserify": "^11.1.0",
+    "babelify": "^6.3.0",
+    "babel": "^5.8.23"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
   }
 }
