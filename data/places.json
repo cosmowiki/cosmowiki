@@ -1,0 +1,1652 @@
+[
+  {
+    "facilityname": "Ames Research Center (ARC)",
+    "facilitysince": 14599,
+    "facilitypurp": "Zentrum zur Grundlagenforschung für die Luftfahrtechnik",
+    "facilityuser": "NASA",
+    "facilityloc": "USA, Kalifornien, Moffett Field",
+    "facilitylink": "https://de.wikipedia.org/wiki/Ames_Research_Center",
+    "type": 2
+  },
+  {
+    "facilityname": "Applied Physics Laboratory (APL)",
+    "facilitysince": 15410,
+    "facilitypurp": "Raumfahrtwissenschaften, Entwurf und Herstellung von Raumfahrzeugen, Betreuung von Raumfahrtmissionen",
+    "facilityuser": "Johns Hopkins University, NASA",
+    "facilityloc": "USA, Maryland, Laurel",
+    "facilitylink": "https://de.wikipedia.org/wiki/Applied_Physics_Laboratory",
+    "type": 2
+  },
+  {
+    "facilityname": "Calar-Alto-Observatorium",
+    "facilitysince": 29126,
+    "facilitypurp": "Observatorium für astronomische Beobachtungen",
+    "facilityuser": "MPI für Astronomie, Andalusisches Institut für Astrophysik",
+    "facilityloc": "Spanien, Calar Alto",
+    "facilitylink": "https://de.wikipedia.org/wiki/Calar-Alto-Observatorium",
+    "type": 1
+  },
+  {
+    "facilityname": "Canberra Deep Space Communication Complex",
+    "facilitysince": 23820,
+    "facilitypurp": "Bodenstation zur Kommunikation mit Raumfahrzeugen (Apollo, Skylab, Voyager)",
+    "facilityuser": "DSN, CSIRO, NASA",
+    "facilityloc": "Australien, New South Wales, Canberra",
+    "facilitylink": "https://de.wikipedia.org/wiki/Canberra_Deep_Space_Communication_Complex",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS (Cape Canaveral Air Force Station)",
+    "facilitysince": "11.006.1949",
+    "facilitypurp": "Startplatz - zivil/militärisch (NASA, US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-1",
+    "facilitysince": 20102,
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_1",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-10",
+    "facilitysince": "12.007.1957",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_10",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-11",
+    "facilitysince": "108.006.1958",
+    "facilitypurp": "Startplatz - militärisch, SCORE (der erste Kommunikationssatellit)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_11",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-12",
+    "facilitysince": "101.1958",
+    "facilitypurp": "Startplatz - zivil/militärisch (NASA, US-Air Force), Pioneer C, Pioneer D, Ranger 1, Ranger 2, Ranger 3, Ranger 4, Ranger 5, Ranger 6, Ranger 7, Ranger 8, Ranger 9, Mariner 4, Mariner 5",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_12",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-13",
+    "facilitysince": "02.007.1958",
+    "facilitypurp": "Startplatz - zivil/militärisch (NASA, US-Air Force), Vela 2, Vela 3, Vela 5, Mariner 3, alle Lunar Orbiter (1 – 5)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_13",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-14",
+    "facilitysince": "11.007.1957",
+    "facilitypurp": "Startplatz - zivil/militärisch (NASA, US-Air Force), Pioneer P3, Mercury-Big-Joe 1, alle Mercury-Atlas (1 – 9), Gemini 6, Gemini 8, Gemini 9, Gemini 10, Gemini 11, Gemini 12",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_14",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-15",
+    "facilitysince": "007.02.1959",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_15",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-16",
+    "facilitysince": 21896,
+    "facilitypurp": "Startplatz - militärisch (US-Air Force), Triebwerktest des Apollo-Service-Moduls",
+    "facilityuser": "US Air Force, US Army",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_16",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-17",
+    "facilitysince": "207.01.1957",
+    "facilitypurp": "Startplatz - zivil/militärisch (NASA, US-Air Force), Pioneer 0, Pioneer 1, Pioneer 2, Pioneer 5, Pioneer 6, Pioneer 7, Pioneer 8, Pioneer 9, Pioneer E, div. GPS-Satelliten, NEAR Shoemaker, Mars Global Surveyor, Mars Pathfinder, Deep Space 1, Mars Climate Orbiter, Mars Polar Lander, Stardust, FUSE, WMAP, Mars Odyssey, Genesis, CONTOUR, Mars Exploration Rover A (Spirit), Mars Exploration Rover B (Opportunity), MESSENGER, Deep Impact, STEREO, Dawn, Fermi Gamma-ray Space Telescope, Kepler, GRAIL",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_17",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-18",
+    "facilitysince": "007.12.1956",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force), Vanguard",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_18",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-19",
+    "facilitysince": "14.007.1959",
+    "facilitypurp": "Startplatz, alle Gemini-Missionen (NASA)",
+    "facilityuser": "NASA",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_19",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-2",
+    "facilitysince": "107.02.1954",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_2",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-20",
+    "facilitysince": "01.006.1960",
+    "facilitypurp": "Startplatz, Höhenforschungsraketen",
+    "facilityuser": "NASA",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_20",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-21",
+    "facilitysince": "24.006.1958",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_21",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-22",
+    "facilitysince": 20892,
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_22",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-26",
+    "facilitysince": "207.007.1957",
+    "facilitypurp": "Startplatz - zivil/militärisch (NASA, US-Air Force), Explorer 1, Explorer 2, Explorer S-46, Explorer 8, Explorer 11, Bioflight 1, Bioflight 2, Bioflight 3",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_26",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-29",
+    "facilitysince": "21.008.1959",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_29",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-3",
+    "facilitysince": "24.006.1950",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force), Bumper-Rakete (A4)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_3",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-30",
+    "facilitysince": "206.02.1960",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_30",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-31",
+    "facilitysince": 22313,
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_31",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-32",
+    "facilitysince": "3007.1961",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_32",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-34",
+    "facilitysince": "206.11961",
+    "facilitypurp": "Startplatz, Saturn 1, Saturn 1B, Apollo 7 (NASA)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_34",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-36",
+    "facilitysince": "008.006.1962",
+    "facilitypurp": "Startplatz, Surveyor 1, Surveyor 2, Surveyor 3, Surveyor 4, Surveyor 5, Surveyor 6, Surveyor 7, Mariner 6, Mariner 7, Mariner 9, Pioneer 10, Pioneer 11, Pioneer-Venus-Orbiter, div. Intelsat-Missionen, SOHO (NASA)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_36",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-37 (SLC-37)",
+    "facilitysince": "208.01.1964",
+    "facilitypurp": "Startplatz - zivil/militärisch (NASA, US-Air Force), Saturn 1, Saturn 1B, Apollo 5",
+    "facilityuser": "NASA, US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_37",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-4",
+    "facilitysince": "1008.1952",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force), Redstone-Rakete",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_4",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-40",
+    "facilitysince": "107.007.1965",
+    "facilitypurp": "Startplatz - zivil/militärisch (NASA, US-Air Force), Mars Observer, Cassini-Huygens, Dragon COTS-1",
+    "facilityuser": "US Air Force, Space X",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_40",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-41",
+    "facilitysince": 24097,
+    "facilitypurp": "Startplatz - zivil/militärisch (NASA, US-Air Force), Helios 1, Helios 2, Viking 1, Viking 2, Voyager 1, Voyager 2, Mars Reconnaissance Orbiter, New Horizons, LCROSS, Solar Dynamics Observatory, Juno, Mars Science Laboratory, Boeing X-37",
+    "facilityuser": "US Air Force, NASA",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_41",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-43",
+    "facilitysince": 21551,
+    "facilitypurp": "Startplatz, Höhenforschungsraketen",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_43",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-46",
+    "facilitysince": "106.01.1987",
+    "facilitypurp": "Startplatz - zivil/militärisch (NASA, US-Air Force), Lunar Prospector",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_46",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-47",
+    "facilitysince": 30753,
+    "facilitypurp": "Startplatz, Höhenforschungsraketen",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_47",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-5",
+    "facilitysince": "108.006.1956",
+    "facilitypurp": "Startplatz, Jupiter, Juno II, Explorr 3, Explorer 4, Explorer 5, Explorer S-1, Explorer 7, Mercury-Redstone 1, Mercury-Redstone 1A, Mercury-Redstone 2, Mercury-Redstone BD, Mercury-Redstone 3 (Freedom 7), Mercury-Redstone 4 (Liberty Bell 7), Pioneer 3, Pioneer 4",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_5",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-6",
+    "facilitysince": "204.1955",
+    "facilitypurp": "Startplatz, Redstone, Jupiter-A, Jupiter-C",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_6",
+    "type": 2
+  },
+  {
+    "facilityname": "CCAFS LC-9",
+    "facilitysince": "007.11.1956",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Florida, Cape Canaveral",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_9",
+    "type": 2
+  },
+  {
+    "facilityname": "Carr-House, Wohn- u. Arbeitsstätte von Jeremiah Horrocks",
+    "facilitysince": "04.12.1639",
+    "facilitypurp": "erste gesicherte Beobachtung eines Venustransits",
+    "facilityuser": "Jeremiah Horrocks (Astronom)",
+    "facilityloc": "GB, England, Much Hoole",
+    "facilitylink": "https://de.wikipedia.org/wiki/Jeremia_Horrocks",
+    "type": 1
+  },
+  {
+    "facilityname": "CSG (Centre Spacial Guyanais)",
+    "facilitysince": 1964,
+    "facilitypurp": "Raumfahrtzentrum der ESA",
+    "facilityuser": "ESA",
+    "facilityloc": "Französisch Guyana, Kourou",
+    "facilitylink": "https://de.wikipedia.org/wiki/Centre_Spatial_Guyanais",
+    "type": 2
+  },
+  {
+    "facilityname": "CSG ELS",
+    "facilitysince": "21.12011",
+    "facilitypurp": "Startplatz der ESA, Sojus, Navigationssatelliten Galileo",
+    "facilityuser": "ESA",
+    "facilityloc": "Französisch Guyana, Kourou",
+    "facilitylink": "https://de.wikipedia.org/wiki/ELS_(Startrampe)",
+    "type": 2
+  },
+  {
+    "facilityname": "CSG ELA-2",
+    "facilitysince": "207.03.1986",
+    "facilitypurp": "Startplatz der ESA, Ariane 2, Ariane 3, Ariane 4",
+    "facilityuser": "ESA",
+    "facilityloc": "Französisch Guyana, Kourou",
+    "facilitylink": "https://de.wikipedia.org/wiki/ELA-2",
+    "type": 2
+  },
+  {
+    "facilityname": "CSG ELA-3",
+    "facilitysince": "04.007.1996",
+    "facilitypurp": "Startplatz der ESA, Ariane 5",
+    "facilityuser": "ESA",
+    "facilityloc": "Französisch Guyana, Kourou",
+    "facilitylink": "https://de.wikipedia.org/wiki/ELA-3",
+    "type": 2
+  },
+  {
+    "facilityname": "CSG ELA-1",
+    "facilitysince": "006.11.1971",
+    "facilitypurp": "Startplatz der ESA, Ariane 2, Ariane 3, Vega",
+    "facilityuser": "ESA",
+    "facilityloc": "Französisch Guyana, Kourou",
+    "facilitylink": "http://en.wikipedia.org/wiki/ELA-1",
+    "type": 2
+  },
+  {
+    "facilityname": "CSG ELE",
+    "facilitysince": "006.11.1971",
+    "facilitypurp": "Startplatz der ESA, Höhenforschungsraketen, Europa-2",
+    "facilityuser": "ESA",
+    "facilityloc": "Französisch Guyana, Kourou",
+    "facilitylink": "https://de.wikipedia.org/wiki/Centre_Spatial_Guyanais",
+    "type": 2
+  },
+  {
+    "facilityname": "CSG ELV",
+    "facilitysince": "006.11.1971",
+    "facilitypurp": "Startplatz der ESA, Vega",
+    "facilityuser": "ESA",
+    "facilityloc": "Französisch Guyana, Kourou",
+    "facilitylink": "http://en.wikipedia.org/wiki/ELA-1",
+    "type": 2
+  },
+  {
+    "facilityname": "Centro de Lançamento de Alcântara (CLA)",
+    "facilitysince": 32925,
+    "facilitypurp": "brasil. Startplatz - zivil",
+    "facilityuser": "AEB",
+    "facilityloc": "Brasilien, Alcântara",
+    "facilitylink": "https://de.wikipedia.org/wiki/Centro_de_Lan%C3%A7amento_de_Alc%C3%A2ntara",
+    "type": 2
+  },
+  {
+    "facilityname": "Chanquillo-Observatorium",
+    "facilitysince": "300 v. Chr.",
+    "facilitypurp": "Observatorium für astronomische Beobachtungen",
+    "facilityuser": "indianische Völker",
+    "facilityloc": "Peru, Chanquillo",
+    "facilitylink": "https://de.wikipedia.org/wiki/Chanquillo",
+    "type": 1
+  },
+  {
+    "facilityname": "David Florida Laboratory (DFL)",
+    "facilitysince": "208.008.1972",
+    "facilitypurp": "Entwicklung, Bau und Test von Satelliten und Satellitensystemen",
+    "facilityuser": "CSA",
+    "facilityloc": "Kanada, Ontario, Shilreys Bay",
+    "facilitylink": "https://de.wikipedia.org/wiki/David_Florida_Laboratory",
+    "type": 2
+  },
+  {
+    "facilityname": "Deep Space Network (DSN)",
+    "facilitysince": "1958",
+    "facilitypurp": "Netzwerk zur Kommunikation mit Raumflugkörpern sowie radar- und radioastronomische Forschungszwecke",
+    "facilityuser": "JPL, NASA",
+    "facilityloc": "globales Netzwerk",
+    "facilitylink": "https://de.wikipedia.org/wiki/Deep_Space_Network",
+    "type": 2
+  },
+  {
+    "facilityname": "Department of Applied Mathematics and Theoretical Physics",
+    "facilitysince": "1959",
+    "facilitypurp": "mathematisches und physikalisches Forschungszentrum",
+    "facilityuser": "University of Cambridge",
+    "facilityloc": "GB, England, Cambridge",
+    "facilitylink": "http://en.wikipedia.org/wiki/DAMTP",
+    "type": 2
+  },
+  {
+    "facilityname": "Deutsches Raumfahrt-Kontrollzentrum (GSOC)",
+    "facilitysince": "1967",
+    "facilitypurp": "Betrieb und Forschung für die Raumfahrt, Kommunikation mit Raumflugkörpern",
+    "facilityuser": "DLR",
+    "facilityloc": "Deutschland, Oberpfaffenhofen",
+    "facilitylink": "https://de.wikipedia.org/wiki/Deutsches_Raumfahrt-Kontrollzentrum",
+    "type": 2
+  },
+  {
+    "facilityname": "Dombarovsky",
+    "facilitypurp": "sowj./russ. Startplatz - militärisch, Genesis 1, Genesis 2 (Bigelow Aerospace)",
+    "facilityuser": "WWS (russ. Luftwaffe)",
+    "facilityloc": "Russland, Orenburg",
+    "facilitylink": "http://en.wikipedia.org/wiki/Dombarovsky",
+    "type": 2
+  },
+  {
+    "facilityname": "Dryden Research Flight Center (DFRC)",
+    "facilitysince": "3008.1946",
+    "facilitypurp": "Tests von technologische Neuerungen im Flugzeugbau, Überschallflüge (Bell X-1, Lunar Landing Research Vehicle (LLRV))",
+    "facilityuser": "NASA",
+    "facilityloc": "USA, Kalifornien, Lancaster",
+    "facilitylink": "https://de.wikipedia.org/wiki/Dryden_Flight_Research_Center",
+    "type": 2
+  },
+  {
+    "facilityname": "ESTRACK (ESA tracking stations)",
+    "facilitypurp": "Netzwerk von Bodenstationen zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
+    "facilityuser": "ESA",
+    "facilityloc": "globales Netzwerk von Bodenstationen",
+    "facilitylink": "https://de.wikipedia.org/wiki/ESTRACK",
+    "type": 2
+  },
+  {
+    "facilityname": "ESTRACK ground station Argentienien, Malargüe",
+    "facilitysince": "im Bau",
+    "facilitypurp": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
+    "facilityuser": "ESTRACK",
+    "facilityloc": "Argentinien, Malargüe",
+    "facilitylink": "http://en.wikipedia.org/wiki/Malarg%C3%BCe_Station",
+    "type": 2
+  },
+  {
+    "facilityname": "ESTRACK ground station Australien, New Norcia",
+    "facilitysince": "006.03.2003",
+    "facilitypurp": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
+    "facilityuser": "ESTRACK",
+    "facilityloc": "Australien, Western Australia, New Norcia",
+    "facilitylink": "https://de.wikipedia.org/wiki/ESTRACK",
+    "type": 2
+  },
+  {
+    "facilityname": "ESTRACK ground station Australien, Perth",
+    "facilitypurp": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
+    "facilityuser": "ESTRACK",
+    "facilityloc": "Australien, Western Australia, Perth",
+    "facilitylink": "https://de.wikipedia.org/wiki/ESTRACK",
+    "type": 2
+  },
+  {
+    "facilityname": "ESTRACK ground station Belgien, Redu",
+    "facilitysince": "1968",
+    "facilitypurp": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
+    "facilityuser": "ESTRACK",
+    "facilityloc": "Belgien, Redu",
+    "facilitylink": "https://de.wikipedia.org/wiki/ESTRACK",
+    "type": 2
+  },
+  {
+    "facilityname": "ESTRACK ground station Französisch Guyana, Kourou",
+    "facilitypurp": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
+    "facilityuser": "ESTRACK",
+    "facilityloc": "Französisch Guyana, Kourou",
+    "facilitylink": "https://de.wikipedia.org/wiki/ESTRACK",
+    "type": 2
+  },
+  {
+    "facilityname": "ESTRACK ground station Portugal, Santa Maria",
+    "facilitypurp": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
+    "facilityuser": "ESTRACK",
+    "facilityloc": "Portugal, Santa Maria",
+    "facilitylink": "https://de.wikipedia.org/wiki/ESTRACK",
+    "type": 2
+  },
+  {
+    "facilityname": "ESTRACK ground station Schweden, Kiruna",
+    "facilitypurp": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
+    "facilityuser": "ESTRACK",
+    "facilityloc": "Schweden, Kiruna",
+    "facilitylink": "https://de.wikipedia.org/wiki/ESTRACK",
+    "type": 2
+  },
+  {
+    "facilityname": "ESTRACK ground station Spanien, Cerebros",
+    "facilitysince": "207.008.2005",
+    "facilitypurp": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
+    "facilityuser": "ESTRACK",
+    "facilityloc": "Spanien, Cerebros",
+    "facilitylink": "https://de.wikipedia.org/wiki/ESTRACK",
+    "type": 2
+  },
+  {
+    "facilityname": "ESTRACK ground station Spanien, Maspalomas",
+    "facilitypurp": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
+    "facilityuser": "ESTRACK",
+    "facilityloc": "Spanien, Maspalomas",
+    "facilitylink": "https://de.wikipedia.org/wiki/ESTRACK",
+    "type": 2
+  },
+  {
+    "facilityname": "ESTRACK ground station Spanien, Villafranca del Castillo",
+    "facilitypurp": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
+    "facilityuser": "ESTRACK",
+    "facilityloc": "Spanien, Villafranca del Castillo",
+    "facilitylink": "https://de.wikipedia.org/wiki/ESTRACK",
+    "type": 2
+  },
+  {
+    "facilityname": "European Astronaut Centre (EAC)",
+    "facilitysince": "1990",
+    "facilitypurp": "Zentrum zur Ausbildung von Raumfahrern der ESA",
+    "facilityuser": "ESA",
+    "facilityloc": "Deutschland, Köln-Porz",
+    "facilitylink": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Astronautenzentrum",
+    "type": 2
+  },
+  {
+    "facilityname": "European Space and Sounding Rocket Range (Esrange)",
+    "facilitysince": "1964",
+    "facilitypurp": "Startplatz der ESA - zivil",
+    "facilityuser": "Swedish Space Corporation SSC, ESA",
+    "facilityloc": "Schweden, Kiruna",
+    "facilitylink": "https://de.wikipedia.org/wiki/Esrange",
+    "type": 2
+  },
+  {
+    "facilityname": "European Space Astronomy Centre (ESAC)",
+    "facilitysince": "006.02.2008",
+    "facilitypurp": "Zentrum zur Archivierung und Auswertung von Daten wissenschaftlicher Weltraummissionen der ESA",
+    "facilityuser": "ESA",
+    "facilityloc": "Spanien, Villafranca del Castillo",
+    "facilitylink": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Weltraumastronomiezentrum",
+    "type": 1
+  },
+  {
+    "facilityname": "European Space Operations Centre (ESOC)",
+    "facilitysince": "007.008.1967",
+    "facilitypurp": "Missionskontrollzentrum für die meisten Weltraumprojekte der ESA",
+    "facilityuser": "ESA",
+    "facilityloc": "Deutschland, Darmstadt",
+    "facilitylink": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Raumflugkontrollzentrum",
+    "type": 2
+  },
+  {
+    "facilityname": "European Space Research and Technology Centre (ESTEC)",
+    "facilitysince": "1968",
+    "facilitypurp": "Zentrum zur Planung von Weltraummissionen der ESA, technische Tests und Materialprüfungen",
+    "facilityuser": "ESA",
+    "facilityloc": "Niederlande, Noordwijk",
+    "facilitylink": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Weltraumforschungs-_und_Technologiezentrum",
+    "type": 2
+  },
+  {
+    "facilityname": "European Space Research Institute (ESRIN)",
+    "facilitysince": "1966",
+    "facilitypurp": "Zentrum zur Verarbeitung der Daten von Erdbeobachtungsmissionen der ESA",
+    "facilityuser": "ESA",
+    "facilityloc": "Italien, Frascati",
+    "facilitylink": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Weltraumforschungsinstitut",
+    "type": 2
+  },
+  {
+    "facilityname": "Fundort der Himmelsscheibe von Nebra",
+    "facilitysince": "1600 v. Chr.",
+    "facilitypurp": "Bronzeplatte mit Applikationen aus Gold, Darstellung von Himmelskörpern und Konstellationen, vermutlich kalendarische Funktion",
+    "facilityuser": "bronzezeitliche Menschen",
+    "facilityloc": "Deutschland, Nebra",
+    "facilitylink": "https://de.wikipedia.org/wiki/Himmelsscheibe_von_Nebra",
+    "type": 1
+  },
+  {
+    "facilityname": "Fundort des Mechanismus von Antikythera",
+    "facilitysince": "100 v. Chr.",
+    "facilitypurp": "ältester erhaltener Analogrechner zur Berechnung verschiedener Kalender",
+    "facilityuser": "evtl. Archimedes",
+    "facilityloc": "Griechenland, Antikythera",
+    "facilitylink": "https://de.wikipedia.org/wiki/Mechanismus_von_Antikythera",
+    "type": 1
+  },
+  {
+    "facilityname": "Galileo-Galilei-Haus",
+    "facilitysince": "006.01.1610",
+    "facilitypurp": "Galileo Galilei entdeckt mit Fernrohr die vier größten Jupitermonde und veröffentlicht in \"Siderius nuncius\" (Sternenbote) seine Ergebnisse",
+    "facilityuser": "Galileo Galilei (Astronom)",
+    "facilityloc": "Italien, Padua",
+    "facilitylink": "https://de.wikipedia.org/wiki/Galileo_Galilei",
+    "type": 1
+  },
+  {
+    "facilityname": "Gaocheng-Observatorium",
+    "facilitysince": "1276",
+    "facilitypurp": "das älteste in China erhaltene Observatorium, Mongolen-Fürst Kublai Khan ließ 1276 in der frühen Yuan-Dynastie das erste von 27 Großobservatorien für die Erstellung des neuen Shoushi-Kalenders errichten",
+    "facilityuser": "Kublai Khan (mongol. Herrscher)",
+    "facilityloc": "China, Henan, Gaocheng",
+    "facilitylink": "https://de.wikipedia.org/wiki/Gaocheng-Observatorium",
+    "type": 1
+  },
+  {
+    "facilityname": "Glenn Research Center (GRC)",
+    "facilitysince": "1942",
+    "facilitypurp": "Entwicklung von Luft- und Raumfahrttechnologien (u.a. Wasserstoff-Raketenmotor J-2 für Apollo-Programm, Ionenantrieb)",
+    "facilityuser": "NASA",
+    "facilityloc": "USA, Ohio, Cleveland",
+    "facilitylink": "https://de.wikipedia.org/wiki/Glenn_Research_Center",
+    "type": 2
+  },
+  {
+    "facilityname": "Goddard Space Flight Center (GSFC)",
+    "facilitysince": "01.06.1959",
+    "facilitypurp": "wissenschaftliches Forschungslabor für unbemannte Raumfahrt",
+    "facilityuser": "NASA",
+    "facilityloc": "USA, Maryland, Greenbelt",
+    "facilitylink": "https://de.wikipedia.org/wiki/Goddard_Space_Flight_Center",
+    "type": 2
+  },
+  {
+    "facilityname": "Goldstone Deep Space Communications Complex",
+    "facilitysince": "1966",
+    "facilitypurp": "Antennenanlage zur Kommunikation mit Raumsonden und Satelliten, Teil des Deep Space Network (DSN)",
+    "facilityuser": "DSN, JPL, NASA",
+    "facilityloc": "USA, Kalifornien, Barstow",
+    "facilitylink": "https://de.wikipedia.org/wiki/Goldstone_Deep_Space_Communications_Complex",
+    "type": 2
+  },
+  {
+    "facilityname": "Gurkani Zij, Observatorium",
+    "facilitysince": "1424 – 1428",
+    "facilitypurp": "Observatorium für die Astronomen an der Ulugbek-Madrasa",
+    "facilityuser": "Ulug Beg (Fürst, Astronom)",
+    "facilityloc": "Usbekistan, Samarkand",
+    "facilitylink": "https://de.wikipedia.org/wiki/Ulug_Begs_Observatorium",
+    "type": 1
+  },
+  {
+    "facilityname": "Harvard-College-Observatory",
+    "facilitysince": "1839",
+    "facilitypurp": "Observatorium für astronomische Beobachtungen",
+    "facilityuser": "Harvard University",
+    "facilityloc": "USA, Massachusetts, Cambridge",
+    "facilitylink": "https://de.wikipedia.org/wiki/Harvard_College_Observatory",
+    "type": 1
+  },
+  {
+    "facilityname": "Heeresversuchsanstalt Peenemünde (HVA)",
+    "facilitysince": "1935",
+    "facilitypurp": "Raketentestgelände- und Startplatz im Dritten Reich",
+    "facilityuser": "Deutschland",
+    "facilityloc": "Deutschland, Peenemünde",
+    "facilitylink": "https://de.wikipedia.org/wiki/Heeresversuchsanstalt_Peenem%C3%BCnde",
+    "type": 2
+  },
+  {
+    "facilityname": "Herschel Museum of Astronomy",
+    "facilitysince": "1777",
+    "facilitypurp": "Wohn- u. Arbeitsstätte des Friedrich Wilhelm Herschel, Friedrich Wilhelm Herschel entdeckt hier den Planeten Uranus (1781)",
+    "facilityuser": "Friedrich Wilhelm Herschel (Astronom)",
+    "facilityloc": "GB, England, Bath",
+    "facilitylink": "https://de.wikipedia.org/wiki/Wilhelm_Herschel",
+    "type": 1
+  },
+  {
+    "facilityname": "Institut für Werkstoff-Forschung",
+    "facilitypurp": "Entwicklung von Werkstofflösungen und deren Prozesstechniken für Anwendungen in der Luftfahrt, Energietechnik, Raumfahrt sowie im Verkehr",
+    "facilityuser": "DLR",
+    "facilityloc": "Deutschland, Köln-Porz",
+    "facilitylink": "https://de.wikipedia.org/wiki/Institut_f%C3%BCr_Werkstoff-Forschung",
+    "type": 2
+  },
+  {
+    "facilityname": "Institute of Space and Astronautical Science (ISAS)",
+    "facilitysince": "1964",
+    "facilitypurp": "Institut für Weltraumforschung, dazu gehören das Uchinoura Space Center (USC), das Noshiro Testing Center (NTC), das Sanriku Balloon Center (SBC) und das Usuda Deep Space Center (UDSC). Am 1. Oktober 2003 ging es zusammen mit NASDA und NAL in der neuen Raumfahrtagentur JAXA auf. ISAS betrieb den Startplatzplatz Kagoshima Space Center.",
+    "facilityuser": "JAXA",
+    "facilityloc": "Japan, Sagamihara Campus",
+    "facilitylink": "https://de.wikipedia.org/wiki/Institute_of_Space_and_Astronautical_Science",
+    "type": 2
+  },
+  {
+    "facilityname": "Jantar Mantar in Delhi",
+    "facilitysince": 1724,
+    "facilitypurp": "historische astronomische Sternwarte, die Maharaja Jai Singh II. zwischen 1724 und 1734 errichten ließ",
+    "facilityuser": "Maharaja Jai Singh II. (Maharaja)",
+    "facilityloc": "Indien, Delhi",
+    "facilitylink": "https://de.wikipedia.org/wiki/Jantar_Mantar",
+    "type": 1
+  },
+  {
+    "facilityname": "Jantar Mantar in Jaipur",
+    "facilitysince": "1727 – 1733",
+    "facilitypurp": "historische astronomische Sternwarte, die Maharaja Jai Singh II. zwischen 1724 und 1734 errichten ließ",
+    "facilityuser": "Maharaja Jai Singh II. (Maharaja)",
+    "facilityloc": "Indien, Rajasthan, Jaipur",
+    "facilitylink": "https://de.wikipedia.org/wiki/Jantar_Mantar",
+    "type": 1
+  },
+  {
+    "facilityname": "Jet Propulsion Laboratory (JPL)",
+    "facilitysince": "1936",
+    "facilitypurp": "Steuerung von Satelliten und Raumsonden",
+    "facilityuser": "CalTech",
+    "facilityloc": "USA, Kalifornien, Pasadena",
+    "facilitylink": "https://de.wikipedia.org/wiki/Jet_Propulsion_Laboratory",
+    "type": 2
+  },
+  {
+    "facilityname": "Johannes-Kepler-Haus",
+    "facilitysince": "1609",
+    "facilitypurp": "Johannes Kepler veröffentlicht die Gesetze der Planetenbahnen in \"Astronomia nova\"",
+    "facilityuser": "Johannes Kepler (Astronom)",
+    "facilityloc": "Tschechien, Prag",
+    "facilitylink": "https://de.wikipedia.org/wiki/Keplersche_Gesetze",
+    "type": 1
+  },
+  {
+    "facilityname": "John C. Stennis Space Center (SSC)",
+    "facilitysince": "1961",
+    "facilitypurp": "Test von Raketenmotoren",
+    "facilityuser": "NASA",
+    "facilityloc": "USA, Mississippi, Hancock County",
+    "facilitylink": "https://de.wikipedia.org/wiki/John_C._Stennis_Space_Center",
+    "type": 2
+  },
+  {
+    "facilityname": "John H. Chapman Space Center",
+    "facilitysince": "1992",
+    "facilitypurp": "Hauptsitz der kanadischen Raumfahrtbehörde (CSA)",
+    "facilityuser": "CSA",
+    "facilityloc": "Kanada, Québec, Longueuil",
+    "facilitylink": "https://de.wikipedia.org/wiki/John_H._Chapman_Space_Centre",
+    "type": 2
+  },
+  {
+    "facilityname": "Kaifeng",
+    "facilitysince": 1232,
+    "facilitypurp": "belegte Verwendung von Raketen zur Verteidigung der Stadt",
+    "facilityuser": "unbekannt",
+    "facilityloc": "China, Henan, Kaifeng",
+    "facilitylink": "https://de.wikipedia.org/wiki/Rakete",
+    "type": 2
+  },
+  {
+    "facilityname": "Kapustin Jar",
+    "facilitysince": "1946",
+    "facilitypurp": "Startplatz - militärisch",
+    "facilityuser": "sowj. Streitkräfte",
+    "facilityloc": "Russland, Snamensk",
+    "facilitylink": "https://de.wikipedia.org/wiki/Kapustin_Jar",
+    "type": 2
+  },
+  {
+    "facilityname": "KSC (Kennedy Space Center)",
+    "facilitysince": "01.006.1962",
+    "facilitypurp": "Startplatz - zivil",
+    "facilityuser": "NASA",
+    "facilityloc": "USA, Florida, Merritt Island",
+    "facilitylink": "https://de.wikipedia.org/wiki/Kennedy_Space_Center",
+    "type": 2
+  },
+  {
+    "facilityname": "KSC LC-39 (LC-39A, LC-39B)",
+    "facilitysince": "007.11.1967",
+    "facilitypurp": "Startplatz - zivil (Apollo, Skylab, Space Shuttle)",
+    "facilityuser": "NASA",
+    "facilityloc": "USA, Florida, Merritt Island",
+    "facilitylink": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
+    "type": 2
+  },
+  {
+    "facilityname": "KSC Shuttle Landing Facility (SLF)",
+    "facilitysince": 30723,
+    "facilitypurp": "Landebahn für Space Shuttles",
+    "facilityuser": "NASA",
+    "facilityloc": "USA, Florida, Merritt Island",
+    "facilitylink": "https://de.wikipedia.org/wiki/Shuttle_Landing_Facility",
+    "type": 2
+  },
+  {
+    "facilityname": "Kosmodrom Baikonur",
+    "facilitysince": "1955",
+    "facilitypurp": "Startplatz - zivil/militärisch (sowj. Streitkräfte, Roskosmos), Sputnik 1, Luna-Programm, Sojus",
+    "facilityuser": "Roskosmos",
+    "facilityloc": "Kasachstan, Baikonur",
+    "facilitylink": "https://de.wikipedia.org/wiki/Baikonur",
+    "type": 2
+  },
+  {
+    "facilityname": "Kosmodrom Jiuquan",
+    "facilitysince": "1958",
+    "facilitypurp": "Startplatz - zivil/militärisch (chin. Streitkräfte, CNSA)",
+    "facilityuser": "CNSA",
+    "facilityloc": "China, Innere Mongolei, Jiuquan",
+    "facilitylink": "https://de.wikipedia.org/wiki/Kosmodrom_Jiuquan",
+    "type": 2
+  },
+  {
+    "facilityname": "Kosmodrom Swobodny",
+    "facilitysince": "1996",
+    "facilitypurp": "Startplatz - zivil/militärisch",
+    "facilityloc": "Russland, Swobodny",
+    "facilitylink": "https://de.wikipedia.org/wiki/Swobodny_(Startplatzplatz)",
+    "type": 2
+  },
+  {
+    "facilityname": "Kosmodrom Wenchang",
+    "facilitysince": "2007",
+    "facilitypurp": "Startplatz - zivil",
+    "facilityuser": "CNSA",
+    "facilityloc": "China, Hainan, Wenchang",
+    "facilitylink": "https://de.wikipedia.org/wiki/Kosmodrom_Wenchang",
+    "type": 2
+  },
+  {
+    "facilityname": "Kosmodrom Wostotschny (im Bau, ab 2015)",
+    "facilitysince": "2015",
+    "facilitypurp": "Startplatz - zivil, Ersatz für Baikonur",
+    "facilityuser": "Roskosmos",
+    "facilityloc": "Russland, Swobodny",
+    "facilitylink": "https://de.wikipedia.org/wiki/Kosmodrom_Wostotschny",
+    "type": 2
+  },
+  {
+    "facilityname": "Kosmodrom Xichang",
+    "facilitysince": "1984",
+    "facilitypurp": "Startplatz - zivil/militärisch",
+    "facilityuser": "CNSA",
+    "facilityloc": "China, Sichuan, Xichang",
+    "facilitylink": "https://de.wikipedia.org/wiki/Kosmodrom_Xichang",
+    "type": 2
+  },
+  {
+    "facilityname": "KosmodromPlessezk",
+    "facilitysince": "1966",
+    "facilitypurp": "Startplatz - zivil/militärisch",
+    "facilityuser": "KWR (russ. Weltraumstreitkräfte)",
+    "facilityloc": "Russland, Mirny",
+    "facilitylink": "https://de.wikipedia.org/wiki/Plessezk",
+    "type": 2
+  },
+  {
+    "facilityname": "Kosmonautentrainingszentrum J. A. Gagarin (ZPK)",
+    "facilitysince": "11.01.1960",
+    "facilitypurp": "sowj./russ. Zentrum zur Ausbildung von Raumfahrern",
+    "facilityuser": "Roskosmos",
+    "facilityloc": "Russland, Schtscholkowo",
+    "facilitylink": "https://de.wikipedia.org/wiki/Juri-Gagarin-Kosmonautentrainingszentrum",
+    "type": 2
+  },
+  {
+    "facilityname": "Kreisgrabenanlage von Goseck",
+    "facilitysince": "4900 v. Chr.",
+    "facilitypurp": "kultische Handlungen, Ausrichtung der Anlage nach astronomischen Ereignissen (Winter- bzw. Sommersonnenwende)",
+    "facilityuser": "steinzeitliche Menschen",
+    "facilityloc": "Deutschland, Goseck",
+    "facilitylink": "https://de.wikipedia.org/wiki/Kreisgrabenanlage_von_Goseck",
+    "type": 1
+  },
+  {
+    "facilityname": "La-Silla-Observatorium",
+    "facilitysince": "1964",
+    "facilitypurp": "Observatorium für astronomische Beobachtungen, das erste Observatorium der Europäischen Südsternwarte (ESO) in Chile",
+    "facilityuser": "ESO",
+    "facilityloc": "Chile, La Silla",
+    "facilitylink": "https://de.wikipedia.org/wiki/La-Silla-Observatorium",
+    "type": 1
+  },
+  {
+    "facilityname": "Langley Research Center (LaRC)",
+    "facilitysince": "1917",
+    "facilitypurp": "das erste zivile Forschungszentrum der USA, aeronautische Forschung zur Mitarbeit an den Weltraumprojekten der NASA",
+    "facilityuser": "NASA",
+    "facilityloc": "USA, Virginia, Hampton",
+    "facilitylink": "https://de.wikipedia.org/wiki/Langley_Research_Center",
+    "type": 2
+  },
+  {
+    "facilityname": "Lascaux - Höhlenmalereien",
+    "facilitysince": "17000 v. Chr.",
+    "facilitypurp": "jungpaläolithische Höhle mit einigen der ältesten bekannten abbildenden Kunstwerke der Menschheitsgeschichte",
+    "facilityuser": "steinzeitliche Menschen",
+    "facilityloc": "Frankreich, Lascaux",
+    "facilitylink": "https://de.wikipedia.org/wiki/H%C3%B6hle_von_Lascaux",
+    "type": 1
+  },
+  {
+    "facilityname": "Lick-Observatorium",
+    "facilitysince": -4379,
+    "facilitypurp": "Observatorium für astronomische Beobachtungen, das erste Observatorium, das auf dem Gipfel eines Berges errichtet wurde",
+    "facilityuser": "University of California",
+    "facilityloc": "USA, Kalifornien, San Jose",
+    "facilitylink": "https://de.wikipedia.org/wiki/Lick-Observatorium",
+    "type": 1
+  },
+  {
+    "facilityname": "Liquid Propulsion Sonnes Centre (LPSC)",
+    "facilitypurp": "Entwicklung flüssiger und tiefgekühlter Brennstoffe",
+    "facilityuser": "ISRO",
+    "facilityloc": "Indien, Nedumangad",
+    "facilitylink": "http://en.wikipedia.org/wiki/Liquid_Propulsion_Sonnes_Centre",
+    "type": 2
+  },
+  {
+    "facilityname": "Lyndon B. Johnson Space Center (JSC)",
+    "facilitysince": "1961",
+    "facilitypurp": "Zentrum zur Koordinierung des bemannten Raumfahrtprogramms der USA (seit Gemini 4)",
+    "facilityuser": "NASA",
+    "facilityloc": "USA, Texas, Houston",
+    "facilitylink": "https://de.wikipedia.org/wiki/Lyndon_B._Johnson_Space_Center",
+    "type": 2
+  },
+  {
+    "facilityname": "Madrid Deep Space Communications Complex",
+    "facilitysince": "1961",
+    "facilitypurp": "Radioteleskop-Anlage des Deep Space Network (DSN) zur Verfolgung von Raumsonden",
+    "facilityuser": "DSN, JPL, NASA",
+    "facilityloc": "Spanien, Madrid",
+    "facilitylink": "https://de.wikipedia.org/wiki/Madrid_Deep_Space_Communications_Complex",
+    "type": 2
+  },
+  {
+    "facilityname": "Marshall Space Flight Center (MSFC)",
+    "facilitysince": "007.008.1960",
+    "facilitypurp": "Entwicklung von Raketentriebwerken, Computer- und Netzwerktechnologien, sowie Programmen zum Informationsmanagement",
+    "facilityuser": "NASA",
+    "facilityloc": "USA, Alabama, Huntsville",
+    "facilitylink": "https://de.wikipedia.org/wiki/Marshall_Space_Flight_Center",
+    "type": 2
+  },
+  {
+    "facilityname": "Mauna-Kea-Observatorium",
+    "facilitysince": "1968",
+    "facilitypurp": "Observatorium für astronomische Beobachtungen durch verschiedene Universitäten und Institutionen aus insgesamt 11 Nationen",
+    "facilityuser": "international",
+    "facilityloc": "USA, Hawaiʻi, Vulkan Mauna Kea",
+    "facilitylink": "https://de.wikipedia.org/wiki/Mauna_Kea_Observatorium",
+    "type": 1
+  },
+  {
+    "facilityname": "Megalithanlage von Mnajdra",
+    "facilitysince": "3100 v. Chr.",
+    "facilitypurp": "Ensemble von Tempeln aus der Vorzeit Maltas",
+    "facilityuser": "steinzeitliche Menschen",
+    "facilityloc": "Malta, Mnajdra",
+    "facilitylink": "https://de.wikipedia.org/wiki/Mnajdra",
+    "type": 1
+  },
+  {
+    "facilityname": "Megalithanlage von Nabta Playa",
+    "facilitysince": "4800 v. Chr.",
+    "facilitypurp": "Megalithanlage für Kalenderzwecke",
+    "facilityuser": "steinzeitliche Menschen",
+    "facilityloc": "Ägypten, Nabta Playa",
+    "facilitylink": "https://de.wikipedia.org/wiki/Nabta-Playa",
+    "type": 1
+  },
+  {
+    "facilityname": "Megalithanlage von Stonehenge",
+    "facilitysince": "3100 v. Chr.",
+    "facilitypurp": "Megalithanlage für Kalenderzwecke",
+    "facilityuser": "steinzeitliche Menschen",
+    "facilityloc": "GB, England, Stonehenge",
+    "facilitylink": "https://de.wikipedia.org/wiki/Stonehenge",
+    "type": 1
+  },
+  {
+    "facilityname": "Michoud Assembly Facility (MAF)",
+    "facilitysince": "1961",
+    "facilitypurp": "Montage der Saturn V-Raketenstufen, später des Außentanks der Space-Shuttles",
+    "facilityuser": "NASA, MSFC",
+    "facilityloc": "USA, Louisiana, New Orleans",
+    "facilitylink": "https://de.wikipedia.org/wiki/Michoud_Assembly_Facility",
+    "type": 2
+  },
+  {
+    "facilityname": "Mojave Air & Space Port",
+    "facilitysince": "1935/106.007.2004",
+    "facilitypurp": "Startplatz für die zivile Raumfahrt, wird von mehreren privaten Raumfahrtunternehmen als Testgelände genutzt",
+    "facilityuser": "zivil",
+    "facilityloc": "USA, Kalifornien, Mojave",
+    "facilitylink": "https://de.wikipedia.org/wiki/Mojave_Air_%26_Space_Port",
+    "type": 2
+  },
+  {
+    "facilityname": "Mount-Stromlo-Observatory",
+    "facilitysince": "1924",
+    "facilitypurp": "Observatorium für astronomische Beobachtungen, eines der traditionsreichsten astronomischen Observatorien der südlichen Hemisphäre",
+    "facilityuser": "Australian National University",
+    "facilityloc": "Australien, New South Wales, Mt. Stromlo",
+    "facilitylink": "https://de.wikipedia.org/wiki/Mount-Stromlo-Observatorium",
+    "type": 1
+  },
+  {
+    "facilityname": "NASA Astrobiology Institute (NAI)",
+    "facilitysince": "1998",
+    "facilitypurp": "Forschungseinrichtung, mit dem Ziel, die Astrobiologie und ihr dienende Raumflugmissionen voranzutreiben",
+    "facilityuser": "NASA",
+    "facilityloc": "USA, virtuell",
+    "facilitylink": "https://de.wikipedia.org/wiki/NASA_Astrobiology_Institute",
+    "type": 1
+  },
+  {
+    "facilityname": "NASA Institute for Advanced Concepts (NIAC)",
+    "facilitysince": "1998",
+    "facilitypurp": "Ziel war es, revolutionäre Ideen zu entdecken, die einen Technologiesprung in der Raumfahrt ermöglichen sollten, zum 31. August 2007 geschlossen",
+    "facilityuser": "NASA",
+    "facilityloc": "USA, Georgia, Atlanta",
+    "facilitylink": "https://de.wikipedia.org/wiki/NASA_Institute_for_Advanced_Concepts",
+    "type": 2
+  },
+  {
+    "facilityname": "Nazca-Linien",
+    "facilitysince": "800 v. Chr. – 200 v. Chr.",
+    "facilitypurp": "Linien und Bodenzeichnungen auf einer Hochebene in Peru",
+    "facilityuser": "indianische Hochkultur",
+    "facilityloc": "Peru, Nazca",
+    "facilitylink": "https://de.wikipedia.org/wiki/Nazca-Linien",
+    "type": 1
+  },
+  {
+    "facilityname": "Noshiro Testing Center (NTC)",
+    "facilitypurp": "Zentrum für Raketentests der JAXA",
+    "facilityuser": "JAXA",
+    "facilityloc": "Japan, Noshiro",
+    "facilitylink": "http://en.wikipedia.org/wiki/Noshiro_Testing_Center",
+    "type": 2
+  },
+  {
+    "facilityname": "Observatorio del Teide",
+    "facilitysince": "1964",
+    "facilitypurp": "Observatorium für astronomische Beobachtungen, gehört zum Instituto de Astrofísica de Canarias (IAC), bildet zusammen mit dem Roque-de-los-Muchachos-Observatorium das European Northern Observatory",
+    "facilityuser": "Instituto de Astrofísica de Canarias (IAC)",
+    "facilityloc": "Spanien, Teneriffa, Izaña",
+    "facilitylink": "https://de.wikipedia.org/wiki/Observatorio_del_Teide",
+    "type": 1
+  },
+  {
+    "facilityname": "Observatorum von Cheomseongdae",
+    "facilitysince": "632 – 647",
+    "facilitypurp": "das älteste erhaltene Observatorium in Ostasien, diente der Beobachtung der Sterne, um Wettervorhersagen zu treffen",
+    "facilityuser": "unbekannt",
+    "facilityloc": "Südkorea, Gyeongju",
+    "facilitylink": "https://de.wikipedia.org/wiki/Cheomseongdae",
+    "type": 1
+  },
+  {
+    "facilityname": "Observatory House",
+    "facilitysince": "03.04.1786",
+    "facilitypurp": "Wohn- u. Arbeitsstätte des Friedrich Wilhelm Herschel und seiner Schwester Caroline, hier stand das berühmte 40-Fuß-Teleskop - das größte seiner Zeit, er entdeckte hier die Saturnmonde Oberon und Titania (1787) und die Infrarotstrahlung (1800), Friedrich Wilhelm Herschel starb hier am 206.007.1822",
+    "facilityuser": "Friedrich Wilhelm Herschel (Astronom)",
+    "facilityloc": "GB, England, Slough",
+    "facilitylink": "http://en.wikipedia.org/wiki/Observatory_House",
+    "type": 1
+  },
+  {
+    "facilityname": "Palmachim Raketentestgelände",
+    "facilitypurp": "Raketenversuchsgelände, von diesem Areal werden die Shavit-Raketen mit den Ofeq-Satelliten gestartet",
+    "facilityuser": "ISA",
+    "facilityloc": "Israel, Palmachim",
+    "facilitylink": "https://de.wikipedia.org/wiki/Palmachim",
+    "type": 2
+  },
+  {
+    "facilityname": "Paranal-Observatorium",
+    "facilitysince": "04.12.1996",
+    "facilitypurp": "Observatorium für astronomische Beobachtungen, Standort des Very Large Telescope (VLT) und des Very Large Telescope Interferometer (VLTI)",
+    "facilityuser": "ESO",
+    "facilityloc": "Chile, Cerro Paranal",
+    "facilitylink": "https://de.wikipedia.org/wiki/Paranal-Observatorium",
+    "type": 1
+  },
+  {
+    "facilityname": "Parkes-Observatorium",
+    "facilitysince": "1961",
+    "facilitypurp": "Radioobservatorium, wurde vor allem durch die Übertragung der ersten Mondlandung an den Rest der Welt bekannt, Hauptinstrument ist das Parkes-Radioteleskop, das mit 64 Meter Antennendurchmesser lange das größte bewegliche Teleskop seiner Art in der südlichen Hemisphäre war",
+    "facilityuser": "Australia Telescope National Facility",
+    "facilityloc": "Australien, New South Wales, Parkes",
+    "facilitylink": "https://de.wikipedia.org/wiki/Parkes-Observatorium",
+    "type": 1
+  },
+  {
+    "facilityname": "Rasad-e Khan, Observatorium",
+    "facilitysince": "1259 – 1262",
+    "facilitypurp": "Hülägü ließ das Observatorium 1259 bis 1262 für den Astronomen Nasir Al-din al-Tusi errichten",
+    "facilityuser": "Hülägü (Khan), Nasir ad-Din at-Tusi (Astronom)",
+    "facilityloc": "Iran, Talebkhan",
+    "facilitylink": "https://de.wikipedia.org/wiki/Maragha",
+    "type": 1
+  },
+  {
+    "facilityname": "Roque-de-los-Muchachos-Observatorium (ORM)",
+    "facilitysince": "208.007.1985",
+    "facilitypurp": "Observatorium für astronomische Beobachtungen, zusammen mit dem Teide Observatorium auf Teneriffa bildet das ORM das European Northern Observatory",
+    "facilityuser": "Instituto de Astrofísica de Canarias (IAC)",
+    "facilityloc": "Spanien, La Palma, Roque d. l. Muchachos",
+    "facilitylink": "https://de.wikipedia.org/wiki/Roque-de-los-Muchachos-Observatorium",
+    "type": 1
+  },
+  {
+    "facilityname": "San Marco Equatorial Range (SMER)",
+    "facilitysince": "1964",
+    "facilitypurp": "Startplatz - zivil, italienischer Startplatzplatz vor der Küste Kenias für den Start von Feststoffraketen",
+    "facilityuser": "ASI",
+    "facilityloc": "Kenia, Malindi",
+    "facilitylink": "https://de.wikipedia.org/wiki/San-Marco-Plattform",
+    "type": 2
+  },
+  {
+    "facilityname": "Satellitenstation Graz-Lustbühel",
+    "facilitysince": "1976",
+    "facilitypurp": "Fundamentalstation für die Kosmische- und Satellitengeodäsie zur Verankerung eines hochpräzisen geodätischen Koordinatenrahmens auf der Erdoberfläche",
+    "facilityuser": "ÖAW",
+    "facilityloc": "Österreich, Graz",
+    "facilitylink": "https://de.wikipedia.org/wiki/Satellitenstation_Graz-Lustb%C3%BChel",
+    "type": 2
+  },
+  {
+    "facilityname": "Satish Dhawan Space Centre (SHAR)",
+    "facilitysince": "1963",
+    "facilitypurp": "Startplatz - zivil (ISRO)",
+    "facilityuser": "ISRO",
+    "facilityloc": "Indien, Andhra Pradesh, Sriharikota",
+    "facilitylink": "https://de.wikipedia.org/wiki/Satish_Dhawan_Space_Centre",
+    "type": 2
+  },
+  {
+    "facilityname": "Search for Extraterrestrial Intelligence Institute (SETI)",
+    "facilitysince": "211.1984",
+    "facilitypurp": "Non-Profit-Nichtregierungsorganisation, die sich mit der Suche nach intelligentem außerirdischem Leben befasst",
+    "facilityuser": "privat, NASA, Sun, HP",
+    "facilityloc": "USA, Mountain View",
+    "facilitylink": "https://de.wikipedia.org/wiki/SETI-Institut",
+    "type": 1
+  },
+  {
+    "facilityname": "Siding-Spring-Observatory",
+    "facilitysince": "1962",
+    "facilitypurp": "Observatorium für astronomische Beobachtungen",
+    "facilityuser": "Australia National University",
+    "facilityloc": "Australien, Coonabarabran",
+    "facilitylink": "https://de.wikipedia.org/wiki/Siding-Spring-Observatorium",
+    "type": 1
+  },
+  {
+    "facilityname": "Space Dynamics Laboratory (SDL)",
+    "facilitysince": "1959",
+    "facilitypurp": "Non-Profit-Forschungsgesellschaft",
+    "facilityuser": "Utah State University",
+    "facilityloc": "USA, Utah, Logan",
+    "facilitylink": "http://en.wikipedia.org/wiki/Space_Dynamics_Laboratory",
+    "type": 2
+  },
+  {
+    "facilityname": "Spaceport America",
+    "facilitysince": "106.12011",
+    "facilitypurp": "der erste privat finanzierte Weltraumhafen",
+    "facilityuser": "Virgin Galactic",
+    "facilityloc": "USA, New Mexico, Upham",
+    "facilitylink": "https://de.wikipedia.org/wiki/Spaceport_America",
+    "type": 2
+  },
+  {
+    "facilityname": "St Laurence's Church",
+    "facilitysince": "1788",
+    "facilitypurp": "die Kriche, in der Friedrich Wilhelm Herschel heiratet und begraben wurde",
+    "facilityuser": "Friedrich Wilhelm Herschel (Astronom)",
+    "facilityloc": "GB, England, Slough",
+    "facilitylink": "https://de.wikipedia.org/wiki/Slough",
+    "type": 1
+  },
+  {
+    "facilityname": "Tanegashima Space Center (TNSC)",
+    "facilitysince": "1969",
+    "facilitypurp": "Startplatz - zivil",
+    "facilityuser": "JAXA",
+    "facilityloc": "Japan, Minamitane",
+    "facilitylink": "https://de.wikipedia.org/wiki/Tanegashima_Space_Center",
+    "type": 12
+  },
+  {
+    "facilityname": "Tsukuba Space Center (TKSC)",
+    "facilitysince": "1972",
+    "facilitypurp": "Kontroll-, Forschungs- und Entwicklungszentrum",
+    "facilityuser": "JAXA",
+    "facilityloc": "Japan, Tsukuba",
+    "facilitylink": "https://de.wikipedia.org/wiki/Tsukuba_Space_Center",
+    "type": 2
+  },
+  {
+    "facilityname": "Tunguska-Ereignis",
+    "facilitysince": "3007.1908",
+    "facilitypurp": "Einschlag eines Asteroiden in Sibirien",
+    "facilityloc": "Russland, Tunguska",
+    "facilitylink": "https://de.wikipedia.org/wiki/Tunguska-Ereignis",
+    "type": 1
+  },
+  {
+    "facilityname": "Turmbau von Palenque, Observatorium",
+    "facilitysince": 490,
+    "facilitypurp": "vierstöckiger Turm, möglicherweise als Observatorium genutzt",
+    "facilityuser": "Maya-Kultur",
+    "facilityloc": "Mexiko, Palenque",
+    "facilitylink": "https://de.wikipedia.org/wiki/Palenque",
+    "type": 1
+  },
+  {
+    "facilityname": "Uchinoura Space Center (USC)",
+    "facilitysince": 1962,
+    "facilitypurp": "Startplatz",
+    "facilityuser": "JAXA",
+    "facilityloc": "Japan, Uchinoura",
+    "facilitylink": "https://de.wikipedia.org/wiki/Uchinoura_Space_Center",
+    "type": 2
+  },
+  {
+    "facilityname": "United States Naval Observatory (USNO)",
+    "facilitysince": "007.12.1830",
+    "facilitypurp": "Observatorium für astronomische Beobachtungen",
+    "facilityuser": "US Navy",
+    "facilityloc": "USA, Washington D.C.",
+    "facilitylink": "https://de.wikipedia.org/wiki/United_States_Naval_Observatory",
+    "type": 1
+  },
+  {
+    "facilityname": "Uraniborg, Observatorium",
+    "facilitysince": "1576 – 1580",
+    "facilitypurp": "Observatorium für astronomische Beobachtungen",
+    "facilityuser": "Tycho Brahe (Astronom)",
+    "facilityloc": "Dänemark, Ven",
+    "facilitylink": "https://de.wikipedia.org/wiki/Uraniborg",
+    "type": 1
+  },
+  {
+    "facilityname": "Usuda Deep Space Center (UDSC)",
+    "facilitysince": "1984",
+    "facilitypurp": "Bodenstation",
+    "facilityuser": "JAXA",
+    "facilityloc": "Japan, Usuda",
+    "facilitylink": "http://en.wikipedia.org/wiki/Usuda_Deep_Space_Center",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB (Vandenberg Air Force Base)",
+    "facilitysince": "04.11958",
+    "facilitypurp": "US-Luftwaffenbasis mit mehreren Raketenstartplätzen",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_Air_Force_Base",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB Bomarc Complex",
+    "facilitysince": "206.007.1966",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Bomarc_Complex",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB LC-395",
+    "facilitysince": "23.008.1961",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Complex_395",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB LC-4300",
+    "facilitysince": "106.12.1963",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Complex_4300",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB LC-576",
+    "facilitysince": "008.008.1957",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Complex_576",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB LC-A (früher auch PALC-A)",
+    "facilitysince": "14.006.1959",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force), Höhenforschungsraketen",
+    "facilityuser": "US Air Force, US Navy, NASA",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Complex_A",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB LC-B (früher auch PALC-B)",
+    "facilitysince": 21950,
+    "facilitypurp": "Startplatz - militärisch (US-Air Force), Höhenforschungsraketen",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Complex_B",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB LC-Operational Suitability Test Facility (OSTF)",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force), bei Unfall am 03.12.1960 fast völlig zerstört",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Operational_Suitability_Test_Facility",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB LE-8 (früher auch 75-2-8)",
+    "facilitysince": "107.04.1959",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Emplacement_8",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB LF-02",
+    "facilitysince": 23113,
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_02",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB LF-03",
+    "facilitysince": "304.1963",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_03",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB LF-04",
+    "facilitysince": "207.008.1962",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_04",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB LF-05",
+    "facilitysince": "112.1962",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_05",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB LF-06",
+    "facilitysince": 23112,
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_06",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB LF-07",
+    "facilitysince": "24.006.1963",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_07",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB LF-08",
+    "facilitysince": "207.008.1963",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force), Astrid-Testvehikel – Laser-Pumped-Propulsion-Antrieb (04.02.1994)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_08",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB LF-09",
+    "facilitysince": "208.007.1964",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_09",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB LF-10",
+    "facilitysince": "12.006.1987",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_10",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB LF-21",
+    "facilitysince": "107.007.1965",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_21",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB LF-22",
+    "facilitysince": "007.11965",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_22",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB LF-23",
+    "facilitysince": "207.007.1966",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_23",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB LF-24",
+    "facilitysince": "107.12.1965",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_24",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB LF-25",
+    "facilitysince": "107.02.1966",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_25",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB LF-26",
+    "facilitysince": "107.02.1966",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_26",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB PLC-C",
+    "facilitysince": "208.007.1971",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force), Höhenforschungsraketen",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Probe_Launch_Complex_C",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB SLTF",
+    "facilitysince": "03.006.1961",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force), Silo Launch Test Facility",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Silo_Launch_Test_Facility",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB Space LC-10 (SLC-10)",
+    "facilitysince": "107.007.1959",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force, Royal Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_10",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB Space LC-2 (SLC-2)",
+    "facilitysince": "02.11966",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force), div. Keyhole-Spionagesatelliten, Alouette 1, Alouette 2, Explorer 31, Explorer 34, Explorer 36, Explorer 38, Explorer 41, Explorer 51, Explorer 54, OSCAR 5, OSCAR 6, div. Iridium-Kommunikationssatelliten, COBE, Gravity Probe B, WISE",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_2",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB Space LC-3 (SLC-3)",
+    "facilitysince": "11.11960",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force), div. Keyhole-Spionagesatelliten, Geosat, Terra",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_3",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB Space LC-4 (SLC-4)",
+    "facilitysince": "12.006.1963",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force), div. Keyhole-Spionagesatelliten, Clementine",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_4",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB Space LC-5 (SLC-5)",
+    "facilitysince": "207.04.1962",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force), Explorer 19, Explorer 20, Explorer 22, Explorer 24, Explorer 25, Explorer 39, Explorer 40, Explorer 52, Explorer 56, AZUR",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_5",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB Space LC-6 (SLC-6)",
+    "facilitysince": "106.007.1995",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_6",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB Space LC-8 (SLC-8)",
+    "facilitysince": "206.01.2000",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_8",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB Space Launch Complex-1 (SLC-1)",
+    "facilitysince": "207.02.1959",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force), div. Keyhole-Spionagesatelliten, OSCAR 1, OSCAR 2",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_1",
+    "type": 2
+  },
+  {
+    "facilityname": "VAFB TP-01",
+    "facilitysince": "107.007.1983",
+    "facilitypurp": "Startplatz - militärisch (US-Air Force)",
+    "facilityuser": "US Air Force",
+    "facilityloc": "USA, Kalifornien, Lompoc",
+    "facilitylink": "https://de.wikipedia.org/wiki/Vandenberg_AFB_TP-01",
+    "type": 2
+  },
+  {
+    "facilityname": "Wallops Flight Facility (WFF)",
+    "facilitysince": "04.006.1945",
+    "facilitypurp": "Startplatz, Gravity Probe A",
+    "facilityuser": "NASA, Goddard Space Flight Center",
+    "facilityloc": "USA, Virginia, Wallops Island",
+    "facilitylink": "https://de.wikipedia.org/wiki/Wallops_Flight_Facility",
+    "type": 2
+  },
+  {
+    "facilityname": "White Sands Test Facility (WSTF)",
+    "facilitysince": "1963",
+    "facilitypurp": "Raketentestgelände",
+    "facilityuser": "NASA",
+    "facilityloc": "USA, New Mexico, Las Cruces",
+    "facilitylink": "http://en.wikipedia.org/wiki/White_Sands_Test_Facility",
+    "type": 2
+  },
+  {
+    "facilityname": "Zentrum für angewandte Raumfahrttechnologie und Mikrogravitation",
+    "facilitysince": "1985",
+    "facilitypurp": "Erforschung von Phänomenen unter dem Einfluss von Schwerelosigkeit und Fragen zur Raumfahrttechnologie",
+    "facilityuser": "Universität Bremen",
+    "facilityloc": "Deutschland, Bremen",
+    "facilitylink": "https://de.wikipedia.org/wiki/Fallturm_Bremen",
+    "type": 2
+  }
+]
