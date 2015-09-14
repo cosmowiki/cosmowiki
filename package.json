@@ -1,7 +1,7 @@
 {
   "name": "cosmowiki",
   "version": "1.0.0",
-  "description": "an online encyclopedia about stronomy and space flight",
+  "description": "an online encyclopedia about astronomy and space flight",
   "main": "index.js",
   "directories": {
     "doc": "docs"
