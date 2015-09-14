@@ -1,8 +1,14 @@
 import React from 'react';
+import Navigation from './components/navigation'
 
 class Page {
   render() {
-    return (<div>Hello cosmowiki</div>)
+    return (
+      <div>
+        <Navigation />
+        Hello cosmowiki
+      </div>
+    )
   }
 }
 
