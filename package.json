@@ -20,17 +20,19 @@
     "watch:build:app": "chokidar 'src' -c 'npm run build:app'",
     "watch:build:html": "chokidar 'src/index.html' -c 'npm run build:html'",
     "watch:build:css": "chokidar 'src/css' -c 'npm run build:css'",
-    "watch:build:img": "chokidar 'src/img' -c 'npm run build:img'"
+    "watch:build:img": "chokidar 'src/img' -c 'npm run build:img'",
+    "data-from-spreadsheet": "./data/update-data.sh"
   },
   "author": "H. Porsch",
   "license": "MIT",
   "devDependencies": {
-    "http-server": "^0.8.0",
-    "browserify": "^11.1.0",
-    "babelify": "^6.3.0",
     "babel": "^5.8.23",
+    "babelify": "^6.3.0",
+    "browserify": "^11.1.0",
     "chokidar": "^1.0.5",
     "chokidar-cli": "^1.0.1",
+    "google-spreadsheet-to-json": "^0.1.5",
+    "http-server": "^0.8.0",
     "parallelshell": "^2.0.0"
   },
   "dependencies": {
