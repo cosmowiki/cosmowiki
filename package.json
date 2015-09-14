@@ -11,11 +11,16 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server dist",
+    "start": "parallelshell 'http-server dist' 'npm run watch:build'",
     "build": "mkdir -p dist; npm run build:html; npm run build:css; npm run build:app",
     "build:html": "cp src/index.html dist",
     "build:css": "cp -R src/css dist; cp -R src/img dist",
-    "build:app": "browserify src/index.js --outfile=dist/index.min.js --transform=babelify"
+    "build:app": "browserify src/index.js --outfile=dist/index.min.js --transform=babelify",
+    "watch:build": "npm run build; parallelshell 'npm run watch:build:app' 'npm run watch:build:html' 'npm run watch:build:css' 'npm run watch:build:img'",
+    "watch:build:app": "chokidar 'src' -c 'npm run build:app'",
+    "watch:build:html": "chokidar 'src/index.html' -c 'npm run build:html'",
+    "watch:build:css": "chokidar 'src/css' -c 'npm run build:css'",
+    "watch:build:img": "chokidar 'src/img' -c 'npm run build:img'"
   },
   "author": "H. Porsch",
   "license": "MIT",
@@ -23,7 +28,10 @@
     "http-server": "^0.8.0",
     "browserify": "^11.1.0",
     "babelify": "^6.3.0",
-    "babel": "^5.8.23"
+    "babel": "^5.8.23",
+    "chokidar": "^1.0.5",
+    "chokidar-cli": "^1.0.1",
+    "parallelshell": "^2.0.0"
   },
   "dependencies": {
     "shariff": "^1.17.1",
