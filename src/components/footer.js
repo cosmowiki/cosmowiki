@@ -8,6 +8,7 @@ export default class Home {
           <li>
             <div className="shariff" data-theme="grey"
                  data-services="[&quot;twitter&quot;,&quot;googleplus&quot;,&quot;facebook&quot;,&quot;mail&quot;,&quot;info&quot;]"></div>
+            RENDER WITH SHARIFF!!!!
           </li>
           <li>
             <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/" target="_blank"><img
