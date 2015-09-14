@@ -1,7 +1,7 @@
 {
   "name": "cosmowiki",
   "version": "1.0.0",
-  "description": "",
+  "description": "an online encyclopedia about stronomy and space flight",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -9,6 +9,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "H. Porsch",
   "license": "ISC"
 }
