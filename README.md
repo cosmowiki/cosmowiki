@@ -2,6 +2,12 @@
 an online encyclopedia about astronomy and space flight
 http://cosmowiki.de/
 
+# run
+
+On a Mac OS X you can double-click the `app.command` file in your Finder
+this will start the application, you can go to http://localhost:8080
+in your browser to open the site.
+
 # installation
 
 You will need nodejs and npm, which you can get from [here][1].
