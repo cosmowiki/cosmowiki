@@ -14,5 +14,8 @@
   "license": "MIT",
   "devDependencies": {
     "http-server": "^0.8.0"
+  },
+  "dependencies": {
+    "shariff": "^1.17.1"
   }
 }
