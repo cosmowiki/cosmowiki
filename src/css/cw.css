@@ -415,11 +415,11 @@ input[type=checkbox]{margin:0 0 3px 5px; vertical-align:middle;}
 .solsysRow.Saturn{background:Khaki;}
 .solsysRow.Uranus{background:#bee3e6;}
 .solsysRow.Neptun{background:#90d0f8;}
+*/
 
 .personInfoBox,
 .solsysInfoBox.Sonne, .solsysInfoBox.Planet, .solsysInfoBox.Mond,
 .indexInfoBox{background:#fff;}
-*/
 
 /*			dataTable gradients --------------------------------------------- */
 /* - red - chronicle - */
