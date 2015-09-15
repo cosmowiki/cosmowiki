@@ -35,6 +35,7 @@ const rerender = (siteComponent = <Home />) => {
 
 import {parse as parseUrl} from 'url';
 import Chronicle from './lexicon/chronicle'
+import People from './lexicon/people'
 
 window.addEventListener('hashchange', ({newURL: newUrl}) => {
   const parsedUrl = parseUrl(newUrl);
@@ -46,6 +47,11 @@ function processUrl(parsedUrl) {
     if (parsedUrl.hash.match(/^#\/chronicle/)) {
       Chronicle.componentWithData((chronicleComponent) => {
         rerender(chronicleComponent);
+      });
+    }
+    if (parsedUrl.hash.match(/^#\/people/)) {
+      People.componentWithData((peopleComponent) => {
+        rerender(peopleComponent);
       });
     }
   } else {
