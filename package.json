@@ -12,13 +12,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parallelshell 'http-server dist' 'npm run watch:build'",
-    "build": "mkdir -p dist; npm run build:html; npm run build:css; npm run build:app",
+    "build": "mkdir -p dist; npm run build:html; npm run build:data; npm run build:css; npm run build:app",
     "build:html": "cp src/index.html dist",
+    "build:data": "cp -R data dist",
     "build:css": "cp -R src/css dist; cp -R src/img dist",
     "build:app": "browserify src/index.js --outfile=dist/index.min.js --transform=babelify",
-    "watch:build": "npm run build; parallelshell 'npm run watch:build:app' 'npm run watch:build:html' 'npm run watch:build:css' 'npm run watch:build:img'",
+    "watch:build": "npm run build; parallelshell 'npm run watch:build:app' 'npm run watch:build:html' 'npm run watch:build:data' 'npm run watch:build:css' 'npm run watch:build:img'",
     "watch:build:app": "chokidar 'src' -c 'npm run build:app'",
     "watch:build:html": "chokidar 'src/index.html' -c 'npm run build:html'",
+    "watch:build:data": "chokidar 'data/' -c 'npm run build:data'",
     "watch:build:css": "chokidar 'src/css' -c 'npm run build:css'",
     "watch:build:img": "chokidar 'src/img' -c 'npm run build:img'",
     "data-from-spreadsheet": "./data/update-data.sh"

@@ -6,7 +6,7 @@ FILENAME=data/chronicle.json
 gsjson 1YY06xH0Q6AWq8W1FLcY_h9dWl9Q7ECFOu6J6qbXKgMM $FILENAME -w 0
 echo "`du -h $FILENAME` loaded"
 
-FILENAME=data/chronicle.json
+FILENAME=data/persons.json
 gsjson 1YY06xH0Q6AWq8W1FLcY_h9dWl9Q7ECFOu6J6qbXKgMM $FILENAME -w 1
 echo "`du -h $FILENAME` loaded"
 
