@@ -38,11 +38,11 @@ import Chronicle from './lexicon/chronicle'
 import People from './lexicon/people'
 
 window.addEventListener('hashchange', ({newURL: newUrl}) => {
-  const parsedUrl = parseUrl(newUrl);
-  processUrl(parsedUrl);  
+  processUrl(newUrl);  
 });
 
-function processUrl(parsedUrl) {
+function processUrl(url) {
+  const parsedUrl = parseUrl(url);
   if (parsedUrl && parsedUrl.hash && parsedUrl.hash.startsWith('#/')) {
     if (parsedUrl.hash.match(/^#\/chronicle/)) {
       Chronicle.componentWithData((chronicleComponent) => {
@@ -59,4 +59,4 @@ function processUrl(parsedUrl) {
   }
 }
 
-processUrl();
+processUrl(window.location.href);
