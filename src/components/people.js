@@ -111,7 +111,9 @@ class PersonComponent extends React.Component {
         </div>
         <div id={person.name} className={classNames(cssClasses)}>
           <div className="personProfession">{person.profession}</div>
-          <div className="personLife">$born   $died</div>
+          <div className="personLife">
+            {person.born ? `∗ ${person.born}` : ''} &nbsp;
+            {person.died ? `† ${person.died}`: ''}</div>
           <div className="personCountry">{person.country}</div>
           <div className="personInfo justify">{person.description}</div>
         </div>

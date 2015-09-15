@@ -83,6 +83,10 @@ class Item {
     item.profession = raw.personprof;
     item.country = raw.personcountry;
     item.description = raw.persondescript;
+    
+    item.born = [raw.personbornd, raw.personbornm, raw.personborny].filter(v => v).join('.');
+    item.died = [raw.persondiedd, raw.persondiedm, raw.persondiedy].filter(v => v).join('.');
+    
     //item.tags = raw.tags.split(',');
     return item;
   }
