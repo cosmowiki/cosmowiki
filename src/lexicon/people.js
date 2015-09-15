@@ -80,6 +80,9 @@ class Item {
     const item = new Item();
     item.name = [raw.personname, raw.personfirstname].join(', ');
     item.wikipediaUrl = raw.personlink;
+    item.profession = raw.personprof;
+    item.country = raw.personcountry;
+    item.description = raw.persondescript;
     //item.tags = raw.tags.split(',');
     return item;
   }

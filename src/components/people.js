@@ -110,10 +110,10 @@ class PersonComponent extends React.Component {
           <a onMouseOver={showDetails} onMouseOut={hideDetails} href={person.wikipediaUrl}>{person.name}</a>
         </div>
         <div id={person.name} className={classNames(cssClasses)}>
-          <div className="personProfession">$row[personProf]</div>
+          <div className="personProfession">{person.profession}</div>
           <div className="personLife">$born   $died</div>
-          <div className="personCountry">$row[personCountry]</div>
-          <div className="personInfo justify">$row[personDescript]</div>
+          <div className="personCountry">{person.country}</div>
+          <div className="personInfo justify">{person.description}</div>
         </div>
       </div>
     );
