@@ -84,17 +84,32 @@ class PersonGroupComponent {
   
 }
 
-class PersonComponent {
+import classNames from 'classnames';
+class PersonComponent extends React.Component {
+  
+  constructor() {
+    super();
+    this.state = {detailsVisible: false};
+  }
   
   render() {
+    const showDetails = () => {
+      this.setState({detailsVisible: true});
+    };
+    const hideDetails = () => {
+      this.setState({detailsVisible: false});
+    };
+    
     const person = this.props.person;
-    //<a onMouseOver={`toggleIn('${person.name}')`} onMouseOut={`toggleOut('${person.name}')`} href={person.wikipediaUrl}>{person.name}</a>
+    let cssClasses = ['personInfoBox'];
+    cssClasses.push(this.state.detailsVisible ? 'visible' : 'hidden');
+    
     return (
       <div className="personRow pure-u-1 pure-u-md-1-3">
         <div className="personItem">
-          <a href={person.wikipediaUrl}>{person.name}</a>
+          <a onMouseOver={showDetails} onMouseOut={hideDetails} href={person.wikipediaUrl}>{person.name}</a>
         </div>
-        <div id={person.name} className="hidden personInfoBox">
+        <div id={person.name} className={classNames(cssClasses)}>
           <div className="personProfession">$row[personProf]</div>
           <div className="personLife">$born   $died</div>
           <div className="personCountry">$row[personCountry]</div>
