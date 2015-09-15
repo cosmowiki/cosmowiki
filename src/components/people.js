@@ -13,15 +13,6 @@ export default class PeopleComponent {
           <p>Entdecker, Pioniere, Wissenschaftler</p>
         </div>
         
-        <div id="filter" className="person">
-          <form id="filterCountry">
-            <span>filtern nach Land:</span>
-          </form>
-          <form id="filterProfession">
-            <span>filtern nach Beruf:</span>
-          </form>
-        </div>
-        
         <div id="letterLinks" className="person center">
           <a href="#A">A</a> -
           <a href="#B">B</a> -
