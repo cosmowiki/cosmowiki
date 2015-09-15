@@ -519,9 +519,9 @@ input[type=checkbox]{margin:0 0 3px 5px; vertical-align:middle;}
 /*.personRow:hover, .personRow:active, .personRow:focus,
 .indexRow:hover, .indexRow:active, .indexRow:focus{font-weight:700;}*/
 
-/*.personInfoBox, .solsysInfoBox, .indexInfoBox{
+.personInfoBox, .solsysInfoBox, .indexInfoBox{
 	position:absolute; width:300px; margin:0; padding:3px; font-weight:normal;
-}*/
+}
 
 /*.personItem, .indexItem{width:100%; height:100%;}
 .personItem a, .solsysItem a, .indexItem a{padding:5px; display:block;}
