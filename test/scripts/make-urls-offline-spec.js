@@ -13,6 +13,7 @@ describe('modify the dist/index.html file to work offline', function() {
   <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react-with-addons.js"></script>
   <title>CosmoWiki.de | die Online-Enzyklop&auml;die &uuml;ber Astronomie und Raumfahrt</title>
   <link rel="stylesheet" href="//yui.yahooapis.com/pure/0.6.0/pure-min.css">
+  <link rel="stylesheet" href="//yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 `;
   });
@@ -42,4 +43,17 @@ describe('modify the dist/index.html file to work offline', function() {
     });
   });
 
+  describe('replace `//maxcdn.bootstrapcdn.com`', function() {
+    let replaced;
+    beforeEach(function() {
+      replaced = useOfflineUrls(indexHtmlContent);
+    });
+    it('contains no online URL anymore', function() {
+      hamjest.assertThat(replaced, hamjest.not(hamjest.containsString('//maxcdn.bootstrapcdn.com/font-awesome/4.4.0')));
+    });
+    it('replaces the online with the offline url', function() {
+      hamjest.assertThat(replaced, hamjest.containsString(OFFLINE_PATH_PREFIX + '/font-awesome/4.4.0'));
+    });
+  });
+  
 });
