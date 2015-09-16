@@ -1,5 +1,6 @@
 import assert from 'assert';
-import {useOfflineUrls} from '../../src/scripts/make-urls-offline';
+import {useOfflineUrls, OFFLINE_PATH_PREFIX} from '../../src/scripts/make-urls-offline';
+import hamjest from 'hamjest';
 
 describe('modify the dist/index.html file to work offline', function() {
 
@@ -10,33 +11,34 @@ describe('modify the dist/index.html file to work offline', function() {
   <meta charSet="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react-with-addons.js"></script>
-  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-  <!--[if lte IE 8]>
+  <title>CosmoWiki.de | die Online-Enzyklop&auml;die &uuml;ber Astronomie und Raumfahrt</title>
+  <link rel="stylesheet" href="//yui.yahooapis.com/pure/0.6.0/pure-min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 `;
   });
-  describe('replace `http://cdnjs...` with `../vendor/`', function() {
+  describe('replace `//cdnjs...` with `../for-offline/`', function() {
     let replaced;
     beforeEach(function() {
       replaced = useOfflineUrls(indexHtmlContent);
     });
     it('removes `cdnjs` URLs', function() {
-      assert.equal(replaced.includes('https://cdnjs.cloudflare'), false);
+      hamjest.assertThat(replaced, hamjest.not(hamjest.containsString('//cdnjs.cloudflare')));
     });
     it('puts `../vendor/` in its place', function() {
-      assert.equal(replaced.includes('../vendor/react/0.13.3'), true);
+      hamjest.assertThat(replaced, hamjest.containsString(OFFLINE_PATH_PREFIX + '/react/0.13.3'));
     });
   });
 
-  describe('replaces `http://yui.yahooapis...` with `../vendor/`', function() {
+  describe('replaces `yui.yahooapis...` with `../for-offline/`', function() {
     let replaced;
     beforeEach(function() {
       replaced = useOfflineUrls(indexHtmlContent);
     });
     it('removes the YUI URL', function() {
-      assert.equal(replaced.includes('http://yui.yahooapis.com/'), false);
+      hamjest.assertThat(replaced, hamjest.not(hamjest.containsString('//yui.yahooapis.com/')));
     });
-    it('puts `../vendor/` in its place', function() {
-      assert.equal(replaced.includes('../vendor/pure/0.6.0'), true);
+    it('puts `../for-offline/` in its place', function() {
+      hamjest.assertThat(replaced, hamjest.containsString(OFFLINE_PATH_PREFIX + '/pure/0.6.0'));
     });
   });
 
