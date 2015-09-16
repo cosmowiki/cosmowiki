@@ -5,6 +5,7 @@ export default class PeopleComponent {
   render() {
     
     const groupedPeople = this.props.groupedPeople;
+    const allFirstLetters = groupedPeople.map(group => group.key);
     
     return (
       <main role="main" className="pure-u-2-3">
@@ -13,7 +14,7 @@ export default class PeopleComponent {
           <p>Entdecker, Pioniere, Wissenschaftler</p>
         </div>
         
-        <LetterLinks />
+        <LetterLinks letters={allFirstLetters} />
         
         <div id="dataTable" className="person">
           <div id="personTable">
@@ -34,38 +35,23 @@ export default class PeopleComponent {
 class LetterLinks {
   
   render() {
+    const {letters} = this.props;
+    const lastIndex = letters.length - 1;
     return (
       <div id="letterLinks" className="person center">
-        <a href="#A">A</a> -
-        <a href="#B">B</a> -
-        <a href="#C">C</a> -
-        <a href="#D">D</a> -
-        <a href="#E">E</a> -
-        <a href="#F">F</a> -
-        <a href="#G">G</a> -
-        <a href="#H">H</a> -
-        <a href="#I">I</a> -
-        <a href="#J">J</a> -
-        <a href="#K">K</a> -
-        <a href="#L">L</a> -
-        <a href="#M">M</a> -
-        <a href="#N">N</a> -
-        <a href="#O">O</a> -
-        <a href="#P">P</a> -
-        <a href="#Q">Q</a> -
-        <a href="#R">R</a> -
-        <a href="#S">S</a> -
-        <a href="#T">T</a> -
-        <a href="#U">U</a> -
-        <a href="#V">V</a> -
-        <a href="#W">W</a> -
-        <a href="#X">X</a> -
-        <a href="#Y">Y</a> -
-        <a href="#Z">Z</a>
+        {letters.map((letter, index) => <Letter letter={letter} isLast={index == lastIndex} />)}
       </div>
     );
   }
   
+}
+
+class Letter {
+  render() {
+    const {letter, isLast} = this.props;
+    const visibleString = isLast ? letter : letter + ' - ';
+    return (<a href={`#${letter}`}>{visibleString}</a>)
+  }
 }
 
 class PersonGroupComponent {
