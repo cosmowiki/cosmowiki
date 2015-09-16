@@ -10,7 +10,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --compilers js:babel/register test/**",
     "start": "parallelshell 'http-server dist' 'npm run watch:build'",
     "start-for-offline": "parallelshell 'http-server dist' 'npm run watch:build-build-for-offline'",
     "modify-for-offline": "babel-node scripts/modify-for-offline.js",
