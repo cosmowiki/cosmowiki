@@ -37,7 +37,7 @@ export default class Home {
         <div id="boxContainer" className="pure-u-1">
           <div id="boxLeft" className="pure-u-1-3 box justify">
             <a href="http://cosmowiki.de/de1/chronicle.php" title="Chronik" target="_self" className="liimagelink"><img
-              title="Stonehenge, Wigulf, Quelle: Wikipedia" src="http://cosmowiki.de/img/past.jpg"
+              title="Stonehenge, Wigulf, Quelle: Wikipedia" src="/img/past.jpg"
               alt="Stonehenge, Wigulf, Quelle: Wikipedia"/></a>
             <h3><a href="http://cosmowiki.de/de1/chronicle.php" title="Chronik" target="_self" className="liinternal">Chronik</a>
             </h3>
@@ -48,7 +48,7 @@ export default class Home {
           </div>
           <div id="boxMid" className="pure-u-1-3 box justify">
             <a href="http://cosmowiki.de/de1/persons.php" title="Personen" target="_self" className="liimagelink"><img
-              title="Personen" src="http://cosmowiki.de/img/persons.jpg" alt="Personen"/></a>
+              title="Personen" src="/img/persons.jpg" alt="Personen"/></a>
             <h3><a href="http://cosmowiki.de/de1/persons.php" title="Personen" target="_self" className="liinternal">Personen</a>
             </h3>
             <p>Naturwissenschaftler und Raumfahrer &#8211; seit Jahrtausenden entdecken und erobern sie neue Welten und
@@ -58,7 +58,7 @@ export default class Home {
           </div>
           <div id="boxRight" className="pure-u-1-3 box justify">
             <a href="http://cosmowiki.de/de1/places.php" title="Orte" target="_self" className="liimagelink"><img
-              title="Orte" src="http://cosmowiki.de/img/places.jpg" alt="Orte"/></a>
+              title="Orte" src="/img/places.jpg" alt="Orte"/></a>
             <h3><a href="http://cosmowiki.de/de1/places.php" title="Orte" target="_self" className="liinternal">Orte</a>
             </h3>
             <p>Besuchen Sie die Orte des Geschehens auf der Karte: Tempel und Megalithanlagen, Observatorien und
