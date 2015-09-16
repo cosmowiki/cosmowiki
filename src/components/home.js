@@ -2,6 +2,8 @@ export default class Home {
 
   render() {
 
+    let appUrl = this.props.appUrl;
+    
     return (
       <main role="main" className="pure-u-2-3">
         <div id="featured" className="pure-u-1-1 home">
@@ -36,10 +38,10 @@ export default class Home {
         </div>
         <div id="boxContainer" className="pure-u-1">
           <div id="boxLeft" className="pure-u-1-3 box justify">
-            <a href="http://cosmowiki.de/de1/chronicle.php" title="Chronik" target="_self" className="liimagelink"><img
+            <a href={appUrl.chronicleSite()} title="Chronik" target="_self" className="liimagelink"><img
               title="Stonehenge, Wigulf, Quelle: Wikipedia" src="/img/past.jpg"
               alt="Stonehenge, Wigulf, Quelle: Wikipedia"/></a>
-            <h3><a href="http://cosmowiki.de/de1/chronicle.php" title="Chronik" target="_self" className="liinternal">Chronik</a>
+            <h3><a href={appUrl.chronicleSite()} title="Chronik" target="_self" className="liinternal">Chronik</a>
             </h3>
             <p>Die Astronomie gilt als die &auml;lteste Wissenschaft. Bereits in der Steinzeit begannen Menschen zu
               forschen
@@ -47,9 +49,9 @@ export default class Home {
               Wissensdrang unserer Vorfahren.</p>
           </div>
           <div id="boxMid" className="pure-u-1-3 box justify">
-            <a href="http://cosmowiki.de/de1/persons.php" title="Personen" target="_self" className="liimagelink"><img
+            <a href={appUrl.peopleSite()} title="Personen" target="_self" className="liimagelink"><img
               title="Personen" src="/img/persons.jpg" alt="Personen"/></a>
-            <h3><a href="http://cosmowiki.de/de1/persons.php" title="Personen" target="_self" className="liinternal">Personen</a>
+            <h3><a href={appUrl.peopleSite()} title="Personen" target="_self" className="liinternal">Personen</a>
             </h3>
             <p>Naturwissenschaftler und Raumfahrer &#8211; seit Jahrtausenden entdecken und erobern sie neue Welten und
               R&auml;ume,
