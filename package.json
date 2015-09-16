@@ -13,7 +13,7 @@
     "test": "mocha --compilers js:babel/register test/**",
     "start": "parallelshell 'http-server dist' 'npm run watch:build'",
     "start-for-offline": "parallelshell 'http-server dist' 'npm run watch:build-build-for-offline'",
-    "modify-for-offline": "babel-node scripts/modify-for-offline.js",
+    "modify-for-offline": "babel-node scripts/modify-for-offline.js; cp -R for-offline dist",
     "build": "mkdir -p dist; npm run build:html; npm run build:data; npm run build:css; npm run build:app",
     "build:html": "cp src/index.html dist",
     "build:html-for-offline": "cp src/index.html dist; npm run modify-for-offline",
