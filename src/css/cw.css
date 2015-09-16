@@ -200,76 +200,76 @@ main{max-width:960px; margin:0 auto; font-size:.875em; background:#f8f8f8;}
 #featured p{padding:20px 0 10px 10px;}
 
 #featured.home{
-	background:url("http://cosmowiki.de/img/featured_home.jpg") center no-repeat;
+	background:url("/img/featured_home.jpg") center no-repeat;
 }
 #featured.about{
-	background:url("http://cosmowiki.de/img/featured.jpg") center no-repeat;
+	background:url("/img/featured.jpg") center no-repeat;
 }
 #featured.chronicle{
-	background:url("http://cosmowiki.de/img/featured_chronicle.jpg") center no-repeat;
+	background:url("/img/featured_chronicle.jpg") center no-repeat;
 }
 #featured.missions{
-	background:url("http://cosmowiki.de/img/featured_missions.jpg") center no-repeat;
+	background:url("/img/featured_missions.jpg") center no-repeat;
 }
 #featured.persons{
-	background:url("http://cosmowiki.de/img/featured_persons.jpg") center no-repeat;
+	background:url("/img/featured_persons.jpg") center no-repeat;
 }
 #featured.astronomers{
-	background:url("http://cosmowiki.de/img/featured_astronomers.jpg") center no-repeat;
+	background:url("/img/featured_astronomers.jpg") center no-repeat;
 }
 #featured.astronauts{
-	background:url("http://cosmowiki.de/img/featured_astronauts.jpg") center no-repeat;
+	background:url("/img/featured_astronauts.jpg") center no-repeat;
 }
 #featured.places{
-	background:url("http://cosmowiki.de/img/featured_places.jpg") center no-repeat;
+	background:url("/img/featured_places.jpg") center no-repeat;
 }
 #featured.observatories{
-	background:url("http://cosmowiki.de/img/featured_observatories.jpg") center no-repeat;
+	background:url("/img/featured_observatories.jpg") center no-repeat;
 }
 #featured.launchpads{
-	background:url("http://cosmowiki.de/img/featured_launchpads.jpg") center no-repeat;
+	background:url("/img/featured_launchpads.jpg") center no-repeat;
 }
 #featured.objects{
-	background:url("http://cosmowiki.de/img/featured_objects.jpg") center no-repeat;
+	background:url("/img/featured_objects.jpg") center no-repeat;
 }
 #featured.solsys{
-	background:url("http://cosmowiki.de/img/featured_solsys.jpg") center no-repeat;
+	background:url("/img/featured_solsys.jpg") center no-repeat;
 }
 #featured.const{
-	background:url("http://cosmowiki.de/img/featured_constellations.jpg") center no-repeat;
+	background:url("/img/featured_constellations.jpg") center no-repeat;
 }
 #featured.stars{
-	background:url("http://cosmowiki.de/img/featured_stars.jpg") center no-repeat;
+	background:url("/img/featured_stars.jpg") center no-repeat;
 }
 #featured.galaxies{
-	background:url("http://cosmowiki.de/img/featured_galaxies.jpg") center no-repeat;
+	background:url("/img/featured_galaxies.jpg") center no-repeat;
 }
 #featured.telescopes{
-	background:url("http://cosmowiki.de/img/featured_telescopes.jpg") center no-repeat;
+	background:url("/img/featured_telescopes.jpg") center no-repeat;
 }
 #featured.spacetel{
-	background:url("http://cosmowiki.de/img/featured_spacetel.jpg") center no-repeat;
+	background:url("/img/featured_spacetel.jpg") center no-repeat;
 }
 #featured.rockets{
-	background:url("http://cosmowiki.de/img/featured_rockets.jpg") center no-repeat;
+	background:url("/img/featured_rockets.jpg") center no-repeat;
 }
 #featured.satellites{
-	background:url("http://cosmowiki.de/img/featured_satellites.jpg") center no-repeat;
+	background:url("/img/featured_satellites.jpg") center no-repeat;
 }
 #featured.stations{
-	background:url("http://cosmowiki.de/img/featured_stations.jpg") center no-repeat;
+	background:url("/img/featured_stations.jpg") center no-repeat;
 }
 #featured.probes{
-	background:url("http://cosmowiki.de/img/featured_probes.jpg") center no-repeat;
+	background:url("/img/featured_probes.jpg") center no-repeat;
 }
 #featured.astronomy{
-	background:url("http://cosmowiki.de/img/featured_astronomy.jpg") center no-repeat;
+	background:url("/img/featured_astronomy.jpg") center no-repeat;
 }
 #featured.spaceflight{
-	background:url("http://cosmowiki.de/img/featured_spaceflight.jpg") center no-repeat;
+	background:url("/img/featured_spaceflight.jpg") center no-repeat;
 }
 #featured.register{
-	background:url("http://cosmowiki.de/img/featured_register.jpg") center no-repeat;
+	background:url("/img/featured_register.jpg") center no-repeat;
 }
 
 /*			infoArea -------------------------------------------------------- */
@@ -314,31 +314,31 @@ main{max-width:960px; margin:0 auto; font-size:.875em; background:#f8f8f8;}
 
 .cw-page-links.astronomers:hover, .cw-page-links.astronomers:active,
 .cw-page-links.astronomers:focus{
-	background:url("http://cosmowiki.de/img/featured_astronomers1.jpg") center no-repeat;
+	background:url("/img/featured_astronomers1.jpg") center no-repeat;
 }
 .cw-page-links.solsys:hover, .cw-page-links.solsys:active,
 .cw-page-links.solsys:focus{
-	background:url("http://cosmowiki.de/img/featured_solsys1.jpg") center no-repeat;
+	background:url("/img/featured_solsys1.jpg") center no-repeat;
 }
 .cw-page-links.const:hover, .cw-page-links.const:active,
 .cw-page-links.const:focus{
-	background:url("http://cosmowiki.de/img/featured_constellations1.jpg") center no-repeat;
+	background:url("/img/featured_constellations1.jpg") center no-repeat;
 }
 .cw-page-links.stars:hover, .cw-page-links.stars:active,
 .cw-page-links.stars:focus{
-	background:url("http://cosmowiki.de/img/featured_stars1.jpg") center no-repeat;
+	background:url("/img/featured_stars1.jpg") center no-repeat;
 }
 .cw-page-links.astronauts:hover, .cw-page-links.astronauts:active,
 .cw-page-links.astronauts:focus{
-	background:url("http://cosmowiki.de/img/featured_astronauts1.jpg") center no-repeat;
+	background:url("/img/featured_astronauts1.jpg") center no-repeat;
 }
 .cw-page-links.missions:hover, .cw-page-links.missions:active,
 .cw-page-links.missions:focus{
-	background:url("http://cosmowiki.de/img/featured_missions1.jpg") center no-repeat;
+	background:url("/img/featured_missions1.jpg") center no-repeat;
 }
 .cw-page-links.stations:hover, .cw-page-links.stations:active,
 .cw-page-links.stations:focus{
-	background:url("http://cosmowiki.de/img/featured_stations1.jpg") center no-repeat;
+	background:url("/img/featured_stations1.jpg") center no-repeat;
 }
 */
 
@@ -365,36 +365,36 @@ input[type=checkbox]{margin:0 0 3px 5px; vertical-align:middle;}
 /*			dataTable backgrounds ------------------------------------------- */
 /*
 #timelineHeader{
-	background:url("http://cosmowiki.de/img/bg_timelinestart.png") no-repeat transparent;
+	background:url("/img/bg_timelinestart.png") no-repeat transparent;
 }
 .timelineRow{
-	background:url("http://cosmowiki.de/img/bg_timeline.png") left no-repeat transparent;
+	background:url("/img/bg_timeline.png") left no-repeat transparent;
 }
 #timelineFooter{
-	background:url("http://cosmowiki.de/img/bg_timelineend.png") no-repeat transparent;
+	background:url("/img/bg_timelineend.png") no-repeat transparent;
 }
 #placesTable th, #missionsTable th, #constTable th, #starsHeader th{
-	background:url("http://cosmowiki.de/img/bg_order.png") right no-repeat transparent;
+	background:url("/img/bg_order.png") right no-repeat transparent;
 }
 #placesTable th.headerSortUp, #missionsTable th.headerSortUp,
 #constTable th.headerSortUp, #starsHeader .headerSortUp{
-	background:url("http://cosmowiki.de/img/bg_order_asc.png") right no-repeat transparent;
+	background:url("/img/bg_order_asc.png") right no-repeat transparent;
 }
 #placesTable th.headerSortDown, #missionsTable th.headerSortDown,
 #constTable th.headerSortDown, #starsHeader .headerSortDown{
-	background:url("http://cosmowiki.de/img/bg_order_desc.png") right no-repeat transparent;
+	background:url("/img/bg_order_desc.png") right no-repeat transparent;
 }
 #placesTable th:hover, #missionsTable th:hover,
 #constTable th:hover, #starsHeader th:hover{
-	background:url("http://cosmowiki.de/img/bg_order1.png") right no-repeat transparent;
+	background:url("/img/bg_order1.png") right no-repeat transparent;
 }
 #placesTable th.headerSortUp:hover, #missionsTable th.headerSortUp:hover,
 #constTable th.headerSortUp:hover, #starsHeader .headerSortUp:hover{
-	background:url("http://cosmowiki.de/img/bg_order_asc1.png") right no-repeat transparent;
+	background:url("/img/bg_order_asc1.png") right no-repeat transparent;
 }
 #placesTable th.headerSortDown:hover, #missionsTable th.headerSortDown:hover,
 #constTable th.headerSortDown:hover, #starsHeader .headerSortDown:hover{
-	background:url("http://cosmowiki.de/img/bg_order_desc1.png") right no-repeat transparent;
+	background:url("/img/bg_order_desc1.png") right no-repeat transparent;
 }
 
 .timelineRow:hover, .timelineRow:active, .timelineRow:focus,
