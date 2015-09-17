@@ -9,10 +9,11 @@ import Footer from './components/footer';
 
 import AppUrl from './appurl'
 
+let appUrl = new AppUrl();
+
 class Page {
   render() {
     
-    let appUrl = new AppUrl();
     const siteComponent = this.props.siteComponent;
     
     return (
@@ -29,7 +30,7 @@ class Page {
   }
 }
 
-const rerender = (siteComponent = <Home />) => {
+const rerender = (siteComponent) => {
   React.render(<Page siteComponent={siteComponent} />, document.getElementById('app'));
 };
 
@@ -55,7 +56,7 @@ function processUrl(url) {
       });
     }
   } else {
-    rerender(<Home />);
+    rerender(<Home appUrl={appUrl} />);
   }
 }
 
