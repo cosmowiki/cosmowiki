@@ -25,19 +25,19 @@ export default class Navigation {
             <a className="pure-menu-link menu-item places" href="places.php">Orte</a>
           </li>
           <li className="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
-            <a className="pure-menu-link menu-item objects" href="objects.php">Objekte</a>
+            <a className="pure-menu-link menu-item objects" href={appUrl.objectsSite()}>Objekte</a>
             <ul className="pure-menu-children sub-menu objects">
               <li className="pure-menu-item">
-                <a className="pure-menu-link sub-menu-item objects" href="solsys.php">Sonnensystem</a>
+                <a className="pure-menu-link sub-menu-item objects" href={appUrl.solarSystemSite()}>Sonnensystem</a>
               </li>
               <li className="pure-menu-item">
-                <a className="pure-menu-link sub-menu-item objects" href="constellations.php">Sternbilder</a>
+                <a className="pure-menu-link sub-menu-item objects" href={appUrl.constellationsSite()}>Sternbilder</a>
               </li>
               <li className="pure-menu-item">
-                <a className="pure-menu-link sub-menu-item objects" href="stars.php">Sterne</a>
+                <a className="pure-menu-link sub-menu-item objects" href={appUrl.starsSite()}>Sterne</a>
               </li>
               <li className="pure-menu-item">
-                <a className="pure-menu-link sub-menu-item objects" href="stations.php">Raumstationen</a>
+                <a className="pure-menu-link sub-menu-item objects" href={appUrl.stationsSite()}>Raumstationen</a>
               </li>
             </ul>
           </li>

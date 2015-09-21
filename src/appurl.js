@@ -16,4 +16,24 @@ export default class AppUrl {
     return '#/astronauts'
   }
   
+  objectsSite() {
+    return '#/objects'
+  }
+  
+  solarSystemSite() {
+    return '#/solar-system'
+  }
+  
+  constellationsSite() {
+    return '#/constellations'
+  }
+  
+  starsSite() {
+    return '#/stars'
+  }
+  
+  stationsSite() {
+    return '#/stations'
+  }
+  
 }

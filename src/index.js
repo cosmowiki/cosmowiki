@@ -39,6 +39,7 @@ import Chronicle from './lexicon/chronicle';
 import People from './lexicon/people';
 import Astronomers from './lexicon/astronomers';
 import Astronauts from './lexicon/astronauts';
+import ObjectsComponent from './components/objects';
 
 window.addEventListener('hashchange', ({newURL: newUrl}) => {
   processUrl(newUrl);  
@@ -66,6 +67,9 @@ function processUrl(url) {
       Astronauts.componentWithData((component) => {
         rerender(component);
       });
+    }
+    if (parsedUrl.hash.match(/^#\/objects/)) {
+      rerender(<ObjectsComponent appUrl={appUrl} />);
     }
   } else {
     rerender(<Home appUrl={appUrl} />);
