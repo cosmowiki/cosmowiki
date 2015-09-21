@@ -12,7 +12,7 @@ export default class Home {
           </li>
           <li>
             <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/" target="_blank"><img
-              title="CC-BY-SA" src="http://cosmowiki.de/img/cc-by-sa-88x31.png" alt="CC-By-SA"/></a>
+              title="CC-BY-SA" src="/img/cc-by-sa-88x31.png" alt="CC-By-SA"/></a>
           </li>
           <li>
             <small>v. 0.9 beta</small>

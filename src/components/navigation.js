@@ -11,13 +11,13 @@ export default class Navigation {
             <a className="pure-menu-link menu-item chronicle" href={appUrl.chronicleSite()}>Chronik</a>
           </li>
           <li className="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
-            <a className="pure-menu-link menu-item persons" href="persons.php">Personen</a>
+            <a className="pure-menu-link menu-item persons" href={appUrl.peopleSite()}>Personen</a>
             <ul className="pure-menu-children sub-menu persons">
               <li className="pure-menu-item">
-                <a className="pure-menu-link sub-menu-item persons" href="astronomers.php">Astronomen</a>
+                <a className="pure-menu-link sub-menu-item persons" href={appUrl.astronomersSite()}>Astronomen</a>
               </li>
               <li className="pure-menu-item">
-                <a className="pure-menu-link sub-menu-item persons" href="astronauts.php">Raumfahrer</a>
+                <a className="pure-menu-link sub-menu-item persons" href={appUrl.astronautsSite()}>Raumfahrer</a>
               </li>
             </ul>
           </li>
