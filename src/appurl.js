@@ -8,4 +8,12 @@ export default class AppUrl {
     return '#/people'
   }
   
+  astronomersSite() {
+    return '#/astronomers'
+  }
+  
+  astronautsSite() {
+    return '#/astronauts'
+  }
+  
 }
