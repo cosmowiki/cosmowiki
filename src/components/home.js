@@ -6,12 +6,9 @@ export default class Home {
     
     return (
       <main role="main" className="pure-u-2-3">
-        <div id="featured" className="pure-u-1-1 home">
-          <h1>CosmoWiki.de &#8211; das Online-Lexikon</h1>
-          <p>Die Enzyklop&auml;die &uuml;ber Astronomie und Raumfahrt<br />
-            Vergangenheit, Gegenwart und Zukunft, bedeutende Orte und Ereignisse,<br />
-            Ph&auml;nomene und Naturgesetze, herausragende Personen und Institutionen, Organisationen und ihre Programme
-          </p>
+        <div id="featured" className="pure-u-1-1 home center">
+          <h1>CosmoWiki.de</h1>
+          <h3>Astronomie + Raumfahrt = ein Lexikon</h3>
         </div>
         <div id="infoArea" className="pure-u-1">
           <div id="infoText" className="pure-u-2-3 justify">
