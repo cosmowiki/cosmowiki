@@ -1,3 +1,4 @@
+import React from 'react';
 import Notes from './notes';
 
 export default class PeopleComponent {
