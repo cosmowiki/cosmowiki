@@ -196,7 +196,7 @@ main{
 
 /*			featured -------------------------------------------------------- */
 #featured{height:150px; border-bottom:1px solid #d0d0d0;}
-#featured h1, #featured p{color:#e5e5e5;}
+#featured h1, #featured h3{color:#e5e5e5;}
 #featured h1{padding:60px 0 0 10px;}
 #featured h3{padding:10px 0 10px 10px;}
 
