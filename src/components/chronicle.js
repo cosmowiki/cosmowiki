@@ -10,7 +10,7 @@ export default class ChronicleComponent {
       <main role="main" className="pure-u-2-3">
         <div id="featured" className="chronicle center">
           <h1>Chronik</h1>
-          <p>Meilensteine der Astronomie und Raumfahrt</p>
+          <h3>Meilensteine der Astronomie und Raumfahrt</h3>
         </div>
         <div id="dataTable">
           <div id="timeline">
