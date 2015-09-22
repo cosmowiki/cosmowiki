@@ -11,7 +11,7 @@ export default class PeopleComponent {
       <main role="main" className="pure-u-2-3">
         <div id="featured" className="persons center">
           <h1>Personen</h1>
-          <p>Entdecker, Pioniere, Wissenschaftler</p>
+          <h3>Entdecker, Pioniere, Wissenschaftler</h3>
         </div>
         
         <LetterLinks letters={allFirstLetters} />
@@ -62,8 +62,8 @@ class PersonGroupComponent {
     const people = group.people;
     
     return (
-      <div className="pure-u-1">
-        <a name={`#/people/${groupKey}`}>{groupKey}</a><br />
+      <div id={groupKey} className="pure-u-1 letter-section">
+        <a className="first-letter" name={`#/people/${groupKey}`}>{groupKey}</a><br />
         {people.map(person => <PersonComponent person={person} />)}
       </div>      
     );
