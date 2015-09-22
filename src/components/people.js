@@ -9,10 +9,10 @@ export default class PeopleComponent {
     const allFirstLetters = groupedPeople.map(group => group.key);
     
     return (
-      <main role="main" className="pure-u-2-3">
+      <main role="main" className="pure-u-2-3 pure-u-lg-1">
         <div id="featured" className="persons center">
           <h1>Personen</h1>
-          <p>Entdecker, Pioniere, Wissenschaftler</p>
+          <h3>Entdecker, Pioniere, Wissenschaftler</h3>
         </div>
         
         <LetterLinks letters={allFirstLetters} />
@@ -63,8 +63,8 @@ class PersonGroupComponent {
     const people = group.people;
     
     return (
-      <div className="pure-u-1">
-        <a name={`#/people/${groupKey}`}>{groupKey}</a><br />
+      <div id={groupKey} className="pure-u-1 letter-section">
+        <a className="first-letter" name={`#/people/${groupKey}`}>{groupKey}</a><br />
         {people.map(person => <PersonComponent person={person} />)}
       </div>      
     );
@@ -93,7 +93,7 @@ class PersonComponent extends React.Component {
     cssClasses.push(this.state.detailsVisible ? 'visible' : 'hidden');
     
     return (
-      <div className="personRow pure-u-1 pure-u-md-1-3">
+      <div className="personRow pure-u-1 pure-u-lg-1-3 pure-u-md-1-2">
         <div className="personItem">
           <a onMouseOver={showDetails} onMouseOut={hideDetails} href={person.wikipediaUrl}>{person.name}</a>
         </div>
