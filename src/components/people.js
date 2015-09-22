@@ -8,7 +8,7 @@ export default class PeopleComponent {
     const allFirstLetters = groupedPeople.map(group => group.key);
     
     return (
-      <main role="main" className="pure-u-2-3">
+      <main role="main" className="pure-u-2-3 pure-u-lg-1">
         <div id="featured" className="persons center">
           <h1>Personen</h1>
           <h3>Entdecker, Pioniere, Wissenschaftler</h3>
@@ -92,7 +92,7 @@ class PersonComponent extends React.Component {
     cssClasses.push(this.state.detailsVisible ? 'visible' : 'hidden');
     
     return (
-      <div className="personRow pure-u-1 pure-u-md-1-3">
+      <div className="personRow pure-u-1 pure-u-lg-1-3">
         <div className="personItem">
           <a onMouseOver={showDetails} onMouseOut={hideDetails} href={person.wikipediaUrl}>{person.name}</a>
         </div>
