@@ -21,7 +21,7 @@ p{padding-top:10px;}
 ul{margin:0; padding-bottom:10px; list-style:none;}
 a{font-weight:500; text-decoration:none;}
 a:link, a:visited{color:#55f;}
-a:focus, a:hover, a:active {color:#333;}
+a:focus, a:hover, a:active{color:#333;}
 
 /*>Global Classes ---------------------------------------------------------- */
 .left{text-align:left;}
@@ -124,7 +124,7 @@ nav ul li ul a{border-radius:0;}
 	background-image:linear-gradient(to bottom, #fff 0%, #ffc2c2 100%);
 }
 #menu a.chronicle:focus, #menu a.chronicle:hover, #menu a.chronicle:active, 
-#menu a.missions:focus, #menu a.missions:hover, #menu a.missions:active {
+#menu a.missions:focus, #menu a.missions:hover, #menu a.missions:active{
 	background-image:linear-gradient(to bottom, #fff 0%, #ff8585 100%);
 }*/
 
@@ -134,7 +134,7 @@ nav ul li ul a{border-radius:0;}
 }
 #menu a.persons:focus, #menu a.persons:hover, #menu a.persons:active, 
 #menu a.astronomers:focus, #menu a.astronomers:hover, #menu a.astronomers:active, 
-#menu a.astronauts:focus, #menu a.astronauts:hover, #menu a.astronauts:active {
+#menu a.astronauts:focus, #menu a.astronauts:hover, #menu a.astronauts:active{
 	background-image:linear-gradient(to bottom, #fff 0%, #85c2c2 100%);
 }*/
 
@@ -144,7 +144,7 @@ nav ul li ul a{border-radius:0;}
 }
 #menu a.places:focus,
 #menu a.places:hover,
-#menu a.places:active {
+#menu a.places:active{
 	background-image:linear-gradient(to bottom, #fff 0%, #ffff85 100%);
 }*/
 
@@ -155,7 +155,7 @@ nav ul li ul a{border-radius:0;}
 #menu a.objects:focus, #menu a.objects:hover, #menu a.objects:active, 
 #menu a.solsys:focus, #menu a.solsys:hover, #menu a.solsys:active, 
 #menu a.const:focus, #menu a.const:hover, #menu a.const:active, 
-#menu a.stars:focus, #menu a.stars:hover, #menu a.stars:active {
+#menu a.stars:focus, #menu a.stars:hover, #menu a.stars:active{
 	background-image:linear-gradient(to bottom, #fff 0%, #ff85ff 100%);
 }*/
 
@@ -185,7 +185,7 @@ nav ul li ul a{border-radius:0;}
 }
 #menu a.register:focus,
 #menu a.register:hover,
-#menu a.register:active {
+#menu a.register:active{
 	background-image:linear-gradient(to top, #c0c0c0 0%, #fff 100%);
 }*/
 /*		Main -------------------------------------------------------------- */
@@ -279,10 +279,7 @@ main{
 #news{max-width:300px; float:right; padding:0 10px; overflow:scroll;}
 #news iframe{height:180px;}
 
-#boxContainer{
-	padding:10px 0; max-width:960px; clear:both; font-size:.8em;
-	border-bottom:1px solid #d0d0d0;
-}
+#boxContainer{padding:10px 0; max-width:960px; clear:both; font-size:.8em;}
 .box{padding:0 10px; float:left;}
 #boxLeft{max-width:300px;}
 #boxMid{max-width:298px; border-left:1px solid #d0d0d0; border-right:1px solid #d0d0d0;}
@@ -355,7 +352,7 @@ main{
 #letterLinks a{font-size:.8em;}
 #letterLinks a:focus, #letterLinks a:hover, #letterLinks a:active{font-size:1em;}
 .letter-section{padding-top:10px;}
-.letter-section:hover{background:#f0f0f0;}
+.letter-section:hover{background:#f4f4f4;}
 .first-letter{padding:10px; font-size:1.3em; font-weight:500;}
 /*
 input[type=checkbox]{margin:0 0 3px 5px; vertical-align:middle;}
@@ -367,7 +364,6 @@ input[type=checkbox]{margin:0 0 3px 5px; vertical-align:middle;}
 	border-bottom:1px solid #d0d0d0;
 }*/
 /*			dataTable backgrounds ------------------------------------------- */
-/*
 #timelineHeader{
 	background:url("/img/bg_timelinestart.png") no-repeat transparent;
 }
@@ -377,6 +373,7 @@ input[type=checkbox]{margin:0 0 3px 5px; vertical-align:middle;}
 #timelineFooter{
 	background:url("/img/bg_timelineend.png") no-repeat transparent;
 }
+/*
 #placesTable th, #missionsTable th, #constTable th, #starsHeader th{
 	background:url("/img/bg_order.png") right no-repeat transparent;
 }
@@ -401,11 +398,13 @@ input[type=checkbox]{margin:0 0 3px 5px; vertical-align:middle;}
 	background:url("/img/bg_order_desc1.png") right no-repeat transparent;
 }
 */
-/*
+
 .timelineRow:hover, .timelineRow:active, .timelineRow:focus,
-.missionsRow:hover, .missionsRow:active, .missionsRow:focus{background:#ffe2e2;}
-*/
-.personRow:focus, .personRow:hover, .personRow:active {background:#bafafa;}
+.missionsRow:hover, .missionsRow:active, .missionsRow:focus{
+	font-size:1.1em; background:#fff;
+}
+
+.personRow:focus, .personRow:hover, .personRow:active{background:#bafafa;}
 /*
 .placesRow:hover, .placesRow:active, .placesRow:focus{background:#ffffe2;}
 .objectsRow:hover, .objectsRow:active, .objectsRow:focus,
@@ -481,19 +480,19 @@ input[type=checkbox]{margin:0 0 3px 5px; vertical-align:middle;}
 
 
 /*			dataTable box-shadows ------------------------------------------- */
-/*
-.timelineRow:hover, .timelineRow:active, .timelineRow:focus,
-.placesRow:hover, .placesRow:active, .placesRow:focus,
-.objectsRow:hover, .objectsRow:active, .objectsRow:focus,
-.constRow:hover, .constRow:active, .constRow:focus,
-.starsRow:hover, .starsRow:active, .starsRow:focus,
-.missionsRow:hover, .missionsRow:active, .missionsRow:focus{
+
+.timelineRow:focus, .timelineRow:hover, .timelineRow:active, 
+.placesRow:focus, .placesRow:hover, .placesRow:active, 
+.objectsRow:focus, .objectsRow:hover, .objectsRow:active, 
+.constRow:focus, .constRow:hover, .constRow:active, 
+.starsRow:focus, .starsRow:hover, .starsRow:active, 
+.missionsRow:focus, .missionsRow:hover, .missionsRow:active{
 	box-shadow:0px 6px 6px -4px #999, 0px -6px 6px -4px #999;
 }
-*/
+
 .personRow:focus, .personRow:hover, .personRow:active, 
 .personInfoBox, .solsysInfoBox, .indexInfoBox,
-.indexRow:focus, .indexRow:hover, .indexRow:active {box-shadow:0px 6px 6px #999;}
+.indexRow:focus, .indexRow:hover, .indexRow:active{box-shadow:0px 6px 6px #999;}
 
 
 /*			dataTable measures ---------------------------------------------- */
@@ -507,26 +506,26 @@ input[type=checkbox]{margin:0 0 3px 5px; vertical-align:middle;}
 /*.firstLetterRow{padding:20px 5px 5px 10px;}*/
 /*.firstLetterArrow{margin-left:925px; text-align:right;}*/
 
-/*#timelineHeader, #timelineFooter, .timelineRow, 
+#timelineHeader, #timelineFooter, .timelineRow, 
 #placesHeader, .placesRow, 
 #constHeader, .constRow, 
 #starsHeader, .starsRow, 
-#missionsHeader, .missionsRow{height:20px; padding-top:5px; clear:left; display:block;}*/
+#missionsHeader, .missionsRow{height:20px; padding-top:5px; clear:left; display:block;}
 
-/*.timelineDate, .timelinePlace, .timelineEvent,
+.timelineDate, .timelinePlace, .timelineEvent,
 .placeName header, .placeName, .placeWhere header, .placeWhere,
 .placeWho header, .placeWho,
 #constTable th, #constTable td,
 #starsTable th, #starsTable td,
-#missionsTable th, #missionsTable td{float:left; overflow:hidden; white-space:nowrap;}*/
+#missionsTable th, #missionsTable td{float:left; overflow:hidden; white-space:nowrap;}
 
-/*.timelineDate{width:112px; padding-left:46px;}*/
-/*.timelinePlace{width:187px; padding-left:5px;}*/
-/*.timelineEvent{width:605px; padding-left:5px;}*/
+.timelineDate{width:112px; padding-left:46px;}
+.timelinePlace{width:187px; padding-left:5px;}
+.timelineEvent{width:605px; padding-left:5px;}
 
 .personRow, .indexRow{max-width:310px; line-height:1.5em; margin:0 5px; display:inline-block;}
 .personRow:focus, .personRow:hover, .personRow:active, 
-.indexRow:focus, .indexRow:hover, .indexRow:active {font-weight:700;}
+.indexRow:focus, .indexRow:hover, .indexRow:active{font-weight:700;}
 
 .personInfoBox, .solsysInfoBox, .indexInfoBox{
 	position:absolute; width:300px; margin:0; padding:3px; font-weight:normal;
@@ -608,7 +607,7 @@ th.missionDuration, td.missionDuration{width:105px; padding-right:3px;}*/
 #about ul li ul{padding-top:10px; font-size:.825em;}*/
 
 #notes{clear:left;}
-#notes p{padding:20px 10px;}
+#notes p{padding:20px 10px; font-size:.8em;}
 
 /*	Footer ------------------------------------------------------------------ */
 footer{
