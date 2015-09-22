@@ -7,7 +7,7 @@ export default class ChronicleComponent {
     let items = this.props.items;
     
     return (
-      <main role="main" className="pure-u-2-3">
+      <main role="main" className="pure-u-2-3 pure-u-lg-1">
         <div id="featured" className="chronicle center">
           <h1>Chronik</h1>
           <h3>Meilensteine der Astronomie und Raumfahrt</h3>
