@@ -1,35 +1,6 @@
 import React from 'react';
 import 'babel/polyfill';
 
-import Logo from './components/logo'
-import SocialButtons from './components/social-buttons'
-import Navigation from './components/navigation'
-import Home from './components/home';
-import Footer from './components/footer';
-
-import AppUrl from './appurl'
-
-let appUrl = new AppUrl();
-
-class Page {
-  render() {
-    
-    const siteComponent = this.props.siteComponent;
-    
-    return (
-      <div id="wrapper" className="pure-g">
-        <header className="pure-u-2-3 pure-u-lg-1">
-          <Logo/>
-          <SocialButtons/>
-          <Navigation appUrl={appUrl} />
-        </header>
-        {siteComponent}
-        <Footer />
-      </div>
-    )
-  }
-}
-
 const rerender = (siteComponent) => {
   React.render(<Page siteComponent={siteComponent} />, document.getElementById('app'));
 };
