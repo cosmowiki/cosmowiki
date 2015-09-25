@@ -1,3 +1,4 @@
+import React from 'react';
 import PeopleComponent from '../components/people';
 import {loadRemoteFile} from '../_external-deps/http-get';
 
