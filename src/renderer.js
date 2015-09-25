@@ -23,14 +23,15 @@ class Home {
   }
 }
 
+const urlToComponent = {
+  '/chronicle': Chronicle,
+  '/people': People,
+  '/astronomers': Astronomers,
+  '/astronauts': Astronauts,
+  '/': Home
+};
+
 function renderSite(path, onDone) {
-  const urlToComponent = {
-    '/chronicle': Chronicle,
-    '/people': People,
-    '/astronomers': Astronomers,
-    '/astronauts': Astronauts,
-    '/': Home
-  };
 
   for (let urlStart in urlToComponent) {
     if (path.startsWith(urlStart)) {
@@ -51,7 +52,10 @@ function renderAndStoreSite(path) {
   renderSite(path, renderedSite => {
     const pathToFile = pathJoin(__dirname, '../dist', path);
     mkdirp(pathToFile);
-    fs.writeFileSync(pathJoin(pathToFile, 'index.html'), placeInsideIndexHtml(renderedSite));
+    const destFile = pathJoin(pathToFile, 'index.html');
+    const htmlContent = placeInsideIndexHtml(renderedSite);
+    fs.writeFileSync(destFile, htmlContent);
+    console.log(`generated "${path}" into "${destFile}" (${Math.ceil(htmlContent.length / 1024)} kB)`);
   });
 }
 
@@ -60,8 +64,4 @@ function placeInsideIndexHtml(content) {
   return indexHtml.replace('<div id="app"></div>', content);
 }
 
-renderAndStoreSite('/');
-renderAndStoreSite('/chronicle');
-renderAndStoreSite('/people');
-renderAndStoreSite('/astronauts');
-renderAndStoreSite('/astronomers');
+Object.keys(urlToComponent).forEach(renderAndStoreSite);
