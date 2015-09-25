@@ -9,11 +9,11 @@ export default class AppUrl {
   }
   
   astronomersSite() {
-    return '#/astronomers'
+    return '/astronomers'
   }
   
   astronautsSite() {
-    return '#/astronauts'
+    return '/astronauts'
   }
   
 }

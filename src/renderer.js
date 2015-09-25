@@ -24,7 +24,9 @@ import Astronauts from './lexicon/astronauts';
 function renderSite(path, onDone) {
   const urlToComponent = {
     '/chronicle': Chronicle,
-    '/people': People
+    '/people': People,
+    '/astronomers': Astronomers,
+    '/astronauts': Astronauts,
   };
 
   for (let urlStart in urlToComponent) {
@@ -37,23 +39,6 @@ function renderSite(path, onDone) {
     }
   }
   onDone(rerender(<Home appUrl={appUrl} />));
-  
-  //if (path.startsWith('/people')) {
-  //  People.componentWithData((peopleComponent) => {
-  //    rerender(peopleComponent);
-  //  });
-  //}
-  //if (parsedUrl.hash.match(/^#\/astronomers/)) {
-  //  Astronomers.componentWithData((component) => {
-  //    rerender(component);
-  //  });
-  //}
-  //if (parsedUrl.hash.match(/^#\/astronauts/)) {
-  //  Astronauts.componentWithData((component) => {
-  //    rerender(component);
-  //  });
-  //} else {
-  //}
 }
 
 import fs from 'fs';
@@ -76,3 +61,5 @@ function placeInsideIndexHtml(content) {
 renderAndStoreSite('/');
 renderAndStoreSite('/chronicle');
 renderAndStoreSite('/people');
+renderAndStoreSite('/astronauts');
+renderAndStoreSite('/astronomers');
