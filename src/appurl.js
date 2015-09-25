@@ -1,7 +1,7 @@
 export default class AppUrl {
   
   chronicleSite() {
-    return '#/chronicle'
+    return '/chronicle'
   }
   
   peopleSite() {
