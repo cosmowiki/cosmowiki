@@ -44,6 +44,7 @@
     "google-spreadsheet-to-json": "^0.1.5",
     "hamjest": "^2.12.0",
     "http-server": "^0.8.0",
+    "mkdirp": "^0.5.1",
     "mocha": "^2.3.2",
     "parallelshell": "^2.0.0"
   },
