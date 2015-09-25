@@ -17,10 +17,6 @@ import People from './lexicon/people';
 import Astronomers from './lexicon/astronomers';
 import Astronauts from './lexicon/astronauts';
 
-//window.addEventListener('hashchange', ({newURL: newUrl}) => {
-//  renderSite(newUrl);  
-//});
-
 function renderSite(path, onDone) {
   const urlToComponent = {
     '/chronicle': Chronicle,
