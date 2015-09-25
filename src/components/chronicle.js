@@ -1,3 +1,4 @@
+import React from 'react';
 import Notes from './notes';
 
 export default class ChronicleComponent {
@@ -15,7 +16,7 @@ export default class ChronicleComponent {
         <div id="dataTable">
           <div id="timeline">
             <div id="timelineHeader"></div>
-            {items.map(item => <ItemComponent item={item} />)}
+            {items.map((item, idx) => <ItemComponent item={item} key={idx} />)}
             <div id="timelineFooter"></div>
           </div>
         </div>
