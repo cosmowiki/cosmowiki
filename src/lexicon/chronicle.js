@@ -1,30 +1,16 @@
+import React from 'react';
 import ChronicleComponent from '../components/chronicle';
+import fs from 'fs';
 
 export default class Chronicle {
   
   static componentWithData(onDone) {
-    Items.loadFromJsonFile('/data/chronicle.json', (data) => {
-      const component = <ChronicleComponent items={data} />;
-      onDone(component);
-    });    
+    const data = JSON.parse(fs.readFileSync('./data/chronicle.json'));
+    const items = data.map(raw => Item.fromRawData(raw));
+    const component = <ChronicleComponent items={items} />;
+    onDone(component);
   }
   
-}
-
-
-import {loadRemoteFile} from '../_external-deps/http-get';
-class Items {
-  static loadFromJsonFile(url, onDone, onError) {
-    loadRemoteFile(url, (err, data) => {
-      if (err) {
-        console.log(`Error loading data from ${url}, ${err}`);
-      } else {
-
-        const items = JSON.parse(data).map(raw => Item.fromRawData(raw));
-        onDone(items);
-      }
-    });
-  }
 }
 
 class Item {
