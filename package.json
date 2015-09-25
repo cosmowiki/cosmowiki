@@ -20,7 +20,7 @@
     "build:data": "cp -R data dist",
     "build:css": "cp -R src/css dist",
     "build:img": "cp -R src/img dist",
-    "build:app": "browserify src/index.js --outfile=dist/index.min.js --transform=babelify",
+    "build:app": "browserify src/index.js --outfile=dist/index.min.js --transform=babelify; babel-node src/renderer.js",
     "build-for-offline": "rm -R dist; npm run build; npm run modify-for-offline",
     "watch:build": "npm run build; parallelshell 'npm run watch:build:app' 'npm run watch:build:html' 'npm run watch:build:data' 'npm run watch:build:css' 'npm run watch:build:img'",
     "watch:build-build-for-offline": "npm run build-for-offline; parallelshell 'npm run watch:build:app' 'npm run watch:build:html-for-offline' 'npm run watch:build:data' 'npm run watch:build:css' 'npm run watch:build:img'",
