@@ -64,7 +64,7 @@ class PersonGroupComponent {
     
     return (
       <div id={groupKey} className="pure-u-1 letter-section">
-        <a className="first-letter" name={`#/people/${groupKey}`}>{groupKey}</a><br />
+        <a className="first-letter" name={`#${groupKey}`}>{groupKey}</a><br />
         {people.map((person, idx) => <PersonComponent person={person} key={idx} />)}
       </div>      
     );
