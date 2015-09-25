@@ -11,11 +11,17 @@ const rerender = (siteComponent) => {
 import {parse as parseUrl} from 'url';
 import PageComponent from './components/page';
 
-import Home from './components/home';
+import HomeComponent from './components/home';
 import Chronicle from './lexicon/chronicle';
 import People from './lexicon/people';
 import Astronomers from './lexicon/astronomers';
 import Astronauts from './lexicon/astronauts';
+
+class Home {
+  static componentWithData(onDone) {
+    onDone(<HomeComponent appUrl={appUrl} />);
+  }
+}
 
 function renderSite(path, onDone) {
   const urlToComponent = {
@@ -23,6 +29,7 @@ function renderSite(path, onDone) {
     '/people': People,
     '/astronomers': Astronomers,
     '/astronauts': Astronauts,
+    '/': Home
   };
 
   for (let urlStart in urlToComponent) {
@@ -34,7 +41,6 @@ function renderSite(path, onDone) {
       return;
     }
   }
-  onDone(rerender(<Home appUrl={appUrl} />));
 }
 
 import fs from 'fs';
