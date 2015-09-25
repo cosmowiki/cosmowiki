@@ -5,7 +5,7 @@ export default class AppUrl {
   }
   
   peopleSite() {
-    return '#/people'
+    return '/people'
   }
   
   astronomersSite() {

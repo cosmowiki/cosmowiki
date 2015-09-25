@@ -1,4 +1,5 @@
 import React from 'react';
+import fs from 'fs';
 import PeopleComponent from '../components/people';
 import {loadRemoteFile} from '../_external-deps/http-get';
 
@@ -9,10 +10,9 @@ export default class People {
   }
 
   load(onDone) {
-    loadFromJsonFile(people => {
-      this.people = people;
-      onDone();
-    });    
+    const data = fs.readFileSync('./data/people.json');
+    this.people = JSON.parse(data).map(raw => Person.fromRawData(raw));
+    onDone();
   }
   
   static componentWithData(onDone) {

@@ -22,11 +22,22 @@ import Astronauts from './lexicon/astronauts';
 //});
 
 function renderSite(path, onDone) {
-  if (path.startsWith('/chronicle')) {
-    Chronicle.componentWithData((chronicleComponent) => {
-      onDone(rerender(chronicleComponent));
-    });
-  //}
+  const urlToComponent = {
+    '/chronicle': Chronicle,
+    '/people': People
+  };
+
+  for (let urlStart in urlToComponent) {
+    if (path.startsWith(urlStart)) {
+      const componentClass = urlToComponent[urlStart];
+      componentClass.componentWithData((component) => {
+        onDone(rerender(component));
+      });
+      return;
+    }
+  }
+  onDone(rerender(<Home appUrl={appUrl} />));
+  
   //if (path.startsWith('/people')) {
   //  People.componentWithData((peopleComponent) => {
   //    rerender(peopleComponent);
@@ -41,9 +52,8 @@ function renderSite(path, onDone) {
   //  Astronauts.componentWithData((component) => {
   //    rerender(component);
   //  });
-  } else {
-    onDone(rerender(<Home appUrl={appUrl} />));
-  }
+  //} else {
+  //}
 }
 
 import fs from 'fs';
@@ -65,3 +75,4 @@ function placeInsideIndexHtml(content) {
 
 renderAndStoreSite('/');
 renderAndStoreSite('/chronicle');
+renderAndStoreSite('/people');
