@@ -47,13 +47,17 @@ function renderSite(path, onDone) {
 import fs from 'fs';
 import mkdirp from 'mkdirp';
 import {join as pathJoin} from 'path';
+import {useOfflineUrls} from './scripts/make-urls-offline';
 
-function renderAndStoreSite(path) {
+function renderAndStoreSite(forOffline, path) {
   renderSite(path, renderedSite => {
     const pathToFile = pathJoin(__dirname, '../dist', path);
     mkdirp(pathToFile);
     const destFile = pathJoin(pathToFile, 'index.html');
-    const htmlContent = placeInsideIndexHtml(renderedSite);
+    let htmlContent = placeInsideIndexHtml(renderedSite);
+    if (forOffline) {
+      htmlContent = useOfflineUrls(htmlContent);
+    }
     fs.writeFileSync(destFile, htmlContent);
     console.log(`generated "${path}" into "${destFile}" (${Math.ceil(htmlContent.length / 1024)} kB)`);
   });
@@ -64,4 +68,5 @@ function placeInsideIndexHtml(content) {
   return indexHtml.replace('<div id="app"></div>', content);
 }
 
-Object.keys(urlToComponent).forEach(renderAndStoreSite);
+const renderForOffline = process.argv.includes('--for-offline=1');
+Object.keys(urlToComponent).forEach(renderAndStoreSite.bind(null, renderForOffline));
