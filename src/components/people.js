@@ -97,7 +97,7 @@ class PersonComponent extends React.Component {
         <div className="personItem">
           <a onMouseOver={showDetails} onMouseOut={hideDetails} href={person.wikipediaUrl}>{person.name}</a>
         </div>
-        <div id={person.name} className={classNames(cssClasses)}>
+        <div className={classNames(cssClasses)}>
           <div className="personProfession">{person.profession}</div>
           <div className="personLife">
             {person.born ? `∗ ${person.born}` : ''} &nbsp;
