@@ -1,3 +1,4 @@
+import React from 'react';
 import Notes from './notes';
 
 export default class PeopleComponent {
@@ -8,10 +9,10 @@ export default class PeopleComponent {
     const allFirstLetters = groupedPeople.map(group => group.key);
     
     return (
-      <main role="main" className="pure-u-2-3">
+      <main role="main" className="pure-u-2-3 pure-u-lg-1">
         <div id="featured" className="persons center">
           <h1>Personen</h1>
-          <p>Entdecker, Pioniere, Wissenschaftler</p>
+          <h3>Entdecker, Pioniere, Wissenschaftler</h3>
         </div>
         
         <LetterLinks letters={allFirstLetters} />
@@ -20,7 +21,7 @@ export default class PeopleComponent {
           <div id="personTable">
             <div className="firstLetterRow">
             </div>
-            {groupedPeople.map(group => <PersonGroupComponent group={group} />)}
+            {groupedPeople.map((group, idx) => <PersonGroupComponent group={group} key={idx} />)}
           </div>
         </div>
         <div id="notes">
@@ -39,7 +40,7 @@ class LetterLinks {
     const lastIndex = letters.length - 1;
     return (
       <div id="letterLinks" className="person center">
-        {letters.map((letter, index) => <Letter letter={letter} isLast={index == lastIndex} />)}
+        {letters.map((letter, index) => <Letter letter={letter} isLast={index == lastIndex} key={index} />)}
       </div>
     );
   }
@@ -62,9 +63,9 @@ class PersonGroupComponent {
     const people = group.people;
     
     return (
-      <div className="pure-u-1">
-        <a name={`#/people/${groupKey}`}>{groupKey}</a><br />
-        {people.map(person => <PersonComponent person={person} />)}
+      <div id={groupKey} className="pure-u-1 letter-section">
+        <a className="first-letter" name={`#${groupKey}`}>{groupKey}</a><br />
+        {people.map((person, idx) => <PersonComponent person={person} key={idx} />)}
       </div>      
     );
   }
@@ -92,11 +93,11 @@ class PersonComponent extends React.Component {
     cssClasses.push(this.state.detailsVisible ? 'visible' : 'hidden');
     
     return (
-      <div className="personRow pure-u-1 pure-u-md-1-3">
+      <div className="personRow pure-u-1 pure-u-lg-1-3 pure-u-md-1-2">
         <div className="personItem">
           <a onMouseOver={showDetails} onMouseOut={hideDetails} href={person.wikipediaUrl}>{person.name}</a>
         </div>
-        <div id={person.name} className={classNames(cssClasses)}>
+        <div className={classNames(cssClasses)}>
           <div className="personProfession">{person.profession}</div>
           <div className="personLife">
             {person.born ? `∗ ${person.born}` : ''} &nbsp;

@@ -1,9 +1,10 @@
+import React from 'react';
 export default class Home {
 
   render() {
 
     return (
-      <footer className="pure-u-2-3 center">
+      <footer className="pure-u-2-3 pure-u-lg-1 center">
         <ul>
           <li>
             <div className="shariff" data-theme="grey"

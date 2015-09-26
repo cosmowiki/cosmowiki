@@ -1,3 +1,4 @@
+import React from 'react';
 import Notes from './notes';
 
 export default class ChronicleComponent {
@@ -7,15 +8,15 @@ export default class ChronicleComponent {
     let items = this.props.items;
     
     return (
-      <main role="main" className="pure-u-2-3">
+      <main role="main" className="pure-u-2-3 pure-u-lg-1">
         <div id="featured" className="chronicle center">
           <h1>Chronik</h1>
-          <p>Meilensteine der Astronomie und Raumfahrt</p>
+          <h3>Meilensteine der Astronomie und Raumfahrt</h3>
         </div>
         <div id="dataTable">
           <div id="timeline">
             <div id="timelineHeader"></div>
-            {items.map(item => <ItemComponent item={item} />)}
+            {items.map((item, idx) => <ItemComponent item={item} key={idx} />)}
             <div id="timelineFooter"></div>
           </div>
         </div>
