@@ -50,7 +50,7 @@ const urlToComponent = {
   '/astronomers': {klass: Astronomers, fileName: 'data/people.json'},
   '/astronauts': {klass: Astronauts, fileName: 'data/people.json'},
   '/solar-system': {klass: SolarSystem},
-  '/constellations': {klass: Constellations},
+  '/constellations': {klass: Constellations, fileName: 'data/constellations.json'},
   '/objects': {klass: Objects},
   '/': {klass: Home}
 };

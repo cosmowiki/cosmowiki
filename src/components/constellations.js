@@ -1,9 +1,10 @@
 import React from 'react';
 import {ConstellationNotes} from './notes';
 
-export default class SolarSystemComponent {
+export default class ConstellationsComponent {
 
   render() {
+    const {constellations} = this.props;
     return (
       <main role="main" className="pure-u-2-3">
         <div id="featured" className="const center">
@@ -40,6 +41,7 @@ export default class SolarSystemComponent {
               </tr>
             </thead>
             <tbody>
+              {constellations.map((constellation, idx) => <ConstellationComponent constellation={constellation} key={idx} />)}
             </tbody>
           </table>
         </div>
@@ -49,32 +51,27 @@ export default class SolarSystemComponent {
   }
 }
 
-//$query = "SELECT constName, constLink, constMapLink, constListLink, constLatin,
-//constShort, constAuthor, constAuthorLink, constY, constSphere, constVisFrom,
-//constVisTo, constSqDeg, starsOver3Mag, starsOver4Mag, constMagMax,
-//constBrightStar, constBrightStarLink
-//FROM constellations ORDER by constName";
-//if ($result = mysqli_query($link, $query)) {
-//// fetch object array
-//	while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
-//// set SPACE for every value = 0
-//		foreach ($row as $key => $value) {
-//			if (empty($value)) {
-//				$row[$key] = '&nbsp;';
-//			}
-//		}
-//		echo "<tr className="constRow\">
-//			<td className="constName\"><a href=$row[constLink]>$row[constName]</a></td>
-//			<td className="constLatin\">$row[constLatin]</td>
-//			<td className="constShort\">$row[constShort]</td>
-//			<td className="constAuthor\"><a href=$row[constAuthorLink]>$row[constAuthor]</a></td>
-//			<td className="constY\">$row[constY]</td>
-//			<td className="constSphere\">$row[constSphere]</td>
-//			<td className="constVisFrom\">$row[constVisFrom]</td>
-//			<td className="constVisTo\">$row[constVisTo]</td>
-//			<td className="constSqDeg\">$row[constSqDeg]</td>
-//			<td className="starsOver3Mag center\">$row[starsOver3Mag]</td>
-//			<td className="starsOver4Mag center\">$row[starsOver4Mag]</td>
-//			<td className="constBrightStar\"><a href=$row[constBrightStarLink]>$row[constBrightStar]</a></td>
-//			<td className="constMagMax\">$row[constMagMax]</td>
-//		</tr>";
+class ConstellationComponent {
+  
+  render() {
+    const {constellation:item} = this.props;
+    return (
+      <tr className="constRow">
+  			<td className="constName"><a href={item.wikipediaUrl}>{item.name}</a></td>
+  			<td className="constLatin">$row[constLatin]</td>
+  			<td className="constShort">$row[constShort]</td>
+  			<td className="constAuthor"><a href={item.author.wikipediaUrl}>{item.author.name}</a></td>
+  			<td className="constY">$row[constY]</td>
+  			<td className="constSphere">$row[constSphere]</td>
+  			<td className="constVisFrom">$row[constVisFrom]</td>
+  			<td className="constVisTo">$row[constVisTo]</td>
+  			<td className="constSqDeg">$row[constSqDeg]</td>
+  			<td className="starsOver3Mag center">$row[starsOver3Mag]</td>
+  			<td className="starsOver4Mag center">$row[starsOver4Mag]</td>
+  			<td className="constBrightStar"><a href={item.brightStar.wikipediaUrl}>{item.brightStar.name}</a></td>
+  			<td className="constMagMax">$row[constMagMax]</td>
+  		</tr>
+    );
+  }
+  
+}
