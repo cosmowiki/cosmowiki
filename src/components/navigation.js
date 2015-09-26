@@ -38,7 +38,7 @@ export default class Navigation {
                 <a className="pure-menu-link sub-menu-item objects" href={appUrl.starsSite()}>Sterne</a>
               </li>
               <li className="pure-menu-item">
-                <a className="pure-menu-link sub-menu-item objects" href={appUrl.stationsSite()}>Raumstationen</a>
+                <a className="pure-menu-link sub-menu-item objects" href={appUrl.spaceStationsSite()}>Raumstationen</a>
               </li>
             </ul>
           </li>

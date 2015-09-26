@@ -32,8 +32,8 @@ export default class AppUrl {
     return '/stars'
   }
   
-  stationsSite() {
-    return '/stations'
+  spaceStationsSite() {
+    return '/space-stations'
   }
   
 }

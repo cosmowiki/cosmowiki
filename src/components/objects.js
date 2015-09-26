@@ -22,7 +22,7 @@ export default class ObjectsComponent {
           <a href={appUrl.starsSite()}>Sterne</a>
         </div>
         <div className="cw-page-links objects stations center">
-          <a href={appUrl.stationsSite()}>Raumstationen</a>
+          <a href={appUrl.spaceStationsSite()}>Raumstationen</a>
         </div>
       </main>
     );
