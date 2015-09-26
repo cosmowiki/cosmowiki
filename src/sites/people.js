@@ -70,4 +70,5 @@ export class Person {
   
 }
 Person.ASTRONOMER = 1;
-Person.ASTRONAUTS = 2;
+Person.ASTRONAUT = 2;
+Person.ASTRONOMER_AND_ASTRONAUT = 3;
