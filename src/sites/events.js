@@ -1,6 +1,5 @@
 import React from 'react';
 import ChronicleComponent from '../components/chronicle';
-import fs from 'fs';
 
 export default class Events {
   
