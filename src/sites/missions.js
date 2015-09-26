@@ -4,7 +4,7 @@ import MissionsComponent from '../components/missions';
 export default class Missions {
   
   static componentWithData(missions) {
-    return <MissionsComponent stars={missions} />;
+    return <MissionsComponent missions={missions} />;
   }
 
   static fromRawData(rawData) {

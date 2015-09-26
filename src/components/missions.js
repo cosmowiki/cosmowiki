@@ -1,5 +1,5 @@
 import React from 'react';
-import {StarNotes} from './notes';
+import Notes from './notes';
 
 export default class MissionsComponent {
 
@@ -13,10 +13,10 @@ export default class MissionsComponent {
         </div>
         <div id="filter" className="missions">
           <form id="filterCountry">
-            <span style="font-weight: bold; ">filtern nach L&auml;ndern:</span>
+            <span>filtern nach Ländern:</span>
           </form>
           <form id="filterDestination">
-            <span style="font-weight: bold; ">filtern nach Zielen:</span>
+            <span>filtern nach Zielen:</span>
           </form>
         </div>
         <div id="dataTable" className="missions">
@@ -26,7 +26,7 @@ export default class MissionsComponent {
               <th className="missionLaunch center">Start</th>
               <th className="missionName left">Name</th>
               <th className="missionCountry left">Land</th>
-              <th className="missionRocket left">Tr&auml;ger</th>
+              <th className="missionRocket left">Träger</th>
               <th className="missionPad left">Startplatz</th>
               <th className="missionDest left">Ziel</th>
               <th className="missionCrew left">Crew</th>
