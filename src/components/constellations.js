@@ -58,18 +58,18 @@ class ConstellationComponent {
     return (
       <tr className="constRow">
   			<td className="constName"><a href={item.wikipediaUrl}>{item.name}</a></td>
-  			<td className="constLatin">$row[constLatin]</td>
-  			<td className="constShort">$row[constShort]</td>
+  			<td className="constLatin">{item.latinName}</td>
+  			<td className="constShort">{item.shortName}</td>
   			<td className="constAuthor"><a href={item.author.wikipediaUrl}>{item.author.name}</a></td>
-  			<td className="constY">$row[constY]</td>
-  			<td className="constSphere">$row[constSphere]</td>
-  			<td className="constVisFrom">$row[constVisFrom]</td>
-  			<td className="constVisTo">$row[constVisTo]</td>
-  			<td className="constSqDeg">$row[constSqDeg]</td>
-  			<td className="starsOver3Mag center">$row[starsOver3Mag]</td>
-  			<td className="starsOver4Mag center">$row[starsOver4Mag]</td>
+  			<td className="constY">{item.y}</td>
+  			<td className="constSphere">{item.sphere}</td>
+  			<td className="constVisFrom">{item.visFrom}</td>
+  			<td className="constVisTo">{item.visTo}</td>
+  			<td className="constSqDeg">{item.sqDeg}</td>
+  			<td className="starsOver3Mag center">{item.starsOver3Mag}</td>
+  			<td className="starsOver4Mag center">{item.starsOver4Mag}</td>
   			<td className="constBrightStar"><a href={item.brightStar.wikipediaUrl}>{item.brightStar.name}</a></td>
-  			<td className="constMagMax">$row[constMagMax]</td>
+  			<td className="constMagMax">{item.magMax}</td>
   		</tr>
     );
   }

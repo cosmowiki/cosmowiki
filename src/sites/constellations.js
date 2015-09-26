@@ -18,9 +18,19 @@ class Constellation {
   static fromRawData(raw) {
     const item = new Constellation();
     item.name = raw.constname;
+    item.latinName = raw.constlatin;
+    item.shortName = raw.constshort;
     item.wikipediaUrl = raw.constlink;
     item.author = Author.fromRawData(raw);
     item.brightStar = Star.fromRawData(raw);
+    item.y = raw.consty;
+    item.sphere = raw.constsphere;
+    item.visFrom = raw.constvisfrom; // TODO better name please!!!
+    item.visTo = raw.constvisto; // TODO better name please!!!
+    item.sqDeg = raw.constsqdeg; // TODO better name please!!!
+    item.starsOver3Mag = raw['stars>3mag'];
+    item.starsOver4Mag = raw['stars>4mag'];
+    item.magMax = raw.constmagmax;
     return item;
   }
   
