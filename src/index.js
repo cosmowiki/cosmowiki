@@ -59,19 +59,18 @@ import Astronauts from './sites/astronauts';
 const createStaticSites = process.argv.includes('--makes-static-sites');
 const renderForOffline = process.argv.includes('--for-offline=1');
 
-function loadViaHttp(onDone, onError) {
-  const url = '/data/chronicle.json';
-  loadRemoteFile(url, (err, data) => {
+function loadViaHttp(fileName, onDone, onError) {
+  loadRemoteFile(`/${fileName}`, (err, data) => {
     if (err) {
-      console.log(`Error loading data from ${url}, ${err}`);
+      console.log(`Error loading data from ${fileName}, ${err}`);
     } else {
       onDone(JSON.parse(data));
     }
   });
 }
 
-function loadFromFs(onDone, onError) {
-  const data = JSON.parse(fs.readFileSync('./data/chronicle.json'));
+function loadFromFs(fileName, onDone, onError) {
+  const data = JSON.parse(fs.readFileSync(`./${fileName}`));
   onDone(data);
 }
 
@@ -87,23 +86,31 @@ const rerender = siteComponent => {
 };
 
 const urlToComponent = {
-  '/chronicle': Events,
-  //'/people': People,
-  //'/astronomers': Astronomers,
-  //'/astronauts': Astronauts,
-  '/': Home
+  '/chronicle': {klass: Events, fileName: 'data/chronicle.json'},
+  '/people': {klass: People, fileName: 'data/people.json'},
+  '/astronomers': {klass: Astronomers, fileName: 'data/people.json'},
+  '/astronauts': {klass: Astronauts, fileName: 'data/people.json'},
+  '/': {klass: Home}
 };
 
 function renderSite(path, onDone) {
 
+  function withRawData(componentClass, rawData) {
+    const data = componentClass.fromRawData(rawData);
+    const component = componentClass.componentWithData(data, appUrl);
+    onDone(rerender(component));
+  }
+  
   for (let urlStart in urlToComponent) {
     if (path.startsWith(urlStart)) {
-      const componentClass = urlToComponent[urlStart];
-      loadFunction(rawData => {
-        const data = componentClass.fromRawData(rawData);
-        const component = componentClass.componentWithData(data, appUrl);
-        onDone(rerender(component));
-      });
+      const curItem = urlToComponent[urlStart];
+      const componentClass = curItem.klass;
+      const fileName = curItem.fileName;
+      if (fileName) {
+        loadFunction(fileName, withRawData.bind(null, componentClass));
+      } else {
+        withRawData(componentClass);
+      }
       return;
     }
   }

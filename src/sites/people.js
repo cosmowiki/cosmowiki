@@ -5,34 +5,24 @@ import {loadRemoteFile} from '../_external-deps/http-get';
 
 export default class People {
   
-  constructor() {
-    this.people = [];
-  }
-
-  load(onDone) {
-    const data = fs.readFileSync('./data/people.json');
-    this.people = JSON.parse(data).map(raw => Person.fromRawData(raw));
-    onDone();
+  static fromRawData(rawData) {
+    return rawData.map(raw => Person.fromRawData(raw))
   }
   
-  static componentWithData(onDone) {
-    let people = new People();
-    people.load(() => {
-      const groups = people.groupByFirstLetter();
-      const component = <PeopleComponent groupedPeople={groups} />;
-      onDone(component);
-    });    
+  static componentWithData(people) {
+    const groups = People.groupByFirstLetter(people);
+    return <PeopleComponent groupedPeople={groups} />;
   }
 
-  groupByFirstLetter() {
-    const groupedPeople = this.groupedPeople();
+  static groupByFirstLetter(people) {
+    const groupedPeople = People.groupedPeople(people);
     return Object.keys(groupedPeople)
       .map(key => groupedPeople[key]);
   }
   
-  groupedPeople() {
+  static groupedPeople(people) {
     let grouped = {};
-    this.people
+    people
       .map(({name}) => name[0].toUpperCase())
       .filter(firstLetter => !grouped[firstLetter])
       .forEach(firstLetter => grouped[firstLetter] = {
@@ -40,7 +30,7 @@ export default class People {
         people: []
       });
     
-    this.people.forEach(person => {
+    people.forEach(person => {
       const key = person.name[0].toUpperCase();
       grouped[key].people.push(person);
     });
@@ -83,17 +73,3 @@ export class Person {
 }
 Person.ASTRONOMER = 1;
 Person.ASTRONAUTS = 2;
-
-function loadFromJsonFile(onDone, onError) {
-  const url = '/data/people.json';
-  loadRemoteFile(url, (err, data) => {
-    if (err) {
-      console.log(`Error loading data from ${url}, ${err}`);
-    } else {
-
-      const items = JSON.parse(data).map(raw => Person.fromRawData(raw));
-      onDone(items);
-    }
-  });
-}
-
