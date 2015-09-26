@@ -48,8 +48,11 @@ class LetterLinks {
 class Letter {
   render() {
     const {letter, isLast} = this.props;
-    const visibleString = isLast ? letter : letter + ' - ';
-    return (<a href={`#${letter}`}>{visibleString}</a>)
+    return (
+      <span>
+        <a href={`#${letter}`}>{letter}</a>{isLast ? '' : ' - '}
+      </span>
+    )
   }
 }
 
