@@ -24,9 +24,7 @@ export default class PeopleComponent {
             {groupedPeople.map((group, idx) => <PersonGroupComponent group={group} key={idx} />)}
           </div>
         </div>
-        <div id="notes">
-          <Notes />
-        </div>
+        <Notes />
       </main>    
     );
   }

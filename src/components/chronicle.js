@@ -20,9 +20,7 @@ export default class ChronicleComponent {
             <div id="timelineFooter"></div>
           </div>
         </div>
-        <div id="notes">
-          <Notes />
-        </div>
+        <Notes />
       </main>
     )
   }
