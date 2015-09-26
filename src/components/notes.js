@@ -31,6 +31,36 @@ const constellationNotes = (
   </ol>
 );
 
+const starNotes = (
+  <ol className="small">
+    <li>
+      α = Alpha, β = Beta, γ = Gamma, δ = Delta, ε = Epsilon, ζ = Zeta, η = Eta, θ = Theta, ι = Iota, κ = Kappa, λ = Lambda,
+      μ = My, ν = Ny, ξ = Xi, ο = Omikron, π = Pi, ρ = Rho, σ = Sigma, τ = Tau, υ = Ypsilon, φ = Phi, χ = Chi, ψ = Psi, ω = Omega
+    </li>
+    <li>
+      Rekt = <a href="https://de.wikipedia.org/wiki/Rektaszension" target="_blank" title="Rektaszension">Rektaszension</a>
+    </li>
+    <li>
+      Dekli = <a href="https://de.wikipedia.org/wiki/Deklination_(Astronomie)" target="_blank" title="Deklination">Deklination</a>
+    </li>
+    <li>
+      mag = <a href="https://de.wikipedia.org/wiki/Scheinbare_Helligkeit" target="_blank" title="scheinbare Helligkeit">scheinbare Helligkeit</a> in mag
+    </li>
+    <li>
+      Klasse = <a href="https://de.wikipedia.org/wiki/Spektralklasse" target="_blank" title="Spektralklasse">Spektralklasse</a>
+    </li>
+    <li>
+      Lj = <a href="https://de.wikipedia.org/wiki/Lichtjahr" target="_blank" title="Lichtjahr">Entfernung Erde-Stern in Lichtjahren</a>
+    </li>
+    <li>
+      M<sub>&#9737;</sub> = <a href="https://de.wikipedia.org/wiki/Sonnenmasse" target="_blank" title="Sonnenmassen">Sonnenmassen</a>
+    </li>
+    <li>
+      R<sub>&#9737;</sub> = <a href="https://de.wikipedia.org/wiki/Sonnenradius" target="_blank" title="Sonnenradien">Sonnenradien</a>
+    </li>
+  </ol>
+);
+
 export default class Notes {
 
   render() {
@@ -50,6 +80,20 @@ export class ConstellationNotes {
       <div id="notes">
         {defaultNotes}
         {constellationNotes}
+      </div>
+      
+    );
+  }
+  
+}
+
+export class StarNotes {
+  
+  render() {
+    return (
+      <div id="notes">
+        {defaultNotes}
+        {starNotes}
       </div>
       
     );
