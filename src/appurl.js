@@ -36,4 +36,8 @@ export default class AppUrl {
     return '/space-stations'
   }
   
+  missionsSite() {
+    return '/missions'
+  }
+  
 }

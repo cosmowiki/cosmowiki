@@ -66,7 +66,7 @@ export default class Navigation {
                 <a className="pure-menu-link sub-menu-item spaceflight" href={appUrl.astronautsSite()}>Raumfahrer</a>
               </li>
               <li className="pure-menu-item">
-                <a className="pure-menu-link sub-menu-item spaceflight" href="missions.php">Missionen</a>
+                <a className="pure-menu-link sub-menu-item spaceflight" href={appUrl.missionsSite()}>Missionen</a>
               </li>
               <li className="pure-menu-item">
                 <a className="pure-menu-link sub-menu-item spaceflight" href={appUrl.spaceStationsSite()}>Raumstationen</a>
