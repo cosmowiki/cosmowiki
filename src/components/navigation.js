@@ -46,16 +46,16 @@ export default class Navigation {
             <a className="pure-menu-link menu-item astronomy" href="astronomy.php">Astronomie</a>
             <ul className="pure-menu-children sub-menu astronomy">
               <li className="pure-menu-item">
-                <a className="pure-menu-link sub-menu-item astronomy" href="astronomers.php">Astronomen</a>
+                <a className="pure-menu-link sub-menu-item astronomy" href={appUrl.astronomersSite()}>Astronomen</a>
               </li>
               <li className="pure-menu-item">
-                <a className="pure-menu-link sub-menu-item astronomy" href="solsys.php">Sonnensystem</a>
+                <a className="pure-menu-link sub-menu-item astronomy" href={appUrl.solarSystemSite()}>Sonnensystem</a>
               </li>
               <li className="pure-menu-item">
-                <a className="pure-menu-link sub-menu-item astronomy" href="constellations.php">Sternbilder</a>
+                <a className="pure-menu-link sub-menu-item astronomy" href={appUrl.constellationsSite()}>Sternbilder</a>
               </li>
               <li className="pure-menu-item">
-                <a className="pure-menu-link sub-menu-item astronomy" href="stars.php">Sterne</a>
+                <a className="pure-menu-link sub-menu-item astronomy" href={appUrl.starsSite()}>Sterne</a>
               </li>
             </ul>
           </li>
@@ -63,13 +63,13 @@ export default class Navigation {
             <a className="pure-menu-link menu-item spaceflight" href="spaceflight.php">Raumfahrt</a>
             <ul className="pure-menu-children sub-menu spaceflight">
               <li className="pure-menu-item">
-                <a className="pure-menu-link sub-menu-item spaceflight" href="astronauts.php">Raumfahrer</a>
+                <a className="pure-menu-link sub-menu-item spaceflight" href={appUrl.astronautsSite()}>Raumfahrer</a>
               </li>
               <li className="pure-menu-item">
                 <a className="pure-menu-link sub-menu-item spaceflight" href="missions.php">Missionen</a>
               </li>
               <li className="pure-menu-item">
-                <a className="pure-menu-link sub-menu-item spaceflight" href="stations.php">Raumstationen</a>
+                <a className="pure-menu-link sub-menu-item spaceflight" href={appUrl.spaceStationsSite()}>Raumstationen</a>
               </li>
             </ul>
           </li>
