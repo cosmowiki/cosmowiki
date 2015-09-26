@@ -51,16 +51,39 @@ import AppUrl from './appurl'
 import PageComponent from './components/page';
 
 import Home from './sites/home';
-import Chronicle from './sites/events';
+import Events from './sites/events';
 import People from './sites/people';
 import Astronomers from './sites/astronomers';
 import Astronauts from './sites/astronauts';
 
+const createStaticSites = process.argv.includes('--makes-static-sites');
+const renderForOffline = process.argv.includes('--for-offline=1');
+
+function loadViaHttp(onDone, onError) {
+  const url = '/data/chronicle.json';
+  loadRemoteFile(url, (err, data) => {
+    if (err) {
+      console.log(`Error loading data from ${url}, ${err}`);
+    } else {
+      onDone(JSON.parse(data));
+    }
+  });
+}
+
+function loadFromFs(onDone, onError) {
+  const data = JSON.parse(fs.readFileSync('./data/chronicle.json'));
+  onDone(data);
+}
+
+const loadFunction = createStaticSites ? loadFromFs : loadViaHttp;
 let appUrl = new AppUrl();
 
-const rerender = (siteComponent) => {
-  const rendered = React.renderToString(<PageComponent siteComponent={siteComponent} appUrl={appUrl} />);
-  return rendered;
+const rerender = siteComponent => {
+  const site = <PageComponent siteComponent={siteComponent} appUrl={appUrl} />;
+  if (createStaticSites) {
+    return React.renderToString(site);
+  }
+  React.render(site, document.getElementById('app'));
 };
 
 const urlToComponent = {
@@ -76,9 +99,11 @@ function renderSite(path, onDone) {
   for (let urlStart in urlToComponent) {
     if (path.startsWith(urlStart)) {
       const componentClass = urlToComponent[urlStart];
-      componentClass.componentWithData((component) => {
+      loadFunction(rawData => {
+        const data = componentClass.fromRawData(rawData);
+        const component = componentClass.componentWithData(data, appUrl);
         onDone(rerender(component));
-      }, appUrl);
+      });
       return;
     }
   }
@@ -105,11 +130,9 @@ function renderAndStoreSite(forOffline, path) {
 
 function placeInsideIndexHtml(content) {
   const indexHtml = fs.readFileSync(pathJoin(__dirname, 'index.html'), 'utf8');
-  return indexHtml.replace('<div id="app"></div>', content);
+  return indexHtml.replace('<div id="app"></div>', `<div id="app">${content}</div>`);
 }
 
-const renderForOffline = process.argv.includes('--for-offline=1');
-const createStaticSites = process.argv.includes('--makes-static-sites');
 if (createStaticSites) {
   Object.keys(urlToComponent).forEach(renderAndStoreSite.bind(null, renderForOffline));
 }

@@ -4,11 +4,12 @@ import fs from 'fs';
 
 export default class Events {
   
-  static componentWithData(onDone) {
-    const data = JSON.parse(fs.readFileSync('./data/chronicle.json'));
-    const items = data.map(raw => Event.fromRawData(raw));
-    const component = <ChronicleComponent items={items} />;
-    onDone(component);
+  static componentWithData(events) {
+    return <ChronicleComponent items={events} />;
+  }
+
+  static fromRawData(rawData) {
+    return rawData.map(raw => Event.fromRawData(raw))
   }
   
 }

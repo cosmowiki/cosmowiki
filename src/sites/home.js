@@ -2,7 +2,8 @@ import React from 'react';
 import HomeComponent from '../components/home';
 
 export default class Home {
-  static componentWithData(onDone, appUrl) {
-    onDone(<HomeComponent appUrl={appUrl} />);
+  static componentWithData(_, appUrl) {
+    return <HomeComponent appUrl={appUrl} />;
   }
+  static fromRawData() {}
 }
