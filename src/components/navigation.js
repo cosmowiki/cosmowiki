@@ -43,7 +43,7 @@ export default class Navigation {
             </ul>
           </li>
           <li className="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
-            <a className="pure-menu-link menu-item astronomy" href="astronomy.php">Astronomie</a>
+            <a className="pure-menu-link menu-item astronomy" href={appUrl.astronomySite()}>Astronomie</a>
             <ul className="pure-menu-children sub-menu astronomy">
               <li className="pure-menu-item">
                 <a className="pure-menu-link sub-menu-item astronomy" href={appUrl.astronomersSite()}>Astronomen</a>

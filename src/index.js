@@ -17,6 +17,7 @@ import Constellations from './sites/constellations';
 import Stars from './sites/stars';
 import SpaceStations from './sites/space-stations';
 import Missions from './sites/missions';
+import Astronomy from './sites/astronomy';
 
 const createStaticSites = process.argv.includes('--makes-static-sites');
 const renderForOffline = process.argv.includes('--for-offline=1');
@@ -57,6 +58,7 @@ const urlToComponent = {
   '/stars': {klass: Stars, fileName: 'data/stars.json'},
   '/space-stations': {klass: SpaceStations, fileName: 'data/spacestations.json'},
   '/missions': {klass: Missions, fileName: 'data/missions.json'},
+  '/astronomy': {klass: Astronomy},
   '/objects': {klass: Objects},
   '/': {klass: Home}
 };

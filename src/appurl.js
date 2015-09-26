@@ -12,6 +12,10 @@ export default class AppUrl {
     return '/astronomers'
   }
   
+  astronomySite() {
+    return '/astronomy'
+  }
+  
   astronautsSite() {
     return '/astronauts'
   }
