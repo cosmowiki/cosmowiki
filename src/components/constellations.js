@@ -16,8 +16,8 @@ export default class ConstellationsComponent {
             <span>filtern nach Halbkugel:</span>
             <select name="northsouth">
               <option>beide</option>
-              <option>n&ouml;rdlich</option>
-              <option>s&uuml;dlich</option>
+              <option>nördlich</option>
+              <option>südlich</option>
             </select>
           </form>
         </div>
