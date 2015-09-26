@@ -1,7 +1,6 @@
 import React from 'react';
 import fs from 'fs';
 import PeopleComponent from '../components/people';
-import {loadRemoteFile} from '../_external-deps/http-get';
 
 export default class People {
   

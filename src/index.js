@@ -46,6 +46,7 @@ import 'babel/polyfill';
 
 import React from 'react'
 import {parse as parseUrl} from 'url';
+import {loadRemoteFile} from './_external-deps/http-get';
 
 import AppUrl from './appurl'
 import PageComponent from './components/page';
@@ -142,4 +143,6 @@ function placeInsideIndexHtml(content) {
 
 if (createStaticSites) {
   Object.keys(urlToComponent).forEach(renderAndStoreSite.bind(null, renderForOffline));
+} else {
+  renderSite(window.location.pathname);
 }
