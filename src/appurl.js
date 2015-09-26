@@ -17,23 +17,23 @@ export default class AppUrl {
   }
   
   objectsSite() {
-    return '#/objects'
+    return '/objects'
   }
   
   solarSystemSite() {
-    return '#/solar-system'
+    return '/solar-system'
   }
   
   constellationsSite() {
-    return '#/constellations'
+    return '/constellations'
   }
   
   starsSite() {
-    return '#/stars'
+    return '/stars'
   }
   
   stationsSite() {
-    return '#/stations'
+    return '/stations'
   }
   
 }
