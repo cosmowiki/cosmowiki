@@ -13,6 +13,7 @@ import Astronomers from './sites/astronomers';
 import Astronauts from './sites/astronauts';
 import Objects from './sites/objects';
 import SolarSystem from './sites/solar-system';
+import Constellations from './sites/constellations';
 
 const createStaticSites = process.argv.includes('--makes-static-sites');
 const renderForOffline = process.argv.includes('--for-offline=1');
@@ -49,6 +50,7 @@ const urlToComponent = {
   '/astronomers': {klass: Astronomers, fileName: 'data/people.json'},
   '/astronauts': {klass: Astronauts, fileName: 'data/people.json'},
   '/solar-system': {klass: SolarSystem},
+  '/constellations': {klass: Constellations},
   '/objects': {klass: Objects},
   '/': {klass: Home}
 };
