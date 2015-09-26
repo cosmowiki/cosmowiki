@@ -60,7 +60,8 @@ function renderSite(path, onDone) {
   function withRawData(componentClass, rawData) {
     const data = componentClass.fromRawData(rawData);
     const component = componentClass.componentWithData(data, appUrl);
-    onDone(rerender(component));
+    const renderedContent = rerender(component);
+    onDone && onDone(renderedContent);
   }
   
   for (let urlStart in urlToComponent) {
