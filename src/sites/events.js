@@ -2,18 +2,18 @@ import React from 'react';
 import ChronicleComponent from '../components/chronicle';
 import fs from 'fs';
 
-export default class Chronicle {
+export default class Events {
   
   static componentWithData(onDone) {
     const data = JSON.parse(fs.readFileSync('./data/chronicle.json'));
-    const items = data.map(raw => Item.fromRawData(raw));
+    const items = data.map(raw => Event.fromRawData(raw));
     const component = <ChronicleComponent items={items} />;
     onDone(component);
   }
   
 }
 
-class Item {
+class Event {
   
   static fromRawData(raw) {
     //"chronicley": "3114 v. Chr.",
@@ -24,7 +24,7 @@ class Item {
     //"chroniclelink": "https://de.wikipedia.org/wiki/Geschichte_der_Astronomie",
     //"type": 1,
     //"tags": "Kalender, Maya"
-    const item = new Item();
+    const item = new Event();
     const year = raw.chronicley;
     const month = raw.chroniclem ? `${raw.chroniclem}.` : '';
     const day = raw.chronicled ? `${raw.chronicled}.` : '';

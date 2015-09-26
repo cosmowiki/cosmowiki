@@ -9,7 +9,7 @@ export default class Navigation {
       <nav className="pure-u-1 pure-menu pure-menu-horizontal">
         <ul id="menu" className="pure-menu-list">
           <li className="pure-menu-item">
-            <a className="pure-menu-link menu-item chronicle" href={appUrl.chronicleSite()}>Chronik</a>
+            <a className="pure-menu-link menu-item chronicle" href={appUrl.eventsSite()}>Chronik</a>
           </li>
           <li className="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
             <a className="pure-menu-link menu-item persons" href={appUrl.peopleSite()}>Personen</a>

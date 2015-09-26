@@ -5,7 +5,7 @@ import 'babel/polyfill';
 //};
 //
 //import {parse as parseUrl} from 'url';
-//import Chronicle from './lexicon/chronicle';
+//import Events from './lexicon/chronicle';
 //import People from './lexicon/people';
 //import Astronomers from './lexicon/astronomers';
 //import Astronauts from './lexicon/astronauts';
@@ -18,7 +18,7 @@ import 'babel/polyfill';
 //  const parsedUrl = parseUrl(url);
 //  if (parsedUrl && parsedUrl.hash && parsedUrl.hash.startsWith('#/')) {
 //    if (parsedUrl.hash.match(/^#\/chronicle/)) {
-//      Chronicle.componentWithData((chronicleComponent) => {
+//      Events.componentWithData((chronicleComponent) => {
 //        rerender(chronicleComponent);
 //      });
 //    }
@@ -51,7 +51,7 @@ import AppUrl from './appurl'
 import PageComponent from './components/page';
 
 import Home from './sites/home';
-import Chronicle from './sites/chronicle';
+import Chronicle from './sites/events';
 import People from './sites/people';
 import Astronomers from './sites/astronomers';
 import Astronauts from './sites/astronauts';
@@ -64,10 +64,10 @@ const rerender = (siteComponent) => {
 };
 
 const urlToComponent = {
-  '/chronicle': Chronicle,
-  '/people': People,
-  '/astronomers': Astronomers,
-  '/astronauts': Astronauts,
+  '/chronicle': Events,
+  //'/people': People,
+  //'/astronomers': Astronomers,
+  //'/astronauts': Astronauts,
   '/': Home
 };
 

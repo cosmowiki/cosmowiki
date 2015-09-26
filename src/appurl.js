@@ -1,6 +1,6 @@
 export default class AppUrl {
   
-  chronicleSite() {
+  eventsSite() {
     return '/chronicle'
   }
   
