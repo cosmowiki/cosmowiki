@@ -1,19 +1,19 @@
 export default class AppUrl {
   
-  chronicleSite() {
-    return '#/chronicle'
+  eventsSite() {
+    return '/chronicle'
   }
   
   peopleSite() {
-    return '#/people'
+    return '/people'
   }
   
   astronomersSite() {
-    return '#/astronomers'
+    return '/astronomers'
   }
   
   astronautsSite() {
-    return '#/astronauts'
+    return '/astronauts'
   }
   
 }

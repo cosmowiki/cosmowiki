@@ -1,5 +1,5 @@
 import React from 'react';
-export default class Home {
+export default class HomeComponent {
 
   render() {
 
@@ -36,10 +36,10 @@ export default class Home {
         </div>
         <div id="boxContainer" className="pure-u-1">
           <div id="boxLeft" className="pure-u-1 pure-u-lg-1-3 pure-u-md-1-2 box justify">
-            <a href={appUrl.chronicleSite()} title="Chronik" target="_self" className="liimagelink"><img
+            <a href={appUrl.eventsSite()} title="Chronik" target="_self" className="liimagelink"><img
               title="Stonehenge, Wigulf, Quelle: Wikipedia" src="/img/past.jpg"
               alt="Stonehenge, Wigulf, Quelle: Wikipedia"/></a>
-            <h3><a href={appUrl.chronicleSite()} title="Chronik" target="_self" className="liinternal">Chronik</a>
+            <h3><a href={appUrl.eventsSite()} title="Chronik" target="_self" className="liinternal">Chronik</a>
             </h3>
             <p>Die Astronomie gilt als die &auml;lteste Wissenschaft. Bereits in der Steinzeit begannen Menschen zu
               forschen

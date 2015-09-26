@@ -21,7 +21,7 @@ export default class PeopleComponent {
           <div id="personTable">
             <div className="firstLetterRow">
             </div>
-            {groupedPeople.map(group => <PersonGroupComponent group={group} />)}
+            {groupedPeople.map((group, idx) => <PersonGroupComponent group={group} key={idx} />)}
           </div>
         </div>
         <div id="notes">
@@ -40,7 +40,7 @@ class LetterLinks {
     const lastIndex = letters.length - 1;
     return (
       <div id="letterLinks" className="person center">
-        {letters.map((letter, index) => <Letter letter={letter} isLast={index == lastIndex} />)}
+        {letters.map((letter, index) => <Letter letter={letter} isLast={index == lastIndex} key={index} />)}
       </div>
     );
   }
@@ -64,8 +64,8 @@ class PersonGroupComponent {
     
     return (
       <div id={groupKey} className="pure-u-1 letter-section">
-        <a className="first-letter" name={`#/people/${groupKey}`}>{groupKey}</a><br />
-        {people.map(person => <PersonComponent person={person} />)}
+        <a className="first-letter" name={`#${groupKey}`}>{groupKey}</a><br />
+        {people.map((person, idx) => <PersonComponent person={person} key={idx} />)}
       </div>      
     );
   }
@@ -97,7 +97,7 @@ class PersonComponent extends React.Component {
         <div className="personItem">
           <a onMouseOver={showDetails} onMouseOut={hideDetails} href={person.wikipediaUrl}>{person.name}</a>
         </div>
-        <div id={person.name} className={classNames(cssClasses)}>
+        <div className={classNames(cssClasses)}>
           <div className="personProfession">{person.profession}</div>
           <div className="personLife">
             {person.born ? `∗ ${person.born}` : ''} &nbsp;
