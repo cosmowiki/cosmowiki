@@ -11,6 +11,12 @@ import Events from './sites/events';
 import People from './sites/people';
 import Astronomers from './sites/astronomers';
 import Astronauts from './sites/astronauts';
+import Objects from './sites/objects';
+import SolarSystem from './sites/solar-system';
+import Constellations from './sites/constellations';
+import Stars from './sites/stars';
+import SpaceStations from './sites/space-stations';
+import Missions from './sites/missions';
 
 const createStaticSites = process.argv.includes('--makes-static-sites');
 const renderForOffline = process.argv.includes('--for-offline=1');
@@ -46,6 +52,12 @@ const urlToComponent = {
   '/people': {klass: People, fileName: 'data/people.json'},
   '/astronomers': {klass: Astronomers, fileName: 'data/people.json'},
   '/astronauts': {klass: Astronauts, fileName: 'data/people.json'},
+  '/solar-system': {klass: SolarSystem},
+  '/constellations': {klass: Constellations, fileName: 'data/constellations.json'},
+  '/stars': {klass: Stars, fileName: 'data/stars.json'},
+  '/space-stations': {klass: SpaceStations, fileName: 'data/spacestations.json'},
+  '/missions': {klass: Missions, fileName: 'data/missions.json'},
+  '/objects': {klass: Objects},
   '/': {klass: Home}
 };
 
@@ -54,7 +66,8 @@ function renderSite(path, onDone) {
   function withRawData(componentClass, rawData) {
     const data = componentClass.fromRawData(rawData);
     const component = componentClass.componentWithData(data, appUrl);
-    onDone(rerender(component));
+    const renderedContent = rerender(component);
+    onDone && onDone(renderedContent);
   }
   
   for (let urlStart in urlToComponent) {
