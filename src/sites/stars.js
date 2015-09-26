@@ -17,6 +17,29 @@ class Star {
   
   static fromRawData(raw) {
     const star = new Star();
+    star.name = raw.name;
+    star.histName = raw.histname; // TODO should this be "historicalName" ?
+    star.altName = raw.altname;
+    star.hr = raw.hr;
+    star.hd = raw.hd;
+    star.hip = raw.hip;
+    star.sao = raw.sao;
+    
+    star.bay = raw.bay;
+    star.short = raw.short;
+    star.const = raw.const;
+    star.constlink = raw.constlink; // TODO make it a real ref to the constellation
+    
+    star.dekli = raw.const;
+    star.rekt = raw.rekt;
+    star.appMag = raw.appmag;
+    
+    star.dist = raw.dist;
+    star.mass = raw.mass;
+    star.radius = raw.radius;
+    
+    //star.spektr = raw.???; not found in the data
+    
     return star;
   }
   
@@ -24,25 +47,26 @@ class Star {
 
 /*
   {
-    "name": "Azmidiske ",
-    "histname": "Azmidiske ",
-    "link": "https://de.wikipedia.org/wiki/Xi_Puppis",
-    "altname": "Aspidiske, Asmidiske",
-    "bay": "Xi Puppis",
-    "short": "ξ Pup",
-    "flam": "7 Puppis",
-    "hr": "HR 3045",
-    "saoSao": "SAO SAO 174601",
-    "hd": "HD 63700",
-    "hip": "HIP 38170",
-    "sao": "SAO 174601",
-    "const": "Achterdeck des Schiffs",
-    "constlink": "https://de.wikipedia.org/wiki/Puppis_%28Sternbild%29",
-    "appmag": "3,34",
-    "class": "G6 Ia",
-    "dist": 1200,
-    "rekt": "07h 49m 17,66s",
-    "dekli": "-24° 51′ 35,2″"
+    "name": "Gemma A",
+    "histname": "Gemma A",
+    "link": "https://de.wikipedia.org/wiki/Alpha_Coronae_Borealis",
+    "altname": "Alphecca, Alphekka, Gnosia, Asteroth",
+    "bay": "Alpha Coronae Borealis A",
+    "short": "α CrB A",
+    "flam": "5 Coronae Borealis",
+    "hr": "HR 5793",
+    "saoSao": "SAO SAO 83893",
+    "hd": "HD 139006",
+    "hip": "HIP 76267",
+    "sao": "SAO 83893",
+    "const": "Nördliche Krone",
+    "constlink": "https://de.wikipedia.org/wiki/Nördliche_Krone",
+    "appmag": 2.24,
+    "class": "A0",
+    "dist": 75,
+    "rekt": "15h 34m 41s",
+    "dekli": "26° 42′ 53″",
+    "mass": 2.58,
+    "radius": 2.89
   },
-
  */
