@@ -5,10 +5,10 @@ export default class AstronomyComponent {
   render() {
     const {appUrl} = this.props;
     return (
-      <main role="main" className="pure-u-2-3">
+      <main role="main" className="pure-u-2-3 pure-u-1">
         <div id="featured" className="astronomy center">
           <h1>Astronomie</h1>
-          <p>der Blick zu den Sternen</p>
+          <h3>der Blick zu den Sternen</h3>
         </div>
         <div className="cw-page-links astronomy astronomers center">
           <a href={appUrl.astronomersSite()}>Astronomen</a>
