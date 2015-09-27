@@ -23,6 +23,7 @@ class Mission {
     mission.duration = raw.missionduration;
     mission.end = raw.missionend;
     mission.crew = raw.missioncrew;
+    mission.destination = raw.missiontarget;
     mission.rocket = Rocket.fromRawData(raw);
     
     mission.pad = Pad.fromRawData(raw);
