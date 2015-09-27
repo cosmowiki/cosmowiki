@@ -5,10 +5,10 @@ export default class SolarSystemComponent {
 
   render() {
     return (
-    	<main role="main" className="pure-u-2-3">
+    	<main role="main" className="pure-u-2-3 pure-u-lg-1">
     		<div id="featured" className="solsys center">
     			<h1>Sonnensystem</h1>
-    			<p>unsere kosmische Heimat</p>
+    			<h3>unsere kosmische Heimat</h3>
     		</div>
     		<script type="text/javascript" src="js/solsysTable.js"></script>
     		<div id="dataTable" className="solsys">
