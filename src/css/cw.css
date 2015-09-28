@@ -306,39 +306,37 @@ main{
 */
 
 /*			cw-page-links --------------------------------------------------- */
-/*
 .cw-page-links{width:100%; border-bottom:1px solid #d0d0d0;}
-.cw-page-links a{display:block; line-height:3em; font-size:1.75em; font-weight:bolder;}
+.cw-page-links a{display:block; line-height:3em; font-size:1.5em;}
 
-.cw-page-links.astronomers:hover, .cw-page-links.astronomers:active,
-.cw-page-links.astronomers:focus{
+.cw-page-links.astronomers:focus, .cw-page-links.astronomers:hover,
+.cw-page-links.astronomers:active{
 	background:url("/img/featured_astronomers1.jpg") center no-repeat;
 }
-.cw-page-links.solsys:hover, .cw-page-links.solsys:active,
-.cw-page-links.solsys:focus{
+.cw-page-links.solsys:focus, .cw-page-links.solsys:hover,
+.cw-page-links.solsys:active{
 	background:url("/img/featured_solsys1.jpg") center no-repeat;
 }
-.cw-page-links.const:hover, .cw-page-links.const:active,
-.cw-page-links.const:focus{
+.cw-page-links.const:focus, .cw-page-links.const:hover,
+.cw-page-links.const:active{
 	background:url("/img/featured_constellations1.jpg") center no-repeat;
 }
-.cw-page-links.stars:hover, .cw-page-links.stars:active,
-.cw-page-links.stars:focus{
+.cw-page-links.stars:focus, .cw-page-links.stars:hover,
+.cw-page-links.stars:active{
 	background:url("/img/featured_stars1.jpg") center no-repeat;
 }
-.cw-page-links.astronauts:hover, .cw-page-links.astronauts:active,
-.cw-page-links.astronauts:focus{
+.cw-page-links.astronauts:focus, .cw-page-links.astronauts:hover,
+.cw-page-links.astronauts:active{
 	background:url("/img/featured_astronauts1.jpg") center no-repeat;
 }
-.cw-page-links.missions:hover, .cw-page-links.missions:active,
-.cw-page-links.missions:focus{
+.cw-page-links.missions:focus, .cw-page-links.missions:hover,
+.cw-page-links.missions:active{
 	background:url("/img/featured_missions1.jpg") center no-repeat;
 }
-.cw-page-links.stations:hover, .cw-page-links.stations:active,
-.cw-page-links.stations:focus{
+.cw-page-links.stations:focus, .cw-page-links.stations:hover,
+.cw-page-links.stations:active{
 	background:url("/img/featured_stations1.jpg") center no-repeat;
 }
-*/
 
 /*			filter & firstLetter -------------------------------------------- */
 /*

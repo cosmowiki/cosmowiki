@@ -6,10 +6,10 @@ export default class MissionsComponent {
   render() {
     const {missions} = this.props;
     return (
-      <main role="main" className="pure-u-2-3">
+      <main role="main" className="pure-u-2-3 pure-u-lg-1">
         <div id="featured" className="missions center">
           <h1>Missionen</h1>
-          <p>bemannte und unbemannte Raumfahrtmissionen</p>
+          <h3>bemannte und unbemannte Raumfahrtmissionen</h3>
         </div>
         <div id="filter" className="missions">
           <form id="filterCountry">
@@ -56,7 +56,7 @@ class MissionComponent {
         <td className="missionCountry">{mission.country}</td>
         <td className="missionRocket"><a href={mission.rocket.wikipediaUrl}>{mission.rocket.name}</a></td>
         <td className="missionPad"><a href={mission.pad.wikipediaUrl}>{mission.pad.name}</a></td>
-        <td className="missionDest">mission.dest??</td>
+        <td className="missionDest">{mission.destination}</td>
         <td className="missionCrew center">{mission.crew}</td>
         <td className="missionDuration">{mission.duration}</td>
         <td className="missionEnd center">{mission.end}</td>

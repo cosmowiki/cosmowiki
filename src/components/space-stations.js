@@ -6,10 +6,10 @@ export default class SpaceStationsComponent {
   render() {
     const {spaceStations:stations} = this.props;
     return (
-      <main role="main" className="pure-u-2-3">
+      <main role="main" className="pure-u-2-3 pure-u-lg-1">
         <div id="featured" className="stations center">
           <h1>Raumstationen</h1>
-          <p>künstliche Habitate im All</p>
+          <h3>künstliche Habitate im All</h3>
         </div>
         <div id="dataTable" className="stats">
           <div id="statsTable">
