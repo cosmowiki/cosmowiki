@@ -16,7 +16,9 @@ table, caption, tbody, tfoot, thead, tr, th, td{
 	vertical-align:baseline;
 }
 body{color:#777; font-family: sans-serif; font-weight: 100;}
-h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-weight:700;}
+h1, h2, h3, h4, h5, h6{margin:0; padding:0;}
+h1{font-weight:700;}
+h2, h3, h4, h5, h6{font-weight:normal;}
 p{padding-top:10px;}
 ul{margin:0; padding-bottom:10px; list-style:none;}
 a{font-weight:500; text-decoration:none;}
@@ -189,10 +191,7 @@ nav ul li ul a{border-radius:0;}
 	background-image:linear-gradient(to top, #c0c0c0 0%, #fff 100%);
 }*/
 /*		Main -------------------------------------------------------------- */
-main{
-	max-width:960px; margin:0 auto;
-	border-bottom:1px solid #d0d0d0; background:#f8f8f8;
-}
+main{max-width:960px; margin:0 auto; background:#f8f8f8;}
 
 /*			featured -------------------------------------------------------- */
 #featured{height:150px; border-bottom:1px solid #d0d0d0;}
@@ -279,7 +278,10 @@ main{
 #news{max-width:300px; float:right; padding:0 10px; overflow:scroll;}
 #news iframe{height:180px;}
 
-#boxContainer{padding:10px 0; max-width:960px; clear:both; font-size:.8em;}
+#boxContainer{
+	padding:10px 0; max-width:960px; clear:both;
+	font-size:.8em; border-bottom:1px solid #d0d0d0;
+}
 .box{padding:0 10px; float:left;}
 #boxLeft{max-width:300px;}
 #boxMid{max-width:298px; border-left:1px solid #d0d0d0; border-right:1px solid #d0d0d0;}
@@ -358,9 +360,9 @@ input[type=checkbox]{margin:0 0 3px 5px; vertical-align:middle;}
 /*		dataTable ----------------------------------------------------------- */
 #dataTable{font-size:.8em;}
 /*			dataTable borders ------------------------------------------- */
-/*#placesHeader, #constHeader, #starsHeader, #missionsHeader{
+#placesHeader, #constHeader, #starsHeader, #missionsHeader{
 	border-bottom:1px solid #d0d0d0;
-}*/
+}
 /*			dataTable backgrounds ------------------------------------------- */
 #timelineHeader{
 	background:url("/img/bg_timelinestart.png") no-repeat transparent;
@@ -443,6 +445,10 @@ input[type=checkbox]{margin:0 0 3px 5px; vertical-align:middle;}
 
 /* - blue - space flight - */
 /*#missionsHeader{background-image:linear-gradient(to bottom, #fff 0%, #d2d2ff 100%);}*/
+
+#placesHeader, #objectsHeader, #constHeader, #starsHeader, #missionsHeader{
+	background-image:linear-gradient(to bottom, #fff 0%, #d2d2ff 100%);
+}
 
 /* - grey - register - */
 /*#menu form, #switch a{background-image:linear-gradient(to top, #e1e1e1 0%, #fff 100%);}
@@ -552,7 +558,7 @@ input[type=checkbox]{margin:0 0 3px 5px; vertical-align:middle;}
 .solsysInfoBox th, .solsysInfoBox td{padding-right:5px; min-width:145px}
 .solsysInfoBox li{margin-left:20px;}*/
 
-/*#constHeader th, #starsHeader th{line-height:20px;}
+#constHeader th, #starsHeader th{line-height:20px;}
 th.constName, td.constName{width:172px; padding-left:3px;}
 th.constLatin, .constLatin{width:130px;}
 th.constShort, td.constShort{width:40px;}
@@ -563,9 +569,9 @@ th.constVisFrom, th.constVisTo, .constVisFrom, .constVisTo{width:45px;}
 th.constSqDeg, .constSqDeg{width:65px;}
 th.starsOver3Mag, .starsOver3Mag, th.starsOver4Mag, .starsOver4Mag{width:55px;}
 th.constBrightStar, .constBrightStar{width:122px; padding-right:3px;}
-th.constMagMax, .constMagMax{width:60px;}*/
+th.constMagMax, .constMagMax{width:60px;}
 
-/*th.starHistName, td.starHistName{width:155px; padding-left:3px;}
+th.starHistName, td.starHistName{width:155px; padding-left:3px;}
 th.starBay, .starBay{width:197px;}
 th.starShort, td.starShort{width:50px; padding-right:5px;}
 th.starConst, .starConst{width:116px;}
@@ -576,16 +582,16 @@ th.starRekt, .starRekt{width:102px;}
 th.starDekli, .starDekli{width:96px;}
 th.starMass, .starMass{width:38px;}
 th.starRadius, .starRadius{width:40px;}
-.starInfoBox{display:none;}*/
+.starInfoBox{display:none;}
 
-/*th.missionLaunch, td.missionLaunch, th.missionEnd, td.missionEnd{width:70px;}
+th.missionLaunch, td.missionLaunch, th.missionEnd, td.missionEnd{width:70px;}
 th.missionName, td.missionName{width:214px;}
 th.missionCountry, td.missionCountry{width:96px;}
 th.missionRocket, td.missionRocket{width:131px;}
 th.missionPad, td.missionPad{width:116px;}
 th.missionCrew, td.missionCrew{width:47px; padding-right:4px;}
 th.missionDest, td.missionDest{width:104px;}
-th.missionDuration, td.missionDuration{width:105px; padding-right:3px;}*/
+th.missionDuration, td.missionDuration{width:105px; padding-right:3px;}
 
 /*#missionsTable .infoRow{
 	position:absolute; min-width:250px; max-width:496px; display:none;
@@ -603,7 +609,7 @@ th.missionDuration, td.missionDuration{width:105px; padding-right:3px;}*/
 /*#about ul li a.question:after{font-family:FontAwesome; content:'\f0da';}
 #about ul li ul{padding-top:10px; font-size:.825em;}*/
 
-#notes{clear:left;}
+#notes{clear:left; border-bottom:1px solid #d0d0d0;}
 #notes p{padding:20px 10px; font-size:.8em;}
 
 /*	Footer ------------------------------------------------------------------ */
