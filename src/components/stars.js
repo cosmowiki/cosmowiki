@@ -82,9 +82,9 @@ class StarComponent {
         <td className="starShort">{star.short}</td>
         <td className="starConst"><a href={star.constlink}>{star.const}</a></td>
         <td className="starRekt">{star.rekt}</td>
-        <td className="starDekli">{star.delki}</td>
+        <td className="starDekli">{star.dekli}</td>
         <td className="starAppMag">{star.appMag}</td>
-        <td className="starSpektr">$row[starSpektr]</td>
+        <td className="starSpektr">{star.spektr}</td>
         <td className="starDist">{star.dist}</td>
         <td className="starMass">{star.mass}</td>
         <td className="starRadius">{star.radius}</td>
