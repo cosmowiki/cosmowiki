@@ -1,0 +1,26 @@
+#featured.places{background:url("/img/featured_places.jpg") center no-repeat;}
+#placesHeader{
+	background-image:linear-gradient(to bottom, #fff 0%, #d2d2ff 100%);
+	border-bottom:1px solid #d0d0d0;
+}
+#placesTable th{line-height:1.25em;}
+#placesTable th, #placesTable td{float:left; overflow:hidden; white-space:nowrap;}
+.placesRow:focus, .placesRow:hover, .placesRow:active{
+	font-size:1.1em; background:#fff;
+	box-shadow:0px 6px 6px -4px #999, 0px -6px 6px -4px #999;
+}
+#placesHeader, .placesRow{height:1.25em; padding-top:5px; clear:left; display:block;}
+.placeName header, .placeName,
+.placeWhere header, .placeWhere,
+.placeWho header, .placeWho{float:left; overflow:hidden; white-space:nowrap;}
+/*
+#map_canvas, #placesTable{margin:0; padding:0;}
+#map_canvas{width:958px; height:528px;}
+#mapInfoWindow{margin:10px; min-width:350px; min-height:100px; vertical-align:middle;}
+#placesHeader, #constHeader, #starsHeader, #missionsHeader{
+	font-size:1em; font-weight:bold; color:#666;
+}
+.placeName header, .placeName{width:347px; padding-left:3px;}
+.placeWhere header, .placeWhere{width:270px;}
+.placeWho header, .placeWho{width:340px;}
+*/

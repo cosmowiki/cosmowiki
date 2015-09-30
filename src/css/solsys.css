@@ -1,0 +1,33 @@
+#featured.solsys{background:url("/img/featured_solsys.jpg") center no-repeat;}
+.solsysRow{background:#c7e9ff;}
+.solsysRow.Stern{background:LemonChiffon;}
+.solsysRow.Merkur{background:#eedc82;}
+.solsysRow.Venus{background:#cccdd5;}
+.solsysRow.Erde{background:LightsteelBlue;}
+.solsysRow.Mars{background:SandyBrown;}
+.solsysRow.Jupiter{background:#e2d2c3;}
+.solsysRow.Saturn{background:Khaki;}
+.solsysRow.Uranus{background:#bee3e6;}
+.solsysRow.Neptun{background:#90d0f8;}
+.solsysInfoBox{
+	position:absolute; width:310px; margin:0; padding:3px; font-weight:normal;
+	border-width:0 2px 2px 2px; border-style:solid; border-radius:0 0 6px 6px;
+	box-shadow:0px 6px 6px #999;
+}
+.solsysInfoBox.Sonne, .solsysInfoBox.Planet, .solsysInfoBox.Mond{background:#fff;}
+.solsysInfoBox, .solsysInfoBox.Gruppe von Objekten.Sonne{border-color:#c7e9ff;}
+.solsysRow.Planet{margin-left:320px;}
+.solsysRow.Mond{margin-left:640px;}
+.solsysInfoBox.Sonne{border-color:LemonChiffon;}
+.solsysInfoBox.Merkur{border-color:#eedc82;}
+.solsysInfoBox.Venus{border-color:#cccdd5;}
+.solsysInfoBox.Erde{border-color:LightsteelBlue;}
+.solsysInfoBox.Mars{border-color:SandyBrown;}
+.solsysInfoBox.Jupiter{border-color:#e2d2c3;}
+.solsysInfoBox.Saturn{border-color:Khaki;}
+.solsysInfoBox.Uranus{border-color:#bee3e6;}
+.solsysInfoBox.Neptun{border-color:#90d0f8;}
+.solsysItem a{padding:5px; display:block;}
+.solsysCategory{margin-bottom:10px;}
+.solsysInfoBox th, .solsysInfoBox td{padding-right:5px; min-width:145px}
+.solsysInfoBox li{margin-left:20px;}

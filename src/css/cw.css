@@ -1,6 +1,5 @@
 @font-face{font-family:'FontAwesome';src:url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?v=4.2.0');src:url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'),url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'),url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'),url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
-
-/*	Global elements ------------------------------------------------------------------- */
+/*	Global elements ---------------------------------------------------------- */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -10,22 +9,16 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td{
-	background:transparent;
-	border:0;
-	margin:0; padding:0;
-	vertical-align:baseline;
-}
+	margin:0; padding:0; vertical-align:baseline; background:transparent; border:0;}
 body{color:#777; font-family: sans-serif; font-weight: 100;}
-h1, h2, h3, h4, h5, h6{margin:0; padding:0;}
 h1{font-weight:700;}
 h2, h3, h4, h5, h6{font-weight:normal;}
 p{padding-top:10px;}
-ul{margin:0; padding-bottom:10px; list-style:none;}
+ul{padding-bottom:10px; list-style:none;}
 a{font-weight:500; text-decoration:none;}
 a:link, a:visited{color:#55f;}
 a:focus, a:hover, a:active{color:#333;}
-
-/*>Global Classes ---------------------------------------------------------- */
+/*>Global Classes ----------------------------------------------------------- */
 .left{text-align:left;}
 .center{text-align:center;}
 .right{text-align:right;}
@@ -33,28 +26,22 @@ a:focus, a:hover, a:active{color:#333;}
 .small{font-size:.7em;}
 .visible{display:block;}
 .hidden{display:none;}
-
-/*	text-shadows ------------------------------------------------------------ */
-.cw-page-links a{text-shadow:1px 1px #fff;}
-#featured h1{text-shadow:1px 1px 2px rgba(255,255,255,.7);}
-
-/*	Structure --------------------------------------------------------------- */
+/*	Structure ---------------------------------------------------------------- */
 #wrapper{margin:0 auto;}
-/*		Header -------------------------------------------------------------- */
+/*		Header ---------------------------------------------------------------- */
 header{max-width:960px; margin:0 auto;}
-#branding{margin:0; padding:0; height:75px; float:left;}
+#branding{height:75px; float:left;}
 #branding img{width:500px; height:75px;}
-
-/*			social menu ----------------------------------------------------- */
+/*			social menu -------------------------------------------------------- */
 #social{height:75px; float:right;}
 #social ul{width:264px; height:54px; margin-top:17px; float:right;}
-#social ul li{display:block; float:left; margin:0; padding:0 14px 14px 0;}
+#social ul li{display:block; float:left; padding:0 14px 14px 0;}
 #social ul li:last-child{padding:0 8px 14px 0;}
 #social ul li a{
 	display:block; width:40px; height:40px;
 	color:#fff; text-decoration:none; line-height:40px;
 	font-family:FontAwesome; font-size:26px;
-	border-radius:20px; box-shadow:3px 3px 5px #ddd; background:#d0d0d0;
+	background:#d0d0d0; border-radius:20px; box-shadow:3px 3px 5px #ddd;
 }
 #social ul li a::before{
 	text-shadow:1px 1px 1px #999;
@@ -67,7 +54,6 @@ header{max-width:960px; margin:0 auto;}
 #social ul li.github a::before{content:"\f09b";}
 #social ul li.info a::before{content:"\f129";}
 #social ul li.search a::before{content:"\f002";}
-
 #social ul li.facebook a:hover, #social ul li.facebook a:active,
 #social ul li.facebook a:focus{background-color:#4273c8;}
 #social ul li.googleplus a:hover, #social ul li.googleplus a:active,
@@ -82,202 +68,83 @@ header{max-width:960px; margin:0 auto;}
 #social ul li.search a:focus{background-color:#666;}
 /*
 #searchDiv{
-	position:relative; top:25px; left:685px; margin:0; width:273px; height:48px;
+	position:relative; top:25px; left:685px; width:273px; height:48px;
 	background-color:rgba(128,128,128,.5);
 	border:1px solid #d0d0d0; border-radius:0 0 0 6px;
 }
-#searchForm{position:absolute; top:10px; left:10px; margin:0; padding:0;}
+#searchForm{position:absolute; top:10px; left:10px; }
 #searchInput{
-	float:left; margin:0; padding:3px 5px; width:214px;
-	font-size:13pt; line-height:20px;
-	border:1px solid #d0d0d0; border-right:none; border-radius:6px 0 0 6px;
+	float:left; padding:3px 5px; width:214px;
+	font-size:1em; line-height:1.25em;
 	background:#fff;
+	border:1px solid #d0d0d0; border-right:none; border-radius:6px 0 0 6px;
 }
 #searchSubmit{
 	width:28px; height:28px; font-family:FontAwesome; font-size:16px; color:#55f;
-	cursor:pointer; border:1px solid #d0d0d0; border-left:none; border-radius:0 6px 6px 0;
-	background:#fff;
+	cursor:pointer; background:#fff;
+	border:1px solid #d0d0d0; border-left:none; border-radius:0 6px 6px 0;
 }
 #searchInput, #searchSubmit{box-shadow:none;}
 #searchSubmit:hover, #searchSubmit:active, #searchSubmit:focus{color:#333;}
 */
 /*#flags{width:150px; height:75px; float:right;}*/
-
-/*			nav menu -------------------------------------------------------- */
-/*#menu, #menu li, #menu a{font-weight:700; background:transparent;}
-nav ul{clear:both; margin:0; padding:0;list-style:none; font-size:.9em; font-weight:700;}
-nav ul li, ul.sub-menu li{float:left; margin:0; padding:0; width:137px; height:25px;}
-nav ul a{display:block; float:left; width:136px; height:24px; line-height:24px;}
-nav ul li ul{display:none;}
-nav ul li:hover ul, nav ul li:focus ul{display:block;}
-nav ul li ul li{position:relative;}
-
-nav ul a, #menu form{border:1px solid #d0d0d0; border-radius:6px 6px 0 0;}
-nav ul li ul a{border-radius:0;}
-#menu .sub-menu li:last-child a{
-	border-right:1px solid #d0d0d0; 
+/*		Main ------------------------------------------------------------------ */
+main{max-width:960px; margin:0 auto; background:#f8f8f8;}
+/*			featured ----------------------------------------------------------- */
+#featured{height:150px; border-bottom:1px solid #d0d0d0;}
+#featured h1, #featured h3{color:#e5e5e5;}
+#featured h1{padding:60px 0 0 10px; text-shadow:1px 1px 2px #ccc;}
+#featured h3{padding:10px 0 10px 10px;}
+/*			cw-page-links ------------------------------------------------------ */
+.cw-page-links{width:100%; border-bottom:1px solid #d0d0d0;}
+.cw-page-links a{
+	display:block; line-height:3em; font-size:1.5em; text-shadow:1px 1px #fff;
+}
+/*			filter & firstLetter ----------------------------------------------- */
+/*
+#filter{padding:5px 5px 5px 3px; font-size:.8em; border-bottom:1px solid #d0d0d0;}
+#filter.stars form{display:inline;}
+*/
+#letterLinks{padding:10px; background:#f8f8f8; border-bottom:1px solid #d0d0d0;}
+#letterLinks a{font-size:.8em;}
+#letterLinks a:focus, #letterLinks a:hover, #letterLinks a:active{font-size:1em;}
+.letter-section{padding-top:10px;}
+.letter-section:hover{background:#f4f4f4;}
+.first-letter{padding:10px; font-size:1.3em; font-weight:500;}
+/*.firstLetterRow{padding:20px 5px 5px 10px;}*/
+/*.firstLetterArrow{margin-left:925px; text-align:right;}*/
+/*input[type=checkbox]{margin:0 0 3px 5px; vertical-align:middle;}*/
+/*		dataTable ------------------------------------------------------------- */
+#dataTable{
+	font-size:.8em;
+	background-image:linear-gradient(to bottom, #f8f8f8 0%, #fff 100%);
+	background-attachment:fixed;
+	border-bottom:1px solid #d0d0d0;
+}
+/*			filter & switch ---------------------------------------------------- */
+/*
+#filter{background-image:linear-gradient(to bottom, #fff 0%, #f8f8f8 100%);}
+#switch{float:left; list-style:none; font-size:.8em; font-weight:500;}
+#switch li{float:left; width:480px;}
+#switch a{
+	display:block; float:left; width:478px; height:1.25em; padding-top:4px;
+	background-image:linear-gradient(to top, #e1e1e1 0%, #fff 100%);
+	border-right:1px solid #d0d0d0;
 	border-bottom:1px solid #d0d0d0; 
 	border-left:1px solid #d0d0d0;
 }
-#menu .sub-menu li:last-child a{border-radius:0 0 6px 6px;}*/
-
-/* - red - chronicle - */
-/*#menu a.chronicle, #menu a.missions{
-	background-image:linear-gradient(to bottom, #fff 0%, #ffc2c2 100%);
-}
-#menu a.chronicle:focus, #menu a.chronicle:hover, #menu a.chronicle:active, 
-#menu a.missions:focus, #menu a.missions:hover, #menu a.missions:active{
-	background-image:linear-gradient(to bottom, #fff 0%, #ff8585 100%);
-}*/
-
-/* - turquoise - persons - */
-/*#menu a.persons, #menu a.astronomers, #menu a.astronauts{
-	background-image:linear-gradient(to bottom, #fff 0%, #a2e2e2 100%);
-}
-#menu a.persons:focus, #menu a.persons:hover, #menu a.persons:active, 
-#menu a.astronomers:focus, #menu a.astronomers:hover, #menu a.astronomers:active, 
-#menu a.astronauts:focus, #menu a.astronauts:hover, #menu a.astronauts:active{
-	background-image:linear-gradient(to bottom, #fff 0%, #85c2c2 100%);
-}*/
-
-/* - yellow - places - */
-/*#menu a.places{
-	background-image:linear-gradient(to bottom, #fff 0%, #ffffc2 100%);
-}
-#menu a.places:focus,
-#menu a.places:hover,
-#menu a.places:active{
-	background-image:linear-gradient(to bottom, #fff 0%, #ffff85 100%);
-}*/
-
-/* - violett - objects - */
-/*#menu a.objects, #menu a.solsys, #menu a.const, #menu a.stars{
-	background-image:linear-gradient(to bottom, #fff 0%, #ffc2ff 100%);
-}
-#menu a.objects:focus, #menu a.objects:hover, #menu a.objects:active, 
-#menu a.solsys:focus, #menu a.solsys:hover, #menu a.solsys:active, 
-#menu a.const:focus, #menu a.const:hover, #menu a.const:active, 
-#menu a.stars:focus, #menu a.stars:hover, #menu a.stars:active{
-	background-image:linear-gradient(to bottom, #fff 0%, #ff85ff 100%);
-}*/
-
-/* - green - astronomy - */
-/*#menu a.astronomy{
-	background-image:linear-gradient(to bottom, #fff 0%, #c2ffc2 100%);
-}
-#menu a.astronomy:focus,
-#menu a.astronomy:hover,
-#menu a.astronomy:active{
-	background-image:linear-gradient(to bottom, #fff 0%, #85ff85 100%);
-}*/
-
-/* - blue - space flight - */
-/*#menu a.spaceflight{
-	background-image:linear-gradient(to bottom, #fff 0%, #d2d2ff 100%);
-}
-#menu a.spaceflight:focus,
-#menu a.spaceflight:hover,
-#menu a.spaceflight:active{
-	background-image:linear-gradient(to bottom, #fff 0%, #8585ff 100%);
-}*/
-
-/* - grey - register - */
-/*#menu a.register{
-	background-image:linear-gradient(to top, #e1e1e1 0%, #fff 100%);
-}
-#menu a.register:focus,
-#menu a.register:hover,
-#menu a.register:active{
+#switch a:focus, #switch a:hover, #switch a:active{
 	background-image:linear-gradient(to top, #c0c0c0 0%, #fff 100%);
-}*/
-/*		Main -------------------------------------------------------------- */
-main{max-width:960px; margin:0 auto; background:#f8f8f8;}
-
-/*			featured -------------------------------------------------------- */
-#featured{height:150px; border-bottom:1px solid #d0d0d0;}
-#featured h1, #featured h3{color:#e5e5e5;}
-#featured h1{padding:60px 0 0 10px;}
-#featured h3{padding:10px 0 10px 10px;}
-
-#featured.home, #featured.about{
-	background:url("/img/featured.jpg") center no-repeat;
 }
-#featured.chronicle{
-	background:url("/img/featured_chronicle.jpg") center no-repeat;
-}
-#featured.missions{
-	background:url("/img/featured_missions.jpg") center no-repeat;
-}
-#featured.persons{
-	background:url("/img/featured_persons.jpg") center no-repeat;
-}
-#featured.astronomers{
-	background:url("/img/featured_astronomers.jpg") center no-repeat;
-}
-#featured.astronauts{
-	background:url("/img/featured_astronauts.jpg") center no-repeat;
-}
-#featured.places{
-	background:url("/img/featured_places.jpg") center no-repeat;
-}
-#featured.observatories{
-	background:url("/img/featured_observatories.jpg") center no-repeat;
-}
-#featured.launchpads{
-	background:url("/img/featured_launchpads.jpg") center no-repeat;
-}
-#featured.objects{
-	background:url("/img/featured_objects.jpg") center no-repeat;
-}
-#featured.solsys{
-	background:url("/img/featured_solsys.jpg") center no-repeat;
-}
-#featured.const{
-	background:url("/img/featured_constellations.jpg") center no-repeat;
-}
-#featured.stars{
-	background:url("/img/featured_stars.jpg") center no-repeat;
-}
-#featured.galaxies{
-	background:url("/img/featured_galaxies.jpg") center no-repeat;
-}
-#featured.telescopes{
-	background:url("/img/featured_telescopes.jpg") center no-repeat;
-}
-#featured.spacetel{
-	background:url("/img/featured_spacetel.jpg") center no-repeat;
-}
-#featured.rockets{
-	background:url("/img/featured_rockets.jpg") center no-repeat;
-}
-#featured.satellites{
-	background:url("/img/featured_satellites.jpg") center no-repeat;
-}
-#featured.stations{
-	background:url("/img/featured_stations.jpg") center no-repeat;
-}
-#featured.probes{
-	background:url("/img/featured_probes.jpg") center no-repeat;
-}
-#featured.astronomy{
-	background:url("/img/featured_astronomy.jpg") center no-repeat;
-}
-#featured.spaceflight{
-	background:url("/img/featured_spaceflight.jpg") center no-repeat;
-}
-#featured.register{
-	background:url("/img/featured_register.jpg") center no-repeat;
-}
-
-/*			infoArea -------------------------------------------------------- */
+#tableSwitch{float:right;}
+*/
+/*			home --------------------------------------------------------------- */
+#featured.home{background:url("/img/featured.jpg") center no-repeat;}
 #infoArea{padding:10px 0; font-size:.8em; border-bottom:1px solid #d0d0d0;}
-
 #infoText{max-width:629px; float:left; padding:0 0 0 10px; border-right:1px solid #d0d0d0;}
 #infoText p{padding-right:10px;}
-
 #news{max-width:300px; float:right; padding:0 10px; overflow:scroll;}
 #news iframe{height:180px;}
-
 #boxContainer{
 	padding:10px 0; max-width:960px; clear:both;
 	font-size:.8em; border-bottom:1px solid #d0d0d0;
@@ -287,46 +154,254 @@ main{max-width:960px; margin:0 auto; background:#f8f8f8;}
 #boxMid{max-width:298px; border-left:1px solid #d0d0d0; border-right:1px solid #d0d0d0;}
 #boxRight{max-width:300px;}
 .box img{width:298px; border:1px solid #d0d0d0;}
-/*.imgInfo{
-	width:100%; margin:0; padding:0; color:#666; font-size:.563em; float:right;
-}*/
-
-/*			switch ---------------------------------------------------------- */
+/*.imgInfo{width:100%; color:#666; font-size:.563em; float:right;}*/
+/*			about -------------------------------------------------------------- */
+#featured.about{background:url("/img/featured.jpg") center no-repeat;}
+#about ul li{padding:10px 0;}
+#about ul li.q{padding:20px 10px; border-bottom:1px solid #d0d0d0;border-bottom:1px solid #d0d0d0;}
+#about ul li a.question{display:block;}
+/*#about ul li a.question:after{font-family:FontAwesome; content:'\f0da';}
+#about ul li ul{padding-top:10px; font-size:.825em;}
+*/
+/*			astronauts --------------------------------------------------------- */
+#featured.astronauts{background:url("/img/featured_astronauts.jpg") center no-repeat;}
+/*			astronomers -------------------------------------------------------- */
+#featured.astronomers{background:url("/img/featured_astronomers.jpg") center no-repeat;}
+/*			astronomy ---------------------------------------------------------- */
+#featured.astronomy{
+	background:url("/img/featured_astronomy.jpg") center no-repeat;
+}
+.cw-page-links.astronomers:focus,
+.cw-page-links.astronomers:hover,
+.cw-page-links.astronomers:active{
+	background:url("/img/featured_astronomers1.jpg") center no-repeat;
+}
+.cw-page-links.solsys:focus,
+.cw-page-links.solsys:hover,
+.cw-page-links.solsys:active{
+	background:url("/img/featured_solsys1.jpg") center no-repeat;
+}
+.cw-page-links.const:focus,
+.cw-page-links.const:hover,
+.cw-page-links.const:active{
+	background:url("/img/featured_constellations1.jpg") center no-repeat;
+}
+.cw-page-links.stars:focus,
+.cw-page-links.stars:hover,
+.cw-page-links.stars:active{
+	background:url("/img/featured_stars1.jpg") center no-repeat;}
+/*			chronicle ---------------------------------------------------------- */
+#featured.chronicle{background:url("/img/featured_chronicle.jpg") center no-repeat;}
+#timelineHeader{background:url("/img/bg_timelinestart.png") no-repeat transparent;}
+.timelineRow{background:url("/img/bg_timeline.png") left no-repeat transparent;}
+#timelineFooter{background:url("/img/bg_timelineend.png") no-repeat transparent;}
+.timelineRow:focus, .timelineRow:hover, .timelineRow:active{
+	font-size:1.1em; background:#fff;
+	box-shadow:0px 6px 6px -4px #999, 0px -6px 6px -4px #999;
+}
+#timelineHeader, #timelineFooter, .timelineRow{
+	height:1.25em; padding-top:5px; clear:left; display:block;
+}
+.timelineDate, .timelinePlace, .timelineEvent{
+	float:left; overflow:hidden; white-space:nowrap;
+}
+.timelineDate{width:112px; padding-left:46px;}
+.timelinePlace{width:187px; padding-left:5px;}
+.timelineEvent{width:605px; padding-left:5px;}
+/*			constellations ----------------------------------------------------- */
+#featured.const{background:url("/img/featured_constellations.jpg") center no-repeat;}
+#constHeader{
+	background-image:linear-gradient(to bottom, #fff 0%, #d2d2ff 100%);
+	border-bottom:1px solid #d0d0d0;
+}
+#constTable th{line-height:1.25em;}
+#constTable th, #constTable td{float:left; overflow:hidden; white-space:nowrap;}
+.constRow:focus, .constRow:hover, .constRow:active{
+	font-size:1.1em; background:#fff;
+	box-shadow:0px 6px 6px -4px #999, 0px -6px 6px -4px #999;
+}
+#constHeader, .constRow{height:1.25em; padding-top:5px; clear:left; display:block;}
+th.constName, td.constName{width:172px; padding-left:3px;}
+th.constLatin, .constLatin{width:130px;}
+th.constShort, td.constShort{width:40px;}
+th.constAuthor, .constAuthor{width:75px;}
+th.constY, .constY{width:40px;}
+th.constSphere, .constSphere{width:50px;}
+th.constVisFrom, th.constVisTo, .constVisFrom, .constVisTo{width:45px;}
+th.constSqDeg, .constSqDeg{width:65px;}
+th.starsOver3Mag, .starsOver3Mag, th.starsOver4Mag, .starsOver4Mag{width:55px;}
+th.constBrightStar, .constBrightStar{width:122px; padding-right:3px;}
+th.constMagMax, .constMagMax{width:60px;}
+/*			galaxies ----------------------------------------------------------- */
+#featured.galaxies{background:url("/img/featured_galaxies.jpg") center no-repeat;}
+/*			launchpads --------------------------------------------------------- */
+#featured.launchpads{background:url("/img/featured_launchpads.jpg") center no-repeat;}
+/*			missions ----------------------------------------------------------- */
+#featured.missions{background:url("/img/featured_missions.jpg") center no-repeat;}
+#missionsHeader{
+	background-image:linear-gradient(to bottom, #fff 0%, #d2d2ff 100%);
+	border-bottom:1px solid #d0d0d0;
+}
+#missionsTable th{line-height:1.25em;}
+#missionsTable th, #missionsTable td{float:left; overflow:hidden; white-space:nowrap;}
+.missionsRow:focus, .missionsRow:hover, .missionsRow:active{
+	font-size:1.1em; background:#fff;
+	box-shadow:0px 6px 6px -4px #999, 0px -6px 6px -4px #999;
+}
+#missionsHeader, .missionsRow{height:1.25em; padding-top:5px; clear:left; display:block;}
+th.missionLaunch, td.missionLaunch, th.missionEnd, td.missionEnd{width:70px;}
+th.missionName, td.missionName{width:214px;}
+th.missionCountry, td.missionCountry{width:96px;}
+th.missionRocket, td.missionRocket{width:131px;}
+th.missionPad, td.missionPad{width:116px;}
+th.missionCrew, td.missionCrew{width:47px; padding-right:4px;}
+th.missionDest, td.missionDest{width:104px;}
+th.missionDuration, td.missionDuration{width:105px; padding-right:3px;}
 /*
+#missionsTable .infoRow{
+	position:absolute; min-width:250px; max-width:496px; display:none;
+	margin:3px 0 0 0px; padding:5px;
+	text-align:justify; border:1px solid #b3e4ff;
+}
+*/
+/*.missionInfo{float:left; overflow:hidden; white-space:nowrap;}*/
+/*			objects--- --------------------------------------------------------- */
+#featured.objects{background:url("/img/featured_objects.jpg") center no-repeat;}
+.cw-page-links.solsys:focus,
+.cw-page-links.solsys:hover,
+.cw-page-links.solsys:active{
+	background:url("/img/featured_solsys1.jpg") center no-repeat;
+}
+.cw-page-links.const:focus,
+.cw-page-links.const:hover,
+.cw-page-links.const:active{
+	background:url("/img/featured_constellations1.jpg") center no-repeat;
+}
+.cw-page-links.stars:focus,
+.cw-page-links.stars:hover,
+.cw-page-links.stars:active{
+	background:url("/img/featured_stars1.jpg") center no-repeat;
+}
+.cw-page-links.stations:focus,
+.cw-page-links.stations:hover,
+.cw-page-links.stations:active{
+	background:url("/img/featured_stations1.jpg") center no-repeat;
+}
+/*			observatories ------------------------------------------------------ */
+#featured.observatories{background:url("/img/featured_observatories.jpg") center no-repeat;}
+/*			people ------------------------------------------------------------- */
+#featured.persons{background:url("/img/featured_persons.jpg") center no-repeat;}
+.personRow{
+	max-width:315px; margin-left:5px; display:inline-block;
+	border-radius:6px 6px 0 0;
+}
+.personRow:focus, .personRow:hover, .personRow:active{
+	font-weight:700; background:#bafafa; box-shadow:0px 6px 6px #999;
+}
+.personInfoBox{
+	position:absolute; width:305px; margin:0; padding:3px; font-weight:normal;
+	background:#fff;
+	border-color:#bafafa; border-width:0 2px 2px 2px;
+	border-style:solid; border-radius:0 0 6px 6px;
+	box-shadow:0px 6px 6px #999;}
+.personItem a{padding:5px 0 5px 5px; display:block;}
+.personProfession, .personLife, .personCountry{margin-bottom:10px;}
+/*			places ------------------------------------------------------------- */
+#featured.places{background:url("/img/featured_places.jpg") center no-repeat;}
 #switch{margin:0; float:left; list-style:none; font-size:.8em; font-weight:500;}
 #switch li{float:left; width:480px;}
-#switch a{
-	display:block; float:left; 
-	margin:0; width:478px; height:20px; padding-top:4px;
-}
+#switch a{display:block; float:left; margin:0; width:478px; height:1.25em; padding-top:4px;}
 #switch a{
 	border-right:1px solid #d0d0d0; 
 	border-bottom:1px solid #d0d0d0; 
 	border-left:1px solid #d0d0d0;
 }
 #tableSwitch{float:right;}
+#placesHeader{
+	background-image:linear-gradient(to bottom, #fff 0%, #d2d2ff 100%);
+	border-bottom:1px solid #d0d0d0;
+}
+#placesTable th{line-height:1.25em;}
+#placesTable th, #placesTable td{float:left; overflow:hidden; white-space:nowrap;}
+.placesRow:focus, .placesRow:hover, .placesRow:active{
+	font-size:1.1em; background:#fff;
+	box-shadow:0px 6px 6px -4px #999, 0px -6px 6px -4px #999;
+}
+#placesHeader, .placesRow{height:1.25em; padding-top:5px; clear:left; display:block;}
+.placeName header, .placeName,
+.placeWhere header, .placeWhere,
+.placeWho header, .placeWho{float:left; overflow:hidden; white-space:nowrap;}
+/*
+#map_canvas, #placesTable{margin:0; padding:0;}
+#map_canvas{width:958px; height:528px;}
+#mapInfoWindow{margin:10px; min-width:350px; min-height:100px; vertical-align:middle;}
+#placesHeader, #constHeader, #starsHeader, #missionsHeader{
+	font-size:1em; font-weight:bold; color:#666;
+}
+.placeName header, .placeName{width:347px; padding-left:3px;}
+.placeWhere header, .placeWhere{width:270px;}
+.placeWho header, .placeWho{width:340px;}
 */
-
-/*			cw-page-links --------------------------------------------------- */
-.cw-page-links{width:100%; border-bottom:1px solid #d0d0d0;}
-.cw-page-links a{display:block; line-height:3em; font-size:1.5em;}
-
-.cw-page-links.astronomers:focus, .cw-page-links.astronomers:hover,
-.cw-page-links.astronomers:active{
-	background:url("/img/featured_astronomers1.jpg") center no-repeat;
+/*			probes ------------------------------------------------------------- */
+#featured.probes{background:url("/img/featured_probes.jpg") center no-repeat;}
+/*			register ----------------------------------------------------------- */
+#featured.register{background:url("/img/featured_register.jpg") center no-repeat;}
+.registerRow{
+	max-width:315px; margin-left:5px; display:inline-block;
+	border-radius:6px 6px 0 0;
 }
-.cw-page-links.solsys:focus, .cw-page-links.solsys:hover,
-.cw-page-links.solsys:active{
-	background:url("/img/featured_solsys1.jpg") center no-repeat;
+.registerRow:focus, .registerRow:hover, .registerRow:active{
+	font-weight:700; background:#e1e1e1; box-shadow:0px 6px 6px #999;
 }
-.cw-page-links.const:focus, .cw-page-links.const:hover,
-.cw-page-links.const:active{
-	background:url("/img/featured_constellations1.jpg") center no-repeat;
+.registerInfoBox{
+	position:absolute; width:305px; margin:0; padding:3px; font-weight:normal;
+	background:#fff;
+	border-color:#e1e1e1; border-width:0 2px 2px 2px;
+	border-style:solid; border-radius:0 0 6px 6px;
+	box-shadow:0px 6px 6px #999;}
+.registerItem a{padding:5px 0 5px 5px; display:block;}
+/*			rockets ------------------------------------------------------------ */
+#featured.rockets{background:url("/img/featured_rockets.jpg") center no-repeat;}
+/*			satellites --------------------------------------------------------- */
+#featured.satellites{background:url("/img/featured_satellites.jpg") center no-repeat;}
+/*			solsys ------------------------------------------------------------- */
+#featured.solsys{background:url("/img/featured_solsys.jpg") center no-repeat;}
+.solsysRow{background:#c7e9ff;}
+.solsysRow.Stern{background:LemonChiffon;}
+.solsysRow.Merkur{background:#eedc82;}
+.solsysRow.Venus{background:#cccdd5;}
+.solsysRow.Erde{background:LightsteelBlue;}
+.solsysRow.Mars{background:SandyBrown;}
+.solsysRow.Jupiter{background:#e2d2c3;}
+.solsysRow.Saturn{background:Khaki;}
+.solsysRow.Uranus{background:#bee3e6;}
+.solsysRow.Neptun{background:#90d0f8;}
+.solsysInfoBox{
+	position:absolute; width:310px; padding:3px; font-weight:normal;
+	border-width:0 2px 2px 2px; border-style:solid; border-radius:0 0 6px 6px;
+	box-shadow:0px 6px 6px #999;
 }
-.cw-page-links.stars:focus, .cw-page-links.stars:hover,
-.cw-page-links.stars:active{
-	background:url("/img/featured_stars1.jpg") center no-repeat;
-}
+.solsysInfoBox.Sonne, .solsysInfoBox.Planet, .solsysInfoBox.Mond{background:#fff;}
+.solsysInfoBox, .solsysInfoBox.Gruppe von Objekten.Sonne{border-color:#c7e9ff;}
+.solsysRow.Planet{margin-left:320px;}
+.solsysRow.Mond{margin-left:640px;}
+.solsysInfoBox.Sonne{border-color:LemonChiffon;}
+.solsysInfoBox.Merkur{border-color:#eedc82;}
+.solsysInfoBox.Venus{border-color:#cccdd5;}
+.solsysInfoBox.Erde{border-color:LightsteelBlue;}
+.solsysInfoBox.Mars{border-color:SandyBrown;}
+.solsysInfoBox.Jupiter{border-color:#e2d2c3;}
+.solsysInfoBox.Saturn{border-color:Khaki;}
+.solsysInfoBox.Uranus{border-color:#bee3e6;}
+.solsysInfoBox.Neptun{border-color:#90d0f8;}
+.solsysItem a{padding:5px; display:block;}
+.solsysCategory{margin-bottom:10px;}
+.solsysInfoBox th, .solsysInfoBox td{padding-right:5px; min-width:145px}
+.solsysInfoBox li{margin-left:20px;}
+/*			stations ----------------------------------------------------------- */
+#featured.stations{background:url("/img/featured_stations.jpg") center no-repeat;}
+/*			spaceflight -------------------------------------------------------- */
+#featured.spaceflight{background:url("/img/featured_spaceflight.jpg") center no-repeat;}
 .cw-page-links.astronauts:focus, .cw-page-links.astronauts:hover,
 .cw-page-links.astronauts:active{
 	background:url("/img/featured_astronauts1.jpg") center no-repeat;
@@ -339,284 +414,47 @@ main{max-width:960px; margin:0 auto; background:#f8f8f8;}
 .cw-page-links.stations:active{
 	background:url("/img/featured_stations1.jpg") center no-repeat;
 }
-
-/*			filter & firstLetter -------------------------------------------- */
-/*
-#filter{
-	margin:0; padding:5px 5px 5px 3px; font-size:.8em;
-	border-bottom:1px solid #d0d0d0;
-}
-#filter.stars form{display:inline;}
-*/
-#letterLinks{padding:10px; background:#f8f8f8; border-bottom:1px solid #d0d0d0;}
-#letterLinks a{font-size:.8em;}
-#letterLinks a:focus, #letterLinks a:hover, #letterLinks a:active{font-size:1em;}
-.letter-section{padding-top:10px;}
-.letter-section:hover{background:#f4f4f4;}
-.first-letter{padding:10px; font-size:1.3em; font-weight:500;}
-/*
-input[type=checkbox]{margin:0 0 3px 5px; vertical-align:middle;}
-*/
-/*		dataTable ----------------------------------------------------------- */
-#dataTable{font-size:.8em;}
-/*			dataTable borders ------------------------------------------- */
-#placesHeader, #constHeader, #starsHeader, #missionsHeader{
-	border-bottom:1px solid #d0d0d0;
-}
-/*			dataTable backgrounds ------------------------------------------- */
-#timelineHeader{
-	background:url("/img/bg_timelinestart.png") no-repeat transparent;
-}
-.timelineRow{
-	background:url("/img/bg_timeline.png") left no-repeat transparent;
-}
-#timelineFooter{
-	background:url("/img/bg_timelineend.png") no-repeat transparent;
-}
-/*
-#placesTable th, #missionsTable th, #constTable th, #starsHeader th{
-	background:url("/img/bg_order.png") right no-repeat transparent;
-}
-#placesTable th.headerSortUp, #missionsTable th.headerSortUp,
-#constTable th.headerSortUp, #starsHeader .headerSortUp{
-	background:url("/img/bg_order_asc.png") right no-repeat transparent;
-}
-#placesTable th.headerSortDown, #missionsTable th.headerSortDown,
-#constTable th.headerSortDown, #starsHeader .headerSortDown{
-	background:url("/img/bg_order_desc.png") right no-repeat transparent;
-}
-#placesTable th:hover, #missionsTable th:hover,
-#constTable th:hover, #starsHeader th:hover{
-	background:url("/img/bg_order1.png") right no-repeat transparent;
-}
-#placesTable th.headerSortUp:hover, #missionsTable th.headerSortUp:hover,
-#constTable th.headerSortUp:hover, #starsHeader .headerSortUp:hover{
-	background:url("/img/bg_order_asc1.png") right no-repeat transparent;
-}
-#placesTable th.headerSortDown:hover, #missionsTable th.headerSortDown:hover,
-#constTable th.headerSortDown:hover, #starsHeader .headerSortDown:hover{
-	background:url("/img/bg_order_desc1.png") right no-repeat transparent;
-}
-*/
-
-.timelineRow:hover, .timelineRow:active, .timelineRow:focus,
-.missionsRow:hover, .missionsRow:active, .missionsRow:focus{
-	font-size:1.1em; background:#fff;
-}
-
-.personRow:focus, .personRow:hover, .personRow:active{background:#bafafa;}
-/*
-.placesRow:hover, .placesRow:active, .placesRow:focus{background:#ffffe2;}
-.objectsRow:hover, .objectsRow:active, .objectsRow:focus,
-.constRow:hover, .constRow:active, .constRow:focus,
-.starsRow:hover, .starsRow:active, .starsRow:focus{background:#ffe2ff;}
-.indexRow:hover, .indexRow:active, .indexRow:focus{background:#e1e1e1;}
-.solsysRow{background:#c7e9ff;}
-.solsysRow.Stern{background:LemonChiffon;}
-.solsysRow.Merkur{background:#eedc82;}
-.solsysRow.Venus{background:#cccdd5;}
-.solsysRow.Erde{background:LightsteelBlue;}
-.solsysRow.Mars{background:SandyBrown;}
-.solsysRow.Jupiter{background:#e2d2c3;}
-.solsysRow.Saturn{background:Khaki;}
-.solsysRow.Uranus{background:#bee3e6;}
-.solsysRow.Neptun{background:#90d0f8;}
-*/
-
-.personInfoBox,
-.solsysInfoBox.Sonne, .solsysInfoBox.Planet, .solsysInfoBox.Mond,
-.indexInfoBox{background:#fff;}
-
-/*			dataTable gradients --------------------------------------------- */
-/* - red - chronicle - */
-/*.cw-page-links.chronicle{background-image:linear-gradient(to bottom, #fff 0%, #ffc2c2 100%);}*/
-
-/* - turquoise - persons - */
-/*.cw-page-links.persons{background-image:linear-gradient(to bottom, #fff 0%, #a2e2e2 100%);}*/
-
-/* - yellow - places - */
-/*#placesHeader{background-image:linear-gradient(to bottom, #fff 0%, #ffffc2 100%);}*/
-
-/* - violett - objects - */
-/*#objectsHeader{background-image:linear-gradient(to bottom, #fff 0%, #ffc2ff 100%);}*/
-
-/* - green - astronomy - */
-/*#constHeader, #starsHeader{background-image:linear-gradient(to bottom, #fff 0%, #c2ffc2 100%);}*/
-
-/* - blue - space flight - */
-/*#missionsHeader{background-image:linear-gradient(to bottom, #fff 0%, #d2d2ff 100%);}*/
-
-#placesHeader, #objectsHeader, #constHeader, #starsHeader, #missionsHeader{
+/*			space-telescopes --------------------------------------------------- */
+#featured.spacetel{background:url("/img/featured_spacetel.jpg") center no-repeat;}
+/*			stars -------------------------------------------------------------- */
+#featured.stars{background:url("/img/featured_stars.jpg") center no-repeat;}
+#starsHeader{
 	background-image:linear-gradient(to bottom, #fff 0%, #d2d2ff 100%);
+	border-bottom:1px solid #d0d0d0;
 }
-
-/* - grey - register - */
-/*#menu form, #switch a{background-image:linear-gradient(to top, #e1e1e1 0%, #fff 100%);}
-#switch a:hover,
-#switch a:active,
-#switch a:focus{background-image:linear-gradient(to top, #c0c0c0 0%, #fff 100%);}
-#filter, #notes{background-image:linear-gradient(to bottom, #fff 0%, #f8f8f8 100%);}*/
-
-/*			dataTable borders ----------------------------------------------- */
-/*
-#map_canvas{
-	border-right:1px solid #d0d0d0; 
-	border-bottom:1px solid #d0d0d0; 
-	border-left:1px solid #d0d0d0;
-}
-*/
-.personRow, .indexRow{border-radius:6px 6px 0 0;}
-.personInfoBox, .solsysInfoBox, .indexInfoBox{
-	border-width:0 2px 2px 2px; border-style:solid; border-radius:0 0 6px 6px;
-}
-.personInfoBox{border-color:#bafafa;}
-.solsysInfoBox.Sonne{border-color:LemonChiffon;}
-.solsysInfoBox.Merkur{border-color:#eedc82;}
-.solsysInfoBox.Venus{border-color:#cccdd5;}
-.solsysInfoBox.Erde{border-color:LightsteelBlue;}
-.solsysInfoBox.Mars{border-color:SandyBrown;}
-.solsysInfoBox.Jupiter{border-color:#e2d2c3;}
-.solsysInfoBox.Saturn{border-color:Khaki;}
-.solsysInfoBox.Uranus{border-color:#bee3e6;}
-.solsysInfoBox.Neptun{border-color:#90d0f8;}
-.solsysInfoBox, .solsysInfoBox.Gruppe von Objekten.Sonne{border-color:#c7e9ff;}
-.indexInfoBox{border-color:#e1e1e1;}
-
-
-/*			dataTable box-shadows ------------------------------------------- */
-
-.timelineRow:focus, .timelineRow:hover, .timelineRow:active, 
-.placesRow:focus, .placesRow:hover, .placesRow:active, 
-.objectsRow:focus, .objectsRow:hover, .objectsRow:active, 
-.constRow:focus, .constRow:hover, .constRow:active, 
-.starsRow:focus, .starsRow:hover, .starsRow:active, 
-.missionsRow:focus, .missionsRow:hover, .missionsRow:active{
+#starsTable th{line-height:1.25em;}
+#starsTable th, #starsTable td{float:left; overflow:hidden; white-space:nowrap;}
+.starsRow:focus, .starsRow:hover, .starsRow:active{
 	box-shadow:0px 6px 6px -4px #999, 0px -6px 6px -4px #999;
 }
-
-.personRow:focus, .personRow:hover, .personRow:active, 
-.personInfoBox, .solsysInfoBox, .indexInfoBox,
-.indexRow:focus, .indexRow:hover, .indexRow:active{box-shadow:0px 6px 6px #999;}
-
-
-/*			dataTable measures ---------------------------------------------- */
-#dataTable{
-	border-bottom:1px solid #d0d0d0;
-	background-image:linear-gradient(to bottom, #f8f8f8 0%, #fff 100%);
-	background-attachment:fixed;
-}
-
-/*.timelineCoords, .personCoords, #placesTable, .missionCoords{display:none;}*/
-/*.firstLetterRow{padding:20px 5px 5px 10px;}*/
-/*.firstLetterArrow{margin-left:925px; text-align:right;}*/
-
-#timelineHeader, #timelineFooter, .timelineRow, 
-#placesHeader, .placesRow, 
-#constHeader, .constRow, 
-#starsHeader, .starsRow, 
-#missionsHeader, .missionsRow{height:20px; padding-top:5px; clear:left; display:block;}
-
-.timelineDate, .timelinePlace, .timelineEvent,
-.placeName header, .placeName, .placeWhere header, .placeWhere,
-.placeWho header, .placeWho,
-#constTable th, #constTable td,
-#starsTable th, #starsTable td,
-#missionsTable th, #missionsTable td{float:left; overflow:hidden; white-space:nowrap;}
-
-.timelineDate{width:112px; padding-left:46px;}
-.timelinePlace{width:187px; padding-left:5px;}
-.timelineEvent{width:605px; padding-left:5px;}
-
-.personRow, .indexRow{max-width:315px; margin-left:5px; display:inline-block;}
-.personRow:focus, .personRow:hover, .personRow:active, 
-.indexRow:focus, .indexRow:hover, .indexRow:active{font-weight:700;}
-
-.personInfoBox, .solsysInfoBox, .indexInfoBox{
-	position:absolute; width:305px; margin:0; padding:3px; font-weight:normal;
-}
-
-.personItem a, .solsysItem a, .indexItem a{padding:5px 0 5px 5px; display:block;}
-.personProfession, .personLife, .personCountry,
-.solsysCategory, .indexLife{margin-bottom:10px;}
-
-/*#map_canvas, #placesTable{margin:0; padding:0;}
-#map_canvas{width:958px; height:528px;}
-#mapInfoWindow{margin:10px; min-width:350px; min-height:100px; vertical-align:middle;}*/
-
-/*#placesHeader, #constHeader, #starsHeader, #missionsHeader{
-	font-size:1em; font-weight:bold; color:#666;
-}*/
-
-/*.placeName header, .placeName{width:347px; padding-left:3px;}
-.placeWhere header, .placeWhere{width:270px;}
-.placeWho header, .placeWho{width:340px;}*/
-
-/*.solsysInfoBox{width:310px;}
-.solsysRow.Planet{margin-left:320px;}
-.solsysRow.Mond{margin-left:640px;}
-.solsysItem a{padding:5px;}
-.solsysInfoBox th, .solsysInfoBox td{padding-right:5px; min-width:145px}
-.solsysInfoBox li{margin-left:20px;}*/
-
-#constHeader th, #starsHeader th{line-height:20px;}
-th.constName, td.constName{width:172px; padding-left:3px;}
-th.constLatin, .constLatin{width:130px;}
-th.constShort, td.constShort{width:40px;}
-th.constAuthor, .constAuthor{width:75px;}
-th.constY, .constY{width:40px;}
-th.constSphere, .constSphere{width:50px;}
-th.constVisFrom, th.constVisTo, .constVisFrom, .constVisTo{width:45px;}
-th.constSqDeg, .constSqDeg{width:65px;}
-th.starsOver3Mag, .starsOver3Mag, th.starsOver4Mag, .starsOver4Mag{width:55px;}
-th.constBrightStar, .constBrightStar{width:122px; padding-right:3px;}
-th.constMagMax, .constMagMax{width:60px;}
-
+#starsHeader, .starsRow{height:1.25em; padding-top:5px; clear:left; display:block;}
 th.starHistName, td.starHistName{width:155px; padding-left:3px;}
 th.starBay, .starBay{width:197px;}
 th.starShort, td.starShort{width:50px; padding-right:5px;}
 th.starConst, .starConst{width:116px;}
-th.starSpektr, .starSpektr{width:78px;}
-th.starAppMag, .starAppMag{width:40px;}
-th.starDist, .starDist{width:40px;}
 th.starRekt, .starRekt{width:102px;}
 th.starDekli, .starDekli{width:96px;}
+th.starAppMag, .starAppMag{width:40px;}
+th.starSpektr, .starSpektr{width:78px;}
+th.starDist, .starDist{width:40px;}
 th.starMass, .starMass{width:38px;}
 th.starRadius, .starRadius{width:40px;}
 .starInfoBox{display:none;}
-
-th.missionLaunch, td.missionLaunch, th.missionEnd, td.missionEnd{width:70px;}
-th.missionName, td.missionName{width:214px;}
-th.missionCountry, td.missionCountry{width:96px;}
-th.missionRocket, td.missionRocket{width:131px;}
-th.missionPad, td.missionPad{width:116px;}
-th.missionCrew, td.missionCrew{width:47px; padding-right:4px;}
-th.missionDest, td.missionDest{width:104px;}
-th.missionDuration, td.missionDuration{width:105px; padding-right:3px;}
-
-/*#missionsTable .infoRow{
-	position:absolute; min-width:250px; max-width:496px; display:none;
-	margin:3px 0 0 0px; padding:5px;
-	text-align:justify; border:1px solid #b3e4ff;
-}*/
-/*.missionInfo{float:left; overflow:hidden; white-space:nowrap;}*/
-
-/*		dataTables END ------------------------------------------------------- */
-
-/*		About ---------------------------------------------------------------- */
-/*#about ul li{padding:10px 0;}
-#about ul li.q{padding:20px 10px; border-bottom:1px solid #d0d0d0;border-bottom:1px solid #d0d0d0;}
-#about ul li a.question{display:block;}
-/*#about ul li a.question:after{font-family:FontAwesome; content:'\f0da';}
-#about ul li ul{padding-top:10px; font-size:.825em;}*/
-
-#notes{clear:left; border-bottom:1px solid #d0d0d0;}
+/*			telescopes --------------------------------------------------------- */
+#featured.telescopes{background:url("/img/featured_telescopes.jpg") center no-repeat;}
+/*			notes -------------------------------------------------------------- */
+#notes{
+	clear:left;
+	background-image:linear-gradient(to bottom, #fff 0%, #f8f8f8 100%);
+	border-bottom:1px solid #d0d0d0;
+}
 #notes p{padding:20px 10px; font-size:.8em;}
-
-/*	Footer ------------------------------------------------------------------ */
+#notes ol{padding:10px 20px;}
+/*	Footer ------------------------------------------------------------------- */
 footer{
 	max-width:940px; margin:0 auto 10px; padding:10px; color:#333;
-	border-radius:0 0 6px 6px;
 	background-image:linear-gradient(to bottom, #f8f8f8 0%, #eaeaea 100%);
+	border-radius:0 0 6px 6px;
 }
 footer ul.footerLinks{float:left;}
 footer ul.footerLinks li{
@@ -629,76 +467,3 @@ footer ul.footerLinks li a{
 }
 footer ul.footerLinks li a:hover{background:#666;}
 .shariff-button a.share_text{color:#fff;}
-
-/*	Mobile Safari ( iPad, iPhone and iPod Touch ) --------------------------- */
-/*pre{*/
-/*	-webkit-text-size-adjust:140%;*/
-/*}*/
-/*code{*/
-/*	-webkit-text-size-adjust:160%;*/
-/*}*/
-/*#access,*/
-/*.entry-meta,*/
-/*.entry-utility,*/
-/*.navigation,*/
-/*.widget-area{*/
-/*	position:absolute; top:90px;*/
-/*	-webkit-text-size-adjust:120%;*/
-/*}*/
-/*#site-description{*/
-/*	-webkit-text-size-adjust:none;*/
-/*}*/
-
-/*	Print Style ------------------------------------------------------------- */
-/*@media print{*/
-/*	body{*/
-/*		background:none !important;*/
-/*	}*/
-/*	#wrapper{*/
-/*		clear:both !important;*/
-/*		display:block !important;*/
-/*		float:none !important;*/
-/*		position:relative !important;*/
-/*	}*/
-/*	header{*/
-/*		border-bottom:2pt solid #000;*/
-/*		padding-bottom:18pt;*/
-/*	}*/
-/*	#site-title,*/
-/*	#site-description{*/
-/*		float:none;*/
-/*		line-height:1.4em;*/
-/*		margin:0;*/
-/*		padding:0;*/
-/*	}*/
-/*	#site-title{*/
-/*		font-size:13pt;*/
-/*	}*/
-/*	#access,*/
-/*	#branding img,*/
-/*	#respond,*/
-/*	.comment-edit-link,*/
-/*	.edit-link,*/
-/*	.navigation,*/
-/*	.page-link,*/
-/*	.widget-area{*/
-/*		display:none !important;*/
-/*	}*/
-/*	#container,*/
-/*	header,*/
-/*	footer{*/
-/*		margin:0;*/
-/*		width:100%;*/
-/*	}*/
-/*	#content,*/
-/*	.one-column{*/
-/*		margin:24pt 0 0;*/
-/*		width:100%;*/
-/*	}*/
-/*	main{*/
-/*		display:inline;*/
-/*	}*/
-/*	.home .sticky{*/
-/*		border:none;*/
-/*	}*/
-/*}*/

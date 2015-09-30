@@ -1,0 +1,13 @@
+#featured.spaceflight{background:url("/img/featured_spaceflight.jpg") center no-repeat;}
+.cw-page-links.astronauts:focus, .cw-page-links.astronauts:hover,
+.cw-page-links.astronauts:active{
+	background:url("/img/featured_astronauts1.jpg") center no-repeat;
+}
+.cw-page-links.missions:focus, .cw-page-links.missions:hover,
+.cw-page-links.missions:active{
+	background:url("/img/featured_missions1.jpg") center no-repeat;
+}
+.cw-page-links.stations:focus, .cw-page-links.stations:hover,
+.cw-page-links.stations:active{
+	background:url("/img/featured_stations1.jpg") center no-repeat;
+}
