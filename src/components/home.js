@@ -23,8 +23,7 @@ export default class HomeComponent {
             <p>So lie&szlig;en Generationen von Wissenschaftlern und Pionieren der Astronomie und Raumfahrt
               den kollektiven Wissensspeicher der Menschheit immer weiter wachsen.
               Dieses Lexikon bietet einen &Uuml;berblick &uuml;ber die Entwicklung von Astronomie und Raumfahrt von der
-              Vergangenheit
-              &uuml;ber die Gegenwart bis hinein in die Zukunft. Es erm&ouml;glicht dem Nutzer einen Einblick in die
+              Vergangenheit &uuml;ber die Gegenwart bis hinein in die Zukunft. Es erm&ouml;glicht dem Nutzer einen Einblick in die
               faszinierende Welt von Wissenschaft und Technik.</p>
           </div>
           <div id="news" className="pure-u-1 pure-u-lg-1-3 pure-u-md-1-2 justify">
@@ -42,8 +41,7 @@ export default class HomeComponent {
             <h3><a href={appUrl.eventsSite()} title="Chronik" target="_self" className="liinternal">Chronik</a>
             </h3>
             <p>Die Astronomie gilt als die &auml;lteste Wissenschaft. Bereits in der Steinzeit begannen Menschen zu
-              forschen
-              und noch heute k&uuml;nden pr&auml;zise Kalender, riesige Observatorien und fantastische Instrumente vom
+              forschen und noch heute k&uuml;nden pr&auml;zise Kalender, riesige Observatorien und fantastische Instrumente vom
               Wissensdrang unserer Vorfahren.</p>
           </div>
           <div id="boxMid" className="pure-u-1 pure-u-lg-1-3 pure-u-md-1-2 box justify">
@@ -52,8 +50,7 @@ export default class HomeComponent {
             <h3><a href={appUrl.peopleSite()} title="Personen" target="_self" className="liinternal">Personen</a>
             </h3>
             <p>Naturwissenschaftler und Raumfahrer &#8211; seit Jahrtausenden entdecken und erobern sie neue Welten und
-              R&auml;ume,
-              sie erkennen Zusammenh&auml;nge und Naturgesetze. Als Pioniere erweitern sie st&auml;ndig die Grenzen
+              R&auml;ume, sie erkennen Zusammenh&auml;nge und Naturgesetze. Als Pioniere erweitern sie st&auml;ndig die Grenzen
               unserer Existenz.</p>
           </div>
           <div id="boxRight" className="pure-u-1 pure-u-lg-1-3 pure-u-md-1-2 box justify">
@@ -62,8 +59,7 @@ export default class HomeComponent {
             <h3><a href="http://cosmowiki.de/de1/places.php" title="Orte" target="_self" className="liinternal">Orte</a>
             </h3>
             <p>Besuchen Sie die Orte des Geschehens auf der Karte: Tempel und Megalithanlagen, Observatorien und
-              Sternwarten,
-              die Wirkungsst&auml;tten ber&uuml;hmter Wissenschaftler, Universit&auml;ten, Institute und Labore,
+              Sternwarten, die Wirkungsst&auml;tten ber&uuml;hmter Wissenschaftler, Universit&auml;ten, Institute und Labore,
               Testgel&auml;nde und Weltraumbahnh&ouml;fe!</p>
           </div>
         </div>
