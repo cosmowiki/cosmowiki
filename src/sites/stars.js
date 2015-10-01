@@ -17,28 +17,29 @@ class Star {
   
   static fromRawData(raw) {
     const star = new Star();
-    star.name = raw.name;
-    star.histName = raw.histname; // TODO should this be "historicalName" ?
-    star.altName = raw.altname;
+    star.name = raw.starname;
+    star.link = raw.starlink;
+    star.historicalName = raw.historicalname;
+    star.alternativeName = raw.alternativename;
     star.hr = raw.hr;
     star.hd = raw.hd;
     star.hip = raw.hip;
     star.sao = raw.sao;
+    star.flamsteed = raw.flamsteed;
     
-    star.bay = raw.bay;
-    star.short = raw.short;
-    star.const = raw.const;
-    star.constlink = raw.constlink; // TODO make it a real ref to the constellation
+    star.bayerName = raw.bayername;
+    star.shortName = raw.shortname;
+    star.constellation = raw.constellation;
+    star.constLink = raw.constlink; // TODO make it a real ref to the constellation
     
-    star.dekli = raw.const;
+    star.dekli = raw.dekli;
     star.rekt = raw.rekt;
     star.appMag = raw.appmag;
+    star.spectrClass = raw.spectrclass;
     
     star.dist = raw.dist;
     star.mass = raw.mass;
     star.radius = raw.radius;
-    
-    //star.spektr = raw.???; not found in the data
     
     return star;
   }
