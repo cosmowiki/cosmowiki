@@ -9,15 +9,15 @@
 	box-shadow:0px 6px 6px -4px #999, 0px -6px 6px -4px #999;
 }
 #starsHeader, .starsRow{height:1.25em; padding-top:5px; clear:left; display:block;}
-th.starHistName, td.starHistName{width:155px; padding-left:3px;}
-th.starBay, .starBay{width:197px;}
+th.starName, td.starName{width:155px; padding-left:3px;}
+th.starBay, td.starBay{width:197px;}
 th.starShort, td.starShort{width:50px; padding-right:5px;}
-th.starConst, .starConst{width:116px;}
-th.starRekt, .starRekt{width:102px;}
-th.starDekli, .starDekli{width:96px;}
-th.starAppMag, .starAppMag{width:40px;}
-th.starSpektr, .starSpektr{width:78px;}
-th.starDist, .starDist{width:40px;}
-th.starMass, .starMass{width:38px;}
-th.starRadius, .starRadius{width:40px;}
+th.starConst, td.starConst{width:116px;}
+th.starRekt, td.starRekt{width:102px;}
+th.starDekli, td.starDekli{width:96px;}
+th.starAppMag, td.starAppMag{width:40px;}
+th.starSpectrClass, td.starSpectrClass{width:78px;}
+th.starDist, td.starDist{width:40px;}
+th.starMass, td.starMass{width:38px;}
+th.starRadius, td.starRadius{width:40px;}
 .starInfoBox{display:none;}
