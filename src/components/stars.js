@@ -33,14 +33,14 @@ export default class StarsComponent {
           <table id="starsTable" className="tablesorter">
             <thead>
               <tr id="starsHeader">
-                <th className="starHistName left">historischer Name</th>
+                <th className="starName left">Name</th>
                 <th className="starBay left">Bayer-Bezeichnung</th>
                 <th className="starShort left">kurz</th>
                 <th className="starConst left">Sternbild</th>
                 <th className="starRekt left">Rektaszension</th>
                 <th className="starDekli left">Deklination</th>
                 <th className="starAppMag left">mag</th>
-                <th className="starSpektr left">Klasse</th>
+                <th className="starSpectrClass left">Klasse</th>
                 <th className="starDist left">Lj</th>
                 <th className="starMass left">M<sub>&#9737;</sub></th>
                 <th className="starRadius left">R<sub>&#9737;</sub></th>
@@ -64,27 +64,28 @@ class StarComponent {
     const {star} = this.props; 
     return (
       <tr className="starsRow">
-        <td className="starHistName">
-          <a href={star.wikipediaUrl} onMouseOver={noop} onMouseOut={noop}>{star.histName}</a>
+        <td className="starName">
+          <a href={star.link} onMouseOver={noop} onMouseOut={noop}>{star.name}</a>
           <div className="starInfoBox">
             <p>
-              <strong>alternative Namen:</strong> {star.altName}</p>
+              <strong>alternative Namen:</strong> {star.alternativeName}</p>
             <p>
               <strong>Bezeichnung nach:</strong><br />
               <a href="https://de.wikipedia.org/wiki/Bright-Star-Katalog" target="_blank" title="Bright-Star-Katalog">Bright-Star-Katalog</a>: HR {star.hr}<br />
               <a href="https://de.wikipedia.org/wiki/Henry-Draper-Katalog" target="_blank" title="Henry-Draper-Katalog">Henry-Draper-Katalog</a>: HD {star.hd}<br />
               <a href="https://de.wikipedia.org/wiki/Hipparcos-Katalog" target="_blank" title="Hipparcos-Katalog">Hipparcos-Katalog</a>: HIP {star.hip}<br />
-              <a href="https://de.wikipedia.org/wiki/SAO-Katalog" target="_blank" title="SAO-Katalog">SAO-Katalog</a>: SAO {star.sao}
+              <a href="https://de.wikipedia.org/wiki/SAO-Katalog" target="_blank" title="SAO-Katalog">SAO-Katalog</a>: SAO {star.sao}<br />
+              <a href="https://de.wikipedia.org/wiki/Flamsteed-Bezeichnung" target="_blank" title="Flamsteed-Bezeichnung">SAO-Katalog</a>: Flamsteed {star.flamsteed}
             </p>
           </div>
         </td>
-        <td className="starBay">{star.bay}</td>
-        <td className="starShort">{star.short}</td>
-        <td className="starConst"><a href={star.constlink}>{star.const}</a></td>
+        <td className="starBay">{star.bayerName}</td>
+        <td className="starShort">{star.shortName}</td>
+        <td className="starConst"><a href={star.constLink}>{star.constellation}</a></td>
         <td className="starRekt">{star.rekt}</td>
         <td className="starDekli">{star.dekli}</td>
         <td className="starAppMag">{star.appMag}</td>
-        <td className="starSpektr">{star.spektr}</td>
+        <td className="starSpectrClass">{star.spectrClass}</td>
         <td className="starDist">{star.dist}</td>
         <td className="starMass">{star.mass}</td>
         <td className="starRadius">{star.radius}</td>
