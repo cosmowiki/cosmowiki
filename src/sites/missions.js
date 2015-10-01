@@ -18,7 +18,9 @@ class Mission {
   static fromRawData(raw) {
     const mission = new Mission();
     
-    mission.name = raw.name;
+    mission.launchDate = raw.missionslaunch;
+    mission.name = raw.missionname;
+    mission.link = raw.missionlink;
     mission.country = raw.missioncountry;
     mission.duration = raw.missionduration;
     mission.end = raw.missionend;
