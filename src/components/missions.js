@@ -29,7 +29,7 @@ export default class MissionsComponent {
               <th className="missionRocket left">Träger</th>
               <th className="missionPad left">Startplatz</th>
               <th className="missionDest left">Ziel</th>
-              <th className="missionCrew left">Crew</th>
+              <th className="missionCrew center">Crew</th>
               <th className="missionDuration left">Dauer</th>
               <th className="missionEnd center">Ende</th>
             </tr>
