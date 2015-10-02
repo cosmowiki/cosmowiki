@@ -20,19 +20,26 @@ class SpaceStation {
     station.name = raw.statname;
     station.wikipediaUrl = raw.statlink;
     station.imageUrl = raw.statimglink;
+    station.imageSrc = raw.statimgsrc;
+    station.imageLicence = raw.statimglicence;
     station.operator = raw.statoperator;
 
-    station.launchDate = `${raw.statlaunchd}. ${raw.statlaunchm}. ${raw.statlaunchy}`;
+    station.launchDate = `${raw.statlaunchd}.${raw.statlaunchm}.${raw.statlaunchy}`;
     station.daysInOrbit = raw.statdaysinorbit;
-    station.reenterDate = `${raw.statreentery}. ${raw.statreenterm}. ${raw.statreenterd}`;
+    station.reenterDate = `${raw.statreenterd}.${raw.statreenterm}.${raw.statreentery}`;
+    station.rocket = raw.statrocket;
+    station.rocketUrl = raw.statrocketlink;
+    station.launchPad = raw.statlaunchpad;
+    station.launchPadUrl = raw.statlaunchpadlink;
     station.crewSize = raw.statcrewsize;
-    station.daysOcuu = raw.statdaysoccu;
+    station.daysOccupied = raw.statdaysoccupied;
     station.visitors = raw.statvisitors;
-    station.manVis = raw.statmanvis;
-    station.unmanVis = raw.statunmanvis;
+    station.crews = raw.statcrews;
+    station.mannedDocks = raw.statmanneddocks;
+    station.unmannedDocks = raw.statunmanneddocks;
     station.apo = raw.statapo;
     station.peri = raw.statperi;
-    station.incli = raw.statincli;
+    station.inclination = raw.statinclination;
     station.mass = raw.statmass;
     station.pressVol = raw.statpressvol;
     

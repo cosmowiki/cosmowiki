@@ -27,23 +27,26 @@ class StationComponent {
   render() {
     const {spaceStation:station} = this.props; 
     return (
-      <div className="statRow">
-        <div className="statImg"><img src={station.imageUrl} width="300" /></div>
-        <div className="statName"><a href={station.statLink}>{station.name}</a></div>
-        <div className="statOperator">{station.operator}</div>
-        <div className="statLaunch">{station.launchDate}</div>
-        <div className="statDaysInOrbit">{station.daysInOrbit}</div>
-        <div className="statReenter">{station.reenterDate}</div>
-        <div className="statCrewSize center">{station.crewSize}</div>
-        <div className="statDaysOccu center">{station.daysOcuu}</div>
-        <div className="statVisitors center">{station.visitors}</div>
-        <div className="statManVis center">{station.manVis}</div>
-        <div className="statUnmanVis center">{station.unmanVis}</div>
-        <div className="statApo">{station.apo}</div>
-        <div className="statPeri">{station.peri}</div>
-        <div className="statIncli">{station.incli}</div>
-        <div className="statMass">{station.mass}</div>
-        <div className="statPressVol">{station.pressVol}</div>
+      <div className="statRow pure-u-1">
+        <div className="statImgBox pure-u-1 pure-u-lg-1-3">
+          <img src={station.imageUrl} width="300" alt={station.name} />
+          <div className="statImgTxt right">
+            Quelle: {station.imageSrc}, Lizenz: {station.imageLicence}
+          </div>
+        </div>
+        <ul className="statList pure-u-1 pure-u-lg-2-3">
+          <li className="statName"><a href={station.wikipediaUrl}>{station.name}</a></li>
+          <li>Betreiber: {station.operator}</li>
+          <li>Start: {station.launchDate} - Wiedereintritt in die Erdatmosphäre: {station.reenterDate}</li>
+          <li>gestartet von: <a href={station.launchPadUrl}>{station.launchPad}</a> mit <a href={station.rocketUrl}>{station.rocket}</a></li>
+          <li>{station.daysInOrbit} Tage im Orbit, davon {station.daysOccupied} Tage bemannt</li>
+          <li>maximale Besatzung: {station.crewSize}</li>
+          <li>{station.visitors} Astronauten haben die Station besucht</li>
+          <li>Flüge zur Station: {station.mannedDocks} bemannt, {station.unmannedDocks} unbemannt</li>
+          <li>Apogäum: {station.apo}, Perigäum: {station.peri}, Bahnneigung: {station.inclination}</li>
+          <li>Masse: {station.mass}</li>
+          <li>Volumen (unter Druck): {station.pressVol}</li>
+        </ul>
       </div>
     );
   }
