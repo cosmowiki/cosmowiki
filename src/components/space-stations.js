@@ -31,14 +31,14 @@ class StationComponent {
         <div className="statImgBox pure-u-1 pure-u-lg-1-3">
           <img src={station.imageUrl} width="300" alt={station.name} />
           <div className="statImgTxt right">
-            Quelle: {station.imageSrc}, Lizenz: {station.imageLicence}
+            Bildquelle: {station.imageSrc}
           </div>
         </div>
         <ul className="statList pure-u-1 pure-u-lg-2-3">
           <li className="statName"><a href={station.wikipediaUrl}>{station.name}</a></li>
           <li>Betreiber: {station.operator}</li>
           <li>Start: {station.launchDate} - Wiedereintritt in die Erdatmosphäre: {station.reenterDate}</li>
-          <li>gestartet von: <a href={station.launchPadUrl}>{station.launchPad}</a> mit <a href={station.rocketUrl}>{station.rocket}</a></li>
+          <li>gestartet von: <a href={station.pad.wikipediaUrl}>{station.pad.name}</a> mit <a href={station.rocket.wikipediaUrl}>{station.rocket.name}</a></li>
           <li>{station.daysInOrbit} Tage im Orbit, davon {station.daysOccupied} Tage bemannt</li>
           <li>maximale Besatzung: {station.crewSize}</li>
           <li>{station.visitors} Astronauten haben die Station besucht</li>
