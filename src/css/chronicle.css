@@ -1,17 +1,14 @@
 #featured.chronicle{background:url("/img/featured_chronicle.jpg") center no-repeat;}
+#timelineHeader, #timelineFooter, .timelineRow{
+	height:22px; padding-top:5px; clear:left; display:block;
+}
 #timelineHeader{background:url("/img/bg_timelinestart.png") no-repeat transparent;}
 .timelineRow{background:url("/img/bg_timeline.png") left no-repeat transparent;}
-#timelineFooter{background:url("/img/bg_timelineend.png") no-repeat transparent;}
 .timelineRow:focus, .timelineRow:hover, .timelineRow:active{
-	font-size:1.1em; background:#fff;
-	box-shadow:0px 6px 6px -4px #999, 0px -6px 6px -4px #999;
+	font-size:1.1em; background:#fff; box-shadow:0px 6px 6px -4px #999, 0px -6px 6px -4px #999;
 }
-#timelineHeader, #timelineFooter, .timelineRow{
-	height:1.25em; padding-top:5px; clear:left; display:block;
-}
-.timelineDate, .timelinePlace, .timelineEvent{
-	float:left; overflow:hidden; white-space:nowrap;
-}
+#timelineFooter{background:url("/img/bg_timelineend.png") no-repeat transparent;}
+.timelineDate, .timelinePlace, .timelineEvent{float:left; overflow:hidden; white-space:nowrap;}
 .timelineDate{width:112px; padding-left:46px;}
 .timelinePlace{width:187px; padding-left:5px;}
 .timelineEvent{width:605px; padding-left:5px;}

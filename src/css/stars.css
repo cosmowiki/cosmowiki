@@ -3,12 +3,14 @@
 	background-image:linear-gradient(to bottom, #fff 0%, #d2d2ff 100%);
 	border-bottom:1px solid #d0d0d0;
 }
-#starsTable th{line-height:1.25em;}
-#starsTable th, #starsTable td{float:left; overflow:hidden; white-space:nowrap;}
+#starsTable tr{height:2em; clear:left; display:block;}
+#starsTable tr:nth-child(even){background:rgba(192,192,192,.1);}
+#starsTable th, #starsTable td{
+	float:left; line-height:2em; overflow:hidden; white-space:nowrap;
+}
 .starsRow:focus, .starsRow:hover, .starsRow:active{
 	box-shadow:0px 6px 6px -4px #999, 0px -6px 6px -4px #999;
 }
-#starsHeader, .starsRow{height:1.25em; padding-top:5px; clear:left; display:block;}
 th.starName, td.starName{width:155px; padding-left:3px;}
 th.starBay, td.starBay{width:197px;}
 th.starShort, td.starShort{width:50px; padding-right:5px;}
