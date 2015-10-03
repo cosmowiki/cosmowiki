@@ -59,7 +59,7 @@ class MissionComponent {
         <td className="missionDest">{mission.destination}</td>
         <td className="missionCrew center">{mission.crew}</td>
         <td className="missionDuration">{mission.duration}</td>
-        <td className="missionEnd center">{mission.end}</td>
+        <td className="missionEnd center">{mission.endDate}</td>
       </tr>
     );
   }
