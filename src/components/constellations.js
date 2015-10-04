@@ -37,7 +37,7 @@ export default class ConstellationsComponent {
                 <th className="starsOver3Mag center">>3<sup>m</sup></th>
                 <th className="starsOver4Mag center">>4<sup>m</sup></th>
                 <th className="constBrightStar left">hellster Stern</th>
-                <th className="constMagMax left">Mag<sub>max</sub></th>
+                <th className="constMagMax right">Mag<sub>max</sub></th>
               </tr>
             </thead>
             <tbody>
@@ -69,7 +69,7 @@ class ConstellationComponent {
   			<td className="starsOver3Mag center">{item.starsOver3Mag}</td>
   			<td className="starsOver4Mag center">{item.starsOver4Mag}</td>
   			<td className="constBrightStar"><a href={item.brightStar.wikipediaUrl}>{item.brightStar.name}</a></td>
-  			<td className="constMagMax">{item.magMax}</td>
+  			<td className="constMagMax right">{item.magMax}</td>
   		</tr>
     );
   }

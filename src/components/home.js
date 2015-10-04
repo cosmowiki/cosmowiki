@@ -37,7 +37,7 @@ export default class HomeComponent {
           <div id="boxLeft" className="pure-u-1 pure-u-lg-1-3 pure-u-md-1-2 box justify">
             <a href={appUrl.eventsSite()} title="Chronik" target="_self" className="liimagelink"><img
               title="Stonehenge, Wigulf, Quelle: Wikipedia" src="/img/past.jpg"
-              alt="Stonehenge, Wigulf, Quelle: Wikipedia"/></a>
+              name="Chronik" alt="Chronik"/></a>
             <h3><a href={appUrl.eventsSite()} title="Chronik" target="_self" className="liinternal">Chronik</a>
             </h3>
             <p>Die Astronomie gilt als die &auml;lteste Wissenschaft. Bereits in der Steinzeit begannen Menschen zu
@@ -46,7 +46,7 @@ export default class HomeComponent {
           </div>
           <div id="boxMid" className="pure-u-1 pure-u-lg-1-3 pure-u-md-1-2 box justify">
             <a href={appUrl.peopleSite()} title="Personen" target="_self" className="liimagelink"><img
-              title="Personen" src="/img/persons.jpg" alt="Personen"/></a>
+              title="Personen" src="/img/persons.jpg" name="Personen" alt="Personen"/></a>
             <h3><a href={appUrl.peopleSite()} title="Personen" target="_self" className="liinternal">Personen</a>
             </h3>
             <p>Naturwissenschaftler und Raumfahrer &#8211; seit Jahrtausenden entdecken und erobern sie neue Welten und
@@ -55,7 +55,7 @@ export default class HomeComponent {
           </div>
           <div id="boxRight" className="pure-u-1 pure-u-lg-1-3 pure-u-md-1-2 box justify">
             <a href="http://cosmowiki.de/de1/places.php" title="Orte" target="_self" className="liimagelink"><img
-              title="Orte" src="/img/places.jpg" alt="Orte"/></a>
+              title="Orte" src="/img/places.jpg" name="Orte" alt="Orte"/></a>
             <h3><a href="http://cosmowiki.de/de1/places.php" title="Orte" target="_self" className="liinternal">Orte</a>
             </h3>
             <p>Besuchen Sie die Orte des Geschehens auf der Karte: Tempel und Megalithanlagen, Observatorien und
