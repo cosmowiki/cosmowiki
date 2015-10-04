@@ -115,8 +115,9 @@ main{max-width:960px; margin:0 auto; background:#f8f8f8;}
 /*			letterLinks -------------------------------------------------------- */
 #letterLinks{padding:10px; background:#f8f8f8; border-bottom:1px solid #d0d0d0;}
 #letterLinks a{font-size:.8em;}
-#letterLinks a:focus, #letterLinks a:hover, #letterLinks a:active{font-size:1em;}
-.letter-section{padding-top:10px;}
+#letterLinks a:focus, #letterLinks a:hover, #letterLinks a:active{
+	font-size:1em; letter-spacing:-.1em; transition: all 0.1s linear;
+}
 .letter-section:hover{background:#f4f4f4;}
 .first-letter, .scrollUpArrow{max-width:30%; margin:10px; font-size:1.3em; font-weight:500;}
 .scrollUpArrow{float:right;}
