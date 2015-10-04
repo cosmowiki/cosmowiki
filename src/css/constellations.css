@@ -11,14 +11,14 @@
 .constRow:focus, .constRow:hover, .constRow:active{
 	box-shadow:0px 6px 6px -4px #999, 0px -6px 6px -4px #999;
 }
-th.constName, td.constName{width:172px; padding-left:3px;}
-th.constLatin, .constLatin{width:130px;}
-th.constShort, td.constShort{width:40px;}
-th.constAuthor, .constAuthor{width:75px;}
-th.constY, .constY{width:40px;}
-th.constSphere, .constSphere{width:50px;}
-th.constVisFrom, th.constVisTo, .constVisFrom, .constVisTo{width:45px;}
-th.constSqDeg, .constSqDeg{width:65px;}
-th.starsOver3Mag, .starsOver3Mag, th.starsOver4Mag, .starsOver4Mag{width:55px;}
-th.constBrightStar, .constBrightStar{width:123px; padding-right:2px;}
-th.constMagMax, .constMagMax{width:60px;}
+.constName{width:172px; padding-left:3px;}
+.constLatin{width:130px;}
+.constShort{width:40px;}
+.constAuthor{width:75px;}
+.constY{width:40px;}
+.constSphere{width:50px;}
+.constVisFrom, .constVisTo{width:45px;}
+.constSqDeg{width:65px;}
+.starsOver3Mag, .starsOver4Mag{width:55px;}
+.constBrightStar{width:120px;}
+.constMagMax{width:62px; padding-right:3px;}

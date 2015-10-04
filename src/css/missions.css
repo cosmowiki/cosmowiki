@@ -11,14 +11,14 @@
 .missionsRow:focus, .missionsRow:hover, .missionsRow:active{
 	box-shadow:0px 6px 6px -4px #999, 0px -6px 6px -4px #999;
 }
-th.missionLaunch, td.missionLaunch, th.missionEnd, td.missionEnd{width:70px;}
-th.missionName, td.missionName{width:214px;}
-th.missionCountry, td.missionCountry{width:96px;}
-th.missionRocket, td.missionRocket{width:131px;}
-th.missionPad, td.missionPad{width:116px;}
-th.missionCrew, td.missionCrew{width:47px; padding-right:4px;}
-th.missionDest, td.missionDest{width:104px;}
-th.missionDuration, td.missionDuration{width:105px; padding-right:3px;}
+.missionLaunch, .missionEnd{width:70px;}
+.missionName{width:214px;}
+.missionCountry{width:96px;}
+.missionRocket{width:131px;}
+.missionPad{width:116px;}
+.missionCrew{width:47px; padding-right:4px;}
+.missionDest{width:104px;}
+.missionDuration{width:105px; padding-right:3px;}
 /*
 #missionsTable .infoRow{
 	position:absolute; min-width:250px; max-width:496px; display:none;
