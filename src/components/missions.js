@@ -54,8 +54,8 @@ class MissionComponent {
         <td className="missionLaunch center">{mission.launchDate}</td>
         <td className="missionName"><a href={mission.link}>{mission.name}</a></td>
         <td className="missionCountry">{mission.country}</td>
-        <td className="missionRocket"><a href={mission.rocket.wikipediaUrl}>{mission.rocket.name}</a></td>
-        <td className="missionPad"><a href={mission.pad.wikipediaUrl}>{mission.pad.name}</a></td>
+        <td className="missionRocket"><RocketLink rocket={mission.rocket} /></td>
+        <td className="missionPad"><PadLink pad={mission.pad} /></td>
         <td className="missionDest">{mission.destination}</td>
         <td className="missionCrew center">{mission.crew}</td>
         <td className="missionDuration">{mission.duration}</td>
@@ -64,6 +64,30 @@ class MissionComponent {
     );
   }
 
+}
+
+class RocketLink {
+  render() {
+    const {rocket} = this.props;
+    if (!rocket) {
+      return null;
+    }
+    return (
+      <a href={rocket.wikipediaUrl}>{rocket.name}</a>
+    );
+  }
+}
+
+class PadLink {
+  render() {
+    const {pad} = this.props;
+    if (!pad) {
+      return null;
+    }
+    return (
+      <a href={pad.wikipediaUrl}>{pad.name}</a>
+    );
+  }
 }
 
 //<?php include("header.php")?>
