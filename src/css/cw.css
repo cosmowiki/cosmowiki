@@ -118,7 +118,8 @@ main{max-width:960px; margin:0 auto; background:#f8f8f8;}
 #letterLinks a:focus, #letterLinks a:hover, #letterLinks a:active{font-size:1em;}
 .letter-section{padding-top:10px;}
 .letter-section:hover{background:#f4f4f4;}
-.first-letter, .scrollUpArrow{max-width:460px; margin:10px; font-size:1.3em; font-weight:500;}
+.first-letter, .scrollUpArrow{max-width:30%; margin:10px; font-size:1.3em; font-weight:500;}
+.scrollUpArrow{float:right;}
 
 /*			switch ------------------------------------------------------------- */
 /*
