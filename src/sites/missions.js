@@ -25,8 +25,12 @@ class Mission {
     mission.name = raw.missionname;
     mission.link = raw.missionlink;
     mission.country = raw.missioncountry;
-    mission.rocket = Rocket.fromRawData(raw); // TODO if exists then ... else ..., please
-    mission.pad = Pad.fromRawData(raw); // TODO if exists then ... else ..., please
+    if (raw.missionrocket) {
+      mission.rocket = new Rocket(raw.missionrocket, raw.rocketlink);
+    }
+    if (raw.missionpad) {
+      mission.pad = new Pad(raw.missionpad, raw.padlink);
+    }
     mission.destination = raw.missiontarget;
     mission.crew = raw.missioncrew;
     mission.duration = raw.missionduration;
@@ -42,26 +46,18 @@ class Mission {
 
 class Rocket {
   
-  static fromRawData(raw) {
-    const rocket = new Rocket();
-    
-    rocket.name = raw.missionrocket;
-    rocket.wikipediaUrl = raw.rocketlink;
-    
-    return rocket;
+  constructor(name, wikipediaUrl) {
+    this.name = name;
+    this.wikipediaUrl = wikipediaUrl;
   }
   
 }
 
 class Pad {
   
-  static fromRawData(raw) {
-    const pad = new Pad();
-    
-    pad.name = raw.missionpad;
-    pad.wikipediaUrl = raw.padlink;
-    
-    return pad;
+  constructor(name, wikipediaUrl) {
+    this.name = name;
+    this.wikipediaUrl = wikipediaUrl;
   }
   
 }
