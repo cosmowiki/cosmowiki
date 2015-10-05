@@ -1,3 +1,3 @@
 export function firstCommandLineArgument() {
-  return process.argv[1];
+  return process.argv[2];
 }
