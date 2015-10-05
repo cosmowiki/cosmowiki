@@ -1,10 +1,14 @@
 import assert from 'assert';
 import sinon from 'sinon';
-import {
-  minifyJsonFile
-} from '../../src/scripts/json-minify';
+import MinifyJson from '../../src/scripts/json-minify';
 
 assert.calledWith = sinon.assert.calledWith;
+
+function minifyJsonFile(readFileFn, fileName) {
+  const minifyJson = new MinifyJson(readFileFn);
+  return minifyJson.fromFile(fileName);
+}
+
 
 describe('minify json file', function() {
   

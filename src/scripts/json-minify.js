@@ -1,11 +1,8 @@
-export function minifyJsonFile(readFileFn, fileName) {
-  const minifyJson = new MinifyJson(readFileFn);
-  return minifyJson.fromFile(fileName);
-}
+import {readFileSync} from '../../src/_external-deps/read-file-sync';
 
-class MinifyJson {
+export default class MinifyJson {
   
-  constructor(readFileFunction) {
+  constructor(readFileFunction = readFileSync) {
     this.readFileFunction = readFileFunction;
   }
   
