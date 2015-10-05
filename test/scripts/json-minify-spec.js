@@ -9,7 +9,6 @@ function minifyJsonFile(readFileFn, fileName) {
   return minifyJson.fromFile(fileName);
 }
 
-
 describe('minify json file', function() {
   
   const data = {data:[{x:1, y:2}]};
@@ -29,4 +28,16 @@ describe('minify json file', function() {
     
     assert.calledWith(readFileContentStub, fileName);
   });
+  
+  it('read the file name using the first command line argument', function() {
+    const readFileContentStub = sinon.stub();
+    readFileContentStub.returns('{}');
+    const fileName = 'file name';
+    function getFirstCommandLineArgument() { return fileName; }
+    const minifyJson = new MinifyJson(readFileContentStub, getFirstCommandLineArgument);
+    minifyJson.fromFile();
+    
+    assert.calledWith(readFileContentStub, fileName);
+  });
+
 });
