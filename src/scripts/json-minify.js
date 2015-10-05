@@ -1,7 +1,21 @@
-function minifyJson(data) {
-  return JSON.stringify(JSON.parse(data));
+export function minifyJsonFile(readFileFn, fileName) {
+  const minifyJson = new MinifyJson(readFileFn);
+  return minifyJson.fromFile(fileName);
 }
 
-export function minifyJsonFile(readFileFn, fileName) {
-  return minifyJson(readFileFn(fileName));
+class MinifyJson {
+  
+  constructor(readFileFunction) {
+    this.readFileFunction = readFileFunction;
+  }
+  
+  fromFile(fileName) {
+    const fileContent = this.readFileFunction(fileName);
+    return MinifyJson.fromString(fileContent);
+  }
+  
+  static fromString(data) {
+    return JSON.stringify(JSON.parse(data));
+  }
+  
 }
