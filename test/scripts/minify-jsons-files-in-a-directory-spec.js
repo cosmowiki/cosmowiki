@@ -9,6 +9,8 @@ import {
 
 assert.calledWith = sinon.assert.calledWith;
 
+import {findJsonFilesInDirectory} from '../../src/scripts/json-file-finder';
+
 describe('find all JSON files in a directory', function() {
   it('return only JSON files', function() {
     const directoryName = 'some dir';
@@ -44,14 +46,3 @@ describe('find all JSON files in a directory', function() {
     assertThat(foundFiles, equalTo(expectedFileNames));  
   });
 });
-
-import {join as pathJoin} from 'path';
-
-function findJsonFilesInDirectory(findFilesInDirFunction, directoryName) {
-  const jsonFile = fileName => fileName.endsWith('.json');
-  const completeFileName = fileName => pathJoin(directoryName, fileName);
-  
-  return findFilesInDirFunction(directoryName)
-    .filter(jsonFile)
-    .map(completeFileName);
-}
