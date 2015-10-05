@@ -17,8 +17,6 @@ assert.calledWith = sinon.assert.calledWith;
 
 describe('', function() {
 
-  let readFile;
-  
   class File {}
   
   class JsonFile {
@@ -41,6 +39,8 @@ describe('', function() {
   }
   
   describe('reads the file', function() {
+    
+    let readFile;
     
     function readJsonFile(file) {
       return new JsonFile(readFile).read(file).minify().fileContent;
@@ -99,6 +99,5 @@ describe('', function() {
     });
     
   });
-  
   
 });
