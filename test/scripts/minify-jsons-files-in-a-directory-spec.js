@@ -15,8 +15,6 @@ function findJsonFilesInDirectory(findFilesInDirFunction, directoryName) {
   return new JsonFilesFromDirectory(findFilesInDirFunction).findAll(directoryName);
 }
 
-
-
 describe('find all JSON files in a directory', function() {
   it('return only JSON files', function() {
     const directoryName = 'some dir';
