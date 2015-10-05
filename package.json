@@ -44,7 +44,8 @@
     "http-server": "^0.8.0",
     "mkdirp": "^0.5.1",
     "mocha": "^2.3.2",
-    "parallelshell": "^2.0.0"
+    "parallelshell": "^2.0.0",
+    "sinon": "^1.17.1"
   },
   "dependencies": {
     "shariff": "^1.17.1",
