@@ -4,7 +4,12 @@ import {
   promiseThat,
   assertThat,
   fulfilled,
-  isFulfilledWith
+  isFulfilledWith,
+  allOf,
+  equalTo,
+  is,
+  truthy,
+  falsy
 } from 'hamjest';
 
 assert.called = sinon.assert.called;
@@ -66,7 +71,7 @@ describe('', function() {
 
   describe('writes file content', function() {
 
-    xit('to given path', function() {
+    it('and returns a promise when done', function() {
       const fileContent = 'file content';
       const readFile = () => Promise.resolve(fileContent);
       const writeFile = sinon.stub();
@@ -74,9 +79,23 @@ describe('', function() {
       let jsonFile = new JsonFile(readFile, writeFile);
       
       return promiseThat(jsonFile.read().write(file), fulfilled());
+    });
+
+    it('to given path', function(done) {
+      const fileContent = 'file content';
+      const readFile = () => Promise.resolve(fileContent);
+      const writeFile = sinon.stub();
+      const file = new File();
+      let jsonFile = new JsonFile(readFile, writeFile);
       
-      //assert.called(writeFile);
-      //assert.calledWith(writeFile, file);
+      //return promiseThat(jsonFile.read().write(file), allOf(fulfilled(), is(truthy(writeFile.calledWith(file, fileContent)))));
+      
+      jsonFile.read().write(file).then(() => {
+        assert.calledWith(writeFile, file, fileContent);
+        done();
+      }).catch(() => {
+        done(new Error('promise was rejected'));
+      });
     });
     
   });
