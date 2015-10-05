@@ -3,7 +3,8 @@ import sinon from 'sinon';
 import {
   assertThat,
   hasItem,
-  containsString
+  containsString,
+  equalTo
 } from 'hamjest';
 
 assert.calledWith = sinon.assert.calledWith;
@@ -33,19 +34,24 @@ describe('find all JSON files in a directory', function() {
 
   it('returns the complete path for each file', function() {
     const directoryName = 'some dir';
-    const fileNames = ['file1.json', 'nojson.txt'];
+    const fileNames = ['file1.js', 'file2.json', 'file3.json', 'nojson.txt'];
     const findFilesInDirFunction = sinon.stub();
     findFilesInDirFunction.returns(fileNames);
     
     const foundFiles = findJsonFilesInDirectory(findFilesInDirFunction, directoryName);
 
-    const expectedFileName = `${directoryName}/${fileNames[0]}`;
-    assertThat(foundFiles, hasItem(expectedFileName));  
+    const expectedFileNames = [`${directoryName}/${fileNames[1]}`, `${directoryName}/${fileNames[2]}`];
+    assertThat(foundFiles, equalTo(expectedFileNames));  
   });
 });
 
 import {join as pathJoin} from 'path';
+
 function findJsonFilesInDirectory(findFilesInDirFunction, directoryName) {
-  const completeFileName = pathJoin(directoryName, findFilesInDirFunction(directoryName)[0]);
-  return [completeFileName];
+  const jsonFile = fileName => fileName.endsWith('.json');
+  const completeFileName = fileName => pathJoin(directoryName, fileName);
+  
+  return findFilesInDirFunction(directoryName)
+    .filter(jsonFile)
+    .map(completeFileName);
 }
