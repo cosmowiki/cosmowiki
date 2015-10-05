@@ -7,6 +7,9 @@ import {
   isFulfilledWith
 } from 'hamjest';
 
+assert.called = sinon.assert.called;
+assert.calledWith = sinon.assert.calledWith;
+
 describe('', function() {
 
   let readFile;
@@ -14,24 +17,29 @@ describe('', function() {
   class File {}
   
   class JsonFile {
-    constructor(readFile) {
+    constructor(readFile, writeFile) {
       this.readFile = readFile;
-      this.file = null;
+      this.writeFile = writeFile;
+      this.fileContent = null;
     }
     read(file) {
-      this.file = this.readFile(file);
+      this.fileContent = this.readFile(file);
       return this;
     }
     minify() {
-      this.file = this.file.then(content => JSON.stringify(JSON.parse(content)));
+      this.fileContent = this.fileContent.then(content => JSON.stringify(JSON.parse(content)));
       return this;
+    }
+    write(file) {
+      //this.fileContent.then(content => this.writeFile(file, content));
+      return this.fileContent.then(content => this.writeFile(file, content));
     }
   }
   
   describe('reads the file', function() {
     
     function readJsonFile(file) {
-      return new JsonFile(readFile).read(file).minify().file;
+      return new JsonFile(readFile).read(file).minify().fileContent;
     }
     
     it('and minifies the JSON', function() {
@@ -52,12 +60,25 @@ describe('', function() {
       
       readJsonFile(file);
       
-      sinon.assert.calledWith(readFile, file);
+      assert.calledWith(readFile, file);
     });
 
   });
 
-  describe('writes minified file to given ', function() {
+  describe('writes file content', function() {
+
+    xit('to given path', function() {
+      const fileContent = 'file content';
+      const readFile = () => Promise.resolve(fileContent);
+      const writeFile = sinon.stub();
+      const file = new File();
+      let jsonFile = new JsonFile(readFile, writeFile);
+      
+      return promiseThat(jsonFile.read().write(file), fulfilled());
+      
+      //assert.called(writeFile);
+      //assert.calledWith(writeFile, file);
+    });
     
   });
   
