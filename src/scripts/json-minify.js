@@ -1,8 +1,9 @@
 import {readFileSync} from '../../src/_external-deps/read-file-sync';
+import {firstCommandLineArgument} from '../../src/_external-deps/command-line-arguments';
 
 export default class MinifyJson {
   
-  constructor(readFileFunction = readFileSync, firstCommandLineArgumentFunction) {
+  constructor(readFileFunction = readFileSync, firstCommandLineArgumentFunction = firstCommandLineArgument) {
     this.readFileFunction = readFileFunction;
     this.firstCommandLineArgumentFunction = firstCommandLineArgumentFunction;
   }
