@@ -31,7 +31,6 @@ describe('', function() {
       return this;
     }
     write(file) {
-      //this.fileContent.then(content => this.writeFile(file, content));
       return this.fileContent.then(content => this.writeFile(file, content));
     }
   }
