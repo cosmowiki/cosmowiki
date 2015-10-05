@@ -30,7 +30,7 @@ a:focus, a:hover, a:active{color:#333;}
 #wrapper{margin:0 auto;}
 /*		Header ---------------------------------------------------------------- */
 header{max-width:960px; margin:0 auto;}
-#branding{height:54px; float:left;}
+#branding{height:54px;}
 #branding img{height:54px;}
 /*			social menu -------------------------------------------------------- */
 #social{float:right;}
