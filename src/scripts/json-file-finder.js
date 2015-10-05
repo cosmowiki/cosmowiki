@@ -1,10 +1,18 @@
 import {join as pathJoin} from 'path';
 
-export function findJsonFilesInDirectory(findFilesInDirFunction, directoryName) {
-  const jsonFile = fileName => fileName.endsWith('.json');
-  const completeFileName = fileName => pathJoin(directoryName, fileName);
+export default class JsonFilesFromDirectory {
   
-  return findFilesInDirFunction(directoryName)
-    .filter(jsonFile)
-    .map(completeFileName);
+  constructor(findFilesInDirFunction) {
+    this.findFilesInDirFunction = findFilesInDirFunction;
+  }
+  
+  findAll(directoryName) {
+    const jsonFile = fileName => fileName.endsWith('.json');
+    const completeFileName = fileName => pathJoin(directoryName, fileName);
+    
+    return this.findFilesInDirFunction(directoryName)
+      .filter(jsonFile)
+      .map(completeFileName);
+  }
+  
 }

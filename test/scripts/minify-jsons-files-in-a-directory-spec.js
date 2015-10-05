@@ -9,7 +9,13 @@ import {
 
 assert.calledWith = sinon.assert.calledWith;
 
-import {findJsonFilesInDirectory} from '../../src/scripts/json-file-finder';
+import JsonFilesFromDirectory from '../../src/scripts/json-file-finder';
+
+function findJsonFilesInDirectory(findFilesInDirFunction, directoryName) {
+  return new JsonFilesFromDirectory(findFilesInDirFunction).findAll(directoryName);
+}
+
+
 
 describe('find all JSON files in a directory', function() {
   it('return only JSON files', function() {
