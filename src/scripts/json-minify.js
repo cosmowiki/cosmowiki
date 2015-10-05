@@ -1,4 +1,4 @@
-export function minifyJson(data) {
+function minifyJson(data) {
   return JSON.stringify(JSON.parse(data));
 }
 

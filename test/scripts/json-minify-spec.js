@@ -1,7 +1,6 @@
 import assert from 'assert';
 import sinon from 'sinon';
 import {
-  minifyJson,
   minifyJsonFile
 } from '../../src/scripts/json-minify';
 
