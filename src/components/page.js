@@ -11,7 +11,7 @@ export default class PageComponent {
     
     return (
       <div id="wrapper" className="pure-g">
-        <header className="pure-u-2-3 pure-u-lg-1">
+        <header className="pure-u-1">
           <Logo/>
           <SocialButtons/>
           <Navigation appUrl={appUrl} />

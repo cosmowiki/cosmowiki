@@ -9,7 +9,7 @@ export default class PeopleComponent {
     const allFirstLetters = groupedPeople.map(group => group.key);
     
     return (
-      <main role="main" className="pure-u-2-3 pure-u-lg-1">
+      <main role="main" className="pure-u-1">
         <div id="featured" className="persons center">
           <h1>Personen</h1>
           <h3>Entdecker, Pioniere, Wissenschaftler</h3>

@@ -5,7 +5,7 @@ export default class SolarSystemComponent {
 
   render() {
     return (
-    	<main role="main" className="pure-u-2-3 pure-u-lg-1">
+    	<main role="main" className="pure-u-1">
     		<div id="featured" className="solsys center">
     			<h1>Sonnensystem</h1>
     			<h3>unsere kosmische Heimat</h3>

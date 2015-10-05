@@ -6,7 +6,7 @@ export default class StarsComponent {
   render() {
     const {stars} = this.props;
     return (
-      <main role="main" className="pure-u-2-3 pure-u-lg-1">
+      <main role="main" className="pure-u-1">
         <div id="featured" className="stars center">
           <h1>Sterne</h1>
           <h3>strahlende Objekte im All</h3>

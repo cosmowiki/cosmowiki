@@ -7,7 +7,7 @@ export default class ObjectsComponent {
     let appUrl = this.props.appUrl;
     
     return (
-      <main role="main" className="pure-u-2-3 pure-u-lg-1">
+      <main role="main" className="pure-u-1">
         <div id="featured" className="objects center">
           <h1>Objekte</h1>
           <h3>Planeten und Sterne, Satelliten und Sonden</h3>

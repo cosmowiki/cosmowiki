@@ -4,7 +4,7 @@ export default class SocialButtons {
   render() {
     
     return (
-      <div id="social" className="pure-u-1 pure-u-lg-1-2">
+      <div id="social" className="pure-u-1 pure-u-md-1-2 pure-menu pure-menu-horizontal">
         <ul>
           <li className="social-button facebook center">
             <a href="https://www.facebook.com/pages/CosmoWikide/120878727989418" target="_blank" title="CosmoWiki.de bei Facebook"></a>

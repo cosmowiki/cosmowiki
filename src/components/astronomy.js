@@ -5,7 +5,7 @@ export default class AstronomyComponent {
   render() {
     const {appUrl} = this.props;
     return (
-      <main role="main" className="pure-u-2-3 pure-u-1">
+      <main role="main" className="pure-u-1">
         <div id="featured" className="astronomy center">
           <h1>Astronomie</h1>
           <h3>der Blick zu den Sternen</h3>

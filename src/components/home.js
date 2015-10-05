@@ -6,7 +6,7 @@ export default class HomeComponent {
     let appUrl = this.props.appUrl;
     
     return (
-      <main role="main" className="pure-u-2-3 pure-u-lg-1">
+      <main role="main" className="pure-u-1">
         <div id="featured" className="pure-u-1 home center">
           <h1>CosmoWiki.de</h1>
           <h3>Astronomie + Raumfahrt = ein Lexikon</h3>

@@ -6,7 +6,7 @@ export default class ConstellationsComponent {
   render() {
     const {constellations} = this.props;
     return (
-      <main role="main" className="pure-u-2-3 pure-u-lg-1">
+      <main role="main" className="pure-u-1">
         <div id="featured" className="const center">
           <h1>Sternbilder</h1>
           <h3>Figuren am Firmament</h3>

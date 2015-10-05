@@ -6,7 +6,7 @@ export default class MissionsComponent {
   render() {
     const {missions} = this.props;
     return (
-      <main role="main" className="pure-u-2-3 pure-u-lg-1">
+      <main role="main" className="pure-u-1">
         <div id="featured" className="missions center">
           <h1>Missionen</h1>
           <h3>bemannte und unbemannte Raumfahrtmissionen</h3>
