@@ -30,7 +30,8 @@ describe('', function() {
       return this;
     }
     minify() {
-      this.fileContent = this.fileContent.then(content => JSON.stringify(JSON.parse(content)));
+      const minifyJson = content => JSON.stringify(JSON.parse(content));
+      this.fileContent = this.fileContent.then(minifyJson);
       return this;
     }
     write(file) {
