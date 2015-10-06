@@ -40,29 +40,28 @@ describe('', function() {
   
   describe('reads the file', function() {
     
-    let readFile;
+    const payload = {a:1};
+    const beautifiedJson = JSON.stringify(payload, null, 4);
+    const minifiedJson = JSON.stringify(payload);
+    const file = new File();
     
-    function readJsonFile(file) {
+    function readJsonFile(readFile, file) {
       return new JsonFile(readFile).read(file).minify().fileContent;
     }
     
     it('and minifies the JSON', function() {
-      const payload = {a:1};
-      const beautifiedJson = JSON.stringify(payload, null, 4);
-      const minifiedJson = JSON.stringify(payload);
-      readFile = () => Promise.resolve(beautifiedJson);
+      let readFile = () => Promise.resolve(beautifiedJson);
+
+      const fileContent = readJsonFile(readFile);
       
-      return promiseThat(readJsonFile(), isFulfilledWith(minifiedJson));
+      return promiseThat(fileContent, isFulfilledWith(minifiedJson));
     });
     
     it('from the given path', function() {
-      const payload = {a:1};
-      const beautifiedJson = JSON.stringify(payload, null, 4);
-      const file = new File();
-      readFile = sinon.stub();
+      let readFile = sinon.stub();
       readFile.returns(Promise.resolve(beautifiedJson));
       
-      readJsonFile(file);
+      readJsonFile(readFile, file);
       
       assert.calledWith(readFile, file);
     });
