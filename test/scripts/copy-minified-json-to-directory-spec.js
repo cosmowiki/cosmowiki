@@ -71,21 +71,18 @@ describe('', function() {
 
   describe('writes file content', function() {
 
+    const fileContent = 'file content';
+    const readFile = () => Promise.resolve(fileContent);
+    const writeFile = sinon.stub();
+    const file = new File();
+    
     it('and returns a promise when done', function() {
-      const fileContent = 'file content';
-      const readFile = () => Promise.resolve(fileContent);
-      const writeFile = sinon.stub();
-      const file = new File();
       let jsonFile = new JsonFile(readFile, writeFile);
       
       return promiseThat(jsonFile.read().write(file), fulfilled());
     });
 
     it('to given path', function(done) {
-      const fileContent = 'file content';
-      const readFile = () => Promise.resolve(fileContent);
-      const writeFile = sinon.stub();
-      const file = new File();
       let jsonFile = new JsonFile(readFile, writeFile);
       
       //return promiseThat(jsonFile.read().write(file), allOf(fulfilled(), is(truthy(writeFile.calledWith(file, fileContent)))));
