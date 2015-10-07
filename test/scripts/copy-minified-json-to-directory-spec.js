@@ -47,6 +47,9 @@ describe('read, minify and write a JSON file', function() {
     const file = new File();
     
     function readJsonFile(readFile, file) {
+      return new JsonFile(readFile).readFrom(file).fileContent;
+    }
+    function readAndMinifyJsonFile(readFile, file) {
       return new JsonFile(readFile).readFrom(file).minify().fileContent;
     }
     
@@ -58,11 +61,11 @@ describe('read, minify and write a JSON file', function() {
       
       assert.calledWith(readFile, file);
     });
-    
+
     it('and minifies the JSON', function() {
       let readFile = () => Promise.resolve(beautifiedJson);
 
-      const fileContent = readJsonFile(readFile);
+      const fileContent = readAndMinifyJsonFile(readFile);
       
       return promiseThat(fileContent, isFulfilledWith(minifiedJson));
     });
