@@ -15,7 +15,7 @@ import {
 assert.called = sinon.assert.called;
 assert.calledWith = sinon.assert.calledWith;
 
-describe('', function() {
+describe('read, minify and write a JSON file', function() {
 
   class File {}
   
@@ -50,14 +50,6 @@ describe('', function() {
       return new JsonFile(readFile).readFrom(file).minify().fileContent;
     }
     
-    it('and minifies the JSON', function() {
-      let readFile = () => Promise.resolve(beautifiedJson);
-
-      const fileContent = readJsonFile(readFile);
-      
-      return promiseThat(fileContent, isFulfilledWith(minifiedJson));
-    });
-    
     it('from the given path', function() {
       let readFile = sinon.stub();
       readFile.returns(Promise.resolve(beautifiedJson));
@@ -65,6 +57,14 @@ describe('', function() {
       readJsonFile(readFile, file);
       
       assert.calledWith(readFile, file);
+    });
+    
+    it('and minifies the JSON', function() {
+      let readFile = () => Promise.resolve(beautifiedJson);
+
+      const fileContent = readJsonFile(readFile);
+      
+      return promiseThat(fileContent, isFulfilledWith(minifiedJson));
     });
 
   });
