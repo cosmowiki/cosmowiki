@@ -25,7 +25,7 @@ describe('', function() {
       this.writeFile = writeFile;
       this.fileContent = null;
     }
-    read(file) {
+    readFrom(file) {
       this.fileContent = this.readFile(file);
       return this;
     }
@@ -34,7 +34,7 @@ describe('', function() {
       this.fileContent = this.fileContent.then(minifyJson);
       return this;
     }
-    write(file) {
+    writeTo(file) {
       return this.fileContent.then(content => this.writeFile(file, content));
     }
   }
@@ -47,7 +47,7 @@ describe('', function() {
     const file = new File();
     
     function readJsonFile(readFile, file) {
-      return new JsonFile(readFile).read(file).minify().fileContent;
+      return new JsonFile(readFile).readFrom(file).minify().fileContent;
     }
     
     it('and minifies the JSON', function() {
@@ -79,15 +79,16 @@ describe('', function() {
     it('and returns a promise when done', function() {
       let jsonFile = new JsonFile(readFile, writeFile);
       
-      return promiseThat(jsonFile.read().write(file), fulfilled());
+      return promiseThat(jsonFile.readFrom().writeTo(file), fulfilled());
     });
 
     it('to given path', function(done) {
       let jsonFile = new JsonFile(readFile, writeFile);
       
-      //return promiseThat(jsonFile.read().write(file), allOf(fulfilled(), is(truthy(writeFile.calledWith(file, fileContent)))));
+      // actually i think i want this!
+      //return promiseThat(jsonFile.readFrom().writeTo(file), allOf(fulfilled(), is(truthy(writeFile.calledWith(file, fileContent)))));
       
-      jsonFile.read().write(file).then(() => {
+      jsonFile.readFrom().writeTo(file).then(() => {
         assert.calledWith(writeFile, file, fileContent);
         done();
       }).catch(() => {
