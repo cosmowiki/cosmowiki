@@ -60,7 +60,7 @@ export default class Navigation {
             </ul>
           </li>
           <li className="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
-            <a className="pure-menu-link menu-item spaceflight" href="spaceflight.php">Raumfahrt</a>
+            <a className="pure-menu-link menu-item spaceflight" href={appUrl.spaceflightSite()}>Raumfahrt</a>
             <ul className="pure-menu-children sub-menu spaceflight">
               <li className="pure-menu-item">
                 <a className="pure-menu-link sub-menu-item spaceflight" href={appUrl.astronautsSite()}>Raumfahrer</a>
