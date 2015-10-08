@@ -27,6 +27,8 @@ describe('read, minify and write a JSON file', function() {
     }
     readFrom(file) {
       this.fileContent = this.readFile(file);
+      this.fileContent.then(JSON.parse)
+        .catch();
       return this;
     }
     minify() {
@@ -44,7 +46,7 @@ describe('read, minify and write a JSON file', function() {
     const payload = {a:1};
     const beautifiedJson = JSON.stringify(payload, null, 4);
     const minifiedJson = JSON.stringify(payload);
-    const file = new File();
+    const fileStub = new File();
     
     function readJsonFile(readFile, file) {
       return new JsonFile(readFile).readFrom(file).fileContent;
@@ -57,9 +59,17 @@ describe('read, minify and write a JSON file', function() {
       let readFile = sinon.stub();
       readFile.returns(Promise.resolve(beautifiedJson));
       
-      readJsonFile(readFile, file);
+      readJsonFile(readFile, fileStub);
       
-      assert.calledWith(readFile, file);
+      assert.calledWith(readFile, fileStub);
+    });
+
+    it('invalid JSON fails', function() {
+      let readFile = () => Promise.resolve('invalid JSON');
+
+      const fileContent = readJsonFile(readFile, fileStub);
+      
+      return promiseThat(fileContent, isRejectedWith('Oops, invalid JSON data.'));
     });
 
     it('and minifies the JSON', function() {
