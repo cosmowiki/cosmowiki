@@ -5,6 +5,7 @@ import {
   assertThat,
   fulfilled,
   isFulfilledWith,
+  isRejectedWith,
   allOf,
   equalTo,
   is,
@@ -26,10 +27,17 @@ describe('read, minify and write a JSON file', function() {
       this.fileContent = null;
     }
     readFrom(file) {
-      this.fileContent = this.readFile(file);
-      this.fileContent.then(JSON.parse)
-        .catch();
-      return this;
+      return new Promise((resolve, reject) => {
+        this.fileContent = this.readFile(file);
+        this.fileContent.then(content => {
+          try {
+            JSON.parse(content)
+            resolve(content);
+          } catch (e) {
+            reject('Oops, invalid JSON data.');
+          }
+        });
+      });
     }
     minify() {
       const minifyJson = content => JSON.stringify(JSON.parse(content));
@@ -70,10 +78,9 @@ describe('read, minify and write a JSON file', function() {
 
     it('invalid JSON fails', function() {
       let readFile = () => Promise.resolve('invalid JSON');
+      const jsonFile = new JsonFile(readFile);
 
-      const fileContent = readJsonFile(readFile, fileStub);
-      
-      return promiseThat(fileContent, isRejectedWith('Oops, invalid JSON data.'));
+      return promiseThat(jsonFile.readFrom(fileStub), isRejectedWith('Oops, invalid JSON data.'));
     });
 
     it('and minifies the JSON', function() {
