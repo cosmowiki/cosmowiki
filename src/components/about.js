@@ -116,7 +116,7 @@ export default class AboutComponent {
 					</li>
 				</ul>
 			</div>
-		</main><!-- #main -->
+		</main>
     )
   }
 }
