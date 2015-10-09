@@ -48,4 +48,8 @@ export default class AppUrl {
     return '/spaceflight'
   }
   
+  aboutSite() {
+    return '/about'
+  }
+  
 }
