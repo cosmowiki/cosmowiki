@@ -2,6 +2,7 @@ import React from 'react';
 export default class SocialButtons {
   
   render() {
+    const {appUrl} = this.props;
     
     return (
       <div id="social" className="pure-u-1 pure-u-md-1-2 pure-menu pure-menu-horizontal">
