@@ -16,7 +16,7 @@ export default class AboutComponent {
 						<ul id="what" className="answer hidden">
 							<li>
 								<p>
-									CosmoWiki.de ist ein nichtkommerzielles Projekt zur Verbreitung von Wissen über die Bereiche Astronomie und Raumfahrt.<br>
+									CosmoWiki.de ist ein nichtkommerzielles Projekt zur Verbreitung von Wissen über die Bereiche Astronomie und Raumfahrt.<br/>
 									Auf Plattformen wie z.B. Wikipedia existiert ein gewaltiger Wissensschatz, der von Enthusiasten mit gr&ouml;&szlig;ter Sorgfalt f&uuml;r jedermann erstellt und gepflegt wird.
 									Doch warum sollte dieser phantastische Speicher nicht &uuml;ber seine eigentlichen Grenzen hinaus genutzt werden?
 								</p>
@@ -56,7 +56,7 @@ export default class AboutComponent {
 									Dadurch steht CosmoWiki.de ebenfalls unter der <i className="fa fa-creative-commons"></i> Creative Commons Lizenz CC BY-SA 3.0.
 								</p>
 								<p>
-									Sie dürfen:<br>Teilen — das Material in jedwedem Format oder Medium vervielfältigen und weiterverbreiten.<br>Bearbeiten — das Material remixen, verändern und darauf aufbauen
+									Sie dürfen:<br/>Teilen — das Material in jedwedem Format oder Medium vervielfältigen und weiterverbreiten.<br/>Bearbeiten — das Material remixen, verändern und darauf aufbauen
 									und zwar für beliebige Zwecke, sogar kommerziell.
 								</p>
 								<p>
