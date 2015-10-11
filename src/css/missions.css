@@ -1,4 +1,4 @@
-#featured.missions{background:url("/img/featured_missions.jpg") center no-repeat;}
+#featured.missions{background:url("/img/featured_missions.jpg") left top no-repeat;}
 #missionsHeader{
 	background-image:linear-gradient(to bottom, #fff 0%, #d2d2ff 100%);
 	border-bottom:1px solid #d0d0d0;
