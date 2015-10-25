@@ -2,20 +2,20 @@
 .cw-page-links.solsys:focus,
 .cw-page-links.solsys:hover,
 .cw-page-links.solsys:active{
-	background:url("/img/featured_solsys1.jpg") left top no-repeat;
+	background:url("/img/featured_solsys1.jpg") left center no-repeat;
 }
 .cw-page-links.const:focus,
 .cw-page-links.const:hover,
 .cw-page-links.const:active{
-	background:url("/img/featured_constellations1.jpg") left top no-repeat;
+	background:url("/img/featured_constellations1.jpg") left center no-repeat;
 }
 .cw-page-links.stars:focus,
 .cw-page-links.stars:hover,
 .cw-page-links.stars:active{
-	background:url("/img/featured_stars1.jpg") left top no-repeat;
+	background:url("/img/featured_stars1.jpg") left center no-repeat;
 }
 .cw-page-links.stations:focus,
 .cw-page-links.stations:hover,
 .cw-page-links.stations:active{
-	background:url("/img/featured_stations1.jpg") left top no-repeat;
+	background:url("/img/featured_stations1.jpg") left center no-repeat;
 }
