@@ -1,11 +1,7 @@
-import assert from 'assert';
+import assert from 'power-assert';
 import {
-  assertThat,
-  everyItem,
-  hasProperty,
-  endsWith,
-  hasSize,
-  promiseThat, is, fulfilled, fulfilledWith,
+  assertThat, 
+  promiseThat, is, fulfilled,
   allOf, truthy
 } from 'hamjest';
 
@@ -26,7 +22,6 @@ function convertOneFile(fileName, destFileName) {
 }
 
 function minifyJson(content) {
-  return content;
   return JSON.stringify(JSON.parse(content));
 }
 
@@ -49,4 +44,10 @@ describe('converting `stars.json`', () => {
     return promise.then(() => assert(fs.existsSync(destFile), 'Destination file missing.'));
   });
 
+  it('is minified', () => {
+    return promise.then(() => {
+      const jsonFile = fs.readFileSync(destFile, 'utf8');
+      assertThat(jsonFile, is(JSON.stringify(JSON.parse(jsonFile))))
+    });
+  });
 });

@@ -46,6 +46,7 @@
     "mkdirp": "^0.5.1",
     "mocha": "^2.3.2",
     "parallelshell": "^2.0.0",
+    "power-assert": "^1.1.0",
     "sinon": "^1.17.1"
   },
   "dependencies": {
