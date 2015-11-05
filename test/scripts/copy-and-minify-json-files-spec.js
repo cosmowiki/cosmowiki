@@ -6,20 +6,19 @@ import {
   endsWith,
   hasSize,
   promiseThat, is, fulfilled, fulfilledWith,
-  allOf
+  allOf, truthy
 } from 'hamjest';
 
 import fs from 'fs';
 import path from 'path';
 
 function convertOneFile(fileName, destFileName) {
-  const fileReadPromise = new Promise(function(resolve, reject) {
+  const fileReadPromise = new Promise(resolve => {
     fs.readFile(fileName, 'utf8', (error, content) => {
       if (!error) resolve(content);
-
     });
   });
-  return fileReadPromise.then((fileContent) => {
+  return fileReadPromise.then(fileContent => {
     return new Promise(resolve => {
       fs.writeFile(destFileName, minifyJson(fileContent), 'utf8', resolve);
     });
@@ -46,16 +45,13 @@ describe('converting `stars.json`', () => {
     return promiseThat(promise, is(fulfilled()));
   });
 
-  it('write the destination file', () => {
-    return promiseThat(promise, is(allOf(fulfilled(), is(fs.existsSync(destFile)))));
-  });
-
-  it('is minified', (done) => {
-    convertOneFile(sourceFile, destFile).then(() => {
-      const jsonFile = fs.readFileSync(destFile);
-      assert.equal(jsonFile, JSON.stringify(JSON.parse(jsonFile)));
-      done();
-    }).catch(done => done(new Error('convert threw')));
+  it('writes the destination file', () => {
+    return promiseThat(promise,
+      allOf(
+        fulfilled(),
+        truthy(fs.existsSync(destFile))
+      )
+    );
   });
 
 });
