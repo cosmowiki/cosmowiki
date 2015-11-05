@@ -46,12 +46,7 @@ describe('converting `stars.json`', () => {
   });
 
   it('writes the destination file', () => {
-    return promiseThat(promise,
-      allOf(
-        fulfilled(),
-        truthy(fs.existsSync(destFile))
-      )
-    );
+    return promise.then(() => assert(fs.existsSync(destFile), 'Destination file missing.'));
   });
 
 });
