@@ -1,7 +1,7 @@
 import assert from 'power-assert';
 import {
   assertThat, 
-  promiseThat, is, fulfilled,
+  promiseThat, is, fulfilled, rejected,
   allOf, truthy
 } from 'hamjest';
 
@@ -9,9 +9,10 @@ import fs from 'fs';
 import path from 'path';
 
 function convertOneFile(fileName, destFileName) {
-  const fileReadPromise = new Promise(resolve => {
+  const fileReadPromise = new Promise((resolve, reject) => {
     fs.readFile(fileName, 'utf8', (error, content) => {
-      if (!error) resolve(content);
+      if (!error) resolve(content)
+      else reject();
     });
   });
   return fileReadPromise.then(fileContent => {
@@ -53,6 +54,19 @@ describe('converting', () => {
       });
     });
     
+  });
+
+  describe('fails', () => {
+  
+    const notExistingFile = path.join(__dirname, '../../not-an-existing-file');
+    const nonJsonFile = path.join(__dirname, '../../README.md');
+    let promise; 
+  
+    it('for a not existing file', () => {
+      const promise = convertOneFile(notExistingFile, '');
+      return promiseThat(promise, is(rejected()));
+    });
+  
   });
   
 });
