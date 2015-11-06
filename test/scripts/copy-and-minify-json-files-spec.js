@@ -103,9 +103,6 @@ describe('convert multiple files', () => {
 function convertManyFiles(fromPath, fileNames, destPath) {
   const fromFileName = fileName => path.join(fromPath, fileName);
   const toFileName = fileName => path.join(destPath, fileName);
-  const allFiles = [
-    convertOneFile(fromFileName(fileNames[0]), toFileName(fileNames[0])),
-    convertOneFile(fromFileName(fileNames[1]), toFileName(fileNames[1]))
-  ];
+  const allFiles = fileNames.map(fileName => convertOneFile(fromFileName(fileName), toFileName(fileName)));
   return Promise.all(allFiles);
 }
