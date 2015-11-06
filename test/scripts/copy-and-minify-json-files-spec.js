@@ -1,3 +1,4 @@
+/* global describe, it, beforeEach, __dirname */
 import assert from 'power-assert';
 import {
   assertThat, 
@@ -49,7 +50,6 @@ describe('convert one file', () => {
     const notExistingFile = path.join(__dirname, '../../not-an-existing-file');
     const nonJsonFile = path.join(__dirname, '../../README.md');
     const invalidDestFile = path.join(__dirname, '../../dist/data/not-a-directory/stars.json');
-    let promise; 
   
     it('for a not existing file', () => {
       const promise = convertOneFile(notExistingFile, '');
