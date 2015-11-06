@@ -87,12 +87,10 @@ describe('convert multiple files', () => {
       return promiseThat(promise, is(fulfilled()));
     });
     
-    it.only('fulfills when all are copied', () => {
-      const fileInDestPath = matcherOrValue => {
-        return new FeatureMatcher(matcherOrValue, 'file in destPath', 'is file', fileName => {
-          return fs.existsSync(path.join(destPath, fileName));
-        })
-      };
+    it('fulfills when all are copied', () => {
+      const fileExistsInDestPath = fileName => fs.existsSync(path.join(destPath, fileName));
+      const fileInDestPath = matcherOrValue => new FeatureMatcher(matcherOrValue, 'file in destPath', 'is file', fileExistsInDestPath);
+      
       return promise.then(() => {
         assertThat(jsonFiles, everyItem(fileInDestPath(is(true))));
       });
