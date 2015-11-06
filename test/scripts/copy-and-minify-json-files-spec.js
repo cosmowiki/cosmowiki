@@ -7,22 +7,14 @@ import {
 
 import fs from 'fs';
 import path from 'path';
+import promisify from 'es6-promisify';
 
 function convertOneFile(fileName, destFileName) {
-  const fileReadPromise = new Promise((resolve, reject) => {
-    fs.readFile(fileName, 'utf8', (error, content) => {
-      if (!error) resolve(content)
-      else reject();
-    });
-  });
-  return fileReadPromise.then(fileContent => {
-    return new Promise((resolve, reject) => {
-      fs.writeFile(destFileName, minifyJson(fileContent), 'utf8', (error) => {
-        if (error) reject();
-        else resolve();
-      });
-    });
-  });
+  const fileReadPromise = promisify(fs.readFile);
+  const fileWritePromise = promisify(fs.writeFile);
+  return fileReadPromise(fileName).then(fileContent => 
+    fileWritePromise(destFileName, minifyJson(fileContent))
+  );
 }
 
 function minifyJson(content) {
