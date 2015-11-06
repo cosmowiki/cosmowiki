@@ -2,7 +2,8 @@ import assert from 'power-assert';
 import {
   assertThat, 
   promiseThat, is, fulfilled, rejected,
-  allOf, truthy
+  allOf, truthy, everyItem,
+  FeatureMatcher
 } from 'hamjest';
 import {convertOneFile} from '../../scripts/minify-json-files';
 import fs from 'fs';
@@ -64,3 +65,49 @@ describe('convert one file', () => {
   });
   
 });
+
+describe('convert multiple files', () => {
+  
+  const fromPath = path.join(__dirname, '../../data');
+  const destPath = path.join(__dirname, '../../dist/data');
+  const jsonFiles = ['stars.json', 'people.json'];
+  
+  let promise;
+  describe('all JSON files', () => {
+
+    beforeEach(() => {
+      jsonFiles.forEach(fileName => {
+        const destFile = path.join(destPath, fileName);
+        if (fs.existsSync(destFile)) fs.unlinkSync(destFile);
+      });
+      promise = convertManyFiles(fromPath, jsonFiles, destPath);
+    });
+    
+    it('fulfills', () => {
+      return promiseThat(promise, is(fulfilled()));
+    });
+    
+    it.only('fulfills when all are copied', () => {
+      const fileInDestPath = matcherOrValue => {
+        return new FeatureMatcher(matcherOrValue, 'file in destPath', 'is file', fileName => {
+          return fs.existsSync(path.join(destPath, fileName));
+        })
+      };
+      return promise.then(() => {
+        assertThat(jsonFiles, everyItem(fileInDestPath(is(true))));
+      });
+    });
+
+  });
+    
+});
+
+function convertManyFiles(fromPath, fileNames, destPath) {
+  const fromFileName = fileName => path.join(fromPath, fileName);
+  const toFileName = fileName => path.join(destPath, fileName);
+  const allFiles = [
+    convertOneFile(fromFileName(fileNames[0]), toFileName(fileNames[0])),
+    convertOneFile(fromFileName(fileNames[1]), toFileName(fileNames[1]))
+  ];
+  return Promise.all(allFiles);
+}
