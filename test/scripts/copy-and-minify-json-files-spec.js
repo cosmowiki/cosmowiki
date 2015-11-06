@@ -16,8 +16,11 @@ function convertOneFile(fileName, destFileName) {
     });
   });
   return fileReadPromise.then(fileContent => {
-    return new Promise(resolve => {
-      fs.writeFile(destFileName, minifyJson(fileContent), 'utf8', resolve);
+    return new Promise((resolve, reject) => {
+      fs.writeFile(destFileName, minifyJson(fileContent), 'utf8', (error) => {
+        if (error) reject();
+        else resolve();
+      });
     });
   });
 }
@@ -58,12 +61,24 @@ describe('converting', () => {
 
   describe('fails', () => {
   
+    const validJsonFile = path.join(__dirname, '../../data/stars.json');
     const notExistingFile = path.join(__dirname, '../../not-an-existing-file');
     const nonJsonFile = path.join(__dirname, '../../README.md');
+    const invalidDestFile = path.join(__dirname, '../../dist/data/not-a-directory/stars.json');
     let promise; 
   
     it('for a not existing file', () => {
       const promise = convertOneFile(notExistingFile, '');
+      return promiseThat(promise, is(rejected()));
+    });
+  
+    it('for a non-JSON file', () => {
+      const promise = convertOneFile(nonJsonFile, '');
+      return promiseThat(promise, is(rejected()));
+    });
+  
+    it('for an invalid destination path', () => {
+      const promise = convertOneFile(validJsonFile, invalidDestFile);
       return promiseThat(promise, is(rejected()));
     });
   
