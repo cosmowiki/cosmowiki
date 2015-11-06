@@ -76,6 +76,9 @@ describe('convert multiple files', () => {
   const destPath = path.join(__dirname, '../../dist/data');
   const jsonFiles = ['stars.json', 'people.json'];
   
+  const fileExistsInDestPath = fileName => fs.existsSync(path.join(destPath, fileName));
+  const fileInDestPath = matcherOrValue => new FeatureMatcher(matcherOrValue, 'file in destPath', 'is file', fileExistsInDestPath);
+  
   let promise;
   
   beforeEach(() => {
@@ -95,10 +98,7 @@ describe('convert multiple files', () => {
       return promiseThat(promise, is(fulfilled()));
     });
     
-    it('fulfills when all are copied', () => {
-      const fileExistsInDestPath = fileName => fs.existsSync(path.join(destPath, fileName));
-      const fileInDestPath = matcherOrValue => new FeatureMatcher(matcherOrValue, 'file in destPath', 'is file', fileExistsInDestPath);
-      
+    it('fulfills when all are copied', () => {      
       return promise.then(() => {
         assertThat(jsonFiles, everyItem(fileInDestPath(is(true))));
       });
@@ -114,8 +114,14 @@ describe('convert multiple files', () => {
       promise = convertManyFiles(fromPath, includesNonJsonFile, destPath);
     });
 
-    xit('fulfills', () => {
+    it('fulfills', () => {
       return promiseThat(promise, is(fulfilled()));
+    });
+        
+    it('fulfills when all are copied', () => {
+      return promise.then(() => {
+        assertThat(jsonFiles, everyItem(fileInDestPath(is(true))));
+      });
     });
     
   });
@@ -126,5 +132,12 @@ function convertManyFiles(fromPath, fileNames, destPath) {
   const fromFileName = fileName => path.join(fromPath, fileName);
   const toFileName = fileName => path.join(destPath, fileName);
   const allFiles = fileNames.map(fileName => convertOneFile(fromFileName(fileName), toFileName(fileName)));
-  return Promise.all(allFiles);
+  
+  const canBeIgnored = reason => reason instanceof NoValidJsonStringError;
+  const ignoreInvalidJsonErrors = reason => { 
+    if (canBeIgnored(reason)) throw reason;
+    else return true;
+  };
+  const filterOutErrorsToIgnore = file => file.catch(ignoreInvalidJsonErrors)  
+  return Promise.all(allFiles.map(filterOutErrorsToIgnore));
 }
