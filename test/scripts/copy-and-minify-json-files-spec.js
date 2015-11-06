@@ -73,16 +73,20 @@ describe('convert multiple files', () => {
   const jsonFiles = ['stars.json', 'people.json'];
   
   let promise;
+  
+  beforeEach(() => {
+    jsonFiles.forEach(fileName => {
+      const destFile = path.join(destPath, fileName);
+      if (fs.existsSync(destFile)) fs.unlinkSync(destFile);
+    });
+  });
+  
   describe('all JSON files', () => {
 
     beforeEach(() => {
-      jsonFiles.forEach(fileName => {
-        const destFile = path.join(destPath, fileName);
-        if (fs.existsSync(destFile)) fs.unlinkSync(destFile);
-      });
       promise = convertManyFiles(fromPath, jsonFiles, destPath);
     });
-    
+
     it('fulfills', () => {
       return promiseThat(promise, is(fulfilled()));
     });
@@ -96,6 +100,20 @@ describe('convert multiple files', () => {
       });
     });
 
+  });
+  
+  describe('contains non-JSON file(s)', () => {
+    const nonJsonFile = path.join(__dirname, '../../README.md');
+    const includesNonJsonFile = [...jsonFiles, nonJsonFile];
+    
+    beforeEach(() => {
+      promise = convertManyFiles(fromPath, includesNonJsonFile, destPath);
+    });
+
+    xit('fulfills', () => {
+      return promiseThat(promise, is(fulfilled()));
+    });
+    
   });
     
 });
