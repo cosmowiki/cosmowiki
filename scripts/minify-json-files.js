@@ -10,6 +10,17 @@ export function convertOneFile(fileName, destFileName) {
   );
 }
 
+export class NoValidJsonStringError extends Error {
+  constructor() {
+    super();
+    this.message = 'No valid JSON content.';
+  }
+}
+
 function minifyJson(content) {
-  return JSON.stringify(JSON.parse(content));
+  try {
+    return JSON.stringify(JSON.parse(content));
+  } catch (e) {
+    throw new NoValidJsonStringError();
+  }
 }

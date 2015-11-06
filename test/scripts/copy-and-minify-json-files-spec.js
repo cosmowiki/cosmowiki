@@ -3,9 +3,13 @@ import {
   assertThat, 
   promiseThat, is, fulfilled, rejected,
   allOf, truthy, everyItem,
+  isRejectedWith, instanceOf,
   FeatureMatcher
-} from 'hamjest';
-import {convertOneFile} from '../../scripts/minify-json-files';
+  } from 'hamjest';
+import {
+  convertOneFile, 
+  NoValidJsonStringError
+  } from '../../scripts/minify-json-files';
 import fs from 'fs';
 import path from 'path';
 
@@ -52,9 +56,9 @@ describe('convert one file', () => {
       return promiseThat(promise, is(rejected()));
     });
   
-    it('for a non-JSON file', () => {
+    it('for a non-JSON file with NoValidJsonStringError', () => {
       const promise = convertOneFile(nonJsonFile, '');
-      return promiseThat(promise, is(rejected()));
+      return promiseThat(promise, isRejectedWith(instanceOf(NoValidJsonStringError)));
     });
   
     it('for an invalid destination path', () => {
