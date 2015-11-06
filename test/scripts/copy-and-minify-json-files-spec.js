@@ -8,7 +8,7 @@ import {convertOneFile} from '../../scripts/minify-json-files';
 import fs from 'fs';
 import path from 'path';
 
-describe('converting', () => {
+describe('convert one file', () => {
   
   describe('existing file `stars.json`', () => {
   
