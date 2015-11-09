@@ -6,9 +6,7 @@ import assert from 'power-assert';
 import {
   assertThat, 
   promiseThat, is, fulfilled, rejected,
-  allOf, truthy, everyItem,
-  isRejectedWith, instanceOf,
-  FeatureMatcher
+  isRejectedWith, instanceOf
 } from 'hamjest';
 import {
   convertOneFile, 

@@ -6,19 +6,18 @@ import assert from 'power-assert';
 import {
   assertThat, everyItem,
   promiseThat, is, fulfilled, rejected,
-  isRejectedWith,
-  FeatureMatcher
+  isRejectedWith
 } from 'hamjest';
 import {
   fromPath, destPath, jsonFiles, nonJsonFile,
   unlinkFilesInDirectory
 } from './helpers';
+import {makeFileInDestPath} from './matchers';
 import {convertManyFiles} from './many-files';
 
+const fileInDestPath = makeFileInDestPath(destPath);
+
 describe('convert multiple files', () => {
-  
-  const fileExistsInDestPath = fileName => fs.existsSync(path.join(destPath, fileName));
-  const fileInDestPath = matcherOrValue => new FeatureMatcher(matcherOrValue, 'file in destPath', 'is file', fileExistsInDestPath);
   
   let promise;
   
