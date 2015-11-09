@@ -10,7 +10,10 @@ export function convertOneFile(fileName, destFileName) {
     .then(fileContent => 
       fileWritePromise(destFileName, minifyJson(fileContent))
     )
-    .catch(reason => {throw new InvalidFile(reason.path);}
+    .catch(reason => {
+      if (reason instanceof NoValidJsonStringError) throw reason;
+      throw new InvalidFile(reason.path);
+    }
     );
 }
 

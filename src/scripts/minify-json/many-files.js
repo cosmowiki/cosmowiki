@@ -2,6 +2,7 @@ import path from 'path';
 import {
   convertOneFile, NoValidJsonStringError
 } from './one-file';
+import {InvalidFile} from './invalid-file';
 
 export function convertManyFiles(fromPath, fileNames, destPath) {
   const allFiles = convertAllFiles(fromPath, fileNames, destPath);  
@@ -15,10 +16,11 @@ function convertAllFiles(fromPath, fileNames, destPath) {
 }
 
 const filterConversions = allFiles => allFiles.map(filterOutErrorsToIgnore);
-const filterOutErrorsToIgnore = file => file.catch(ignoreInvalidJsonErrors);  
+const filterOutErrorsToIgnore = file => file.catch(errorGuard);
 
-const canBeIgnored = reason => reason instanceof NoValidJsonStringError;
-const ignoreInvalidJsonErrors = reason => { 
-  if (canBeIgnored(reason)) throw reason;
-  else return true;
+
+const errorGuard = reason => {
+  if (reason instanceof InvalidFile) return reason;
+  if (reason instanceof NoValidJsonStringError) throw reason;
+  return true;
 };

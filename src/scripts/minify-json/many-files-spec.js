@@ -4,8 +4,8 @@ import path from 'path';
 import assert from 'power-assert';
 
 import {
-  assertThat, everyItem,
-  promiseThat, is, fulfilled, rejected,
+  assertThat, everyItem, hasItem, instanceOf, hasProperty, containsString,
+  promiseThat, is, fulfilled, rejected, isFulfilledWith,
   isRejectedWith
 } from 'hamjest';
 import {
@@ -14,6 +14,7 @@ import {
 } from './helpers';
 import {makeFileInDestPath} from './matchers';
 import {convertManyFiles} from './many-files';
+import {InvalidFile} from './invalid-file';
 
 const fileInDestPath = makeFileInDestPath(toPath);
 
@@ -59,7 +60,30 @@ describe('convert multiple files', () => {
         assertThat(jsonFiles, everyItem(fileInDestPath(is(true))));
       });
     });
-    
+
   });
 
+  describe('invalid file name', function() {
+
+    const invalidFileNames = ['not-existing.file', ...jsonFiles];
+    let promise;
+    
+    beforeEach(function() {
+      promise = convertManyFiles(fromPath, invalidFileNames, toPath);
+    });
+    
+    it('fulfills with `InvalidFile`', function() {
+      return promiseThat(promise, isFulfilledWith(hasItem(instanceOf(InvalidFile))));
+    });
+    
+    it('fulfills with fileName in the message', function() {
+      return promiseThat(promise, isFulfilledWith(hasItem(hasProperty('message', containsString(invalidFileNames[0])))));
+    });
+    
+  });
+  
+  describe('invalid `fromPath`', function() {
+    
+  });
+  
 });
