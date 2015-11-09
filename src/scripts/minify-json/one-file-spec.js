@@ -4,7 +4,7 @@ import path from 'path';
 import assert from 'power-assert';
 
 import {
-  assertThat, 
+  assertThat, hasProperty,
   promiseThat, is, fulfilled, rejected,
   isRejectedWith, instanceOf
 } from 'hamjest';
@@ -12,6 +12,7 @@ import {
   convertOneFile, 
   NoValidJsonStringError
 } from './one-file';
+import {InvalidFile} from './invalid-file';
 import {
   fromPath, toPath, jsonFiles, nonJsonFile, notExistingFile,
   unlinkFile
@@ -67,7 +68,27 @@ describe('convert one file', () => {
       const promise = convertOneFile(validJsonFile, invalidDestFile);
       return promiseThat(promise, is(rejected()));
     });
-  
+
+    describe('for an not-existing file name', function() {
+
+      const notExistingFile = path.join(fromPath, 'not-existing.file');
+      let promise; 
+      
+      beforeEach(function() {
+        promise = convertOneFile(notExistingFile, invalidDestFile);
+      });
+      
+      it('rejects with InvalidFile', function() {
+        return promiseThat(promise, isRejectedWith(instanceOf(InvalidFile)));
+      });
+      
+      it('rejects with correct message', function() {
+        const message = `Invalid file "${notExistingFile}".`;
+        return promiseThat(promise, isRejectedWith(hasProperty('message', message)));
+      });
+      
+    });
+    
   });
-  
+
 });
