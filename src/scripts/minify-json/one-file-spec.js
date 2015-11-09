@@ -1,5 +1,8 @@
 /* global describe, it, beforeEach, __dirname */
+import fs from 'fs';
+import path from 'path';
 import assert from 'power-assert';
+
 import {
   assertThat, 
   promiseThat, is, fulfilled, rejected,
@@ -11,9 +14,6 @@ import {
   convertOneFile, 
   NoValidJsonStringError
 } from './one-file';
-import fs from 'fs';
-import path from 'path';
-
 import {
   fromPath, destPath, jsonFiles, nonJsonFile, notExistingFile,
   unlinkFile

@@ -1,18 +1,19 @@
 /* global describe, it, beforeEach, __dirname */
+import fs from 'fs';
+import path from 'path';
 import assert from 'power-assert';
+
 import {
   assertThat, everyItem,
   promiseThat, is, fulfilled, rejected,
   isRejectedWith,
   FeatureMatcher
 } from 'hamjest';
-import {convertManyFiles} from './many-files';
-import fs from 'fs';
-import path from 'path';
 import {
   fromPath, destPath, jsonFiles, nonJsonFile,
   unlinkFilesInDirectory
 } from './helpers';
+import {convertManyFiles} from './many-files';
 
 describe('convert multiple files', () => {
   
