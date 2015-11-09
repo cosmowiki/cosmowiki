@@ -8,5 +8,5 @@ import {
 
 export function makeFileInDestPath(destPath) {
   const fileExistsInDestPath = fileName => fs.existsSync(path.join(destPath, fileName));
-  return matcherOrValue => new FeatureMatcher(matcherOrValue, 'file in destPath', 'is file', fileExistsInDestPath);
+  return matcherOrValue => new FeatureMatcher(matcherOrValue, 'file in toPath', 'is file', fileExistsInDestPath);
 }

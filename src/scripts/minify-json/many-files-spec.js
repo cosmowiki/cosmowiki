@@ -9,26 +9,26 @@ import {
   isRejectedWith
 } from 'hamjest';
 import {
-  fromPath, destPath, jsonFiles, nonJsonFile,
+  fromPath, toPath, jsonFiles, nonJsonFile,
   unlinkFilesInDirectory
 } from './helpers';
 import {makeFileInDestPath} from './matchers';
 import {convertManyFiles} from './many-files';
 
-const fileInDestPath = makeFileInDestPath(destPath);
+const fileInDestPath = makeFileInDestPath(toPath);
 
 describe('convert multiple files', () => {
   
   let promise;
   
   beforeEach(() => {
-    unlinkFilesInDirectory(destPath, jsonFiles);
+    unlinkFilesInDirectory(toPath, jsonFiles);
   });
   
   describe('all JSON files', () => {
 
     beforeEach(() => {
-      promise = convertManyFiles(fromPath, jsonFiles, destPath);
+      promise = convertManyFiles(fromPath, jsonFiles, toPath);
     });
 
     it('fulfills', () => {
@@ -47,7 +47,7 @@ describe('convert multiple files', () => {
     const includesNonJsonFile = [...jsonFiles, nonJsonFile];
     
     beforeEach(() => {
-      promise = convertManyFiles(fromPath, includesNonJsonFile, destPath);
+      promise = convertManyFiles(fromPath, includesNonJsonFile, toPath);
     });
 
     it('fulfills', () => {

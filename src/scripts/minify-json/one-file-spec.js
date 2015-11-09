@@ -13,7 +13,7 @@ import {
   NoValidJsonStringError
 } from './one-file';
 import {
-  fromPath, destPath, jsonFiles, nonJsonFile, notExistingFile,
+  fromPath, toPath, jsonFiles, nonJsonFile, notExistingFile,
   unlinkFile
 } from './helpers';
 
@@ -22,7 +22,7 @@ describe('convert one file', () => {
   
   describe('existing file `stars.json`', () => {
   
-    const destFile = path.join(destPath, 'stars.json');
+    const destFile = path.join(toPath, 'stars.json');
     const sourceFile = path.join(fromPath, 'stars.json');
     let promise; 
   
@@ -51,7 +51,7 @@ describe('convert one file', () => {
   describe('fails', () => {
   
     const validJsonFile = path.join(fromPath, 'stars.json');
-    const invalidDestFile = path.join(destPath, 'not-a-directory', 'stars.json');
+    const invalidDestFile = path.join(toPath, 'not-a-directory', 'stars.json');
   
     it('for a not existing file', () => {
       const promise = convertOneFile(notExistingFile, '');
