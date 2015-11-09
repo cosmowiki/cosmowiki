@@ -12,11 +12,18 @@ export function convertManyFiles(fromPath, fileNames, destPath) {
 function convertAllFiles(fromPath, fileNames, destPath) {
   const fromFileName = fileName => path.join(fromPath, fileName);
   const toFileName = fileName => path.join(destPath, fileName);
-  return fileNames.map(fileName => convertOneFile(fromFileName(fileName), toFileName(fileName)));
+  return fileNames.map(fileName => {
+    const destFileName = toFileName(fileName);
+    return convertOneFile(fromFileName(fileName), destFileName)
+      .then(() => destFileName)
+    }
+  );
 }
 
 const filterConversions = allFiles => allFiles.map(filterOutErrorsToIgnore);
-const filterOutErrorsToIgnore = file => file.catch(errorGuard);
+const filterOutErrorsToIgnore = file => file
+  .catch(errorGuard)
+  .then(x => x);
 
 
 const errorGuard = reason => {

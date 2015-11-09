@@ -42,6 +42,11 @@ describe('convert multiple files', () => {
       });
     });
 
+    it('fulfills with each file name as result', function() {
+      const fileNames = jsonFiles.map(fileName => path.join(toPath, fileName));
+      return promiseThat(promise, isFulfilledWith(fileNames));
+    });
+    
   });
   
   describe('contains non-JSON file(s)', () => {
