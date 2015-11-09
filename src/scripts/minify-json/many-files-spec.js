@@ -9,12 +9,9 @@ import {
 import {convertManyFiles} from './many-files';
 import fs from 'fs';
 import path from 'path';
- 
+import {fromPath, destPath, jsonFiles, nonJsonFile} from './helpers';
+
 describe('convert multiple files', () => {
-  
-  const fromPath = path.join(__dirname, '../../../data');
-  const destPath = path.join(__dirname, '../../../dist/data');
-  const jsonFiles = ['stars.json', 'people.json'];
   
   const fileExistsInDestPath = fileName => fs.existsSync(path.join(destPath, fileName));
   const fileInDestPath = matcherOrValue => new FeatureMatcher(matcherOrValue, 'file in destPath', 'is file', fileExistsInDestPath);
@@ -47,7 +44,6 @@ describe('convert multiple files', () => {
   });
   
   describe('contains non-JSON file(s)', () => {
-    const nonJsonFile = path.join(__dirname, '../../../README.md');
     const includesNonJsonFile = [...jsonFiles, nonJsonFile];
     
     beforeEach(() => {

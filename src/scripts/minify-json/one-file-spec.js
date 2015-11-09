@@ -14,12 +14,15 @@ import {
 import fs from 'fs';
 import path from 'path';
 
+import {fromPath, destPath, jsonFiles, nonJsonFile, notExistingFile} from './helpers';
+
+
 describe('convert one file', () => {
   
   describe('existing file `stars.json`', () => {
   
-    const destFile = path.join(__dirname, '../../../dist/data/stars.json');
-    const sourceFile = path.join(__dirname, '../../../data/stars.json');
+    const destFile = path.join(destPath, 'stars.json');
+    const sourceFile = path.join(fromPath, 'stars.json');
     let promise; 
   
     beforeEach(() => { 
@@ -46,10 +49,8 @@ describe('convert one file', () => {
 
   describe('fails', () => {
   
-    const validJsonFile = path.join(__dirname, '../../../data/stars.json');
-    const notExistingFile = path.join(__dirname, '../../not-an-existing-file');
-    const nonJsonFile = path.join(__dirname, '../../../README.md');
-    const invalidDestFile = path.join(__dirname, '../../../dist/data/not-a-directory/stars.json');
+    const validJsonFile = path.join(fromPath, 'stars.json');
+    const invalidDestFile = path.join(destPath, 'not-a-directory', 'stars.json');
   
     it('for a not existing file', () => {
       const promise = convertOneFile(notExistingFile, '');
