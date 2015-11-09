@@ -63,7 +63,7 @@ describe('convert multiple files', () => {
 
   });
 
-  describe('invalid file name', function() {
+  describe('invalid file name (should still succeed and not stop the conversion process)', function() {
 
     const invalidFileNames = ['not-existing.file', ...jsonFiles];
     let promise;
