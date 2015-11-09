@@ -54,12 +54,12 @@ describe('convert multiple files', () => {
       return promiseThat(promise, is(fulfilled()));
     });
         
-    it('fulfills when all are copied', () => {
+    it('fulfills when all JSON files are copied', () => {
       return promise.then(() => {
         assertThat(jsonFiles, everyItem(fileInDestPath(is(true))));
       });
     });
     
   });
-    
+
 });
