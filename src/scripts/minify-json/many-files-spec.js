@@ -5,11 +5,14 @@ import {
   promiseThat, is, fulfilled, rejected,
   isRejectedWith,
   FeatureMatcher
-  } from 'hamjest';
+} from 'hamjest';
 import {convertManyFiles} from './many-files';
 import fs from 'fs';
 import path from 'path';
-import {fromPath, destPath, jsonFiles, nonJsonFile} from './helpers';
+import {
+  fromPath, destPath, jsonFiles, nonJsonFile,
+  unlinkFilesInDirectory
+} from './helpers';
 
 describe('convert multiple files', () => {
   
@@ -19,10 +22,7 @@ describe('convert multiple files', () => {
   let promise;
   
   beforeEach(() => {
-    jsonFiles.forEach(fileName => {
-      const destFile = path.join(destPath, fileName);
-      if (fs.existsSync(destFile)) fs.unlinkSync(destFile);
-    });
+    unlinkFilesInDirectory(destPath, jsonFiles);
   });
   
   describe('all JSON files', () => {

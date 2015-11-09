@@ -6,15 +6,18 @@ import {
   allOf, truthy, everyItem,
   isRejectedWith, instanceOf,
   FeatureMatcher
-  } from 'hamjest';
+} from 'hamjest';
 import {
   convertOneFile, 
   NoValidJsonStringError
-  } from './one-file';
+} from './one-file';
 import fs from 'fs';
 import path from 'path';
 
-import {fromPath, destPath, jsonFiles, nonJsonFile, notExistingFile} from './helpers';
+import {
+  fromPath, destPath, jsonFiles, nonJsonFile, notExistingFile,
+  unlinkFile
+} from './helpers';
 
 
 describe('convert one file', () => {
@@ -26,7 +29,7 @@ describe('convert one file', () => {
     let promise; 
   
     beforeEach(() => { 
-      if (fs.existsSync(destFile)) fs.unlinkSync(destFile);
+      unlinkFile(destFile);
       promise = convertOneFile(sourceFile, destFile);
     });
   
