@@ -4,12 +4,15 @@ import promisify from 'es6-promisify';
 import {
   convertOneFile, NoValidJsonStringError
 } from './one-file';
-import {InvalidFile} from './invalid-file';
+import {
+  InvalidFile, InvalidDirectory
+} from './invalid-file';
 
 export function convertManyFiles(fromPath, fileNames, destPath) {
   const allFiles = convertAllFiles(fromPath, fileNames, destPath);
   return checkPathExists(fromPath)
-    .then(() => Promise.all(filterConversions(allFiles)));
+    .then(() => Promise.all(filterConversions(allFiles)))
+    .catch(() => {throw new InvalidDirectory(fromPath);});
 }
 
 const checkPathExists = aPath => promisify(fs.access)(aPath, fs.R_OK);

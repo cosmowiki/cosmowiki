@@ -14,7 +14,9 @@ import {
 } from './helpers';
 import {makeFileInDestPath} from './matchers';
 import {convertManyFiles} from './many-files';
-import {InvalidFile} from './invalid-file';
+import {
+  InvalidFile, InvalidDirectory
+} from './invalid-file';
 
 const fileInDestPath = makeFileInDestPath(toPath);
 
@@ -91,10 +93,21 @@ describe('convert multiple files', () => {
 
     const invalidPath = path.join(fromPath, 'invalid/path');
     let promise;
+
+    beforeEach(function() {
+      promise = convertManyFiles(invalidPath, jsonFiles, toPath);
+    });
     
     it('rejects', function() {
-      promise = convertManyFiles(invalidPath, jsonFiles, toPath);
       return promiseThat(promise, rejected());
+    });
+    
+    it('rejects with InvalidDirectory', function() {
+      return promiseThat(promise, isRejectedWith(instanceOf(InvalidDirectory)));
+    });
+    
+    it('reject message contains the invalid dir', function() {
+      return promiseThat(promise, isRejectedWith(hasProperty('message', containsString(invalidPath))));
     });
     
   });
