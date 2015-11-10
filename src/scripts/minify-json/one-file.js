@@ -6,10 +6,10 @@ import {
   InvalidJsonString
 } from './errors';
 
+const fileReadPromise = promisify(fs.readFile);
+const fileWritePromise = promisify(fs.writeFile);
+
 export function convertOneFile(fileName, destFileName) {
-  const fileReadPromise = promisify(fs.readFile);
-  const fileWritePromise = promisify(fs.writeFile);
-  
   const readFile = 
     fileReadPromise(fileName)
       .catch(reason => {throw new InvalidFile(reason.path)});
