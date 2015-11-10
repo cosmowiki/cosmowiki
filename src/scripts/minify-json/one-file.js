@@ -9,21 +9,29 @@ import {
 export function convertOneFile(fileName, destFileName) {
   const fileReadPromise = promisify(fs.readFile);
   const fileWritePromise = promisify(fs.writeFile);
-  return fileReadPromise(fileName)
-    .then(fileContent => 
-      fileWritePromise(destFileName, minifyJson(fileContent))
-    )
-    .catch(reason => {
-      if (reason instanceof InvalidJsonString) throw reason;
-      throw new InvalidFile(reason.path);
-    }
-    );
+  
+  const readFile = 
+    fileReadPromise(fileName)
+      .catch(reason => {throw new InvalidFile(reason.path)});
+  
+  const minify = fileContent =>
+    minifyJson(fileContent)
+      .catch(() => {throw new InvalidJsonString()});
+  
+  const writeFile = minifiedJson => 
+    fileWritePromise(destFileName, minifiedJson)
+      .catch(reason => {throw new InvalidFile(reason.path)});
+  
+  return readFile
+    .then(minify)
+    .then(writeFile);
 }
 
-function minifyJson(content) {
-  try {
-    return JSON.stringify(JSON.parse(content));
-  } catch (e) {
-    throw new InvalidJsonString();
-  }
-}
+const minifyJson = content => 
+  new Promise((resolve, reject) => {
+    try {
+      resolve(JSON.stringify(JSON.parse(content)));
+    } catch (e) {
+      reject(e);
+    }
+  });
