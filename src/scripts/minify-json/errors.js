@@ -5,6 +5,13 @@ export class InvalidFile extends Error {
   }
 }
 
+export class InvalidDestinationFile extends Error {
+  constructor(fileName) {
+    super();
+    this.message = `Can not write to "${fileName}".`;
+  }
+}
+
 export class InvalidDirectory extends Error {
   constructor(directoryName) {
     super();
