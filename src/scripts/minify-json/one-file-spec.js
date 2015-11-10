@@ -17,7 +17,7 @@ import {
   InvalidDestinationFile
 } from './errors';
 import {
-  fromPath, toPath, jsonFiles, nonJsonFile, notExistingFile,
+  completeFileNames,
   unlinkFile
 } from './helpers';
 
@@ -26,8 +26,8 @@ describe('convert one file', () => {
   
   describe('existing file `stars.json`', () => {
   
-    const destFile = path.join(toPath, 'stars.json');
-    const sourceFile = path.join(fromPath, 'stars.json');
+    const sourceFile = completeFileNames.json.from[0];
+    const destFile = completeFileNames.json.to[0];
     let promise; 
   
     beforeEach(() => { 
@@ -56,6 +56,7 @@ describe('convert one file', () => {
 
     describe('that does not exist', () => {
       
+      const notExistingFile = completeFileNames.notExisting[0];
       let promise; 
       
       beforeEach(function() {
@@ -67,13 +68,14 @@ describe('convert one file', () => {
       });
       
       it('rejects with correct message', function() {
-        const message = `Invalid file "${notExistingFile}".`;
+        const message = `Invalid source file "${notExistingFile}".`;
         return promiseThat(promise, isRejectedWith(hasProperty('message', message)));
       });
       
     });
     
     it('that is a non-JSON file fails with InvalidJsonString', () => {
+      const nonJsonFile = completeFileNames.nonJson[0];
       const promise = convertOneFile(nonJsonFile, '');
       return promiseThat(promise, isRejectedWith(instanceOf(InvalidJsonString)));
     });
@@ -81,8 +83,8 @@ describe('convert one file', () => {
   });
 
   it('an invalid destination path fails', () => {
-    const validJsonFile = path.join(fromPath, jsonFiles[0]);
-    const invalidDestFile = path.join(toPath, 'not-a-directory', 'invalid.file');
+    const validJsonFile = completeFileNames.json.from[0];
+    const invalidDestFile = completeFileNames.invalidDestination[0];
     const promise = convertOneFile(validJsonFile, invalidDestFile);
     return promiseThat(promise, isRejectedWith(instanceOf(InvalidDestinationFile)));
   });
