@@ -13,7 +13,14 @@ export function convertManyFiles(fromPath, fileNames, destPath) {
     checkPathExists(fromPath)
       .catch(() => {throw new InvalidDirectory(fromPath);});
   
+  const checkToPath = () =>
+    checkPathExists(destPath)
+      .catch(() => {throw new InvalidDirectory(destPath);});
+  
+  //const convertAllFiles
+  
   return checkFromPath
+    .then(checkToPath)
     .then(() => Promise.all(filterConversions(allFiles)))
   ;
 }

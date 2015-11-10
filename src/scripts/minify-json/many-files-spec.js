@@ -125,5 +125,28 @@ describe('convert multiple files', () => {
     });
     
   });
+
+  describe('invalid `toPath`', function() {
+    
+    const invalidPath = path.join(toPath, 'invalid/path');
+    let promise;
+
+    beforeEach(function() {
+      promise = convertManyFiles(fromPath, jsonFiles, invalidPath);
+    });
+    
+    it('rejects', function() {
+      return promiseThat(promise, rejected());
+    });
+    
+    it('rejects with InvalidDirectory', function() {
+      return promiseThat(promise, isRejectedWith(instanceOf(InvalidDirectory)));
+    });
+    
+    it('reject message contains the invalid dir', function() {
+      return promiseThat(promise, isRejectedWith(hasProperty('message', containsString(invalidPath))));
+    });
+    
+  });
   
 });
