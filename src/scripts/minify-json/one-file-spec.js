@@ -12,7 +12,7 @@ import {
   convertOneFile 
 } from './one-file';
 import {
-  InvalidFile, 
+  InvalidSourceFile, 
   InvalidJsonString, 
   InvalidDestinationFile
 } from './errors';
@@ -63,7 +63,7 @@ describe('convert one file', () => {
       });
       
       it('fails', () => {
-        return promiseThat(promise, isRejectedWith(instanceOf(InvalidFile)));
+        return promiseThat(promise, isRejectedWith(instanceOf(InvalidSourceFile)));
       });
       
       it('rejects with correct message', function() {

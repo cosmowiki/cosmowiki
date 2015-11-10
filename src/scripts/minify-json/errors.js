@@ -1,4 +1,4 @@
-export class InvalidFile extends Error {
+export class InvalidSourceFile extends Error {
   constructor(fileName) {
     super();
     this.message = `Invalid file "${fileName}".`;

@@ -3,7 +3,7 @@ import path from 'path';
 import promisify from 'es6-promisify';
 import {convertOneFile} from './one-file';
 import {
-  InvalidFile, InvalidDirectory, InvalidJsonString
+  InvalidSourceFile, InvalidDirectory, InvalidJsonString
 } from './errors';
 
 export function convertManyFiles(fromPath, fileNames, destPath) {
@@ -33,7 +33,7 @@ const filterOutErrorsToIgnore = file => file
 
 
 const errorGuard = reason => {
-  if (reason instanceof InvalidFile) return reason;
+  if (reason instanceof InvalidSourceFile) return reason;
   if (reason instanceof InvalidJsonString) throw reason;
   return true;
 };

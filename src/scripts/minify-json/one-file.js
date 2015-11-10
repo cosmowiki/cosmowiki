@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import promisify from 'es6-promisify';
 import {
-  InvalidFile,
+  InvalidSourceFile,
   InvalidJsonString,
   InvalidDestinationFile
 } from './errors';
@@ -13,7 +13,7 @@ const fileWritePromise = promisify(fs.writeFile);
 export function convertOneFile(fileName, destFileName) {
   const readFile = 
     fileReadPromise(fileName)
-      .catch(reason => {throw new InvalidFile(reason.path)});
+      .catch(reason => {throw new InvalidSourceFile(reason.path)});
   
   const minify = fileContent =>
     minifyJson(fileContent)

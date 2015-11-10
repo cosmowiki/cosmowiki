@@ -15,7 +15,7 @@ import {
 import {makeFileInDestPath} from './matchers';
 import {convertManyFiles} from './many-files';
 import {
-  InvalidFile, InvalidDirectory
+  InvalidSourceFile, InvalidDirectory
 } from './errors';
 
 const fileInDestPath = makeFileInDestPath(toPath);
@@ -79,8 +79,8 @@ describe('convert multiple files', () => {
       promise = convertManyFiles(fromPath, invalidFileNames, toPath);
     });
     
-    it('fulfills with `InvalidFile`', function() {
-      return promiseThat(promise, isFulfilledWith(hasItem(instanceOf(InvalidFile))));
+    it('fulfills with `InvalidSourceFile`', function() {
+      return promiseThat(promise, isFulfilledWith(hasItem(instanceOf(InvalidSourceFile))));
     });
     
     it('fulfills with fileName in the message', function() {
