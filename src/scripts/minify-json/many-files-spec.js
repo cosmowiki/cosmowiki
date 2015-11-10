@@ -9,7 +9,7 @@ import {
   isRejectedWith
 } from 'hamjest';
 import {
-  fileNames,
+  fileNames, completeFileNames,
   fromPath, toPath,
   unlinkFilesInDirectory
 } from './helpers';
@@ -75,7 +75,7 @@ describe('convert multiple files', () => {
 
     it('fulfills with all converted file names and the InvalidJsonString error', () => {
       const expected = [
-        ...jsonFiles.map(fileName => path.join(toPath, fileName)),
+        ...completeFileNames.json.to,
         instanceOf(InvalidJsonString)
       ];
       
@@ -112,10 +112,6 @@ describe('convert multiple files', () => {
       promise = convertManyFiles(invalidPath, jsonFiles, toPath);
     });
     
-    it('rejects', function() {
-      return promiseThat(promise, rejected());
-    });
-    
     it('rejects with InvalidDirectory', function() {
       return promiseThat(promise, isRejectedWith(instanceOf(InvalidDirectory)));
     });
@@ -133,10 +129,6 @@ describe('convert multiple files', () => {
 
     beforeEach(function() {
       promise = convertManyFiles(fromPath, jsonFiles, invalidPath);
-    });
-    
-    it('rejects', function() {
-      return promiseThat(promise, rejected());
     });
     
     it('rejects with InvalidDirectory', function() {

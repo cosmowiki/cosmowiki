@@ -40,11 +40,12 @@ function convertAllFiles(fromPath, fileNames, toPath) {
   );
 }
 
-const filterConversions = allFiles => allFiles.map(filterOutErrorsToIgnore);
+const filterConversions = allFiles => 
+  allFiles.map(filterOutErrorsToIgnore);
+
 const filterOutErrorsToIgnore = file => file
   .catch(errorGuard)
   .then(x => x);
-
 
 const errorGuard = reason => {
   if (reason instanceof InvalidSourceFile) return reason;
