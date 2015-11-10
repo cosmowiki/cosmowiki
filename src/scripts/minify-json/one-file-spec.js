@@ -50,44 +50,39 @@ describe('convert one file', () => {
     
   });
 
-  describe('fails', () => {
+  it('a not existing file fails', () => {
+    const promise = convertOneFile(notExistingFile, '');
+    return promiseThat(promise, is(rejected()));
+  });
   
-    const validJsonFile = path.join(fromPath, 'stars.json');
-    const invalidDestFile = path.join(toPath, 'not-a-directory', 'stars.json');
-  
-    it('for a not existing file', () => {
-      const promise = convertOneFile(notExistingFile, '');
-      return promiseThat(promise, is(rejected()));
-    });
-  
-    it('for a non-JSON file with InvalidJsonString', () => {
-      const promise = convertOneFile(nonJsonFile, '');
-      return promiseThat(promise, isRejectedWith(instanceOf(InvalidJsonString)));
-    });
-  
-    it('for an invalid destination path', () => {
-      const promise = convertOneFile(validJsonFile, invalidDestFile);
-      return promiseThat(promise, is(rejected()));
-    });
+  it('a non-JSON file fails with InvalidJsonString', () => {
+    const promise = convertOneFile(nonJsonFile, '');
+    return promiseThat(promise, isRejectedWith(instanceOf(InvalidJsonString)));
+  });
 
-    describe('for an not-existing file name', function() {
+  it('an invalid destination path fails', () => {
+    const validJsonFile = path.join(fromPath, jsonFiles[0]);
+    const invalidDestFile = path.join(toPath, 'not-a-directory', 'invalid.file');
+    const promise = convertOneFile(validJsonFile, invalidDestFile);
+    return promiseThat(promise, is(rejected()));
+  });
 
-      const notExistingFile = path.join(fromPath, 'not-existing.file');
-      let promise; 
-      
-      beforeEach(function() {
-        promise = convertOneFile(notExistingFile, invalidDestFile);
-      });
-      
-      it('rejects with InvalidFile', function() {
-        return promiseThat(promise, isRejectedWith(instanceOf(InvalidFile)));
-      });
-      
-      it('rejects with correct message', function() {
-        const message = `Invalid file "${notExistingFile}".`;
-        return promiseThat(promise, isRejectedWith(hasProperty('message', message)));
-      });
-      
+  describe('for an not-existing file name', function() {
+
+    const notExistingFile = path.join(fromPath, 'not-existing.file');
+    let promise; 
+    
+    beforeEach(function() {
+      promise = convertOneFile(notExistingFile, 'irrelevant');
+    });
+    
+    it('rejects with InvalidFile', function() {
+      return promiseThat(promise, isRejectedWith(instanceOf(InvalidFile)));
+    });
+    
+    it('rejects with correct message', function() {
+      const message = `Invalid file "${notExistingFile}".`;
+      return promiseThat(promise, isRejectedWith(hasProperty('message', message)));
     });
     
   });
