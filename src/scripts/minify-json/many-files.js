@@ -6,16 +6,16 @@ import {
   InvalidSourceFile, InvalidDirectory, InvalidJsonString
 } from './errors';
 
-export function convertManyFiles(fromPath, fileNames, destPath) {
-  const allFiles = convertAllFiles(fromPath, fileNames, destPath);
+export function convertManyFiles(fromPath, fileNames, toPath) {
+  const allFiles = convertAllFiles(fromPath, fileNames, toPath);
   
   const checkFromPath = 
     checkPathExists(fromPath)
       .catch(() => {throw new InvalidDirectory(fromPath);});
   
   const checkToPath = () =>
-    checkPathExists(destPath)
-      .catch(() => {throw new InvalidDirectory(destPath);});
+    checkPathExists(toPath)
+      .catch(() => {throw new InvalidDirectory(toPath);});
   
   const convertEm = () =>
     Promise.all(filterConversions(allFiles));
@@ -28,9 +28,9 @@ export function convertManyFiles(fromPath, fileNames, destPath) {
 
 const checkPathExists = aPath => promisify(fs.access)(aPath, fs.R_OK);
 
-function convertAllFiles(fromPath, fileNames, destPath) {
+function convertAllFiles(fromPath, fileNames, toPath) {
   const fromFileName = fileName => path.join(fromPath, fileName);
-  const toFileName = fileName => path.join(destPath, fileName);
+  const toFileName = fileName => path.join(toPath, fileName);
   
   return fileNames.map(fileName => {
     const destFileName = toFileName(fileName);
