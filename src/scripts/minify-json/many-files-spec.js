@@ -88,6 +88,14 @@ describe('convert multiple files', () => {
   });
   
   describe('invalid `fromPath`', function() {
+
+    const invalidPath = path.join(fromPath, 'invalid/path');
+    let promise;
+    
+    it('rejects', function() {
+      promise = convertManyFiles(invalidPath, jsonFiles, toPath);
+      return promiseThat(promise, rejected());
+    });
     
   });
   
