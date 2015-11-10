@@ -12,7 +12,7 @@ import {
   convertOneFile, 
   NoValidJsonStringError
 } from './one-file';
-import {InvalidFile} from './invalid-file';
+import {InvalidFile} from './errors';
 import {
   fromPath, toPath, jsonFiles, nonJsonFile, notExistingFile,
   unlinkFile

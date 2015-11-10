@@ -6,7 +6,7 @@ import {
 } from './one-file';
 import {
   InvalidFile, InvalidDirectory
-} from './invalid-file';
+} from './errors';
 
 export function convertManyFiles(fromPath, fileNames, destPath) {
   const allFiles = convertAllFiles(fromPath, fileNames, destPath);

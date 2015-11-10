@@ -16,7 +16,7 @@ import {makeFileInDestPath} from './matchers';
 import {convertManyFiles} from './many-files';
 import {
   InvalidFile, InvalidDirectory
-} from './invalid-file';
+} from './errors';
 
 const fileInDestPath = makeFileInDestPath(toPath);
 

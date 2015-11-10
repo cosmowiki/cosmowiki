@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import promisify from 'es6-promisify';
-import {InvalidFile} from './invalid-file';
+import {InvalidFile} from './errors';
 
 export function convertOneFile(fileName, destFileName) {
   const fileReadPromise = promisify(fs.readFile);
