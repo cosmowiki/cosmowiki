@@ -9,10 +9,11 @@ import {
   isRejectedWith, instanceOf
 } from 'hamjest';
 import {
-  convertOneFile, 
-  NoValidJsonStringError
+  convertOneFile 
 } from './one-file';
-import {InvalidFile} from './errors';
+import {
+  InvalidFile, NoValidJsonStringError
+} from './errors';
 import {
   fromPath, toPath, jsonFiles, nonJsonFile, notExistingFile,
   unlinkFile

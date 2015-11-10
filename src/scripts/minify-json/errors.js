@@ -10,3 +10,10 @@ export class InvalidDirectory extends Error {
     this.message = `Invalid directory "${directoryName}"`;
   }
 }
+
+export class NoValidJsonStringError extends Error {
+  constructor() {
+    super();
+    this.message = 'No valid JSON content.';
+  }
+}

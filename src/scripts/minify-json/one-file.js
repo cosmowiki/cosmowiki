@@ -1,7 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 import promisify from 'es6-promisify';
-import {InvalidFile} from './errors';
+import {
+  InvalidFile,
+  NoValidJsonStringError
+} from './errors';
 
 export function convertOneFile(fileName, destFileName) {
   const fileReadPromise = promisify(fs.readFile);
@@ -15,13 +18,6 @@ export function convertOneFile(fileName, destFileName) {
       throw new InvalidFile(reason.path);
     }
     );
-}
-
-export class NoValidJsonStringError extends Error {
-  constructor() {
-    super();
-    this.message = 'No valid JSON content.';
-  }
 }
 
 function minifyJson(content) {

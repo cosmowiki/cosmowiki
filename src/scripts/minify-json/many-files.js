@@ -1,11 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 import promisify from 'es6-promisify';
+import {convertOneFile} from './one-file';
 import {
-  convertOneFile, NoValidJsonStringError
-} from './one-file';
-import {
-  InvalidFile, InvalidDirectory
+  InvalidFile, InvalidDirectory, NoValidJsonStringError
 } from './errors';
 
 export function convertManyFiles(fromPath, fileNames, destPath) {
