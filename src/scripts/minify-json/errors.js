@@ -1,5 +1,6 @@
-export class InvalidFile {
+export class InvalidFile extends Error {
   constructor(fileName) {
+    super();
     this.message = `Invalid file "${fileName}".`;
   }
 }
@@ -11,7 +12,7 @@ export class InvalidDirectory extends Error {
   }
 }
 
-export class NoValidJsonStringError extends Error {
+export class InvalidJsonString extends Error {
   constructor() {
     super();
     this.message = 'No valid JSON content.';

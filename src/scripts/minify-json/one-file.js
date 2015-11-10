@@ -3,7 +3,7 @@ import path from 'path';
 import promisify from 'es6-promisify';
 import {
   InvalidFile,
-  NoValidJsonStringError
+  InvalidJsonString
 } from './errors';
 
 export function convertOneFile(fileName, destFileName) {
@@ -14,7 +14,7 @@ export function convertOneFile(fileName, destFileName) {
       fileWritePromise(destFileName, minifyJson(fileContent))
     )
     .catch(reason => {
-      if (reason instanceof NoValidJsonStringError) throw reason;
+      if (reason instanceof InvalidJsonString) throw reason;
       throw new InvalidFile(reason.path);
     }
     );
@@ -24,6 +24,6 @@ function minifyJson(content) {
   try {
     return JSON.stringify(JSON.parse(content));
   } catch (e) {
-    throw new NoValidJsonStringError();
+    throw new InvalidJsonString();
   }
 }

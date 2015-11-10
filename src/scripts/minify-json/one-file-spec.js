@@ -12,7 +12,7 @@ import {
   convertOneFile 
 } from './one-file';
 import {
-  InvalidFile, NoValidJsonStringError
+  InvalidFile, InvalidJsonString
 } from './errors';
 import {
   fromPath, toPath, jsonFiles, nonJsonFile, notExistingFile,
@@ -60,9 +60,9 @@ describe('convert one file', () => {
       return promiseThat(promise, is(rejected()));
     });
   
-    it('for a non-JSON file with NoValidJsonStringError', () => {
+    it('for a non-JSON file with InvalidJsonString', () => {
       const promise = convertOneFile(nonJsonFile, '');
-      return promiseThat(promise, isRejectedWith(instanceOf(NoValidJsonStringError)));
+      return promiseThat(promise, isRejectedWith(instanceOf(InvalidJsonString)));
     });
   
     it('for an invalid destination path', () => {
