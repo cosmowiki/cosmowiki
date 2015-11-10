@@ -17,11 +17,12 @@ export function convertManyFiles(fromPath, fileNames, destPath) {
     checkPathExists(destPath)
       .catch(() => {throw new InvalidDirectory(destPath);});
   
-  //const convertAllFiles
+  const convertEm = () =>
+    Promise.all(filterConversions(allFiles));
   
   return checkFromPath
     .then(checkToPath)
-    .then(() => Promise.all(filterConversions(allFiles)))
+    .then(convertEm)
   ;
 }
 
@@ -30,6 +31,7 @@ const checkPathExists = aPath => promisify(fs.access)(aPath, fs.R_OK);
 function convertAllFiles(fromPath, fileNames, destPath) {
   const fromFileName = fileName => path.join(fromPath, fileName);
   const toFileName = fileName => path.join(destPath, fileName);
+  
   return fileNames.map(fileName => {
     const destFileName = toFileName(fileName);
     return convertOneFile(fromFileName(fileName), destFileName)
