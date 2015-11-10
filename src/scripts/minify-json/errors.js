@@ -1,7 +1,7 @@
 export class InvalidSourceFile extends Error {
   constructor(fileName) {
     super();
-    this.message = `Invalid file "${fileName}".`;
+    this.message = `Invalid source file "${fileName}".`;
   }
 }
 

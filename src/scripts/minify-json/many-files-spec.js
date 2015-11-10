@@ -4,7 +4,7 @@ import path from 'path';
 import assert from 'power-assert';
 
 import {
-  assertThat, everyItem, hasItem, instanceOf, hasProperty, containsString,
+  assertThat, everyItem, hasItem, instanceOf, hasProperty, containsString, contains,
   promiseThat, is, fulfilled, rejected, isFulfilledWith,
   isRejectedWith
 } from 'hamjest';
@@ -15,7 +15,9 @@ import {
 import {makeFileInDestPath} from './matchers';
 import {convertManyFiles} from './many-files';
 import {
-  InvalidSourceFile, InvalidDirectory
+  InvalidSourceFile, 
+  InvalidDirectory,
+  InvalidJsonString
 } from './errors';
 
 const fileInDestPath = makeFileInDestPath(toPath);
@@ -52,6 +54,7 @@ describe('convert multiple files', () => {
   });
   
   describe('contains non-JSON file(s)', () => {
+    
     const includesNonJsonFile = [...jsonFiles, nonJsonFile];
     
     beforeEach(() => {
@@ -66,6 +69,15 @@ describe('convert multiple files', () => {
       return promise.then(() => {
         assertThat(jsonFiles, everyItem(fileInDestPath(is(true))));
       });
+    });
+
+    it('fulfills with all converted file names and the InvalidJsonString error', () => {
+      const expected = [
+        ...jsonFiles.map(fileName => path.join(toPath, fileName)),
+        instanceOf(InvalidJsonString)
+      ];
+      
+      return promiseThat(promise, isFulfilledWith(contains(...expected)));
     });
 
   });
