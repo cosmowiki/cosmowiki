@@ -8,9 +8,14 @@ import {
 
 export function convertManyFiles(fromPath, fileNames, destPath) {
   const allFiles = convertAllFiles(fromPath, fileNames, destPath);
-  return checkPathExists(fromPath)
+  
+  const checkFromPath = 
+    checkPathExists(fromPath)
+      .catch(() => {throw new InvalidDirectory(fromPath);});
+  
+  return checkFromPath
     .then(() => Promise.all(filterConversions(allFiles)))
-    .catch(() => {throw new InvalidDirectory(fromPath);});
+  ;
 }
 
 const checkPathExists = aPath => promisify(fs.access)(aPath, fs.R_OK);
@@ -34,6 +39,5 @@ const filterOutErrorsToIgnore = file => file
 
 const errorGuard = reason => {
   if (reason instanceof InvalidSourceFile) return reason;
-  if (reason instanceof InvalidJsonString) throw reason;
-  return true;
+  if (reason instanceof InvalidJsonString) return reason;
 };

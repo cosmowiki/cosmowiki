@@ -73,7 +73,7 @@ describe('convert multiple files', () => {
       });
     });
 
-    xit('fulfills with all converted file names and the InvalidJsonString error', () => {
+    it('fulfills with all converted file names and the InvalidJsonString error', () => {
       const expected = [
         ...jsonFiles.map(fileName => path.join(toPath, fileName)),
         instanceOf(InvalidJsonString)

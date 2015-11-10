@@ -12,7 +12,7 @@ export const paths = {
 
 export const fileNames = {
   json: ['stars.json', 'people.json'],
-  nonJson: ['README.md'],
+  nonJson: ['update-data.sh'],
   invalid: ['not-an-existing-file']
 };
 
@@ -22,7 +22,7 @@ export const completeFileNames = {
     to: fileNames.json.map(name => path.join(paths.to, name))
   },
   notExisting: fileNames.invalid.map(name => path.join(PROJECT_ROOT, name)),
-  nonJson: fileNames.nonJson.map(name => path.join(PROJECT_ROOT, name)),
+  nonJson: fileNames.nonJson.map(name => path.join(paths.from, name)),
   invalidDestination: [path.join(paths.to, 'not-a-directory', 'invalid.file')]
 };
 
