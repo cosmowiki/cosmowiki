@@ -1,4 +1,4 @@
-import {withAllFilesInDir} from './read-files';
+import {allFilesInDirectory} from './read-files';
 import {
   hasItems,
   promiseThat, isFulfilledWith
@@ -10,7 +10,7 @@ import {
 describe('all files in a dir', function() {
   
   it('finds all files', function() {
-    const promise = withAllFilesInDir(fromPath);
+    const promise = allFilesInDirectory(fromPath);
     const files = fileNames.json;
     return promiseThat(promise, isFulfilledWith(hasItems(...files)));
   });
