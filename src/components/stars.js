@@ -5,7 +5,7 @@ import LetterLinks from './chunks/letter-links';
 export default class StarsComponent {
 
   render() {
-    const {groupedStars} = this.props;
+    const {groupedStars, constellations} = this.props;
     const allFirstLetters = Object.keys(groupedStars);
     const starsIterable = allFirstLetters.map(key => groupedStars[key]);
     
@@ -15,7 +15,7 @@ export default class StarsComponent {
           <h1>Sterne</h1>
           <h3>strahlende Objekte im All</h3>
         </div>
-        <FilterRow />
+        <FilterRow constellations={constellations} />
         <LetterLinks letters={allFirstLetters} />
         {starsIterable.map((group, idx) => <StarsGroupComponent group={group} key={idx} />)}
         <StarNotes />
@@ -27,22 +27,14 @@ export default class StarsComponent {
 class FilterRow {
   
   render() {
+    const {constellations} = this.props;
     return (
       <div id="filter" className="stars">
-        <form id="filterNorthSouth">
-          <span>filtern nach Halbkugel:</span>
-          <select name="northsouth">
-            <option>beide</option>
-            <option>nördlich</option>
-            <option>südlich</option>
-          </select>
-        </form>
         <form id="filterConstellation">
           <span>filtern nach Sternbild:</span>
           <select name="const">
             <option>alle</option>
-            <option>foo</option>
-            <option>bar</option>
+            {constellations.map(constellation => <option>{constellation}</option>)}
           </select>
         </form>
       </div>
