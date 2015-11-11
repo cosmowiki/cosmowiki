@@ -1,5 +1,4 @@
-import fs from 'fs';
-import promisify from 'es6-promisify';
+import {withAllFilesInDir} from './read-files';
 import {
   hasItems,
   promiseThat, isFulfilledWith
@@ -17,7 +16,3 @@ describe('all files in a dir', function() {
   });
   
 });
-
-function withAllFilesInDir(fromPath) {
-  return promisify(fs.readdir)(fromPath);
-}
