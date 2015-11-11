@@ -13,12 +13,13 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "mocha --compilers js:babel/register test/**",
+    "test": "mocha --compilers js:babel/register $(find src -name '*spec.js') --bail",
+    "watch:test": "parallelshell \"chokidar 'src' -c 'npm test'\" \"chokidar 'test' -c 'npm test'\" \"chokidar 'scripts' -c 'npm test'\"",
     "start": "parallelshell 'http-server dist' 'npm run watch:build'",
     "start-for-offline": "npm config set cosmowiki:build_for_offline 1; cp -R for-offline dist; npm start;",
     "build": "mkdir -p dist; npm run build:html; npm run build:data; npm run build:css; npm run build:img; npm run build:app",
     "build:html": "cp src/index.html dist",
-    "build:data": "cp -R data dist",
+    "build:data": "mkdir -p dist/data; babel-node src/scripts/minify-json.js $PWD/data $PWD/dist/data",
     "build:css": "cp -R src/css dist",
     "build:img": "cp -R src/img dist",
     "build:app": "browserify src/index.js --outfile=dist/index.min.js --transform=babelify; babel-node src/index.js --makes-static-sites --for-offline=$npm_package_config_build_for_offline",
@@ -39,12 +40,15 @@
     "chokidar": "^1.0.5",
     "chokidar-cli": "^1.0.1",
     "classnames": "^2.1.3",
+    "es6-promisify": "^3.0.0",
     "google-spreadsheet-to-json": "^0.1.5",
     "hamjest": "^2.12.0",
     "http-server": "^0.8.0",
     "mkdirp": "^0.5.1",
-    "mocha": "^2.3.2",
-    "parallelshell": "^2.0.0"
+    "mocha": "^2.3.3",
+    "parallelshell": "^2.0.0",
+    "power-assert": "^1.1.0",
+    "sinon": "^1.17.1"
   },
   "dependencies": {
     "shariff": "^1.17.1",

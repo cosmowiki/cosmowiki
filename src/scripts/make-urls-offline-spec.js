@@ -1,5 +1,8 @@
 import assert from 'assert';
-import {useOfflineUrls, OFFLINE_PATH_PREFIX} from '../../src/scripts/make-urls-offline';
+import {
+  useOfflineUrls, 
+  OFFLINE_PATH_PREFIX
+} from './make-urls-offline';
 import hamjest from 'hamjest';
 
 describe('modify the dist/index.html file to work offline', function() {
