@@ -1,10 +1,12 @@
 import React from 'react';
 import StarsComponent from '../components/stars';
+import Grouper from './helper/grouper';
 
 export default class Stars {
   
   static componentWithData(stars) {
-    return <StarsComponent stars={stars} />;
+    const groups = new Grouper(stars).byName();
+    return <StarsComponent groupedStars={groups} />;
   }
 
   static fromRawData(rawData) {
