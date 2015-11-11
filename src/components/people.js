@@ -6,7 +6,8 @@ export default class PeopleComponent {
   render() {
     
     const groupedPeople = this.props.groupedPeople;
-    const allFirstLetters = groupedPeople.map(group => group.key);
+    const allFirstLetters = Object.keys(groupedPeople);
+    const groupsIterable = allFirstLetters.map(key => groupedPeople[key]);
     
     return (
       <main role="main" className="pure-u-1">
@@ -21,7 +22,7 @@ export default class PeopleComponent {
           <div id="personTable">
             <div className="firstLetterRow">
             </div>
-            {groupedPeople.map((group, idx) => <PersonGroupComponent group={group} key={idx} />)}
+            {groupsIterable.map((group, idx) => <PersonGroupComponent group={group} key={idx} />)}
           </div>
         </div>
         <Notes />
