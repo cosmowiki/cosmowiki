@@ -32,7 +32,7 @@ describe('people Grouper', function() {
       const people = People.fromRawData(rawData);
       const grouped = People.groupedPeople(people);
       
-      assert.equal(Object.keys(grouped).length, 2);
+      assert.deepEqual(Object.keys(grouped), ['A', 'B']);
     });
     
   });

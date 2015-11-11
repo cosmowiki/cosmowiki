@@ -31,19 +31,17 @@ class Grouper {
   }
   
   by(property) {
-    const people = this.objectToGroup;
-    let grouped = {};
-    people
-      .map(person => person[property][0].toUpperCase())
-      .filter(firstLetter => !grouped[firstLetter])
-      .forEach(firstLetter => grouped[firstLetter] = {
-        key: firstLetter,
-        people: []
-      });
-    
-    people.forEach(person => {
-      const key = person[property][0].toUpperCase();
-      grouped[key].people.push(person);
+    const toBeGrouped = this.objectToGroup;
+    const grouped = {};
+    toBeGrouped.forEach(item => {
+      const groupingKey = item[property][0].toUpperCase();
+      if (!grouped[groupingKey]) {
+        grouped[groupingKey] = {
+          key: groupingKey,
+          people: []
+        };
+      }
+      grouped[groupingKey].people.push(item);
     });
     return grouped;
   }
