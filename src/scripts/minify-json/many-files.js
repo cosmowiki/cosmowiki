@@ -26,6 +26,20 @@ export function convertManyFiles(fromPath, fileNames, toPath) {
   ;
 }
 
+export class Result {
+  
+  constructor() {
+    this.fileName = null;
+  }
+  
+  static convertedFile(fileName) {
+    const result = new Result();
+    result.fileName = fileName;
+    return result;
+  }
+  
+} 
+
 const checkPathExists = aPath => promisify(fs.access)(aPath, fs.R_OK);
 
 function convertAllFiles(fromPath, fileNames, toPath) {
@@ -35,7 +49,7 @@ function convertAllFiles(fromPath, fileNames, toPath) {
   return fileNames.map(fileName => {
     const destFileName = toFileName(fileName);
     return convertOneFile(fromFileName(fileName), destFileName)
-      .then(() => destFileName)
+      .then(() => Result.convertedFile(destFileName))
     }
   );
 }

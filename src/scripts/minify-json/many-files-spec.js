@@ -14,7 +14,7 @@ import {
   unlinkFilesInDirectory
 } from './helpers';
 import {makeFileInDestPath} from './matchers';
-import {convertManyFiles} from './many-files';
+import {convertManyFiles, Result} from './many-files';
 import {
   InvalidSourceFile, 
   InvalidDirectory,
@@ -42,15 +42,29 @@ describe('convert multiple files', () => {
       return promiseThat(promise, is(fulfilled()));
     });
     
-    it('fulfills when all are copied', () => {      
+    it('fulfills when all are copied', () => {
       return promise.then(() => {
         assertThat(jsonFiles, everyItem(fileInDestPath(is(true))));
       });
     });
 
-    it('fulfills with each file name as result', function() {
+    describe('fulfills with each conversion', function() {
+      
       const fileNames = jsonFiles.map(fileName => path.join(toPath, fileName));
-      return promiseThat(promise, isFulfilledWith(fileNames));
+      
+      it('as a result object', function() {
+        return promiseThat(promise, isFulfilledWith(everyItem(instanceOf(Result))));
+      });
+
+      it('contains the fileName', function() {
+        // I am sure this matcher can be written better
+        return promise.then(results => {
+          fileNames.forEach(fileName => 
+            assertThat(results, hasItem(hasProperty('fileName', fileName)))
+          );
+        });
+      });
+      
     });
     
   });
@@ -75,7 +89,7 @@ describe('convert multiple files', () => {
 
     it('fulfills with all converted file names and the InvalidJsonString error', () => {
       const expected = [
-        ...completeFileNames.json.to,
+        ...completeFileNames.json.to.map(fileName => Result.convertedFile(fileName)),
         instanceOf(InvalidJsonString)
       ];
       
