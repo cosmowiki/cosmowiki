@@ -54,7 +54,7 @@ class StarsGroupComponent {
       <div id={groupKey} className="pure-u-1 letter-section">
         <div className="pure-u-1 letter-section-header">
           <a className="first-letter pure-u-1-2" name={`#${groupKey}`}>{groupKey}</a>
-          <a className="scrollUpArrow pure-u-1-2 right" href=".">&uarr;</a>
+          <a className="scrollUpArrow pure-u-1-2 right" href="javascript:self.scrollTo(0,0);">&uarr;</a>
         </div>
         <div className="stars">
           <table className="starsTable tablesorter">
