@@ -60,9 +60,9 @@ class Letter {
 class PersonGroupComponent {
   
   render() {
-    const group = this.props.group;
+    const {group} = this.props;
     const groupKey = group.key;
-    const people = group.people;
+    const people = group.data;
     
     return (
       <div id={groupKey} className="pure-u-1 letter-section">
@@ -93,7 +93,7 @@ class PersonComponent extends React.Component {
       this.setState({detailsVisible: false});
     };
     
-    const person = this.props.person;
+    const {person} = this.props;
     let cssClasses = ['personInfoBox'];
     cssClasses.push(this.state.detailsVisible ? 'visible' : 'hidden');
     
