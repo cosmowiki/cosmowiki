@@ -1,5 +1,6 @@
 import React from 'react';
 import Notes from './notes';
+import LetterLinks from './chunks/letter-links';
 
 export default class PeopleComponent {
   
@@ -30,31 +31,6 @@ export default class PeopleComponent {
     );
   }
   
-}
-
-class LetterLinks {
-  
-  render() {
-    const {letters} = this.props;
-    const lastIndex = letters.length - 1;
-    return (
-      <div id="letterLinks" className="person center">
-        {letters.map((letter, index) => <Letter letter={letter} isLast={index == lastIndex} key={index} />)}
-      </div>
-    );
-  }
-  
-}
-
-class Letter {
-  render() {
-    const {letter, isLast} = this.props;
-    return (
-      <span>
-        <a href={`#${letter}`}>{letter}</a>{isLast ? '' : ' - '}
-      </span>
-    )
-  }
 }
 
 class PersonGroupComponent {
