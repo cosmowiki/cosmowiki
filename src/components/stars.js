@@ -1,38 +1,73 @@
 import React from 'react';
 import {StarNotes} from './notes';
+import LetterLinks from './chunks/letter-links';
 
 export default class StarsComponent {
 
   render() {
-    const {stars} = this.props;
+    const {groupedStars} = this.props;
+    const allFirstLetters = Object.keys(groupedStars);
+    const starsIterable = allFirstLetters.map(key => groupedStars[key]);
+    
     return (
       <main role="main" className="pure-u-1">
         <div id="featured" className="stars center">
           <h1>Sterne</h1>
           <h3>strahlende Objekte im All</h3>
         </div>
-        <div id="filter" className="stars">
-          <form id="filterNorthSouth">
-            <span>filtern nach Halbkugel:</span>
-            <select name="northsouth">
-              <option>beide</option>
-              <option>nördlich</option>
-              <option>südlich</option>
-            </select>
-          </form>
-          <form id="filterConstellation">
-            <span>filtern nach Sternbild:</span>
-            <select name="const">
-              <option>alle</option>
-              <option>foo</option>
-              <option>bar</option>
-            </select>
-          </form>
+        <FilterRow />
+        <LetterLinks letters={allFirstLetters} />
+        {starsIterable.map((group, idx) => <StarsGroupComponent group={group} key={idx} />)}
+        <StarNotes />
+      </main>
+    );
+  }
+}
+
+class FilterRow {
+  
+  render() {
+    return (
+      <div id="filter" className="stars">
+        <form id="filterNorthSouth">
+          <span>filtern nach Halbkugel:</span>
+          <select name="northsouth">
+            <option>beide</option>
+            <option>nördlich</option>
+            <option>südlich</option>
+          </select>
+        </form>
+        <form id="filterConstellation">
+          <span>filtern nach Sternbild:</span>
+          <select name="const">
+            <option>alle</option>
+            <option>foo</option>
+            <option>bar</option>
+          </select>
+        </form>
+      </div>
+    );
+  }
+  
+}
+
+class StarsGroupComponent {
+  
+  render() {
+    const {group} = this.props;
+    const groupKey = group.key;
+    const stars = group.data;
+    
+    return (
+      <div id={groupKey} className="pure-u-1 letter-section">
+        <div className="pure-u-1 letter-section-header">
+          <a className="first-letter pure-u-1-2" name={`#${groupKey}`}>{groupKey}</a>
+          <a className="scrollUpArrow pure-u-1-2 right" href="javascript:self.scrollTo(0,0);">&uarr;</a>
         </div>
-        <div id="dataTable" className="stars">
-          <table id="starsTable" className="tablesorter">
+        <div className="stars">
+          <table className="starsTable tablesorter">
             <thead>
-              <tr id="starsHeader">
+              <tr className="starsHeader">
                 <th className="starName left">Name</th>
                 <th className="starBay left">Bayer-Bezeichnung</th>
                 <th className="starShort left">kurz</th>
@@ -51,10 +86,10 @@ export default class StarsComponent {
             </tbody>
           </table>
         </div>
-        <StarNotes />
-      </main>
+      </div>
     );
   }
+  
 }
 
 class StarComponent {

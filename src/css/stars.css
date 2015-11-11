@@ -1,11 +1,11 @@
 #featured.stars{background:url("/img/featured_stars.jpg") left top no-repeat;}
-#starsHeader{
+.starsHeader{
 	background-image:linear-gradient(to bottom, #fff 0%, #d2d2ff 100%);
 	border-bottom:1px solid #d0d0d0;
 }
-#starsTable tr{height:2em; clear:left; display:block;}
-#starsTable tr:nth-child(even){background:rgba(192,192,192,.1);}
-#starsTable th, #starsTable td{
+.starsTable tr{height:2em; clear:left; display:block;}
+.starsTable tr:nth-child(even){background:rgba(192,192,192,.1);}
+.starsTable th, .starsTable td{
 	float:left; line-height:2em; overflow:hidden; white-space:nowrap;
 }
 .starsRow:focus, .starsRow:hover, .starsRow:active{

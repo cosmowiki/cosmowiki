@@ -1,5 +1,6 @@
 import React from 'react';
 import PeopleComponent from '../components/people';
+import Grouper from './helper/grouper';
 
 export default class People {
   
@@ -8,31 +9,8 @@ export default class People {
   }
   
   static componentWithData(people) {
-    const groups = People.groupByFirstLetter(people);
+    const groups = new Grouper(people).byName();
     return <PeopleComponent groupedPeople={groups} />;
-  }
-
-  static groupByFirstLetter(people) {
-    const groupedPeople = People.groupedPeople(people);
-    return Object.keys(groupedPeople)
-      .map(key => groupedPeople[key]);
-  }
-  
-  static groupedPeople(people) {
-    let grouped = {};
-    people
-      .map(({name}) => name[0].toUpperCase())
-      .filter(firstLetter => !grouped[firstLetter])
-      .forEach(firstLetter => grouped[firstLetter] = {
-        key: firstLetter,
-        people: []
-      });
-    
-    people.forEach(person => {
-      const key = person.name[0].toUpperCase();
-      grouped[key].people.push(person);
-    });
-    return grouped;
   }
   
 }

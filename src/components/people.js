@@ -1,12 +1,14 @@
 import React from 'react';
 import Notes from './notes';
+import LetterLinks from './chunks/letter-links';
 
 export default class PeopleComponent {
   
   render() {
     
     const groupedPeople = this.props.groupedPeople;
-    const allFirstLetters = groupedPeople.map(group => group.key);
+    const allFirstLetters = Object.keys(groupedPeople);
+    const groupsIterable = allFirstLetters.map(key => groupedPeople[key]);
     
     return (
       <main role="main" className="pure-u-1">
@@ -21,7 +23,7 @@ export default class PeopleComponent {
           <div id="personTable">
             <div className="firstLetterRow">
             </div>
-            {groupedPeople.map((group, idx) => <PersonGroupComponent group={group} key={idx} />)}
+            {groupsIterable.map((group, idx) => <PersonGroupComponent group={group} key={idx} />)}
           </div>
         </div>
         <Notes />
@@ -31,37 +33,12 @@ export default class PeopleComponent {
   
 }
 
-class LetterLinks {
-  
-  render() {
-    const {letters} = this.props;
-    const lastIndex = letters.length - 1;
-    return (
-      <div id="letterLinks" className="person center">
-        {letters.map((letter, index) => <Letter letter={letter} isLast={index == lastIndex} key={index} />)}
-      </div>
-    );
-  }
-  
-}
-
-class Letter {
-  render() {
-    const {letter, isLast} = this.props;
-    return (
-      <span>
-        <a href={`#${letter}`}>{letter}</a>{isLast ? '' : ' - '}
-      </span>
-    )
-  }
-}
-
 class PersonGroupComponent {
   
   render() {
-    const group = this.props.group;
+    const {group} = this.props;
     const groupKey = group.key;
-    const people = group.people;
+    const people = group.data;
     
     return (
       <div id={groupKey} className="pure-u-1 letter-section">
@@ -92,7 +69,7 @@ class PersonComponent extends React.Component {
       this.setState({detailsVisible: false});
     };
     
-    const person = this.props.person;
+    const {person} = this.props;
     let cssClasses = ['personInfoBox'];
     cssClasses.push(this.state.detailsVisible ? 'visible' : 'hidden');
     
