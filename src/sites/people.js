@@ -1,5 +1,6 @@
 import React from 'react';
 import PeopleComponent from '../components/people';
+import Grouper from './helper/grouper';
 
 export default class People {
   
@@ -12,30 +13,6 @@ export default class People {
     return <PeopleComponent groupedPeople={groups} />;
   }
   
-}
-
-export class Grouper {
-  
-  constructor(objectToGroup) {
-    this.objectToGroup = objectToGroup;
-  }
-  
-  byName() {
-    const property = 'name';
-    const toBeGrouped = this.objectToGroup;
-    const grouped = {};
-    toBeGrouped.forEach(item => {
-      const groupingKey = item[property][0].toUpperCase();
-      if (!grouped[groupingKey]) {
-        grouped[groupingKey] = {
-          key: groupingKey,
-          people: []
-        };
-      }
-      grouped[groupingKey].people.push(item);
-    });
-    return grouped;
-  }
 }
 
 export class Person {
