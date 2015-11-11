@@ -79,8 +79,8 @@ class StarComponent {
             </p>
           </div>
         </td>
-        <td className="starBay">{star.bayerName}</td>
-        <td className="starShort">{star.shortName}</td>
+        <td className="starBay">{star.bayerName || '-'}</td>
+        <td className="starShort">{star.shortName || '-'}</td>
         <td className="starConst"><a href={star.constLink}>{star.constellation || '-'}</a></td>
         <td className="starRekt">{star.rekt || '-'}</td>
         <td className="starDekli">{star.dekli || '-'}</td>
