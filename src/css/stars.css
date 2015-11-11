@@ -1,4 +1,5 @@
 #featured.stars{background:url("/img/featured_stars.jpg") left top no-repeat;}
+.starsTable{font-size:.8em;}
 .starsHeader{
 	background-image:linear-gradient(to bottom, #fff 0%, #d2d2ff 100%);
 	border-bottom:1px solid #d0d0d0;
@@ -8,9 +9,7 @@
 .starsTable th, .starsTable td{
 	float:left; line-height:2em; overflow:hidden; white-space:nowrap;
 }
-.starsRow:focus, .starsRow:hover, .starsRow:active{
-	box-shadow:0px 6px 6px -4px #999, 0px -6px 6px -4px #999;
-}
+.starsRow:hover{box-shadow:0px 6px 6px -4px #999, 0px -6px 6px -4px #999;}
 .starName{width:155px; padding-left:3px;}
 .starBay{width:197px;}
 .starShort{width:50px; padding-right:5px;}

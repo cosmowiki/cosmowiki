@@ -1,6 +1,6 @@
 #featured.stations{background:url("/img/featured_stations.jpg") left top no-repeat;}
 .statRow{padding:10px 0; border-bottom:1px solid #d0d0d0;}
-.statRow:focus, .statRow:hover, .statRow:active{background:#f4f4f4;}
+.statRow:hover{background:#f4f4f4;}
 .statRow:last-child{border-width:0;}
 .statImgBox{max-width:320px;}
 .statRow img{padding:0 10px;}
