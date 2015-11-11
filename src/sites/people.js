@@ -20,28 +20,16 @@ export default class People {
   
   static groupedPeople(people) {
     return new Grouper(people).by('name');
-    let grouped = {};
-    people
-      .map(({name}) => name[0].toUpperCase())
-      .filter(firstLetter => !grouped[firstLetter])
-      .forEach(firstLetter => grouped[firstLetter] = {
-        key: firstLetter,
-        people: []
-      });
-    
-    people.forEach(person => {
-      const key = person.name[0].toUpperCase();
-      grouped[key].people.push(person);
-    });
-    return grouped;
   }
   
 }
 
 class Grouper {
+  
   constructor(objectToGroup) {
     this.objectToGroup = objectToGroup;
   }
+  
   by(property) {
     const people = this.objectToGroup;
     let grouped = {};
