@@ -19,7 +19,7 @@
     "start-for-offline": "npm config set cosmowiki:build_for_offline 1; cp -R for-offline dist; npm start;",
     "build": "mkdir -p dist; npm run build:html; npm run build:data; npm run build:css; npm run build:img; npm run build:app",
     "build:html": "cp src/index.html dist",
-    "build:data": "mkdir -p dist/data; babel-node src/scripts/minify-json.js $PWD/data $PWD/dist/data",
+    "build:data": "mkdir -p dist/data; babel-node src/scripts/minify-json.js \"$PWD/data\" \"$PWD/dist/data\"",
     "build:css": "cp -R src/css dist",
     "build:img": "cp -R src/img dist",
     "build:app": "browserify src/index.js --outfile=dist/index.min.js --transform=babelify; babel-node src/index.js --makes-static-sites --for-offline=$npm_package_config_build_for_offline",
