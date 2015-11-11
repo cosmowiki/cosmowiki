@@ -8,5 +8,10 @@ const toPath = process.argv[TO_PATH_ARG];
 
 allFilesInDirectory(fromPath)
   .then(files => convertManyFiles(fromPath, files, toPath))
-  .then(results => console.log(results))
+  .then(results => results.forEach(result => console.log(fromResult(result))))
   .catch(reason => console.log(reason));
+
+const fromResult = result =>
+  result instanceof Error ?
+    `SKIP: ${result.fileName} (${result.message})`:
+    `OK: ${result.fileName}`;
