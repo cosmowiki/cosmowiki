@@ -16,8 +16,8 @@ export default class StarsComponent {
             <span>filtern nach Halbkugel:</span>
             <select name="northsouth">
               <option>beide</option>
-              <option>nördlich</option>
-              <option>südlich</option>
+              <option>n√∂rdlich</option>
+              <option>s√ºdlich</option>
             </select>
           </form>
           <form id="filterConstellation">
@@ -81,14 +81,14 @@ class StarComponent {
         </td>
         <td className="starBay">{star.bayerName}</td>
         <td className="starShort">{star.shortName}</td>
-        <td className="starConst"><a href={star.constLink}>{star.constellation}</a></td>
-        <td className="starRekt">{star.rekt}</td>
-        <td className="starDekli">{star.dekli}</td>
-        <td className="starAppMag">{star.appMag}</td>
-        <td className="starSpectrClass">{star.spectrClass}</td>
-        <td className="starDist">{star.dist}</td>
-        <td className="starMass">{star.mass}</td>
-        <td className="starRadius">{star.radius}</td>
+        <td className="starConst"><a href={star.constLink}>{star.constellation || '-'}</a></td>
+        <td className="starRekt">{star.rekt || '-'}</td>
+        <td className="starDekli">{star.dekli || '-'}</td>
+        <td className="starAppMag">{star.appMag || '-'}</td>
+        <td className="starSpectrClass">{star.spectrClass || '-'}</td>
+        <td className="starDist">{star.dist || '-'}</td>
+        <td className="starMass">{star.mass || '-'}</td>
+        <td className="starRadius">{star.radius || '-'}</td>
       </tr>   
     );
   }
