@@ -1,5 +1,6 @@
 import React from 'react';
 import {StarNotes} from './notes';
+import LetterLinks from './chunks/letter-links';
 
 export default class StarsComponent {
 
@@ -15,6 +16,7 @@ export default class StarsComponent {
           <h3>strahlende Objekte im All</h3>
         </div>
         <FilterRow />
+        <LetterLinks letters={allFirstLetters} />
         {starsIterable.map((group, idx) => <StarsGroupComponent group={group} key={idx} />)}
         <StarNotes />
       </main>
