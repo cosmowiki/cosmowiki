@@ -8,29 +8,20 @@ export default class People {
   }
   
   static componentWithData(people) {
-    const groups = People.groupByFirstLetter(people);
+    const groups = new Grouper(people).byName();
     return <PeopleComponent groupedPeople={groups} />;
-  }
-
-  static groupByFirstLetter(people) {
-    const groupedPeople = People.groupedPeople(people);
-    return Object.keys(groupedPeople)
-      .map(key => groupedPeople[key]);
-  }
-  
-  static groupedPeople(people) {
-    return new Grouper(people).by('name');
   }
   
 }
 
-class Grouper {
+export class Grouper {
   
   constructor(objectToGroup) {
     this.objectToGroup = objectToGroup;
   }
   
-  by(property) {
+  byName() {
+    const property = 'name';
     const toBeGrouped = this.objectToGroup;
     const grouped = {};
     toBeGrouped.forEach(item => {
