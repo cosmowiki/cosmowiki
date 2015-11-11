@@ -72,12 +72,29 @@ describe('convert one file', () => {
         return promiseThat(promise, isRejectedWith(hasProperty('message', message)));
       });
       
+      it('rejects and provides `fileName`', function() {
+        return promiseThat(promise, isRejectedWith(hasProperty('fileName', notExistingFile)));
+      });
+      
     });
     
-    it('that is a non-JSON file fails with InvalidJsonString', () => {
+    describe('that is a non-JSON file', () => {
+
       const nonJsonFile = completeFileNames.nonJson[0];
-      const promise = convertOneFile(nonJsonFile, '');
-      return promiseThat(promise, isRejectedWith(instanceOf(InvalidJsonString)));
+      let promise;
+      
+      beforeEach(function() {
+        promise = convertOneFile(nonJsonFile, '');
+      });
+      
+      it('fails with InvalidJsonString', () => {
+        return promiseThat(promise, isRejectedWith(instanceOf(InvalidJsonString)));
+      });
+      
+      it('provides the `fileName` property', () => {
+        return promiseThat(promise, isRejectedWith(hasProperty('fileName', nonJsonFile)));
+      });
+      
     });
     
   });

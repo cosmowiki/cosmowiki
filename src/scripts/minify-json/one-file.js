@@ -17,7 +17,7 @@ export function convertOneFile(fileName, destFileName) {
   
   const minify = fileContent =>
     minifyJson(fileContent)
-      .catch(() => {throw new InvalidJsonString()});
+      .catch(() => {throw new InvalidJsonString(fileName)});
   
   const writeFile = minifiedJson => 
     fileWritePromise(destFileName, minifiedJson)

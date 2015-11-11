@@ -2,6 +2,7 @@ export class InvalidSourceFile extends Error {
   constructor(fileName) {
     super();
     this.message = `Invalid source file "${fileName}".`;
+    this.fileName = fileName;
   }
 }
 
@@ -20,8 +21,9 @@ export class InvalidDirectory extends Error {
 }
 
 export class InvalidJsonString extends Error {
-  constructor() {
+  constructor(fileName) {
     super();
     this.message = 'No valid JSON content.';
+    this.fileName = fileName;
   }
 }
