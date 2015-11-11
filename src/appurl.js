@@ -44,4 +44,12 @@ export default class AppUrl {
     return '/missions'
   }
   
+  spaceflightSite() {
+    return '/spaceflight'
+  }
+  
+  aboutSite() {
+    return '/about'
+  }
+  
 }

@@ -1,4 +1,4 @@
-#featured.persons{background:url("/img/featured_persons.jpg") center no-repeat;}
+#featured.persons{background:url("/img/featured_persons.jpg") left top no-repeat;}
 .personRow{
 	max-width:315px; margin-left:5px; display:inline-block;
 	border-radius:6px 6px 0 0;

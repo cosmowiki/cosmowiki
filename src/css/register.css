@@ -1,4 +1,4 @@
-#featured.register{background:url("/img/featured_register.jpg") center no-repeat;}
+#featured.register{background:url("/img/featured_register.jpg") left top no-repeat;}
 .registerRow{
 	max-width:315px; margin-left:5px; display:inline-block;
 	border-radius:6px 6px 0 0;

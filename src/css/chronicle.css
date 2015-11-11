@@ -1,4 +1,4 @@
-#featured.chronicle{background:url("/img/featured_chronicle.jpg") center no-repeat;}
+#featured.chronicle{background:url("/img/featured_chronicle.jpg") left top no-repeat;}
 #timelineHeader, #timelineFooter, .timelineRow{
 	height:22px; padding-top:5px; clear:left; display:block;
 }
@@ -7,7 +7,6 @@
 .timelineRow:focus, .timelineRow:hover, .timelineRow:active{
 	font-size:1.1em; background:#fff;
 	box-shadow:0px 6px 6px -4px #999, 0px -6px 6px -4px #999;
-	transition: all 100ms linear;
 }
 #timelineFooter{background:url("/img/bg_timelineend.png") no-repeat transparent;}
 .timelineDate, .timelinePlace, .timelineEvent{float:left; overflow:hidden; white-space:nowrap;}

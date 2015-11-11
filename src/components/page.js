@@ -13,7 +13,7 @@ export default class PageComponent {
       <div id="wrapper" className="pure-g">
         <header className="pure-u-1">
           <Logo/>
-          <SocialButtons/>
+          <SocialButtons appUrl={appUrl} />
           <Navigation appUrl={appUrl} />
         </header>
         {siteComponent}

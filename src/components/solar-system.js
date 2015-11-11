@@ -7,8 +7,8 @@ export default class SolarSystemComponent {
     return (
     	<main role="main" className="pure-u-1">
     		<div id="featured" className="solsys center">
-    			<h1>Sonnensystem</h1>
-    			<h3>unsere kosmische Heimat</h3>
+    			<h1>unser Sonnensystem</h1>
+    			<h3>kosmische Heimat</h3>
     		</div>
     		<script type="text/javascript" src="js/solsysTable.js"></script>
     		<div id="dataTable" className="solsys">

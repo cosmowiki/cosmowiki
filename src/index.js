@@ -18,6 +18,8 @@ import Stars from './sites/stars';
 import SpaceStations from './sites/space-stations';
 import Missions from './sites/missions';
 import Astronomy from './sites/astronomy';
+import Spaceflight from './sites/spaceflight';
+import About from './sites/about';
 
 const createStaticSites = process.argv.includes('--makes-static-sites');
 const renderForOffline = process.argv.includes('--for-offline=1');
@@ -59,7 +61,9 @@ const urlToComponent = {
   '/space-stations': {klass: SpaceStations, fileName: 'data/spacestations.json'},
   '/missions': {klass: Missions, fileName: 'data/missions.json'},
   '/astronomy': {klass: Astronomy},
+  '/spaceflight': {klass: Spaceflight},
   '/objects': {klass: Objects},
+  '/about': {klass: About},
   '/': {klass: Home}
 };
 
