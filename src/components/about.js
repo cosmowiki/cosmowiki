@@ -16,6 +16,20 @@ const questions = {
           an dem der Nutzer zwei der faszinierendsten Gebiete aus Wissenschaft und Technik auf neue Weise entdecken kann.
         </p>
       </li>
+  },
+  who: {
+    question: 'Wem nützt CosmoWiki.de, für wen wurde es geschaffen?',
+    answer: 
+      <li>
+        <p>
+          CosmoWiki.de dient uns allen - interessierten Laien ebenso wie begeisterten Amateuren und allen anderen Space-Fans.
+          Jeder Nutzer kann hier frei das gewaltige Universum der Astronomie und Raumfahrt unter einem Dach entdecken, die Geschichte dieser zwei wohl bedeutendsten Bereiche menschlichen Schaffens
+          erkunden und zielgerichtet Informationen über Personen, Orte oder Objekte finden.
+        </p>
+        <p>
+          Selbst sind wir natürlich auch fasziniert von allem, was mit dem Weltall zu tun hat. So lautet unser Motto: <b>Nutzer arbeiten für Nutzer!</b>
+        </p>
+      </li>
   }
 };
 
@@ -42,21 +56,7 @@ export default class AboutComponent extends React.Component {
 			<div id="about" className="justify">
 				<ul id="aboutMenu">
           <Question which="what" toggleOnClick={toggleOnClick} classNames={classNames} />
-					<li className="question">
-            <a href="#who" onClick={toggleOnClick('who')}><i className="fa fa-caret-right fa-fw" /> Wem nützt CosmoWiki.de, für wen wurde es geschaffen?</a>
-						<ul id="who" className={classNames('who')}>
-							<li>
-								<p>
-									CosmoWiki.de dient uns allen - interessierten Laien ebenso wie begeisterten Amateuren und allen anderen Space-Fans.
-									Jeder Nutzer kann hier frei das gewaltige Universum der Astronomie und Raumfahrt unter einem Dach entdecken, die Geschichte dieser zwei wohl bedeutendsten Bereiche menschlichen Schaffens
-									erkunden und zielgerichtet Informationen über Personen, Orte oder Objekte finden.
-								</p>
-								<p>
-									Selbst sind wir natürlich auch fasziniert von allem, was mit dem Weltall zu tun hat. So lautet unser Motto: <b>Nutzer arbeiten für Nutzer!</b>
-								</p>
-							</li>
-						</ul>
-					</li>
+          <Question which="who" toggleOnClick={toggleOnClick} classNames={classNames} />
 					<li className="question">
             <a href="#license" onClick={toggleOnClick('license')}><i className="fa fa-caret-right fa-fw" /> Darf ich Inhalte von CosmoWiki.de verwenden? Unter welcher Lizenz steht CosmoWiki.de?</a>
 						<ul id="licence" className={classNames('license')}>
