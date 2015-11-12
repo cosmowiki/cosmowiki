@@ -116,9 +116,9 @@ export default class AboutComponent extends React.Component {
     const {appUrl} = this.props;
     
     const toggleSection = name => this.state.visibleSection === name ? this.setState({visibleSection: ''}) : this.setState({visibleSection: name});
-    const classNames = sectionName => this.state.visibleSection === sectionName ? 'answer visible' : 'answer hidden';
     const toggleOnClick = name => toggleSection.bind(null, name);
     const categories = Object.keys(questions);
+    const isVisible = category => this.state.visibleSection === category;
     
     return (
 		<main role="main" className="pure-u-1">
@@ -128,7 +128,8 @@ export default class AboutComponent extends React.Component {
 			</div>
 			<div id="about" className="justify">
 				<ul id="aboutMenu">
-          {categories.map(category => <Question which={category} toggleOnClick={toggleOnClick} classNames={classNames} />)}
+          {categories.map(category => 
+            <Question category={category} toggleOnClick={toggleOnClick(category)} isVisible={isVisible(category)} />)}
 				</ul>
 			</div>
 		</main>
@@ -139,13 +140,14 @@ export default class AboutComponent extends React.Component {
 class Question {
   
   render() {
-    const {toggleOnClick, classNames, which} = this.props;
-    const {question, answer} = questions[which];
+    const {toggleOnClick, category, isVisible} = this.props;
+    const {question, answer} = questions[category];
+    const classNames = isVisible ? 'answer visible' : 'answer hidden';
     
     return (
       <li className="question">
-        <a href={'#' + which} onClick={toggleOnClick(which)}><i className="fa fa-caret-right fa-fw" />{' ' + question}</a>
-        <ul id={which} className={classNames(which)}>{answer}</ul>
+        <a href={'#' + category} onClick={toggleOnClick}><i className="fa fa-caret-right fa-fw" />{' ' + question}</a>
+        <ul id={category} className={classNames}>{answer}</ul>
       </li>
     );
     
