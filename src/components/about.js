@@ -41,12 +41,7 @@ export default class AboutComponent extends React.Component {
 			</div>
 			<div id="about" className="justify">
 				<ul id="aboutMenu">
-					<li className="question">
-            <a href="#what" onClick={toggleOnClick('what')}><i className="fa fa-caret-right fa-fw" />{' ' + questions.what.question}</a>
-						<ul id="what" className={classNames('what')}>
-              {questions.what.answer}
-						</ul>
-					</li>
+          <Question which="what" toggleOnClick={toggleOnClick} classNames={classNames} />
 					<li className="question">
             <a href="#who" onClick={toggleOnClick('who')}><i className="fa fa-caret-right fa-fw" /> Wem nützt CosmoWiki.de, für wen wurde es geschaffen?</a>
 						<ul id="who" className={classNames('who')}>
@@ -143,4 +138,21 @@ export default class AboutComponent extends React.Component {
 		</main>
     )
   }
+}
+
+class Question {
+  
+  render() {
+    const {toggleOnClick, classNames, which} = this.props;
+    const {question, answer} = questions[which];
+    
+    return (
+      <li className="question">
+         <a href={'#' + which} onClick={toggleOnClick(which)}><i className="fa fa-caret-right fa-fw" />{' ' + question}</a>
+        <ul id={which} className={classNames(which)}>{answer}</ul>
+      </li>
+    );
+    
+  }
+  
 }
