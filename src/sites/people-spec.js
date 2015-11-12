@@ -2,7 +2,7 @@ import assert from 'assert';
 import {
   assertThat
 } from 'hamjest';
-import People from './people';
+import {Person} from './people';
 import Grouper from './helper/grouper';
 
 describe('people Grouper', function() {
@@ -10,27 +10,25 @@ describe('people Grouper', function() {
   describe('groups people', function() {
     
     it('by name', function() {
-      const rawData = [
-        {"personname": "A"},
-        {"personname": "B"}
+      const people = [
+        new Person({name: 'A'}),
+        new Person({name: 'B'})
       ];
   
-      const people = People.fromRawData(rawData);
       const grouped = new Grouper(people).byName();
       
       assert.equal(Object.keys(grouped).length, 2);
     });
     
     it('independent of the case (upper or lower case)', function() {
-      const rawData = [
-        {"personname": "A"},
-        {"personname": "a"},
-        {"personname": "B"},
-        {"personname": "B"},
-        {"personname": "b"}
+      const people = [
+        new Person({name: 'A'}),
+        new Person({name: 'a'}),
+        new Person({name: 'B'}),
+        new Person({name: 'B'}),
+        new Person({name: 'b'})
       ];
   
-      const people = People.fromRawData(rawData);
       const grouped = new Grouper(people).byName();
       
       assert.deepEqual(Object.keys(grouped), ['A', 'B']);

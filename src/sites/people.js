@@ -17,6 +17,17 @@ export default class People {
 
 export class Person {
   
+  constructor({name, wikipediaUrl, profession, country, description, born, died, type}) {
+    this.name = name;
+    this.wikipediaUrl = wikipediaUrl;
+    this.profession = profession;
+    this.country = country;
+    this.description = description;
+    this.born = born;
+    this.died = died;
+    this.type = type;
+  }
+  
   static fromRawData(raw) {
     //"personname": "Abbe",
     //"personfirstname": "Cleveland",
@@ -31,19 +42,18 @@ export class Person {
     //"persondescript": "erster Meteorologe",
     //"personlink": "https://de.wikipedia.org/wiki/Cleveland_Abbe",
     //"type": 1       1-astronomer 2-astronaut 3-both 0-neither
-    const item = new Person();
-    item.name = [raw.personname, raw.personfirstname].join(', ');
-    item.wikipediaUrl = raw.personlink;
-    item.profession = raw.personprof;
-    item.country = raw.personcountry;
-    item.description = raw.persondescript;
-    
-    item.born = [raw.personbornd, raw.personbornm, raw.personborny].filter(v => v).join('.');
-    item.died = [raw.persondiedd, raw.persondiedm, raw.persondiedy].filter(v => v).join('.');
-    item.type = raw.type;
-    
+    let item = {
+      name: [raw.personname, raw.personfirstname].join(', '),
+      wikipediaUrl: raw.personlink,
+      profession: raw.personprof,
+      country: raw.personcountry,
+      description: raw.persondescript,
+      born: [raw.personbornd, raw.personbornm, raw.personborny].filter(v => v).join('.'),
+      died: [raw.persondiedd, raw.persondiedm, raw.persondiedy].filter(v => v).join('.'),
+      type: raw.type
+    };
     //item.tags = raw.tags.split(',');
-    return item;
+    return new Person(item);
   }
   
 }
