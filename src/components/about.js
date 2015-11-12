@@ -13,7 +13,7 @@ export default class AboutComponent {
 			<div id="about" className="justify">
 				<ul id="aboutMenu">
 					<li className="question">
-            <a href="#" onclick="toggleAnswer('what')"><i className="fa fa-caret-right fa-fw"></i> Was ist CosmoWiki.de überhaupt?</a>
+            <a href="#" onclick="toggleAnswer('what')"><i className="fa fa-caret-right fa-fw" /> Was ist CosmoWiki.de überhaupt?</a>
 						<ul id="what" className="answer hidden">
 							<li>
 								<p>
@@ -30,7 +30,7 @@ export default class AboutComponent {
 						</ul>
 					</li>
 					<li className="question">
-            <a href="#" onclick="toggleAnswer('who')"><i className="fa fa-caret-right fa-fw"></i> Wem nützt CosmoWiki.de, für wen wurde es geschaffen?</a>
+            <a href="#" onclick="toggleAnswer('who')"><i className="fa fa-caret-right fa-fw" /> Wem nützt CosmoWiki.de, für wen wurde es geschaffen?</a>
 						<ul id="who" className="answer hidden">
 							<li>
 								<p>
@@ -45,18 +45,18 @@ export default class AboutComponent {
 						</ul>
 					</li>
 					<li className="question">
-            <a href="#" onclick="toggleAnswer('licence')"><i className="fa fa-caret-right fa-fw"></i> Darf ich Inhalte von CosmoWiki.de verwenden? Unter welcher Lizenz steht CosmoWiki.de?</a>
+            <a href="#" onclick="toggleAnswer('licence')"><i className="fa fa-caret-right fa-fw" /> Darf ich Inhalte von CosmoWiki.de verwenden? Unter welcher Lizenz steht CosmoWiki.de?</a>
 						<ul id="licence" className="answer hidden">
 							<li>
 								<p>
 									Alle Inhalte von CosmoWiki.de und die von Wikipedia eingebundenen Inhalte stehen unter der <a href="http://creativecommons.org/licenses/by-sa/3.0/de/" target="_blank">
-									<i className="fa fa-creative-commons"></i> Creative-Commons-Lizenz Attribution-ShareAlike 3.0 Unported (CC-by-sa-3.0)</a>, wenn nichts anderes ausgewiesen wird.
+									<i className="fa fa-creative-commons" /> Creative-Commons-Lizenz Attribution-ShareAlike 3.0 Unported (CC-by-sa-3.0)</a>, wenn nichts anderes ausgewiesen wird.
 								</p>
 								<p>
 									Gemäß den Bestimmungen der von Wikipedia verwendeten Lizenz <a href="http://creativecommons.org/licenses/by-sa/3.0/legalcode" target="_blank">
-									<i className="fa fa-creative-commons"></i> Creative-Commons-Lizenz Attribution-ShareAlike 3.0 Unported (CC-by-sa-3.0)</a> weisen wir darauf hin,
+									<i className="fa fa-creative-commons" /> Creative-Commons-Lizenz Attribution-ShareAlike 3.0 Unported (CC-by-sa-3.0)</a> weisen wir darauf hin,
 									dass CosmoWiki.de Artikel oder Teile von Artikeln von Wikipedia verwendet und einbindet.
-									Dadurch steht CosmoWiki.de ebenfalls unter der <i className="fa fa-creative-commons"></i> Creative Commons Lizenz CC BY-SA 3.0.
+									Dadurch steht CosmoWiki.de ebenfalls unter der <i className="fa fa-creative-commons" /> Creative Commons Lizenz CC BY-SA 3.0.
 								</p>
 								<p>
 									Sie dürfen:<br/>Teilen — das Material in jedwedem Format oder Medium vervielfältigen und weiterverbreiten.<br/>Bearbeiten — das Material remixen, verändern und darauf aufbauen
@@ -70,7 +70,7 @@ export default class AboutComponent {
 						</ul>
 					</li>
 					<li className="question">
-            <a href="#" onclick="toggleAnswer('future')"><i className="fa fa-caret-right fa-fw"></i> Wie geht es weiter? Wie sieht die Zukunft von CosmoWiki.de aus?</a>
+            <a href="#" onclick="toggleAnswer('future')"><i className="fa fa-caret-right fa-fw" /> Wie geht es weiter? Wie sieht die Zukunft von CosmoWiki.de aus?</a>
 						<ul id="future" className="answer hidden">
 							<li>
 								<p>
@@ -86,7 +86,7 @@ export default class AboutComponent {
 						</ul>
 					</li>
 					<li className="question">
-            <a href="#" onclick="toggleAnswer('contribute')"><i className="fa fa-caret-right fa-fw"></i> Wie kann ich helfen CosmoWiki.de zu verbessern?</a>
+            <a href="#" onclick="toggleAnswer('contribute')"><i className="fa fa-caret-right fa-fw" /> Wie kann ich helfen CosmoWiki.de zu verbessern?</a>
 						<ul id="contribute" className="answer hidden">
 							<li>
 								<p>
@@ -104,7 +104,7 @@ export default class AboutComponent {
 						</ul>
 					</li>
 					<li className="question">
-            <a href="#" onclick="toggleAnswer('thx')"><i className="fa fa-caret-right fa-fw"></i> Danke!</a>
+            <a href="#" onclick="toggleAnswer('thx')"><i className="fa fa-caret-right fa-fw" /> Danke!</a>
 						<ul id="thx" className="answer hidden">
 							<li>
 								<p>
