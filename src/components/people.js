@@ -19,10 +19,8 @@ export default class PeopleComponent {
         
         <LetterLinks letters={allFirstLetters} />
         
-        <div id="dataTable" className="person">
+        <div id="dataTable" className="people">
           <div id="personTable">
-            <div className="firstLetterRow">
-            </div>
             {groupsIterable.map((group, idx) => <PersonGroupComponent group={group} key={idx} />)}
           </div>
         </div>
