@@ -144,7 +144,7 @@ class Question {
     
     return (
       <li className="question">
-         <a href={'#' + which} onClick={toggleOnClick(which)}><i className="fa fa-caret-right fa-fw" />{' ' + question}</a>
+        <a href={'#' + which} onClick={toggleOnClick(which)}><i className="fa fa-caret-right fa-fw" />{' ' + question}</a>
         <ul id={which} className={classNames(which)}>{answer}</ul>
       </li>
     );
