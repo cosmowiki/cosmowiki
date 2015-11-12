@@ -118,7 +118,7 @@ export default class AboutComponent extends React.Component {
   }
 
   render() {
-    const toggleOnClick = category => this.toggleCategory.bind(this, category);
+    const buildToggleFunctionFor = category => this.toggleCategory.bind(this, category);
     const categories = Object.keys(questions);
     const isVisible = category => this.state.visibleSection === category;
     
@@ -131,7 +131,7 @@ export default class AboutComponent extends React.Component {
 			<div id="about" className="justify">
 				<ul id="aboutMenu">
           {categories.map(category => 
-            <Question category={category} toggleOnClick={toggleOnClick(category)} isVisible={isVisible(category)} />)}
+            <Question category={category} toggleFunction={buildToggleFunctionFor(category)} isVisible={isVisible(category)} />)}
 				</ul>
 			</div>
 		</main>
@@ -147,13 +147,13 @@ export default class AboutComponent extends React.Component {
 class Question {
   
   render() {
-    const {toggleOnClick, category, isVisible} = this.props;
+    const {toggleFunction, category, isVisible} = this.props;
     const {question, answer} = questions[category];
     const classNames = isVisible ? 'answer visible' : 'answer hidden';
     
     return (
       <li className="question">
-        <a href={'#' + category} onClick={toggleOnClick}><i className="fa fa-caret-right fa-fw" />{' ' + question}</a>
+        <a href={'#' + category} onClick={toggleFunction}><i className="fa fa-caret-right fa-fw" />{' ' + question}</a>
         <ul id={category} className={classNames}>{answer}</ul>
       </li>
     );
