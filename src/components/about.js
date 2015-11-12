@@ -139,6 +139,11 @@ export default class AboutComponent extends React.Component {
 		</main>
     )
   }
+  
+  componentWillMount() {
+    const category = typeof window !== 'undefined' && window.location.hash.replace(/^#/, '');
+    this.toggleCategory(category);
+  }
 }
 
 class Question {
