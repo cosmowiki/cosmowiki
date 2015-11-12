@@ -118,8 +118,6 @@ export default class AboutComponent extends React.Component {
   }
 
   render() {
-    const {appUrl} = this.props;
-    
     const toggleOnClick = category => this.toggleCategory.bind(this, category);
     const categories = Object.keys(questions);
     const isVisible = category => this.state.visibleSection === category;
