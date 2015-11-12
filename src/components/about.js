@@ -1,9 +1,38 @@
 import React from 'react';
 
-export default class AboutComponent {
+const questions = {
+  what: {
+    question: 'Was ist CosmoWiki.de überhaupt?',
+    answer:
+      <li>
+        <p>
+          CosmoWiki.de ist ein nichtkommerzielles Projekt zur Verbreitung von Wissen über die Bereiche Astronomie und Raumfahrt.<br/>
+          Auf Plattformen wie z.B. Wikipedia existiert ein gewaltiger Wissensschatz, der von Enthusiasten mit größter Sorgfalt für jedermann erstellt und gepflegt wird.
+          Doch warum sollte dieser phantastische Speicher nicht über seine eigentlichen Grenzen hinaus genutzt werden?
+        </p>
+        <p>
+          Wir recherchieren unzählige Informationen aus Wikipedia und anderen Quellen, sammeln, veknüpfen und bereiten sie hier in möglichst übersichtlicher Weise auf.
+          Cosmowiki.de ist also im Grunde ein Hybride aus Enzyklopädie und Aggregator - ein zentraler Platz im Netz,
+          an dem der Nutzer zwei der faszinierendsten Gebiete aus Wissenschaft und Technik auf neue Weise entdecken kann.
+        </p>
+      </li>
+  }
+};
+
+export default class AboutComponent extends React.Component {
+  
+  constructor() {
+    super();
+    this.state = {visibleSection: ''};
+  }
 
   render() {
     const {appUrl} = this.props;
+    
+    const toggleSection = name => this.state.visibleSection === name ? this.setState({visibleSection: ''}) : this.setState({visibleSection: name});
+    const classNames = sectionName => this.state.visibleSection === sectionName ? 'answer visible' : 'answer hidden';
+    const toggleOnClick = name => toggleSection.bind(null, name);
+    
     return (
 		<main role="main" className="pure-u-1">
 			<div id="featured" className="about center">
@@ -13,25 +42,14 @@ export default class AboutComponent {
 			<div id="about" className="justify">
 				<ul id="aboutMenu">
 					<li className="question">
-            <a href="#" onclick="toggleAnswer('what')"><i className="fa fa-caret-right fa-fw" /> Was ist CosmoWiki.de überhaupt?</a>
-						<ul id="what" className="answer hidden">
-							<li>
-								<p>
-									CosmoWiki.de ist ein nichtkommerzielles Projekt zur Verbreitung von Wissen über die Bereiche Astronomie und Raumfahrt.<br/>
-									Auf Plattformen wie z.B. Wikipedia existiert ein gewaltiger Wissensschatz, der von Enthusiasten mit größter Sorgfalt für jedermann erstellt und gepflegt wird.
-									Doch warum sollte dieser phantastische Speicher nicht über seine eigentlichen Grenzen hinaus genutzt werden?
-								</p>
-								<p>
-									Wir recherchieren unzählige Informationen aus Wikipedia und anderen Quellen, sammeln, veknüpfen und bereiten sie hier in möglichst übersichtlicher Weise auf.
-									Cosmowiki.de ist also im Grunde ein Hybride aus Enzyklopädie und Aggregator - ein zentraler Platz im Netz,
-									an dem der Nutzer zwei der faszinierendsten Gebiete aus Wissenschaft und Technik auf neue Weise entdecken kann.
-								</p>
-							</li>
+            <a href="#what" onClick={toggleOnClick('what')}><i className="fa fa-caret-right fa-fw" />{' ' + questions.what.question}</a>
+						<ul id="what" className={classNames('what')}>
+              {questions.what.answer}
 						</ul>
 					</li>
 					<li className="question">
-            <a href="#" onclick="toggleAnswer('who')"><i className="fa fa-caret-right fa-fw" /> Wem nützt CosmoWiki.de, für wen wurde es geschaffen?</a>
-						<ul id="who" className="answer hidden">
+            <a href="#who" onClick={toggleOnClick('who')}><i className="fa fa-caret-right fa-fw" /> Wem nützt CosmoWiki.de, für wen wurde es geschaffen?</a>
+						<ul id="who" className={classNames('who')}>
 							<li>
 								<p>
 									CosmoWiki.de dient uns allen - interessierten Laien ebenso wie begeisterten Amateuren und allen anderen Space-Fans.
@@ -45,8 +63,8 @@ export default class AboutComponent {
 						</ul>
 					</li>
 					<li className="question">
-            <a href="#" onclick="toggleAnswer('licence')"><i className="fa fa-caret-right fa-fw" /> Darf ich Inhalte von CosmoWiki.de verwenden? Unter welcher Lizenz steht CosmoWiki.de?</a>
-						<ul id="licence" className="answer hidden">
+            <a href="#license" onClick={toggleOnClick('license')}><i className="fa fa-caret-right fa-fw" /> Darf ich Inhalte von CosmoWiki.de verwenden? Unter welcher Lizenz steht CosmoWiki.de?</a>
+						<ul id="licence" className={classNames('license')}>
 							<li>
 								<p>
 									Alle Inhalte von CosmoWiki.de und die von Wikipedia eingebundenen Inhalte stehen unter der <a href="http://creativecommons.org/licenses/by-sa/3.0/de/" target="_blank">
