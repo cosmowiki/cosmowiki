@@ -9,7 +9,8 @@ export default class Grouper {
     const toBeGrouped = this.objectToGroup;
     const grouped = {};
     toBeGrouped.forEach(item => {
-      const groupingKey = item[property][0].toUpperCase();
+      const nameString = item[property].toString()[0];
+      const groupingKey = nameString.toUpperCase();
       if (!grouped[groupingKey]) {
         grouped[groupingKey] = {
           key: groupingKey,
