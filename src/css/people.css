@@ -1,4 +1,5 @@
 #featured.persons{background:url("/img/featured_persons.jpg") left top no-repeat;}
+.letter-section:hover{background:#f4f4f4;}
 .personRow{
 	max-width:315px; margin-left:5px; display:inline-block;
 	border-radius:6px 6px 0 0;
