@@ -2,8 +2,8 @@ import assert from 'assert';
 import {
   assertThat
 } from 'hamjest';
-import {Person} from './people';
-import Grouper from './helper/grouper';
+import {Person} from '../people';
+import Grouper from './grouper';
 
 describe('people Grouper', function() {
   
