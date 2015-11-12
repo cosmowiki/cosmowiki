@@ -97,7 +97,7 @@ const questions = {
         für das größte Lexikon der Welt bedanken! Sie alle haben die Welt der Lexika in das 21. jahrhundert katapultiert und der Menschheit damit einen unschätzbaren Dienst erwiesen.
         </p>
         <p>
-          Weiterhin bedanken wir uns sehr bei <a title="Wolfram Kriesing" href="https://github.com/wolframkriesing" target="_blank"><b>Wolfram Kriesing</b></a>
+          Weiterhin bedanken wir uns sehr bei <a title="Wolfram Kriesing" href="https://twitter.com/wolframkriesing" target="_blank"><b>Wolfram Kriesing</b></a>
         für die Kartenanwendung auf der <a href="places.php" target="_self">"Orte"-Seite</a>, unzählige andere Hilfestellungen rund um die Webprogrammierung
         und die generelle Unterstützung des Projektes.
         </p>
