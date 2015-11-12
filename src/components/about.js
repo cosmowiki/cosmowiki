@@ -131,7 +131,7 @@ export default class AboutComponent extends React.Component {
         <div id="about" className="justify">
           <ul id="aboutMenu">
             {categories.map(category => 
-              <Question category={category} toggleFunction={buildToggleFunctionFor(category)} isVisible={isVisible(category)} />)}
+              <Question category={category} toggleFunction={buildToggleFunctionFor(category)} isVisible={isVisible(category)} key={category} />)}
           </ul>
         </div>
       </main>

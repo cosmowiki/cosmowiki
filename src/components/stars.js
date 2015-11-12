@@ -39,7 +39,7 @@ class FilterRow {
           <span>filtern nach Sternbild:</span>
           <select name="const">
             <option>alle</option>
-            {constellations.map(constellation => <option>{constellation}</option>)}
+            {constellations.map((constellation, idx) => <option key={idx}>{constellation}</option>)}
           </select>
         </form>
       </div>
