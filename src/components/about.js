@@ -13,7 +13,7 @@ export default class AboutComponent {
 			<div id="about" className="justify">
 				<ul id="aboutMenu">
 					<li className="question">
-                  <a href="#" onclick="toggleAnswer('what')"><i className="fa fa-caret-right fa-fw"></i> Was ist CosmoWiki.de überhaupt?</a>
+            <a href="#" onclick="toggleAnswer('what')"><i className="fa fa-caret-right fa-fw"></i> Was ist CosmoWiki.de überhaupt?</a>
 						<ul id="what" className="answer hidden">
 							<li>
 								<p>
@@ -30,7 +30,7 @@ export default class AboutComponent {
 						</ul>
 					</li>
 					<li className="question">
-                  <a href="#" onclick="toggleAnswer('who')"><i className="fa fa-caret-right fa-fw"></i> Wem n&uuml;tzt CosmoWiki.de, für wen wurde es geschaffen?</a>
+            <a href="#" onclick="toggleAnswer('who')"><i className="fa fa-caret-right fa-fw"></i> Wem n&uuml;tzt CosmoWiki.de, für wen wurde es geschaffen?</a>
 						<ul id="who" className="answer hidden">
 							<li>
 								<p>
@@ -45,7 +45,7 @@ export default class AboutComponent {
 						</ul>
 					</li>
 					<li className="question">
-                  <a href="#" onclick="toggleAnswer('licence')"><i className="fa fa-caret-right fa-fw"></i> Darf ich Inhalte von CosmoWiki.de verwenden? Unter welcher Lizenz steht CosmoWiki.de?</a>
+            <a href="#" onclick="toggleAnswer('licence')"><i className="fa fa-caret-right fa-fw"></i> Darf ich Inhalte von CosmoWiki.de verwenden? Unter welcher Lizenz steht CosmoWiki.de?</a>
 						<ul id="licence" className="answer hidden">
 							<li>
 								<p>
@@ -70,7 +70,7 @@ export default class AboutComponent {
 						</ul>
 					</li>
 					<li className="question">
-                  <a href="#" onclick="toggleAnswer('future')"><i className="fa fa-caret-right fa-fw"></i> Wie geht es weiter? Wie sieht die Zukunft von CosmoWiki.de aus?</a>
+            <a href="#" onclick="toggleAnswer('future')"><i className="fa fa-caret-right fa-fw"></i> Wie geht es weiter? Wie sieht die Zukunft von CosmoWiki.de aus?</a>
 						<ul id="future" className="answer hidden">
 							<li>
 								<p>
@@ -86,7 +86,7 @@ export default class AboutComponent {
 						</ul>
 					</li>
 					<li className="question">
-                  <a href="#" onclick="toggleAnswer('contribute')"><i className="fa fa-caret-right fa-fw"></i> Wie kann ich helfen CosmoWiki.de zu verbessern?</a>
+            <a href="#" onclick="toggleAnswer('contribute')"><i className="fa fa-caret-right fa-fw"></i> Wie kann ich helfen CosmoWiki.de zu verbessern?</a>
 						<ul id="contribute" className="answer hidden">
 							<li>
 								<p>
@@ -104,7 +104,7 @@ export default class AboutComponent {
 						</ul>
 					</li>
 					<li className="question">
-                  <a href="#" onclick="toggleAnswer('thx')"><i className="fa fa-caret-right fa-fw"></i> Danke!</a>
+            <a href="#" onclick="toggleAnswer('thx')"><i className="fa fa-caret-right fa-fw"></i> Danke!</a>
 						<ul id="thx" className="answer hidden">
 							<li>
 								<p>
