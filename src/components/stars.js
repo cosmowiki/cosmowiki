@@ -17,7 +17,12 @@ export default class StarsComponent {
         </div>
         <FilterRow constellations={constellations} />
         <LetterLinks letters={allFirstLetters} />
-        {starsIterable.map((group, idx) => <StarsGroupComponent group={group} key={idx} />)}
+        
+        <div id="dataTable" className="stars">
+          <div id="starsTable">
+            {starsIterable.map((group, idx) => <StarsGroupComponent group={group} key={idx} />)}
+          </div>
+        </div>
         <StarNotes />
       </main>
     );
