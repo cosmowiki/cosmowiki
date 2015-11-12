@@ -97,10 +97,10 @@ class StarComponent {
     return (
       <tr className="starsRow">
         <td className="starName">
-          <a href={star.link} onMouseOver={noop} onMouseOut={noop}>{star.name}</a>
+          <a href={star.link} onMouseOver={noop} onMouseOut={noop}>{star.name.name}</a>
           <div className="starInfoBox">
             <p>
-              <strong>alternative Namen:</strong> {star.alternativeName}</p>
+              <strong>alternative Namen:</strong> {star.name.alternative}</p>
             <p>
               <strong>Bezeichnung nach:</strong><br />
               <a href="https://de.wikipedia.org/wiki/Bright-Star-Katalog" target="_blank" title="Bright-Star-Katalog">Bright-Star-Katalog</a>: HR {star.hr}<br />
@@ -111,8 +111,8 @@ class StarComponent {
             </p>
           </div>
         </td>
-        <td className="starBay">{star.bayerName || '-'}</td>
-        <td className="starShort">{star.shortName || '-'}</td>
+        <td className="starBay">{star.name.bayer || '-'}</td>
+        <td className="starShort">{star.name.short || '-'}</td>
         <td className="starConst"><a href={star.constLink}>{star.constellation || '-'}</a></td>
         <td className="starRekt">{star.rekt || '-'}</td>
         <td className="starDekli">{star.dekli || '-'}</td>

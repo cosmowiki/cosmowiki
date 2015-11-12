@@ -25,22 +25,37 @@ function allConstellationsSorted(stars) {
     .sort();
 }
 
+class StarName {
+  constructor({name, historical, alternative, bayer, short}) {
+    this.name = name;
+    this.historical = historical;
+    this.alternative = alternative;
+    this.bayer = bayer;
+    this.short = short;
+  }
+  toString() {
+    return this.name;
+  }
+}
+
 class Star {
   
   static fromRawData(raw) {
     const star = new Star();
-    star.name = raw.starname;
+    star.name = new StarName({
+      name: raw.starname,
+      historical: raw.historicalname,
+      aternative: raw.alternativename,
+      bayer: raw.bayername,
+      short: raw.shortname
+    });
     star.link = raw.starlink;
-    star.historicalName = raw.historicalname;
-    star.alternativeName = raw.alternativename;
     star.hr = raw.hr;
     star.hd = raw.hd;
     star.hip = raw.hip;
     star.sao = raw.sao;
     star.flamsteed = raw.flamsteed;
     
-    star.bayerName = raw.bayername;
-    star.shortName = raw.shortname;
     star.constellation = raw.constellation;
     star.constLink = raw.constlink; // TODO make it a real ref to the constellation
     
