@@ -118,6 +118,7 @@ export default class AboutComponent extends React.Component {
     const toggleSection = name => this.state.visibleSection === name ? this.setState({visibleSection: ''}) : this.setState({visibleSection: name});
     const classNames = sectionName => this.state.visibleSection === sectionName ? 'answer visible' : 'answer hidden';
     const toggleOnClick = name => toggleSection.bind(null, name);
+    const categories = Object.keys(questions);
     
     return (
 		<main role="main" className="pure-u-1">
@@ -127,12 +128,7 @@ export default class AboutComponent extends React.Component {
 			</div>
 			<div id="about" className="justify">
 				<ul id="aboutMenu">
-          <Question which="what" toggleOnClick={toggleOnClick} classNames={classNames} />
-          <Question which="who" toggleOnClick={toggleOnClick} classNames={classNames} />
-          <Question which="license" toggleOnClick={toggleOnClick} classNames={classNames} />
-          <Question which="future" toggleOnClick={toggleOnClick} classNames={classNames} />
-          <Question which="contribute" toggleOnClick={toggleOnClick} classNames={classNames} />
-          <Question which="thx" toggleOnClick={toggleOnClick} classNames={classNames} />
+          {categories.map(category => <Question which={category} toggleOnClick={toggleOnClick} classNames={classNames} />)}
 				</ul>
 			</div>
 		</main>
