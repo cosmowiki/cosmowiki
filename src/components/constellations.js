@@ -57,14 +57,14 @@ class ConstellationComponent {
     const {constellation:item} = this.props;
     return (
       <tr className="constRow">
-  			<td className="constName"><a href={item.wikipediaUrl}>{item.name}</a></td>
-  			<td className="constLatin">{item.latinName}</td>
-  			<td className="constShort">{item.shortName}</td>
+  			<td className="constName"><a href={item.wikipediaUrl}>{item.name.name}</a></td>
+  			<td className="constLatin">{item.name.latin}</td>
+  			<td className="constShort">{item.name.short}</td>
   			<td className="constAuthor"><a href={item.author.wikipediaUrl}>{item.author.name}</a></td>
   			<td className="constY">{item.y}</td>
   			<td className="constSphere">{item.sphere}</td>
-  			<td className="constVisFrom">{item.visFrom}</td>
-  			<td className="constVisTo">{item.visTo}</td>
+  			<td className="constVisFrom">{item.visibility.from}</td>
+  			<td className="constVisTo">{item.visibility.to}</td>
   			<td className="constSqDeg">{item.sqDeg}</td>
   			<td className="starsOver3Mag center">{item.starsOver3Mag}</td>
   			<td className="starsOver4Mag center">{item.starsOver4Mag}</td>

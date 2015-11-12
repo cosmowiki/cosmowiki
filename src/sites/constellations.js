@@ -17,16 +17,13 @@ class Constellation {
   
   static fromRawData(raw) {
     const item = new Constellation();
-    item.name = raw.constname;
-    item.latinName = raw.constlatin;
-    item.shortName = raw.constshort;
+    item.name = new ConstellationName({name: raw.constname, latin: raw.constlatin, short: raw.constshort});
     item.wikipediaUrl = raw.constlink;
-    item.author = Author.fromRawData(raw);
-    item.brightStar = Star.fromRawData(raw);
+    item.author = new Author({name: raw.constauthor, wikipediaUrl: raw.constauthorlink});
+    item.brightStar = new Star({name: raw.constbrightstar, wikipediaUrl: raw.constbrightstarlink});
     item.y = raw.consty;
     item.sphere = raw.constsphere;
-    item.visFrom = raw.constvisfrom; // TODO better name please!!!
-    item.visTo = raw.constvisto; // TODO better name please!!!
+    item.visibility = new Visibility({from: raw.constvisfrom, to: raw.constvisto});
     item.sqDeg = raw.constsqdeg; // TODO better name please!!!
     item.starsOver3Mag = raw['stars>3mag'];
     item.starsOver4Mag = raw['stars>4mag'];
@@ -36,26 +33,36 @@ class Constellation {
   
 }
 
-class Author {
-  
-  static fromRawData(raw) {
-    const author = new Author();
-    author.name = raw.constauthor;
-    author.wikipediaUrl = raw.constauthorlink;
-    return author;
+class ConstellationName {
+  constructor({name, latin, short}) {
+    this.name = name;
+    this.latin = latin;
+    this.short = short;
   }
-  
+  toString() {
+    return this.name;
+  }
+}
+
+class Author {
+  constructor({name, wikipediaUrl}) {
+    this.name = name;
+    this.wikipediaUrl = wikipediaUrl;
+  }
 }
 
 class Star {
-  
-  static fromRawData(raw) {
-    const star = new Star();
-    star.name = raw.constbrightstar;
-    star.wikipediaUrl = raw.constbrightstarlink;
-    return star;
+  constructor({name, wikipediaUrl}) {
+    this.name = name;
+    this.wikipediaUrl = wikipediaUrl;
   }
-  
+}
+
+class Visibility {
+  constructor({from, to}) {
+    this.from = from;
+    this.to = to;
+  }
 }
 
 /*
