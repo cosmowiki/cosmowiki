@@ -93,13 +93,13 @@ const questions = {
       <li>
         <p>
           An dieser Stelle möchten wir uns ganz herzlich bei <a title="Wikimedia" href="https://www.wikimedia.org" target="_blank"><b>Wikimedia</b></a>,
-        der Online-Enzyklopädie <a title="Wikipedia.org" href="http://de.wikipedia.org/" target="_blank"><b>Wikipedia.org</b></a> und seinen vielen freiwilligen Mitarbeitern
-        für das größte Lexikon der Welt bedanken! Sie alle haben die Welt der Lexika in das 21. jahrhundert katapultiert und der Menschheit damit einen unschätzbaren Dienst erwiesen.
+          der Online-Enzyklopädie <a title="Wikipedia.org" href="http://de.wikipedia.org/" target="_blank"><b>Wikipedia.org</b></a> und seinen vielen freiwilligen Mitarbeitern
+          für das größte Lexikon der Welt bedanken! Sie alle haben die Welt der Lexika in das 21. jahrhundert katapultiert und der Menschheit damit einen unschätzbaren Dienst erwiesen.
         </p>
         <p>
           Weiterhin bedanken wir uns sehr bei <a title="Wolfram Kriesing" href="https://twitter.com/wolframkriesing" target="_blank"><b>Wolfram Kriesing</b></a>
-        für die Kartenanwendung auf der <a href="places.php" target="_self">"Orte"-Seite</a>, unzählige andere Hilfestellungen rund um die Webprogrammierung
-        und die generelle Unterstützung des Projektes.
+          für die Kartenanwendung auf der <a href="places.php" target="_self">"Orte"-Seite</a>, unzählige andere Hilfestellungen rund um die Webprogrammierung
+          und die generelle Unterstützung des Projektes.
         </p>
       </li>
   }
