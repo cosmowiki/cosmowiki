@@ -2,7 +2,7 @@ import assert from 'assert';
 import {
   assertThat, hasProperty
 } from 'hamjest';
-import {Person} from '../people';
+import Person from '../entities/person';
 import Grouper from './grouper';
 
 describe('groups objects by name', function() {
