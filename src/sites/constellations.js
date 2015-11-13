@@ -1,6 +1,7 @@
 import React from 'react';
 import ConstellationsComponent from '../components/constellations';
 import ConstellationName from './entities/constellation-name';
+import Person from './entities/person';
 
 export default class Constellations {
   
@@ -20,7 +21,7 @@ class Constellation {
     const item = new Constellation();
     item.name = new ConstellationName({name: raw.constname, latin: raw.constlatin, short: raw.constshort});
     item.wikipediaUrl = raw.constlink;
-    item.author = new Author({name: raw.constauthor, wikipediaUrl: raw.constauthorlink});
+    item.author = new Person({name: raw.constauthor, wikipediaUrl: raw.constauthorlink});
     item.brightStar = new Star({name: raw.constbrightstar, wikipediaUrl: raw.constbrightstarlink});
     item.y = raw.consty;
     item.sphere = raw.constsphere;
@@ -32,13 +33,6 @@ class Constellation {
     return item;
   }
   
-}
-
-class Author {
-  constructor({name, wikipediaUrl}) {
-    this.name = name;
-    this.wikipediaUrl = wikipediaUrl;
-  }
 }
 
 class Star {
