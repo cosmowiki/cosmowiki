@@ -1,5 +1,6 @@
 import React from 'react';
 import ConstellationsComponent from '../components/constellations';
+import ConstellationName from './entities/constellation-name';
 
 export default class Constellations {
   
@@ -31,17 +32,6 @@ class Constellation {
     return item;
   }
   
-}
-
-class ConstellationName {
-  constructor({name, latin, short}) {
-    this.name = name;
-    this.latin = latin;
-    this.short = short;
-  }
-  toString() {
-    return this.name;
-  }
 }
 
 class Author {
