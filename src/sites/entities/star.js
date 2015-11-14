@@ -1,7 +1,7 @@
 import StarName from './star-name';
 
 export default class Star {
-  
+
   static fromRawData(raw) {
     const star = new Star();
     star.name = new StarName({
@@ -11,7 +11,7 @@ export default class Star {
       bayer: raw.bayername,
       short: raw.shortname
     });
-    star.link = raw.starlink;
+    star.wikipediaUrl = raw.starlink;
     star.hr = raw.hr;
     star.hd = raw.hd;
     star.hip = raw.hip;

@@ -97,7 +97,7 @@ class StarComponent {
     return (
       <tr className="starsRow">
         <td className="starName">
-          <a href={star.link} onMouseOver={noop} onMouseOut={noop}>{star.name.name}</a>
+          <a href={star.wikipediaUrl} onMouseOver={noop} onMouseOut={noop}>{star.name.name}</a>
           <div className="starInfoBox">
             <p>
               <strong>alternative Namen:</strong> {star.name.alternative}</p>
