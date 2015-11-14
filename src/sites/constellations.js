@@ -2,6 +2,7 @@ import React from 'react';
 import ConstellationsComponent from '../components/constellations';
 import ConstellationName from './entities/constellation-name';
 import Person from './entities/person';
+import Star from './entities/star';
 
 export default class Constellations {
   
@@ -33,13 +34,6 @@ class Constellation {
     return item;
   }
   
-}
-
-class Star {
-  constructor({name, wikipediaUrl}) {
-    this.name = name;
-    this.wikipediaUrl = wikipediaUrl;
-  }
 }
 
 class Visibility {
