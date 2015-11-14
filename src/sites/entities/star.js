@@ -2,35 +2,53 @@ import StarName from './star-name';
 
 export default class Star {
 
+  constructor({name, wikipediaUrl, hr, hd, hip, sao, flamsteed, constellation, dekli, rekt, appMag, spectrClass, dist, mass, radius}) {
+    this.name = name;
+    this.wikipediaUrl = wikipediaUrl;
+    this.hr = hr;
+    this.hd = hd;
+    this.hip = hip;
+    this.sao = sao;
+    this.flamsteed = flamsteed;
+    this.constellation = constellation;
+    this.dekli = dekli;
+    this.rekt = rekt;
+    this.appMag = appMag;
+    this.spectrClass = spectrClass;
+    this.dist = dist;
+    this.mass = mass;
+    this.radius = radius;
+  }
+  
   static fromRawData(raw) {
-    const star = new Star();
-    star.name = new StarName({
-      name: raw.starname,
-      historical: raw.historicalname,
-      aternative: raw.alternativename,
-      bayer: raw.bayername,
-      short: raw.shortname
-    });
-    star.wikipediaUrl = raw.starlink;
-    star.hr = raw.hr;
-    star.hd = raw.hd;
-    star.hip = raw.hip;
-    star.sao = raw.sao;
-    star.flamsteed = raw.flamsteed;
-    
-    star.constellation = raw.constellation;
-    star.constLink = raw.constlink; // TODO make it a real ref to the constellation
-    
-    star.dekli = raw.dekli;
-    star.rekt = raw.rekt;
-    star.appMag = raw.appmag;
-    star.spectrClass = raw.spectrclass;
-    
-    star.dist = raw.dist;
-    star.mass = raw.mass;
-    star.radius = raw.radius;
-    
-    return star;
+    const item = {
+      name: new StarName({
+        name: raw.starname,
+        historical: raw.historicalname,
+        aternative: raw.alternativename,
+        bayer: raw.bayername,
+        short: raw.shortname
+      }),
+      wikipediaUrl: raw.starlink,
+      hr: raw.hr,
+      hd: raw.hd,
+      hip: raw.hip,
+      sao: raw.sao,
+      flamsteed: raw.flamsteed,
+
+      constellation: raw.constellation,
+      constLink: raw.constlink,  // TODO make it a real ref to the constellation
+
+      dekli: raw.dekli,
+      rekt: raw.rekt,
+      appMag: raw.appmag,
+      spectrClass: raw.spectrclass,
+
+      dist: raw.dist,
+      mass: raw.mass,
+      radius: raw.radius
+    };
+    return new Star(item);
   }
   
 }
