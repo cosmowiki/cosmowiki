@@ -111,41 +111,50 @@ export default class AboutComponent extends React.Component {
     super();
     this.state = {visibleSection: ''};
   }
+  
+  toggleCategory(category) {
+    const newState = this.state.visibleSection === category ? '' : category; 
+    this.setState({visibleSection: newState}); 
+  }
 
   render() {
-    const {appUrl} = this.props;
-    
-    const toggleSection = name => this.state.visibleSection === name ? this.setState({visibleSection: ''}) : this.setState({visibleSection: name});
-    const classNames = sectionName => this.state.visibleSection === sectionName ? 'answer visible' : 'answer hidden';
-    const toggleOnClick = name => toggleSection.bind(null, name);
+    const buildToggleFunctionFor = category => this.toggleCategory.bind(this, category);
     const categories = Object.keys(questions);
+    const isVisible = category => this.state.visibleSection === category;
     
     return (
-		<main role="main" className="pure-u-1">
-			<div id="featured" className="about center">
-				<h1>Wir über uns</h1>
-				<h3>Ohne Idee keine Entwicklung</h3>
-			</div>
-			<div id="about" className="justify">
-				<ul id="aboutMenu">
-          {categories.map(category => <Question which={category} toggleOnClick={toggleOnClick} classNames={classNames} />)}
-				</ul>
-			</div>
-		</main>
+      <main role="main" className="pure-u-1">
+        <div id="featured" className="about center">
+          <h1>Wir über uns</h1>
+          <h3>Ohne Idee keine Entwicklung</h3>
+        </div>
+        <div id="about" className="justify">
+          <ul id="aboutMenu">
+            {categories.map(category => 
+              <Question category={category} toggleFunction={buildToggleFunctionFor(category)} isVisible={isVisible(category)} key={category} />)}
+          </ul>
+        </div>
+      </main>
     )
+  }
+  
+  componentWillMount() {
+    const category = typeof window !== 'undefined' && window.location.hash.replace(/^#/, '');
+    this.toggleCategory(category);
   }
 }
 
 class Question {
   
   render() {
-    const {toggleOnClick, classNames, which} = this.props;
-    const {question, answer} = questions[which];
+    const {toggleFunction, category, isVisible} = this.props;
+    const {question, answer} = questions[category];
+    const classNames = isVisible ? 'answer visible' : 'answer hidden';
     
     return (
       <li className="question">
-        <a href={'#' + which} onClick={toggleOnClick(which)}><i className="fa fa-caret-right fa-fw" />{' ' + question}</a>
-        <ul id={which} className={classNames(which)}>{answer}</ul>
+        <a href={'#' + category} onClick={toggleFunction}><i className="fa fa-caret-right fa-fw" />{' ' + question}</a>
+        <ul id={category} className={classNames}>{answer}</ul>
       </li>
     );
     
