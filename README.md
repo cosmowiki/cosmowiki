@@ -18,5 +18,10 @@ To install cosmowiki, run `npm install` which installs all dependencies.
 Run `npm start` which starts a server on http://localhost:8080
 where the site will be reachable locally.
 
+# update of JSON files
+
+Run `npm run data-from-spreadsheet` to update all JSON files locally from the spreadsheet.
+Run `npm run data-from-spreadsheet name-of-the-page` to update a single JSON file locally from the spreadsheet.
+
 
 [1]: https://nodejs.org
