@@ -13,7 +13,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "mocha --compilers js:babel/register $(find src -name '*spec.js') --bail",
+    "test": "mocha --compilers js:babel/register *{/**,}/*spec.js --bail",
     "watch:test": "parallelshell \"chokidar 'src' -c 'npm test'\" \"chokidar 'test' -c 'npm test'\" \"chokidar 'scripts' -c 'npm test'\"",
     "start": "parallelshell 'http-server dist' 'npm run watch:build'",
     "start-for-offline": "npm config set cosmowiki:build_for_offline 1; cp -R for-offline dist; npm start;",
