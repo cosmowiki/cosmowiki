@@ -2,7 +2,9 @@ import StarName from './star-name';
 
 export default class Star {
 
-  constructor({name, wikipediaUrl, hr, hd, hip, sao, flamsteed, constellation, dekli, rekt, appMag, spectrClass, dist, mass, radius}) {
+  constructor({
+    name, wikipediaUrl, hr, hd, hip, sao, flamsteed, constLink, constellation, dekli, rekt, appMag, spectrClass, dist, mass, radius
+  }) {
     this.name = name;
     this.wikipediaUrl = wikipediaUrl;
     this.hr = hr;
@@ -11,6 +13,7 @@ export default class Star {
     this.sao = sao;
     this.flamsteed = flamsteed;
     this.constellation = constellation;
+    this.constLink = constLink;
     this.dekli = dekli;
     this.rekt = rekt;
     this.appMag = appMag;

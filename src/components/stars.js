@@ -113,7 +113,7 @@ class StarComponent {
         </td>
         <td className="starBay">{star.name.bayer || '-'}</td>
         <td className="starShort">{star.name.short || '-'}</td>
-        <td className="starConst"><a href={star.constLink}>ADD LINK {star.constellation || '-'}</a></td>
+        <td className="starConst"><a href={star.constLink}>{star.constellation || '-'}</a></td>
         <td className="starRekt">{star.rekt || '-'}</td>
         <td className="starDekli">{star.dekli || '-'}</td>
         <td className="starAppMag">{star.appMag || '-'}</td>
