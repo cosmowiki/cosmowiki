@@ -1,7 +1,5 @@
 /* global describe, it, beforeEach, __dirname */
-import fs from 'fs';
 import path from 'path';
-import assert from 'power-assert';
 
 import {
   assertThat, everyItem, hasItem, instanceOf, hasProperty, containsString, contains,
@@ -20,6 +18,9 @@ import {
   InvalidDirectory,
   InvalidJsonString
 } from './errors';
+
+import mkdirp from 'mkdirp';
+mkdirp(toPath); // TODO we should get to not needing this, the tests currently use the filesystem :(
 
 const fileInDestPath = makeFileInDestPath(toPath);
 
@@ -128,7 +129,7 @@ describe('convert multiple files', () => {
     
     const invalidPath = path.join(toPath, 'invalid/path');
     const convert = () => convertManyFiles(fromPath, jsonFiles, invalidPath);
-    
+
     it('rejects with InvalidDirectory', function() {
       return promiseThat(convert(), isRejectedWith(instanceOf(InvalidDirectory)));
     });
