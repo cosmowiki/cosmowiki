@@ -13,13 +13,14 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "mocha --compilers js:babel/register $(find src -name '*spec.js') --bail",
+    "test": "mocha --compilers js:babel/register */{**/,**/**/,**/**/**/}*spec.js --bail",
     "watch:test": "parallelshell \"chokidar 'src' -c 'npm test'\" \"chokidar 'test' -c 'npm test'\" \"chokidar 'scripts' -c 'npm test'\"",
     "start": "parallelshell 'http-server dist' 'npm run watch:build'",
     "start-for-offline": "npm config set cosmowiki:build_for_offline 1; cp -R for-offline dist; npm start;",
-    "build": "mkdir -p dist; npm run build:html; npm run build:data; npm run build:css; npm run build:img; npm run build:app",
+    "make-dist-dir": "mkdir -p dist/data",
+    "build": "npm run make-dist-dir; npm run build:html; npm run build:data; npm run build:css; npm run build:img; npm run build:app",
     "build:html": "cp src/index.html dist",
-    "build:data": "mkdir -p dist/data; babel-node src/scripts/minify-json.js \"$PWD/data\" \"$PWD/dist/data\"",
+    "build:data": "npm run make-dist-dir; babel-node src/scripts/minify-json.js \"$PWD/data\" \"$PWD/dist/data\"",
     "build:css": "cp -R src/css dist",
     "build:img": "cp -R src/img dist",
     "build:app": "browserify src/index.js --outfile=dist/index.min.js --transform=babelify; babel-node src/index.js --makes-static-sites --for-offline=$npm_package_config_build_for_offline",

@@ -1,7 +1,5 @@
 /* global describe, it, beforeEach, __dirname */
-import fs from 'fs';
 import path from 'path';
-import assert from 'power-assert';
 
 import {
   assertThat, everyItem, hasItem, instanceOf, hasProperty, containsString, contains,
@@ -21,11 +19,14 @@ import {
   InvalidJsonString
 } from './errors';
 
+import mkdirp from 'mkdirp';
+mkdirp(toPath); // TODO we should get to not needing this, the tests currently use the filesystem :(
+
 const fileInDestPath = makeFileInDestPath(toPath);
 
 describe('convert multiple files', () => {
   
-  let promise;
+  let convert;
   const jsonFiles = fileNames.json;
   
   beforeEach(() => {
@@ -34,16 +35,14 @@ describe('convert multiple files', () => {
   
   describe('all JSON files', () => {
 
-    beforeEach(() => {
-      promise = convertManyFiles(fromPath, jsonFiles, toPath);
-    });
+    const convert = () => convertManyFiles(fromPath, jsonFiles, toPath);
 
     it('fulfills', () => {
-      return promiseThat(promise, is(fulfilled()));
+      return promiseThat(convert(), is(fulfilled()));
     });
     
     it('fulfills when all are copied', () => {
-      return promise.then(() => {
+      return convert().then(() => {
         assertThat(jsonFiles, everyItem(fileInDestPath(is(true))));
       });
     });
@@ -53,12 +52,12 @@ describe('convert multiple files', () => {
       const fileNames = jsonFiles.map(fileName => path.join(toPath, fileName));
       
       it('as a result object', function() {
-        return promiseThat(promise, isFulfilledWith(everyItem(instanceOf(Result))));
+        return promiseThat(convert(), isFulfilledWith(everyItem(instanceOf(Result))));
       });
 
       it('contains the fileName', function() {
         // I am sure this matcher can be written better
-        return promise.then(results => {
+        return convert().then(results => {
           fileNames.forEach(fileName => 
             assertThat(results, hasItem(hasProperty('fileName', fileName)))
           );
@@ -72,17 +71,14 @@ describe('convert multiple files', () => {
   describe('contains non-JSON file(s)', () => {
     
     const includesNonJsonFile = [...fileNames.json, ...fileNames.nonJson];
-    
-    beforeEach(() => {
-      promise = convertManyFiles(fromPath, includesNonJsonFile, toPath);
-    });
+    const convert = () => convertManyFiles(fromPath, includesNonJsonFile, toPath);
 
     it('fulfills', () => {
-      return promiseThat(promise, is(fulfilled()));
+      return promiseThat(convert(), is(fulfilled()));
     });
         
     it('fulfills when all JSON files are copied', () => {
-      return promise.then(() => {
+      return convert().then(() => {
         assertThat(jsonFiles, everyItem(fileInDestPath(is(true))));
       });
     });
@@ -93,7 +89,7 @@ describe('convert multiple files', () => {
         instanceOf(InvalidJsonString)
       ];
       
-      return promiseThat(promise, isFulfilledWith(contains(...expected)));
+      return promiseThat(convert(), isFulfilledWith(contains(...expected)));
     });
 
   });
@@ -101,18 +97,15 @@ describe('convert multiple files', () => {
   describe('invalid file name (should still succeed and not stop the conversion process)', function() {
 
     const invalidFileNames = ['not-existing.file', ...jsonFiles];
-    let promise;
-    
-    beforeEach(function() {
-      promise = convertManyFiles(fromPath, invalidFileNames, toPath);
-    });
-    
+
+    const convert = () => convertManyFiles(fromPath, invalidFileNames, toPath);
+
     it('fulfills with `InvalidSourceFile`', function() {
-      return promiseThat(promise, isFulfilledWith(hasItem(instanceOf(InvalidSourceFile))));
+      return promiseThat(convert(), isFulfilledWith(hasItem(instanceOf(InvalidSourceFile))));
     });
     
     it('fulfills with fileName in the message', function() {
-      return promiseThat(promise, isFulfilledWith(hasItem(hasProperty('message', containsString(invalidFileNames[0])))));
+      return promiseThat(convert(), isFulfilledWith(hasItem(hasProperty('message', containsString(invalidFileNames[0])))));
     });
     
   });
@@ -120,18 +113,14 @@ describe('convert multiple files', () => {
   describe('invalid `fromPath`', function() {
 
     const invalidPath = path.join(fromPath, 'invalid/path');
-    let promise;
+    const convert = () => convertManyFiles(invalidPath, jsonFiles, toPath);
 
-    beforeEach(function() {
-      promise = convertManyFiles(invalidPath, jsonFiles, toPath);
-    });
-    
     it('rejects with InvalidDirectory', function() {
-      return promiseThat(promise, isRejectedWith(instanceOf(InvalidDirectory)));
+      return promiseThat(convert(), isRejectedWith(instanceOf(InvalidDirectory)));
     });
     
     it('reject message contains the invalid dir', function() {
-      return promiseThat(promise, isRejectedWith(hasProperty('message', containsString(invalidPath))));
+      return promiseThat(convert(), isRejectedWith(hasProperty('message', containsString(invalidPath))));
     });
     
   });
@@ -139,18 +128,14 @@ describe('convert multiple files', () => {
   describe('invalid `toPath`', function() {
     
     const invalidPath = path.join(toPath, 'invalid/path');
-    let promise;
+    const convert = () => convertManyFiles(fromPath, jsonFiles, invalidPath);
 
-    beforeEach(function() {
-      promise = convertManyFiles(fromPath, jsonFiles, invalidPath);
-    });
-    
     it('rejects with InvalidDirectory', function() {
-      return promiseThat(promise, isRejectedWith(instanceOf(InvalidDirectory)));
+      return promiseThat(convert(), isRejectedWith(instanceOf(InvalidDirectory)));
     });
     
     it('reject message contains the invalid dir', function() {
-      return promiseThat(promise, isRejectedWith(hasProperty('message', containsString(invalidPath))));
+      return promiseThat(convert(), isRejectedWith(hasProperty('message', containsString(invalidPath))));
     });
     
   });
