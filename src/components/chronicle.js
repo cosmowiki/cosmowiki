@@ -12,11 +12,17 @@ export default class ChronicleComponent extends React.Component {
   render() {
     const items = this.props.items;
 
+    const itemForOverlay = (item) => {
+      return { description: `${ item.readableDate } in ${ item.location }`, ...item };
+    };
     const showOverlay = (item) => {
-      this.setState({ itemInOverlay: item });
+      this.setState({ itemInOverlay: itemForOverlay(item) });
+    };
+    const hideOverlay = () => {
+      this.setState({ itemInOverlay: null });
     };
     const overlay = this.state.itemInOverlay
-      ? <VcardComponent item={ this.state.itemInOverlay } />
+      ? <VcardComponent item={ this.state.itemInOverlay } onClose={ hideOverlay } />
       : null;
 
     return (

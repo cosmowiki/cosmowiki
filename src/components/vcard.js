@@ -2,12 +2,23 @@ import React from 'react';
 
 export default class VcardComponent extends React.Component {
   render() {
-    const { item } = this.props;
+    const {
+      item, onClose
+    } = this.props;
+
+    const shortName = item.shortName
+      ? <div id="vcardItemShort">{ item.shortName }</div>
+      : null;
+
+    const image = item.imageUrl
+      ? <div id="vcardItemImg"><img src={ item.imageUrl } /></div>
+      : null;
+
     return (
       <div id="vcardOverlay">
       	<div id="vcard">
       		<div id="vcardContainer">
-      			<a className="center" id="vcardClose" href="close/the/overlay" title="Schlie&szlig;en">&times;</a>
+      			<a className="center" id="vcardClose" title="Schlie&szlig;en" onClick={ onClose }>&times;</a>
       			<div id="vcardHeader">
       				<div id="vcardHistory">
       					Verlauf: <a href="path/to/home">Home</a> &rarr; <a href="path/to/subPage">subPage</a> &rarr; <a href="path/to/1stVisitedItem">1stVisitedItem</a> &rarr; <a href="path/to/2ndVisitedItem">2ndVisitedItem</a> &rarr; <a href="path/to/openItem">openItem</a>
@@ -15,21 +26,12 @@ export default class VcardComponent extends React.Component {
       			</div>
       			<div id="vcardContent">
       				<div id="vcardContentLeft">
-      					<div id="vcardItemImg">
-      						<img src="path/to/img.jpg" />
-      					</div>
+                { image }
       					<div id="vcardItemName">
       						<h3>{ item.name }</h3>
       					</div>
-      					<div id="vcardItemShort">
-      						vcardItemShort  
-      					</div>
-      					<div id="vcardItemLong" className="justify">
-      						vcardItemLong Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-      						At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-      						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-      						At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-      					</div>
+                { shortName }
+      					<div id="vcardItemLong" className="justify">{ item.description }</div>
       				</div>
       				<div id="vcardContentRight">
       					<div className="vcardItemRelatedCat">
@@ -66,7 +68,7 @@ export default class VcardComponent extends React.Component {
       			</div>
       			<div id="vcardFooter">
       				<div id="vcardItemWpLink">
-      					Wikipedia-Artikel ansehen: <a href={ item.wikipediaUrl } target="_blank">vcardItemWpLink</a>
+      					Wikipedia-Artikel ansehen: <a href={ item.wikipediaUrl } target="_blank">{ item.wikipediaUrl }</a>
       				</div>
       			</div>
       		</div>
