@@ -3,9 +3,9 @@ export default class Logo {
   
   render() {
     return (
-      <div id="branding" className="pure-u-1 pure-u-md-1-2">
+      <div id="branding">
         <a href="/" title="CosmoWiki.de" rel="home">
-          <img src="/img/cw_header.jpg" name="CosmoWiki.de" alt="CosmoWiki.de"/>
+          <img src="/img/cosmowiki_30px.jpg" name="CosmoWiki" alt="CosmoWiki"/>
         </a>
       </div>
       

@@ -1,6 +1,5 @@
 import React from 'react'
 import Logo from './logo'
-import SocialButtons from './social-buttons'
 import Navigation from './navigation'
 import Footer from './footer';
 
@@ -11,9 +10,8 @@ export default class PageComponent {
     
     return (
       <div id="wrapper" className="pure-g">
+        <Logo/>
         <header className="pure-u-1">
-          <Logo/>
-          <SocialButtons appUrl={appUrl} />
           <Navigation appUrl={appUrl} />
         </header>
         {siteComponent}

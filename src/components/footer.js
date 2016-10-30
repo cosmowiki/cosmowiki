@@ -4,21 +4,108 @@ export default class Home {
   render() {
 
     return (
-      <footer className="pure-u-1 center">
-        <ul>
-          <li>
-            <div className="shariff" data-theme="grey"
-                 data-services="[&quot;twitter&quot;,&quot;googleplus&quot;,&quot;facebook&quot;,&quot;mail&quot;,&quot;info&quot;]"></div>
-            RENDER WITH SHARIFF!!!!
-          </li>
-          <li>
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/" target="_blank"><img
-              title="CC-BY-SA" src="/img/cc-by-sa-88x31.png" alt="CC-By-SA"/></a>
-          </li>
-          <li>
-            <small>v. 0.9 beta</small>
-          </li>
-        </ul>
+      <footer className="pure-u-1">
+        <div id="footerContainer" className="pure-u-1">
+          <div id="footerMainPages" className="footerPart pure-u-1-5">
+            <h3>Hauptseiten</h3>
+            <ul>
+              <li>
+                <a className="footerLink" /*href={appUrl.astronomySite()}*/>Astronomie</a>
+              </li>
+              <li>
+                <a className="footerLink" /*href={appUrl.spaceflightSite()}*/>Raumfahrt</a>
+              </li>
+              <li>
+                <a className="footerLink" /*href={appUrl.eventsSite()}*/>Chronik</a>
+              </li>
+              <li>
+                <a className="footerLink" /*href={appUrl.peopleSite()}*/>Personen</a>
+              </li>
+              <li>
+                <a className="footerLink">Orte</a>
+              </li>
+              <li>
+                <a className="footerLink" /*href={appUrl.objectsSite()}*/>Objekte</a>
+              </li>
+            </ul>          
+          </div>
+          <div id="footerSubPages" className="footerPart pure-u-1-5">
+            <h3>Unterseiten</h3>
+            <ul>
+              <li>
+                <a className="footerLink" /*href={appUrl.astronomersSite()}*/>Astronomen</a>
+              </li>
+              <li>
+                <a className="footerLink" /*href={appUrl.astronautsSite()}*/>Raumfahrer</a>
+              </li>
+              <li>
+                <a className="footerLink" /*href={appUrl.solarSystemSite()}*/>Sonnensystem</a>
+              </li>
+              <li>
+                <a className="footerLink" /*href={appUrl.constellationsSite()}*/>Sternbilder</a>
+              </li>
+              <li>
+                <a className="footerLink" /*href={appUrl.starsSite()}*/>Sterne</a>
+              </li>
+              <li>
+                <a className="footerLink" /*href={appUrl.missionsSite()}*/>Missionen</a>
+              </li>
+              <li>
+                <a className="footerLink" /*href={appUrl.spaceStationsSite()}*/>Raumstationen</a>
+              </li>
+            </ul>          
+          </div>
+          <div id="footerNetworks" className="footerPart pure-u-1-5">
+            <h3>Folgen</h3>
+            <ul>
+              <li>
+                <a className="footerLink" target="_blank" title="CosmoWiki.de bei Twitter">Twitter</a>
+              </li>
+              <li>
+                <a className="footerLink" target="_blank" title="CosmoWiki.de bei Facebook">Facebook</a>
+              </li>
+              <li>
+                <a className="footerLink" target="_blank" title="CosmoWiki.de bei Google Plus">Google+</a>
+              </li>
+              <li>
+                <a className="footerLink" target="_blank" title="CosmoWiki.de bei Github">Github</a>
+              </li>
+          </ul>         
+          </div>
+          <div id="footerShare" className="footerPart pure-u-1-5">
+            <h3>Teilen</h3>
+            <ul>
+              <li>
+                <div className="shariff" data-theme="grey" data-services="[&quot;twitter&quot;,&quot;googleplus&quot;,&quot;facebook&quot;,&quot;mail&quot;,&quot;info&quot;]"></div>
+                SHARIFF!!!!
+              </li>
+              <li>
+                Facebook
+              </li>
+              <li>
+                Twitter
+              </li>
+              <li>
+                Google+
+              </li>
+            </ul>
+          </div>
+          <div id="footerElse" className="footerPart pure-u-1-5">
+            <h3>Sonstiges</h3>
+            <ul>
+              <li>
+                <a className="footerLink" /*href={appUrl.aboutSite()}*/ target="_self" title="&Uuml;ber CosmoWiki.de">Über uns</a>
+              </li>
+              <li>
+                <a className="footerLink" rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/" target="_blank"><img
+                  title="CC-BY-SA" src="/img/cc-by-sa-88x31.png" alt="CC-By-SA"/></a>
+              </li>
+              <li>
+                <small>version 1.0</small>
+              </li>
+            </ul>
+          </div>
+        </div>
       </footer>
     )
   }
