@@ -25,8 +25,14 @@ Run `npm run data-from-spreadsheet name-of-the-page` to update a single JSON fil
 
 
 # Roadmap until first release
+- speed up local development, using watchify?
 - make the map (places) work
 - include shariff for private social linking
-- document creation of new sites 
+- document creation of new sites
+
+nice to have
+- simple vcard with abstract of first paragraph from wikipedia
+- relations and breadcrum on the vcard
+
 
 [1]: https://nodejs.org
