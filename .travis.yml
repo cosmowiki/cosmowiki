@@ -1,11 +1,15 @@
 language: node_js
 node_js:
   - "5.11"
+  
+# to empty the cache go to https://travis-ci.com/crewmeister/browser-app/caches
+cache:
+  directories:
+  - node_modules
 
 after_success:
   - chmod +x ./scripts/*.sh
   - ./scripts/build.sh
-
 
 deploy:
   provider: script
