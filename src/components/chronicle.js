@@ -1,12 +1,24 @@
 import React from 'react';
 import Notes from './notes';
+import VcardComponent from './vcard';
 
-export default class ChronicleComponent {
+export default class ChronicleComponent extends React.Component {
+
+  constructor() {
+    super();
+    this.state = { itemInOverlay: null };
+  }
 
   render() {
-    
-    let items = this.props.items;
-    
+    const items = this.props.items;
+
+    const showOverlay = (item) => {
+      this.setState({ itemInOverlay: item });
+    };
+    const overlay = this.state.itemInOverlay
+      ? <VcardComponent item={ this.state.itemInOverlay } />
+      : null;
+
     return (
       <main role="main" className="pure-u-1">
         <div id="featured" className="chronicle center">
@@ -16,10 +28,11 @@ export default class ChronicleComponent {
         <div id="dataTable">
           <div id="timeline">
             <div id="timelineHeader"></div>
-            {items.map((item, idx) => <ItemComponent item={item} key={idx} />)}
+            {items.map((item, idx) => <ItemComponent item={item} key={idx} onClick={() => showOverlay(item)} />)}
             <div id="timelineFooter"></div>
           </div>
         </div>
+        {overlay}
         <Notes />
       </main>
     )
@@ -27,16 +40,14 @@ export default class ChronicleComponent {
 }
 
 class ItemComponent {
-  
   render() {
-    const item = this.props.item;
+    const { item, onClick } = this.props;
     return (
       <div className="timelineRow">
         <div className="timelineDate right">{item.readableDate}</div>
         <div className="timelinePlace">{item.location}</div>
-        <div className="timelineEvent"><a href={item.wikipediaUrl}>{item.event}</a></div>
+        <div className="timelineEvent" onClick={onClick}>{item.event}</div>
       </div>
     )
   }
-  
 }
