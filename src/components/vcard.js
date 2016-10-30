@@ -15,6 +15,8 @@ export default class VcardComponent extends React.Component {
       : null;
 
     return (
+      <div>
+      <div id="vcardBackground"></div>
       <div id="vcardOverlay">
       	<div id="vcard">
       		<div id="vcardContainer">
@@ -73,6 +75,7 @@ export default class VcardComponent extends React.Component {
       			</div>
       		</div>
       	</div>
+      </div>
       </div>
     );
   }
