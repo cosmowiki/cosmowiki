@@ -24,4 +24,9 @@ Run `npm run data-from-spreadsheet` to update all JSON files locally from the sp
 Run `npm run data-from-spreadsheet name-of-the-page` to update a single JSON file locally from the spreadsheet.
 
 
+# Roadmap until first release
+- make the map (places) work
+- include shariff for private social linking
+- document creation of new sites 
+
 [1]: https://nodejs.org
