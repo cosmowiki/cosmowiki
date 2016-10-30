@@ -4,6 +4,8 @@ export default class VcardComponent extends React.Component {
   render() {
     const { item } = this.props;
     return (
+      <div>
+      <div id="vcardBackground"></div>
       <div id="vcardOverlay">
       	<div id="vcard">
       		<div id="vcardContainer">
@@ -71,6 +73,7 @@ export default class VcardComponent extends React.Component {
       			</div>
       		</div>
       	</div>
+      </div>
       </div>
     );
   }
