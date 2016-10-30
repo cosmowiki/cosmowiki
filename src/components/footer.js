@@ -6,7 +6,7 @@ export default class Home {
     return (
       <footer className="pure-u-1">
         <div id="footerContainer" className="pure-u-1">
-          <div id="footerMainPages" className="footerPart pure-u-1-5">
+          <div id="footerMainPages" className="footerPart pure-u-1-5 pure-u-md-1-1">
             <h3>Hauptseiten</h3>
             <ul>
               <li>
@@ -29,7 +29,7 @@ export default class Home {
               </li>
             </ul>          
           </div>
-          <div id="footerSubPages" className="footerPart pure-u-1-5">
+          <div id="footerSubPages" className="footerPart pure-u-1-5 pure-u-md-1-1">
             <h3>Unterseiten</h3>
             <ul>
               <li>
@@ -55,7 +55,7 @@ export default class Home {
               </li>
             </ul>          
           </div>
-          <div id="footerNetworks" className="footerPart pure-u-1-5">
+          <div id="footerNetworks" className="footerPart pure-u-1-5 pure-u-md-1-1">
             <h3>Folgen</h3>
             <ul>
               <li>
@@ -72,7 +72,7 @@ export default class Home {
               </li>
           </ul>         
           </div>
-          <div id="footerShare" className="footerPart pure-u-1-5">
+          <div id="footerShare" className="footerPart pure-u-1-5 pure-u-md-1-1">
             <h3>Teilen</h3>
             <ul>
               <li>
@@ -90,7 +90,7 @@ export default class Home {
               </li>
             </ul>
           </div>
-          <div id="footerElse" className="footerPart pure-u-1-5">
+          <div id="footerElse" className="footerPart pure-u-1-5 pure-u-md-1-1">
             <h3>Sonstiges</h3>
             <ul>
               <li>
