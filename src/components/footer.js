@@ -1,7 +1,9 @@
 import React from 'react';
-export default class Home {
+export default class Footer {
 
   render() {
+
+    let appUrl = this.props.appUrl;
 
     return (
       <footer className="pure-u-1">
@@ -9,24 +11,19 @@ export default class Home {
           <div id="footerMainPages" className="footerPart pure-u-1-5 pure-u-md-1-1">
             <h3>Hauptseiten</h3>
             <ul>
-              <li>
-                <a className="footerLink" /*href={appUrl.astronomySite()}*/>Astronomie</a>
-              </li>
-              <li>
-                <a className="footerLink" /*href={appUrl.spaceflightSite()}*/>Raumfahrt</a>
-              </li>
-              <li>
-                <a className="footerLink" /*href={appUrl.eventsSite()}*/>Chronik</a>
-              </li>
-              <li>
-                <a className="footerLink" /*href={appUrl.peopleSite()}*/>Personen</a>
-              </li>
-              <li>
-                <a className="footerLink">Orte</a>
-              </li>
-              <li>
-                <a className="footerLink" /*href={appUrl.objectsSite()}*/>Objekte</a>
-              </li>
+              {[
+                {url: appUrl.astronomySite(), name: 'Astronomie'},    
+                {url: appUrl.spaceflightSite(), name: 'Raumfahrt'},    
+                {url: appUrl.eventsSite(), name: 'Chronik'},    
+                {url: appUrl.peopleSite(), name: 'Personen'},    
+                {url: '', name: 'Orte'},
+                {url: appUrl.objectsSite(), name: 'Objekte'},
+                
+              ].map(link =>
+                <li>
+                  <a className="footerLink" href={ link.url }>{ link.name }</a>
+                </li>
+              )}
             </ul>          
           </div>
           <div id="footerSubPages" className="footerPart pure-u-1-5 pure-u-md-1-1">

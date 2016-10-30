@@ -15,7 +15,7 @@ export default class PageComponent {
           <Navigation appUrl={appUrl} />
         </header>
         {siteComponent}
-        <Footer />
+        <Footer appUrl={appUrl} />
       </div>
     )
   }
