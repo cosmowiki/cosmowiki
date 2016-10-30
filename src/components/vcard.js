@@ -1,6 +1,20 @@
 import React from 'react';
 
 export default class VcardComponent extends React.Component {
+  componentDidMount() {
+    document.addEventListener('keydown', (evt) => this.onKeyDown(evt));
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener('keydown', (evt) => this.onKeyDown(evt));
+  }
+
+  onKeyDown(event) {
+    if (event.key === 'Escape') {
+      this.props.onClose();
+    }
+  }
+
   render() {
     const {
       item, onClose
