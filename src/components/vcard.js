@@ -86,7 +86,7 @@ export default class VcardComponent extends React.Component {
               </div>
               <div id="vcardFooter">
                 <div id="vcardItemWpLink">
-                  Wikipedia-Artikel ansehen: <a href={ item.wikipediaUrl } target="_blank">{ item.wikipediaUrl }</a>
+                  Wikipedia-Artikel ansehen: <a href={ item.wikipediaUrl } target="_blank">{ decodeURIComponent(item.wikipediaUrl) }</a>
                 </div>
               </div>
             </div>
