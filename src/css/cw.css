@@ -177,13 +177,13 @@ main {max-width:960px; margin:0 auto; background:#f8f8f8;}
 #vcard {margin:auto; padding-top:10%; width:940px; height:auto !important;}
 #vcardContainer {
 	margin:auto; padding:5px 10px; width:904px;
-	border:3px solid #55f; border-radius:10px;
+	border:3px solid #d0d0d0; border-radius:10px;
 	background:white;
 }
 #vcardClose {
 	float:right; margin-top:-20px; margin-right:-25px; width:21px; height:21px;
 	font-size:28px;
-	border:3px solid #55f; border-radius:13px; background:white;
+	border:3px solid #d0d0d0; border-radius:13px; background:white;
 }
 #vcardHeader, #vcardContent, #vcardFooter {width:100%;}
 #vcardHeader {font-size:.75em; border-bottom:1px solid #a0a0ff;}
