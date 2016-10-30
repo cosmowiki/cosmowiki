@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "5.11"
+  - "6.6"
   
 # to empty the cache go to https://travis-ci.com/crewmeister/browser-app/caches
 cache:
