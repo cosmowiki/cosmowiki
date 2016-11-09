@@ -136,11 +136,14 @@ main {
 
 /*			featured ----------------------------------------------------------- */
 
-#featured {max-width: 1000px; min-height: 120px; margin: 0 auto;}
-#featured h1, #featured h3 {color: #e5e5e5;}
+#featured {
+	max-width: 1000px; min-height: 120px; margin: 0 auto;
+	background: rgba(255,255,255,0.5);
+	}
+/*#featured h1, #featured h3 {color: #e5e5e5;}*/
 #featured h1 {
-	padding: 60px 0 0 10px;
-	font-weight: normal; text-shadow: 1px 1px 2px #ccc;
+	padding: 40px 0 0 10px;
+	font-weight: normal; text-shadow: 1px 1px 2px #fff;
 	}
 #featured h3 {padding: 10px 0 10px 10px;}
 
@@ -195,14 +198,14 @@ main {
 
 #dataTable {
 	max-width: 1000px; margin: 0 auto; font-size: .8em;
-	background-image: linear-gradient(to bottom, #f8f8f8 0%, #fff 100%);
+	background-image: linear-gradient(to bottom, #f8f8f8 50%, rgba(255,255,255,0.5) 100%);
 	background-attachment: fixed;	border-bottom: 1px solid #d0d0d0;
 }
 
 /*			notes -------------------------------------------------------------- */
 
 #notes {
-	clear: left; font-size: .8em;
+	max-width: 1000px; margin: 0 auto; clear: left; font-size: .8em;
 	background-image: linear-gradient(to bottom, #fff 0%, #f8f8f8 100%);
 }
 #notes p {padding: 10px;}
