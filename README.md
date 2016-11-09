@@ -29,7 +29,7 @@ Run `npm run data-from-spreadsheet name-of-the-page` to update a single JSON fil
 - make the map (places) work
 - include shariff for private social linking
 - document creation of new sites
-- include the first 1000 charcters of the WP article into vcard
+- include the first 1000 characters of Wikipedia article in vcard
 
 nice to have
 - simple vcard with abstract of first paragraph from wikipedia

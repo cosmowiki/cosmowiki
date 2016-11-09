@@ -6,9 +6,9 @@ export default class Footer {
     let appUrl = this.props.appUrl;
 
     return (
-      <footer className="pure-u-1">
+      <footer className="center pure-u-1">
         <div id="footerContainer" className="pure-u-1">
-          <div id="footerMainPages" className="footerPart pure-u-1-5 pure-u-md-1-1">
+          <div id="footerMainPages" className="footerPart pure-u-1 pure-u-sm-1-5">
             <h3>Hauptseiten</h3>
             <ul>
               {[
@@ -26,7 +26,7 @@ export default class Footer {
               )}
             </ul>          
           </div>
-          <div id="footerSubPages" className="footerPart pure-u-1-5 pure-u-md-1-1">
+          <div id="footerSubPages" className="footerPart pure-u-1 pure-u-sm-1-5">
             <h3>Unterseiten</h3>
             <ul>
               {[
@@ -45,7 +45,7 @@ export default class Footer {
               )}
             </ul>          
           </div>
-          <div id="footerNetworks" className="footerPart pure-u-1-5 pure-u-md-1-1">
+          <div id="footerNetworks" className="footerPart pure-u-1 pure-u-sm-1-5">
             <h3>Folgen</h3>
             <ul>
               <li>
@@ -62,7 +62,7 @@ export default class Footer {
               </li>
           </ul>         
           </div>
-          <div id="footerShare" className="footerPart pure-u-1-5 pure-u-md-1-1">
+          <div id="footerShare" className="footerPart pure-u-1 pure-u-sm-1-5">
             <h3>Teilen</h3>
             <ul>
               <li>
@@ -80,14 +80,21 @@ export default class Footer {
               </li>
             </ul>
           </div>
-          <div id="footerElse" className="footerPart pure-u-1-5 pure-u-md-1-1">
+          <div id="footerElse" className="footerPart pure-u-1 pure-u-sm-1-5">
             <h3>Sonstiges</h3>
             <ul>
               <li>
                 <a className="footerLink" /*href={appUrl.aboutSite()}*/ target="_self" title="&Uuml;ber CosmoWiki.de">Über uns</a>
               </li>
               <li>
+                <a className="footerLink" /*href={appUrl.aboutSite()}*/ target="_self" title="Beitragen">Beitragen</a>
+              </li>
+              <li>
                 <a className="footerLink" /*href={appUrl.aboutSite()}*/ target="_self" title="Lizenz">Lizenz</a>
+              </li>
+              <li>
+                <a className="footerLink" rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/" target="_blank"><img
+                  title="CC-BY-SA" src="/img/cc-by-sa-88x31.png" alt="CC-By-SA"/></a>
               </li>
             </ul>
           </div>

@@ -1,4 +1,4 @@
-#featured.const{background:url("/img/featured_constellations.jpg") left top no-repeat;}
+#featured.const{background:url("/img/featured_constellations.jpg") center top /contain no-repeat;}
 #constHeader{
 	background-image:linear-gradient(to bottom, #fff 0%, #d2d2ff 100%);
 	border-bottom:1px solid #d0d0d0;
