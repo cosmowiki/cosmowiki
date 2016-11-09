@@ -11,8 +11,8 @@ export default class HomeComponent {
           <h1>CosmoWiki.de</h1>
           <h3>Astronomie + Raumfahrt = ein Lexikon</h3>
         </div>
-        <div id="infoArea" className="pure-u-1">
-          <div id="infoText" className="pure-u-1 pure-u-lg-2-3 pure-u-md-1-2 justify">
+        <div id="infoArea" className="pure-u-1 center">
+          <div id="infoText" className="pure-u-2-3 justify">
             <h2>CosmoWiki.de &#8211; die Enzyklop&auml;die</h2>
             <p>Seit Jahrtausenden blicken die Menschen in den Himmel und versuchen zu ergr&uuml;nden, was uns umgibt und
               woher wir kommen.
@@ -26,15 +26,9 @@ export default class HomeComponent {
               Vergangenheit &uuml;ber die Gegenwart bis hinein in die Zukunft. Es erm&ouml;glicht dem Nutzer einen Einblick in die
               faszinierende Welt von Wissenschaft und Technik.</p>
           </div>
-          <div id="news" className="pure-u-1 pure-u-lg-1-3 pure-u-md-1-2 justify">
-            <h2>Twitter</h2>
-            <a className="twitter-timeline" href="https://twitter.com/CosmoWiki_de" width="310" height="180"
-               data-widget-id="558644819544010752" data-link-color="#55f"
-               data-chrome="noheader nofooter noborders transparent">Tweets von @CosmoWiki_de </a>
-          </div>
         </div>
-        <div id="boxContainer" className="pure-u-1">
-          <div id="boxLeft" className="pure-u-1 pure-u-lg-1-3 pure-u-md-1-2 box justify">
+        <div id="boxContainer" className="pure-u-1 center">
+          <div id="boxLeft" className="pure-u-1-4 box justify">
             <a href={appUrl.eventsSite()} title="Chronik" target="_self" className="liimagelink"><img
               title="Stonehenge, Wigulf, Quelle: Wikipedia" src="/img/past.jpg"
               name="Chronik" alt="Chronik"/></a>
@@ -44,7 +38,7 @@ export default class HomeComponent {
               forschen und noch heute k&uuml;nden pr&auml;zise Kalender, riesige Observatorien und fantastische Instrumente vom
               Wissensdrang unserer Vorfahren.</p>
           </div>
-          <div id="boxMid" className="pure-u-1 pure-u-lg-1-3 pure-u-md-1-2 box justify">
+          <div id="boxMid" className="pure-u-1-4 box justify">
             <a href={appUrl.peopleSite()} title="Personen" target="_self" className="liimagelink"><img
               title="Personen" src="/img/persons.jpg" name="Personen" alt="Personen"/></a>
             <h3><a href={appUrl.peopleSite()} title="Personen" target="_self" className="liinternal">Personen</a>
@@ -53,7 +47,7 @@ export default class HomeComponent {
               R&auml;ume, sie erkennen Zusammenh&auml;nge und Naturgesetze. Als Pioniere erweitern sie st&auml;ndig die Grenzen
               unserer Existenz.</p>
           </div>
-          <div id="boxRight" className="pure-u-1 pure-u-lg-1-3 pure-u-md-1-2 box justify">
+          <div id="boxRight" className="pure-u-1-4 box justify">
             <a href="http://cosmowiki.de/de1/places.php" title="Orte" target="_self" className="liimagelink"><img
               title="Orte" src="/img/places.jpg" name="Orte" alt="Orte"/></a>
             <h3><a href="http://cosmowiki.de/de1/places.php" title="Orte" target="_self" className="liinternal">Orte</a>
@@ -67,3 +61,10 @@ export default class HomeComponent {
     )
   }
 }
+
+//          <div id="news" className="pure-u-1 pure-u-sm-1-3 justify">
+//            <h2>Twitter</h2>
+//            <a className="twitter-timeline" href="https://twitter.com/CosmoWiki_de" width="310" height="180"
+//               data-widget-id="558644819544010752" data-link-color="#55f"
+//               data-chrome="noheader nofooter noborders transparent">Tweets von @CosmoWiki_de </a>
+//          </div>
