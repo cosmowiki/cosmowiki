@@ -34,9 +34,7 @@ export default class VcardComponent extends React.Component {
         <div id="vcardOverlay">
           <div id="vcard">
             <div id="vcardContainer">
-              <div id="vcardCloseContainer">
-                <a className="center" id="vcardClose" title="Schlie&szlig;en" onClick={ onClose }>&times;</a>
-              </div>
+              <a className="center" id="vcardClose" title="Schlie&szlig;en" onClick={ onClose }>&times;</a>
               <div id="vcardHeader">
                 <div id="vcardHistory">
                   Verlauf: <a href="path/to/home">Home</a> &rarr; <a href="path/to/subPage">subPage</a> &rarr; <a
@@ -85,7 +83,7 @@ export default class VcardComponent extends React.Component {
                     </ul>
                   </div>
                 </div>
-                </div>
+              </div>
               <div id="vcardFooter">
                 <div id="vcardItemWpLink">
                   Wikipedia-Artikel ansehen: <a href={ item.wikipediaUrl } target="_blank">{ decodeURIComponent(item.wikipediaUrl) }</a>

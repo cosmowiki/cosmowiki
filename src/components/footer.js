@@ -30,13 +30,13 @@ export default class Footer {
             <h3>Unterseiten</h3>
             <ul>
               {[
-                {url: appUrl.astronomySite(), name: 'Astronomen'},
-                {url: appUrl.spaceflightSite(), name: 'Raumfahrer'},
-                {url: appUrl.eventsSite(), name: 'Sonnensystem'},
-                {url: appUrl.peopleSite(), name: 'Sternbilder'},
-                {url: appUrl.objectsSite(), name: 'Sterne'},
-                {url: appUrl.peopleSite(), name: 'Missionen'},
-                {url: appUrl.objectsSite(), name: 'Raumstationen'},
+                {url: appUrl.astronomersSite(), name: 'Astronomen'},    
+                {url: appUrl.astronautsSite(), name: 'Raumfahrer'},    
+                {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},    
+                {url: appUrl.constellationsSite(), name: 'Sternbilder'},    
+                {url: appUrl.starsSite(), name: 'Sterne'},
+                {url: appUrl.missionsSite(), name: 'Missionen'},
+                {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
                 
               ].map(link =>
                 <li>

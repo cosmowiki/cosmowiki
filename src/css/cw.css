@@ -1,5 +1,9 @@
+<<<<<<< Updated upstream
 @font-face{font-family: 'FontAwesome';src: url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?v=4.2.0');src: url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'),url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'),url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'),url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');font-weight: normal;font-style: normal}
 
+=======
+@font-face {font-family: 'FontAwesome';src: url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?v=4.2.0');src: url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'),url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'),url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'),url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');font-weight: normal;font-style: normal}
+>>>>>>> Stashed changes
 /*	Global elements ---------------------------------------------------------- */
 
 html, body, div, span, applet, object, iframe,
@@ -27,7 +31,11 @@ p {padding-top: 10px;}
 ul {padding-bottom: 10px; list-style-type: none;}
 
 a {font-weight: 500; text-decoration: none;}
+<<<<<<< Updated upstream
 a, a:link, a: visited {color: #55f;}
+=======
+a, a:link, a:visited {color: #55f;}
+>>>>>>> Stashed changes
 a:focus, a:hover, a:active {color: #333;}
 
 /*>Global Classes ----------------------------------------------------------- */
@@ -49,17 +57,20 @@ a:focus, a:hover, a:active {color: #333;}
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-	background-color: black;}
+	background-color: black;
+	}
+
+/*		Branding --------------------------------------------------------------- */
+
+#branding {
+	height: 40px;
+	background-image: linear-gradient(to right, #fff 180px, rgba(255, 255, 255, 0) 100%);
+	}
+#branding img {margin: 5px; height: 30px;}
 
 /*		Header ---------------------------------------------------------------- */
 
 header {margin: 0 auto;}
-#branding {
-	height: 40px;
-	background-image: linear-gradient(to right, #fff 180px, rgba(255,255,255,0) 100%);
-	border-bottom: 1px solid #d0d0d0;
-	}
-#branding img {margin: 5px; height: 30px;}
 
 /*			Nav ---------------------------------------------------------------- */
 
@@ -72,11 +83,11 @@ nav ul ul li {text-align: left;}
 
 /*			social menu -------------------------------------------------------- */
 
-#social{float: right;}
-#social ul{margin-top: 6px; padding-bottom: 0; float: right;}
-#social ul li{display: block; float: left; padding: 0 0 8px 14px;}
-#social ul li:last-child{padding-right: 8px;}
-#social ul li a{
+#social {float: right;}
+#social ul {margin-top: 6px; padding-bottom: 0; float: right;}
+#social ul li {display: block; float: left; padding: 0 0 8px 14px;}
+#social ul li:last-child {padding-right: 8px;}
+#social ul li a {
 	display: block; width: 40px; height: 40px;
 	color: #fff; text-decoration: none; line-height: 40px;
 	font-family: FontAwesome; font-size: 26px;
@@ -107,69 +118,82 @@ nav ul ul li {text-align: left;}
 #social ul li.search a:hover, #social ul li.search a:active,
 #social ul li.search a:focus{background-color: #666;}
 /*
-#searchDiv{
+#searchDiv {
 	position: relative; top: 25px; left: 685px; width: 273px; height: 48px;
 	background-color: rgba(128,128,128,.5);
 	border: 1px solid #d0d0d0; border-radius: 0 0 0 6px;
 }
-#searchForm{position: absolute; top: 10px; left: 10px; }
-#searchInput{
+#searchForm {position: absolute; top: 10px; left: 10px; }
+#searchInput {
 	float: left; padding: 3px 5px; width: 214px;
 	font-size: 1em; line-height: 1.25em;
 	background: #fff;
 	border: 1px solid #d0d0d0; border-right: none; border-radius: 6px 0 0 6px;
 }
-#searchSubmit{
+#searchSubmit {
 	width: 28px; height: 28px; font-family: FontAwesome; font-size: 16px; color: #55f;
 	cursor: pointer; background: #fff;
 	border: 1px solid #d0d0d0; border-left: none; border-radius: 0 6px 6px 0;
 }
-#searchInput, #searchSubmit{box-shadow: none;}
-#searchSubmit: hover, #searchSubmit: active, #searchSubmit: focus{color: #333;}
+#searchInput, #searchSubmit {box-shadow: none;}
+#searchSubmit: hover, #searchSubmit: active, #searchSubmit: focus {color: #333;}
 */
-/*#flags{width: 150px; height: 75px; float: right;}*/
+/*#flags {width: 150px; height: 75px; float: right;}*/
 
 /*		Main ------------------------------------------------------------------ */
 
-main {max-width: 960px; margin: 0 auto; background: #f8f8f8;}
+main {
+	/*background: #f8f8f8;*/ /*border-bottom: 1px solid #d0d0d0;*/
+	}
 
 /*			featured ----------------------------------------------------------- */
 
-#featured{height: 150px; border-bottom: 1px solid #d0d0d0;}
-#featured h1, #featured h3{color: #e5e5e5;}
-#featured h1{padding: 60px 0 0 10px; font-weight: normal; text-shadow: 1px 1px 2px #ccc;}
-#featured h3{padding: 10px 0 10px 10px;}
+#featured {
+	max-width: 1000px; min-height: 120px; margin: 0 auto;
+	background: rgba(255,255,255,0.5);
+	}
+/*#featured h1, #featured h3 {color: #e5e5e5;}*/
+#featured h1 {
+	padding: 40px 0 0 10px;
+	font-weight: normal; text-shadow: 1px 1px 2px #fff;
+	}
+#featured h3 {padding: 10px 0 10px 10px;}
 
 /*			cw-page-links ------------------------------------------------------ */
 
-.cw-page-links{border-bottom: 1px solid #d0d0d0;}
-.cw-page-links a{
+.cw-page-links {border-bottom: 1px solid #d0d0d0;}
+.cw-page-links a {
 	display: block; line-height: 3em; font-size: 1.5em; text-shadow: 1px 1px #fff;
 }
 
 /*			filter ------------------------------------------------------------- */
 
-#filter{
-	padding: 5px 5px 5px 3px; font-size: .8em; border-bottom: 1px solid #d0d0d0;
+#filter {
+	max-width: 960px; margin: 0 auto; padding: 5px 0;
+	font-size: .8em; border-bottom: 1px solid #d0d0d0;
 	background-image: linear-gradient(to bottom, #fff 0%, #f8f8f8 100%);
 }
-#filter form{display: inline;}
-#filter select{margin-left: 5px;}
+#filter form {display: inline;}
+#filter select {margin-left: 5px;}
 
 /*			letterLinks -------------------------------------------------------- */
+
 #letterLinks{padding: 10px; background: #f8f8f8; border-bottom: 1px solid #d0d0d0;}
 #letterLinks a{font-size: .8em;}
 #letterLinks a:focus, #letterLinks a:hover, #letterLinks a:active{
 	font-size: 1em; letter-spacing: -.1em; transition: all 50ms linear;
 }
-.first-letter, .scrollUpArrow{max-width: 30%; margin: 5px 10px; font-size: 1.3em; font-weight: 500;}
-.scrollUpArrow{float: right;}
+.first-letter, .scrollUpArrow {
+	max-width: 30%; margin: 5px 10px;
+	font-size: 1.3em; font-weight: 500;
+	}
+.scrollUpArrow {float: right;}
 
 /*			switch ------------------------------------------------------------- */
 /*
-#switch{float: left; font-size: .8em; font-weight: 500;}
-#switch li{float: left; width: 480px;}
-#switch a{
+#switch {float: left; font-size: .8em; font-weight: 500;}
+#switch li {float: left; width: 480px;}
+#switch a {
 	display: block; float: left; width: 478px; height: 1.25em; padding-top: 4px;
 	background-image: linear-gradient(to top, #e1e1e1 0%, #fff 100%);
 	border-width: 0 1px 1px 1px; border-style: solid; border-color: #d0d0d0;
@@ -177,7 +201,7 @@ main {max-width: 960px; margin: 0 auto; background: #f8f8f8;}
 #switch a:focus, #switch a:hover, #switch a:active{
 	background-image: linear-gradient(to top, #c0c0c0 0%, #fff 100%);
 }
-#tableSwitch{float: right;}
+#tableSwitch {float: right;}
 */
 
 /*		dataTable ------------------------------------------------------------- */

@@ -1,3 +1,8 @@
 node_modules
 .DS_Store
 dist
+src/img/box_chronicle.jpg
+
+src/img/box_people.jpg
+
+src/img/box_places.jpg
