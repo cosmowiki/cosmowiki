@@ -1,4 +1,4 @@
-#featured.persons{background:url("/img/featured_persons.jpg") center top no-repeat;}
+#featured.persons{background:url("/img/featured_persons.jpg") center top / contain no-repeat;}
 .letter-section:hover{background:#f4f4f4;}
 .personRow{
 	max-width:315px; margin-left:5px; display:inline-block;
