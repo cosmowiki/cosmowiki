@@ -1,4 +1,4 @@
-#featured.objects{background:url("/img/featured_objects.jpg") center top no-repeat;}
+#featured.objects{background:url("/img/featured_objects.jpg") center top / contain no-repeat;}
 .cw-page-links.solsys:focus,
 .cw-page-links.solsys:hover,
 .cw-page-links.solsys:active{

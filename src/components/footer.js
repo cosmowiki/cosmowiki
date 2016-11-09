@@ -7,7 +7,7 @@ export default class Footer {
 
     return (
       <footer className="center pure-u-1">
-        <div id="footerContainer" className="pure-u-2-3">
+        <div id="footerContainer" className="pure-u-1">
           <div id="footerMainPages" className="footerPart pure-u-1 pure-u-sm-1-5">
             <h3>Hauptseiten</h3>
             <ul>

@@ -1,4 +1,4 @@
-#featured.astronomy{background:url("/img/featured_astronomy.jpg") center top no-repeat;}
+#featured.astronomy{background:url("/img/featured_astronomy.jpg") center top /contain no-repeat;}
 .cw-page-links.astronomers:focus,
 .cw-page-links.astronomers:hover,
 .cw-page-links.astronomers:active{

@@ -1,4 +1,4 @@
-#featured.chronicle{background:url("/img/featured_chronicle.jpg") center top no-repeat;}
+#featured.chronicle{background:url("/img/featured_chronicle.jpg") center top /contain no-repeat;}
 #timelineHeader, #timelineFooter, .timelineRow{
 	height:22px; padding-top:5px; clear:left; display:block;
 }

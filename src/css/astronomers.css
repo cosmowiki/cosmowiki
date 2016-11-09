@@ -1,4 +1,4 @@
-#featured.astronomers{background:url("/img/featured_astronomers.jpg") center top no-repeat;}
+#featured.astronomers{background:url("/img/featured_astronomers.jpg") center top /contain no-repeat;}
 .personRow{
 	max-width:315px; margin-left:5px; display:inline-block;
 	border-radius:6px 6px 0 0;
