@@ -29,27 +29,20 @@ export default class Footer {
           <div id="footerSubPages" className="footerPart pure-u-1-5 pure-u-md-1-1">
             <h3>Unterseiten</h3>
             <ul>
-              <li>
-                <a className="footerLink" /*href={appUrl.astronomersSite()}*/>Astronomen</a>
-              </li>
-              <li>
-                <a className="footerLink" /*href={appUrl.astronautsSite()}*/>Raumfahrer</a>
-              </li>
-              <li>
-                <a className="footerLink" /*href={appUrl.solarSystemSite()}*/>Sonnensystem</a>
-              </li>
-              <li>
-                <a className="footerLink" /*href={appUrl.constellationsSite()}*/>Sternbilder</a>
-              </li>
-              <li>
-                <a className="footerLink" /*href={appUrl.starsSite()}*/>Sterne</a>
-              </li>
-              <li>
-                <a className="footerLink" /*href={appUrl.missionsSite()}*/>Missionen</a>
-              </li>
-              <li>
-                <a className="footerLink" /*href={appUrl.spaceStationsSite()}*/>Raumstationen</a>
-              </li>
+              {[
+                {url: appUrl.astronomySite(), name: 'Astronomen'},
+                {url: appUrl.spaceflightSite(), name: 'Raumfahrer'},
+                {url: appUrl.eventsSite(), name: 'Sonnensystem'},
+                {url: appUrl.peopleSite(), name: 'Sternbilder'},
+                {url: appUrl.objectsSite(), name: 'Sterne'},
+                {url: appUrl.peopleSite(), name: 'Missionen'},
+                {url: appUrl.objectsSite(), name: 'Raumstationen'},
+                
+              ].map(link =>
+                <li>
+                  <a className="footerLink" href={ link.url }>{ link.name }</a>
+                </li>
+              )}
             </ul>          
           </div>
           <div id="footerNetworks" className="footerPart pure-u-1-5 pure-u-md-1-1">
@@ -94,14 +87,13 @@ export default class Footer {
                 <a className="footerLink" /*href={appUrl.aboutSite()}*/ target="_self" title="&Uuml;ber CosmoWiki.de">Über uns</a>
               </li>
               <li>
-                <a className="footerLink" rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/" target="_blank"><img
-                  title="CC-BY-SA" src="/img/cc-by-sa-88x31.png" alt="CC-By-SA"/></a>
-              </li>
-              <li>
-                <small>version 1.0</small>
+                <a className="footerLink" /*href={appUrl.aboutSite()}*/ target="_self" title="Lizenz">Lizenz</a>
               </li>
             </ul>
           </div>
+        </div>
+        <div id="footerFoot" className="center pure-u-1">
+          version 1.0
         </div>
       </footer>
     )
