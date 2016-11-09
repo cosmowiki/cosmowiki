@@ -43,7 +43,7 @@ a: focus, a: hover, a: active {color: #333;}
 
 #wrapper {
 	margin: 0 auto;
-	background: url(/img/PIA15415_3000px43.jpg) center top / cover no-repeat fixed; 
+	background: url(/img/bgWrapper1_md.jpg) center top / cover no-repeat fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
