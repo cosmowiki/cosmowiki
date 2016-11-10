@@ -8,7 +8,7 @@ export default class Footer {
     return (
       <footer className="center pure-u-1">
         <div id="footerContainer" className="pure-u-1">
-          <div id="footerMainPages" className="footerPart pure-u-1 pure-u-sm-1-5">
+          <div id="footerMainPages" className="footerPart pure-u-1-2 pure-u-sm-1-5">
             <h3>Hauptseiten</h3>
             <ul>
               {[
@@ -26,7 +26,7 @@ export default class Footer {
               )}
             </ul>          
           </div>
-          <div id="footerSubPages" className="footerPart pure-u-1 pure-u-sm-1-5">
+          <div id="footerSubPages" className="footerPart pure-u-1-2 pure-u-sm-1-5">
             <h3>Unterseiten</h3>
             <ul>
               {[
@@ -45,7 +45,7 @@ export default class Footer {
               )}
             </ul>          
           </div>
-          <div id="footerNetworks" className="footerPart pure-u-1 pure-u-sm-1-5">
+          <div id="footerNetworks" className="footerPart pure-u-1-2 pure-u-sm-1-5">
             <h3>Folgen</h3>
             <ul>
               <li>
@@ -62,7 +62,7 @@ export default class Footer {
               </li>
           </ul>         
           </div>
-          <div id="footerShare" className="footerPart pure-u-1 pure-u-sm-1-5">
+          <div id="footerShare" className="footerPart pure-u-1-2 pure-u-sm-1-5">
             <h3>Teilen</h3>
             <ul>
               <li>
@@ -80,7 +80,7 @@ export default class Footer {
               </li>
             </ul>
           </div>
-          <div id="footerElse" className="footerPart pure-u-1 pure-u-sm-1-5">
+          <div id="footerElse" className="footerPart pure-u-1-2 pure-u-sm-1-5">
             <h3>Sonstiges</h3>
             <ul>
               <li>
@@ -100,7 +100,7 @@ export default class Footer {
           </div>
         </div>
         <div id="footerFoot" className="center pure-u-1">
-          version 1.0
+          v. 1.0
         </div>
       </footer>
     )
