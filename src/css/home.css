@@ -38,43 +38,43 @@ main.home {border: 0;}
 /*#boxRight {max-width: 300px;}*/
 /*.box img {width: 298px; border: 1px solid #d0d0d0;}*/
 
-.cw-page-links.chronicle: focus,
-.cw-page-links.chronicle: hover,
-.cw-page-links.chronicle: active {
+.cw-page-links.chronicle:focus,
+.cw-page-links.chronicle:hover,
+.cw-page-links.chronicle:active {
 	background: url("/img/featured_chronicle1.jpg") center no-repeat;
 }
-.cw-page-links.people: focus,
-.cw-page-links.people: hover,
-.cw-page-links.people: active {
+.cw-page-links.people:focus,
+.cw-page-links.people:hover,
+.cw-page-links.people:active {
 	background: url("/img/featured_people1.jpg") center no-repeat;
 }
-.cw-page-links.places: focus,
-.cw-page-links.places: hover,
-.cw-page-links.places: active {
+.cw-page-links.places:focus,
+.cw-page-links.places:hover,
+.cw-page-links.places:active {
 	background: url("/img/featured_places1.jpg") center no-repeat;
 }
-.cw-page-links.solsys: focus,
-.cw-page-links.solsys: hover,
-.cw-page-links.solsys: active {
+.cw-page-links.solsys:focus,
+.cw-page-links.solsys:hover,
+.cw-page-links.solsys:active {
 	background: url("/img/featured_solsys1.jpg") center no-repeat;
 }
-.cw-page-links.const: focus,
-.cw-page-links.const: hover,
-.cw-page-links.const: active {
+.cw-page-links.const:focus,
+.cw-page-links.const:hover,
+.cw-page-links.const:active {
 	background: url("/img/featured_constellations1.jpg") center no-repeat;
 }
-.cw-page-links.stars: focus,
-.cw-page-links.stars: hover,
-.cw-page-links.stars: active {
+.cw-page-links.stars:focus,
+.cw-page-links.stars:hover,
+.cw-page-links.stars:active {
 	background: url("/img/featured_stars1.jpg") center no-repeat;
 }
-.cw-page-links.stations: focus,
-.cw-page-links.stations: hover,
-.cw-page-links.stations: active {
+.cw-page-links.stations:focus,
+.cw-page-links.stations:hover,
+.cw-page-links.stations:active {
 	background: url("/img/featured_stations1.jpg") center no-repeat;
 }
-.cw-page-links.missions: focus,
-.cw-page-links.missions: hover,
-.cw-page-links.missions: active {
+.cw-page-links.missions:focus,
+.cw-page-links.missions:hover,
+.cw-page-links.missions:active {
 	background: url("/img/featured_missions1.jpg") center no-repeat;
 }
