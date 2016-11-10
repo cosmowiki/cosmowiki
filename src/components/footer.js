@@ -93,8 +93,7 @@ export default class Footer {
                 <a className="footerLink" /*href={appUrl.aboutSite()}*/ target="_self" title="Lizenz">Lizenz</a>
               </li>
               <li>
-                <a className="footerLink" rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/" target="_blank"><img
-                  title="CC-BY-SA" src="/img/cc-by-sa-88x31.png" alt="CC-By-SA"/></a>
+                <a className="footerLink" /*href={appUrl.aboutSite()}*/ target="_self" title="Impressum">Impressum</a>
               </li>
             </ul>
           </div>
@@ -106,3 +105,5 @@ export default class Footer {
     )
   }
 }
+//<a className="footerLink" rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/" target="_blank"><img
+//                  title="CC-BY-SA" src="/img/cc-by-sa-88x31.png" alt="CC-By-SA"/></a>
