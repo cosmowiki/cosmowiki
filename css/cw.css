@@ -26,8 +26,8 @@ p {padding-top: 10px;}
 ul {padding-bottom: 10px; list-style-type: none;}
 
 a {font-weight: 500; text-decoration: none;}
-a, a: link, a: visited {color: #55f;}
-a: focus, a: hover, a: active {color: #333;}
+a, a:link, a:visited {color: #55f;}
+a:focus, a:hover, a:active {color: #333;}
 
 /*>Global Classes ----------------------------------------------------------- */
 
@@ -48,7 +48,8 @@ a: focus, a: hover, a: active {color: #333;}
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-	background-color: black;}
+	background-color: black;
+	}
 
 /*		Branding -------------------------------------------------------------- */
 
@@ -84,29 +85,29 @@ nav ul ul li {text-align: left;}
 	background: #d0d0d0; border-radius: 20px; box-shadow: 3px 3px 5px #ddd;
 	transition: all 50ms linear;
 }
-#social ul li a: : before {
+#social ul li a::before {
 	text-shadow: 1px 1px 1px #999;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-#social ul li.facebook a: : before {content: "\f09a";}
-#social ul li.googleplus a: : before {content: "\f0d5";}
-#social ul li.twitter a: : before {content: "\f099";}
-#social ul li.github a: : before {content: "\f09b";}
-#social ul li.info a: : before {content: "\f129";}
-#social ul li.search a: : before {content: "\f002";}
-#social ul li.facebook a: hover, #social ul li.facebook a: active,
-#social ul li.facebook a: focus {background-color: #4273c8;}
-#social ul li.googleplus a: hover, #social ul li.googleplus a: active,
-#social ul li.googleplus a: focus {background-color: #d34836;}
-#social ul li.twitter a: hover, #social ul li.twitter a: active,
-#social ul li.twitter a: focus {background-color: #32bbf5;}
-#social ul li.github a: hover, #social ul li.github a: active,
-#social ul li.github a: focus {background-color: #4078c0;}
-#social ul li.info a: hover,#social ul li.info a: active,
-#social ul li.info a: focus {background-color: #0c0;}
-#social ul li.search a: hover, #social ul li.search a: active,
-#social ul li.search a: focus {background-color: #666;}
+#social ul li.facebook a::before {content: "\f09a";}
+#social ul li.googleplus a::before {content: "\f0d5";}
+#social ul li.twitter a::before {content: "\f099";}
+#social ul li.github a::before {content: "\f09b";}
+#social ul li.info a::before {content: "\f129";}
+#social ul li.search a::before {content: "\f002";}
+#social ul li.facebook a:hover, #social ul li.facebook a:active,
+#social ul li.facebook a:focus {background-color: #4273c8;}
+#social ul li.googleplus a:hover, #social ul li.googleplus a:active,
+#social ul li.googleplus a:focus {background-color: #d34836;}
+#social ul li.twitter a:hover, #social ul li.twitter a:active,
+#social ul li.twitter a:focus {background-color: #32bbf5;}
+#social ul li.github a:hover, #social ul li.github a:active,
+#social ul li.github a:focus {background-color: #4078c0;}
+#social ul li.info a:hover,#social ul li.info a:active,
+#social ul li.info a:focus {background-color: #0c0;}
+#social ul li.search a:hover, #social ul li.search a:active,
+#social ul li.search a:focus {background-color: #666;}
 /*
 #searchDiv {
 	position: relative; top: 25px; left: 685px; width: 273px; height: 48px;
@@ -167,12 +168,13 @@ main {
 #filter select {margin-left: 5px;}
 
 /*			letterLinks -------------------------------------------------------- */
+
 #letterLinks {
 	padding: 10px;
 	background: #f8f8f8; border-bottom: 1px solid #d0d0d0;
 	}
 #letterLinks a {font-size: .8em;}
-#letterLinks a: focus, #letterLinks a: hover, #letterLinks a: active {
+#letterLinks a:focus, #letterLinks a:hover, #letterLinks a:active {
 	font-size: 1em; letter-spacing: -.1em; transition: all 50ms linear;
 }
 .first-letter, .scrollUpArrow {
@@ -190,7 +192,7 @@ main {
 	background-image: linear-gradient(to top, #e1e1e1 0%, #fff 100%);
 	border-width: 0 1px 1px 1px; border-style: solid; border-color: #d0d0d0;
 }
-#switch a: focus, #switch a: hover, #switch a: active {
+#switch a:focus, #switch a:hover, #switch a:active {
 	background-image: linear-gradient(to top, #c0c0c0 0%, #fff 100%);
 }
 #tableSwitch {float: right;}
