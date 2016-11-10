@@ -7,28 +7,16 @@ export default class HomeComponent {
     
     return (
       <main role="main" className="home pure-u-1">
-        <div id="boxContainer" className="pure-u-1 center">
-          <div id="boxFirstRow" className="pure-u-1 center">
-            <div id="boxAstronomy" className="pure-u-1 pure-u-md-1-2 box center">
-              <a href={appUrl.astronomySite()}>Astronomie</a>
-            </div>
-            <div id="boxSpaceflight" className="pure-u-1 pure-u-md-1-2 box center">
-              <a href={appUrl.spaceflightSite()}>Raumfahrt</a>
-            </div>
+        <div id="homeContainer" className="pure-u-1 center">
+          <div id="homeMainMenu" className="pure-u-1 center">
+              <a className="pure-u-1 pure-u-md-1-2 homeItem homeMainItem center" href={appUrl.astronomySite()}>Astronomie</a>
+              <a className="pure-u-1 pure-u-md-1-2 homeItem homeMainItem center" href={appUrl.spaceflightSite()}>Raumfahrt</a>
           </div>
-          <div id="boxSecRow" className="pure-u-1 center">
-            <div id="boxChronicle" className="pure-u-1 pure-u-md-1-4 box center">
-              <a href={appUrl.eventsSite()}>Chronik</a>
-            </div>
-            <div id="boxPeople" className="pure-u-1 pure-u-md-1-4 box center">
-              <a href={appUrl.peopleSite()}>Personen</a>
-            </div>
-            <div id="boxPlaces" className="pure-u-1 pure-u-md-1-4 box center">
-              <a href="places.php">Orte</a>
-            </div>
-            <div id="boxObjects" className="pure-u-1 pure-u-md-1-4 box center">
-              <a href={appUrl.objectsSite()}>Objekte</a>
-            </div>
+          <div id="homeSubMenu" className="pure-u-1 center">
+              <a className="pure-u-1 pure-u-md-1-4 homeItem homeSubItem center" href={appUrl.eventsSite()}>Chronik</a>
+              <a className="pure-u-1 pure-u-md-1-4 homeItem homeSubItem center" href={appUrl.peopleSite()}>Personen</a>
+              <a className="pure-u-1 pure-u-md-1-4 homeItem homeSubItem center" href="places.php">Orte</a>
+              <a className="pure-u-1 pure-u-md-1-4 homeItem homeSubItem center" href={appUrl.objectsSite()}>Objekte</a>
           </div>
         </div>
       </main>

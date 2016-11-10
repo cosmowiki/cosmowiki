@@ -16,16 +16,18 @@ main.home {border: 0;}
 /*#news {padding: 0 10px; overflow: scroll;}*/
 /*#news iframe {height: 180px;}*/
 
-#boxContainer {margin: 10% auto; padding: 10px 0;}
+#homeContainer {margin: 10% auto; padding: 10px 0;}
 
-#boxFirstRow, #boxSecRow {margin: 20px auto; max-width: 1000px;}
+#homeMainMenu, #homeSubMenu {margin: 25px auto; max-width: 1000px;}
 
-.box {
-	margin: 5px;
-	max-width: 220px; height: 50px;
+.homeItem {
+	margin: 5px; max-width: 220px; height: 50px;
 	font-size: 1.3em; font-weight: bolder; line-height: 50px;
-	background-color: rgba(255,255,255,0.6);
-	outline: 1px solid white;
+	background-color: rgba(255,255,255,0.7);
+	border: 1px solid white;
+	}
+.homeItem:focus, .homeItem:hover, .homeItem:active  {
+	background-color: rgba(248,248,248,0.9);
 	}
 /*#boxChronicle {background: url("/img/box_chronicle.jpg") center top / contain no-repeat;}
 #boxPeople {background: url("/img/box_people.jpg") center top / contain no-repeat;}
