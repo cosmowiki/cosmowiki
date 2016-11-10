@@ -1,10 +1,10 @@
 /*#featured.stations {background: url("/img/featured_stations.jpg") center top / contain no-repeat;}*/
-.itemRow {padding: 10px 0; border-bottom: 1px solid #d0d0d0;}
-.itemRow:hover {background: #fff;}
-.itemRow:last-child {border-width: 0;}
-.itemRow img {padding: 0 10px;}
+.statRow {padding: 10px 0; border-bottom: 1px solid #d0d0d0;}
+.statRow:hover {background: #f4f4f4;}
+.statRow:last-child {border-width: 0;}
 .statImgBox {max-width: 320px;}
+.statRow img {padding: 0 10px;}
 .statImgTxt {padding: 0 10px; font-size: .8em;}
-.itemRow ul {max-width: 620px; padding: 0 10px;}
-.itemRow li {line-height: 1.5em;}
+.statRow ul {max-width: 620px; padding: 0 10px;}
+.statRow li {line-height: 1.5em;}
 .statName {font-size: 1.25em;}
