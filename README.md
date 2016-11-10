@@ -36,6 +36,7 @@ Run `npm run data-from-spreadsheet name-of-the-page` to update a single JSON fil
 nice to have
 - simple vcard with abstract of first paragraph from wikipedia
 - relations and breadcrum on the vcard
+- lazy loading for content with large height
 - on constellations-site: filter for northern / southern / both hemispheres
 - on stars-site: filter for northern / southern / both hemispheres
 - on stars-site: filter for single constellations / all constellations
