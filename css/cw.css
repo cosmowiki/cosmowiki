@@ -39,7 +39,7 @@ a: focus, a: hover, a: active {color: #333;}
 .visible {display: block;}
 .hidden {display: none;}
 
-/*	Structure ---------------------------------------------------------------- */
+/*	Structure --------------------------------------------------------------- */
 
 #wrapper {
 	margin: 0 auto;
@@ -50,17 +50,19 @@ a: focus, a: hover, a: active {color: #333;}
   background-size: cover;
 	background-color: black;}
 
-/*		Header ---------------------------------------------------------------- */
+/*		Branding -------------------------------------------------------------- */
 
-header {margin: 0 auto;}
 #branding {
 	height: 40px;
 	background-image: linear-gradient(to right, #fff 180px, rgba(255,255,255,0) 100%);
-	border-bottom: 1px solid #d0d0d0;
 	}
 #branding img {margin: 5px; height: 30px;}
 
-/*			Nav ---------------------------------------------------------------- */
+/*		Header ---------------------------------------------------------------- */
+
+header {margin: 0 auto;}
+
+/*			Nav ----------------------------------------------------------------- */
 
 nav {
 	margin: 0 auto;
@@ -69,7 +71,7 @@ nav {
 	}
 nav ul ul li {text-align: left;}
 
-/*			social menu -------------------------------------------------------- */
+/*			social menu --------------------------------------------------------- */
 
 #social {float: right;}
 #social ul {margin-top: 6px; padding-bottom: 0; float: right;}
