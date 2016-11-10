@@ -36,26 +36,26 @@ export default class HomeComponent {
   }
 }
 
-        //<div id="featured" className="pure-u-1 home center">
-        //  <h1>CosmoWiki.de</h1>
-        //  <h3>Astronomie + Raumfahrt = ein Lexikon</h3>
-        //</div>
-        //<div id="infoArea" className="pure-u-1 center">
-        //  <div id="infoText" className="pure-u-1 pure-u-lg-3-4 justify">
-        //    <h2>CosmoWiki.de &#8211; die Enzyklop&auml;die</h2>
-        //    <p>Seit Jahrtausenden blicken die Menschen in den Himmel und versuchen zu ergr&uuml;nden, was uns umgibt und
-        //      woher wir kommen.
-        //      So wurde unser Weltbild immer wieder durch neue Erkenntnisse entwickelt und erweitert.
-        //      Doch der Mensch wollte das All nicht nur betrachten, er wollte es bereisen.
-        //      Die Raumfahrt bereicherte den menschlichen Erfahrungsschatz um viele sch&ouml;ne und interessante Momente,
-        //      aber auch um einige Trag&ouml;dien.</p>
-        //    <p>So lie&szlig;en Generationen von Wissenschaftlern und Pionieren der Astronomie und Raumfahrt
-        //      den kollektiven Wissensspeicher der Menschheit immer weiter wachsen.
-        //      Dieses Lexikon bietet einen &Uuml;berblick &uuml;ber die Entwicklung von Astronomie und Raumfahrt von der
-        //      Vergangenheit &uuml;ber die Gegenwart bis hinein in die Zukunft. Es erm&ouml;glicht dem Nutzer einen Einblick in die
-        //      faszinierende Welt von Wissenschaft und Technik.</p>
-        //  </div>
-        //</div>
+//<div id="featured" className="pure-u-1 home center">
+//  <h1>CosmoWiki.de</h1>
+//  <h3>Astronomie + Raumfahrt = ein Lexikon</h3>
+//</div>
+//<div id="infoArea" className="pure-u-1 center">
+//  <div id="infoText" className="pure-u-1 pure-u-lg-3-4 justify">
+//    <h2>CosmoWiki.de &#8211; die Enzyklop&auml;die</h2>
+//    <p>Seit Jahrtausenden blicken die Menschen in den Himmel und versuchen zu ergr&uuml;nden, was uns umgibt und
+//      woher wir kommen.
+//      So wurde unser Weltbild immer wieder durch neue Erkenntnisse entwickelt und erweitert.
+//      Doch der Mensch wollte das All nicht nur betrachten, er wollte es bereisen.
+//      Die Raumfahrt bereicherte den menschlichen Erfahrungsschatz um viele sch&ouml;ne und interessante Momente,
+//      aber auch um einige Trag&ouml;dien.</p>
+//    <p>So lie&szlig;en Generationen von Wissenschaftlern und Pionieren der Astronomie und Raumfahrt
+//      den kollektiven Wissensspeicher der Menschheit immer weiter wachsen.
+//      Dieses Lexikon bietet einen &Uuml;berblick &uuml;ber die Entwicklung von Astronomie und Raumfahrt von der
+//      Vergangenheit &uuml;ber die Gegenwart bis hinein in die Zukunft. Es erm&ouml;glicht dem Nutzer einen Einblick in die
+//      faszinierende Welt von Wissenschaft und Technik.</p>
+//  </div>
+//</div>
 //          <div id="news" className="pure-u-1 pure-u-sm-1-3 justify">
 //            <h2>Twitter</h2>
 //            <a className="twitter-timeline" href="https://twitter.com/CosmoWiki_de" width="310" height="180"
