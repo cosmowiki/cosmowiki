@@ -43,15 +43,28 @@ a:focus, a:hover, a:active {color: #333;}
 
 #wrapper {
 	margin: 0 auto;
-	background: url(/img/bgWrapper1_md.jpg) center top / cover no-repeat fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-	background-color: black;
+  -webkit-background-size: cover; -moz-background-size: cover;
+  -o-background-size: cover; background-size: cover;
+	background: #000;
 	}
 
-#featured, #filter, #letterLinks,
+@media (max-device-width: 1500px) {
+  #wrapper {
+    background: url(/img/bgWrapper1_sm.jpg) center top / cover no-repeat fixed; 
+  }
+}
+@media (min-device-width: 1501px) {
+  #wrapper {
+    background: url(/img/bgWrapper1_md.jpg) center top / cover no-repeat fixed; 
+  }
+}
+@media (min-device-width: 3001px) {
+  #wrapper {
+    background: url(/img/bgWrapper1_lg.jpg) center top / cover no-repeat fixed; 
+  }
+}
+
+#featured, #filter, #letterLinks, #subItemsContainer,
 #dataTable, #notes, footer {margin: 0 auto; max-width: 1000px;}
 
 /*		Branding -------------------------------------------------------------- */
@@ -130,7 +143,7 @@ nav ul ul li {text-align: left;}
 /*	border: 1px solid #d0d0d0; border-left: none; border-radius: 0 6px 6px 0;*/
 /*}*/
 /*#searchInput, #searchSubmit {box-shadow: none;}*/
-/*#searchSubmit: hover, #searchSubmit: active, #searchSubmit: focus {color: #333;}*/
+/*#searchSubmit:hover, #searchSubmit:active, #searchSubmit:focus {color: #333;}*/
 
 /*#flags {width: 150px; height: 75px; float: right;}*/
 
@@ -140,19 +153,24 @@ main {}
 
 /*			featured ----------------------------------------------------------- */
 
-#featured {min-height: 120px; background: rgba(255,255,255,0.5);}
+#featured {
+	min-height: 120px;
+	background: rgba(255,255,255,.8);
+	border-bottom: 1px solid #fff;
+	}
 #featured h1 {
-	padding: 40px 0 0 10px;
+	padding: 30px 0 5px;
 	font-weight: normal; text-shadow: 1px 1px 2px #fff;
 	}
-#featured h3 {padding: 10px 0 10px 10px;}
+#featured h3 {padding: 5px 0;}
 
-/*			cw-page-links ------------------------------------------------------ */
+/*			subItems ----------------------------------------------------------- */
 
-.cw-page-links {border-bottom: 1px solid #d0d0d0;}
-.cw-page-links a {
-	display: block; line-height: 3em; font-size: 1.5em; text-shadow: 1px 1px #fff;
-}
+#subItemsContainer {background: rgba(255,255,255,.8);}
+.subItem {
+	font-size: 1.5em; text-shadow: 1px 1px #fff; line-height: 3em;
+	border-bottom: 1px solid #fff;
+	}
 
 /*			filter ------------------------------------------------------------- */
 
@@ -198,7 +216,7 @@ main {}
 
 #dataTable {
 	font-size: .8em;
-	background-image: linear-gradient(#f8f8f8 50%, rgba(255,255,255,0.5) );
+	background-image: linear-gradient(#f8f8f8 50%, rgba(255,255,255,.5) );
 	background-attachment: fixed;	border-bottom: 1px solid #d0d0d0;
 }
 
@@ -206,13 +224,13 @@ main {}
 
 #vcardBackground { 
 	position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-	background: black; opacity:.7;
+	background: black; opacity: .7;
 	 }
 #vcardOverlay { 
   position: fixed;
 	top: 0; left: 0; margin: 0; width: 100%; height: 100%;
  }
-#vcard { margin: auto; padding-top: 10%; width: 940px; height:auto !important; }
+#vcard { margin: auto; padding-top: 10%; width: 940px; height: auto !important; }
 #vcardContainer { 
 	margin: auto; padding: 5px 10px; width: 904px;
 	border: 3px solid #d0d0d0; border-radius: 10px;
@@ -227,7 +245,7 @@ main {}
 #vcardHeader { font-size: .75em; border-bottom: 1px solid #a0a0ff; }
 #vcardHistory { padding-bottom: 5px; }
 #vcardContent { 
-	display: -webkit-flex; display:flex;
+	display: -webkit-flex; display: flex;
 	padding: 10px 0;
  }
 #vcardContentLeft { padding-right: 10px; width: 592px; }
@@ -260,7 +278,7 @@ main {}
 
 #footerContainer {
 	padding: 10px 0; font-size: .9em;
-	background: rgba(255,255,255,0.8);
+	background: rgba(255,255,255,.8);
 	border-bottom: 1px solid #d0d0d0;
 	}
 .footerPart {

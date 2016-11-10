@@ -1,15 +1,15 @@
-#featured.register{background:url("/img/featured_register.jpg") center top / contain no-repeat;}
-.registerRow{
-	max-width:315px; margin-left:5px; display:inline-block;
-	border-radius:6px 6px 0 0;
+/*#featured.register {background: url("/img/featured_register.jpg") center top / contain no-repeat;}*/
+.registerRow {
+	max-width: 315px; margin-left: 5px; display: inline-block;
+	border-radius: 6px 6px 0 0;
 }
-.registerRow:focus, .registerRow:hover, .registerRow:active{
-	font-weight:700; background:#e1e1e1; box-shadow:0px 6px 6px #999;
+.registerRow:focus, .registerRow:hover, .registerRow:active {
+	font-weight: 700; background: #e1e1e1; box-shadow: 0px 6px 6px #999;
 }
-.registerInfoBox{
-	position:absolute; width:305px; margin:0; padding:3px; font-weight:normal;
-	background:#fff;
-	border-color:#e1e1e1; border-width:0 2px 2px 2px;
-	border-style:solid; border-radius:0 0 6px 6px;
-	box-shadow:0px 6px 6px #999;}
-.registerItem a{padding:5px 0 5px 5px; display:block;}
+.registerInfoBox {
+	position: absolute; width: 305px; margin: 0; padding: 3px; font-weight: normal;
+	background: #fff;
+	border-color: #e1e1e1; border-width: 0 2px 2px 2px;
+	border-style: solid; border-radius: 0 0 6px 6px;
+	box-shadow: 0px 6px 6px #999;}
+.registerItem a {padding: 5px 0 5px 5px; display: block;}

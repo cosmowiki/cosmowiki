@@ -1,16 +1,16 @@
-#featured.spaceflight{background:url("/img/featured_spaceflight.jpg") center top / contain no-repeat;}
-.cw-page-links.astronauts:focus,
-.cw-page-links.astronauts:hover,
-.cw-page-links.astronauts:active{
-	background:url("/img/featured_astronauts1.jpg") left center no-repeat;
+/*#featured.spaceflight {background: url("/img/featured_spaceflight.jpg") center top / contain no-repeat;}*/
+.subItem.astronauts:focus,
+.subItem.astronauts:hover,
+.subItem.astronauts:active {
+	background: url("/img/featured_astronauts1.jpg") center / cover no-repeat;
 }
-.cw-page-links.missions:focus,
-.cw-page-links.missions:hover,
-.cw-page-links.missions:active{
-	background:url("/img/featured_missions1.jpg") left center no-repeat;
+.subItem.missions:focus,
+.subItem.missions:hover,
+.subItem.missions:active {
+	background: url("/img/featured_missions1.jpg") center / cover no-repeat;
 }
-.cw-page-links.stations:focus,
-.cw-page-links.stations:hover,
-.cw-page-links.stations:active{
-	background:url("/img/featured_stations1.jpg") left center no-repeat;
+.subItem.stations:focus,
+.subItem.stations:hover,
+.subItem.stations:active {
+w	background: url("/img/featured_stations1.jpg") center / cover no-repeat;
 }

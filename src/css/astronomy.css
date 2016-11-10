@@ -1,21 +1,21 @@
-#featured.astronomy{background:url("/img/featured_astronomy.jpg") center top /contain no-repeat;}
-.cw-page-links.astronomers:focus,
-.cw-page-links.astronomers:hover,
-.cw-page-links.astronomers:active{
-	background:url("/img/featured_astronomers1.jpg") left center no-repeat;
+/*#featured.astronomy {background: url("/img/featured_astronomy.jpg") center top / contain no-repeat;}*/
+.subItem.astronomers:focus,
+.subItem.astronomers:hover,
+.subItem.astronomers:active {
+	background: url("/img/featured_astronomers1.jpg") center / cover no-repeat;
 }
-.cw-page-links.solsys:focus,
-.cw-page-links.solsys:hover,
-.cw-page-links.solsys:active{
-	background:url("/img/featured_solsys1.jpg") left center no-repeat;
+.subItem.solsys:focus,
+.subItem.solsys:hover,
+.subItem.solsys:active {
+	background: url("/img/featured_solsys1.jpg") center / cover no-repeat;
 }
-.cw-page-links.const:focus,
-.cw-page-links.const:hover,
-.cw-page-links.const:active{
-	background:url("/img/featured_constellations1.jpg") left center no-repeat;
+.subItem.const:focus,
+.subItem.const:hover,
+.subItem.const:active {
+	background: url("/img/featured_constellations1.jpg") center / cover no-repeat;
 }
-.cw-page-links.stars:focus,
-.cw-page-links.stars:hover,
-.cw-page-links.stars:active{
-	background:url("/img/featured_stars1.jpg") left center no-repeat;
+.subItem.stars:focus,
+.subItem.stars:hover,
+.subItem.stars:active {
+	background: url("/img/featured_stars1.jpg") center / cover no-repeat;
 }

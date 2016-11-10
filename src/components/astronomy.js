@@ -10,17 +10,11 @@ export default class AstronomyComponent {
           <h1>Astronomie</h1>
           <h3>der Blick zu den Sternen</h3>
         </div>
-        <div className="cw-page-links astronomy astronomers center">
-          <a href={appUrl.astronomersSite()}>Astronomen</a>
-        </div>
-        <div className="cw-page-links astronomy solsys center">
-          <a href={appUrl.solarSystemSite()}>Sonnensystem</a>
-        </div>
-        <div className="cw-page-links astronomy const center">
-          <a href={appUrl.constellationsSite()}>Sternbilder</a>
-        </div>
-        <div className="cw-page-links astronomy stars center">
-          <a href={appUrl.starsSite()}>Sterne</a>
+        <div id="subItemsContainer">
+          <a className="pure-u-1 subItem astronomy astronomers center" href={appUrl.astronomersSite()}>Astronomen</a>
+          <a className="pure-u-1 subItem astronomy solsys center" href={appUrl.solarSystemSite()}>Sonnensystem</a>
+          <a className="pure-u-1 subItem astronomy const center" href={appUrl.constellationsSite()}>Sternbilder</a>
+          <a className="pure-u-1 subItem astronomy stars center" href={appUrl.starsSite()}>Sterne</a>
         </div>
       </main>
     )
