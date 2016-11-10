@@ -50,7 +50,7 @@ class MissionComponent {
   render() {
     const {mission} = this.props;
     return (
-      <tr className="missionsRow">
+      <tr className="itemRow">
         <td className="missionLaunch center">{mission.launchDate}</td>
         <td className="missionName"><a href={mission.link}>{mission.name}</a></td>
         <td className="missionCountry">{mission.country}</td>

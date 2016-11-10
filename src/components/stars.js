@@ -95,7 +95,7 @@ class StarComponent {
     const noop = () => {};
     const {star} = this.props; 
     return (
-      <tr className="starsRow">
+      <tr className="itemRow">
         <td className="starName">
           <a href={star.link} onMouseOver={noop} onMouseOut={noop}>{star.name.name}</a>
           <div className="starInfoBox">

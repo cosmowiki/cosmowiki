@@ -27,7 +27,7 @@ class StationComponent {
   render() {
     const {spaceStation:station} = this.props; 
     return (
-      <div className="statRow pure-u-1">
+      <div className="itemRow pure-u-1">
         <div className="statImgBox pure-u-1 pure-u-lg-1-3">
           <img src={station.imageUrl} width="300" alt={station.name} />
           <div className="statImgTxt right">
@@ -67,7 +67,7 @@ class StationComponent {
 //		$reenter = array($row[statReenterD], $row[statReenterM], $row[statReenterY]);
 //		$launch = implode('.', array_filter($launch));
 //		$reenter = implode('.', array_filter($reenter));
-//		echo "<div className="statRow">
+//		echo "<div className="itemRow">
 //		<div className="statImg"><img src=$row[statImgLink] width="300"></div>
 //		<div className="statName"><a href=$row[statLink]>$row[statName]</a></div>
 //		<div className="statOperator">$row[statOperator]</div>

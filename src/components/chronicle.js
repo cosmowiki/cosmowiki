@@ -49,7 +49,7 @@ class ItemComponent {
   render() {
     const { item, onClick } = this.props;
     return (
-      <div className="timelineRow">
+      <div className="itemRow">
         <div className="timelineDate right">{item.readableDate}</div>
         <div className="timelinePlace">{item.location}</div>
         <div className="timelineEvent" onClick={onClick}>{item.event}</div>
