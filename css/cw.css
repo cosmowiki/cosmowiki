@@ -43,20 +43,19 @@ a:focus, a:hover, a:active {color: #333;}
 
 #wrapper {
 	margin: 0 auto;
-	background: url(/img/bgWrapper1_md.jpg) center top / cover no-repeat fixed; 
+	background: url(/img/bgWrapper1_md.jpg) center top / cover no-repeat fixed #111; 
   -webkit-background-size: cover; -moz-background-size: cover;
   -o-background-size: cover; background-size: cover;
-	background: #000;
 	}
 
 @media (max-device-width: 1500px) {
   #wrapper {
-    background: url(/img/bgWrapper1_sm.jpg) center top / cover no-repeat fixed; 
+    background: url(/img/bgWrapper1_sm.jpg) center top / cover no-repeat fixed #111; 
   }
 }
 @media (min-device-width: 3001px) {
   #wrapper {
-    background: url(/img/bgWrapper1_lg.jpg) center top / cover no-repeat fixed; 
+    background: url(/img/bgWrapper1_lg.jpg) center top / cover no-repeat fixed #111; 
   }
 }
 
