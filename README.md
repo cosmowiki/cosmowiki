@@ -34,6 +34,12 @@ Run `npm run data-from-spreadsheet name-of-the-page` to update a single JSON fil
 nice to have
 - simple vcard with abstract of first paragraph from wikipedia
 - relations and breadcrum on the vcard
-
+- on constellations-site: filter for northern / southern / both hemispheres
+- on stars-site: filter for northern / southern / both hemispheres
+- on stars-site: filter for single constellations / all constellations
+- on astronauts-site: filter for single countries / all countries
+- on astronauts-site: filter for single spaceflight programs / all spaceflight programs
+- on missions-site: filter for single operating countries / all countries
+- on missions-site: filter for single destinations / all destinations
 
 [1]: https://nodejs.org
