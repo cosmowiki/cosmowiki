@@ -56,7 +56,7 @@ class ConstellationComponent {
   render() {
     const {constellation:item} = this.props;
     return (
-      <tr className="itemRow">
+      <tr className="constRow">
   			<td className="constName"><a href={item.wikipediaUrl}>{item.name}</a></td>
   			<td className="constLatin">{item.latinName}</td>
   			<td className="constShort">{item.shortName}</td>

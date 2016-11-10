@@ -72,7 +72,7 @@ class PersonComponent extends React.Component {
     cssClasses.push(this.state.detailsVisible ? 'visible' : 'hidden');
     
     return (
-      <div className="itemRow pure-u-1 pure-u-lg-1-3 pure-u-md-1-2">
+      <div className="personRow pure-u-1 pure-u-lg-1-3 pure-u-md-1-2">
         <div className="personItem">
           <a onMouseOver={showDetails} onMouseOut={hideDetails} href={person.wikipediaUrl}>{person.name}</a>
         </div>
@@ -100,7 +100,7 @@ class PersonComponent extends React.Component {
 //		if (!empty($died)) {
 //			$died = html_entity_decode('&dagger;').' '.$died;
 //		}
-//		echo "<div class=\"itemRow\">
+//		echo "<div class=\"personRow\">
 //				<div class=\"personItem\">
 //					<a onMouseOver=\"toggleIn('$name')\" onMouseOut=\"toggleOut('$name')\" href=$row[personLink]>$name</a>
 //				</div>
@@ -196,7 +196,7 @@ class PersonComponent extends React.Component {
 //		if (!empty($died)) {
 //			$died = html_entity_decode('&dagger;').' '.$died;
 //		}
-//		echo "<div class=\"itemRow\">
+//		echo "<div class=\"personRow\">
 //				<div class=\"personItem\">
 //					<a onMouseOver=\"toggleIn('$name')\" onMouseOut=\"toggleOut('$name')\" href=$row[personLink]>$name</a>
 //				</div>

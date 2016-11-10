@@ -1,10 +1,10 @@
 /*#featured.chronicle {background: url("/img/featured_chronicle.jpg") center top /contain no-repeat;}*/
-#timelineHeader, #timelineFooter, .itemRow {
+#timelineHeader, #timelineFooter, .timelineRow {
 	height: 22px; padding-top: 5px; clear: left; display: block;
 }
 #timelineHeader {background: url("/img/bg_timelinestart.png") no-repeat transparent;}
-.itemRow {background: url("/img/bg_timeline.png") left no-repeat transparent;}
-.itemRow:hover {
+.timelineRow {background: url("/img/bg_timeline.png") left no-repeat transparent;}
+.timelineRow:hover {
 	font-size: 1.1em; background: #fff;
 	box-shadow: 0px 6px 6px -4px #999, 0px -6px 6px -4px #999;
 }

@@ -1,10 +1,10 @@
 /*#featured.persons {background: url("/img/featured_persons.jpg") center top / contain no-repeat;}*/
 .letter-section:hover {background: #f4f4f4;}
-.itemRow {
+.personRow {
 	max-width: 315px; margin-left: 5px; display: inline-block;
 	border-radius: 6px 6px 0 0;
 }
-.itemRow:focus, .itemRow:hover, .itemRow:active {
+.personRow:focus, .personRow:hover, .personRow:active {
 	font-weight: 700; background: #bafafa; box-shadow: 0px 6px 6px #999;
 }
 .personInfoBox {

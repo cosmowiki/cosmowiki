@@ -8,7 +8,7 @@
 #missionsTable th, #missionsTable td {
 	float: left; line-height: 2em; overflow: hidden; white-space: nowrap;
 }
-.itemRow:hover {
+.missionsRow:hover {
 	background: #fff;
 	box-shadow: 0px 6px 6px -4px #999, 0px -6px 6px -4px #999;
 	}
