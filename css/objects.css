@@ -1,21 +1,21 @@
-#featured.objects{background:url("/img/featured_objects.jpg") center top / contain no-repeat;}
-.cw-page-links.solsys:focus,
-.cw-page-links.solsys:hover,
-.cw-page-links.solsys:active{
-	background:url("/img/featured_solsys1.jpg") left center no-repeat;
+/*#featured.objects {background: url("/img/featured_objects.jpg") center top / contain no-repeat;}*/
+.subItem.solsys:focus,
+.subItem.solsys:hover,
+.subItem.solsys:active {
+	background: url("/img/featured_solsys1.jpg") center / cover no-repeat;
 }
-.cw-page-links.const:focus,
-.cw-page-links.const:hover,
-.cw-page-links.const:active{
-	background:url("/img/featured_constellations1.jpg") left center no-repeat;
+.subItem.constellations:focus,
+.subItem.constellations:hover,
+.subItem.constellations:active {
+	background: url("/img/featured_constellations1.jpg") center / cover no-repeat;
 }
-.cw-page-links.stars:focus,
-.cw-page-links.stars:hover,
-.cw-page-links.stars:active{
-	background:url("/img/featured_stars1.jpg") left center no-repeat;
+.subItem.stars:focus,
+.subItem.stars:hover,
+.subItem.stars:active {
+	background: url("/img/featured_stars1.jpg") center / cover no-repeat;
 }
-.cw-page-links.stations:focus,
-.cw-page-links.stations:hover,
-.cw-page-links.stations:active{
-	background:url("/img/featured_stations1.jpg") left center no-repeat;
+.subItem.stations:focus,
+.subItem.stations:hover,
+.subItem.stations:active {
+	background: url("/img/featured_stations1.jpg") center / cover no-repeat;
 }

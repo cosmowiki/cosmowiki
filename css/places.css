@@ -1,27 +1,27 @@
-#featured.places{background:url("/img/featured_places.jpg") center top / contain no-repeat;}
-#placesHeader{
-	background-image:linear-gradient(to bottom, #fff 0%, #d2d2ff 100%);
-	border-bottom:1px solid #d0d0d0;
+/*#featured.places {background: url("/img/featured_places.jpg") center top / contain no-repeat;}*/
+#placesHeader {
+	background-image: linear-gradient(to bottom, #fff 0%, #d2d2ff 100%);
+	border-bottom: 1px solid #d0d0d0;
 }
-#placesTable tr{height:2em; clear:left; display:block;}
-#placesTable tr:nth-child(even){background:rgba(192,192,192,.1);}
-#placesTable th, #placesTable td{
-	float:left; line-height:2em; overflow:hidden; white-space:nowrap;
+#placesTable tr {height: 2em; clear: left; display: block;}
+#placesTable tr: nth-child(even) {background: rgba(192,192,192,.1);}
+#placesTable th, #placesTable td {
+	float: left; line-height: 2em; overflow: hidden; white-space: nowrap;
 }
-.placesRow:focus, .placesRow:hover, .placesRow:active{
-	box-shadow:0px 6px 6px -4px #999, 0px -6px 6px -4px #999;
+.placesRow:focus, .placesRow:hover, .placesRow:active {
+	box-shadow: 0px 6px 6px -4px #999, 0px -6px 6px -4px #999;
 }
 .placeName header, .placeName,
 .placeWhere header, .placeWhere,
-.placeWho header, .placeWho{float:left; overflow:hidden; white-space:nowrap;}
+.placeWho header, .placeWho {float: left; overflow: hidden; white-space: nowrap;}
 /*
-#map_canvas, #placesTable{margin:0; padding:0;}
-#map_canvas{width:958px; height:528px;}
-#mapInfoWindow{margin:10px; min-width:350px; min-height:100px; vertical-align:middle;}
-#placesHeader, #constHeader, #starsHeader, #missionsHeader{
-	font-size:1em; font-weight:bold; color:#666;
+#map_canvas, #placesTable {margin: 0; padding: 0;}
+#map_canvas {width: 958px; height: 528px;}
+#mapInfoWindow {margin: 10px; min-width: 350px; min-height: 100px; vertical-align: middle;}
+#placesHeader, #constHeader, #starsHeader, #missionsHeader {
+	font-size: 1em; font-weight: bold; color: #666;
 }
-.placeName header, .placeName{width:347px; padding-left:3px;}
-.placeWhere header, .placeWhere{width:270px;}
-.placeWho header, .placeWho{width:340px;}
+.placeName header, .placeName {width: 347px; padding-left: 3px;}
+.placeWhere header, .placeWhere {width: 270px;}
+.placeWho header, .placeWho {width: 340px;}
 */
