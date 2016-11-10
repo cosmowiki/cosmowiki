@@ -29,27 +29,20 @@ export default class Footer {
           <div id="footerSubPages" className="footerPart pure-u-1 pure-u-sm-1-5">
             <h3>Unterseiten</h3>
             <ul>
-              <li>
-                <a className="footerLink" /*href={appUrl.astronomersSite()}*/>Astronomen</a>
-              </li>
-              <li>
-                <a className="footerLink" /*href={appUrl.astronautsSite()}*/>Raumfahrer</a>
-              </li>
-              <li>
-                <a className="footerLink" /*href={appUrl.solarSystemSite()}*/>Sonnensystem</a>
-              </li>
-              <li>
-                <a className="footerLink" /*href={appUrl.constellationsSite()}*/>Sternbilder</a>
-              </li>
-              <li>
-                <a className="footerLink" /*href={appUrl.starsSite()}*/>Sterne</a>
-              </li>
-              <li>
-                <a className="footerLink" /*href={appUrl.missionsSite()}*/>Missionen</a>
-              </li>
-              <li>
-                <a className="footerLink" /*href={appUrl.spaceStationsSite()}*/>Raumstationen</a>
-              </li>
+              {[
+                {url: appUrl.astronomersSite(), name: 'Astronomen'},    
+                {url: appUrl.astronautsSite(), name: 'Raumfahrer'},    
+                {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},    
+                {url: appUrl.constellationsSite(), name: 'Sternbilder'},    
+                {url: appUrl.starsSite(), name: 'Sterne'},
+                {url: appUrl.missionsSite(), name: 'Missionen'},
+                {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
+                
+              ].map(link =>
+                <li>
+                  <a className="footerLink" href={ link.url }>{ link.name }</a>
+                </li>
+              )}
             </ul>          
           </div>
           <div id="footerNetworks" className="footerPart pure-u-1 pure-u-sm-1-5">
