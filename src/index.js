@@ -1,6 +1,5 @@
 import 'babel/polyfill';
 import React from 'react'
-import {parse as parseUrl} from 'url';
 import {loadRemoteFile} from './_external-deps/http-get';
 
 import AppUrl from './appurl'
