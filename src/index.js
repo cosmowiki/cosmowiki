@@ -41,7 +41,7 @@ function loadFromFs(fileName, onDone, onError) {
 const loadFunction = createStaticSites ? loadFromFs : loadViaHttp;
 let appUrl = new AppUrl();
 
-const rerender = siteComponent => {
+const rerender = (siteComponent) => {
   const site = <PageComponent siteComponent={siteComponent} appUrl={appUrl} />;
   if (createStaticSites) {
     return React.renderToString(site);
@@ -66,15 +66,15 @@ const urlToComponent = {
   '/': {klass: Home}
 };
 
-function renderSite(path, onDone) {
+const renderSite = (path, onDone) => {
 
-  function withRawData(componentClass, rawData) {
+  const withRawData = (componentClass, rawData) => {
     const data = componentClass.fromRawData(rawData);
     const component = componentClass.componentWithData(data, appUrl);
     const renderedContent = rerender(component);
     onDone && onDone(renderedContent);
-  }
-  
+  };
+
   for (let urlStart in urlToComponent) {
     if (path.startsWith(urlStart)) {
       const curItem = urlToComponent[urlStart];
@@ -88,7 +88,7 @@ function renderSite(path, onDone) {
       return;
     }
   }
-}
+};
 
 import fs from 'fs';
 import mkdirp from 'mkdirp';
