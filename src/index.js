@@ -98,7 +98,7 @@ import {useOfflineUrls} from './scripts/make-urls-offline';
 
 const preapreDestFile = (path) => {
   const pathToFile = pathJoin(__dirname, '../dist', path);
-  mkdirp(pathToFile);
+  mkdirp.sync(pathToFile);
   return pathJoin(pathToFile, 'index.html');
 };
 
