@@ -31,11 +31,15 @@ main.home {border: 0;}
 	transition: max-height .3s, visibility .3s, opacity .3s ease-out;
 	}
 
-#homeAstronomyMenu li:hover #homeAstronomySubMenu,
+#homeAstronomyMenu li:hover #homeAstronomySubMenu {
+	visibility: visible; opacity: 1; max-height: inherit;
+	-webkit-transition: max-height .3s, visibility 0s, opacity .3s ease-in;
+	transition: max-height .3s, visibility 0s, opacity .3s ease-in;
+	}
 #homeSpaceflightMenu li:hover #homeSpaceflightSubMenu {
 	visibility: visible; opacity: 1; max-height: inherit;
-	-webkit-transition: max-height .3s, visibility .3s, opacity .3s ease-in;
-	transition: max-height .3s, visibility .3s, opacity .3s ease-in;
+	-webkit-transition: max-height .3s, visibility 0s, opacity .3s ease-in;
+	transition: max-height .3s, visibility 0s, opacity .3s ease-in;
 	}
 
 .home-astronomy-link, .home-spaceflight-link {display: block;}
