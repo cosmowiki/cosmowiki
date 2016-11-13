@@ -7,17 +7,62 @@ export default class HomeComponent {
     
     return (
       <main role="main" className="home pure-u-1">
-        <div id="homeContainer" className="pure-u-1 center">
-          <div id="homeMainMenu" className="pure-u-1 center">
-              <a className="pure-u-1 pure-u-md-1-2 homeItem homeMainItem center" href={appUrl.astronomySite()}>Astronomie</a>
-              <a className="pure-u-1 pure-u-md-1-2 homeItem homeMainItem center" href={appUrl.spaceflightSite()}>Raumfahrt</a>
-          </div>
-          <div id="homeSubMenu" className="pure-u-1 center">
-              <a className="pure-u-1 pure-u-md-1-4 homeItem homeSubItem center" href={appUrl.eventsSite()}>Chronik</a>
-              <a className="pure-u-1 pure-u-md-1-4 homeItem homeSubItem center" href={appUrl.peopleSite()}>Personen</a>
-              <a className="pure-u-1 pure-u-md-1-4 homeItem homeSubItem center" href="places.php">Orte</a>
-              <a className="pure-u-1 pure-u-md-1-4 homeItem homeSubItem center" href={appUrl.objectsSite()}>Objekte</a>
-          </div>
+        <div id="homeNav" className="pure-u-1 center">
+          <ul id="home1stMenu" className="pure-u-1 center">
+            <li className="pure-u-1 pure-u-md-1-2">
+              <ul id="homeAstronomyMenu">
+                <li>
+                  <a id="homeAstronomyHead" className="home-link home-astronomy-link center" href={appUrl.astronomySite()}>Astronomie</a>
+                  <ul id="homeAstronomySubMenu">
+                    <li>
+                      <a className="home-link home-astronomy-link center" href={appUrl.astronomersSite()}>Astronomen</a>
+                    </li>
+                    <li>
+                      <a className="home-link home-astronomy-link center" href={appUrl.solarSystemSite()}>Sonnensystem</a>
+                    </li>
+                    <li>
+                      <a className="home-link home-astronomy-link center" href={appUrl.constellationsSite()}>Sternbilder</a>
+                    </li>
+                    <li>
+                      <a className="home-link home-astronomy-link center" href={appUrl.starsSite()}>Sterne</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li className="pure-u-1 pure-u-md-1-2">
+              <ul id="homeSpaceflightMenu">
+                <li>
+                  <a id="homeSpaceflightHead" className="home-link home-spaceflight-link center" href={appUrl.spaceflightSite()}>Raumfahrt</a>
+                  <ul id="homeSpaceflightSubMenu">
+                    <li>
+                      <a className="home-link home-spaceflight-link center" href={appUrl.astronautsSite()}>Raumfahrer</a>
+                    </li>
+                    <li>
+                      <a className="home-link home-spaceflight-link center" href={appUrl.missionsSite()}>Missionen</a>
+                    </li>
+                    <li>
+                      <a className="home-link home-spaceflight-link center" href={appUrl.spaceStationsSite()}>Raumstationen</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul id="home2ndMenu" className="pure-u-1 center">
+            <li>
+              <a id="homeChronicleLink" className="pure-u-1 pure-u-md-1-4 home-link center" href={appUrl.eventsSite()}>Chronik</a>
+            </li>
+            <li>
+              <a id="homePeopleLink" className="pure-u-1 pure-u-md-1-4 home-link center" href={appUrl.peopleSite()}>Personen</a>
+            </li>
+            <li>
+              <a id="homePlacesLink" className="pure-u-1 pure-u-md-1-4 home-link center" href="places.php">Orte</a>
+            </li>
+            <li>
+              <a id="homeObjectsLink" className="pure-u-1 pure-u-md-1-4 home-link center" href={appUrl.objectsSite()}>Objekte</a>
+            </li>
+          </ul>
         </div>
       </main>
     )

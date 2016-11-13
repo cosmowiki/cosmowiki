@@ -16,19 +16,40 @@ main.home {border: 0;}
 /*#news {padding: 0 10px; overflow: scroll;}*/
 /*#news iframe {height: 180px;}*/
 
-#homeContainer {margin: 10% auto; padding: 10px 0;}
+#homeNav {margin: 10% auto;}
 
-#homeMainMenu, #homeSubMenu {margin: 25px auto; max-width: 1000px;}
+#home1stMenu, #home2ndMenu {margin: auto; max-width: 1000px;}
+#home1stMenu li {max-width: 230px;}
+#home2ndMenu li {display: inline;}
 
-.homeItem {
+#homeAstronomyMenu {}
+#homeSpaceflightMenu {}
+
+#homeAstronomySubMenu, #homeSpaceflightSubMenu {
+	visibility: hidden; opacity: 0; max-height: 0;
+	-webkit-transition: max-height .3s, visibility .3s, opacity .3s ease-out;
+	transition: max-height .3s, visibility .3s, opacity .3s ease-out;
+	}
+
+#homeAstronomyMenu li:hover #homeAstronomySubMenu,
+#homeSpaceflightMenu li:hover #homeSpaceflightSubMenu {
+	visibility: visible; opacity: 1; max-height: inherit;
+	-webkit-transition: max-height .3s, visibility .3s, opacity .3s ease-in;
+	transition: max-height .3s, visibility .3s, opacity .3s ease-in;
+	}
+
+.home-astronomy-link, .home-spaceflight-link {display: block;}
+
+.home-link {
 	margin: 5px; max-width: 220px; height: 50px;
 	font-size: 1.3em; font-weight: bolder; line-height: 50px;
 	background-color: rgba(255,255,255,0.7);
-	border: 1px solid white;
+	outline: 1px solid white;
 	}
-.homeItem:focus, .homeItem:hover, .homeItem:active {
-	background-color: rgba(248,248,248,0.9);
+.home-link:focus, .home-link:hover, .home-link:active {
+	background-color: rgba(248,248,248,0.9); outline: 1px solid white;
 	}
+
 /*#boxChronicle {background: url("/img/box_chronicle.jpg") center top / contain no-repeat;}
 #boxPeople {background: url("/img/box_people.jpg") center top / contain no-repeat;}
 #boxPlaces {background: url("/img/box_places.jpg") center top / contain no-repeat;}
