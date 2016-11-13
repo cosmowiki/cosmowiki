@@ -68,11 +68,20 @@ const urlToComponent = {
 
 const renderSite = (path, onDone) => {
 
-  const withRawData = (componentClass, rawData) => {
-    const data = componentClass.fromRawData(rawData);
+  const withData = (componentClass, data) => {
     const component = componentClass.componentWithData(data, appUrl);
     const renderedContent = rerender(component);
     onDone && onDone(renderedContent);
+  };
+
+  const withRawData = (componentClass, rawData) => {
+    const data = componentClass.fromRawData(rawData);
+    withData(componentClass, data);
+  };
+
+  const withoutData = (componentClass) => {
+    const data = null;
+    withData(componentClass, data);
   };
 
   for (let urlStart in urlToComponent) {
@@ -81,9 +90,9 @@ const renderSite = (path, onDone) => {
       const componentClass = curItem.klass;
       const fileName = curItem.fileName;
       if (fileName) {
-        loadFunction(fileName, () => withRawData(componentClass));
+        loadFunction(fileName, (data) => withRawData(componentClass, data));
       } else {
-        withRawData(componentClass);
+        withoutData(componentClass);
       }
       return;
     }
