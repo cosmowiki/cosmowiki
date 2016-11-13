@@ -48,12 +48,12 @@ a:focus, a:hover, a:active {color: #333;}
   -o-background-size: cover; background-size: cover;
 	}
 
-@media (max-device-width: 1500px) {
+@media only screen and (max-device-width: 1500px) {
   #wrapper {
     background: url(/img/bgWrapper1_sm.jpg) center top / cover no-repeat fixed #111; 
   }
 }
-@media (min-device-width: 3001px) {
+@media only screen and (min-device-width: 3001px) {
   #wrapper {
     background: url(/img/bgWrapper1_lg.jpg) center top / cover no-repeat fixed #111; 
   }
