@@ -96,23 +96,23 @@ import mkdirp from 'mkdirp';
 import {join as pathJoin} from 'path';
 import {useOfflineUrls} from './scripts/make-urls-offline';
 
-const buildDestFile = (path) => {
+const preapreDestFile = (path) => {
   const pathToFile = pathJoin(__dirname, '../dist', path);
   mkdirp(pathToFile);
   return pathJoin(pathToFile, 'index.html');
 };
 
-const preprocessContent = (renderedSite, forOffline) => {
-  const htmlContent = placeInsideIndexHtml(renderedSite);
+const prepareForOffline = (contentInsideHtml, forOffline) => {
   if (forOffline) {
-    return useOfflineUrls(htmlContent);
+    return useOfflineUrls(contentInsideHtml);
   }
-  return htmlContent;
+  return contentInsideHtml;
 };
 
 const storeSiteContent = (renderedSite, forOffline, path) => {
-  const destFile = buildDestFile(path);
-  const htmlContent = preprocessContent(renderedSite, forOffline);
+  const destFile = preapreDestFile(path);
+  const contentInsideHtml = placeInsideIndexHtml(renderedSite);
+  const htmlContent = prepareForOffline(contentInsideHtml, forOffline);
   fs.writeFileSync(destFile, htmlContent);
   console.log(`generated "${path}" into "${destFile}" (${Math.ceil(htmlContent.length / 1024)} kB)`);
 };
