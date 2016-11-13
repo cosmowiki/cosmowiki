@@ -1,10 +1,10 @@
 import 'babel/polyfill';
 import React from 'react'
-import {parse as parseUrl} from 'url';
 import {loadRemoteFile} from './_external-deps/http-get';
 
 import AppUrl from './appurl'
 import PageComponent from './components/page';
+import ContentOnlyComponent from './components/content-only';
 
 import Home from './sites/home';
 import Events from './sites/events';
@@ -42,8 +42,8 @@ function loadFromFs(fileName, onDone, onError) {
 const loadFunction = createStaticSites ? loadFromFs : loadViaHttp;
 let appUrl = new AppUrl();
 
-const rerender = siteComponent => {
-  const site = <PageComponent siteComponent={siteComponent} appUrl={appUrl} />;
+const rerender = (surroundingComponent, content) => {
+  const site = React.createElement(surroundingComponent, {appUrl: appUrl}, content);
   if (createStaticSites) {
     return React.renderToString(site);
   }
@@ -64,32 +64,42 @@ const urlToComponent = {
   '/spaceflight': {klass: Spaceflight},
   '/objects': {klass: Objects},
   '/about': {klass: About},
-  '/': {klass: Home}
+  '/': {klass: Home, surroundingComponent: ContentOnlyComponent}
 };
 
-function renderSite(path, onDone) {
+const renderSite = (path, onDone) => {
 
-  function withRawData(componentClass, rawData) {
-    const data = componentClass.fromRawData(rawData);
+  const withData = (componentClass, surroundingComponent, data) => {
     const component = componentClass.componentWithData(data, appUrl);
-    const renderedContent = rerender(component);
+    const renderedContent = rerender(surroundingComponent, component);
     onDone && onDone(renderedContent);
-  }
-  
+  };
+
+  const withRawData = (componentClass, surroundingComponent, rawData) => {
+    const data = componentClass.fromRawData(rawData);
+    withData(componentClass, surroundingComponent, data);
+  };
+
+  const withoutData = (componentClass, surroundingComponent) => {
+    const data = null;
+    withData(componentClass, surroundingComponent, data);
+  };
+
   for (let urlStart in urlToComponent) {
     if (path.startsWith(urlStart)) {
       const curItem = urlToComponent[urlStart];
+      const surroundingComponent = curItem.surroundingComponent || PageComponent;
       const componentClass = curItem.klass;
       const fileName = curItem.fileName;
       if (fileName) {
-        loadFunction(fileName, withRawData.bind(null, componentClass));
+        loadFunction(fileName, (data) => withRawData(componentClass, surroundingComponent, data));
       } else {
-        withRawData(componentClass);
+        withoutData(componentClass, surroundingComponent);
       }
       return;
     }
   }
-}
+};
 
 import fs from 'fs';
 import mkdirp from 'mkdirp';
