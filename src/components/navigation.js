@@ -73,12 +73,12 @@ export default class Navigation {
               </li>
             </ul>
           </li>
-          <li className="pure-menu-item">
-            <a className="pure-menu-link menu-item register" href="register.php">Register</a>
-          </li>
         </ul>
       </nav>
     )
   }
   
 }
+          //<li className="pure-menu-item">
+          //  <a className="pure-menu-link menu-item register" href="register.php">Register</a>
+          //</li>
