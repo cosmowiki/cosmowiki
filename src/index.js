@@ -96,18 +96,31 @@ import mkdirp from 'mkdirp';
 import {join as pathJoin} from 'path';
 import {useOfflineUrls} from './scripts/make-urls-offline';
 
+const buildDestFile = (path) => {
+  const pathToFile = pathJoin(__dirname, '../dist', path);
+  mkdirp(pathToFile);
+  return pathJoin(pathToFile, 'index.html');
+};
+
+const preprocessContent = (renderedSite, forOffline) => {
+  const htmlContent = placeInsideIndexHtml(renderedSite);
+  if (forOffline) {
+    return useOfflineUrls(htmlContent);
+  }
+  return htmlContent;
+};
+
+const storeSiteContent = (renderedSite, forOffline, path) => {
+  const destFile = buildDestFile(path);
+  const htmlContent = preprocessContent(renderedSite, forOffline);
+  fs.writeFileSync(destFile, htmlContent);
+  console.log(`generated "${path}" into "${destFile}" (${Math.ceil(htmlContent.length / 1024)} kB)`);
+};
+
 function renderAndStoreSite(forOffline, path) {
-  renderSite(path, renderedSite => {
-    const pathToFile = pathJoin(__dirname, '../dist', path);
-    mkdirp(pathToFile);
-    const destFile = pathJoin(pathToFile, 'index.html');
-    let htmlContent = placeInsideIndexHtml(renderedSite);
-    if (forOffline) {
-      htmlContent = useOfflineUrls(htmlContent);
-    }
-    fs.writeFileSync(destFile, htmlContent);
-    console.log(`generated "${path}" into "${destFile}" (${Math.ceil(htmlContent.length / 1024)} kB)`);
-  });
+  const withSiteContent = (content) =>
+    storeSiteContent(content, forOffline, path);
+  renderSite(path, withSiteContent);
 }
 
 function placeInsideIndexHtml(content) {
