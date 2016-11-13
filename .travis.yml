@@ -9,7 +9,7 @@ cache:
 
 after_success:
   - chmod +x ./scripts/*.sh
-  - ./scripts/build.sh
+  - npm run build
 
 deploy:
   provider: script
