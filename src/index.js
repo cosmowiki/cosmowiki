@@ -81,7 +81,7 @@ function renderSite(path, onDone) {
       const componentClass = curItem.klass;
       const fileName = curItem.fileName;
       if (fileName) {
-        loadFunction(fileName, withRawData.bind(null, componentClass));
+        loadFunction(fileName, () => withRawData(componentClass));
       } else {
         withRawData(componentClass);
       }
