@@ -6,7 +6,7 @@ import Footer from './footer';
 export default class PageComponent {
   render() {
     
-    const {siteComponent, appUrl} = this.props;
+    const {children, appUrl} = this.props;
     
     return (
       <div id="wrapper" className="pure-g">
@@ -14,7 +14,7 @@ export default class PageComponent {
         <header className="pure-u-1">
           <Navigation appUrl={appUrl} />
         </header>
-        {siteComponent}
+        {children}
         <Footer appUrl={appUrl} />
       </div>
     )

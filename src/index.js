@@ -41,8 +41,8 @@ function loadFromFs(fileName, onDone, onError) {
 const loadFunction = createStaticSites ? loadFromFs : loadViaHttp;
 let appUrl = new AppUrl();
 
-const rerender = (siteComponent) => {
-  const site = <PageComponent siteComponent={siteComponent} appUrl={appUrl} />;
+const rerender = (content) => {
+  const site = <PageComponent appUrl={appUrl}>{content}</PageComponent>;
   if (createStaticSites) {
     return React.renderToString(site);
   }
