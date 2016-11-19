@@ -6,7 +6,7 @@ export default class HomeComponent {
     let appUrl = this.props.appUrl;
     
     return (
-      <main role="main" className="home pure-u-1 center">
+      <main id="mainHome" role="main" className="pure-u-1 center">
         <div id="homeNav" className="pure-u-3-4 pure-u-lg-1-2 center">
           <ul id="homeAstronomyMenu" className="pure-u-1 center">
             <li>
