@@ -1,5 +1,7 @@
 import 'babel/polyfill';
 import React from 'react'
+import ReactDOM from 'react-dom';
+import ReactDOMServer from 'react-dom/server';
 import {loadRemoteFile} from './_external-deps/http-get';
 
 import AppUrl from './appurl'
@@ -45,9 +47,9 @@ let appUrl = new AppUrl();
 const rerender = (surroundingComponent, content) => {
   const site = React.createElement(surroundingComponent, {appUrl: appUrl}, content);
   if (createStaticSites) {
-    return React.renderToString(site);
+    return ReactDOMServer.renderToString(site);
   }
-  React.render(site, document.getElementById('app'));
+  ReactDOM.render(site, document.getElementById('app'));
 };
 
 const urlToComponent = {
