@@ -45,11 +45,11 @@ export default class HomeComponent {
           </ul>
           <ul id="homeChronicleMenu" className="pure-u-1 center">
             <li>
-              <a className="pure-u-1 pure-u-md-1-2 home-link home-chronicle-link center" href={appUrl.chronicleSite()}>Chronik</a>
+              <a className="pure-u-1 pure-u-md-1-2 home-link home-chronicle-link center" href={appUrl.eventsSite()}>Chronik</a>
               <ul id="homeChronicleSubMenu">
                 {[
-                  {url: appUrl.chronicleSite(), name: 'Chronik der Astronomie'},
-                  {url: appUrl.chronicleSite(), name: 'Chronik der Raumfahrt'},
+                  {url: appUrl.eventsSite(), name: 'Chronik der Astronomie'},
+                  {url: appUrl.eventsSite(), name: 'Chronik der Raumfahrt'},
                   
                 ].map(link =>
                   <li>
@@ -96,7 +96,7 @@ export default class HomeComponent {
               <a className="pure-u-1 pure-u-md-1-2 home-link home-objects-link center" href={appUrl.objectsSite()}>Objekte</a>
               <ul id="homeObjectsSubMenu">
                 {[
-                  {url: appUrl.solsysSite(), name: 'Sonnensystem'},
+                  {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
                   {url: appUrl.constellationsSite(), name: 'Sternbilder'},
                   {url: appUrl.starsSite(), name: 'Sterne'},
                   {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},

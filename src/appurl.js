@@ -52,4 +52,8 @@ export default class AppUrl {
     return '/about'
   }
   
+  placesSite() {
+    return '/places'
+  }
+
 }
