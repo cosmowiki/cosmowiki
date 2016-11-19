@@ -6,11 +6,11 @@ export default class HomeComponent {
     let appUrl = this.props.appUrl;
     
     return (
-      <main role="main" className="home pure-u-1">
-        <div id="homeNav" className="pure-u-1 center">
+      <main role="main" className="home pure-u-1 center">
+        <div id="homeNav" className="pure-u-3-4 pure-u-lg-1-2 center">
           <ul id="homeAstronomyMenu" className="pure-u-1 center">
             <li>
-              <a className="pure-u-1 pure-u-md-1-2 home-link home-astronomy-link center" href={appUrl.astronomySite()}>Astronomie</a>
+              <a id="homeAstronomyLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.astronomySite()}>Astronomie</a>
               <ul id="homeAstronomySubMenu">
                 {[
                   {url: appUrl.astronomersSite(), name: 'Astronomen'},
@@ -20,7 +20,7 @@ export default class HomeComponent {
                   
                 ].map(link =>
                   <li>
-                    <a className="pure-u-1 pure-u-md-1-2 home-link home-astronomy-link center" href={ link.url }>{ link.name }</a>
+                    <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
                   </li>
                 )}
               </ul>
@@ -28,7 +28,7 @@ export default class HomeComponent {
           </ul>
           <ul id="homeSpaceflightMenu" className="pure-u-1 center">
             <li>
-              <a className="pure-u-1 pure-u-md-1-2 home-link home-spaceflight-link center" href={appUrl.spaceflightSite()}>Raumfahrt</a>
+              <a id="homeSpaceflightLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.spaceflightSite()}>Raumfahrt</a>
               <ul id="homeSpaceflightSubMenu">
                 {[
                   {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
@@ -37,23 +37,23 @@ export default class HomeComponent {
                   
                 ].map(link =>
                   <li>
-                    <a className="pure-u-1 pure-u-md-1-2 home-link home-spaceflight-link center" href={ link.url }>{ link.name }</a>
+                    <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
                   </li>
                 )}
               </ul>
             </li>
           </ul>
-          <ul id="homeChronicleMenu" className="pure-u-1 center">
+          <ul id="homeEventsMenu" className="pure-u-1 center">
             <li>
-              <a className="pure-u-1 pure-u-md-1-2 home-link home-chronicle-link center" href={appUrl.eventsSite()}>Chronik</a>
-              <ul id="homeChronicleSubMenu">
+              <a id="homeEventsLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.eventsSite()}>Chronik</a>
+              <ul id="homeEventsSubMenu">
                 {[
                   {url: appUrl.eventsSite(), name: 'Chronik der Astronomie'},
                   {url: appUrl.eventsSite(), name: 'Chronik der Raumfahrt'},
                   
                 ].map(link =>
                   <li>
-                    <a className="pure-u-1 pure-u-md-1-2 home-link home-chronicle-link center" href={ link.url }>{ link.name }</a>
+                    <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
                   </li>
                 )}
               </ul>
@@ -61,7 +61,7 @@ export default class HomeComponent {
           </ul>
           <ul id="homePeopleMenu" className="pure-u-1 center">
             <li>
-              <a className="pure-u-1 pure-u-md-1-2 home-link home-people-link center" href={appUrl.peopleSite()}>Personen</a>
+              <a id="homePeopleLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.peopleSite()}>Personen</a>
               <ul id="homePeopleSubMenu">
                 {[
                   {url: appUrl.astronomersSite(), name: 'Astronomen'},
@@ -69,7 +69,7 @@ export default class HomeComponent {
                   
                 ].map(link =>
                   <li>
-                    <a className="pure-u-1 pure-u-md-1-2 home-link home-people-link center" href={ link.url }>{ link.name }</a>
+                    <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
                   </li>
                 )}
               </ul>
@@ -77,7 +77,7 @@ export default class HomeComponent {
           </ul>
           <ul id="homePlacesMenu" className="pure-u-1 center">
             <li>
-              <a className="pure-u-1 pure-u-md-1-2 home-link home-places-link center" href={appUrl.placesSite()}>Orte</a>
+              <a id="homePlacesLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.placesSite()}>Orte</a>
               <ul id="homePlacesSubMenu">
                 {[
                   {url: appUrl.placesSite(), name: 'Orte der Astronomie'},
@@ -85,7 +85,7 @@ export default class HomeComponent {
                   
                 ].map(link =>
                   <li>
-                    <a className="pure-u-1 pure-u-md-1-2 home-link home-places-link center" href={ link.url }>{ link.name }</a>
+                    <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
                   </li>
                 )}
               </ul>
@@ -93,7 +93,7 @@ export default class HomeComponent {
           </ul>
           <ul id="homeObjectsMenu" className="pure-u-1 center">
             <li>
-              <a className="pure-u-1 pure-u-md-1-2 home-link home-objects-link center" href={appUrl.objectsSite()}>Objekte</a>
+              <a id="homeObjectsLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.objectsSite()}>Objekte</a>
               <ul id="homeObjectsSubMenu">
                 {[
                   {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
@@ -103,12 +103,15 @@ export default class HomeComponent {
                   
                 ].map(link =>
                   <li>
-                    <a className="pure-u-1 pure-u-md-1-2 home-link home-spaceflight-link center" href={ link.url }>{ link.name }</a>
+                    <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
                   </li>
                 )}
               </ul>
             </li>
           </ul>
+        </div>
+        <div id="homeFooter">
+          
         </div>
       </main>
     )
