@@ -45,15 +45,12 @@ export default class ChronicleComponent extends React.Component {
   }
 }
 
-class ItemComponent {
-  render() {
-    const { item, onClick } = this.props;
-    return (
-      <div className="timelineRow">
-        <div className="timelineDate right">{item.readableDate}</div>
-        <div className="timelinePlace">{item.location}</div>
-        <div className="timelineEvent" onClick={onClick}>{item.event}</div>
-      </div>
-    )
-  }
-}
+const ItemComponent = ({item, onClick}) => {
+  return (
+    <div className="timelineRow">
+      <div className="timelineDate right">{item.readableDate}</div>
+      <div className="timelinePlace">{item.location}</div>
+      <div className="timelineEvent" onClick={onClick}>{item.event}</div>
+    </div>
+  )
+};

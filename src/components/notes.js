@@ -61,42 +61,32 @@ const starNotes = (
   </ol>
 );
 
-export default class Notes {
+const Notes = () => {
+  return (
+    <div id="notes">
+      {defaultNotes}
+    </div>
+  )
+};
 
-  render() {
+export default Notes;
 
-    return (
-      <div id="notes">
-        {defaultNotes}
-      </div>
-    )
-  }
-}
+export const ConstellationNotes = () => {
+  return (
+    <div id="notes">
+      {defaultNotes}
+      {constellationNotes}
+    </div>
 
-export class ConstellationNotes {
-  
-  render() {
-    return (
-      <div id="notes">
-        {defaultNotes}
-        {constellationNotes}
-      </div>
-      
-    );
-  }
-  
-}
+  );
+};
 
-export class StarNotes {
-  
-  render() {
-    return (
-      <div id="notes">
-        {defaultNotes}
-        {starNotes}
-      </div>
-      
-    );
-  }
-  
-}
+export const StarNotes = () => {
+  return (
+    <div id="notes">
+      {defaultNotes}
+      {starNotes}
+    </div>
+
+  );
+};
