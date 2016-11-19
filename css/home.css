@@ -1,5 +1,5 @@
 /*#featured.home {background: black;/*url("/img/featured.jpg") center top no-repeat;*/}*/
-main.home {border: 0;}
+#mainHome {height: 100vh; display: block; border: 0;}
 
 #infoArea {
 	/*max-width: 960px;*/ margin: 0 auto; padding: 10px 0;
@@ -16,43 +16,34 @@ main.home {border: 0;}
 /*#news {padding: 0 10px; overflow: scroll;}*/
 /*#news iframe {height: 180px;}*/
 
-#homeNav {margin: 10% auto;}
+#homeNav {margin: 10% auto; max-width: 1000px;}
 
-#home1stMenu, #home2ndMenu {margin: auto; max-width: 1000px;}
-#home1stMenu li {max-width: 230px;}
-#home2ndMenu li {display: inline;}
-
-#homeAstronomyMenu {}
-#homeSpaceflightMenu {}
-
-#homeAstronomySubMenu, #homeSpaceflightSubMenu {
+#homeAstronomySubMenu,
+#homeSpaceflightSubMenu,
+#homeEventsSubMenu,
+#homePeopleSubMenu,
+#homePlacesSubMenu,
+#homeObjectsSubMenu {
 	visibility: hidden; opacity: 0; max-height: 0;
 	-webkit-transition: max-height .3s, visibility .3s, opacity .3s ease-out;
 	transition: max-height .3s, visibility .3s, opacity .3s ease-out;
 	}
 
-#homeAstronomyMenu li:hover #homeAstronomySubMenu {
-	visibility: visible; opacity: 1; max-height: inherit;
-	-webkit-transition: max-height .3s, visibility 0s, opacity .3s ease-in;
-	transition: max-height .3s, visibility 0s, opacity .3s ease-in;
-	}
-#homeSpaceflightMenu li:hover #homeSpaceflightSubMenu {
-	visibility: visible; opacity: 1; max-height: inherit;
-	-webkit-transition: max-height .3s, visibility 0s, opacity .3s ease-in;
-	transition: max-height .3s, visibility 0s, opacity .3s ease-in;
-	}
-
-.home-astronomy-link, .home-spaceflight-link {display: block;}
-
 .home-link {
-	margin: 5px; max-width: 220px; height: 50px;
-	font-size: 1.3em; font-weight: bolder; line-height: 50px;
-	background-color: rgba(255,255,255,0.7);
+	margin: 5px; height: 50px;
+	font-size: 1.3em; font-weight: bolder; line-height: 50px; letter-spacing: .1em;
+	background-color: rgba(255,255,255,.7);
 	outline: 1px solid white;
 	}
 .home-link:focus, .home-link:hover, .home-link:active {
-	background-color: rgba(248,248,248,0.9); outline: 1px solid white;
+	background-color: rgba(248,248,248,.9); outline: 1px solid white;
 	}
+
+#homeFooter {
+	height: 40px;
+	background-image: linear-gradient(to right, #fff 180px, rgba(255,255,255,.2));
+	border-top: 1px solid #fff;
+}
 
 /*#boxChronicle {background: url("/img/box_chronicle.jpg") center top / contain no-repeat;}
 #boxPeople {background: url("/img/box_people.jpg") center top / contain no-repeat;}

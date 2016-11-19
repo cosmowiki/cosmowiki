@@ -12,5 +12,5 @@
 .subItem.stations:focus,
 .subItem.stations:hover,
 .subItem.stations:active {
-w	background: url("/img/featured_stations1.jpg") center / cover no-repeat;
+background: url("/img/featured_stations1.jpg") center / cover no-repeat;
 }
