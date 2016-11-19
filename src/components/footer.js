@@ -16,7 +16,7 @@ const Footer = ({appUrl}) => {
               {url: appUrl.objectsSite(), name: 'Objekte'},
 
             ].map(link =>
-              <li>
+              <li key={link.url}>
                 <a className="footerLink" href={ link.url }>{ link.name }</a>
               </li>
             )}
@@ -35,7 +35,7 @@ const Footer = ({appUrl}) => {
               {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
 
             ].map(link =>
-              <li>
+              <li key={link.url}>
                 <a className="footerLink" href={ link.url }>{ link.name }</a>
               </li>
             )}

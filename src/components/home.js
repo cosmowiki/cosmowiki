@@ -15,7 +15,7 @@ const HomeComponent = ({appUrl}) => {
                 {url: appUrl.starsSite(), name: 'Sterne'},
 
               ].map(link =>
-                <li>
+                <li key={link.url}>
                   <a className="pure-u-1 pure-u-md-1-2 home-link home-astronomy-link center" href={ link.url }>{ link.name }</a>
                 </li>
               )}
@@ -32,7 +32,7 @@ const HomeComponent = ({appUrl}) => {
                 {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
 
               ].map(link =>
-                <li>
+                <li key={link.url}>
                   <a className="pure-u-1 pure-u-md-1-2 home-link home-spaceflight-link center" href={ link.url }>{ link.name }</a>
                 </li>
               )}
@@ -48,7 +48,7 @@ const HomeComponent = ({appUrl}) => {
                 {url: appUrl.eventsSite(), name: 'Chronik der Raumfahrt'},
 
               ].map(link =>
-                <li>
+                <li key={link.name+link.url}>
                   <a className="pure-u-1 pure-u-md-1-2 home-link home-chronicle-link center" href={ link.url }>{ link.name }</a>
                 </li>
               )}
@@ -64,7 +64,7 @@ const HomeComponent = ({appUrl}) => {
                 {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
 
               ].map(link =>
-                <li>
+                <li key={link.url}>
                   <a className="pure-u-1 pure-u-md-1-2 home-link home-people-link center" href={ link.url }>{ link.name }</a>
                 </li>
               )}
@@ -80,7 +80,7 @@ const HomeComponent = ({appUrl}) => {
                 {url: appUrl.placesSite(), name: 'Orte der Raumfahrt'},
 
               ].map(link =>
-                <li>
+                <li key={link.name+link.url}>
                   <a className="pure-u-1 pure-u-md-1-2 home-link home-places-link center" href={ link.url }>{ link.name }</a>
                 </li>
               )}
@@ -98,7 +98,7 @@ const HomeComponent = ({appUrl}) => {
                 {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
 
               ].map(link =>
-                <li>
+                <li key={link.url}>
                   <a className="pure-u-1 pure-u-md-1-2 home-link home-spaceflight-link center" href={ link.url }>{ link.name }</a>
                 </li>
               )}
