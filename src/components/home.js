@@ -15,7 +15,7 @@ const HomeComponent = ({appUrl}) => {
                 {url: appUrl.starsSite(), name: 'Sterne'},
 
               ].map(link =>
-                <li key={link}>
+                <li key={link.url+link.name}>
                   <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
                 </li>
               )}
@@ -32,7 +32,7 @@ const HomeComponent = ({appUrl}) => {
                 {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
 
               ].map(link =>
-                <li key={link}>
+                <li key={link.url+link.name}>
                   <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
                 </li>
               )}
@@ -48,7 +48,7 @@ const HomeComponent = ({appUrl}) => {
                 {url: appUrl.eventsSite(), name: 'Chronik der Raumfahrt'},
 
               ].map(link =>
-                <li key={link}>
+                <li key={link.url+link.name}>
                   <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
                 </li>
               )}
@@ -64,7 +64,7 @@ const HomeComponent = ({appUrl}) => {
                 {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
 
               ].map(link =>
-                <li key={link}>
+                <li key={link.url+link.name}>
                   <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
                 </li>
               )}
@@ -80,7 +80,7 @@ const HomeComponent = ({appUrl}) => {
                 {url: appUrl.placesSite(), name: 'Orte der Raumfahrt'},
 
               ].map(link =>
-                <li key={link}>
+                <li key={link.url+link.name}>
                   <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
                 </li>
               )}
@@ -98,7 +98,7 @@ const HomeComponent = ({appUrl}) => {
                 {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
 
               ].map(link =>
-                <li key={link}>
+                <li key={link.url+link.name}>
                   <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
                 </li>
               )}
@@ -112,6 +112,8 @@ const HomeComponent = ({appUrl}) => {
     </main>
   )
 };
+
+export default HomeComponent;
 
 //<div id="featured" className="pure-u-1 home center">
 //  <h1>CosmoWiki.de</h1>
