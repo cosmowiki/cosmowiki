@@ -66,7 +66,8 @@ a:focus, a:hover, a:active {color: #333;}
 
 #branding {
 	height: 40px;
-	background-image: linear-gradient(to right, #fff 180px, rgba(255,255,255,0));
+	background-image: linear-gradient(to right, #fff 180px, rgba(255,255,255,.2));
+	border-bottom: 1px solid #fff;
 	}
 #branding img {margin: 5px; height: 30px;}
 
@@ -283,7 +284,7 @@ main {}
 .footerPart:first-child {}
 .footerPart:last-child {border: 0;}
 footer h3 {margin-bottom: 10px;}
-.footerPart li {margin: 5px;)}
+.footerPart li {margin: 5px;}
 .shariff-button a.share_text {color: #fff;}
 #footerFoot {
 	font-size: .6em; line-height: 1.5em;
