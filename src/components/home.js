@@ -3,10 +3,10 @@ import React from 'react';
 const HomeComponent = ({appUrl}) => {
   return (
     <main className="home pure-u-1 center">
-      <div id="homeNav" className="pure-u-3-4 pure-u-lg-1-2 center">
+      <div id="homeNav" className="pure-u-11-12 pure-u-sm-3-4 pure-u-md-2-3 pure-u-lg-1-2 center">
         <ul id="homeAstronomyMenu" className="pure-u-1 center">
           <li>
-            <a id="homeAstronomyLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.astronomySite()}>Astronomie</a>
+            <a id="homeAstronomyLink" className="pure-u-1 pure-u-md-2-3 home-link center" href={appUrl.astronomySite()}>Astronomie</a>
             <ul id="homeAstronomySubMenu">
               {[
                 {url: appUrl.astronomersSite(), name: 'Astronomen'},
@@ -16,7 +16,7 @@ const HomeComponent = ({appUrl}) => {
 
               ].map(link =>
                 <li key={link.url+link.name}>
-                  <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
+                  <a className="pure-u-1 pure-u-md-2-3 home-link center" href={ link.url }>{ link.name }</a>
                 </li>
               )}
             </ul>
@@ -24,7 +24,7 @@ const HomeComponent = ({appUrl}) => {
         </ul>
         <ul id="homeSpaceflightMenu" className="pure-u-1 center">
           <li>
-            <a id="homeSpaceflightLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.spaceflightSite()}>Raumfahrt</a>
+            <a id="homeSpaceflightLink" className="pure-u-1 pure-u-md-2-3 home-link center" href={appUrl.spaceflightSite()}>Raumfahrt</a>
             <ul id="homeSpaceflightSubMenu">
               {[
                 {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
@@ -33,7 +33,7 @@ const HomeComponent = ({appUrl}) => {
 
               ].map(link =>
                 <li key={link.url+link.name}>
-                  <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
+                  <a className="pure-u-1 pure-u-md-2-3 home-link center" href={ link.url }>{ link.name }</a>
                 </li>
               )}
             </ul>
@@ -41,7 +41,7 @@ const HomeComponent = ({appUrl}) => {
         </ul>
         <ul id="homeEventsMenu" className="pure-u-1 center">
           <li>
-            <a id="homeEventsLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.eventsSite()}>Chronik</a>
+            <a id="homeEventsLink" className="pure-u-1 pure-u-md-2-3 home-link center" href={appUrl.eventsSite()}>Chronik</a>
             <ul id="homeEventsSubMenu">
               {[
                 {url: appUrl.eventsSite(), name: 'Chronik der Astronomie'},
@@ -49,7 +49,7 @@ const HomeComponent = ({appUrl}) => {
 
               ].map(link =>
                 <li key={link.url+link.name}>
-                  <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
+                  <a className="pure-u-1 pure-u-md-2-3 home-link center" href={ link.url }>{ link.name }</a>
                 </li>
               )}
             </ul>
@@ -57,7 +57,7 @@ const HomeComponent = ({appUrl}) => {
         </ul>
         <ul id="homePeopleMenu" className="pure-u-1 center">
           <li>
-            <a id="homePeopleLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.peopleSite()}>Personen</a>
+            <a id="homePeopleLink" className="pure-u-1 pure-u-md-2-3 home-link center" href={appUrl.peopleSite()}>Personen</a>
             <ul id="homePeopleSubMenu">
               {[
                 {url: appUrl.astronomersSite(), name: 'Astronomen'},
@@ -65,7 +65,7 @@ const HomeComponent = ({appUrl}) => {
 
               ].map(link =>
                 <li key={link.url+link.name}>
-                  <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
+                  <a className="pure-u-1 pure-u-md-2-3 home-link center" href={ link.url }>{ link.name }</a>
                 </li>
               )}
             </ul>
@@ -73,7 +73,7 @@ const HomeComponent = ({appUrl}) => {
         </ul>
         <ul id="homePlacesMenu" className="pure-u-1 center">
           <li>
-            <a id="homePlacesLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.placesSite()}>Orte</a>
+            <a id="homePlacesLink" className="pure-u-1 pure-u-md-2-3 home-link center" href={appUrl.placesSite()}>Orte</a>
             <ul id="homePlacesSubMenu">
               {[
                 {url: appUrl.placesSite(), name: 'Orte der Astronomie'},
@@ -81,7 +81,7 @@ const HomeComponent = ({appUrl}) => {
 
               ].map(link =>
                 <li key={link.url+link.name}>
-                  <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
+                  <a className="pure-u-1 pure-u-md-2-3 home-link center" href={ link.url }>{ link.name }</a>
                 </li>
               )}
             </ul>
@@ -89,7 +89,7 @@ const HomeComponent = ({appUrl}) => {
         </ul>
         <ul id="homeObjectsMenu" className="pure-u-1 center">
           <li>
-            <a id="homeObjectsLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.objectsSite()}>Objekte</a>
+            <a id="homeObjectsLink" className="pure-u-1 pure-u-md-2-3 home-link center" href={appUrl.objectsSite()}>Objekte</a>
             <ul id="homeObjectsSubMenu">
               {[
                 {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
@@ -99,7 +99,7 @@ const HomeComponent = ({appUrl}) => {
 
               ].map(link =>
                 <li key={link.url+link.name}>
-                  <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
+                  <a className="pure-u-1 pure-u-md-2-3 home-link center" href={ link.url }>{ link.name }</a>
                 </li>
               )}
             </ul>
