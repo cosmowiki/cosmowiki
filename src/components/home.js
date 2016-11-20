@@ -3,7 +3,7 @@ import React from 'react';
 const HomeComponent = ({appUrl}) => {
   return (
     <main className="home pure-u-1 center">
-      <div id="homeNav" className="pure-u-11-12 pure-u-sm-3-4 pure-u-md-2-3 pure-u-lg-1-2 center">
+      <div id="homeNav" className="pure-u-7-8 pure-u-sm-3-4 pure-u-md-2-3 pure-u-lg-1-2 center">
         <ul id="homeAstronomyMenu" className="pure-u-1 center">
           <li>
             <a id="homeAstronomyLink" className="pure-u-1 pure-u-md-2-3 home-link center" href={appUrl.astronomySite()}>Astronomie</a>
