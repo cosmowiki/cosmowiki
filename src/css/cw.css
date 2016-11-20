@@ -252,7 +252,7 @@ main {}
 #vcardItemLong { clear: both; }
 #vcardContentRight { padding-left: 10px;	width: 290px; border-left: 1px solid #a0a0ff; }
 .vcardItemRelatedCat { line-height: 1.1em; }
-.vcardItemRelatedLinks {  }
+.vcardItemRelatedLinks {}
 .vcardItemRelatedLinks ul { list-style: none; padding: 0 0 0 5px; }
 .vcardItemRelatedLinks ul:last-child { padding-bottom: 10px; }
 .vcardItemRelatedLinks li { padding: 2px 0; }
