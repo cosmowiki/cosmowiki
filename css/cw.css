@@ -39,7 +39,21 @@ a:focus, a:hover, a:active {color: #333;}
 .visible {display: block;}
 .hidden {display: none;}
 
-/*	Structure --------------------------------------------------------------- */
+/*>Global Properties --------------------------------------------------------- */
+
+#branding, nav,
+#featured, #subItem,
+#filter, #letterLinks,
+#dataTable, #notes,
+#footerContainer {border-bottom: 1px solid #fff;}
+
+#featured, #subItemsContainer, #notes {background: rgba(255,255,255,.8);}
+
+nav, #letterLinks, #footerContainer {background: #f8f8f8;}
+
+#footerFoot {background: #dadada;}
+
+/*	Structure ---------------------------------------------------------------- */
 
 #wrapper {
 	margin: 0 auto;
@@ -60,14 +74,14 @@ a:focus, a:hover, a:active {color: #333;}
 }
 
 #featured, #filter, #letterLinks, #subItemsContainer,
-#dataTable, #notes, footer {margin: 0 auto; max-width: 1000px;}
+#dataTable, #notes,
+#footerContainer, #footerFoot {margin: 0 auto; max-width: 1000px;}
 
 /*		Branding -------------------------------------------------------------- */
 
 #branding {
 	height: 40px;
 	background-image: linear-gradient(to right, #fff 180px, rgba(255,255,255,.2));
-	border-bottom: 1px solid rgba(255,255,255,.7);
 	}
 #branding img {margin: 5px; height: 30px;}
 
@@ -77,11 +91,7 @@ header {margin: 0 auto;}
 
 /*			Nav ----------------------------------------------------------------- */
 
-nav {
-	margin: 0 auto;
-	background: #f8f8f8;
-	border-top: 1px solid #fff; border-bottom: 1px solid rgba(255,255,255,.7);
-	}
+nav {margin: 0 auto;}
 nav ul ul li {text-align: left;}
 
 /*			social menu --------------------------------------------------------- */
@@ -149,11 +159,7 @@ main {}
 
 /*			featured ----------------------------------------------------------- */
 
-#featured {
-	min-height: 120px;
-	background: rgba(255,255,255,.8);
-	border-bottom: 1px solid rgba(255,255,255,.7);
-	}
+#featured {min-height: 120px;}
 #featured h1 {
 	padding: 30px 0 5px;
 	font-weight: normal; text-shadow: 1px 1px 2px #fff;
@@ -162,16 +168,12 @@ main {}
 
 /*			subItems ----------------------------------------------------------- */
 
-#subItemsContainer {background: rgba(255,255,255,.8);}
-.subItem {
-	font-size: 1.5em; text-shadow: 1px 1px #fff; line-height: 3em;
-	border-bottom: 1px solid rgba(255,255,255,.7);
-	}
+.subItem {font-size: 1.5em; text-shadow: 1px 1px #fff; line-height: 3em;}
 
 /*			filter ------------------------------------------------------------- */
 
 #filter {
-	padding: 5px 0;	font-size: .8em; border-bottom: 1px solid rgba(255,255,255,.7);
+	padding: 5px 0;	font-size: .8em;
 	background-image: linear-gradient(#fff, #f8f8f8);
 }
 #filter form {display: inline;}
@@ -179,10 +181,7 @@ main {}
 
 /*			letterLinks -------------------------------------------------------- */
 
-#letterLinks {
-	line-height: 30px;
-	background: #f8f8f8; border-bottom: 1px solid rgba(255,255,255,.7);
-	}
+#letterLinks {line-height: 30px;}
 #letterLinks a {font-size: .8em;}
 #letterLinks a:focus, #letterLinks a:hover, #letterLinks a:active {
 	font-size: 1em; letter-spacing: -.1em; transition: all 50ms linear;
@@ -213,68 +212,19 @@ main {}
 #dataTable {
 	font-size: .8em;
 	background-image: linear-gradient(#f8f8f8 50%, rgba(255,255,255,.5) );
-	background-attachment: fixed;	border-bottom: 1px solid rgba(255,255,255,.7);
+	background-attachment: fixed;
 }
-
-/*		vcard ---------------------------------------------------------------- */
-
-#vcardBackground { 
-	position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-	background: black; opacity: .7;
-	 }
-#vcardOverlay { 
-  position: fixed;
-	top: 0; left: 0; margin: 0; width: 100%; height: 100%;
- }
-#vcard { margin: auto; padding-top: 10%; width: 940px; height: auto !important; }
-#vcardContainer { 
-	margin: auto; padding: 5px 10px; width: 904px;
-	border: 3px solid #d0d0d0; border-radius: 10px;
-	background: white;
- }
-#vcardClose { 
-	float: right; margin-top: -20px; margin-right: -25px; width: 21px; height: 21px;
-	font-size: 32px; line-height: 18px;
-	border: 3px solid #d0d0d0; border-radius: 13px; background: white;
- }
-#vcardHeader, #vcardContent, #vcardFooter { width: 100%; }
-#vcardHeader { font-size: .75em; border-bottom: 1px solid #a0a0ff; }
-#vcardHistory { padding-bottom: 5px; }
-#vcardContent { 
-	display: -webkit-flex; display: flex;
-	padding: 10px 0;
- }
-#vcardContentLeft { padding-right: 10px; width: 592px; }
-#vcardItemImg img { 
-	float: left; margin: 0 5px 5px 0; min-height: 150px; border: 2px solid #a0a0a0;
- }
-#vcardItemName, #vcardItemShort { padding: 5px 0; }
-#vcardItemLong { clear: both; }
-#vcardContentRight { padding-left: 10px;	width: 290px; border-left: 1px solid #a0a0ff; }
-.vcardItemRelatedCat { line-height: 1.1em; }
-.vcardItemRelatedLinks ul { list-style: none; padding: 0 0 0 5px; }
-.vcardItemRelatedLinks ul:last-child { padding-bottom: 10px; }
-.vcardItemRelatedLinks li { padding: 2px 0; }
-#vcardFooter { font-size: .75em; border-top: 1px solid #a0a0ff; }
-#vcardItemWpLink { padding-top: 5px; }
 
 /*			notes -------------------------------------------------------------- */
 
-#notes {
-	clear: left; font-size: .8em;
-	background: #f8f8f8; border-bottom: 1px solid rgba(255,255,255,.7);
-}
+#notes {clear: left; font-size: .8em;}
 #notes p {padding: 10px;}
 #notes ol {padding: 10px 20px;}
 #upArrow {float: left; font-weight: bold;}
 
 /*	Footer ------------------------------------------------------------------- */
 
-#footerContainer {
-	padding: 10px 0; font-size: .9em;
-	background: rgba(255,255,255,.8);
-	border-bottom: 1px solid rgba(255,255,255,.7);
-	}
+#footerContainer {padding: 10px 0; font-size: .9em;}
 .footerPart {
 	min-height: 13em;
 }
@@ -283,7 +233,4 @@ main {}
 footer h3 {margin-bottom: 10px;}
 .footerPart li {margin: 5px;}
 .shariff-button a.share_text {color: #fff;}
-#footerFoot {
-	font-size: .6em; line-height: 1.5em;
-	background: #f8f8f8;
-	}
+#footerFoot {font-size: .6em; line-height: 1.5em;}
