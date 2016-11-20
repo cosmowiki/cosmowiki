@@ -144,20 +144,14 @@ export default class AboutComponent extends React.Component {
   }
 }
 
-class Question {
-  
-  render() {
-    const {toggleFunction, category, isVisible} = this.props;
-    const {question, answer} = questions[category];
-    const classNames = isVisible ? 'answer visible' : 'answer hidden';
-    
-    return (
-      <li className="question">
-        <a href={'#' + category} onClick={toggleFunction}><i className="fa fa-caret-right fa-fw" />{' ' + question}</a>
-        <ul id={category} className={classNames}>{answer}</ul>
-      </li>
-    );
-    
-  }
-  
-}
+const Question = ({toggleFunction, category, isVisible}) => {
+  const {question, answer} = questions[category];
+  const classNames = isVisible ? 'answer visible' : 'answer hidden';
+
+  return (
+    <li className="question">
+      <a href={'#' + category} onClick={toggleFunction}><i className="fa fa-caret-right fa-fw" />{' ' + question}</a>
+      <ul id={category} className={classNames}>{answer}</ul>
+    </li>
+  );
+};

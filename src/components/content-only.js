@@ -1,16 +1,13 @@
 import React from 'react'
 import Logo from './logo'
 
-export default class ContentOnlyComponent {
-  render() {
-    
-    const {children, appUrl} = this.props;
-    
-    return (
-      <div id="wrapper" className="pure-g">
-        <Logo/>
-        {children}
-      </div>
-    )
-  }
-}
+const ContentOnlyComponent = ({children, appUrl}) => {
+  return (
+    <div id="wrapper" className="pure-g">
+      <Logo/>
+      {children}
+    </div>
+  )
+};
+
+export default ContentOnlyComponent;

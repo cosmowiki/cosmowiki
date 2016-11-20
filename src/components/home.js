@@ -1,122 +1,119 @@
 import React from 'react';
-export default class HomeComponent {
 
-  render() {
+const HomeComponent = ({appUrl}) => {
+  return (
+    <main className="home pure-u-1 center">
+      <div id="homeNav" className="pure-u-3-4 pure-u-lg-1-2 center">
+        <ul id="homeAstronomyMenu" className="pure-u-1 center">
+          <li>
+            <a id="homeAstronomyLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.astronomySite()}>Astronomie</a>
+            <ul id="homeAstronomySubMenu">
+              {[
+                {url: appUrl.astronomersSite(), name: 'Astronomen'},
+                {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
+                {url: appUrl.constellationsSite(), name: 'Sternbilder'},
+                {url: appUrl.starsSite(), name: 'Sterne'},
 
-    let appUrl = this.props.appUrl;
-    
-    return (
-      <main className="home pure-u-1 center">
-        <div id="homeNav" className="pure-u-3-4 pure-u-lg-1-2 center">
-          <ul id="homeAstronomyMenu" className="pure-u-1 center">
-            <li>
-              <a id="homeAstronomyLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.astronomySite()}>Astronomie</a>
-              <ul id="homeAstronomySubMenu">
-                {[
-                  {url: appUrl.astronomersSite(), name: 'Astronomen'},
-                  {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
-                  {url: appUrl.constellationsSite(), name: 'Sternbilder'},
-                  {url: appUrl.starsSite(), name: 'Sterne'},
-                  
-                ].map(link =>
-                  <li>
-                    <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
-                  </li>
-                )}
-              </ul>
-            </li>
-          </ul>
-          <ul id="homeSpaceflightMenu" className="pure-u-1 center">
-            <li>
-              <a id="homeSpaceflightLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.spaceflightSite()}>Raumfahrt</a>
-              <ul id="homeSpaceflightSubMenu">
-                {[
-                  {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
-                  {url: appUrl.missionsSite(), name: 'Missionen'},
-                  {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
-                  
-                ].map(link =>
-                  <li>
-                    <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
-                  </li>
-                )}
-              </ul>
-            </li>
-          </ul>
-          <ul id="homeEventsMenu" className="pure-u-1 center">
-            <li>
-              <a id="homeEventsLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.eventsSite()}>Chronik</a>
-              <ul id="homeEventsSubMenu">
-                {[
-                  {url: appUrl.eventsSite(), name: 'Chronik der Astronomie'},
-                  {url: appUrl.eventsSite(), name: 'Chronik der Raumfahrt'},
-                  
-                ].map(link =>
-                  <li>
-                    <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
-                  </li>
-                )}
-              </ul>
-            </li>
-          </ul>
-          <ul id="homePeopleMenu" className="pure-u-1 center">
-            <li>
-              <a id="homePeopleLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.peopleSite()}>Personen</a>
-              <ul id="homePeopleSubMenu">
-                {[
-                  {url: appUrl.astronomersSite(), name: 'Astronomen'},
-                  {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
-                  
-                ].map(link =>
-                  <li>
-                    <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
-                  </li>
-                )}
-              </ul>
-            </li>
-          </ul>
-          <ul id="homePlacesMenu" className="pure-u-1 center">
-            <li>
-              <a id="homePlacesLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.placesSite()}>Orte</a>
-              <ul id="homePlacesSubMenu">
-                {[
-                  {url: appUrl.placesSite(), name: 'Orte der Astronomie'},
-                  {url: appUrl.placesSite(), name: 'Orte der Raumfahrt'},
-                  
-                ].map(link =>
-                  <li>
-                    <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
-                  </li>
-                )}
-              </ul>
-            </li>
-          </ul>
-          <ul id="homeObjectsMenu" className="pure-u-1 center">
-            <li>
-              <a id="homeObjectsLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.objectsSite()}>Objekte</a>
-              <ul id="homeObjectsSubMenu">
-                {[
-                  {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
-                  {url: appUrl.constellationsSite(), name: 'Sternbilder'},
-                  {url: appUrl.starsSite(), name: 'Sterne'},
-                  {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
-                  
-                ].map(link =>
-                  <li>
-                    <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
-                  </li>
-                )}
-              </ul>
-            </li>
-          </ul>
-        </div>
-        <div id="homeFooter">
-          
-        </div>
-      </main>
-    )
-  }
-}
+              ].map(link =>
+                <li key={link.url+link.name}>
+                  <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
+                </li>
+              )}
+            </ul>
+          </li>
+        </ul>
+        <ul id="homeSpaceflightMenu" className="pure-u-1 center">
+          <li>
+            <a id="homeSpaceflightLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.spaceflightSite()}>Raumfahrt</a>
+            <ul id="homeSpaceflightSubMenu">
+              {[
+                {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
+                {url: appUrl.missionsSite(), name: 'Missionen'},
+                {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
+
+              ].map(link =>
+                <li key={link.url+link.name}>
+                  <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
+                </li>
+              )}
+            </ul>
+          </li>
+        </ul>
+        <ul id="homeEventsMenu" className="pure-u-1 center">
+          <li>
+            <a id="homeEventsLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.eventsSite()}>Chronik</a>
+            <ul id="homeEventsSubMenu">
+              {[
+                {url: appUrl.eventsSite(), name: 'Chronik der Astronomie'},
+                {url: appUrl.eventsSite(), name: 'Chronik der Raumfahrt'},
+
+              ].map(link =>
+                <li key={link.url+link.name}>
+                  <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
+                </li>
+              )}
+            </ul>
+          </li>
+        </ul>
+        <ul id="homePeopleMenu" className="pure-u-1 center">
+          <li>
+            <a id="homePeopleLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.peopleSite()}>Personen</a>
+            <ul id="homePeopleSubMenu">
+              {[
+                {url: appUrl.astronomersSite(), name: 'Astronomen'},
+                {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
+
+              ].map(link =>
+                <li key={link.url+link.name}>
+                  <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
+                </li>
+              )}
+            </ul>
+          </li>
+        </ul>
+        <ul id="homePlacesMenu" className="pure-u-1 center">
+          <li>
+            <a id="homePlacesLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.placesSite()}>Orte</a>
+            <ul id="homePlacesSubMenu">
+              {[
+                {url: appUrl.placesSite(), name: 'Orte der Astronomie'},
+                {url: appUrl.placesSite(), name: 'Orte der Raumfahrt'},
+
+              ].map(link =>
+                <li key={link.url+link.name}>
+                  <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
+                </li>
+              )}
+            </ul>
+          </li>
+        </ul>
+        <ul id="homeObjectsMenu" className="pure-u-1 center">
+          <li>
+            <a id="homeObjectsLink" className="pure-u-1 pure-u-md-1-2 home-link center" href={appUrl.objectsSite()}>Objekte</a>
+            <ul id="homeObjectsSubMenu">
+              {[
+                {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
+                {url: appUrl.constellationsSite(), name: 'Sternbilder'},
+                {url: appUrl.starsSite(), name: 'Sterne'},
+                {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
+
+              ].map(link =>
+                <li key={link.url+link.name}>
+                  <a className="pure-u-1 pure-u-md-1-2 home-link center" href={ link.url }>{ link.name }</a>
+                </li>
+              )}
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div id="homeFooter">
+
+      </div>
+    </main>
+  )
+};
+
+export default HomeComponent;
 
 //<div id="featured" className="pure-u-1 home center">
 //  <h1>CosmoWiki.de</h1>

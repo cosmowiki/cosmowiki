@@ -2,54 +2,45 @@ import React from 'react';
 import Notes from './notes';
 import LetterLinks from './chunks/letter-links';
 
-export default class PeopleComponent {
-  
-  render() {
-    
-    const groupedPeople = this.props.groupedPeople;
-    const allFirstLetters = Object.keys(groupedPeople);
-    const groupsIterable = allFirstLetters.map(key => groupedPeople[key]);
-    
-    return (
-      <main role="main" className="pure-u-1">
-        <div id="featured" className="persons center">
-          <h1>Personen</h1>
-          <h3>Entdecker, Pioniere, Wissenschaftler</h3>
-        </div>
-        
-        <LetterLinks letters={allFirstLetters} />
-        
-        <div id="dataTable" className="people">
-          <div id="personTable">
-            {groupsIterable.map((group, idx) => <PersonGroupComponent group={group} key={idx} />)}
-          </div>
-        </div>
-        <Notes />
-      </main>    
-    );
-  }
-  
-}
+const PeopleComponent = ({groupedPeople}) => {
+  const allFirstLetters = Object.keys(groupedPeople);
+  const groupsIterable = allFirstLetters.map(key => groupedPeople[key]);
 
-class PersonGroupComponent {
-  
-  render() {
-    const {group} = this.props;
-    const groupKey = group.key;
-    const people = group.data;
-    
-    return (
-      <div id={groupKey} className="pure-u-1 letter-section">
-        <div className="pure-u-1 letter-section-header">
-          <a className="first-letter pure-u-1-2" name={`#${groupKey}`}>{groupKey}</a>
-          <a className="scrollUpArrow pure-u-1-2 right" href="javascript:self.scrollTo(0,0);">&uarr;</a>
-        </div>
-        {people.map((person, idx) => <PersonComponent person={person} key={idx} />)}
+  return (
+    <main role="main" className="pure-u-1">
+      <div id="featured" className="persons center">
+        <h1>Personen</h1>
+        <h3>Entdecker, Pioniere, Wissenschaftler</h3>
       </div>
-    );
-  }
-  
-}
+
+      <LetterLinks letters={allFirstLetters} />
+
+      <div id="dataTable" className="people">
+        <div id="personTable">
+          {groupsIterable.map((group, idx) => <PersonGroupComponent group={group} key={idx} />)}
+        </div>
+      </div>
+      <Notes />
+    </main>
+  );
+};
+
+export default PeopleComponent;
+
+const PersonGroupComponent = ({group}) => {
+  const groupKey = group.key;
+  const people = group.data;
+
+  return (
+    <div id={groupKey} className="pure-u-1 letter-section">
+      <div className="pure-u-1 letter-section-header">
+        <a className="first-letter pure-u-1-2" name={`#${groupKey}`}>{groupKey}</a>
+        <a className="scrollUpArrow pure-u-1-2 right" href="javascript:self.scrollTo(0,0);">&uarr;</a>
+      </div>
+      {people.map((person, idx) => <PersonComponent person={person} key={idx} />)}
+    </div>
+  );
+};
 
 import classNames from 'classnames';
 class PersonComponent extends React.Component {
