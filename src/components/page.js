@@ -7,7 +7,7 @@ const PageComponent = ({children, appUrl}) => {
   return (
     <div id="wrapper" className="pure-g">
       <Logo/>
-      <header className="pure-u-1">
+      <header className="pure-u-1 center">
         <Navigation appUrl={appUrl} />
       </header>
       {children}
