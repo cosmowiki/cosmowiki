@@ -42,7 +42,7 @@ main.home {height: 100vh; display: block; border: 0;}
 #homeFooter {
 	height: 40px;
 	background-image: linear-gradient(to right, #fff 180px, rgba(255,255,255,.2));
-	border-top: 1px solid #fff;
+	border-top: 1px solid rgba(255,255,255,.7);
 }
 
 /*#boxChronicle {background: url("/img/box_chronicle.jpg") center top / contain no-repeat;}
