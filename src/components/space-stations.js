@@ -8,8 +8,8 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
         <h1>Raumstationen</h1>
         <h3>künstliche Habitate im All</h3>
       </div>
-      <div id="dataTable" className="stats">
-        <div id="statsTable">
+      <div id="dataTable" className="stations">
+        <div id="stationsTable">
           {stations.map((station, idx) => <StationComponent spaceStation={station} key={idx}/>)}
         </div>
       </div>
@@ -22,29 +22,36 @@ export default SpaceStationsComponent;
 
 const StationComponent = ({spaceStation:station}) => {
   return (
-    <div className="statRow pure-u-1">
-      <div className="statImgBox pure-u-1 pure-u-lg-1-3">
-        <img src={station.imageUrl} width="300" alt={station.name} />
-        <div className="statImgTxt right">
+    <div className="stationsRow pure-u-1">
+      <div className="stationsImgBox pure-u-1 pure-u-sm-1-4 center">
+        <a href={station.wikipediaUrl}><img src={station.imageUrl} alt={station.name} /></a>
+        <div className="stationsImgTxt center">
           Bildquelle: {station.imageSrc}
         </div>
       </div>
-      <ul className="statList pure-u-1 pure-u-lg-2-3">
-        <li className="statName"><a href={station.wikipediaUrl}>{station.name}</a></li>
-        <li>Betreiber: {station.operator}</li>
-        <li>Start: {station.launchDate} - Wiedereintritt in die Erdatmosphäre: {station.reenterDate}</li>
-        <li>gestartet von: <a href={station.pad.wikipediaUrl}>{station.pad.name}</a> mit <a href={station.rocket.wikipediaUrl}>{station.rocket.name}</a></li>
-        <li>{station.daysInOrbit} Tage im Orbit, davon {station.daysOccupied} Tage bemannt</li>
-        <li>maximale Besatzung: {station.crewSize}</li>
-        <li>{station.visitors} Astronauten haben die Station besucht</li>
-        <li>Flüge zur Station: {station.mannedDocks} bemannt, {station.unmannedDocks} unbemannt</li>
-        <li>Apogäum: {station.apo}, Perigäum: {station.peri}, Bahnneigung: {station.inclination}</li>
-        <li>Masse: {station.mass}</li>
-        <li>Volumen (unter Druck): {station.pressVol}</li>
-      </ul>
+      <div className="stationsList pure-u-1 pure-u-sm-1-2">
+        <ul>
+          <li className="stationsName"><a href={station.wikipediaUrl}>{station.name}</a></li>
+          <li>von: {station.launchDate} - bis: {station.reenterDate}</li>
+        </ul>
+      </div>
     </div>
   );
 };
+
+// <ul className="statList pure-u-1 pure-u-lg-2-3">
+//   <li className="statName"><a href={station.wikipediaUrl}>{station.name}</a></li>
+//   <li>Betreiber: {station.operator}</li>
+//   <li>Start: {station.launchDate} - Wiedereintritt in die Erdatmosphäre: {station.reenterDate}</li>
+//   <li>gestartet von: <a href={station.pad.wikipediaUrl}>{station.pad.name}</a> mit <a href={station.rocket.wikipediaUrl}>{station.rocket.name}</a></li>
+//   <li>{station.daysInOrbit} Tage im Orbit, davon {station.daysOccupied} Tage bemannt</li>
+//   <li>maximale Besatzung: {station.crewSize}</li>
+//   <li>{station.visitors} Astronauten haben die Station besucht</li>
+//   <li>Flüge zur Station: {station.mannedDocks} bemannt, {station.unmannedDocks} unbemannt</li>
+//   <li>Apogäum: {station.apo}, Perigäum: {station.peri}, Bahnneigung: {station.inclination}</li>
+//   <li>Masse: {station.mass}</li>
+//   <li>Volumen (unter Druck): {station.pressVol}</li>
+// </ul>
 
 //$query = "SELECT statname, statLink, statImgLink, statImgSource, statImgLic,
 //statImgLicLink, statOperator, statLaunchY, statLaunchM, statLaunchD,
