@@ -107,7 +107,7 @@ const HomeComponent = ({appUrl}) => {
         </ul>
       </div>
       <div id="homeFooter">
-
+        v. 1.0
       </div>
     </main>
   )
@@ -165,6 +165,6 @@ export default HomeComponent;
 //              Testgel&auml;nde und Weltraumbahnh&ouml;fe!</p>
 //<h3><a href="http://cosmowiki.de/de1/objects.php" title="Objekte" target="_self" className="liinternal">Objekte</a>
 //            </h3>
-//            <p>Arch&auml;ologische Fundst&uuml;cke, historische Apparaturen und Instrumente - 
+//            <p>Arch&auml;ologische Fundst&uuml;cke, historische Apparaturen und Instrumente -
 //              Raketen, Satelliten, Raumsonden - Planeten, Sterne oder Galaxien: Sie alle sind Objekte der Faszination
 //              f&uuml;r Tausende von Wissenschaftlern - und f&uuml;r uns.</p>
