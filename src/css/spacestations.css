@@ -2,9 +2,10 @@
 .stationsRow {display: inline-block; border-bottom: 1px solid #fff;}
 .stationsRow:hover {background: #f4f4f4;}
 .stationsRow:last-child {border-width: 0;}
-.stationsImgBox {min-width: 150px; padding: 10px;}
-.stationsRow img {width: 150px;}
-.stationsImgTxt {font-size: .8em;}
-.stationsList {padding: 10px;}
-.stationsRow li {line-height: 1.5em;}
+.stationsImgBox {min-width: 150px;}
+.stationsRow img {width: 150px; margin: 10px;}
+.stationsImgTxt {margin: 0 10px 10px; font-size: .8em;}
+.stationsList {}
+.stationsList ul {margin: 10px; padding: 0;}
+.stationsList li {line-height: 1.5em;}
 .stationsName {font-size: 1.5em;}
