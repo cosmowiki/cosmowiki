@@ -39,7 +39,7 @@ a:focus, a:hover, a:active {color: #333;}
 .visible {display: block;}
 .hidden {display: none;}
 
-/*>Global Properties -------------------------------------------------------- */
+/*>Borders ------------------------------------------------------------------ */
 
 #branding, nav,
 #featured, .subItem,
@@ -47,9 +47,18 @@ a:focus, a:hover, a:active {color: #333;}
 #dataTable, #notes,
 #footerContainer {border-bottom: 1px solid #fff;}
 
-#featured, #subItemsContainer, #notes {background: rgba(255,255,255,.8);}
+/*>Backgrounds -------------------------------------------------------------- */
 
-nav, #letterLinks, #footerContainer {background: #f8f8f8;}
+#featured, #subItemsContainer, #notes {background: rgba(255,255,255,.9);}
+
+nav, #footerContainer {background: #f8f8f8;}
+
+#letterLinks {background: #f0f0f0;}
+
+#dataTable {
+	background-image: linear-gradient(#f0f0f0 50%, rgba(255,255,255,.7));
+	background-attachment: fixed;
+}
 
 #footerFoot {background: #dadada;}
 
@@ -209,11 +218,7 @@ main {}
 
 /*		dataTable ------------------------------------------------------------- */
 
-#dataTable {
-	font-size: .8em;
-	background-image: linear-gradient(#f8f8f8 50%, rgba(255,255,255,.5) );
-	background-attachment: fixed;
-}
+#dataTable {font-size: .8em;}
 
 /*			notes --------------------------------------------------------------- */
 
