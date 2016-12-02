@@ -5,7 +5,7 @@
 #timelineHeader {background: url("/img/bg_timelinestart.png") no-repeat transparent;}
 
 .timelineRow {background: url("/img/bg_timeline.png") left no-repeat transparent;}
-.timelineRow:hover {font-size: 1.1em; background: #fff;	outline: 1px solid #55f;}
+.timelineRow:hover {font-size: 1.1em; background: #fff;}
 
 #timelineFooter {background: url("/img/bg_timelineend.png") no-repeat transparent;}
 
