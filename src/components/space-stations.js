@@ -29,11 +29,9 @@ const StationComponent = ({spaceStation:station}) => {
           Bildquelle: {station.imageSrc}
         </div>
       </div>
-      <div className="stationsList pure-u-1 pure-u-sm-1-2 center">
-        <ul>
-          <li className="stationsName"><a href={station.wikipediaUrl}>{station.name}</a></li>
-          <li>von: {station.launchDate} - bis: {station.reenterDate}</li>
-        </ul>
+      <div className="stationsInfo pure-u-1 pure-u-sm-1-2 center">
+        <div className="stationsName"><a href={station.wikipediaUrl}>{station.name}</a></div>
+        <div className="stationsDate">{station.launchDate} - {station.reenterDate}</div>
       </div>
     </div>
   );

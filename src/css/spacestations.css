@@ -3,9 +3,8 @@
 .stationsRow:hover {background: #f4f4f4;}
 .stationsRow:last-child {border-width: 0;}
 .stationsImgBox {min-width: 150px;}
-.stationsRow img {width: 150px; margin: 10px;}
+.stationsImgBox img {width: 150px; margin: 10px;}
 .stationsImgTxt {margin: 0 10px 10px; font-size: .8em;}
-.stationsList {}
-.stationsList ul {margin: 10px; padding: 0;}
-.stationsList li {line-height: 1.5em;}
-.stationsName {font-size: 1.5em;}
+.stationsInfo {}
+.stationsName {margin: 10px; padding: 0; font-size: 1.5em; line-height: 1.5em;}
+.stationsDate {margin: 10px; padding: 0; font-size: 1em; line-height: 1em;}
