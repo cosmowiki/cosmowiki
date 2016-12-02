@@ -23,15 +23,13 @@ export default SpaceStationsComponent;
 const StationComponent = ({spaceStation:station}) => {
   return (
     <div className="stationsRow pure-u-1">
-      <div className="stationsImgBox pure-u-1 pure-u-sm-1-4 center">
+      <div className="stationsImg pure-u-1 pure-u-sm-1-3 center">
         <a href={station.wikipediaUrl}><img src={station.imageUrl} alt={station.name} /></a>
-        <div className="stationsImgTxt center">
-          Bildquelle: {station.imageSrc}
-        </div>
+        <small>Bild: {station.imageSrc}</small>
       </div>
-      <div className="stationsInfo pure-u-1 pure-u-sm-1-2 center">
-        <div className="stationsName"><a href={station.wikipediaUrl}>{station.name}</a></div>
-        <div className="stationsDate">{station.launchDate} - {station.reenterDate}</div>
+      <div className="stationsInfo pure-u-1 pure-u-sm-1-3 center">
+        <a href={station.wikipediaUrl}>{station.name}</a><br />
+        {station.launchDate} - {station.reenterDate}
       </div>
     </div>
   );
