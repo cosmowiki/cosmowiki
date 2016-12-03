@@ -7,6 +7,8 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
       <div id="featured" className="stations center">
         <h1>Raumstationen</h1>
         <h3>künstliche Habitate im All</h3>
+        please add a function to leave the div stationsImg empty if station.imageUrl doesn't exist<br />
+        please edit the date-function to get "seit station.launchDate" if launchDate is past and "ab station.launchDate" if launchDate is future
       </div>
       <div id="dataTable" className="stations">
         <div id="stationsTable">
@@ -29,14 +31,11 @@ const StationComponent = ({spaceStation:station}) => {
       </div>
       <div className="stationsInfo pure-u-1 pure-u-sm-1-3 center">
         <a href={station.wikipediaUrl}>{station.name}</a><br />
-        {station.reenterDate ? `${station.launchDate} - ${station.reenterDate}` : `${station.launchDate}`}
+        {station.reenterDate ? `von ${station.launchDate} bis ${station.reenterDate}` : `${station.launchDate}`}
       </div>
     </div>
   );
 };
-// please add a function to leave the div stationsImg empty if station.imageUrl doesn't exist
-
-// please add a function to get "from" launchDate if launch in the past and "since" launchDate if launch in the future
 
 // <ul className="statList pure-u-1 pure-u-lg-2-3">
 //   <li className="statName"><a href={station.wikipediaUrl}>{station.name}</a></li>
