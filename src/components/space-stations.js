@@ -34,7 +34,9 @@ const StationComponent = ({spaceStation:station}) => {
     </div>
   );
 };
-// !!! please add a function to leave the div stationsImg empty if station.imageUrl doesn't exist
+// please add a function to leave the div stationsImg empty if station.imageUrl doesn't exist
+
+// please add a function to get "from" launchDate if launch in the past and "since" launchDate if launch in the future
 
 // <ul className="statList pure-u-1 pure-u-lg-2-3">
 //   <li className="statName"><a href={station.wikipediaUrl}>{station.name}</a></li>
