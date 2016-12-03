@@ -2,7 +2,7 @@ import React from 'react';
 import ChronicleComponent from '../components/chronicle';
 
 export default class Events {
-  
+
   static componentWithData(events) {
     return <ChronicleComponent items={events} />;
   }
@@ -10,31 +10,30 @@ export default class Events {
   static fromRawData(rawData) {
     return rawData.map(raw => Event.fromRawData(raw))
   }
-  
+
 }
 
 class Event {
-  
+
   static fromRawData(raw) {
-    //"chronicley": "3114 v. Chr.",
-    //"chroniclem": "08",
-    //"chronicled": "11",
-    //"chronicleloc": "Mittelamerika",
-    //"chronicleevent": "Einführung des Kalenders der Maya (Datum des Kalenderanfangs)",
-    //"chroniclelink": "https://de.wikipedia.org/wiki/Geschichte_der_Astronomie",
-    //"type": 1,
-    //"tags": "Kalender, Maya"
+    // "itemevent": "Einführung des Kalenders der Maya (Datum des Kalenderanfangs)",
+    // "itemurl": "https://de.wikipedia.org/wiki/Geschichte_der_Astronomie",
+    // "itemdateyear": "3114 v. Chr.",
+    // "itemdatemonth": 8,
+    // "itemdateday": 11,
+    // "itemlocation": "Mittelamerika",
+    // "itemtype": 1
     const item = new Event();
-    const year = raw.chronicley;
-    const month = raw.chroniclem ? `${raw.chroniclem}.` : '';
-    const day = raw.chronicled ? `${raw.chronicled}.` : '';
+    const year = raw.itemdateyear;
+    const month = raw.itemdatemonth ? `${raw.itemdatemonth}.` : '';
+    const day = raw.itemdateday ? `${raw.itemdateday}.` : '';
     item.readableDate = `${day}${month}${year}`;
-    item.location = raw.chronicleloc;
-    item.event = raw.chronicleevent; // deprecated use `name` instead
+    item.location = raw.itemlocation;
+    item.event = raw.itemevent; // deprecated use `name` instead
     item.name = item.event;
-    item.wikipediaUrl = raw.chroniclelink;
+    item.wikipediaUrl = raw.itemurl;
     //item.tags = raw.tags.split(',');
     return item;
   }
-  
+
 }
