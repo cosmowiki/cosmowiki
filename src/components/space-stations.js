@@ -29,11 +29,12 @@ const StationComponent = ({spaceStation:station}) => {
       </div>
       <div className="stationsInfo pure-u-1 pure-u-sm-1-3 center">
         <a href={station.wikipediaUrl}>{station.name}</a><br />
-        {station.launchDate} - {station.reenterDate}
+        {station.reenterDate ? `${station.launchDate} - ${station.reenterDate}` : `${station.launchDate}`}
       </div>
     </div>
   );
 };
+// !!! please add a function to leave the div stationsImg empty if station.imageUrl doesn't exist
 
 // <ul className="statList pure-u-1 pure-u-lg-2-3">
 //   <li className="statName"><a href={station.wikipediaUrl}>{station.name}</a></li>
@@ -48,36 +49,3 @@ const StationComponent = ({spaceStation:station}) => {
 //   <li>Masse: {station.mass}</li>
 //   <li>Volumen (unter Druck): {station.pressVol}</li>
 // </ul>
-
-//$query = "SELECT statname, statLink, statImgLink, statImgSource, statImgLic,
-//statImgLicLink, statOperator, statLaunchY, statLaunchM, statLaunchD,
-//statDaysInOrbit, statReenterY, statReenterM, statReenterD, statCrewSize,
-//statDaysOccu, statVisitors, statManVis, statUnmanVis, statApo, statPeri,
-//statIncli, statMass, statPressVol, statDescript
-//FROM spacestats ORDER by id";
-//if ($result = mysqli_query($link, $query)) {
-//// fetch object array
-//	while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
-//		// merge the date array elements yyyy mm dd to a dd.mm.yyyy string
-//		$launch = array($row[statLaunchD], $row[statLaunchM], $row[statLaunchY]);
-//		$reenter = array($row[statReenterD], $row[statReenterM], $row[statReenterY]);
-//		$launch = implode('.', array_filter($launch));
-//		$reenter = implode('.', array_filter($reenter));
-//		echo "<div className="statRow">
-//		<div className="statImg"><img src=$row[statImgLink] width="300"></div>
-//		<div className="statName"><a href=$row[statLink]>$row[statName]</a></div>
-//		<div className="statOperator">$row[statOperator]</div>
-//		<div className="statLaunch">$launch</div>
-//		<div className="statDaysInOrbit">$row[statDaysInOrbit]</div>
-//		<div className="statReenter">$reenter</div>
-//		<div className="statCrewSize center">$row[statCrewSize]</div>
-//		<div className="statDaysOccu center">$row[statDaysOcuu]</div>
-//		<div className="statVisitors center">$row[statVisitors]</div>
-//		<div className="statManVis center">$row[statManVis]</div>
-//		<div className="statUnmanVis center">$row[statUnmanVis]</div>
-//		<div className="statApo">$row[statApo]</div>
-//		<div className="statPeri">$row[statPeri]</div>
-//		<div className="statIncli">$row[statIncli]</div>
-//		<div className="statMass">$row[statMass]</div>
-//		<div className="statPressVol">$row[statPressVol]</div>
-//		</div>";
