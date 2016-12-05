@@ -29,7 +29,7 @@ export default StarsComponent;
 
 const FilterRow = ({constellations}) => {
   return (
-    <div id="filter" className="stars">
+    <div id="filter" className="stars center">
       <form id="filterConstellation">
         <span>filtern nach Sternbild:</span>
         <select name="const">
@@ -112,12 +112,12 @@ const StarComponent = ({star}) => {
 
 //<?php include("header.php")?>
 //<script type="text/javascript">
-//$(document).ready(function() { 
-//	$("#starsTable").tablesorter(); 
+//$(document).ready(function() {
+//	$("#starsTable").tablesorter();
 //}
 //);
 //</script>
-//	
+//
 //<?php
 //$link = mysqli_connect("localhost", "d01d6726", "tAdbJYXJhykvY7bR", "d01d6726");
 //mysqli_set_charset($link, "utf8");
