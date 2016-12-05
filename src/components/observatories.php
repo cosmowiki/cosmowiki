@@ -5,7 +5,7 @@
 			<p>Zentren der Beobachtung</p>
 		</div>
 		<script type="text/javascript" src="http://de.cosmowiki.de/js/observTable.js"></script>
-		<div id="dataTable" class="observ">
+		<div id="dataArea" class="observ">
 			<div style="text-align: center; position:relative; top:10px;">
 				<img src="http://cosmowiki.de/img/loading.gif" alt="" title="Bitte warten, Daten werden geladen."/></br>Bitte warten, Daten werden geladen.
 			</div>

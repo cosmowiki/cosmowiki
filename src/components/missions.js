@@ -16,7 +16,7 @@ const MissionsComponent = ({missions}) => {
           <span>filtern nach Zielen:</span>
         </form>
       </div>
-      <div id="dataTable" className="missions">
+      <div id="dataArea" className="missions">
         <table id="missionsTable" className="tablesorter">
           <thead>
           <tr id="missionsHeader">

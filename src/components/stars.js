@@ -15,7 +15,7 @@ const StarsComponent = ({groupedStars, constellations}) => {
       <FilterRow constellations={constellations} />
       <LetterLinks letters={allFirstLetters} />
 
-      <div id="dataTable" className="stars">
+      <div id="dataArea" className="stars">
         <div id="starsTable">
           {starsIterable.map((group, idx) => <StarsGroupComponent group={group} key={idx} />)}
         </div>

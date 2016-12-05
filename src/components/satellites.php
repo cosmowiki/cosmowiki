@@ -5,7 +5,7 @@
 			<p>messen, beobachten, &uuml;bertragen</p>
 		</div>
 		<script type="text/javascript" src="http://de.cosmowiki.de/js/satellitesTable.js"></script>
-		<div id="dataTable" class="satellites">
+		<div id="dataArea" class="satellites">
 			<div style="text-align: center; position:relative; top:10px;">
 				<img src="http://cosmowiki.de/img/loading.gif" alt="" title="Bitte warten, Daten werden geladen."/></br>Bitte warten, Daten werden geladen.
 			</div>

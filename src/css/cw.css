@@ -44,23 +44,26 @@ a:focus, a:hover, a:active {color: #333;}
 #branding, nav,
 #featured, .subItem,
 #filter, #letterLinks,
-#dataTable, #notes,
+#dataArea, #notes,
 #footerContainer {border-bottom: 1px solid #fff;}
 
 /*>Backgrounds -------------------------------------------------------------- */
 
-#featured, #subItemsContainer, #notes {background: rgba(255,255,255,.9);}
+nav, #footerContainer {background: #fafafa;}
 
-nav, #footerContainer {background: #f8f8f8;}
+#featured, #filter, #letterLinks, #notes {background: #f0f0f0;}
 
-#letterLinks {background: #f0f0f0;}
-
-#dataTable {
-	background-image: linear-gradient(#f0f0f0 50%, rgba(255,255,255,.7));
-	background-attachment: fixed;
-}
+#dataArea, #subItemsContainer {background: rgba(255,255,255,.85);}
 
 #footerFoot {background: #dadada;}
+
+/* Pure CSS ------------------------------------------------------------------*/
+
+.pure-menu-active>.pure-menu-link,
+.pure-menu-link:hover,
+.pure-menu-link:focus {
+	background-color: #e0e0e0;
+}
 
 /*	Structure --------------------------------------------------------------- */
 
@@ -83,7 +86,7 @@ nav, #footerContainer {background: #f8f8f8;}
 }
 
 #featured, #filter, #letterLinks, #subItemsContainer,
-#dataTable, #notes,
+#dataArea, #notes,
 #footerContainer, #footerFoot {margin: 0 auto; max-width: 1000px;}
 
 /*		Branding -------------------------------------------------------------- */
@@ -175,16 +178,17 @@ main {}
 	}
 #featured h3 {padding: 5px 0;}
 
+/*			todo ---------------------------------------------------------------- */
+
+#todo {background: red;}
+
 /*			subItems ------------------------------------------------------------ */
 
 .subItem {font-size: 1.5em; text-shadow: 1px 1px #fff; line-height: 3em;}
 
 /*			filter -------------------------------------------------------------- */
 
-#filter {
-	padding: 5px 0;	font-size: .8em;
-	background-image: linear-gradient(#fff, #f8f8f8);
-}
+#filter {padding: 5px 0;	font-size: .8em;}
 #filter form {display: inline;}
 #filter select {margin-left: 5px;}
 
@@ -216,9 +220,9 @@ main {}
 #tableSwitch {float: right;}
 */
 
-/*		dataTable ------------------------------------------------------------- */
+/*		dataArea ------------------------------------------------------------- */
 
-#dataTable {font-size: .8em;}
+#dataArea {font-size: .8em;}
 
 /*			notes --------------------------------------------------------------- */
 

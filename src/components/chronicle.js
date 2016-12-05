@@ -31,7 +31,7 @@ export default class ChronicleComponent extends React.Component {
           <h1>Chronik</h1>
           <h3>Meilensteine der Astronomie und Raumfahrt</h3>
         </div>
-        <div id="dataTable">
+        <div id="dataArea">
           <div id="timeline">
             <div id="timelineHeader"></div>
             {items.map((item, idx) => <ItemComponent item={item} key={idx} onClick={() => showOverlay(item)} />)}

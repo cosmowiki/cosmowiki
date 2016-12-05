@@ -5,7 +5,7 @@
 			<p>die st&auml;rksten Transporter</p>
 		</div>
 		<script type="text/javascript" src="http://de.cosmowiki.de/js/rocketsTable.js"></script>
-		<div id="dataTable" class="rockets">
+		<div id="dataArea" class="rockets">
 			<div style="text-align: center; position:relative; top:10px;">
 				<img src="http://cosmowiki.de/img/loading.gif" alt="" title="Bitte warten, Daten werden geladen."/></br>Bitte warten, Daten werden geladen.
 			</div>

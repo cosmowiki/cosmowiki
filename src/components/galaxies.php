@@ -5,7 +5,7 @@
 			<p>ferne Sternenwelten</p>
 		</div>
 		<script type="text/javascript" src="http://de.cosmowiki.de/js/galaxiesTable.js"></script>
-		<div id="dataTable" class="galaxies">
+		<div id="dataArea" class="galaxies">
 			<div style="text-align: center; position:relative; top:10px;">
 				<img src="http://cosmowiki.de/img/loading.gif" alt="" title="Bitte warten, Daten werden geladen."/></br>Bitte warten, Daten werden geladen.
 			</div>

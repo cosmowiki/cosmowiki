@@ -15,7 +15,7 @@ const PeopleComponent = ({groupedPeople}) => {
 
       <LetterLinks letters={allFirstLetters} />
 
-      <div id="dataTable" className="people">
+      <div id="dataArea" className="people">
         <div id="personTable">
           {groupsIterable.map((group, idx) => <PersonGroupComponent group={group} key={idx} />)}
         </div>
@@ -148,7 +148,7 @@ class PersonComponent extends React.Component {
 //			<a href="#Y">Y</a> -
 //			<a href="#Z">Z</a>
 //		</div>
-//		<div id="dataTable" class="person">
+//		<div id="dataArea" class="person">
 //			<div id="personTable">
 //				<div class="firstLetterRow">
 //					<!--<span class="firstLetter">

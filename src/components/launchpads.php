@@ -5,7 +5,7 @@
 			<p>3 ... 2 ... 1 ... Lift-off!</p>
 		</div>
 		<script type="text/javascript" src="http://de.cosmowiki.de/js/launchpadsTable.js"></script>
-		<div id="dataTable" class="launchpads">
+		<div id="dataArea" class="launchpads">
 			<div style="text-align: center; position:relative; top:10px;">
 				<img src="http://cosmowiki.de/img/loading.gif" alt="" title="Bitte warten, Daten werden geladen."/></br>Bitte warten, Daten werden geladen.
 			</div>

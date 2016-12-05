@@ -9,7 +9,7 @@ const SolarSystemComponent = () => {
         <h3>kosmische Heimat</h3>
       </div>
       <script type="text/javascript" src="js/solsysTable.js"></script>
-      <div id="dataTable" className="solsys">
+      <div id="dataArea" className="solsys">
         <div id="solsysTable">
           missing data ... got no JSON file for this :(
         </div>
