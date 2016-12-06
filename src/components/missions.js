@@ -4,7 +4,7 @@ import Notes from './notes';
 const MissionsComponent = ({missions}) => {
   return (
     <main role="main" className="pure-u-1">
-      <div id="featured" className="missions center">
+      <div id="featured" className="missions">
         <h1>Missionen</h1>
         <h3>bemannte und unbemannte Raumfahrtmissionen</h3>
       </div>

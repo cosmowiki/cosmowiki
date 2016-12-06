@@ -27,7 +27,7 @@ export default class ChronicleComponent extends React.Component {
 
     return (
       <main role="main" className="pure-u-1">
-        <div id="featured" className="chronicle center">
+        <div id="featured" className="chronicle">
           <h1>Chronik</h1>
           <h3>Meilensteine der Astronomie und Raumfahrt</h3>
         </div>

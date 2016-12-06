@@ -1,6 +1,6 @@
 <?php include("header.php")?>
 	<main role="main" class="pure-u-2-3">
-		<div id="featured" class="rockets center">
+		<div id="featured" class="rockets">
 			<h1>Raketen</h1>
 			<p>die st&auml;rksten Transporter</p>
 		</div>

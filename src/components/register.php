@@ -1,6 +1,6 @@
 <?php include("header.php")?>
 	<main role="main" class="pure-u-2-3">
-		<div id="featured" class="register center">
+		<div id="featured" class="register">
 			<h1>Register</h1>
 		</div>
 		<!--<div id="filter">

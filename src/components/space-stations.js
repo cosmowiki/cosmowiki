@@ -4,7 +4,7 @@ import Notes from './notes';
 const SpaceStationsComponent = ({spaceStations:stations}) => {
   return (
     <main role="main" className="pure-u-1">
-      <div id="featured" className="stations center">
+      <div id="featured" className="stations">
         <h1>Raumstationen</h1>
         <h3>künstliche Habitate im All</h3>
         <div id="todo">
@@ -38,17 +38,3 @@ const StationComponent = ({spaceStation:station}) => {
     </div>
   );
 };
-
-// <ul className="statList pure-u-1 pure-u-lg-2-3">
-//   <li className="statName"><a href={station.wikipediaUrl}>{station.name}</a></li>
-//   <li>Betreiber: {station.operator}</li>
-//   <li>Start: {station.launchDate} - Wiedereintritt in die Erdatmosphäre: {station.reenterDate}</li>
-//   <li>gestartet von: <a href={station.pad.wikipediaUrl}>{station.pad.name}</a> mit <a href={station.rocket.wikipediaUrl}>{station.rocket.name}</a></li>
-//   <li>{station.daysInOrbit} Tage im Orbit, davon {station.daysOccupied} Tage bemannt</li>
-//   <li>maximale Besatzung: {station.crewSize}</li>
-//   <li>{station.visitors} Astronauten haben die Station besucht</li>
-//   <li>Flüge zur Station: {station.mannedDocks} bemannt, {station.unmannedDocks} unbemannt</li>
-//   <li>Apogäum: {station.apo}, Perigäum: {station.peri}, Bahnneigung: {station.inclination}</li>
-//   <li>Masse: {station.mass}</li>
-//   <li>Volumen (unter Druck): {station.pressVol}</li>
-// </ul>

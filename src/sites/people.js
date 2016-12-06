@@ -3,20 +3,20 @@ import PeopleComponent from '../components/people';
 import Grouper from './helper/grouper';
 
 export default class People {
-  
+
   static fromRawData(rawData) {
     return rawData.map(raw => Person.fromRawData(raw))
   }
-  
+
   static componentWithData(people) {
     const groups = new Grouper(people).byName();
     return <PeopleComponent groupedPeople={groups} />;
   }
-  
+
 }
 
 export class Person {
-  
+
   constructor({name, wikipediaUrl, profession, country, description, born, died, type}) {
     this.name = name;
     this.wikipediaUrl = wikipediaUrl;
@@ -27,35 +27,36 @@ export class Person {
     this.died = died;
     this.type = type;
   }
-  
+
   static fromRawData(raw) {
-    //"personname": "Abbe",
-    //"personfirstname": "Cleveland",
-    //"personprof": "Astronom, Meteorologe",
-    //"personcountry": "USA",
-    //"personborny": "1838",
-    //"personbornm": "12",
-    //"personbornd": "3",
-    //"persondiedy": "1916",
-    //"persondiedm": "10",
-    //"persondiedd": "28",
-    //"persondescript": "erster Meteorologe",
-    //"personlink": "https://de.wikipedia.org/wiki/Cleveland_Abbe",
-    //"type": 1       1-astronomer 2-astronaut 3-both 0-neither
+      // "itemname": "Armstrong",
+      // "itemname2": "Neil",
+      // "itemurl": "https://de.wikipedia.org/wiki/Neil_Armstrong",
+      // "itemdescription": "Gemini 8, Apollo 11 - erster Mensch auf dem Mond am 21.06.1969",
+      // "itemdateyear": "1930",
+      // "itemdatemonth": 8,
+      // "itemdateday": 5,
+      // "itemdate2year": "2012",
+      // "itemdate2month": 8,
+      // "itemdate2day": 25,
+      // "itemcountry": "USA",
+      // "itemproperty": "Raumfahrer, Pilot",
+      // "itemtype": 2,
+      // "itemtags": "Gemini 8, Apollo 11, Mond, Mondlandung"
     let item = {
-      name: [raw.personname, raw.personfirstname].join(', '),
-      wikipediaUrl: raw.personlink,
-      profession: raw.personprof,
-      country: raw.personcountry,
-      description: raw.persondescript,
-      born: [raw.personbornd, raw.personbornm, raw.personborny].filter(v => v).join('.'),
-      died: [raw.persondiedd, raw.persondiedm, raw.persondiedy].filter(v => v).join('.'),
-      type: raw.type
+      name: [raw.itemname, raw.itemname2].join(', '),
+      wikipediaUrl: raw.itemurl,
+      profession: raw.itemproperty,
+      country: raw.itemcountry,
+      description: raw.itemdescription,
+      born: [raw.itemdateday, raw.itemdatemonth, raw.itemdateyear].filter(v => v).join('.'),
+      died: [raw.itemdate2day, raw.itemdate2month, raw.itemdate2year].filter(v => v).join('.'),
+      type: raw.itemtype
     };
     //item.tags = raw.tags.split(',');
     return new Person(item);
   }
-  
+
 }
 Person.ASTRONOMER = 1;
 Person.ASTRONAUT = 2;

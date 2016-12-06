@@ -1,6 +1,6 @@
 <?php include("header.php")?>
 	<main role="main" class="pure-u-2-3">
-		<div id="featured" class="launchpads center">
+		<div id="featured" class="launchpads">
 			<h1>Startpl&auml;tze</h1>
 			<p>3 ... 2 ... 1 ... Lift-off!</p>
 		</div>

@@ -1,6 +1,6 @@
 <?php include("header.php")?>
 	<main role="main" class="pure-u-2-3">
-		<div id="featured" class="galaxies center">
+		<div id="featured" class="galaxies">
 			<h1>Galaxien</h1>
 			<p>ferne Sternenwelten</p>
 		</div>

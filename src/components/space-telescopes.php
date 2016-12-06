@@ -1,6 +1,6 @@
 <?php include("header.php")?>
 	<main role="main" class="pure-u-2-3">
-		<div id="featured" class="spacetele center">
+		<div id="featured" class="spacetele">
 			<h1>Weltraumteleskope</h1>
 			<p>Augen und Ohren im All</p>
 		</div>

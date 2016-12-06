@@ -4,7 +4,7 @@ import Notes from './notes';
 const SolarSystemComponent = () => {
   return (
     <main role="main" className="pure-u-1">
-      <div id="featured" className="solsys center">
+      <div id="featured" className="solsys">
         <h1>unser Sonnensystem</h1>
         <h3>kosmische Heimat</h3>
       </div>

@@ -3,7 +3,7 @@ import React from 'react';
 const SpaceflightComponent = ({appUrl}) => {
   return (
     <main role="main" className="pure-u-2-3 pure-u-lg-1">
-      <div id="featured" className="spaceflight center">
+      <div id="featured" className="spaceflight">
         <h1>Raumfahrt</h1>
         <h3>der Aufbruch in unendliche Weiten</h3>
       </div>

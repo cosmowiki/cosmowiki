@@ -1,6 +1,6 @@
 <?php include("header.php")?>
 	<main role="main" class="pure-u-2-3">
-		<div id="featured" class="observ center">
+		<div id="featured" class="observ">
 			<h1>Observatorien</h1>
 			<p>Zentren der Beobachtung</p>
 		</div>
