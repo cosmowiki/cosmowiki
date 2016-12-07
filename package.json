@@ -31,7 +31,8 @@
     "watch:build:data": "chokidar 'data/' -c 'npm run build:data'",
     "watch:build:css": "chokidar 'src/css' -c 'npm run build:css'",
     "watch:build:img": "chokidar 'src/img' -c 'npm run build:img'",
-    "data-from-spreadsheet": "./data/update-data.sh $@"
+    "data-from-spreadsheet": "./data/update-data.sh $@",
+    "webtasks": "wt create webtasks/wikipedia-article-extract.js"
   },
   "author": "H. Porsch",
   "license": "MIT",
@@ -51,7 +52,8 @@
     "parallelshell": "^2.0.0",
     "power-assert": "^1.1.0",
     "sinon": "^1.17.1",
-    "watchify": "^3.7.0"
+    "watchify": "^3.7.0",
+    "wt-cli": "^3.8.0"
   },
   "dependencies": {
     "leaflet": "^1.0.1",
