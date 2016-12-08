@@ -24,7 +24,8 @@
     "build:data": "npm run make-dist-dir; babel-node src/scripts/minify-json.js \"$PWD/data\" \"$PWD/dist/data\"",
     "build:css": "cp -R src/css dist",
     "build:img": "cp -R src/img dist",
-    "build:app": "browserify src/index.js --outfile=dist/index.min.js --transform=babelify; babel-node src/index.js --makes-static-sites --for-offline=$npm_package_config_build_for_offline",
+    "build:app": "browserify src/index.js --outfile=dist/index.js --transform=babelify; babel-node src/index.js --makes-static-sites --for-offline=$npm_package_config_build_for_offline",
+    "postbuild:app": "uglifyjs dist/index.js --compress --mangle --output=dist/index.min.js",
     "watch:build": "npm run build; parallelshell 'npm run watch:build:app' 'npm run watch:build:html' 'npm run watch:build:data' 'npm run watch:build:css' 'npm run watch:build:img'",
     "watch:build:app": "watchify src/index.js --outfile=dist/index.min.js --transform=babelify --verbose",
     "watch:build:html": "chokidar 'src/index.html' -c 'npm run build:html'",
@@ -51,6 +52,7 @@
     "parallelshell": "^2.0.0",
     "power-assert": "^1.1.0",
     "sinon": "^1.17.1",
+    "uglify-js": "^2.7.4",
     "watchify": "^3.7.0"
   },
   "dependencies": {
