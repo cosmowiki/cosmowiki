@@ -49,7 +49,7 @@ export default class VcardComponent extends React.Component {
       : null;
 
     const article = () => {
-      return this.state.paragraphs.map((paragraph) => <p>{ paragraph }</p>);
+      return this.state.paragraphs.map((paragraph, idx) => <p key={ idx }>{ paragraph }</p>);
     };
 
     const wikipediaArticle = this.state.paragraphs.length === 0
