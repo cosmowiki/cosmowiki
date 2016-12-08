@@ -29,7 +29,11 @@
 	float: left; margin: 0 5px 5px 0; min-height: 150px; border: 2px solid #a0a0a0;
  }
 #vcardItemName, #vcardItemShort { padding: 5px 0; }
-#vcardItemLong { clear: both; }
+#vcardItemLong {
+  clear: both;
+  max-height: 20em;
+  overflow: scroll;
+}
 #vcardContentRight { padding-left: 10px;	width: 290px; border-left: 1px solid #a0a0ff; }
 .vcardItemRelatedCat { line-height: 1.1em; }
 .vcardItemRelatedLinks {}

@@ -1,8 +1,28 @@
 import React from 'react';
+require('isomorphic-fetch');
 
 export default class VcardComponent extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      paragraphs: [],
+    };
+  }
+
+  loadWikipediaText() {
+    const { item } = this.props;
+    const url = 'https://wt-wolfram--github-kriesing-de-0.run.webtask.io/wikipedia-article-extract?article-url=';
+    fetch(`${ url }${ encodeURIComponent(item.wikipediaUrl) }`)
+      .then((response) => response.json())
+      .then((text) => {
+        this.setState({ paragraphs: text.trim().split('\n') });
+      })
+    ;
+  }
+
   componentDidMount() {
     document.addEventListener('keydown', (evt) => this.onKeyDown(evt));
+    this.loadWikipediaText();
   }
 
   componentWillUnmount() {
@@ -28,6 +48,14 @@ export default class VcardComponent extends React.Component {
       ? <div id="vcardItemImg"><img src={ item.imageUrl }/></div>
       : null;
 
+    const article = () => {
+      return this.state.paragraphs.map((paragraph, idx) => <p key={ idx }>{ paragraph }</p>);
+    };
+
+    const wikipediaArticle = this.state.paragraphs.length === 0
+      ? <p>Loading...</p>
+      : article();
+
     return (
       <div>
         <div id="vcardBackground"></div>
@@ -49,7 +77,7 @@ export default class VcardComponent extends React.Component {
                     <h3>{ item.name }</h3>
                   </div>
                   { shortName }
-                  <div id="vcardItemLong" className="justify">{ item.description }</div>
+                  <div id="vcardItemLong" className="justify">{ wikipediaArticle }</div>
                 </div>
                 <div id="vcardContentRight">
                   <div className="vcardItemRelatedCat">
