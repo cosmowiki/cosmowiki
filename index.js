@@ -34054,6 +34054,41 @@ var HomeComponent = function HomeComponent(_ref) {
 
 exports["default"] = HomeComponent;
 
+// Idea for a tile-based design:
+// <div id="homeAstronomyMenu" className="pure-u-1 center">
+//   {[
+//     {url: appUrl.astronomySite(), name: 'Astronomie'},
+//     {url: appUrl.astronomersSite(), name: 'Astronomen'},
+//     {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
+//     {url: appUrl.constellationsSite(), name: 'Sternbilder'},
+//     {url: appUrl.starsSite(), name: 'Sterne'},
+//     {url: appUrl.spaceflightSite(), name: 'Raumfahrt'},
+//     {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
+//     {url: appUrl.missionsSite(), name: 'Missionen'},
+//     {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
+//     {url: appUrl.eventsSite(), name: 'Chronik'},
+//     {url: appUrl.eventsSite(), name: 'Chronik der Astronomie'},
+//     {url: appUrl.eventsSite(), name: 'Chronik der Raumfahrt'},
+//     {url: appUrl.peopleSite(), name: 'Personen'},
+//     {url: appUrl.astronomersSite(), name: 'Astronomen'},
+//     {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
+//     {url: appUrl.placesSite(), name: 'Orte'},
+//     {url: appUrl.placesSite(), name: 'Orte der Astronomie'},
+//     {url: appUrl.placesSite(), name: 'Orte der Raumfahrt'},
+//     {url: appUrl.objectsSite(), name: 'Objekte'},
+//     {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
+//     {url: appUrl.constellationsSite(), name: 'Sternbilder'},
+//     {url: appUrl.starsSite(), name: 'Sterne'},
+//     {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
+//
+//   ].map(link =>
+//     <div className="home-link-container" key={link.url+link.name}>
+//       <a className="home-link center" href={ link.url }>{ link.name }</a>
+//     </div>
+//   )}
+// </div>
+
+//old stuff with text and boxes
 //<div id="featured" className="pure-u-1 home center">
 //  <h1>CosmoWiki.de</h1>
 //  <h3>Astronomie + Raumfahrt = ein Lexikon</h3>
