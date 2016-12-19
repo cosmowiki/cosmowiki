@@ -4,70 +4,72 @@ const HomeComponent = ({appUrl}) => {
   return (
     <main className="home pure-u-1 center">
       <div id="homeNav" className="pure-u-1 center">
-        <ul className="pure-u-1 center">
-          <li>
-            <a className="chronicle" href={appUrl.eventsSite()}>Chronik</a>
+        <ul className="main-menu pure-u-1 center">
+          <li className="Chronik">
+            <a href={appUrl.eventsSite()}>Chronik</a>
           </li>
-          <li>
-            <a className="persons" href={appUrl.peopleSite()}>Personen</a>
-            <ul className="persons">
-              <li>
-                <a className="persons" href={appUrl.astronomersSite()}>Astronomen</a>
-              </li>
-              <li>
-                <a className="persons" href={appUrl.astronautsSite()}>Raumfahrer</a>
-              </li>
+          <li className="Personen">
+            <a href={appUrl.peopleSite()}>Personen</a>
+            <ul className="sub-menu">
+              {[
+                {url: appUrl.astronomersSite(), name: 'Astronomen'},
+                {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
+
+              ].map(link =>
+                <li className={ link.name } key={link.url+link.name}>
+                  <a href={ link.url }>{ link.name }</a>
+                </li>
+              )}
             </ul>
           </li>
-          <li>
-            <a className="places" href="places.php">Orte</a>
+          <li className="Orte">
+            <a href="places.php">Orte</a>
           </li>
-          <li>
-            <a className="objects" href={appUrl.objectsSite()}>Objekte</a>
-            <ul className="objects">
-              <li>
-                <a className="objects" href={appUrl.solarSystemSite()}>Sonnensystem</a>
-              </li>
-              <li>
-                <a className="objects" href={appUrl.constellationsSite()}>Sternbilder</a>
-              </li>
-              <li>
-                <a className="objects" href={appUrl.starsSite()}>Sterne</a>
-              </li>
-              <li>
-                <a className="objects" href={appUrl.spaceStationsSite()}>Raumstationen</a>
-              </li>
+          <li className="Objekte">
+            <a href={appUrl.objectsSite()}>Objekte</a>
+            <ul className="sub-menu">
+              {[
+                {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
+                {url: appUrl.constellationsSite(), name: 'Sternbilder'},
+                {url: appUrl.starsSite(), name: 'Sterne'},
+                {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
+
+              ].map(link =>
+                <li className={ link.name } key={link.url+link.name}>
+                  <a href={ link.url }>{ link.name }</a>
+                </li>
+              )}
             </ul>
           </li>
-          <li>
-            <a className="astronomy" href={appUrl.astronomySite()}>Astronomie</a>
-            <ul className="astronomy">
-              <li>
-                <a className="astronomy" href={appUrl.astronomersSite()}>Astronomen</a>
-              </li>
-              <li>
-                <a className="astronomy" href={appUrl.solarSystemSite()}>Sonnensystem</a>
-              </li>
-              <li>
-                <a className="astronomy" href={appUrl.constellationsSite()}>Sternbilder</a>
-              </li>
-              <li>
-                <a className="astronomy" href={appUrl.starsSite()}>Sterne</a>
-              </li>
+          <li className="Astronomie">
+            <a href={appUrl.astronomySite()}>Astronomie</a>
+            <ul className="sub-menu">
+              {[
+                {url: appUrl.astronomersSite(), name: 'Astronomen'},
+                {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
+                {url: appUrl.constellationsSite(), name: 'Sternbilder'},
+                {url: appUrl.starsSite(), name: 'Sterne'},
+
+              ].map(link =>
+                <li className={ link.name } key={link.url+link.name}>
+                  <a href={ link.url }>{ link.name }</a>
+                </li>
+              )}
             </ul>
           </li>
-          <li>
-            <a className="spaceflight" href={appUrl.spaceflightSite()}>Raumfahrt</a>
-            <ul className="spaceflight">
-              <li>
-                <a className="spaceflight" href={appUrl.astronautsSite()}>Raumfahrer</a>
-              </li>
-              <li>
-                <a className="spaceflight" href={appUrl.missionsSite()}>Missionen</a>
-              </li>
-              <li>
-                <a className="spaceflight" href={appUrl.spaceStationsSite()}>Raumstationen</a>
-              </li>
+          <li className="Raumfahrt">
+            <a href={appUrl.spaceflightSite()}>Raumfahrt</a>
+            <ul className="sub-menu">
+              {[
+                {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
+                {url: appUrl.missionsSite(), name: 'Missionen'},
+                {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
+
+              ].map(link =>
+                <li className={ link.name } key={link.url+link.name}>
+                  <a href={ link.url }>{ link.name }</a>
+                </li>
+              )}
             </ul>
           </li>
         </ul>
@@ -183,40 +185,6 @@ export default HomeComponent;
 //       </ul>
 //     </li>
 //   </ul>
-// </div>
-
-// Idea for a tile-based design:
-// <div id="homeAstronomyMenu" className="pure-u-1 center">
-//   {[
-//     {url: appUrl.astronomySite(), name: 'Astronomie'},
-//     {url: appUrl.astronomersSite(), name: 'Astronomen'},
-//     {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
-//     {url: appUrl.constellationsSite(), name: 'Sternbilder'},
-//     {url: appUrl.starsSite(), name: 'Sterne'},
-//     {url: appUrl.spaceflightSite(), name: 'Raumfahrt'},
-//     {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
-//     {url: appUrl.missionsSite(), name: 'Missionen'},
-//     {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
-//     {url: appUrl.eventsSite(), name: 'Chronik'},
-//     {url: appUrl.eventsSite(), name: 'Chronik der Astronomie'},
-//     {url: appUrl.eventsSite(), name: 'Chronik der Raumfahrt'},
-//     {url: appUrl.peopleSite(), name: 'Personen'},
-//     {url: appUrl.astronomersSite(), name: 'Astronomen'},
-//     {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
-//     {url: appUrl.placesSite(), name: 'Orte'},
-//     {url: appUrl.placesSite(), name: 'Orte der Astronomie'},
-//     {url: appUrl.placesSite(), name: 'Orte der Raumfahrt'},
-//     {url: appUrl.objectsSite(), name: 'Objekte'},
-//     {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
-//     {url: appUrl.constellationsSite(), name: 'Sternbilder'},
-//     {url: appUrl.starsSite(), name: 'Sterne'},
-//     {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
-//
-//   ].map(link =>
-//     <div className="home-link-container" key={link.url+link.name}>
-//       <a className="home-link center" href={ link.url }>{ link.name }</a>
-//     </div>
-//   )}
 // </div>
 
 //old stuff with text and boxes
