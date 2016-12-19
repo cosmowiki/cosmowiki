@@ -72,7 +72,9 @@ nav, #footerContainer {background: #fafafa;}
 
 #wrapper {
 	margin: 0 auto;
-	background: #225;
+	background: #114;
+}
+#wrapper {
 	background: url(/img/bgWrapper2_sm.jpg) center top / cover no-repeat fixed;
   -webkit-background-size: cover; -moz-background-size: cover;
   -o-background-size: cover; background-size: cover;
@@ -80,16 +82,14 @@ nav, #footerContainer {background: #fafafa;}
 
 @media only screen and (min-width: 48em) {
   #wrapper {
-		background: #225;
-    background: url(/img/bgWrapper2_md.jpg) center top / cover no-repeat fixed;
+		background: url(/img/bgWrapper2_md.jpg) center top / cover no-repeat fixed;
 		-webkit-background-size: cover; -moz-background-size: cover;
 	  -o-background-size: cover; background-size: cover;
   }
 }
 @media only screen and (min-width: 64em) {
   #wrapper {
-		background: #225;
-    background: url(/img/bgWrapper2_lg.jpg) center top / cover no-repeat fixed;
+		background: url(/img/bgWrapper2_lg.jpg) center top / cover no-repeat fixed;
 		-webkit-background-size: cover; -moz-background-size: cover;
 	  -o-background-size: cover; background-size: cover;
   }

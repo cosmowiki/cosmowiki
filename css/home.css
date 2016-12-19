@@ -16,50 +16,59 @@ a.nav-toggle:hover {
   }
 }
 
-/* homeNav -------------------------------------------------------------------*/
-#homeNav {display: block; background: transparent;}
-#homeNav.open {display: block;}
+/*  homeNav ------------------------------------------------------------------*/
 #homeNav ul {padding: 0;}
-#homeNav ul ul {display: none;}
-#homeNav li {transition: background 0.2s;}
-#homeNav li:last-child {border-right: 0;}
-
+#homeNav ul.sub-menu {display: none;}
+#homeNav ul.main-menu li:hover>ul.sub-menu {display: block;}
 #homeNav a {
-  display: block; padding: 1.5em;
+  display: block; padding: 1em;
 	font-size: 1.5em;
 	background: rgba(255,255,255,.8); transition: background 0.2s, transform 0.2s;
   border-bottom: 1px solid #fff;
 }
-#homeNav li:last-child a {border: 0;}
 #homeNav a:hover {background: rgba(255,255,255,.9);}
+#homeNav ul.main-menu li:last-child a {border-bottom: 0;}
 
-/* media queries for the home nav --------------------------------------------*/
+/*    sub-menu ---------------------------------------------------------------*/
+#homeNav ul.sub-menu li {width: 100%;}
+#homeNav ul.sub-menu li a, #homeNav.sub-menu li:last-child a {
+  padding: .5em;
+  font-size: 1.25em;
+  border-bottom: 1px solid #fff; border-right: 0;
+}
+#homeNav ul.sub-menu li:last-child a {
+  border-bottom: 1px solid #fff; border-right: 0;
+}
+
+/*  homeFooter ---------------------------------------------------------------*/
+#homeFooter {
+	height: 40px; font-size: .8em; line-height: 40px;
+	background-image: linear-gradient(to right, #fff 180px, rgba(255,255,255,.2));
+	border-top: 1px solid rgba(255,255,255,.7);
+}
+
+/*  media queries for the home nav -------------------------------------------*/
 @media all and (min-width: 35.5em) {
   main.home {padding: 0;}
   #homeNav {display: block;}
   #homeNav li {width: 100%; float: left;}
-  #homeNav li a {border-bottom: 1px solid #fff;}
-  #homeNav li:last-child a {border: 0;}
+  #homeNav a {border-bottom: 1px solid #fff;}
+  #homeNav ul.main-menu li:last-child a {border-right: 0; border-bottom: 0;}
+  #homeNav ul.sub-menu:first-child li a {border-top: 0;}
 }
 
 @media all and (min-width: 48em) {
   main.home {padding: 20% 0;}
   #homeNav li {width: 33.33%;}
-  #homeNav a {padding: 2em 1.5em; text-align: center;}
+  #homeNav a {padding: 2em .5em; text-align: center;}
 }
 
 @media all and (min-width: 64em) {
   main.home {padding: 20% 0;}
   #homeNav li {overflow: visible; width: 16.66%;}
-  #homeNav li a {padding: 2em 1em; border: 0; border-right: 1px solid #fff;}
-  #homeNav li:last-child a {border: 0;}
-}
-
-/* homeFooter ----------------------------------------------------------------*/
-#homeFooter {
-	height: 40px; font-size: .8em; line-height: 40px;
-	background-image: linear-gradient(to right, #fff 180px, rgba(255,255,255,.2));
-	border-top: 1px solid rgba(255,255,255,.7);
+  #homeNav a {padding: 2em .5em; border: 0; border-right: 1px solid #fff;}
+  #homeNav ul.main-menu li:last-child a {border-right: 0; border-bottom: 0;}
+  #homeNav ul.sub-menu li:first-child a {border-top: 1px solid #fff;}
 }
 
 /*#infoArea {
