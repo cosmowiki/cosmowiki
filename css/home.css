@@ -1,9 +1,70 @@
-/*#featured.home {background: black;/*url("/img/featured.jpg") center top no-repeat;*/}*/
-main.home {height: 100vh; display: block; border: 0;}
+/* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 
-#infoArea {
-	/*max-width: 960px;*/ margin: 0 auto; padding: 10px 0;
-	/*border-bottom: 1px solid #d0d0d0;*/
+a.nav-toggle {
+  display: block;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+}
+a.nav-toggle:hover {
+  /*background-color: #c8d2dc;*/
+}
+/* the breakpoint same as above */
+@media all and (min-width: 480px) {
+  a.nav-toggle {
+    /*display: none;*/
+  }
+}
+
+/* homeNav -------------------------------------------------------------------*/
+#homeNav {display: block; background: transparent;}
+#homeNav.open {display: block;}
+#homeNav ul {padding: 0;}
+#homeNav ul ul {display: none;}
+#homeNav li {transition: background 0.2s;}
+#homeNav li:last-child {border-right: 0;}
+
+#homeNav a {
+  display: block; padding: 1.5em;
+	font-size: 1.5em;
+	background: rgba(255,255,255,.8); transition: background 0.2s, transform 0.2s;
+  border-bottom: 1px solid #fff;
+}
+#homeNav li:last-child a {border: 0;}
+#homeNav a:hover {background: rgba(255,255,255,.9);}
+
+/* media queries for the home nav --------------------------------------------*/
+@media all and (min-width: 35.5em) {
+  main.home {padding: 0;}
+  #homeNav {display: block;}
+  #homeNav li {width: 100%; float: left;}
+  #homeNav li a {border-bottom: 1px solid #fff;}
+  #homeNav li:last-child a {border: 0;}
+}
+
+@media all and (min-width: 48em) {
+  main.home {padding: 20% 0;}
+  #homeNav li {width: 33.33%;}
+  #homeNav a {padding: 2em 1.5em; text-align: center;}
+}
+
+@media all and (min-width: 64em) {
+  main.home {padding: 20% 0;}
+  #homeNav li {overflow: visible; width: 16.66%;}
+  #homeNav li a {padding: 2em 1em; border: 0; border-right: 1px solid #fff;}
+  #homeNav li:last-child a {border: 0;}
+}
+
+/* homeFooter ----------------------------------------------------------------*/
+#homeFooter {
+	height: 40px; font-size: .8em; line-height: 40px;
+	background-image: linear-gradient(to right, #fff 180px, rgba(255,255,255,.2));
+	border-top: 1px solid rgba(255,255,255,.7);
+}
+
+/*#infoArea {
+	max-width: 960px; margin: 0 auto; padding: 10px 0;
+	border-bottom: 1px solid #d0d0d0;
 	}
 
 #infoText {
@@ -12,11 +73,11 @@ main.home {height: 100vh; display: block; border: 0;}
 	}
 
 #infoText h2 {margin: 10px;}
-#infoText p {margin: 10px;/*padding-right: 10px;*/}
+#infoText p {margin: 10px; padding-right: 10px;}*/
 /*#news {padding: 0 10px; overflow: scroll;}*/
 /*#news iframe {height: 180px;}*/
 
-#homeNav {margin: 10% auto; max-width: 1000px;}
+/*#homeNav {margin: 10% auto; max-width: 1000px;}
 
 #homeAstronomySubMenu,
 #homeSpaceflightSubMenu,
@@ -33,44 +94,21 @@ main.home {height: 100vh; display: block; border: 0;}
 	margin: 5px; height: 50px;
 	font-size: 1.3em; font-weight: bolder; line-height: 50px;
 	background-color: rgba(255,255,255,.7);
-	border: 1px solid white; border-radius: 3px;
-}
-
-/*idea for a tile-based design*/
-/*.home-link-container {
-	-webkit-flex-grow: 1; flex-grow: 1;
-  -webkit-flex-basis: auto; flex-basis: auto;
-	}
-
-.home-link {
-	margin: 5px; height: 50px;
-	font-size: 1.3em; font-weight: bolder; line-height: 50px;
-	background-color: rgba(255,255,255,.7);
-	border: 1px solid white; border-radius: 3px;
+	/*border: 1px solid white; border-radius: 3px;
 }*/
-
-.home-link:focus, .home-link:hover, .home-link:active {
-	background-color: rgba(248,248,248,.9);
-	}
-
-#homeFooter {
-	height: 40px; font-size: .8em; line-height: 40px;
-	background-image: linear-gradient(to right, #fff 180px, rgba(255,255,255,.2));
-	border-top: 1px solid rgba(255,255,255,.7);
-}
 
 /*#boxChronicle {background: url("/img/box_chronicle.jpg") center top / contain no-repeat;}
 #boxPeople {background: url("/img/box_people.jpg") center top / contain no-repeat;}
 #boxPlaces {background: url("/img/box_places.jpg") center top / contain no-repeat;}
-#boxObjects {background: url("/img/box_objects.jpg") center top / contain no-repeat;}*/
-.box h3 {margin-top: 140px;}
+#boxObjects {background: url("/img/box_objects.jpg") center top / contain no-repeat;}
+.box h3 {margin-top: 140px;}*/
 
-/*#boxLeft {max-width: 300px;}*/
-/*#boxMid {max-width: 298px; border-left: 1px solid #d0d0d0; border-right: 1px solid #d0d0d0;}*/
-/*#boxRight {max-width: 300px;}*/
-/*.box img {width: 298px; border: 1px solid #d0d0d0;}*/
+/*#boxLeft {max-width: 300px;}
+#boxMid {max-width: 298px; border-left: 1px solid #d0d0d0; border-right: 1px solid #d0d0d0;}
+#boxRight {max-width: 300px;}
+.box img {width: 298px; border: 1px solid #d0d0d0;}*/
 
-.cw-page-links.chronicle:focus,
+/*.cw-page-links.chronicle:focus,
 .cw-page-links.chronicle:hover,
 .cw-page-links.chronicle:active {
 	background: url("/img/featured_chronicle1.jpg") center no-repeat;
@@ -109,4 +147,4 @@ main.home {height: 100vh; display: block; border: 0;}
 .cw-page-links.missions:hover,
 .cw-page-links.missions:active {
 	background: url("/img/featured_missions1.jpg") center no-repeat;
-}
+}*/

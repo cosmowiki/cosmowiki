@@ -33627,7 +33627,7 @@ var ContentOnlyComponent = function ContentOnlyComponent(_ref) {
 
   return _react2['default'].createElement(
     'div',
-    { id: 'wrapper', className: 'pure-g' },
+    { id: 'wrapper', className: 'pure-g home' },
     _react2['default'].createElement(_logo2['default'], null),
     children
   );
@@ -33874,185 +33874,311 @@ var HomeComponent = function HomeComponent(_ref) {
     { className: "home pure-u-1 center" },
     _react2["default"].createElement(
       "div",
-      { id: "homeNav", className: "pure-u-7-8 pure-u-sm-3-4 pure-u-md-2-3 pure-u-lg-1-2 center" },
+      { id: "homeNav", className: "pure-u-1 center" },
       _react2["default"].createElement(
         "ul",
-        { id: "homeAstronomyMenu", className: "pure-u-1 center" },
+        { className: "pure-u-1 center" },
         _react2["default"].createElement(
           "li",
           null,
           _react2["default"].createElement(
             "a",
-            { id: "homeAstronomyLink", className: "pure-u-1 pure-u-md-2-3 home-link center", href: appUrl.astronomySite() },
-            "Astronomie"
-          ),
-          _react2["default"].createElement(
-            "ul",
-            { id: "homeAstronomySubMenu" },
-            [{ url: appUrl.astronomersSite(), name: 'Astronomen' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }].map(function (link) {
-              return _react2["default"].createElement(
-                "li",
-                { key: link.url + link.name },
-                _react2["default"].createElement(
-                  "a",
-                  { className: "pure-u-1 pure-u-md-2-3 home-link center", href: link.url },
-                  link.name
-                )
-              );
-            })
-          )
-        )
-      ),
-      _react2["default"].createElement(
-        "ul",
-        { id: "homeSpaceflightMenu", className: "pure-u-1 center" },
-        _react2["default"].createElement(
-          "li",
-          null,
-          _react2["default"].createElement(
-            "a",
-            { id: "homeSpaceflightLink", className: "pure-u-1 pure-u-md-2-3 home-link center", href: appUrl.spaceflightSite() },
-            "Raumfahrt"
-          ),
-          _react2["default"].createElement(
-            "ul",
-            { id: "homeSpaceflightSubMenu" },
-            [{ url: appUrl.astronautsSite(), name: 'Raumfahrer' }, { url: appUrl.missionsSite(), name: 'Missionen' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }].map(function (link) {
-              return _react2["default"].createElement(
-                "li",
-                { key: link.url + link.name },
-                _react2["default"].createElement(
-                  "a",
-                  { className: "pure-u-1 pure-u-md-2-3 home-link center", href: link.url },
-                  link.name
-                )
-              );
-            })
-          )
-        )
-      ),
-      _react2["default"].createElement(
-        "ul",
-        { id: "homeEventsMenu", className: "pure-u-1 center" },
-        _react2["default"].createElement(
-          "li",
-          null,
-          _react2["default"].createElement(
-            "a",
-            { id: "homeEventsLink", className: "pure-u-1 pure-u-md-2-3 home-link center", href: appUrl.eventsSite() },
+            { className: "chronicle", href: appUrl.eventsSite() },
             "Chronik"
-          ),
-          _react2["default"].createElement(
-            "ul",
-            { id: "homeEventsSubMenu" },
-            [{ url: appUrl.eventsSite(), name: 'Chronik der Astronomie' }, { url: appUrl.eventsSite(), name: 'Chronik der Raumfahrt' }].map(function (link) {
-              return _react2["default"].createElement(
-                "li",
-                { key: link.url + link.name },
-                _react2["default"].createElement(
-                  "a",
-                  { className: "pure-u-1 pure-u-md-2-3 home-link center", href: link.url },
-                  link.name
-                )
-              );
-            })
           )
-        )
-      ),
-      _react2["default"].createElement(
-        "ul",
-        { id: "homePeopleMenu", className: "pure-u-1 center" },
+        ),
         _react2["default"].createElement(
           "li",
           null,
           _react2["default"].createElement(
             "a",
-            { id: "homePeopleLink", className: "pure-u-1 pure-u-md-2-3 home-link center", href: appUrl.peopleSite() },
+            { className: "persons", href: appUrl.peopleSite() },
             "Personen"
           ),
           _react2["default"].createElement(
             "ul",
-            { id: "homePeopleSubMenu" },
-            [{ url: appUrl.astronomersSite(), name: 'Astronomen' }, { url: appUrl.astronautsSite(), name: 'Raumfahrer' }].map(function (link) {
-              return _react2["default"].createElement(
-                "li",
-                { key: link.url + link.name },
-                _react2["default"].createElement(
-                  "a",
-                  { className: "pure-u-1 pure-u-md-2-3 home-link center", href: link.url },
-                  link.name
-                )
-              );
-            })
+            { className: "persons" },
+            _react2["default"].createElement(
+              "li",
+              null,
+              _react2["default"].createElement(
+                "a",
+                { className: "persons", href: appUrl.astronomersSite() },
+                "Astronomen"
+              )
+            ),
+            _react2["default"].createElement(
+              "li",
+              null,
+              _react2["default"].createElement(
+                "a",
+                { className: "persons", href: appUrl.astronautsSite() },
+                "Raumfahrer"
+              )
+            )
           )
-        )
-      ),
-      _react2["default"].createElement(
-        "ul",
-        { id: "homePlacesMenu", className: "pure-u-1 center" },
+        ),
         _react2["default"].createElement(
           "li",
           null,
           _react2["default"].createElement(
             "a",
-            { id: "homePlacesLink", className: "pure-u-1 pure-u-md-2-3 home-link center", href: appUrl.placesSite() },
+            { className: "places", href: "places.php" },
             "Orte"
-          ),
-          _react2["default"].createElement(
-            "ul",
-            { id: "homePlacesSubMenu" },
-            [{ url: appUrl.placesSite(), name: 'Orte der Astronomie' }, { url: appUrl.placesSite(), name: 'Orte der Raumfahrt' }].map(function (link) {
-              return _react2["default"].createElement(
-                "li",
-                { key: link.url + link.name },
-                _react2["default"].createElement(
-                  "a",
-                  { className: "pure-u-1 pure-u-md-2-3 home-link center", href: link.url },
-                  link.name
-                )
-              );
-            })
           )
-        )
-      ),
-      _react2["default"].createElement(
-        "ul",
-        { id: "homeObjectsMenu", className: "pure-u-1 center" },
+        ),
         _react2["default"].createElement(
           "li",
           null,
           _react2["default"].createElement(
             "a",
-            { id: "homeObjectsLink", className: "pure-u-1 pure-u-md-2-3 home-link center", href: appUrl.objectsSite() },
+            { className: "objects", href: appUrl.objectsSite() },
             "Objekte"
           ),
           _react2["default"].createElement(
             "ul",
-            { id: "homeObjectsSubMenu" },
-            [{ url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }].map(function (link) {
-              return _react2["default"].createElement(
-                "li",
-                { key: link.url + link.name },
-                _react2["default"].createElement(
-                  "a",
-                  { className: "pure-u-1 pure-u-md-2-3 home-link center", href: link.url },
-                  link.name
-                )
-              );
-            })
+            { className: "objects" },
+            _react2["default"].createElement(
+              "li",
+              null,
+              _react2["default"].createElement(
+                "a",
+                { className: "objects", href: appUrl.solarSystemSite() },
+                "Sonnensystem"
+              )
+            ),
+            _react2["default"].createElement(
+              "li",
+              null,
+              _react2["default"].createElement(
+                "a",
+                { className: "objects", href: appUrl.constellationsSite() },
+                "Sternbilder"
+              )
+            ),
+            _react2["default"].createElement(
+              "li",
+              null,
+              _react2["default"].createElement(
+                "a",
+                { className: "objects", href: appUrl.starsSite() },
+                "Sterne"
+              )
+            ),
+            _react2["default"].createElement(
+              "li",
+              null,
+              _react2["default"].createElement(
+                "a",
+                { className: "objects", href: appUrl.spaceStationsSite() },
+                "Raumstationen"
+              )
+            )
+          )
+        ),
+        _react2["default"].createElement(
+          "li",
+          null,
+          _react2["default"].createElement(
+            "a",
+            { className: "astronomy", href: appUrl.astronomySite() },
+            "Astronomie"
+          ),
+          _react2["default"].createElement(
+            "ul",
+            { className: "astronomy" },
+            _react2["default"].createElement(
+              "li",
+              null,
+              _react2["default"].createElement(
+                "a",
+                { className: "astronomy", href: appUrl.astronomersSite() },
+                "Astronomen"
+              )
+            ),
+            _react2["default"].createElement(
+              "li",
+              null,
+              _react2["default"].createElement(
+                "a",
+                { className: "astronomy", href: appUrl.solarSystemSite() },
+                "Sonnensystem"
+              )
+            ),
+            _react2["default"].createElement(
+              "li",
+              null,
+              _react2["default"].createElement(
+                "a",
+                { className: "astronomy", href: appUrl.constellationsSite() },
+                "Sternbilder"
+              )
+            ),
+            _react2["default"].createElement(
+              "li",
+              null,
+              _react2["default"].createElement(
+                "a",
+                { className: "astronomy", href: appUrl.starsSite() },
+                "Sterne"
+              )
+            )
+          )
+        ),
+        _react2["default"].createElement(
+          "li",
+          null,
+          _react2["default"].createElement(
+            "a",
+            { className: "spaceflight", href: appUrl.spaceflightSite() },
+            "Raumfahrt"
+          ),
+          _react2["default"].createElement(
+            "ul",
+            { className: "spaceflight" },
+            _react2["default"].createElement(
+              "li",
+              null,
+              _react2["default"].createElement(
+                "a",
+                { className: "spaceflight", href: appUrl.astronautsSite() },
+                "Raumfahrer"
+              )
+            ),
+            _react2["default"].createElement(
+              "li",
+              null,
+              _react2["default"].createElement(
+                "a",
+                { className: "spaceflight", href: appUrl.missionsSite() },
+                "Missionen"
+              )
+            ),
+            _react2["default"].createElement(
+              "li",
+              null,
+              _react2["default"].createElement(
+                "a",
+                { className: "spaceflight", href: appUrl.spaceStationsSite() },
+                "Raumstationen"
+              )
+            )
           )
         )
       )
-    ),
-    _react2["default"].createElement(
-      "div",
-      { id: "homeFooter" },
-      "v. 1.0"
     )
-  );
+  )
+  // <div id="homeFooter">
+  //   v. 1.0
+  // </div>
+  ;
 };
 
 exports["default"] = HomeComponent;
+
+// <div id="homeNav" className="pure-u-7-8 pure-u-sm-3-4 pure-u-md-2-3 pure-u-lg-1-2 pure-menu-horizontal center">
+//   <ul id="homeAstronomyMenu" className="pure-u-1 pure-menu-list center">
+//     <li className="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+//       <a id="homeAstronomyLink" className="pure-u-1 pure-u-md-2-3 pure-menu-link home-link center" href={appUrl.astronomySite()}>Astronomie</a>
+//       <ul id="homeAstronomySubMenu">
+//         {[
+//           {url: appUrl.astronomersSite(), name: 'Astronomen'},
+//           {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
+//           {url: appUrl.constellationsSite(), name: 'Sternbilder'},
+//           {url: appUrl.starsSite(), name: 'Sterne'},
+//
+//         ].map(link =>
+//           <li key={link.url+link.name}>
+//             <a className="pure-u-1 pure-u-md-2-3 home-link center" href={ link.url }>{ link.name }</a>
+//           </li>
+//         )}
+//       </ul>
+//     </li>
+//   </ul>
+//   <ul id="homeSpaceflightMenu" className="pure-u-1 center">
+//     <li className="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+//       <a id="homeSpaceflightLink" className="pure-u-1 pure-u-md-2-3 pure-menu-link home-link center" href={appUrl.spaceflightSite()}>Raumfahrt</a>
+//       <ul id="homeSpaceflightSubMenu">
+//         {[
+//           {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
+//           {url: appUrl.missionsSite(), name: 'Missionen'},
+//           {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
+//
+//         ].map(link =>
+//           <li key={link.url+link.name}>
+//             <a className="pure-u-1 pure-u-md-2-3 home-link center" href={ link.url }>{ link.name }</a>
+//           </li>
+//         )}
+//       </ul>
+//     </li>
+//   </ul>
+//   <ul id="homeEventsMenu" className="pure-u-1 center">
+//     <li className="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+//       <a id="homeEventsLink" className="pure-u-1 pure-u-md-2-3 pure-menu-link home-link center" href={appUrl.eventsSite()}>Chronik</a>
+//       <ul id="homeEventsSubMenu">
+//         {[
+//           {url: appUrl.eventsSite(), name: 'Chronik der Astronomie'},
+//           {url: appUrl.eventsSite(), name: 'Chronik der Raumfahrt'},
+//
+//         ].map(link =>
+//           <li key={link.url+link.name}>
+//             <a className="pure-u-1 pure-u-md-2-3 home-link center" href={ link.url }>{ link.name }</a>
+//           </li>
+//         )}
+//       </ul>
+//     </li>
+//   </ul>
+//   <ul id="homePeopleMenu" className="pure-u-1 center">
+//     <li className="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+//       <a id="homePeopleLink" className="pure-u-1 pure-u-md-2-3 pure-menu-link home-link center" href={appUrl.peopleSite()}>Personen</a>
+//       <ul id="homePeopleSubMenu">
+//         {[
+//           {url: appUrl.astronomersSite(), name: 'Astronomen'},
+//           {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
+//
+//         ].map(link =>
+//           <li key={link.url+link.name}>
+//             <a className="pure-u-1 pure-u-md-2-3 home-link center" href={ link.url }>{ link.name }</a>
+//           </li>
+//         )}
+//       </ul>
+//     </li>
+//   </ul>
+//   <ul id="homePlacesMenu" className="pure-u-1 center">
+//     <li className="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+//       <a id="homePlacesLink" className="pure-u-1 pure-u-md-2-3 pure-menu-link home-link center" href={appUrl.placesSite()}>Orte</a>
+//       <ul id="homePlacesSubMenu">
+//         {[
+//           {url: appUrl.placesSite(), name: 'Orte der Astronomie'},
+//           {url: appUrl.placesSite(), name: 'Orte der Raumfahrt'},
+//
+//         ].map(link =>
+//           <li key={link.url+link.name}>
+//             <a className="pure-u-1 pure-u-md-2-3 home-link center" href={ link.url }>{ link.name }</a>
+//           </li>
+//         )}
+//       </ul>
+//     </li>
+//   </ul>
+//   <ul id="homeObjectsMenu" className="pure-u-1 center">
+//     <li className="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+//       <a id="homeObjectsLink" className="pure-u-1 pure-u-md-2-3 home-link center" href={appUrl.objectsSite()}>Objekte</a>
+//       <ul id="homeObjectsSubMenu">
+//         {[
+//           {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
+//           {url: appUrl.constellationsSite(), name: 'Sternbilder'},
+//           {url: appUrl.starsSite(), name: 'Sterne'},
+//           {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
+//
+//         ].map(link =>
+//           <li key={link.url+link.name}>
+//             <a className="pure-u-1 pure-u-md-2-3 home-link center" href={ link.url }>{ link.name }</a>
+//           </li>
+//         )}
+//       </ul>
+//     </li>
+//   </ul>
+// </div>
 
 // Idea for a tile-based design:
 // <div id="homeAstronomyMenu" className="pure-u-1 center">
