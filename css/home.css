@@ -1,23 +1,5 @@
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 
-a.nav-toggle {
-  display: block;
-  margin-bottom: 20px;
-  padding: 20px;
-  text-align: center;
-}
-a.nav-toggle:hover {
-  /*background-color: #c8d2dc;*/
-}
-/* the breakpoint same as above */
-@media all and (min-width: 480px) {
-  a.nav-toggle {
-    /*display: none;*/
-  }
-}
-
-/*  homeNav ------------------------------------------------------------------*/
-#homeNav ul {padding: 0;}
 #homeNav ul.sub-menu {display: none;}
 #homeNav ul.main-menu li:hover>ul.sub-menu {display: block;}
 #homeNav a {
@@ -30,6 +12,7 @@ a.nav-toggle:hover {
 #homeNav ul.main-menu li:last-child a {border-bottom: 0;}
 
 /*    sub-menu ---------------------------------------------------------------*/
+
 #homeNav ul.sub-menu li {width: 100%;}
 #homeNav ul.sub-menu li a, #homeNav.sub-menu li:last-child a {
   padding: .5em;
@@ -39,6 +22,7 @@ a.nav-toggle:hover {
 #homeNav ul.sub-menu li:last-child a {border-bottom: 1px solid #fff;}
 
 /*  media queries for the home nav -------------------------------------------*/
+
 @media all and (min-width: 35.5em) {
   main.home {padding: 0;}
   #homeNav {display: block;}
@@ -61,11 +45,73 @@ a.nav-toggle:hover {
     border-right: 1px solid #fff; border-bottom: none;
   }
   #homeNav ul.main-menu li:last-child a {border-right: none;}
-  #homeNav ul.sub-menu li a {border-top: 1px solid #fff; border-bottom: none;}
+  #homeNav ul.sub-menu li a {
+    border-top: 1px solid #fff; border-right: none; border-bottom: none;
+  }
   #homeNav ul.sub-menu li:last-child a {
     border-bottom: none; border-radius: 0 0 5px 5px;
   }
 }
+
+/*  home nav a:hover background images ---------------------------------------*/
+
+/*#homeNav li.Chronik a:hover {
+  background: url("/img/featured_chronicle1.jpg") center / cover no-repeat;
+}
+#homeNav li.Personen a:hover {
+  background: url("/img/featured_people1.jpg") center / cover no-repeat;
+}
+#homeNav li.Astronomen a:hover {
+  background: url("/img/featured_astronomers1.jpg") center / cover no-repeat;
+}
+#homeNav li.Raumfahrer a:hover {
+  background: url("/img/featured_astronauts1.jpg") center / cover no-repeat;
+}
+#homeNav li.Orte a:hover {
+  background: url("/img/featured_places1.jpg") center / cover no-repeat;
+}
+#homeNav li.Objekte a:hover {
+  background: url("/img/featured_objects1.jpg") center / cover no-repeat;
+}
+#homeNav li.Sonnensystem a:hover {
+  background: url("/img/featured_solsys1.jpg") center / cover no-repeat;
+}
+#homeNav li.Sternbilder a:hover {
+  background: url("/img/featured_constellations1.jpg") center / cover no-repeat;
+}
+#homeNav li.Sterne a:hover {
+  background: url("/img/featured_stars1.jpg") center / cover no-repeat;
+}
+#homeNav li.Raumstationen a:hover {
+  background: url("/img/featured_stations1.jpg") center / cover no-repeat;
+}
+#homeNav li.Astronomie a:hover {
+  background: url("/img/featured_astronomy1.jpg") center / cover no-repeat;
+}
+#homeNav li.Astronomen a:hover {
+  background: url("/img/featured_astronomers1.jpg") center / cover no-repeat;
+}
+#homeNav li.Sonnensystem a:hover {
+  background: url("/img/featured_solsys1.jpg") center / cover no-repeat;
+}
+#homeNav li.Sternbilder a:hover {
+  background: url("/img/featured_constellations1.jpg") center / cover no-repeat;
+}
+#homeNav li.Sterne a:hover {
+  background: url("/img/featured_stars1.jpg") center / cover no-repeat;
+}
+#homeNav li.Raumfahrt a:hover {
+  background: url("/img/featured_spaceflight1.jpg") center / cover no-repeat;
+}
+#homeNav li.Raumfahrer a:hover {
+  background: url("/img/featured_astronauts1.jpg") center / cover no-repeat;
+}
+#homeNav li.Missionen a:hover {
+  background: url("/img/featured_missions1.jpg") center / cover no-repeat;
+}
+#homeNav li.Raumstationen a:hover {
+  background: url("/img/featured_stations1.jpg") center / cover no-repeat;
+}*/
 
 /*  homeFooter ---------------------------------------------------------------*/
 #homeFooter {

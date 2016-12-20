@@ -1,16 +1,23 @@
 /*#featured.spaceflight {background: url("/img/featured_spaceflight.jpg") center top / contain no-repeat;}*/
-.subItem.astronauts:focus,
-.subItem.astronauts:hover,
-.subItem.astronauts:active {
-	background: url("/img/featured_astronauts1.jpg") center / cover no-repeat;
-}
-.subItem.missions:focus,
-.subItem.missions:hover,
-.subItem.missions:active {
-	background: url("/img/featured_missions1.jpg") center / cover no-repeat;
-}
-.subItem.stations:focus,
-.subItem.stations:hover,
-.subItem.stations:active {
-background: url("/img/featured_stations1.jpg") center / cover no-repeat;
+
+@media all and (min-width: 48em) {
+	#pageSubMenu a:focus,
+	#pageSubMenu a:hover,
+	#pageSubMenu a:active {color: #fff;}
+
+	#pageSubMenu li.Raumfahrer a:focus,
+	#pageSubMenu li.Raumfahrer a:hover,
+	#pageSubMenu li.Raumfahrer a:active {
+		background: url("/img/featured_astronauts1.jpg") center / cover no-repeat;
+	}
+	#pageSubMenu li.Missionen a:focus,
+	#pageSubMenu li.Missionen a:hover,
+	#pageSubMenu li.Missionen a:active {
+		background: url("/img/featured_missions1.jpg") center / cover no-repeat;
+	}
+	#pageSubMenu li.Raumstationen a:focus,
+	#pageSubMenu li.Raumstationen a:hover,
+	#pageSubMenu li.Raumstationen a:active {
+		background: url("/img/featured_stations1.jpg") center / cover no-repeat;
+	}
 }

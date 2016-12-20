@@ -33274,26 +33274,21 @@ var AstronomyComponent = function AstronomyComponent(_ref) {
     ),
     _react2["default"].createElement(
       "div",
-      { id: "subItemsContainer" },
+      { id: "pageSubMenuContainer" },
       _react2["default"].createElement(
-        "a",
-        { className: "pure-u-1 subItem astronomy astronomers center", href: appUrl.astronomersSite() },
-        "Astronomen"
-      ),
-      _react2["default"].createElement(
-        "a",
-        { className: "pure-u-1 subItem astronomy solsys center", href: appUrl.solarSystemSite() },
-        "Sonnensystem"
-      ),
-      _react2["default"].createElement(
-        "a",
-        { className: "pure-u-1 subItem astronomy const center", href: appUrl.constellationsSite() },
-        "Sternbilder"
-      ),
-      _react2["default"].createElement(
-        "a",
-        { className: "pure-u-1 subItem astronomy stars center", href: appUrl.starsSite() },
-        "Sterne"
+        "ul",
+        { id: "pageSubMenu", className: "pure-u-1 center" },
+        [{ url: appUrl.astronomersSite(), name: 'Astronomen' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }].map(function (link) {
+          return _react2["default"].createElement(
+            "li",
+            { className: link.name, key: link.url + link.name },
+            _react2["default"].createElement(
+              "a",
+              { href: link.url },
+              link.name
+            )
+          );
+        })
       )
     )
   );
@@ -34891,26 +34886,21 @@ var ObjectsComponent = function ObjectsComponent(_ref) {
     ),
     _react2["default"].createElement(
       "div",
-      { id: "subItemsContainer" },
+      { id: "pageSubMenuContainer" },
       _react2["default"].createElement(
-        "a",
-        { className: "pure-u-1 subItem objects solsys center", href: appUrl.solarSystemSite() },
-        "Sonnensystem"
-      ),
-      _react2["default"].createElement(
-        "a",
-        { className: "pure-u-1 subItem objects constellations center", href: appUrl.constellationsSite() },
-        "Sternbilder"
-      ),
-      _react2["default"].createElement(
-        "a",
-        { className: "pure-u-1 subItem objects stars center", href: appUrl.starsSite() },
-        "Sterne"
-      ),
-      _react2["default"].createElement(
-        "a",
-        { className: "pure-u-1 subItem objects stations center", href: appUrl.spaceStationsSite() },
-        "Raumstationen"
+        "ul",
+        { id: "pageSubMenu", className: "pure-u-1 center" },
+        [{ url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }].map(function (link) {
+          return _react2["default"].createElement(
+            "li",
+            { className: link.name, key: link.url + link.name },
+            _react2["default"].createElement(
+              "a",
+              { href: link.url },
+              link.name
+            )
+          );
+        })
       )
     )
   );
@@ -35326,7 +35316,7 @@ var SpaceflightComponent = function SpaceflightComponent(_ref) {
 
   return _react2["default"].createElement(
     "main",
-    { role: "main", className: "pure-u-2-3 pure-u-lg-1" },
+    { role: "main", className: "pure-u-1" },
     _react2["default"].createElement(
       "div",
       { id: "featured", className: "spaceflight" },
@@ -35343,21 +35333,21 @@ var SpaceflightComponent = function SpaceflightComponent(_ref) {
     ),
     _react2["default"].createElement(
       "div",
-      { id: "subItemsContainer" },
+      { id: "pageSubMenuContainer" },
       _react2["default"].createElement(
-        "a",
-        { className: "pure-u-1 subItem spaceflight astronauts center", href: appUrl.astronautsSite() },
-        "Raumfahrer"
-      ),
-      _react2["default"].createElement(
-        "a",
-        { className: "pure-u-1 subItem spaceflight missions center", href: appUrl.missionsSite() },
-        "Missionen"
-      ),
-      _react2["default"].createElement(
-        "a",
-        { className: "pure-u-1 subItem spaceflight stations center", href: appUrl.spaceStationsSite() },
-        "Raumstationen"
+        "ul",
+        { id: "pageSubMenu", className: "pure-u-1 center" },
+        [{ url: appUrl.astronautsSite(), name: 'Raumfahrer' }, { url: appUrl.missionsSite(), name: 'Missionen' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }].map(function (link) {
+          return _react2["default"].createElement(
+            "li",
+            { className: link.name, key: link.url + link.name },
+            _react2["default"].createElement(
+              "a",
+              { href: link.url },
+              link.name
+            )
+          );
+        })
       )
     )
   );

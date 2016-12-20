@@ -1,21 +1,28 @@
 /*#featured.astronomy {background: url("/img/featured_astronomy.jpg") center top / contain no-repeat;}*/
-.subItem.astronomers:focus,
-.subItem.astronomers:hover,
-.subItem.astronomers:active {
-	background: url("/img/featured_astronomers1.jpg") center / cover no-repeat;
-}
-.subItem.solsys:focus,
-.subItem.solsys:hover,
-.subItem.solsys:active {
-	background: url("/img/featured_solsys1.jpg") center / cover no-repeat;
-}
-.subItem.const:focus,
-.subItem.const:hover,
-.subItem.const:active {
-	background: url("/img/featured_constellations1.jpg") center / cover no-repeat;
-}
-.subItem.stars:focus,
-.subItem.stars:hover,
-.subItem.stars:active {
-	background: url("/img/featured_stars1.jpg") center / cover no-repeat;
+
+@media all and (min-width: 48em) {
+	#pageSubMenu a:focus,
+	#pageSubMenu a:hover,
+	#pageSubMenu a:active {color: #fff;}
+	
+	#pageSubMenu li.Astronomen a:focus,
+	#pageSubMenu li.Astronomen a:hover,
+	#pageSubMenu li.Astronomen a:active {
+		background: url("/img/featured_astronomers1.jpg") center / cover no-repeat;
+	}
+	#pageSubMenu li.Sonnensystem a:focus,
+	#pageSubMenu li.Sonnensystem a:hover,
+	#pageSubMenu li.Sonnensystem a:active {
+		background: url("/img/featured_solsys1.jpg") center / cover no-repeat;
+	}
+	#pageSubMenu li.Sternbilder a:focus,
+	#pageSubMenu li.Sternbilder a:hover,
+	#pageSubMenu li.Sternbilder a:active {
+		background: url("/img/featured_constellations1.jpg") center / cover no-repeat;
+	}
+	#pageSubMenu li.Sterne a:focus,
+	#pageSubMenu li.Sterne a:hover,
+	#pageSubMenu li.Sterne a:active {
+		background: url("/img/featured_stars1.jpg") center / cover no-repeat;
+	}
 }
