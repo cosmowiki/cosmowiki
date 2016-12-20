@@ -7,11 +7,20 @@ const AstronomyComponent = ({appUrl}) => {
         <h1>Astronomie</h1>
         <h3>der Blick zu den Sternen</h3>
       </div>
-      <div id="subItemsContainer">
-        <a className="pure-u-1 subItem astronomy astronomers center" href={appUrl.astronomersSite()}>Astronomen</a>
-        <a className="pure-u-1 subItem astronomy solsys center" href={appUrl.solarSystemSite()}>Sonnensystem</a>
-        <a className="pure-u-1 subItem astronomy const center" href={appUrl.constellationsSite()}>Sternbilder</a>
-        <a className="pure-u-1 subItem astronomy stars center" href={appUrl.starsSite()}>Sterne</a>
+      <div id="pageSubMenuContainer">
+        <ul id="pageSubMenu" className="pure-u-1 center">
+          {[
+            {url: appUrl.astronomersSite(), name: 'Astronomen'},
+            {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
+            {url: appUrl.constellationsSite(), name: 'Sternbilder'},
+            {url: appUrl.starsSite(), name: 'Sterne'},
+
+          ].map(link =>
+            <li className={ link.name } key={link.url+link.name}>
+              <a href={ link.url }>{ link.name }</a>
+            </li>
+          )}
+        </ul>
       </div>
     </main>
   )

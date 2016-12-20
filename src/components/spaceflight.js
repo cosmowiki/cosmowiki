@@ -2,15 +2,24 @@ import React from 'react';
 
 const SpaceflightComponent = ({appUrl}) => {
   return (
-    <main role="main" className="pure-u-2-3 pure-u-lg-1">
+    <main role="main" className="pure-u-1">
       <div id="featured" className="spaceflight">
         <h1>Raumfahrt</h1>
         <h3>der Aufbruch in unendliche Weiten</h3>
       </div>
-      <div id="subItemsContainer">
-        <a className="pure-u-1 subItem spaceflight astronauts center" href={appUrl.astronautsSite()}>Raumfahrer</a>
-        <a className="pure-u-1 subItem spaceflight missions center" href={appUrl.missionsSite()}>Missionen</a>
-        <a className="pure-u-1 subItem spaceflight stations center" href={appUrl.spaceStationsSite()}>Raumstationen</a>
+      <div id="pageSubMenuContainer">
+        <ul id="pageSubMenu" className="pure-u-1 center">
+          {[
+            {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
+            {url: appUrl.missionsSite(), name: 'Missionen'},
+            {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
+
+          ].map(link =>
+            <li className={ link.name } key={link.url+link.name}>
+              <a href={ link.url }>{ link.name }</a>
+            </li>
+          )}
+        </ul>
       </div>
     </main>
   );

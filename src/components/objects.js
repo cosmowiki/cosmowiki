@@ -7,11 +7,19 @@ const ObjectsComponent = ({appUrl}) => {
         <h1>Objekte</h1>
         <h3>Himmelsk&ouml;rper, Raumfahrzeuge, Instrumente</h3>
       </div>
-      <div id="subItemsContainer">
-        <a className="pure-u-1 subItem objects solsys center" href={appUrl.solarSystemSite()}>Sonnensystem</a>
-        <a className="pure-u-1 subItem objects constellations center" href={appUrl.constellationsSite()}>Sternbilder</a>
-        <a className="pure-u-1 subItem objects stars center" href={appUrl.starsSite()}>Sterne</a>
-        <a className="pure-u-1 subItem objects stations center" href={appUrl.spaceStationsSite()}>Raumstationen</a>
+      <div id="pageSubMenuContainer">
+        <ul id="pageSubMenu" className="pure-u-1 center">
+          {[
+            {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
+            {url: appUrl.constellationsSite(), name: 'Sternbilder'},
+            {url: appUrl.starsSite(), name: 'Sterne'},
+
+          ].map(link =>
+            <li className={ link.name } key={link.url+link.name}>
+              <a href={ link.url }>{ link.name }</a>
+            </li>
+          )}
+        </ul>
       </div>
     </main>
   );
