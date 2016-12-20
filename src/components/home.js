@@ -66,7 +66,7 @@ const HomeComponent = ({appUrl}) => {
                 {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
 
               ].map(link =>
-                <li className={ link.name } key={link.url+link.name}>
+                <li id={ link.name } key={link.url+link.name}>
                   <a href={ link.url }>{ link.name }</a>
                 </li>
               )}
@@ -75,9 +75,6 @@ const HomeComponent = ({appUrl}) => {
         </ul>
       </div>
     </main>
-    // <div id="homeFooter">
-    //   v. 1.0
-    // </div>
   )
 };
 
