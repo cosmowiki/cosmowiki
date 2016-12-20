@@ -53,72 +53,72 @@
   }
 }
 
-/*  home nav a:hover background images ---------------------------------------*/
-
-/*#homeNav li.Chronik a:hover {
-  background: url("/img/featured_chronicle1.jpg") center / cover no-repeat;
-}
-#homeNav li.Personen a:hover {
-  background: url("/img/featured_people1.jpg") center / cover no-repeat;
-}
-#homeNav li.Astronomen a:hover {
-  background: url("/img/featured_astronomers1.jpg") center / cover no-repeat;
-}
-#homeNav li.Raumfahrer a:hover {
-  background: url("/img/featured_astronauts1.jpg") center / cover no-repeat;
-}
-#homeNav li.Orte a:hover {
-  background: url("/img/featured_places1.jpg") center / cover no-repeat;
-}
-#homeNav li.Objekte a:hover {
-  background: url("/img/featured_objects1.jpg") center / cover no-repeat;
-}
-#homeNav li.Sonnensystem a:hover {
-  background: url("/img/featured_solsys1.jpg") center / cover no-repeat;
-}
-#homeNav li.Sternbilder a:hover {
-  background: url("/img/featured_constellations1.jpg") center / cover no-repeat;
-}
-#homeNav li.Sterne a:hover {
-  background: url("/img/featured_stars1.jpg") center / cover no-repeat;
-}
-#homeNav li.Raumstationen a:hover {
-  background: url("/img/featured_stations1.jpg") center / cover no-repeat;
-}
-#homeNav li.Astronomie a:hover {
-  background: url("/img/featured_astronomy1.jpg") center / cover no-repeat;
-}
-#homeNav li.Astronomen a:hover {
-  background: url("/img/featured_astronomers1.jpg") center / cover no-repeat;
-}
-#homeNav li.Sonnensystem a:hover {
-  background: url("/img/featured_solsys1.jpg") center / cover no-repeat;
-}
-#homeNav li.Sternbilder a:hover {
-  background: url("/img/featured_constellations1.jpg") center / cover no-repeat;
-}
-#homeNav li.Sterne a:hover {
-  background: url("/img/featured_stars1.jpg") center / cover no-repeat;
-}
-#homeNav li.Raumfahrt a:hover {
-  background: url("/img/featured_spaceflight1.jpg") center / cover no-repeat;
-}
-#homeNav li.Raumfahrer a:hover {
-  background: url("/img/featured_astronauts1.jpg") center / cover no-repeat;
-}
-#homeNav li.Missionen a:hover {
-  background: url("/img/featured_missions1.jpg") center / cover no-repeat;
-}
-#homeNav li.Raumstationen a:hover {
-  background: url("/img/featured_stations1.jpg") center / cover no-repeat;
-}*/
-
 /*  homeFooter ---------------------------------------------------------------*/
 #homeFooter {
 	height: 40px; font-size: .8em; line-height: 40px;
 	background-image: linear-gradient(to right, #fff 180px, rgba(255,255,255,.2));
-	border-top: 1px solid rgba(255,255,255,.7);
+	border-top: 1px solid #fff;
 }
+
+/*  home nav a:hover background images ---------------------------------------*/
+
+/*#homeNav li#Chronik a:hover {
+  background: url("/img/featured_chronicle1.jpg") center / cover no-repeat;
+}
+#homeNav li#Personen a:hover {
+  background: url("/img/featured_people1.jpg") center / cover no-repeat;
+}
+#homeNav li#Astronomen a:hover {
+  background: url("/img/featured_astronomers1.jpg") center / cover no-repeat;
+}
+#homeNav li#Raumfahrer a:hover {
+  background: url("/img/featured_astronauts1.jpg") center / cover no-repeat;
+}
+#homeNav li#Orte a:hover {
+  background: url("/img/featured_places1.jpg") center / cover no-repeat;
+}
+#homeNav li#Objekte a:hover {
+  background: url("/img/featured_objects1.jpg") center / cover no-repeat;
+}
+#homeNav li#Sonnensystem a:hover {
+  background: url("/img/featured_solsys1.jpg") center / cover no-repeat;
+}
+#homeNav li#Sternbilder a:hover {
+  background: url("/img/featured_constellations1.jpg") center / cover no-repeat;
+}
+#homeNav li#Sterne a:hover {
+  background: url("/img/featured_stars1.jpg") center / cover no-repeat;
+}
+#homeNav li#Raumstationen a:hover {
+  background: url("/img/featured_stations1.jpg") center / cover no-repeat;
+}
+#homeNav li#Astronomie a:hover {
+  background: url("/img/featured_astronomy1.jpg") center / cover no-repeat;
+}
+#homeNav li#Astronomen a:hover {
+  background: url("/img/featured_astronomers1.jpg") center / cover no-repeat;
+}
+#homeNav li#Sonnensystem a:hover {
+  background: url("/img/featured_solsys1.jpg") center / cover no-repeat;
+}
+#homeNav li#Sternbilder a:hover {
+  background: url("/img/featured_constellations1.jpg") center / cover no-repeat;
+}
+#homeNav li#Sterne a:hover {
+  background: url("/img/featured_stars1.jpg") center / cover no-repeat;
+}
+#homeNav li#Raumfahrt a:hover {
+  background: url("/img/featured_spaceflight1.jpg") center / cover no-repeat;
+}
+#homeNav li#Raumfahrer a:hover {
+  background: url("/img/featured_astronauts1.jpg") center / cover no-repeat;
+}
+#homeNav li#Missionen a:hover {
+  background: url("/img/featured_missions1.jpg") center / cover no-repeat;
+}
+#homeNav li#Raumstationen a:hover {
+  background: url("/img/featured_stations1.jpg") center / cover no-repeat;
+}*/
 
 /*#infoArea {
 	max-width: 960px; margin: 0 auto; padding: 10px 0;
