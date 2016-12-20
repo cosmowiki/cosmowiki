@@ -34176,8 +34176,8 @@ var Homefooter = function Homefooter(_ref) {
   var appUrl = _ref.appUrl;
 
   return _react2["default"].createElement(
-    "div",
-    { id: "homeFooter", className: "pure-u-1 home center" },
+    "footer",
+    { className: "pure-u-1 home center" },
     "v. 1.0"
   );
 };
