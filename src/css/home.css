@@ -23,7 +23,7 @@ a.nav-toggle:hover {
 #homeNav a {
   display: block; padding: 1em;
 	font-size: 1.5em;
-	background: rgba(255,255,255,.8); transition: background 0.2s, transform 0.2s;
+	background: rgba(255,255,255,.8);
   border-bottom: 1px solid #fff;
 }
 #homeNav a:hover {background: rgba(255,255,255,.9);}
@@ -34,18 +34,9 @@ a.nav-toggle:hover {
 #homeNav ul.sub-menu li a, #homeNav.sub-menu li:last-child a {
   padding: .5em;
   font-size: 1.25em;
-  border-bottom: 1px solid #fff; border-right: 0;
+  border-bottom: 1px solid #fff;
 }
-#homeNav ul.sub-menu li:last-child a {
-  border-bottom: 1px solid #fff; border-right: 0;
-}
-
-/*  homeFooter ---------------------------------------------------------------*/
-#homeFooter {
-	height: 40px; font-size: .8em; line-height: 40px;
-	background-image: linear-gradient(to right, #fff 180px, rgba(255,255,255,.2));
-	border-top: 1px solid rgba(255,255,255,.7);
-}
+#homeNav ul.sub-menu li:last-child a {border-bottom: 1px solid #fff;}
 
 /*  media queries for the home nav -------------------------------------------*/
 @media all and (min-width: 35.5em) {
@@ -53,22 +44,34 @@ a.nav-toggle:hover {
   #homeNav {display: block;}
   #homeNav li {width: 100%; float: left;}
   #homeNav a {border-bottom: 1px solid #fff;}
-  #homeNav ul.main-menu li:last-child a {border-right: 0; border-bottom: 0;}
-  #homeNav ul.sub-menu:first-child li a {border-top: 0;}
 }
 
 @media all and (min-width: 48em) {
-  main.home {padding: 20% 0;}
-  #homeNav li {width: 33.33%;}
-  #homeNav a {padding: 2em .5em; text-align: center;}
+  main.home {padding: 5% 0;}
+  #homeNav {width: 50%; margin: auto;}
+  #homeNav a {padding: 1em .5em;}
 }
 
 @media all and (min-width: 64em) {
   main.home {padding: 20% 0;}
-  #homeNav li {overflow: visible; width: 16.66%;}
-  #homeNav a {padding: 2em .5em; border: 0; border-right: 1px solid #fff;}
-  #homeNav ul.main-menu li:last-child a {border-right: 0; border-bottom: 0;}
-  #homeNav ul.sub-menu li:first-child a {border-top: 1px solid #fff;}
+  #homeNav {width: 100%;}
+  #homeNav li {width: 16.66%;}
+  #homeNav a {
+    padding: 2em .5em;
+    border-right: 1px solid #fff; border-bottom: none;
+  }
+  #homeNav ul.main-menu li:last-child a {border-right: none;}
+  #homeNav ul.sub-menu li a {border-top: 1px solid #fff; border-bottom: none;}
+  #homeNav ul.sub-menu li:last-child a {
+    border-bottom: none; border-radius: 0 0 5px 5px;
+  }
+}
+
+/*  homeFooter ---------------------------------------------------------------*/
+#homeFooter {
+	height: 40px; font-size: .8em; line-height: 40px;
+	background-image: linear-gradient(to right, #fff 180px, rgba(255,255,255,.2));
+	border-top: 1px solid rgba(255,255,255,.7);
 }
 
 /*#infoArea {
@@ -85,26 +88,6 @@ a.nav-toggle:hover {
 #infoText p {margin: 10px; padding-right: 10px;}*/
 /*#news {padding: 0 10px; overflow: scroll;}*/
 /*#news iframe {height: 180px;}*/
-
-/*#homeNav {margin: 10% auto; max-width: 1000px;}
-
-#homeAstronomySubMenu,
-#homeSpaceflightSubMenu,
-#homeEventsSubMenu,
-#homePeopleSubMenu,
-#homePlacesSubMenu,
-#homeObjectsSubMenu {
-	visibility: hidden; opacity: 0; max-height: 0;
-	-webkit-transition: max-height .3s, visibility .3s, opacity .3s ease-out;
-	transition: max-height .3s, visibility .3s, opacity .3s ease-out;
-	}
-
-.home-link {
-	margin: 5px; height: 50px;
-	font-size: 1.3em; font-weight: bolder; line-height: 50px;
-	background-color: rgba(255,255,255,.7);
-	/*border: 1px solid white; border-radius: 3px;
-}*/
 
 /*#boxChronicle {background: url("/img/box_chronicle.jpg") center top / contain no-repeat;}
 #boxPeople {background: url("/img/box_people.jpg") center top / contain no-repeat;}
