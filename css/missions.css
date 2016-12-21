@@ -1,5 +1,18 @@
 /*#featured.missions {background: url("/img/featured_missions.jpg") center top / contain no-repeat;}*/
-#missionsHeader {
+
+.missionsRow {display: inline-block; border-bottom: 1px solid #fff;}
+.missionsRow:last-child {border-width: 0;}
+.missionsRow:hover {background: #fff;}
+
+.missionImg {min-width: 150px;}
+.missionImg img {width: 150px; display: block; margin: 2% auto;}
+.missionImg small {margin-left: 50%; font-size: .8em;}
+
+.missionInfo a, .missionInfo p {float: left; line-height: 1.5em; }
+.missionInfo a {font-size: 1.5em;}
+.missionInfo p {margin-left: 1em; padding: 0;}
+
+/*#missionsHeader {
 	background-image: linear-gradient(to bottom, #fff 0%, #d2d2ff 100%);
 	border-bottom: 1px solid #d0d0d0;
 }
@@ -19,7 +32,7 @@
 .missionPad {width: 116px;}
 .missionCrew {width: 47px; padding-right: 4px;}
 .missionDest {width: 104px;}
-.missionDuration {width: 105px; padding-right: 3px;}
+.missionDuration {width: 105px; padding-right: 3px;}*/
 /*
 #missionsTable .infoRow {
 	position: absolute; min-width: 250px; max-width: 496px; display: none;

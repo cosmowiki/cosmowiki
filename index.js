@@ -34331,68 +34331,11 @@ var MissionsComponent = function MissionsComponent(_ref) {
       'div',
       { id: 'dataArea', className: 'missions' },
       _react2['default'].createElement(
-        'table',
+        'div',
         { id: 'missionsTable', className: 'tablesorter' },
-        _react2['default'].createElement(
-          'thead',
-          null,
-          _react2['default'].createElement(
-            'tr',
-            { id: 'missionsHeader' },
-            _react2['default'].createElement(
-              'th',
-              { className: 'missionLaunch center' },
-              'Start'
-            ),
-            _react2['default'].createElement(
-              'th',
-              { className: 'missionName left' },
-              'Name'
-            ),
-            _react2['default'].createElement(
-              'th',
-              { className: 'missionCountry left' },
-              'Land'
-            ),
-            _react2['default'].createElement(
-              'th',
-              { className: 'missionRocket left' },
-              'Träger'
-            ),
-            _react2['default'].createElement(
-              'th',
-              { className: 'missionPad left' },
-              'Startplatz'
-            ),
-            _react2['default'].createElement(
-              'th',
-              { className: 'missionDest left' },
-              'Ziel'
-            ),
-            _react2['default'].createElement(
-              'th',
-              { className: 'missionCrew center' },
-              'Crew'
-            ),
-            _react2['default'].createElement(
-              'th',
-              { className: 'missionDuration left' },
-              'Dauer'
-            ),
-            _react2['default'].createElement(
-              'th',
-              { className: 'missionEnd center' },
-              'Ende'
-            )
-          )
-        ),
-        _react2['default'].createElement(
-          'tbody',
-          null,
-          missions.map(function (mission, idx) {
-            return _react2['default'].createElement(MissionComponent, { mission: mission, key: idx });
-          })
-        )
+        missions.map(function (mission, idx) {
+          return _react2['default'].createElement(MissionComponent, { mission: mission, key: idx });
+        })
       )
     ),
     _react2['default'].createElement(_notes2['default'], null)
@@ -34405,56 +34348,31 @@ var MissionComponent = function MissionComponent(_ref2) {
   var mission = _ref2.mission;
 
   return _react2['default'].createElement(
-    'tr',
-    { className: 'missionsRow' },
+    'div',
+    { className: 'missionsRow pure-u-1' },
     _react2['default'].createElement(
-      'td',
-      { className: 'missionLaunch center' },
-      mission.launchDate
-    ),
-    _react2['default'].createElement(
-      'td',
-      { className: 'missionName' },
+      'div',
+      { className: 'missionInfo pure-u-1 pure-u-sm-1-3 center' },
       _react2['default'].createElement(
         'a',
-        { href: mission.link },
+        { href: mission.wikipediaUrl },
         mission.name
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        mission.launchDate ? 'Start: ' + mission.launchDate : ''
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        mission.endDate ? 'Missionsende: ' + mission.endDate : ''
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        mission.reenterDate ? 'Wiedereintritt: ' + mission.reenterDate : ''
       )
-    ),
-    _react2['default'].createElement(
-      'td',
-      { className: 'missionCountry' },
-      mission.country
-    ),
-    _react2['default'].createElement(
-      'td',
-      { className: 'missionRocket' },
-      mission.rocket ? _react2['default'].createElement(RocketLink, { rocket: mission.rocket }) : '-'
-    ),
-    _react2['default'].createElement(
-      'td',
-      { className: 'missionPad' },
-      mission.pad ? _react2['default'].createElement(PadLink, { pad: mission.pad }) : '-'
-    ),
-    _react2['default'].createElement(
-      'td',
-      { className: 'missionDest' },
-      mission.destination
-    ),
-    _react2['default'].createElement(
-      'td',
-      { className: 'missionCrew center' },
-      mission.crew
-    ),
-    _react2['default'].createElement(
-      'td',
-      { className: 'missionDuration' },
-      mission.duration
-    ),
-    _react2['default'].createElement(
-      'td',
-      { className: 'missionEnd center' },
-      mission.endDate
     )
   );
 };
@@ -34478,6 +34396,11 @@ var PadLink = function PadLink(_ref4) {
     pad.name
   );
 };
+
+// <div className="missionImg pure-u-1 pure-u-sm-1-3 center">
+//   <a href={mission.wikipediaUrl}><img src={mission.imageUrl} alt={mission.name} /></a>
+//   <small>Bild: {mission.imageSrc}</small>
+// </div>
 module.exports = exports['default'];
 
 },{"./notes":432,"react":443}],431:[function(require,module,exports){
@@ -36974,6 +36897,10 @@ var Mission = (function () {
       var endmonth = raw.itemdate2month ? raw.itemdate2month + '.' : '';
       var endday = raw.itemdate2day ? raw.itemdate2day + '.' : '';
       mission.endDate = '' + endday + endmonth + endyear;
+      var reenteryear = raw.itemdate3year ? '' + raw.itemdate3year : '';
+      var reentermonth = raw.itemdate3month ? raw.itemdate3month + '.' : '';
+      var reenterday = raw.itemdate3day ? raw.itemdate3day + '.' : '';
+      mission.reenterDate = '' + reenterday + reentermonth + reenteryear;
 
       return mission;
     }
