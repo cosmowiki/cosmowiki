@@ -26,7 +26,7 @@ p {padding-top: 10px;}
 
 ul {list-style-type: none;}
 
-a {font-weight: 500; text-decoration: none;}
+a {font-weight: 500; text-decoration: none; cursor: pointer;}
 a, a:link, a:visited {color: #55f;}
 a:focus, a:hover, a:active {color: #333;}
 
@@ -54,8 +54,9 @@ nav, #footerContainer {background: #fafafa;}
 
 #featured, #filter, #letterLinks, #notes {background: #f0f0f0;}
 
-#dataArea, #pageSubMenu a {background: rgba(255,255,255,.8);}
+#pageSubMenu a {background: rgba(255,255,255,.8);}
 
+#dataArea,
 #pageSubMenu a:focus,
 #pageSubMenu a:hover,
 #pageSubMenu a:active {background: rgba(255,255,255,.9);}
@@ -205,14 +206,17 @@ main {}
 
 /*			letterLinks --------------------------------------------------------- */
 
-#letterLinks {line-height: 30px;}
-#letterLinks a {font-size: .8em;}
-#letterLinks a:focus, #letterLinks a:hover, #letterLinks a:active {
-	font-size: 1em; letter-spacing: -.1em; transition: all 50ms linear;
+#letterLinks li {display: inline-block; padding: .2em 0;}
+#letterLinks a {display: inline-block; margin-left: .2em;}
+#letterLinks a:hover {font-weight: bold;}
+#letterLinks a:after {
+	margin-left: .2em; content:attr(title); height: .2em;
+  font-weight:bold; color:transparent;
+  overflow:hidden; visibility:hidden;
 }
 .first-letter, .scrollUpArrow {
 	max-width: 30%; margin: 5px 10px;
-	font-size: 1.3em; font-weight: 500;
+	font-size: 1.3em; font-weight: bold;
 	}
 .scrollUpArrow {float: right;}
 

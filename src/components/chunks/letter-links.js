@@ -4,7 +4,9 @@ const LetterLinks = ({letters}) => {
   const lastIndex = letters.length - 1;
   return (
     <div id="letterLinks" className="person center">
-      {letters.map((letter, index) => <Letter letter={letter} isLast={index == lastIndex} key={index} />)}
+      <ul id="letterLinksList">
+        {letters.map((letter, index) => <Letter letter={letter} isLast={index == lastIndex} key={index} />)}
+      </ul>
     </div>
   );
 };
@@ -13,8 +15,8 @@ export default LetterLinks;
 
 const Letter = ({letter, isLast}) => {
   return (
-    <span>
+    <li className="letter-link">
       <a href={`#${letter}`}>{letter}</a>{isLast ? '' : ' - '}
-    </span>
+    </li>
   )
 };
