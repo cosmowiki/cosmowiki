@@ -8,8 +8,7 @@ const ConstellationsComponent = ({constellations}) => {
         <h1>Sternbilder</h1>
         <h3>Figuren am Firmament</h3>
         <div id="todo">
-          please add a function to leave the div constellationImg empty if constellation.imageUrl doesn't exist<br/>
-          pls replace the constellationNotes with Notes, footnotes can be placed in the vcard if necessary
+          please add a function to leave the div constellationImg empty if constellation.imageUrl doesn't exist
         </div>
       </div>
       <div id="filter" className="constellations">
