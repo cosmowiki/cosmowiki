@@ -34,24 +34,9 @@ const MissionsComponent = ({missions}) => {
         </form>
       </div>
       <div id="dataArea" className="missions">
-        <table id="missionsTable" className="tablesorter">
-          <thead>
-          <tr id="missionsHeader">
-            <th className="missionLaunch center">Start</th>
-            <th className="missionName left">Name</th>
-            <th className="missionCountry left">Land</th>
-            <th className="missionRocket left">Träger</th>
-            <th className="missionPad left">Startplatz</th>
-            <th className="missionDest left">Ziel</th>
-            <th className="missionCrew center">Crew</th>
-            <th className="missionDuration left">Dauer</th>
-            <th className="missionEnd center">Ende</th>
-          </tr>
-          </thead>
-          <tbody>
-            {missions.map((mission, idx) => <MissionComponent mission={mission} key={idx}/>)}
-          </tbody>
-        </table>
+        <div id="missionsTable" className="tablesorter">
+          {missions.map((mission, idx) => <MissionComponent mission={mission} key={idx}/>)}
+        </div>
       </div>
       <Notes />
     </main>
@@ -62,17 +47,14 @@ export default MissionsComponent;
 
 const MissionComponent = ({mission}) => {
   return (
-    <tr className="missionsRow">
-      <td className="missionLaunch center">{mission.launchDate}</td>
-      <td className="missionName"><a href={mission.link}>{mission.name}</a></td>
-      <td className="missionCountry">{mission.country}</td>
-      <td className="missionRocket">{mission.rocket ? <RocketLink rocket={mission.rocket} /> : '-'}</td>
-      <td className="missionPad">{mission.pad ? <PadLink pad={mission.pad} /> : '-'}</td>
-      <td className="missionDest">{mission.destination}</td>
-      <td className="missionCrew center">{mission.crew}</td>
-      <td className="missionDuration">{mission.duration}</td>
-      <td className="missionEnd center">{mission.endDate}</td>
-    </tr>
+    <div className="missionsRow pure-u-1">
+      <div className="missionInfo pure-u-1 pure-u-sm-1-3 center">
+        <a href={mission.wikipediaUrl}>{mission.name}</a>
+        <p>{mission.launchDate ? `Start: ${mission.launchDate}` : ''}</p>
+        <p>{mission.endDate ? `Missionsende: ${mission.endDate}` : ''}</p>
+        <p>{mission.reenterDate ? `Wiedereintritt: ${mission.reenterDate}` : ''}</p>
+      </div>
+    </div>
   );
 };
 
@@ -87,3 +69,8 @@ const PadLink = ({pad}) => {
     <a href={pad.wikipediaUrl}>{pad.name}</a>
   );
 };
+
+// <div className="missionImg pure-u-1 pure-u-sm-1-3 center">
+//   <a href={mission.wikipediaUrl}><img src={mission.imageUrl} alt={mission.name} /></a>
+//   <small>Bild: {mission.imageSrc}</small>
+// </div>

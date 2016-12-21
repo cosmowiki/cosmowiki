@@ -38,6 +38,10 @@ class Mission {
     const endmonth = raw.itemdate2month ? `${raw.itemdate2month}.` : '';
     const endday = raw.itemdate2day ? `${raw.itemdate2day}.` : '';
     mission.endDate = `${endday}${endmonth}${endyear}`;
+    const reenteryear = raw.itemdate3year ? `${raw.itemdate3year}`: '';
+    const reentermonth = raw.itemdate3month ? `${raw.itemdate3month}.` : '';
+    const reenterday = raw.itemdate3day ? `${raw.itemdate3day}.` : '';
+    mission.reenterDate = `${reenterday}${reentermonth}${reenteryear}`;
 
     return mission;
   }
