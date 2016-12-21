@@ -1,5 +1,5 @@
 import React from 'react';
-import {ConstellationNotes} from './notes';
+import Notes from './notes';
 
 const ConstellationsComponent = ({constellations}) => {
   return (
@@ -14,8 +14,8 @@ const ConstellationsComponent = ({constellations}) => {
       </div>
       <div id="filter" className="constellations">
         <form id="filterNorthSouth">
-          <span>filtern nach Halbkugel:</span>
-          <select name="northsouth">
+          <p>Sichtbarkeit nach Halbkugel:</p>
+          <select name="visibility">
             <option>beide</option>
             <option>nördlich</option>
             <option>südlich</option>
@@ -27,7 +27,7 @@ const ConstellationsComponent = ({constellations}) => {
           {constellations.map((constellation, idx) => <ConstellationComponent constellation={constellation} key={idx}/>)}
         </div>
       </div>
-      <ConstellationNotes />
+      <Notes />
     </main>
   );
 };
