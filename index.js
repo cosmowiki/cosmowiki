@@ -33445,9 +33445,13 @@ var LetterLinks = function LetterLinks(_ref) {
   return _react2["default"].createElement(
     "div",
     { id: "letterLinks", className: "person center" },
-    letters.map(function (letter, index) {
-      return _react2["default"].createElement(Letter, { letter: letter, isLast: index == lastIndex, key: index });
-    })
+    _react2["default"].createElement(
+      "ul",
+      { id: "letterLinksList" },
+      letters.map(function (letter, index) {
+        return _react2["default"].createElement(Letter, { letter: letter, isLast: index == lastIndex, key: index });
+      })
+    )
   );
 };
 
@@ -33458,8 +33462,8 @@ var Letter = function Letter(_ref2) {
   var isLast = _ref2.isLast;
 
   return _react2["default"].createElement(
-    "span",
-    null,
+    "li",
+    { className: "letter-link" },
     _react2["default"].createElement(
       "a",
       { href: "#" + letter },
