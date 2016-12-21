@@ -33489,6 +33489,8 @@ var _react2 = _interopRequireDefault(_react);
 
 var _notes = require('./notes');
 
+var _notes2 = _interopRequireDefault(_notes);
+
 var ConstellationsComponent = function ConstellationsComponent(_ref) {
   var constellations = _ref.constellations;
 
@@ -33523,13 +33525,13 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
         'form',
         { id: 'filterNorthSouth' },
         _react2['default'].createElement(
-          'span',
+          'p',
           null,
-          'filtern nach Halbkugel:'
+          'Sichtbarkeit nach Halbkugel:'
         ),
         _react2['default'].createElement(
           'select',
-          { name: 'northsouth' },
+          { name: 'visibility' },
           _react2['default'].createElement(
             'option',
             null,
@@ -33559,7 +33561,7 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
         })
       )
     ),
-    _react2['default'].createElement(_notes.ConstellationNotes, null)
+    _react2['default'].createElement(_notes2['default'], null)
   );
 };
 
