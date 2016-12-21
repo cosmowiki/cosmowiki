@@ -201,7 +201,7 @@ main {}
 /*			filter -------------------------------------------------------------- */
 
 #filter {padding: 5px 0; text-align: center;}
-#filter p, #filter form {display: inline;}
+#filter p, #filter form {display: inline; margin: 0 .2em;}
 #filter select {margin-left: 5px;}
 
 /*			letterLinks --------------------------------------------------------- */

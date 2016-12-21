@@ -33513,9 +33513,7 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
       _react2['default'].createElement(
         'div',
         { id: 'todo' },
-        'please add a function to leave the div constellationImg empty if constellation.imageUrl doesn\'t exist',
-        _react2['default'].createElement('br', null),
-        'pls replace the constellationNotes with Notes, footnotes can be placed in the vcard if necessary'
+        'please add a function to leave the div constellationImg empty if constellation.imageUrl doesn\'t exist'
       )
     ),
     _react2['default'].createElement(
@@ -34254,6 +34252,11 @@ var MissionsComponent = function MissionsComponent(_ref) {
         'h3',
         null,
         'bemannte und unbemannte Raumfahrtmissionen'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { id: 'todo' },
+        'pls add functions for the filters'
       )
     ),
     _react2['default'].createElement(
@@ -34261,20 +34264,66 @@ var MissionsComponent = function MissionsComponent(_ref) {
       { id: 'filter', className: 'missions' },
       _react2['default'].createElement(
         'form',
+        { id: 'filterCrew' },
+        _react2['default'].createElement(
+          'p',
+          null,
+          'Art der Mission:'
+        ),
+        _react2['default'].createElement(
+          'select',
+          { name: 'crew' },
+          _react2['default'].createElement(
+            'option',
+            null,
+            'alle'
+          ),
+          _react2['default'].createElement(
+            'option',
+            null,
+            'bemannt'
+          ),
+          _react2['default'].createElement(
+            'option',
+            null,
+            'unbemannt'
+          )
+        )
+      ),
+      _react2['default'].createElement(
+        'form',
         { id: 'filterCountry' },
         _react2['default'].createElement(
-          'span',
+          'p',
           null,
-          'filtern nach Ländern:'
+          'Länder:'
+        ),
+        _react2['default'].createElement(
+          'select',
+          { name: 'country' },
+          _react2['default'].createElement(
+            'option',
+            null,
+            'Länder'
+          )
         )
       ),
       _react2['default'].createElement(
         'form',
         { id: 'filterDestination' },
         _react2['default'].createElement(
-          'span',
+          'p',
           null,
-          'filtern nach Zielen:'
+          'Ziele:'
+        ),
+        _react2['default'].createElement(
+          'select',
+          { name: 'destination' },
+          _react2['default'].createElement(
+            'option',
+            null,
+            'Ziele'
+          )
         )
       )
     ),
@@ -36905,25 +36954,25 @@ var Mission = (function () {
     value: function fromRawData(raw) {
       var mission = new Mission();
 
-      var launchyear = raw.missionlaunchy;
-      var launchmonth = raw.missionlaunchm ? raw.missionlaunchm + '.' : '';
-      var launchday = raw.missionlaunchd ? raw.missionlaunchd + '.' : '';
+      var launchyear = raw.itemdateyear;
+      var launchmonth = raw.itemdatemonth ? raw.itemdatemonth + '.' : '';
+      var launchday = raw.itemdateday ? raw.itemdateday + '.' : '';
       mission.launchDate = '' + launchday + launchmonth + launchyear;
-      mission.name = raw.missionname;
-      mission.link = raw.missionlink;
-      mission.country = raw.missioncountry;
-      if (raw.missionrocket) {
-        mission.rocket = new Rocket(raw.missionrocket, raw.rocketlink);
+      mission.name = raw.itemname;
+      mission.link = raw.itemurl;
+      mission.country = raw.itemcountry;
+      if (raw.itemparent) {
+        mission.rocket = new Rocket(raw.itemparent, raw.itemparenturl);
       }
-      if (raw.missionpad) {
-        mission.pad = new Pad(raw.missionpad, raw.padlink);
+      if (raw.itemlocation) {
+        mission.pad = new Pad(raw.itemlocation, raw.itemlocationurl);
       }
-      mission.destination = raw.missiontarget;
-      mission.crew = raw.missioncrew;
-      mission.duration = raw.missionduration;
-      var endyear = raw.missionendy ? '' + raw.missionendy : '';
-      var endmonth = raw.missionendm ? raw.missionendm + '.' : '';
-      var endday = raw.missionendd ? raw.missionendd + '.' : '';
+      mission.destination = raw.itemdestination;
+      mission.crew = raw.itemcrew;
+      mission.duration = raw.itemduration;
+      var endyear = raw.itemdate2year ? '' + raw.itemdate2year : '';
+      var endmonth = raw.itemdate2month ? raw.itemdate2month + '.' : '';
+      var endday = raw.itemdate2day ? raw.itemdate2day + '.' : '';
       mission.endDate = '' + endday + endmonth + endyear;
 
       return mission;
@@ -36947,26 +36996,47 @@ var Pad = function Pad(name, wikipediaUrl) {
   this.wikipediaUrl = wikipediaUrl;
 }
 
+// {
+//     "itemname": "Sputnik 1",
+//     "itemurl": "https://de.wikipedia.org/wiki/Sputnik_1",
+//     "itemdescription": "Sputnik 1 (russisch Спутник für Begleiter (der Erde)) war der erste künstliche Erdsatellit. Mit ihm begann am 4. Oktober 1957 das Zeitalter der Raumfahrt. Der Satellit war zwar von der Sowjetunion für den Verlauf des Internationalen Geophysikalischen Jahres (IGY 1957-58) angekündigt worden, doch rechnete die westliche Fachwelt erst Mitte 1958 mit der Fertigstellung der sowjetischen Entwicklungen und wurde durch den Start überrascht. Auch in der westlichen Öffentlichkeit löste der Start Besorgnisse aus; diese wurden mit dem Begriff Sputnik-Schock benannt. Dieser Sputnik - späteres Synonym für alle sowjetischen Satelliten, auch der Kosmos-Serie und anderer „Sputniks“ - wog 83,6 kg und damit fünfmal mehr als der US-Explorer 1 vom 31. Januar 1958 und war eine mit Stickstoff gefüllte, hochglanzpolierte Aluminiumkugel. Sie bestand aus 2 mm starkem Blech aus der Aluminiumlegierung AlMg6T, hatte 58 cm Durchmesser und zwei Antennenpaare (je 2,4 m bzw. 2,9 m lang) ragten aus ihr heraus. Die Trägerrakete R-7 des Satelliten war eine Weiterentwicklung militärischer Interkontinentalraketen durch den Konstrukteur Sergei Pawlowitsch Koroljow. Der Satellit trug zwei Funksender vom Typ D 200 mit einem Watt Leistung für codierte Kurzwellensignale, in denen Innendruck und -temperatur verschlüsselt waren, auf einer Frequenz von 20,005 und 40,002 MHz, die 21 Tage funktionsfähig blieben. Die „piepsenden“ Signale des Sputnik konnten an sich auf der ganzen Welt empfangen werden, wenn der verwendete Empfänger für die schwachen 1-Watt-Signale empfindlich genug war. Im westlichen Europa konnte dabei ein Astronom den ersten Erfolg verkünden: Heinz Kaminski von der Volkssternwarte Bochum. Nach 92 Tagen trat Sputnik 1 in die dichteren Atmosphärenschichten ein und verglühte am 4. Januar 19507.",
+//     "itemdateyear": "1957",
+//     "itemdatemonth": 10,
+//     "itemdateday": 4,
+//     "itemdate2year": "1957",
+//     "itemdate2month": 10,
+//     "itemdate2day": 26,
+//     "itemduration": "22d",
+//     "itemparent": "Sputnik (R-7)",
+//     "itemparenturl": "https://de.wikipedia.org/wiki/R-7",
+//     "itemcountry": "SU / RU",
+//     "itemdestination": "Erdorbit",
+//     "itemlocation": "Ba LC-1/5",
+//     "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
+//     "itemlatitude": "45.92",
+//     "itemlongitude": "63.342"
+// },
+
 /*
   {
-    "missionlaunchy": "1957", 
-    "missionlaunchm": "10", 
-    "missionlaunchd": "04", 
-    "missionname": "Sputnik 1", 
-    "missioncountry": "UdSSR", 
-    "missionrocket": "Sputnik (R-7)", 
-    "rocketlink": "https://de.wikipedia.org/wiki/R-7", 
-    "missionpad": "Ba LC-1/5", 
-    "padlink": "https://de.wikipedia.org/wiki/Baikonur", 
-    "missioncrew": "-", 
-    "missiontarget": "Erdorbit", 
-    "missionlat": "45.92", 
-    "missionlong": "63.342", 
-    "missionduration": "92d ", 
-    "missionendy": "1958", 
-    "missionendm": "01", 
-    "missionendd": "04", 
-    "missionlink": "https://de.wikipedia.org/wiki/Sputnik_1", 
+    "missionlaunchy": "1957",
+    "missionlaunchm": "10",
+    "missionlaunchd": "04",
+    "missionname": "Sputnik 1",
+    "missioncountry": "UdSSR",
+    "missionrocket": "Sputnik (R-7)",
+    "rocketlink": "https://de.wikipedia.org/wiki/R-7",
+    "missionpad": "Ba LC-1/5",
+    "padlink": "https://de.wikipedia.org/wiki/Baikonur",
+    "missioncrew": "-",
+    "missiontarget": "Erdorbit",
+    "missionlat": "45.92",
+    "missionlong": "63.342",
+    "missionduration": "92d ",
+    "missionendy": "1958",
+    "missionendm": "01",
+    "missionendd": "04",
+    "missionlink": "https://de.wikipedia.org/wiki/Sputnik_1",
     "missiondescript": "Sputnik 1 (russisch Спутник für Begleiter (der Erde)) war der erste künstliche Erdsatellit. Mit ihm begann am 4. Oktober 1957 das Zeitalter der Raumfahrt. Der Satellit war zwar von der Sowjetunion für den Verlauf des Internationalen Geophysikalischen Jahres (IGY 1957-58) angekündigt worden, doch rechnete die westliche Fachwelt erst Mitte 1958 mit der Fertigstellung der sowjetischen Entwicklungen und wurde durch den Start überrascht. Auch in der westlichen Öffentlichkeit löste der Start Besorgnisse aus; diese wurden mit dem Begriff Sputnik-Schock benannt. Dieser Sputnik - späteres Synonym für alle sowjetischen Satelliten, auch der Kosmos-Serie und anderer „Sputniks“ - wog 83,6 kg und damit fünfmal mehr als der US-Explorer 1 vom 31. Januar 1958 und war eine mit Stickstoff gefüllte, hochglanzpolierte Aluminiumkugel. Sie bestand aus 2 mm starkem Blech aus der Aluminiumlegierung AlMg6T, hatte 58 cm Durchmesser und zwei Antennenpaare (je 2,4 m bzw. 2,9 m lang) ragten aus ihr heraus. Die Trägerrakete R-7 des Satelliten war eine Weiterentwicklung militärischer Interkontinentalraketen durch den Konstrukteur Sergei Pawlowitsch Koroljow. Der Satellit trug zwei Funksender vom Typ D 200 mit einem Watt Leistung für codierte Kurzwellensignale, in denen Innendruck und -temperatur verschlüsselt waren, auf einer Frequenz von 20,005 und 40,002 MHz, die 21 Tage funktionsfähig blieben. Die „piepsenden“ Signale des Sputnik konnten an sich auf der ganzen Welt empfangen werden, wenn der verwendete Empfänger für die schwachen 1-Watt-Signale empfindlich genug war. Im westlichen Europa konnte dabei ein Astronom den ersten Erfolg verkünden: Heinz Kaminski von der Volkssternwarte Bochum. Nach 92 Tagen trat Sputnik 1 in die dichteren Atmosphärenschichten ein und verglühte am 4. Januar 19507."
   },
  */
