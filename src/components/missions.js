@@ -7,13 +7,30 @@ const MissionsComponent = ({missions}) => {
       <div id="featured" className="missions">
         <h1>Missionen</h1>
         <h3>bemannte und unbemannte Raumfahrtmissionen</h3>
+        <div id="todo">
+          pls add functions for the filters
+        </div>
       </div>
       <div id="filter" className="missions">
+        <form id="filterCrew">
+          <p>Art der Mission:</p>
+          <select name="crew">
+            <option>alle</option>
+            <option>bemannt</option>
+            <option>unbemannt</option>
+          </select>
+        </form>
         <form id="filterCountry">
-          <span>filtern nach Ländern:</span>
+          <p>Länder:</p>
+          <select name="country">
+            <option>Länder</option>
+          </select>
         </form>
         <form id="filterDestination">
-          <span>filtern nach Zielen:</span>
+          <p>Ziele:</p>
+          <select name="destination">
+            <option>Ziele</option>
+          </select>
         </form>
       </div>
       <div id="dataArea" className="missions">
