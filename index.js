@@ -34276,7 +34276,7 @@ var MissionsComponent = function MissionsComponent(_ref) {
     _react2['default'].createElement(
       'div',
       { id: 'todo' },
-      'pls add functions for the sorter and filters',
+      'pls make the sorter and filters work',
       _react2['default'].createElement('br', null),
       'pls set the "Ende:" and "Land:" bold. - f*** syntax'
     ),
