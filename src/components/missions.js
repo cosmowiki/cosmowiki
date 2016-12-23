@@ -33,11 +33,11 @@ const MissionsComponent = ({missions}) => {
             <label>Kategorie:</label>
             <select name="category">
               <option value="all" selected>alle</option>
-              <option value="manned">bemannte Mission</option>
-              <option value="satellite">Satellit</option>
-              <option value="space-probe">Raumsonde</option>
-              <option value="space-station">Raumstation</option>
-              <option value="space-telescope">Weltraumteleskop</option>
+              <option value="manned">bemannte Missionen</option>
+              <option value="satellite">Satelliten</option>
+              <option value="space-probe">Raumsonden</option>
+              <option value="space-station">Raumstationen</option>
+              <option value="space-telescope">Weltraumteleskope</option>
             </select>
           </form>
           <form id="filterCountry">
