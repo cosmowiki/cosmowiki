@@ -1,4 +1,4 @@
-/*#featured.missions {background: url("/img/featured_missions.jpg") center top / contain no-repeat;}*/
+/* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 
 .missionsRow {display: inline-block; border-bottom: 1px solid #fff;}
 .missionsRow:last-child {border-width: 0;}
@@ -8,9 +8,25 @@
 .missionImg img {width: 150px; display: block; margin: 2% auto;}
 .missionImg small {margin-left: 50%; font-size: .8em;}
 
-.missionInfo a, .missionInfo p {float: left; line-height: 1.5em; }
-.missionInfo a {font-size: 1.5em;}
-.missionInfo p {margin-left: 1em; padding: 0;}
+/*.missionsRow div {outline: 1px solid #000;}
+.missionLaunch p, .missionEnd p {outline: 1px solid #00f;}*/
+.missionName, .missionLaunch, .missionEnd,
+.missionOperator, .missionDestination {line-height: 2em;}
+.missionName {font-size: 1.25em;}
+
+@media only all and (min-width: 35.5em) {
+  .missionName {float: left; height: 3em; line-height: 1.5em;}
+  .missionLaunch p, .missionEnd p,
+  .missionOperator p, .missionDestination p {}
+}
+@media only all and (min-width: 48em) {
+  .missionName {height: 3em; line-height: 1.5em;}
+  .missionLaunch, .missionEnd,
+  .missionOperator, .missionDestination {line-height: 2em;}
+}
+@media only all and (min-width: 64em) {
+  .missionName {height: 1.5em;}
+}
 
 /*#missionsHeader {
 	background-image: linear-gradient(to bottom, #fff 0%, #d2d2ff 100%);

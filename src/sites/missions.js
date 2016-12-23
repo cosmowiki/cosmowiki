@@ -42,6 +42,8 @@ class Mission {
     const reentermonth = raw.itemdate3month ? `${raw.itemdate3month}.` : '';
     const reenterday = raw.itemdate3day ? `${raw.itemdate3day}.` : '';
     mission.reenterDate = `${reenterday}${reentermonth}${reenteryear}`;
+    mission.status = raw.itemstatus ? raw.itemstatus : '-';
+    mission.operator = raw.itemoperator ? raw.itemoperator : '';
 
     return mission;
   }

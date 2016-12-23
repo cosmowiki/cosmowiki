@@ -6,32 +6,54 @@ const MissionsComponent = ({missions}) => {
     <main role="main" className="pure-u-1">
       <div id="featured" className="missions">
         <h1>Missionen</h1>
-        <h3>bemannte und unbemannte Raumfahrtmissionen</h3>
-        <div id="todo">
-          pls add functions for the filters
-        </div>
+        <h3>auf zu neuen Ufern</h3>
       </div>
-      <div id="filter" className="missions">
-        <form id="filterCrew">
-          <p>Art der Mission:</p>
-          <select name="crew">
-            <option>alle</option>
-            <option>bemannt</option>
-            <option>unbemannt</option>
-          </select>
-        </form>
-        <form id="filterCountry">
-          <p>Länder:</p>
-          <select name="country">
-            <option>Länder</option>
-          </select>
-        </form>
-        <form id="filterDestination">
-          <p>Ziele:</p>
-          <select name="destination">
-            <option>Ziele</option>
-          </select>
-        </form>
+      <div id="todo">
+        pls add functions for the sorter and filters
+      </div>
+      <div id="functionArea" className="missions">
+        <div id="sort" className="missions">
+          <form id="sortDate">
+            <label>Sortieren:</label>
+            <select name="sort">
+              <option value="launchUp" selected>Startdatum - aufsteigend</option>
+              <option value="launchDown">Startdatum - absteigend</option>
+              <option value="endUp">Missionsende - aufsteigend</option>
+              <option value="endDown">Missionsende - absteigend</option>
+              <option value="durationUp">Missionsdauer - aufsteigend</option>
+              <option value="durationDown">Missionsdauer - absteigend</option>
+              <option value="nameUp">alphabetisch - aufsteigend</option>
+              <option value="nameDown">alphabetisch - absteigend</option>
+            </select>
+          </form>
+        </div>
+        <div id="filter" className="missions">
+          <form id="filterCategory">
+            <label>Kategorie:</label>
+            <select name="category">
+              <option value="all" selected>alle</option>
+              <option value="manned">bemannte Mission</option>
+              <option value="satellite">Satellit</option>
+              <option value="space-probe">Raumsonde</option>
+              <option value="space-station">Raumstation</option>
+              <option value="space-telescope">Weltraumteleskop</option>
+            </select>
+          </form>
+          <form id="filterCountry">
+            <label>Land:</label>
+            <select name="country">
+              <option value="all" selected>alle</option>
+              <option value="ausgewähltes Land">Länder</option>
+            </select>
+          </form>
+          <form id="filterDestination">
+            <label>Ziel:</label>
+            <select name="destination">
+              <option value="all" selected>alle</option>
+              <option value="ausgewähltes Ziel">Ziele</option>
+            </select>
+          </form>
+        </div>
       </div>
       <div id="dataArea" className="missions">
         <div id="missionsTable" className="tablesorter">
@@ -48,11 +70,20 @@ export default MissionsComponent;
 const MissionComponent = ({mission}) => {
   return (
     <div className="missionsRow pure-u-1">
-      <div className="missionInfo pure-u-1 pure-u-sm-1-3 center">
-        <a href={mission.wikipediaUrl}>{mission.name}</a>
-        <p>{mission.launchDate ? `Start: ${mission.launchDate}` : ''}</p>
-        <p>{mission.endDate ? `Missionsende: ${mission.endDate}` : ''}</p>
-        <p>{mission.reenterDate ? `Wiedereintritt: ${mission.reenterDate}` : ''}</p>
+      <div className="missionName pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-9-24 center">
+        <a href={mission.link}>{mission.name}</a>
+      </div>
+      <div className="missionLaunch pure-u-1-2 pure-u-sm-1-4 pure-u-md-1-3 pure-u-lg-3-24 center">
+        <p>Start: {mission.launchDate}</p>
+      </div>
+      <div className="missionEnd pure-u-1-2 pure-u-sm-1-4 pure-u-md-1-3 pure-u-lg-3-24 center">
+        <p>{mission.endDate ? `Ende: ${mission.endDate}` : `Status: ${mission.status}`}</p>
+      </div>
+      <div className="missionOperator pure-u-1-2 pure-u-sm-1-4 pure-u-md-1-3 pure-u-lg-4-24 center">
+        {mission.operator ? <p>Betreiber: {mission.operator} - {mission.country}</p> : <p>Land: {mission.country}</p>}
+      </div>
+      <div className="missionDestination pure-u-1-2 pure-u-sm-1-4 pure-u-md-1-3 pure-u-lg-5-24 center">
+        <p>Ziel: {mission.destination}</p>
       </div>
     </div>
   );
@@ -70,7 +101,7 @@ const PadLink = ({pad}) => {
   );
 };
 
-// <div className="missionImg pure-u-1 pure-u-sm-1-3 center">
+// <div className="missionImg pure-u-1 pure-u-sm-1-5 center">
 //   <a href={mission.wikipediaUrl}><img src={mission.imageUrl} alt={mission.name} /></a>
 //   <small>Bild: {mission.imageSrc}</small>
 // </div>
