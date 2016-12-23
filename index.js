@@ -33173,7 +33173,7 @@ var AboutComponent = (function (_React$Component) {
         { role: 'main', className: 'pure-u-1' },
         _react2['default'].createElement(
           'div',
-          { id: 'featured', className: 'about center' },
+          { id: 'featured', className: 'pure-u-1 about center' },
           _react2['default'].createElement(
             'h1',
             null,
@@ -33260,7 +33260,7 @@ var AstronomyComponent = function AstronomyComponent(_ref) {
     { role: "main", className: "pure-u-1" },
     _react2["default"].createElement(
       "div",
-      { id: "featured", className: "astronomy" },
+      { id: "featured", className: "pure-u-1 astronomy" },
       _react2["default"].createElement(
         "h1",
         null,
@@ -33361,7 +33361,7 @@ var ChronicleComponent = (function (_React$Component) {
         { role: 'main', className: 'pure-u-1' },
         _react2['default'].createElement(
           'div',
-          { id: 'featured', className: 'chronicle' },
+          { id: 'featured', className: 'pure-u-1 chronicle' },
           _react2['default'].createElement(
             'h1',
             null,
@@ -33444,7 +33444,7 @@ var LetterLinks = function LetterLinks(_ref) {
   var lastIndex = letters.length - 1;
   return _react2["default"].createElement(
     "div",
-    { id: "letterLinks", className: "person center" },
+    { id: "letterLinks", className: "pure-u-1 person center" },
     _react2["default"].createElement(
       "ul",
       { id: "letterLinksList" },
@@ -33499,7 +33499,7 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
     { role: 'main', className: 'pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { id: 'featured', className: 'constellations' },
+      { id: 'featured', className: 'pure-u-1 constellations' },
       _react2['default'].createElement(
         'h1',
         null,
@@ -33513,12 +33513,12 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'todo' },
+      { id: 'todo', className: 'pure-u-1' },
       'please add a function to leave the div constellationImg empty if constellation.imageUrl doesn\'t exist'
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'functionArea', className: 'missions' },
+      { id: 'functionArea', className: 'pure-u-1 missions' },
       _react2['default'].createElement(
         'div',
         { id: 'filter', className: 'constellations' },
@@ -33569,7 +33569,7 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'dataArea', className: 'constellations' },
+      { id: 'dataArea', className: 'pure-u-1  constellations' },
       _react2['default'].createElement(
         'div',
         { id: 'constellationsTable' },
@@ -34127,7 +34127,7 @@ exports["default"] = HomeComponent;
 // </div>
 
 //old stuff with text and boxes
-//<div id="featured" className="pure-u-1 home center">
+//<div id="featured" className="pure-u-1 pure-u-1 home center">
 //  <h1>CosmoWiki.de</h1>
 //  <h3>Astronomie + Raumfahrt = ein Lexikon</h3>
 //</div>
@@ -34261,7 +34261,7 @@ var MissionsComponent = function MissionsComponent(_ref) {
     { role: 'main', className: 'pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { id: 'featured', className: 'missions' },
+      { id: 'featured', className: 'pure-u-1 missions' },
       _react2['default'].createElement(
         'h1',
         null,
@@ -34275,7 +34275,7 @@ var MissionsComponent = function MissionsComponent(_ref) {
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'todo' },
+      { id: 'todo', className: 'pure-u-1' },
       'pls make the sorter and filters work',
       _react2['default'].createElement('br', null),
       'pls set the "Ende:" and "Land:" bold. - f*** syntax',
@@ -34284,7 +34284,7 @@ var MissionsComponent = function MissionsComponent(_ref) {
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'functionArea', className: 'missions' },
+      { id: 'functionArea', className: 'pure-u-1 missions' },
       _react2['default'].createElement(
         'div',
         { id: 'sort', className: 'missions' },
@@ -34438,7 +34438,7 @@ var MissionsComponent = function MissionsComponent(_ref) {
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'dataArea', className: 'missions' },
+      { id: 'dataArea', className: 'pure-u-1  missions' },
       _react2['default'].createElement(
         'div',
         { id: 'missionsTable', className: 'tablesorter' },
@@ -34964,7 +34964,7 @@ var starNotes = _react2["default"].createElement(
 var Notes = function Notes() {
   return _react2["default"].createElement(
     "div",
-    { id: "notes" },
+    { id: "notes", className: "pure-u-1" },
     defaultNotes
   );
 };
@@ -34973,7 +34973,7 @@ exports["default"] = Notes;
 var ConstellationNotes = function ConstellationNotes() {
   return _react2["default"].createElement(
     "div",
-    { id: "notes" },
+    { id: "notes", className: "pure-u-1" },
     defaultNotes,
     constellationNotes
   );
@@ -34983,7 +34983,7 @@ exports.ConstellationNotes = ConstellationNotes;
 var StarNotes = function StarNotes() {
   return _react2["default"].createElement(
     "div",
-    { id: "notes" },
+    { id: "notes", className: "pure-u-1" },
     defaultNotes,
     starNotes
   );
@@ -35011,7 +35011,7 @@ var ObjectsComponent = function ObjectsComponent(_ref) {
     { role: "main", className: "pure-u-1" },
     _react2["default"].createElement(
       "div",
-      { id: "featured", className: "objects" },
+      { id: "featured", className: "pure-u-1 objects" },
       _react2["default"].createElement(
         "h1",
         null,
@@ -35140,7 +35140,7 @@ var PeopleComponent = function PeopleComponent(_ref) {
     { role: 'main', className: 'pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { id: 'featured', className: 'persons' },
+      { id: 'featured', className: 'pure-u-1 persons' },
       _react2['default'].createElement(
         'h1',
         null,
@@ -35155,7 +35155,7 @@ var PeopleComponent = function PeopleComponent(_ref) {
     _react2['default'].createElement(_chunksLetterLinks2['default'], { letters: allFirstLetters }),
     _react2['default'].createElement(
       'div',
-      { id: 'dataArea', className: 'people' },
+      { id: 'dataArea', className: 'pure-u-1  people' },
       _react2['default'].createElement(
         'div',
         { id: 'personTable' },
@@ -35296,7 +35296,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
     { role: 'main', className: 'pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { id: 'featured', className: 'solsys' },
+      { id: 'featured', className: 'pure-u-1 solsys' },
       _react2['default'].createElement(
         'h1',
         null,
@@ -35311,7 +35311,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
     _react2['default'].createElement('script', { type: 'text/javascript', src: 'js/solsysTable.js' }),
     _react2['default'].createElement(
       'div',
-      { id: 'dataArea', className: 'solsys' },
+      { id: 'dataArea', className: 'pure-u-1  solsys' },
       _react2['default'].createElement(
         'div',
         { id: 'solsysTable' },
@@ -35365,7 +35365,7 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
     { role: 'main', className: 'pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { id: 'featured', className: 'stations' },
+      { id: 'featured', className: 'pure-u-1 stations' },
       _react2['default'].createElement(
         'h1',
         null,
@@ -35379,14 +35379,14 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'todo' },
+      { id: 'todo', className: 'pure-u-1' },
       'please add a function to leave the div stationImg empty if station.imageUrl doesn\'t exist',
       _react2['default'].createElement('br', null),
       'please edit the date-function to get "seit station.launchDate" if launchDate is past and "ab station.launchDate" if launchDate is future'
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'functionArea', className: 'missions' },
+      { id: 'functionArea', className: 'pure-u-1 missions' },
       _react2['default'].createElement(
         'div',
         { id: 'sort', className: 'missions' },
@@ -35447,7 +35447,7 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'dataArea', className: 'stations' },
+      { id: 'dataArea', className: 'pure-u-1  stations' },
       _react2['default'].createElement(
         'div',
         { id: 'stationsTable' },
@@ -35519,7 +35519,7 @@ var SpaceflightComponent = function SpaceflightComponent(_ref) {
     { role: "main", className: "pure-u-1" },
     _react2["default"].createElement(
       "div",
-      { id: "featured", className: "spaceflight" },
+      { id: "featured", className: "pure-u-1 spaceflight" },
       _react2["default"].createElement(
         "h1",
         null,
@@ -35589,7 +35589,7 @@ var StarsComponent = function StarsComponent(_ref) {
     { role: 'main', className: 'pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { id: 'featured', className: 'stars' },
+      { id: 'featured', className: 'pure-u-1 stars' },
       _react2['default'].createElement(
         'h1',
         null,
@@ -35601,11 +35601,20 @@ var StarsComponent = function StarsComponent(_ref) {
         'strahlende Objekte im All'
       )
     ),
-    _react2['default'].createElement(FilterRow, { constellations: constellations }),
-    _react2['default'].createElement(_chunksLetterLinks2['default'], { letters: allFirstLetters }),
     _react2['default'].createElement(
       'div',
-      { id: 'dataArea', className: 'stars' },
+      { id: 'todo', className: 'pure-u-1' },
+      'pls make the filter work'
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'functionArea', className: 'pure-u-1 stars' },
+      _react2['default'].createElement(FilterRow, { constellations: constellations }),
+      _react2['default'].createElement(_chunksLetterLinks2['default'], { letters: allFirstLetters })
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'dataArea', className: 'pure-u-1  stars' },
       _react2['default'].createElement(
         'div',
         { id: 'starsTable' },

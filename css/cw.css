@@ -79,9 +79,7 @@ nav, #footerContainer {background: #fafafa;}
 	background: url(/img/bgWrapper2_sm.jpg) center top / cover no-repeat fixed;
 }*/
 
-#featured, #todo, #functionArea, #letterLinks, #pageSubMenuContainer,
-#dataArea, #notes,
-#footerContainer, #footerFoot {margin: 0 auto; max-width: 1000px;}
+header, main, footer {margin: 0 auto; max-width: 1000px;}
 
 /*		Branding -------------------------------------------------------------- */
 
