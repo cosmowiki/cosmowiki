@@ -185,7 +185,7 @@ export default HomeComponent;
 // </div>
 
 //old stuff with text and boxes
-//<div id="featured" className="pure-u-1 home center">
+//<div id="featured" className="pure-u-1 pure-u-1 home center">
 //  <h1>CosmoWiki.de</h1>
 //  <h3>Astronomie + Raumfahrt = ein Lexikon</h3>
 //</div>

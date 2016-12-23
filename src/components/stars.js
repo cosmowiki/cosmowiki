@@ -8,14 +8,18 @@ const StarsComponent = ({groupedStars, constellations}) => {
 
   return (
     <main role="main" className="pure-u-1">
-      <div id="featured" className="stars">
+      <div id="featured" className="pure-u-1 stars">
         <h1>Sterne</h1>
         <h3>strahlende Objekte im All</h3>
       </div>
-      <FilterRow constellations={constellations} />
-      <LetterLinks letters={allFirstLetters} />
-
-      <div id="dataArea" className="stars">
+      <div id="todo" className="pure-u-1">
+        pls make the filter work
+      </div>
+      <div id="functionArea" className="pure-u-1 stars">
+        <FilterRow constellations={constellations} />
+        <LetterLinks letters={allFirstLetters} />
+      </div>
+      <div id="dataArea" className="pure-u-1  stars">
         <div id="starsTable">
           {starsIterable.map((group, idx) => <StarsGroupComponent group={group} key={idx} />)}
         </div>

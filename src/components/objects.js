@@ -3,7 +3,7 @@ import React from 'react';
 const ObjectsComponent = ({appUrl}) => {
   return (
     <main role="main" className="pure-u-1">
-      <div id="featured" className="objects">
+      <div id="featured" className="pure-u-1 objects">
         <h1>Objekte</h1>
         <h3>Himmelsk&ouml;rper, Raumfahrzeuge, Instrumente</h3>
       </div>

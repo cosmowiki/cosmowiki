@@ -3,7 +3,7 @@ import React from 'react';
 const AstronomyComponent = ({appUrl}) => {
   return (
     <main role="main" className="pure-u-1">
-      <div id="featured" className="astronomy">
+      <div id="featured" className="pure-u-1 astronomy">
         <h1>Astronomie</h1>
         <h3>der Blick zu den Sternen</h3>
       </div>

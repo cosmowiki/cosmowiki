@@ -4,15 +4,15 @@ import Notes from './notes';
 const SpaceStationsComponent = ({spaceStations:stations}) => {
   return (
     <main role="main" className="pure-u-1">
-      <div id="featured" className="stations">
+      <div id="featured" className="pure-u-1 stations">
         <h1>Raumstationen</h1>
         <h3>künstliche Habitate im All</h3>
       </div>
-      <div id="todo">
+      <div id="todo" className="pure-u-1">
         please add a function to leave the div stationImg empty if station.imageUrl doesn't exist<br />
         please edit the date-function to get "seit station.launchDate" if launchDate is past and "ab station.launchDate" if launchDate is future
       </div>
-      <div id="functionArea" className="missions">
+      <div id="functionArea" className="pure-u-1 missions">
         <div id="sort" className="missions">
           <form id="sortLaunch">
             <label>Sortieren:</label>
@@ -29,7 +29,7 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
           </form>
         </div>
       </div>
-      <div id="dataArea" className="stations">
+      <div id="dataArea" className="pure-u-1  stations">
         <div id="stationsTable">
           {stations.map((station, idx) => <StationComponent spaceStation={station} key={idx}/>)}
         </div>

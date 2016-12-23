@@ -8,14 +8,14 @@ const PeopleComponent = ({groupedPeople}) => {
 
   return (
     <main role="main" className="pure-u-1">
-      <div id="featured" className="persons">
+      <div id="featured" className="pure-u-1 persons">
         <h1>Personen</h1>
         <h3>Entdecker, Pioniere, Wissenschaftler</h3>
       </div>
 
       <LetterLinks letters={allFirstLetters} />
 
-      <div id="dataArea" className="people">
+      <div id="dataArea" className="pure-u-1  people">
         <div id="personTable">
           {groupsIterable.map((group, idx) => <PersonGroupComponent group={group} key={idx} />)}
         </div>

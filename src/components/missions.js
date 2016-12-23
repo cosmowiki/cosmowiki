@@ -4,16 +4,16 @@ import Notes from './notes';
 const MissionsComponent = ({missions}) => {
   return (
     <main role="main" className="pure-u-1">
-      <div id="featured" className="missions">
+      <div id="featured" className="pure-u-1 missions">
         <h1>Missionen</h1>
         <h3>auf zu neuen Ufern</h3>
       </div>
-      <div id="todo">
+      <div id="todo" className="pure-u-1">
         pls make the sorter and filters work<br />
         pls set the "Ende:" and "Land:" bold. - f*** syntax<br />
         find a way for sorter and filter on small screens
       </div>
-      <div id="functionArea" className="missions">
+      <div id="functionArea" className="pure-u-1 missions">
         <div id="sort" className="missions">
           <form id="sortDate">
             <label>Sortieren:</label>
@@ -57,7 +57,7 @@ const MissionsComponent = ({missions}) => {
           </form>
         </div>
       </div>
-      <div id="dataArea" className="missions">
+      <div id="dataArea" className="pure-u-1  missions">
         <div id="missionsTable" className="tablesorter">
           {missions.map((mission, idx) => <MissionComponent mission={mission} key={idx}/>)}
         </div>

@@ -4,14 +4,14 @@ import Notes from './notes';
 const ConstellationsComponent = ({constellations}) => {
   return (
     <main role="main" className="pure-u-1">
-      <div id="featured" className="constellations">
+      <div id="featured" className="pure-u-1 constellations">
         <h1>Sternbilder</h1>
         <h3>Figuren am Firmament</h3>
       </div>
-      <div id="todo">
+      <div id="todo" className="pure-u-1">
         please add a function to leave the div constellationImg empty if constellation.imageUrl doesn't exist
       </div>
-      <div id="functionArea" className="missions">
+      <div id="functionArea" className="pure-u-1 missions">
         <div id="filter" className="constellations">
           <form id="filterVisibility">
             <label>Sichtbarkeit:</label>
@@ -26,7 +26,7 @@ const ConstellationsComponent = ({constellations}) => {
           </form>
         </div>
       </div>
-      <div id="dataArea" className="constellations">
+      <div id="dataArea" className="pure-u-1  constellations">
         <div id="constellationsTable">
           {constellations.map((constellation, idx) => <ConstellationComponent constellation={constellation} key={idx}/>)}
         </div>

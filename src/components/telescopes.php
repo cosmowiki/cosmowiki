@@ -11,7 +11,7 @@
 			</div>
 		</div>
 		<script src="http://de.cosmowiki.de/js/telescopesTableData.json"></script>
-		<div id="notes">
+		<div id="notes" className="pure-u-1">
 <?php include("notes.php")?>
 		</div>
 	</main><!-- #main -->
