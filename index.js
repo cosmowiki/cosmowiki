@@ -33509,41 +33509,60 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
         'h3',
         null,
         'Figuren am Firmament'
-      ),
-      _react2['default'].createElement(
-        'div',
-        { id: 'todo' },
-        'please add a function to leave the div constellationImg empty if constellation.imageUrl doesn\'t exist'
       )
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'filter', className: 'constellations' },
+      { id: 'todo' },
+      'please add a function to leave the div constellationImg empty if constellation.imageUrl doesn\'t exist'
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'functionArea', className: 'missions' },
       _react2['default'].createElement(
-        'form',
-        { id: 'filterNorthSouth' },
+        'div',
+        { id: 'filter', className: 'constellations' },
         _react2['default'].createElement(
-          'p',
-          null,
-          'Sichtbarkeit nach Halbkugel:'
-        ),
-        _react2['default'].createElement(
-          'select',
-          { name: 'visibility' },
+          'form',
+          { id: 'filterVisibility' },
           _react2['default'].createElement(
-            'option',
+            'label',
             null,
-            'beide'
+            'Sichtbarkeit:'
           ),
           _react2['default'].createElement(
-            'option',
-            null,
-            'nördlich'
-          ),
-          _react2['default'].createElement(
-            'option',
-            null,
-            'südlich'
+            'select',
+            { name: 'visibility' },
+            _react2['default'].createElement(
+              'option',
+              { selected: true },
+              'alle'
+            ),
+            _react2['default'].createElement(
+              'option',
+              null,
+              'N - nur nördlich'
+            ),
+            _react2['default'].createElement(
+              'option',
+              null,
+              'S - nur südlich'
+            ),
+            _react2['default'].createElement(
+              'option',
+              null,
+              'N S / S N  - mittig'
+            ),
+            _react2['default'].createElement(
+              'option',
+              null,
+              'Ns - nördlich, teils südlich'
+            ),
+            _react2['default'].createElement(
+              'option',
+              null,
+              'Sn - südlich, teils nördlich'
+            )
           )
         )
       )
@@ -33573,7 +33592,7 @@ var ConstellationComponent = function ConstellationComponent(_ref2) {
     { className: 'constellationRow pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'constellationImg pure-u-1 pure-u-sm-1-3 center' },
+      { className: 'constellationImg pure-u-1 pure-u-sm-1-5 center' },
       _react2['default'].createElement(
         'a',
         { href: item.wikipediaUrl },
@@ -33588,7 +33607,7 @@ var ConstellationComponent = function ConstellationComponent(_ref2) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'constellationInfo pure-u-1 pure-u-sm-1-3 center' },
+      { className: 'constellationInfo pure-u-1 pure-u-sm-3-5 center' },
       _react2['default'].createElement(
         'a',
         { href: item.wikipediaUrl },
@@ -34251,78 +34270,164 @@ var MissionsComponent = function MissionsComponent(_ref) {
       _react2['default'].createElement(
         'h3',
         null,
-        'bemannte und unbemannte Raumfahrtmissionen'
-      ),
-      _react2['default'].createElement(
-        'div',
-        { id: 'todo' },
-        'pls add functions for the filters'
+        'auf zu neuen Ufern'
       )
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'filter', className: 'missions' },
+      { id: 'todo' },
+      'pls add functions for the sorter and filters'
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'functionArea', className: 'missions' },
       _react2['default'].createElement(
-        'form',
-        { id: 'filterCrew' },
+        'div',
+        { id: 'sort', className: 'missions' },
         _react2['default'].createElement(
-          'p',
-          null,
-          'Art der Mission:'
-        ),
-        _react2['default'].createElement(
-          'select',
-          { name: 'crew' },
+          'form',
+          { id: 'sortDate' },
           _react2['default'].createElement(
-            'option',
+            'label',
             null,
-            'alle'
+            'Sortieren:'
           ),
           _react2['default'].createElement(
-            'option',
-            null,
-            'bemannt'
-          ),
-          _react2['default'].createElement(
-            'option',
-            null,
-            'unbemannt'
+            'select',
+            { name: 'sort' },
+            _react2['default'].createElement(
+              'option',
+              { value: 'launchUp', selected: true },
+              'Startdatum - aufsteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'launchDown' },
+              'Startdatum - absteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'endUp' },
+              'Missionsende - aufsteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'endDown' },
+              'Missionsende - absteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'durationUp' },
+              'Missionsdauer - aufsteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'durationDown' },
+              'Missionsdauer - absteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'nameUp' },
+              'alphabetisch - aufsteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'nameDown' },
+              'alphabetisch - absteigend'
+            )
           )
         )
       ),
       _react2['default'].createElement(
-        'form',
-        { id: 'filterCountry' },
+        'div',
+        { id: 'filter', className: 'missions' },
         _react2['default'].createElement(
-          'p',
-          null,
-          'Länder:'
-        ),
-        _react2['default'].createElement(
-          'select',
-          { name: 'country' },
+          'form',
+          { id: 'filterCategory' },
           _react2['default'].createElement(
-            'option',
+            'label',
             null,
-            'Länder'
+            'Kategorie:'
+          ),
+          _react2['default'].createElement(
+            'select',
+            { name: 'category' },
+            _react2['default'].createElement(
+              'option',
+              { value: 'all', selected: true },
+              'alle'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'manned' },
+              'bemannte Mission'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'satellite' },
+              'Satellit'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'space-probe' },
+              'Raumsonde'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'space-station' },
+              'Raumstation'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'space-telescope' },
+              'Weltraumteleskop'
+            )
           )
-        )
-      ),
-      _react2['default'].createElement(
-        'form',
-        { id: 'filterDestination' },
-        _react2['default'].createElement(
-          'p',
-          null,
-          'Ziele:'
         ),
         _react2['default'].createElement(
-          'select',
-          { name: 'destination' },
+          'form',
+          { id: 'filterCountry' },
           _react2['default'].createElement(
-            'option',
+            'label',
             null,
-            'Ziele'
+            'Land:'
+          ),
+          _react2['default'].createElement(
+            'select',
+            { name: 'country' },
+            _react2['default'].createElement(
+              'option',
+              { value: 'all', selected: true },
+              'alle'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'ausgewähltes Land' },
+              'Länder'
+            )
+          )
+        ),
+        _react2['default'].createElement(
+          'form',
+          { id: 'filterDestination' },
+          _react2['default'].createElement(
+            'label',
+            null,
+            'Ziel:'
+          ),
+          _react2['default'].createElement(
+            'select',
+            { name: 'destination' },
+            _react2['default'].createElement(
+              'option',
+              { value: 'all', selected: true },
+              'alle'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'ausgewähltes Ziel' },
+              'Ziele'
+            )
           )
         )
       )
@@ -34352,26 +34457,57 @@ var MissionComponent = function MissionComponent(_ref2) {
     { className: 'missionsRow pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'missionInfo pure-u-1 pure-u-sm-1-3 center' },
+      { className: 'missionName pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-9-24 center' },
       _react2['default'].createElement(
         'a',
-        { href: mission.wikipediaUrl },
+        { href: mission.link },
         mission.name
-      ),
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { className: 'missionLaunch pure-u-1-2 pure-u-sm-1-4 pure-u-md-1-3 pure-u-lg-3-24 center' },
       _react2['default'].createElement(
         'p',
         null,
-        mission.launchDate ? 'Start: ' + mission.launchDate : ''
-      ),
+        'Start: ',
+        mission.launchDate
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { className: 'missionEnd pure-u-1-2 pure-u-sm-1-4 pure-u-md-1-3 pure-u-lg-3-24 center' },
       _react2['default'].createElement(
         'p',
         null,
-        mission.endDate ? 'Missionsende: ' + mission.endDate : ''
-      ),
+        mission.endDate ? 'Ende: ' + mission.endDate : 'Status: ' + mission.status
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { className: 'missionOperator pure-u-1-2 pure-u-sm-1-4 pure-u-md-1-3 pure-u-lg-4-24 center' },
+      mission.operator ? _react2['default'].createElement(
+        'p',
+        null,
+        'Betreiber: ',
+        mission.operator,
+        ' - ',
+        mission.country
+      ) : _react2['default'].createElement(
+        'p',
+        null,
+        'Land: ',
+        mission.country
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { className: 'missionDestination pure-u-1-2 pure-u-sm-1-4 pure-u-md-1-3 pure-u-lg-5-24 center' },
       _react2['default'].createElement(
         'p',
         null,
-        mission.reenterDate ? 'Wiedereintritt: ' + mission.reenterDate : ''
+        'Ziel: ',
+        mission.destination
       )
     )
   );
@@ -34397,7 +34533,7 @@ var PadLink = function PadLink(_ref4) {
   );
 };
 
-// <div className="missionImg pure-u-1 pure-u-sm-1-3 center">
+// <div className="missionImg pure-u-1 pure-u-sm-1-5 center">
 //   <a href={mission.wikipediaUrl}><img src={mission.imageUrl} alt={mission.name} /></a>
 //   <small>Bild: {mission.imageSrc}</small>
 // </div>
@@ -35241,13 +35377,74 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
         'h3',
         null,
         'künstliche Habitate im All'
-      ),
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'todo' },
+      'please add a function to leave the div stationImg empty if station.imageUrl doesn\'t exist',
+      _react2['default'].createElement('br', null),
+      'please edit the date-function to get "seit station.launchDate" if launchDate is past and "ab station.launchDate" if launchDate is future'
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'functionArea', className: 'missions' },
       _react2['default'].createElement(
         'div',
-        { id: 'todo' },
-        'please add a function to leave the div stationImg empty if station.imageUrl doesn\'t exist',
-        _react2['default'].createElement('br', null),
-        'please edit the date-function to get "seit station.launchDate" if launchDate is past and "ab station.launchDate" if launchDate is future'
+        { id: 'sort', className: 'missions' },
+        _react2['default'].createElement(
+          'form',
+          { id: 'sortLaunch' },
+          _react2['default'].createElement(
+            'label',
+            null,
+            'Sortieren:'
+          ),
+          _react2['default'].createElement(
+            'select',
+            { name: 'sort' },
+            _react2['default'].createElement(
+              'option',
+              { value: 'launchUp', selected: true },
+              'Startdatum - aufsteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'launchDown' },
+              'Startdatum - absteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'endUp' },
+              'Missionsende - aufsteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'endDown' },
+              'Missionsende - absteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'durationUp' },
+              'Missionsdauer - aufsteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'durationDown' },
+              'Missionsdauer - absteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'nameUp' },
+              'alphabetisch - aufsteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'nameDown' },
+              'alphabetisch - absteigend'
+            )
+          )
+        )
       )
     ),
     _react2['default'].createElement(
@@ -35275,7 +35472,7 @@ var StationComponent = function StationComponent(_ref2) {
     { className: 'stationRow pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'stationImg pure-u-1 pure-u-sm-1-3 center' },
+      { className: 'stationImg pure-u-1 pure-u-sm-1-5 center' },
       _react2['default'].createElement(
         'a',
         { href: station.wikipediaUrl },
@@ -35290,7 +35487,7 @@ var StationComponent = function StationComponent(_ref2) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'stationInfo pure-u-1 pure-u-sm-1-3 center' },
+      { className: 'stationInfo pure-u-1 pure-u-sm-3-5 center' },
       _react2['default'].createElement(
         'a',
         { href: station.wikipediaUrl },
@@ -36901,6 +37098,8 @@ var Mission = (function () {
       var reentermonth = raw.itemdate3month ? raw.itemdate3month + '.' : '';
       var reenterday = raw.itemdate3day ? raw.itemdate3day + '.' : '';
       mission.reenterDate = '' + reenterday + reentermonth + reenteryear;
+      mission.status = raw.itemstatus ? raw.itemstatus : '-';
+      mission.operator = raw.itemoperator ? raw.itemoperator : '';
 
       return mission;
     }
