@@ -34278,7 +34278,9 @@ var MissionsComponent = function MissionsComponent(_ref) {
       { id: 'todo' },
       'pls make the sorter and filters work',
       _react2['default'].createElement('br', null),
-      'pls set the "Ende:" and "Land:" bold. - f*** syntax'
+      'pls set the "Ende:" and "Land:" bold. - f*** syntax',
+      _react2['default'].createElement('br', null),
+      'find a way for sorter and filter on small screens'
     ),
     _react2['default'].createElement(
       'div',
