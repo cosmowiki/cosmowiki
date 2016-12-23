@@ -1,31 +1,42 @@
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 
-.missionsRow {display: inline-block; border-bottom: 1px solid #fff;}
+.missionsRow {
+  display: inline-block;
+  padding: .1em 0;
+  border-bottom: 1px solid #fff;
+}
 .missionsRow:last-child {border-width: 0;}
 .missionsRow:hover {background: #fff;}
+.missionsRow div {padding: .1em 0;}
 
 .missionImg {min-width: 150px;}
 .missionImg img {width: 150px; display: block; margin: 2% auto;}
 .missionImg small {margin-left: 50%; font-size: .8em;}
 
 /*.missionsRow div {outline: 1px solid #000;}
-.missionLaunch p, .missionEnd p {outline: 1px solid #00f;}*/
-.missionName, .missionLaunch, .missionEnd,
-.missionOperator, .missionDestination {line-height: 2em;}
-.missionName {font-size: 1.25em;}
+.missionDates p {outline: 1px solid #00f;}
+.missionInfo p {outline: 1px solid #00f;}*/
+
+.missionName {text-align: center; font-size: 1.5em;}
+.missionDates {text-align: right;}
+.missionDates p {display: block; margin-right: .5em;}
+.missionInfo p {display: block; margin-left: .5em;}
 
 @media only all and (min-width: 35.5em) {
-  .missionName {float: left; height: 3em; line-height: 1.5em;}
-  .missionLaunch p, .missionEnd p,
-  .missionOperator p, .missionDestination p {}
+  .missionName {float: left; height: 2.25em;}
+  .missionDates p, .missionInfo p {text-align: left; line-height: 1.75em;}
+  .missionDates p {margin: 0 0 0 .2em;}
+  .missionInfo p {margin: 0;}
 }
 @media only all and (min-width: 48em) {
-  .missionName {height: 3em; line-height: 1.5em;}
-  .missionLaunch, .missionEnd,
-  .missionOperator, .missionDestination {line-height: 2em;}
+
 }
 @media only all and (min-width: 64em) {
-  .missionName {height: 1.5em;}
+  .missionName {height: inherit; font-size: 1.25em; line-height: 1.5em;}
+  .missionDates {text-align: left;}
+  .missionDates p,
+  .missionInfo p {display: inline-block; margin: 0; line-height: 2em;}
+  p.missionDestination {margin-left: .5em;}
 }
 
 /*#missionsHeader {

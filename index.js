@@ -34276,7 +34276,9 @@ var MissionsComponent = function MissionsComponent(_ref) {
     _react2['default'].createElement(
       'div',
       { id: 'todo' },
-      'pls add functions for the sorter and filters'
+      'pls add functions for the sorter and filters',
+      _react2['default'].createElement('br', null),
+      'pls set the "Ende:" and "Land:" bold. - f*** syntax'
     ),
     _react2['default'].createElement(
       'div',
@@ -34457,7 +34459,7 @@ var MissionComponent = function MissionComponent(_ref2) {
     { className: 'missionsRow pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'missionName pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-9-24 center' },
+      { className: 'missionName pure-u-1 pure-u-sm-9-24' },
       _react2['default'].createElement(
         'a',
         { href: mission.link },
@@ -34466,47 +34468,41 @@ var MissionComponent = function MissionComponent(_ref2) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'missionLaunch pure-u-1-2 pure-u-sm-1-4 pure-u-md-1-3 pure-u-lg-3-24 center' },
+      { className: 'missionDates pure-u-1-2 pure-u-sm-6-24' },
       _react2['default'].createElement(
         'p',
-        null,
-        'Start: ',
+        { className: 'missionLaunch pure-u-lg-1-2' },
+        _react2['default'].createElement(
+          'b',
+          null,
+          'Start:'
+        ),
+        ' ',
         mission.launchDate
-      )
-    ),
-    _react2['default'].createElement(
-      'div',
-      { className: 'missionEnd pure-u-1-2 pure-u-sm-1-4 pure-u-md-1-3 pure-u-lg-3-24 center' },
+      ),
       _react2['default'].createElement(
         'p',
-        null,
+        { className: 'missionEnd' },
         mission.endDate ? 'Ende: ' + mission.endDate : 'Status: ' + mission.status
       )
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'missionOperator pure-u-1-2 pure-u-sm-1-4 pure-u-md-1-3 pure-u-lg-4-24 center' },
-      mission.operator ? _react2['default'].createElement(
-        'p',
-        null,
-        'Betreiber: ',
-        mission.operator,
-        ' - ',
-        mission.country
-      ) : _react2['default'].createElement(
-        'p',
-        null,
-        'Land: ',
-        mission.country
-      )
-    ),
-    _react2['default'].createElement(
-      'div',
-      { className: 'missionDestination pure-u-1-2 pure-u-sm-1-4 pure-u-md-1-3 pure-u-lg-5-24 center' },
+      { className: 'missionInfo pure-u-1-2 pure-u-sm-9-24' },
       _react2['default'].createElement(
         'p',
-        null,
-        'Ziel: ',
+        { className: 'missionOperator' },
+        mission.operator ? 'Betreiber: ' + mission.operator + ' - ' + mission.country : 'Land: ' + mission.country
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'missionDestination' },
+        _react2['default'].createElement(
+          'b',
+          null,
+          'Ziel:'
+        ),
+        ' ',
         mission.destination
       )
     )
@@ -37123,49 +37119,25 @@ var Pad = function Pad(name, wikipediaUrl) {
 }
 
 // {
-//     "itemname": "Sputnik 1",
-//     "itemurl": "https://de.wikipedia.org/wiki/Sputnik_1",
+//     "itemname": "testItem 0123456789",
+//     "itemurl": "https://de.wikipedia.org/wiki/testitem",
 //     "itemdescription": "Sputnik 1 (russisch Спутник für Begleiter (der Erde)) war der erste künstliche Erdsatellit. Mit ihm begann am 4. Oktober 1957 das Zeitalter der Raumfahrt. Der Satellit war zwar von der Sowjetunion für den Verlauf des Internationalen Geophysikalischen Jahres (IGY 1957-58) angekündigt worden, doch rechnete die westliche Fachwelt erst Mitte 1958 mit der Fertigstellung der sowjetischen Entwicklungen und wurde durch den Start überrascht. Auch in der westlichen Öffentlichkeit löste der Start Besorgnisse aus; diese wurden mit dem Begriff Sputnik-Schock benannt. Dieser Sputnik - späteres Synonym für alle sowjetischen Satelliten, auch der Kosmos-Serie und anderer „Sputniks“ - wog 83,6 kg und damit fünfmal mehr als der US-Explorer 1 vom 31. Januar 1958 und war eine mit Stickstoff gefüllte, hochglanzpolierte Aluminiumkugel. Sie bestand aus 2 mm starkem Blech aus der Aluminiumlegierung AlMg6T, hatte 58 cm Durchmesser und zwei Antennenpaare (je 2,4 m bzw. 2,9 m lang) ragten aus ihr heraus. Die Trägerrakete R-7 des Satelliten war eine Weiterentwicklung militärischer Interkontinentalraketen durch den Konstrukteur Sergei Pawlowitsch Koroljow. Der Satellit trug zwei Funksender vom Typ D 200 mit einem Watt Leistung für codierte Kurzwellensignale, in denen Innendruck und -temperatur verschlüsselt waren, auf einer Frequenz von 20,005 und 40,002 MHz, die 21 Tage funktionsfähig blieben. Die „piepsenden“ Signale des Sputnik konnten an sich auf der ganzen Welt empfangen werden, wenn der verwendete Empfänger für die schwachen 1-Watt-Signale empfindlich genug war. Im westlichen Europa konnte dabei ein Astronom den ersten Erfolg verkünden: Heinz Kaminski von der Volkssternwarte Bochum. Nach 92 Tagen trat Sputnik 1 in die dichteren Atmosphärenschichten ein und verglühte am 4. Januar 19507.",
-//     "itemdateyear": "1957",
+//     "itemdateyear": "2000",
 //     "itemdatemonth": 10,
-//     "itemdateday": 4,
-//     "itemdate2year": "1957",
-//     "itemdate2month": 10,
-//     "itemdate2day": 26,
-//     "itemduration": "22d",
-//     "itemparent": "Sputnik (R-7)",
-//     "itemparenturl": "https://de.wikipedia.org/wiki/R-7",
-//     "itemcountry": "SU / RU",
-//     "itemdestination": "Erdorbit",
+//     "itemdateday": 30,
+//     "itemdate2year": "2000",
+//     "itemdate2month": 12,
+//     "itemdate2day": 30,
+//     "itemduration": "22a 222d",
+//     "itemparent": "testRocket 123",
+//     "itemparenturl": "https://de.wikipedia.org/wiki/testrocket",
+//     "itemcountry": "SU/RU, USA, EU, Japan",
+//     "itemdestination": "Erdorbit, ISS, Mond, Mars",
 //     "itemlocation": "Ba LC-1/5",
 //     "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
 //     "itemlatitude": "45.92",
 //     "itemlongitude": "63.342"
 // },
-
-/*
-  {
-    "missionlaunchy": "1957",
-    "missionlaunchm": "10",
-    "missionlaunchd": "04",
-    "missionname": "Sputnik 1",
-    "missioncountry": "UdSSR",
-    "missionrocket": "Sputnik (R-7)",
-    "rocketlink": "https://de.wikipedia.org/wiki/R-7",
-    "missionpad": "Ba LC-1/5",
-    "padlink": "https://de.wikipedia.org/wiki/Baikonur",
-    "missioncrew": "-",
-    "missiontarget": "Erdorbit",
-    "missionlat": "45.92",
-    "missionlong": "63.342",
-    "missionduration": "92d ",
-    "missionendy": "1958",
-    "missionendm": "01",
-    "missionendd": "04",
-    "missionlink": "https://de.wikipedia.org/wiki/Sputnik_1",
-    "missiondescript": "Sputnik 1 (russisch Спутник für Begleiter (der Erde)) war der erste künstliche Erdsatellit. Mit ihm begann am 4. Oktober 1957 das Zeitalter der Raumfahrt. Der Satellit war zwar von der Sowjetunion für den Verlauf des Internationalen Geophysikalischen Jahres (IGY 1957-58) angekündigt worden, doch rechnete die westliche Fachwelt erst Mitte 1958 mit der Fertigstellung der sowjetischen Entwicklungen und wurde durch den Start überrascht. Auch in der westlichen Öffentlichkeit löste der Start Besorgnisse aus; diese wurden mit dem Begriff Sputnik-Schock benannt. Dieser Sputnik - späteres Synonym für alle sowjetischen Satelliten, auch der Kosmos-Serie und anderer „Sputniks“ - wog 83,6 kg und damit fünfmal mehr als der US-Explorer 1 vom 31. Januar 1958 und war eine mit Stickstoff gefüllte, hochglanzpolierte Aluminiumkugel. Sie bestand aus 2 mm starkem Blech aus der Aluminiumlegierung AlMg6T, hatte 58 cm Durchmesser und zwei Antennenpaare (je 2,4 m bzw. 2,9 m lang) ragten aus ihr heraus. Die Trägerrakete R-7 des Satelliten war eine Weiterentwicklung militärischer Interkontinentalraketen durch den Konstrukteur Sergei Pawlowitsch Koroljow. Der Satellit trug zwei Funksender vom Typ D 200 mit einem Watt Leistung für codierte Kurzwellensignale, in denen Innendruck und -temperatur verschlüsselt waren, auf einer Frequenz von 20,005 und 40,002 MHz, die 21 Tage funktionsfähig blieben. Die „piepsenden“ Signale des Sputnik konnten an sich auf der ganzen Welt empfangen werden, wenn der verwendete Empfänger für die schwachen 1-Watt-Signale empfindlich genug war. Im westlichen Europa konnte dabei ein Astronom den ersten Erfolg verkünden: Heinz Kaminski von der Volkssternwarte Bochum. Nach 92 Tagen trat Sputnik 1 in die dichteren Atmosphärenschichten ein und verglühte am 4. Januar 19507."
-  },
- */
 ;
 
 module.exports = exports['default'];
