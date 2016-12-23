@@ -9,7 +9,7 @@ const MissionsComponent = ({missions}) => {
         <h3>auf zu neuen Ufern</h3>
       </div>
       <div id="todo">
-        pls add functions for the sorter and filters<br />
+        pls make the sorter and filters work<br />
         pls set the "Ende:" and "Land:" bold. - f*** syntax
       </div>
       <div id="functionArea" className="missions">
