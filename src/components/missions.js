@@ -10,7 +10,8 @@ const MissionsComponent = ({missions}) => {
       </div>
       <div id="todo">
         pls make the sorter and filters work<br />
-        pls set the "Ende:" and "Land:" bold. - f*** syntax
+        pls set the "Ende:" and "Land:" bold. - f*** syntax<br />
+        find a way for sorter and filter on small screens
       </div>
       <div id="functionArea" className="missions">
         <div id="sort" className="missions">
