@@ -7,19 +7,24 @@ const ConstellationsComponent = ({constellations}) => {
       <div id="featured" className="constellations">
         <h1>Sternbilder</h1>
         <h3>Figuren am Firmament</h3>
-        <div id="todo">
-          please add a function to leave the div constellationImg empty if constellation.imageUrl doesn't exist
-        </div>
       </div>
-      <div id="filter" className="constellations">
-        <form id="filterNorthSouth">
-          <p>Sichtbarkeit nach Halbkugel:</p>
-          <select name="visibility">
-            <option>beide</option>
-            <option>nördlich</option>
-            <option>südlich</option>
-          </select>
-        </form>
+      <div id="todo">
+        please add a function to leave the div constellationImg empty if constellation.imageUrl doesn't exist
+      </div>
+      <div id="functionArea" className="missions">
+        <div id="filter" className="constellations">
+          <form id="filterVisibility">
+            <label>Sichtbarkeit:</label>
+            <select name="visibility">
+              <option selected>alle</option>
+              <option>N - nur nördlich</option>
+              <option>S - nur südlich</option>
+              <option>N S / S N  - mittig</option>
+              <option>Ns - nördlich, teils südlich</option>
+              <option>Sn - südlich, teils nördlich</option>
+            </select>
+          </form>
+        </div>
       </div>
       <div id="dataArea" className="constellations">
         <div id="constellationsTable">
@@ -36,11 +41,11 @@ export default ConstellationsComponent;
 const ConstellationComponent = ({constellation:item}) => {
   return (
     <div className="constellationRow pure-u-1">
-      <div className="constellationImg pure-u-1 pure-u-sm-1-3 center">
+      <div className="constellationImg pure-u-1 pure-u-sm-1-5 center">
         <a href={item.wikipediaUrl}><img src={item.imageUrl} alt={item.name} /></a>
         <small>Bild: {item.imageSrc}</small>
       </div>
-      <div className="constellationInfo pure-u-1 pure-u-sm-1-3 center">
+      <div className="constellationInfo pure-u-1 pure-u-sm-3-5 center">
         <a href={item.wikipediaUrl}>{item.name}</a><br />
         ({item.latinName})
       </div>

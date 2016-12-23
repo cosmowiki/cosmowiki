@@ -5,10 +5,10 @@
 .constellationRow:hover {background: #fff;}
 
 .constellationImg {min-width: 150px;}
-.constellationImg img {width: 150px; display: block; margin: 2% auto;}
+.constellationImg img {width: 150px; display: block; margin: .1em auto;}
 .constellationImg small {margin-left: 50%; font-size: .8em;}
 
-.constellationInfo {margin: 3% 0;}
+.constellationInfo {margin: .2em 0;}
 .constellationInfo a {font-size: 1.5em; line-height: 1.5em;}
 
 /*#constellationsHeader {
