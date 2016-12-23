@@ -119,7 +119,7 @@ main {}
 /*			functionArea -------------------------------------------------------- */
 
 #functionArea {min-height: 1.5em;}
-#sort, #filter {padding: .2em 0; font-size: .8em;}
+#sort, #filter {padding: .2em 0; font-size: .9em;}
 #functionArea label, #functionArea form {display: inline; margin: 0 .1em;}
 #sort select, #filter select {margin-left: .1em;}
 
@@ -192,9 +192,7 @@ footer ul li a {padding: .25em; line-height: 1.5em;}
   /*#wrapper {
 		background: url(/img/bgWrapper2_lg.jpg) center top / cover no-repeat fixed;
   }*/
-	#functionArea {min-height: 1.7em;}
-	#sort {font-size: 1em;}
-	#filter {font-size: 1em;}
+	#functionArea {min-height: 1.5em;}
 }
 
 /*			social menu --------------------------------------------------------- */
