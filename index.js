@@ -34362,27 +34362,27 @@ var MissionsComponent = function MissionsComponent(_ref) {
             _react2['default'].createElement(
               'option',
               { value: 'manned' },
-              'bemannte Mission'
+              'bemannte Missionen'
             ),
             _react2['default'].createElement(
               'option',
               { value: 'satellite' },
-              'Satellit'
+              'Satelliten'
             ),
             _react2['default'].createElement(
               'option',
               { value: 'space-probe' },
-              'Raumsonde'
+              'Raumsonden'
             ),
             _react2['default'].createElement(
               'option',
               { value: 'space-station' },
-              'Raumstation'
+              'Raumstationen'
             ),
             _react2['default'].createElement(
               'option',
               { value: 'space-telescope' },
-              'Weltraumteleskop'
+              'Weltraumteleskope'
             )
           )
         ),
