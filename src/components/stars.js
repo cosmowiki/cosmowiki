@@ -13,9 +13,27 @@ const StarsComponent = ({groupedStars, constellations}) => {
         <h3>strahlende Objekte im All</h3>
       </div>
       <div id="todo" className="pure-u-1">
-        pls make the filter work
+        pls make the filter work<br />
+        find a way for sorter and filter on small screens
       </div>
       <div id="functionArea" className="pure-u-1 stars">
+        <div id="sort" className="stars">
+          <form id="sortStars">
+            <label>Sortieren:</label>
+            <select name="sort">
+              <option value="nameUp" selected>alphabetisch - aufsteigend</option>
+              <option value="nameDown">alphabetisch - absteigend</option>
+              <option value="magUp">Helligkeit - aufsteigend</option>
+              <option value="magDown">Helligkeit - absteigend</option>
+              <option value="distanceUp">Entfernung - aufsteigend</option>
+              <option value="distanceDown">Entfernung - absteigend</option>
+              <option value="massUp">Masse - aufsteigend</option>
+              <option value="massDown">Masse - absteigend</option>
+              <option value="radiusUp">Radius - aufsteigend</option>
+              <option value="radiusDown">Radius - absteigend</option>
+            </select>
+          </form>
+        </div>
         <FilterRow constellations={constellations} />
         <LetterLinks letters={allFirstLetters} />
       </div>
@@ -35,8 +53,8 @@ const FilterRow = ({constellations}) => {
   return (
     <div id="filter" className="stars">
       <form id="filterConstellation">
-        <span>filtern nach Sternbild:</span>
-        <select name="const">
+        <label>filtern nach Sternbild:</label>
+        <select name="constellation">
           <option>alle</option>
           {constellations.map((constellation, idx) => <option key={idx}>{constellation}</option>)}
         </select>
