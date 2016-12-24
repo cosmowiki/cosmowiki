@@ -11,7 +11,7 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
       <div id="todo" className="pure-u-1">
         @wolfram pls add a function to leave the div stationImg empty if station.imageUrl doesn't exist<br />
         @wolfram pls edit the date-function to get "seit station.launchDate" if launchDate is past and "ab station.launchDate" if launchDate is future<br />
-        @all find a way for sorter and filter on small screens
+        @all find a way for sorter and filter on small screens (toggle-buttons?)
       </div>
       <div id="functionArea" className="pure-u-1 missions">
         <div id="sort" className="missions">

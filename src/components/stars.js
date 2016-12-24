@@ -15,7 +15,7 @@ const StarsComponent = ({groupedStars, constellations}) => {
       <div id="todo" className="pure-u-1">
         @me make it work responsive<br />
         @wolfram pls make the filter work<br />
-        @all find a way for sorter and filter on small screens
+        @all find a way for sorter and filter on small screens (toggle-buttons?)
       </div>
       <div id="functionArea" className="pure-u-1 stars">
         <div id="sort" className="stars">

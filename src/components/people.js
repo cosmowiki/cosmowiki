@@ -13,8 +13,8 @@ const PeopleComponent = ({groupedPeople}) => {
         <h3>Entdecker, Pioniere, Wissenschaftler</h3>
       </div>
       <div id="todo" className="pure-u-1">
-        @wolfram pls hide the filter on astronomers- and astronauts-site<br />
-        @all find a way for sorter and filter on small screens<br />
+        @wolfram pls hide the filter-option "astronauts" on astronomers- and astronauts-site<br />
+        @all find a way for sorter and filter on small screens (toggle-buttons?)<br />
         @all hide letterLinks on small screens?<br />
         @me make it work responsive
       </div>
