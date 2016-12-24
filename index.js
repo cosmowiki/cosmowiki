@@ -33524,7 +33524,7 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
     _react2['default'].createElement(
       'div',
       { id: 'todo', className: 'pure-u-1' },
-      '@wolfram pls add a function to leave the div constellationImg empty if constellation.imageUrl doesn\'t exist @all find a way for sorter and filter on small screens'
+      '@wolfram pls add a function to leave the div constellationImg empty if constellation.imageUrl doesn\'t exist @all find a way for sorter and filter on small screens (toggle-buttons?)'
     ),
     _react2['default'].createElement(
       'div',
@@ -34295,7 +34295,7 @@ var MissionsComponent = function MissionsComponent(_ref) {
       _react2['default'].createElement('br', null),
       '@wolfram pls set the "Ende:" and "Land:" bold (f***ing syntax)',
       _react2['default'].createElement('br', null),
-      '@all find a way for sorter and filter on small screens'
+      '@all find a way for sorter and filter on small screens (toggle-buttons?)'
     ),
     _react2['default'].createElement(
       'div',
@@ -35175,9 +35175,9 @@ var PeopleComponent = function PeopleComponent(_ref) {
     _react2['default'].createElement(
       'div',
       { id: 'todo', className: 'pure-u-1' },
-      '@wolfram pls hide the filter on astronomers- and astronauts-site',
+      '@wolfram pls hide the filter-option "astronauts" on astronomers- and astronauts-site',
       _react2['default'].createElement('br', null),
-      '@all find a way for sorter and filter on small screens',
+      '@all find a way for sorter and filter on small screens (toggle-buttons?)',
       _react2['default'].createElement('br', null),
       '@all hide letterLinks on small screens?',
       _react2['default'].createElement('br', null),
@@ -35503,7 +35503,7 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
       _react2['default'].createElement('br', null),
       '@wolfram pls edit the date-function to get "seit station.launchDate" if launchDate is past and "ab station.launchDate" if launchDate is future',
       _react2['default'].createElement('br', null),
-      '@all find a way for sorter and filter on small screens'
+      '@all find a way for sorter and filter on small screens (toggle-buttons?)'
     ),
     _react2['default'].createElement(
       'div',
@@ -35734,7 +35734,7 @@ var StarsComponent = function StarsComponent(_ref) {
       _react2['default'].createElement('br', null),
       '@wolfram pls make the filter work',
       _react2['default'].createElement('br', null),
-      '@all find a way for sorter and filter on small screens'
+      '@all find a way for sorter and filter on small screens (toggle-buttons?)'
     ),
     _react2['default'].createElement(
       'div',
