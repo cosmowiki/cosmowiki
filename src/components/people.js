@@ -12,9 +12,39 @@ const PeopleComponent = ({groupedPeople}) => {
         <h1>Personen</h1>
         <h3>Entdecker, Pioniere, Wissenschaftler</h3>
       </div>
+      <div id="todo" className="pure-u-1">
+        pls hide the filter on astronomers- and astronauts-site<br />
+        find a way for sorter and filter on small screens
+      </div>
+      <div id="functionArea" className="pure-u-1 stars">
+        <div id="sort" className="people">
+          <form id="sortPeople">
+            <label>Sortieren:</label>
+            <select name="sort">
+              <option value="nameUp" selected>alphabetisch - aufsteigend</option>
+              <option value="nameDown">alphabetisch - absteigend</option>
+              <option value="bornUp">Geburtsdatum - aufsteigend</option>
+              <option value="bornDown">Geburtsdatum - absteigend</option>
+              <option value="diedUp">Sterbedatum - aufsteigend</option>
+              <option value="diedDown">Sterbedatum - absteigend</option>
+            </select>
+          </form>
+        </div>
+        <div id="filter" className="people">
+          <form id="filterPeople">
+            <label>Filtern:</label>
+            <select name="sort">
+              <option value="all" selected>alle</option>
+              <option value="astronomers">Astronomen</option>
+              <option value="physicists">Physiker</option>
+              <option value="astronauts">Raumfahrer</option>
+            </select>
+          </form>
+        </div>
 
       <LetterLinks letters={allFirstLetters} />
 
+      </div>
       <div id="dataArea" className="pure-u-1  people">
         <div id="personTable">
           {groupsIterable.map((group, idx) => <PersonGroupComponent group={group} key={idx} />)}
