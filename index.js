@@ -33381,7 +33381,7 @@ var ChronicleComponent = (function (_React$Component) {
         _react2['default'].createElement(
           'div',
           { id: 'todo', className: 'pure-u-1' },
-          'make it work responsive'
+          '@me make it work responsive'
         ),
         _react2['default'].createElement(
           'div',
@@ -33524,7 +33524,7 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
     _react2['default'].createElement(
       'div',
       { id: 'todo', className: 'pure-u-1' },
-      'please add a function to leave the div constellationImg empty if constellation.imageUrl doesn\'t exist'
+      '@wolfram pls add a function to leave the div constellationImg empty if constellation.imageUrl doesn\'t exist @all find a way for sorter and filter on small screens'
     ),
     _react2['default'].createElement(
       'div',
@@ -34291,11 +34291,11 @@ var MissionsComponent = function MissionsComponent(_ref) {
     _react2['default'].createElement(
       'div',
       { id: 'todo', className: 'pure-u-1' },
-      'pls make the sorter and filters work',
+      '@wolfram pls make the sorter and filters work',
       _react2['default'].createElement('br', null),
-      'pls set the "Ende:" and "Land:" bold (f***ing syntax)',
+      '@wolfram pls set the "Ende:" and "Land:" bold (f***ing syntax)',
       _react2['default'].createElement('br', null),
-      'find a way for sorter and filter on small screens'
+      '@all find a way for sorter and filter on small screens'
     ),
     _react2['default'].createElement(
       'div',
@@ -35041,7 +35041,7 @@ var ObjectsComponent = function ObjectsComponent(_ref) {
     _react2["default"].createElement(
       "div",
       { id: "todo", className: "pure-u-1" },
-      "how to 100% height including the footer if site is smaller than 100%?"
+      "@wolfram how to 100% height including the footer if site is smaller than 100%?"
     ),
     _react2["default"].createElement(
       "div",
@@ -35175,13 +35175,13 @@ var PeopleComponent = function PeopleComponent(_ref) {
     _react2['default'].createElement(
       'div',
       { id: 'todo', className: 'pure-u-1' },
-      'pls hide the filter on astronomers- and astronauts-site',
+      '@wolfram pls hide the filter on astronomers- and astronauts-site',
       _react2['default'].createElement('br', null),
-      'find a way for sorter and filter on small screens',
+      '@all find a way for sorter and filter on small screens',
       _react2['default'].createElement('br', null),
-      'hide letterLinks on small screens?',
+      '@all hide letterLinks on small screens?',
       _react2['default'].createElement('br', null),
-      'make it work responsive'
+      '@me make it work responsive'
     ),
     _react2['default'].createElement(
       'div',
@@ -35499,11 +35499,11 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
     _react2['default'].createElement(
       'div',
       { id: 'todo', className: 'pure-u-1' },
-      'please add a function to leave the div stationImg empty if station.imageUrl doesn\'t exist',
+      '@wolfram pls add a function to leave the div stationImg empty if station.imageUrl doesn\'t exist',
       _react2['default'].createElement('br', null),
-      'please edit the date-function to get "seit station.launchDate" if launchDate is past and "ab station.launchDate" if launchDate is future',
+      '@wolfram pls edit the date-function to get "seit station.launchDate" if launchDate is past and "ab station.launchDate" if launchDate is future',
       _react2['default'].createElement('br', null),
-      'find a way for sorter and filter on small screens'
+      '@all find a way for sorter and filter on small screens'
     ),
     _react2['default'].createElement(
       'div',
@@ -35655,7 +35655,7 @@ var SpaceflightComponent = function SpaceflightComponent(_ref) {
     _react2["default"].createElement(
       "div",
       { id: "todo", className: "pure-u-1" },
-      "how to 100% height including the footer if site is smaller than 100%?"
+      "@wolfram how to 100% height including the footer if site is smaller than 100%?"
     ),
     _react2["default"].createElement(
       "div",
@@ -35730,11 +35730,11 @@ var StarsComponent = function StarsComponent(_ref) {
     _react2['default'].createElement(
       'div',
       { id: 'todo', className: 'pure-u-1' },
-      'make it work responsive',
+      '@me make it work responsive',
       _react2['default'].createElement('br', null),
-      'pls make the filter work',
+      '@wolfram pls make the filter work',
       _react2['default'].createElement('br', null),
-      'find a way for sorter and filter on small screens'
+      '@all find a way for sorter and filter on small screens'
     ),
     _react2['default'].createElement(
       'div',
