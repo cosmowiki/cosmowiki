@@ -40,7 +40,7 @@ a:focus, a:hover, a:active {color: #333;}
 
 /*>Borders ------------------------------------------------------------------ */
 
-#branding, nav, #featured, #functionArea, #letterLinks,
+#branding, nav, #featured, #functionArea,
 #pageSubMenu a, #dataArea, #notes,
 #footerContainer {border-bottom: 1px solid #fff;}
 
@@ -75,9 +75,9 @@ nav, #footerContainer {background: #fafafa;}
   -webkit-background-size: cover; -moz-background-size: cover;
   -o-background-size: cover; background-size: cover;
 }
-/*#wrapper {
+#wrapper {
 	background: url(/img/bgWrapper2_sm.jpg) center top / cover no-repeat fixed;
-}*/
+}
 
 header, main, footer {margin: 0 auto; max-width: 1000px;}
 
@@ -180,16 +180,16 @@ footer ul li a {padding: .25em; line-height: 1.5em;}
 /* properties for breakpoints ----------------------------------------------- */
 
 @media only all and (min-width: 48em) {
-  /*#wrapper {
+  #wrapper {
 		background: url(/img/bgWrapper2_md.jpg) center top / cover no-repeat fixed;
-  }*/
+  }
 	#sort {float: left;}
 	#filter {float: right;}
 }
 @media only all and (min-width: 64em) {
-  /*#wrapper {
+  #wrapper {
 		background: url(/img/bgWrapper2_lg.jpg) center top / cover no-repeat fixed;
-  }*/
+  }
 	#functionArea {min-height: 1.5em;}
 }
 
