@@ -21,6 +21,13 @@
 }
 #homeNav ul.sub-menu li:last-child a {border-bottom: 1px solid #fff;}
 
+/*  homeFooter ---------------------------------------------------------------*/
+#homeFooter {
+	width: 100%; font-size: .8em; line-height: 40px; letter-spacing: normal;
+	background-image: linear-gradient(to right, #fff 180px, rgba(255,255,255,.2));
+	border-top: 1px solid #fff;
+}
+
 /*  media queries for the home nav -------------------------------------------*/
 
 @media all and (min-width: 35.5em) {
@@ -37,7 +44,7 @@
 }
 
 @media all and (min-width: 64em) {
-  main.home {padding: 20% 0;}
+  main.home {max-width: 100%; padding: 20% 0;}
   #homeNav {width: 100%;}
   #homeNav li {width: 16.66%;}
   #homeNav a {
@@ -51,13 +58,6 @@
   #homeNav ul.sub-menu li:last-child a {
     border-bottom: none; border-radius: 0 0 5px 5px;
   }
-}
-
-/*  homeFooter ---------------------------------------------------------------*/
-Footer.home {
-	height: 40px; font-size: .8em; line-height: 40px;
-	background-image: linear-gradient(to right, #fff 180px, rgba(255,255,255,.2));
-	border-top: 1px solid #fff;
 }
 
 /*  home nav a:hover background images ---------------------------------------*/
