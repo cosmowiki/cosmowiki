@@ -33274,6 +33274,11 @@ var AstronomyComponent = function AstronomyComponent(_ref) {
     ),
     _react2["default"].createElement(
       "div",
+      { id: "todo", className: "pure-u-1" },
+      "how to 100% height including the footer if site is smaller than 100%?"
+    ),
+    _react2["default"].createElement(
+      "div",
       { id: "pageSubMenuContainer" },
       _react2["default"].createElement(
         "ul",
@@ -33372,6 +33377,11 @@ var ChronicleComponent = (function (_React$Component) {
             null,
             'Meilensteine der Astronomie und Raumfahrt'
           )
+        ),
+        _react2['default'].createElement(
+          'div',
+          { id: 'todo', className: 'pure-u-1' },
+          'make it work responsive'
         ),
         _react2['default'].createElement(
           'div',
@@ -35030,11 +35040,16 @@ var ObjectsComponent = function ObjectsComponent(_ref) {
     ),
     _react2["default"].createElement(
       "div",
+      { id: "todo", className: "pure-u-1" },
+      "how to 100% height including the footer if site is smaller than 100%?"
+    ),
+    _react2["default"].createElement(
+      "div",
       { id: "pageSubMenuContainer" },
       _react2["default"].createElement(
         "ul",
         { id: "pageSubMenu", className: "pure-u-1 center" },
-        [{ url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }].map(function (link) {
+        [{ url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }].map(function (link) {
           return _react2["default"].createElement(
             "li",
             { className: link.name, key: link.url + link.name },
@@ -35162,7 +35177,11 @@ var PeopleComponent = function PeopleComponent(_ref) {
       { id: 'todo', className: 'pure-u-1' },
       'pls hide the filter on astronomers- and astronauts-site',
       _react2['default'].createElement('br', null),
-      'find a way for sorter and filter on small screens'
+      'find a way for sorter and filter on small screens',
+      _react2['default'].createElement('br', null),
+      'hide letterLinks on small screens?',
+      _react2['default'].createElement('br', null),
+      'make it work responsive'
     ),
     _react2['default'].createElement(
       'div',
@@ -35635,6 +35654,11 @@ var SpaceflightComponent = function SpaceflightComponent(_ref) {
     ),
     _react2["default"].createElement(
       "div",
+      { id: "todo", className: "pure-u-1" },
+      "how to 100% height including the footer if site is smaller than 100%?"
+    ),
+    _react2["default"].createElement(
+      "div",
       { id: "pageSubMenuContainer" },
       _react2["default"].createElement(
         "ul",
@@ -35706,6 +35730,8 @@ var StarsComponent = function StarsComponent(_ref) {
     _react2['default'].createElement(
       'div',
       { id: 'todo', className: 'pure-u-1' },
+      'make it work responsive',
+      _react2['default'].createElement('br', null),
       'pls make the filter work',
       _react2['default'].createElement('br', null),
       'find a way for sorter and filter on small screens'
