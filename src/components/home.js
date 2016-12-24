@@ -3,6 +3,9 @@ import React from 'react';
 const HomeComponent = ({appUrl}) => {
   return (
     <main className="home pure-u-1 center">
+      <div id="todo" className="pure-u-1">
+        how to center the nav vertically by keeping the footer on bottom of page?
+      </div>
       <div id="homeNav" className="pure-u-1 center">
         <ul className="main-menu pure-u-1 center">
           <li className="Chronik">
