@@ -9,9 +9,9 @@ const MissionsComponent = ({missions}) => {
         <h3>auf zu neuen Ufern</h3>
       </div>
       <div id="todo" className="pure-u-1">
-        pls make the sorter and filters work<br />
-        pls set the "Ende:" and "Land:" bold (f***ing syntax)<br />
-        find a way for sorter and filter on small screens
+        @wolfram pls make the sorter and filters work<br />
+        @wolfram pls set the "Ende:" and "Land:" bold (f***ing syntax)<br />
+        @all find a way for sorter and filter on small screens
       </div>
       <div id="functionArea" className="pure-u-1 missions">
         <div id="sort" className="missions">

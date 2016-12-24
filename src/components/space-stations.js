@@ -9,9 +9,9 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
         <h3>künstliche Habitate im All</h3>
       </div>
       <div id="todo" className="pure-u-1">
-        please add a function to leave the div stationImg empty if station.imageUrl doesn't exist<br />
-        please edit the date-function to get "seit station.launchDate" if launchDate is past and "ab station.launchDate" if launchDate is future<br />
-        find a way for sorter and filter on small screens
+        @wolfram pls add a function to leave the div stationImg empty if station.imageUrl doesn't exist<br />
+        @wolfram pls edit the date-function to get "seit station.launchDate" if launchDate is past and "ab station.launchDate" if launchDate is future<br />
+        @all find a way for sorter and filter on small screens
       </div>
       <div id="functionArea" className="pure-u-1 missions">
         <div id="sort" className="missions">
