@@ -1,7 +1,7 @@
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 
-#homeNav ul.sub-menu {display: none;}
-#homeNav ul.main-menu li:hover>ul.sub-menu {display: block;}
+#homeNav ul.sub-menu {visibility: hidden;}
+#homeNav ul.main-menu li:hover>ul.sub-menu {visibility: visible;}
 #homeNav a {
   display: block; padding: 1em;
 	font-size: 1.5em;
