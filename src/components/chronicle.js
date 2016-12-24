@@ -31,6 +31,9 @@ export default class ChronicleComponent extends React.Component {
           <h1>Chronik</h1>
           <h3>Meilensteine der Astronomie und Raumfahrt</h3>
         </div>
+        <div id="todo" className="pure-u-1">
+          make it work responsive
+        </div>
         <div id="dataArea">
           <div id="timeline">
             <div id="timelineHeader"></div>

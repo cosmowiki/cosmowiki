@@ -14,7 +14,9 @@ const PeopleComponent = ({groupedPeople}) => {
       </div>
       <div id="todo" className="pure-u-1">
         pls hide the filter on astronomers- and astronauts-site<br />
-        find a way for sorter and filter on small screens
+        find a way for sorter and filter on small screens<br />
+        hide letterLinks on small screens?<br />
+        make it work responsive
       </div>
       <div id="functionArea" className="pure-u-1 stars">
         <div id="sort" className="people">

@@ -13,6 +13,7 @@ const StarsComponent = ({groupedStars, constellations}) => {
         <h3>strahlende Objekte im All</h3>
       </div>
       <div id="todo" className="pure-u-1">
+        make it work responsive<br />
         pls make the filter work<br />
         find a way for sorter and filter on small screens
       </div>
