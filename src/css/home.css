@@ -1,7 +1,7 @@
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 
-#homeNav ul.sub-menu {visibility: hidden;}
-#homeNav ul.main-menu li:hover>ul.sub-menu {visibility: visible;}
+#homeNav ul.sub-menu {display: none;}
+#homeNav ul.main-menu li:hover>ul.sub-menu {display: block;}
 #homeNav a {
   display: block; padding: 1em;
 	font-size: 1.5em;
@@ -35,6 +35,8 @@
   #homeNav {display: block;}
   #homeNav li {width: 100%; float: left;}
   #homeNav a {border-bottom: 1px solid #fff;}
+  #homeNav ul.sub-menu {display: none;}
+  #homeNav ul.main-menu li:hover>ul.sub-menu {display: block;}
 }
 
 @media all and (min-width: 48em) {
@@ -52,6 +54,9 @@
     border-right: 1px solid #fff; border-bottom: none;
   }
   #homeNav ul.main-menu li:last-child a {border-right: none;}
+  #homeNav ul.sub-menu {display: block;}
+  #homeNav ul.sub-menu {visibility: hidden;}
+  #homeNav ul.main-menu li:hover>ul.sub-menu {visibility: visible;}
   #homeNav ul.sub-menu li a {
     border-top: 1px solid #fff; border-right: none; border-bottom: none;
   }
