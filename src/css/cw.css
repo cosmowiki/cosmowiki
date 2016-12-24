@@ -106,8 +106,8 @@ main {}
 
 /*			featured ------------------------------------------------------------ */
 
-#featured {min-height: 5em; text-align: center;}
-#featured h1 {padding: .2em 0 .1em; font-weight: normal;}
+#featured {min-height: 4.5em; text-align: center;}
+#featured h1 {padding: .2em 0 .1em; font-size: 1.75em; font-weight: normal;}
 #featured h3 {padding: .1em 0;}
 
 /*			todo ---------------------------------------------------------------- */
