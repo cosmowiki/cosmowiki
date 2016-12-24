@@ -33897,6 +33897,11 @@ var HomeComponent = function HomeComponent(_ref) {
     { className: "home pure-u-1 center" },
     _react2["default"].createElement(
       "div",
+      { id: "todo", className: "pure-u-1" },
+      "how to center the nav vertically by keeping the footer on bottom of page?"
+    ),
+    _react2["default"].createElement(
+      "div",
       { id: "homeNav", className: "pure-u-1 center" },
       _react2["default"].createElement(
         "ul",
@@ -34199,8 +34204,8 @@ var Homefooter = function Homefooter(_ref) {
   var appUrl = _ref.appUrl;
 
   return _react2["default"].createElement(
-    "footer",
-    { className: "pure-u-1 home center" },
+    "div",
+    { id: "homeFooter", className: "center" },
     "v. 1.0"
   );
 };
@@ -34278,7 +34283,7 @@ var MissionsComponent = function MissionsComponent(_ref) {
       { id: 'todo', className: 'pure-u-1' },
       'pls make the sorter and filters work',
       _react2['default'].createElement('br', null),
-      'pls set the "Ende:" and "Land:" bold. - f*** syntax',
+      'pls set the "Ende:" and "Land:" bold (f***ing syntax)',
       _react2['default'].createElement('br', null),
       'find a way for sorter and filter on small screens'
     ),
@@ -35152,7 +35157,102 @@ var PeopleComponent = function PeopleComponent(_ref) {
         'Entdecker, Pioniere, Wissenschaftler'
       )
     ),
-    _react2['default'].createElement(_chunksLetterLinks2['default'], { letters: allFirstLetters }),
+    _react2['default'].createElement(
+      'div',
+      { id: 'todo', className: 'pure-u-1' },
+      'pls hide the filter on astronomers- and astronauts-site',
+      _react2['default'].createElement('br', null),
+      'find a way for sorter and filter on small screens'
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'functionArea', className: 'pure-u-1 stars' },
+      _react2['default'].createElement(
+        'div',
+        { id: 'sort', className: 'people' },
+        _react2['default'].createElement(
+          'form',
+          { id: 'sortPeople' },
+          _react2['default'].createElement(
+            'label',
+            null,
+            'Sortieren:'
+          ),
+          _react2['default'].createElement(
+            'select',
+            { name: 'sort' },
+            _react2['default'].createElement(
+              'option',
+              { value: 'nameUp', selected: true },
+              'alphabetisch - aufsteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'nameDown' },
+              'alphabetisch - absteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'bornUp' },
+              'Geburtsdatum - aufsteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'bornDown' },
+              'Geburtsdatum - absteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'diedUp' },
+              'Sterbedatum - aufsteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'diedDown' },
+              'Sterbedatum - absteigend'
+            )
+          )
+        )
+      ),
+      _react2['default'].createElement(
+        'div',
+        { id: 'filter', className: 'people' },
+        _react2['default'].createElement(
+          'form',
+          { id: 'filterPeople' },
+          _react2['default'].createElement(
+            'label',
+            null,
+            'Filtern:'
+          ),
+          _react2['default'].createElement(
+            'select',
+            { name: 'sort' },
+            _react2['default'].createElement(
+              'option',
+              { value: 'all', selected: true },
+              'alle'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'astronomers' },
+              'Astronomen'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'physicists' },
+              'Physiker'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'astronauts' },
+              'Raumfahrer'
+            )
+          )
+        )
+      ),
+      _react2['default'].createElement(_chunksLetterLinks2['default'], { letters: allFirstLetters })
+    ),
     _react2['default'].createElement(
       'div',
       { id: 'dataArea', className: 'pure-u-1  people' },
@@ -35382,7 +35482,9 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
       { id: 'todo', className: 'pure-u-1' },
       'please add a function to leave the div stationImg empty if station.imageUrl doesn\'t exist',
       _react2['default'].createElement('br', null),
-      'please edit the date-function to get "seit station.launchDate" if launchDate is past and "ab station.launchDate" if launchDate is future'
+      'please edit the date-function to get "seit station.launchDate" if launchDate is past and "ab station.launchDate" if launchDate is future',
+      _react2['default'].createElement('br', null),
+      'find a way for sorter and filter on small screens'
     ),
     _react2['default'].createElement(
       'div',
@@ -35604,11 +35706,80 @@ var StarsComponent = function StarsComponent(_ref) {
     _react2['default'].createElement(
       'div',
       { id: 'todo', className: 'pure-u-1' },
-      'pls make the filter work'
+      'pls make the filter work',
+      _react2['default'].createElement('br', null),
+      'find a way for sorter and filter on small screens'
     ),
     _react2['default'].createElement(
       'div',
       { id: 'functionArea', className: 'pure-u-1 stars' },
+      _react2['default'].createElement(
+        'div',
+        { id: 'sort', className: 'stars' },
+        _react2['default'].createElement(
+          'form',
+          { id: 'sortStars' },
+          _react2['default'].createElement(
+            'label',
+            null,
+            'Sortieren:'
+          ),
+          _react2['default'].createElement(
+            'select',
+            { name: 'sort' },
+            _react2['default'].createElement(
+              'option',
+              { value: 'nameUp', selected: true },
+              'alphabetisch - aufsteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'nameDown' },
+              'alphabetisch - absteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'magUp' },
+              'Helligkeit - aufsteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'magDown' },
+              'Helligkeit - absteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'distanceUp' },
+              'Entfernung - aufsteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'distanceDown' },
+              'Entfernung - absteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'massUp' },
+              'Masse - aufsteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'massDown' },
+              'Masse - absteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'radiusUp' },
+              'Radius - aufsteigend'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'radiusDown' },
+              'Radius - absteigend'
+            )
+          )
+        )
+      ),
       _react2['default'].createElement(FilterRow, { constellations: constellations }),
       _react2['default'].createElement(_chunksLetterLinks2['default'], { letters: allFirstLetters })
     ),
@@ -35639,13 +35810,13 @@ var FilterRow = function FilterRow(_ref2) {
       'form',
       { id: 'filterConstellation' },
       _react2['default'].createElement(
-        'span',
+        'label',
         null,
         'filtern nach Sternbild:'
       ),
       _react2['default'].createElement(
         'select',
-        { name: 'const' },
+        { name: 'constellation' },
         _react2['default'].createElement(
           'option',
           null,
