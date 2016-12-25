@@ -33524,7 +33524,9 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
     _react2['default'].createElement(
       'div',
       { id: 'todo', className: 'pure-u-1' },
-      '@wolfram pls add a function to leave the div constellationImg empty if constellation.imageUrl doesn\'t exist @all find a way for sorter and filter on small screens (toggle-buttons?)'
+      '@wolfram pls add a function to leave the div constellationImg empty if constellation.imageUrl doesn\'t exist',
+      _react2['default'].createElement('br', null),
+      '@all find a way for sorter and filter on small screens (toggle-buttons?)'
     ),
     _react2['default'].createElement(
       'div',
