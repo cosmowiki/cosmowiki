@@ -25,21 +25,22 @@ const PeopleComponent = ({groupedPeople}) => {
             <select name="sort">
               <option value="nameUp" selected>alphabetisch - aufsteigend</option>
               <option value="nameDown">alphabetisch - absteigend</option>
-              <option value="bornUp">Geburtsdatum - aufsteigend</option>
-              <option value="bornDown">Geburtsdatum - absteigend</option>
-              <option value="diedUp">Sterbedatum - aufsteigend</option>
-              <option value="diedDown">Sterbedatum - absteigend</option>
+              <option value="bornUp">Geburtsdatum - aufsteigend</option>//not important yet, too much items w/o dates
+              <option value="bornDown">Geburtsdatum - absteigend</option>//not important yet, too much items w/o dates
+              <option value="diedUp">Sterbedatum - aufsteigend</option>//not important yet, too much items w/o dates
+              <option value="diedDown">Sterbedatum - absteigend</option>//not important yet, too much items w/o dates
             </select>
           </form>
         </div>
         <div id="filter" className="people">
           <form id="filterPeople">
-            <label>Filtern:</label>
+            <label>Beruf:</label>
             <select name="sort">
               <option value="all" selected>alle</option>
               <option value="astronomers">Astronomen</option>
               <option value="physicists">Physiker</option>
               <option value="astronauts">Raumfahrer</option>
+              <option value="space-flight-pioneer">Raumfahrtpionier</option>
             </select>
           </form>
         </div>
