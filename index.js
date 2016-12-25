@@ -35223,21 +35223,25 @@ var PeopleComponent = function PeopleComponent(_ref) {
               { value: 'bornUp' },
               'Geburtsdatum - aufsteigend'
             ),
+            '//not important yet, too much items w/o dates',
             _react2['default'].createElement(
               'option',
               { value: 'bornDown' },
               'Geburtsdatum - absteigend'
             ),
+            '//not important yet, too much items w/o dates',
             _react2['default'].createElement(
               'option',
               { value: 'diedUp' },
               'Sterbedatum - aufsteigend'
             ),
+            '//not important yet, too much items w/o dates',
             _react2['default'].createElement(
               'option',
               { value: 'diedDown' },
               'Sterbedatum - absteigend'
-            )
+            ),
+            '//not important yet, too much items w/o dates'
           )
         )
       ),
@@ -35250,7 +35254,7 @@ var PeopleComponent = function PeopleComponent(_ref) {
           _react2['default'].createElement(
             'label',
             null,
-            'Filtern:'
+            'Beruf:'
           ),
           _react2['default'].createElement(
             'select',
@@ -35274,6 +35278,11 @@ var PeopleComponent = function PeopleComponent(_ref) {
               'option',
               { value: 'astronauts' },
               'Raumfahrer'
+            ),
+            _react2['default'].createElement(
+              'option',
+              { value: 'space-flight-pioneer' },
+              'Raumfahrtpionier'
             )
           )
         )
