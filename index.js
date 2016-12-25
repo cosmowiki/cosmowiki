@@ -34295,7 +34295,13 @@ var MissionsComponent = function MissionsComponent(_ref) {
       { id: 'todo', className: 'pure-u-1' },
       '@wolfram pls make the sorter and filters work',
       _react2['default'].createElement('br', null),
-      '@wolfram pls set the "Ende:" and "Land:" bold (f***ing syntax)',
+      '@wolfram pls set the "Ende:" and "Land:" ',
+      _react2['default'].createElement(
+        'b',
+        null,
+        'bold'
+      ),
+      ' too (f***ing syntax)',
       _react2['default'].createElement('br', null),
       '@all find a way for sorter and filter on small screens (toggle-buttons?)'
     ),
