@@ -9,7 +9,7 @@ const ConstellationsComponent = ({constellations}) => {
         <h3>Figuren am Firmament</h3>
       </div>
       <div id="todo" className="pure-u-1">
-        @wolfram pls add a function to leave the div constellationImg empty if constellation.imageUrl doesn't exist
+        @wolfram pls add a function to leave the div constellationImg empty if constellation.imageUrl doesn't exist<br />
         @all find a way for sorter and filter on small screens (toggle-buttons?)
       </div>
       <div id="functionArea" className="pure-u-1 missions">
