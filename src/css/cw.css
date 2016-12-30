@@ -86,7 +86,7 @@ header, main, footer {margin: 0 auto; max-width: 1000px;}
 
 #branding {
 	height: 40px;
-	background-image: linear-gradient(to right, #fff 180px, rgba(255,255,255,.2));
+	background-image: linear-gradient(to right, #fff 180px, rgba(153,153,255,.2));
 	}
 #branding img {margin: 5px; height: 30px;}
 
