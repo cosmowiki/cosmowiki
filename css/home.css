@@ -24,7 +24,7 @@
 /*  homeFooter ---------------------------------------------------------------*/
 #homeFooter {
 	width: 100%; font-size: .8em; line-height: 40px; letter-spacing: normal;
-	background-image: linear-gradient(to right, #fff 180px, rgba(255,255,255,.2));
+	background-image: linear-gradient(to right, #fff 180px, rgba(153,153,255,.2));
 	border-top: 1px solid #fff;
 }
 
