@@ -48,7 +48,8 @@ a:focus, a:hover, a:active {color: #333;}
 
 nav, #footerContainer {background: #fafafa;}
 
-#featured, #functionArea, #letterLinks, #notes {background: #f0f0f0;}
+#featured, #functionArea, #sort, #filter, #letterLinks,
+#notes {background: #f0f0f0;}
 
 #pageSubMenu a {background: rgba(255,255,255,.8);}
 
@@ -117,8 +118,17 @@ main {}
 /*			functionArea -------------------------------------------------------- */
 
 #functionArea {min-height: 1.5em;}
-#sort, #filter {padding: .2em 0; font-size: .9em;}
+#sort, #filter {display: inline-block; padding: .2em 0; font-size: .9em;}
+#sort {float: left;}
+#filter {float: right;}
+#sortArea, #filterArea {display: none;}
+#functionArea a {display: inline; margin: .2em;}
+#sort:hover a.toggle-sort {display: none;}
+#sort:hover #sortArea {display: block;}
+#filter:hover #filterArea {display: block;}
+#filter:hover a.toggle-filter {display: none;}
 #functionArea label, #functionArea form {display: inline; margin: 0 .1em;}
+#filterArea form {float: left;}
 #sort select, #filter select {margin-left: .1em;}
 
 /*			letterLinks --------------------------------------------------------- */
@@ -183,8 +193,8 @@ footer ul li a {padding: .25em 0; line-height: 1.5em;}
   #wrapper {
 		background: url(/img/bgWrapper2_md.jpg) center top / cover no-repeat fixed;
   }
-	#sort {float: left;}
-	#filter {float: right;}
+	#sortArea, #filterArea, #sort form, #filter form {display: inline;}
+	#sort a, #filter a {display: none;}
 }
 @media only all and (min-width: 64em) {
   #wrapper {
