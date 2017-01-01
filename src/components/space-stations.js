@@ -13,19 +13,18 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
         @wolfram pls edit the date-function to get "seit station.launchDate" if launchDate is past and "ab station.launchDate" if launchDate is future<br />
         @all find a way for sorter and filter on small screens (toggle-buttons?)
       </div>
-      <div id="functionArea" className="pure-u-1 missions">
-        <div id="sort" className="missions">
-          <form id="sortLaunch">
-            <label>Sortieren:</label>
-            <select name="sort">
-              <option value="launchUp" selected>Startdatum - aufsteigend</option>
-              <option value="launchDown">Startdatum - absteigend</option>
-              <option value="endUp">Missionsende - aufsteigend</option>
-              <option value="endDown">Missionsende - absteigend</option>
-              <option value="durationUp">Missionsdauer - aufsteigend</option>
-              <option value="durationDown">Missionsdauer - absteigend</option>
-              <option value="nameUp">alphabetisch - aufsteigend</option>
-              <option value="nameDown">alphabetisch - absteigend</option>
+      <div id="functionArea" className="pure-u-1 stations">
+        <div id="sort" className="stations">
+          <form id="sortStations" className="sort-form">
+            <select name="sortStations">
+              <option value="sortStationsLaunchUp" selected>Startdatum - aufsteigend</option>
+              <option value="sortStationsLaunchDown">Startdatum - absteigend</option>
+              <option value="sortStationsEndUp">Missionsende - aufsteigend</option>
+              <option value="sortStationsEndDown">Missionsende - absteigend</option>
+              <option value="sortStationsDurationUp">Dauer - aufsteigend</option>
+              <option value="sortStationsDurationDown">Dauer - absteigend</option>
+              <option value="sortStationsNameUp">Name - aufsteigend</option>
+              <option value="sortStationsNameDown">Name - absteigend</option>
             </select>
           </form>
         </div>

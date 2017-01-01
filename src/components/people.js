@@ -20,29 +20,34 @@ const PeopleComponent = ({groupedPeople}) => {
       </div>
       <div id="functionArea" className="pure-u-1 stars">
         <div id="sort" className="people">
-          <form id="sortPeople">
-            <label>Sortieren:</label>
-            <select name="sort">
-              <option value="nameUp" selected>alphabetisch - aufsteigend</option>
-              <option value="nameDown">alphabetisch - absteigend</option>
-              <option value="bornUp">Geburtsdatum - aufsteigend</option>//not important yet, too much items w/o dates
-              <option value="bornDown">Geburtsdatum - absteigend</option>//not important yet, too much items w/o dates
-              <option value="diedUp">Sterbedatum - aufsteigend</option>//not important yet, too much items w/o dates
-              <option value="diedDown">Sterbedatum - absteigend</option>//not important yet, too much items w/o dates
-            </select>
-          </form>
+          <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
+          <div id="sortArea">
+            <form id="sortPeople" className="sort-form">
+              <select name="sortPeople">
+                <option value="sortPeopleNameUp" selected>Name - aufsteigend</option>
+                <option value="sortPeopleNameDown">Name - absteigend</option>
+                <option value="sortPeopleBornUp">Geburtsdatum - aufsteigend</option>//not important yet, too much items w/o dates
+                <option value="sortPeopleBornDown">Geburtsdatum - absteigend</option>//not important yet, too much items w/o dates
+                <option value="sortPeopleDiedUp">Sterbedatum - aufsteigend</option>//not important yet, too much items w/o dates
+                <option value="sortPeopleDiedDown">Sterbedatum - absteigend</option>//not important yet, too much items w/o dates
+              </select>
+            </form>
+          </div>
         </div>
         <div id="filter" className="people">
-          <form id="filterPeople">
-            <label>Beruf:</label>
-            <select name="sort">
-              <option value="all" selected>alle</option>
-              <option value="astronomers">Astronomen</option>
-              <option value="physicists">Physiker</option>
-              <option value="astronauts">Raumfahrer</option>
-              <option value="space-flight-pioneer">Raumfahrtpionier</option>
-            </select>
-          </form>
+          <a href="#" className="toggle-filter" name="toggle-filter">Filtern</a>
+          <div id="filterArea">
+            <form id="filterPeople" className="filter-form">
+              <label>Beruf:</label>
+              <select name="filterPeopleProfession">
+                <option value="filterPeopleAll" selected>alle</option>
+                <option value="filterPeopleAstronomers">Astronomen</option>
+                <option value="filterPeoplePhysicists">Physiker</option>
+                <option value="filterPeopleAstronauts">Raumfahrer</option>
+                <option value="filterPeoplePioneers">Raumfahrtpionier</option>
+              </select>
+            </form>
+          </div>
         </div>
 
       <LetterLinks letters={allFirstLetters} />

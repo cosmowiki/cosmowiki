@@ -12,17 +12,17 @@ const ConstellationsComponent = ({constellations}) => {
         @wolfram pls add a function to leave the div constellationImg empty if constellation.imageUrl doesn't exist<br />
         @all find a way for sorter and filter on small screens (toggle-buttons?)
       </div>
-      <div id="functionArea" className="pure-u-1 missions">
+      <div id="functionArea" className="pure-u-1 constellations">
         <div id="filter" className="constellations">
-          <form id="filterVisibility">
+          <form id="sortConstellationsVisibility" className="filter-form">
             <label>Sichtbarkeit:</label>
-            <select name="visibility">
-              <option selected>alle</option>
-              <option>N - nur nördlich</option>
-              <option>S - nur südlich</option>
-              <option>N S / S N  - mittig</option>
-              <option>Ns - nördlich, teils südlich</option>
-              <option>Sn - südlich, teils nördlich</option>
+            <select name="filterConstellationsVisibility">
+              <option value="sortConstellationsAll" selected>alle</option>
+              <option value="sortConstellationsNorth">N - nur nördlich</option>
+              <option value="sortConstellationsSouth">S - nur südlich</option>
+              <option value="sortConstellationsMiddle">N S / S N  - mittig</option>
+              <option value="sortConstellationsNorthsouth">Ns - nördlich, teils südlich</option>
+              <option value="sortConstellationsSouthnorth">Sn - südlich, teils nördlich</option>
             </select>
           </form>
         </div>

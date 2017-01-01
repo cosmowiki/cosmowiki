@@ -6,7 +6,7 @@ const MissionsComponent = ({missions}) => {
     <main role="main" className="pure-u-1">
       <div id="featured" className="pure-u-1 missions">
         <h1>Missionen</h1>
-        <h3>auf zu neuen Ufern</h3>
+        <h3>3 ... 2 ... 1 ... Lift off!</h3>
       </div>
       <div id="todo" className="pure-u-1">
         @wolfram pls make the sorter and filters work<br />
@@ -17,17 +17,16 @@ const MissionsComponent = ({missions}) => {
         <div id="sort" className="missions">
           <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
           <div id="sortArea">
-            <form className="sort-form">
-              <label>Sortieren:</label>
-              <select name="sortMission">
-                <option value="sortMissionLaunchUp" selected>Startdatum - aufsteigend</option>
-                <option value="sortMissionLaunchDown">Startdatum - absteigend</option>
-                <option value="sortMissionEndUp">Missionsende - aufsteigend</option>
-                <option value="sortMissionEndDown">Missionsende - absteigend</option>
-                <option value="sortMissionDurationUp">Missionsdauer - aufsteigend</option>
-                <option value="sortMissionDurationDown">Missionsdauer - absteigend</option>
-                <option value="sortMissionNameUp">alphabetisch - aufsteigend</option>
-                <option value="sortMissionNameDown">alphabetisch - absteigend</option>
+            <form id="sortMissions" className="sort-form">
+              <select name="sortMissions">
+                <option value="sortMissionsLaunchUp" selected>Startdatum - aufsteigend</option>
+                <option value="sortMissionsLaunchDown">Startdatum - absteigend</option>
+                <option value="sortMissionsEndUp">Missionsende - aufsteigend</option>
+                <option value="sortMissionsEndDown">Missionsende - absteigend</option>
+                <option value="sortMissionsDurationUp">Missionsdauer - aufsteigend</option>
+                <option value="sortMissionsDurationDown">Missionsdauer - absteigend</option>
+                <option value="sortMissionsNameUp">alphabetisch - aufsteigend</option>
+                <option value="sortMissionsNameDown">alphabetisch - absteigend</option>
               </select>
             </form>
           </div>
@@ -35,29 +34,30 @@ const MissionsComponent = ({missions}) => {
         <div id="filter" className="missions right">
           <a href="#" className="toggle-filter" name="toggle-filter">Filtern</a>
           <div id="filterArea">
-            <form id="filterCategory" className="filter-form">
+            <form id="filterMissionsCategory" className="filter-form">
               <label>Kategorie:</label>
-              <select name="filterMissionCategory">
-                <option value="all" selected>alle</option>
-                <option value="manned">bemannte Missionen</option>
-                <option value="satellite">Satelliten</option>
-                <option value="space-probe">Raumsonden</option>
-                <option value="space-station">Raumstationen</option>
-                <option value="space-telescope">Weltraumteleskope</option>
+              <select name="filterMissionsCategory">
+                <option value="filterMissionsAll" selected>alle</option>
+                <option value="filterMissionsManned">bemannte Missionen</option>
+                <option value="filterMissionsUnmanned">unbemannte Missionen</option>
+                <option value="filterMissionsSatellite">Satelliten</option>
+                <option value="filterMissionsSpaceprobe">Raumsonden</option>
+                <option value="filterMissionsSpacestation">Raumstationen</option>
+                <option value="filterMissionsSpacetelescope">Weltraumteleskope</option>
               </select>
             </form>
-            <form id="filterCountry" className="filter-form">
+            <form id="filterMissionsCountry" className="filter-form">
               <label>Land:</label>
-              <select name="filterMissionCountry">
-                <option value="all" selected>alle</option>
-                <option value="ausgewähltes Land">Länder</option>
+              <select name="filterMissionsCountry">
+                <option value="filterMissionsAll" selected>alle</option>
+                <option value="filterMissions[selectedCountry]">Länder</option>
               </select>
             </form>
-            <form id="filterDestination" className="filter-form">
+            <form id="filterMissionsDestination" className="filter-form">
               <label>Ziel:</label>
               <select name="filterMissionDestination">
-                <option value="all" selected>alle</option>
-                <option value="ausgewähltes Ziel">Ziele</option>
+                <option value="filterMissionsAll" selected>alle</option>
+                <option value="filterMissions[selectedDestination]">Ziele</option>
               </select>
             </form>
           </div>
