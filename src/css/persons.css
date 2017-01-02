@@ -1,0 +1,17 @@
+/*#personTable {background: rgba(255,255,255,.9);}*/
+
+.personRow {
+	max-width: 323px; margin: 0 5px; display: inline-block;
+	background: transparent; border-width: 0;
+}
+.personRow:focus, .personRow:hover, .personRow:active {
+	font-weight: 700; background: #ddf; border-radius: 5px 5px 0 0;
+}
+.personInfoBox {
+	position: absolute; width: 313px; margin: 0; padding: 3px; font-weight: normal;
+	background: #fff;
+	border-color: #ddf; border-width: 0 2px 2px 2px;
+	border-style: solid; border-radius: 0 0 5px 5px;
+}
+.personItem a {padding: 5px 0 5px 5px; display: block;}
+.personProfession, .personLife, .personCountry {margin-bottom: 10px;}
