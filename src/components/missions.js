@@ -3,7 +3,7 @@ import Notes from './notes';
 
 const MissionsComponent = ({missions}) => {
   return (
-    <main role="main" className="pure-u-1">
+    <main role="main" className="pure-u-1 missions">
       <div id="featured" className="pure-u-1 missions">
         <h1>Missionen</h1>
         <h3>3 ... 2 ... 1 ... Lift off!</h3>
@@ -63,7 +63,7 @@ const MissionsComponent = ({missions}) => {
           </div>
         </div>
       </div>
-      <div id="dataArea" className="pure-u-1  missions">
+      <div id="dataArea" className="pure-u-1 missions">
         <div id="missionsTable" className="tablesorter">
           {missions.map((mission, idx) => <MissionComponent mission={mission} key={idx}/>)}
         </div>
@@ -77,7 +77,7 @@ export default MissionsComponent;
 
 const MissionComponent = ({mission}) => {
   return (
-    <div className="missionsRow pure-u-1">
+    <div className="missionsRow data-row pure-u-1">
       <div className="missionName pure-u-1 pure-u-sm-9-24">
         <a href={mission.link}>{mission.name}</a>
       </div>

@@ -1,6 +1,6 @@
 #vcardBackground {
 	position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-	background: black; opacity: .7;
+	background: #000; opacity: .8;
 	 }
 #vcardOverlay {
   position: fixed;
@@ -9,7 +9,7 @@
 #vcard { margin: auto; padding-top: 10%; width: 940px; height: auto !important; }
 #vcardContainer {
 	margin: auto; padding: 5px 10px; width: 904px;
-	border: 1px solid #d0d0d0; border-radius: 3px;
+	border: 1px solid #d0d0d0; border-radius: 5px;
 	background: white;
  }
 #vcardClose {
@@ -18,7 +18,7 @@
 	border: 1px solid #d0d0d0; border-radius: 13px; background: white;
  }
 #vcardHeader, #vcardContent, #vcardFooter { width: 100%; }
-#vcardHeader { font-size: .75em; border-bottom: 1px solid #a0a0ff; }
+#vcardHeader { font-size: .75em; border-bottom: 1px solid #99f; }
 #vcardHistory { padding-bottom: 5px; }
 #vcardContent {
 	display: -webkit-flex; display: flex;
@@ -34,11 +34,11 @@
   max-height: 20em;
   overflow: scroll;
 }
-#vcardContentRight { padding-left: 10px;	width: 290px; border-left: 1px solid #a0a0ff; }
+#vcardContentRight { padding-left: 10px;	width: 290px; border-left: 1px solid #99f; }
 .vcardItemRelatedCat { line-height: 1.1em; }
 .vcardItemRelatedLinks {}
 .vcardItemRelatedLinks ul { list-style: none; padding: 0 0 0 5px; }
 .vcardItemRelatedLinks ul:last-child { padding-bottom: 10px; }
 .vcardItemRelatedLinks li { padding: 2px 0; }
-#vcardFooter { font-size: .75em; border-top: 1px solid #a0a0ff; }
+#vcardFooter { font-size: .75em; border-top: 1px solid #99f; }
 #vcardItemWpLink { padding-top: 5px; }

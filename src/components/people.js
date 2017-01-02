@@ -14,6 +14,7 @@ const PeopleComponent = ({groupedPeople}) => {
       </div>
       <div id="todo" className="pure-u-1">
         @wolfram pls hide the filter-option "astronauts" on astronomers- and astronauts-site<br />
+        @wolfram pls set a comma between 1st and 2nd name only if 2nd exists (e.g. at Amenemhet)<br />
         @all find a way for sorter and filter on small screens (toggle-buttons?)<br />
         @all hide letterLinks on small screens?<br />
         @me make it work responsive
@@ -101,7 +102,7 @@ class PersonComponent extends React.Component {
     cssClasses.push(this.state.detailsVisible ? 'visible' : 'hidden');
 
     return (
-      <div className="personRow pure-u-1 pure-u-lg-1-3 pure-u-md-1-2">
+      <div className="personRow pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
         <div className="personItem">
           <a onMouseOver={showDetails} onMouseOut={hideDetails} href={person.wikipediaUrl}>{person.name}</a>
         </div>

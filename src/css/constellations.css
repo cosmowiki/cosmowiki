@@ -1,37 +1,6 @@
-/*#featured.constellations {background: url("/img/featured_constellations.jpg") center top /contain no-repeat;}*/
-
-.constellationRow {display: inline-block; border-bottom: 1px solid #fff;}
-.constellationRow:last-child {border-width: 0;}
-.constellationRow:hover {background: #fff;}
-
 .constellationImg {min-width: 150px;}
 .constellationImg img {width: 150px; display: block; margin: .1em auto;}
 .constellationImg small {margin-left: 50%; font-size: .8em;}
 
 .constellationInfo {margin: .2em 0;}
 .constellationInfo a {font-size: 1.5em; line-height: 1.5em;}
-
-/*#constellationsHeader {
-	background-image: linear-gradient(to bottom, #fff 0%, #d2d2ff 100%);
-	border-bottom: 1px solid #d0d0d0;
-}
-#constellationsTable tr {height: 2em; clear: left; display: block;}
-#constellationsTable tr:nth-child(even) {background: rgba(192,192,192,.1);}
-#constellationsTable th, #constellationsTable td {
-	float: left; line-height: 2em; overflow: hidden; white-space: nowrap;
-}
-.constellationsRow:hover {
-	background: #fff;
-	box-shadow: 0px 6px 6px -4px #999, 0px -6px 6px -4px #999;
-	}
-.constellationsName {width: 172px; padding-left: 3px;}
-.constellationsLatin {width: 130px;}
-.constellationsShort {width: 40px;}
-.constellationsAuthor {width: 75px;}
-.constellationsY {width: 40px;}
-.constellationsSphere {width: 50px;}
-.constellationsVisFrom, .constellationsVisTo {width: 45px;}
-.constellationsSqDeg {width: 65px;}
-.starsOver3Mag, .starsOver4Mag {width: 55px;}
-.constellationsBrightStar {width: 120px;}
-.constellationsMagMax {width: 62px; padding-right: 3px;}*/

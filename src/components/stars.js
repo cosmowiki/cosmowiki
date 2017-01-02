@@ -19,23 +19,31 @@ const StarsComponent = ({groupedStars, constellations}) => {
       </div>
       <div id="functionArea" className="pure-u-1 stars">
         <div id="sort" className="stars">
-          <form id="sortStars">
-            <label>Sortieren:</label>
-            <select name="sort">
-              <option value="nameUp" selected>alphabetisch - aufsteigend</option>
-              <option value="nameDown">alphabetisch - absteigend</option>
-              <option value="magUp">Helligkeit - aufsteigend</option>
-              <option value="magDown">Helligkeit - absteigend</option>
-              <option value="distanceUp">Entfernung - aufsteigend</option>
-              <option value="distanceDown">Entfernung - absteigend</option>
-              <option value="massUp">Masse - aufsteigend</option>
-              <option value="massDown">Masse - absteigend</option>
-              <option value="radiusUp">Radius - aufsteigend</option>
-              <option value="radiusDown">Radius - absteigend</option>
-            </select>
-          </form>
+          <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
+          <div id="sortArea">
+            <form id="sortStars" className="sort-form">
+              <label>Sortieren:</label>
+              <select name="sortStars">
+                <option value="sortStarsNameUp" selected>Name - aufsteigend</option>
+                <option value="sortStarsNameDown">Name - absteigend</option>
+                <option value="sortStarsMagUp">Helligkeit - aufsteigend</option>
+                <option value="sortStarsMagDown">Helligkeit - absteigend</option>
+                <option value="sortStarsDistanceUp">Entfernung - aufsteigend</option>
+                <option value="sortStarsDistanceDown">Entfernung - absteigend</option>
+                <option value="sortStarsMassUp">Masse - aufsteigend</option>
+                <option value="sortStarsMassDown">Masse - absteigend</option>
+                <option value="sortStarsRadiusUp">Radius - aufsteigend</option>
+                <option value="sortStarsRadiusDown">Radius - absteigend</option>
+              </select>
+            </form>
+          </div>
         </div>
-        <FilterRow constellations={constellations} />
+        <div id="filter" className="missions right">
+          <a href="#" className="toggle-filter" name="toggle-filter">Filtern</a>
+          <div id="filterArea">
+            <FilterRow constellations={constellations} />
+          </div>
+        </div>
         <LetterLinks letters={allFirstLetters} />
       </div>
       <div id="dataArea" className="pure-u-1  stars">
@@ -52,15 +60,13 @@ export default StarsComponent;
 
 const FilterRow = ({constellations}) => {
   return (
-    <div id="filter" className="stars">
-      <form id="filterConstellation">
-        <label>filtern nach Sternbild:</label>
-        <select name="constellation">
-          <option>alle</option>
-          {constellations.map((constellation, idx) => <option key={idx}>{constellation}</option>)}
-        </select>
-      </form>
-    </div>
+            <form id="filterStarsConstellation" className="filter-form">
+              <label>Sternbild:</label>
+              <select name="constellation">
+                <option selected>alle</option>
+                {constellations.map((constellation, idx) => <option key={idx}>{constellation}</option>)}
+              </select>
+            </form>
   );
 };
 

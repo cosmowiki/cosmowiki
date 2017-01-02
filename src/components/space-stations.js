@@ -43,7 +43,7 @@ export default SpaceStationsComponent;
 
 const StationComponent = ({spaceStation:station}) => {
   return (
-    <div className="stationRow pure-u-1">
+    <div className="stationRow data-row pure-u-1">
       <div className="stationImg pure-u-1 pure-u-sm-1-5 center">
         <a href={station.wikipediaUrl}><img src={station.imageUrl} alt={station.name} /></a>
         <small>Bild: {station.imageSrc}</small>

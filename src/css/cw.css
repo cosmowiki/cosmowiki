@@ -41,8 +41,9 @@ a:focus, a:hover, a:active {color: #333;}
 /*>Borders ------------------------------------------------------------------ */
 
 #branding, nav, #featured, #functionArea,
-#pageSubMenu a, #dataArea, #notes,
+#pageSubMenu a, #dataArea, .data-row, .letter-section, #notes,
 #footerContainer {border-bottom: 1px solid #fff;}
+.data-row:last-child, .letter-section:last-child {border-width: 0;}
 
 /*>Backgrounds -------------------------------------------------------------- */
 
@@ -51,12 +52,14 @@ nav, #footerContainer {background: #fafafa;}
 #featured, #functionArea, #sort, #filter, #letterLinks,
 #notes {background: #f0f0f0;}
 
-#pageSubMenu a {background: rgba(255,255,255,.8);}
+#pageSubMenu a, .data-row, .letter-section {background: rgba(255,255,255,.9);}
 
-#dataArea,
-#pageSubMenu a:focus,
-#pageSubMenu a:hover,
-#pageSubMenu a:active {background: rgba(255,255,255,.9);}
+.data-row:focus,
+.data-row:hover,
+.data-row:active,
+.letter-section:focus,
+.letter-section:hover,
+.letter-section:active {background: rgba(255,255,255,.95);}
 
 #footerFoot {background: #dadada;}
 
@@ -77,7 +80,7 @@ nav, #footerContainer {background: #fafafa;}
   -o-background-size: cover; background-size: cover;
 }
 #wrapper {
-	background: url(/img/bgWrapper2_sm.jpg) center top / cover no-repeat fixed;
+	background: url(/img/bgWrapper6_sm.jpg) center top / cover no-repeat fixed;
 }
 
 header, main, footer {margin: 0 auto; max-width: 1000px;}
@@ -169,6 +172,7 @@ main {}
 /*		dataArea -------------------------------------------------------------- */
 
 #dataArea {font-size: .8em;}
+.dataRow {display: inline-block;}
 
 /*			notes --------------------------------------------------------------- */
 
@@ -191,14 +195,14 @@ footer ul li a {padding: .25em 0; line-height: 1.5em;}
 
 @media only all and (min-width: 48em) {
   #wrapper {
-		background: url(/img/bgWrapper2_md.jpg) center top / cover no-repeat fixed;
+		background: url(/img/bgWrapper6_md.jpg) center top / cover no-repeat fixed;
   }
 	#sortArea, #filterArea, #sort form, #filter form {display: inline;}
 	#sort a, #filter a {display: none;}
 }
 @media only all and (min-width: 64em) {
   #wrapper {
-		background: url(/img/bgWrapper2_lg.jpg) center top / cover no-repeat fixed;
+		background: url(/img/bgWrapper6_lg.jpg) center top / cover no-repeat fixed;
   }
 	#functionArea {min-height: 1.5em;}
 }

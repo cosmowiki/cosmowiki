@@ -1,12 +1,6 @@
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 
-.missionsRow {
-  display: inline-block;
-  padding: .1em 0;
-  border-bottom: 1px solid #fff;
-}
-.missionsRow:last-child {border-width: 0;}
-.missionsRow:hover {background: #fff;}
+.missionsRow {padding: .1em 0;}
 .missionsRow div {padding: .1em 0;}
 
 .missionImg {min-width: 150px;}

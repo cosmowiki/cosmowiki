@@ -41,7 +41,7 @@ export default ConstellationsComponent;
 
 const ConstellationComponent = ({constellation:item}) => {
   return (
-    <div className="constellationRow pure-u-1">
+    <div className="constellationRow data-row pure-u-1">
       <div className="constellationImg pure-u-1 pure-u-sm-1-5 center">
         <a href={item.wikipediaUrl}><img src={item.imageUrl} alt={item.name} /></a>
         <small>Bild: {item.imageSrc}</small>
