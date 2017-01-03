@@ -44,6 +44,15 @@ class Mission {
     mission.reenterDate = `${reenterday}${reentermonth}${reenteryear}`;
     mission.status = raw.itemstatus ? raw.itemstatus : '-';
     mission.operator = raw.itemoperator ? raw.itemoperator : '';
+    const astronaut1 = raw.itemperson ? raw.itemperson : '';//better take an array mission.astronauts[]?
+    const astronaut2 = raw.itemperson2 ? raw.itemperson2 : '';
+    const astronaut3 = raw.itemperson3 ? raw.itemperson3 : '';
+    const astronaut4 = raw.itemperson4 ? raw.itemperson4 : '';
+    const astronaut5 = raw.itemperson5 ? raw.itemperson5 : '';
+    const astronaut6 = raw.itemperson6 ? raw.itemperson6 : '';
+    const astronaut7 = raw.itemperson7 ? raw.itemperson7 : '';
+    const astronaut8 = raw.itemperson8 ? raw.itemperson8 : '';
+    mission.astronauts = `${astronaut1}, ${astronaut2}, ${astronaut3}, ${astronaut4}, ${astronaut5}, ${astronaut6}, ${astronaut7}, ${astronaut8}`;
 
     return mission;
   }
