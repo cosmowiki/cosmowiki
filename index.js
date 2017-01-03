@@ -34374,7 +34374,7 @@ var MissionComponent = function MissionComponent(_ref2) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'missionInfo pure-u-1-2 pure-u-sm-9-24' },
+      { className: 'missionInfo pure-u-1-2 pure-u-sm-9-24 left' },
       _react2['default'].createElement(
         'p',
         { className: 'missionOperator' },
@@ -37210,6 +37210,15 @@ var Mission = (function () {
       mission.reenterDate = '' + reenterday + reentermonth + reenteryear;
       mission.status = raw.itemstatus ? raw.itemstatus : '-';
       mission.operator = raw.itemoperator ? raw.itemoperator : '';
+      var astronaut1 = raw.itemperson ? raw.itemperson : ''; //better take an array mission.astronauts[]?
+      var astronaut2 = raw.itemperson2 ? raw.itemperson2 : '';
+      var astronaut3 = raw.itemperson3 ? raw.itemperson3 : '';
+      var astronaut4 = raw.itemperson4 ? raw.itemperson4 : '';
+      var astronaut5 = raw.itemperson5 ? raw.itemperson5 : '';
+      var astronaut6 = raw.itemperson6 ? raw.itemperson6 : '';
+      var astronaut7 = raw.itemperson7 ? raw.itemperson7 : '';
+      var astronaut8 = raw.itemperson8 ? raw.itemperson8 : '';
+      mission.astronauts = astronaut1 + ', ' + astronaut2 + ', ' + astronaut3 + ', ' + astronaut4 + ', ' + astronaut5 + ', ' + astronaut6 + ', ' + astronaut7 + ', ' + astronaut8;
 
       return mission;
     }
