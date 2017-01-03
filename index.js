@@ -33910,7 +33910,9 @@ var HomeComponent = function HomeComponent(_ref) {
     _react2["default"].createElement(
       "div",
       { id: "todo", className: "pure-u-1" },
-      "how to center the nav vertically by keeping the page at 100% in height and the footer on bottom on big screens?"
+      "how to stretch the page to 100% in height if more space is available? (big screens)",
+      _react2["default"].createElement("br", null),
+      "how to center the nav vertically (big screens)"
     ),
     _react2["default"].createElement(
       "div",
