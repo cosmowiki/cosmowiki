@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = ({appUrl}) => {
   return (
-    <footer className="center pure-u-1">
+    <footer className="pure-u-1 center">
       <div id="footerContainer" className="pure-u-1">
         <div id="footerMainPages" className="footerPart pure-u-1-2 pure-u-sm-1-5">
           <h3>Hauptseiten</h3>
@@ -94,7 +94,7 @@ const Footer = ({appUrl}) => {
           </ul>
         </div>
       </div>
-      <div id="footerFoot" className="center pure-u-1">
+      <div id="footerFoot" className="pure-u-1 center">
         v. 1.0
       </div>
     </footer>

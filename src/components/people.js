@@ -8,7 +8,7 @@ const PeopleComponent = ({groupedPeople}) => {
 
   return (
     <main role="main" className="pure-u-1">
-      <div id="featured" className="pure-u-1 persons">
+      <div id="featured" className="persons pure-u-1 center">
         <h1>Personen</h1>
         <h3>Entdecker, Pioniere, Wissenschaftler</h3>
       </div>
@@ -19,7 +19,7 @@ const PeopleComponent = ({groupedPeople}) => {
         @all hide letterLinks on small screens?<br />
         @me make it work responsive
       </div>
-      <div id="functionArea" className="pure-u-1 stars">
+      <div id="functionArea" className="persons pure-u-1">
         <div id="sort" className="people">
           <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
           <div id="sortArea">
@@ -54,7 +54,7 @@ const PeopleComponent = ({groupedPeople}) => {
       <LetterLinks letters={allFirstLetters} />
 
       </div>
-      <div id="dataArea" className="pure-u-1  people">
+      <div id="dataArea" className="people pure-u-1">
         <div id="personTable">
           {groupsIterable.map((group, idx) => <PersonGroupComponent group={group} key={idx} />)}
         </div>
@@ -102,7 +102,7 @@ class PersonComponent extends React.Component {
     cssClasses.push(this.state.detailsVisible ? 'visible' : 'hidden');
 
     return (
-      <div className="personRow pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+      <div className="person-row pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
         <div className="personItem">
           <a onMouseOver={showDetails} onMouseOut={hideDetails} href={person.wikipediaUrl}>{person.name}</a>
         </div>

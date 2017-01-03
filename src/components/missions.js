@@ -3,10 +3,10 @@ import Notes from './notes';
 
 const MissionsComponent = ({missions}) => {
   return (
-    <main role="main" className="pure-u-1 missions">
+    <main role="main" className="pure-u-1 missions center">
       <div id="featured" className="pure-u-1 missions">
         <h1>Missionen</h1>
-        <h3>3 ... 2 ... 1 ... Lift off!</h3>
+        <h3>3 ... 2 ... 1 ... Lift-off!</h3>
       </div>
       <div id="todo" className="pure-u-1">
         @wolfram pls make the sorter and filters work<br />
@@ -77,7 +77,7 @@ export default MissionsComponent;
 
 const MissionComponent = ({mission}) => {
   return (
-    <div className="missionsRow data-row pure-u-1">
+    <div className="missions-row data-row pure-u-1">
       <div className="missionName pure-u-1 pure-u-sm-9-24">
         <a href={mission.link}>{mission.name}</a>
       </div>

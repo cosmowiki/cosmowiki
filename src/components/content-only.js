@@ -4,7 +4,7 @@ import Homefooter from './homefooter';
 
 const ContentOnlyComponent = ({children, appUrl}) => {
   return (
-    <div id="wrapper" className="pure-g home">
+    <div id="wrapper" className="home pure-g">
       <Logo/>
       {children}
       <Homefooter appUrl={appUrl} />

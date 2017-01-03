@@ -8,7 +8,7 @@ const StarsComponent = ({groupedStars, constellations}) => {
 
   return (
     <main role="main" className="pure-u-1">
-      <div id="featured" className="pure-u-1 stars">
+      <div id="featured" className="stars pure-u-1 center">
         <h1>Sterne</h1>
         <h3>strahlende Objekte im All</h3>
       </div>
@@ -17,7 +17,7 @@ const StarsComponent = ({groupedStars, constellations}) => {
         @wolfram pls make the filter work<br />
         @all find a way for sorter and filter on small screens (toggle-buttons?)
       </div>
-      <div id="functionArea" className="pure-u-1 stars">
+      <div id="functionArea" className="stars pure-u-1">
         <div id="sort" className="stars">
           <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
           <div id="sortArea">
@@ -46,7 +46,7 @@ const StarsComponent = ({groupedStars, constellations}) => {
         </div>
         <LetterLinks letters={allFirstLetters} />
       </div>
-      <div id="dataArea" className="pure-u-1  stars">
+      <div id="dataArea" className="stars pure-u-1">
         <div id="starsTable">
           {starsIterable.map((group, idx) => <StarsGroupComponent group={group} key={idx} />)}
         </div>

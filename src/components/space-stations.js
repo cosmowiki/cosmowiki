@@ -4,7 +4,7 @@ import Notes from './notes';
 const SpaceStationsComponent = ({spaceStations:stations}) => {
   return (
     <main role="main" className="pure-u-1">
-      <div id="featured" className="pure-u-1 stations">
+      <div id="featured" className="stations pure-u-1 center">
         <h1>Raumstationen</h1>
         <h3>künstliche Habitate im All</h3>
       </div>
@@ -13,7 +13,7 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
         @wolfram pls edit the date-function to get "seit station.launchDate" if launchDate is past and "ab station.launchDate" if launchDate is future<br />
         @all find a way for sorter and filter on small screens (toggle-buttons?)
       </div>
-      <div id="functionArea" className="pure-u-1 stations">
+      <div id="functionArea" className="stations pure-u-1">
         <div id="sort" className="stations">
           <form id="sortStations" className="sort-form">
             <select name="sortStations">
@@ -29,7 +29,7 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
           </form>
         </div>
       </div>
-      <div id="dataArea" className="pure-u-1  stations">
+      <div id="dataArea" className="stations pure-u-1">
         <div id="stationsTable">
           {stations.map((station, idx) => <StationComponent spaceStation={station} key={idx}/>)}
         </div>
@@ -43,7 +43,7 @@ export default SpaceStationsComponent;
 
 const StationComponent = ({spaceStation:station}) => {
   return (
-    <div className="stationRow data-row pure-u-1">
+    <div className="station-row data-row pure-u-1">
       <div className="stationImg pure-u-1 pure-u-sm-1-5 center">
         <a href={station.wikipediaUrl}><img src={station.imageUrl} alt={station.name} /></a>
         <small>Bild: {station.imageSrc}</small>

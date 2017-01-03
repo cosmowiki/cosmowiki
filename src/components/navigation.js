@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navigation = ({ appUrl }) => {
   return (
-    <nav className="center pure-u-1 pure-menu pure-menu-horizontal">
+    <nav className="pure-u-1 pure-menu pure-menu-horizontal center">
       <ul id="menu" className="pure-menu-list">
         <li className="pure-menu-item">
           <a className="pure-menu-link menu-item chronicle" href={appUrl.eventsSite()}>Chronik</a>
