@@ -1,21 +1,15 @@
-/* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
-
-.missionsRow {padding: .1em 0;}
-.missionsRow div {padding: .1em 0;}
+.missionsRow div {padding: .2em 0;}
 
 .missionImg {min-width: 150px;}
 .missionImg img {width: 150px; display: block; margin: 2% auto;}
 .missionImg small {margin-left: 50%; font-size: .8em;}
-
-/*.missionsRow div {outline: 1px solid #000;}
-.missionDates p {outline: 1px solid #00f;}
-.missionInfo p {outline: 1px solid #00f;}*/
 
 .missionName {text-align: center; font-size: 1.5em;}
 .missionDates {text-align: right;}
 .missionDates p {display: block; margin-right: .5em;}
 .missionInfo p {display: block; margin-left: .5em;}
 
+/* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
   .missionName {float: left; height: 2.25em;}
   .missionDates p, .missionInfo p {text-align: left; line-height: 1.75em;}
@@ -32,33 +26,3 @@
   .missionInfo p {display: inline-block; margin: 0; line-height: 2em;}
   p.missionDestination {margin-left: .5em;}
 }
-
-/*#missionsHeader {
-	background-image: linear-gradient(to bottom, #fff 0%, #d2d2ff 100%);
-	border-bottom: 1px solid #d0d0d0;
-}
-#missionsTable tr {height: 2em; clear: left; display: block;}
-#missionsTable tr:nth-child(even) {background: rgba(192,192,192,.1);}
-#missionsTable th, #missionsTable td {
-	float: left; line-height: 2em; overflow: hidden; white-space: nowrap;
-}
-.missionsRow:hover {
-	background: #fff;
-	box-shadow: 0px 6px 6px -4px #999, 0px -6px 6px -4px #999;
-	}
-.missionLaunch, .missionEnd {width: 70px;}
-.missionName {width: 214px;}
-.missionCountry {width: 96px;}
-.missionRocket {width: 131px;}
-.missionPad {width: 116px;}
-.missionCrew {width: 47px; padding-right: 4px;}
-.missionDest {width: 104px;}
-.missionDuration {width: 105px; padding-right: 3px;}*/
-/*
-#missionsTable .infoRow {
-	position: absolute; min-width: 250px; max-width: 496px; display: none;
-	margin: 3px 0 0 0px; padding: 5px;
-	text-align: justify; border: 1px solid #b3e4ff;
-}
-*/
-/*.missionInfo {float: left; overflow: hidden; white-space: nowrap;}*/

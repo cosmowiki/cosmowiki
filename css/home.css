@@ -1,4 +1,4 @@
-/* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
+#wrapper.home {min-height: 100%; position: relative;}
 
 #homeNav ul.sub-menu {display: none;}
 #homeNav ul.main-menu li:hover>ul.sub-menu {display: block;}
@@ -9,7 +9,8 @@
   border-bottom: 1px solid #fff;
 }
 #homeNav a:hover {background: rgba(255,255,255,.9);}
-#homeNav ul.main-menu li:last-child a {border-bottom: 0;}
+#homeNav ul.main-menu li:last-child a {border-bottom: none;}
+#homeNav ul.main-menu li:last-child:hover a {border-bottom: 1px solid #fff;}
 
 /*    sub-menu ---------------------------------------------------------------*/
 
@@ -20,15 +21,17 @@
   border-bottom: 1px solid #fff;
 }
 #homeNav ul.sub-menu li:last-child a {border-bottom: 1px solid #fff;}
+#homeNav ul.main-menu li:last-child li:last-child a {border-bottom: none;}
 
 /*  homeFooter ---------------------------------------------------------------*/
 #homeFooter {
-	width: 100%; font-size: .8em; line-height: 40px; letter-spacing: normal;
+  height: 45px; font-size: .8em; line-height: 40px; letter-spacing: normal;
 	background-image: linear-gradient(to right, #fff 180px, rgba(153,153,255,.2));
 	border-top: 1px solid #fff;
 }
 
 /*  media queries for the home nav -------------------------------------------*/
+/* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 
 @media all and (min-width: 35.5em) {
   main.home {padding: 0;}
@@ -40,15 +43,16 @@
 }
 
 @media all and (min-width: 48em) {
-  main.home {padding: 5% 0;}
+  main.home {position: relative; min-height: 100%; padding-bottom: 46px;}
   #homeNav {width: 50%; margin: auto;}
   #homeNav a {padding: 1em .5em;}
+  #homeFooter {position: absolute; bottom: 0; left: 0;}
 }
 
 @media all and (min-width: 64em) {
-  main.home {max-width: 100%; padding: 20% 0;}
+  main.home {max-width: inherit; width: 100%;}
   #homeNav {width: 100%;}
-  #homeNav li {width: 16.66%;}
+  #homeNav li {width: 16.666%;}
   #homeNav a {
     padding: 2em .5em;
     border-right: 1px solid #fff; border-bottom: none;
@@ -63,6 +67,7 @@
   #homeNav ul.sub-menu li:last-child a {
     border-bottom: none; border-radius: 0 0 5px 5px;
   }
+  #homeNav ul.main-menu li:last-child:hover a {border-bottom: none;}
 }
 
 /*  home nav a:hover background images ---------------------------------------*/

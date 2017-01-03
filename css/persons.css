@@ -1,10 +1,10 @@
 /*#personTable {background: rgba(255,255,255,.9);}*/
 
-.personRow {
+.person-row {
 	max-width: 323px; margin: 0 5px; display: inline-block;
 	background: transparent; border-width: 0;
 }
-.personRow:focus, .personRow:hover, .personRow:active {
+.person-row:focus, .person-row:hover, .person-row:active {
 	font-weight: 700; background: #ddf; border-radius: 5px 5px 0 0;
 }
 .personInfoBox {
