@@ -4,7 +4,8 @@ const HomeComponent = ({appUrl}) => {
   return (
     <main className="home pure-u-1 center">
       <div id="todo" className="pure-u-1">
-        how to center the nav vertically by keeping the page at 100% in height and the footer on bottom on big screens?
+        how to stretch the page to 100% in height if more space is available? (big screens)<br />
+        how to center the nav vertically (big screens)
       </div>
       <div id="homeNav" className="pure-u-1 center">
         <ul className="main-menu pure-u-1 center">

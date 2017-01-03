@@ -25,7 +25,8 @@
 
 /*  homeFooter ---------------------------------------------------------------*/
 #homeFooter {
-  height: 45px; font-size: .8em; line-height: 40px; letter-spacing: normal;
+  position: absolute; bottom: 0; left: 0; height: 45px;
+  font-size: .8em; line-height: 40px; letter-spacing: normal;
 	background-image: linear-gradient(to right, #fff 180px, rgba(153,153,255,.2));
 	border-top: 1px solid #fff;
 }
@@ -43,10 +44,9 @@
 }
 
 @media all and (min-width: 48em) {
-  main.home {position: relative; min-height: 100%; padding-bottom: 46px;}
+  main.home {padding-bottom: 46px;}
   #homeNav {width: 50%; margin: auto;}
   #homeNav a {padding: 1em .5em;}
-  #homeFooter {position: absolute; bottom: 0; left: 0;}
 }
 
 @media all and (min-width: 64em) {
@@ -58,9 +58,6 @@
     border-right: 1px solid #fff; border-bottom: none;
   }
   #homeNav ul.main-menu li:last-child a {border-right: none;}
-  #homeNav ul.sub-menu {display: block;}
-  #homeNav ul.sub-menu {visibility: hidden;}
-  #homeNav ul.main-menu li:hover>ul.sub-menu {visibility: visible;}
   #homeNav ul.sub-menu li a {
     border-top: 1px solid #fff; border-right: none; border-bottom: none;
   }
