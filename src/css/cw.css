@@ -14,7 +14,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	margin: 0; padding: 0; vertical-align: baseline;
 	background: transparent; border: 0;
 }
-html {height: 100%;}
+html, body, #app {height: 100%;}
 body, html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
 	color: #222; font-family: sans-serif; font-weight: 100;

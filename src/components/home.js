@@ -3,10 +3,6 @@ import React from 'react';
 const HomeComponent = ({appUrl}) => {
   return (
     <main className="home pure-u-1 center">
-      <div id="todo" className="pure-u-1">
-        how to stretch the page to 100% in height if more space is available? (big screens)<br />
-        how to center the nav vertically (big screens)
-      </div>
       <div id="homeNav" className="pure-u-1 center">
         <ul className="main-menu pure-u-1 center">
           <li>
