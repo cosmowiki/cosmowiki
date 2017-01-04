@@ -49,8 +49,8 @@
 }
 
 @media all and (min-width: 64em) {
-  main.home {max-width: inherit; width: 100%;}
-  #homeNav {width: 100%;}
+  main.home {max-width: inherit; height: 100%;}
+  #homeNav {position: absolute; top: 50%; margin-top: -5em; width: 100%;}
   #homeNav li {width: 16.666%;}
   #homeNav a {
     padding: 2em .5em;

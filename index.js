@@ -33909,13 +33909,6 @@ var HomeComponent = function HomeComponent(_ref) {
     { className: "home pure-u-1 center" },
     _react2["default"].createElement(
       "div",
-      { id: "todo", className: "pure-u-1" },
-      "how to stretch the page to 100% in height if more space is available? (big screens)",
-      _react2["default"].createElement("br", null),
-      "how to center the nav vertically (big screens)"
-    ),
-    _react2["default"].createElement(
-      "div",
       { id: "homeNav", className: "pure-u-1 center" },
       _react2["default"].createElement(
         "ul",
