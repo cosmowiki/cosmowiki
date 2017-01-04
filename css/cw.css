@@ -50,15 +50,15 @@ a:focus, a:hover, a:active {color: #333;}
 
 #wrapper {
 	margin: 0 auto;
-	background: #114;
+	background: #113;
   -webkit-background-size: cover; -moz-background-size: cover;
   -o-background-size: cover; background-size: cover;
 }
 #wrapper {
-	background: url(/img/bgWrapper6_sm.jpg) center top / cover no-repeat fixed;
+	background: url(/img/bgWrapper6_sm.jpg) center center / cover no-repeat fixed;
 }
 
-header, main, footer {margin: 0 auto; max-width: 1000px;}
+header, main, footer {margin: 0 auto; max-width: 1024px;}
 
 /*		Branding -------------------------------------------------------------- */
 
@@ -227,16 +227,23 @@ footer ul li a {padding: .25em 0; line-height: 1.5em;}
 
 @media only screen and (min-width: 48em) {
   #wrapper {
-		background: url(/img/bgWrapper6_md.jpg) center top / cover no-repeat fixed;
+		background: url(/img/bgWrapper6_md.jpg) center center / cover no-repeat fixed;
   }
 	#sortArea, #filterArea, #sort form, #filter form {display: inline;}
 	#sort a, #filter a {display: none;}
 }
 @media only screen and (min-width: 64em) {
   #wrapper {
-		background: url(/img/bgWrapper6_lg.jpg) center top / cover no-repeat fixed;
+		background: url(/img/bgWrapper6_lg.jpg) center center / cover no-repeat fixed;
   }
 	#functionArea {min-height: 1.5em;}
+}
+@media only screen and (min-width: 1025px) {
+	header, main, footer {margin: 0 auto; max-width: 1000px;}
+  header {margin-top: 10px;}
+	nav {border-radius: 5px 5px 0 0;}
+	footer {margin-bottom: 10px;}
+	#footerFoot {border-radius: 0 0 5px 5px;}
 }
 
 /*			social menu --------------------------------------------------------- */
