@@ -33381,7 +33381,7 @@ var ChronicleComponent = (function (_React$Component) {
         _react2['default'].createElement(
           'div',
           { id: 'todo', className: 'pure-u-1' },
-          '@me make it work responsive'
+          '@me make it responsive'
         ),
         _react2['default'].createElement(
           'div',
@@ -34094,6 +34094,10 @@ var Logo = function Logo() {
 };
 
 exports["default"] = Logo;
+
+// <div id="menuToggleButton">
+//   <a href="#"></a>
+// </div>
 module.exports = exports["default"];
 
 },{"react":443}],430:[function(require,module,exports){
@@ -35046,13 +35050,13 @@ var PeopleComponent = function PeopleComponent(_ref) {
       { id: 'todo', className: 'pure-u-1' },
       '@wolfram pls hide the filter-option "astronauts" on astronomers- and astronauts-site',
       _react2['default'].createElement('br', null),
-      '@wolfram pls set a comma between 1st and 2nd name only if 2nd exists (e.g. at Amenemhet)',
+      '@wolfram pls set a comma between 1st and 2nd name only if 2nd exists (e.g. at Aristoteles)',
       _react2['default'].createElement('br', null),
       '@all find a way for sorter and filter on small screens (toggle-buttons?)',
       _react2['default'].createElement('br', null),
       '@all hide letterLinks on small screens?',
       _react2['default'].createElement('br', null),
-      '@me make it work responsive'
+      '@me make it responsive'
     ),
     _react2['default'].createElement(
       'div',
@@ -35235,7 +35239,7 @@ var PersonComponent = (function (_React$Component) {
 
       var person = this.props.person;
 
-      var cssClasses = ['personInfoBox'];
+      var cssClasses = ['personInfoBox pure-u-1 pure-u-md-1-2 pure-u-lg-1-3'];
       cssClasses.push(this.state.detailsVisible ? 'visible' : 'hidden');
 
       return _react2['default'].createElement(
@@ -35618,7 +35622,7 @@ var StarsComponent = function StarsComponent(_ref) {
     _react2['default'].createElement(
       'div',
       { id: 'todo', className: 'pure-u-1' },
-      '@me make it work responsive',
+      '@me make it responsive',
       _react2['default'].createElement('br', null),
       '@wolfram pls make the filter work',
       _react2['default'].createElement('br', null),

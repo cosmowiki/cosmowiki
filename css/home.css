@@ -25,7 +25,7 @@
 
 /*  homeFooter ---------------------------------------------------------------*/
 #homeFooter {
-  position: absolute; bottom: 0; left: 0; height: 45px;
+  position: absolute; bottom: 0; left: 0; height: 40px;
   font-size: .8em; line-height: 40px; letter-spacing: normal;
 	background-image: linear-gradient(to right, #fff 180px, rgba(153,153,255,.2));
 	border-top: 1px solid #fff;
@@ -35,7 +35,7 @@
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 
 @media all and (min-width: 35.5em) {
-  main.home {padding: 0;}
+  main.home {padding: 0 0 41px 0;}
   #homeNav {display: block;}
   #homeNav li {width: 100%; float: left;}
   #homeNav a {border-bottom: 1px solid #fff;}
@@ -44,7 +44,6 @@
 }
 
 @media all and (min-width: 48em) {
-  main.home {padding-bottom: 46px;}
   #homeNav {width: 50%; margin: auto;}
   #homeNav a {padding: 1em .5em;}
 }
