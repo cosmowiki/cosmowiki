@@ -63,11 +63,23 @@ header, main, footer {margin: 0 auto; max-width: 1024px;}
 /*		Branding -------------------------------------------------------------- */
 
 #branding {
+	height: 40px;
 	background-image: linear-gradient(to right, #fff 180px, rgba(153,153,255,.2));
 	border-bottom: 1px solid #fff;
 }
 
-#branding img {margin: 5px; height: 30px;}
+#branding a {float: left;}
+#branding img#CosmoWikiLogo {margin: 5px; height: 30px;}
+
+/*#menuToggleButton {float: right;}
+
+#menuToggleButton a {
+	margin: 5px; padding: 3px 4px 1px;
+	font-family: FontAwesome; font-size: 26px; color: #000;
+	background: #fff;
+	border-radius: 5px;
+}
+#menuToggleButton a::before {content: "\f0c9";}*/
 
 /*		Header ---------------------------------------------------------------- */
 
@@ -75,7 +87,7 @@ header {margin: 0 auto;}
 
 /*			Nav ----------------------------------------------------------------- */
 
-nav {margin: 0 auto; border-bottom: 1px solid #fff; background: #fafafa;}
+nav {margin: 0 auto; background: #fafafa;	border-bottom: 1px solid #fff;}
 
 nav ul ul {border-top: 1px solid #fff;}
 nav ul ul li {text-align: left; border-bottom: 1px solid #e0e0e0;}
@@ -229,6 +241,8 @@ footer ul li a {padding: .25em 0; line-height: 1.5em;}
   #wrapper {
 		background: url(/img/bgWrapper6_md.jpg) center center / cover no-repeat fixed;
   }
+	/*#menuToggleButton {display: none;}*/
+	nav {display: inline-block;}
 	#sortArea, #filterArea, #sort form, #filter form {display: inline;}
 	#sort a, #filter a {display: none;}
 }

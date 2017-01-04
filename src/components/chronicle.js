@@ -32,7 +32,7 @@ export default class ChronicleComponent extends React.Component {
           <h3>Meilensteine der Astronomie und Raumfahrt</h3>
         </div>
         <div id="todo" className="pure-u-1">
-          @me make it work responsive
+          @me make it responsive
         </div>
         <div id="dataArea">
           <div id="timeline">

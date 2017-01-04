@@ -14,10 +14,10 @@ const PeopleComponent = ({groupedPeople}) => {
       </div>
       <div id="todo" className="pure-u-1">
         @wolfram pls hide the filter-option "astronauts" on astronomers- and astronauts-site<br />
-        @wolfram pls set a comma between 1st and 2nd name only if 2nd exists (e.g. at Amenemhet)<br />
+        @wolfram pls set a comma between 1st and 2nd name only if 2nd exists (e.g. at Aristoteles)<br />
         @all find a way for sorter and filter on small screens (toggle-buttons?)<br />
         @all hide letterLinks on small screens?<br />
-        @me make it work responsive
+        @me make it responsive
       </div>
       <div id="functionArea" className="persons pure-u-1">
         <div id="sort" className="people">
@@ -98,7 +98,7 @@ class PersonComponent extends React.Component {
     };
 
     const {person} = this.props;
-    let cssClasses = ['personInfoBox'];
+    let cssClasses = ['personInfoBox pure-u-1 pure-u-md-1-2 pure-u-lg-1-3'];
     cssClasses.push(this.state.detailsVisible ? 'visible' : 'hidden');
 
     return (
