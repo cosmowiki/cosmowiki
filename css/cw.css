@@ -225,14 +225,14 @@ footer ul li a {padding: .25em 0; line-height: 1.5em;}
 
 /* properties for breakpoints ----------------------------------------------- */
 
-@media only all and (min-width: 48em) {
+@media only screen and (min-width: 48em) {
   #wrapper {
 		background: url(/img/bgWrapper6_md.jpg) center top / cover no-repeat fixed;
   }
 	#sortArea, #filterArea, #sort form, #filter form {display: inline;}
 	#sort a, #filter a {display: none;}
 }
-@media only all and (min-width: 64em) {
+@media only screen and (min-width: 64em) {
   #wrapper {
 		background: url(/img/bgWrapper6_lg.jpg) center top / cover no-repeat fixed;
   }
