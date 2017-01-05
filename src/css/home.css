@@ -1,9 +1,14 @@
 #wrapper.home {min-height: 100%; position: relative;}
 
+#homeNav {
+  position: absolute; top: 50%; left: 0;
+  transform: translate3d(0, -50%, 0); margin: auto;
+}
+
 #homeNav ul.sub-menu {display: none;}
 #homeNav ul.main-menu li:hover>ul.sub-menu {display: block;}
 #homeNav a {
-  display: block; padding: 1em;
+  display: block; padding: .5em;
 	font-size: 1.5em;
 	background: rgba(255,255,255,.8);
   border-bottom: 1px solid #fff;
@@ -16,12 +21,12 @@
 
 #homeNav ul.sub-menu li {width: 100%;}
 #homeNav ul.sub-menu li a, #homeNav.sub-menu li:last-child a {
-  padding: .5em;
+  padding: .25em;
   font-size: 1.25em;
   border-bottom: 1px solid #fff;
 }
+#homeNav ul ul li a {border-radius: 0;}
 #homeNav ul.sub-menu li:last-child a {border-bottom: 1px solid #fff;}
-#homeNav ul.main-menu li:last-child li:last-child a {border-bottom: none;}
 
 /*  homeFooter ---------------------------------------------------------------*/
 #homeFooter {
@@ -32,38 +37,61 @@
 }
 
 /*  media queries for the home nav -------------------------------------------*/
-/* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 
-@media all and (min-width: 35.5em) {
-  main.home {padding: 0 0 41px 0;}
-  #homeNav {display: block;}
-  #homeNav li {width: 100%; float: left;}
+@media all and (min-width: 35.5em) { /* breakpoint sm min-width: 35.5em */
+  main.home {height: 100%; padding: 0 0 41px 0;}
+  #homeNav ul li a {border-radius: 0;}
+
+  #homeNav {
+    position: absolute; top: 50%; left: 12.5%;
+    transform: translate3d(0, -50%, 0); margin: auto;
+  }
+
   #homeNav a {border-bottom: 1px solid #fff;}
+  #homeNav ul.main-menu li:first-child a {border-radius: 5px 5px 0 0;}
+  #homeNav ul.main-menu li:last-child a {border-radius: 0 0 5px 5px;}
+  #homeNav ul.sub-menu li a,
+  #homeNav ul.sub-menu li:first-child a,
+  #homeNav ul.sub-menu li:last-child a,
+  #homeNav ul.main-menu li:last-child:hover a {border-radius: 0;}
+  #homeNav ul.main-menu li:last-child:hover li:last-child a {
+    border-radius: 0 0 5px 5px;
+  }
+
   #homeNav ul.sub-menu {display: none;}
   #homeNav ul.main-menu li:hover>ul.sub-menu {display: block;}
 }
 
-@media all and (min-width: 48em) {
-  #homeNav {width: 50%; margin: auto;}
-  #homeNav a {padding: 1em .5em;}
+@media all and (min-width: 48em) { /* breakpoint md min-width: 48em */
+  #homeNav {left: 25%;}
+  #homeNav a {padding: .5em 0;}
 }
 
-@media all and (min-width: 64em) {
-  main.home {max-width: inherit; height: 100%;}
-  #homeNav {position: absolute; top: 50%; margin-top: -5em; width: 100%;}
-  #homeNav li {width: 16.666%;}
-  #homeNav a {
-    padding: 2em .5em;
-    border-right: 1px solid #fff; border-bottom: none;
+@media all and (min-width: 64em) { /* breakpoint lg min-width: 64em */
+  main.home {max-width: inherit;}
+
+  #homeNav {
+    position: absolute; top: 50%; left: 0;
+    transform: none; margin-top: -5em;
   }
-  #homeNav ul.main-menu li:last-child a {border-right: none;}
+
+  #homeNav li {width: 16.666%; float: left;}
+  #homeNav a {
+    padding: 2em 0;
+    border-right: 1px solid #fff; border-bottom: 0;
+  }
+
+  #homeNav ul.main-menu li:first-child a,
+  #homeNav ul.main-menu li:last-child a {border-radius: 0;}
+  #homeNav ul.main-menu li:last-child a {border-right: 0;}
   #homeNav ul.sub-menu li a {
-    border-top: 1px solid #fff; border-right: none; border-bottom: none;
+    padding: .5em 0;
+    border-top: 1px solid #fff; border-right: 0; border-bottom: 0;
   }
   #homeNav ul.sub-menu li:last-child a {
-    border-bottom: none; border-radius: 0 0 5px 5px;
+    border-bottom: 0; border-radius: 0 0 5px 5px;
   }
-  #homeNav ul.main-menu li:last-child:hover a {border-bottom: none;}
+  #homeNav ul.main-menu li:last-child:hover a {border-bottom: 0;}
 }
 
 /*  home nav a:hover background images ---------------------------------------*/

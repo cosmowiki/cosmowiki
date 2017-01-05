@@ -3,7 +3,7 @@ import React from 'react';
 const HomeComponent = ({appUrl}) => {
   return (
     <main className="home pure-u-1 center">
-      <div id="homeNav" className="pure-u-1 center">
+      <div id="homeNav" className="pure-u-1 pure-u-sm-3-4 pure-u-md-1-2 pure-u-lg-1 center">
         <ul className="main-menu pure-u-1 center">
           <li>
             <a href={appUrl.eventsSite()}>Chronik</a>
