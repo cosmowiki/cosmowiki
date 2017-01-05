@@ -33909,7 +33909,7 @@ var HomeComponent = function HomeComponent(_ref) {
     { className: "home pure-u-1 center" },
     _react2["default"].createElement(
       "div",
-      { id: "homeNav", className: "pure-u-1 center" },
+      { id: "homeNav", className: "pure-u-1 pure-u-sm-3-4 pure-u-md-1-2 pure-u-lg-1 center" },
       _react2["default"].createElement(
         "ul",
         { className: "main-menu pure-u-1 center" },
