@@ -27,6 +27,7 @@
 }
 #homeNav ul ul li a {border-radius: 0;}
 #homeNav ul.sub-menu li:last-child a {border-bottom: 1px solid #fff;}
+#homeNav ul.main-menu li:last-child li:last-child a {border-bottom: 0;}
 
 /*  homeFooter ---------------------------------------------------------------*/
 #homeFooter {
