@@ -183,7 +183,7 @@ nav ul ul li:last-child {border: 0;}
 #pageSubMenu a {
 	display: block; padding: 1em;
 	font-size: 1.5em;
-	background: rgba(255,255,255,.9);
+	background: rgba(255,255,255,.8);
 	border-bottom: 1px solid #fff;
 }
 
@@ -192,7 +192,7 @@ nav ul ul li:last-child {border: 0;}
 #dataArea {font-size: .8em;}
 
 .data-row, .letter-section {
-	background: rgba(255,255,255,.9);
+	background: rgba(255,255,255,.8);
 	border-bottom: 1px solid #fff;
 }
 .data-row {display: inline-block;}
@@ -202,7 +202,7 @@ nav ul ul li:last-child {border: 0;}
 .data-row:active,
 .letter-section:focus,
 .letter-section:hover,
-.letter-section:active {background: rgba(255,255,255,.95);}
+.letter-section:active {background: rgba(255,255,255,.9);}
 
 /*			notes --------------------------------------------------------------- */
 
