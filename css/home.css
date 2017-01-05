@@ -8,7 +8,7 @@
 #homeNav ul.sub-menu {display: none;}
 #homeNav ul.main-menu li:hover>ul.sub-menu {display: block;}
 #homeNav a {
-  display: block; padding: .5em;
+  display: block; padding: .25em 0;
 	font-size: 1.5em;
 	background: rgba(255,255,255,.8);
   border-bottom: 1px solid #fff;
@@ -21,7 +21,7 @@
 
 #homeNav ul.sub-menu li {width: 100%;}
 #homeNav ul.sub-menu li a, #homeNav.sub-menu li:last-child a {
-  padding: .25em;
+  padding: .25em 0;
   font-size: 1.25em;
   border-bottom: 1px solid #fff;
 }
@@ -39,8 +39,25 @@
 
 /*  media queries for the home nav -------------------------------------------*/
 
+@media all and (min-height: 768px) {
+  #homeNav a {padding: .5em 0;}
+  #homeNav ul.sub-menu li a {padding: .25em 0;}
+}
+@media all and (min-height: 960px) {
+  #homeNav a {padding: .75em 0;}
+  #homeNav ul.sub-menu li a {padding: .5em 0;}
+}
+@media all and (min-height: 1024px) {
+  #homeNav a {padding: 1.25em 0;}
+  #homeNav ul.sub-menu li a {padding: .5em 0;}
+}
+@media all and (min-height: 1200px) {
+  #homeNav a {padding: 2em 0;}
+  #homeNav ul.sub-menu li a {padding: .75em 0;}
+}
+
 @media all and (min-width: 35.5em) { /* breakpoint sm min-width: 35.5em */
-  main.home {height: 100%; padding: 0 0 41px 0;}
+  main.home {height: 100%; padding-bottom: 41px;}
   #homeNav ul li a {border-radius: 0;}
 
   #homeNav {
@@ -65,7 +82,6 @@
 
 @media all and (min-width: 48em) { /* breakpoint md min-width: 48em */
   #homeNav {left: 25%;}
-  #homeNav a {padding: .5em 0;}
 }
 
 @media all and (min-width: 64em) { /* breakpoint lg min-width: 64em */
