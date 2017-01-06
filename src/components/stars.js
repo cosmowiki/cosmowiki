@@ -75,66 +75,41 @@ const StarsGroupComponent = ({group}) => {
   const stars = group.data;
 
   return (
-    <div id={groupKey} className="pure-u-1 letter-section">
-      <div className="pure-u-1 letter-section-header">
-        <a className="first-letter pure-u-1-2" name={`#${groupKey}`}>{groupKey}</a>
-        <a className="scrollUpArrow pure-u-1-2 right" href="javascript:self.scrollTo(0,0);">&uarr;</a>
-      </div>
-      <div className="stars">
-        <table className="starsTable tablesorter">
-          <thead>
-            <tr className="starsHeader">
-              <th className="starName left">Name</th>
-              <th className="starBay left">Bayer-Bezeichnung</th>
-              <th className="starShort left">kurz</th>
-              <th className="starConst left">Sternbild</th>
-              <th className="starRekt left">Rektaszension</th>
-              <th className="starDekli left">Deklination</th>
-              <th className="starAppMag left">mag</th>
-              <th className="starSpectrClass left">Klasse</th>
-              <th className="starDist left">Lj</th>
-              <th className="starMass left">M<sub>&#9737;</sub></th>
-              <th className="starRadius left">R<sub>&#9737;</sub></th>
-            </tr>
-          </thead>
-          <tbody>
+          <div id={groupKey} className="pure-u-1 letter-section">
+            <div className="pure-u-1 letter-section-header">
+              <a className="first-letter pure-u-1-2" name={`#${groupKey}`}>{groupKey}</a>
+              <a className="scrollUpArrow pure-u-1-2 right" href="javascript:self.scrollTo(0,0);">&uarr;</a>
+            </div>
             {stars.map((star, idx) => <StarComponent star={star} key={idx} />)}
-          </tbody>
-        </table>
-      </div>
-    </div>
+          </div>
   );
 };
 
 const StarComponent = ({star}) => {
   const noop = () => {};
   return (
-    <tr className="starsRow">
-      <td className="starName">
-        <a href={star.link} onMouseOver={noop} onMouseOut={noop}>{star.name.name}</a>
-        <div className="starInfoBox">
-          <p>
-            <strong>alternative Namen:</strong> {star.name.alternative}</p>
-          <p>
-            <strong>Bezeichnung nach:</strong><br />
-            <a href="https://de.wikipedia.org/wiki/Bright-Star-Katalog" target="_blank" title="Bright-Star-Katalog">Bright-Star-Katalog</a>: HR {star.hr}<br />
-            <a href="https://de.wikipedia.org/wiki/Henry-Draper-Katalog" target="_blank" title="Henry-Draper-Katalog">Henry-Draper-Katalog</a>: HD {star.hd}<br />
-            <a href="https://de.wikipedia.org/wiki/Hipparcos-Katalog" target="_blank" title="Hipparcos-Katalog">Hipparcos-Katalog</a>: HIP {star.hip}<br />
-            <a href="https://de.wikipedia.org/wiki/SAO-Katalog" target="_blank" title="SAO-Katalog">SAO-Katalog</a>: SAO {star.sao}<br />
-            <a href="https://de.wikipedia.org/wiki/Flamsteed-Bezeichnung" target="_blank" title="Flamsteed-Bezeichnung">SAO-Katalog</a>: Flamsteed {star.flamsteed}
-          </p>
-        </div>
-      </td>
-      <td className="starBay">{star.name.bayer || '-'}</td>
-      <td className="starShort">{star.name.short || '-'}</td>
-      <td className="starConst"><a href={star.constLink}>{star.constellation || '-'}</a></td>
-      <td className="starRekt">{star.rekt || '-'}</td>
-      <td className="starDekli">{star.dekli || '-'}</td>
-      <td className="starAppMag">{star.appMag || '-'}</td>
-      <td className="starSpectrClass">{star.spectrClass || '-'}</td>
-      <td className="starDist">{star.dist || '-'}</td>
-      <td className="starMass">{star.mass || '-'}</td>
-      <td className="starRadius">{star.radius || '-'}</td>
-    </tr>
+            <div className="star-row data-row pure-u-1">
+              <div className="starName">
+                <a href={star.link}>{star.name.name}</a>
+              </div>
+              <div className="star-bayername pure-u-1 pure-u-sm-3-16">
+                {star.name.bayer || ''}
+              </div>
+              <div className="star-constellation pure-u-1-2 pure-u-sm-1-8">
+                <a href={star.constLink}>{star.constellation || '-'}</a>
+              </div>
+              <div className="star-appmagnitude pure-u-1-2 pure-u-sm-1-16">
+                {star.appMag || 'k. A.'}
+              </div>
+              <div className="star-distance pure-u-1-2 pure-u-sm-1-16">
+                {star.dist || 'k. A.'}
+              </div>
+              <div className="star-mass pure-u-1-2 pure-u-sm-1-16">
+                {star.mass || 'k. A.'}
+              </div>
+              <div className="star-radius pure-u-1-2 pure-u-sm-1-16">
+                {star.radius || 'k. A.'}
+              </div>
+            </div>
   );
 };
