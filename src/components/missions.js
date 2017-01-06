@@ -3,8 +3,8 @@ import Notes from './notes';
 
 const MissionsComponent = ({missions}) => {
   return (
-    <main role="main" className="pure-u-1 missions center">
-      <div id="featured" className="pure-u-1 missions">
+    <main role="main" className="missions pure-u-1 center">
+      <div id="featured" className="missions pure-u-1">
         <h1>Missionen</h1>
         <h3>3 ... 2 ... 1 ... Lift-off!</h3>
       </div>
@@ -63,8 +63,8 @@ const MissionsComponent = ({missions}) => {
           </div>
         </div>
       </div>
-      <div id="dataArea" className="pure-u-1 missions">
-        <div id="missionsTable" className="tablesorter">
+      <div id="dataArea" className="missions pure-u-1">
+        <div id="missionsTable">
           {missions.map((mission, idx) => <MissionComponent mission={mission} key={idx}/>)}
         </div>
       </div>
@@ -77,17 +77,17 @@ export default MissionsComponent;
 
 const MissionComponent = ({mission}) => {
   return (
-    <div className="missions-row data-row pure-u-1">
-      <div className="missionName pure-u-1 pure-u-sm-9-24">
+    <div className="mission-row data-row pure-u-1">
+      <div className="mission-name pure-u-1 pure-u-sm-9-24">
         <a href={mission.link}>{mission.name}</a>
       </div>
-      <div className="missionDates pure-u-1-2 pure-u-sm-6-24">
-        <p className="missionLaunch pure-u-lg-1-2"><b>Start:</b> {mission.launchDate}</p>
-        <p className="missionEnd">{mission.endDate ? `Ende: ${mission.endDate}` : `Status: ${mission.status}`}</p>
+      <div className="mission-dates pure-u-1-2 pure-u-sm-6-24">
+        <p className="mission-launch pure-u-lg-1-2"><b>Start:</b> {mission.launchDate}</p>
+        <p className="mission-end">{mission.endDate ? `Ende: ${mission.endDate}` : `Status: ${mission.status}`}</p>
       </div>
-      <div className="missionInfo pure-u-1-2 pure-u-sm-9-24 left">
-        <p className="missionOperator">{mission.operator ? `Betreiber: ${mission.operator} - ${mission.country}` : `Land: ${mission.country}`}</p>
-        <p className="missionDestination"><b>Ziel:</b> {mission.destination}</p>
+      <div className="mission-info pure-u-1-2 pure-u-sm-9-24 left">
+        <p className="mission-operator">{mission.operator ? `Betreiber: ${mission.operator} - ${mission.country}` : `Land: ${mission.country}`}</p>
+        <p className="mission-destination"><b>Ziel:</b> {mission.destination}</p>
       </div>
     </div>
   );
