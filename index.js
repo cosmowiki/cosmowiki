@@ -6885,12 +6885,18 @@ module.exports = hyphenateStyleName;
  * will remain to ensure logic does not differ in production.
  */
 
-function invariant(condition, format, a, b, c, d, e, f) {
-  if (process.env.NODE_ENV !== 'production') {
+var validateFormat = function validateFormat(format) {};
+
+if (process.env.NODE_ENV !== 'production') {
+  validateFormat = function validateFormat(format) {
     if (format === undefined) {
       throw new Error('invariant requires an error message argument');
     }
-  }
+  };
+}
+
+function invariant(condition, format, a, b, c, d, e, f) {
+  validateFormat(format);
 
   if (!condition) {
     var error;
@@ -11234,6 +11240,28 @@ var getDictionaryKey = function (inst) {
   return '.' + inst._rootNodeID;
 };
 
+function isInteractive(tag) {
+  return tag === 'button' || tag === 'input' || tag === 'select' || tag === 'textarea';
+}
+
+function shouldPreventMouseEvent(name, type, props) {
+  switch (name) {
+    case 'onClick':
+    case 'onClickCapture':
+    case 'onDoubleClick':
+    case 'onDoubleClickCapture':
+    case 'onMouseDown':
+    case 'onMouseDownCapture':
+    case 'onMouseMove':
+    case 'onMouseMoveCapture':
+    case 'onMouseUp':
+    case 'onMouseUpCapture':
+      return !!(props.disabled && isInteractive(type));
+    default:
+      return false;
+  }
+}
+
 /**
  * This is a unified interface for event plugins to be installed and configured.
  *
@@ -11302,7 +11330,12 @@ var EventPluginHub = {
    * @return {?function} The stored callback.
    */
   getListener: function (inst, registrationName) {
+    // TODO: shouldPreventMouseEvent is DOM-specific and definitely should not
+    // live here; needs to be moved to a better place soon
     var bankForRegistrationName = listenerBank[registrationName];
+    if (shouldPreventMouseEvent(registrationName, inst._currentElement.type, inst._currentElement.props)) {
+      return null;
+    }
     var key = getDictionaryKey(inst);
     return bankForRegistrationName && bankForRegistrationName[key];
   },
@@ -20897,7 +20930,7 @@ module.exports = ReactUpdates;
 
 'use strict';
 
-module.exports = '15.4.0';
+module.exports = '15.4.1';
 },{}],323:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -21475,18 +21508,6 @@ function isInteractive(tag) {
   return tag === 'button' || tag === 'input' || tag === 'select' || tag === 'textarea';
 }
 
-function shouldPreventMouseEvent(inst) {
-  if (inst) {
-    var disabled = inst._currentElement && inst._currentElement.props.disabled;
-
-    if (disabled) {
-      return isInteractive(inst._tag);
-    }
-  }
-
-  return false;
-}
-
 var SimpleEventPlugin = {
 
   eventTypes: eventTypes,
@@ -21557,10 +21578,7 @@ var SimpleEventPlugin = {
       case 'topMouseDown':
       case 'topMouseMove':
       case 'topMouseUp':
-        // Disabled elements should not respond to mouse events
-        if (shouldPreventMouseEvent(targetInst)) {
-          return null;
-        }
+      // TODO: Disabled elements should not respond to mouse events
       /* falls through */
       case 'topMouseOut':
       case 'topMouseOver':
@@ -26114,30 +26132,38 @@ typeof Set === 'function' && isNative(Set) &&
 // Set.prototype.keys
 Set.prototype != null && typeof Set.prototype.keys === 'function' && isNative(Set.prototype.keys);
 
+var setItem;
+var getItem;
+var removeItem;
+var getItemIDs;
+var addRoot;
+var removeRoot;
+var getRootIDs;
+
 if (canUseCollections) {
   var itemMap = new Map();
   var rootIDSet = new Set();
 
-  var setItem = function (id, item) {
+  setItem = function (id, item) {
     itemMap.set(id, item);
   };
-  var getItem = function (id) {
+  getItem = function (id) {
     return itemMap.get(id);
   };
-  var removeItem = function (id) {
+  removeItem = function (id) {
     itemMap['delete'](id);
   };
-  var getItemIDs = function () {
+  getItemIDs = function () {
     return Array.from(itemMap.keys());
   };
 
-  var addRoot = function (id) {
+  addRoot = function (id) {
     rootIDSet.add(id);
   };
-  var removeRoot = function (id) {
+  removeRoot = function (id) {
     rootIDSet['delete'](id);
   };
-  var getRootIDs = function () {
+  getRootIDs = function () {
     return Array.from(rootIDSet.keys());
   };
 } else {
@@ -26153,31 +26179,31 @@ if (canUseCollections) {
     return parseInt(key.substr(1), 10);
   };
 
-  var setItem = function (id, item) {
+  setItem = function (id, item) {
     var key = getKeyFromID(id);
     itemByKey[key] = item;
   };
-  var getItem = function (id) {
+  getItem = function (id) {
     var key = getKeyFromID(id);
     return itemByKey[key];
   };
-  var removeItem = function (id) {
+  removeItem = function (id) {
     var key = getKeyFromID(id);
     delete itemByKey[key];
   };
-  var getItemIDs = function () {
+  getItemIDs = function () {
     return Object.keys(itemByKey).map(getIDFromKey);
   };
 
-  var addRoot = function (id) {
+  addRoot = function (id) {
     var key = getKeyFromID(id);
     rootByKey[key] = true;
   };
-  var removeRoot = function (id) {
+  removeRoot = function (id) {
     var key = getKeyFromID(id);
     delete rootByKey[key];
   };
-  var getRootIDs = function () {
+  getRootIDs = function () {
     return Object.keys(rootByKey).map(getIDFromKey);
   };
 }
@@ -28207,6 +28233,10 @@ var processNextTick = require('process-nextick-args');
 var isArray = require('isarray');
 /*</replacement>*/
 
+/*<replacement>*/
+var Duplex;
+/*</replacement>*/
+
 Readable.ReadableState = ReadableState;
 
 /*<replacement>*/
@@ -28254,6 +28284,8 @@ var StringDecoder;
 util.inherits(Readable, Stream);
 
 function prependListener(emitter, event, fn) {
+  // Sadly this is not cacheable as some libraries bundle their own
+  // event emitter implementation with them.
   if (typeof emitter.prependListener === 'function') {
     return emitter.prependListener(event, fn);
   } else {
@@ -28265,7 +28297,6 @@ function prependListener(emitter, event, fn) {
   }
 }
 
-var Duplex;
 function ReadableState(options, stream) {
   Duplex = Duplex || require('./_stream_duplex');
 
@@ -28335,7 +28366,6 @@ function ReadableState(options, stream) {
   }
 }
 
-var Duplex;
 function Readable(options) {
   Duplex = Duplex || require('./_stream_duplex');
 
@@ -28658,7 +28688,7 @@ function maybeReadMore_(stream, state) {
 // for virtual (non-string, non-buffer) streams, "length" is somewhat
 // arbitrary, and perhaps not very meaningful.
 Readable.prototype._read = function (n) {
-  this.emit('error', new Error('not implemented'));
+  this.emit('error', new Error('_read() is not implemented'));
 };
 
 Readable.prototype.pipe = function (dest, pipeOpts) {
@@ -28836,16 +28866,16 @@ Readable.prototype.unpipe = function (dest) {
     state.pipesCount = 0;
     state.flowing = false;
 
-    for (var _i = 0; _i < len; _i++) {
-      dests[_i].emit('unpipe', this);
+    for (var i = 0; i < len; i++) {
+      dests[i].emit('unpipe', this);
     }return this;
   }
 
   // try to find the right one.
-  var i = indexOf(state.pipes, dest);
-  if (i === -1) return this;
+  var index = indexOf(state.pipes, dest);
+  if (index === -1) return this;
 
-  state.pipes.splice(i, 1);
+  state.pipes.splice(index, 1);
   state.pipesCount -= 1;
   if (state.pipesCount === 1) state.pipes = state.pipes[0];
 
@@ -29230,7 +29260,6 @@ function Transform(options) {
 
   this._transformState = new TransformState(this);
 
-  // when the writable side finishes, then flush out anything remaining.
   var stream = this;
 
   // start out asking for a readable event once data is transformed.
@@ -29247,9 +29276,10 @@ function Transform(options) {
     if (typeof options.flush === 'function') this._flush = options.flush;
   }
 
+  // When the writable side finishes, then flush out anything remaining.
   this.once('prefinish', function () {
-    if (typeof this._flush === 'function') this._flush(function (er) {
-      done(stream, er);
+    if (typeof this._flush === 'function') this._flush(function (er, data) {
+      done(stream, er, data);
     });else done(stream);
   });
 }
@@ -29270,7 +29300,7 @@ Transform.prototype.push = function (chunk, encoding) {
 // an error, then that'll put the hurt on the whole operation.  If you
 // never call cb(), then you'll never get another chunk.
 Transform.prototype._transform = function (chunk, encoding, cb) {
-  throw new Error('Not implemented');
+  throw new Error('_transform() is not implemented');
 };
 
 Transform.prototype._write = function (chunk, encoding, cb) {
@@ -29300,8 +29330,10 @@ Transform.prototype._read = function (n) {
   }
 };
 
-function done(stream, er) {
+function done(stream, er, data) {
   if (er) return stream.emit('error', er);
+
+  if (data !== null && data !== undefined) stream.push(data);
 
   // if there's nothing in the write buffer, then that means
   // that nothing more will ever be provided
@@ -29330,6 +29362,10 @@ var processNextTick = require('process-nextick-args');
 
 /*<replacement>*/
 var asyncWrite = !process.browser && ['v0.10', 'v0.9.'].indexOf(process.version.slice(0, 5)) > -1 ? setImmediate : processNextTick;
+/*</replacement>*/
+
+/*<replacement>*/
+var Duplex;
 /*</replacement>*/
 
 Writable.WritableState = WritableState;
@@ -29372,7 +29408,6 @@ function WriteReq(chunk, encoding, cb) {
   this.next = null;
 }
 
-var Duplex;
 function WritableState(options, stream) {
   Duplex = Duplex || require('./_stream_duplex');
 
@@ -29394,6 +29429,7 @@ function WritableState(options, stream) {
   // cast to ints.
   this.highWaterMark = ~ ~this.highWaterMark;
 
+  // drain event flag.
   this.needDrain = false;
   // at the start of calling end()
   this.ending = false;
@@ -29468,7 +29504,7 @@ function WritableState(options, stream) {
   this.corkedRequestsFree = new CorkedRequest(this);
 }
 
-WritableState.prototype.getBuffer = function writableStateGetBuffer() {
+WritableState.prototype.getBuffer = function getBuffer() {
   var current = this.bufferedRequest;
   var out = [];
   while (current) {
@@ -29488,13 +29524,37 @@ WritableState.prototype.getBuffer = function writableStateGetBuffer() {
   } catch (_) {}
 })();
 
-var Duplex;
+// Test _writableState for inheritance to account for Duplex streams,
+// whose prototype chain only points to Readable.
+var realHasInstance;
+if (typeof Symbol === 'function' && Symbol.hasInstance && typeof Function.prototype[Symbol.hasInstance] === 'function') {
+  realHasInstance = Function.prototype[Symbol.hasInstance];
+  Object.defineProperty(Writable, Symbol.hasInstance, {
+    value: function (object) {
+      if (realHasInstance.call(this, object)) return true;
+
+      return object && object._writableState instanceof WritableState;
+    }
+  });
+} else {
+  realHasInstance = function (object) {
+    return object instanceof this;
+  };
+}
+
 function Writable(options) {
   Duplex = Duplex || require('./_stream_duplex');
 
-  // Writable ctor is applied to Duplexes, though they're not
-  // instanceof Writable, they're instanceof Readable.
-  if (!(this instanceof Writable) && !(this instanceof Duplex)) return new Writable(options);
+  // Writable ctor is applied to Duplexes, too.
+  // `realHasInstance` is necessary because using plain `instanceof`
+  // would return false, as no `_writableState` property is attached.
+
+  // Trying to use the custom `instanceof` for Writable here will also break the
+  // Node.js LazyTransform implementation, which has a non-trivial getter for
+  // `_writableState` that would lead to infinite recursion.
+  if (!realHasInstance.call(Writable, this) && !(this instanceof Duplex)) {
+    return new Writable(options);
+  }
 
   this._writableState = new WritableState(options, this);
 
@@ -29754,7 +29814,7 @@ function clearBuffer(stream, state) {
 }
 
 Writable.prototype._write = function (chunk, encoding, cb) {
-  cb(new Error('not implemented'));
+  cb(new Error('_write() is not implemented'));
 };
 
 Writable.prototype._writev = null;
@@ -33695,9 +33755,9 @@ var Footer = function Footer(_ref) {
       { id: "footerContainer", className: "pure-u-1" },
       _react2["default"].createElement(
         "div",
-        { id: "footerMainPages", className: "footerPart pure-u-1-2 pure-u-sm-1-5" },
+        { id: "footerMainPages", className: "footer-part pure-u-1 pure-u-sm-1-2 pure-u-md-1-5" },
         _react2["default"].createElement(
-          "h3",
+          "h4",
           null,
           "Hauptseiten"
         ),
@@ -33719,9 +33779,9 @@ var Footer = function Footer(_ref) {
       ),
       _react2["default"].createElement(
         "div",
-        { id: "footerSubPages", className: "footerPart pure-u-1-2 pure-u-sm-1-5" },
+        { id: "footerSubPages", className: "footer-part pure-u-1 pure-u-sm-1-2 pure-u-md-1-5" },
         _react2["default"].createElement(
-          "h3",
+          "h4",
           null,
           "Unterseiten"
         ),
@@ -33743,9 +33803,9 @@ var Footer = function Footer(_ref) {
       ),
       _react2["default"].createElement(
         "div",
-        { id: "footerNetworks", className: "footerPart pure-u-1-2 pure-u-sm-1-5" },
+        { id: "footerNetworks", className: "footer-part pure-u-1 pure-u-sm-1-2 pure-u-md-1-5" },
         _react2["default"].createElement(
-          "h3",
+          "h4",
           null,
           "Folgen"
         ),
@@ -33792,9 +33852,9 @@ var Footer = function Footer(_ref) {
       ),
       _react2["default"].createElement(
         "div",
-        { id: "footerShare", className: "footerPart pure-u-1-2 pure-u-sm-1-5" },
+        { id: "footerShare", className: "footer-part pure-u-1 pure-u-sm-1-2 pure-u-md-1-5" },
         _react2["default"].createElement(
-          "h3",
+          "h4",
           null,
           "Teilen"
         ),
@@ -33826,9 +33886,9 @@ var Footer = function Footer(_ref) {
       ),
       _react2["default"].createElement(
         "div",
-        { id: "footerElse", className: "footerPart pure-u-1-2 pure-u-sm-1-5" },
+        { id: "footerElse", className: "footer-part pure-u-1 pure-u-sm-1-2 pure-u-md-1-5" },
         _react2["default"].createElement(
-          "h3",
+          "h4",
           null,
           "Sonstiges"
         ),
@@ -33877,7 +33937,11 @@ var Footer = function Footer(_ref) {
     _react2["default"].createElement(
       "div",
       { id: "footerFoot", className: "pure-u-1 center" },
-      "v. 1.0"
+      _react2["default"].createElement(
+        "p",
+        null,
+        "v. 1.0"
+      )
     )
   );
 };
@@ -34115,10 +34179,10 @@ var MissionsComponent = function MissionsComponent(_ref) {
 
   return _react2['default'].createElement(
     'main',
-    { role: 'main', className: 'pure-u-1 missions center' },
+    { role: 'main', className: 'missions pure-u-1 center' },
     _react2['default'].createElement(
       'div',
-      { id: 'featured', className: 'pure-u-1 missions' },
+      { id: 'featured', className: 'missions pure-u-1' },
       _react2['default'].createElement(
         'h1',
         null,
@@ -34319,10 +34383,10 @@ var MissionsComponent = function MissionsComponent(_ref) {
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'dataArea', className: 'pure-u-1 missions' },
+      { id: 'dataArea', className: 'missions pure-u-1' },
       _react2['default'].createElement(
         'div',
-        { id: 'missionsTable', className: 'tablesorter' },
+        { id: 'missionsTable' },
         missions.map(function (mission, idx) {
           return _react2['default'].createElement(MissionComponent, { mission: mission, key: idx });
         })
@@ -34339,10 +34403,10 @@ var MissionComponent = function MissionComponent(_ref2) {
 
   return _react2['default'].createElement(
     'div',
-    { className: 'missions-row data-row pure-u-1' },
+    { className: 'mission-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'missionName pure-u-1 pure-u-sm-9-24' },
+      { className: 'mission-name pure-u-1 pure-u-sm-9-24' },
       _react2['default'].createElement(
         'a',
         { href: mission.link },
@@ -34351,10 +34415,10 @@ var MissionComponent = function MissionComponent(_ref2) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'missionDates pure-u-1-2 pure-u-sm-6-24' },
+      { className: 'mission-dates pure-u-1-2 pure-u-sm-6-24' },
       _react2['default'].createElement(
         'p',
-        { className: 'missionLaunch pure-u-lg-1-2' },
+        { className: 'mission-launch pure-u-lg-1-2' },
         _react2['default'].createElement(
           'b',
           null,
@@ -34365,21 +34429,21 @@ var MissionComponent = function MissionComponent(_ref2) {
       ),
       _react2['default'].createElement(
         'p',
-        { className: 'missionEnd' },
+        { className: 'mission-end' },
         mission.endDate ? 'Ende: ' + mission.endDate : 'Status: ' + mission.status
       )
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'missionInfo pure-u-1-2 pure-u-sm-9-24 left' },
+      { className: 'mission-info pure-u-1-2 pure-u-sm-9-24 left' },
       _react2['default'].createElement(
         'p',
-        { className: 'missionOperator' },
+        { className: 'mission-operator' },
         mission.operator ? 'Betreiber: ' + mission.operator + ' - ' + mission.country : 'Land: ' + mission.country
       ),
       _react2['default'].createElement(
         'p',
-        { className: 'missionDestination' },
+        { className: 'mission-destination' },
         _react2['default'].createElement(
           'b',
           null,
@@ -35786,94 +35850,9 @@ var StarsGroupComponent = function StarsGroupComponent(_ref3) {
         '↑'
       )
     ),
-    _react2['default'].createElement(
-      'div',
-      { className: 'stars' },
-      _react2['default'].createElement(
-        'table',
-        { className: 'starsTable tablesorter' },
-        _react2['default'].createElement(
-          'thead',
-          null,
-          _react2['default'].createElement(
-            'tr',
-            { className: 'starsHeader' },
-            _react2['default'].createElement(
-              'th',
-              { className: 'starName left' },
-              'Name'
-            ),
-            _react2['default'].createElement(
-              'th',
-              { className: 'starBay left' },
-              'Bayer-Bezeichnung'
-            ),
-            _react2['default'].createElement(
-              'th',
-              { className: 'starShort left' },
-              'kurz'
-            ),
-            _react2['default'].createElement(
-              'th',
-              { className: 'starConst left' },
-              'Sternbild'
-            ),
-            _react2['default'].createElement(
-              'th',
-              { className: 'starRekt left' },
-              'Rektaszension'
-            ),
-            _react2['default'].createElement(
-              'th',
-              { className: 'starDekli left' },
-              'Deklination'
-            ),
-            _react2['default'].createElement(
-              'th',
-              { className: 'starAppMag left' },
-              'mag'
-            ),
-            _react2['default'].createElement(
-              'th',
-              { className: 'starSpectrClass left' },
-              'Klasse'
-            ),
-            _react2['default'].createElement(
-              'th',
-              { className: 'starDist left' },
-              'Lj'
-            ),
-            _react2['default'].createElement(
-              'th',
-              { className: 'starMass left' },
-              'M',
-              _react2['default'].createElement(
-                'sub',
-                null,
-                '☉'
-              )
-            ),
-            _react2['default'].createElement(
-              'th',
-              { className: 'starRadius left' },
-              'R',
-              _react2['default'].createElement(
-                'sub',
-                null,
-                '☉'
-              )
-            )
-          )
-        ),
-        _react2['default'].createElement(
-          'tbody',
-          null,
-          stars.map(function (star, idx) {
-            return _react2['default'].createElement(StarComponent, { star: star, key: idx });
-          })
-        )
-      )
-    )
+    stars.map(function (star, idx) {
+      return _react2['default'].createElement(StarComponent, { star: star, key: idx });
+    })
   );
 };
 
@@ -35882,94 +35861,25 @@ var StarComponent = function StarComponent(_ref4) {
 
   var noop = function noop() {};
   return _react2['default'].createElement(
-    'tr',
-    { className: 'starsRow' },
+    'div',
+    { className: 'star-row data-row pure-u-1' },
     _react2['default'].createElement(
-      'td',
+      'div',
       { className: 'starName' },
       _react2['default'].createElement(
         'a',
-        { href: star.link, onMouseOver: noop, onMouseOut: noop },
+        { href: star.link },
         star.name.name
-      ),
-      _react2['default'].createElement(
-        'div',
-        { className: 'starInfoBox' },
-        _react2['default'].createElement(
-          'p',
-          null,
-          _react2['default'].createElement(
-            'strong',
-            null,
-            'alternative Namen:'
-          ),
-          ' ',
-          star.name.alternative
-        ),
-        _react2['default'].createElement(
-          'p',
-          null,
-          _react2['default'].createElement(
-            'strong',
-            null,
-            'Bezeichnung nach:'
-          ),
-          _react2['default'].createElement('br', null),
-          _react2['default'].createElement(
-            'a',
-            { href: 'https://de.wikipedia.org/wiki/Bright-Star-Katalog', target: '_blank', title: 'Bright-Star-Katalog' },
-            'Bright-Star-Katalog'
-          ),
-          ': HR ',
-          star.hr,
-          _react2['default'].createElement('br', null),
-          _react2['default'].createElement(
-            'a',
-            { href: 'https://de.wikipedia.org/wiki/Henry-Draper-Katalog', target: '_blank', title: 'Henry-Draper-Katalog' },
-            'Henry-Draper-Katalog'
-          ),
-          ': HD ',
-          star.hd,
-          _react2['default'].createElement('br', null),
-          _react2['default'].createElement(
-            'a',
-            { href: 'https://de.wikipedia.org/wiki/Hipparcos-Katalog', target: '_blank', title: 'Hipparcos-Katalog' },
-            'Hipparcos-Katalog'
-          ),
-          ': HIP ',
-          star.hip,
-          _react2['default'].createElement('br', null),
-          _react2['default'].createElement(
-            'a',
-            { href: 'https://de.wikipedia.org/wiki/SAO-Katalog', target: '_blank', title: 'SAO-Katalog' },
-            'SAO-Katalog'
-          ),
-          ': SAO ',
-          star.sao,
-          _react2['default'].createElement('br', null),
-          _react2['default'].createElement(
-            'a',
-            { href: 'https://de.wikipedia.org/wiki/Flamsteed-Bezeichnung', target: '_blank', title: 'Flamsteed-Bezeichnung' },
-            'SAO-Katalog'
-          ),
-          ': Flamsteed ',
-          star.flamsteed
-        )
       )
     ),
     _react2['default'].createElement(
-      'td',
-      { className: 'starBay' },
-      star.name.bayer || '-'
+      'div',
+      { className: 'star-bayername pure-u-1 pure-u-sm-3-16' },
+      star.name.bayer || ''
     ),
     _react2['default'].createElement(
-      'td',
-      { className: 'starShort' },
-      star.name.short || '-'
-    ),
-    _react2['default'].createElement(
-      'td',
-      { className: 'starConst' },
+      'div',
+      { className: 'star-constellation pure-u-1-2 pure-u-sm-1-8' },
       _react2['default'].createElement(
         'a',
         { href: star.constLink },
@@ -35977,39 +35887,24 @@ var StarComponent = function StarComponent(_ref4) {
       )
     ),
     _react2['default'].createElement(
-      'td',
-      { className: 'starRekt' },
-      star.rekt || '-'
+      'div',
+      { className: 'star-appmagnitude pure-u-1-2 pure-u-sm-1-16' },
+      star.appMag || 'k. A.'
     ),
     _react2['default'].createElement(
-      'td',
-      { className: 'starDekli' },
-      star.dekli || '-'
+      'div',
+      { className: 'star-distance pure-u-1-2 pure-u-sm-1-16' },
+      star.dist || 'k. A.'
     ),
     _react2['default'].createElement(
-      'td',
-      { className: 'starAppMag' },
-      star.appMag || '-'
+      'div',
+      { className: 'star-mass pure-u-1-2 pure-u-sm-1-16' },
+      star.mass || 'k. A.'
     ),
     _react2['default'].createElement(
-      'td',
-      { className: 'starSpectrClass' },
-      star.spectrClass || '-'
-    ),
-    _react2['default'].createElement(
-      'td',
-      { className: 'starDist' },
-      star.dist || '-'
-    ),
-    _react2['default'].createElement(
-      'td',
-      { className: 'starMass' },
-      star.mass || '-'
-    ),
-    _react2['default'].createElement(
-      'td',
-      { className: 'starRadius' },
-      star.radius || '-'
+      'div',
+      { className: 'star-radius pure-u-1-2 pure-u-sm-1-16' },
+      star.radius || 'k. A.'
     )
   );
 };

@@ -1,29 +1,29 @@
-.missions-row div {padding: .2em 0;}
+.mission-row div {padding: .2em 0;}
 
 .missionImg {min-width: 150px;}
 .missionImg img {width: 150px; display: block; margin: 2% auto;}
 .missionImg small {margin-left: 50%; font-size: .8em;}
 
-.missionName {text-align: center; font-size: 1.5em;}
-.missionDates {text-align: right;}
-.missionDates p {display: block; margin-right: .5em;}
-.missionInfo p {display: block; margin-left: .5em;}
+.mission-name {text-align: center; font-size: 1.5em;}
+.mission-dates {text-align: right;}
+.mission-dates p {display: block; margin-right: .5em;}
+.mission-info p {display: block; margin-left: .5em;}
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
-  .missionName {float: left; height: 2.25em;}
-  .missionDates p, .missionInfo p {text-align: left; line-height: 1.75em;}
-  .missionDates p {margin: 0 0 0 .2em;}
-  .missionInfo p {margin: 0;}
+  .mission-name {float: left; height: 2.25em;}
+  .mission-dates p, .missionInfo p {text-align: left; line-height: 1.75em;}
+  .mission-dates p {margin: 0 0 0 .2em;}
+  .mission-info p {margin: 0;}
 }
 @media only all and (min-width: 48em) {
 
 }
 @media only all and (min-width: 64em) {
-  .missionName {height: inherit; font-size: 1.25em; line-height: 1.5em;}
-  .missionDates {text-align: left;}
-  .missionDates p,
-  .missionInfo p {display: inline-block; margin: 0; line-height: 2em;}
-  p.missionOperator {min-width: 130px;}
-  p.missionDestination {margin-left: .5em;}
+  .mission-name {height: inherit; font-size: 1.25em; line-height: 1.5em;}
+  .mission-dates {text-align: left;}
+  .mission-dates p,
+  .mission-info p {display: inline-block; margin: 0; line-height: 2em;}
+  p.mission-operator {min-width: 130px;}
+  p.mission-destination {margin-left: .5em;}
 }
