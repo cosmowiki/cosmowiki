@@ -1,5 +1,38 @@
+.star-row {}
+.star-row div {padding: .2em 0;}
+
+.star-name,
+.star-bayername,
+.star-constellation,
+.star-appmagnitude,
+.star-distance,
+.star-mass,
+.star-radius {display: inline-block;}
+
+/* only for visualisation */
+/*.star-row div:nth-child(odd) {background: lightblue;}*/
+
+.star-name {font-size: 1.5em;}
+.star-bayername {}
+.star-constellation {}
+.star-appmagnitude {}
+.star-distance {text-align: right;}
+.star-mass {}
+.star-radius {}
+
+/* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
+@media only all and (min-width: 35.5em) {
+
+}
+@media only all and (min-width: 48em) {
+	.star-distance {text-align: center;}
+}
+@media only all and (min-width: 64em) {
+
+}
+
 /*#featured.stars {background: url("/img/featured_stars.jpg") center top / contain no-repeat;}*/
-.starsHeader {
+/*.starsHeader {
 	background-image: linear-gradient(to bottom, #fff 0%, #d2d2ff 100%);
 	border-bottom: 1px solid #d0d0d0;
 }
@@ -23,4 +56,4 @@
 .starDist {width: 40px;}
 .starMass {width: 38px;}
 .starRadius {width: 40px;}
-.starInfoBox {display: none;}
+.starInfoBox {display: none;}*/

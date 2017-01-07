@@ -34199,14 +34199,6 @@ var MissionsComponent = function MissionsComponent(_ref) {
       { id: 'todo', className: 'pure-u-1' },
       '@wolfram pls make the sorter and filters work',
       _react2['default'].createElement('br', null),
-      '@wolfram pls set the "Ende:" and "Land:" ',
-      _react2['default'].createElement(
-        'b',
-        null,
-        'bold'
-      ),
-      ' too (f***ing syntax)',
-      _react2['default'].createElement('br', null),
       '@wolfram pls make the toggle-switches for sort and filter work on small screens'
     ),
     _react2['default'].createElement(
@@ -34427,19 +34419,48 @@ var MissionComponent = function MissionComponent(_ref2) {
         ' ',
         mission.launchDate
       ),
-      _react2['default'].createElement(
+      mission.endDate ? _react2['default'].createElement(
         'p',
         { className: 'mission-end' },
-        mission.endDate ? 'Ende: ' + mission.endDate : 'Status: ' + mission.status
+        _react2['default'].createElement(
+          'b',
+          null,
+          'Ende:'
+        ),
+        ' ',
+        mission.endDate
+      ) : _react2['default'].createElement(
+        'p',
+        { className: 'mission-end' },
+        'Status: ',
+        mission.status
       )
     ),
     _react2['default'].createElement(
       'div',
       { className: 'mission-info pure-u-1-2 pure-u-sm-9-24 left' },
-      _react2['default'].createElement(
+      mission.operator ? _react2['default'].createElement(
         'p',
         { className: 'mission-operator' },
-        mission.operator ? 'Betreiber: ' + mission.operator + ' - ' + mission.country : 'Land: ' + mission.country
+        _react2['default'].createElement(
+          'b',
+          null,
+          'Betreiber:'
+        ),
+        ' ',
+        mission.operator,
+        ' - $',
+        mission.country
+      ) : _react2['default'].createElement(
+        'p',
+        { className: 'mission-operator' },
+        _react2['default'].createElement(
+          'b',
+          null,
+          'Land:'
+        ),
+        ' ',
+        mission.country
       ),
       _react2['default'].createElement(
         'p',
@@ -35296,15 +35317,15 @@ var PersonComponent = (function (_React$Component) {
 
       var person = this.props.person;
 
-      var cssClasses = ['personInfoBox pure-u-1 pure-u-md-1-2 pure-u-lg-1-3'];
+      var cssClasses = ['person-infobox pure-u-1 pure-u-md-1-2 pure-u-lg-1-3'];
       cssClasses.push(this.state.detailsVisible ? 'visible' : 'hidden');
 
       return _react2['default'].createElement(
         'div',
-        { className: 'person-row pure-u-1 pure-u-md-1-2 pure-u-lg-1-3' },
+        { className: 'person-row data-row pure-u-1 pure-u-md-1-2 pure-u-lg-1-3' },
         _react2['default'].createElement(
           'div',
-          { className: 'personItem' },
+          { className: 'person-item' },
           _react2['default'].createElement(
             'a',
             { onMouseOver: showDetails, onMouseOut: hideDetails, href: person.wikipediaUrl },
@@ -35316,24 +35337,24 @@ var PersonComponent = (function (_React$Component) {
           { className: (0, _classnames2['default'])(cssClasses) },
           _react2['default'].createElement(
             'div',
-            { className: 'personProfession' },
+            { className: 'person-profession' },
             person.profession
           ),
           _react2['default'].createElement(
             'div',
-            { className: 'personLife' },
+            { className: 'person-life' },
             person.born ? '∗ ' + person.born : '',
             '  ',
             person.died ? '† ' + person.died : ''
           ),
           _react2['default'].createElement(
             'div',
-            { className: 'personCountry' },
+            { className: 'person-country' },
             person.country
           ),
           _react2['default'].createElement(
             'div',
-            { className: 'personInfo justify' },
+            { className: 'person-info justify' },
             person.description
           )
         )
@@ -35865,7 +35886,7 @@ var StarComponent = function StarComponent(_ref4) {
     { className: 'star-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'starName' },
+      { className: 'star-name pure-u-1 pure-u-md-1-3 center' },
       _react2['default'].createElement(
         'a',
         { href: star.link },
@@ -35874,37 +35895,87 @@ var StarComponent = function StarComponent(_ref4) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'star-bayername pure-u-1 pure-u-sm-3-16' },
-      star.name.bayer || ''
+      { className: 'star-bayername pure-u-1 pure-u-md-1-3 center' },
+      star.name.bayer ? _react2['default'].createElement(
+        'span',
+        null,
+        star.name.bayer
+      ) : ''
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'star-constellation pure-u-1-2 pure-u-sm-1-8' },
-      _react2['default'].createElement(
-        'a',
-        { href: star.constLink },
-        star.constellation || '-'
-      )
+      { className: 'star-constellation pure-u-1-2 pure-u-md-1-3' },
+      star.constellation ? _react2['default'].createElement(
+        'span',
+        null,
+        _react2['default'].createElement(
+          'b',
+          null,
+          'Sternbild:'
+        ),
+        ' ',
+        _react2['default'].createElement(
+          'a',
+          { href: star.constLink },
+          star.constellation
+        )
+      ) : ''
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'star-appmagnitude pure-u-1-2 pure-u-sm-1-16' },
-      star.appMag || 'k. A.'
+      { className: 'star-distance pure-u-1-2 pure-u-md-1-4' },
+      star.dist ? _react2['default'].createElement(
+        'span',
+        null,
+        _react2['default'].createElement(
+          'b',
+          null,
+          'Entfernung:'
+        ),
+        ' ',
+        star.dist,
+        ' Lj'
+      ) : ''
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'star-distance pure-u-1-2 pure-u-sm-1-16' },
-      star.dist || 'k. A.'
+      { className: 'star-appmagnitude pure-u-1-3 pure-u-md-1-4 center' },
+      star.appMag ? _react2['default'].createElement(
+        'span',
+        null,
+        star.appmag,
+        ' mag'
+      ) : ''
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'star-mass pure-u-1-2 pure-u-sm-1-16' },
-      star.mass || 'k. A.'
+      { className: 'star-mass pure-u-1-3 pure-u-md-1-4 center' },
+      star.mass ? _react2['default'].createElement(
+        'span',
+        null,
+        star.mass,
+        ' M',
+        _react2['default'].createElement(
+          'sub',
+          null,
+          '☉'
+        )
+      ) : ''
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'star-radius pure-u-1-2 pure-u-sm-1-16' },
-      star.radius || 'k. A.'
+      { className: 'star-radius pure-u-1-3 pure-u-md-1-4 center' },
+      star.radius ? _react2['default'].createElement(
+        'span',
+        null,
+        star.radius,
+        ' R',
+        _react2['default'].createElement(
+          'sub',
+          null,
+          '☉'
+        )
+      ) : ''
     )
   );
 };
