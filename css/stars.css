@@ -1,5 +1,5 @@
-.star-row {}
-.star-row div {padding: .2em 0;}
+.star-row {padding: .2em 0;}
+.star-row div p {padding: 0 .2em;}
 
 .star-name,
 .star-bayername,
@@ -7,7 +7,7 @@
 .star-appmagnitude,
 .star-distance,
 .star-mass,
-.star-radius {display: inline-block;}
+.star-radius {display: inline-block; }
 
 /* only for visualisation */
 /*.star-row div:nth-child(odd) {background: lightblue;}*/

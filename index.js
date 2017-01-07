@@ -35888,25 +35888,31 @@ var StarComponent = function StarComponent(_ref4) {
       'div',
       { className: 'star-name pure-u-1 pure-u-md-1-3 center' },
       _react2['default'].createElement(
-        'a',
-        { href: star.link },
-        star.name.name
+        'p',
+        null,
+        _react2['default'].createElement(
+          'a',
+          { href: star.link },
+          star.name.name
+        )
       )
     ),
     _react2['default'].createElement(
       'div',
       { className: 'star-bayername pure-u-1 pure-u-md-1-3 center' },
       star.name.bayer ? _react2['default'].createElement(
-        'span',
+        'p',
         null,
-        star.name.bayer
+        '(',
+        star.name.bayer,
+        ')'
       ) : ''
     ),
     _react2['default'].createElement(
       'div',
       { className: 'star-constellation pure-u-1-2 pure-u-md-1-3' },
       star.constellation ? _react2['default'].createElement(
-        'span',
+        'p',
         null,
         _react2['default'].createElement(
           'b',
@@ -35925,7 +35931,7 @@ var StarComponent = function StarComponent(_ref4) {
       'div',
       { className: 'star-distance pure-u-1-2 pure-u-md-1-4' },
       star.dist ? _react2['default'].createElement(
-        'span',
+        'p',
         null,
         _react2['default'].createElement(
           'b',
@@ -35941,9 +35947,9 @@ var StarComponent = function StarComponent(_ref4) {
       'div',
       { className: 'star-appmagnitude pure-u-1-3 pure-u-md-1-4 center' },
       star.appMag ? _react2['default'].createElement(
-        'span',
+        'p',
         null,
-        star.appmag,
+        star.appMag,
         ' mag'
       ) : ''
     ),
@@ -35951,7 +35957,7 @@ var StarComponent = function StarComponent(_ref4) {
       'div',
       { className: 'star-mass pure-u-1-3 pure-u-md-1-4 center' },
       star.mass ? _react2['default'].createElement(
-        'span',
+        'p',
         null,
         star.mass,
         ' M',
@@ -35966,7 +35972,7 @@ var StarComponent = function StarComponent(_ref4) {
       'div',
       { className: 'star-radius pure-u-1-3 pure-u-md-1-4 center' },
       star.radius ? _react2['default'].createElement(
-        'span',
+        'p',
         null,
         star.radius,
         ' R',
