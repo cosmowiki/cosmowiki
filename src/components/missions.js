@@ -10,7 +10,6 @@ const MissionsComponent = ({missions}) => {
       </div>
       <div id="todo" className="pure-u-1">
         @wolfram pls make the sorter and filters work<br />
-        @wolfram pls set the "Ende:" and "Land:" <b>bold</b> too (f***ing syntax)<br />
         @wolfram pls make the toggle-switches for sort and filter work on small screens
       </div>
       <div id="functionArea" className="missions">
@@ -83,10 +82,10 @@ const MissionComponent = ({mission}) => {
       </div>
       <div className="mission-dates pure-u-1-2 pure-u-sm-6-24">
         <p className="mission-launch pure-u-lg-1-2"><b>Start:</b> {mission.launchDate}</p>
-        <p className="mission-end">{mission.endDate ? `Ende: ${mission.endDate}` : `Status: ${mission.status}`}</p>
+        {mission.endDate ? <p className="mission-end"><b>Ende:</b> {mission.endDate}</p> : <p className="mission-end">Status: {mission.status}</p>}
       </div>
       <div className="mission-info pure-u-1-2 pure-u-sm-9-24 left">
-        <p className="mission-operator">{mission.operator ? `Betreiber: ${mission.operator} - ${mission.country}` : `Land: ${mission.country}`}</p>
+        {mission.operator ? <p className="mission-operator"><b>Betreiber:</b> {mission.operator} - ${mission.country}</p> : <p className="mission-operator"><b>Land:</b> {mission.country}</p>}
         <p className="mission-destination"><b>Ziel:</b> {mission.destination}</p>
       </div>
     </div>

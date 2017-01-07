@@ -1,17 +1,17 @@
-/*#personTable {background: rgba(255,255,255,.9);}*/
+.person-row {display: inline-block;	border-width: 0;}
 
-.person-row {
-	max-width: 323px; margin: 0 5px; display: inline-block;
-	background: transparent; border-width: 0;
-}
 .person-row:focus, .person-row:hover, .person-row:active {
 	font-weight: 700; background: #ddf; border-radius: 5px 5px 0 0;
 }
-.personItem a {padding: 5px 0 5px 5px; display: block;}
-.personInfoBox {
+.person-item {margin: 0 5px;}
+.person-item a {padding: 5px 0; display: block;}
+.person-infobox {
 	position: absolute; width: 313px; margin: 0; padding: 3px; font-weight: normal;
 	background: #fff;
 	border-color: #ddf; border-width: 0 2px 2px 2px;
 	border-style: solid; border-radius: 0 0 5px 5px;
 }
-.personProfession, .personLife, .personCountry {margin-bottom: 10px;}
+.person-profession,
+.person-life,
+.person-country,
+.person-info {margin-bottom: 10px;}

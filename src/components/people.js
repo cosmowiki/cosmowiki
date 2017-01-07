@@ -51,7 +51,7 @@ const PeopleComponent = ({groupedPeople}) => {
           </div>
         </div>
 
-      <LetterLinks letters={allFirstLetters} />
+        <LetterLinks letters={allFirstLetters} />
 
       </div>
       <div id="dataArea" className="people pure-u-1">
@@ -71,13 +71,13 @@ const PersonGroupComponent = ({group}) => {
   const people = group.data;
 
   return (
-    <div id={groupKey} className="pure-u-1 letter-section">
-      <div className="pure-u-1 letter-section-header">
-        <a className="first-letter pure-u-1-2" name={`#${groupKey}`}>{groupKey}</a>
-        <a className="scrollUpArrow pure-u-1-2 right" href="javascript:self.scrollTo(0,0);">&uarr;</a>
-      </div>
-      {people.map((person, idx) => <PersonComponent person={person} key={idx} />)}
-    </div>
+          <div id={groupKey} className="pure-u-1 letter-section">
+            <div className="pure-u-1 letter-section-header">
+              <a className="first-letter pure-u-1-2" name={`#${groupKey}`}>{groupKey}</a>
+              <a className="scrollUpArrow pure-u-1-2 right" href="javascript:self.scrollTo(0,0);">&uarr;</a>
+            </div>
+            {people.map((person, idx) => <PersonComponent person={person} key={idx} />)}
+          </div>
   );
 };
 
@@ -98,23 +98,23 @@ class PersonComponent extends React.Component {
     };
 
     const {person} = this.props;
-    let cssClasses = ['personInfoBox pure-u-1 pure-u-md-1-2 pure-u-lg-1-3'];
+    let cssClasses = ['person-infobox pure-u-1 pure-u-md-1-2 pure-u-lg-1-3'];
     cssClasses.push(this.state.detailsVisible ? 'visible' : 'hidden');
 
     return (
-      <div className="person-row pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-        <div className="personItem">
-          <a onMouseOver={showDetails} onMouseOut={hideDetails} href={person.wikipediaUrl}>{person.name}</a>
-        </div>
-        <div className={classNames(cssClasses)}>
-          <div className="personProfession">{person.profession}</div>
-          <div className="personLife">
-            {person.born ? `∗ ${person.born}` : ''} &nbsp;
-            {person.died ? `† ${person.died}`: ''}</div>
-          <div className="personCountry">{person.country}</div>
-          <div className="personInfo justify">{person.description}</div>
-        </div>
-      </div>
+            <div className="person-row data-row pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+              <div className="person-item">
+                <a onMouseOver={showDetails} onMouseOut={hideDetails} href={person.wikipediaUrl}>{person.name}</a>
+              </div>
+              <div className={classNames(cssClasses)}>
+                <div className="person-profession">{person.profession}</div>
+                <div className="person-life">
+                  {person.born ? `∗ ${person.born}` : ''} &nbsp;
+                  {person.died ? `† ${person.died}`: ''}</div>
+                <div className="person-country">{person.country}</div>
+                <div className="person-info justify">{person.description}</div>
+              </div>
+            </div>
     );
 
   }
