@@ -90,25 +90,25 @@ const StarComponent = ({star}) => {
   return (
             <div className="star-row data-row pure-u-1">
               <div className="star-name pure-u-1 pure-u-md-1-3 center">
-                <a href={star.link}>{star.name.name}</a>
+                <p><a href={star.link}>{star.name.name}</a></p>
               </div>
               <div className="star-bayername pure-u-1 pure-u-md-1-3 center">
-                {star.name.bayer ? <span>{star.name.bayer}</span> : ''}
+                {star.name.bayer ? <p>({star.name.bayer})</p> : ''}
               </div>
               <div className="star-constellation pure-u-1-2 pure-u-md-1-3">
-                {star.constellation ? <span><b>Sternbild:</b> <a href={star.constLink}>{star.constellation}</a></span> : ''}
+                {star.constellation ? <p><b>Sternbild:</b> <a href={star.constLink}>{star.constellation}</a></p> : ''}
               </div>
               <div className="star-distance pure-u-1-2 pure-u-md-1-4">
-                {star.dist ? <span><b>Entfernung:</b> {star.dist} Lj</span> : ''}
+                {star.dist ? <p><b>Entfernung:</b> {star.dist} Lj</p> : ''}
               </div>
               <div className="star-appmagnitude pure-u-1-3 pure-u-md-1-4 center">
-                {star.appMag ? <span>{star.appmag} mag</span> : ''}
+                {star.appMag ? <p>{star.appMag} mag</p> : ''}
               </div>
               <div className="star-mass pure-u-1-3 pure-u-md-1-4 center">
-                {star.mass ? <span>{star.mass} M<sub>&#9737;</sub></span> : ''}
+                {star.mass ? <p>{star.mass} M<sub>&#9737;</sub></p> : ''}
               </div>
               <div className="star-radius pure-u-1-3 pure-u-md-1-4 center">
-                {star.radius ? <span>{star.radius} R<sub>&#9737;</sub></span> : ''}
+                {star.radius ? <p>{star.radius} R<sub>&#9737;</sub></p> : ''}
               </div>
             </div>
   );
