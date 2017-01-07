@@ -89,26 +89,26 @@ const StarComponent = ({star}) => {
   const noop = () => {};
   return (
             <div className="star-row data-row pure-u-1">
-              <div className="starName">
+              <div className="star-name pure-u-1 pure-u-md-1-3 center">
                 <a href={star.link}>{star.name.name}</a>
               </div>
-              <div className="star-bayername pure-u-1 pure-u-sm-3-16">
-                {star.name.bayer || ''}
+              <div className="star-bayername pure-u-1 pure-u-md-1-3 center">
+                {star.name.bayer ? <span>{star.name.bayer}</span> : ''}
               </div>
-              <div className="star-constellation pure-u-1-2 pure-u-sm-1-8">
-                <a href={star.constLink}>{star.constellation || '-'}</a>
+              <div className="star-constellation pure-u-1-2 pure-u-md-1-3">
+                {star.constellation ? <span><b>Sternbild:</b> <a href={star.constLink}>{star.constellation}</a></span> : ''}
               </div>
-              <div className="star-appmagnitude pure-u-1-2 pure-u-sm-1-16">
-                {star.appMag || 'k. A.'}
+              <div className="star-distance pure-u-1-2 pure-u-md-1-4">
+                {star.dist ? <span><b>Entfernung:</b> {star.dist} Lj</span> : ''}
               </div>
-              <div className="star-distance pure-u-1-2 pure-u-sm-1-16">
-                {star.dist || 'k. A.'}
+              <div className="star-appmagnitude pure-u-1-3 pure-u-md-1-4 center">
+                {star.appMag ? <span>{star.appmag} mag</span> : ''}
               </div>
-              <div className="star-mass pure-u-1-2 pure-u-sm-1-16">
-                {star.mass || 'k. A.'}
+              <div className="star-mass pure-u-1-3 pure-u-md-1-4 center">
+                {star.mass ? <span>{star.mass} M<sub>&#9737;</sub></span> : ''}
               </div>
-              <div className="star-radius pure-u-1-2 pure-u-sm-1-16">
-                {star.radius || 'k. A.'}
+              <div className="star-radius pure-u-1-3 pure-u-md-1-4 center">
+                {star.radius ? <span>{star.radius} R<sub>&#9737;</sub></span> : ''}
               </div>
             </div>
   );
