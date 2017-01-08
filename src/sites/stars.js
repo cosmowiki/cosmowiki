@@ -43,30 +43,30 @@ class Star {
   static fromRawData(raw) {
     const star = new Star();
     star.name = new StarName({
-      name: raw.starname,
-      historical: raw.historicalname,
-      aternative: raw.alternativename,
-      bayer: raw.bayername,
-      short: raw.shortname
+      name: raw.itemname,
+      historical: raw.itemname2,
+      aternative: raw.itemname3,
+      bayer: raw.itemname4,
+      short: raw.itemname5
     });
-    star.link = raw.starlink;
-    star.hr = raw.hr;
-    star.hd = raw.hd;
-    star.hip = raw.hip;
-    star.sao = raw.sao;
-    star.flamsteed = raw.flamsteed;
+    star.link = raw.itemurl;
+    star.flamsteed = raw.itemname6;
+    star.hr = raw.itemname7;
+    star.hd = raw.itemname8;
+    star.hip = raw.itemname9;
+    star.sao = raw.itemname10;
 
-    star.constellation = raw.constellation;
-    star.constLink = raw.constlink; // TODO make it a real ref to the constellation
+    star.constellation = raw.itemparent;
+    star.constLink = raw.itemparenturl; // TODO make it a real ref to the constellation
 
-    star.dekli = raw.dekli;
-    star.rekt = raw.rekt;
-    star.appmagnitude = raw.appmag;
-    star.spectralclass = raw.spectrclass;
+    star.dekli = raw.itemdeclination;
+    star.rekt = raw.itemrightascension;
+    star.appmagnitude = raw.itemappmag;
+    star.spectralclass = raw.itemproperty;
 
-    star.distance = raw.dist;
-    star.mass = raw.mass;
-    star.radius = raw.radius;
+    star.distance = raw.itemdistance;
+    star.mass = raw.itemmass;
+    star.radius = raw.itemradius;
 
     return star;
   }
