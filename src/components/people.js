@@ -72,10 +72,14 @@ const PersonGroupComponent = ({group}) => {
 
   return (
           <div id={groupKey} className="pure-u-1 letter-section">
-            <div className="pure-u-1 letter-section-header">
-              <a className="first-letter pure-u-1-2" name={`#${groupKey}`}>{groupKey}</a>
-              <a className="scrollUpArrow pure-u-1-2 right" href="javascript:self.scrollTo(0,0);">&uarr;</a>
+          <div className="pure-u-1 letter-section-header">
+            <div className="first-letter pure-u-1-2">
+              <p name={`#${groupKey}`}>{groupKey}</p>
             </div>
+            <div className="scroll-up-arrow pure-u-1-2 right">
+              <p><a href="javascript:self.scrollTo(0,0);">&uarr;</a></p>
+            </div>
+          </div>
             {people.map((person, idx) => <PersonComponent person={person} key={idx} />)}
           </div>
   );

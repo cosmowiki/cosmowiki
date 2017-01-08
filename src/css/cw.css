@@ -157,11 +157,9 @@ main {border-bottom: 1em solid #eee;}
   overflow:hidden; visibility:hidden;
 }
 
-.first-letter, .scrollUpArrow {
-	max-width: 30%; margin: .2em;
-	font-size: 1.3em; font-weight: bold;
-	}
-.scrollUpArrow {float: right;}
+.first-letter, .scroll-up-arrow {display: inline-block;}
+.first-letter p, .scroll-up-arrow p {margin: .2em; font-size: 1.3em;}
+.scrollUpArrow p {font-weight: bold;}
 
 /*			switch -------------------------------------------------------------- */
 /*

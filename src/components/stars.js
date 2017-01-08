@@ -77,8 +77,12 @@ const StarsGroupComponent = ({group}) => {
   return (
           <div id={groupKey} className="pure-u-1 letter-section">
             <div className="pure-u-1 letter-section-header">
-              <a className="first-letter pure-u-1-2" name={`#${groupKey}`}>{groupKey}</a>
-              <a className="scrollUpArrow pure-u-1-2 right" href="javascript:self.scrollTo(0,0);">&uarr;</a>
+              <div className="first-letter pure-u-1-2">
+                <p name={`#${groupKey}`}>{groupKey}</p>
+              </div>
+              <div className="scroll-up-arrow pure-u-1-2 right">
+                <p><a href="javascript:self.scrollTo(0,0);">&uarr;</a></p>
+              </div>
             </div>
             {stars.map((star, idx) => <StarComponent star={star} key={idx} />)}
           </div>
@@ -86,6 +90,7 @@ const StarsGroupComponent = ({group}) => {
 };
 
 const StarComponent = ({star}) => {
+  const sunIcon = <sub>&#9737;</sub>;
   const noop = () => {};
   return (
             <div className="star-row data-row pure-u-1">
@@ -99,8 +104,8 @@ const StarComponent = ({star}) => {
               </div>
               <div className="star-data2 pure-u-1 pure-u-md-1-4 center">
                 <p className="pure-u-1-3 center">{star.appmagnitude ? `${star.appmagnitude} mag` : ''}</p>
-                <p className="pure-u-1-3 center">{star.mass ? `${star.mass} M<sub>&#9737;</sub>` : ''}</p>
-                <p className="pure-u-1-3 center">{star.radius ? `${star.radius} R<sub>&#9737;</sub>` : ''}</p>
+                <p className="pure-u-1-3 center">{star.mass ? `${star.mass} M${sunIcon}` : ''}</p>
+                <p className="pure-u-1-3 center">{star.radius ? `${star.radius} R${sunIcon}` : ''}</p>
               </div>
             </div>
   );
