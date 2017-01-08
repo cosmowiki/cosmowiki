@@ -35889,20 +35889,16 @@ var StarComponent = function StarComponent(_ref4) {
       { className: 'star-name pure-u-1 pure-u-md-1-3 center' },
       _react2['default'].createElement(
         'p',
-        null,
+        { className: 'pure-u-1' },
         _react2['default'].createElement(
           'a',
           { href: star.link },
           star.name.name
         )
-      )
-    ),
-    _react2['default'].createElement(
-      'div',
-      { className: 'star-bayername pure-u-1 pure-u-md-1-3 center' },
+      ),
       star.name.bayer ? _react2['default'].createElement(
         'p',
-        null,
+        { className: 'pure-u-1' },
         '(',
         star.name.bayer,
         ')'
@@ -35910,10 +35906,10 @@ var StarComponent = function StarComponent(_ref4) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'star-constellation pure-u-1-2 pure-u-md-1-3' },
+      { className: 'star-data1 pure-u-1 pure-u-md-1-3' },
       star.constellation ? _react2['default'].createElement(
         'p',
-        null,
+        { className: 'pure-u-1-2 pure-u-md-1 center' },
         _react2['default'].createElement(
           'b',
           null,
@@ -35925,63 +35921,38 @@ var StarComponent = function StarComponent(_ref4) {
           { href: star.constLink },
           star.constellation
         )
-      ) : ''
-    ),
-    _react2['default'].createElement(
-      'div',
-      { className: 'star-distance pure-u-1-2 pure-u-md-1-4' },
-      star.dist ? _react2['default'].createElement(
+      ) : '',
+      star.distance ? _react2['default'].createElement(
         'p',
-        null,
+        { className: 'pure-u-1-2 pure-u-md-1 center' },
         _react2['default'].createElement(
           'b',
           null,
           'Entfernung:'
         ),
         ' ',
-        star.dist,
+        star.distance,
         ' Lj'
       ) : ''
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'star-appmagnitude pure-u-1-3 pure-u-md-1-4 center' },
-      star.appMag ? _react2['default'].createElement(
+      { className: 'star-data2 pure-u-1 pure-u-md-1-4 center' },
+      _react2['default'].createElement(
         'p',
-        null,
-        star.appMag,
-        ' mag'
-      ) : ''
-    ),
-    _react2['default'].createElement(
-      'div',
-      { className: 'star-mass pure-u-1-3 pure-u-md-1-4 center' },
-      star.mass ? _react2['default'].createElement(
+        { className: 'pure-u-1-3 center' },
+        star.appmagnitude ? star.appmagnitude + ' mag' : ''
+      ),
+      _react2['default'].createElement(
         'p',
-        null,
-        star.mass,
-        ' M',
-        _react2['default'].createElement(
-          'sub',
-          null,
-          '☉'
-        )
-      ) : ''
-    ),
-    _react2['default'].createElement(
-      'div',
-      { className: 'star-radius pure-u-1-3 pure-u-md-1-4 center' },
-      star.radius ? _react2['default'].createElement(
+        { className: 'pure-u-1-3 center' },
+        star.mass ? star.mass + ' M<sub>&#9737;</sub>' : ''
+      ),
+      _react2['default'].createElement(
         'p',
-        null,
-        star.radius,
-        ' R',
-        _react2['default'].createElement(
-          'sub',
-          null,
-          '☉'
-        )
-      ) : ''
+        { className: 'pure-u-1-3 center' },
+        star.radius ? star.radius + ' R<sub>&#9737;</sub>' : ''
+      )
     )
   );
 };
@@ -37744,27 +37715,27 @@ var Star = (function () {
 
   /*
     {
-      "starname": "Alphard", 
-      "starlink": "https://de.wikipedia.org/wiki/Alphard", 
-      "historicalname": "Alphard", 
-      "alternativename": "Soheil al Fard", 
-      "bayername": "α Hydrae", 
-      "shortname": "α Hya", 
-      "flamsteed": "30 Hydrae", 
-      "hr": "HR 3748", 
-      "hd": "HD 81797", 
-      "hip": "HIP 46390", 
-      "sao": "SAO 136871", 
-      "constellation": "Wasserschlange", 
-      "constlink": "https://de.wikipedia.org/wiki/Wasserschlange_(Sternbild)", 
-      "appmag": 1.99, 
-      "spectrclass": "K3 III", 
-      "dist": 180.3, 
-      "rekt": "09h 27m 35s", 
-      "dekli": "-8° 39′ 31″", 
-      "mass": 3.03, 
+      "starname": "Alphard",
+      "starlink": "https://de.wikipedia.org/wiki/Alphard",
+      "historicalname": "Alphard",
+      "alternativename": "Soheil al Fard",
+      "bayername": "α Hydrae",
+      "shortname": "α Hya",
+      "flamsteed": "30 Hydrae",
+      "hr": "HR 3748",
+      "hd": "HD 81797",
+      "hip": "HIP 46390",
+      "sao": "SAO 136871",
+      "constellation": "Wasserschlange",
+      "constlink": "https://de.wikipedia.org/wiki/Wasserschlange_(Sternbild)",
+      "appmag": 1.99,
+      "spectrclass": "K3 III",
+      "dist": 180.3,
+      "rekt": "09h 27m 35s",
+      "dekli": "-8° 39′ 31″",
+      "mass": 3.03,
       "radius": 50.5
-    }, 
+    },
    */
 
   _createClass(Star, null, [{
@@ -37790,10 +37761,10 @@ var Star = (function () {
 
       star.dekli = raw.dekli;
       star.rekt = raw.rekt;
-      star.appMag = raw.appmag;
-      star.spectrClass = raw.spectrclass;
+      star.appmagnitude = raw.appmag;
+      star.spectralclass = raw.spectrclass;
 
-      star.dist = raw.dist;
+      star.distance = raw.dist;
       star.mass = raw.mass;
       star.radius = raw.radius;
 

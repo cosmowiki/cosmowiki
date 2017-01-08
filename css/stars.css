@@ -1,24 +1,24 @@
 .star-row {padding: .2em 0;}
-.star-row div p {padding: 0 .2em;}
+.star-row div {padding: 0 .2em;}
 
 .star-name,
 .star-bayername,
-.star-constellation,
-.star-appmagnitude,
-.star-distance,
-.star-mass,
-.star-radius {display: inline-block; }
+.star-data1,
+.star-data2 {}
+
+.star-data1 p {display: inline-block;}
+.star-data2 p {display: inline-block;}
 
 /* only for visualisation */
-/*.star-row div:nth-child(odd) {background: lightblue;}*/
+/*.star-row div p:nth-child(odd) {background: lightblue;}*/
 
-.star-name {font-size: 1.5em;}
+.star-name {}
+.star-name p {display: block; font-size: 1.5em;}
+.star-name p:last-child {font-size: inherit;}
 .star-bayername {}
 .star-constellation {}
-.star-appmagnitude {}
 .star-distance {text-align: right;}
-.star-mass {}
-.star-radius {}
+.star-data2 {}
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
@@ -26,6 +26,8 @@
 }
 @media only all and (min-width: 48em) {
 	.star-distance {text-align: center;}
+	.star-data1 p {display: block; line-height: 1.5em;}
+	.star-data2 p {line-height: 3em;}
 }
 @media only all and (min-width: 64em) {
 
