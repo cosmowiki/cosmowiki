@@ -35277,14 +35277,26 @@ var PersonGroupComponent = function PersonGroupComponent(_ref2) {
       'div',
       { className: 'pure-u-1 letter-section-header' },
       _react2['default'].createElement(
-        'a',
-        { className: 'first-letter pure-u-1-2', name: '#' + groupKey },
-        groupKey
+        'div',
+        { className: 'first-letter pure-u-1-2' },
+        _react2['default'].createElement(
+          'p',
+          { name: '#' + groupKey },
+          groupKey
+        )
       ),
       _react2['default'].createElement(
-        'a',
-        { className: 'scrollUpArrow pure-u-1-2 right', href: 'javascript:self.scrollTo(0,0);' },
-        '↑'
+        'div',
+        { className: 'scroll-up-arrow pure-u-1-2 right' },
+        _react2['default'].createElement(
+          'p',
+          null,
+          _react2['default'].createElement(
+            'a',
+            { href: 'javascript:self.scrollTo(0,0);' },
+            '↑'
+          )
+        )
       )
     ),
     people.map(function (person, idx) {
@@ -35861,14 +35873,26 @@ var StarsGroupComponent = function StarsGroupComponent(_ref3) {
       'div',
       { className: 'pure-u-1 letter-section-header' },
       _react2['default'].createElement(
-        'a',
-        { className: 'first-letter pure-u-1-2', name: '#' + groupKey },
-        groupKey
+        'div',
+        { className: 'first-letter pure-u-1-2' },
+        _react2['default'].createElement(
+          'p',
+          { name: '#' + groupKey },
+          groupKey
+        )
       ),
       _react2['default'].createElement(
-        'a',
-        { className: 'scrollUpArrow pure-u-1-2 right', href: 'javascript:self.scrollTo(0,0);' },
-        '↑'
+        'div',
+        { className: 'scroll-up-arrow pure-u-1-2 right' },
+        _react2['default'].createElement(
+          'p',
+          null,
+          _react2['default'].createElement(
+            'a',
+            { href: 'javascript:self.scrollTo(0,0);' },
+            '↑'
+          )
+        )
       )
     ),
     stars.map(function (star, idx) {
@@ -35880,6 +35904,11 @@ var StarsGroupComponent = function StarsGroupComponent(_ref3) {
 var StarComponent = function StarComponent(_ref4) {
   var star = _ref4.star;
 
+  var sunIcon = _react2['default'].createElement(
+    'sub',
+    null,
+    '☉'
+  );
   var noop = function noop() {};
   return _react2['default'].createElement(
     'div',
@@ -35946,12 +35975,12 @@ var StarComponent = function StarComponent(_ref4) {
       _react2['default'].createElement(
         'p',
         { className: 'pure-u-1-3 center' },
-        star.mass ? star.mass + ' M<sub>&#9737;</sub>' : ''
+        star.mass ? star.mass + ' M' + sunIcon : ''
       ),
       _react2['default'].createElement(
         'p',
         { className: 'pure-u-1-3 center' },
-        star.radius ? star.radius + ' R<sub>&#9737;</sub>' : ''
+        star.radius ? star.radius + ' R' + sunIcon : ''
       )
     )
   );
