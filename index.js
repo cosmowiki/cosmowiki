@@ -34751,8 +34751,8 @@ var defaultNotes = _react2["default"].createElement(
 );
 
 var constellationNotes = _react2["default"].createElement(
-  "ol",
-  { className: "small" },
+  "ul",
+  null,
   _react2["default"].createElement(
     "li",
     null,
@@ -34835,32 +34835,12 @@ var constellationNotes = _react2["default"].createElement(
 );
 
 var starNotes = _react2["default"].createElement(
-  "ol",
-  { className: "small" },
+  "ul",
+  null,
   _react2["default"].createElement(
     "li",
     null,
     "α = Alpha, β = Beta, γ = Gamma, δ = Delta, ε = Epsilon, ζ = Zeta, η = Eta, θ = Theta, ι = Iota, κ = Kappa, λ = Lambda, μ = My, ν = Ny, ξ = Xi, ο = Omikron, π = Pi, ρ = Rho, σ = Sigma, τ = Tau, υ = Ypsilon, φ = Phi, χ = Chi, ψ = Psi, ω = Omega"
-  ),
-  _react2["default"].createElement(
-    "li",
-    null,
-    "Rekt = ",
-    _react2["default"].createElement(
-      "a",
-      { href: "https://de.wikipedia.org/wiki/Rektaszension", target: "_blank", title: "Rektaszension" },
-      "Rektaszension"
-    )
-  ),
-  _react2["default"].createElement(
-    "li",
-    null,
-    "Dekli = ",
-    _react2["default"].createElement(
-      "a",
-      { href: "https://de.wikipedia.org/wiki/Deklination_(Astronomie)", target: "_blank", title: "Deklination" },
-      "Deklination"
-    )
   ),
   _react2["default"].createElement(
     "li",
@@ -34872,16 +34852,6 @@ var starNotes = _react2["default"].createElement(
       "scheinbare Helligkeit"
     ),
     " in mag"
-  ),
-  _react2["default"].createElement(
-    "li",
-    null,
-    "Klasse = ",
-    _react2["default"].createElement(
-      "a",
-      { href: "https://de.wikipedia.org/wiki/Spektralklasse", target: "_blank", title: "Spektralklasse" },
-      "Spektralklasse"
-    )
   ),
   _react2["default"].createElement(
     "li",
@@ -35712,8 +35682,6 @@ var StarsComponent = function StarsComponent(_ref) {
     _react2['default'].createElement(
       'div',
       { id: 'todo', className: 'pure-u-1' },
-      '@me make it responsive',
-      _react2['default'].createElement('br', null),
       '@wolfram pls make the filter work',
       _react2['default'].createElement('br', null),
       '@all find a way for sorter and filter on small screens (toggle-buttons?)'
@@ -35909,7 +35877,6 @@ var StarComponent = function StarComponent(_ref4) {
     null,
     '☉'
   );
-  var noop = function noop() {};
   return _react2['default'].createElement(
     'div',
     { className: 'star-row data-row pure-u-1' },
@@ -35972,20 +35939,16 @@ var StarComponent = function StarComponent(_ref4) {
         { className: 'pure-u-1-3 center' },
         star.appmagnitude ? star.appmagnitude + ' mag' : ''
       ),
-      star.mass ? _react2['default'].createElement(
+      _react2['default'].createElement(
         'p',
         { className: 'pure-u-1-3 center' },
-        star.mass,
-        ' M',
-        sunIcon
-      ) : '',
-      star.radius ? _react2['default'].createElement(
+        star.mass ? [star.mass, ' M', sunIcon] : ''
+      ),
+      _react2['default'].createElement(
         'p',
         { className: 'pure-u-1-3 center' },
-        star.radius,
-        ' R',
-        sunIcon
-      ) : ''
+        star.radius ? [star.radius, ' R', sunIcon] : ''
+      )
     )
   );
 };
@@ -37827,7 +37790,7 @@ var Star = (function () {
 
       star.distance = raw.itemdistance;
       star.mass = raw.itemmass;
-      star.radius = raw.itemradius;
+      star.radius = raw.itemmeanradius;
 
       return star;
     }
