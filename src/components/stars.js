@@ -104,8 +104,8 @@ const StarComponent = ({star}) => {
               </div>
               <div className="star-data2 pure-u-1 pure-u-md-1-3 center">
                 <p className="pure-u-1-3 center">{star.appmagnitude ? `${star.appmagnitude} mag` : ''}</p>
-                <p className="pure-u-1-3 center">{star.mass ? `${star.mass} M${sunIcon}` : ''}</p>
-                <p className="pure-u-1-3 center">{star.radius ? `${star.radius} R${sunIcon}` : ''}</p>
+                {star.mass ? <p className="pure-u-1-3 center">{star.mass} M{sunIcon}</p> : ''}
+                {star.radius ? <p className="pure-u-1-3 center">{star.radius} R{sunIcon}</p> : ''}
               </div>
             </div>
   );
