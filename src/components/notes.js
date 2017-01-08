@@ -8,7 +8,7 @@ const defaultNotes = (
 );
 
 const constellationNotes = (
-  <ol className="small">
+  <ul>
     <li>
       N / S - Lage des Sternbildes innerhalb der <a href="https://de.wikipedia.org/wiki/Himmelskugel" target="_blank" title="Himmeskugel">Himmelskugel.</a>
       Dabei steht N für die Nord- und S für die Südhalbkugel. Mit N S oder S N gekennzeichnete Sternbilder liegen ziemlich mittig auf dem Himmels&auml;quator.
@@ -27,26 +27,17 @@ const constellationNotes = (
     <li>
       Mag<sub>max</sub> - <a href="https://de.wikipedia.org/wiki/Scheinbare_Helligkeit" target="_blank" title="scheinbare Helligkeit">scheinbare Helligkeit</a> des hellsten Sterns im Sternbild in mag
     </li>
-  </ol>
+  </ul>
 );
 
 const starNotes = (
-  <ol className="small">
+  <ul>
     <li>
       α = Alpha, β = Beta, γ = Gamma, δ = Delta, ε = Epsilon, ζ = Zeta, η = Eta, θ = Theta, ι = Iota, κ = Kappa, λ = Lambda,
       μ = My, ν = Ny, ξ = Xi, ο = Omikron, π = Pi, ρ = Rho, σ = Sigma, τ = Tau, υ = Ypsilon, φ = Phi, χ = Chi, ψ = Psi, ω = Omega
     </li>
     <li>
-      Rekt = <a href="https://de.wikipedia.org/wiki/Rektaszension" target="_blank" title="Rektaszension">Rektaszension</a>
-    </li>
-    <li>
-      Dekli = <a href="https://de.wikipedia.org/wiki/Deklination_(Astronomie)" target="_blank" title="Deklination">Deklination</a>
-    </li>
-    <li>
       mag = <a href="https://de.wikipedia.org/wiki/Scheinbare_Helligkeit" target="_blank" title="scheinbare Helligkeit">scheinbare Helligkeit</a> in mag
-    </li>
-    <li>
-      Klasse = <a href="https://de.wikipedia.org/wiki/Spektralklasse" target="_blank" title="Spektralklasse">Spektralklasse</a>
     </li>
     <li>
       Lj = <a href="https://de.wikipedia.org/wiki/Lichtjahr" target="_blank" title="Lichtjahr">Entfernung Erde-Stern in Lichtjahren</a>
@@ -57,7 +48,7 @@ const starNotes = (
     <li>
       R<sub>&#9737;</sub> = <a href="https://de.wikipedia.org/wiki/Sonnenradius" target="_blank" title="Sonnenradien">Sonnenradien</a>
     </li>
-  </ol>
+  </ul>
 );
 
 const Notes = () => {

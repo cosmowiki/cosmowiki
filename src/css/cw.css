@@ -209,8 +209,8 @@ main {border-bottom: 1em solid #eee;}
 	border-bottom: 1px solid #fff;
 }
 
-#notes p {padding: 10px;}
-#notes ol {padding: 10px 20px;}
+#notes p {padding: .5em;}
+#notes ul {padding: .5em;}
 
 #upArrow {float: left; font-weight: bold;}
 
