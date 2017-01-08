@@ -35972,16 +35972,20 @@ var StarComponent = function StarComponent(_ref4) {
         { className: 'pure-u-1-3 center' },
         star.appmagnitude ? star.appmagnitude + ' mag' : ''
       ),
-      _react2['default'].createElement(
+      star.mass ? _react2['default'].createElement(
         'p',
         { className: 'pure-u-1-3 center' },
-        star.mass ? star.mass + ' M' + sunIcon : ''
-      ),
-      _react2['default'].createElement(
+        star.mass,
+        ' M',
+        sunIcon
+      ) : '',
+      star.radius ? _react2['default'].createElement(
         'p',
         { className: 'pure-u-1-3 center' },
-        star.radius ? star.radius + ' R' + sunIcon : ''
-      )
+        star.radius,
+        ' R',
+        sunIcon
+      ) : ''
     )
   );
 };
