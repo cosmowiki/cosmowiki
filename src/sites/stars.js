@@ -66,7 +66,7 @@ class Star {
 
     star.distance = raw.itemdistance;
     star.mass = raw.itemmass;
-    star.radius = raw.itemradius;
+    star.radius = raw.itemmeanradius;
 
     return star;
   }

@@ -13,7 +13,6 @@ const StarsComponent = ({groupedStars, constellations}) => {
         <h3>strahlende Objekte im All</h3>
       </div>
       <div id="todo" className="pure-u-1">
-        @me make it responsive<br />
         @wolfram pls make the filter work<br />
         @all find a way for sorter and filter on small screens (toggle-buttons?)
       </div>
@@ -91,7 +90,6 @@ const StarsGroupComponent = ({group}) => {
 
 const StarComponent = ({star}) => {
   const sunIcon = <sub>&#9737;</sub>;
-  const noop = () => {};
   return (
             <div className="star-row data-row pure-u-1">
               <div className="star-name pure-u-1 pure-u-md-1-3 center">
@@ -104,8 +102,8 @@ const StarComponent = ({star}) => {
               </div>
               <div className="star-data2 pure-u-1 pure-u-md-1-3 center">
                 <p className="pure-u-1-3 center">{star.appmagnitude ? `${star.appmagnitude} mag` : ''}</p>
-                {star.mass ? <p className="pure-u-1-3 center">{star.mass} M{sunIcon}</p> : ''}
-                {star.radius ? <p className="pure-u-1-3 center">{star.radius} R{sunIcon}</p> : ''}
+                <p className="pure-u-1-3 center">{star.mass ? [star.mass, ' M', sunIcon] : ''}</p>
+                <p className="pure-u-1-3 center">{star.radius ? [star.radius, ' R', sunIcon] : ''}</p>
               </div>
             </div>
   );
