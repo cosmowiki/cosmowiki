@@ -35966,7 +35966,7 @@ var StarComponent = function StarComponent(_ref4) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'star-data2 pure-u-1 pure-u-md-1-4 center' },
+      { className: 'star-data2 pure-u-1 pure-u-md-1-3 center' },
       _react2['default'].createElement(
         'p',
         { className: 'pure-u-1-3 center' },

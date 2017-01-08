@@ -143,8 +143,6 @@ main {border-bottom: 1em solid #eee;}
 #filterArea form {float: left;}
 #sort select, #filter select {margin-left: .1em;}
 
-/*			letterLinks --------------------------------------------------------- */
-
 #letterLinks {background: #eee;}
 
 #letterLinks li {display: inline-block; padding: .2em 0; }
@@ -155,10 +153,6 @@ main {border-bottom: 1em solid #eee;}
 	margin-left: .2em; content:attr(title); height: .2em;
   font-weight:bold; color:transparent; overflow:hidden; visibility:hidden;
 }
-
-.first-letter, .scroll-up-arrow {display: inline-block;}
-.first-letter p, .scroll-up-arrow p {margin: .2em; font-size: 1.3em;}
-.scrollUpArrow p {font-weight: bold;}
 
 /*			switch -------------------------------------------------------------- */
 /*
@@ -189,18 +183,22 @@ main {border-bottom: 1em solid #eee;}
 #dataArea {
 	font-size: .8em;
 	background: rgba(255,255,255,.8);
-	border-bottom: 1px solid #fff;
 }
 
+.letter-section-header {
+	background: rgba(255,255,255,.5);
+	border-bottom: 1px solid #fff;
+}
+.first-letter, .scroll-up-arrow {display: inline-block;}
+.first-letter p, .scroll-up-arrow p {margin: .2em; font-size: 1.3em;}
+.scrollUpArrow p {font-weight: bold;}
+
 .data-row {display: inline-block;	border-bottom: 1px solid #fff;}
-.data-row:last-child {border-bottom: 0;}
 
 .data-row:focus,
 .data-row:hover,
 .data-row:active {background: rgba(255,255,255,.5);}
-/*.letter-section:focus,
-.letter-section:hover,
-.letter-section:active {background: rgba(255,255,255,.9);}*/
+
 
 /*			notes --------------------------------------------------------------- */
 
