@@ -90,25 +90,17 @@ const StarComponent = ({star}) => {
   return (
             <div className="star-row data-row pure-u-1">
               <div className="star-name pure-u-1 pure-u-md-1-3 center">
-                <p><a href={star.link}>{star.name.name}</a></p>
+                <p className="pure-u-1"><a href={star.link}>{star.name.name}</a></p>
+                {star.name.bayer ? <p className="pure-u-1">({star.name.bayer})</p> : ''}
               </div>
-              <div className="star-bayername pure-u-1 pure-u-md-1-3 center">
-                {star.name.bayer ? <p>({star.name.bayer})</p> : ''}
+              <div className="star-data1 pure-u-1 pure-u-md-1-3">
+                {star.constellation ? <p className="pure-u-1-2 pure-u-md-1 center"><b>Sternbild:</b> <a href={star.constLink}>{star.constellation}</a></p> : ''}
+                {star.distance ? <p className="pure-u-1-2 pure-u-md-1 center"><b>Entfernung:</b> {star.distance} Lj</p> : ''}
               </div>
-              <div className="star-constellation pure-u-1-2 pure-u-md-1-3">
-                {star.constellation ? <p><b>Sternbild:</b> <a href={star.constLink}>{star.constellation}</a></p> : ''}
-              </div>
-              <div className="star-distance pure-u-1-2 pure-u-md-1-4">
-                {star.dist ? <p><b>Entfernung:</b> {star.dist} Lj</p> : ''}
-              </div>
-              <div className="star-appmagnitude pure-u-1-3 pure-u-md-1-4 center">
-                {star.appMag ? <p>{star.appMag} mag</p> : ''}
-              </div>
-              <div className="star-mass pure-u-1-3 pure-u-md-1-4 center">
-                {star.mass ? <p>{star.mass} M<sub>&#9737;</sub></p> : ''}
-              </div>
-              <div className="star-radius pure-u-1-3 pure-u-md-1-4 center">
-                {star.radius ? <p>{star.radius} R<sub>&#9737;</sub></p> : ''}
+              <div className="star-data2 pure-u-1 pure-u-md-1-4 center">
+                <p className="pure-u-1-3 center">{star.appmagnitude ? `${star.appmagnitude} mag` : ''}</p>
+                <p className="pure-u-1-3 center">{star.mass ? `${star.mass} M<sub>&#9737;</sub>` : ''}</p>
+                <p className="pure-u-1-3 center">{star.radius ? `${star.radius} R<sub>&#9737;</sub>` : ''}</p>
               </div>
             </div>
   );
