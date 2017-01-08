@@ -35985,6 +35985,34 @@ var StarComponent = function StarComponent(_ref4) {
     )
   );
 };
+
+// <tr className="starsRow">
+//   <td className="starName">
+//     <a href={star.link} onMouseOver={noop} onMouseOut={noop}>{star.name.name}</a>
+//     <div className="starInfoBox">
+//       <p>
+//         <strong>alternative Namen:</strong> {star.name.alternative}</p>
+//       <p>
+//         <strong>Bezeichnung nach:</strong><br />
+//         <a href="https://de.wikipedia.org/wiki/Bright-Star-Katalog" target="_blank" title="Bright-Star-Katalog">Bright-Star-Katalog</a>: HR {star.hr}<br />
+//         <a href="https://de.wikipedia.org/wiki/Henry-Draper-Katalog" target="_blank" title="Henry-Draper-Katalog">Henry-Draper-Katalog</a>: HD {star.hd}<br />
+//         <a href="https://de.wikipedia.org/wiki/Hipparcos-Katalog" target="_blank" title="Hipparcos-Katalog">Hipparcos-Katalog</a>: HIP {star.hip}<br />
+//         <a href="https://de.wikipedia.org/wiki/SAO-Katalog" target="_blank" title="SAO-Katalog">SAO-Katalog</a>: SAO {star.sao}<br />
+//         <a href="https://de.wikipedia.org/wiki/Flamsteed-Bezeichnung" target="_blank" title="Flamsteed-Bezeichnung">SAO-Katalog</a>: Flamsteed {star.flamsteed}
+//       </p>
+//     </div>
+//   </td>
+//   <td className="starBay">{star.name.bayer || '-'}</td>
+//   <td className="starShort">{star.name.short || '-'}</td>
+//   <td className="starConst"><a href={star.constLink}>{star.constellation || '-'}</a></td>
+//   <td className="starRekt">{star.rekt || '-'}</td>
+//   <td className="starDekli">{star.dekli || '-'}</td>
+//   <td className="starAppMag">{star.appMag || '-'}</td>
+//   <td className="starSpectrClass">{star.spectrClass || '-'}</td>
+//   <td className="starDist">{star.dist || '-'}</td>
+//   <td className="starMass">{star.mass || '-'}</td>
+//   <td className="starRadius">{star.radius || '-'}</td>
+// </tr>
 module.exports = exports['default'];
 
 },{"./chunks/letter-links":423,"./notes":432,"react":443}],440:[function(require,module,exports){

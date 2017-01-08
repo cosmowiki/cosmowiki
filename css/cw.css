@@ -153,8 +153,7 @@ main {border-bottom: 1em solid #eee;}
 #letterLinks a:hover {font-weight: bold;}
 #letterLinks a:after {
 	margin-left: .2em; content:attr(title); height: .2em;
-  font-weight:bold; color:transparent;
-  overflow:hidden; visibility:hidden;
+  font-weight:bold; color:transparent; overflow:hidden; visibility:hidden;
 }
 
 .first-letter, .scroll-up-arrow {display: inline-block;}
