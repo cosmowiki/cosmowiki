@@ -52,13 +52,13 @@ a:focus, a:hover, a:active {color: #333;}
 #wrapper {
 	margin: 0 auto;
 	background: #113;
-  /*-webkit-background-size: auto auto;*/
+  -webkit-background-size: auto 100%;
 	-moz-background-size: cover;
   -o-background-size: cover;
 	background-size: cover;
 }
 #wrapper {
-	background: url(/img/bgWrapper8_sm.jpg) center no-repeat fixed #113;
+	background: url(/img/bgWrapper8_sm.jpg) center / cover no-repeat fixed #113;
 }
 
 header, main, footer {margin: 0 auto; max-width: 1025px;}
@@ -259,17 +259,17 @@ footer ul li a:hover {background: #eee;}
 }
 @media only screen and (min-width: 1200px) {
 	#wrapper {
-		background: url(/img/bgWrapper8_md.jpg) center no-repeat fixed #113;
+		background: url(/img/bgWrapper8_md.jpg) center / cover no-repeat fixed #113;
   }
 }
 @media only screen and (min-width: 2500px) {
 	#wrapper {
-		background: url(/img/bgWrapper8_lg.jpg) center no-repeat fixed #113;
+		background: url(/img/bgWrapper8_lg.jpg) center / cover no-repeat fixed #113;
   }
 }
 @media only screen and (min-width: 3800px) {
 	#wrapper {
-		background: url(/img/bgWrapper8_xl.jpg) center no-repeat fixed #113;
+		background: url(/img/bgWrapper8_xl.jpg) center / cover no-repeat fixed #113;
   }
 }
 
