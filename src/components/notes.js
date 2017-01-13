@@ -33,6 +33,13 @@ const constellationNotes = (
 const starNotes = (
   <ul>
     <li>
+      Legende:
+    </li>
+    <li>
+      Die Daten der einzelnen Sterne stammen überwiegend aus den englischen Wikipedia-Artikeln, da diese meist umfangreicher und mit genaueren Quellenangaben belegt sind.
+    </li>
+    <li>
+      Griechische Buchstaben:<br />
       α = Alpha, β = Beta, γ = Gamma, δ = Delta, ε = Epsilon, ζ = Zeta, η = Eta, θ = Theta, ι = Iota, κ = Kappa, λ = Lambda,
       μ = My, ν = Ny, ξ = Xi, ο = Omikron, π = Pi, ρ = Rho, σ = Sigma, τ = Tau, υ = Ypsilon, φ = Phi, χ = Chi, ψ = Psi, ω = Omega
     </li>
