@@ -34835,27 +34835,38 @@ var constellationNotes = _react2["default"].createElement(
 );
 
 var starNotes = _react2["default"].createElement(
-  "ul",
+  "div",
   null,
   _react2["default"].createElement(
-    "li",
-    null,
-    "Legende:"
+    "p",
+    { className: "center" },
+    "(Die Daten der einzelnen Sterne stammen aus den englischen Wikipedia-Artikeln, da diese meist umfangreicher und mit genaueren Quellenangaben belegt sind.)"
   ),
   _react2["default"].createElement(
-    "li",
+    "p",
     null,
-    "Die Daten der einzelnen Sterne stammen überwiegend aus den englischen Wikipedia-Artikeln, da diese meist umfangreicher und mit genaueren Quellenangaben belegt sind."
+    _react2["default"].createElement(
+      "b",
+      null,
+      "Griechische Buchstaben:"
+    )
   ),
   _react2["default"].createElement(
-    "li",
+    "p",
     null,
-    "Griechische Buchstaben:",
-    _react2["default"].createElement("br", null),
     "α = Alpha, β = Beta, γ = Gamma, δ = Delta, ε = Epsilon, ζ = Zeta, η = Eta, θ = Theta, ι = Iota, κ = Kappa, λ = Lambda, μ = My, ν = Ny, ξ = Xi, ο = Omikron, π = Pi, ρ = Rho, σ = Sigma, τ = Tau, υ = Ypsilon, φ = Phi, χ = Chi, ψ = Psi, ω = Omega"
   ),
   _react2["default"].createElement(
-    "li",
+    "p",
+    null,
+    _react2["default"].createElement(
+      "b",
+      null,
+      "Einheiten:"
+    )
+  ),
+  _react2["default"].createElement(
+    "p",
     null,
     "mag = ",
     _react2["default"].createElement(
@@ -34866,7 +34877,7 @@ var starNotes = _react2["default"].createElement(
     " in mag"
   ),
   _react2["default"].createElement(
-    "li",
+    "p",
     null,
     "Lj = ",
     _react2["default"].createElement(
@@ -34876,7 +34887,7 @@ var starNotes = _react2["default"].createElement(
     )
   ),
   _react2["default"].createElement(
-    "li",
+    "p",
     null,
     "M",
     _react2["default"].createElement(
@@ -34892,7 +34903,7 @@ var starNotes = _react2["default"].createElement(
     )
   ),
   _react2["default"].createElement(
-    "li",
+    "p",
     null,
     "R",
     _react2["default"].createElement(
