@@ -31,31 +31,27 @@ const constellationNotes = (
 );
 
 const starNotes = (
-  <ul>
-    <li>
-      Legende:
-    </li>
-    <li>
-      Die Daten der einzelnen Sterne stammen überwiegend aus den englischen Wikipedia-Artikeln, da diese meist umfangreicher und mit genaueren Quellenangaben belegt sind.
-    </li>
-    <li>
-      Griechische Buchstaben:<br />
-      α = Alpha, β = Beta, γ = Gamma, δ = Delta, ε = Epsilon, ζ = Zeta, η = Eta, θ = Theta, ι = Iota, κ = Kappa, λ = Lambda,
-      μ = My, ν = Ny, ξ = Xi, ο = Omikron, π = Pi, ρ = Rho, σ = Sigma, τ = Tau, υ = Ypsilon, φ = Phi, χ = Chi, ψ = Psi, ω = Omega
-    </li>
-    <li>
-      mag = <a href="https://de.wikipedia.org/wiki/Scheinbare_Helligkeit" target="_blank" title="scheinbare Helligkeit">scheinbare Helligkeit</a> in mag
-    </li>
-    <li>
-      Lj = <a href="https://de.wikipedia.org/wiki/Lichtjahr" target="_blank" title="Lichtjahr">Entfernung Erde-Stern in Lichtjahren</a>
-    </li>
-    <li>
-      M<sub>&#9737;</sub> = <a href="https://de.wikipedia.org/wiki/Sonnenmasse" target="_blank" title="Sonnenmassen">Sonnenmassen</a>
-    </li>
-    <li>
-      R<sub>&#9737;</sub> = <a href="https://de.wikipedia.org/wiki/Sonnenradius" target="_blank" title="Sonnenradien">Sonnenradien</a>
-    </li>
-  </ul>
+  <p>
+    Legende:<br />
+    Die Daten der einzelnen Sterne stammen überwiegend aus den englischen Wikipedia-Artikeln, da diese meist umfangreicher und mit genaueren Quellenangaben belegt sind.
+  </p>
+  <p>
+    Griechische Buchstaben:<br />
+    α = Alpha, β = Beta, γ = Gamma, δ = Delta, ε = Epsilon, ζ = Zeta, η = Eta, θ = Theta, ι = Iota, κ = Kappa, λ = Lambda,
+    μ = My, ν = Ny, ξ = Xi, ο = Omikron, π = Pi, ρ = Rho, σ = Sigma, τ = Tau, υ = Ypsilon, φ = Phi, χ = Chi, ψ = Psi, ω = Omega
+  </p>
+  <p>
+    mag = <a href="https://de.wikipedia.org/wiki/Scheinbare_Helligkeit" target="_blank" title="scheinbare Helligkeit">scheinbare Helligkeit</a> in mag
+  </p>
+  <p>
+    Lj = <a href="https://de.wikipedia.org/wiki/Lichtjahr" target="_blank" title="Lichtjahr">Entfernung Erde-Stern in Lichtjahren</a>
+  </p>
+  <p>
+    M<sub>&#9737;</sub> = <a href="https://de.wikipedia.org/wiki/Sonnenmasse" target="_blank" title="Sonnenmassen">Sonnenmassen</a>
+  </p>
+  <p>
+    R<sub>&#9737;</sub> = <a href="https://de.wikipedia.org/wiki/Sonnenradius" target="_blank" title="Sonnenradien">Sonnenradien</a>
+  </p>
 );
 
 const Notes = () => {
