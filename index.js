@@ -34398,80 +34398,109 @@ var MissionComponent = function MissionComponent(_ref2) {
     { className: 'mission-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'mission-name pure-u-1 pure-u-sm-9-24' },
+      { className: 'mission-name pure-u-1 pure-u-sm-9-24 center' },
       _react2['default'].createElement(
-        'a',
-        { href: mission.link },
-        mission.name
+        'div',
+        { className: 'pure-u-1' },
+        _react2['default'].createElement(
+          'p',
+          null,
+          _react2['default'].createElement(
+            'a',
+            { href: mission.link },
+            mission.name
+          )
+        )
       )
     ),
     _react2['default'].createElement(
       'div',
       { className: 'mission-dates pure-u-1-2 pure-u-sm-6-24' },
       _react2['default'].createElement(
-        'p',
+        'div',
         { className: 'mission-launch pure-u-lg-1-2' },
         _react2['default'].createElement(
-          'b',
+          'p',
           null,
-          'Start:'
-        ),
-        ' ',
-        mission.launchDate
+          _react2['default'].createElement(
+            'b',
+            null,
+            'Start:'
+          ),
+          ' ',
+          mission.launchDate
+        )
       ),
-      mission.endDate ? _react2['default'].createElement(
-        'p',
-        { className: 'mission-end' },
-        _react2['default'].createElement(
-          'b',
+      _react2['default'].createElement(
+        'div',
+        { className: 'mission-end pure-u-lg-1-2' },
+        mission.endDate ? _react2['default'].createElement(
+          'p',
           null,
-          'Ende:'
-        ),
-        ' ',
-        mission.endDate
-      ) : _react2['default'].createElement(
-        'p',
-        { className: 'mission-end' },
-        'Status: ',
-        mission.status
+          _react2['default'].createElement(
+            'b',
+            null,
+            'Ende:'
+          ),
+          ' ',
+          mission.endDate
+        ) : _react2['default'].createElement(
+          'p',
+          null,
+          _react2['default'].createElement(
+            'b',
+            null,
+            'Status:'
+          ),
+          ' ',
+          mission.status
+        )
       )
     ),
     _react2['default'].createElement(
       'div',
       { className: 'mission-info pure-u-1-2 pure-u-sm-9-24 left' },
-      mission.operator ? _react2['default'].createElement(
-        'p',
+      _react2['default'].createElement(
+        'div',
         { className: 'mission-operator' },
-        _react2['default'].createElement(
-          'b',
+        mission.operator ? _react2['default'].createElement(
+          'p',
           null,
-          'Betreiber:'
-        ),
-        ' ',
-        mission.operator,
-        ' - $',
-        mission.country
-      ) : _react2['default'].createElement(
-        'p',
-        { className: 'mission-operator' },
-        _react2['default'].createElement(
-          'b',
+          _react2['default'].createElement(
+            'b',
+            null,
+            'Betreiber:'
+          ),
+          ' ',
+          mission.operator,
+          ' - $',
+          mission.country
+        ) : _react2['default'].createElement(
+          'p',
           null,
-          'Land:'
-        ),
-        ' ',
-        mission.country
+          _react2['default'].createElement(
+            'b',
+            null,
+            'Land:'
+          ),
+          ' ',
+          mission.country
+        )
       ),
       _react2['default'].createElement(
-        'p',
+        'div',
         { className: 'mission-destination' },
         _react2['default'].createElement(
-          'b',
+          'p',
           null,
-          'Ziel:'
-        ),
-        ' ',
-        mission.destination
+          _react2['default'].createElement(
+            'b',
+            null,
+            'Ziel:'
+          ),
+          ' ',
+          mission.destination
+        )
       )
     )
   );
@@ -35941,7 +35970,7 @@ var StarComponent = function StarComponent(_ref4) {
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'pure-u-1 pure-u-lg-1-2' },
+        { className: 'star-historical-name pure-u-1 pure-u-lg-1-2' },
         _react2['default'].createElement(
           'p',
           { title: 'historischer Name' },
@@ -35960,7 +35989,7 @@ var StarComponent = function StarComponent(_ref4) {
       { className: 'star-data1 pure-u-1 pure-u-md-1-3' },
       _react2['default'].createElement(
         'div',
-        { className: 'pure-u-1-2 center' },
+        { className: 'star-constellation pure-u-1-2 center' },
         star.constellation ? _react2['default'].createElement(
           'p',
           { title: 'Sternbild' },
@@ -35973,7 +36002,7 @@ var StarComponent = function StarComponent(_ref4) {
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'pure-u-1-2 center' },
+        { className: 'star-distance pure-u-1-2 center' },
         star.distance ? _react2['default'].createElement(
           'p',
           { title: 'Entfernung' },
@@ -35987,7 +36016,7 @@ var StarComponent = function StarComponent(_ref4) {
       { className: 'star-data2 pure-u-1 pure-u-md-1-3' },
       _react2['default'].createElement(
         'div',
-        { className: 'pure-u-1-3 center' },
+        { className: 'star-app-mag pure-u-1-3 center' },
         _react2['default'].createElement(
           'p',
           { title: 'scheinbare Helligkeit' },
@@ -35996,7 +36025,7 @@ var StarComponent = function StarComponent(_ref4) {
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'pure-u-1-3 center' },
+        { className: 'star-mass pure-u-1-3 center' },
         _react2['default'].createElement(
           'p',
           { title: 'Masse in Sonnenmassen' },
@@ -36005,7 +36034,7 @@ var StarComponent = function StarComponent(_ref4) {
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'pure-u-1-3 center' },
+        { className: 'star-radius pure-u-1-3 center' },
         _react2['default'].createElement(
           'p',
           { title: 'Radius in Sonnenradien' },
