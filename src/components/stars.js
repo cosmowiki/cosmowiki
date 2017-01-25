@@ -100,26 +100,26 @@ const StarComponent = ({star}) => {
                 <div className="pure-u-1 pure-u-lg-1-2">
                   <p><a href={star.link}>{star.name.name}</a></p>
                 </div>
-                <div className="pure-u-1 pure-u-lg-1-2">
+                <div className="star-historical-name pure-u-1 pure-u-lg-1-2">
                   <p title="historischer Name">{star.name.historical ? <a href={star.link}>({star.name.historical})</a> : ''}</p>
                 </div>
               </div>
               <div className="star-data1 pure-u-1 pure-u-md-1-3">
-                <div className="pure-u-1-2 center">
+                <div className="star-constellation pure-u-1-2 center">
                   {star.constellation ? <p title="Sternbild"><a href={star.constLink}>{star.constellation}</a></p> : ''}
                 </div>
-                <div className="pure-u-1-2 center">
+                <div className="star-distance pure-u-1-2 center">
                   {star.distance ? <p title="Entfernung">{star.distance} Lj</p> : ''}
                 </div>
               </div>
               <div className="star-data2 pure-u-1 pure-u-md-1-3">
-                <div className="pure-u-1-3 center">
+                <div className="star-app-mag pure-u-1-3 center">
                   <p title="scheinbare Helligkeit">{star.appmagnitude ? `${star.appmagnitude} mag` : ''}</p>
                 </div>
-                <div className="pure-u-1-3 center">
+                <div className="star-mass pure-u-1-3 center">
                   <p title="Masse in Sonnenmassen">{star.mass ? [star.mass, ' M', sunIcon] : ''}</p>
                 </div>
-                <div className="pure-u-1-3 center">
+                <div className="star-radius pure-u-1-3 center">
                   <p title="Radius in Sonnenradien">{star.radius ? [star.radius, ' R', sunIcon] : ''}</p>
                 </div>
               </div>

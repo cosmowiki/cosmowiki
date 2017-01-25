@@ -1,7 +1,8 @@
 .star-row {padding: .2em 0;}
 
 .star-name div {display: block; font-size: 1.25em; text-align: center;}
-.star-data1 div, .star-data2 div {display: inline-block; font-size: 1.125em;}
+.star-data1 div,
+.star-data2 div {display: inline-block; font-size: 1.125em;}
 
 /* only for visualisation ----------------------------------------------------*/
 /*.star-row div p:nth-child(odd) {background: lightblue;}*/
@@ -12,13 +13,14 @@
 	.star-name div {display: block;}
 	.star-name div:first-child p {margin-left: .2em;}
 
-	.star-data1 div {display: inline-block; line-height: 2.25em;}
+	.star-data1 div,
 	.star-data2 div {line-height: 2.25em;}
 }
 @media only all and (min-width: 64em) {
 	.star-name div,
 	.star-data1 div,
 	.star-data2 div {font-size: 1.125em; line-height: 1.75em;}
+
 	.star-name div {display: inline-block; text-align: left;}
 	.star-data1 div {text-align: left;}
 }

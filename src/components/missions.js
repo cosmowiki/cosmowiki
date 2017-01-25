@@ -77,16 +77,26 @@ export default MissionsComponent;
 const MissionComponent = ({mission}) => {
   return (
     <div className="mission-row data-row pure-u-1">
-      <div className="mission-name pure-u-1 pure-u-sm-9-24">
-        <a href={mission.link}>{mission.name}</a>
+      <div className="mission-name pure-u-1 pure-u-sm-9-24 center">
+        <div className="pure-u-1">
+          <p><a href={mission.link}>{mission.name}</a></p>
+        </div>
       </div>
       <div className="mission-dates pure-u-1-2 pure-u-sm-6-24">
-        <p className="mission-launch pure-u-lg-1-2"><b>Start:</b> {mission.launchDate}</p>
-        {mission.endDate ? <p className="mission-end"><b>Ende:</b> {mission.endDate}</p> : <p className="mission-end">Status: {mission.status}</p>}
+        <div className="mission-launch pure-u-lg-1-2">
+          <p><b>Start:</b> {mission.launchDate}</p>
+        </div>
+        <div className="mission-end pure-u-lg-1-2">
+          {mission.endDate ? <p><b>Ende:</b> {mission.endDate}</p> : <p><b>Status:</b> {mission.status}</p>}
+        </div>
       </div>
       <div className="mission-info pure-u-1-2 pure-u-sm-9-24 left">
-        {mission.operator ? <p className="mission-operator"><b>Betreiber:</b> {mission.operator} - ${mission.country}</p> : <p className="mission-operator"><b>Land:</b> {mission.country}</p>}
-        <p className="mission-destination"><b>Ziel:</b> {mission.destination}</p>
+        <div className="mission-operator">
+          {mission.operator ? <p><b>Betreiber:</b> {mission.operator} - ${mission.country}</p> : <p><b>Land:</b> {mission.country}</p>}
+        </div>
+        <div className="mission-destination">
+          <p><b>Ziel:</b> {mission.destination}</p>
+        </div>
       </div>
     </div>
   );
