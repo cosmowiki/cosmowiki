@@ -13,7 +13,7 @@ const StarsComponent = ({groupedStars, constellations}) => {
         <h3>strahlende Objekte im All</h3>
       </div>
       <div id="todo" className="pure-u-1">
-        @wolfram pls make the filter work<br />
+        @wolfram pls make the sorter and filter work<br />
         @all find a way for sorter and filter on small screens (toggle-buttons?)
       </div>
       <div id="functionArea" className="stars pure-u-1">
@@ -23,8 +23,12 @@ const StarsComponent = ({groupedStars, constellations}) => {
             <form id="sortStars" className="sort-form">
               <label>Sortieren:</label>
               <select name="sortStars">
-                <option value="sortStarsNameUp" selected>Name - aufsteigend</option>
-                <option value="sortStarsNameDown">Name - absteigend</option>
+                <option value="sortStarsHistoricalNameUp selected" selected>historischer Name - aufsteigend</option>
+                <option value="sortStarsHistoricalNameDown">historischer Name - absteigend</option>
+                <option value="sortStarsBayerNameUp">Bayer-Name - aufsteigend</option>
+                <option value="sortStarsBayerNameDown">Bayer-Name - absteigend</option>
+                <option value="sortStarsConstellationNameUp">Sternbild - aufsteigend</option>
+                <option value="sortStarsConstellationNameDown">Sternbild - absteigend</option>
                 <option value="sortStarsMagUp">Helligkeit - aufsteigend</option>
                 <option value="sortStarsMagDown">Helligkeit - absteigend</option>
                 <option value="sortStarsDistanceUp">Entfernung - aufsteigend</option>
@@ -93,22 +97,37 @@ const StarComponent = ({star}) => {
   return (
             <div className="star-row data-row pure-u-1">
               <div className="star-name pure-u-1 pure-u-md-1-3 center">
-                <p className="pure-u-1"><a href={star.link}>{star.name.name}</a></p>
-                {star.name.bayer ? <p className="pure-u-1">({star.name.bayer})</p> : ''}
+                <div className="pure-u-1 pure-u-lg-1-2">
+                  <p><a href={star.link}>{star.name.name}</a></p>
+                </div>
+                <div className="pure-u-1 pure-u-lg-1-2">
+                  <p title="historischer Name">{star.name.historical ? <a href={star.link}>({star.name.historical})</a> : ''}</p>
+                </div>
               </div>
               <div className="star-data1 pure-u-1 pure-u-md-1-3">
-                {star.constellation ? <p className="pure-u-1-2 pure-u-md-1 center"><b>Sternbild:</b> <a href={star.constLink}>{star.constellation}</a></p> : ''}
-                {star.distance ? <p className="pure-u-1-2 pure-u-md-1 center"><b>Entfernung:</b> {star.distance} Lj</p> : ''}
+                <div className="pure-u-1-2 center">
+                  {star.constellation ? <p title="Sternbild"><a href={star.constLink}>{star.constellation}</a></p> : ''}
+                </div>
+                <div className="pure-u-1-2 center">
+                  {star.distance ? <p title="Entfernung">{star.distance} Lj</p> : ''}
+                </div>
               </div>
-              <div className="star-data2 pure-u-1 pure-u-md-1-3 center">
-                <p className="pure-u-1-3 center">{star.appmagnitude ? `${star.appmagnitude} mag` : ''}</p>
-                <p className="pure-u-1-3 center">{star.mass ? [star.mass, ' M', sunIcon] : ''}</p>
-                <p className="pure-u-1-3 center">{star.radius ? [star.radius, ' R', sunIcon] : ''}</p>
+              <div className="star-data2 pure-u-1 pure-u-md-1-3">
+                <div className="pure-u-1-3 center">
+                  <p title="scheinbare Helligkeit">{star.appmagnitude ? `${star.appmagnitude} mag` : ''}</p>
+                </div>
+                <div className="pure-u-1-3 center">
+                  <p title="Masse in Sonnenmassen">{star.mass ? [star.mass, ' M', sunIcon] : ''}</p>
+                </div>
+                <div className="pure-u-1-3 center">
+                  <p title="Radius in Sonnenradien">{star.radius ? [star.radius, ' R', sunIcon] : ''}</p>
+                </div>
               </div>
             </div>
   );
 };
 
+// old lines of code
 // <tr className="starsRow">
 //   <td className="starName">
 //     <a href={star.link} onMouseOver={noop} onMouseOut={noop}>{star.name.name}</a>

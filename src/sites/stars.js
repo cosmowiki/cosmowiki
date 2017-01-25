@@ -74,26 +74,26 @@ class Star {
 }
 
 /*
-  {
-    "starname": "Alphard",
-    "starlink": "https://de.wikipedia.org/wiki/Alphard",
-    "historicalname": "Alphard",
-    "alternativename": "Soheil al Fard",
-    "bayername": "α Hydrae",
-    "shortname": "α Hya",
-    "flamsteed": "30 Hydrae",
-    "hr": "HR 3748",
-    "hd": "HD 81797",
-    "hip": "HIP 46390",
-    "sao": "SAO 136871",
-    "constellation": "Wasserschlange",
-    "constlink": "https://de.wikipedia.org/wiki/Wasserschlange_(Sternbild)",
-    "appmag": 1.99,
-    "spectrclass": "K3 III",
-    "dist": 180.3,
-    "rekt": "09h 27m 35s",
-    "dekli": "-8° 39′ 31″",
-    "mass": 3.03,
-    "radius": 50.5
-  },
+{
+    "itemname": "θ Eridani",
+    "itemname2": "Acamar",
+    "itemname4": "θ Eridani",
+    "itemname5": "θ Eri",
+    "itemname8": "HR 897",
+    "itemname9": "HD 18622",
+    "itemname10": "HIP 13847",
+    "itemname11": "SAO 216113",
+    "itemname12": "TYC 7563-1016-1",
+    "itemname14": "CD -40° 771",
+    "itemurl": "https://de.wikipedia.org/wiki/Acamar",
+    "itemparent": "Eridanus",
+    "itemparenturl": "https://de.wikipedia.org/wiki/Eridanus_(Sternbild)",
+    "itemparallax": "20,23 ± 0.55",
+    "itemdistance": "161 ± 4",
+    "itemrightascension": "02h 58m 15,67525s",
+    "itemdeclination": "-40° 18′ 16,8524″",
+    "itemappmag": "3,2",
+    "itemspectraltype": "A3IV-V",
+    "tags": "Doppelstern"
+},,
  */
