@@ -1,60 +1,24 @@
 .star-row {padding: .2em 0;}
 
-.star-name,
-.star-bayername,
-.star-data1,
-.star-data2 {}
+.star-name div {display: block; font-size: 1.25em; text-align: center;}
+.star-data1 div, .star-data2 div {display: inline-block; font-size: 1.125em;}
 
-.star-data1 p {display: inline-block;}
-.star-data2 p {display: inline-block;}
-
-/* only for visualisation */
+/* only for visualisation ----------------------------------------------------*/
 /*.star-row div p:nth-child(odd) {background: lightblue;}*/
-
-.star-name {}
-.star-name p {display: block; font-size: 1.5em;}
-.star-name p:last-child {font-size: inherit;}
-.star-bayername {}
-.star-constellation {}
-.star-distance {text-align: right;}
-.star-data2 {}
+/* ---------------------------------------------------------------------------*/
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
-@media only all and (min-width: 35.5em) {
-
-}
 @media only all and (min-width: 48em) {
-	.star-distance {text-align: center;}
-	.star-data1 p {display: block; line-height: 1.5em;}
-	.star-data2 p {line-height: 3em;}
+	.star-name div {display: block;}
+	.star-name div:first-child p {margin-left: .2em;}
+
+	.star-data1 div {display: inline-block; line-height: 2.25em;}
+	.star-data2 div {line-height: 2.25em;}
 }
 @media only all and (min-width: 64em) {
-
+	.star-name div,
+	.star-data1 div,
+	.star-data2 div {font-size: 1.125em; line-height: 1.75em;}
+	.star-name div {display: inline-block; text-align: left;}
+	.star-data1 div {text-align: left;}
 }
-
-/*#featured.stars {background: url("/img/featured_stars.jpg") center top / contain no-repeat;}*/
-/*.starsHeader {
-	background-image: linear-gradient(to bottom, #fff 0%, #d2d2ff 100%);
-	border-bottom: 1px solid #d0d0d0;
-}
-.starsTable tr {height: 2em; clear: left; display: block;}
-.starsTable tr:nth-child(even) {background: rgba(192,192,192,.1);}
-.starsTable th, .starsTable td {
-	float: left; line-height: 2em; overflow: hidden; white-space: nowrap;
-}
-.stars-row:hover {
-	background: #fff;
-	box-shadow: 0px 6px 6px -4px #999, 0px -6px 6px -4px #999;
-	}
-.starName {width: 155px; padding-left: 3px;}
-.starBay {width: 197px;}
-.starShort {width: 50px; padding-right: 5px;}
-.starConst {width: 116px;}
-.starRekt {width: 102px;}
-.starDekli {width: 96px;}
-.starAppMag {width: 40px;}
-.starSpectrClass {width: 78px;}
-.starDist {width: 40px;}
-.starMass {width: 38px;}
-.starRadius {width: 40px;}
-.starInfoBox {display: none;}*/

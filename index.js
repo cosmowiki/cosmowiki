@@ -35705,7 +35705,7 @@ var StarsComponent = function StarsComponent(_ref) {
     _react2['default'].createElement(
       'div',
       { id: 'todo', className: 'pure-u-1' },
-      '@wolfram pls make the filter work',
+      '@wolfram pls make the sorter and filter work',
       _react2['default'].createElement('br', null),
       '@all find a way for sorter and filter on small screens (toggle-buttons?)'
     ),
@@ -35736,13 +35736,33 @@ var StarsComponent = function StarsComponent(_ref) {
               { name: 'sortStars' },
               _react2['default'].createElement(
                 'option',
-                { value: 'sortStarsNameUp', selected: true },
-                'Name - aufsteigend'
+                { value: 'sortStarsHistoricalNameUp selected', selected: true },
+                'historischer Name - aufsteigend'
               ),
               _react2['default'].createElement(
                 'option',
-                { value: 'sortStarsNameDown' },
-                'Name - absteigend'
+                { value: 'sortStarsHistoricalNameDown' },
+                'historischer Name - absteigend'
+              ),
+              _react2['default'].createElement(
+                'option',
+                { value: 'sortStarsBayerNameUp' },
+                'Bayer-Name - aufsteigend'
+              ),
+              _react2['default'].createElement(
+                'option',
+                { value: 'sortStarsBayerNameDown' },
+                'Bayer-Name - absteigend'
+              ),
+              _react2['default'].createElement(
+                'option',
+                { value: 'sortStarsConstellationNameUp' },
+                'Sternbild - aufsteigend'
+              ),
+              _react2['default'].createElement(
+                'option',
+                { value: 'sortStarsConstellationNameDown' },
+                'Sternbild - absteigend'
               ),
               _react2['default'].createElement(
                 'option',
@@ -35907,75 +35927,96 @@ var StarComponent = function StarComponent(_ref4) {
       'div',
       { className: 'star-name pure-u-1 pure-u-md-1-3 center' },
       _react2['default'].createElement(
-        'p',
-        { className: 'pure-u-1' },
+        'div',
+        { className: 'pure-u-1 pure-u-lg-1-2' },
         _react2['default'].createElement(
-          'a',
-          { href: star.link },
-          star.name.name
+          'p',
+          null,
+          _react2['default'].createElement(
+            'a',
+            { href: star.link },
+            star.name.name
+          )
         )
       ),
-      star.name.bayer ? _react2['default'].createElement(
-        'p',
-        { className: 'pure-u-1' },
-        '(',
-        star.name.bayer,
-        ')'
-      ) : ''
+      _react2['default'].createElement(
+        'div',
+        { className: 'pure-u-1 pure-u-lg-1-2' },
+        _react2['default'].createElement(
+          'p',
+          { title: 'historischer Name' },
+          star.name.historical ? _react2['default'].createElement(
+            'a',
+            { href: star.link },
+            '(',
+            star.name.historical,
+            ')'
+          ) : ''
+        )
+      )
     ),
     _react2['default'].createElement(
       'div',
       { className: 'star-data1 pure-u-1 pure-u-md-1-3' },
-      star.constellation ? _react2['default'].createElement(
-        'p',
-        { className: 'pure-u-1-2 pure-u-md-1 center' },
-        _react2['default'].createElement(
-          'b',
-          null,
-          'Sternbild:'
-        ),
-        ' ',
-        _react2['default'].createElement(
-          'a',
-          { href: star.constLink },
-          star.constellation
-        )
-      ) : '',
-      star.distance ? _react2['default'].createElement(
-        'p',
-        { className: 'pure-u-1-2 pure-u-md-1 center' },
-        _react2['default'].createElement(
-          'b',
-          null,
-          'Entfernung:'
-        ),
-        ' ',
-        star.distance,
-        ' Lj'
-      ) : ''
+      _react2['default'].createElement(
+        'div',
+        { className: 'pure-u-1-2 center' },
+        star.constellation ? _react2['default'].createElement(
+          'p',
+          { title: 'Sternbild' },
+          _react2['default'].createElement(
+            'a',
+            { href: star.constLink },
+            star.constellation
+          )
+        ) : ''
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'pure-u-1-2 center' },
+        star.distance ? _react2['default'].createElement(
+          'p',
+          { title: 'Entfernung' },
+          star.distance,
+          ' Lj'
+        ) : ''
+      )
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'star-data2 pure-u-1 pure-u-md-1-3 center' },
+      { className: 'star-data2 pure-u-1 pure-u-md-1-3' },
       _react2['default'].createElement(
-        'p',
+        'div',
         { className: 'pure-u-1-3 center' },
-        star.appmagnitude ? star.appmagnitude + ' mag' : ''
+        _react2['default'].createElement(
+          'p',
+          { title: 'scheinbare Helligkeit' },
+          star.appmagnitude ? star.appmagnitude + ' mag' : ''
+        )
       ),
       _react2['default'].createElement(
-        'p',
+        'div',
         { className: 'pure-u-1-3 center' },
-        star.mass ? [star.mass, ' M', sunIcon] : ''
+        _react2['default'].createElement(
+          'p',
+          { title: 'Masse in Sonnenmassen' },
+          star.mass ? [star.mass, ' M', sunIcon] : ''
+        )
       ),
       _react2['default'].createElement(
-        'p',
+        'div',
         { className: 'pure-u-1-3 center' },
-        star.radius ? [star.radius, ' R', sunIcon] : ''
+        _react2['default'].createElement(
+          'p',
+          { title: 'Radius in Sonnenradien' },
+          star.radius ? [star.radius, ' R', sunIcon] : ''
+        )
       )
     )
   );
 };
 
+// old lines of code
 // <tr className="starsRow">
 //   <td className="starName">
 //     <a href={star.link} onMouseOver={noop} onMouseOut={noop}>{star.name.name}</a>
@@ -37761,28 +37802,28 @@ var Star = (function () {
   }
 
   /*
-    {
-      "starname": "Alphard",
-      "starlink": "https://de.wikipedia.org/wiki/Alphard",
-      "historicalname": "Alphard",
-      "alternativename": "Soheil al Fard",
-      "bayername": "α Hydrae",
-      "shortname": "α Hya",
-      "flamsteed": "30 Hydrae",
-      "hr": "HR 3748",
-      "hd": "HD 81797",
-      "hip": "HIP 46390",
-      "sao": "SAO 136871",
-      "constellation": "Wasserschlange",
-      "constlink": "https://de.wikipedia.org/wiki/Wasserschlange_(Sternbild)",
-      "appmag": 1.99,
-      "spectrclass": "K3 III",
-      "dist": 180.3,
-      "rekt": "09h 27m 35s",
-      "dekli": "-8° 39′ 31″",
-      "mass": 3.03,
-      "radius": 50.5
-    },
+  {
+      "itemname": "θ Eridani",
+      "itemname2": "Acamar",
+      "itemname4": "θ Eridani",
+      "itemname5": "θ Eri",
+      "itemname8": "HR 897",
+      "itemname9": "HD 18622",
+      "itemname10": "HIP 13847",
+      "itemname11": "SAO 216113",
+      "itemname12": "TYC 7563-1016-1",
+      "itemname14": "CD -40° 771",
+      "itemurl": "https://de.wikipedia.org/wiki/Acamar",
+      "itemparent": "Eridanus",
+      "itemparenturl": "https://de.wikipedia.org/wiki/Eridanus_(Sternbild)",
+      "itemparallax": "20,23 ± 0.55",
+      "itemdistance": "161 ± 4",
+      "itemrightascension": "02h 58m 15,67525s",
+      "itemdeclination": "-40° 18′ 16,8524″",
+      "itemappmag": "3,2",
+      "itemspectraltype": "A3IV-V",
+      "tags": "Doppelstern"
+  },,
    */
 
   _createClass(Star, null, [{
