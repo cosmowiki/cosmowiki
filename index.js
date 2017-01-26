@@ -33440,22 +33440,15 @@ var ChronicleComponent = (function (_React$Component) {
         ),
         _react2['default'].createElement(
           'div',
-          { id: 'todo', className: 'pure-u-1' },
-          '@me make it responsive'
-        ),
-        _react2['default'].createElement(
-          'div',
           { id: 'dataArea' },
           _react2['default'].createElement(
             'div',
             { id: 'timeline' },
-            _react2['default'].createElement('div', { id: 'timelineHeader' }),
             items.map(function (item, idx) {
               return _react2['default'].createElement(ItemComponent, { item: item, key: idx, onClick: function () {
                   return showOverlay(item);
                 } });
-            }),
-            _react2['default'].createElement('div', { id: 'timelineFooter' })
+            })
           )
         ),
         overlay,
@@ -33475,24 +33468,61 @@ var ItemComponent = function ItemComponent(_ref) {
 
   return _react2['default'].createElement(
     'div',
-    { className: 'timelineRow' },
+    { className: 'event-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'timelineDate right' },
-      item.readableDate
+      { className: 'event-data1 pure-u-1 pure-u-lg-9-24' },
+      _react2['default'].createElement(
+        'div',
+        { className: 'event-date pure-u-1 pure-u-sm-11-24 pure-u-lg-1-3' },
+        _react2['default'].createElement(
+          'p',
+          null,
+          item.date
+        )
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'event-dash pure-u-sm-1-12 pure-u-lg-1-24' },
+        _react2['default'].createElement(
+          'p',
+          null,
+          '-'
+        )
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'event-place pure-u-1 pure-u-sm-11-24 pure-u-lg-15-24' },
+        _react2['default'].createElement(
+          'p',
+          null,
+          item.place ? item.place : ''
+        )
+      )
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'timelinePlace' },
-      item.location
-    ),
-    _react2['default'].createElement(
-      'div',
-      { className: 'timelineEvent', onClick: onClick },
-      item.event
+      { className: 'event-data2 pure-u-1 pure-u-lg-15-24' },
+      _react2['default'].createElement(
+        'div',
+        { className: 'event-name pure-u-7-8 pure-u-md-1', onClick: onClick },
+        _react2['default'].createElement(
+          'p',
+          null,
+          _react2['default'].createElement(
+            'a',
+            { href: item.link },
+            item.name
+          )
+        )
+      )
     )
   );
 };
+
+// <div id="timelineHeader"></div>
+// {items.map((item, idx) => <ItemComponent item={item} key={idx} onClick={() => showOverlay(item)} />)}
+// <div id="timelineFooter"></div>
 module.exports = exports['default'];
 
 },{"./notes":432,"./vcard":440,"react":443}],423:[function(require,module,exports){
@@ -37073,22 +37103,25 @@ var Event = (function () {
   _createClass(Event, null, [{
     key: 'fromRawData',
     value: function fromRawData(raw) {
-      // "itemevent": "Einführung des Kalenders der Maya (Datum des Kalenderanfangs)",
-      // "itemurl": "https://de.wikipedia.org/wiki/Geschichte_der_Astronomie",
-      // "itemdateyear": "3114 v. Chr.",
-      // "itemdatemonth": 8,
-      // "itemdateday": 11,
-      // "itemlocation": "Mittelamerika",
+      // "itemname": "Einschlag eines Asteroiden in Sibirien",
+      // "itemurl": "https://de.wikipedia.org/wiki/Tunguska-Ereignis",
+      // "itemdateyear": "1908",
+      // "itemdatemonth": 6,
+      // "itemdateday": 30,
+      // "itemcountry": "Russland",
+      // "itemlocation": "Tunguska",
+      // "itemlatitude": "60.885833",
+      // "itemlongitude": "101.894444",
       // "itemtype": 1
       var item = new Event();
       var year = raw.itemdateyear;
       var month = raw.itemdatemonth ? raw.itemdatemonth + '.' : '';
       var day = raw.itemdateday ? raw.itemdateday + '.' : '';
-      item.readableDate = '' + day + month + year;
-      item.location = raw.itemlocation;
-      item.event = raw.itemevent; // deprecated use `name` instead
-      item.name = item.event;
-      item.wikipediaUrl = raw.itemurl;
+      item.date = '' + day + month + year;
+      var town = raw.itemlocation ? raw.itemlocation + ', ' : '';
+      var country = raw.itemcountry ? '' + raw.itemcountry : '';
+      item.place = '' + town + country;
+      item.name = raw.itemname, item.latitude = raw.itemlatitude, item.longitude = raw.itemlongitude, item.link = raw.itemurl;
       //item.tags = raw.tags.split(',');
       return item;
     }
