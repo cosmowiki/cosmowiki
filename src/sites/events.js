@@ -16,22 +16,28 @@ export default class Events {
 class Event {
 
   static fromRawData(raw) {
-    // "itemevent": "Einführung des Kalenders der Maya (Datum des Kalenderanfangs)",
-    // "itemurl": "https://de.wikipedia.org/wiki/Geschichte_der_Astronomie",
-    // "itemdateyear": "3114 v. Chr.",
-    // "itemdatemonth": 8,
-    // "itemdateday": 11,
-    // "itemlocation": "Mittelamerika",
+    // "itemname": "Einschlag eines Asteroiden in Sibirien",
+    // "itemurl": "https://de.wikipedia.org/wiki/Tunguska-Ereignis",
+    // "itemdateyear": "1908",
+    // "itemdatemonth": 6,
+    // "itemdateday": 30,
+    // "itemcountry": "Russland",
+    // "itemlocation": "Tunguska",
+    // "itemlatitude": "60.885833",
+    // "itemlongitude": "101.894444",
     // "itemtype": 1
     const item = new Event();
     const year = raw.itemdateyear;
     const month = raw.itemdatemonth ? `${raw.itemdatemonth}.` : '';
     const day = raw.itemdateday ? `${raw.itemdateday}.` : '';
-    item.readableDate = `${day}${month}${year}`;
-    item.location = raw.itemlocation;
-    item.event = raw.itemevent; // deprecated use `name` instead
-    item.name = item.event;
-    item.wikipediaUrl = raw.itemurl;
+    item.date = `${day}${month}${year}`;
+    const town = raw.itemlocation ? `${raw.itemlocation}, ` : '';
+    const country = raw.itemcountry ? `${raw.itemcountry}` : '';
+    item.place = `${town}${country}`;
+    item.name = raw.itemname,
+    item.latitude = raw.itemlatitude,
+    item.longitude = raw.itemlongitude,
+    item.link = raw.itemurl;
     //item.tags = raw.tags.split(',');
     return item;
   }

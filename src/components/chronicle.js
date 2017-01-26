@@ -31,14 +31,9 @@ export default class ChronicleComponent extends React.Component {
           <h1>Chronik</h1>
           <h3>Meilensteine der Astronomie und Raumfahrt</h3>
         </div>
-        <div id="todo" className="pure-u-1">
-          @me make it responsive
-        </div>
         <div id="dataArea">
           <div id="timeline">
-            <div id="timelineHeader"></div>
             {items.map((item, idx) => <ItemComponent item={item} key={idx} onClick={() => showOverlay(item)} />)}
-            <div id="timelineFooter"></div>
           </div>
         </div>
         {overlay}
@@ -50,10 +45,27 @@ export default class ChronicleComponent extends React.Component {
 
 const ItemComponent = ({item, onClick}) => {
   return (
-    <div className="timelineRow">
-      <div className="timelineDate right">{item.readableDate}</div>
-      <div className="timelinePlace">{item.location}</div>
-      <div className="timelineEvent" onClick={onClick}>{item.event}</div>
+    <div className="event-row data-row pure-u-1">
+      <div className="event-data1 pure-u-1 pure-u-lg-9-24">
+        <div className="event-date pure-u-1 pure-u-sm-11-24 pure-u-lg-1-3">
+          <p>{item.date}</p>
+        </div>
+        <div className="event-dash pure-u-sm-1-12 pure-u-lg-1-24">
+          <p>-</p>
+        </div>
+        <div className="event-place pure-u-1 pure-u-sm-11-24 pure-u-lg-15-24">
+          <p>{item.place ? item.place : ''}</p>
+        </div>
+      </div>
+      <div className="event-data2 pure-u-1 pure-u-lg-15-24">
+        <div className="event-name pure-u-7-8 pure-u-md-1" onClick={onClick}>
+          <p><a href={item.link}>{item.name}</a></p>
+        </div>
+      </div>
     </div>
   )
 };
+
+// <div id="timelineHeader"></div>
+// {items.map((item, idx) => <ItemComponent item={item} key={idx} onClick={() => showOverlay(item)} />)}
+// <div id="timelineFooter"></div>
