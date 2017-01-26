@@ -1,6 +1,18 @@
-.stationImg {min-width: 150px;}
-.stationImg img {width: 150px; display: block; margin: .1em auto;}
+.stationImg {min-heiht: 120px;}
+.stationImg img {display: block; height: 120px; margin: .1em auto;}
 .stationImg small {margin-left: 50%; font-size: .8em;}
 
 .stationInfo {margin: .2em 0;}
-.stationInfo a {font-size: 1.5em; line-height: 1.5em;}
+.stationInfo a {font-size: 1.25em; line-height: 2em;}
+
+/* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
+@media only all and (min-width: 35.5em) {
+  .stationImg {}
+  .stationImg img {margin: .1em auto;}
+
+  .stationInfo {margin: .2em 0;}
+  .stationInfo a {font-size: 1.5em; line-height: 90px;}
+}
+@media only all and (min-width: 64em) {
+
+}
