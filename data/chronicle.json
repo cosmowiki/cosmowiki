@@ -63,14 +63,14 @@
         "itemtype": 1
     },
     {
-        "itemname": "Einführung des 365-Tage-Kalenders in Ägypten",
+        "itemname": "Einführung des 365-Tage-Kalenders",
         "itemurl": "https://de.wikipedia.org/wiki/%C3%84gyptischer_Kalender",
         "itemdateyear": "2783 v. Chr.",
         "itemcountry": "Ägypten",
         "itemtype": 1
     },
     {
-        "itemname": "Beobachtung einer Sonnenfinsternis in China",
+        "itemname": "belegte Beobachtung einer Sonnenfinsternis",
         "itemurl": "https://en.wikipedia.org/wiki/Solar_eclipse#Historical_eclipses",
         "itemdateyear": "2137 v. Chr.",
         "itemdatemonth": 10,
@@ -87,7 +87,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Amemhet baut eine Wasseruhr in Ägypten",
+        "itemname": "Amemhet baut eine Wasseruhr",
         "itemurl": "https://de.wikipedia.org/wiki/Wasseruhr",
         "itemdateyear": "1530 v. Chr.",
         "itemcountry": "Ägypten",
@@ -102,7 +102,7 @@
         "itemtype": 0
     },
     {
-        "itemname": "Beobachtung einer Sonnenfinsternis in Assyrien",
+        "itemname": "belegte Beobachtung einer Sonnenfinsternis",
         "itemurl": "https://de.wikipedia.org/wiki/Sonnenfinsternis_vom_106._Juni_763_v._Chr.",
         "itemdateyear": "763 v. Chr.",
         "itemdatemonth": 6,
@@ -118,7 +118,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Sternenkatalog des Shi Shen",
+        "itemname": "der chinesische Astronom Shi Shen erstellt einen Sternenkatalog",
         "itemurl": "http://en.wikipedia.org/wiki/Shi_Shen",
         "itemdateyear": "4. Jhdt. v. Chr.",
         "itemcountry": "China",
@@ -147,7 +147,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Bau eines Sonnenobservatoriums durch unbekannte Kultur?",
+        "itemname": "Bau eines Sonnenobservatoriums durch unbekannte Kultur",
         "itemurl": "https://de.wikipedia.org/wiki/Chanquillo",
         "itemdateyear": "300 v. Chr.",
         "itemcountry": "Peru",
@@ -155,7 +155,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Einführung eines Schalttages alle vier Jahre in Ägypten",
+        "itemname": "Einführung eines Schalttages alle vier Jahre",
         "itemurl": "https://de.wikipedia.org/wiki/%C3%84gyptischer_Kalender",
         "itemdateyear": "238 v. Chr.",
         "itemcountry": "Ägypten",
@@ -184,7 +184,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Stern von Betlehem",
+        "itemname": "Was war der Stern von Betlehem?",
         "itemurl": "https://de.wikipedia.org/wiki/Stern_von_Betlehem",
         "itemdateyear": "07 v. Chr.",
         "itemdatemonth": 9,
@@ -218,7 +218,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "as-Sufi erstellt einen Sternenkatalog",
+        "itemname": "der arabische Astronom as-Sufi erstellt das \"Buch der Fixsterne\"",
         "itemurl": "https://de.wikipedia.org/wiki/Abd_ar-Rahman_as-Sufi",
         "itemdateyear": "964",
         "itemcountry": "Iran",
@@ -265,7 +265,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "bemannter Raketenstart in China?",
+        "itemname": "bemannter Raketenstart auf einem Stuhl mit Feuerwerksraketen?",
         "itemurl": "https://de.wikipedia.org/wiki/Wan_Hu",
         "itemdateyear": "1500",
         "itemcountry": "China",
@@ -286,7 +286,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Daniele Barbaro setztgeschliffenen Linsen in der Camera obscura ein",
+        "itemname": "Daniele Barbaro setzt geschliffenen Linsen in der Camera obscura ein",
         "itemurl": "https://de.wikipedia.org/wiki/Camera_obscura",
         "itemdateyear": "1568",
         "itemcountry": "Italien",
@@ -517,7 +517,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "John William Draper fertigt die erste gesicherte Aufnahme des Mondes",
+        "itemname": "John William Draper fertigt die erste gesicherte Aufnahme des Mondes an",
         "itemurl": "https://de.wikipedia.org/wiki/John_William_Draper",
         "itemdateyear": "1840",
         "itemcountry": "USA",
@@ -535,7 +535,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Robert W. Bunsen u. Gustav R. Kirchhoff begründen die Spektrometrie",
+        "itemname": "Robert Wilhelm Bunsen u. Gustav Robert Kirchhoff begründen die Spektrometrie",
         "itemurl": "https://de.wikipedia.org/wiki/Spektroskopie",
         "itemdateyear": "1859",
         "itemcountry": "Deutschland",
@@ -543,7 +543,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "James C. Maxwell leitet den Strahlungsdruck aus seinen Gleichungen ab",
+        "itemname": "James Clerk Maxwell leitet den Strahlungsdruck aus seinen Gleichungen ab",
         "itemurl": "https://de.wikipedia.org/wiki/Strahlungsdruck",
         "itemdateyear": "1874",
         "itemcountry": "England",
@@ -551,7 +551,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Louis Paul Cilletet verflüssigt zum ersten mal Gase - Sauerstoff und Stickstoff",
+        "itemname": "Louis Paul Cilletet gelingt die Verflüssigung von Sauerstoff und Stickstoff",
         "itemurl": "https://de.wikipedia.org/wiki/Louis_Paul_Cailletet",
         "itemdateyear": "1877",
         "itemdatemonth": 12,
@@ -561,7 +561,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Henry Draper fertigt die erste Fotografie eines Deep-Sky-Objektes (Orionnebel)",
+        "itemname": "Henry Draper fertigt die erste Fotografie eines Deep-Sky-Objektes, des Orionnebels",
         "itemurl": "https://de.wikipedia.org/wiki/Henry_Draper",
         "itemdateyear": "1880",
         "itemdatemonth": 9,
@@ -591,7 +591,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Max Planck leitet das Strahlungsgesetz her",
+        "itemname": "Max Planck leitet das Strahlungsgesetz her, Geburt der Quantenphysik",
         "itemurl": "https://de.wikipedia.org/wiki/Plancksches_Strahlungsgesetz",
         "itemdateyear": "1900",
         "itemcountry": "Deutschland",
@@ -607,7 +607,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Albert Einsteins Spezielle Relativitätstheorie erscheint",
+        "itemname": "Albert Einsteins Spezielle Relativitätstheorie (SRT) wird veröffentlicht",
         "itemurl": "https://de.wikipedia.org/wiki/Spezielle_Relativit%C3%A4tstheorie",
         "itemdateyear": "1905",
         "itemdatemonth": 9,
@@ -625,7 +625,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Einschlag eines Asteroiden in Sibirien",
+        "itemname": "Einschlag eines Asteroiden mit einer oder mehreren schwere Explosionen",
         "itemurl": "https://de.wikipedia.org/wiki/Tunguska-Ereignis",
         "itemdateyear": "1908",
         "itemdatemonth": 6,
@@ -645,7 +645,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "nach Arbeiten von Ejnar Hertzsprung entwickelt Henry N. Russel das HRD",
+        "itemname": "Henry N. Russel entwickelt nach Arbeiten von Ejnar Hertzsprung das Hertzsprung-Russel-Diagramm",
         "itemurl": "https://de.wikipedia.org/wiki/Hertzsprung-Russell-Diagramm",
         "itemdateyear": "1913",
         "itemcountry": "USA",
@@ -653,7 +653,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Albert Einstein veröffentlicht die Allgemeine Relativitätstheorie",
+        "itemname": "Albert Einstein veröffentlicht die Allgemeine Relativitätstheorie (ART)",
         "itemurl": "https://de.wikipedia.org/wiki/Allgemeine_Relativit%C3%A4tstheorie",
         "itemdateyear": "1915",
         "itemdatemonth": 11,
@@ -663,7 +663,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Anny J. Cannon veröffentlicht den Henry-Draper-Katalog mit heute über 35000 Sternen",
+        "itemname": "Anny J. Cannon veröffentlicht den Henry-Draper-Katalog mit heute über 35.000 Sternen",
         "itemurl": "https://de.wikipedia.org/wiki/Henry-Draper-Katalog",
         "itemdateyear": "1918",
         "itemcountry": "USA",
@@ -671,7 +671,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Edwin Hubble, Andromedanebel liegt weit außerhalb der Galaxis",
+        "itemname": "Edwin Hubble identifiziert den Andromedanebel als extragalaktisches Objekt",
         "itemurl": "https://de.wikipedia.org/wiki/Andromedagalaxie",
         "itemdateyear": "1923",
         "itemcountry": "USA",
@@ -697,7 +697,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Hubble beschreibt Ausdehnung des Universums mit einer Konstante",
+        "itemname": "Hubble beschreibt die Ausdehnungsrate des Universums mit einer Konstante",
         "itemurl": "https://de.wikipedia.org/wiki/Hubble-Konstante",
         "itemdateyear": "1929",
         "itemcountry": "USA",
@@ -731,7 +731,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Carl Friedrich v. Weizsäcker u. Hans Bethe entdecken stellare Fusionsreaktion",
+        "itemname": "Carl Friedrich v. Weizsäcker und Hans Bethe entdecken die stellare Fusionsreaktion",
         "itemurl": "https://de.wikipedia.org/wiki/Bethe-Weizs%C3%A4cker-Zyklus",
         "itemdateyear": "1937",
         "itemcountry": "Deutschland, USA",
@@ -748,7 +748,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "erster erfolgreicher Start einer A4-Rakete (V2), 80 km Höhe",
+        "itemname": "erster erfolgreicher Start einer A4-Rakete (V2) mit 80 km Gipfelhöhe",
         "itemurl": "https://de.wikipedia.org/wiki/A4_(Rakete)",
         "itemdateyear": "1942",
         "itemdatemonth": 10,
@@ -758,7 +758,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Edgeworth und Kuiper (1951) stellen die These über einen Staub-Bereich jenseits der Neptunbahn auf",
+        "itemname": "Edgeworth stellt eine These über einen Staub-Bereich jenseits der Neptunbahn auf (Kuiper 1951)",
         "itemurl": "https://de.wikipedia.org/wiki/Kuiper-G%C3%BCrtel",
         "itemdateyear": "1943",
         "itemcountry": "Irland, USA",
@@ -766,7 +766,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "erster bemannter Raketenstart durch Lothar Sieber in einer Ba 349",
+        "itemname": "erster bemannter Raketenstart durch Lothar Sieber in einer Bachem Ba 349",
         "itemurl": "https://de.wikipedia.org/wiki/Bachem_Ba_349",
         "itemdateyear": "1945",
         "itemdatemonth": 3,
@@ -786,7 +786,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Alpher, Herman u. Gamov postulieren die kosmische Hintergrundstrahlung",
+        "itemname": "Ralph Alpher, Robert Herman und George Gamov postulieren die kosmische Hintergrundstrahlung",
         "itemurl": "https://de.wikipedia.org/wiki/Hintergrundstrahlung",
         "itemdateyear": "1946",
         "itemcountry": "USA",
@@ -794,7 +794,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Charles \"Chuck\" Yeager durchbricht als erster Mensch mit 1080 km/h die Schallmauer in einer Bell X-1",
+        "itemname": "Charles \"Chuck\" Yeager durchbricht als Erster mit 1080 km/h die Schallmauer in einer Bell X-1",
         "itemurl": "https://de.wikipedia.org/wiki/Bell_X-1",
         "itemdateyear": "1947",
         "itemdatemonth": 10,
@@ -804,7 +804,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "mit einer erbeuteten deutsche A4 gelingt der erste Start einer Rakete in Kapustin Jar",
+        "itemname": "mit einer erbeuteten deutschen A4 gelingt der erste Start einer Rakete in der UdSSR",
         "itemurl": "https://de.wikipedia.org/wiki/Liste_der_Versuchsstarts_der_A4-Rakete",
         "itemdateyear": "1947",
         "itemdatemonth": 10,
@@ -824,7 +824,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Ralph Alpher u. George Gamov begründen die (α-β-γ-)Theorie zur Elementenentstehung",
+        "itemname": "Ralph Alpher und George Gamov begründen die (α-β-γ-)Theorie zur Elementenentstehung",
         "itemurl": "https://de.wikipedia.org/wiki/Alpher-Bethe-Gamow-Theorie",
         "itemdateyear": "1948",
         "itemcountry": "USA",
@@ -832,7 +832,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "erster Start einer Rakete auf Cape Canaveral (Bumper 8, LC-3, Explosion der 1. Stufe)",
+        "itemname": "der erste Start einer US-Rakete (Bumper 8) endet mit der Explosion der 1. Stufe",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_3",
         "itemdateyear": "1950",
         "itemdatemonth": 7,
@@ -860,7 +860,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Iven Kincheloe fliegt in einer Bell X-2 über 100.000 ft",
+        "itemname": "Iven Kincheloe fliegt mit einer Bell X-2 bis auf 126.200 ft (38.466 m) Höhe",
         "itemurl": "https://de.wikipedia.org/wiki/Bell_X-2",
         "itemdateyear": "1956",
         "itemdatemonth": 9,
@@ -880,7 +880,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "erster erfolgreicher Start einer R7-Rakete, der Mutter der Sojus-Raketen",
+        "itemname": "erster erfolgreicher Start einer R7-Rakete, der Mutter aller Sojus-Raketen",
         "itemurl": "https://de.wikipedia.org/wiki/R-7",
         "itemdateyear": "1957",
         "itemdatemonth": 8,
@@ -900,7 +900,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Sputnik 2, die Hündin Laika ist erstes irdisches Lebewesen im All",
+        "itemname": "Sputnik 2, die Hündin Laika ist das erste irdische Lebewesen im All, sie überlebt den Flug nicht",
         "itemurl": "https://de.wikipedia.org/wiki/Laika",
         "itemdateyear": "1957",
         "itemdatemonth": 11,
@@ -919,7 +919,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Start von Explorer 1, erster amerikanischer Satellit im All, Nachweis d. Van-Allen-Gürtels",
+        "itemname": "Start des ersten amerikanischen Satelliten - Explorer 1, Nachweis des Van-Allen-Strahlungsgürtels",
         "itemurl": "https://de.wikipedia.org/wiki/Explorer_1",
         "itemdateyear": "1958",
         "itemdatemonth": 2,
@@ -949,7 +949,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Beginn der Arbeit der NASA (Nachfolger der NACA)",
+        "itemname": "die NASA beginnt als Nachfolger der NACA mit ihren Arbeiten",
         "itemurl": "https://de.wikipedia.org/wiki/National_Aeronautics_and_Space_Administration",
         "itemdateyear": "1958",
         "itemdatemonth": 10,
@@ -959,7 +959,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Mercury-Programm, erstes bemanntes Raumfahrtprogramm der USA",
+        "itemname": "Beginn des Mercury-Programms, des ersten bemannten Raumfahrtprogramms der USA",
         "itemurl": "https://de.wikipedia.org/wiki/Mercury-Programm",
         "itemdateyear": "1958 – 1963",
         "itemcountry": "USA",
@@ -967,7 +967,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Lunik 1, Bestätigung des Sonnenwindes, der Mond besitzt kein Magnetfeld",
+        "itemname": "Start von Lunik 1, Bestätigung des Sonnenwindes, der Mond besitzt kein Magnetfeld",
         "itemurl": "https://de.wikipedia.org/wiki/Lunik_1",
         "itemdateyear": "1959",
         "itemdatemonth": 1,
@@ -977,7 +977,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Lunik 2, erster gezielter Aufschlag auf dem Mond",
+        "itemname": "Start von Lunik 2, erster gezielter Aufschlag auf dem Mond am 13. September 1959",
         "itemurl": "https://de.wikipedia.org/wiki/Lunik_2",
         "itemdateyear": "1959",
         "itemdatemonth": 9,
@@ -987,7 +987,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Lunik 3, erste Fotos von der Rückseite des Mondes",
+        "itemname": "Start von Lunik 3, sie sendet am 7. Oktober 1959 das erste Foto von der Rückseite des Mondes",
         "itemurl": "https://de.wikipedia.org/wiki/Lunik_3",
         "itemdateyear": "1959",
         "itemdatemonth": 10,
@@ -1007,7 +1007,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Sputnik 5, die Hunde Strelka und Belka kehren als erste lebende Wesen erfolgreiche zur Erde zurück",
+        "itemname": "Start von Sputnik 5, die Hündinnen Strelka und Belka kehren als erste lebende Wesen zurück",
         "itemurl": "https://de.wikipedia.org/wiki/Sputnik",
         "itemdateyear": "1960",
         "itemdatemonth": 8,
@@ -1027,7 +1027,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Projekt Ozma, Frank Drake führt erstes SETI-Experiment durch",
+        "itemname": "Projekt Ozma, Frank Drake führt das erste SETI-Experiment durch",
         "itemurl": "https://de.wikipedia.org/wiki/Search_for_Extraterrestrial_Intelligence",
         "itemdateyear": "1960",
         "itemcountry": "USA",
@@ -1065,6 +1065,14 @@
         "itemtype": 2
     },
     {
+        "itemname": "Apollo-Programm, der Mensch fliegt zum Mond",
+        "itemurl": "https://de.wikipedia.org/wiki/Apollo-Programm",
+        "itemdateyear": "1961 – 1972",
+        "itemcountry": "USA",
+        "itemlocation": "NASA",
+        "itemtype": 1
+    },
+    {
         "itemname": "John Glenn startet mit Mercury-Atlas 6 als erster Amerikaner in eine Umlaufbahn",
         "itemurl": "https://de.wikipedia.org/wiki/Mercury-Atlas_6",
         "itemdateyear": "1962",
@@ -1085,7 +1093,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Wostok 6, Valentina Tereschkowa ist die erste Frau im All",
+        "itemname": "Start von Wostok 6, Valentina Tereschkowa ist die erste Frau im All",
         "itemurl": "https://de.wikipedia.org/wiki/Wostok_6",
         "itemdateyear": "1963",
         "itemdatemonth": 6,
@@ -1095,7 +1103,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Luna-Programm (4-24) mit dem Ziel einer weichen Mondlandung",
+        "itemname": "Beginn des Luna-Programms (4-24) mit dem Ziel einer weichen Mondlandung",
         "itemurl": "https://de.wikipedia.org/wiki/Luna-Programm",
         "itemdateyear": "1963 – 1976",
         "itemcountry": "UdSSR",
@@ -1151,7 +1159,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Arno Penzias u. Robert W. Wilson entdecken an den Bell Laboratories die kosmische Hintergrundstrahlung",
+        "itemname": "Arno Penzias und Robert Woodrow Wilson entdecken die kosmische Hintergrundstrahlung",
         "itemurl": "https://de.wikipedia.org/wiki/Hintergrundstrahlung",
         "itemdateyear": "1964",
         "itemcountry": "USA",
@@ -1159,7 +1167,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Alexei Leonow absolviert den ersten Außenbordeinsatz",
+        "itemname": "Start von Woschod 2, Alexei Leonow absolviert den ersten Außenbordeinsatz",
         "itemurl": "https://de.wikipedia.org/wiki/Woschod_2",
         "itemdateyear": "1965",
         "itemdatemonth": 3,
@@ -1179,7 +1187,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Start von Venera 3, die Sonde landete als erstes von Menschen erzeugtes Objekt auf einem anderen Planeten",
+        "itemname": "Start von Venera 3, sie landet als erstes von Menschen erzeugtes Objekt auf einem anderen Planeten",
         "itemurl": "https://de.wikipedia.org/wiki/Venera-Mission",
         "itemdateyear": "1965",
         "itemdatemonth": 11,
@@ -1199,7 +1207,15 @@
         "itemtype": 2
     },
     {
-        "itemname": "Start von Gemini 7, erstes gesteuertes Rendezvous bemannter Raumschiffe (Gemini 6)",
+        "itemname": "Gemini-Programm, Vorarbeit für Apollo-Programm",
+        "itemurl": "https://de.wikipedia.org/wiki/Gemini-Programm",
+        "itemdateyear": "1965 – 1966",
+        "itemcountry": "USA",
+        "itemlocation": "NASA",
+        "itemtype": 2
+    },
+    {
+        "itemname": "Start von Gemini 7, erstes gesteuertes Rendezvous bemannter Raumschiffe (mit Gemini 6)",
         "itemurl": "https://de.wikipedia.org/wiki/Gemini_7",
         "itemdateyear": "1965",
         "itemdatemonth": 12,
@@ -1209,15 +1225,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Gemini-Programm, Vorarbeit für Apollo-Programm",
-        "itemurl": "https://de.wikipedia.org/wiki/Gemini-Programm",
-        "itemdateyear": "1965 – 1966",
-        "itemcountry": "USA",
-        "itemlocation": "NASA",
-        "itemtype": 2
-    },
-    {
-        "itemname": "Luna 9, erste weiche Landung auf einem Himmelskörper (Mond)",
+        "itemname": "Start von Luna 9, mit der Sonde gelingt die erste weiche Landung auf einem Himmelskörper (Mond)",
         "itemurl": "https://de.wikipedia.org/wiki/Luna-Programm",
         "itemdateyear": "1966",
         "itemdatemonth": 2,
@@ -1227,7 +1235,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Venera 2 passiert die Venus, keine Daten von der Sonde empfangen, Überhitzung",
+        "itemname": "Venera 2 passiert die Venus, wegen Überhitzung werden keine Daten von der Sonde empfangen",
         "itemurl": "https://de.wikipedia.org/wiki/Venera-Mission",
         "itemdateyear": "1966",
         "itemdatemonth": 2,
@@ -1237,7 +1245,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Venera 3 passiert die Venus, kein Funkkontakt, erster irdischer Lander landet auf Venus",
+        "itemname": "Venera 3 passiert die Venus, kein Funkkontakt, erster irdischer Lander landet auf der Venus",
         "itemurl": "https://de.wikipedia.org/wiki/Venera-Mission",
         "itemdateyear": "1966",
         "itemdatemonth": 3,
@@ -1247,7 +1255,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Gemini 8, erste Koppelung zweier Raumfahrzeuge (mit Satellit)",
+        "itemname": "Start von Gemini 8, die erste Koppelung zweier Raumfahrzeuge gelingt mit einem Satelliten",
         "itemurl": "https://de.wikipedia.org/wiki/Gemini_8",
         "itemdateyear": "1966",
         "itemdatemonth": 3,
@@ -1257,7 +1265,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Start von Gemini 12, letzter Flug des Gemini-Programms, Edwin Aldrin u. James Lovell",
+        "itemname": "Start von Gemini 12, Edwin Aldrin und James Lovell absolvieren den letzten Gemini-Flug",
         "itemurl": "https://de.wikipedia.org/wiki/Gemini_12",
         "itemdateyear": "1966",
         "itemdatemonth": 11,
@@ -1267,7 +1275,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "erster Raketenstart vom europäischen Startplatz Esrange in Kiruna (ESRO C21/1)",
+        "itemname": "ESRO C21/1 - erster Raketenstart vom europäischen Startplatz Esrange",
         "itemurl": "https://de.wikipedia.org/wiki/Esrange",
         "itemdateyear": "1966",
         "itemdatemonth": 11,
@@ -1277,31 +1285,17 @@
         "itemtype": 2
     },
     {
-        "itemname": "Gründung des European Space Research Institute (ESRIN)",
-        "itemurl": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Weltraumforschungsinstitut",
-        "itemdateyear": "1966",
-        "itemcountry": "Italien",
-        "itemlocation": "Frascati",
-        "itemtype": 3
-    },
-    {
-        "itemname": "Eröffnung des European Space and Sounding Rocket Range (Esrange)",
+        "itemname": "erster Raketenstart vom European Space and Sounding Rocket Range (Esrange)",
         "itemurl": "https://de.wikipedia.org/wiki/Esrange",
         "itemdateyear": "1966",
+        "itemdatemonth": 11,
+        "itemdateday": 19,
         "itemcountry": "Schweden",
         "itemlocation": "Kiruna",
         "itemtype": 1
     },
     {
-        "itemname": "Apollo-Programm, der Mensch fliegt zum Mond",
-        "itemurl": "https://de.wikipedia.org/wiki/Apollo-Programm",
-        "itemdateyear": "1966 – 1972",
-        "itemcountry": "USA",
-        "itemlocation": "NASA",
-        "itemtype": 1
-    },
-    {
-        "itemname": "Apollo 1, Besatzung stirbt während Test bei Brand in der Kapsel",
+        "itemname": "Apollo 1, die Besatzung stirbt bei einem Test auf der Startrampe durch einen Brand in der Kapsel",
         "itemurl": "https://de.wikipedia.org/wiki/Apollo_1",
         "itemdateyear": "1967",
         "itemdatemonth": 1,
@@ -1311,7 +1305,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Start von Sojus 1, erste bemannte Sojus-Mission, W. Komarow stirbt bei der Landung",
+        "itemname": "Start von Sojus 1, erste bemannte Sojus-Mission, Wladimir Komarow stirbt bei der Landung",
         "itemurl": "https://de.wikipedia.org/wiki/Sojus_1",
         "itemdateyear": "1967",
         "itemdatemonth": 4,
@@ -1321,7 +1315,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Start von Venera 4, mit Lander an Bord zur Venus",
+        "itemname": "Start von Venera 4, die Landesonde wird wichtige Informationen zur Venus-Atmosphäre liefern",
         "itemurl": "https://de.wikipedia.org/wiki/Venera-Mission",
         "itemdateyear": "1967",
         "itemdatemonth": 6,
@@ -1331,7 +1325,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Eröffnung des ESOC (European Space Operations Centre, Missionskontrolle der ESA",
+        "itemname": "Eröffnung des ESOC (European Space Operations Centre), Missionskontrolle der ESA",
         "itemurl": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Raumflugkontrollzentrum",
         "itemdateyear": "1967",
         "itemdatemonth": 9,
@@ -1349,7 +1343,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Venera 4 setzt Lander über der Venus ab, der Daten über Atmosphäre sendet",
+        "itemname": "Venera 4 setzt eine Landesonde über der Venus ab, die Daten über Atmosphäre sendet",
         "itemurl": "https://de.wikipedia.org/wiki/Venera-Mission",
         "itemdateyear": "1967",
         "itemdatemonth": 10,
@@ -1359,7 +1353,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "erste automatische Kopplung zweier Raumschiffe (nur mechanisch)",
+        "itemname": "erste automatische (nur mechanische) Kopplung zweier Raumschiffe - Kosmos 186 u. Kosmos 188",
         "itemurl": "https://de.wikipedia.org/wiki/Kosmos_186",
         "itemdateyear": "1967",
         "itemdatemonth": 10,
@@ -1368,7 +1362,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Apollo 4, erster Testflug (unbemannt) einer Saturn V-Rakete (Boeing)",
+        "itemname": "Apollo 4, erster unbemannter Testflug einer Saturn V-Rakete",
         "itemurl": "https://de.wikipedia.org/wiki/Apollo_4",
         "itemdateyear": "1967",
         "itemdatemonth": 11,
@@ -1384,7 +1378,17 @@
         "itemdatemonth": 11,
         "itemdateday": 9,
         "itemcountry": "USA",
-        "itemlocation": "Mauna Kea",
+        "itemlocation": "Hawaii, Mauna Kea",
+        "itemtype": 1
+    },
+    {
+        "itemname": "Jocelyn Bell und Antony Hewish entdecken den ersten Pulsar PSR B1919+21",
+        "itemurl": "https://de.wikipedia.org/wiki/PSR_B1919%2B21",
+        "itemdateyear": "1967",
+        "itemdatemonth": 11,
+        "itemdateday": 28,
+        "itemcountry": "GB",
+        "itemlocation": "Cambridge",
         "itemtype": 1
     },
     {
@@ -1398,14 +1402,6 @@
         "itemtype": 2
     },
     {
-        "itemname": "Jocelyn Bell u. Antony Hewish entdecken den ersten Pulsar PSR B1919+21",
-        "itemurl": "https://de.wikipedia.org/wiki/PSR_B1919%2B21",
-        "itemdateyear": "1967",
-        "itemcountry": "GB",
-        "itemlocation": "Cambridge",
-        "itemtype": 1
-    },
-    {
         "itemname": "Eröffnung des ESTEC (European Space Technology and Research Centre)",
         "itemurl": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Weltraumforschungs-_und_Technologiezentrum",
         "itemdateyear": "1968",
@@ -1416,7 +1412,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Radio Astronomy Explorer RAE-A, erstes Weltraumteleskop (Radiowellen)",
+        "itemname": "Start des Radio Astronomy Explorer RAE-A, das erste Weltraumteleskop (Radiowellen)",
         "itemurl": "https://de.wikipedia.org/wiki/Radio_Astronomy_Explorer",
         "itemdateyear": "1968",
         "itemdatemonth": 7,
@@ -1426,7 +1422,17 @@
         "itemtype": 3
     },
     {
-        "itemname": "Apollo 8, erste bemannte Mondumrundung",
+        "itemname": "Gründung des European Space Research Institute (ESRIN)",
+        "itemurl": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Weltraumforschungsinstitut",
+        "itemdateyear": "1968",
+        "itemdatemonth": 9,
+        "itemdateday": 27,
+        "itemcountry": "Italien",
+        "itemlocation": "Frascati",
+        "itemtype": 3
+    },
+    {
+        "itemname": "Start von Apollo 8, Anders, Lovell, und Borman absolvieren die erste bemannte Mondumrundung",
         "itemurl": "https://de.wikipedia.org/wiki/Apollo_8",
         "itemdateyear": "1968",
         "itemdatemonth": 12,
@@ -1436,7 +1442,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "IMIS-Studie über bemannte Marslandung",
+        "itemname": "die NASA veröffentlicht die IMIS-Studie über die Durchführung einer bemannten Marslandung",
         "itemurl": "https://de.wikipedia.org/wiki/IMIS-Studie_1968",
         "itemdateyear": "1968",
         "itemcountry": "USA",
@@ -1453,7 +1459,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "bis 23.11.1972 Fehlschläge aller vier N1-Tests (sow. Pendant zu Saturn V)",
+        "itemname": "bis 23.11.1972 Fehlschläge aller vier N1-Tests, des sowjetischen Pendants zur Saturn V-Rakete",
         "itemurl": "https://de.wikipedia.org/wiki/N1_(Rakete)",
         "itemdateyear": "1969",
         "itemdatemonth": 2,
@@ -1468,12 +1474,12 @@
         "itemdateyear": "1969",
         "itemdatemonth": 3,
         "itemdateday": 5,
-        "itemcountry": "NASA",
+        "itemcountry": "Erdorbit",
         "itemlocation": "Apollo 9",
         "itemtype": 2
     },
     {
-        "itemname": "Start von Apollo 10, letzte Tests für Mondlandung (erster Flug der Landefähre über Mond)",
+        "itemname": "Start von Apollo 10, letzte Tests für die Mondlandung, erster Flug der Landefähre über dem Mond",
         "itemurl": "https://de.wikipedia.org/wiki/Apollo_10",
         "itemdateyear": "1969",
         "itemdatemonth": 5,
@@ -1483,7 +1489,17 @@
         "itemtype": 2
     },
     {
-        "itemname": "Neil Armstrong betritt am 2/21.006.1969 als erster Mensch den Mond",
+        "itemname": "Start von Apollo 11, vier Tage später wird die Mondlandefähre Eagle auf dem Mond landen",
+        "itemurl": "https://de.wikipedia.org/wiki/Lick-Observatorium",
+        "itemdateyear": "1969",
+        "itemdatemonth": 7,
+        "itemdateday": 16,
+        "itemcountry": "USA",
+        "itemlocation": "Kennedy Space Center",
+        "itemtype": 3
+    },
+    {
+        "itemname": "Neil Armstrong betritt am 20.07.1969 um 20:17:58 Uhr UTC als erster Mensch den Mond",
         "itemurl": "https://de.wikipedia.org/wiki/Apollo_11",
         "itemdateyear": "1969",
         "itemdatemonth": 7,
@@ -1513,7 +1529,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Apollo 12, 2. bemannte Mondlandung, Charles Conrad ist der 3. Mensch auf dem Mond",
+        "itemname": "Start von Apollo 12, 2. bemannte Mondlandung, Charles Conrad ist der 3. Mensch auf dem Mond",
         "itemurl": "https://de.wikipedia.org/wiki/Apollo_12",
         "itemdateyear": "1969",
         "itemdatemonth": 11,
@@ -1530,7 +1546,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Ōsumi, erster japanischer Satellit im All",
+        "itemname": "Start von Ōsumi, der erste japanische Satellit ist im All",
         "itemurl": "https://de.wikipedia.org/wiki/Osumi",
         "itemdateyear": "1970",
         "itemdatemonth": 2,
@@ -1540,7 +1556,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Apollo 13, erfolgreicher Fehlschlag, erstes Swing-by-Manöver",
+        "itemname": "Start von Apollo 13, nach technischem Defekt wird die Mission zum erfolgreichen Fehlschlag",
         "itemurl": "https://de.wikipedia.org/wiki/Apollo_13",
         "itemdateyear": "1970",
         "itemdatemonth": 4,
@@ -1550,7 +1566,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Dong Fang Hong 1, erster chinesischer Satellit im All",
+        "itemname": "Start von Dong Fang Hong 1, Chinas erster Satellit",
         "itemurl": "https://de.wikipedia.org/wiki/Dong_Fang_Hong_I",
         "itemdateyear": "1970",
         "itemdatemonth": 4,
@@ -1560,7 +1576,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Lunochod 1 erkundet als erstes Fahrzeug den Mond, Missionsende am 04.11971",
+        "itemname": "Lunochod 1 erkundet als erstes Fahrzeug den Mond, Missionsende am 04.10.1971",
         "itemurl": "https://de.wikipedia.org/wiki/Lunochod_1",
         "itemdateyear": "1970",
         "itemdatemonth": 11,
@@ -1569,7 +1585,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Venera 7, erste erfolgreiche Landung auf einem fremden Planeten (Venus)",
+        "itemname": "Start von Venera 7, erste erfolgreiche Landung auf einem fremden Planeten, der Venus",
         "itemurl": "https://de.wikipedia.org/wiki/Venera-Mission",
         "itemdateyear": "1970",
         "itemdatemonth": 12,
@@ -1579,7 +1595,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Tansei 1, erster japanischer Satellit erfolgreich im Erdorbit",
+        "itemname": "Start von Tansei 1, der erste japanische Satellit ist im Erdorbit",
         "itemurl": "https://de.wikipedia.org/wiki/Mu_%28Rakete%29",
         "itemdateyear": "1971",
         "itemdatemonth": 2,
@@ -1589,7 +1605,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Saljut 1, erste Raumstation (bis 11.11971), Beginn der Langzeitaufenthalte im All",
+        "itemname": "Start von Saljut 1, mit der ersten Weltraumstation beginnen die Langzeitaufenthalte im All",
         "itemurl": "https://de.wikipedia.org/wiki/Saljut_1",
         "itemdateyear": "1971",
         "itemdatemonth": 4,
@@ -1599,7 +1615,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Start von Mariner 9, erste Sonde in Umlaufbahn um einen anderen Planeten (Mars)",
+        "itemname": "Start von Mariner 9, die erste Sonde in der Umlaufbahn um einen anderen Planeten, des Mars",
         "itemurl": "https://de.wikipedia.org/wiki/Mariner",
         "itemdateyear": "1971",
         "itemdatemonth": 5,
@@ -1609,7 +1625,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Sojus 11, erste Koppelung an Raumstation, erster Umstieg, Tod bei Landung",
+        "itemname": "Sojus 11, nach der ersten Koppelung an eine Raumstation stirbt die Besatzung bei der Landung",
         "itemurl": "https://de.wikipedia.org/wiki/Sojus_11",
         "itemdateyear": "1971",
         "itemdatemonth": 6,
@@ -1619,7 +1635,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Lunar Roving Vehicle (LRV), amer. Mond-Rover, bei Apollo 15, 16 u. 17",
+        "itemname": "Start von Apollo 15, an Bord der amerikanische Mond-Rover Lunar Roving Vehicle (LRV)",
         "itemurl": "https://de.wikipedia.org/wiki/Lunar_Roving_Vehicle",
         "itemdateyear": "1971",
         "itemdatemonth": 7,
@@ -1629,7 +1645,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Mariner 9 schwenkt als erste Sonde in Orbit um einen anderen Planeten ein (Mars)",
+        "itemname": "Mariner 9 schwenkt als erste Sonde in einen Orbit um einen anderen Planeten ein, den Mars",
         "itemurl": "https://de.wikipedia.org/wiki/Mariner",
         "itemdateyear": "1971",
         "itemdatemonth": 11,
@@ -1638,7 +1654,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "mit Apollo 17 startet der vorläufig letzte bemannter Raumflug zum Mond",
+        "itemname": "mit Apollo 17 startet der vorläufig letzte bemannte Raumflug zum Mond",
         "itemurl": "https://de.wikipedia.org/wiki/Apollo_17",
         "itemdateyear": "1971",
         "itemdatemonth": 12,
@@ -1648,7 +1664,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Pioneer 10, Erforschung des Jupiter und des Asteroidengürtels",
+        "itemname": "Start von Pioneer 10, Missionsziele sind die Erforschung des Jupiter und des Asteroidengürtels",
         "itemurl": "https://de.wikipedia.org/wiki/Pioneer_10",
         "itemdateyear": "1972",
         "itemdatemonth": 3,
@@ -1658,7 +1674,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Biosphäre 3, geschlossenes ÖkoSonne, Erprobung des Lebens außerhalb der Erde",
+        "itemname": "Beginn der Biosphäre 3, geschlossenes Ökosystem zur Erprobung des Lebens außerhalb der Erde",
         "itemurl": "https://de.wikipedia.org/wiki/Biosph%C3%A4re_3",
         "itemdateyear": "1972",
         "itemcountry": "UdSSR",
@@ -1666,7 +1682,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Start von Skylab, erste und einzige US-Raumstation, letzter Flug einer Saturn V",
+        "itemname": "Start von Skylab, der ersten und einzigen US-Raumstation, letzter Flug einer Saturn V",
         "itemurl": "https://de.wikipedia.org/wiki/Skylab",
         "itemdateyear": "1973",
         "itemdatemonth": 5,
@@ -1706,7 +1722,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Pioneer 10, erster Vorbeiflug am Jupiter",
+        "itemname": "Pioneer 10 fliegt als erste Raumsonde am Jupiter vorbei und sendet Bilder vom Gasriesen",
         "itemurl": "https://de.wikipedia.org/wiki/Pioneer_10",
         "itemdateyear": "1973",
         "itemdatemonth": 12,
@@ -1715,7 +1731,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Stephen Hawking postuliert Strahlung von Schwarzen Löchern",
+        "itemname": "Stephen Hawking postuliert eine von Schwarzen Löchern ausgehende Strahlung",
         "itemurl": "https://de.wikipedia.org/wiki/Hawking-Strahlung",
         "itemdateyear": "1974",
         "itemdatemonth": 5,
@@ -1735,7 +1751,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Start von Helios 1, deutsch-amerikanische Raumsonde zur Erforschung der Sonne",
+        "itemname": "Start von Helios 1, der deutsch-amerikanischen Raumsonde zur Erforschung der Sonne",
         "itemurl": "https://de.wikipedia.org/wiki/Helios_(Sonde)",
         "itemdateyear": "1974",
         "itemdatemonth": 12,
@@ -1765,7 +1781,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Apollo-Sojus-Test-Projekt (ASTP), erste internationale Raumfahrtmission",
+        "itemname": "Start des Apollo-Sojus-Test-Projektes (ASTP), die erste internationale Raumfahrtmission",
         "itemurl": "https://de.wikipedia.org/wiki/Apollo-Sojus-Projekt",
         "itemdateyear": "1975",
         "itemdatemonth": 7,
@@ -1775,7 +1791,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Start von Helios 2, deutsch-amerikanische Raumsonde zur Erforschung der Sonne",
+        "itemname": "Start von Helios 2, die zweite deutsch-amerikanische Raumsonde zur Erforschung der Sonne",
         "itemurl": "https://de.wikipedia.org/wiki/Helios_(Sonde)",
         "itemdateyear": "1976",
         "itemdatemonth": 1,
@@ -1795,7 +1811,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Start von Voyager 1, das am weitesten entfernte von Menschen gebaute Objekt",
+        "itemname": "Start von Voyager 1, sie ist heute das am weitesten entfernte von Menschen gebaute Objekt",
         "itemurl": "https://de.wikipedia.org/wiki/Voyager_1",
         "itemdateyear": "1977",
         "itemdatemonth": 9,
@@ -1805,7 +1821,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Start von Meteosat-1, erster europäischer Wettersatellit, Betrieb durch EUMETSAT",
+        "itemname": "Start von Meteosat-1, der erste europäische Wettersatellit wird von EUMETSAT betrieben",
         "itemurl": "https://de.wikipedia.org/wiki/Meteosat",
         "itemdateyear": "1977",
         "itemdatemonth": 11,
@@ -1815,7 +1831,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Start von NAVSTAR 1 mit einer Atlas F-Rakete, der erste (experimentelle) GPS-Satellit",
+        "itemname": "Start des erstn (experimentellen) GPS-Satelliten NAVSTAR 1 mit einer Atlas F-Rakete",
         "itemurl": "https://de.wikipedia.org/wiki/Global_Positioning_Sonne",
         "itemdateyear": "1978",
         "itemdatemonth": 2,
@@ -1825,7 +1841,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Vladimír Remek (ČSSR), erster nicht sowj. oder US-amerik. Astronaut im All",
+        "itemname": "Vladimír Remek (ČSSR) ist der erste nicht sowjetische oder US-amerikanische Raumfahrer",
         "itemurl": "https://de.wikipedia.org/wiki/Vladim%C3%ADr_Remek",
         "itemdateyear": "1978",
         "itemdatemonth": 3,
@@ -1845,7 +1861,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Ariane 1, erster erfolgreicher Start der ersten europäischen Trägerrakete",
+        "itemname": "Ariane 1 - erster erfolgreicher Start der ersten europäischen Trägerrakete",
         "itemurl": "https://de.wikipedia.org/wiki/Ariane_1",
         "itemdateyear": "1979",
         "itemdatemonth": 12,
@@ -1855,7 +1871,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Voyager 1 passiert den Saturn, genaue Untersuchung des Mondes Titan am 11.11.1980",
+        "itemname": "Voyager 1 passiert den Saturn und untersucht am 11.11.1980 den Mond Titan",
         "itemurl": "https://de.wikipedia.org/wiki/Voyager_1",
         "itemdateyear": "1980",
         "itemdatemonth": 11,
@@ -1864,7 +1880,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Einweihung des Very Large Array (VLA), Observatorium, 27 Radioteleskope im Verbund",
+        "itemname": "Einweihung des Very Large Array (VLA), 27 Radioteleskope arbeiten im Verbund",
         "itemurl": "https://de.wikipedia.org/wiki/Very_Large_Array",
         "itemdateyear": "1980",
         "itemcountry": "USA",
@@ -1872,7 +1888,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "STS-1, Raumfähre Columbia startet als erstes Space Shuttle mit zwei Astronauten",
+        "itemname": "STS-1, Raumfähre Columbia startet als erstes Space Shuttle mit zwei Astronauten an Bord",
         "itemurl": "https://de.wikipedia.org/wiki/STS-1",
         "itemdateyear": "1981",
         "itemdatemonth": 4,
@@ -1888,11 +1904,11 @@
         "itemdatemonth": 4,
         "itemdateday": 14,
         "itemcountry": "USA",
-        "itemlocation": "Kennedy Space Center",
+        "itemlocation": "Edwards Air Force Base",
         "itemtype": 2
     },
     {
-        "itemname": "STS-2 (Columbia), erste Wiederverwendung eines bemannten Raumschiffes",
+        "itemname": "Start von STS-2 (Columbia), erste Wiederverwendung eines bemannten Raumschiffes",
         "itemurl": "https://de.wikipedia.org/wiki/STS-2",
         "itemdateyear": "1981",
         "itemdatemonth": 11,
@@ -1922,7 +1938,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Start von STS-9, erste Spacelab-Mission, Ulf Merbold erster westdeutscher Raumfahrer",
+        "itemname": "Start von STS-9, erste Spacelab-Mission, Ulf Merbold ist der erste westdeutsche Raumfahrer",
         "itemurl": "https://de.wikipedia.org/wiki/STS-9",
         "itemdateyear": "1983",
         "itemdatemonth": 11,
@@ -1932,7 +1948,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Bruce McCandless schwebt als erster Mensch ohne Leine frei im All (mit MMU)",
+        "itemname": "Bruce McCandless schwebt als erster Mensch ohne Leine mit einer MMU frei im All",
         "itemurl": "https://de.wikipedia.org/wiki/Manned_Maneuvering_Unit",
         "itemdateyear": "1984",
         "itemdatemonth": 2,
@@ -1962,7 +1978,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Gründung des SETI-Instituts, Suche nach intelligentem außerirdischem Leben",
+        "itemname": "Gründung des SETI-Instituts zur Suche nach intelligentem außerirdischem Leben",
         "itemurl": "https://de.wikipedia.org/wiki/SETI-Institut",
         "itemdateyear": "1984",
         "itemdatemonth": 11,
@@ -1972,7 +1988,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Start von Vega 1 und Vega 2, Passage und Erkundung der Venus, Passage von Halley",
+        "itemname": "Start von Vega 1 und Vega 2, Ziele: Passage und Erkundung der Venus, Passage von Halley",
         "itemurl": "https://de.wikipedia.org/wiki/Vega_(Raumsonde)",
         "itemdateyear": "1984",
         "itemdatemonth": 12,
@@ -2030,7 +2046,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Raumfähre Challenger (STS-51-L) explodiert nach Start, 7 Astronauten sterben",
+        "itemname": "die Raumfähre Challenger (STS-51-L) explodiert nach dem Start, alle sieben Astronauten sterben",
         "itemurl": "https://de.wikipedia.org/wiki/STS-51-L",
         "itemdateyear": "1986",
         "itemdatemonth": 1,
@@ -2058,7 +2074,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Giotto passiert Kometen Halley und liefert Fotos und Gasanalysen, wird schwer getroffen",
+        "itemname": "die Raumsonde Giotto passiert den Kometen Halley, liefert Fotos und Gasanalysen",
         "itemurl": "https://de.wikipedia.org/wiki/Giotto_(Sonde)",
         "itemdateyear": "1986",
         "itemdatemonth": 3,
@@ -2067,7 +2083,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "erster erfolgreicher Start einer Ariane 2 (ESA), an Bord der Satellit TV-Sat 1 (defekt)",
+        "itemname": "erster erfolgreicher Start einer Ariane 2, an Bord der Satellit TV-Sat 1 (defekt)",
         "itemurl": "https://de.wikipedia.org/wiki/TV-SAT",
         "itemdateyear": "1987",
         "itemdatemonth": 11,
@@ -2097,7 +2113,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "erster und einziger Start des Buran/Energija-Sonnes (sowj. Raumfähre)",
+        "itemname": "erster und einziger Start des Buran/Energija-Systems, der sowjetischen Raumfähre",
         "itemurl": "https://de.wikipedia.org/wiki/Buran_1.01",
         "itemdateyear": "1988",
         "itemdatemonth": 11,
@@ -2107,7 +2123,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Sonde Galileo zur Erforschung des Saturn und seiner Monde mit STS-34 gestartet",
+        "itemname": "Start der Sonde Galileo mit STS-34, Missionsziele: Erforschung des Saturn und seiner Monde",
         "itemurl": "https://de.wikipedia.org/wiki/Galileo_(Raumsonde)",
         "itemdateyear": "1989",
         "itemdatemonth": 10,
@@ -2117,7 +2133,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Satellit COBE erforscht die kosmische Hintergrundstrahlung, Nachfolger wird WMAP",
+        "itemname": "Start des Satelliten COBE zur Erforschung der kosmischen Hintergrundstrahlung",
         "itemurl": "https://de.wikipedia.org/wiki/COBE",
         "itemdateyear": "1989",
         "itemdatemonth": 11,
@@ -2209,7 +2225,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "STS-46, Atlantis bringt Claude Nicollier, den ersten Schweizer ins All",
+        "itemname": "STS-46 (Atlantis) bringt Claude Nicollier, den ersten Raumfahrer der Schweiz ins All",
         "itemurl": "https://de.wikipedia.org/wiki/Claude_Nicollier",
         "itemdateyear": "1992",
         "itemdatemonth": 7,
@@ -2224,7 +2240,7 @@
         "itemdateyear": "1995",
         "itemdatemonth": 6,
         "itemdateday": 29,
-        "itemcountry": "NASA",
+        "itemcountry": "Erdorbit",
         "itemlocation": "STS-71 Atlantis",
         "itemtype": 2
     },
@@ -2239,7 +2255,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Start des Mars Global Surveyor (MGS), Erforschung des Mars aus einer Umlaufbahn",
+        "itemname": "Start des Mars Global Surveyor (MGS) zur Erforschung des Mars aus einer Umlaufbahn",
         "itemurl": "https://de.wikipedia.org/wiki/Mars_Global_Surveyor",
         "itemdateyear": "1996",
         "itemdatemonth": 11,
@@ -2279,7 +2295,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Sarja, erstes Modul der ISS gestartet, Beginn des Aufbaus der ISS",
+        "itemname": "Sarja - das erste Modul der ISS wird ins All gebracht, Beginn des Aufbaus der ISS",
         "itemurl": "https://de.wikipedia.org/wiki/Sarja",
         "itemdateyear": "1998",
         "itemdatemonth": 11,
@@ -2289,7 +2305,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Start des Mars Polar Lander, inkl. zwei Deep Space 2 Penetrator-Sonden, zerschellt",
+        "itemname": "Start des Mars Polar Lander zur Erforschung der Mars-Polkappen, er zerschellt auf dem Mars",
         "itemurl": "https://de.wikipedia.org/wiki/Mars_Polar_Lander",
         "itemdateyear": "1999",
         "itemdatemonth": 1,
@@ -2299,7 +2315,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Start der NASA-Sonde Stardust, Sammeln von Partikeln der Gashülle eines Kometen",
+        "itemname": "Start der NASA-Sonde Stardust, Aufgabe: Sammeln von Partikeln der Gashülle eines Kometen",
         "itemurl": "https://de.wikipedia.org/wiki/Stardust_(Sonde)",
         "itemdateyear": "1999",
         "itemdatemonth": 2,
@@ -2319,7 +2335,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Landung von Shenzhou 1 nach 14 Umläufen im Erdorbit",
+        "itemname": "erfolgreiche Landung von Shenzhou 1 nach 14 Umläufen im Erdorbit",
         "itemurl": "https://de.wikipedia.org/wiki/Shenzhou_1",
         "itemdateyear": "1999",
         "itemdatemonth": 11,
@@ -2358,7 +2374,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Dennis Tito, erster Weltraumtourist startet mit Sojus TM-32 zur ISS",
+        "itemname": "der erste Weltraumtourist, Dennis Tito, startet mit Sojus TM-32 zur ISS",
         "itemurl": "https://de.wikipedia.org/wiki/Dennis_Tito",
         "itemdateyear": "2001",
         "itemdatemonth": 4,
@@ -2368,7 +2384,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Unterwasserlabor NEEMO, Beginn der Experimente zum Leben auf einer Raumstation",
+        "itemname": "Beginn der Experimente zum Leben auf einer Raumstation im Unterwasserlabor NEEMO",
         "itemurl": "https://de.wikipedia.org/wiki/NEEMO",
         "itemdateyear": "2001",
         "itemdatemonth": 10,
@@ -2378,7 +2394,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Start von STS-108, Endeavour bringt das ital. Mehrzweckmodul Raffaello zur ISS",
+        "itemname": "Start von STS-108, Endeavour bringt das italienische Mehrzweckmodul Raffaello zur ISS",
         "itemurl": "https://de.wikipedia.org/wiki/STS-108",
         "itemdateyear": "2001",
         "itemdatemonth": 12,
@@ -2388,7 +2404,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Start des Mars Rovers Spirit, Marserkundung, Suche nach früheren Wasservorkommen",
+        "itemname": "Start des Mars Rovers Spirit zur Marserkundung und Suche nach früheren Wasservorkommen",
         "itemurl": "https://de.wikipedia.org/wiki/Spirit_(Raumsonde)",
         "itemdateyear": "2003",
         "itemdatemonth": 6,
@@ -2398,7 +2414,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Start des Mars Rovers Opportunity, Marserkundung, Nachweis von früherem Wasser",
+        "itemname": "Start des Mars Rovers Opportunity zur Marserkundung und dem Nachweis von früherem Wasser",
         "itemurl": "https://de.wikipedia.org/wiki/Opportunity",
         "itemdateyear": "2003",
         "itemdatemonth": 7,
@@ -2408,7 +2424,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Start von SMART-1, erste europäische Sonde mit Ionenantrieb, automatische Navigation",
+        "itemname": "Start von SMART-1, der ersten europäische Sonde mit Ionenantrieb und automatischer Navigation",
         "itemurl": "https://de.wikipedia.org/wiki/SMART-1",
         "itemdateyear": "2003",
         "itemdatemonth": 9,
@@ -2428,7 +2444,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Mars Rover Spirit landet auf der Oberfläche des Mars, Missionsende 24.006.2011",
+        "itemname": "Mars Rover Spirit landet auf der Oberfläche des Mars, Missionsende 24.05.2011",
         "itemurl": "https://de.wikipedia.org/wiki/Spirit_(Raumsonde)",
         "itemdateyear": "2004",
         "itemdatemonth": 1,
@@ -2448,7 +2464,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Start der Sonde Rosetta, Erforschung des Kometen 67P/Tschurjumow-Gerasimenko",
+        "itemname": "Start der Sonde Rosetta zur Erforschung des Kometen 67P/Tschurjumow-Gerasimenko",
         "itemurl": "https://de.wikipedia.org/wiki/Rosetta_(Sonde)",
         "itemdateyear": "2004",
         "itemdatemonth": 3,
@@ -2458,7 +2474,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Start von SpaceShipOne, erster nicht-staatlicher suborbitaler Weltraumflug",
+        "itemname": "Start von SpaceShipOne als erster nicht-staatlicher suborbitaler Weltraumflug",
         "itemurl": "https://de.wikipedia.org/wiki/SpaceShipOne",
         "itemdateyear": "2004",
         "itemdatemonth": 6,
@@ -2468,7 +2484,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "unbemanntes Testflugzeug X-43A, Geschwindigkeitsrekord Mach 9,6 (über 11.000 km/h)",
+        "itemname": "das unbemannte Testflugzeug X-43A stellt den Rekord von Mach 9,6 (über 11.000 km/h) auf",
         "itemurl": "https://de.wikipedia.org/wiki/Boeing_X-43A",
         "itemdateyear": "2004",
         "itemdatemonth": 11,
@@ -2477,7 +2493,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Start von Deep Impact, Erforschung des Kometen Tempel 1, Weiternutzung als EPOXI",
+        "itemname": "Start von Deep Impact zur Erforschung des Kometen Tempel 1, spätere Nutzung als EPOXI",
         "itemurl": "https://de.wikipedia.org/wiki/Deep_Impact_(Sonde)",
         "itemdateyear": "2005",
         "itemdatemonth": 1,
@@ -2525,7 +2541,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Start von Venus Express (ESA), Erforschung der Atmosphäre der Venus",
+        "itemname": "Start von Venus Express (ESA) zur Erforschung der Atmosphäre der Venus",
         "itemurl": "https://de.wikipedia.org/wiki/Venus_Express",
         "itemdateyear": "2005",
         "itemdatemonth": 11,
@@ -2535,7 +2551,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Landung der Rückkehrkapsel der Sonde Stardust, Staub des Kometen Wild 2 an Bord",
+        "itemname": "Landung der Rückkehrkapsel der Sonde Stardust mit Staub des Kometen Wild 2 an Bord",
         "itemurl": "https://de.wikipedia.org/wiki/Stardust_(Sonde)",
         "itemdateyear": "2006",
         "itemdatemonth": 1,
@@ -2545,7 +2561,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Sendung des Arte-Dokumentarfilms CosmicConnexion mit CNES-Antenne zum Stern Errai",
+        "itemname": "Sendung des Arte-Dokumentarfilms CosmicConnexion mit einer CNES-Antenne zum Stern Errai",
         "itemurl": "https://de.wikipedia.org/wiki/CosmicConnexion",
         "itemdateyear": "2006",
         "itemdatemonth": 9,
@@ -2583,7 +2599,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Beginn von Mars 500, 520 Tage lange Simulation eines Marsfluges, sechs Freiwillige",
+        "itemname": "Beginn von Mars 500, der 520 Tage dauernden Simulation eines Marsfluges mit sechs Freiwilligen",
         "itemurl": "https://de.wikipedia.org/wiki/Mars_500",
         "itemdateyear": "2010",
         "itemdatemonth": 6,
@@ -2593,7 +2609,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Fertigstellung des Neutrino-Detektors IceCube, über 5000 DOMs bis 2,4 km tief im Eis",
+        "itemname": "Fertigstellung des Neutrino-Detektors IceCube, über 5000 DOMs liegen bis 2,4 km tief im Eis",
         "itemurl": "https://de.wikipedia.org/wiki/IceCube",
         "itemdateyear": "2010",
         "itemdatemonth": 12,
@@ -2611,7 +2627,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "letzter Start eines Space Shuttles (STS-135, Atlantis, Landung am 21.006.2011)",
+        "itemname": "letzter Start eines Space Shuttles - STS-135 (Atlantis) Landung am 21.06.2011",
         "itemurl": "https://de.wikipedia.org/wiki/STS-135",
         "itemdateyear": "2011",
         "itemdatemonth": 7,
@@ -2631,7 +2647,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Tiangong-1, chinesisches Raummodul mit Langer Marsch 2F in Jiuquan gestartet",
+        "itemname": "Tiangong-1, das chinesische Raummodul wird mit einer Langer Marsch 2F-Rakete gestartet",
         "itemurl": "https://de.wikipedia.org/wiki/Tiangong_1",
         "itemdateyear": "2011",
         "itemdatemonth": 9,
@@ -2671,7 +2687,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Start von Fobos-Grunt, russ. Raumsonde zum Marsmond Fobos mit Rückkehrkapsel",
+        "itemname": "Start von Fobos-Grunt, der russishen Raumsonde zum Marsmond Phobos mit Rückkehrkapsel",
         "itemurl": "https://de.wikipedia.org/wiki/Fobos-Grunt",
         "itemdateyear": "2011",
         "itemdatemonth": 11,
@@ -2681,7 +2697,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Weltraumteleskop Kepler entdeckt den bisher erdähnlichsten Planeten Kepler 22b",
+        "itemname": "das Weltraumteleskop Kepler entdeckt den bisher erdähnlichsten Planeten Kepler 22b",
         "itemurl": "https://de.wikipedia.org/wiki/Kepler_22b",
         "itemdateyear": "2011",
         "itemdatemonth": 12,
@@ -2690,7 +2706,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Russisches Navigationssystem deckt nun die Erde mit 24 Satelliten komplett ab",
+        "itemname": "das russische Navigationssystem GLONASS deckt nun die Erde mit 24 Satelliten komplett ab",
         "itemurl": "https://de.wikipedia.org/wiki/GLONASS",
         "itemdateyear": "2011",
         "itemdatemonth": 12,

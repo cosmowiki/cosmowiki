@@ -1,5 +1,5 @@
 import React from 'react';
-import ChronicleComponent from '../components/chronicle';
+import ChronicleComponent from '../components/events';
 
 export default class Events {
 

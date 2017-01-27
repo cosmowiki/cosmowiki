@@ -13,7 +13,7 @@ export default class ChronicleComponent extends React.Component {
     const items = this.props.items;
 
     const itemForOverlay = (item) => {
-      return { description: `${ item.readableDate } in ${ item.location }`, ...item };
+      return { description: `${ item.date } in ${ item.place }`, ...item };
     };
     const showOverlay = (item) => {
       this.setState({ itemInOverlay: itemForOverlay(item) });
@@ -30,6 +30,9 @@ export default class ChronicleComponent extends React.Component {
         <div id="featured" className="chronicle pure-u-1 center">
           <h1>Chronik</h1>
           <h3>Meilensteine der Astronomie und Raumfahrt</h3>
+        </div>
+        <div id="todo" className="pure-u-1">
+          @wolfram pls hide the span id="coordinates" from the WP article when loading in vcard
         </div>
         <div id="dataArea">
           <div id="timeline">
@@ -51,7 +54,7 @@ const ItemComponent = ({item, onClick}) => {
           <p>{item.date}</p>
         </div>
         <div className="event-dash pure-u-sm-1-12 pure-u-lg-1-24">
-          <p>-</p>
+          <p>{item.place ? `-` : ''}</p>
         </div>
         <div className="event-place pure-u-1 pure-u-sm-11-24 pure-u-lg-15-24">
           <p>{item.place ? item.place : ''}</p>
@@ -59,7 +62,7 @@ const ItemComponent = ({item, onClick}) => {
       </div>
       <div className="event-data2 pure-u-1 pure-u-lg-15-24">
         <div className="event-name pure-u-7-8 pure-u-md-1" onClick={onClick}>
-          <p><a href={item.link}>{item.name}</a></p>
+          <p>{item.name}</p>
         </div>
       </div>
     </div>
