@@ -10,7 +10,7 @@ import ContentOnlyComponent from './components/content-only';
 
 import Home from './sites/home';
 import Events from './sites/events';
-import People from './sites/people';
+import People from './sites/persons';
 import Astronomers from './sites/astronomers';
 import Astronauts from './sites/astronauts';
 import Objects from './sites/objects';
