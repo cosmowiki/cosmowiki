@@ -79,8 +79,8 @@ const StarsGroupComponent = ({group}) => {
   const stars = group.data;
 
   return (
-          <div id={groupKey} className="pure-u-1 letter-section">
-            <div className="pure-u-1 letter-section-header">
+          <div id={groupKey} className="letter-section pure-u-1">
+            <div className="letter-section-header pure-u-1">
               <div className="first-letter pure-u-1-2">
                 <p name={`#${groupKey}`}>{groupKey}</p>
               </div>
