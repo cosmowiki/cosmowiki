@@ -231,7 +231,7 @@ footer {margin-bottom: 1em; background: #eee; border-top: 1em solid #99f;}
 
 footer h4, footer ul {background: #fff; border-radius: 5px;}
 footer h4 {
-	margin: 0 .5em .5em; padding: .125em 0;
+	margin: 0 .5em 0; padding: .125em 0;
 	background: #ccf; border-radius: 5px 5px 0 0;
 }
 footer ul {
