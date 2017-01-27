@@ -14,7 +14,8 @@ const StarsComponent = ({groupedStars, constellations}) => {
       </div>
       <div id="todo" className="pure-u-1">
         @wolfram pls make the sorter and filter work<br />
-        @all find a way for sorter and filter on small screens (toggle-buttons?)
+        @all find a way for sorter and filter on small screens (toggle-buttons?)<br />
+        @me find a solution for the greek letters / bayer names vs. historical names
       </div>
       <div id="functionArea" className="stars pure-u-1">
         <div id="sort" className="stars">
