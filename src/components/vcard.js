@@ -12,7 +12,7 @@ export default class VcardComponent extends React.Component {
   loadWikipediaText() {
     const { item } = this.props;
     const url = 'https://wt-wolfram--github-kriesing-de-0.run.webtask.io/wikipedia-article-extract?article-url=';
-    fetch(`${ url }${ encodeURIComponent(item.wikipediaUrl) }`)
+    fetch(`${ url }${ encodeURIComponent(item.link) }`)
       .then((response) => response.json())
       .then((text) => {
         this.setState({ paragraphs: text.trim().split('\n') });
@@ -114,7 +114,7 @@ export default class VcardComponent extends React.Component {
               </div>
               <div id="vcardFooter">
                 <div id="vcardItemWpLink">
-                  Wikipedia-Artikel ansehen: <a href={ item.wikipediaUrl } target="_blank">{ decodeURIComponent(item.wikipediaUrl) }</a>
+                  Wikipedia-Artikel ansehen: <a href={ item.link } target="_blank">{ decodeURIComponent(item.link) }</a>
                 </div>
               </div>
             </div>
