@@ -17,7 +17,7 @@ const PeopleComponent = ({groupedPeople}) => {
         @wolfram pls set a comma between 1st and 2nd name only if 2nd exists (e.g. at Aristoteles)<br />
         @all find a way for sorter and filter on small screens (toggle-buttons?)<br />
         @all hide letterLinks on small screens?<br />
-        @me make it responsive (by styling it like the stars page?)
+        @me make it responsive
       </div>
       <div id="functionArea" className="persons pure-u-1">
         <div id="sort" className="people">
@@ -113,8 +113,8 @@ class PersonComponent extends React.Component {
               <div className={classNames(cssClasses)}>
                 <div className="person-profession">{person.profession}</div>
                 <div className="person-life">
-                  {person.born ? `∗ ${person.born}` : ''} {person.died ? `† ${person.died}`: ''}
-                </div>
+                  {person.born ? `∗ ${person.born}` : ''} &nbsp;
+                  {person.died ? `† ${person.died}`: ''}</div>
                 <div className="person-country">{person.country}</div>
                 <div className="person-info justify">{person.description}</div>
               </div>
