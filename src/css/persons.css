@@ -1,17 +1,20 @@
 .person-row {display: inline-block;	border-width: 0;}
 
-.person-row:focus, .person-row:hover, .person-row:active {
-	font-weight: 700; background: #ddf; border-radius: 5px 5px 0 0;
+/*.person-item {margin: 0 5px;}*/
+.person-item:focus,
+.person-item:hover,
+.person-item:active {
+	font-weight: 700; background: #ccf; border-radius: 5px 5px 0 0;
 }
-.person-item {margin: 0 5px;}
-.person-item a {padding: 5px 0; display: block;}
+.person-item a {padding: .5em; display: block;}
+
 .person-infobox {
-	position: absolute; width: 313px; margin: 0; padding: 3px; font-weight: normal;
+	position: absolute; width: 323px; margin: 0; padding: .2em; font-weight: normal;
 	background: #fff;
-	border-color: #ddf; border-width: 0 2px 2px 2px;
+	border-color: #ccf; border-width: 0 2px 2px 2px;
 	border-style: solid; border-radius: 0 0 5px 5px;
 }
 .person-profession,
 .person-life,
 .person-country,
-.person-info {margin-bottom: 10px;}
+.person-info {margin-bottom: .2em;}
