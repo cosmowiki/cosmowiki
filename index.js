@@ -33363,169 +33363,6 @@ exports["default"] = AstronomyComponent;
 module.exports = exports["default"];
 
 },{"react":443}],422:[function(require,module,exports){
-'use strict';
-
-Object.defineProperty(exports, '__esModule', {
-  value: true
-});
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-
-var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
-var _notes = require('./notes');
-
-var _notes2 = _interopRequireDefault(_notes);
-
-var _vcard = require('./vcard');
-
-var _vcard2 = _interopRequireDefault(_vcard);
-
-var ChronicleComponent = (function (_React$Component) {
-  _inherits(ChronicleComponent, _React$Component);
-
-  function ChronicleComponent() {
-    _classCallCheck(this, ChronicleComponent);
-
-    _get(Object.getPrototypeOf(ChronicleComponent.prototype), 'constructor', this).call(this);
-    this.state = { itemInOverlay: null };
-  }
-
-  _createClass(ChronicleComponent, [{
-    key: 'render',
-    value: function render() {
-      var _this = this;
-
-      var items = this.props.items;
-
-      var itemForOverlay = function itemForOverlay(item) {
-        return _extends({ description: item.readableDate + ' in ' + item.location }, item);
-      };
-      var showOverlay = function showOverlay(item) {
-        _this.setState({ itemInOverlay: itemForOverlay(item) });
-      };
-      var hideOverlay = function hideOverlay() {
-        _this.setState({ itemInOverlay: null });
-      };
-      var overlay = this.state.itemInOverlay ? _react2['default'].createElement(_vcard2['default'], { item: this.state.itemInOverlay, onClose: hideOverlay }) : null;
-
-      return _react2['default'].createElement(
-        'main',
-        { role: 'main', className: 'pure-u-1' },
-        _react2['default'].createElement(
-          'div',
-          { id: 'featured', className: 'chronicle pure-u-1 center' },
-          _react2['default'].createElement(
-            'h1',
-            null,
-            'Chronik'
-          ),
-          _react2['default'].createElement(
-            'h3',
-            null,
-            'Meilensteine der Astronomie und Raumfahrt'
-          )
-        ),
-        _react2['default'].createElement(
-          'div',
-          { id: 'dataArea' },
-          _react2['default'].createElement(
-            'div',
-            { id: 'timeline' },
-            items.map(function (item, idx) {
-              return _react2['default'].createElement(ItemComponent, { item: item, key: idx, onClick: function () {
-                  return showOverlay(item);
-                } });
-            })
-          )
-        ),
-        overlay,
-        _react2['default'].createElement(_notes2['default'], null)
-      );
-    }
-  }]);
-
-  return ChronicleComponent;
-})(_react2['default'].Component);
-
-exports['default'] = ChronicleComponent;
-
-var ItemComponent = function ItemComponent(_ref) {
-  var item = _ref.item;
-  var onClick = _ref.onClick;
-
-  return _react2['default'].createElement(
-    'div',
-    { className: 'event-row data-row pure-u-1' },
-    _react2['default'].createElement(
-      'div',
-      { className: 'event-data1 pure-u-1 pure-u-lg-9-24' },
-      _react2['default'].createElement(
-        'div',
-        { className: 'event-date pure-u-1 pure-u-sm-11-24 pure-u-lg-1-3' },
-        _react2['default'].createElement(
-          'p',
-          null,
-          item.date
-        )
-      ),
-      _react2['default'].createElement(
-        'div',
-        { className: 'event-dash pure-u-sm-1-12 pure-u-lg-1-24' },
-        _react2['default'].createElement(
-          'p',
-          null,
-          '-'
-        )
-      ),
-      _react2['default'].createElement(
-        'div',
-        { className: 'event-place pure-u-1 pure-u-sm-11-24 pure-u-lg-15-24' },
-        _react2['default'].createElement(
-          'p',
-          null,
-          item.place ? item.place : ''
-        )
-      )
-    ),
-    _react2['default'].createElement(
-      'div',
-      { className: 'event-data2 pure-u-1 pure-u-lg-15-24' },
-      _react2['default'].createElement(
-        'div',
-        { className: 'event-name pure-u-7-8 pure-u-md-1', onClick: onClick },
-        _react2['default'].createElement(
-          'p',
-          null,
-          _react2['default'].createElement(
-            'a',
-            { href: item.link },
-            item.name
-          )
-        )
-      )
-    )
-  );
-};
-
-// <div id="timelineHeader"></div>
-// {items.map((item, idx) => <ItemComponent item={item} key={idx} onClick={() => showOverlay(item)} />)}
-// <div id="timelineFooter"></div>
-module.exports = exports['default'];
-
-},{"./notes":432,"./vcard":440,"react":443}],423:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33574,7 +33411,7 @@ var Letter = function Letter(_ref2) {
 };
 module.exports = exports["default"];
 
-},{"react":443}],424:[function(require,module,exports){
+},{"react":443}],423:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -33724,7 +33561,7 @@ var ConstellationComponent = function ConstellationComponent(_ref2) {
 };
 module.exports = exports['default'];
 
-},{"./notes":432,"react":443}],425:[function(require,module,exports){
+},{"./notes":432,"react":443}],424:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -33761,7 +33598,171 @@ var ContentOnlyComponent = function ContentOnlyComponent(_ref) {
 exports['default'] = ContentOnlyComponent;
 module.exports = exports['default'];
 
-},{"./homefooter":428,"./logo":429,"react":443}],426:[function(require,module,exports){
+},{"./homefooter":428,"./logo":429,"react":443}],425:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _notes = require('./notes');
+
+var _notes2 = _interopRequireDefault(_notes);
+
+var _vcard = require('./vcard');
+
+var _vcard2 = _interopRequireDefault(_vcard);
+
+var ChronicleComponent = (function (_React$Component) {
+  _inherits(ChronicleComponent, _React$Component);
+
+  function ChronicleComponent() {
+    _classCallCheck(this, ChronicleComponent);
+
+    _get(Object.getPrototypeOf(ChronicleComponent.prototype), 'constructor', this).call(this);
+    this.state = { itemInOverlay: null };
+  }
+
+  _createClass(ChronicleComponent, [{
+    key: 'render',
+    value: function render() {
+      var _this = this;
+
+      var items = this.props.items;
+
+      var itemForOverlay = function itemForOverlay(item) {
+        return _extends({ description: item.date + ' in ' + item.place }, item);
+      };
+      var showOverlay = function showOverlay(item) {
+        _this.setState({ itemInOverlay: itemForOverlay(item) });
+      };
+      var hideOverlay = function hideOverlay() {
+        _this.setState({ itemInOverlay: null });
+      };
+      var overlay = this.state.itemInOverlay ? _react2['default'].createElement(_vcard2['default'], { item: this.state.itemInOverlay, onClose: hideOverlay }) : null;
+
+      return _react2['default'].createElement(
+        'main',
+        { role: 'main', className: 'pure-u-1' },
+        _react2['default'].createElement(
+          'div',
+          { id: 'featured', className: 'chronicle pure-u-1 center' },
+          _react2['default'].createElement(
+            'h1',
+            null,
+            'Chronik'
+          ),
+          _react2['default'].createElement(
+            'h3',
+            null,
+            'Meilensteine der Astronomie und Raumfahrt'
+          )
+        ),
+        _react2['default'].createElement(
+          'div',
+          { id: 'todo', className: 'pure-u-1' },
+          '@wolfram pls hide the span id="coordinates" from the WP article when loading in vcard'
+        ),
+        _react2['default'].createElement(
+          'div',
+          { id: 'dataArea' },
+          _react2['default'].createElement(
+            'div',
+            { id: 'timeline' },
+            items.map(function (item, idx) {
+              return _react2['default'].createElement(ItemComponent, { item: item, key: idx, onClick: function () {
+                  return showOverlay(item);
+                } });
+            })
+          )
+        ),
+        overlay,
+        _react2['default'].createElement(_notes2['default'], null)
+      );
+    }
+  }]);
+
+  return ChronicleComponent;
+})(_react2['default'].Component);
+
+exports['default'] = ChronicleComponent;
+
+var ItemComponent = function ItemComponent(_ref) {
+  var item = _ref.item;
+  var onClick = _ref.onClick;
+
+  return _react2['default'].createElement(
+    'div',
+    { className: 'event-row data-row pure-u-1' },
+    _react2['default'].createElement(
+      'div',
+      { className: 'event-data1 pure-u-1 pure-u-lg-9-24' },
+      _react2['default'].createElement(
+        'div',
+        { className: 'event-date pure-u-1 pure-u-sm-11-24 pure-u-lg-1-3' },
+        _react2['default'].createElement(
+          'p',
+          null,
+          item.date
+        )
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'event-dash pure-u-sm-1-12 pure-u-lg-1-24' },
+        _react2['default'].createElement(
+          'p',
+          null,
+          item.place ? '-' : ''
+        )
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'event-place pure-u-1 pure-u-sm-11-24 pure-u-lg-15-24' },
+        _react2['default'].createElement(
+          'p',
+          null,
+          item.place ? item.place : ''
+        )
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { className: 'event-data2 pure-u-1 pure-u-lg-15-24' },
+      _react2['default'].createElement(
+        'div',
+        { className: 'event-name pure-u-7-8 pure-u-md-1', onClick: onClick },
+        _react2['default'].createElement(
+          'p',
+          null,
+          item.name
+        )
+      )
+    )
+  );
+};
+
+// <div id="timelineHeader"></div>
+// {items.map((item, idx) => <ItemComponent item={item} key={idx} onClick={() => showOverlay(item)} />)}
+// <div id="timelineFooter"></div>
+module.exports = exports['default'];
+
+},{"./notes":432,"./vcard":440,"react":443}],426:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -35431,7 +35432,7 @@ var PersonComponent = (function (_React$Component) {
 
 module.exports = exports['default'];
 
-},{"./chunks/letter-links":423,"./notes":432,"classnames":10,"react":443}],436:[function(require,module,exports){
+},{"./chunks/letter-links":422,"./notes":432,"classnames":10,"react":443}],436:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -35766,7 +35767,9 @@ var StarsComponent = function StarsComponent(_ref) {
       { id: 'todo', className: 'pure-u-1' },
       '@wolfram pls make the sorter and filter work',
       _react2['default'].createElement('br', null),
-      '@all find a way for sorter and filter on small screens (toggle-buttons?)'
+      '@all find a way for sorter and filter on small screens (toggle-buttons?)',
+      _react2['default'].createElement('br', null),
+      '@me find a solution for the greek letters / bayer names vs. historical names'
     ),
     _react2['default'].createElement(
       'div',
@@ -36105,7 +36108,7 @@ var StarComponent = function StarComponent(_ref4) {
 // </tr>
 module.exports = exports['default'];
 
-},{"./chunks/letter-links":423,"./notes":432,"react":443}],440:[function(require,module,exports){
+},{"./chunks/letter-links":422,"./notes":432,"react":443}],440:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -36148,7 +36151,7 @@ var VcardComponent = (function (_React$Component) {
       var item = this.props.item;
 
       var url = 'https://wt-wolfram--github-kriesing-de-0.run.webtask.io/wikipedia-article-extract?article-url=';
-      fetch('' + url + encodeURIComponent(item.wikipediaUrl)).then(function (response) {
+      fetch('' + url + encodeURIComponent(item.link)).then(function (response) {
         return response.json();
       }).then(function (text) {
         _this.setState({ paragraphs: text.trim().split('\n') });
@@ -36443,8 +36446,8 @@ var VcardComponent = (function (_React$Component) {
                   'Wikipedia-Artikel ansehen: ',
                   _react2['default'].createElement(
                     'a',
-                    { href: item.wikipediaUrl, target: '_blank' },
-                    decodeURIComponent(item.wikipediaUrl)
+                    { href: item.link, target: '_blank' },
+                    decodeURIComponent(item.link)
                   )
                 )
               )
@@ -36692,7 +36695,7 @@ if (createStaticSites) {
 }
 
 }).call(this,require('_process'),"/src")
-},{"./_external-deps/http-get":418,"./appurl":419,"./components/content-only":425,"./components/page":434,"./scripts/make-urls-offline":442,"./sites/about":444,"./sites/astronauts":445,"./sites/astronomers":446,"./sites/astronomy":447,"./sites/constellations":448,"./sites/events":449,"./sites/home":451,"./sites/missions":452,"./sites/objects":453,"./sites/people":454,"./sites/solar-system":455,"./sites/space-stations":456,"./sites/spaceflight":457,"./sites/stars":458,"_process":236,"babel/polyfill":3,"fs":6,"mkdirp":230,"path":234,"react":443,"react-dom":241,"react-dom/server":371}],442:[function(require,module,exports){
+},{"./_external-deps/http-get":418,"./appurl":419,"./components/content-only":424,"./components/page":434,"./scripts/make-urls-offline":442,"./sites/about":444,"./sites/astronauts":445,"./sites/astronomers":446,"./sites/astronomy":447,"./sites/constellations":448,"./sites/events":449,"./sites/home":451,"./sites/missions":452,"./sites/objects":453,"./sites/people":454,"./sites/solar-system":455,"./sites/space-stations":456,"./sites/spaceflight":457,"./sites/stars":458,"_process":236,"babel/polyfill":3,"fs":6,"mkdirp":230,"path":234,"react":443,"react-dom":241,"react-dom/server":371}],442:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -37050,7 +37053,7 @@ var Star = (function () {
 
 module.exports = exports['default'];
 
-},{"../components/constellations":424,"react":443}],449:[function(require,module,exports){
+},{"../components/constellations":423,"react":443}],449:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -37067,9 +37070,9 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _componentsChronicle = require('../components/chronicle');
+var _componentsEvents = require('../components/events');
 
-var _componentsChronicle2 = _interopRequireDefault(_componentsChronicle);
+var _componentsEvents2 = _interopRequireDefault(_componentsEvents);
 
 var Events = (function () {
   function Events() {
@@ -37079,7 +37082,7 @@ var Events = (function () {
   _createClass(Events, null, [{
     key: 'componentWithData',
     value: function componentWithData(events) {
-      return _react2['default'].createElement(_componentsChronicle2['default'], { items: events });
+      return _react2['default'].createElement(_componentsEvents2['default'], { items: events });
     }
   }, {
     key: 'fromRawData',
@@ -37132,7 +37135,7 @@ var Event = (function () {
 
 module.exports = exports['default'];
 
-},{"../components/chronicle":422,"react":443}],450:[function(require,module,exports){
+},{"../components/events":425,"react":443}],450:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {

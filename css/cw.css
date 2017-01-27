@@ -186,7 +186,7 @@ main {border-bottom: 1em solid #eee;}
 	font-size: .8em;
 	background: rgba(255,255,255,.8);
 }
-
+.letter-section {border-bottom: 1px solid #fff;}
 .letter-section-header {
 	background: rgba(255,255,255,.5);
 	border-bottom: 1px solid #fff;
@@ -230,8 +230,14 @@ footer {margin-bottom: 1em; background: #eee; border-top: 1em solid #99f;}
 }
 
 footer h4, footer ul {background: #fff; border-radius: 5px;}
-footer h4 {margin: 0 .5em .5em; padding: .25em 0;}
-footer ul {margin: 0 .5em .5em; min-height: 12em;}
+footer h4 {
+	margin: 0 .5em .5em; padding: .125em 0;
+	background: #ccf; border-radius: 5px 5px 0 0;
+}
+footer ul {
+	margin: 0 .5em .5em; min-height: 12em;
+	border-radius: 0 0 5px 5px; border: 2px solid #ccf; border-top-width: 0;
+}
 footer ul li a {display: block; line-height: 1.5em;}
 footer ul li a:hover {background: #eee;}
 
