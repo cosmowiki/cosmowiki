@@ -11,7 +11,3 @@ const Logo = () => {
 };
 
 export default Logo;
-
-// <div id="menuToggleButton">
-//   <a href="#"></a>
-// </div>

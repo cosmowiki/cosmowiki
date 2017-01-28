@@ -29,7 +29,7 @@ Run `npm run data-from-spreadsheet name-of-the-page` to update a single JSON fil
 - make the map (places) work
 - include shariff for private social linking
 - document creation of new sites
-- responsive nav menu (toggle button already prepared)
+- responsive nav menu (look at the pure manual)
 
 #nice to have
 - simple vcard with abstract of first paragraph from wikipedia
