@@ -58,6 +58,7 @@ header, main, footer {margin: 0 auto; max-width: 1025px;}
 /*		Branding -------------------------------------------------------------- */
 
 #branding {
+	position: fixed; top: 0; left: 0;
 	height: 40px;
 	background-image: linear-gradient(to right, #fff 180px, rgba(153,153,255,.2));
 	border-bottom: 1px solid #fff;
@@ -78,7 +79,7 @@ header, main, footer {margin: 0 auto; max-width: 1025px;}
 
 /*		Header ---------------------------------------------------------------- */
 
-header {margin: 0 auto;}
+header {margin: 40px auto 0;}
 
 /*			Nav ----------------------------------------------------------------- */
 
@@ -251,9 +252,8 @@ footer ul li:last-child a:hover {border-radius: 0 0 5px 5px;}
 }
 @media only screen and (min-width: 1025px) {
 	header, main, footer {max-width: 1000px;}
-  header {margin-top: 1em;}
 	main {margin-bottom: 1em; border-radius: 0 0 5px 5px;}
-	nav {border-radius: 5px 5px 0 0;}
+	nav {margin-top: 1em; border-radius: 5px 5px 0 0;}
 	footer {border-radius: 5px 5px 5px 5px;}
 }
 @media only screen and (min-width: 1200px) {
