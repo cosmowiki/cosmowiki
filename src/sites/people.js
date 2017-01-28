@@ -1,5 +1,5 @@
 import React from 'react';
-import PeopleComponent from '../components/persons';
+import PeopleComponent from '../components/people';
 import Grouper from './helper/grouper';
 
 export default class People {
