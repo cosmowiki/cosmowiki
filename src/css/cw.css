@@ -114,41 +114,32 @@ main {border-bottom: 1em solid #eee;}
 
 /*			functionArea -------------------------------------------------------- */
 
-#functionArea {
-	min-height: 1.5em;
-	background: #eee;
-	border-bottom: 1px solid #fff;
-}
+#functionArea {background: #eee;}
 
+#sortAndFilterArea, #letterIndexArea {border-bottom: 1px solid #fff;}
 #sort, #filter {
-	display: inline-block; padding: .2em 0;
-	font-size: .9em;
+	display: inline-block;
+	font-size: .9em; line-height: 1.5em;
 	background: #eee;
 }
-
-#sort {float: left;}
-#filter {float: right;}
 
 #sortArea, #filterArea {display: none;}
 #functionArea a {display: inline; margin: .2em;}
 
-#sort:hover a.toggle-sort {display: none;}
-#sort:hover #sortArea {display: block;}
-
-#filter:hover #filterArea {display: block;}
+#sort:hover a.toggle-sort,
 #filter:hover a.toggle-filter {display: none;}
+#sort:hover #sortArea,
+#filter:hover #filterArea {display: block;}
 
 #functionArea label, #functionArea form {display: inline; margin: 0 .1em;}
-#filterArea form {float: left;}
+#filterArea form {text-align: right;}
 #sort select, #filter select {margin-left: .1em;}
 
-#letterLinks {background: #eee;}
+#letterIndexArea li {display: inline-block; padding: .2em 0; }
+#letterIndexArea a {display: inline-block; margin-left: .2em;}
 
-#letterLinks li {display: inline-block; padding: .2em 0; }
-#letterLinks a {display: inline-block; margin-left: .2em;}
-
-#letterLinks a:hover {font-weight: bold;}
-#letterLinks a:after {
+#letterIndexArea a:hover {font-weight: bold;}
+#letterIndexArea a:after {
 	margin-left: .2em; content:attr(title); height: .2em;
   font-weight:bold; color:transparent; overflow:hidden; visibility:hidden;
 }

@@ -12,53 +12,55 @@ const MissionsComponent = ({missions}) => {
         @wolfram pls make the sorter and filters work<br />
         @wolfram pls make the toggle-switches for sort and filter work on small screens
       </div>
-      <div id="functionArea" className="missions">
-        <div id="sort" className="missions">
-          <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
-          <div id="sortArea">
-            <form id="sortMissions" className="sort-form">
-              <select name="sortMissions">
-                <option value="sortMissionsLaunchUp" selected>Startdatum - aufsteigend</option>
-                <option value="sortMissionsLaunchDown">Startdatum - absteigend</option>
-                <option value="sortMissionsEndUp">Missionsende - aufsteigend</option>
-                <option value="sortMissionsEndDown">Missionsende - absteigend</option>
-                <option value="sortMissionsDurationUp">Missionsdauer - aufsteigend</option>
-                <option value="sortMissionsDurationDown">Missionsdauer - absteigend</option>
-                <option value="sortMissionsNameUp">alphabetisch - aufsteigend</option>
-                <option value="sortMissionsNameDown">alphabetisch - absteigend</option>
-              </select>
-            </form>
+      <div id="functionArea" className="missions pure-u-1">
+        <div id="sortAndFilterArea" className="pure-u-1">
+          <div id="sort" className="missions pure-u-1-2 left">
+            <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
+            <div id="sortArea">
+              <form id="sortMissions" className="sort-form">
+                <select name="sortMissions">
+                  <option value="sortMissionsLaunchUp" selected>Startdatum - aufsteigend</option>
+                  <option value="sortMissionsLaunchDown">Startdatum - absteigend</option>
+                  <option value="sortMissionsEndUp">Missionsende - aufsteigend</option>
+                  <option value="sortMissionsEndDown">Missionsende - absteigend</option>
+                  <option value="sortMissionsDurationUp">Missionsdauer - aufsteigend</option>
+                  <option value="sortMissionsDurationDown">Missionsdauer - absteigend</option>
+                  <option value="sortMissionsNameUp">alphabetisch - aufsteigend</option>
+                  <option value="sortMissionsNameDown">alphabetisch - absteigend</option>
+                </select>
+              </form>
+            </div>
           </div>
-        </div>
-        <div id="filter" className="missions right">
-          <a href="#" className="toggle-filter" name="toggle-filter">Filtern</a>
-          <div id="filterArea">
-            <form id="filterMissionsCategory" className="filter-form">
-              <label>Kategorie:</label>
-              <select name="filterMissionsCategory">
-                <option value="filterMissionsAll" selected>alle</option>
-                <option value="filterMissionsManned">bemannte Missionen</option>
-                <option value="filterMissionsUnmanned">unbemannte Missionen</option>
-                <option value="filterMissionsSatellite">Satelliten</option>
-                <option value="filterMissionsSpaceprobe">Raumsonden</option>
-                <option value="filterMissionsSpacestation">Raumstationen</option>
-                <option value="filterMissionsSpacetelescope">Weltraumteleskope</option>
-              </select>
-            </form>
-            <form id="filterMissionsCountry" className="filter-form">
-              <label>Land:</label>
-              <select name="filterMissionsCountry">
-                <option value="filterMissionsAll" selected>alle</option>
-                <option value="filterMissions[selectedCountry]">Länder</option>
-              </select>
-            </form>
-            <form id="filterMissionsDestination" className="filter-form">
-              <label>Ziel:</label>
-              <select name="filterMissionDestination">
-                <option value="filterMissionsAll" selected>alle</option>
-                <option value="filterMissions[selectedDestination]">Ziele</option>
-              </select>
-            </form>
+          <div id="filter" className="missions pure-u-1-2 right">
+            <a href="#" className="toggle-filter" name="toggle-filter">Filtern</a>
+            <div id="filterArea">
+              <form id="filterMissionsCategory" className="filter-form">
+                <label>Kategorie:</label>
+                <select name="filterMissionsCategory">
+                  <option value="filterMissionsAll" selected>alle</option>
+                  <option value="filterMissionsManned">bemannte Missionen</option>
+                  <option value="filterMissionsUnmanned">unbemannte Missionen</option>
+                  <option value="filterMissionsSatellite">Satelliten</option>
+                  <option value="filterMissionsSpaceprobe">Raumsonden</option>
+                  <option value="filterMissionsSpacestation">Raumstationen</option>
+                  <option value="filterMissionsSpacetelescope">Weltraumteleskope</option>
+                </select>
+              </form>
+              <form id="filterMissionsCountry" className="filter-form">
+                <label>Land:</label>
+                <select name="filterMissionsCountry">
+                  <option value="filterMissionsAll" selected>alle</option>
+                  <option value="filterMissions[selectedCountry]">Länder</option>
+                </select>
+              </form>
+              <form id="filterMissionsDestination" className="filter-form">
+                <label>Ziel:</label>
+                <select name="filterMissionDestination">
+                  <option value="filterMissionsAll" selected>alle</option>
+                  <option value="filterMissions[selectedDestination]">Ziele</option>
+                </select>
+              </form>
+            </div>
           </div>
         </div>
       </div>

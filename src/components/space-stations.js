@@ -14,19 +14,24 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
         @all find a way for sorter and filter on small screens (toggle-buttons?)
       </div>
       <div id="functionArea" className="stations pure-u-1">
-        <div id="sort" className="stations">
-          <form id="sortStations" className="sort-form">
-            <select name="sortStations">
-              <option value="sortStationsLaunchUp" selected>Startdatum - aufsteigend</option>
-              <option value="sortStationsLaunchDown">Startdatum - absteigend</option>
-              <option value="sortStationsEndUp">Missionsende - aufsteigend</option>
-              <option value="sortStationsEndDown">Missionsende - absteigend</option>
-              <option value="sortStationsDurationUp">Dauer - aufsteigend</option>
-              <option value="sortStationsDurationDown">Dauer - absteigend</option>
-              <option value="sortStationsNameUp">Name - aufsteigend</option>
-              <option value="sortStationsNameDown">Name - absteigend</option>
-            </select>
-          </form>
+        <div id="sortAndFilterArea" className="pure-u-1">
+          <div id="sort" className="stations pure-u-1-2 left">
+            <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
+            <div id="sortArea">
+              <form id="sortStations" className="sort-form">
+                <select name="sortStations">
+                  <option value="sortStationsLaunchUp" selected>Startdatum - aufsteigend</option>
+                  <option value="sortStationsLaunchDown">Startdatum - absteigend</option>
+                  <option value="sortStationsEndUp">Missionsende - aufsteigend</option>
+                  <option value="sortStationsEndDown">Missionsende - absteigend</option>
+                  <option value="sortStationsDurationUp">Dauer - aufsteigend</option>
+                  <option value="sortStationsDurationDown">Dauer - absteigend</option>
+                  <option value="sortStationsNameUp">Name - aufsteigend</option>
+                  <option value="sortStationsNameDown">Name - absteigend</option>
+                </select>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
       <div id="dataArea" className="stations pure-u-1">

@@ -19,34 +19,36 @@ const PeopleComponent = ({groupedPeople}) => {
         @all hide letterLinks on small screens?
       </div>
       <div id="functionArea" className="persons pure-u-1">
-        <div id="sort" className="people">
-          <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
-          <div id="sortArea">
-            <form id="sortPeople" className="sort-form">
-              <select name="sortPeople">
-                <option value="sortPeopleNameUp" selected>Name - aufsteigend</option>
-                <option value="sortPeopleNameDown">Name - absteigend</option>
-                <option value="sortPeopleBornUp">Geburtsdatum - aufsteigend</option>//not important yet, too much items w/o dates
-                <option value="sortPeopleBornDown">Geburtsdatum - absteigend</option>//not important yet, too much items w/o dates
-                <option value="sortPeopleDiedUp">Sterbedatum - aufsteigend</option>//not important yet, too much items w/o dates
-                <option value="sortPeopleDiedDown">Sterbedatum - absteigend</option>//not important yet, too much items w/o dates
-              </select>
-            </form>
+        <div id="sortAndFilterArea" className="pure-u-1">
+          <div id="sort" className="people pure-u-1-2 left">
+            <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
+            <div id="sortArea">
+              <form id="sortPeople" className="sort-form">
+                <select name="sortPeople">
+                  <option value="sortPeopleNameUp" selected>Name - aufsteigend</option>
+                  <option value="sortPeopleNameDown">Name - absteigend</option>
+                  <option value="sortPeopleBornUp">Geburtsdatum - aufsteigend</option>//not important yet, too much items w/o dates
+                  <option value="sortPeopleBornDown">Geburtsdatum - absteigend</option>//not important yet, too much items w/o dates
+                  <option value="sortPeopleDiedUp">Sterbedatum - aufsteigend</option>//not important yet, too much items w/o dates
+                  <option value="sortPeopleDiedDown">Sterbedatum - absteigend</option>//not important yet, too much items w/o dates
+                </select>
+              </form>
+            </div>
           </div>
-        </div>
-        <div id="filter" className="people">
-          <a href="#" className="toggle-filter" name="toggle-filter">Filtern</a>
-          <div id="filterArea">
-            <form id="filterPeople" className="filter-form">
-              <label>Beruf:</label>
-              <select name="filterPeopleProfession">
-                <option value="filterPeopleAll" selected>alle</option>
-                <option value="filterPeopleAstronomers">Astronomen</option>
-                <option value="filterPeoplePhysicists">Physiker</option>
-                <option value="filterPeopleAstronauts">Raumfahrer</option>
-                <option value="filterPeoplePioneers">Raumfahrtpionier</option>
-              </select>
-            </form>
+          <div id="filter" className="people pure-u-1-2 right">
+            <a href="#" className="toggle-filter" name="toggle-filter">Filtern</a>
+            <div id="filterArea">
+              <form id="filterPeople" className="filter-form">
+                <label>Beruf:</label>
+                <select name="filterPeopleProfession">
+                  <option value="filterPeopleAll" selected>alle</option>
+                  <option value="filterPeopleAstronomers">Astronomen</option>
+                  <option value="filterPeoplePhysicists">Physiker</option>
+                  <option value="filterPeopleAstronauts">Raumfahrer</option>
+                  <option value="filterPeoplePioneers">Raumfahrtpionier</option>
+                </select>
+              </form>
+            </div>
           </div>
         </div>
         <LetterLinks letters={allFirstLetters} />

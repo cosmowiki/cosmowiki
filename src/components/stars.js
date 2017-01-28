@@ -18,34 +18,35 @@ const StarsComponent = ({groupedStars, constellations}) => {
         @me find a solution for the greek letters / bayer names vs. historical names
       </div>
       <div id="functionArea" className="stars pure-u-1">
-        <div id="sort" className="stars">
-          <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
-          <div id="sortArea">
-            <form id="sortStars" className="sort-form">
-              <label>Sortieren:</label>
-              <select name="sortStars">
-                <option value="sortStarsHistoricalNameUp selected" selected>historischer Name - aufsteigend</option>
-                <option value="sortStarsHistoricalNameDown">historischer Name - absteigend</option>
-                <option value="sortStarsBayerNameUp">Bayer-Name - aufsteigend</option>
-                <option value="sortStarsBayerNameDown">Bayer-Name - absteigend</option>
-                <option value="sortStarsConstellationNameUp">Sternbild - aufsteigend</option>
-                <option value="sortStarsConstellationNameDown">Sternbild - absteigend</option>
-                <option value="sortStarsMagUp">Helligkeit - aufsteigend</option>
-                <option value="sortStarsMagDown">Helligkeit - absteigend</option>
-                <option value="sortStarsDistanceUp">Entfernung - aufsteigend</option>
-                <option value="sortStarsDistanceDown">Entfernung - absteigend</option>
-                <option value="sortStarsMassUp">Masse - aufsteigend</option>
-                <option value="sortStarsMassDown">Masse - absteigend</option>
-                <option value="sortStarsRadiusUp">Radius - aufsteigend</option>
-                <option value="sortStarsRadiusDown">Radius - absteigend</option>
-              </select>
-            </form>
+        <div id="sortAndFilterArea" className="pure-u-1">
+          <div id="sort" className="stars pure-u-1-2 left">
+            <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
+            <div id="sortArea">
+              <form id="sortStars" className="sort-form">
+                <select name="sortStars">
+                  <option value="sortStarsHistoricalNameUp selected" selected>historischer Name - aufsteigend</option>
+                  <option value="sortStarsHistoricalNameDown">historischer Name - absteigend</option>
+                  <option value="sortStarsBayerNameUp">Bayer-Name - aufsteigend</option>
+                  <option value="sortStarsBayerNameDown">Bayer-Name - absteigend</option>
+                  <option value="sortStarsConstellationNameUp">Sternbild - aufsteigend</option>
+                  <option value="sortStarsConstellationNameDown">Sternbild - absteigend</option>
+                  <option value="sortStarsMagUp">Helligkeit - aufsteigend</option>
+                  <option value="sortStarsMagDown">Helligkeit - absteigend</option>
+                  <option value="sortStarsDistanceUp">Entfernung - aufsteigend</option>
+                  <option value="sortStarsDistanceDown">Entfernung - absteigend</option>
+                  <option value="sortStarsMassUp">Masse - aufsteigend</option>
+                  <option value="sortStarsMassDown">Masse - absteigend</option>
+                  <option value="sortStarsRadiusUp">Radius - aufsteigend</option>
+                  <option value="sortStarsRadiusDown">Radius - absteigend</option>
+                </select>
+              </form>
+            </div>
           </div>
-        </div>
-        <div id="filter" className="missions right">
-          <a href="#" className="toggle-filter" name="toggle-filter">Filtern</a>
-          <div id="filterArea">
-            <FilterRow constellations={constellations} />
+          <div id="filter" className="missions pure-u-1-2 right">
+            <a href="#" className="toggle-filter" name="toggle-filter">Filtern</a>
+            <div id="filterArea">
+              <FilterRow constellations={constellations} />
+            </div>
           </div>
         </div>
         <LetterLinks letters={allFirstLetters} />
