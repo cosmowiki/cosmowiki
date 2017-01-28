@@ -85,24 +85,24 @@ const PersonGroupComponent = ({group}) => {
 const PersonComponent = ({person}) => {
   return (
             <div className="person-row data-row pure-u-1">
-              <div className="person-name pure-u-1 pure-u-md-1-2 pure-u-lg-7-24">
+              <div className="person-name pure-u-1 pure-u-md-1 pure-u-lg-7-24">
                 <div className="pure-u-1">
                   <p><a href={person.link}>{person.name}</a></p>
                 </div>
               </div>
-              <div className="person-data1 pure-u-1 pure-u-md-3-24 pure-u-lg-5-24">
-                <div className="person-born pure-u-1-2 pure-u-md-1 pure-u-lg-1-2 center">
+              <div className="person-data1 pure-u-1 pure-u-md-1-3 pure-u-lg-5-24">
+                <div className="person-born pure-u-1-2 pure-u-md-1-2 center">
                   <p>{person.born ? `∗ ${person.born}` : ''}</p>
                 </div>
-                <div className="person-died pure-u-1-2 pure-u-md-1 pure-u-lg-1-2 center">
+                <div className="person-died pure-u-1-2 pure-u-md-1-2 center">
                   <p>{person.died ? `† ${person.died}`: ''}</p>
                 </div>
               </div>
-              <div className="person-data2 pure-u-1 pure-u-md-9-24 pure-u-lg-1-2">
-                <div className="person-country pure-u-1-2 pure-u-md-1 pure-u-lg-1-2 center">
+              <div className="person-data2 pure-u-1 pure-u-md-2-3 pure-u-lg-1-2">
+                <div className="person-country pure-u-1-2 pure-u-md-1-2 center">
                   <p>{person.country ? person.country : ''}</p>
                 </div>
-                <div className="person-profession pure-u-1-2 pure-u-md-1 pure-u-lg-1-2 center">
+                <div className="person-profession pure-u-1-2 pure-u-md-1-2 center">
                   <p>{person.profession ? person.profession : ''}</p>
                 </div>
               </div>

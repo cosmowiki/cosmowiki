@@ -10,14 +10,12 @@
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 48em) {
-	.person-name div {line-height: 2em;}
 	.person-data1 div,
-	.person-data2 div {display: block;}
+	.person-data2 div {display: inline-block;}
 }
 @media only all and (min-width: 64em) {
 	.person-name div {font-size: 1.125em; line-height: 1.75em; text-align: left;}
 	.person-name p {margin-left: .2em;}
-
 	.person-data1 div,
 	.person-data2 div {display: inline-block; line-height: 1.75em; text-align: left;}
 	.person-born p {margin-left: .5em;}
