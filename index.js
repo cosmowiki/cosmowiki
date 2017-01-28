@@ -34132,10 +34132,6 @@ var Logo = function Logo() {
 };
 
 exports["default"] = Logo;
-
-// <div id="menuToggleButton">
-//   <a href="#"></a>
-// </div>
 module.exports = exports["default"];
 
 },{"react":442}],429:[function(require,module,exports){
