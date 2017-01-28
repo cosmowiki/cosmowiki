@@ -35302,7 +35302,7 @@ var PersonComponent = function PersonComponent(_ref3) {
     { className: 'person-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'person-name pure-u-1 pure-u-md-1-2 pure-u-lg-7-24' },
+      { className: 'person-name pure-u-1 pure-u-md-1 pure-u-lg-7-24' },
       _react2['default'].createElement(
         'div',
         { className: 'pure-u-1' },
@@ -35319,10 +35319,10 @@ var PersonComponent = function PersonComponent(_ref3) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'person-data1 pure-u-1 pure-u-md-3-24 pure-u-lg-5-24' },
+      { className: 'person-data1 pure-u-1 pure-u-md-1-3 pure-u-lg-5-24' },
       _react2['default'].createElement(
         'div',
-        { className: 'person-born pure-u-1-2 pure-u-md-1 pure-u-lg-1-2 center' },
+        { className: 'person-born pure-u-1-2 pure-u-md-1-2 center' },
         _react2['default'].createElement(
           'p',
           null,
@@ -35331,7 +35331,7 @@ var PersonComponent = function PersonComponent(_ref3) {
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'person-died pure-u-1-2 pure-u-md-1 pure-u-lg-1-2 center' },
+        { className: 'person-died pure-u-1-2 pure-u-md-1-2 center' },
         _react2['default'].createElement(
           'p',
           null,
@@ -35341,10 +35341,10 @@ var PersonComponent = function PersonComponent(_ref3) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'person-data2 pure-u-1 pure-u-md-9-24 pure-u-lg-1-2' },
+      { className: 'person-data2 pure-u-1 pure-u-md-2-3 pure-u-lg-1-2' },
       _react2['default'].createElement(
         'div',
-        { className: 'person-country pure-u-1-2 pure-u-md-1 pure-u-lg-1-2 center' },
+        { className: 'person-country pure-u-1-2 pure-u-md-1-2 center' },
         _react2['default'].createElement(
           'p',
           null,
@@ -35353,7 +35353,7 @@ var PersonComponent = function PersonComponent(_ref3) {
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'person-profession pure-u-1-2 pure-u-md-1 pure-u-lg-1-2 center' },
+        { className: 'person-profession pure-u-1-2 pure-u-md-1-2 center' },
         _react2['default'].createElement(
           'p',
           null,
