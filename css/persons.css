@@ -1,20 +1,24 @@
-.person-row {display: inline-block;	border-width: 0;}
+.person-row {padding: .2em 0;}
 
-/*.person-item {margin: 0 5px;}*/
-.person-item:focus,
-.person-item:hover,
-.person-item:active {
-	font-weight: 700; background: #ccf; border-radius: 5px 5px 0 0;
-}
-.person-item a {padding: .5em; display: block;}
+.person-name div {display: block; font-size: 1.25em; text-align: center;}
+.person-data1 div,
+.person-data2 div {display: inline-block; font-size: 1.125em;}
 
-.person-infobox {
-	position: absolute; width: 323px; margin: 0; padding: .2em; font-weight: normal;
-	background: #fff;
-	border-color: #ccf; border-width: 0 2px 2px 2px;
-	border-style: solid; border-radius: 0 0 5px 5px;
+/* only for visualisation ----------------------------------------------------*/
+/*.person-name, .person-data1, .person-data2 {outline: 1px solid blue;}*/
+/* ---------------------------------------------------------------------------*/
+
+/* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
+@media only all and (min-width: 48em) {
+	.person-name div {line-height: 2em;}
+	.person-data1 div,
+	.person-data2 div {display: block;}
 }
-.person-profession,
-.person-life,
-.person-country,
-.person-info {margin-bottom: .2em;}
+@media only all and (min-width: 64em) {
+	.person-name div {font-size: 1.125em; line-height: 1.75em; text-align: left;}
+	.person-name p {margin-left: .2em;}
+
+	.person-data1 div,
+	.person-data2 div {display: inline-block; line-height: 1.75em; text-align: left;}
+	.person-born p {margin-left: .5em;}
+}

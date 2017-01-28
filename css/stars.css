@@ -5,7 +5,7 @@
 .star-data2 div {display: inline-block; font-size: 1.125em;}
 
 /* only for visualisation ----------------------------------------------------*/
-/*.star-row div p:nth-child(odd) {background: lightblue;}*/
+/*.star-name div, .star-data1 div, .star-data2 div {outline: 1px solid blue;}*/
 /* ---------------------------------------------------------------------------*/
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */

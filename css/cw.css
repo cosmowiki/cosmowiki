@@ -39,14 +39,6 @@ a:focus, a:hover, a:active {color: #333;}
 .visible {display: block;}
 .hidden {display: none;}
 
-/*	Pure CSS ---------------------------------------------------------------- */
-
-.pure-menu-active>.pure-menu-link,
-.pure-menu-link:hover,
-.pure-menu-link:focus {
-	background-color: #e0e0e0;
-}
-
 /*	Structure --------------------------------------------------------------- */
 
 #wrapper {
@@ -90,11 +82,15 @@ header {margin: 0 auto;}
 
 /*			Nav ----------------------------------------------------------------- */
 
-nav {margin: 0 auto; background: #fafafa;	border-bottom: 1px solid #fff;}
+nav {margin: 0 auto; background: #f8f8f8;	border-bottom: 1px solid #ddd;}
 
-nav ul ul {border-top: 1px solid #fff;}
-nav ul ul li {text-align: left; border-bottom: 1px solid #e0e0e0;}
-nav ul ul li:last-child {border: 0;}
+.pure-menu-link:focus,
+.pure-menu-link:hover,
+.pure-menu-link:active {background: #fff;}
+.pure-menu-children {background: transparent; border-top: 1px solid #ddd;}
+
+nav ul ul li a {background: #f8f8f8; border-bottom: 1px solid #ddd;}
+nav ul ul li:last-child a {border-bottom: none; border-radius: 0 0 5px 5px;}
 
 /*		Main ------------------------------------------------------------------ */
 
@@ -104,7 +100,7 @@ main {border-bottom: 1em solid #eee;}
 
 #featured {
 	min-height: 4.5em;
-	background: #eee;
+	background: rgba(255, 255, 255, .9);
 	border-bottom: 1px solid #fff;
 }
 
@@ -186,7 +182,6 @@ main {border-bottom: 1em solid #eee;}
 	font-size: .8em;
 	background: rgba(255,255,255,.8);
 }
-.letter-section {border-bottom: 1px solid #fff;}
 .letter-section-header {
 	background: rgba(255,255,255,.5);
 	border-bottom: 1px solid #fff;
@@ -207,8 +202,8 @@ main {border-bottom: 1em solid #eee;}
 #notes {
 	clear: left;
 	font-size: .8em;
-	background: #eee;
-	border-bottom: 1px solid #fff;
+	background: #f8f8f8;
+	border-bottom: 1px solid #ddd;
 }
 
 #notes p {padding: .5em;}
@@ -218,32 +213,28 @@ main {border-bottom: 1em solid #eee;}
 
 /*	Footer ------------------------------------------------------------------ */
 
-footer {margin-bottom: 1em; background: #eee; border-top: 1em solid #99f;}
+footer {margin-bottom: 1em; background: #f8f8f8; border-top: 1em solid #99f;}
 #footerContainer {
 	padding: 1em 0 .5em;
-	border-top: 1px solid #fff;	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;	border-bottom: 1px solid #ddd;
 }
-
-.footer-part {
-	display: inline-block;
-	background: #eee;
-}
-
-footer h4, footer ul {background: #fff; border-radius: 5px;}
+footer h4, footer ul {border-radius: 5px;}
 footer h4 {
-	margin: 0 .5em .5em; padding: .125em 0;
-	background: #ccf; border-radius: 5px 5px 0 0;
+	margin: 0 .5em 0; padding: .125em 0;
+	background: #eee; border: 1px solid #ddd; border-radius: 5px 5px 0 0;
 }
 footer ul {
-	margin: 0 .5em .5em; min-height: 12em;
-	border-radius: 0 0 5px 5px; border: 2px solid #ccf; border-top-width: 0;
+	margin: 0 .5em .5em;
+	background: #fff;
+	border-radius: 0 0 5px 5px; border: 1px solid #ddd; border-top-width: 0;
 }
 footer ul li a {display: block; line-height: 1.5em;}
 footer ul li a:hover {background: #eee;}
+footer ul li:last-child a:hover {border-radius: 0 0 5px 5px;}
 
 .shariff-button a.share_text {color: #fff;}
 
-#footerFoot {line-height: 1em;}
+#footerFoot {line-height: 1em; background: #eee;}
 #footerFoot p {font-size: .6em;}
 
 /* properties for breakpoints ----------------------------------------------- */
@@ -252,6 +243,8 @@ footer ul li a:hover {background: #eee;}
   nav {display: inline-block;}
 	#sortArea, #filterArea, #sort form, #filter form {display: inline;}
 	#sort a, #filter a {display: none;}
+	footer ul {min-height: 12em;}
+	footer ul li:last-child a:hover {border-radius: 0;}
 }
 @media only screen and (min-width: 64em) {
   #functionArea {min-height: 1.5em;}
