@@ -202,8 +202,8 @@ main {border-bottom: 1em solid #eee;}
 #notes {
 	clear: left;
 	font-size: .8em;
-	background: #eee;
-		border-bottom: 1px solid #ddd;
+	background: #f8f8f8;
+	border-bottom: 1px solid #ddd;
 }
 
 #notes p {padding: .5em;}
@@ -234,7 +234,7 @@ footer ul li:last-child a:hover {border-radius: 0 0 5px 5px;}
 
 .shariff-button a.share_text {color: #fff;}
 
-#footerFoot {line-height: .8em;}
+#footerFoot {line-height: 1em; background: #eee;}
 #footerFoot p {font-size: .6em;}
 
 /* properties for breakpoints ----------------------------------------------- */
