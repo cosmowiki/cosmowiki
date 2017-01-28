@@ -17,9 +17,9 @@ export default class People {
 
 export class Person {
 
-  constructor({name, wikipediaUrl, profession, country, description, born, died, type}) {
+  constructor({name, link, profession, country, description, born, died, type}) {
     this.name = name;
-    this.wikipediaUrl = wikipediaUrl;
+    this.link = link;
     this.profession = profession;
     this.country = country;
     this.description = description;
@@ -45,7 +45,7 @@ export class Person {
       // "itemtags": "Gemini 8, Apollo 11, Mond, Mondlandung"
     let item = {
       name: [raw.itemname, raw.itemname2].join(', '),
-      wikipediaUrl: raw.itemurl,
+      link: raw.itemurl,
       profession: raw.itemproperty,
       country: raw.itemcountry,
       description: raw.itemdescription,
