@@ -14,7 +14,7 @@ const PeopleComponent = ({groupedPeople}) => {
       </div>
       <div id="todo" className="pure-u-1">
         @wolfram pls hide the filter-option "astronauts" on astronomers- and astronauts-site<br />
-        @wolfram pls set a comma between 1st and 2nd name only if 2nd exists (e.g. at Aristoteles)<br />
+        @wolfram pls set a comma between 2nd and 1st name only if 1st exists (e.g. at Aristoteles)<br />
         @all find a way for sorter and filter on small screens (toggle-buttons?)<br />
         @all hide letterLinks on small screens?
       </div>
