@@ -44,7 +44,7 @@ export class Person {
       // "itemtype": 2,
       // "itemtags": "Gemini 8, Apollo 11, Mond, Mondlandung"
     let item = {
-      name: [raw.itemname, raw.itemname2].join(', '),
+      name: [raw.itemname, raw.itemname2].join(', '),//todo: set a comma only if itemname2 exists
       link: raw.itemurl,
       profession: raw.itemproperty,
       country: raw.itemcountry,
