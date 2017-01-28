@@ -35119,7 +35119,7 @@ var PeopleComponent = function PeopleComponent(_ref) {
       { id: 'todo', className: 'pure-u-1' },
       '@wolfram pls hide the filter-option "astronauts" on astronomers- and astronauts-site',
       _react2['default'].createElement('br', null),
-      '@wolfram pls set a comma between 1st and 2nd name only if 2nd exists (e.g. at Aristoteles)',
+      '@wolfram pls set a comma between 2nd and 1st name only if 1st exists (e.g. at Aristoteles)',
       _react2['default'].createElement('br', null),
       '@all find a way for sorter and filter on small screens (toggle-buttons?)',
       _react2['default'].createElement('br', null),
@@ -37465,7 +37465,7 @@ var Person = (function () {
       // "itemtype": 2,
       // "itemtags": "Gemini 8, Apollo 11, Mond, Mondlandung"
       var item = {
-        name: [raw.itemname, raw.itemname2].join(', '),
+        name: [raw.itemname, raw.itemname2].join(', '), //todo: set a comma only if itemname2 exists
         link: raw.itemurl,
         profession: raw.itemproperty,
         country: raw.itemcountry,
