@@ -13,18 +13,20 @@ const ConstellationsComponent = ({constellations}) => {
         @all find a way for sorter and filter on small screens (toggle-buttons?)
       </div>
       <div id="functionArea" className="constellations pure-u-1">
-        <div id="filter" className="constellations">
-          <form id="sortConstellationsVisibility" className="filter-form">
-            <label>Sichtbarkeit:</label>
-            <select name="filterConstellationsVisibility">
-              <option value="sortConstellationsAll" selected>alle</option>
-              <option value="sortConstellationsNorth">N - nur nördlich</option>
-              <option value="sortConstellationsSouth">S - nur südlich</option>
-              <option value="sortConstellationsMiddle">N S / S N  - mittig</option>
-              <option value="sortConstellationsNorthsouth">Ns - nördlich, teils südlich</option>
-              <option value="sortConstellationsSouthnorth">Sn - südlich, teils nördlich</option>
-            </select>
-          </form>
+        <div id="sortAndFilterArea" className="pure-u-1">
+          <div id="filter" className="constellations pure-u-1-2 right">
+            <form id="sortConstellationsVisibility" className="filter-form">
+              <label>Sichtbarkeit:</label>
+              <select name="filterConstellationsVisibility">//TODO depends on item.visibility
+                <option value="sortConstellationsAll" selected>alle</option>
+                <option value="sortConstellationsNorth">nur nördlich</option>
+                <option value="sortConstellationsSouth">nur südlich</option>
+                <option value="sortConstellationsMiddle">mittig</option>
+                <option value="sortConstellationsNorthsouth">nördlich, teils südlich</option>
+                <option value="sortConstellationsSouthnorth">südlich, teils nördlich</option>
+              </select>
+            </form>
+          </div>
         </div>
       </div>
       <div id="dataArea" className="constellations pure-u-1">
