@@ -21,15 +21,22 @@ class Constellation {
     item.latinName = raw.itemname2;
     item.shortName = raw.itemname4;
     item.wikipediaUrl = raw.itemurl;
-    item.imageUrl = raw.itemimgurl;
+    item.imageSmallUrl = raw.itemurl2;
+    item.imageLargeUrl = raw.itemimgurl;
     item.imageSrc = raw.itemimgsrc;
+    item.imageLicence = raw.itemimglicence;
+    item.imageLicenceUrl = raw.itemimglicenceurl;
+    item.named = raw.itemdateyear;
+    item.astronomer = raw.itemparent;
+    item.rightAscension = raw.itemrightascension;
+    item.declination = raw.itemdeclination;
     item.author = Author.fromRawData(raw);
     item.brightestStar = Star.fromRawData(raw);
     item.year = raw.itemdateyear;
-    item.sphere = raw.itemproperty;
-    item.visibleFrom = raw.itemproperty2; // TODO better name please!!!
-    item.visibleTo = raw.itemproperty3; // TODO better name please!!!
-    item.squareDegrees = raw.itemproperty4; // TODO better name please!!!
+    item.visibility = raw.itemproperty;
+    item.visibleFrom = raw.itemproperty2;
+    item.visibleTo = raw.itemproperty3;
+    item.squareDegrees = raw.itemproperty4;
     item.starsOver3Mag = raw['itemproperty5'];
     item.highestBrightness = raw.itemproperty6;
     return item;
@@ -66,9 +73,9 @@ class Star {
     "itemname3": "Puppis",
     "itemname4": "Pup",
     "itemurl": "https://de.wikipedia.org/wiki/Puppis_%28Sternbild%29",
-    "itemurl2": "http://vizier.u-strasbg.fr/viz-bin/VizieR-4?-source=IV%2F27%2Fcatalog&-out.max=200&-out.all=1&-sort=Vmag&-order=I&Cst=%2APup",
-    "itemimgurl": "https://de.wikipedia.org/wiki/Datei:Puppis_constellation_map.png",
-    "itemimgsrc": "Torsten Bronger",
+    "itemurl2": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Puppis_IAU.svg/191px-Puppis_IAU.svg.png",
+    "itemimgurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Puppis_IAU.svg/610px-Puppis_IAU.svg.png",
+    "itemimgsrc": "IAU and Sky & Telescope magazine (Roger Sinnott & Rick Fienberg)",
     "itemimglicence": "CC by-sa 3.0",
     "itemimglicenceurl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
     "itemdateyear": 1763,
