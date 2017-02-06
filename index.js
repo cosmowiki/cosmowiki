@@ -32984,33 +32984,26 @@ var _react2 = _interopRequireDefault(_react);
 
 var questions = {
   what: {
-    question: 'Was ist CosmoWiki.de überhaupt?',
+    question: 'Was ist CosmoWiki.org?',
     answer: _react2['default'].createElement(
       'li',
       null,
       _react2['default'].createElement(
         'p',
         null,
-        'CosmoWiki.de ist ein nichtkommerzielles Projekt zur Verbreitung von Wissen über die Bereiche Astronomie und Raumfahrt.',
+        'CosmoWiki.org ist ein gemeinnütziges, nicht-kommerzielles Projekt zur Verbreitung von Wissen über die Bereiche Astronomie und Raumfahrt.',
         _react2['default'].createElement('br', null),
-        'Auf Plattformen wie z.B. Wikipedia existiert ein gewaltiger Wissensschatz, der von Enthusiasten mit größter Sorgfalt für jedermann erstellt und gepflegt wird. Doch warum sollte dieser phantastische Speicher nicht über seine eigentlichen Grenzen hinaus genutzt werden?'
+        'Mit der Wikipedia existiert ein gewaltiger Wissensschatz, der von Enthusiasten mit größter Sorgfalt für jedermann erstellt und gepflegt wird. Doch warum sollte dieser phantastische Speicher nicht über seine eigentlichen Grenzen hinaus genutzt werden?'
       ),
       _react2['default'].createElement(
         'p',
         null,
-        'Wir recherchieren unzählige Informationen aus Wikipedia und anderen Quellen, sammeln, veknüpfen und bereiten sie hier in möglichst übersichtlicher Weise auf. Cosmowiki.de ist also im Grunde ein Hybride aus Enzyklopädie und Aggregator - ein zentraler Platz im Netz, an dem der Nutzer zwei der faszinierendsten Gebiete aus Wissenschaft und Technik auf neue Weise entdecken kann.'
-      )
-    )
-  },
-  who: {
-    question: 'Wem nützt CosmoWiki.de, für wen wurde es geschaffen?',
-    answer: _react2['default'].createElement(
-      'li',
-      null,
+        'Wir recherchieren unzählige Informationen aus Wikipedia und anderen Quellen, sammeln, veknüpfen und bereiten sie hier in möglichst übersichtlicher Weise auf. CosmoWiki.org ist also ein zentraler Platz im Netz, an dem der Nutzer zwei der faszinierendsten Gebiete aus Wissenschaft und Technik auf neue Weise entdecken kann.'
+      ),
       _react2['default'].createElement(
         'p',
         null,
-        'CosmoWiki.de dient uns allen - interessierten Laien ebenso wie begeisterten Amateuren und allen anderen Space-Fans. Jeder Nutzer kann hier frei das gewaltige Universum der Astronomie und Raumfahrt unter einem Dach entdecken, die Geschichte dieser zwei wohl bedeutendsten Bereiche menschlichen Schaffens erkunden und zielgerichtet Informationen über Personen, Orte oder Objekte finden.'
+        'CosmoWiki.org dient interessierten Laien ebenso wie begeisterten Amateuren und allen anderen Space-Fans. Jeder Nutzer kann hier frei das gewaltige Universum der Astronomie und Raumfahrt unter einem Dach entdecken, die Geschichte dieser zwei wohl bedeutendsten Bereiche menschlichen Schaffens erkunden und zielgerichtet Informationen über Personen, Orte oder Objekte finden.'
       ),
       _react2['default'].createElement(
         'p',
@@ -33021,18 +33014,33 @@ var questions = {
           null,
           'Nutzer arbeiten für Nutzer!'
         )
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        'Ausblick:'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        'Dieses Projekt wird nie fertiggestellt sein, da sich auch Astronomie und Raumfahrt permanent weiterentwickeln. Unsere Datenbank wächst ständig um neue Inhalte an, bestehende Einträge werden um weitere interessante Fakten ergänzt. Zusätzlich wird auch die Seite selbst weiterentwickelt, neue Funktionen werden das Nutzererlebnis verbessern. Wir hoffen auch, CosmoWiki.org bald in anderen Sprachen anbieten zu können.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        'Die Community ist das Zentrum dieser Seite. Wir setzen auf den Enthusiasmus von Amateuren genauso wie auf die Fachkenntnisse von Wissenschaftlern und Historikern um ein Werk zu schaffen, das auch kritischen Analysen standhält.'
       )
     )
   },
   license: {
-    question: 'Darf ich Inhalte von CosmoWiki.de verwenden? Unter welcher Lizenz steht CosmoWiki.de?',
+    question: 'Darf ich Inhalte von CosmoWiki.org verwenden? Unter welcher Lizenz steht CosmoWiki.org?',
     answer: _react2['default'].createElement(
       'li',
       null,
       _react2['default'].createElement(
         'p',
         null,
-        'Alle Inhalte von CosmoWiki.de und die von Wikipedia eingebundenen Inhalte stehen unter der ',
+        'Alle Inhalte von CosmoWiki.org und die von Wikipedia eingebundenen Inhalte stehen unter der ',
         _react2['default'].createElement(
           'a',
           { href: 'http://creativecommons.org/licenses/by-sa/3.0/de/', target: '_blank' },
@@ -33045,13 +33053,8 @@ var questions = {
         'p',
         null,
         'Gemäß den Bestimmungen der von Wikipedia verwendeten Lizenz ',
-        _react2['default'].createElement(
-          'a',
-          { href: 'http://creativecommons.org/licenses/by-sa/3.0/legalcode', target: '_blank' },
-          _react2['default'].createElement('i', { className: 'fa fa-creative-commons' }),
-          ' Creative-Commons-Lizenz Attribution-ShareAlike 3.0 Unported (CC-by-sa-3.0)'
-        ),
-        ' weisen wir darauf hin, dass CosmoWiki.de Artikel oder Teile von Artikeln von Wikipedia verwendet und einbindet. Dadurch steht CosmoWiki.de ebenfalls unter der ',
+        _react2['default'].createElement('i', { className: 'fa fa-creative-commons' }),
+        ' CC-by-sa-3.0 weisen wir darauf hin, dass CosmoWiki.org Artikel oder Teile von Artikeln von Wikipedia verwendet und einbindet. Dadurch steht CosmoWiki.org ebenfalls unter der ',
         _react2['default'].createElement('i', { className: 'fa fa-creative-commons' }),
         ' Creative Commons Lizenz CC BY-SA 3.0.'
       ),
@@ -33067,7 +33070,7 @@ var questions = {
       _react2['default'].createElement(
         'p',
         null,
-        'Weitere Informationen zu der verwendeten Lizenz erhalten sie hier:',
+        'Weitere Informationen zu der verwendeten Lizenz erhalten sie hier: ',
         _react2['default'].createElement(
           'a',
           { href: 'http://creativecommons.org/licenses/by-sa/3.0/de/', target: '_blank' },
@@ -33076,35 +33079,18 @@ var questions = {
       )
     )
   },
-  future: {
-    question: 'Wie geht es weiter? Wie sieht die Zukunft von CosmoWiki.de aus?',
-    answer: _react2['default'].createElement(
-      'li',
-      null,
-      _react2['default'].createElement(
-        'p',
-        null,
-        'Dieses Projekt wird nie fertiggestellt sein, da sich auch Astronomie und Raumfahrt permanent weiterentwickeln. Unsere Datenbank wächst ständig um neue Inhalte an, bestehende Einträge werden um interessante Fakten ergänzt. Zusätzlich wird auch die Seite selbst weiterentwickelt, neue Funktionen werden das Nutzererlebnis verbessern. Wir hoffen auch, CosmoWiki.de bald auch in anderen Sprachen anbieten zu können.'
-      ),
-      _react2['default'].createElement(
-        'p',
-        null,
-        'Die Community ist das Zentrum dieser Seite. Wir setzen auf den Enthusiasmus von Amateuren genauso wie auf die Fachkenntnisse von Naturwissenschaftlern und Historikern um ein Werk zu schaffen, das auch kritischen Analysen standhält.'
-      )
-    )
-  },
   contribute: {
-    question: 'Wie kann ich helfen CosmoWiki.de zu verbessern?',
+    question: 'Wie kann ich helfen CosmoWiki.org zu verbessern?',
     answer: _react2['default'].createElement(
       'li',
       null,
       _react2['default'].createElement(
         'p',
         null,
-        'Wenn Sie etwas zu CosmoWiki.de beitragen und das Projekt unterstützen möchten, lassen Sie es uns wissen. Sie sind Hobby-Astronom oder Professor der Astrophysik, Historiker oder interessierter Laie, Raumfahrt-Begeisterter oder Astronaut, dann',
+        'Sie sind Hobby-Astronom oder Professor der Astrophysik, Historiker oder interessierter Laie, Raumfahrt-Begeisterter oder Astronaut? Sie haben Fehler gefunden, möchten Daten ergänzen oder diese Seite auf andere Weise bereichern? Wenn Sie etwas zu CosmoWiki.org beitragen und das Projekt unterstützen möchten, dann ',
         _react2['default'].createElement(
           'a',
-          { href: 'http://de.cosmowiki.de/kontakt', target: '_self', title: 'Contact' },
+          { href: 'http://de.CosmoWiki.org/kontakt', target: '_self', title: 'Contact' },
           'kontaktieren Sie uns bitte hier'
         ),
         '.'
@@ -33112,13 +33098,13 @@ var questions = {
       _react2['default'].createElement(
         'p',
         null,
-        'Für Software-Entwickler und Programmierer ist CosmoWiki.de auch auf ',
+        'Software-Entwickler und Programmierer können auch auf ',
         _react2['default'].createElement(
           'a',
           { href: 'https://github.com/cosmowiki/cosmowikide', target: '_blank', title: 'github' },
           'Github'
         ),
-        ' zu finden.'
+        ' an CosmoWiki.org mitarbeiten.'
       ),
       _react2['default'].createElement(
         'p',
@@ -33155,12 +33141,12 @@ var questions = {
             'Wikipedia.org'
           )
         ),
-        ' und seinen vielen freiwilligen Mitarbeitern für das größte Lexikon der Welt bedanken! Sie alle haben die Welt der Lexika in das 21. jahrhundert katapultiert und der Menschheit damit einen unschätzbaren Dienst erwiesen.'
+        ' und seinen vielen freiwilligen Mitarbeitern für das größte Lexikon der Welt bedanken! Sie alle haben das Wissen der Menschheit in das 21. Jahrhundert katapultiert und uns allen damit einen unschätzbaren Dienst erwiesen.'
       ),
       _react2['default'].createElement(
         'p',
         null,
-        'Weiterhin bedanken wir uns sehr bei ',
+        'Weiterhin bedanken wir uns von ganzem Herzen bei ',
         _react2['default'].createElement(
           'a',
           { title: 'Wolfram Kriesing', href: 'https://twitter.com/wolframkriesing', target: '_blank' },
@@ -33170,14 +33156,16 @@ var questions = {
             'Wolfram Kriesing'
           )
         ),
-        'für die Kartenanwendung auf der ',
-        _react2['default'].createElement(
-          'a',
-          { href: 'places.php', target: '_self' },
-          '"Orte"-Seite'
-        ),
-        ', unzählige andere Hilfestellungen rund um die Webprogrammierung und die generelle Unterstützung des Projektes.'
+        ' für die Programmierung des gesamten Unterbaus dieser Seite, unzählige andere Hilfestellungen rund um die Webprogrammierung und die generelle Unterstützung des Projektes.'
       )
+    )
+  },
+  imprint: {
+    question: 'Impressum',
+    answer: _react2['default'].createElement(
+      'li',
+      null,
+      _react2['default'].createElement('p', null)
     )
   }
 };
@@ -33230,6 +33218,20 @@ var AboutComponent = (function (_React$Component) {
         ),
         _react2['default'].createElement(
           'div',
+          { id: 'todo', className: 'pure-u-1' },
+          _react2['default'].createElement(
+            'p',
+            null,
+            '@wolfram pls make the links in #footerElse open the appropriate answers in the about-site'
+          ),
+          _react2['default'].createElement(
+            'p',
+            null,
+            '@wolfram pls delete the autoscroll to the choosen answer'
+          )
+        ),
+        _react2['default'].createElement(
+          'div',
           { id: 'about', className: 'justify' },
           _react2['default'].createElement(
             'ul',
@@ -33269,7 +33271,7 @@ var Question = function Question(_ref) {
     { className: 'question' },
     _react2['default'].createElement(
       'a',
-      { href: '#' + category, onClick: toggleFunction },
+      { className: 'question-link', href: '#' + category, onClick: toggleFunction },
       _react2['default'].createElement('i', { className: 'fa fa-caret-right fa-fw' }),
       ' ' + question
     ),
@@ -33879,7 +33881,7 @@ var Footer = function Footer(_ref) {
             null,
             _react2["default"].createElement(
               "a",
-              { className: "footerLink", target: "_blank", title: "CosmoWiki.de bei Twitter" },
+              { className: "footerLink", target: "_blank", title: "CosmoWiki.org bei Twitter" },
               "Twitter"
             )
           ),
@@ -33888,7 +33890,7 @@ var Footer = function Footer(_ref) {
             null,
             _react2["default"].createElement(
               "a",
-              { className: "footerLink", target: "_blank", title: "CosmoWiki.de bei Facebook" },
+              { className: "footerLink", target: "_blank", title: "CosmoWiki.org bei Facebook" },
               "Facebook"
             )
           ),
@@ -33897,7 +33899,7 @@ var Footer = function Footer(_ref) {
             null,
             _react2["default"].createElement(
               "a",
-              { className: "footerLink", target: "_blank", title: "CosmoWiki.de bei Google Plus" },
+              { className: "footerLink", target: "_blank", title: "CosmoWiki.org bei Google Plus" },
               "Google+"
             )
           ),
@@ -33906,7 +33908,7 @@ var Footer = function Footer(_ref) {
             null,
             _react2["default"].createElement(
               "a",
-              { className: "footerLink", target: "_blank", title: "CosmoWiki.de bei Github" },
+              { className: "footerLink", target: "_blank", title: "CosmoWiki.org bei Github" },
               "Github"
             )
           )
@@ -33962,8 +33964,17 @@ var Footer = function Footer(_ref) {
             null,
             _react2["default"].createElement(
               "a",
-              { className: "footerLink", /*href={appUrl.aboutSite()}*/target: "_self", title: "Über CosmoWiki.de" },
-              "Über uns"
+              { className: "footerLink", href: appUrl.aboutSite(), target: "_self", title: "Was ist CosmoWiki.org?" },
+              "Was ist CosmoWiki.org?"
+            )
+          ),
+          _react2["default"].createElement(
+            "li",
+            null,
+            _react2["default"].createElement(
+              "a",
+              { className: "footerLink", /*href={appUrl.aboutSite()}*/target: "_self", title: "Lizenz" },
+              "Lizenz"
             )
           ),
           _react2["default"].createElement(
@@ -33980,8 +33991,8 @@ var Footer = function Footer(_ref) {
             null,
             _react2["default"].createElement(
               "a",
-              { className: "footerLink", /*href={appUrl.aboutSite()}*/target: "_self", title: "Lizenz" },
-              "Lizenz"
+              { className: "footerLink", /*href={appUrl.aboutSite()}*/target: "_self", title: "Danksagungen" },
+              "Danksagungen"
             )
           ),
           _react2["default"].createElement(

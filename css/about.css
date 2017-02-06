@@ -1,7 +1,13 @@
 /*#featured.about {background: url("/img/featured.jpg") center top no-repeat;}*/
-#about ul li {padding: 10px 0;}
-#about ul li.question {padding: 20px 10px; border-bottom: 1px solid #d0d0d0;}
-#about ul li.question a {display: block;}
+
+#about ul li.question {
+  background: rgba(255,255,255,.8);
+  border-bottom: 1px solid #fff;
+}
+#about ul li.question:hover {background: rgba(255,255,255,.9);}
+#about a.question-link {display: block; padding: 2em .5em;}
+#about ul ul li p {margin-bottom: 1em; padding: 0 1em;}
+
 /*#about ul li a.question: after {font-family: FontAwesome; content: '\f0da';}
 #about ul li ul {padding-top: 10px; font-size: .825em;}
 */
