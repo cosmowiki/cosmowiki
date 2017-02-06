@@ -32,9 +32,10 @@ export default class ChronicleComponent extends React.Component {
           <h3>Meilensteine der Astronomie und Raumfahrt</h3>
         </div>
         <div id="todo" className="pure-u-1">
-          @wolfram pls hide the span id="coordinates" from the WP article when loading in vcard
+          <p>@wolfram pls open vcard only when clicking on item.name, not item.place</p>
+          <p>@wolfram pls hide the span id="coordinates" from the Wikipedia article when loading in vcard</p>
         </div>
-        <div id="dataArea">
+        <div id="dataArea" className="events pure-u-1">
           <div id="timeline">
             {items.map((item, idx) => <ItemComponent item={item} key={idx} onClick={() => showOverlay(item)} />)}
           </div>
