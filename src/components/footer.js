@@ -3,6 +3,9 @@ import React from 'react';
 const Footer = ({appUrl}) => {
   return (
     <footer className="pure-u-1 center">
+      <div id="todo" className="pure-u-1">
+        <p>@wolfram pls insert the shariff-button</p>
+      </div>
       <div id="footerContainer" className="pure-u-1">
         <div id="footerMainPages" className="footer-part pure-u-1 pure-u-sm-1-2 pure-u-md-1-5">
           <h4>Hauptseiten</h4>
@@ -45,16 +48,16 @@ const Footer = ({appUrl}) => {
           <h4>Folgen</h4>
           <ul>
             <li>
-              <a className="footerLink" target="_blank" title="CosmoWiki.org bei Twitter">Twitter</a>
+              <a className="footerLink" href="https://twitter.com/cosmowiki" target="_blank" title="CosmoWiki.org bei Twitter">Twitter</a>
             </li>
             <li>
-              <a className="footerLink" target="_blank" title="CosmoWiki.org bei Facebook">Facebook</a>
+              <a className="footerLink" href="https://www.facebook.com/CosmoWiki.org/" target="_blank" title="CosmoWiki.org bei Facebook">Facebook</a>
             </li>
             <li>
               <a className="footerLink" target="_blank" title="CosmoWiki.org bei Google Plus">Google+</a>
             </li>
             <li>
-              <a className="footerLink" target="_blank" title="CosmoWiki.org bei Github">Github</a>
+              <a className="footerLink" href="https://github.com/cosmowiki/cosmowiki" target="_blank" title="CosmoWiki.org bei Github">Github</a>
             </li>
         </ul>
         </div>
@@ -77,22 +80,22 @@ const Footer = ({appUrl}) => {
           </ul>
         </div>
         <div id="footerElse" className="footer-part pure-u-1 pure-u-sm-1-2 pure-u-md-1-5">
-          <h4>Sonstiges</h4>
+          <h4>Wir &uuml;ber uns</h4>
           <ul>
             <li>
               <a className="footerLink" href={appUrl.aboutSite()} target="_self" title="Was ist CosmoWiki.org?">Was ist CosmoWiki.org?</a>
             </li>
             <li>
-              <a className="footerLink" /*href={appUrl.aboutSite()}*/ target="_self" title="Lizenz">Lizenz</a>
+              <a className="footerLink" href={appUrl.aboutSite()} target="_self" title="Lizenz">Lizenz</a>
             </li>
             <li>
-              <a className="footerLink" /*href={appUrl.aboutSite()}*/ target="_self" title="Beitragen">Beitragen</a>
+              <a className="footerLink" href={appUrl.aboutSite()} target="_self" title="Beitragen">Beitragen</a>
             </li>
             <li>
-              <a className="footerLink" /*href={appUrl.aboutSite()}*/ target="_self" title="Danksagungen">Danksagungen</a>
+              <a className="footerLink" href={appUrl.aboutSite()} target="_self" title="Danksagungen">Danksagungen</a>
             </li>
             <li>
-              <a className="footerLink" /*href={appUrl.aboutSite()}*/ target="_self" title="Impressum">Impressum</a>
+              <a className="footerLink" href={appUrl.aboutSite()} target="_self" title="Impressum">Impressum</a>
             </li>
           </ul>
         </div>
