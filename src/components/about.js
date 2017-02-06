@@ -174,8 +174,10 @@ const Question = ({toggleFunction, category, isVisible}) => {
 
   return (
     <li className="question">
-      <a className="question-link" href={'#' + category} onClick={toggleFunction}><i className="fa fa-caret-right fa-fw" />{' ' + question}</a>
+      <a className="question-link" href={'#'} onClick={toggleFunction}><i className="fa fa-caret-right fa-fw" />{' ' + question}</a>
       <ul id={category} className={classNames}>{answer}</ul>
     </li>
   );
 };
+
+// to jump to category: <a className="question-link" href={'#'} onClick={toggleFunction}><i className="fa fa-caret-right fa-fw" />{' ' + question}</a>
