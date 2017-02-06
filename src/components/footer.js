@@ -45,16 +45,16 @@ const Footer = ({appUrl}) => {
           <h4>Folgen</h4>
           <ul>
             <li>
-              <a className="footerLink" target="_blank" title="CosmoWiki.de bei Twitter">Twitter</a>
+              <a className="footerLink" target="_blank" title="CosmoWiki.org bei Twitter">Twitter</a>
             </li>
             <li>
-              <a className="footerLink" target="_blank" title="CosmoWiki.de bei Facebook">Facebook</a>
+              <a className="footerLink" target="_blank" title="CosmoWiki.org bei Facebook">Facebook</a>
             </li>
             <li>
-              <a className="footerLink" target="_blank" title="CosmoWiki.de bei Google Plus">Google+</a>
+              <a className="footerLink" target="_blank" title="CosmoWiki.org bei Google Plus">Google+</a>
             </li>
             <li>
-              <a className="footerLink" target="_blank" title="CosmoWiki.de bei Github">Github</a>
+              <a className="footerLink" target="_blank" title="CosmoWiki.org bei Github">Github</a>
             </li>
         </ul>
         </div>
@@ -80,13 +80,16 @@ const Footer = ({appUrl}) => {
           <h4>Sonstiges</h4>
           <ul>
             <li>
-              <a className="footerLink" /*href={appUrl.aboutSite()}*/ target="_self" title="&Uuml;ber CosmoWiki.de">Über uns</a>
+              <a className="footerLink" href={appUrl.aboutSite()} target="_self" title="Was ist CosmoWiki.org?">Was ist CosmoWiki.org?</a>
+            </li>
+            <li>
+              <a className="footerLink" /*href={appUrl.aboutSite()}*/ target="_self" title="Lizenz">Lizenz</a>
             </li>
             <li>
               <a className="footerLink" /*href={appUrl.aboutSite()}*/ target="_self" title="Beitragen">Beitragen</a>
             </li>
             <li>
-              <a className="footerLink" /*href={appUrl.aboutSite()}*/ target="_self" title="Lizenz">Lizenz</a>
+              <a className="footerLink" /*href={appUrl.aboutSite()}*/ target="_self" title="Danksagungen">Danksagungen</a>
             </li>
             <li>
               <a className="footerLink" /*href={appUrl.aboutSite()}*/ target="_self" title="Impressum">Impressum</a>
