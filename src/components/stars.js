@@ -13,23 +13,20 @@ const StarsComponent = ({groupedStars, constellations}) => {
         <h3>strahlende Objekte im All</h3>
       </div>
       <div id="todo" className="pure-u-1">
-        @wolfram pls make the sorter and filter work<br />
-        @all find a way for sorter and filter on small screens (toggle-buttons?)<br />
-        @me find a solution for the greek letters / bayer names vs. historical names
+        <p>@wolfram pls make the sorter and filter work</p>
+        <p>@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens</p>
+        <p>@me find a solution for the greek letters / bayer names vs. historical names</p>
       </div>
-      <div id="functionArea" className="stars pure-u-1">
-        <div id="sortAndFilterArea" className="pure-u-1">
+      <div id="controlArea" className="stars pure-u-1">
+        <div id="controllers" className="pure-u-1">
           <div id="sort" className="stars pure-u-1-2 left">
             <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
             <div id="sortArea">
               <form id="sortStars" className="sort-form">
-                <select name="sortStars">
-                  <option value="sortStarsHistoricalNameUp selected" selected>historischer Name - aufsteigend</option>
-                  <option value="sortStarsHistoricalNameDown">historischer Name - absteigend</option>
-                  <option value="sortStarsBayerNameUp">Bayer-Name - aufsteigend</option>
-                  <option value="sortStarsBayerNameDown">Bayer-Name - absteigend</option>
-                  <option value="sortStarsConstellationNameUp">Sternbild - aufsteigend</option>
-                  <option value="sortStarsConstellationNameDown">Sternbild - absteigend</option>
+                <select name="sortStars" defaultValue="sortStarsHistoricalName">
+                  <option value="sortStarsHistoricalName">historischer Name</option>
+                  <option value="sortStarsBayerName">Bayer-Name</option>
+                  <option value="sortStarsConstellationName">Sternbild</option>
                   <option value="sortStarsMagUp">Helligkeit - aufsteigend</option>
                   <option value="sortStarsMagDown">Helligkeit - absteigend</option>
                   <option value="sortStarsDistanceUp">Entfernung - aufsteigend</option>
@@ -65,10 +62,10 @@ export default StarsComponent;
 
 const FilterRow = ({constellations}) => {
   return (
-            <form id="filterStarsConstellation" className="filter-form">
+            <form id="filterStarsByConstellation" className="filter-form">
               <label>Sternbild:</label>
-              <select name="constellation">
-                <option selected>alle</option>
+              <select name="starsConstellations" defaultValue="showAllConstellations">
+                <option value="showAllConstellations">alle</option>
                 {constellations.map((constellation, idx) => <option key={idx}>{constellation}</option>)}
               </select>
             </form>
