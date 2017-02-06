@@ -150,7 +150,6 @@ export default class AboutComponent extends React.Component {
         </div>
         <div id="todo" className="pure-u-1">
           <p>@wolfram pls make the links in #footerElse open the appropriate answers in the about-site</p>
-          <p>@wolfram pls delete the autoscroll to the choosen answer</p>
         </div>
         <div id="about" className="justify">
           <ul id="aboutMenu">
@@ -179,5 +178,4 @@ const Question = ({toggleFunction, category, isVisible}) => {
     </li>
   );
 };
-
 // to jump to category: <a className="question-link" href={'#'} onClick={toggleFunction}><i className="fa fa-caret-right fa-fw" />{' ' + question}</a>
