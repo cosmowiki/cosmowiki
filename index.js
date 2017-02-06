@@ -33271,7 +33271,7 @@ var Question = function Question(_ref) {
     { className: 'question' },
     _react2['default'].createElement(
       'a',
-      { className: 'question-link', href: '#' + category, onClick: toggleFunction },
+      { className: 'question-link', href: '#', onClick: toggleFunction },
       _react2['default'].createElement('i', { className: 'fa fa-caret-right fa-fw' }),
       ' ' + question
     ),
@@ -33282,6 +33282,8 @@ var Question = function Question(_ref) {
     )
   );
 };
+
+// to jump to category: <a className="question-link" href={'#'} onClick={toggleFunction}><i className="fa fa-caret-right fa-fw" />{' ' + question}</a>
 module.exports = exports['default'];
 
 },{"react":442}],420:[function(require,module,exports){
