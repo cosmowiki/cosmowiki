@@ -33223,11 +33223,6 @@ var AboutComponent = (function (_React$Component) {
             'p',
             null,
             '@wolfram pls make the links in #footerElse open the appropriate answers in the about-site'
-          ),
-          _react2['default'].createElement(
-            'p',
-            null,
-            '@wolfram pls delete the autoscroll to the choosen answer'
           )
         ),
         _react2['default'].createElement(
@@ -33282,7 +33277,6 @@ var Question = function Question(_ref) {
     )
   );
 };
-
 // to jump to category: <a className="question-link" href={'#'} onClick={toggleFunction}><i className="fa fa-caret-right fa-fw" />{' ' + question}</a>
 module.exports = exports['default'];
 
@@ -33818,6 +33812,15 @@ var Footer = function Footer(_ref) {
     { className: "pure-u-1 center" },
     _react2["default"].createElement(
       "div",
+      { id: "todo", className: "pure-u-1" },
+      _react2["default"].createElement(
+        "p",
+        null,
+        "@wolfram pls insert the shariff-button"
+      )
+    ),
+    _react2["default"].createElement(
+      "div",
       { id: "footerContainer", className: "pure-u-1" },
       _react2["default"].createElement(
         "div",
@@ -33883,7 +33886,7 @@ var Footer = function Footer(_ref) {
             null,
             _react2["default"].createElement(
               "a",
-              { className: "footerLink", target: "_blank", title: "CosmoWiki.org bei Twitter" },
+              { className: "footerLink", href: "https://twitter.com/cosmowiki", target: "_blank", title: "CosmoWiki.org bei Twitter" },
               "Twitter"
             )
           ),
@@ -33892,7 +33895,7 @@ var Footer = function Footer(_ref) {
             null,
             _react2["default"].createElement(
               "a",
-              { className: "footerLink", target: "_blank", title: "CosmoWiki.org bei Facebook" },
+              { className: "footerLink", href: "https://www.facebook.com/CosmoWiki.org/", target: "_blank", title: "CosmoWiki.org bei Facebook" },
               "Facebook"
             )
           ),
@@ -33910,7 +33913,7 @@ var Footer = function Footer(_ref) {
             null,
             _react2["default"].createElement(
               "a",
-              { className: "footerLink", target: "_blank", title: "CosmoWiki.org bei Github" },
+              { className: "footerLink", href: "https://github.com/cosmowiki/cosmowiki", target: "_blank", title: "CosmoWiki.org bei Github" },
               "Github"
             )
           )
@@ -33956,7 +33959,7 @@ var Footer = function Footer(_ref) {
         _react2["default"].createElement(
           "h4",
           null,
-          "Sonstiges"
+          "Wir über uns"
         ),
         _react2["default"].createElement(
           "ul",
@@ -33975,7 +33978,7 @@ var Footer = function Footer(_ref) {
             null,
             _react2["default"].createElement(
               "a",
-              { className: "footerLink", /*href={appUrl.aboutSite()}*/target: "_self", title: "Lizenz" },
+              { className: "footerLink", href: appUrl.aboutSite(), target: "_self", title: "Lizenz" },
               "Lizenz"
             )
           ),
@@ -33984,7 +33987,7 @@ var Footer = function Footer(_ref) {
             null,
             _react2["default"].createElement(
               "a",
-              { className: "footerLink", /*href={appUrl.aboutSite()}*/target: "_self", title: "Beitragen" },
+              { className: "footerLink", href: appUrl.aboutSite(), target: "_self", title: "Beitragen" },
               "Beitragen"
             )
           ),
@@ -33993,7 +33996,7 @@ var Footer = function Footer(_ref) {
             null,
             _react2["default"].createElement(
               "a",
-              { className: "footerLink", /*href={appUrl.aboutSite()}*/target: "_self", title: "Danksagungen" },
+              { className: "footerLink", href: appUrl.aboutSite(), target: "_self", title: "Danksagungen" },
               "Danksagungen"
             )
           ),
@@ -34002,7 +34005,7 @@ var Footer = function Footer(_ref) {
             null,
             _react2["default"].createElement(
               "a",
-              { className: "footerLink", /*href={appUrl.aboutSite()}*/target: "_self", title: "Impressum" },
+              { className: "footerLink", href: appUrl.aboutSite(), target: "_self", title: "Impressum" },
               "Impressum"
             )
           )
