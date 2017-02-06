@@ -7427,8 +7427,15 @@ mkdirP.sync = function sync (p, opts, made) {
 
 }).call(this,require('_process'))
 },{"_process":235,"fs":6,"path":233}],230:[function(require,module,exports){
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
 'use strict';
 /* eslint-disable no-unused-vars */
+var getOwnPropertySymbols = Object.getOwnPropertySymbols;
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 var propIsEnumerable = Object.prototype.propertyIsEnumerable;
 
@@ -7449,7 +7456,7 @@ function shouldUseNative() {
 		// Detect buggy property enumeration order in older V8 versions.
 
 		// https://bugs.chromium.org/p/v8/issues/detail?id=4118
-		var test1 = new String('abc');  // eslint-disable-line
+		var test1 = new String('abc');  // eslint-disable-line no-new-wrappers
 		test1[5] = 'de';
 		if (Object.getOwnPropertyNames(test1)[0] === '5') {
 			return false;
@@ -7478,7 +7485,7 @@ function shouldUseNative() {
 		}
 
 		return true;
-	} catch (e) {
+	} catch (err) {
 		// We don't expect any of the above to throw, but better to be safe.
 		return false;
 	}
@@ -7498,8 +7505,8 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 			}
 		}
 
-		if (Object.getOwnPropertySymbols) {
-			symbols = Object.getOwnPropertySymbols(from);
+		if (getOwnPropertySymbols) {
+			symbols = getOwnPropertySymbols(from);
 			for (var i = 0; i < symbols.length; i++) {
 				if (propIsEnumerable.call(from, symbols[i])) {
 					to[symbols[i]] = from[symbols[i]];
@@ -12600,17 +12607,6 @@ var fourArgumentPooler = function (a1, a2, a3, a4) {
   }
 };
 
-var fiveArgumentPooler = function (a1, a2, a3, a4, a5) {
-  var Klass = this;
-  if (Klass.instancePool.length) {
-    var instance = Klass.instancePool.pop();
-    Klass.call(instance, a1, a2, a3, a4, a5);
-    return instance;
-  } else {
-    return new Klass(a1, a2, a3, a4, a5);
-  }
-};
-
 var standardReleaser = function (instance) {
   var Klass = this;
   !(instance instanceof Klass) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'Trying to release an instance into a pool of a different type.') : _prodInvariant('25') : void 0;
@@ -12650,8 +12646,7 @@ var PooledClass = {
   oneArgumentPooler: oneArgumentPooler,
   twoArgumentPooler: twoArgumentPooler,
   threeArgumentPooler: threeArgumentPooler,
-  fourArgumentPooler: fourArgumentPooler,
-  fiveArgumentPooler: fiveArgumentPooler
+  fourArgumentPooler: fourArgumentPooler
 };
 
 module.exports = PooledClass;
@@ -13454,7 +13449,7 @@ var ReactCompositeComponent = {
       // Since plain JS classes are defined without any special initialization
       // logic, we can not catch common errors early. Therefore, we have to
       // catch them here, at initialization time, instead.
-      process.env.NODE_ENV !== 'production' ? warning(!inst.getInitialState || inst.getInitialState.isReactClassApproved, 'getInitialState was defined on %s, a plain JavaScript class. ' + 'This is only supported for classes created using React.createClass. ' + 'Did you mean to define a state property instead?', this.getName() || 'a component') : void 0;
+      process.env.NODE_ENV !== 'production' ? warning(!inst.getInitialState || inst.getInitialState.isReactClassApproved || inst.state, 'getInitialState was defined on %s, a plain JavaScript class. ' + 'This is only supported for classes created using React.createClass. ' + 'Did you mean to define a state property instead?', this.getName() || 'a component') : void 0;
       process.env.NODE_ENV !== 'production' ? warning(!inst.getDefaultProps || inst.getDefaultProps.isReactClassApproved, 'getDefaultProps was defined on %s, a plain JavaScript class. ' + 'This is only supported for classes created using React.createClass. ' + 'Use a static property to define defaultProps instead.', this.getName() || 'a component') : void 0;
       process.env.NODE_ENV !== 'production' ? warning(!inst.propTypes, 'propTypes was defined as an instance property on %s. Use a static ' + 'property to define propTypes instead.', this.getName() || 'a component') : void 0;
       process.env.NODE_ENV !== 'production' ? warning(!inst.contextTypes, 'contextTypes was defined as an instance property on %s. Use a ' + 'static property to define contextTypes instead.', this.getName() || 'a component') : void 0;
@@ -14920,12 +14915,18 @@ ReactDOMComponent.Mixin = {
     } else {
       var contentToUse = CONTENT_TYPES[typeof props.children] ? props.children : null;
       var childrenToUse = contentToUse != null ? null : props.children;
+      // TODO: Validate that text is allowed as a child of this node
       if (contentToUse != null) {
-        // TODO: Validate that text is allowed as a child of this node
-        if (process.env.NODE_ENV !== 'production') {
-          setAndValidateContentChildDev.call(this, contentToUse);
+        // Avoid setting textContent when the text is empty. In IE11 setting
+        // textContent on a text area will cause the placeholder to not
+        // show within the textarea until it has been focused and blurred again.
+        // https://github.com/facebook/react/issues/6731#issuecomment-254874553
+        if (contentToUse !== '') {
+          if (process.env.NODE_ENV !== 'production') {
+            setAndValidateContentChildDev.call(this, contentToUse);
+          }
+          DOMLazyTree.queueText(lazyTree, contentToUse);
         }
-        DOMLazyTree.queueText(lazyTree, contentToUse);
       } else if (childrenToUse != null) {
         var mountImages = this.mountChildren(childrenToUse, transaction, context);
         for (var i = 0; i < mountImages.length; i++) {
@@ -15277,6 +15278,13 @@ var Flags = ReactDOMComponentFlags;
 var internalInstanceKey = '__reactInternalInstance$' + Math.random().toString(36).slice(2);
 
 /**
+ * Check if a given node should be cached.
+ */
+function shouldPrecacheNode(node, nodeID) {
+  return node.nodeType === 1 && node.getAttribute(ATTR_NAME) === String(nodeID) || node.nodeType === 8 && node.nodeValue === ' react-text: ' + nodeID + ' ' || node.nodeType === 8 && node.nodeValue === ' react-empty: ' + nodeID + ' ';
+}
+
+/**
  * Drill down (through composites and empty components) until we get a host or
  * host text component.
  *
@@ -15341,7 +15349,7 @@ function precacheChildNodes(inst, node) {
     }
     // We assume the child nodes are in the same order as the child instances.
     for (; childNode !== null; childNode = childNode.nextSibling) {
-      if (childNode.nodeType === 1 && childNode.getAttribute(ATTR_NAME) === String(childID) || childNode.nodeType === 8 && childNode.nodeValue === ' react-text: ' + childID + ' ' || childNode.nodeType === 8 && childNode.nodeValue === ' react-empty: ' + childID + ' ') {
+      if (shouldPrecacheNode(childNode, childID)) {
         precacheNode(childInst, childNode);
         continue outer;
       }
@@ -15749,7 +15757,17 @@ var ReactDOMInput = {
       }
     } else {
       if (props.value == null && props.defaultValue != null) {
-        node.defaultValue = '' + props.defaultValue;
+        // In Chrome, assigning defaultValue to certain input types triggers input validation.
+        // For number inputs, the display value loses trailing decimal points. For email inputs,
+        // Chrome raises "The specified value <x> is not a valid email address".
+        //
+        // Here we check to see if the defaultValue has actually changed, avoiding these problems
+        // when the user is inputting text
+        //
+        // https://github.com/facebook/react/issues/7253
+        if (node.defaultValue !== '' + props.defaultValue) {
+          node.defaultValue = '' + props.defaultValue;
+        }
       }
       if (props.checked == null && props.defaultChecked != null) {
         node.defaultChecked = !!props.defaultChecked;
@@ -16870,9 +16888,15 @@ var ReactDOMTextarea = {
     // This is in postMount because we need access to the DOM node, which is not
     // available until after the component has mounted.
     var node = ReactDOMComponentTree.getNodeFromInstance(inst);
+    var textContent = node.textContent;
 
-    // Warning: node.value may be the empty string at this point (IE11) if placeholder is set.
-    node.value = node.textContent; // Detach value from defaultValue
+    // Only set node.value if textContent is equal to the expected
+    // initial value. In IE10/IE11 there is a bug where the placeholder attribute
+    // will populate textContent as well.
+    // https://developer.microsoft.com/microsoft-edge/platform/issues/101525/
+    if (textContent === inst._wrapperState.initialValue) {
+      node.value = textContent;
+    }
   }
 };
 
@@ -18007,14 +18031,11 @@ module.exports = ReactFeatureFlags;
 
 'use strict';
 
-var _prodInvariant = require('./reactProdInvariant'),
-    _assign = require('object-assign');
+var _prodInvariant = require('./reactProdInvariant');
 
 var invariant = require('fbjs/lib/invariant');
 
 var genericComponentClass = null;
-// This registry keeps track of wrapper classes around host tags.
-var tagToComponentClass = {};
 var textComponentClass = null;
 
 var ReactHostComponentInjection = {
@@ -18027,11 +18048,6 @@ var ReactHostComponentInjection = {
   // rendered as props.
   injectTextComponentClass: function (componentClass) {
     textComponentClass = componentClass;
-  },
-  // This accepts a keyed object with classes as values. Each key represents a
-  // tag. That particular tag will use this class instead of the generic one.
-  injectComponentClasses: function (componentClasses) {
-    _assign(tagToComponentClass, componentClasses);
   }
 };
 
@@ -18071,7 +18087,7 @@ var ReactHostComponent = {
 
 module.exports = ReactHostComponent;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":363,"_process":235,"fbjs/lib/invariant":214,"object-assign":230}],299:[function(require,module,exports){
+},{"./reactProdInvariant":363,"_process":235,"fbjs/lib/invariant":214}],299:[function(require,module,exports){
 /**
  * Copyright 2016-present, Facebook, Inc.
  * All rights reserved.
@@ -20880,7 +20896,7 @@ module.exports = ReactUpdates;
 
 'use strict';
 
-module.exports = '15.4.1';
+module.exports = '15.4.2';
 },{}],322:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -23902,7 +23918,17 @@ function instantiateReactComponent(node, shouldHaveDebugID) {
     instance = ReactEmptyComponent.create(instantiateReactComponent);
   } else if (typeof node === 'object') {
     var element = node;
-    !(element && (typeof element.type === 'function' || typeof element.type === 'string')) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s', element.type == null ? element.type : typeof element.type, getDeclarationErrorAddendum(element._owner)) : _prodInvariant('130', element.type == null ? element.type : typeof element.type, getDeclarationErrorAddendum(element._owner)) : void 0;
+    var type = element.type;
+    if (typeof type !== 'function' && typeof type !== 'string') {
+      var info = '';
+      if (process.env.NODE_ENV !== 'production') {
+        if (type === undefined || typeof type === 'object' && type !== null && Object.keys(type).length === 0) {
+          info += ' You likely forgot to export your component from the file ' + 'it\'s defined in.';
+        }
+      }
+      info += getDeclarationErrorAddendum(element._owner);
+      !false ? process.env.NODE_ENV !== 'production' ? invariant(false, 'Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s', type == null ? type : typeof type, info) : _prodInvariant('130', type == null ? type : typeof type, info) : void 0;
+    }
 
     // Special case string values
     if (typeof element.type === 'string') {
@@ -27079,7 +27105,14 @@ var ReactElementValidator = {
     // We warn in this case but don't throw. We expect the element creation to
     // succeed and there will likely be errors in render.
     if (!validType) {
-      process.env.NODE_ENV !== 'production' ? warning(false, 'React.createElement: type should not be null, undefined, boolean, or ' + 'number. It should be a string (for DOM elements) or a ReactClass ' + '(for composite components).%s', getDeclarationErrorAddendum()) : void 0;
+      if (typeof type !== 'function' && typeof type !== 'string') {
+        var info = '';
+        if (type === undefined || typeof type === 'object' && type !== null && Object.keys(type).length === 0) {
+          info += ' You likely forgot to export your component from the file ' + 'it\'s defined in.';
+        }
+        info += getDeclarationErrorAddendum();
+        process.env.NODE_ENV !== 'production' ? warning(false, 'React.createElement: type is invalid -- expected a string (for ' + 'built-in components) or a class/function (for composite ' + 'components) but got: %s.%s', type == null ? type : typeof type, info) : void 0;
+      }
     }
 
     var element = ReactElement.createElement.apply(this, arguments);
@@ -32623,9 +32656,7 @@ function config (name) {
     options = options || {}
     var body = options.body
 
-    if (typeof input === 'string') {
-      this.url = input
-    } else {
+    if (input instanceof Request) {
       if (input.bodyUsed) {
         throw new TypeError('Already read')
       }
@@ -32640,6 +32671,8 @@ function config (name) {
         body = input._bodyInit
         input.bodyUsed = true
       }
+    } else {
+      this.url = String(input)
     }
 
     this.credentials = options.credentials || this.credentials || 'omit'
@@ -32675,7 +32708,7 @@ function config (name) {
 
   function parseHeaders(rawHeaders) {
     var headers = new Headers()
-    rawHeaders.split('\r\n').forEach(function(line) {
+    rawHeaders.split(/\r?\n/).forEach(function(line) {
       var parts = line.split(':')
       var key = parts.shift().trim()
       if (key) {
@@ -33331,10 +33364,10 @@ var LetterLinks = function LetterLinks(_ref) {
   var lastIndex = letters.length - 1;
   return _react2["default"].createElement(
     "div",
-    { id: "letterIndexArea", className: "pure-u-1 center" },
+    { id: "letterIndex", className: "pure-u-1 center" },
     _react2["default"].createElement(
       "ul",
-      { id: "letterLinksList" },
+      { id: "letterList" },
       letters.map(function (letter, index) {
         return _react2["default"].createElement(Letter, { letter: letter, isLast: index == lastIndex, key: index });
       })
@@ -33356,7 +33389,7 @@ var Letter = function Letter(_ref2) {
       { href: "#" + letter },
       letter
     ),
-    isLast ? '' : ' - '
+    isLast ? '' : ' -'
   );
 };
 module.exports = exports["default"];
@@ -33401,60 +33434,75 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
     _react2['default'].createElement(
       'div',
       { id: 'todo', className: 'pure-u-1' },
-      '@wolfram pls add a function to leave the div constellationImg empty if constellation.imageUrl doesn\'t exist',
-      _react2['default'].createElement('br', null),
-      '@all find a way for sorter and filter on small screens (toggle-buttons?)'
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@wolfram pls replace the form filterConstellationsByVisibility with a FilterRow as in stars-site'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@all open the large constellation image in a pop-up?'
+      )
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'functionArea', className: 'constellations pure-u-1' },
+      { id: 'controlArea', className: 'constellations pure-u-1' },
       _react2['default'].createElement(
         'div',
-        { id: 'sortAndFilterArea', className: 'pure-u-1' },
+        { id: 'controllers', className: 'pure-u-1' },
         _react2['default'].createElement(
           'div',
           { id: 'filter', className: 'constellations pure-u-1-2 right' },
           _react2['default'].createElement(
-            'form',
-            { id: 'sortConstellationsVisibility', className: 'filter-form' },
+            'a',
+            { href: '#', className: 'toggle-filter', name: 'toggle-filter' },
+            'Filtern'
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'filterArea' },
             _react2['default'].createElement(
-              'label',
-              null,
-              'Sichtbarkeit:'
-            ),
-            _react2['default'].createElement(
-              'select',
-              { name: 'filterConstellationsVisibility' },
-              '//TODO depends on item.visibility',
+              'form',
+              { id: 'filterConstellationsByVisibility', className: 'filter-form' },
               _react2['default'].createElement(
-                'option',
-                { value: 'sortConstellationsAll', selected: true },
-                'alle'
+                'label',
+                null,
+                'Sichtbarkeit:'
               ),
               _react2['default'].createElement(
-                'option',
-                { value: 'sortConstellationsNorth' },
-                'nur nördlich'
-              ),
-              _react2['default'].createElement(
-                'option',
-                { value: 'sortConstellationsSouth' },
-                'nur südlich'
-              ),
-              _react2['default'].createElement(
-                'option',
-                { value: 'sortConstellationsMiddle' },
-                'mittig'
-              ),
-              _react2['default'].createElement(
-                'option',
-                { value: 'sortConstellationsNorthsouth' },
-                'nördlich, teils südlich'
-              ),
-              _react2['default'].createElement(
-                'option',
-                { value: 'sortConstellationsSouthnorth' },
-                'südlich, teils nördlich'
+                'select',
+                { name: 'constellationsVisibilities', defaultValue: 'showAllConstellations' },
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'showAllConstellations' },
+                  'alle'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'showConstellationsNorth' },
+                  'nur nördlich'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'showConstellationsNorthsouth' },
+                  'nördlich, teils südlich'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'showConstellationsMid' },
+                  'mittig'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'showConstellationsSouthnorth' },
+                  'südlich, teils nördlich'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'showConstellationsSouth' },
+                  'nur südlich'
+                )
               )
             )
           )
@@ -33486,31 +33534,50 @@ var ConstellationComponent = function ConstellationComponent(_ref2) {
     { className: 'constellation-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'constellationImg pure-u-1 pure-u-sm-1-5 center' },
+      { className: 'constellationImg pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 center' },
       _react2['default'].createElement(
         'a',
-        { href: item.wikipediaUrl },
-        _react2['default'].createElement('img', { src: item.imageUrl, alt: item.name })
+        { href: item.imageLargeUrl },
+        _react2['default'].createElement('img', { src: item.imageSmallUrl, alt: item.name })
       ),
       _react2['default'].createElement(
         'small',
         null,
         'Bild: ',
-        item.imageSrc
+        item.imageSrc,
+        _react2['default'].createElement('br', null),
+        'Lizenz: ',
+        _react2['default'].createElement(
+          'a',
+          { href: item.imageLicenceUrl },
+          item.imageLicence
+        )
       )
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'constellationInfo pure-u-1 pure-u-sm-3-5 center' },
+      { className: 'constellationInfo pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 center' },
       _react2['default'].createElement(
         'a',
         { href: item.wikipediaUrl },
         item.name
       ),
       _react2['default'].createElement('br', null),
-      '(',
-      item.latinName,
-      ')'
+      _react2['default'].createElement(
+        'p',
+        null,
+        '(',
+        item.latinName,
+        ')'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        item.named,
+        ' von ',
+        item.astronomer,
+        ' benannt'
+      )
     )
   );
 };
@@ -33632,11 +33699,20 @@ var ChronicleComponent = (function (_React$Component) {
         _react2['default'].createElement(
           'div',
           { id: 'todo', className: 'pure-u-1' },
-          '@wolfram pls hide the span id="coordinates" from the WP article when loading in vcard'
+          _react2['default'].createElement(
+            'p',
+            null,
+            '@wolfram pls open vcard only when clicking on item.name, not item.place'
+          ),
+          _react2['default'].createElement(
+            'p',
+            null,
+            '@wolfram pls hide the span id="coordinates" from the Wikipedia article when loading in vcard'
+          )
         ),
         _react2['default'].createElement(
           'div',
-          { id: 'dataArea' },
+          { id: 'dataArea', className: 'events pure-u-1' },
           _react2['default'].createElement(
             'div',
             { id: 'timeline' },
@@ -34179,16 +34255,28 @@ var MissionsComponent = function MissionsComponent(_ref) {
     _react2['default'].createElement(
       'div',
       { id: 'todo', className: 'pure-u-1' },
-      '@wolfram pls make the sorter and filters work',
-      _react2['default'].createElement('br', null),
-      '@wolfram pls make the toggle-switches for sort and filter work on small screens'
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@wolfram pls replace the filter forms with FilterRows as in stars-site'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@wolfram pls make the sorter and filters work'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens'
+      )
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'functionArea', className: 'missions pure-u-1' },
+      { id: 'controlArea', className: 'missions pure-u-1' },
       _react2['default'].createElement(
         'div',
-        { id: 'sortAndFilterArea', className: 'pure-u-1' },
+        { id: 'controllers', className: 'pure-u-1' },
         _react2['default'].createElement(
           'div',
           { id: 'sort', className: 'missions pure-u-1-2 left' },
@@ -34205,46 +34293,46 @@ var MissionsComponent = function MissionsComponent(_ref) {
               { id: 'sortMissions', className: 'sort-form' },
               _react2['default'].createElement(
                 'select',
-                { name: 'sortMissions' },
+                { name: 'sortMissions', defaultValue: 'sortMissionsLaunchUp' },
                 _react2['default'].createElement(
                   'option',
-                  { value: 'sortMissionsLaunchUp', selected: true },
-                  'Startdatum - aufsteigend'
+                  { value: 'sortMissionsLaunchUp' },
+                  'Startdatum ↑'
                 ),
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortMissionsLaunchDown' },
-                  'Startdatum - absteigend'
+                  'Startdatum ↓'
                 ),
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortMissionsEndUp' },
-                  'Missionsende - aufsteigend'
+                  'Missionsende ↑'
                 ),
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortMissionsEndDown' },
-                  'Missionsende - absteigend'
+                  'Missionsende ↓'
                 ),
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortMissionsDurationUp' },
-                  'Missionsdauer - aufsteigend'
+                  'Missionsdauer ↑'
                 ),
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortMissionsDurationDown' },
-                  'Missionsdauer - absteigend'
+                  'Missionsdauer ↓'
                 ),
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortMissionsNameUp' },
-                  'alphabetisch - aufsteigend'
+                  'alphabetisch ↑'
                 ),
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortMissionsNameDown' },
-                  'alphabetisch - absteigend'
+                  'alphabetisch ↓'
                 )
               )
             )
@@ -34263,7 +34351,7 @@ var MissionsComponent = function MissionsComponent(_ref) {
             { id: 'filterArea' },
             _react2['default'].createElement(
               'form',
-              { id: 'filterMissionsCategory', className: 'filter-form' },
+              { id: 'filterMissionsByCategory', className: 'filter-form' },
               _react2['default'].createElement(
                 'label',
                 null,
@@ -34271,47 +34359,47 @@ var MissionsComponent = function MissionsComponent(_ref) {
               ),
               _react2['default'].createElement(
                 'select',
-                { name: 'filterMissionsCategory' },
+                { name: 'missionsCategories', defaultValue: 'showAllCategories' },
                 _react2['default'].createElement(
                   'option',
-                  { value: 'filterMissionsAll', selected: true },
+                  { value: 'showAllCategories' },
                   'alle'
                 ),
                 _react2['default'].createElement(
                   'option',
-                  { value: 'filterMissionsManned' },
+                  { value: 'showManned' },
                   'bemannte Missionen'
                 ),
                 _react2['default'].createElement(
                   'option',
-                  { value: 'filterMissionsUnmanned' },
+                  { value: 'showUnmanned' },
                   'unbemannte Missionen'
                 ),
                 _react2['default'].createElement(
                   'option',
-                  { value: 'filterMissionsSatellite' },
+                  { value: 'showSatellites' },
                   'Satelliten'
                 ),
                 _react2['default'].createElement(
                   'option',
-                  { value: 'filterMissionsSpaceprobe' },
+                  { value: 'showSpaceprobes' },
                   'Raumsonden'
                 ),
                 _react2['default'].createElement(
                   'option',
-                  { value: 'filterMissionsSpacestation' },
+                  { value: 'showSpacestations' },
                   'Raumstationen'
                 ),
                 _react2['default'].createElement(
                   'option',
-                  { value: 'filterMissionsSpacetelescope' },
+                  { value: 'showSpacetelescopes' },
                   'Weltraumteleskope'
                 )
               )
             ),
             _react2['default'].createElement(
               'form',
-              { id: 'filterMissionsCountry', className: 'filter-form' },
+              { id: 'filterMissionsByCountry', className: 'filter-form' },
               _react2['default'].createElement(
                 'label',
                 null,
@@ -34319,22 +34407,17 @@ var MissionsComponent = function MissionsComponent(_ref) {
               ),
               _react2['default'].createElement(
                 'select',
-                { name: 'filterMissionsCountry' },
+                { name: 'missionsCountries', defaultValue: 'all' },
                 _react2['default'].createElement(
                   'option',
-                  { value: 'filterMissionsAll', selected: true },
+                  { value: 'all' },
                   'alle'
-                ),
-                _react2['default'].createElement(
-                  'option',
-                  { value: 'filterMissions[selectedCountry]' },
-                  'Länder'
                 )
               )
             ),
             _react2['default'].createElement(
               'form',
-              { id: 'filterMissionsDestination', className: 'filter-form' },
+              { id: 'filterMissionsByDestination', className: 'filter-form' },
               _react2['default'].createElement(
                 'label',
                 null,
@@ -34342,16 +34425,11 @@ var MissionsComponent = function MissionsComponent(_ref) {
               ),
               _react2['default'].createElement(
                 'select',
-                { name: 'filterMissionDestination' },
+                { name: 'missionsDestinations', defaultValue: 'all' },
                 _react2['default'].createElement(
                   'option',
-                  { value: 'filterMissionsAll', selected: true },
+                  { value: 'all' },
                   'alle'
-                ),
-                _react2['default'].createElement(
-                  'option',
-                  { value: 'filterMissions[selectedDestination]' },
-                  'Ziele'
                 )
               )
             )
@@ -34751,18 +34829,52 @@ var _react = require('react');
 var _react2 = _interopRequireDefault(_react);
 
 var defaultNotes = _react2["default"].createElement(
-  "p",
-  { id: "notComplete", className: "center" },
-  "Sie kennen noch mehr Daten zu dieser Seite?",
-  _react2["default"].createElement("br", null),
-  "Bereichern Sie cosmowiki.org und melden Sie uns diese bitte ",
+  "div",
+  { id: "defaultNotes", className: "pure-u-1" },
   _react2["default"].createElement(
-    "a",
-    {
-      href: "http://de.cosmowiki.de/?page_id=22", target: "_self", title: "Kontakt" },
-    "hier"
+    "div",
+    { className: "up-arrow pure-u-1-24" },
+    _react2["default"].createElement(
+      "p",
+      null,
+      _react2["default"].createElement(
+        "a",
+        { href: "javascript:self.scrollTo(0,0);" },
+        "↑"
+      )
+    )
   ),
-  "."
+  _react2["default"].createElement(
+    "div",
+    { id: "notComplete", className: "pure-u-11-12 center" },
+    _react2["default"].createElement(
+      "p",
+      null,
+      "Sie kennen noch mehr Daten zu dieser Seite?",
+      _react2["default"].createElement("br", null),
+      "Bereichern Sie cosmowiki.org und melden Sie uns diese bitte ",
+      _react2["default"].createElement(
+        "a",
+        {
+          href: "http://de.cosmowiki.de/?page_id=22", target: "_self", title: "Kontakt" },
+        "hier"
+      ),
+      "."
+    )
+  ),
+  _react2["default"].createElement(
+    "div",
+    { className: "up-arrow pure-u-1-24 right" },
+    _react2["default"].createElement(
+      "p",
+      null,
+      _react2["default"].createElement(
+        "a",
+        { href: "javascript:self.scrollTo(0,0);" },
+        "↑"
+      )
+    )
+  )
 );
 
 var constellationNotes = _react2["default"].createElement(
@@ -34855,7 +34967,7 @@ var starNotes = _react2["default"].createElement(
   _react2["default"].createElement(
     "p",
     { className: "center" },
-    "(Die Daten der einzelnen Sterne stammen aus den englischen Wikipedia-Artikeln, da diese meist umfangreicher und mit genaueren Quellenangaben belegt sind.)"
+    "Die Daten der einzelnen Sterne stammen aus den englischen Wikipedia-Artikeln, da diese meist umfangreicher und mit genaueren Quellenangaben belegt sind."
   ),
   _react2["default"].createElement(
     "p",
@@ -34883,6 +34995,16 @@ var starNotes = _react2["default"].createElement(
   _react2["default"].createElement(
     "p",
     null,
+    "Lj = ",
+    _react2["default"].createElement(
+      "a",
+      { href: "https://de.wikipedia.org/wiki/Lichtjahr", target: "_blank", title: "Lichtjahr" },
+      "Entfernung Erde-Stern in Lichtjahren"
+    )
+  ),
+  _react2["default"].createElement(
+    "p",
+    null,
     "mag = ",
     _react2["default"].createElement(
       "a",
@@ -34890,16 +35012,6 @@ var starNotes = _react2["default"].createElement(
       "scheinbare Helligkeit"
     ),
     " in mag"
-  ),
-  _react2["default"].createElement(
-    "p",
-    null,
-    "Lj = ",
-    _react2["default"].createElement(
-      "a",
-      { href: "https://de.wikipedia.org/wiki/Lichtjahr", target: "_blank", title: "Lichtjahr" },
-      "Entfernung Erde-Stern in Lichtjahren"
-    )
   ),
   _react2["default"].createElement(
     "p",
@@ -35122,20 +35234,28 @@ var PeopleComponent = function PeopleComponent(_ref) {
     _react2['default'].createElement(
       'div',
       { id: 'todo', className: 'pure-u-1' },
-      '@wolfram pls hide the filter-option "astronauts" on astronomers- and astronauts-site',
-      _react2['default'].createElement('br', null),
-      '@wolfram pls set a comma between 2nd and 1st name only if 1st exists (e.g. at Aristoteles)',
-      _react2['default'].createElement('br', null),
-      '@all find a way for sorter and filter on small screens (toggle-buttons?)',
-      _react2['default'].createElement('br', null),
-      '@all hide letterLinks on small screens?'
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@wolfram pls replace the filter forms with FilterRows as in stars-site'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@wolfram pls hide the filter-options "astronauts" on astronomers-site and "astronomers" on astronauts-site'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens'
+      )
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'functionArea', className: 'persons pure-u-1' },
+      { id: 'controlArea', className: 'persons pure-u-1' },
       _react2['default'].createElement(
         'div',
-        { id: 'sortAndFilterArea', className: 'pure-u-1' },
+        { id: 'controllers', className: 'pure-u-1' },
         _react2['default'].createElement(
           'div',
           { id: 'sort', className: 'people pure-u-1-2 left' },
@@ -35152,41 +35272,29 @@ var PeopleComponent = function PeopleComponent(_ref) {
               { id: 'sortPeople', className: 'sort-form' },
               _react2['default'].createElement(
                 'select',
-                { name: 'sortPeople' },
+                { name: 'sortPeople', defaultValue: 'sortPeopleNameUp' },
                 _react2['default'].createElement(
                   'option',
-                  { value: 'sortPeopleNameUp', selected: true },
-                  'Name - aufsteigend'
+                  { value: 'sortPeopleNameUp' },
+                  'Name ↑'
                 ),
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortPeopleNameDown' },
-                  'Name - absteigend'
+                  'Name ↓'
                 ),
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortPeopleBornUp' },
-                  'Geburtsdatum - aufsteigend'
+                  'Geburtsdatum ↑'
                 ),
-                '//not important yet, too much items w/o dates',
+                '// not important yet, too much items w/o dates',
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortPeopleBornDown' },
-                  'Geburtsdatum - absteigend'
+                  'Geburtsdatum ↓'
                 ),
-                '//not important yet, too much items w/o dates',
-                _react2['default'].createElement(
-                  'option',
-                  { value: 'sortPeopleDiedUp' },
-                  'Sterbedatum - aufsteigend'
-                ),
-                '//not important yet, too much items w/o dates',
-                _react2['default'].createElement(
-                  'option',
-                  { value: 'sortPeopleDiedDown' },
-                  'Sterbedatum - absteigend'
-                ),
-                '//not important yet, too much items w/o dates'
+                '// not important yet, too much items w/o dates'
               )
             )
           )
@@ -35204,7 +35312,7 @@ var PeopleComponent = function PeopleComponent(_ref) {
             { id: 'filterArea' },
             _react2['default'].createElement(
               'form',
-              { id: 'filterPeople', className: 'filter-form' },
+              { id: 'filterPeopleByProfession', className: 'filter-form' },
               _react2['default'].createElement(
                 'label',
                 null,
@@ -35212,31 +35320,30 @@ var PeopleComponent = function PeopleComponent(_ref) {
               ),
               _react2['default'].createElement(
                 'select',
-                { name: 'filterPeopleProfession' },
+                { name: 'peopleProfessions', defaultValue: 'showAllProfessions' },
                 _react2['default'].createElement(
                   'option',
-                  { value: 'filterPeopleAll', selected: true },
+                  { value: 'showAllProfessions' },
                   'alle'
                 ),
+                '// TODO use only the 10 most listed professions'
+              )
+            ),
+            _react2['default'].createElement(
+              'form',
+              { id: 'filterPeopleByCountry', className: 'filter-form' },
+              _react2['default'].createElement(
+                'label',
+                null,
+                'Land:'
+              ),
+              _react2['default'].createElement(
+                'select',
+                { name: 'peopleCountries', defaultValue: 'showAllCountries' },
                 _react2['default'].createElement(
                   'option',
-                  { value: 'filterPeopleAstronomers' },
-                  'Astronomen'
-                ),
-                _react2['default'].createElement(
-                  'option',
-                  { value: 'filterPeoplePhysicists' },
-                  'Physiker'
-                ),
-                _react2['default'].createElement(
-                  'option',
-                  { value: 'filterPeopleAstronauts' },
-                  'Raumfahrer'
-                ),
-                _react2['default'].createElement(
-                  'option',
-                  { value: 'filterPeoplePioneers' },
-                  'Raumfahrtpionier'
+                  { value: 'showAllCountries' },
+                  'alle'
                 )
               )
             )
@@ -35522,18 +35629,23 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
     _react2['default'].createElement(
       'div',
       { id: 'todo', className: 'pure-u-1' },
-      '@wolfram pls add a function to leave the div stationImg empty if station.imageUrl doesn\'t exist',
-      _react2['default'].createElement('br', null),
-      '@wolfram pls edit the date-function to get "seit station.launchDate" if launchDate is past and "ab station.launchDate" if launchDate is future',
-      _react2['default'].createElement('br', null),
-      '@all find a way for sorter and filter on small screens (toggle-buttons?)'
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@wolfram pls hide the whole div stationImg when there is no imageUrl'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@wolfram pls edit the launchDate to get "seit station.launchDate" if launchDate is past and "ab station.launchDate" if launchDate is future'
+      )
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'functionArea', className: 'stations pure-u-1' },
+      { id: 'controlArea', className: 'stations pure-u-1' },
       _react2['default'].createElement(
         'div',
-        { id: 'sortAndFilterArea', className: 'pure-u-1' },
+        { id: 'controllers', className: 'pure-u-1' },
         _react2['default'].createElement(
           'div',
           { id: 'sort', className: 'stations pure-u-1-2 left' },
@@ -35550,46 +35662,46 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
               { id: 'sortStations', className: 'sort-form' },
               _react2['default'].createElement(
                 'select',
-                { name: 'sortStations' },
+                { name: 'sortStations', defaultValue: 'sortStationsLaunchUp' },
                 _react2['default'].createElement(
                   'option',
-                  { value: 'sortStationsLaunchUp', selected: true },
-                  'Startdatum - aufsteigend'
+                  { value: 'sortStationsLaunchUp' },
+                  'Startdatum ↑'
                 ),
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortStationsLaunchDown' },
-                  'Startdatum - absteigend'
-                ),
-                _react2['default'].createElement(
-                  'option',
-                  { value: 'sortStationsEndUp' },
-                  'Missionsende - aufsteigend'
-                ),
-                _react2['default'].createElement(
-                  'option',
-                  { value: 'sortStationsEndDown' },
-                  'Missionsende - absteigend'
-                ),
-                _react2['default'].createElement(
-                  'option',
-                  { value: 'sortStationsDurationUp' },
-                  'Dauer - aufsteigend'
-                ),
-                _react2['default'].createElement(
-                  'option',
-                  { value: 'sortStationsDurationDown' },
-                  'Dauer - absteigend'
+                  'Startdatum ↓'
                 ),
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortStationsNameUp' },
-                  'Name - aufsteigend'
+                  'Name ↑'
                 ),
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortStationsNameDown' },
-                  'Name - absteigend'
+                  'Name ↓'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortStationsEndUp' },
+                  'Missionsende ↑'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortStationsEndDown' },
+                  'Missionsende ↓'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortStationsDurationUp' },
+                  'Dauer ↑'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortStationsDurationDown' },
+                  'Dauer ↓'
                 )
               )
             )
@@ -35761,18 +35873,28 @@ var StarsComponent = function StarsComponent(_ref) {
     _react2['default'].createElement(
       'div',
       { id: 'todo', className: 'pure-u-1' },
-      '@wolfram pls make the sorter and filter work',
-      _react2['default'].createElement('br', null),
-      '@all find a way for sorter and filter on small screens (toggle-buttons?)',
-      _react2['default'].createElement('br', null),
-      '@me find a solution for the greek letters / bayer names vs. historical names'
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@wolfram pls make the sorter and filter work'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@me find a solution for the greek letters / bayer names vs. historical names'
+      )
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'functionArea', className: 'stars pure-u-1' },
+      { id: 'controlArea', className: 'stars pure-u-1' },
       _react2['default'].createElement(
         'div',
-        { id: 'sortAndFilterArea', className: 'pure-u-1' },
+        { id: 'controllers', className: 'pure-u-1' },
         _react2['default'].createElement(
           'div',
           { id: 'sort', className: 'stars pure-u-1-2 left' },
@@ -35789,36 +35911,21 @@ var StarsComponent = function StarsComponent(_ref) {
               { id: 'sortStars', className: 'sort-form' },
               _react2['default'].createElement(
                 'select',
-                { name: 'sortStars' },
+                { name: 'sortStars', defaultValue: 'sortStarsHistoricalName' },
                 _react2['default'].createElement(
                   'option',
-                  { value: 'sortStarsHistoricalNameUp selected', selected: true },
-                  'historischer Name - aufsteigend'
+                  { value: 'sortStarsHistoricalName' },
+                  'historischer Name'
                 ),
                 _react2['default'].createElement(
                   'option',
-                  { value: 'sortStarsHistoricalNameDown' },
-                  'historischer Name - absteigend'
+                  { value: 'sortStarsBayerName' },
+                  'Bayer-Name'
                 ),
                 _react2['default'].createElement(
                   'option',
-                  { value: 'sortStarsBayerNameUp' },
-                  'Bayer-Name - aufsteigend'
-                ),
-                _react2['default'].createElement(
-                  'option',
-                  { value: 'sortStarsBayerNameDown' },
-                  'Bayer-Name - absteigend'
-                ),
-                _react2['default'].createElement(
-                  'option',
-                  { value: 'sortStarsConstellationNameUp' },
-                  'Sternbild - aufsteigend'
-                ),
-                _react2['default'].createElement(
-                  'option',
-                  { value: 'sortStarsConstellationNameDown' },
-                  'Sternbild - absteigend'
+                  { value: 'sortStarsConstellationName' },
+                  'Sternbild'
                 ),
                 _react2['default'].createElement(
                   'option',
@@ -35903,7 +36010,7 @@ var FilterRow = function FilterRow(_ref2) {
 
   return _react2['default'].createElement(
     'form',
-    { id: 'filterStarsConstellation', className: 'filter-form' },
+    { id: 'filterStarsByConstellation', className: 'filter-form' },
     _react2['default'].createElement(
       'label',
       null,
@@ -35911,10 +36018,10 @@ var FilterRow = function FilterRow(_ref2) {
     ),
     _react2['default'].createElement(
       'select',
-      { name: 'constellation' },
+      { name: 'starsConstellations', defaultValue: 'showAllConstellations' },
       _react2['default'].createElement(
         'option',
-        { selected: true },
+        { value: 'showAllConstellations' },
         'alle'
       ),
       constellations.map(function (constellation, idx) {
@@ -36969,15 +37076,22 @@ var Constellation = (function () {
       item.latinName = raw.itemname2;
       item.shortName = raw.itemname4;
       item.wikipediaUrl = raw.itemurl;
-      item.imageUrl = raw.itemimgurl;
+      item.imageSmallUrl = raw.itemurl2;
+      item.imageLargeUrl = raw.itemimgurl;
       item.imageSrc = raw.itemimgsrc;
+      item.imageLicence = raw.itemimglicence;
+      item.imageLicenceUrl = raw.itemimglicenceurl;
+      item.named = raw.itemdateyear;
+      item.astronomer = raw.itemparent;
+      item.rightAscension = raw.itemrightascension;
+      item.declination = raw.itemdeclination;
       item.author = Author.fromRawData(raw);
       item.brightestStar = Star.fromRawData(raw);
       item.year = raw.itemdateyear;
-      item.sphere = raw.itemproperty;
-      item.visibleFrom = raw.itemproperty2; // TODO better name please!!!
-      item.visibleTo = raw.itemproperty3; // TODO better name please!!!
-      item.squareDegrees = raw.itemproperty4; // TODO better name please!!!
+      item.visibility = raw.itemproperty;
+      item.visibleFrom = raw.itemproperty2;
+      item.visibleTo = raw.itemproperty3;
+      item.squareDegrees = raw.itemproperty4;
       item.starsOver3Mag = raw['itemproperty5'];
       item.highestBrightness = raw.itemproperty6;
       return item;
@@ -37017,9 +37131,9 @@ var Star = (function () {
       "itemname3": "Puppis",
       "itemname4": "Pup",
       "itemurl": "https://de.wikipedia.org/wiki/Puppis_%28Sternbild%29",
-      "itemurl2": "http://vizier.u-strasbg.fr/viz-bin/VizieR-4?-source=IV%2F27%2Fcatalog&-out.max=200&-out.all=1&-sort=Vmag&-order=I&Cst=%2APup",
-      "itemimgurl": "https://de.wikipedia.org/wiki/Datei:Puppis_constellation_map.png",
-      "itemimgsrc": "Torsten Bronger",
+      "itemurl2": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Puppis_IAU.svg/191px-Puppis_IAU.svg.png",
+      "itemimgurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Puppis_IAU.svg/610px-Puppis_IAU.svg.png",
+      "itemimgsrc": "IAU and Sky & Telescope magazine (Roger Sinnott & Rick Fienberg)",
       "itemimglicence": "CC by-sa 3.0",
       "itemimglicenceurl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
       "itemdateyear": 1763,
@@ -37491,7 +37605,9 @@ var Person = (function () {
       // "itemtype": 2,
       // "itemtags": "Gemini 8, Apollo 11, Mond, Mondlandung"
       var item = {
-        name: [raw.itemname, raw.itemname2].join(', '), //todo: set a comma only if itemname2 exists
+        name: [raw.itemname, raw.itemname2].filter(function (v) {
+          return v;
+        }).join(', '),
         link: raw.itemurl,
         profession: raw.itemproperty,
         country: raw.itemcountry,

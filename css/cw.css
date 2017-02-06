@@ -112,11 +112,11 @@ main {border-bottom: 1em solid #eee;}
 
 #todo {text-align: center; background: red;}
 
-/*			functionArea -------------------------------------------------------- */
+/*			controlArea -------------------------------------------------------- */
 
-#functionArea {background: #eee;}
+#controlArea {background: #eee;}
 
-#sortAndFilterArea, #letterIndexArea {border-bottom: 1px solid #fff;}
+#controllers, #letterIndex {border-bottom: 1px solid #fff;}
 #sort, #filter {
 	display: inline-block;
 	font-size: .9em; line-height: 2em;
@@ -125,25 +125,25 @@ main {border-bottom: 1em solid #eee;}
 #filter {float: right;}
 
 #sortArea, #filterArea {display: none;}
-#functionArea a {display: inline; margin: .2em;}
+#controlArea a {display: inline; margin: .2em;}
 
 #sort:hover a.toggle-sort,
 #filter:hover a.toggle-filter {display: none;}
 #sort:hover #sortArea,
 #filter:hover #filterArea {display: block;}
 
-#functionArea label, #functionArea form {display: inline; margin: 0 .1em;}
+#controlArea label, #controlArea form {display: inline; margin: 0 .1em;}
 #filterArea form {text-align: right;}
 #sort select, #filter select {margin-left: .1em;}
 
-#letterIndexArea li {display: inline-block; padding: .2em 0; }
-#letterIndexArea a {display: inline-block; margin-left: .2em;}
+#letterIndex li {display: inline-block; padding: .2em 0; margin-right: .2em;}
+#letterIndex a {display: inline-block; margin: 0 .2em;}
 
-#letterIndexArea a:hover {font-weight: bold;}
-#letterIndexArea a:after {
-	margin-left: .2em; content:attr(title); height: .2em;
+/*#letterIndex a:hover {font-weight: bold;}*/
+/*#letterIndex a:after {
+	margin-left: .2em; content: attr(title); height: .2em;
   font-weight:bold; color:transparent; overflow:hidden; visibility:hidden;
-}
+}*/
 
 /*			switch -------------------------------------------------------------- */
 /*
@@ -200,6 +200,9 @@ main {border-bottom: 1em solid #eee;}
 }
 
 #notes p {padding: .5em;}
+#defaultNotes p {padding: 0;}
+#notComplete p, .up-arrow p {margin: .2em;}
+.up-arrow p {line-height: 1.6em; font-size: 1.4em; font-weight: bold;}
 #notes ul {padding: .5em;}
 
 #upArrow {float: left; font-weight: bold;}
@@ -213,24 +216,29 @@ footer {margin-bottom: 1em; background: #f8f8f8; border-top: 1em solid #99f;}
 }
 footer h4, footer ul {border-radius: 5px;}
 footer h4 {
-	margin: 0 .5em 0; padding: .125em 0;
+	margin: 0 .25em 0; padding: .125em 0;
 	background: #eee; border: 1px solid #ddd; border-radius: 5px 5px 0 0;
 }
+#footerContainer div:first-child h4 {margin-left: .5em;}
+#footerContainer div:last-child h4 {margin-right: .5em;}
 footer ul {
-	margin: 0 .5em .5em;
+	margin: 0 .25em .5em;
 	background: #fff;
 	border-radius: 0 0 5px 5px; border: 1px solid #ddd; border-top-width: 0;
 }
+#footerContainer div:first-child ul {margin-left: .5em;}
+#footerContainer div:last-child ul {margin-right: .5em;}
 footer ul li a {display: block; line-height: 1.5em;}
 footer ul li a:hover {background: #eee;}
 footer ul li:last-child a:hover {border-radius: 0 0 5px 5px;}
 
-.shariff-button a.share_text {color: #fff;}
+/*.shariff-button a.share_text {color: #fff;}*/
 
 #footerFoot {line-height: 1em; background: #eee;}
 #footerFoot p {font-size: .6em;}
 
 /* properties for breakpoints ----------------------------------------------- */
+/* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 
 @media only screen and (min-width: 48em) {
   nav {display: inline-block;}
@@ -240,7 +248,7 @@ footer ul li:last-child a:hover {border-radius: 0 0 5px 5px;}
 	footer ul li:last-child a:hover {border-radius: 0;}
 }
 @media only screen and (min-width: 64em) {
-  #functionArea {min-height: 1.5em;}
+  #controlArea {min-height: 1.5em;}
 }
 @media only screen and (min-width: 1025px) {
 	header, main, footer {max-width: 1000px;}
