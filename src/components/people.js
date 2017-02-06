@@ -13,24 +13,21 @@ const PeopleComponent = ({groupedPeople}) => {
         <h3>Entdecker, Pioniere, Wissenschaftler</h3>
       </div>
       <div id="todo" className="pure-u-1">
-        @wolfram pls hide the filter-option "astronauts" on astronomers- and astronauts-site<br />
-        @wolfram pls set a comma between 2nd and 1st name only if 1st exists (e.g. at Aristoteles)<br />
-        @all find a way for sorter and filter on small screens (toggle-buttons?)<br />
-        @all hide letterLinks on small screens?
+        <p>@wolfram pls replace the filter forms with FilterRows as in stars-site</p>
+        <p>@wolfram pls hide the filter-options "astronauts" on astronomers-site and "astronomers" on astronauts-site</p>
+        <p>@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens</p>
       </div>
-      <div id="functionArea" className="persons pure-u-1">
-        <div id="sortAndFilterArea" className="pure-u-1">
+      <div id="controlArea" className="persons pure-u-1">
+        <div id="controllers" className="pure-u-1">
           <div id="sort" className="people pure-u-1-2 left">
             <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
             <div id="sortArea">
               <form id="sortPeople" className="sort-form">
-                <select name="sortPeople">
-                  <option value="sortPeopleNameUp" selected>Name - aufsteigend</option>
-                  <option value="sortPeopleNameDown">Name - absteigend</option>
-                  <option value="sortPeopleBornUp">Geburtsdatum - aufsteigend</option>//not important yet, too much items w/o dates
-                  <option value="sortPeopleBornDown">Geburtsdatum - absteigend</option>//not important yet, too much items w/o dates
-                  <option value="sortPeopleDiedUp">Sterbedatum - aufsteigend</option>//not important yet, too much items w/o dates
-                  <option value="sortPeopleDiedDown">Sterbedatum - absteigend</option>//not important yet, too much items w/o dates
+                <select name="sortPeople" defaultValue="sortPeopleNameUp">
+                  <option value="sortPeopleNameUp">Name &uarr;</option>
+                    <option value="sortPeopleNameDown">Name &darr;</option>
+                  <option value="sortPeopleBornUp">Geburtsdatum &uarr;</option>// not important yet, too much items w/o dates
+                  <option value="sortPeopleBornDown">Geburtsdatum &darr;</option>// not important yet, too much items w/o dates
                 </select>
               </form>
             </div>
@@ -38,14 +35,16 @@ const PeopleComponent = ({groupedPeople}) => {
           <div id="filter" className="people pure-u-1-2 right">
             <a href="#" className="toggle-filter" name="toggle-filter">Filtern</a>
             <div id="filterArea">
-              <form id="filterPeople" className="filter-form">
+              <form id="filterPeopleByProfession" className="filter-form">
                 <label>Beruf:</label>
-                <select name="filterPeopleProfession">
-                  <option value="filterPeopleAll" selected>alle</option>
-                  <option value="filterPeopleAstronomers">Astronomen</option>
-                  <option value="filterPeoplePhysicists">Physiker</option>
-                  <option value="filterPeopleAstronauts">Raumfahrer</option>
-                  <option value="filterPeoplePioneers">Raumfahrtpionier</option>
+                <select name="peopleProfessions" defaultValue="showAllProfessions">
+                  <option value="showAllProfessions">alle</option>// TODO use only the 10 most listed professions
+                </select>
+              </form>
+              <form id="filterPeopleByCountry" className="filter-form">
+                <label>Land:</label>
+                <select name="peopleCountries" defaultValue="showAllCountries">
+                  <option value="showAllCountries">alle</option>
                 </select>
               </form>
             </div>

@@ -9,25 +9,24 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
         <h3>künstliche Habitate im All</h3>
       </div>
       <div id="todo" className="pure-u-1">
-        @wolfram pls add a function to leave the div stationImg empty if station.imageUrl doesn't exist<br />
-        @wolfram pls edit the date-function to get "seit station.launchDate" if launchDate is past and "ab station.launchDate" if launchDate is future<br />
-        @all find a way for sorter and filter on small screens (toggle-buttons?)
+        <p>@wolfram pls hide the whole div stationImg when there is no imageUrl</p>
+        <p>@wolfram pls edit the launchDate to get "seit station.launchDate" if launchDate is past and "ab station.launchDate" if launchDate is future</p>
       </div>
-      <div id="functionArea" className="stations pure-u-1">
-        <div id="sortAndFilterArea" className="pure-u-1">
+      <div id="controlArea" className="stations pure-u-1">
+        <div id="controllers" className="pure-u-1">
           <div id="sort" className="stations pure-u-1-2 left">
             <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
             <div id="sortArea">
               <form id="sortStations" className="sort-form">
-                <select name="sortStations">
-                  <option value="sortStationsLaunchUp" selected>Startdatum - aufsteigend</option>
-                  <option value="sortStationsLaunchDown">Startdatum - absteigend</option>
-                  <option value="sortStationsEndUp">Missionsende - aufsteigend</option>
-                  <option value="sortStationsEndDown">Missionsende - absteigend</option>
-                  <option value="sortStationsDurationUp">Dauer - aufsteigend</option>
-                  <option value="sortStationsDurationDown">Dauer - absteigend</option>
-                  <option value="sortStationsNameUp">Name - aufsteigend</option>
-                  <option value="sortStationsNameDown">Name - absteigend</option>
+                <select name="sortStations" defaultValue="sortStationsLaunchUp">
+                  <option value="sortStationsLaunchUp">Startdatum &uarr;</option>
+                  <option value="sortStationsLaunchDown">Startdatum &darr;</option>
+                  <option value="sortStationsNameUp">Name &uarr;</option>
+                  <option value="sortStationsNameDown">Name &darr;</option>
+                  <option value="sortStationsEndUp">Missionsende &uarr;</option>
+                  <option value="sortStationsEndDown">Missionsende &darr;</option>
+                  <option value="sortStationsDurationUp">Dauer &uarr;</option>
+                  <option value="sortStationsDurationDown">Dauer &darr;</option>
                 </select>
               </form>
             </div>
