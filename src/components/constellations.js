@@ -9,23 +9,26 @@ const ConstellationsComponent = ({constellations}) => {
         <h3>Figuren am Firmament</h3>
       </div>
       <div id="todo" className="pure-u-1">
-        @wolfram pls add a function to leave the div constellationImg empty if constellation.imageUrl doesn't exist<br />
-        @all find a way for sorter and filter on small screens (toggle-buttons?)
+        <p>@wolfram pls replace the form filterConstellationsByVisibility with a FilterRow as in stars-site</p>
+        <p>@all open the large constellation image in a pop-up?</p>
       </div>
-      <div id="functionArea" className="constellations pure-u-1">
-        <div id="sortAndFilterArea" className="pure-u-1">
+      <div id="controlArea" className="constellations pure-u-1">
+        <div id="controllers" className="pure-u-1">
           <div id="filter" className="constellations pure-u-1-2 right">
-            <form id="sortConstellationsVisibility" className="filter-form">
-              <label>Sichtbarkeit:</label>
-              <select name="filterConstellationsVisibility">//TODO depends on item.visibility
-                <option value="sortConstellationsAll" selected>alle</option>
-                <option value="sortConstellationsNorth">nur nördlich</option>
-                <option value="sortConstellationsSouth">nur südlich</option>
-                <option value="sortConstellationsMiddle">mittig</option>
-                <option value="sortConstellationsNorthsouth">nördlich, teils südlich</option>
-                <option value="sortConstellationsSouthnorth">südlich, teils nördlich</option>
-              </select>
-            </form>
+            <a href="#" className="toggle-filter" name="toggle-filter">Filtern</a>
+            <div id="filterArea">
+              <form id="filterConstellationsByVisibility" className="filter-form">
+                <label>Sichtbarkeit:</label>
+                <select name="constellationsVisibilities" defaultValue="showAllConstellations">
+                  <option value="showAllConstellations">alle</option>
+                  <option value="showConstellationsNorth">nur nördlich</option>
+                  <option value="showConstellationsNorthsouth">nördlich, teils südlich</option>
+                  <option value="showConstellationsMid">mittig</option>
+                  <option value="showConstellationsSouthnorth">südlich, teils nördlich</option>
+                  <option value="showConstellationsSouth">nur südlich</option>
+                </select>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -44,13 +47,15 @@ export default ConstellationsComponent;
 const ConstellationComponent = ({constellation:item}) => {
   return (
     <div className="constellation-row data-row pure-u-1">
-      <div className="constellationImg pure-u-1 pure-u-sm-1-5 center">
-        <a href={item.wikipediaUrl}><img src={item.imageUrl} alt={item.name} /></a>
-        <small>Bild: {item.imageSrc}</small>
+      <div className="constellationImg pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 center">
+        <a href={item.imageLargeUrl}><img src={item.imageSmallUrl} alt={item.name} /></a>
+        <small>Bild: {item.imageSrc}<br />
+        Lizenz: <a href={item.imageLicenceUrl}>{item.imageLicence}</a></small>
       </div>
-      <div className="constellationInfo pure-u-1 pure-u-sm-3-5 center">
+      <div className="constellationInfo pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 center">
         <a href={item.wikipediaUrl}>{item.name}</a><br />
-        ({item.latinName})
+        <p>({item.latinName})</p>
+        <p>{item.named} von {item.astronomer} benannt</p>
       </div>
     </div>
   );
