@@ -1,6 +1,6 @@
 [
     {
-        "itemname": "θ Eridani",
+        "itemname": "Acamar",
         "itemname2": "Acamar",
         "itemname4": "θ Eridani",
         "itemname5": "θ Eri",
@@ -22,7 +22,7 @@
         "tags": "Doppelstern"
     },
     {
-        "itemname": "θ¹ Eridani",
+        "itemname": "Acamar",
         "itemname2": "Acamar",
         "itemname4": "θ¹ Eridani",
         "itemname5": "θ¹ Eri",
@@ -67,7 +67,7 @@
         "tags": "Doppelstern"
     },
     {
-        "itemname": "α Eridani",
+        "itemname": "Achernar",
         "itemname2": "Achernar",
         "itemname4": "α Eridani",
         "itemname5": "α Eri",
@@ -94,7 +94,7 @@
         "itemage": "37,3 Mio. a"
     },
     {
-        "itemname": "η Cassiopeiae",
+        "itemname": "Achird",
         "itemname2": "Achird",
         "itemname4": "η Cassiopeiae",
         "itemname5": "η Cas",
@@ -123,7 +123,7 @@
         "tags": "Doppelstern"
     },
     {
-        "itemname": "η Cassiopeiae A",
+        "itemname": "Achird",
         "itemname2": "Achird",
         "itemname4": "η¹ Cassiopeiae",
         "itemname5": "η¹ Cas",
@@ -150,7 +150,7 @@
         "tags": "Doppelstern"
     },
     {
-        "itemname": "η Cassiopeiae B",
+        "itemname": "η² Cassiopeiae",
         "itemname4": "η² Cassiopeiae",
         "itemname5": "η² Cas",
         "itemname6": "η Cassiopeiae B",
@@ -175,7 +175,7 @@
         "tags": "Doppelstern"
     },
     {
-        "itemname": "α Crucis",
+        "itemname": "Acrux",
         "itemname2": "Acrux",
         "itemname3": "Stern des Magellan",
         "itemname4": "α Crucis",
@@ -198,7 +198,7 @@
         "tags": "Mehrfachsystem"
     },
     {
-        "itemname": "α Crucis Aa",
+        "itemname": "Acrux",
         "itemname2": "Acrux",
         "itemname4": "α¹ Crucis",
         "itemname5": "α¹ Cru",
@@ -217,13 +217,13 @@
         "itemrightascension": "12h 26m 35,89522s",
         "itemdeclination": "-63° 05′ 56,7343″",
         "itemappmag": "1,3",
-        "itemmass": "17,80 + 6,05",
+        "itemmass": 17.8,
         "itemluminosity": "25,000",
         "itemtemperature": "24000 K",
         "tags": "Mehrfachsystem"
     },
     {
-        "itemname": "α Crucis Ab",
+        "itemname": "Acrux",
         "itemname2": "Acrux",
         "itemname4": "α¹ Crucis",
         "itemname5": "α¹ Cru",
@@ -247,7 +247,7 @@
         "tags": "Mehrfachsystem"
     },
     {
-        "itemname": "α Crucis B",
+        "itemname": "α² Crucis",
         "itemname4": "α² Crucis",
         "itemname5": "α² Cru",
         "itemname6": "α Crucis B",
@@ -270,7 +270,7 @@
         "tags": "Mehrfachsystem"
     },
     {
-        "itemname": "α Cancri",
+        "itemname": "Acubens",
         "itemname2": "Acubens",
         "itemname4": "α Cancri",
         "itemname5": "α Cnc",
@@ -293,7 +293,7 @@
         "itemluminosity": "23"
     },
     {
-        "itemname": "ε Canis Majoris",
+        "itemname": "Adhara",
         "itemname2": "Adhara",
         "itemname4": "ε Canis Majoris",
         "itemname5": "ε CMa",
@@ -319,7 +319,7 @@
         "tags": "Doppelstern"
     },
     {
-        "itemname": "ε Canis Majoris A",
+        "itemname": "ε¹ Canis Majoris A",
         "itemname4": "ε¹ Canis Majoris A",
         "itemname5": "ε¹ CMa",
         "itemname6": "ε Canis Majoris A",
@@ -339,7 +339,7 @@
         "tags": "Doppelstern"
     },
     {
-        "itemname": "ε Canis Majoris B",
+        "itemname": "ε² Canis Majoris B",
         "itemname4": "ε² Canis Majoris B",
         "itemname5": "ε² CMa",
         "itemname6": "ε Canis Majoris B",
@@ -357,7 +357,7 @@
         "tags": "Doppelstern"
     },
     {
-        "itemname": "ξ Andromedae",
+        "itemname": "Adhil",
         "itemname2": "Adhil",
         "itemname4": "ξ Andromedae",
         "itemname5": "ξ And",
@@ -383,7 +383,7 @@
         "itemtemperature": "4656 K"
     },
     {
-        "itemname": "β Centauri",
+        "itemname": "Hadar",
         "itemname2": "Hadar",
         "itemname3": "Agena",
         "itemname4": "β Centauri",
@@ -411,7 +411,7 @@
         "tags": "Mehrfachsystem"
     },
     {
-        "itemname": "β Centauri Aa",
+        "itemname": "β Centauri A1",
         "itemname4": "β Centauri A1",
         "itemname5": "β¹ Cen",
         "itemname6": "β Centauri Aa",
@@ -434,7 +434,7 @@
         "tags": "Mehrfachsystem"
     },
     {
-        "itemname": "β Centauri Ab",
+        "itemname": "β Centauri A2",
         "itemname4": "β Centauri A2",
         "itemname5": "β² Cen",
         "itemname6": "β Centauri Ab",
@@ -480,7 +480,7 @@
         "tags": "Mehrfachsystem"
     },
     {
-        "itemname": "ε Tau",
+        "itemname": "Ain",
         "itemname2": "Ain",
         "itemname4": "ε Tau",
         "itemname5": "ε Tau",
@@ -508,7 +508,7 @@
         "itemage": "625 Mio. a"
     },
     {
-        "itemname": "β Scorpii",
+        "itemname": "Acrab",
         "itemname2": "Acrab",
         "itemname3": "Elacrab, Graffias, Grassias",
         "itemname4": "β Scorpii",
@@ -521,7 +521,7 @@
         "tags": "Mehrfachsystem"
     },
     {
-        "itemname": "β Scorpii Aa",
+        "itemname": "Acrab",
         "itemname2": "Acrab",
         "itemname4": "β Scorpii",
         "itemname5": "β Sco",
@@ -547,7 +547,7 @@
         "tags": "Mehrfachsystem"
     },
     {
-        "itemname": "β Scorpii Ab",
+        "itemname": "β Scorpii",
         "itemname4": "β Scorpii",
         "itemname5": "β Sco",
         "itemname6": "β Scorpii Ab",
@@ -572,7 +572,7 @@
         "tags": "Mehrfachsystem"
     },
     {
-        "itemname": "β Scorpii B",
+        "itemname": "β Scorpii",
         "itemname4": "β Scorpii",
         "itemname5": "β Sco",
         "itemname6": "β Scorpii B",
@@ -593,7 +593,7 @@
         "tags": "Mehrfachsystem"
     },
     {
-        "itemname": "β Scorpii C",
+        "itemname": "β Scorpii",
         "itemname4": "β Scorpii",
         "itemname5": "β Sco",
         "itemname6": "β Scorpii C",
@@ -603,7 +603,7 @@
         "tags": "Mehrfachsystem"
     },
     {
-        "itemname": "β Scorpii Ea",
+        "itemname": "β Scorpii",
         "itemname4": "β Scorpii",
         "itemname5": "β Sco",
         "itemname6": "β Scorpii Ea",
@@ -613,7 +613,7 @@
         "tags": "Mehrfachsystem"
     },
     {
-        "itemname": "β Scorpii Eb",
+        "itemname": "β Scorpii",
         "itemname4": "β Scorpii",
         "itemname5": "β Sco",
         "itemname6": "β Scorpii Eb",
@@ -639,7 +639,7 @@
         "itemspectraltype": "A2m"
     },
     {
-        "itemname": "ρ² Cephei",
+        "itemname": "Al Kalb al Rai",
         "itemname2": "Al Kalb al Rai",
         "itemname4": "ρ² Cephei",
         "itemname5": "ρ² Cep",
@@ -662,7 +662,7 @@
         "itemspectraltype": "A3 V"
     },
     {
-        "itemname": "χ Ursae Majoris",
+        "itemname": "Al Kaphrah",
         "itemname2": "Al Kaphrah",
         "itemname4": "χ Ursae Majoris",
         "itemname5": "χ UMa",
@@ -684,7 +684,7 @@
         "itemspectraltype": "K0.5IIIb"
     },
     {
-        "itemname": "θ Columbae",
+        "itemname": "Al Kurud",
         "itemname2": "Al Kurud",
         "itemname4": "θ Columbae",
         "itemname5": "θ Col",
@@ -703,12 +703,12 @@
         "itemdeclination": "−37° 15′ 10,5114″",
         "itemappmag": "5,02",
         "itemspectraltype": "B8 IV",
-        "itemmass": "4,13",
+        "itemmass": "4,13±0,09",
         "itemluminosity": "472",
         "itemtemperature": "9916 K"
     },
     {
-        "itemname": "κ Leonis",
+        "itemname": "Al Minliar al Asad",
         "itemname2": "Al Minliar al Asad",
         "itemname3": "Minchir el-asad, Minkhir al-Asad",
         "itemname4": "κ Leonis",
@@ -733,7 +733,7 @@
         "itemtemperature": "4370 K"
     },
     {
-        "itemname": "α Gruis",
+        "itemname": "Al Nair",
         "itemname2": "Al Nair",
         "itemname4": "α Gruis",
         "itemname5": "α Gru",
@@ -752,7 +752,7 @@
         "itemmass": "3,46"
     },
     {
-        "itemname": "ι Aquilae",
+        "itemname": "Al Thalimain Posterior",
         "itemname2": "Al Thalimain Posterior",
         "itemname4": "ι Aquilae",
         "itemname5": "ι Aql",
@@ -773,7 +773,7 @@
         "itemtemperature": "14552 K"
     },
     {
-        "itemname": "λ Aquilae",
+        "itemname": "Al Thalimain Prior",
         "itemname2": "Al Thalimain Prior",
         "itemname4": "λ Aquilae",
         "itemname5": "λ Aql",
@@ -794,7 +794,7 @@
         "itemtemperature": "11780 K"
     },
     {
-        "itemname": "η Lyrae",
+        "itemname": "Aladfar",
         "itemname2": "Aladfar",
         "itemname4": "η Lyrae",
         "itemname5": "η Lyr",
@@ -812,7 +812,7 @@
         "itemspectraltype": "B2.5 IV"
     },
     {
-        "itemname": "γ Andromedae",
+        "itemname": "Alamak",
         "itemname2": "Alamak",
         "itemname3": "Alamach",
         "itemname4": "γ Andromedae",
@@ -825,7 +825,7 @@
         "itemappmag": "2,3"
     },
     {
-        "itemname": "γ¹ Andromedae",
+        "itemname": "Alamak A",
         "itemname2": "Alamak A",
         "itemname4": "γ¹ Andromedae",
         "itemname5": "γ¹ And",
@@ -838,7 +838,7 @@
         "itemdistance": 355
     },
     {
-        "itemname": "γ² Andromedae",
+        "itemname": "Alamak BC",
         "itemname2": "Alamak BC",
         "itemname4": "γ² Andromedae",
         "itemname5": "γ² And",
@@ -851,7 +851,7 @@
         "itemdistance": 355
     },
     {
-        "itemname": "η Ursae Minoris",
+        "itemname": "Alasco",
         "itemname2": "Alasco",
         "itemname4": "η Ursae Minoris",
         "itemname5": "η UMi",
@@ -871,7 +871,7 @@
         "itemmeanradius": "1,4"
     },
     {
-        "itemname": "μ Lyrae",
+        "itemname": "Alathfar",
         "itemname2": "Alathfar",
         "itemname4": "μ Lyrae",
         "itemname5": "μ Lyr",
@@ -886,7 +886,7 @@
         "itemtemperature": "8190 K"
     },
     {
-        "itemname": "pi Sagittarii",
+        "itemname": "Albaldah",
         "itemname2": "Albaldah",
         "itemname4": "pi Sagittarii",
         "itemname5": "π Sgr",
@@ -906,7 +906,7 @@
         "itemtemperature": "6,590 K"
     },
     {
-        "itemname": "ε Aquarii",
+        "itemname": "Albali",
         "itemname2": "Albali",
         "itemname4": "ε Aquarii",
         "itemname5": "ε Aqr",
@@ -917,7 +917,7 @@
         "itemappmag": "3,8"
     },
     {
-        "itemname": "β Cygni",
+        "itemname": "Albireo",
         "itemname2": "Albireo",
         "itemname4": "β Cygni",
         "itemname5": "β Cyg",
@@ -928,7 +928,7 @@
         "itemappmag": "2,92"
     },
     {
-        "itemname": "β¹ Cygni",
+        "itemname": "Albireo A",
         "itemname2": "Albireo A",
         "itemname4": "β¹ Cygni",
         "itemname5": "β¹ Cyg",
@@ -939,7 +939,7 @@
         "itemappmag": "3,1"
     },
     {
-        "itemname": "β² Cygni",
+        "itemname": "Albireo B",
         "itemname2": "Albireo B",
         "itemname4": "β² Cygni",
         "itemname5": "β² Cyg",
@@ -950,7 +950,7 @@
         "itemappmag": "5,1"
     },
     {
-        "itemname": "α Corvi",
+        "itemname": "Alchiba",
         "itemname2": "Alchiba",
         "itemname4": "α Corvi",
         "itemname5": "α Crv",
@@ -961,7 +961,7 @@
         "itemappmag": "4,02"
     },
     {
-        "itemname": "α Tau",
+        "itemname": "Aldebaran",
         "itemname2": "Aldebaran",
         "itemname3": "Aldabaran, Cor Tauri, Parilicium",
         "itemname4": "α Tau",
@@ -980,7 +980,7 @@
         "itemappmag": "0,87"
     },
     {
-        "itemname": "α¹ Tau",
+        "itemname": "Aldebaran A",
         "itemname2": "Aldebaran A",
         "itemname3": "Aldabaran, Cor Tauri, Parilicium",
         "itemname4": "α¹ Tau",
@@ -999,7 +999,7 @@
         "itemappmag": "0,85"
     },
     {
-        "itemname": "α² Tau",
+        "itemname": "Aldebaran B",
         "itemname2": "Aldebaran B",
         "itemname3": "Aldabaran, Cor Tauri, Parilicium",
         "itemname4": "α² Tau",
@@ -1018,7 +1018,7 @@
         "itemappmag": "13,6"
     },
     {
-        "itemname": "α³ Tau",
+        "itemname": "Aldebaran C",
         "itemname2": "Aldebaran C",
         "itemname3": "Aldabaran, Cor Tauri, Parilicium",
         "itemname4": "α³ Tau",
@@ -1037,7 +1037,7 @@
         "itemappmag": "11,3"
     },
     {
-        "itemname": "α⁴ Tau",
+        "itemname": "Aldebaran D",
         "itemname2": "Aldebaran D",
         "itemname3": "Aldabaran, Cor Tauri, Parilicium",
         "itemname4": "α⁴ Tau",
@@ -1056,7 +1056,7 @@
         "itemappmag": "13,7"
     },
     {
-        "itemname": "α⁵ Tau",
+        "itemname": "Aldebaran E",
         "itemname2": "Aldebaran E",
         "itemname3": "Aldabaran, Cor Tauri, Parilicium",
         "itemname4": "α⁵ Tau",
@@ -1075,7 +1075,7 @@
         "itemappmag": "12,0"
     },
     {
-        "itemname": "α⁶ Tau",
+        "itemname": "Aldebaran F",
         "itemname2": "Aldebaran F",
         "itemname3": "Aldabaran, Cor Tauri, Parilicium",
         "itemname4": "α⁶ Tau",
@@ -1094,7 +1094,7 @@
         "itemappmag": "13,6"
     },
     {
-        "itemname": "α Cephei",
+        "itemname": "Alderamin",
         "itemname2": "Alderamin",
         "itemname4": "α Cephei",
         "itemname5": "α Cep",
@@ -1105,7 +1105,7 @@
         "itemappmag": "2,45"
     },
     {
-        "itemname": "ζ Leonis",
+        "itemname": "Aldhafera",
         "itemname2": "Aldhafera",
         "itemname4": "ζ Leonis",
         "itemname5": "ζ Leo",
@@ -1116,7 +1116,7 @@
         "itemappmag": "3,65"
     },
     {
-        "itemname": "γ Gruis",
+        "itemname": "Aldhanab",
         "itemname2": "Aldhanab",
         "itemname4": "γ Gruis",
         "itemname5": "γ Gru",
@@ -1127,7 +1127,7 @@
         "itemappmag": "3,01"
     },
     {
-        "itemname": "ζ Draconis",
+        "itemname": "Aldhibah",
         "itemname2": "Aldhibah",
         "itemname4": "ζ Draconis",
         "itemname5": "ζ Dra",
@@ -1138,7 +1138,7 @@
         "itemappmag": "3,17"
     },
     {
-        "itemname": "α Coronae Australis",
+        "itemname": "Alfecca Meridiana",
         "itemname2": "Alfecca Meridiana",
         "itemname4": "α Coronae Australis",
         "itemname5": "α CrA",
@@ -1149,7 +1149,7 @@
         "itemappmag": "4,1"
     },
     {
-        "itemname": "β Cephei",
+        "itemname": "Alfirk",
         "itemname2": "Alfirk",
         "itemname4": "β Cephei",
         "itemname5": "β Cep",
@@ -1160,7 +1160,7 @@
         "itemappmag": "3,15"
     },
     {
-        "itemname": "γ Pegasi",
+        "itemname": "Algenib",
         "itemname2": "Algenib",
         "itemname4": "γ Pegasi",
         "itemname5": "γ Peg",
@@ -1180,7 +1180,7 @@
         "itemspectraltype": "B2 IV"
     },
     {
-        "itemname": "γ Leonis",
+        "itemname": "Algieba",
         "itemname2": "Algieba",
         "itemname4": "γ Leonis",
         "itemname5": "γ Leo",
@@ -1191,14 +1191,14 @@
         "itemappmag": "1,98"
     },
     {
-        "itemname": "α Capricorni",
+        "itemname": "Algiedi",
         "itemname2": "Algiedi",
         "itemname4": "α Capricorni",
         "itemname5": "α Cap",
         "itemurl": "https://de.wikipedia.org/wiki/Algiedi"
     },
     {
-        "itemname": "α¹ Capricorni",
+        "itemname": "Algiedi A",
         "itemname2": "Algiedi A",
         "itemname4": "α¹ Capricorni",
         "itemname5": "α¹ Cap",
@@ -1208,7 +1208,7 @@
         "itemappmag": "4,2"
     },
     {
-        "itemname": "α² Capricorni",
+        "itemname": "Algiedi B",
         "itemname2": "Algiedi B",
         "itemname4": "α² Capricorni",
         "itemname5": "α² Cap",
@@ -1218,7 +1218,7 @@
         "itemappmag": "3,6"
     },
     {
-        "itemname": "β Persei",
+        "itemname": "Algol",
         "itemname2": "Algol",
         "itemname4": "β Persei",
         "itemname5": "β Per",
@@ -1229,7 +1229,7 @@
         "itemappmag": "2,09"
     },
     {
-        "itemname": "δ Corvi",
+        "itemname": "Algorab",
         "itemname2": "Algorab",
         "itemname4": "δ Corvi",
         "itemname5": "δ Crv",
@@ -1240,7 +1240,7 @@
         "itemappmag": "3,1"
     },
     {
-        "itemname": "γ Geminorum",
+        "itemname": "Alhena",
         "itemname2": "Alhena",
         "itemname4": "γ Geminorum",
         "itemname5": "γ Gem",
@@ -1251,7 +1251,7 @@
         "itemappmag": "1,93"
     },
     {
-        "itemname": "ε Ursae Majoris",
+        "itemname": "Alioth",
         "itemname2": "Alioth",
         "itemname4": "ε Ursae Majoris",
         "itemname5": "ε UMa",
@@ -1262,7 +1262,7 @@
         "itemappmag": "1,76"
     },
     {
-        "itemname": "η Ursae Majoris",
+        "itemname": "Alkaid",
         "itemname2": "Alkaid",
         "itemname3": "Benetnasch",
         "itemname4": "η Ursae Majoris",
@@ -1274,7 +1274,7 @@
         "itemappmag": "1,85"
     },
     {
-        "itemname": "μ Boötis",
+        "itemname": "Alkalurops A",
         "itemname2": "Alkalurops A",
         "itemname4": "μ Boötis",
         "itemname5": "μ Boo",
@@ -1283,7 +1283,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/B%C3%A4renh%C3%BCter"
     },
     {
-        "itemname": "μ¹ Boötis",
+        "itemname": "Alkalurops A",
         "itemname2": "Alkalurops A",
         "itemname4": "μ¹ Boötis",
         "itemname5": "μ¹ Boo",
@@ -1293,7 +1293,7 @@
         "itemappmag": "4,31"
     },
     {
-        "itemname": "μ² Boötis",
+        "itemname": "Alkalurops B",
         "itemname2": "Alkalurops B",
         "itemname4": "μ² Boötis",
         "itemname5": "μ² Boo",
@@ -1303,7 +1303,7 @@
         "itemappmag": "6,98"
     },
     {
-        "itemname": "μ³ Boötis",
+        "itemname": "Alkalurops C",
         "itemname2": "Alkalurops C",
         "itemname4": "μ³ Boötis",
         "itemname5": "μ³ Boo",
@@ -1313,7 +1313,7 @@
         "itemappmag": "7,63"
     },
     {
-        "itemname": "α Crateris",
+        "itemname": "Alkes",
         "itemname2": "Alkes",
         "itemname4": "α Crateris",
         "itemname5": "α Crt",
@@ -1324,7 +1324,7 @@
         "itemappmag": "4,2"
     },
     {
-        "itemname": "η Tau",
+        "itemname": "Alkione",
         "itemname2": "Alkione",
         "itemname4": "η Tau",
         "itemname5": "η Tau",
@@ -1335,7 +1335,7 @@
         "itemappmag": "2,87"
     },
     {
-        "itemname": "Alkor ",
+        "itemname": "Alkor",
         "itemname2": "Alkor",
         "itemname4": "Alkor ",
         "itemname5": "80 UMa",
@@ -1347,7 +1347,7 @@
         "itemappmag": "3,99"
     },
     {
-        "itemname": "ξ Cephei",
+        "itemname": "Alkurah",
         "itemname2": "Alkurah",
         "itemname4": "ξ Cephei",
         "itemname5": "ξ Cep",
@@ -1358,7 +1358,7 @@
         "itemappmag": "4,29"
     },
     {
-        "itemname": "ε Orionis",
+        "itemname": "Alnilam",
         "itemname2": "Alnilam",
         "itemname4": "ε Orionis",
         "itemname5": "ε Ori",
@@ -1369,7 +1369,7 @@
         "itemappmag": "1,69"
     },
     {
-        "itemname": "ζ Orionis",
+        "itemname": "Alnitak",
         "itemname2": "Alnitak",
         "itemname4": "ζ Orionis",
         "itemname5": "ζ Ori",
@@ -1380,7 +1380,7 @@
         "itemappmag": "2,03"
     },
     {
-        "itemname": "τ Scorpii",
+        "itemname": "Alniyat",
         "itemname2": "Alniyat",
         "itemname3": "Al Niyat",
         "itemname4": "τ Scorpii",
@@ -1392,7 +1392,7 @@
         "itemappmag": "2,8"
     },
     {
-        "itemname": "σ Scorpii",
+        "itemname": "Alniyat",
         "itemname2": "Alniyat",
         "itemname3": "Al Niyat",
         "itemname4": "σ Scorpii",
@@ -1404,7 +1404,7 @@
         "itemappmag": "2,9"
     },
     {
-        "itemname": "α Hydrae",
+        "itemname": "Alphard",
         "itemname2": "Alphard",
         "itemname3": "Soheil al Fard",
         "itemname4": "α Hydrae",
@@ -1426,7 +1426,7 @@
         "itemmeanradius": 50.5
     },
     {
-        "itemname": "μ Draconis",
+        "itemname": "Alrakis",
         "itemname2": "Alrakis",
         "itemname4": "μ Draconis",
         "itemname5": "μ Dra",
@@ -1437,7 +1437,7 @@
         "itemappmag": "4,91"
     },
     {
-        "itemname": "α Piscium",
+        "itemname": "Alrischa",
         "itemname2": "Alrischa",
         "itemname4": "α Piscium",
         "itemname5": "α Psc",
@@ -1448,7 +1448,7 @@
         "itemappmag": "3,82"
     },
     {
-        "itemname": "α¹ Piscium",
+        "itemname": "Alrischa A",
         "itemname2": "Alrischa A",
         "itemname4": "α¹ Piscium",
         "itemname5": "α¹ Psc",
@@ -1459,7 +1459,7 @@
         "itemappmag": "4,33"
     },
     {
-        "itemname": "α² Piscium",
+        "itemname": "Alrischa B",
         "itemname2": "Alrischa B",
         "itemname4": "α² Piscium",
         "itemname5": "α² Psc",
@@ -1470,7 +1470,7 @@
         "itemappmag": "5,23"
     },
     {
-        "itemname": "σ Draconis",
+        "itemname": "Alsafi",
         "itemname2": "Alsafi",
         "itemname4": "σ Draconis",
         "itemname5": "σ Dra",
@@ -1481,7 +1481,7 @@
         "itemappmag": "4,67"
     },
     {
-        "itemname": "β Aquilae",
+        "itemname": "Alschain",
         "itemname2": "Alschain",
         "itemname4": "β Aquilae",
         "itemname5": "β Aql",
@@ -1492,7 +1492,7 @@
         "itemappmag": "3,7"
     },
     {
-        "itemname": "β Aquilae",
+        "itemname": "Alschain A",
         "itemname2": "Alschain A",
         "itemname4": "β Aquilae",
         "itemname5": "β Aql",
@@ -1502,7 +1502,7 @@
         "itemdistance": 44.7
     },
     {
-        "itemname": "β¹ Aquilae",
+        "itemname": "Alschain A",
         "itemname2": "Alschain A",
         "itemname4": "β¹ Aquilae",
         "itemname5": "β¹ Aql",
@@ -1513,7 +1513,7 @@
         "itemappmag": "3,71"
     },
     {
-        "itemname": "β² Aquilae",
+        "itemname": "Alschain B",
         "itemname2": "Alschain B",
         "itemname4": "β² Aquilae",
         "itemname5": "β² Aql",
@@ -1524,7 +1524,7 @@
         "itemappmag": "11,4"
     },
     {
-        "itemname": "β³ Aquilae",
+        "itemname": "Alschain C",
         "itemname2": "Alschain C",
         "itemname4": "β³ Aquilae",
         "itemname5": "β³ Aql",
@@ -1535,7 +1535,7 @@
         "itemappmag": "10,5"
     },
     {
-        "itemname": "ν Capricorni",
+        "itemname": "Alshat",
         "itemname2": "Alshat",
         "itemname4": "ν Capricorni",
         "itemname5": "ν Cap",
@@ -1546,7 +1546,7 @@
         "itemappmag": "5,08"
     },
     {
-        "itemname": "α Aquilae",
+        "itemname": "Altair",
         "itemname2": "Altair",
         "itemname4": "α Aquilae",
         "itemname5": "α Aql",
@@ -1557,7 +1557,7 @@
         "itemappmag": "0,76"
     },
     {
-        "itemname": "δ Draconis",
+        "itemname": "Altais",
         "itemname2": "Altais",
         "itemname4": "δ Draconis",
         "itemname5": "δ Dra",
@@ -1568,7 +1568,7 @@
         "itemappmag": "3,07"
     },
     {
-        "itemname": "β Cancri",
+        "itemname": "Altarf",
         "itemname2": "Altarf",
         "itemname4": "β Cancri",
         "itemname5": "β Cnc",
@@ -1579,7 +1579,7 @@
         "itemappmag": "3,8"
     },
     {
-        "itemname": "λ Leonis",
+        "itemname": "Alterf",
         "itemname2": "Alterf",
         "itemname4": "λ Leonis",
         "itemname5": "λ Leo",
@@ -1590,7 +1590,7 @@
         "itemappmag": "4,32"
     },
     {
-        "itemname": "η Canis Majoris",
+        "itemname": "Aludra",
         "itemname2": "Aludra",
         "itemname4": "η Canis Majoris",
         "itemname5": "η CMa",
@@ -1601,7 +1601,7 @@
         "itemappmag": "2,45"
     },
     {
-        "itemname": "ξ Ursae Majoris",
+        "itemname": "Alula Australis A",
         "itemname2": "Alula Australis A",
         "itemname4": "ξ Ursae Majoris",
         "itemname5": "ξ UMa",
@@ -1610,7 +1610,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Gro%C3%9Fer_B%C3%A4r"
     },
     {
-        "itemname": "ξ¹ Ursae Majoris",
+        "itemname": "Alula Australis A",
         "itemname2": "Alula Australis A",
         "itemname4": "ξ¹ Ursae Majoris",
         "itemname5": "ξ¹ UMa",
@@ -1620,7 +1620,7 @@
         "itemappmag": "4,3"
     },
     {
-        "itemname": "ξ² Ursae Majoris",
+        "itemname": "Alula Australis B",
         "itemname2": "Alula Australis B",
         "itemname4": "ξ² Ursae Majoris",
         "itemname5": "ξ² UMa",
@@ -1630,7 +1630,7 @@
         "itemappmag": "4,7"
     },
     {
-        "itemname": "ν Ursae Majoris",
+        "itemname": "Alula Borealis",
         "itemname2": "Alula Borealis",
         "itemname4": "ν Ursae Majoris",
         "itemname5": "ν UMa",
@@ -1641,7 +1641,7 @@
         "itemappmag": "3,5"
     },
     {
-        "itemname": "β Draconis",
+        "itemname": "Alwaid",
         "itemname2": "Alwaid",
         "itemname4": "β Draconis",
         "itemname5": "β Dra",
@@ -1652,7 +1652,7 @@
         "itemappmag": "2,79"
     },
     {
-        "itemname": "θ Serpentis",
+        "itemname": "Alya",
         "itemname2": "Alya",
         "itemname4": "θ Serpentis",
         "itemname5": "θ Ser",
@@ -1663,7 +1663,7 @@
         "itemappmag": "4"
     },
     {
-        "itemname": "ξ Geminorum",
+        "itemname": "Alzir",
         "itemname2": "Alzir",
         "itemname4": "ξ Geminorum",
         "itemname5": "ξ Gem",
@@ -1674,7 +1674,7 @@
         "itemappmag": "3,35"
     },
     {
-        "itemname": "θ Aquarii",
+        "itemname": "Ancha",
         "itemname2": "Ancha",
         "itemname4": "θ Aquarii",
         "itemname5": "θ Aqr",
@@ -1685,7 +1685,7 @@
         "itemappmag": "4,32"
     },
     {
-        "itemname": "τ² Eridani",
+        "itemname": "Angetenar",
         "itemname2": "Angetenar",
         "itemname4": "τ² Eridani",
         "itemname5": "τ2 Eri",
@@ -1696,7 +1696,7 @@
         "itemappmag": "4,76"
     },
     {
-        "itemname": "α Phoenicis",
+        "itemname": "Ankaa",
         "itemname2": "Ankaa",
         "itemname3": "Nair al-Zaurak",
         "itemname4": "α Phoenicis",
@@ -1717,13 +1717,13 @@
         "itemmeanradius": 15
     },
     {
-        "itemname": "α Vulpeculae",
+        "itemname": "Anser",
         "itemname2": "Anser",
         "itemname4": "α Vulpeculae",
         "itemname5": "α Vul"
     },
     {
-        "itemname": "α Scorpii",
+        "itemname": "Antares",
         "itemname2": "Antares",
         "itemname4": "α Scorpii",
         "itemname5": "α Sco",
@@ -1734,7 +1734,7 @@
         "itemappmag": "1,09"
     },
     {
-        "itemname": "α Scorpii B",
+        "itemname": "Antares",
         "itemname2": "Antares",
         "itemname4": "α Scorpii B",
         "itemname5": "α Sco B",
@@ -1745,7 +1745,7 @@
         "itemappmag": "1,09"
     },
     {
-        "itemname": "η Ursae Minoris",
+        "itemname": "Anwar Al Farkadain",
         "itemname2": "Anwar Al Farkadain",
         "itemname4": "η Ursae Minoris",
         "itemname5": "η UMi",
@@ -1756,7 +1756,7 @@
         "itemappmag": "4,95"
     },
     {
-        "itemname": "α Boötes",
+        "itemname": "Arcturus",
         "itemname2": "Arcturus",
         "itemname4": "α Boötes",
         "itemname5": "α Boo",
@@ -1767,7 +1767,7 @@
         "itemappmag": "5,5"
     },
     {
-        "itemname": "β² Sagittarii",
+        "itemname": "Arkab Posterior",
         "itemname2": "Arkab Posterior",
         "itemname4": "β² Sagittarii",
         "itemname5": "β² Sgr",
@@ -1778,7 +1778,7 @@
         "itemappmag": "4,27"
     },
     {
-        "itemname": "β¹ Sagittarii",
+        "itemname": "Arkab Prior",
         "itemname2": "Arkab Prior",
         "itemname4": "β¹ Sagittarii",
         "itemname5": "β¹ Sgr",
@@ -1789,7 +1789,7 @@
         "itemappmag": "3,95"
     },
     {
-        "itemname": "η Capricorni",
+        "itemname": "Arm",
         "itemname2": "Arm",
         "itemname4": "η Capricorni",
         "itemname5": "η Cap",
@@ -1800,7 +1800,7 @@
         "itemappmag": "4,84"
     },
     {
-        "itemname": "α Leporis",
+        "itemname": "Arneb",
         "itemname2": "Arneb",
         "itemname4": "α Leporis",
         "itemname5": "α Lep",
@@ -1811,7 +1811,7 @@
         "itemappmag": "2,58"
     },
     {
-        "itemname": "μ Draconis",
+        "itemname": "Arrakis",
         "itemname2": "Arrakis",
         "itemname4": "μ Draconis",
         "itemname5": "μ Dra",
@@ -1822,7 +1822,7 @@
         "itemappmag": "4,92"
     },
     {
-        "itemname": "μ¹ Draconis",
+        "itemname": "Arrakis A",
         "itemname2": "Arrakis A",
         "itemname4": "μ¹ Draconis",
         "itemname5": "μ¹ Dra",
@@ -1833,7 +1833,7 @@
         "itemappmag": "5,8"
     },
     {
-        "itemname": "μ² Draconis",
+        "itemname": "Arrakis B",
         "itemname2": "Arrakis B",
         "itemname4": "μ² Draconis",
         "itemname5": "μ² Dra",
@@ -1844,7 +1844,7 @@
         "itemappmag": "5,8"
     },
     {
-        "itemname": "δ Cancri",
+        "itemname": "Asellus Australis",
         "itemname2": "Asellus Australis",
         "itemname4": "δ Cancri",
         "itemname5": "δ Cnc",
@@ -1855,7 +1855,7 @@
         "itemappmag": "3,9"
     },
     {
-        "itemname": "γ Cancri",
+        "itemname": "Asellus Borealis",
         "itemname2": "Asellus Borealis",
         "itemname4": "γ Cancri",
         "itemname5": "γ Cnc",
@@ -1866,7 +1866,7 @@
         "itemappmag": "4,7"
     },
     {
-        "itemname": "θ Boötis",
+        "itemname": "Asellus Primus",
         "itemname2": "Asellus Primus",
         "itemname4": "θ Boötis",
         "itemname5": "θ Boo",
@@ -1877,7 +1877,7 @@
         "itemappmag": "4,1"
     },
     {
-        "itemname": "ι Boötis",
+        "itemname": "Asellus Secundus A",
         "itemname2": "Asellus Secundus A",
         "itemname4": "ι Boötis",
         "itemname5": "ι Boo",
@@ -1886,7 +1886,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/B%C3%A4renh%C3%BCter"
     },
     {
-        "itemname": "ι¹ Boötis",
+        "itemname": "Asellus Secundus A",
         "itemname2": "Asellus Secundus A",
         "itemname4": "ι¹ Boötis",
         "itemname5": "ι¹ Boo",
@@ -1896,7 +1896,7 @@
         "itemappmag": "4,75"
     },
     {
-        "itemname": "ι² Boötis",
+        "itemname": "Asellus Secundus B",
         "itemname2": "Asellus Secundus B",
         "itemname4": "ι² Boötis",
         "itemname5": "ι² Boo",
@@ -1906,7 +1906,7 @@
         "itemappmag": "8,27"
     },
     {
-        "itemname": "κ Boötis",
+        "itemname": "Asellus Tertius",
         "itemname2": "Asellus Tertius",
         "itemname4": "κ Boötis",
         "itemname5": "κ Boo",
@@ -1917,7 +1917,7 @@
         "itemappmag": "4,4"
     },
     {
-        "itemname": "κ¹ Boötis",
+        "itemname": "Asellus Tertius A",
         "itemname2": "Asellus Tertius A",
         "itemname4": "κ¹ Boötis",
         "itemname5": "κ¹ Boo",
@@ -1928,7 +1928,7 @@
         "itemappmag": "4,54"
     },
     {
-        "itemname": "κ² Boötis",
+        "itemname": "Asellus Tertius B",
         "itemname2": "Asellus Tertius B",
         "itemname4": "κ² Boötis",
         "itemname5": "κ² Boo",
@@ -1939,7 +1939,7 @@
         "itemappmag": "6,58"
     },
     {
-        "itemname": "ζ Sagittarii",
+        "itemname": "Askella",
         "itemname2": "Askella",
         "itemname4": "ζ Sagittarii",
         "itemname5": "ζ Sgr",
@@ -1950,7 +1950,7 @@
         "itemappmag": "2,7"
     },
     {
-        "itemname": "ι Carinae",
+        "itemname": "Aspidiske",
         "itemname2": "Aspidiske",
         "itemname3": "Turais, Tureis, Scutulum",
         "itemname4": "ι Carinae",
@@ -1962,7 +1962,7 @@
         "itemappmag": "2,25"
     },
     {
-        "itemname": "β Canum Venaticorum",
+        "itemname": "Asterion",
         "itemname2": "Asterion",
         "itemname4": "β Canum Venaticorum",
         "itemname5": "β CVn",
@@ -1993,7 +1993,7 @@
         "itemappmag": "6,43"
     },
     {
-        "itemname": "ο Persei",
+        "itemname": "Atik",
         "itemname2": "Atik",
         "itemname4": "ο Persei",
         "itemname5": "ο Per",
@@ -2014,7 +2014,7 @@
         "itemappmag": "3,6"
     },
     {
-        "itemname": "α Triangulum Australis",
+        "itemname": "Atria",
         "itemname2": "Atria",
         "itemname4": "α Triangulum Australis",
         "itemname5": "α TrA",
@@ -2025,12 +2025,12 @@
         "itemappmag": "1,91"
     },
     {
-        "itemname": "ε Carinae",
+        "itemname": "Avior",
         "itemname2": "Avior",
         "itemname4": "ε Carinae"
     },
     {
-        "itemname": "ζ Aurigae",
+        "itemname": "Azaleh",
         "itemname2": "Azaleh",
         "itemname4": "ζ Aurigae",
         "itemname5": "ζ Aur",
@@ -2041,7 +2041,7 @@
         "itemappmag": "3,7"
     },
     {
-        "itemname": "pi¹ Cygni",
+        "itemname": "Azelfafage",
         "itemname2": "Azelfafage",
         "itemname4": "pi¹ Cygni",
         "itemname5": "π1 Cyg",
@@ -2052,7 +2052,7 @@
         "itemappmag": "4,67"
     },
     {
-        "itemname": "η Eridani",
+        "itemname": "Azha",
         "itemname2": "Azha",
         "itemname4": "η Eridani",
         "itemname5": "η Eri",
@@ -2063,7 +2063,7 @@
         "itemappmag": "3,89"
     },
     {
-        "itemname": "ξ Puppis",
+        "itemname": "Azmidiske",
         "itemname2": "Azmidiske",
         "itemname3": "Aspidiske, Asmidiske",
         "itemname4": "ξ Puppis",
@@ -2083,7 +2083,7 @@
         "itemspectraltype": "G6 Ia"
     },
     {
-        "itemname": "θ Pegasi",
+        "itemname": "Baham",
         "itemname2": "Baham",
         "itemname4": "θ Pegasi",
         "itemname5": "θ Peg",
@@ -2103,7 +2103,7 @@
         "itemappmag": "9,54"
     },
     {
-        "itemname": "ζ Ceti",
+        "itemname": "Baten Kaitos",
         "itemname2": "Baten Kaitos",
         "itemname4": "ζ Ceti",
         "itemname5": "ζ Cet",
@@ -2114,7 +2114,7 @@
         "itemappmag": "3,9"
     },
     {
-        "itemname": "β Crucis",
+        "itemname": "Becrux",
         "itemname2": "Becrux",
         "itemname3": "Mimosa",
         "itemname4": "β Crucis",
@@ -2130,7 +2130,7 @@
         "itemappmag": "1,25"
     },
     {
-        "itemname": "ο1 Eridani",
+        "itemname": "Beid",
         "itemname2": "Beid",
         "itemname4": "ο1 Eridani",
         "itemname5": "ο1 Eri",
@@ -2141,7 +2141,7 @@
         "itemappmag": "4,04"
     },
     {
-        "itemname": "γ Orionis",
+        "itemname": "Bellatrix",
         "itemname2": "Bellatrix",
         "itemname4": "γ Orionis",
         "itemname5": "γ Ori",
@@ -2152,7 +2152,7 @@
         "itemappmag": "1,64"
     },
     {
-        "itemname": "η Ursae Majoris",
+        "itemname": "Benetnasch",
         "itemname2": "Benetnasch",
         "itemname3": "Alkaid",
         "itemname4": "η Ursae Majoris",
@@ -2164,12 +2164,12 @@
         "itemappmag": "1,85"
     },
     {
-        "itemname": "η Ursae Majoris",
+        "itemname": "Benetnasch",
         "itemname2": "Benetnasch",
         "itemname4": "η Ursae Majoris"
     },
     {
-        "itemname": "α Orionis",
+        "itemname": "Beteigeuze",
         "itemname2": "Beteigeuze",
         "itemname3": "Betelgeuse",
         "itemname4": "α Orionis",
@@ -2181,7 +2181,7 @@
         "itemappmag": "0,3"
     },
     {
-        "itemname": "β Triangulum Australis",
+        "itemname": "Betria",
         "itemname2": "Betria",
         "itemname4": "β Triangulum Australis",
         "itemname5": "β TrA",
@@ -2202,7 +2202,7 @@
         "itemappmag": "3,63"
     },
     {
-        "itemname": "θ Aurigae",
+        "itemname": "Bogardus",
         "itemname2": "Bogardus",
         "itemname4": "θ Aurigae",
         "itemname5": "θ Aur",
@@ -2213,7 +2213,7 @@
         "itemappmag": "2,62"
     },
     {
-        "itemname": "δ Arietis",
+        "itemname": "Botein",
         "itemname2": "Botein",
         "itemname4": "δ Arietis",
         "itemname5": "δ Ari",
@@ -2224,7 +2224,7 @@
         "itemappmag": "4,4"
     },
     {
-        "itemname": "σ Librae",
+        "itemname": "Brachium",
         "itemname2": "Brachium",
         "itemname4": "σ Librae",
         "itemname5": "σ Lib",
@@ -2235,7 +2235,7 @@
         "itemappmag": "3,29"
     },
     {
-        "itemname": "ξ Aquarii",
+        "itemname": "Bunda",
         "itemname2": "Bunda",
         "itemname4": "ξ Aquarii",
         "itemname5": "ξ Aqr",
@@ -2246,7 +2246,7 @@
         "itemappmag": "4,69"
     },
     {
-        "itemname": "α Carinae",
+        "itemname": "Canopus",
         "itemname2": "Canopus",
         "itemname4": "α Carinae",
         "itemname5": "α Car",
@@ -2257,7 +2257,7 @@
         "itemappmag": "-0,62"
     },
     {
-        "itemname": "α Aurigae",
+        "itemname": "Capella",
         "itemname2": "Capella",
         "itemname4": "α Aurigae",
         "itemname5": "α Aur",
@@ -2268,7 +2268,7 @@
         "itemappmag": "0,1"
     },
     {
-        "itemname": "β Cassiopeiae",
+        "itemname": "Caph",
         "itemname2": "Caph",
         "itemname4": "β Cassiopeiae",
         "itemname5": "β Cas",
@@ -2279,7 +2279,7 @@
         "itemappmag": "2,28"
     },
     {
-        "itemname": "α Geminorum",
+        "itemname": "Castor",
         "itemname2": "Castor",
         "itemname4": "α Geminorum",
         "itemname5": "α Gem",
@@ -2290,7 +2290,7 @@
         "itemappmag": "1,59"
     },
     {
-        "itemname": "α¹ Geminorum",
+        "itemname": "Castor Aa",
         "itemname2": "Castor Aa",
         "itemname4": "α¹ Geminorum",
         "itemname5": "α¹ Gem",
@@ -2301,7 +2301,7 @@
         "itemappmag": "1,88"
     },
     {
-        "itemname": "α² Geminorum",
+        "itemname": "Castor Ab",
         "itemname2": "Castor Ab",
         "itemname4": "α² Geminorum",
         "itemname5": "α² Gem",
@@ -2312,7 +2312,7 @@
         "itemappmag": "11,43"
     },
     {
-        "itemname": "α³ Geminorum",
+        "itemname": "Castor Ba",
         "itemname2": "Castor Ba",
         "itemname4": "α³ Geminorum",
         "itemname5": "α³ Gem",
@@ -2323,7 +2323,7 @@
         "itemappmag": "2,96"
     },
     {
-        "itemname": "α⁴ Geminorum",
+        "itemname": "Castor Bb",
         "itemname2": "Castor Bb",
         "itemname4": "α⁴ Geminorum",
         "itemname5": "α⁴ Gem",
@@ -2334,7 +2334,7 @@
         "itemappmag": "9,41"
     },
     {
-        "itemname": "α⁵ Geminorum",
+        "itemname": "Castor Ca",
         "itemname2": "Castor Ca",
         "itemname4": "α⁵ Geminorum",
         "itemname5": "α⁵ Gem",
@@ -2345,7 +2345,7 @@
         "itemappmag": "8,35"
     },
     {
-        "itemname": "α⁶ Geminorum",
+        "itemname": "Castor Cb",
         "itemname2": "Castor Cb",
         "itemname4": "α⁶ Geminorum",
         "itemname5": "α⁶ Gem",
@@ -2356,7 +2356,7 @@
         "itemappmag": "8,67"
     },
     {
-        "itemname": "β Ophiuχ",
+        "itemname": "Cebalrai",
         "itemname2": "Cebalrai",
         "itemname4": "β Ophiuχ",
         "itemname5": "β Oph",
@@ -2377,7 +2377,7 @@
         "itemappmag": "5,46"
     },
     {
-        "itemname": "θ Leonis",
+        "itemname": "Chertan",
         "itemname2": "Chertan",
         "itemname4": "θ Leonis",
         "itemname5": "θ Leo",
@@ -2388,12 +2388,12 @@
         "itemappmag": "3,4"
     },
     {
-        "itemname": "β Serpentis",
+        "itemname": "Chow",
         "itemname2": "Chow",
         "itemname4": "β Serpentis"
     },
     {
-        "itemname": "α Canum Venaticorum",
+        "itemname": "Cor Caroli",
         "itemname2": "Cor Caroli",
         "itemname4": "α Canum Venaticorum",
         "itemname5": "α CVn",
@@ -2404,7 +2404,7 @@
         "itemappmag": "2,8"
     },
     {
-        "itemname": "α² Canum Venaticorum",
+        "itemname": "Cor Caroli A",
         "itemname2": "Cor Caroli A",
         "itemname4": "α² Canum Venaticorum",
         "itemname5": "α² CVn",
@@ -2415,7 +2415,7 @@
         "itemappmag": "2,89"
     },
     {
-        "itemname": "α¹ Canum Venaticorum",
+        "itemname": "Cor Caroli B",
         "itemname2": "Cor Caroli B",
         "itemname4": "α¹ Canum Venaticorum",
         "itemname5": "α¹ CVn",
@@ -2426,7 +2426,7 @@
         "itemappmag": "5,6"
     },
     {
-        "itemname": "β Eridani",
+        "itemname": "Cursa",
         "itemname2": "Cursa",
         "itemname4": "β Eridani",
         "itemname5": "β Eri",
@@ -2437,7 +2437,7 @@
         "itemappmag": "2,78"
     },
     {
-        "itemname": "δ Crucis",
+        "itemname": "Decrux",
         "itemname2": "Decrux",
         "itemname4": "δ Crucis",
         "itemname5": "δ Cru",
@@ -2448,7 +2448,7 @@
         "itemappmag": "2,79"
     },
     {
-        "itemname": "α Cygni",
+        "itemname": "Deneb",
         "itemname2": "Deneb",
         "itemname4": "α Cygni",
         "itemname5": "α Cyg",
@@ -2459,7 +2459,7 @@
         "itemappmag": "1,25"
     },
     {
-        "itemname": "δ Capricorni",
+        "itemname": "Deneb Algedi",
         "itemname2": "Deneb Algedi",
         "itemname4": "δ Capricorni",
         "itemname5": "δ Cap",
@@ -2470,7 +2470,7 @@
         "itemappmag": "1,8"
     },
     {
-        "itemname": "η Ceti",
+        "itemname": "Deneb Algenubi",
         "itemname2": "Deneb Algenubi",
         "itemname4": "η Ceti",
         "itemname5": "η Cet",
@@ -2481,7 +2481,7 @@
         "itemappmag": "3,45"
     },
     {
-        "itemname": "ε Delphini",
+        "itemname": "Deneb Dulfim",
         "itemname2": "Deneb Dulfim",
         "itemname4": "ε Delphini",
         "itemname5": "ε Del",
@@ -2492,7 +2492,7 @@
         "itemappmag": "4,03"
     },
     {
-        "itemname": "ζ Aquilae",
+        "itemname": "Deneb el Okab Australis",
         "itemname2": "Deneb el Okab Australis",
         "itemname4": "ζ Aquilae",
         "itemname5": "ζ Aql",
@@ -2503,7 +2503,7 @@
         "itemappmag": "2,99"
     },
     {
-        "itemname": "ε Aquilae",
+        "itemname": "Deneb el Okab Borealis",
         "itemname2": "Deneb el Okab Borealis",
         "itemname4": "ε Aquilae",
         "itemname5": "ε Aql",
@@ -2514,7 +2514,7 @@
         "itemappmag": "4,02"
     },
     {
-        "itemname": "β Ceti",
+        "itemname": "Deneb Kaitos",
         "itemname2": "Deneb Kaitos",
         "itemname4": "β Ceti",
         "itemname5": "β Cet",
@@ -2525,7 +2525,7 @@
         "itemappmag": "2,04"
     },
     {
-        "itemname": "ι Ceti",
+        "itemname": "Deneb Kaitos Schemali",
         "itemname2": "Deneb Kaitos Schemali",
         "itemname4": "ι Ceti",
         "itemname5": "ι Cet",
@@ -2536,7 +2536,7 @@
         "itemappmag": "3,56"
     },
     {
-        "itemname": "β Leonis",
+        "itemname": "Denebola",
         "itemname2": "Denebola",
         "itemname4": "β Leonis",
         "itemname5": "β Leo",
@@ -2547,12 +2547,12 @@
         "itemappmag": "2,14"
     },
     {
-        "itemname": "η Ceti",
+        "itemname": "Dheneb",
         "itemname2": "Dheneb",
         "itemname4": "η Ceti"
     },
     {
-        "itemname": "α Comae Berenices",
+        "itemname": "Diadem",
         "itemname2": "Diadem",
         "itemname4": "α Comae Berenices",
         "itemname5": "α Com",
@@ -2563,7 +2563,7 @@
         "itemappmag": "4,32"
     },
     {
-        "itemname": "α¹ Comae Berenices",
+        "itemname": "Diadem A",
         "itemname2": "Diadem A",
         "itemname4": "α¹ Comae Berenices",
         "itemname5": "α¹ Com",
@@ -2574,7 +2574,7 @@
         "itemappmag": "4,85"
     },
     {
-        "itemname": "α² Comae Berenices",
+        "itemname": "Diadem B",
         "itemname2": "Diadem B",
         "itemname4": "α² Comae Berenices",
         "itemname5": "α² Com",
@@ -2585,7 +2585,7 @@
         "itemappmag": "5,53"
     },
     {
-        "itemname": "δ Scorpii",
+        "itemname": "Dschubba",
         "itemname2": "Dschubba",
         "itemname4": "δ Scorpii",
         "itemname5": "δ Sco",
@@ -2596,7 +2596,7 @@
         "itemappmag": "2,5"
     },
     {
-        "itemname": "α Ursae Majoris",
+        "itemname": "Dubhe",
         "itemname2": "Dubhe",
         "itemname4": "α Ursae Majoris",
         "itemname5": "α UMa",
@@ -2607,7 +2607,7 @@
         "itemappmag": "1,7"
     },
     {
-        "itemname": "α¹ Ursae Majoris",
+        "itemname": "Dubhe A",
         "itemname2": "Dubhe A",
         "itemname4": "α¹ Ursae Majoris",
         "itemname5": "α¹ UMa",
@@ -2618,7 +2618,7 @@
         "itemappmag": "1,8"
     },
     {
-        "itemname": "α² Ursae Majoris",
+        "itemname": "Dubhe B",
         "itemname2": "Dubhe B",
         "itemname4": "α² Ursae Majoris",
         "itemname5": "α² UMa",
@@ -2629,7 +2629,7 @@
         "itemappmag": "4,73"
     },
     {
-        "itemname": "α³ Ursae Majoris",
+        "itemname": "Dubhe C",
         "itemname2": "Dubhe C",
         "itemname4": "α³ Ursae Majoris",
         "itemname5": "α³ UMa",
@@ -2640,7 +2640,7 @@
         "itemappmag": "7,12"
     },
     {
-        "itemname": "δ Leonis",
+        "itemname": "Duhr",
         "itemname2": "Duhr",
         "itemname4": "δ Leonis",
         "itemname5": "δ Leo",
@@ -2651,7 +2651,7 @@
         "itemappmag": "2,6"
     },
     {
-        "itemname": "ι Draconis",
+        "itemname": "Edasich",
         "itemname2": "Edasich",
         "itemname4": "ι Draconis",
         "itemname5": "ι Dra",
@@ -2673,7 +2673,7 @@
         "itemappmag": "3,7"
     },
     {
-        "itemname": "α Trianguli",
+        "itemname": "Elmuthalleth",
         "itemname2": "Elmuthalleth",
         "itemname4": "α Trianguli",
         "itemname5": "α Tri",
@@ -2684,7 +2684,7 @@
         "itemappmag": "3,42"
     },
     {
-        "itemname": "β Tau",
+        "itemname": "Elnath",
         "itemname2": "Elnath",
         "itemname4": "β Tau",
         "itemname5": "β Tau",
@@ -2696,7 +2696,7 @@
         "itemappmag": "1,7"
     },
     {
-        "itemname": "ε Pegasi",
+        "itemname": "Enif",
         "itemname2": "Enif",
         "itemname4": "ε Pegasi",
         "itemname5": "ε Peg",
@@ -2707,7 +2707,7 @@
         "itemappmag": "2,38"
     },
     {
-        "itemname": "γ Cephei",
+        "itemname": "Errai",
         "itemname2": "Errai",
         "itemname4": "γ Cephei",
         "itemname5": "γ Cep",
@@ -2718,7 +2718,7 @@
         "itemappmag": "3,2"
     },
     {
-        "itemname": "γ¹ Cephei",
+        "itemname": "Errai A",
         "itemname2": "Errai A",
         "itemname4": "γ¹ Cephei",
         "itemname5": "γ¹ Cep",
@@ -2729,7 +2729,7 @@
         "itemappmag": "3,22"
     },
     {
-        "itemname": "γ² Cephei",
+        "itemname": "Errai B",
         "itemname2": "Errai B",
         "itemname4": "γ² Cephei",
         "itemname5": "γ² Cep",
@@ -2739,7 +2739,7 @@
         "itemdistance": 46
     },
     {
-        "itemname": "η Centauri",
+        "itemname": "Eta Centauri",
         "itemname2": "Eta Centauri",
         "itemname4": "η Centauri",
         "itemname5": "η Cen",
@@ -2759,7 +2759,7 @@
         "itemmeanradius": 5
     },
     {
-        "itemname": "γ Draconis",
+        "itemname": "Etamin",
         "itemname2": "Etamin",
         "itemname3": "Alnath, Eltanin, Ettanin, Rastaban",
         "itemname4": "γ Draconis",
@@ -2781,7 +2781,7 @@
         "itemmeanradius": 48.15
     },
     {
-        "itemname": "α piscis Austrini",
+        "itemname": "Fomalhaut",
         "itemname2": "Fomalhaut",
         "itemname4": "α piscis Austrini",
         "itemname5": "α PsA",
@@ -2792,7 +2792,7 @@
         "itemappmag": "1,17"
     },
     {
-        "itemname": "β Piscium",
+        "itemname": "Fum al Samakah",
         "itemname2": "Fum al Samakah",
         "itemname4": "β Piscium",
         "itemname5": "β Psc",
@@ -2803,7 +2803,7 @@
         "itemappmag": "4,48"
     },
     {
-        "itemname": "ζ Canis Majoris",
+        "itemname": "Furud",
         "itemname2": "Furud",
         "itemname4": "ζ Canis Majoris",
         "itemname5": "ζ CMa",
@@ -2814,7 +2814,7 @@
         "itemappmag": "3,08"
     },
     {
-        "itemname": "ζ¹ Canis Majoris",
+        "itemname": "Furud A",
         "itemname2": "Furud A",
         "itemname4": "ζ¹ Canis Majoris",
         "itemname5": "ζ¹ CMa",
@@ -2825,7 +2825,7 @@
         "itemappmag": "3,1"
     },
     {
-        "itemname": "ζ² Canis Majoris",
+        "itemname": "Furud B",
         "itemname2": "Furud B",
         "itemname4": "ζ² Canis Majoris",
         "itemname5": "ζ² CMa",
@@ -2836,7 +2836,7 @@
         "itemappmag": "7,6"
     },
     {
-        "itemname": "γ Crucis",
+        "itemname": "Gacrux",
         "itemname2": "Gacrux",
         "itemname4": "γ Crucis",
         "itemname5": "γ Cru",
@@ -2847,7 +2847,7 @@
         "itemappmag": "1,59"
     },
     {
-        "itemname": "γ Triangulum Australis",
+        "itemname": "Gatria",
         "itemname2": "Gatria",
         "itemname4": "γ Triangulum Australis",
         "itemname5": "γ TrA",
@@ -2858,7 +2858,7 @@
         "itemappmag": "3,1"
     },
     {
-        "itemname": "α Coronae Borealis",
+        "itemname": "Gemma",
         "itemname2": "Gemma",
         "itemname3": "Alphecca, Alphekka, Gnosia, Asteroth",
         "itemname4": "α Coronae Borealis",
@@ -2877,7 +2877,7 @@
         "itemappmag": 2.22
     },
     {
-        "itemname": "α Coronae Borealis A",
+        "itemname": "Gemma A",
         "itemname2": "Gemma A",
         "itemname3": "Alphecca, Alphekka, Gnosia, Asteroth",
         "itemname4": "α Coronae Borealis A",
@@ -2899,7 +2899,7 @@
         "itemmeanradius": 2.89
     },
     {
-        "itemname": "α Coronae Borealis B",
+        "itemname": "Gemma B",
         "itemname2": "Gemma B",
         "itemname3": "Alphecca, Alphekka, Gnosia, Asteroth",
         "itemname4": "α Coronae Borealis B",
@@ -2921,7 +2921,7 @@
         "itemmeanradius": 0.9
     },
     {
-        "itemname": "λ Draconis",
+        "itemname": "Gianfar",
         "itemname2": "Gianfar",
         "itemname4": "λ Draconis",
         "itemname5": "λ Dra",
@@ -2932,7 +2932,7 @@
         "itemappmag": "3,82"
     },
     {
-        "itemname": "β Capricorni",
+        "itemname": "Giedi",
         "itemname2": "Giedi",
         "itemname4": "β Capricorni",
         "itemname5": "β Cap",
@@ -2941,7 +2941,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Steinbock_(Sternbild)"
     },
     {
-        "itemname": "β¹ Capricorni",
+        "itemname": "Giedi",
         "itemname2": "Giedi",
         "itemname4": "β¹ Capricorni",
         "itemname5": "β¹ Cap",
@@ -2951,7 +2951,7 @@
         "itemappmag": "3,1"
     },
     {
-        "itemname": "β² Capricorni",
+        "itemname": "Giedi",
         "itemname2": "Giedi",
         "itemname4": "β² Capricorni",
         "itemname5": "β² Cap",
@@ -2961,7 +2961,7 @@
         "itemappmag": "6,1"
     },
     {
-        "itemname": "γ Corvi",
+        "itemname": "Gienah",
         "itemname2": "Gienah",
         "itemname3": "Gienah Gurab, Gienah Corvi",
         "itemname4": "γ Corvi",
@@ -2973,7 +2973,7 @@
         "itemappmag": "2,6"
     },
     {
-        "itemname": "ε Cygni",
+        "itemname": "Gienah",
         "itemname2": "Gienah",
         "itemname3": "Gienah Cygni",
         "itemname4": "ε Cygni",
@@ -2985,7 +2985,7 @@
         "itemappmag": "2,5"
     },
     {
-        "itemname": "κ Scorpii",
+        "itemname": "Girtab",
         "itemname2": "Girtab",
         "itemname4": "κ Scorpii",
         "itemname5": "κ Sco",
@@ -2996,7 +2996,7 @@
         "itemappmag": "2,41"
     },
     {
-        "itemname": "β Canis Minoris",
+        "itemname": "Gomeisa",
         "itemname2": "Gomeisa",
         "itemname4": "β Canis Minoris",
         "itemname5": "β CMi",
@@ -3007,7 +3007,7 @@
         "itemappmag": "2,9"
     },
     {
-        "itemname": "ρ Persei",
+        "itemname": "Gorgonea Tertia",
         "itemname2": "Gorgonea Tertia",
         "itemname4": "ρ Persei",
         "itemname5": "ρ Per",
@@ -3018,7 +3018,7 @@
         "itemappmag": "3,2"
     },
     {
-        "itemname": "ξ Scorpii",
+        "itemname": "Graffias",
         "itemname2": "Graffias",
         "itemname4": "ξ Scorpii",
         "itemname5": "ξ Sco",
@@ -3029,7 +3029,7 @@
         "itemappmag": "4,16"
     },
     {
-        "itemname": "ξ¹ Scorpii",
+        "itemname": "Graffias A",
         "itemname2": "Graffias A",
         "itemname4": "ξ¹ Scorpii",
         "itemname5": "ξ¹ Sco",
@@ -3040,7 +3040,7 @@
         "itemappmag": "4,8"
     },
     {
-        "itemname": "ξ² Scorpii",
+        "itemname": "Graffias B",
         "itemname2": "Graffias B",
         "itemname4": "ξ² Scorpii",
         "itemname5": "ξ² Sco",
@@ -3051,7 +3051,7 @@
         "itemappmag": "5,1"
     },
     {
-        "itemname": "ξ³ Scorpii",
+        "itemname": "Graffias C",
         "itemname2": "Graffias C",
         "itemname4": "ξ³ Scorpii",
         "itemname5": "ξ³ Sco",
@@ -3062,7 +3062,7 @@
         "itemappmag": "7,6"
     },
     {
-        "itemname": "ξ⁴ Scorpii",
+        "itemname": "Graffias D",
         "itemname2": "Graffias D",
         "itemname4": "ξ⁴ Scorpii",
         "itemname5": "ξ⁴ Sco",
@@ -3073,7 +3073,7 @@
         "itemappmag": "7,4"
     },
     {
-        "itemname": "ξ⁵ Scorpii",
+        "itemname": "Graffias E",
         "itemname2": "Graffias E",
         "itemname4": "ξ⁵ Scorpii",
         "itemname5": "ξ⁵ Sco",
@@ -3084,7 +3084,7 @@
         "itemappmag": "8,1"
     },
     {
-        "itemname": "ξ⁶ Scorpii",
+        "itemname": "Graffias F",
         "itemname2": "Graffias F",
         "itemname4": "ξ⁶ Scorpii",
         "itemname5": "ξ⁶ Sco",
@@ -3095,7 +3095,7 @@
         "itemappmag": "11"
     },
     {
-        "itemname": "μ Cephei",
+        "itemname": "Granatstern",
         "itemname2": "Granatstern",
         "itemname4": "μ Cephei",
         "itemname5": "μ Cep",
@@ -3106,7 +3106,7 @@
         "itemappmag": "3,68"
     },
     {
-        "itemname": "ξ Draconis",
+        "itemname": "Grumium",
         "itemname2": "Grumium",
         "itemname4": "ξ Draconis",
         "itemname5": "ξ Dra",
@@ -3117,7 +3117,7 @@
         "itemappmag": "3,7"
     },
     {
-        "itemname": "β Centauri",
+        "itemname": "Hadar",
         "itemname2": "Hadar",
         "itemname4": "β Centauri",
         "itemname5": "β Cen",
@@ -3128,7 +3128,7 @@
         "itemappmag": "0,6"
     },
     {
-        "itemname": "β¹ Centauri",
+        "itemname": "Hadar A",
         "itemname2": "Hadar A",
         "itemname4": "β¹ Centauri",
         "itemname5": "β¹ Cen",
@@ -3139,7 +3139,7 @@
         "itemappmag": "0,6"
     },
     {
-        "itemname": "β² Centauri",
+        "itemname": "Hadar B",
         "itemname2": "Hadar B",
         "itemname4": "β² Centauri",
         "itemname5": "β² Cen",
@@ -3150,7 +3150,7 @@
         "itemappmag": "4,1"
     },
     {
-        "itemname": "σ Puppis",
+        "itemname": "Hadir",
         "itemname2": "Hadir",
         "itemname4": "σ Puppis",
         "itemname5": "σ Pup",
@@ -3169,7 +3169,7 @@
         "itemmeanradius": 107
     },
     {
-        "itemname": "ε Aurigae",
+        "itemname": "Haldus",
         "itemname2": "Haldus",
         "itemname4": "ε Aurigae",
         "itemname5": "ε Aur",
@@ -3180,7 +3180,7 @@
         "itemappmag": "3,03"
     },
     {
-        "itemname": "α Arietis",
+        "itemname": "Hamal",
         "itemname2": "Hamal",
         "itemname4": "α Arietis",
         "itemname5": "α Ari",
@@ -3191,7 +3191,7 @@
         "itemappmag": "2,01"
     },
     {
-        "itemname": "ζ Ophiuχ",
+        "itemname": "Han",
         "itemname2": "Han",
         "itemname4": "ζ Ophiuχ",
         "itemname5": "ζ Oph",
@@ -3202,7 +3202,7 @@
         "itemappmag": "2,54"
     },
     {
-        "itemname": "ι Aurigae",
+        "itemname": "Hassaleh",
         "itemname2": "Hassaleh",
         "itemname4": "ι Aurigae",
         "itemname5": "ι Aur",
@@ -3213,7 +3213,7 @@
         "itemappmag": "2,7"
     },
     {
-        "itemname": "ι Orionis",
+        "itemname": "Hatysa",
         "itemname2": "Hatysa",
         "itemname4": "ι Orionis",
         "itemname5": "ι Ori",
@@ -3224,7 +3224,7 @@
         "itemappmag": "2,77"
     },
     {
-        "itemname": "α Hydri",
+        "itemname": "Head of Hydrus",
         "itemname2": "Head of Hydrus",
         "itemname4": "α Hydri",
         "itemname5": "α Hyi",
@@ -3235,7 +3235,7 @@
         "itemappmag": "2,86"
     },
     {
-        "itemname": "λ Orionis",
+        "itemname": "Heka",
         "itemname2": "Heka",
         "itemname4": "λ Orionis",
         "itemname5": "λ Ori",
@@ -3246,7 +3246,7 @@
         "itemappmag": "3,3"
     },
     {
-        "itemname": "ζ Virginis",
+        "itemname": "Heze",
         "itemname2": "Heze",
         "itemname4": "ζ Virginis",
         "itemname5": "ζ Vir",
@@ -3257,7 +3257,7 @@
         "itemappmag": "3,4"
     },
     {
-        "itemname": "ζ Pegasi",
+        "itemname": "Homam",
         "itemname2": "Homam",
         "itemname4": "ζ Pegasi",
         "itemname5": "ζ Peg",
@@ -3268,7 +3268,7 @@
         "itemappmag": "3,4"
     },
     {
-        "itemname": "γ Tau",
+        "itemname": "Hyadum I",
         "itemname2": "Hyadum I",
         "itemname4": "γ Tau",
         "itemname5": "γ Tau",
@@ -3279,7 +3279,7 @@
         "itemappmag": "3,65"
     },
     {
-        "itemname": "δ¹, Tau",
+        "itemname": "Hyadum II",
         "itemname2": "Hyadum II",
         "itemname4": "δ¹, Tau",
         "itemname5": "δ¹, Tau",
@@ -3290,7 +3290,7 @@
         "itemappmag": "3,76"
     },
     {
-        "itemname": "ε Bootis",
+        "itemname": "Izar",
         "itemname2": "Izar",
         "itemname4": "ε Bootis",
         "itemname5": "ε Boo",
@@ -3301,7 +3301,7 @@
         "itemappmag": "2,39"
     },
     {
-        "itemname": "ε Bootis",
+        "itemname": "Izar",
         "itemname2": "Izar",
         "itemname4": "ε Bootis",
         "itemname5": "ε Boo",
@@ -3311,7 +3311,7 @@
         "itemdistance": 210
     },
     {
-        "itemname": "ε¹ Bootis",
+        "itemname": "Izar A",
         "itemname2": "Izar A",
         "itemname4": "ε¹ Bootis",
         "itemname5": "ε¹ Boo",
@@ -3322,7 +3322,7 @@
         "itemappmag": "2,7"
     },
     {
-        "itemname": "ε² Bootis",
+        "itemname": "Izar B",
         "itemname2": "Izar B",
         "itemname4": "ε² Bootis",
         "itemname5": "ε² Boo",
@@ -3333,7 +3333,7 @@
         "itemappmag": "5,1"
     },
     {
-        "itemname": "ν Scorpii",
+        "itemname": "Jabbah",
         "itemname2": "Jabbah",
         "itemname4": "ν Scorpii",
         "itemname5": "ν Sco",
@@ -3342,7 +3342,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Skorpion_(Sternbild)"
     },
     {
-        "itemname": "ν¹ Scorpii",
+        "itemname": "Jabbah",
         "itemname2": "Jabbah",
         "itemname4": "ν¹ Scorpii",
         "itemname5": "ν¹ Sco",
@@ -3352,7 +3352,7 @@
         "itemappmag": "4,0"
     },
     {
-        "itemname": "ν² Scorpii",
+        "itemname": "Jabbah",
         "itemname2": "Jabbah",
         "itemname4": "ν² Scorpii",
         "itemname5": "ν² Sco",
@@ -3362,7 +3362,7 @@
         "itemappmag": "6,7"
     },
     {
-        "itemname": "κ Pegasi",
+        "itemname": "Jih",
         "itemname2": "Jih",
         "itemname4": "κ Pegasi",
         "itemname5": "κ Peg",
@@ -3373,7 +3373,7 @@
         "itemappmag": "4,13"
     },
     {
-        "itemname": "γ Ceti",
+        "itemname": "Kaffaljidhm",
         "itemname2": "Kaffaljidhm",
         "itemname4": "γ Ceti",
         "itemname5": "γ Cet",
@@ -3384,7 +3384,7 @@
         "itemappmag": "2,7"
     },
     {
-        "itemname": "ω Herculis",
+        "itemname": "Kajam",
         "itemname2": "Kajam",
         "itemname4": "ω Herculis",
         "itemname5": "ω Her",
@@ -3395,7 +3395,7 @@
         "itemappmag": "4,6"
     },
     {
-        "itemname": "κ Velorum",
+        "itemname": "Kappa Velorum",
         "itemname2": "Kappa Velorum",
         "itemname4": "κ Velorum",
         "itemname5": "κ Vel",
@@ -3430,7 +3430,7 @@
         "itemmeanradius": 0.24
     },
     {
-        "itemname": "ε Capricorni",
+        "itemname": "Kastra",
         "itemname2": "Kastra",
         "itemname4": "ε Capricorni",
         "itemname5": "ε Cap",
@@ -3441,7 +3441,7 @@
         "itemappmag": "4,68"
     },
     {
-        "itemname": "ε Sagittarii",
+        "itemname": "Kaus Australis",
         "itemname2": "Kaus Australis",
         "itemname4": "ε Sagittarii",
         "itemname5": "ε Sgr",
@@ -3452,7 +3452,7 @@
         "itemappmag": "1,88"
     },
     {
-        "itemname": "λ Sagittarii",
+        "itemname": "Kaus Borealis",
         "itemname2": "Kaus Borealis",
         "itemname4": "λ Sagittarii",
         "itemname5": "λ Sgr",
@@ -3463,7 +3463,7 @@
         "itemappmag": "2,8"
     },
     {
-        "itemname": "δ Sagittarii",
+        "itemname": "Kaus Medius",
         "itemname2": "Kaus Medius",
         "itemname4": "δ Sagittarii",
         "itemname5": "δ Sgr",
@@ -3474,7 +3474,7 @@
         "itemappmag": "2,7"
     },
     {
-        "itemname": "ο Eridani",
+        "itemname": "Keid",
         "itemname2": "Keid",
         "itemname4": "ο Eridani",
         "itemname5": "ο Eri",
@@ -3483,7 +3483,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Eridanus_(Sternbild)"
     },
     {
-        "itemname": "ο² Eridani",
+        "itemname": "Keid A",
         "itemname2": "Keid A",
         "itemname4": "ο² Eridani",
         "itemname5": "ο² Eri A",
@@ -3493,7 +3493,7 @@
         "itemappmag": "4,43"
     },
     {
-        "itemname": "ο² Eridani",
+        "itemname": "Keid B",
         "itemname2": "Keid B",
         "itemname4": "ο² Eridani",
         "itemname5": "ο² Eri B",
@@ -3503,7 +3503,7 @@
         "itemappmag": "9,52"
     },
     {
-        "itemname": "ο² Eridani",
+        "itemname": "Keid C",
         "itemname2": "Keid C",
         "itemname4": "ο² Eridani",
         "itemname5": "ο² Eri C",
@@ -3513,7 +3513,7 @@
         "itemappmag": "11,19"
     },
     {
-        "itemname": "α Equulei",
+        "itemname": "Kitalpha",
         "itemname2": "Kitalpha",
         "itemname4": "α Equulei",
         "itemname5": "α Equ",
@@ -3524,7 +3524,7 @@
         "itemappmag": "3,92"
     },
     {
-        "itemname": "β Ursae Minoris",
+        "itemname": "Kochab",
         "itemname2": "Kochab",
         "itemname4": "β Ursae Minoris",
         "itemname5": "β UMi",
@@ -3535,7 +3535,7 @@
         "itemappmag": "2,07"
     },
     {
-        "itemname": "β Herculi",
+        "itemname": "Kornephoros",
         "itemname2": "Kornephoros",
         "itemname4": "β Herculi",
         "itemname5": "β Her",
@@ -3545,7 +3545,7 @@
         "itemdistance": 66.6
     },
     {
-        "itemname": "β Corvi",
+        "itemname": "Kraz",
         "itemname2": "Kraz",
         "itemname4": "β Corvi",
         "itemname5": "β Crv",
@@ -3555,7 +3555,7 @@
         "itemdistance": 66.6
     },
     {
-        "itemname": "δ Cassiopeiae",
+        "itemname": "Ksora",
         "itemname2": "Ksora",
         "itemname4": "δ Cassiopeiae",
         "itemname5": "δ Cas",
@@ -3565,7 +3565,7 @@
         "itemdistance": 66.6
     },
     {
-        "itemname": "η Piscium",
+        "itemname": "Kullat Nunu",
         "itemname2": "Kullat Nunu",
         "itemname4": "η Piscium",
         "itemname5": "η Psc",
@@ -3575,7 +3575,7 @@
         "itemdistance": 66.6
     },
     {
-        "itemname": "ν Draconis",
+        "itemname": "Kuma",
         "itemname2": "Kuma",
         "itemname4": "ν Draconis",
         "itemname5": "ν Dra",
@@ -3594,7 +3594,7 @@
         "itemdistance": 66.6
     },
     {
-        "itemname": "υ Scorpii",
+        "itemname": "Lesath",
         "itemname2": "Lesath",
         "itemname4": "υ Scorpii",
         "itemname5": "υ Sco",
@@ -3604,7 +3604,7 @@
         "itemdistance": 49
     },
     {
-        "itemname": "α Monocerotis",
+        "itemname": "Lukida",
         "itemname2": "Lukida",
         "itemname4": "α Monocerotis",
         "itemname5": "α Mon",
@@ -3614,7 +3614,7 @@
         "itemdistance": 260
     },
     {
-        "itemname": "α Vulpeculae",
+        "itemname": "Lukida Anseris",
         "itemname2": "Lukida Anseris",
         "itemname4": "α Vulpeculae",
         "itemname5": "α Vul",
@@ -3631,7 +3631,7 @@
         "itemdistance": 300
     },
     {
-        "itemname": "λ Herculis",
+        "itemname": "Maasym",
         "itemname2": "Maasym",
         "itemname4": "λ Herculis",
         "itemname5": "λ Her",
@@ -3651,7 +3651,7 @@
         "itemdistance": 700
     },
     {
-        "itemname": "θ Cassiopeiae",
+        "itemname": "Marfark",
         "itemname2": "Marfark",
         "itemname4": "θ Cassiopeiae",
         "itemname5": "θ Cas",
@@ -3661,7 +3661,7 @@
         "itemdistance": 392
     },
     {
-        "itemname": "λ Ophiuχ",
+        "itemname": "Marfik",
         "itemname2": "Marfik",
         "itemname4": "λ Ophiuχ",
         "itemname5": "λ Oph",
@@ -3671,7 +3671,7 @@
         "itemdistance": 126
     },
     {
-        "itemname": "κ¹ Puppis",
+        "itemname": "Markab",
         "itemname2": "Markab",
         "itemname4": "κ¹ Puppis",
         "itemname5": "κ¹ Pup",
@@ -3682,7 +3682,7 @@
         "itemdistance": 1500
     },
     {
-        "itemname": "κ² Puppis",
+        "itemname": "Markab",
         "itemname2": "Markab",
         "itemname4": "κ² Puppis",
         "itemname5": "κ² Pup",
@@ -3693,7 +3693,7 @@
         "itemdistance": 1500
     },
     {
-        "itemname": "α Pegasi",
+        "itemname": "Markab",
         "itemname2": "Markab",
         "itemname4": "α Pegasi",
         "itemname5": "α Peg",
@@ -3703,7 +3703,7 @@
         "itemdistance": 1500
     },
     {
-        "itemname": "κ Velorum",
+        "itemname": "Markab",
         "itemname2": "Markab",
         "itemname4": "κ Velorum",
         "itemname5": "κ Vel",
@@ -3713,7 +3713,7 @@
         "itemdistance": 1500
     },
     {
-        "itemname": "η Pegasi",
+        "itemname": "Matar",
         "itemname2": "Matar",
         "itemname4": "η Pegasi",
         "itemname5": "η Peg",
@@ -3723,7 +3723,7 @@
         "itemdistance": 120
     },
     {
-        "itemname": "ε Geminorum",
+        "itemname": "Mebsuta",
         "itemname2": "Mebsuta",
         "itemname4": "ε Geminorum",
         "itemname5": "ε Gem",
@@ -3733,7 +3733,7 @@
         "itemdistance": 90
     },
     {
-        "itemname": "δ Ursae Majoris",
+        "itemname": "Megrez",
         "itemname2": "Megrez",
         "itemname4": "δ Ursae Majoris",
         "itemname5": "δ UMa",
@@ -3743,7 +3743,7 @@
         "itemdistance": 87
     },
     {
-        "itemname": "λ Orionis",
+        "itemname": "Meissa",
         "itemname2": "Meissa",
         "itemname4": "λ Orionis",
         "itemname5": "λ Ori",
@@ -3753,7 +3753,7 @@
         "itemdistance": 80
     },
     {
-        "itemname": "ζ Geminorum",
+        "itemname": "Mekbuda",
         "itemname2": "Mekbuda",
         "itemname4": "ζ Geminorum",
         "itemname5": "ζ Gem",
@@ -3763,7 +3763,7 @@
         "itemdistance": 100
     },
     {
-        "itemname": "ξ Persei",
+        "itemname": "Menchib",
         "itemname2": "Menchib",
         "itemname3": "Menkib",
         "itemname4": "ξ Persei",
@@ -3774,7 +3774,7 @@
         "itemdistance": 184
     },
     {
-        "itemname": "β Aurigae",
+        "itemname": "Menkalinan",
         "itemname2": "Menkalinan",
         "itemname4": "β Aurigae",
         "itemname5": "β Aur",
@@ -3784,7 +3784,7 @@
         "itemdistance": 120
     },
     {
-        "itemname": "α Ceti",
+        "itemname": "Menkar",
         "itemname2": "Menkar",
         "itemname4": "α Ceti",
         "itemname5": "α Cet",
@@ -3794,7 +3794,7 @@
         "itemdistance": 120
     },
     {
-        "itemname": "θ Centauri",
+        "itemname": "Menkent",
         "itemname2": "Menkent",
         "itemname4": "θ Centauri",
         "itemname5": "θ Cen",
@@ -3804,7 +3804,7 @@
         "itemdistance": 120
     },
     {
-        "itemname": "β Ursae Majoris",
+        "itemname": "Merak",
         "itemname2": "Merak",
         "itemname4": "β Ursae Majoris",
         "itemname5": "β UMa",
@@ -3832,7 +3832,7 @@
         "itemdistance": 81
     },
     {
-        "itemname": "γ Arietis",
+        "itemname": "Mesarthim",
         "itemname2": "Mesarthim",
         "itemname4": "γ Arietis",
         "itemname5": "γ Ari",
@@ -3842,7 +3842,7 @@
         "itemdistance": 100
     },
     {
-        "itemname": "β Carinae",
+        "itemname": "Miaplacidus",
         "itemname2": "Miaplacidus",
         "itemname4": "β Carinae",
         "itemname5": "β Car",
@@ -3852,7 +3852,7 @@
         "itemdistance": 800
     },
     {
-        "itemname": "β Crucis",
+        "itemname": "Mimosa",
         "itemname2": "Mimosa",
         "itemname3": "Becrux",
         "itemname4": "β Crucis",
@@ -3868,7 +3868,7 @@
         "itemappmag": "1,25"
     },
     {
-        "itemname": "σ Hydrae",
+        "itemname": "Minchir",
         "itemname2": "Minchir",
         "itemname4": "σ Hydrae",
         "itemname5": "σ Hya",
@@ -3878,7 +3878,7 @@
         "itemdistance": 100
     },
     {
-        "itemname": "δ Virginis",
+        "itemname": "Minelava",
         "itemname2": "Minelava",
         "itemname4": "δ Virginis",
         "itemname5": "δ Vir",
@@ -3888,7 +3888,7 @@
         "itemdistance": 2000
     },
     {
-        "itemname": "ε Corvi",
+        "itemname": "Minkar",
         "itemname2": "Minkar",
         "itemname4": "ε Corvi",
         "itemname5": "ε Crv",
@@ -3898,7 +3898,7 @@
         "itemdistance": 800
     },
     {
-        "itemname": "δ Orionis",
+        "itemname": "Mintaka",
         "itemname2": "Mintaka",
         "itemname4": "δ Orionis",
         "itemname5": "δ Ori",
@@ -3908,7 +3908,7 @@
         "itemdistance": 600
     },
     {
-        "itemname": "ο Ceti",
+        "itemname": "Mira",
         "itemname2": "Mira",
         "itemname4": "ο Ceti",
         "itemname5": "ο Cet",
@@ -3918,7 +3918,7 @@
         "itemdistance": 500
     },
     {
-        "itemname": "β Andromedae",
+        "itemname": "Mirach",
         "itemname2": "Mirach",
         "itemname4": "β Andromedae",
         "itemname5": "β And",
@@ -3928,7 +3928,7 @@
         "itemdistance": 4
     },
     {
-        "itemname": "η Persei",
+        "itemname": "Miram",
         "itemname2": "Miram",
         "itemname4": "η Persei",
         "itemname5": "η Per",
@@ -3938,7 +3938,7 @@
         "itemdistance": 4
     },
     {
-        "itemname": "α Persei",
+        "itemname": "Mirfak",
         "itemname2": "Mirfak",
         "itemname4": "α Persei",
         "itemname5": "α Per",
@@ -3959,7 +3959,7 @@
         "itemmeanradius": 56
     },
     {
-        "itemname": "κ Persei",
+        "itemname": "Misam",
         "itemname2": "Misam",
         "itemname4": "κ Persei",
         "itemname5": "κ Per",
@@ -3969,7 +3969,7 @@
         "itemdistance": 4
     },
     {
-        "itemname": "ζ Ursae Majoris",
+        "itemname": "Mizar",
         "itemname2": "Mizar",
         "itemname4": "ζ Ursae Majoris",
         "itemname5": "ζ UMa",
@@ -3979,7 +3979,7 @@
         "itemdistance": 88
     },
     {
-        "itemname": "η Bootis",
+        "itemname": "Mufrid",
         "itemname2": "Mufrid",
         "itemname4": "η Bootis",
         "itemname5": "η Boo",
@@ -3989,7 +3989,7 @@
         "itemdistance": 140
     },
     {
-        "itemname": "γ Canis Majoris",
+        "itemname": "Muhlifain",
         "itemname2": "Muhlifain",
         "itemname3": "Muliphein ",
         "itemname4": "γ Canis Majoris",
@@ -4000,7 +4000,7 @@
         "itemdistance": 140
     },
     {
-        "itemname": "γ Centauri",
+        "itemname": "Muhlifain",
         "itemname2": "Muhlifain",
         "itemname3": "Muliphein ",
         "itemname4": "γ Centauri",
@@ -4011,7 +4011,7 @@
         "itemdistance": 140
     },
     {
-        "itemname": "β Canis Majoris",
+        "itemname": "Murzim",
         "itemname2": "Murzim",
         "itemname4": "β Canis Majoris",
         "itemname5": "β CMa",
@@ -4021,7 +4021,7 @@
         "itemdistance": 140
     },
     {
-        "itemname": "ο Ursae Majoris",
+        "itemname": "Muscida",
         "itemname2": "Muscida",
         "itemname4": "ο Ursae Majoris",
         "itemname5": "ο UMa",
@@ -4031,7 +4031,7 @@
         "itemdistance": 19
     },
     {
-        "itemname": "ι Orionis",
+        "itemname": "Nair Al Saif",
         "itemname2": "Nair Al Saif",
         "itemname4": "ι Orionis",
         "itemname5": "ι Ori",
@@ -4041,7 +4041,7 @@
         "itemdistance": 45
     },
     {
-        "itemname": "α Phoenicis",
+        "itemname": "Nair al-Zaurak",
         "itemname2": "Nair al-Zaurak",
         "itemname3": "Ankaa",
         "itemname4": "α Phoenicis",
@@ -4062,7 +4062,7 @@
         "itemmeanradius": 15
     },
     {
-        "itemname": "ζ Puppis",
+        "itemname": "Naos",
         "itemname2": "Naos",
         "itemname3": "Suhail Hadar, Muliphein",
         "itemname4": "ζ Puppis",
@@ -4083,7 +4083,7 @@
         "itemmeanradius": 20
     },
     {
-        "itemname": "β¹ Serpentis",
+        "itemname": "Nasak Shamiya",
         "itemname2": "Nasak Shamiya",
         "itemname3": "Chow A",
         "itemname4": "β¹ Serpentis",
@@ -4095,7 +4095,7 @@
         "itemappmag": "3,65"
     },
     {
-        "itemname": "β² Serpentis",
+        "itemname": "Nasak Shamiya",
         "itemname2": "Nasak Shamiya",
         "itemname3": "Chow B",
         "itemname4": "β² Serpentis",
@@ -4107,7 +4107,7 @@
         "itemappmag": "9,9"
     },
     {
-        "itemname": "β³ Serpentis",
+        "itemname": "Nasak Shamiya",
         "itemname2": "Nasak Shamiya",
         "itemname3": "Chow C",
         "itemname4": "β³ Serpentis",
@@ -4119,7 +4119,7 @@
         "itemappmag": "10,7"
     },
     {
-        "itemname": "γ Sagittarii",
+        "itemname": "Nash",
         "itemname2": "Nash",
         "itemname4": "γ Sagittarii",
         "itemname5": "γ Sgr",
@@ -4129,7 +4129,7 @@
         "itemdistance": 45
     },
     {
-        "itemname": "γ Capricorni",
+        "itemname": "Nashira",
         "itemname2": "Nashira",
         "itemname4": "γ Capricorni",
         "itemname5": "γ Cap",
@@ -4139,12 +4139,12 @@
         "itemdistance": 45
     },
     {
-        "itemname": "γ Cassiopeiae",
+        "itemname": "Navi",
         "itemname2": "Navi",
         "itemname4": "γ Cassiopeiae"
     },
     {
-        "itemname": "β Bootis",
+        "itemname": "Nekkar",
         "itemname2": "Nekkar",
         "itemname4": "β Bootis",
         "itemname5": "β Boo",
@@ -4163,7 +4163,7 @@
         "itemdistance": 389
     },
     {
-        "itemname": "β Leporis",
+        "itemname": "Nihal",
         "itemname2": "Nihal",
         "itemname4": "β Leporis",
         "itemname5": "β Lep",
@@ -4173,7 +4173,7 @@
         "itemdistance": 17
     },
     {
-        "itemname": "σ Sagittarii",
+        "itemname": "Nunki",
         "itemname2": "Nunki",
         "itemname4": "σ Sagittarii",
         "itemname5": "σ Sgr",
@@ -4183,7 +4183,7 @@
         "itemdistance": 100
     },
     {
-        "itemname": "β Coronae Borealis",
+        "itemname": "Nusakan",
         "itemname2": "Nusakan",
         "itemname4": "β Coronae Borealis",
         "itemname5": "β CrB",
@@ -4193,7 +4193,7 @@
         "itemdistance": 336
     },
     {
-        "itemname": "pi Capricorni",
+        "itemname": "Okul",
         "itemname2": "Okul",
         "itemname4": "pi Capricorni",
         "itemname5": "π Cap",
@@ -4203,12 +4203,12 @@
         "itemdistance": 390
     },
     {
-        "itemname": "α Pavonis",
+        "itemname": "Peacock",
         "itemname2": "Peacock",
         "itemname4": "α Pavonis"
     },
     {
-        "itemname": "α Columbae",
+        "itemname": "Phakt",
         "itemname2": "Phakt",
         "itemname4": "α Columbae",
         "itemname5": "α Col",
@@ -4218,7 +4218,7 @@
         "itemdistance": 2000
     },
     {
-        "itemname": "γ Ursae Majoris",
+        "itemname": "Phekda",
         "itemname2": "Phekda",
         "itemname3": "Phecda, Phegda, Phekha, Pachd, Phacd, Phad",
         "itemname4": "γ Ursae Majoris",
@@ -4240,7 +4240,7 @@
         "itemmeanradius": 3.04
     },
     {
-        "itemname": "γ Ursae Minoris",
+        "itemname": "Pherkad",
         "itemname2": "Pherkad",
         "itemname4": "γ Ursae Minoris",
         "itemname5": "γ UMi",
@@ -4250,7 +4250,7 @@
         "itemdistance": 27
     },
     {
-        "itemname": "δ Ursae Minoris",
+        "itemname": "Pherkard, Yildun",
         "itemname2": "Pherkard, Yildun",
         "itemname4": "δ Ursae Minoris"
     },
@@ -4270,7 +4270,7 @@
         "itemdistance": 380
     },
     {
-        "itemname": "σ Octantis",
+        "itemname": "Polaris Australis",
         "itemname2": "Polaris Australis",
         "itemname4": "σ Octantis",
         "itemname5": "σ Oct",
@@ -4280,7 +4280,7 @@
         "itemdistance": 130
     },
     {
-        "itemname": "α Ursae Minoris",
+        "itemname": "Polarstern",
         "itemname2": "Polarstern",
         "itemname4": "α Ursae Minoris",
         "itemname5": "α UMi",
@@ -4290,7 +4290,7 @@
         "itemdistance": 59
     },
     {
-        "itemname": "β Geminorum",
+        "itemname": "Pollux",
         "itemname2": "Pollux",
         "itemname4": "β Geminorum",
         "itemname5": "β Gem",
@@ -4300,7 +4300,7 @@
         "itemdistance": 190
     },
     {
-        "itemname": "γ Virginis",
+        "itemname": "Porrima",
         "itemname2": "Porrima",
         "itemname4": "γ Virginis",
         "itemname5": "γ Vir",
@@ -4317,7 +4317,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Kleiner_Löwe"
     },
     {
-        "itemname": "δ Aurigae",
+        "itemname": "Prijipati",
         "itemname2": "Prijipati",
         "itemname4": "δ Aurigae",
         "itemname5": "δ Aur",
@@ -4327,7 +4327,7 @@
         "itemdistance": "140 Lj"
     },
     {
-        "itemname": "α Canis Minoris",
+        "itemname": "Prokyon",
         "itemname2": "Prokyon",
         "itemname4": "α Canis Minoris",
         "itemname5": "α CMi",
@@ -4341,7 +4341,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Proxima_Centauri"
     },
     {
-        "itemname": "δ Eridani",
+        "itemname": "Rana",
         "itemname2": "Rana",
         "itemname4": "δ Eridani",
         "itemname5": "δ Eri",
@@ -4350,7 +4350,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Eridanus_(Sternbild)"
     },
     {
-        "itemname": "α Herculi",
+        "itemname": "Ras Algethi",
         "itemname2": "Ras Algethi",
         "itemname4": "α Herculi",
         "itemname5": "α Her",
@@ -4359,7 +4359,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Herkules_(Sternbild)"
     },
     {
-        "itemname": "α Ophiuχ",
+        "itemname": "Ras Alhague",
         "itemname2": "Ras Alhague",
         "itemname4": "α Ophiuχ",
         "itemname5": "α Oph",
@@ -4368,7 +4368,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Schlangenträger"
     },
     {
-        "itemname": "ε Leonis",
+        "itemname": "Ras Elased Australis",
         "itemname2": "Ras Elased Australis",
         "itemname4": "ε Leonis",
         "itemname5": "ε Leo",
@@ -4377,7 +4377,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/L%C3%B6we_(Sternbild)"
     },
     {
-        "itemname": "μ Leonis",
+        "itemname": "Rasalas",
         "itemname2": "Rasalas",
         "itemname4": "μ Leonis",
         "itemname5": "μ Leo",
@@ -4386,12 +4386,12 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/L%C3%B6we_(Sternbild)"
     },
     {
-        "itemname": "γ Velorum",
+        "itemname": "Regor",
         "itemname2": "Regor",
         "itemname4": "γ Velorum"
     },
     {
-        "itemname": "α Leonis",
+        "itemname": "Regulus",
         "itemname2": "Regulus",
         "itemname4": "α Leonis",
         "itemname5": "α Leo",
@@ -4400,7 +4400,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/L%C3%B6we_(Sternbild)"
     },
     {
-        "itemname": "β Orionis",
+        "itemname": "Rigel",
         "itemname2": "Rigel",
         "itemname4": "β Orionis",
         "itemname5": "β Ori",
@@ -4409,12 +4409,12 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Orion_(Sternbild)"
     },
     {
-        "itemname": "α Centauri",
+        "itemname": "Rigil Kentaurus",
         "itemname2": "Rigil Kentaurus",
         "itemname4": "α Centauri"
     },
     {
-        "itemname": "μ Virginis",
+        "itemname": "Rijl al Awwa",
         "itemname2": "Rijl al Awwa",
         "itemname4": "μ Virginis",
         "itemname5": "μ Vir",
@@ -4423,7 +4423,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Jungfrau_(Sternbild)"
     },
     {
-        "itemname": "β Delphini",
+        "itemname": "Rotanev",
         "itemname2": "Rotanev",
         "itemname4": "β Delphini",
         "itemname5": "β Del",
@@ -4432,7 +4432,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Kategorie:Delphin_(Sternbild)"
     },
     {
-        "itemname": "δ Cassiopeiae",
+        "itemname": "Rukbat",
         "itemname2": "Rukbat",
         "itemname3": "Ruchbah, Ruchba",
         "itemname4": "δ Cassiopeiae",
@@ -4442,7 +4442,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Kassiopeia_(Sternbild)"
     },
     {
-        "itemname": "α Sagittarii",
+        "itemname": "Rukbat",
         "itemname2": "Rukbat",
         "itemname3": "Ruchbah, Ruchba",
         "itemname4": "α Sagittarii",
@@ -4452,7 +4452,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Sch%C3%BCtze_(Sternbild)"
     },
     {
-        "itemname": "ω² Cygni",
+        "itemname": "Rukbat",
         "itemname2": "Rukbat",
         "itemname3": "Ruchbah, Ruchba",
         "itemname4": "ω² Cygni",
@@ -4462,7 +4462,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Schwan_(Sternbild)"
     },
     {
-        "itemname": "ζ Ophiuχ",
+        "itemname": "Sabik",
         "itemname2": "Sabik",
         "itemname4": "ζ Ophiuχ",
         "itemname5": "ζ Oph",
@@ -4471,7 +4471,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Schlangenträger"
     },
     {
-        "itemname": "γ Aquarii",
+        "itemname": "Sadachbia",
         "itemname2": "Sadachbia",
         "itemname4": "γ Aquarii",
         "itemname5": "γ Aqr",
@@ -4480,7 +4480,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Kategorie:Wassermann_(Sternbild)"
     },
     {
-        "itemname": "μ Pegasi",
+        "itemname": "Sadalbari",
         "itemname2": "Sadalbari",
         "itemname4": "μ Pegasi",
         "itemname5": "μ Peg",
@@ -4489,7 +4489,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Pegasus_(Sternbild)"
     },
     {
-        "itemname": "α Aquarii",
+        "itemname": "Sadalmelik",
         "itemname2": "Sadalmelik",
         "itemname4": "α Aquarii",
         "itemname5": "α Aqr",
@@ -4498,7 +4498,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Kategorie:Wassermann_(Sternbild)"
     },
     {
-        "itemname": "β Aquarii",
+        "itemname": "Sadalsuud",
         "itemname2": "Sadalsuud",
         "itemname4": "β Aquarii",
         "itemname5": "β Aqr",
@@ -4507,7 +4507,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Kategorie:Wassermann_(Sternbild)"
     },
     {
-        "itemname": "γ Cygni",
+        "itemname": "Sadr",
         "itemname2": "Sadr",
         "itemname4": "γ Cygni",
         "itemname5": "γ Cyg",
@@ -4516,7 +4516,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Schwan_(Sternbild)"
     },
     {
-        "itemname": "κ Orionis",
+        "itemname": "Saiph",
         "itemname2": "Saiph",
         "itemname4": "κ Orionis",
         "itemname5": "κ Ori",
@@ -4525,7 +4525,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Orion_(Sternbild)"
     },
     {
-        "itemname": "τ Pegasi",
+        "itemname": "Salm",
         "itemname2": "Salm",
         "itemname3": "Kerb, El Khereb, Markab",
         "itemname4": "τ Pegasi",
@@ -4535,7 +4535,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Pegasus_(Sternbild)"
     },
     {
-        "itemname": "θ Scorpii",
+        "itemname": "Sargas",
         "itemname2": "Sargas",
         "itemname4": "θ Scorpii",
         "itemname5": "θ Sco",
@@ -4544,7 +4544,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Skorpion_(Sternbild)"
     },
     {
-        "itemname": "δ Herculi",
+        "itemname": "Sarin",
         "itemname2": "Sarin",
         "itemname4": "δ Herculi",
         "itemname5": "δ Her",
@@ -4553,7 +4553,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Herkules_(Sternbild)"
     },
     {
-        "itemname": "θ Ursae Majoris",
+        "itemname": "Sarir",
         "itemname2": "Sarir",
         "itemname4": "θ Ursae Majoris",
         "itemname5": "θ UMa",
@@ -4570,7 +4570,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Eridanus_(Sternbild)"
     },
     {
-        "itemname": "β Pegasi",
+        "itemname": "Scheat",
         "itemname2": "Scheat",
         "itemname4": "β Pegasi",
         "itemname5": "β Peg",
@@ -4579,7 +4579,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Pegasus_(Sternbild)"
     },
     {
-        "itemname": "δ Capricorni",
+        "itemname": "Scheddi",
         "itemname2": "Scheddi",
         "itemname4": "δ Capricorni",
         "itemname5": "δ Cap",
@@ -4588,7 +4588,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Kategorie:Steinbock_(Sternbild)"
     },
     {
-        "itemname": "α Cassiopeiae",
+        "itemname": "Schedir",
         "itemname2": "Schedir",
         "itemname4": "α Cassiopeiae",
         "itemname5": "α Cas",
@@ -4597,7 +4597,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Kassiopeia_(Sternbild)"
     },
     {
-        "itemname": "ι Carinae",
+        "itemname": "Scutulum",
         "itemname2": "Scutulum",
         "itemname3": "Aspidiske, Turais, Tureis",
         "itemname4": "ι Carinae",
@@ -4609,7 +4609,7 @@
         "itemappmag": "2,25"
     },
     {
-        "itemname": "ε Cassiopeiae",
+        "itemname": "Segin",
         "itemname2": "Segin",
         "itemname4": "ε Cassiopeiae",
         "itemname5": "ε Cas",
@@ -4618,7 +4618,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Kassiopeia_(Sternbild)"
     },
     {
-        "itemname": "γ Bootis",
+        "itemname": "Seginus",
         "itemname2": "Seginus",
         "itemname4": "γ Bootis",
         "itemname5": "γ Boo",
@@ -4627,7 +4627,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/B%C3%A4renh%C3%BCter"
     },
     {
-        "itemname": "α Sagittae",
+        "itemname": "Sham",
         "itemname2": "Sham",
         "itemname4": "α Sagittae",
         "itemname5": "α Sge",
@@ -4636,7 +4636,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Sch%C3%BCtze_(Sternbild)"
     },
     {
-        "itemname": "λ Scorpii",
+        "itemname": "Shaula",
         "itemname2": "Shaula",
         "itemname4": "λ Scorpii",
         "itemname5": "λ Sco",
@@ -4645,7 +4645,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Skorpion_(Sternbild)"
     },
     {
-        "itemname": "β Lyrae",
+        "itemname": "Sheliak",
         "itemname2": "Sheliak",
         "itemname4": "β Lyrae",
         "itemname5": "β Lyr",
@@ -4654,7 +4654,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Leier_(Sternbild)"
     },
     {
-        "itemname": "β Arietis",
+        "itemname": "Sheratan",
         "itemname2": "Sheratan",
         "itemname4": "β Arietis",
         "itemname5": "β Ari",
@@ -4663,7 +4663,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Widder_(Sternbild)"
     },
     {
-        "itemname": "α Canis Majoris",
+        "itemname": "Sirius",
         "itemname2": "Sirius",
         "itemname4": "α Canis Majoris",
         "itemname5": "α CMa",
@@ -4672,7 +4672,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Gro%C3%9Fer_Hund"
     },
     {
-        "itemname": "α Andromedae",
+        "itemname": "Sirrah",
         "itemname2": "Sirrah",
         "itemname3": "Alpheratz",
         "itemname4": "α Andromedae",
@@ -4691,7 +4691,7 @@
         "itemspectraltype": "B8IVpMnHg"
     },
     {
-        "itemname": "κ Aquarii",
+        "itemname": "Situla",
         "itemname2": "Situla",
         "itemname4": "κ Aquarii",
         "itemname5": "κ Aqr",
@@ -4700,7 +4700,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Kategorie:Wassermann_(Sternbild)"
     },
     {
-        "itemname": "δ Aquarii",
+        "itemname": "Skat",
         "itemname2": "Skat",
         "itemname4": "δ Aquarii",
         "itemname5": "δ Aqr",
@@ -4709,7 +4709,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Kategorie:Wassermann_(Sternbild)"
     },
     {
-        "itemname": "α Virginis",
+        "itemname": "Spica",
         "itemname2": "Spica",
         "itemname4": "α Virginis",
         "itemname5": "α Vir",
@@ -4728,7 +4728,7 @@
         "itemname7": "22 Tauri"
     },
     {
-        "itemname": "α Delphini",
+        "itemname": "Sualocin",
         "itemname2": "Sualocin",
         "itemname4": "α Delphini",
         "itemname5": "α Del",
@@ -4737,7 +4737,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Kategorie:Delphin_(Sternbild)"
     },
     {
-        "itemname": "ο Leonis",
+        "itemname": "Subra",
         "itemname2": "Subra",
         "itemname4": "ο Leonis",
         "itemname5": "ο Leo",
@@ -4746,7 +4746,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/L%C3%B6we_(Sternbild)"
     },
     {
-        "itemname": "γ Velorum",
+        "itemname": "Suhail al-Muhlif",
         "itemname2": "Suhail al-Muhlif",
         "itemname3": "Regor ",
         "itemname4": "γ Velorum",
@@ -4760,7 +4760,7 @@
         "itemappmag": 1.75
     },
     {
-        "itemname": "λ Velorum",
+        "itemname": "Suhail al-Wazn",
         "itemname2": "Suhail al-Wazn",
         "itemname4": "λ Velorum",
         "itemname5": "λ Vel",
@@ -4769,7 +4769,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Segel_des_Schiffs"
     },
     {
-        "itemname": "γ Lyrae",
+        "itemname": "Sulafat",
         "itemname2": "Sulafat",
         "itemname4": "γ Lyrae",
         "itemname5": "γ Lyr",
@@ -4778,7 +4778,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Leier_(Sternbild)"
     },
     {
-        "itemname": "ι Virginis",
+        "itemname": "Syrma",
         "itemname2": "Syrma",
         "itemname4": "ι Virginis",
         "itemname5": "ι Vir",
@@ -4787,7 +4787,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Jungfrau_(Sternbild)"
     },
     {
-        "itemname": "pi³ Orionis",
+        "itemname": "Tabit",
         "itemname2": "Tabit",
         "itemname4": "pi³ Orionis",
         "itemname5": "π3 Ori",
@@ -4796,7 +4796,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Orion_(Sternbild)"
     },
     {
-        "itemname": "κ Ursae Majoris",
+        "itemname": "Talitha Australis",
         "itemname2": "Talitha Australis",
         "itemname4": "κ Ursae Majoris",
         "itemname5": "κ UMa",
@@ -4805,7 +4805,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Gro%C3%9Fer_B%C3%A4r"
     },
     {
-        "itemname": "ι Ursae Majoris",
+        "itemname": "Talitha Borealis",
         "itemname2": "Talitha Borealis",
         "itemname4": "ι Ursae Majoris",
         "itemname5": "ι UMa",
@@ -4814,7 +4814,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Gro%C3%9Fer_B%C3%A4r"
     },
     {
-        "itemname": "μ Ursae Majoris",
+        "itemname": "Tania Australis",
         "itemname2": "Tania Australis",
         "itemname4": "μ Ursae Majoris",
         "itemname5": "μ UMa",
@@ -4823,7 +4823,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Gro%C3%9Fer_B%C3%A4r"
     },
     {
-        "itemname": "λ Ursae Majoris",
+        "itemname": "Tania Borealis",
         "itemname2": "Tania Borealis",
         "itemname4": "λ Ursae Majoris",
         "itemname5": "λ UMa",
@@ -4832,7 +4832,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Gro%C3%9Fer_B%C3%A4r"
     },
     {
-        "itemname": "γ Aquilae",
+        "itemname": "Tarazet",
         "itemname2": "Tarazet",
         "itemname3": "Tarazed",
         "itemname4": "γ Aquilae",
@@ -4856,7 +4856,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Teegardens_Stern"
     },
     {
-        "itemname": "ζ Cancri",
+        "itemname": "Tegmen",
         "itemname2": "Tegmen",
         "itemname4": "ζ Cancri",
         "itemname5": "ζ Cnc",
@@ -4865,7 +4865,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Kategorie:Krebs_(Sternbild)"
     },
     {
-        "itemname": "μ Geminorum",
+        "itemname": "Tejat Posterior",
         "itemname2": "Tejat Posterior",
         "itemname4": "μ Geminorum",
         "itemname5": "μ Gem",
@@ -4874,7 +4874,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Zwillinge_(Sternbild)"
     },
     {
-        "itemname": "η Geminorum",
+        "itemname": "Tejat Prior",
         "itemname2": "Tejat Prior",
         "itemname4": "η Geminorum",
         "itemname5": "η Gem",
@@ -4883,7 +4883,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Zwillinge_(Sternbild)"
     },
     {
-        "itemname": "ω Sagittarii",
+        "itemname": "Terebellum",
         "itemname2": "Terebellum",
         "itemname4": "ω Sagittarii",
         "itemname5": "ω Sgr",
@@ -4932,7 +4932,7 @@
         "itemdeclination": "-26° 17′ 58″"
     },
     {
-        "itemname": "υ Orionis",
+        "itemname": "Thabit",
         "itemname2": "Thabit",
         "itemname4": "υ Orionis",
         "itemname5": "υ Ori",
@@ -4941,7 +4941,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Orion_(Sternbild)"
     },
     {
-        "itemname": "υ² Eridani",
+        "itemname": "Theemin",
         "itemname2": "Theemin",
         "itemname4": "υ² Eridani",
         "itemname5": "υ2 Eri",
@@ -4950,7 +4950,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Eridanus_(Sternbild)"
     },
     {
-        "itemname": "α Draconis",
+        "itemname": "Thuban",
         "itemname2": "Thuban",
         "itemname4": "α Draconis",
         "itemname5": "α Dra",
@@ -4959,7 +4959,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Drache_(Sternbild)"
     },
     {
-        "itemname": "ζ Tau",
+        "itemname": "Tien Kuan",
         "itemname2": "Tien Kuan",
         "itemname4": "ζ Tau",
         "itemname5": "ζ Tau",
@@ -4968,12 +4968,12 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Stier_(Sternbild)"
     },
     {
-        "itemname": "α Centauri",
+        "itemname": "Toliman",
         "itemname2": "Toliman",
         "itemname4": "α Centauri"
     },
     {
-        "itemname": "ο Piscium",
+        "itemname": "Torcularis Septentrionalis",
         "itemname2": "Torcularis Septentrionalis",
         "itemname4": "ο Piscium",
         "itemname5": "ο Psc",
@@ -4982,7 +4982,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Fische_(Sternbild)"
     },
     {
-        "itemname": "φ Velorum",
+        "itemname": "Tseen Kee",
         "itemname2": "Tseen Kee",
         "itemname4": "φ Velorum",
         "itemname5": "φ Vel",
@@ -4991,7 +4991,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Segel_des_Schiffs"
     },
     {
-        "itemname": "γ Cassiopeiae",
+        "itemname": "Tsih",
         "itemname2": "Tsih",
         "itemname3": "Navi",
         "itemname4": "γ Cassiopeiae",
@@ -5002,7 +5002,7 @@
         "itemdistance": 90
     },
     {
-        "itemname": "ι Carinae",
+        "itemname": "Turais",
         "itemname2": "Turais",
         "itemname4": "ι Carinae",
         "itemname5": "ι Car",
@@ -5011,7 +5011,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Kiel_des_Schiffes"
     },
     {
-        "itemname": "ι Carinae",
+        "itemname": "Tureis",
         "itemname2": "Tureis",
         "itemname3": "Tureis, Aspidiske, Scutulum",
         "itemname4": "ι Carinae",
@@ -5023,7 +5023,7 @@
         "itemappmag": "2,25"
     },
     {
-        "itemname": "ε Draconis",
+        "itemname": "Tyl",
         "itemname2": "Tyl",
         "itemname4": "ε Draconis",
         "itemname5": "ε Dra",
@@ -5032,7 +5032,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Drache_(Sternbild)"
     },
     {
-        "itemname": "α Serpentis",
+        "itemname": "Unuk",
         "itemname2": "Unuk",
         "itemname4": "α Serpentis",
         "itemname5": "α Ser",
@@ -5041,7 +5041,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Schlangentr%C3%A4ger"
     },
     {
-        "itemname": "α Serpentis",
+        "itemname": "Unukalhai",
         "itemname2": "Unukalhai",
         "itemname4": "α Serpentis"
     },
@@ -5066,7 +5066,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Van_Maanens_Stern"
     },
     {
-        "itemname": "ε Virginis",
+        "itemname": "Vindemiatrix",
         "itemname2": "Vindemiatrix",
         "itemname4": "ε Virginis",
         "itemname5": "ε Vir",
@@ -5075,7 +5075,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Jungfrau_(Sternbild)"
     },
     {
-        "itemname": "δ Geminorum",
+        "itemname": "Wasat",
         "itemname2": "Wasat",
         "itemname4": "δ Geminorum",
         "itemname5": "δ Gem",
@@ -5084,7 +5084,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Zwillinge_(Sternbild)"
     },
     {
-        "itemname": "α Lyrae",
+        "itemname": "Wega",
         "itemname2": "Wega",
         "itemname4": "α Lyrae",
         "itemname5": "α Lyr",
@@ -5093,7 +5093,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Leier_(Sternbild)"
     },
     {
-        "itemname": "ε Scorpii",
+        "itemname": "Wei",
         "itemname2": "Wei",
         "itemname4": "ε Scorpii",
         "itemname5": "ε Sco",
@@ -5102,7 +5102,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Skorpion_(Sternbild)"
     },
     {
-        "itemname": "δ Canis Majoris",
+        "itemname": "Wezen",
         "itemname2": "Wezen",
         "itemname3": "Wazn, Wezn, Alwazn, Al Wazor",
         "itemname4": "δ Canis Majoris",
@@ -5112,7 +5112,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Gro%C3%9Fer_Hund"
     },
     {
-        "itemname": "β Columbae",
+        "itemname": "Wezen",
         "itemname2": "Wezen",
         "itemname3": "Wazn, Wezn, Alwazn, Al Wazor",
         "itemname4": "β Columbae",
@@ -5122,7 +5122,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Taube_(Sternbild)"
     },
     {
-        "itemname": "ε Ophiuχ",
+        "itemname": "Yed Posterior",
         "itemname2": "Yed Posterior",
         "itemname4": "ε Ophiuχ",
         "itemname5": "ε Oph",
@@ -5131,7 +5131,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Schlangenträger"
     },
     {
-        "itemname": "δ Ophiuχ",
+        "itemname": "Yed Prior",
         "itemname2": "Yed Prior",
         "itemname4": "δ Ophiuχ",
         "itemname5": "δ Oph",
@@ -5140,7 +5140,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Schlangenträger"
     },
     {
-        "itemname": "δ Ursae Minoris",
+        "itemname": "Yildun",
         "itemname2": "Yildun",
         "itemname3": "Yildun, Gildun, Vildiur, Yilduz, Pherkard",
         "itemname4": "δ Ursae Minoris",
@@ -5151,7 +5151,7 @@
         "itemdistance": 27
     },
     {
-        "itemname": "η Virginis",
+        "itemname": "Zaniah",
         "itemname2": "Zaniah",
         "itemname4": "η Virginis",
         "itemname5": "η Vir",
@@ -5160,7 +5160,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Jungfrau_(Sternbild)"
     },
     {
-        "itemname": "γ Eridani",
+        "itemname": "Zaurak",
         "itemname2": "Zaurak",
         "itemname4": "γ Eridani",
         "itemname5": "γ Eri",
@@ -5169,7 +5169,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Eridanus_(Sternbild)"
     },
     {
-        "itemname": "β Virginis",
+        "itemname": "Zavijava",
         "itemname2": "Zavijava",
         "itemname4": "β Virginis",
         "itemname5": "β Vir",
@@ -5178,7 +5178,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Jungfrau_(Sternbild)"
     },
     {
-        "itemname": "ζ Centauri",
+        "itemname": "Zeta Centauri",
         "itemname2": "Zeta Centauri",
         "itemname4": "ζ Centauri",
         "itemname5": "ζ Cen",
@@ -5198,7 +5198,7 @@
         "itemmeanradius": 5.8
     },
     {
-        "itemname": "ζ Eridani",
+        "itemname": "Zibal",
         "itemname2": "Zibal",
         "itemname4": "ζ Eridani",
         "itemname5": "ζ Eri",
@@ -5207,7 +5207,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Eridanus_(Sternbild)"
     },
     {
-        "itemname": "δ Leonis",
+        "itemname": "Zosma",
         "itemname2": "Zosma",
         "itemname4": "δ Leonis",
         "itemname5": "δ Leo",
@@ -5228,7 +5228,7 @@
         "itemmeanradius": 2.4
     },
     {
-        "itemname": "γ Librae",
+        "itemname": "Zuben-el-Akrab",
         "itemname2": "Zuben-el-Akrab",
         "itemname4": "γ Librae",
         "itemname5": "γ Lib",
@@ -5237,7 +5237,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Kategorie:Waage_(Sternbild)"
     },
     {
-        "itemname": "δ Librae",
+        "itemname": "Zuben-el-Akribi",
         "itemname2": "Zuben-el-Akribi",
         "itemname4": "δ Librae",
         "itemname5": "δ Lib",
@@ -5246,7 +5246,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Kategorie:Waage_(Sternbild)"
     },
     {
-        "itemname": "α Librae",
+        "itemname": "Zuben-el-dschenubi",
         "itemname2": "Zuben-el-dschenubi",
         "itemname4": "α Librae",
         "itemname5": "α Lib",
@@ -5255,7 +5255,7 @@
         "itemparenturl": "https://de.wikipedia.org/wiki/Kategorie:Waage_(Sternbild)"
     },
     {
-        "itemname": "β Librae",
+        "itemname": "Zuben-el-schemali",
         "itemname2": "Zuben-el-schemali",
         "itemname4": "β Librae",
         "itemname5": "β Lib",

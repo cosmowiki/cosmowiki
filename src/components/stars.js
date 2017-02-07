@@ -15,7 +15,7 @@ const StarsComponent = ({groupedStars, constellations}) => {
       <div id="todo" className="pure-u-1">
         <p>@wolfram pls make the sorter and filter work</p>
         <p>@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens</p>
-        <p>@me find a solution for the greek letters / bayer names vs. historical names</p>
+        <p>find a solution for the greek letters / bayer names vs. historical names</p>
       </div>
       <div id="controlArea" className="stars pure-u-1">
         <div id="controllers" className="pure-u-1">
@@ -100,8 +100,8 @@ const StarComponent = ({star}) => {
                 <div className="pure-u-1 pure-u-lg-1-2">
                   <p><a href={star.link}>{star.name.name}</a></p>
                 </div>
-                <div className="star-historical-name pure-u-1 pure-u-lg-1-2">
-                  <p title="historischer Name">{star.name.historical ? <a href={star.link}>({star.name.historical})</a> : ''}</p>
+                <div className="pure-u-1 pure-u-lg-1-2">
+                  <p><a href={star.link}>{star.name.historical ? star.name.bayer : ''}</a></p>
                 </div>
               </div>
               <div className="star-data1 pure-u-1 pure-u-md-1-3">
