@@ -27,14 +27,14 @@ const StarsComponent = ({groupedStars, constellations}) => {
                   <option value="sortStarsHistoricalName">historischer Name</option>
                   <option value="sortStarsBayerName">Bayer-Name</option>
                   <option value="sortStarsConstellationName">Sternbild</option>
-                  <option value="sortStarsMagUp">Helligkeit - aufsteigend</option>
-                  <option value="sortStarsMagDown">Helligkeit - absteigend</option>
-                  <option value="sortStarsDistanceUp">Entfernung - aufsteigend</option>
-                  <option value="sortStarsDistanceDown">Entfernung - absteigend</option>
-                  <option value="sortStarsMassUp">Masse - aufsteigend</option>
-                  <option value="sortStarsMassDown">Masse - absteigend</option>
-                  <option value="sortStarsRadiusUp">Radius - aufsteigend</option>
-                  <option value="sortStarsRadiusDown">Radius - absteigend</option>
+                  <option value="sortStarsMagUp">Helligkeit &uarr;</option>
+                  <option value="sortStarsMagDown">Helligkeit &darr;</option>
+                  <option value="sortStarsDistanceUp">Entfernung &uarr;</option>
+                  <option value="sortStarsDistanceDown">Entfernung &darr;</option>
+                  <option value="sortStarsMassUp">Masse &uarr;</option>
+                  <option value="sortStarsMassDown">Masse &darr;</option>
+                  <option value="sortStarsRadiusUp">Radius &uarr;</option>
+                  <option value="sortStarsRadiusDown">Radius &darr;</option>
                 </select>
               </form>
             </div>
