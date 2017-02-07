@@ -65,9 +65,13 @@
 ##.letter-section-header
 - scroll-up-arrow on small screens as button
 
+##sort and filter
+- let the toggle-switches for sort and filter hide each other on hover on small screens
+
 ##sort
-- [x] label Sortieren nach:
+- [x] label "Sortieren nach:"
 - [x] sort up / sort down with arrows
 
 ##Footer
 - [x] make it responsive
+- make the links in #footerElse open the appropriate answers in the about-site
