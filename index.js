@@ -35946,42 +35946,42 @@ var StarsComponent = function StarsComponent(_ref) {
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortStarsMagUp' },
-                  'Helligkeit - aufsteigend'
+                  'Helligkeit ↑'
                 ),
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortStarsMagDown' },
-                  'Helligkeit - absteigend'
+                  'Helligkeit ↓'
                 ),
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortStarsDistanceUp' },
-                  'Entfernung - aufsteigend'
+                  'Entfernung ↑'
                 ),
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortStarsDistanceDown' },
-                  'Entfernung - absteigend'
+                  'Entfernung ↓'
                 ),
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortStarsMassUp' },
-                  'Masse - aufsteigend'
+                  'Masse ↑'
                 ),
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortStarsMassDown' },
-                  'Masse - absteigend'
+                  'Masse ↓'
                 ),
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortStarsRadiusUp' },
-                  'Radius - aufsteigend'
+                  'Radius ↑'
                 ),
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortStarsRadiusDown' },
-                  'Radius - absteigend'
+                  'Radius ↓'
                 )
               )
             )
