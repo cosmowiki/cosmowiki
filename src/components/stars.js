@@ -23,6 +23,7 @@ const StarsComponent = ({groupedStars, constellations}) => {
             <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
             <div id="sortArea">
               <form id="sortStars" className="sort-form">
+                <label>Sortieren nach:</label>
                 <select name="sortStars" defaultValue="sortStarsHistoricalName">
                   <option value="sortStarsHistoricalName">historischer Name</option>
                   <option value="sortStarsBayerName">Bayer-Name</option>

@@ -23,6 +23,7 @@ const PeopleComponent = ({groupedPeople}) => {
             <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
             <div id="sortArea">
               <form id="sortPeople" className="sort-form">
+                <label>Sortieren nach:</label>
                 <select name="sortPeople" defaultValue="sortPeopleNameUp">
                   <option value="sortPeopleNameUp">Name &uarr;</option>
                     <option value="sortPeopleNameDown">Name &darr;</option>
