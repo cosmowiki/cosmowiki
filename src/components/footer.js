@@ -11,12 +11,12 @@ const Footer = ({appUrl}) => {
           <h4>Hauptseiten</h4>
           <ul>
             {[
-              {url: appUrl.astronomySite(), name: 'Astronomie'},
-              {url: appUrl.spaceflightSite(), name: 'Raumfahrt'},
               {url: appUrl.eventsSite(), name: 'Chronik'},
               {url: appUrl.peopleSite(), name: 'Personen'},
               {url: '', name: 'Orte'},
               {url: appUrl.objectsSite(), name: 'Objekte'},
+              {url: appUrl.astronomySite(), name: 'Astronomie'},
+              {url: appUrl.spaceflightSite(), name: 'Raumfahrt'},
 
             ].map(link =>
               <li key={link.url}>
