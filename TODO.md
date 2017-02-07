@@ -1,4 +1,4 @@
-# Roadmap until first release
+#Roadmap until first release
 - [x] speed up local development, using watchify?
 - make the map (places) work
 - include shariff for private social linking
@@ -9,7 +9,7 @@
 - simple vcard with abstract of first paragraph from wikipedia
 - relations and breadcrum on the vcard
 
-# currently to do
+#currently to do
 
 ##Home
 - spread the #homeNav links evenly in height on small screens
