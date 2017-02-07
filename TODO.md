@@ -25,8 +25,8 @@
 - [x] make it responsive
 - [x] set comma only if itemname2 exists
 - open a href={item.name} in vcard
-- filterPeopleByProfession - build const FilterRow einbauen, as in stars
-- filterPeopleByCountry - build const FilterRow einbauen, as in stars
+- filterPeopleByProfession - build const FilterRow, as in stars
+- filterPeopleByCountry - build const FilterRow, as in stars
 
 ##Orte
 
@@ -51,8 +51,8 @@
 ##Missionen
 - [x] make it responsive
 - open a href={item.name} in vcard
-- filterMissionsByCategory - build const FilterRow einbauen, as in stars
-- filterMissionsByCountry - build const FilterRow einbauen, as in stars
+- filterMissionsByCategory - build const FilterRow, as in stars
+- filterMissionsByCountry - build const FilterRow, as in stars
 - filterMissionsByDestination - build const FilterRow, as in stars
 
 ##about
