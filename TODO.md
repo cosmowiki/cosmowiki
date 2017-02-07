@@ -11,12 +11,19 @@
 
 #currently to do
 
+##Global
+- [x] fix the branding
+
 ##Home
+- [x] make it responsive
 - spread the #homeNav links evenly in height on small screens
 
 ##Chronik
+- [x] rename the component, css and site files to "events"
 
 ##Personen
+- [x] make it responsive
+- [x] set comma only if itemname2 exists
 - open a href={item.name} in vcard
 - filterPeopleByProfession - build const FilterRow einbauen, as in stars
 - filterPeopleByCountry - build const FilterRow einbauen, as in stars
@@ -26,22 +33,31 @@
 ##Sonnensystem
 
 ##Sternbilder
+- [x] make it responsive
+- [x] new JSON
 - open a href={item.name} in vcard
 - constellationNotes ul review
 - filterConstellationsByVisibility - build const FilterRow, as in stars
 
 ##Sterne
+- [x] make it responsive
 - open a href={item.name} in vcard
 - solution for greek letters
 
 ##Raumstationen
+- [x] make it responsive
 - open a href={item.name} in vcard
 
 ##Missionen
+- [x] make it responsive
 - open a href={item.name} in vcard
 - filterMissionsByCategory - build const FilterRow einbauen, as in stars
 - filterMissionsByCountry - build const FilterRow einbauen, as in stars
 - filterMissionsByDestination - build const FilterRow, as in stars
+
+##about
+- [x] make it responsive
+- [x] no jump to anchor when clicking internal link
 
 ##Impressum
 - as transparent .gif or .png
@@ -51,3 +67,7 @@
 
 ##sort
 - [x] label Sortieren nach:
+- [x] sort up / sort down with arrows
+
+##Footer
+- [x] make it responsive
