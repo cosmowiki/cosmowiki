@@ -33833,7 +33833,7 @@ var Footer = function Footer(_ref) {
         _react2["default"].createElement(
           "ul",
           null,
-          [{ url: appUrl.astronomySite(), name: 'Astronomie' }, { url: appUrl.spaceflightSite(), name: 'Raumfahrt' }, { url: appUrl.eventsSite(), name: 'Chronik' }, { url: appUrl.peopleSite(), name: 'Personen' }, { url: '', name: 'Orte' }, { url: appUrl.objectsSite(), name: 'Objekte' }].map(function (link) {
+          [{ url: appUrl.eventsSite(), name: 'Chronik' }, { url: appUrl.peopleSite(), name: 'Personen' }, { url: '', name: 'Orte' }, { url: appUrl.objectsSite(), name: 'Objekte' }, { url: appUrl.astronomySite(), name: 'Astronomie' }, { url: appUrl.spaceflightSite(), name: 'Raumfahrt' }].map(function (link) {
             return _react2["default"].createElement(
               "li",
               { key: link.url },
@@ -35917,7 +35917,7 @@ var StarsComponent = function StarsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         null,
-        '@me find a solution for the greek letters / bayer names vs. historical names'
+        'find a solution for the greek letters / bayer names vs. historical names'
       )
     ),
     _react2['default'].createElement(
@@ -36141,17 +36141,15 @@ var StarComponent = function StarComponent(_ref4) {
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'star-historical-name pure-u-1 pure-u-lg-1-2' },
+        { className: 'pure-u-1 pure-u-lg-1-2' },
         _react2['default'].createElement(
           'p',
-          { title: 'historischer Name' },
-          star.name.historical ? _react2['default'].createElement(
+          null,
+          _react2['default'].createElement(
             'a',
             { href: star.link },
-            '(',
-            star.name.historical,
-            ')'
-          ) : ''
+            star.name.historical ? star.name.bayer : ''
+          )
         )
       )
     ),
