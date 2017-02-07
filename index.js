@@ -34308,6 +34308,11 @@ var MissionsComponent = function MissionsComponent(_ref) {
               'form',
               { id: 'sortMissions', className: 'sort-form' },
               _react2['default'].createElement(
+                'label',
+                null,
+                'Sortieren nach:'
+              ),
+              _react2['default'].createElement(
                 'select',
                 { name: 'sortMissions', defaultValue: 'sortMissionsLaunchUp' },
                 _react2['default'].createElement(
@@ -35287,6 +35292,11 @@ var PeopleComponent = function PeopleComponent(_ref) {
               'form',
               { id: 'sortPeople', className: 'sort-form' },
               _react2['default'].createElement(
+                'label',
+                null,
+                'Sortieren nach:'
+              ),
+              _react2['default'].createElement(
                 'select',
                 { name: 'sortPeople', defaultValue: 'sortPeopleNameUp' },
                 _react2['default'].createElement(
@@ -35677,6 +35687,11 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
               'form',
               { id: 'sortStations', className: 'sort-form' },
               _react2['default'].createElement(
+                'label',
+                null,
+                'Sortieren nach:'
+              ),
+              _react2['default'].createElement(
                 'select',
                 { name: 'sortStations', defaultValue: 'sortStationsLaunchUp' },
                 _react2['default'].createElement(
@@ -35925,6 +35940,11 @@ var StarsComponent = function StarsComponent(_ref) {
             _react2['default'].createElement(
               'form',
               { id: 'sortStars', className: 'sort-form' },
+              _react2['default'].createElement(
+                'label',
+                null,
+                'Sortieren nach:'
+              ),
               _react2['default'].createElement(
                 'select',
                 { name: 'sortStars', defaultValue: 'sortStarsHistoricalName' },
