@@ -17,7 +17,7 @@
 ##Chronik
 
 ##Personen
-- open <a href={item.name}> in vcard
+- open a href={item.name} in vcard
 - filterPeopleByProfession - build const FilterRow einbauen, as in stars
 - filterPeopleByCountry - build const FilterRow einbauen, as in stars
 
@@ -26,19 +26,19 @@
 ##Sonnensystem
 
 ##Sternbilder
-- open <a href={item.name}> in vcard
-- constellationNotes <ul> review
+- open a href={item.name} in vcard
+- constellationNotes ul review
 - filterConstellationsByVisibility - build const FilterRow, as in stars
 
 ##Sterne
-- open <a href={item.name}> in vcard
+- open a href={item.name} in vcard
 - solution for greek letters
 
 ##Raumstationen
-- open <a href={item.name}> in vcard
+- open a href={item.name} in vcard
 
 ##Missionen
-- open <a href={item.name}> in vcard
+- open a href={item.name} in vcard
 - filterMissionsByCategory - build const FilterRow einbauen, as in stars
 - filterMissionsByCountry - build const FilterRow einbauen, as in stars
 - filterMissionsByDestination - build const FilterRow, as in stars
@@ -50,4 +50,4 @@
 - scroll-up-arrow on small screens as button
 
 ##sort
-- [x] <label>Sortieren nach:</label>
+- [x] label Sortieren nach:
