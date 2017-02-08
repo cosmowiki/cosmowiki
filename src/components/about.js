@@ -171,6 +171,7 @@ export default class AboutComponent extends React.Component {
         </div>
         <div id="todo" className="pure-u-1">
           <p>@wolfram pls make the links in #footerElse open the appropriate answers in the about-site</p>
+          <p>@wolfram pls make a auto-scroll to question, but not normal behaviour of internal links (covered by branding)</p>
           <p>@wolfram pls make the contact form work, send mail to admin@cosmowiki.org</p>
         </div>
         <div id="about" className="justify">
@@ -195,9 +196,8 @@ const Question = ({toggleFunction, category, isVisible}) => {
 
   return (
     <li className="question">
-      <a className="question-link" href={'#'} onClick={toggleFunction}><i className="fa fa-caret-right fa-fw" />{' ' + question}</a>
+      <a className="question-link" href={'#' + category} onClick={toggleFunction}><i className="fa fa-caret-right fa-fw" />{' ' + question}</a>
       <ul id={category} className={classNames}>{answer}</ul>
     </li>
   );
 };
-// to jump to category: <a className="question-link" href={'#'} onClick={toggleFunction}><i className="fa fa-caret-right fa-fw" />{' ' + question}</a>
