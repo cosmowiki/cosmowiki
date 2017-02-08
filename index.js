@@ -33271,6 +33271,11 @@ var AboutComponent = (function (_React$Component) {
           _react2['default'].createElement(
             'p',
             null,
+            '@wolfram pls make a auto-scroll to question, but not normal behaviour of internal links (covered by branding)'
+          ),
+          _react2['default'].createElement(
+            'p',
+            null,
             '@wolfram pls make the contact form work, send mail to admin@cosmowiki.org'
           )
         ),
@@ -33315,7 +33320,7 @@ var Question = function Question(_ref) {
     { className: 'question' },
     _react2['default'].createElement(
       'a',
-      { className: 'question-link', href: '#', onClick: toggleFunction },
+      { className: 'question-link', href: '#' + category, onClick: toggleFunction },
       _react2['default'].createElement('i', { className: 'fa fa-caret-right fa-fw' }),
       ' ' + question
     ),
@@ -33326,7 +33331,6 @@ var Question = function Question(_ref) {
     )
   );
 };
-// to jump to category: <a className="question-link" href={'#'} onClick={toggleFunction}><i className="fa fa-caret-right fa-fw" />{' ' + question}</a>
 module.exports = exports['default'];
 
 },{"react":442}],420:[function(require,module,exports){
@@ -34279,9 +34283,23 @@ var Logo = function Logo() {
     "div",
     { id: "branding", className: "pure-u-1" },
     _react2["default"].createElement(
-      "a",
-      { href: "/", title: "CosmoWiki.de", rel: "home" },
-      _react2["default"].createElement("img", { src: "/img/cosmowiki_30px.jpg", id: "CosmoWikiLogo", alt: "CosmoWiki" })
+      "div",
+      { id: "logo", className: "pure-u-1-3" },
+      _react2["default"].createElement(
+        "a",
+        { href: "/", title: "CosmoWiki.de", rel: "home" },
+        _react2["default"].createElement("img", { src: "/img/cosmowiki_30px.jpg", id: "CosmoWikiLogo", alt: "CosmoWiki" })
+      )
+    ),
+    _react2["default"].createElement(
+      "div",
+      { id: "search", className: "pure-u-1-3 center" },
+      "Suche"
+    ),
+    _react2["default"].createElement(
+      "div",
+      { id: "menu", className: "pure-u-1-3 right" },
+      "Menü"
     )
   );
 };
