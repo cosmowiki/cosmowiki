@@ -80,7 +80,7 @@ const Footer = ({appUrl}) => {
           </ul>
         </div>
         <div id="footerElse" className="footer-part pure-u-1 pure-u-sm-1-2 pure-u-md-1-5">
-          <h4>Wir &uuml;ber uns</h4>
+          <h4>Sonstiges</h4>
           <ul>
             <li>
               <a className="footerLink" href={appUrl.aboutSite()} target="_self" title="Was ist CosmoWiki.org?">Was ist CosmoWiki.org?</a>
