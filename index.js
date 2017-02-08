@@ -34008,7 +34008,7 @@ var Footer = function Footer(_ref) {
         _react2["default"].createElement(
           "h4",
           null,
-          "Wir über uns"
+          "Sonstiges"
         ),
         _react2["default"].createElement(
           "ul",

@@ -12,12 +12,12 @@
 #about input,
 #about textarea,
 #about button {background: #fff; border: 1px solid #99f; border-radius: 5px;}
-#about button {color: #000;}
+#about button {color: #55f;}
 #about button:focus,
 #about button:hover,
-#about button:active {color: #55f; border: 1px solid #000;}
+#about button:active {color: #000; border: 1px solid #000;}
 #about input,
-#about textarea {padding: .1em; background: #fff;}
+#about textarea {padding: .1em;}
 #about label,
 #about input {width: 100%; text-align: left;}
 #about textarea {width: 100%; height: 8em;}
