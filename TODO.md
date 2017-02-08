@@ -3,16 +3,18 @@
 - make the map (places) work
 - include shariff for private social linking
 - document creation of new sites in README
-- responsive nav menu (look at the pure manual)
+- responsive nav menu with button on the right in branding bar (look at the pure manual)
 
 #nice to have
 - simple vcard with abstract of first paragraph from wikipedia
 - relations and breadcrum on the vcard
+- global search with form in branding bar
 
 #currently to do
 
-##Global
-- [x] fix the branding
+##branding
+- [x] fix the branding on top
+- search form
 
 ##Home
 - [x] make it responsive
