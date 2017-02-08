@@ -58,6 +58,9 @@
 ##about
 - [x] make it responsive
 - [x] no jump to anchor when clicking internal link
+- [x] create contact form
+- [x] create imprint as transparent .gif or .png
+- make the contact form work, send mail to admin@cosmowiki.org
 
 ##Impressum
 - as transparent .gif or .png
