@@ -64,8 +64,10 @@ header, main, footer {margin: 0 auto; max-width: 1025px;}
 	border-bottom: 1px solid #fff;
 }
 
-#branding a {float: left;}
-#branding img#CosmoWikiLogo {margin: 5px; height: 30px;}
+#logo a {float: left;}
+#logo img#CosmoWikiLogo {margin: 5px; height: 30px;}
+
+#search, #menu {line-height: 40px;}
 
 /*#menuToggleButton {float: right;}
 
