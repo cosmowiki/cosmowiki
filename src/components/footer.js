@@ -95,6 +95,9 @@ const Footer = ({appUrl}) => {
               <a className="footerLink" href={appUrl.aboutSite()} target="_self" title="Danksagungen">Danksagungen</a>
             </li>
             <li>
+              <a className="footerLink" /*href={appUrl.contactSite()}*/ target="_self" title="Kontakt">Kontakt</a>
+            </li>
+            <li>
               <a className="footerLink" href={appUrl.aboutSite()} target="_self" title="Impressum">Impressum</a>
             </li>
           </ul>

@@ -114,12 +114,33 @@ const questions = {
         </p>
       </li>
   },
+  contact: {
+    question: 'Kontakt',
+    answer:
+      <li className="center">
+        <form className="pure-u-3-4 pure-u-sm-2-3 pure-u-md-1-2 pure-u-lg-1-3">
+          <label for="name">Ihr Name:
+            <input type="text" id="contactName" name="name" />
+          </label>
+          <label for="mail">Ihre Mailadresse:
+            <input type="email" id="contactMail" name="mail" />
+          </label>
+          <label for="subject">Betreff:
+            <input type="text" id="contactSubject" name="subject" />
+          </label>
+          <label for="message">Ihre Nachricht:
+            <textarea id="contactMessage" name="message" cols="40" rows="10" />
+          </label>
+          <button>Senden</button>
+        </form>
+      </li>
+  },
   imprint: {
     question: 'Impressum',
     answer:
       <li>
         <p>
-
+          <img src="/img/imprint.png" />
         </p>
       </li>
   }
@@ -150,6 +171,7 @@ export default class AboutComponent extends React.Component {
         </div>
         <div id="todo" className="pure-u-1">
           <p>@wolfram pls make the links in #footerElse open the appropriate answers in the about-site</p>
+          <p>@wolfram pls make the contact form work, send mail to admin@cosmowiki.org</p>
         </div>
         <div id="about" className="justify">
           <ul id="aboutMenu">
