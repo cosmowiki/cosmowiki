@@ -33160,12 +33160,56 @@ var questions = {
       )
     )
   },
+  contact: {
+    question: 'Kontakt',
+    answer: _react2['default'].createElement(
+      'li',
+      { className: 'center' },
+      _react2['default'].createElement(
+        'form',
+        { className: 'pure-u-3-4 pure-u-sm-2-3 pure-u-md-1-2 pure-u-lg-1-3' },
+        _react2['default'].createElement(
+          'label',
+          { 'for': 'name' },
+          'Ihr Name:',
+          _react2['default'].createElement('input', { type: 'text', id: 'contactName', name: 'name' })
+        ),
+        _react2['default'].createElement(
+          'label',
+          { 'for': 'mail' },
+          'Ihre Mailadresse:',
+          _react2['default'].createElement('input', { type: 'email', id: 'contactMail', name: 'mail' })
+        ),
+        _react2['default'].createElement(
+          'label',
+          { 'for': 'subject' },
+          'Betreff:',
+          _react2['default'].createElement('input', { type: 'text', id: 'contactSubject', name: 'subject' })
+        ),
+        _react2['default'].createElement(
+          'label',
+          { 'for': 'message' },
+          'Ihre Nachricht:',
+          _react2['default'].createElement('textarea', { id: 'contactMessage', name: 'message', cols: '40', rows: '10' })
+        ),
+        _react2['default'].createElement(
+          'button',
+          null,
+          'Senden'
+        )
+      )
+    )
+  },
   imprint: {
     question: 'Impressum',
     answer: _react2['default'].createElement(
       'li',
       null,
-      _react2['default'].createElement('p', null)
+      _react2['default'].createElement(
+        'p',
+        null,
+        _react2['default'].createElement('img', { src: '/img/imprint.png' })
+      )
     )
   }
 };
@@ -33223,6 +33267,11 @@ var AboutComponent = (function (_React$Component) {
             'p',
             null,
             '@wolfram pls make the links in #footerElse open the appropriate answers in the about-site'
+          ),
+          _react2['default'].createElement(
+            'p',
+            null,
+            '@wolfram pls make the contact form work, send mail to admin@cosmowiki.org'
           )
         ),
         _react2['default'].createElement(
@@ -33998,6 +34047,15 @@ var Footer = function Footer(_ref) {
               "a",
               { className: "footerLink", href: appUrl.aboutSite(), target: "_self", title: "Danksagungen" },
               "Danksagungen"
+            )
+          ),
+          _react2["default"].createElement(
+            "li",
+            null,
+            _react2["default"].createElement(
+              "a",
+              { className: "footerLink", /*href={appUrl.contactSite()}*/target: "_self", title: "Kontakt" },
+              "Kontakt"
             )
           ),
           _react2["default"].createElement(
