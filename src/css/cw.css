@@ -60,24 +60,38 @@ header, main, footer {margin: 0 auto; max-width: 1025px;}
 #branding {
 	position: fixed; top: 0; left: 0;
 	height: 40px;
-	background-image: linear-gradient(to right, #fff 180px, rgba(153,153,255,.2));
+	background-image: linear-gradient(to right, #fff 50px, rgba(153,153,255,.2));
 	border-bottom: 1px solid #fff;
 }
-
-#logo a {float: left;}
-#logo img#CosmoWikiLogo {margin: 5px; height: 30px;}
-
-#search, #menu {line-height: 40px;}
-
-/*#menuToggleButton {float: right;}
-
-#menuToggleButton a {
-	margin: 5px; padding: 3px 4px 1px;
-	font-family: FontAwesome; font-size: 26px; color: #000;
+#branding:hover {
 	background: #fff;
-	border-radius: 5px;
 }
-#menuToggleButton a::before {content: "\f0c9";}*/
+
+img#CosmoWikiLogo {display: none;}
+img#CosmoWikiIcon {display: block; margin: 5px; height: 30px;}
+
+#search, #menuToggle {height: 40px;}
+
+#searchForm {padding:0;}
+#searchInput,
+#searchSubmit {
+	margin: 8px 0;
+	line-height:20px; font-size: 16px;
+	background:#fff; box-shadow:none;
+	border:1px solid #99f; border-radius: 5px;
+}
+#searchInput {padding: 2px 5px;}
+#searchSubmit {
+	width:30px; padding: 2px; cursor:pointer;
+	color:#99f; font-weight: bold;
+}
+#searchSubmit:hover,
+#searchSubmit:active,
+#searchSubmit:focus {color:#333;}
+
+#menuToggle {height: 40px;}
+
+#menuToggleButton {color: #000; background: #fff;}
 
 /*		Header ---------------------------------------------------------------- */
 
@@ -85,7 +99,10 @@ header {margin: 40px auto 0;}
 
 /*			Nav ----------------------------------------------------------------- */
 
-nav {margin: 0 auto; background: #f8f8f8;	border-bottom: 1px solid #ddd;}
+nav {
+	margin: 0 auto;
+	background: #f8f8f8;
+	border-bottom: 1px solid #ddd;}
 
 .pure-menu-link:focus,
 .pure-menu-link:hover,
@@ -209,7 +226,7 @@ main {border-bottom: 1em solid #eee;}
 
 /*	Footer ------------------------------------------------------------------ */
 
-footer {margin-bottom: 1em; background: #f8f8f8; border-top: 1em solid #99f;}
+footer {background: #f8f8f8; border-top: 1em solid #99f;}
 #footerContainer {
 	padding: 1em 0 .5em;
 	border-top: 1px solid #fff;	border-bottom: 1px solid #ddd;
@@ -241,15 +258,28 @@ footer ul li:last-child a:hover {border-radius: 0 0 5px 5px;}
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 
 @media only screen and (min-width: 48em) {
-  nav {display: inline-block;}
 	#sortArea, #filterArea, #sort form, #filter form {display: inline;}
 	#sort a, #filter a {display: none;}
 	footer ul {min-height: 12em;}
 	footer ul li:last-child a:hover {border-radius: 0;}
+	#branding {
+		background-image: linear-gradient(to right, #fff 180px, rgba(153,153,255,.2));
+	}
+	#branding:hover {
+		background: #fff;
+	}
+	img#CosmoWikiLogo {display: block; margin: 5px; height: 30px;}
+	img#CosmoWikiIcon {display: none;}
+	#menuToggleButton {display: none;}
 }
 @media only screen and (min-width: 64em) {
+	header, main, footer {max-width: 1000px;}
+	main {margin-bottom: 1em; border-radius: 0 0 5px 5px;}
+	nav {margin-top: 1em; border-radius: 5px 5px 0 0;}
+	footer {margin-bottom: 1em; border-radius: 5px 5px 5px 5px;}
   #controlArea {min-height: 1.5em;}
 }
+
 @media only screen and (min-width: 1025px) {
 	header, main, footer {max-width: 1000px;}
 	main {margin-bottom: 1em; border-radius: 0 0 5px 5px;}

@@ -8,7 +8,7 @@
 #nice to have
 - simple vcard with abstract of first paragraph from wikipedia
 - relations and breadcrum on the vcard
-- global search with form in branding bar
+- global search with form in branding bar (best case without submit button)
 
 #currently to do
 
