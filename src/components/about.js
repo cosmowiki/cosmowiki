@@ -171,7 +171,7 @@ export default class AboutComponent extends React.Component {
         </div>
         <div id="todo" className="pure-u-1">
           <p>@wolfram pls make the links in #footerElse open the appropriate answers in the about-site</p>
-          <p>@wolfram pls make a auto-scroll to question, but not normal behaviour of internal links (covered by branding)</p>
+          <p>@wolfram pls when clicking on link in #footerElse do a auto-scroll to question and avoid covering by branding</p>
           <p>@wolfram pls make the contact form work, send mail to admin@cosmowiki.org</p>
         </div>
         <div id="about" className="justify">
