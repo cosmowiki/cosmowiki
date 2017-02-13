@@ -33271,7 +33271,7 @@ var AboutComponent = (function (_React$Component) {
           _react2['default'].createElement(
             'p',
             null,
-            '@wolfram pls make a auto-scroll to question, but not normal behaviour of internal links (covered by branding)'
+            '@wolfram pls when clicking on link in #footerElse do a auto-scroll to question and avoid covering by branding'
           ),
           _react2['default'].createElement(
             'p',
@@ -34258,7 +34258,11 @@ var Homefooter = function Homefooter(_ref) {
   return _react2["default"].createElement(
     "div",
     { id: "homeFooter", className: "pure-u-1 center" },
-    "v. 1.0"
+    _react2["default"].createElement(
+      "p",
+      null,
+      "v. 1.0"
+    )
   );
 };
 
@@ -34284,27 +34288,35 @@ var Logo = function Logo() {
     { id: "branding", className: "pure-u-1" },
     _react2["default"].createElement(
       "div",
-      { id: "logo", className: "pure-u-1-3" },
+      { id: "logo", className: "pure-u-1-6 pure-u-sm-1-4 pure-u-md-1-3" },
       _react2["default"].createElement(
         "a",
         { href: "/", title: "CosmoWiki.de", rel: "home" },
-        _react2["default"].createElement("img", { src: "/img/cosmowiki_30px.jpg", id: "CosmoWikiLogo", alt: "CosmoWiki" })
+        _react2["default"].createElement("img", { src: "/img/cosmowiki_30px.jpg", id: "CosmoWikiLogo", alt: "CosmoWiki" }),
+        _react2["default"].createElement("img", { src: "/img/cw_icon_30px.jpg", id: "CosmoWikiIcon", alt: "CosmoWiki" })
       )
     ),
     _react2["default"].createElement(
       "div",
-      { id: "search", className: "pure-u-1-3 center" },
-      "Suche"
+      { id: "search", className: "pure-u-2-3 pure-u-sm-1-2 pure-u-md-1-3 center" },
+      _react2["default"].createElement(
+        "form",
+        { id: "searchForm", role: "search", method: "get", action: "" },
+        _react2["default"].createElement("input", { id: "searchInput", className: "pure-u-1", type: "text", name: "s", value: "", placeholder: "CosmoWiki durchsuchen", required: true })
+      )
     ),
     _react2["default"].createElement(
       "div",
-      { id: "menu", className: "pure-u-1-3 right" },
-      "Menü"
+      { id: "menuToggle", className: "pure-u-1-6 pure-u-sm-1-4 pure-u-md-1-3 right" },
+      _react2["default"].createElement("a", { href: "#" })
     )
   );
 };
 
 exports["default"] = Logo;
+
+// submit button for search form if needed:
+// <input id="searchSubmit" type="button" value="Go" />
 module.exports = exports["default"];
 
 },{"react":442}],429:[function(require,module,exports){
