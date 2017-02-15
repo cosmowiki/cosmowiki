@@ -34942,13 +34942,13 @@ var defaultNotes = _react2["default"].createElement(
   { id: "defaultNotes", className: "pure-u-1" },
   _react2["default"].createElement(
     "div",
-    { className: "up-arrow pure-u-1-24" },
+    { className: "scroll-up-link pure-u-1-24" },
     _react2["default"].createElement(
       "p",
       null,
       _react2["default"].createElement(
         "a",
-        { href: "javascript:self.scrollTo(0,0);" },
+        { id: "scrollUpArrow", href: "javascript:self.scrollTo(0,0);" },
         "↑"
       )
     )
@@ -34973,13 +34973,13 @@ var defaultNotes = _react2["default"].createElement(
   ),
   _react2["default"].createElement(
     "div",
-    { className: "up-arrow pure-u-1-24 right" },
+    { className: "scroll-up-link pure-u-1-24 right" },
     _react2["default"].createElement(
       "p",
       null,
       _react2["default"].createElement(
         "a",
-        { href: "javascript:self.scrollTo(0,0);" },
+        { id: "scrollUpArrow", href: "javascript:self.scrollTo(0,0);" },
         "↑"
       )
     )
@@ -35506,13 +35506,13 @@ var PersonGroupComponent = function PersonGroupComponent(_ref2) {
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'scroll-up-arrow pure-u-1-2 right' },
+        { className: 'scroll-up-link pure-u-1-2 right' },
         _react2['default'].createElement(
           'p',
           null,
           _react2['default'].createElement(
             'a',
-            { href: 'javascript:self.scrollTo(0,0);' },
+            { id: 'scrollUpArrow', href: 'javascript:self.scrollTo(0,0);' },
             '↑'
           )
         )
@@ -36182,13 +36182,13 @@ var StarsGroupComponent = function StarsGroupComponent(_ref3) {
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'scroll-up-arrow pure-u-1-2 right' },
+        { className: 'scroll-up-link pure-u-1-2 right' },
         _react2['default'].createElement(
           'p',
           null,
           _react2['default'].createElement(
             'a',
-            { href: 'javascript:self.scrollTo(0,0);' },
+            { id: 'scrollUpArrow', href: 'javascript:self.scrollTo(0,0);' },
             '↑'
           )
         )
