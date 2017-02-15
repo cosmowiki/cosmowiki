@@ -2,8 +2,8 @@ import React from 'react';
 
 const defaultNotes = (
   <div id="defaultNotes" className="pure-u-1">
-    <div className="up-arrow pure-u-1-24">
-      <p><a href="javascript:self.scrollTo(0,0);">&uarr;</a></p>
+    <div className="scroll-up-link pure-u-1-24">
+      <p><a id="scrollUpArrow" href="javascript:self.scrollTo(0,0);">&uarr;</a></p>
     </div>
     <div id="notComplete" className="pure-u-11-12 center">
       <p>
@@ -11,8 +11,8 @@ const defaultNotes = (
         href="http://de.cosmowiki.de/?page_id=22" target="_self" title="Kontakt">hier</a>.
       </p>
     </div>
-    <div className="up-arrow pure-u-1-24 right">
-      <p><a href="javascript:self.scrollTo(0,0);">&uarr;</a></p>
+    <div className="scroll-up-link pure-u-1-24 right">
+      <p><a id="scrollUpArrow" href="javascript:self.scrollTo(0,0);">&uarr;</a></p>
     </div>
   </div>
 );

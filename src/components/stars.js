@@ -83,8 +83,8 @@ const StarsGroupComponent = ({group}) => {
               <div className="first-letter pure-u-1-2">
                 <p name={`#${groupKey}`}>{groupKey}</p>
               </div>
-              <div className="scroll-up-arrow pure-u-1-2 right">
-                <p><a href="javascript:self.scrollTo(0,0);">&uarr;</a></p>
+              <div className="scroll-up-link pure-u-1-2 right">
+                <p><a id="scrollUpArrow" href="javascript:self.scrollTo(0,0);">&uarr;</a></p>
               </div>
             </div>
             {stars.map((star, idx) => <StarComponent star={star} key={idx} />)}

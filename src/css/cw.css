@@ -197,8 +197,8 @@ main {border-bottom: 1em solid #eee;}
 	border-bottom: 1px solid #fff;
 }
 .first-letter, .scroll-up-arrow {display: inline-block;}
-.first-letter p, .scroll-up-arrow p {margin: .2em; font-size: 1.3em;}
-.scrollUpArrow p {font-weight: bold;}
+.first-letter p, .scroll-up-link p {margin: .2em; font-size: 1.3em;}
+.scrollUpArrow {font-weight: 900;}
 
 .data-row {display: inline-block;	border-bottom: 1px solid #fff;}
 
@@ -218,11 +218,11 @@ main {border-bottom: 1em solid #eee;}
 
 #notes p {padding: .5em;}
 #defaultNotes p {padding: 0;}
-#notComplete p, .up-arrow p {margin: .2em;}
-.up-arrow p {line-height: 1.6em; font-size: 1.4em; font-weight: bold;}
+#notComplete p, #defaultNotes .scroll-up-link p {margin: .2em;}
+#defaultNotes .scroll-up-link p {line-height: 1.6em; font-size: 1.4em;}
+#scrollUpArrow {font-weight: 900;}
 #notes ul {padding: .5em;}
 
-#upArrow {float: left; font-weight: bold;}
 
 /*	Footer ------------------------------------------------------------------ */
 
