@@ -236,15 +236,11 @@ footer h4 {
 	margin: 0 .25em 0; padding: .125em 0;
 	background: #eee; border: 1px solid #ddd; border-radius: 5px 5px 0 0;
 }
-#footerContainer div:first-child h4 {margin-left: .5em;}
-#footerContainer div:last-child h4 {margin-right: .5em;}
 footer ul {
 	margin: 0 .25em .5em;
 	background: #fff;
 	border-radius: 0 0 5px 5px; border: 1px solid #ddd; border-top-width: 0;
 }
-#footerContainer div:first-child ul {margin-left: .5em;}
-#footerContainer div:last-child ul {margin-right: .5em;}
 footer ul li a {display: block; line-height: 1.5em;}
 footer ul li a:hover {background: #eee;}
 footer ul li:last-child a:hover {border-radius: 0 0 5px 5px;}
@@ -260,6 +256,10 @@ footer ul li:last-child a:hover {border-radius: 0 0 5px 5px;}
 @media only screen and (min-width: 48em) {
 	#sortArea, #filterArea, #sort form, #filter form {display: inline;}
 	#sort a, #filter a {display: none;}
+	#footerContainer div:first-child h4 {margin-left: .5em;}
+	#footerContainer div:last-child h4 {margin-right: .5em;}
+	#footerContainer div:first-child ul {margin-left: .5em;}
+	#footerContainer div:last-child ul {margin-right: .5em;}
 	footer ul {min-height: 12em;}
 	footer ul li:last-child a:hover {border-radius: 0;}
 	#branding {
