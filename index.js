@@ -32998,7 +32998,7 @@ var questions = {
       _react2['default'].createElement(
         'p',
         null,
-        'Wir recherchieren unzählige Informationen aus Wikipedia und anderen Quellen, sammeln, veknüpfen und bereiten sie hier in möglichst übersichtlicher Weise auf. CosmoWiki.org ist also ein zentraler Platz im Netz, an dem der Nutzer zwei der faszinierendsten Gebiete aus Wissenschaft und Technik auf neue Weise entdecken kann.'
+        'Wir recherchieren unzählige Informationen aus Wikipedia und anderen Quellen, sammeln, verknüpfen und bereiten sie hier in möglichst übersichtlicher Weise auf. CosmoWiki.org ist also ein zentraler Platz im Netz, an dem der Nutzer zwei der faszinierendsten Gebiete aus Wissenschaft und Technik auf neue Weise entdecken kann.'
       ),
       _react2['default'].createElement(
         'p',
@@ -33460,8 +33460,6 @@ var _react2 = _interopRequireDefault(_react);
 
 var _notes = require('./notes');
 
-var _notes2 = _interopRequireDefault(_notes);
-
 var ConstellationsComponent = function ConstellationsComponent(_ref) {
   var constellations = _ref.constellations;
 
@@ -33571,7 +33569,7 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
         })
       )
     ),
-    _react2['default'].createElement(_notes2['default'], null)
+    _react2['default'].createElement(_notes.ConstellationNotes, null)
   );
 };
 
