@@ -86,4 +86,4 @@
 - make the links in #footerElse open the appropriate answers in the about-site
 
 #General questions
-- show a vcard or a full (overlay) page for contents?
+- show a vcard or a full (overlay?) page for contents?
