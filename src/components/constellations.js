@@ -1,5 +1,5 @@
 import React from 'react';
-import Notes from './notes';
+import {ConstellationNotes} from './notes';
 
 const ConstellationsComponent = ({constellations}) => {
   return (
@@ -37,7 +37,7 @@ const ConstellationsComponent = ({constellations}) => {
           {constellations.map((constellation, idx) => <ConstellationComponent constellation={constellation} key={idx}/>)}
         </div>
       </div>
-      <Notes />
+      <ConstellationNotes />
     </main>
   );
 };
