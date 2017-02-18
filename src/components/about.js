@@ -15,7 +15,7 @@ const questions = {
         </p>
         <p>
           Wir recherchieren unzählige Informationen aus Wikipedia und anderen
-          Quellen, sammeln, veknüpfen und bereiten sie hier in möglichst übersichtlicher Weise auf.
+          Quellen, sammeln, verknüpfen und bereiten sie hier in möglichst übersichtlicher Weise auf.
           CosmoWiki.org ist also ein zentraler Platz im Netz, an dem der Nutzer zwei der
           faszinierendsten Gebiete aus Wissenschaft und Technik auf neue Weise entdecken kann.
         </p>
