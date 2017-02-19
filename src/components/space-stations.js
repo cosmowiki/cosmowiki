@@ -50,8 +50,8 @@ const StationComponent = ({spaceStation:station}) => {
   return (
     <div className="station-row data-row pure-u-1">
       <div className="stationImg pure-u-1 pure-u-sm-1-5 center">
-        <a href={station.wikipediaUrl}><img src={station.imageUrl} alt={station.name} /></a>
-        <small>Bild: {station.imageSrc}</small>
+        {station.imageUrl ? <a href={station.imageUrl}><img src={station.imageSmallUrl} alt={station.name} /></a> : ''}
+        {station.imageUrl ? <small>Bild: {station.imageSrc}</small> : ''}
       </div>
       <div className="stationInfo pure-u-1 pure-u-sm-3-5 center">
         <a href={station.wikipediaUrl}>{station.name}</a><br />
