@@ -1,6 +1,6 @@
 [
     {
-        "itemname": "Entstehung des Ishango-Knochens",
+        "itemname": "steinzeitliche Menschen erschaffen den Ishango-Knochen, eventuell als Mondkalender",
         "itemurl": "https://de.wikipedia.org/wiki/Ishango-Knochen",
         "itemdateyear": "18000 v. Chr.",
         "itemcountry": "Kongo",
@@ -20,7 +20,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Errichtung der Kreisgrabenanlage von Goseck",
+        "itemname": "Errichtung der Kreisgrabenanlage von Goseck - das älteste Sonnenobservatorium der Welt",
         "itemurl": "https://de.wikipedia.org/wiki/Kreisgrabenanlage_von_Goseck",
         "itemdateyear": "4900 v. Chr.",
         "itemcountry": "Deutschland",
@@ -30,36 +30,44 @@
         "itemtype": 1
     },
     {
-        "itemname": "Errichtung der Megalithanlage von Nabta-Playa",
+        "itemname": "Errichtung der Megalithanlage von Nabta-Playa für Kalenderzwecke",
         "itemurl": "https://de.wikipedia.org/wiki/Nabta-Playa",
         "itemdateyear": "4800 v. Chr.",
         "itemcountry": "Ägypten",
         "itemlocation": "Nabta-Playa",
+        "itemlatitude": "22.533333",
+        "itemlongitude": "30.7",
         "itemtype": 1
     },
     {
-        "itemname": "Einführung des Kalenders der Maya",
-        "itemurl": "https://de.wikipedia.org/wiki/Geschichte_der_Astronomie",
+        "itemname": "Beginn des Kalenders der Maya",
+        "itemurl": "https://de.wikipedia.org/wiki/Maya-Kalender",
         "itemdateyear": "3114 v. Chr.",
         "itemdatemonth": 8,
         "itemdateday": 11,
         "itemcountry": "Mittelamerika",
+        "itemlatitude": "17",
+        "itemlongitude": "91",
         "itemtype": 1
     },
     {
-        "itemname": "Errichtung der Megalithanlage von Stonehenge",
+        "itemname": "Errichtung der Megalithanlage von Stonehenge, wohl auch für Kalenderzwecke",
         "itemurl": "https://de.wikipedia.org/wiki/Stonehenge",
         "itemdateyear": "3100 v. Chr.",
         "itemcountry": "GB",
         "itemlocation": "Stonehenge",
+        "itemlatitude": "51.178889",
+        "itemlongitude": "-1.826389",
         "itemtype": 1
     },
     {
-        "itemname": "Errichtung der Megalithanlage von Mnajdra",
+        "itemname": "Errichtung der Megalithanlage von Mnajdra für Kalenderzwecke",
         "itemurl": "https://de.wikipedia.org/wiki/Mnajdra",
         "itemdateyear": "3100 v. Chr.",
         "itemcountry": "Malta",
         "itemlocation": "Mnajdra",
+        "itemlatitude": "35.826667",
+        "itemlongitude": "14.436389",
         "itemtype": 1
     },
     {
@@ -67,15 +75,21 @@
         "itemurl": "https://de.wikipedia.org/wiki/%C3%84gyptischer_Kalender",
         "itemdateyear": "2783 v. Chr.",
         "itemcountry": "Ägypten",
+        "itemlocation": "Memphis",
+        "itemlatitude": "29.85",
+        "itemlongitude": "31.25",
         "itemtype": 1
     },
     {
         "itemname": "belegte Beobachtung einer Sonnenfinsternis",
-        "itemurl": "https://en.wikipedia.org/wiki/Solar_eclipse#Historical_eclipses",
+        "itemurl": "https://de.wikipedia.org/wiki/Xi_und_He",
         "itemdateyear": "2137 v. Chr.",
         "itemdatemonth": 10,
         "itemdateday": 22,
         "itemcountry": "China",
+        "itemlocation": "Dengfeng",
+        "itemlatitude": "34.46",
+        "itemlongitude": "113.03",
         "itemtype": 1
     },
     {
@@ -84,6 +98,8 @@
         "itemdateyear": "1600 v. Chr.",
         "itemcountry": "Deutschland",
         "itemlocation": "Nebra",
+        "itemlatitude": "51.283889",
+        "itemlongitude": "11.52",
         "itemtype": 1
     },
     {
@@ -91,6 +107,9 @@
         "itemurl": "https://de.wikipedia.org/wiki/Wasseruhr",
         "itemdateyear": "1530 v. Chr.",
         "itemcountry": "Ägypten",
+        "itemlocation": "Achet-Aton",
+        "itemlatitude": "27.661667",
+        "itemlongitude": "30.905556",
         "itemtype": 1
     },
     {
@@ -99,19 +118,23 @@
         "itemdateyear": "800 – 200 v. Chr.",
         "itemcountry": "Peru",
         "itemlocation": "Nazca",
+        "itemlatitude": "-14.720556",
+        "itemlongitude": "-75.150278",
         "itemtype": 0
     },
     {
         "itemname": "belegte Beobachtung einer Sonnenfinsternis",
-        "itemurl": "https://de.wikipedia.org/wiki/Sonnenfinsternis_vom_106._Juni_763_v._Chr.",
+        "itemurl": "https://de.wikipedia.org/wiki/Sonnenfinsternis_vom_15._Juni_763_v._Chr.",
         "itemdateyear": "763 v. Chr.",
         "itemdatemonth": 6,
         "itemdateday": 15,
         "itemcountry": "Assyrien",
+        "itemlatitude": "38.15",
+        "itemlongitude": "54.05",
         "itemtype": 1
     },
     {
-        "itemname": "Beobachtung des späteren Kometen Halley",
+        "itemname": "mutmaßliche Beobachtung des späteren Kometen Halley",
         "itemurl": "https://de.wikipedia.org/wiki/Geschichte_der_Astronomie",
         "itemdateyear": "613 v. Chr.",
         "itemcountry": "China",
@@ -122,6 +145,8 @@
         "itemurl": "http://en.wikipedia.org/wiki/Shi_Shen",
         "itemdateyear": "4. Jhdt. v. Chr.",
         "itemcountry": "China",
+        "itemlatitude": "34.79",
+        "itemlongitude": "114.34",
         "itemtype": 1
     },
     {
@@ -129,6 +154,9 @@
         "itemurl": "https://de.wikipedia.org/wiki/Camera_obscura",
         "itemdateyear": "4. Jhdt. v. Chr.",
         "itemcountry": "Griechenland",
+        "itemlocation": "Platonische Akademie",
+        "itemlatitude": "37.9925",
+        "itemlongitude": "23.708056",
         "itemtype": 1
     },
     {
@@ -136,6 +164,9 @@
         "itemurl": "https://de.wikipedia.org/wiki/Geozentrisches_Weltbild",
         "itemdateyear": "384 – 322 v. Chr.",
         "itemcountry": "Griechenland",
+        "itemlocation": "Platonische Akademie",
+        "itemlatitude": "37.9925",
+        "itemlongitude": "23.708056",
         "itemtype": 1
     },
     {
@@ -144,6 +175,8 @@
         "itemdateyear": "310 – 230 v. Chr.",
         "itemcountry": "Griechenland",
         "itemlocation": "Samos",
+        "itemlatitude": "37.727778",
+        "itemlongitude": "26.823056",
         "itemtype": 1
     },
     {
@@ -152,13 +185,20 @@
         "itemdateyear": "300 v. Chr.",
         "itemcountry": "Peru",
         "itemlocation": "Chanquillo",
+        "itemlatitude": "-9.556667",
+        "itemlongitude": "-78.235833",
         "itemtype": 1
     },
     {
-        "itemname": "Einführung eines Schalttages alle vier Jahre",
-        "itemurl": "https://de.wikipedia.org/wiki/%C3%84gyptischer_Kalender",
+        "itemname": "Einführung eines Schalttages alle vier Jahre, jedoch nur bis zum Tod von Ptolemaios III.",
+        "itemurl": "https://de.wikipedia.org/wiki/Kanopus-Dekret",
         "itemdateyear": "238 v. Chr.",
+        "itemdatemonth": 3,
+        "itemdateday": 3,
         "itemcountry": "Ägypten",
+        "itemlocation": "Kanopus",
+        "itemlatitude": "31.303333",
+        "itemlongitude": "30.083333",
         "itemtype": 1
     },
     {
@@ -166,6 +206,9 @@
         "itemurl": "https://de.wikipedia.org/wiki/Eratosthenes",
         "itemdateyear": "200 v. Chr.",
         "itemcountry": "Griechenland, Ägypten",
+        "itemlocation": "Alexandria",
+        "itemlatitude": "31.2135",
+        "itemlongitude": "29.927661",
         "itemtype": 1
     },
     {
@@ -247,6 +290,15 @@
         "itemcountry": "Iran",
         "itemlocation": "Talebkhan",
         "itemtype": 1
+    },
+    {
+        "itemname": "Errichtung des Gaocheng-Observatoriums",
+        "itemurl": "https://de.wikipedia.org/wiki/Gaocheng-Observatorium",
+        "itemdateyear": "1276",
+        "itemcountry": "China",
+        "itemlocation": "Dengfeng",
+        "itemlatitude": "34.402406",
+        "itemlongitude": "113.140711"
     },
     {
         "itemname": "Errichtung des Observatoriums Gurkani Zij",
@@ -2508,7 +2560,7 @@
         "itemdateyear": "2005",
         "itemdatemonth": 1,
         "itemdateday": 14,
-        "itemcountry": "Titan",
+        "itemcountry": "Saturnmond Titan",
         "itemtype": 3
     },
     {
@@ -2517,7 +2569,7 @@
         "itemdateyear": "2005",
         "itemdatemonth": 7,
         "itemdateday": 4,
-        "itemcountry": "Temple 1",
+        "itemcountry": "Komet Temple 1",
         "itemtype": 3
     },
     {
@@ -2687,7 +2739,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Start von Fobos-Grunt, der russischen Raumsonde zum Marsmond Phobos mit Rückkehrkapsel",
+        "itemname": "Start von Fobos-Grunt, der russishen Raumsonde zum Marsmond Phobos mit Rückkehrkapsel",
         "itemurl": "https://de.wikipedia.org/wiki/Fobos-Grunt",
         "itemdateyear": "2011",
         "itemdatemonth": 11,
@@ -2711,7 +2763,7 @@
         "itemdateyear": "2011",
         "itemdatemonth": 12,
         "itemdateday": 8,
-        "itemcountry": "GLONASS",
+        "itemcountry": "Russland",
         "itemtype": 2
     },
     {
