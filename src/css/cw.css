@@ -196,9 +196,9 @@ main {border-bottom: 1em solid #eee;}
 	background: rgba(255,255,255,.5);
 	border-bottom: 1px solid #fff;
 }
-.first-letter, .scroll-up-arrow {display: inline-block;}
+.first-letter, .scroll-up-link {display: inline-block;}
 .first-letter p, .scroll-up-link p {margin: .2em; font-size: 1.3em;}
-.scrollUpArrow {font-weight: 900;}
+#scrollUpArrow {font-weight: 900;}
 
 .data-row {display: inline-block;	border-bottom: 1px solid #fff;}
 
@@ -216,11 +216,7 @@ main {border-bottom: 1em solid #eee;}
 	border-bottom: 1px solid #ddd;
 }
 
-#notes p {padding: .5em;}
-#defaultNotes p {padding: 0;}
-#notComplete p, #defaultNotes .scroll-up-link p {margin: .2em;}
-#defaultNotes .scroll-up-link p {line-height: 1.6em; font-size: 1.4em;}
-#scrollUpArrow {font-weight: 900;}
+#Notes p {margin: .2em; padding: 0;}
 #notes ul {padding: .5em;}
 
 
