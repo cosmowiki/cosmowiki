@@ -4,6 +4,7 @@
 - include shariff for private social linking
 - document creation of new sites in README
 - responsive nav menu with button on the right in branding bar (look at the pure js)
+- make the sorters and filters (with FilterRow as in stars) work
 
 #nice to have
 - simple vcard with abstract of first paragraph from wikipedia
@@ -28,8 +29,6 @@
 - [x] make it responsive
 - [x] set comma only if itemname2 exists
 - open the href={item.name} in vcard
-- filterPeopleByProfession - build const FilterRow, as in stars
-- filterPeopleByCountry - build const FilterRow, as in stars
 
 ##Places
 
@@ -37,8 +36,9 @@
 
 ##Constellations
 - [x] make it responsive
+- [x] store images small and large locally
+- show more data on large screens?
 - open the href={item.name} in vcard
-- filterConstellationsByVisibility - build const FilterRow, as in stars
 
 ##Stars
 - [x] make it responsive
@@ -47,20 +47,17 @@
 
 ##Space stations
 - [x] make it responsive
+- [x] show station image and small only if imageUrl exists
 - open the href={item.name} in vcard
 
 ##Missions
 - [x] make it responsive
 - open the href={item.name} in vcard
-- filterMissionsByCategory - build const FilterRow, as in stars
-- filterMissionsByCountry - build const FilterRow, as in stars
-- filterMissionsByDestination - build const FilterRow, as in stars
 
 ##about
 - [x] make it responsive
 - [x] no jump to anchor when clicking internal link
 - [x] create contact form
-- [x] create imprint as transparent .gif or .png
 - make the contact form work, send mail to admin@cosmowiki.org
 
 ##Imprint
@@ -78,7 +75,7 @@
 
 ##notes
 - [x] insert arrows to scroll up
-- scroll-up-arrow on small screens as buttons
+- scroll-up-arrow on small screens as buttons (with bg)?
 - constellationNotes ul review
 
 ##Footer
@@ -86,4 +83,5 @@
 - make the links in #footerElse open the appropriate answers in the about-site
 
 #General questions
-- show a vcard or a full (overlay?) page for contents?
+- show content really in a vcard? rather on a page?
+- list related items only with their wikipedia url (semicolon separated) and decrypt them to get the real names?
