@@ -35852,17 +35852,17 @@ var StationComponent = function StationComponent(_ref2) {
     _react2['default'].createElement(
       'div',
       { className: 'stationImg pure-u-1 pure-u-sm-1-5 center' },
-      _react2['default'].createElement(
+      station.imageUrl ? _react2['default'].createElement(
         'a',
-        { href: station.wikipediaUrl },
-        _react2['default'].createElement('img', { src: station.imageUrl, alt: station.name })
-      ),
-      _react2['default'].createElement(
+        { href: station.imageUrl },
+        _react2['default'].createElement('img', { src: station.imageSmallUrl, alt: station.name })
+      ) : '',
+      station.imageUrl ? _react2['default'].createElement(
         'small',
         null,
         'Bild: ',
         station.imageSrc
-      )
+      ) : ''
     ),
     _react2['default'].createElement(
       'div',
@@ -37850,35 +37850,38 @@ var SpaceStation = (function () {
     key: 'fromRawData',
     value: function fromRawData(raw) {
       var station = new SpaceStation();
-      station.name = raw.stationname;
-      station.wikipediaUrl = raw.stationlink;
-      station.imageUrl = raw.stationimglink;
-      station.imageSrc = raw.stationimgsrc;
-      station.imageLicence = raw.stationimglicence;
-      station.operator = raw.stationoperator;
+      station.name = raw.itemname;
+      station.alternativename = raw.itemname2;
+      station.wikipediaUrl = raw.itemurl;
+      station.imageSmallUrl = raw.itemurl2;
+      station.imageUrl = raw.itemimgurl;
+      station.imageSrc = raw.itemimgsrc;
+      station.imageLicence = raw.itemimglicence;
+      station.operator = raw.itemoperator;
 
-      var launchyear = raw.stationlaunchy ? '' + raw.stationlaunchy : '';
-      var launchmonth = raw.stationlaunchm ? raw.stationlaunchm + '.' : '';
-      var launchday = raw.stationlaunchd ? raw.stationlaunchd + '.' : '';
+      var launchyear = raw.itemdateyear ? raw.itemdateyear : '';
+      var launchmonth = raw.itemdatemonth ? raw.itemdatemonth + '.' : '';
+      var launchday = raw.itemdateday ? raw.itemdateday + '.' : '';
       station.launchDate = '' + launchday + launchmonth + launchyear;
-      station.daysInOrbit = raw.stationdaysinorbit;
-      var reenteryear = raw.stationreentery ? '' + raw.stationreentery : '';
-      var reentermonth = raw.stationreenterm ? raw.stationreenterm + '.' : '';
-      var reenterday = raw.stationreenterd ? raw.stationreenterd + '.' : '';
+      station.daysInOrbit = raw.itemdaysinorbit;
+      var reenteryear = raw.itemdate3year ? raw.itemdate3year : '';
+      var reentermonth = raw.itemdate3month ? raw.itemdate3month + '.' : '';
+      var reenterday = raw.itemdate3day ? raw.itemdate3day + '.' : '';
       station.reenterDate = '' + reenterday + reentermonth + reenteryear;
+      station.duration = raw.itemduration ? raw.itemduration : '';
       station.rocket = Rocket.fromRawData(raw);
       station.pad = Pad.fromRawData(raw);
-      station.crewSize = raw.stationcrewsize;
-      station.daysOccupied = raw.stationdaysoccupied;
-      station.visitors = raw.stationvisitors;
-      station.crews = raw.stationcrews;
-      station.mannedDocks = raw.stationmanneddocks;
-      station.unmannedDocks = raw.stationunmanneddocks;
-      station.apo = raw.stationapo;
-      station.peri = raw.stationperi;
-      station.inclination = raw.stationinclination;
-      station.mass = raw.stationmass;
-      station.pressVol = raw.stationpressvol;
+      station.crewSize = raw.itemproperty;
+      station.daysOccupied = raw.itemproperty2;
+      station.visitors = raw.itemproperty3;
+      station.crews = raw.itemproperty4;
+      station.mannedDocks = raw.itemproperty5;
+      station.unmannedDocks = raw.itemproperty6;
+      station.apo = raw.itemnearest;
+      station.peri = raw.itemfarthest;
+      station.inclination = raw.iteminclination;
+      station.mass = raw.itemmass;
+      station.pressVol = raw.itemvolume;
 
       return station;
     }
@@ -37897,8 +37900,8 @@ var Rocket = (function () {
     value: function fromRawData(raw) {
       var rocket = new Rocket();
 
-      rocket.name = raw.stationrocket;
-      rocket.wikipediaUrl = raw.stationrocketlink;
+      rocket.name = raw.itemparent;
+      rocket.wikipediaUrl = raw.itemparenturl;
 
       return rocket;
     }
@@ -37954,8 +37957,8 @@ var Pad = (function () {
     value: function fromRawData(raw) {
       var pad = new Pad();
 
-      pad.name = raw.stationlaunchpad;
-      pad.wikipediaUrl = raw.stationlaunchpadlink;
+      pad.name = raw.itemlocation;
+      pad.wikipediaUrl = raw.itemlocationurl;
 
       return pad;
     }
