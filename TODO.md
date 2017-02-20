@@ -11,6 +11,10 @@
 - relations and breadcrum on the vcard
 - global search with form in branding bar (best case without submit button)
 
+#General questions
+- show content really in a vcard? rather on a page?
+- list related items only with their wikipedia url (semicolon separated) and decrypt them to get the real names?
+
 #currently to do
 
 ##branding
@@ -50,6 +54,9 @@
 - [x] show station image and small only if imageUrl exists
 - open the href={item.name} in vcard
 
+##Space telescopes
+- create site
+
 ##Missions
 - [x] make it responsive
 - open the href={item.name} in vcard
@@ -60,28 +67,24 @@
 - [x] create contact form
 - make the contact form work, send mail to admin@cosmowiki.org
 
-##Imprint
+###Imprint
 - [x] as a transparent .gif or .png
 
-##.letter-section-header
+###.letter-section-header
 - scroll-up-arrow on small screens as buttons
 
-##sort and filter
+###sort and filter
 - let the toggle-switches for sort and filter hide each other on hover on small screens
 
-##sort
+###sort
 - [x] label "Sortieren nach:"
 - [x] sort up / sort down with arrows
 
-##notes
+###notes
 - [x] insert arrows to scroll up
 - scroll-up-arrow on small screens as buttons (with bg)?
 - constellationNotes ul review
 
-##Footer
+###Footer
 - [x] make it responsive
 - make the links in #footerElse open the appropriate answers in the about-site
-
-#General questions
-- show content really in a vcard? rather on a page?
-- list related items only with their wikipedia url (semicolon separated) and decrypt them to get the real names?
