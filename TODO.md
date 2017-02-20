@@ -35,8 +35,10 @@
 - open the href={item.name} in vcard
 
 ##Places
+- create site
 
 ##Solar system
+- create site
 
 ##Constellations
 - [x] make it responsive
