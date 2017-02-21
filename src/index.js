@@ -18,6 +18,7 @@ import SolarSystem from './sites/solar-system';
 import Constellations from './sites/constellations';
 import Stars from './sites/stars';
 import SpaceStations from './sites/space-stations';
+import SpaceTelescopes from './sites/space-telescopes';
 import Missions from './sites/missions';
 import Astronomy from './sites/astronomy';
 import Spaceflight from './sites/spaceflight';
@@ -61,6 +62,7 @@ const urlToComponent = {
   '/constellations': {klass: Constellations, fileName: 'data/constellations.json'},
   '/stars': {klass: Stars, fileName: 'data/stars.json'},
   '/space-stations': {klass: SpaceStations, fileName: 'data/spacestations.json'},
+  '/space-telescopes': {klass: SpaceTelescopes, fileName: 'data/spacetelescopes.json'},
   '/missions': {klass: Missions, fileName: 'data/missions.json'},
   '/astronomy': {klass: Astronomy},
   '/spaceflight': {klass: Spaceflight},

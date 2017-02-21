@@ -33,6 +33,7 @@ const HomeComponent = ({appUrl}) => {
                 {url: appUrl.constellationsSite(), name: 'Sternbilder'},
                 {url: appUrl.starsSite(), name: 'Sterne'},
                 {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
+                {url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope'},
 
               ].map(link =>
                 <li key={link.url+link.name}>
@@ -64,6 +65,7 @@ const HomeComponent = ({appUrl}) => {
                 {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
                 {url: appUrl.missionsSite(), name: 'Missionen'},
                 {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
+                {url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope'},
 
               ].map(link =>
                 <li key={link.url+link.name}>

@@ -10,12 +10,15 @@ const Navigation = ({ appUrl }) => {
         <li className="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
           <a className="pure-menu-link menu-item persons" href={appUrl.peopleSite()}>Personen</a>
           <ul className="pure-menu-children sub-menu persons">
-            <li className="pure-menu-item">
-              <a className="pure-menu-link sub-menu-item persons" href={appUrl.astronomersSite()}>Astronomen</a>
-            </li>
-            <li className="pure-menu-item">
-              <a className="pure-menu-link sub-menu-item persons" href={appUrl.astronautsSite()}>Raumfahrer</a>
-            </li>
+            {[
+              {url: appUrl.astronomersSite(), name: 'Astronomen'},
+              {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
+
+            ].map(link =>
+              <li key={link.url} className="pure-menu-item left">
+                <a className="pure-menu-link sub-menu-item persons" href={ link.url }>{ link.name }</a>
+              </li>
+            )}
           </ul>
         </li>
         <li className="pure-menu-item">
@@ -24,49 +27,50 @@ const Navigation = ({ appUrl }) => {
         <li className="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
           <a className="pure-menu-link menu-item objects" href={appUrl.objectsSite()}>Objekte</a>
           <ul className="pure-menu-children sub-menu objects">
-            <li className="pure-menu-item">
-              <a className="pure-menu-link sub-menu-item objects" href={appUrl.solarSystemSite()}>Sonnensystem</a>
-            </li>
-            <li className="pure-menu-item">
-              <a className="pure-menu-link sub-menu-item objects" href={appUrl.constellationsSite()}>Sternbilder</a>
-            </li>
-            <li className="pure-menu-item">
-              <a className="pure-menu-link sub-menu-item objects" href={appUrl.starsSite()}>Sterne</a>
-            </li>
-            <li className="pure-menu-item">
-              <a className="pure-menu-link sub-menu-item objects" href={appUrl.spaceStationsSite()}>Raumstationen</a>
-            </li>
+            {[
+              {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
+              {url: appUrl.constellationsSite(), name: 'Sternbilder'},
+              {url: appUrl.starsSite(), name: 'Sterne'},
+              {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
+              {url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope'},
+
+            ].map(link =>
+              <li key={link.url} className="pure-menu-item left">
+                <a className="pure-menu-link sub-menu-item objects" href={ link.url }>{ link.name }</a>
+              </li>
+            )}
           </ul>
         </li>
         <li className="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
           <a className="pure-menu-link menu-item astronomy" href={appUrl.astronomySite()}>Astronomie</a>
           <ul className="pure-menu-children sub-menu astronomy">
-            <li className="pure-menu-item">
-              <a className="pure-menu-link sub-menu-item astronomy" href={appUrl.astronomersSite()}>Astronomen</a>
-            </li>
-            <li className="pure-menu-item">
-              <a className="pure-menu-link sub-menu-item astronomy" href={appUrl.solarSystemSite()}>Sonnensystem</a>
-            </li>
-            <li className="pure-menu-item">
-              <a className="pure-menu-link sub-menu-item astronomy" href={appUrl.constellationsSite()}>Sternbilder</a>
-            </li>
-            <li className="pure-menu-item">
-              <a className="pure-menu-link sub-menu-item astronomy" href={appUrl.starsSite()}>Sterne</a>
-            </li>
+            {[
+              {url: appUrl.astronomersSite(), name: 'Astronomen'},
+              {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
+              {url: appUrl.constellationsSite(), name: 'Sternbilder'},
+              {url: appUrl.starsSite(), name: 'Sterne'},
+
+            ].map(link =>
+              <li key={link.url} className="pure-menu-item left">
+                <a className="pure-menu-link sub-menu-item astronomy" href={ link.url }>{ link.name }</a>
+              </li>
+            )}
           </ul>
         </li>
         <li className="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
           <a className="pure-menu-link menu-item spaceflight" href={appUrl.spaceflightSite()}>Raumfahrt</a>
           <ul className="pure-menu-children sub-menu spaceflight">
-            <li className="pure-menu-item">
-              <a className="pure-menu-link sub-menu-item spaceflight" href={appUrl.astronautsSite()}>Raumfahrer</a>
-            </li>
-            <li className="pure-menu-item">
-              <a className="pure-menu-link sub-menu-item spaceflight" href={appUrl.missionsSite()}>Missionen</a>
-            </li>
-            <li className="pure-menu-item">
-              <a className="pure-menu-link sub-menu-item spaceflight" href={appUrl.spaceStationsSite()}>Raumstationen</a>
-            </li>
+            {[
+              {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
+              {url: appUrl.missionsSite(), name: 'Missionen'},
+              {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
+              {url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope'},
+
+            ].map(link =>
+              <li key={link.url} className="pure-menu-item left">
+                <a className="pure-menu-link sub-menu-item spaceflight" href={ link.url }>{ link.name }</a>
+              </li>
+            )}
           </ul>
         </li>
       </ul>

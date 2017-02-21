@@ -16,6 +16,7 @@ const SpaceflightComponent = ({appUrl}) => {
             {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
             {url: appUrl.missionsSite(), name: 'Missionen'},
             {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
+            {url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope'},
 
           ].map(link =>
             <li className={ link.name } key={link.url+link.name}>
