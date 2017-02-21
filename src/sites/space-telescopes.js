@@ -3,18 +3,21 @@ import SpaceTelescopesComponent from '../components/space-telescopes';
 
 export default class SpaceTelescopes {
 
-  static componentWithData(stations) {
-    return <SpaceTelescopesComponent telescopes={stations} />;
+  static componentWithData(telescopes) {
+    return <SpaceTelescopesComponent telescopes={telescopes} />;
   }
 
   static fromRawData(rawData) {
-    return rawData.map(raw => SpaceStation.fromRawData(raw))
+    return rawData.map(raw => Telescope.fromRawData(raw))
   }
 
 }
 
-class SpaceStation {
+class Telescope {
 
   static fromRawData(raw) {
+    const station = new Telescope();
+    station.name = raw.itemname;
+    return station;
   }
 }
