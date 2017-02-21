@@ -33751,11 +33751,6 @@ var ChronicleComponent = (function (_React$Component) {
           _react2['default'].createElement(
             'p',
             null,
-            '@wolfram pls open vcard only when clicking on item.name, not item.place'
-          ),
-          _react2['default'].createElement(
-            'p',
-            null,
             '@wolfram pls hide the span id="coordinates" from the Wikipedia article when loading in vcard'
           )
         ),
@@ -36269,11 +36264,33 @@ var StarsGroupComponent = function StarsGroupComponent(_ref3) {
 var StarComponent = function StarComponent(_ref4) {
   var star = _ref4.star;
 
-  var sunIcon = _react2['default'].createElement(
-    'sub',
-    null,
-    '☉'
-  );
+  var starMass = function starMass(mass) {
+    return mass ? _react2['default'].createElement(
+      'p',
+      { title: 'Masse in Sonnenmassen' },
+      mass,
+      ' M',
+      _react2['default'].createElement(
+        'sub',
+        null,
+        '☉'
+      )
+    ) : _react2['default'].createElement('p', { title: 'Masse in Sonnenmassen' });
+  };
+  var starRadius = function starRadius(radius) {
+    return radius ? _react2['default'].createElement(
+      'p',
+      { title: 'Radius in Sonnenradien' },
+      radius,
+      ' R',
+      _react2['default'].createElement(
+        'sub',
+        null,
+        '☉'
+      )
+    ) : _react2['default'].createElement('p', { title: 'Radius in Sonnenradien' });
+  };
+
   return _react2['default'].createElement(
     'div',
     { className: 'star-row data-row pure-u-1' },
@@ -36349,20 +36366,12 @@ var StarComponent = function StarComponent(_ref4) {
       _react2['default'].createElement(
         'div',
         { className: 'star-mass pure-u-1-3 center' },
-        _react2['default'].createElement(
-          'p',
-          { title: 'Masse in Sonnenmassen' },
-          star.mass && star.mass + ' M' + sunIcon
-        )
+        starMass(star.mass)
       ),
       _react2['default'].createElement(
         'div',
         { className: 'star-radius pure-u-1-3 center' },
-        _react2['default'].createElement(
-          'p',
-          { title: 'Radius in Sonnenradien' },
-          star.radius && star.radius + ' R' + sunIcon
-        )
+        starRadius(star.radius)
       )
     )
   );
