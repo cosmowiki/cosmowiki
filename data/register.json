@@ -12103,7 +12103,8 @@
     },
     {
         "itemname": "OAO-2",
-        "itemname2": "Stargazer"
+        "itemname2": "Stargazer",
+        "itemurl": "https://en.wikipedia.org/wiki/Orbiting_Astronomical_Observatory_2"
     },
     {
         "itemname": "Uhuru",
@@ -12111,11 +12112,13 @@
         "itemurl": "https://de.wikipedia.org/wiki/Uhuru_%28Satellit%29"
     },
     {
-        "itemname": "Orion 1 Space Observatories"
+        "itemname": "Orion 1 Space Observatories",
+        "itemurl": "https://de.wikipedia.org/wiki/Saljut_1"
     },
     {
         "itemname": "Far Ultraviolet Camera/Spectrograph",
-        "itemname2": "UVC"
+        "itemname2": "UVC",
+        "itemurl": "https://en.wikipedia.org/wiki/Far_Ultraviolet_Camera/Spectrograph"
     },
     {
         "itemname": "Orbiting Astronomical Observatory 3",
@@ -12123,8 +12126,9 @@
         "itemurl": "https://de.wikipedia.org/wiki/Orbiting_Astronomical_Observatory_3"
     },
     {
-        "itemname": "Second Small Astronomy Satellite",
-        "itemname2": "SAS 2"
+        "itemname": "Small Astronomy Satellite 2",
+        "itemname2": "SAS 2, SAS-B, Explorer 48",
+        "itemurl": "https://de.wikipedia.org/wiki/Small_Astronomy_Satellite_2"
     },
     {
         "itemname": "Radio Astronomy Explorer B",
@@ -12132,21 +12136,27 @@
         "itemurl": "https://de.wikipedia.org/wiki/Radio_Astronomy_Explorer"
     },
     {
-        "itemname": "Orion 2 Space Observatories"
+        "itemname": "Orion 2 Space Observatories",
+        "itemurl": "https://de.wikipedia.org/wiki/Sojus_13"
     },
     {
-        "itemname": "Astronomical Netherlands Satellite",
-        "itemname2": "ANS"
+        "itemname": "Astronomische Nederlandse Satelliet",
+        "itemname2": "ANS",
+        "itemurl": "https://de.wikipedia.org/wiki/Astronomische_Nederlandse_Satelliet"
     },
     {
-        "itemname": "Ariel V"
+        "itemname": "Ariel 5",
+        "itemname2": "Ariel V",
+        "itemurl": "https://de.wikipedia.org/wiki/Ariel_V"
     },
     {
-        "itemname": "Aryabhata"
+        "itemname": "Aryabhata",
+        "itemurl": "https://de.wikipedia.org/wiki/Aryabhata_(Satellit)"
     },
     {
-        "itemname": "Third Small Astronomy Satellite",
-        "itemname2": "SAS-C"
+        "itemname": "Small Astronomy Satellite 3",
+        "itemname2": "SAS-C, SAS 3, Explorer 53",
+        "itemurl": "https://de.wikipedia.org/wiki/Small_Astronomy_Satellite_3"
     },
     {
         "itemname": "Cosmic Ray Satellite B",
@@ -12154,12 +12164,9 @@
         "itemurl": "https://de.wikipedia.org/wiki/COS-B"
     },
     {
-        "itemname": "Cosmic Radiation Satellite",
-        "itemname2": "CORSA"
-    },
-    {
         "itemname": "1st High Energy Astronomy Observatory",
-        "itemname2": "HEAO 1"
+        "itemname2": "HEAO 1",
+        "itemurl": "https://de.wikipedia.org/wiki/HEAO-1"
     },
     {
         "itemname": "International Ultraviolet Explorer",
@@ -12168,14 +12175,18 @@
     },
     {
         "itemname": "Einstein Observatory",
-        "itemname2": "HEAO 2"
+        "itemname2": "HEAO-2, HEAO B",
+        "itemurl": "https://de.wikipedia.org/wiki/High_Energy_Astronomy_Observatory_2"
     },
     {
-        "itemname": "Hakucho"
+        "itemname": "Hakuchō",
+        "itemname2": "CORSA-B, Cosmic Radiation Satellite B",
+        "itemurl": "https://de.wikipedia.org/wiki/Hakuch%C5%8D"
     },
     {
-        "itemname": "3rd High Energy Astronomy Observatory",
-        "itemname2": "HEAO 3"
+        "itemname": "High Energy Astronomy Observatory 3",
+        "itemname2": "HEAO 3",
+        "itemurl": "https://de.wikipedia.org/wiki/High_Energy_Astronomy_Observatory_3"
     },
     {
         "itemname": "Infrared Astronomical Satellite",
@@ -12183,7 +12194,9 @@
         "itemurl": "https://de.wikipedia.org/wiki/Infrared_Astronomical_Satellite"
     },
     {
-        "itemname": "Tenma"
+        "itemname": "Tenma",
+        "itemname2": "ASTRO-B",
+        "itemurl": "https://de.wikipedia.org/wiki/Tenma"
     },
     {
         "itemname": "Astron",
@@ -12210,7 +12223,8 @@
         "itemurl": "https://de.wikipedia.org/wiki/Cosmic_Background_Explorer"
     },
     {
-        "itemname": "Granat"
+        "itemname": "Granat",
+        "itemurl": "https://de.wikipedia.org/wiki/Granat_(Satellit)"
     },
     {
         "itemname": "Hubble-Weltraumteleskop",
@@ -12223,10 +12237,11 @@
         "itemurl": "https://de.wikipedia.org/wiki/ROSAT"
     },
     {
-        "itemname": "Gamma"
+        "itemname": "Gamma 1"
     },
     {
-        "itemname": "Broad Band X-ray Telescope / Astro 1"
+        "itemname": "Astro 1",
+        "itemurl": "https://de.wikipedia.org/wiki/Ultraviolet_Imaging_Telescope"
     },
     {
         "itemname": "Compton Gamma Ray Observatory",
@@ -12249,18 +12264,22 @@
     },
     {
         "itemname": "Advanced Satellite for Cosmology and Astrophysics",
-        "itemname2": "ASTRO-D, Asca, Asuka",
+        "itemname2": "ASTRO-D, ASCA, Asuka",
         "itemurl": "https://de.wikipedia.org/wiki/Advanced_Satellite_for_Cosmology_and_Astrophysics"
     },
     {
-        "itemname": "Astro 2"
-    },
-    {
         "itemname": "Array of Low Energy X-ray Imaging Sensors",
-        "itemname2": "Alexis"
+        "itemname2": "Alexis",
+        "itemurl": "https://de.wikipedia.org/wiki/Array_of_Low_Energy_X-ray_Imaging_Sensors"
     },
     {
-        "itemname": "Infrared Telescope in Space"
+        "itemname": "Astro 2",
+        "itemurl": "https://de.wikipedia.org/wiki/Ultraviolet_Imaging_Telescope"
+    },
+    {
+        "itemname": "Infrared Telescope in Space",
+        "itemname2": "IRTS",
+        "itemurl": "https://de.wikipedia.org/wiki/Infrared_Telescope_in_Space"
     },
     {
         "itemname": "Infrared Space Observatory",
@@ -12279,7 +12298,8 @@
     },
     {
         "itemname": "Midcourse Space Experiment",
-        "itemname2": "MSX"
+        "itemname2": "MSX",
+        "itemurl": "https://de.wikipedia.org/wiki/Midcourse_Space_Experiment"
     },
     {
         "itemname": "BeppoSAX",
@@ -12287,11 +12307,13 @@
     },
     {
         "itemname": "Highly Advanced Laboratory for Communications and Astronomy",
-        "itemname2": "HALCA, VSOP"
+        "itemname2": "HALCA, VSOP",
+        "itemurl": "https://de.wikipedia.org/wiki/Highly_Advanced_Laboratory_for_Communications_and_Astronomy"
     },
     {
         "itemname": "Low Energy Gamma Ray Imager",
-        "itemname2": "LEGRI"
+        "itemname2": "LEGRI",
+        "itemurl": "https://en.wikipedia.org/wiki/LEGRI"
     },
     {
         "itemname": "Transition Region And Coronal Explorer",
@@ -12300,7 +12322,8 @@
     },
     {
         "itemname": "Alpha Magnetic Spectrometer 01",
-        "itemname2": "AMS-01"
+        "itemname2": "AMS-01",
+        "itemurl": "https://de.wikipedia.org/wiki/Alpha-Magnet-Spektrometer"
     },
     {
         "itemname": "Submillimeter Wave Astronomy Satellite",
@@ -12309,11 +12332,13 @@
     },
     {
         "itemname": "Wide Field Infrared Explorer",
-        "itemname2": "WIRE"
+        "itemname2": "WIRE",
+        "itemurl": "https://de.wikipedia.org/wiki/Wide_Field_Infrared_Explorer"
     },
     {
         "itemname": "A Broadband Imaging X-ray All-sky Survey",
-        "itemname2": "ABRIXAS"
+        "itemname2": "ABRIXAS",
+        "itemurl": "https://de.wikipedia.org/wiki/ABRIXAS"
     },
     {
         "itemname": "Far Ultraviolet Spectroscopic Explorer",
@@ -12331,10 +12356,12 @@
     },
     {
         "itemname": "High Energy Transient Explorer 2",
-        "itemname2": "HETE 2"
+        "itemname2": "HETE 2",
+        "itemurl": "https://de.wikipedia.org/wiki/High_Energy_Transient_Explorer"
     },
     {
-        "itemname": "Odin"
+        "itemname": "Odin",
+        "itemurl": "https://de.wikipedia.org/wiki/Odin_(Satellit)"
     },
     {
         "itemname": "Wilkinson Microwave Anisotropy Probe",
@@ -12352,8 +12379,9 @@
         "itemurl": "https://de.wikipedia.org/wiki/Integral_%28Satellit%29"
     },
     {
-        "itemname": "Cosmic Hot Interstellar Spectrometer",
-        "itemname2": "CHIPS"
+        "itemname": "Cosmic Hot Interstellar Plasma Spectrometer satellite",
+        "itemname2": "CHIPSat, Explorer 82",
+        "itemurl": "https://de.wikipedia.org/wiki/CHIPSat"
     },
     {
         "itemname": "Galaxy Evolution Explorer",
@@ -12372,7 +12400,8 @@
     },
     {
         "itemname": "Korea Advanced Institute of Science and Technology Satellite 4",
-        "itemname2": "Kaistsat 4"
+        "itemname2": "Kaistsat 4",
+        "itemurl": "https://en.wikipedia.org/wiki/Korea_Advanced_Institute_of_Science_and_Technology_Satellite_4"
     },
     {
         "itemname": "Swift Gamma Ray Burst Explorer",
@@ -12391,7 +12420,8 @@
     },
     {
         "itemname": "Payload for Antimatter Matter Exploration and Light-nuclei Astrophysics",
-        "itemname2": "PAMELA"
+        "itemname2": "PAMELA",
+        "itemurl": "https://de.wikipedia.org/wiki/Resurs-DK1"
     },
     {
         "itemname": "Hinode",
@@ -12424,7 +12454,9 @@
         "itemurl": "https://de.wikipedia.org/wiki/Fermi_Gamma-ray_Space_Telescope"
     },
     {
-        "itemname": "IBEX"
+        "itemname": "Interstellar Boundary Explorer",
+        "itemname2": "IBEX",
+        "itemurl": "https://de.wikipedia.org/wiki/Interstellar_Boundary_Explorer"
     },
     {
         "itemname": "Kepler",
@@ -12444,8 +12476,14 @@
         "itemurl": "https://de.wikipedia.org/wiki/Wide-Field_Infrared_Survey_Explorer"
     },
     {
+        "itemname": "Interplanetary Kite-craft Accelerated by Radiation Of the Sun",
+        "itemname2": "IKAROS",
+        "itemurl": "https://de.wikipedia.org/wiki/IKAROS"
+    },
+    {
         "itemname": "Alpha Magnetic Spectrometer 02",
-        "itemname2": "AMS-02"
+        "itemname2": "AMS-02",
+        "itemurl": "https://de.wikipedia.org/wiki/Alpha-Magnet-Spektrometer"
     },
     {
         "itemname": "RadioAstron",
@@ -12469,25 +12507,50 @@
     },
     {
         "itemname": "Interface Region Imaging Spectrograph",
-        "itemname2": "IRIS"
+        "itemname2": "IRIS",
+        "itemurl": "https://de.wikipedia.org/wiki/Interface_Region_Imaging_Spectrograph"
     },
     {
         "itemname": "Hisaki",
-        "itemname2": "SPRINT-A"
+        "itemname2": "SPRINT-A",
+        "itemurl": "https://de.wikipedia.org/wiki/Hisaki"
     },
     {
-        "itemname": "Venus Spectral Rocket Experiment"
+        "itemname": "Venus Spectral Rocket Experiment",
+        "itemname2": "VeSpR",
+        "itemurl": "https://en.wikipedia.org/wiki/Venus_Spectral_Rocket_Experiment"
     },
     {
         "itemname": "Gaia",
         "itemurl": "https://de.wikipedia.org/wiki/Gaia_%28Raumsonde%29"
     },
     {
-        "itemname": "Astrosat"
+        "itemname": "Dark Matter Particle Explorer",
+        "itemname2": "DAMPE ",
+        "itemurl": "https://de.wikipedia.org/wiki/DAMPE"
+    },
+    {
+        "itemname": "Astrosat",
+        "itemurl": "https://de.wikipedia.org/wiki/ASTROSAT"
     },
     {
         "itemname": "ASTRO-H",
+        "itemname2": "Hitomi",
         "itemurl": "https://de.wikipedia.org/wiki/ASTRO-H"
+    },
+    {
+        "itemname": "Hard X-ray Modulation Telescope",
+        "itemname2": "HXMT",
+        "itemurl": "https://en.wikipedia.org/wiki/Hard_X-ray_Modulation_Telescope"
+    },
+    {
+        "itemname": "Transiting Exoplanet Survey Satellite",
+        "itemname2": "TESS",
+        "itemurl": "https://de.wikipedia.org/wiki/Transiting_Exoplanet_Survey_Satellite"
+    },
+    {
+        "itemname": "Spektr-RG",
+        "itemurl": "https://en.wikipedia.org/wiki/Spektr-RG"
     },
     {
         "itemname": "James Webb Weltraumteleskop",
@@ -12500,23 +12563,11 @@
     },
     {
         "itemname": "Advanced Technology Large-Aperture Space Telescope",
-        "itemname2": "ATLAST"
+        "itemname2": "ATLAST",
+        "itemurl": "https://en.wikipedia.org/wiki/Advanced_Technology_Large-Aperture_Space_Telescope"
     },
     {
-        "itemname": "eLISA"
-    },
-    {
-        "itemname": "Dark Matter Particle Explorer",
-        "itemname2": "DAMPE "
-    },
-    {
-        "itemname": "Hard X-ray Modulation Telescope",
-        "itemname2": "HXMT",
-        "itemurl": "https://en.wikipedia.org/wiki/Hard_X-ray_Modulation_Telescope"
-    },
-    {
-        "itemname": "Tel Aviv University Ultraviolet Explorer",
-        "itemname2": "TAUVEX",
-        "itemurl": "https://en.wikipedia.org/wiki/TAUVEX"
+        "itemname": "eLISA",
+        "itemurl": "https://de.wikipedia.org/wiki/Laser_Interferometer_Space_Antenna"
     }
 ]
