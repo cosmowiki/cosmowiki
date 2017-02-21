@@ -1,7 +1,7 @@
 import React from 'react';
 
 const questions = {
-  what: {
+  whatis: {
     question: 'Was ist CosmoWiki.org?',
     answer:
       <li>
@@ -94,7 +94,7 @@ const questions = {
         </p>
       </li>
   },
-  thx: {
+  thanks: {
     question: 'Danke!',
     answer:
       <li>
@@ -170,7 +170,6 @@ export default class AboutComponent extends React.Component {
           <h3>Ohne Idee keine Entwicklung</h3>
         </div>
         <div id="todo" className="pure-u-1">
-          <p>@wolfram pls make the links in #footerElse open the appropriate answers in the about-site</p>
           <p>@wolfram pls when clicking on link in #footerElse do a auto-scroll to question and avoid covering by branding</p>
           <p>@wolfram pls make the contact form work, send mail to admin@cosmowiki.org</p>
         </div>
