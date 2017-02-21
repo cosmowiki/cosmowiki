@@ -67,6 +67,7 @@
 - [x] make it responsive
 - [x] no jump to anchor when clicking internal link
 - [x] create contact form
+- [x] make the links in #footerElse open the appropriate answers in the about-site
 - make the contact form work, send mail to admin@cosmowiki.org
 
 ###Imprint
@@ -89,4 +90,4 @@
 
 ###Footer
 - [x] make it responsive
-- make the links in #footerElse open the appropriate answers in the about-site
+- [x] make the links in #footerElse open the appropriate answers in the about-site

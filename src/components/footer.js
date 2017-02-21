@@ -36,6 +36,7 @@ const Footer = ({appUrl}) => {
               {url: appUrl.starsSite(), name: 'Sterne'},
               {url: appUrl.missionsSite(), name: 'Missionen'},
               {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
+              {url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope'},
 
             ].map(link =>
               <li key={link.url}>
@@ -82,24 +83,19 @@ const Footer = ({appUrl}) => {
         <div id="footerElse" className="footer-part pure-u-1 pure-u-sm-1-2 pure-u-md-1-5">
           <h4>Sonstiges</h4>
           <ul>
-            <li>
-              <a className="footerLink" href={appUrl.aboutSite()} target="_self" title="Was ist CosmoWiki.org?">Was ist CosmoWiki.org?</a>
-            </li>
-            <li>
-              <a className="footerLink" href={appUrl.aboutSite()} target="_self" title="Lizenz">Lizenz</a>
-            </li>
-            <li>
-              <a className="footerLink" href={appUrl.aboutSite()} target="_self" title="Beitragen">Beitragen</a>
-            </li>
-            <li>
-              <a className="footerLink" href={appUrl.aboutSite()} target="_self" title="Danksagungen">Danksagungen</a>
-            </li>
-            <li>
-              <a className="footerLink" /*href={appUrl.contactSite()}*/ target="_self" title="Kontakt">Kontakt</a>
-            </li>
-            <li>
-              <a className="footerLink" href={appUrl.aboutSite()} target="_self" title="Impressum">Impressum</a>
-            </li>
+            {[
+              {url: appUrl.aboutSite() + '#whatis', name: 'Was ist CosmoWiki.org?'},
+              {url: appUrl.aboutSite() + '#license', name: 'Lizenz'},
+              {url: appUrl.aboutSite() + '#contribute', name: 'Beitragen'},
+              {url: appUrl.aboutSite() + '#thanks', name: 'Danksagungen'},
+              {url: appUrl.aboutSite() + '#contact', name: 'Kontakt'},
+              {url: appUrl.aboutSite() + '#imprint', name: 'Impressum'},
+
+            ].map(link =>
+              <li key={link.url}>
+                <a className="footerLink" href={ link.url } target="_self" title={ link.name }>{ link.name }</a>
+              </li>
+            )}
           </ul>
         </div>
       </div>
