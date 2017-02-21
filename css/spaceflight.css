@@ -20,4 +20,9 @@
 	#pageSubMenu li.Raumstationen a:active {
 		background: url("/img/featured_stations1.jpg") center / cover no-repeat;
 	}
+	#pageSubMenu li.Weltraumteleskope a:focus,
+	#pageSubMenu li.Weltraumteleskope a:hover,
+	#pageSubMenu li.Weltraumteleskope a:active {
+		background: url("/img/featured_spacetele1.jpg") center / cover no-repeat;
+	}
 }
