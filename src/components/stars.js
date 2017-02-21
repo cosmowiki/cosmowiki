@@ -117,13 +117,13 @@ const StarComponent = ({star}) => {
               </div>
               <div className="star-data2 pure-u-1 pure-u-md-1-3">
                 <div className="star-app-mag pure-u-1-3 center">
-                  <p title="scheinbare Helligkeit">{star.appmagnitude ? `${star.appmagnitude} mag` : ''}</p>
+                  <p title="scheinbare Helligkeit">{star.appmagnitude && `${star.appmagnitude} mag`}</p>
                 </div>
                 <div className="star-mass pure-u-1-3 center">
-                  <p title="Masse in Sonnenmassen">{star.mass ? [star.mass, ' M', sunIcon] : ''}</p>
+                  <p title="Masse in Sonnenmassen">{star.mass && `${star.mass} M${sunIcon}`}</p>
                 </div>
                 <div className="star-radius pure-u-1-3 center">
-                  <p title="Radius in Sonnenradien">{star.radius ? [star.radius, ' R', sunIcon] : ''}</p>
+                  <p title="Radius in Sonnenradien">{star.radius && `${star.radius} R${sunIcon}`}</p>
                 </div>
               </div>
             </div>
