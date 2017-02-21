@@ -1,7 +1,7 @@
 import React from 'react';
 
 const defaultNotes = (
-  <div id="defaultNotes" className="pure-u-1">
+  <div id="defaultNotes">
     <div className="scroll-up-link pure-u-1-24">
       <p><a id="scrollUpArrow" href="javascript:self.scrollTo(0,0);">&uarr;</a></p>
     </div>
@@ -18,30 +18,42 @@ const defaultNotes = (
 );
 
 const constellationNotes = (
-  <ul>
-    <li>
-      N / S - Lage des Sternbildes innerhalb der <a href="https://de.wikipedia.org/wiki/Himmelskugel" target="_blank" title="Himmeskugel">Himmelskugel.</a>
-      Dabei steht N für die Nord- und S für die Südhalbkugel. Mit N S oder S N gekennzeichnete Sternbilder liegen ziemlich mittig auf dem Himmels&auml;quator.
-      Bei Ns und Sn liegt nur ein sehr kleiner Teil des Sternbildareals auf der mit dem Kleinbuchstaben bezeichneten Halbkugel.</li>
-    <li>
-      deg<sup>2</sup> - Gibt die Fl&auml;che (Raumwinkel) des Sternbildes in <a href="https://de.wikipedia.org/wiki/Quadratgrad" target="_blank" title="Quadratgrad">Quadratgrad an.</a>
-      Das Himmelsgew&ouml;lbe umfasst 41.253 Quadratgrade, die sich auf die 88 Sternbilder verteilen.
-      Die Grenzen der Sternbilder wurden 1928 von der IAU festgelegt und genehmigt.
-    </li>
-    <li>
-      >3<sup>m</sup> - Zahl der Sterne im Sternbild mit <a href="https://de.wikipedia.org/wiki/Scheinbare_Helligkeit" target="_blank" title="scheinbare Helligkeit">scheinbarer Helligkeit</a> über 3 mag
-    </li>
-    <li>
-      >4<sup>m</sup> - Zahl der Sterne im Sternbild mit <a href="https://de.wikipedia.org/wiki/Scheinbare_Helligkeit" target="_blank" title="scheinbare Helligkeit">scheinbarer Helligkeit</a> über 4 mag
-    </li>
-    <li>
-      Mag<sub>max</sub> - <a href="https://de.wikipedia.org/wiki/Scheinbare_Helligkeit" target="_blank" title="scheinbare Helligkeit">scheinbare Helligkeit</a> des hellsten Sterns im Sternbild in mag
-    </li>
-  </ul>
+  <div id="constellationNotes">
+    <p>
+      <b>Lage des Sternbildes innerhalb der <a href="https://de.wikipedia.org/wiki/Himmelskugel" target="_blank" title="Himmeskugel">Himmelskugel</a>:</b>
+    </p>
+    <p>
+      <i>N</i> - die Sternbilder liegen auf der Nordhalbkugel des Himmels,
+    </p>
+    <p>
+      <i>S</i> - die Sternbilder liegen auf der Südhalbkugel des Himmels,
+    </p>
+    <p>
+      <i>N S</i> und <i>S N</i> - die Sternbilder liegen etwa mittig auf dem Himmels&auml;quator,
+    </p>
+    <p>
+      <i>Ns</i> und <i>Sn</i> - nur ein kleiner Teil des Sternbildareals liegt auf der mit dem Kleinbuchstaben bezeichneten Halbkugel.
+    </p>
+    <p>
+      <b>Einheiten:</b>
+    </p>
+    <p>
+      <i>deg<sup>2</sup></i> - Fl&auml;che (Raumwinkel) des Sternbildes in <a href="https://de.wikipedia.org/wiki/Quadratgrad" target="_blank" title="Quadratgrad">Quadratgrad</a>,
+    </p>
+    <p>
+      <i>>3<sup>m</sup></i> - Zahl der Sterne im Sternbild mit <a href="https://de.wikipedia.org/wiki/Scheinbare_Helligkeit" target="_blank" title="scheinbare Helligkeit">scheinbarer Helligkeit</a> über 3 mag,
+    </p>
+    <p>
+      <i>>4<sup>m</sup></i> - Zahl der Sterne im Sternbild mit <a href="https://de.wikipedia.org/wiki/Scheinbare_Helligkeit" target="_blank" title="scheinbare Helligkeit">scheinbarer Helligkeit</a> über 4 mag,
+    </p>
+    <p>
+      <i>Mag<sub>max</sub></i> - <a href="https://de.wikipedia.org/wiki/Scheinbare_Helligkeit" target="_blank" title="scheinbare Helligkeit">scheinbare Helligkeit</a> des hellsten Sterns im Sternbild in mag.
+    </p>
+  </div>
 );
 
 const starNotes = (
-  <div>
+  <div id="starNotes">
     <p className="center">
       Die Daten der einzelnen Sterne stammen aus den englischen Wikipedia-Artikeln, da diese meist umfangreicher und mit genaueren Quellenangaben belegt sind.
     </p>
@@ -56,16 +68,16 @@ const starNotes = (
       <b>Einheiten:</b>
     </p>
     <p>
-      Lj = <a href="https://de.wikipedia.org/wiki/Lichtjahr" target="_blank" title="Lichtjahr">Entfernung Erde-Stern in Lichtjahren</a>
+      <i>Lj</i> = <a href="https://de.wikipedia.org/wiki/Lichtjahr" target="_blank" title="Lichtjahr">Entfernung Erde-Stern in Lichtjahren</a>,
     </p>
     <p>
-      mag = <a href="https://de.wikipedia.org/wiki/Scheinbare_Helligkeit" target="_blank" title="scheinbare Helligkeit">scheinbare Helligkeit</a> in mag
+      <i>mag</i> = <a href="https://de.wikipedia.org/wiki/Scheinbare_Helligkeit" target="_blank" title="scheinbare Helligkeit">scheinbare Helligkeit</a> in mag,
     </p>
     <p>
-      M<sub>&#9737;</sub> = <a href="https://de.wikipedia.org/wiki/Sonnenmasse" target="_blank" title="Sonnenmassen">Sonnenmassen</a>
+      <i>M<sub>&#9737;</sub></i> = <a href="https://de.wikipedia.org/wiki/Sonnenmasse" target="_blank" title="Sonnenmassen">Sonnenmassen</a>,
     </p>
     <p>
-      R<sub>&#9737;</sub> = <a href="https://de.wikipedia.org/wiki/Sonnenradius" target="_blank" title="Sonnenradien">Sonnenradien</a>
+      <i>R<sub>&#9737;</sub></i> = <a href="https://de.wikipedia.org/wiki/Sonnenradius" target="_blank" title="Sonnenradien">Sonnenradien</a>.
     </p>
   </div>
 );
