@@ -96,7 +96,18 @@ const StarsGroupComponent = ({group}) => {
 };
 
 const StarComponent = ({star}) => {
-  const sunIcon = <sub>&#9737;</sub>;
+  const starMass = (mass) => {
+    return mass
+      ? <p title="Masse in Sonnenmassen">{mass} M<sub>&#9737;</sub></p>
+      : <p title="Masse in Sonnenmassen"/>
+    ;
+  };
+  const starRadius = (radius) => {
+    return radius
+      ? <p title="Radius in Sonnenradien">{radius} R<sub>&#9737;</sub></p>
+      : <p title="Radius in Sonnenradien" />
+  };
+
   return (
             <div className="star-row data-row pure-u-1">
               <div className="star-name pure-u-1 pure-u-md-1-3 center">
@@ -120,10 +131,10 @@ const StarComponent = ({star}) => {
                   <p title="scheinbare Helligkeit">{star.appmagnitude && `${star.appmagnitude} mag`}</p>
                 </div>
                 <div className="star-mass pure-u-1-3 center">
-                  <p title="Masse in Sonnenmassen">{star.mass && `${star.mass} M${sunIcon}`}</p>
+                  { starMass(star.mass) }
                 </div>
                 <div className="star-radius pure-u-1-3 center">
-                  <p title="Radius in Sonnenradien">{star.radius && `${star.radius} R${sunIcon}`}</p>
+                  { starRadius(star.radius) }
                 </div>
               </div>
             </div>
