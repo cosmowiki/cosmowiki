@@ -33595,7 +33595,6 @@ var ConstellationComponent = function ConstellationComponent(_ref2) {
         'Bild: ',
         item.imageSrc,
         _react2['default'].createElement('br', null),
-        'Lizenz: ',
         _react2['default'].createElement(
           'a',
           { href: item.imageLicenceUrl },
@@ -35734,20 +35733,6 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'todo', className: 'pure-u-1' },
-      _react2['default'].createElement(
-        'p',
-        null,
-        '@wolfram pls hide the whole div stationImg when there is no imageUrl'
-      ),
-      _react2['default'].createElement(
-        'p',
-        null,
-        '@wolfram pls edit the launchDate to get "seit station.launchDate" if launchDate is past and "ab station.launchDate" if launchDate is future'
-      )
-    ),
-    _react2['default'].createElement(
-      'div',
       { id: 'controlArea', className: 'stations pure-u-1' },
       _react2['default'].createElement(
         'div',
@@ -35856,7 +35841,20 @@ var StationComponent = function StationComponent(_ref2) {
         null,
         'Bild: ',
         station.imageSrc
-      ) : ''
+      ) : '',
+      station.imageLicenseUrl ? _react2['default'].createElement(
+        'small',
+        null,
+        _react2['default'].createElement(
+          'a',
+          { href: station.imageLicenseUrl },
+          station.imageLicence
+        )
+      ) : _react2['default'].createElement(
+        'small',
+        null,
+        station.imageLicence
+      )
     ),
     _react2['default'].createElement(
       'div',
@@ -35867,69 +35865,200 @@ var StationComponent = function StationComponent(_ref2) {
         station.name
       ),
       _react2['default'].createElement('br', null),
-      station.reenterDate ? 'von ' + station.launchDate + ' bis ' + station.reenterDate : '' + station.launchDate
+      station.launchDate ? 'Start: ' + station.launchDate : '',
+      station.reenterDate ? ' - Ende: ' + station.reenterDate : ''
     )
   );
 };
 module.exports = exports['default'];
 
 },{"./notes":431,"react":443}],437:[function(require,module,exports){
-"use strict";
+'use strict';
 
-Object.defineProperty(exports, "__esModule", {
+Object.defineProperty(exports, '__esModule', {
   value: true
 });
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _notes = require('./notes');
+
+var _notes2 = _interopRequireDefault(_notes);
+
 var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
   var telescopes = _ref.telescopes;
 
-  return _react2["default"].createElement(
-    "main",
-    { role: "main", className: "pure-u-2-3" },
-    _react2["default"].createElement(
-      "div",
-      { id: "featured", className: "spacetele" },
-      _react2["default"].createElement(
-        "h1",
+  return _react2['default'].createElement(
+    'main',
+    { role: 'main', className: 'pure-u-1' },
+    _react2['default'].createElement(
+      'div',
+      { id: 'featured', className: 'spacetelecopes pure-u-1 center' },
+      _react2['default'].createElement(
+        'h1',
         null,
-        "Weltraumteleskope"
+        'Weltraumteleskope'
       ),
-      _react2["default"].createElement(
-        "p",
+      _react2['default'].createElement(
+        'h3',
         null,
-        "Augen und Ohren im All"
+        'Augen und Ohren im All'
       )
     ),
-    _react2["default"].createElement(
-      "div",
-      { id: "dataArea", className: "spacetele" },
-      telescopes.map(function (telescope, idx) {
-        return _react2["default"].createElement(TelescopeComponent, { telescope: telescope, key: idx });
-      })
-    )
+    _react2['default'].createElement(
+      'div',
+      { id: 'todo', className: 'pure-u-1' },
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@wolfram pls edit the month in endDate to appear as word when there is no endday'
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'controlArea', className: 'spacetelecopes pure-u-1' },
+      _react2['default'].createElement(
+        'div',
+        { id: 'controllers', className: 'pure-u-1' },
+        _react2['default'].createElement(
+          'div',
+          { id: 'sort', className: 'spacetelecopes pure-u-1-2 left' },
+          _react2['default'].createElement(
+            'a',
+            { href: '#', className: 'toggle-sort', name: 'toggle-sort' },
+            'Sortieren'
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'sortArea' },
+            _react2['default'].createElement(
+              'form',
+              { id: 'sortSpacetelecopes', className: 'sort-form' },
+              _react2['default'].createElement(
+                'label',
+                null,
+                'Sortieren nach:'
+              ),
+              _react2['default'].createElement(
+                'select',
+                { name: 'sortSpacetelecopes', defaultValue: 'sortSpacetelecopesLaunchUp' },
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortSpacetelecopesLaunchUp' },
+                  'Startdatum ↑'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortSpacetelecopesLaunchDown' },
+                  'Startdatum ↓'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortSpacetelecopesNameUp' },
+                  'Name ↑'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortSpacetelecopesNameDown' },
+                  'Name ↓'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortSpacetelecopesEndUp' },
+                  'Missionsende ↑'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortSpacetelecopesEndDown' },
+                  'Missionsende ↓'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortSpacetelecopesDurationUp' },
+                  'Dauer ↑'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortSpacetelecopesDurationDown' },
+                  'Dauer ↓'
+                )
+              )
+            )
+          )
+        )
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'dataArea', className: 'spacetelescopes pure-u-1' },
+      _react2['default'].createElement(
+        'div',
+        { id: 'spacetelescopesTable' },
+        telescopes.map(function (telescope, idx) {
+          return _react2['default'].createElement(TelescopeComponent, { telescope: telescope, key: idx });
+        })
+      )
+    ),
+    _react2['default'].createElement(_notes2['default'], null)
   );
 };
 
-exports["default"] = SpaceTelescopesComponent;
+exports['default'] = SpaceTelescopesComponent;
 
 var TelescopeComponent = function TelescopeComponent(_ref2) {
   var telescope = _ref2.telescope;
 
-  return _react2["default"].createElement(
-    "div",
-    null,
-    telescope.name
+  return _react2['default'].createElement(
+    'div',
+    { className: 'spacetelescope-row data-row pure-u-1' },
+    _react2['default'].createElement(
+      'div',
+      { className: 'spacetelescopeImg pure-u-1 pure-u-sm-1-5 center' },
+      telescope.imageUrl ? _react2['default'].createElement(
+        'a',
+        { href: telescope.imageUrl },
+        _react2['default'].createElement('img', { src: telescope.imageSmallUrl, alt: telescope.name })
+      ) : '',
+      telescope.imageUrl ? _react2['default'].createElement(
+        'small',
+        null,
+        'Bild: ',
+        telescope.imageSrc
+      ) : '',
+      telescope.imageLicenseUrl ? _react2['default'].createElement(
+        'small',
+        null,
+        _react2['default'].createElement(
+          'a',
+          { href: telescope.imageLicenseUrl },
+          telescope.imageLicence
+        )
+      ) : _react2['default'].createElement(
+        'small',
+        null,
+        telescope.imageLicence
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { className: 'spacetelescopeInfo pure-u-1 pure-u-sm-3-5 center' },
+      _react2['default'].createElement(
+        'a',
+        { href: telescope.wikipediaUrl },
+        telescope.name
+      ),
+      _react2['default'].createElement('br', null),
+      telescope.endDate ? 'von ' + telescope.launchDate + ' bis ' + telescope.endDate : 'Start: ' + telescope.launchDate
+    )
   );
 };
-module.exports = exports["default"];
+module.exports = exports['default'];
 
-},{"react":443}],438:[function(require,module,exports){
+},{"./notes":431,"react":443}],438:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -37278,7 +37407,7 @@ var Constellation = (function () {
       item.latinName = raw.itemname2;
       item.shortName = raw.itemname4;
       item.wikipediaUrl = raw.itemurl;
-      item.imageSmallUrl = raw.itemurl2;
+      item.imageSmallUrl = raw.itemimgsmallurl;
       item.imageLargeUrl = raw.itemimgurl;
       item.imageSrc = raw.itemimgsrc;
       item.imageLicence = raw.itemimglicence;
@@ -37939,6 +38068,7 @@ var SpaceStation = (function () {
       station.imageUrl = raw.itemimgurl;
       station.imageSrc = raw.itemimgsrc;
       station.imageLicence = raw.itemimglicence;
+      station.imageLicenseUrl = raw.itemimglicenceurl;
       station.operator = raw.itemoperator;
 
       var launchyear = raw.itemdateyear ? raw.itemdateyear : '';
@@ -38104,13 +38234,104 @@ var Telescope = (function () {
   _createClass(Telescope, null, [{
     key: 'fromRawData',
     value: function fromRawData(raw) {
-      var station = new Telescope();
-      station.name = raw.itemname;
-      return station;
+      var telescope = new Telescope();
+      telescope.name = raw.itemname;
+      telescope.alternativename = raw.itemname2 ? raw.itemname2 : '';
+      telescope.wikipediaUrl = raw.itemurl ? raw.itemurl : '';
+      telescope.id = raw.itemid;
+      telescope.imageSmallUrl = raw.itemimgsmallurl;
+      telescope.imageUrl = raw.itemimgurl;
+      telescope.imageSrc = raw.itemimgsrc;
+      telescope.imageLicence = raw.itemimglicence;
+      telescope.imageLicenseUrl = raw.itemimglicenceurl;
+
+      var launchyear = raw.itemdateyear ? raw.itemdateyear : '';
+      var launchmonth = raw.itemdatemonth ? raw.itemdatemonth + '.' : '';
+      var launchday = raw.itemdateday ? raw.itemdateday + '.' : '';
+      telescope.launchDate = '' + launchday + launchmonth + launchyear;
+      var endyear = raw.itemdate2year ? raw.itemdate2year : '';
+      var endmonth = raw.itemdate2month ? raw.itemdate2month + '.' : '';
+      var endday = raw.itemdate2day ? raw.itemdate2day + '.' : '';
+      telescope.endDate = '' + endday + endmonth + endyear;
+      telescope.duration = raw.itemduration ? raw.itemduration : '';
+      telescope.rocket = Rocket.fromRawData(raw);
+      telescope.pad = Pad.fromRawData(raw);
+      telescope.status = raw.itemstatus;
+      telescope.country = raw.itemcountry;
+      telescope.operator = raw.itemoperator;
+      telescope.purpose = raw.itempurpose;
+
+      return telescope;
     }
   }]);
 
   return Telescope;
+})();
+
+var Rocket = (function () {
+  function Rocket() {
+    _classCallCheck(this, Rocket);
+  }
+
+  _createClass(Rocket, null, [{
+    key: 'fromRawData',
+    value: function fromRawData(raw) {
+      var rocket = new Rocket();
+
+      rocket.name = raw.itemparent;
+      rocket.wikipediaUrl = raw.itemparenturl;
+
+      return rocket;
+    }
+  }]);
+
+  return Rocket;
+})();
+
+var Pad = (function () {
+  function Pad() {
+    _classCallCheck(this, Pad);
+  }
+
+  /*
+  {
+      "itemname": "Uhuru",
+      "itemname2": "SAS-1, Explorer 42 ",
+      "itemurl": "https://de.wikipedia.org/wiki/Uhuru_%28Satellit%29",
+      "itemid": "1970-107A",
+      "itemimgsmallurl": "/img/spacetelescopes/Uhuru_sm.gif",
+      "itemimgurl": "/img/spacetelescopes/Uhuru_lg.gif",
+      "itemimgsrc": "NASA",
+      "itemimglicence": "gemeinfrei",
+      "itemdateyear": "1970",
+      "itemdatemonth": 12,
+      "itemdateday": 12,
+      "itemdate2year": 1973,
+      "itemdate2month": 3,
+      "itemdate2year": 1979,
+      "itemdate2month": 4,
+      "itemdate2day": 5,
+      "itemduration": "2a 78d",
+      "itemstatus": "beendet",
+      "itemcountry": "USA",
+      "itemoperator": "NASA",
+      "itempurpose": "Röntgen (2 keV – 20 keV)"
+  },
+  */
+
+  _createClass(Pad, null, [{
+    key: 'fromRawData',
+    value: function fromRawData(raw) {
+      var pad = new Pad();
+
+      pad.name = raw.itemlocation;
+      pad.wikipediaUrl = raw.itemlocationurl;
+
+      return pad;
+    }
+  }]);
+
+  return Pad;
 })();
 
 module.exports = exports['default'];

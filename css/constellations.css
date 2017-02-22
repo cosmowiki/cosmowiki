@@ -1,11 +1,13 @@
+.constellation-row {padding: .5em 0;}
+
 .constellationImg {min-width: 170px;}
-.constellationImg img {width: 100px; display: block; margin: .1em auto;}
+.constellationImg img {width: 100px; display: block; margin: 0 auto;}
 .constellationImg small {text-align: right; font-size: .8em; margin: 0 .2em;}
 
-.constellationInfo {margin: .2em 0;}
+.constellationInfo {margin-top: .2em;}
 .constellationInfo a {font-size: 1.5em; line-height: 1.5em;}
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
-  .constellationInfo p {margin: 1em 0;}
+  .constellationInfo p {margin-top: 1em;}
 }
