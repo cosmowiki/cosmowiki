@@ -21,7 +21,7 @@ class Constellation {
     item.latinName = raw.itemname2;
     item.shortName = raw.itemname4;
     item.wikipediaUrl = raw.itemurl;
-    item.imageSmallUrl = raw.itemurl2;
+    item.imageSmallUrl = raw.itemimgsmallurl;
     item.imageLargeUrl = raw.itemimgurl;
     item.imageSrc = raw.itemimgsrc;
     item.imageLicence = raw.itemimglicence;

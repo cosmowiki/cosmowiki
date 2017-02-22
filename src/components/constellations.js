@@ -49,8 +49,10 @@ const ConstellationComponent = ({constellation:item}) => {
     <div className="constellation-row data-row pure-u-1">
       <div className="constellationImg pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 center">
         <a href={item.imageLargeUrl}><img src={item.imageSmallUrl} alt={item.name} /></a>
-        <small>Bild: {item.imageSrc}<br />
-        Lizenz: <a href={item.imageLicenceUrl}>{item.imageLicence}</a></small>
+        <small>
+          Bild: {item.imageSrc}<br />
+          <a href={item.imageLicenceUrl}>{item.imageLicence}</a>
+        </small>
       </div>
       <div className="constellationInfo pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 center">
         <a href={item.wikipediaUrl}>{item.name}</a><br />
