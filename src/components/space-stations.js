@@ -8,10 +8,6 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
         <h1>Raumstationen</h1>
         <h3>künstliche Habitate im All</h3>
       </div>
-      <div id="todo" className="pure-u-1">
-        <p>@wolfram pls hide the whole div stationImg when there is no imageUrl</p>
-        <p>@wolfram pls edit the launchDate to get "seit station.launchDate" if launchDate is past and "ab station.launchDate" if launchDate is future</p>
-      </div>
       <div id="controlArea" className="stations pure-u-1">
         <div id="controllers" className="pure-u-1">
           <div id="sort" className="stations pure-u-1-2 left">
@@ -52,10 +48,12 @@ const StationComponent = ({spaceStation:station}) => {
       <div className="stationImg pure-u-1 pure-u-sm-1-5 center">
         {station.imageUrl ? <a href={station.imageUrl}><img src={station.imageSmallUrl} alt={station.name} /></a> : ''}
         {station.imageUrl ? <small>Bild: {station.imageSrc}</small> : ''}
+        {station.imageLicenseUrl ? <small><a href={station.imageLicenseUrl}>{station.imageLicence}</a></small> : <small>{station.imageLicence}</small>}
       </div>
       <div className="stationInfo pure-u-1 pure-u-sm-3-5 center">
         <a href={station.wikipediaUrl}>{station.name}</a><br />
-        {station.reenterDate ? `von ${station.launchDate} bis ${station.reenterDate}` : `${station.launchDate}`}
+        {station.launchDate ? `Start: ${station.launchDate}` : ''}
+        {station.reenterDate ? ` - Ende: ${station.reenterDate}` : ''}
       </div>
     </div>
   );

@@ -24,6 +24,7 @@ class SpaceStation {
     station.imageUrl = raw.itemimgurl;
     station.imageSrc = raw.itemimgsrc;
     station.imageLicence = raw.itemimglicence;
+    station.imageLicenseUrl = raw.itemimglicenceurl;
     station.operator = raw.itemoperator;
 
     const launchyear = raw.itemdateyear ? raw.itemdateyear : '';

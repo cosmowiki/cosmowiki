@@ -1,18 +1,16 @@
-.stationImg {min-heiht: 120px;}
-.stationImg img {display: block; height: 120px; margin: .1em auto;}
-.stationImg small {margin-left: 50%; font-size: .8em;}
+.station-row {padding: .5em 0;}
 
-.stationInfo {margin: .2em 0;}
+.stationImg {min-heiht: 120px;}
+.stationImg img {display: block; height: 120px; margin: 0 auto;}
+.stationImg small {display: block; font-size: .8em;}
 .stationInfo a {font-size: 1.25em; line-height: 2em;}
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
-  .stationImg {}
-  .stationImg img {margin: .1em auto;}
-
-  .stationInfo {margin: .2em 0;}
+  .stationImg img {margin: 0 auto;}
   .stationInfo a {font-size: 1.5em; line-height: 90px;}
 }
-@media only all and (min-width: 64em) {
-
+@media only all and (min-width: 48em) {
+.stationImg small {display: inline;}
+.stationImg small:last-child {margin-left: .5em;}
 }
