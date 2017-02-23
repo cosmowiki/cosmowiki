@@ -35830,7 +35830,7 @@ var StationComponent = function StationComponent(_ref2) {
     { className: 'station-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'stationImg pure-u-1 pure-u-sm-1-5 center' },
+      { className: 'stationImg pure-u-1 pure-u-sm-1-4 center' },
       station.imageUrl ? _react2['default'].createElement(
         'a',
         { href: station.imageUrl },
@@ -35858,7 +35858,7 @@ var StationComponent = function StationComponent(_ref2) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'stationInfo pure-u-1 pure-u-sm-3-5 center' },
+      { className: 'stationInfo pure-u-1 pure-u-sm-1-2 center' },
       _react2['default'].createElement(
         'p',
         { className: 'station-name' },
@@ -36043,7 +36043,7 @@ var TelescopeComponent = function TelescopeComponent(_ref2) {
     { className: 'spacetelescope-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'spacetelescopeImg pure-u-1 pure-u-sm-1-6 pure-u-lg-1-5 center' },
+      { className: 'spacetelescopeImg pure-u-1 pure-u-sm-1-4 pure-u-lg-1-5 center' },
       telescope.imageUrl ? _react2['default'].createElement(
         'a',
         { href: telescope.imageUrl },
@@ -36071,7 +36071,7 @@ var TelescopeComponent = function TelescopeComponent(_ref2) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'spacetelescopeInfo pure-u-1 pure-u-sm-2-3 pure-u-lg-3-5 center' },
+      { className: 'spacetelescopeInfo pure-u-1 pure-u-sm-1-2 pure-u-lg-3-5 center' },
       _react2['default'].createElement(
         'p',
         { className: 'telescope-name' },
