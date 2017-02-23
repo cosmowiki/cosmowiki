@@ -45,12 +45,12 @@ export default SpaceStationsComponent;
 const StationComponent = ({spaceStation:station}) => {
   return (
     <div className="station-row data-row pure-u-1">
-      <div className="stationImg pure-u-1 pure-u-sm-1-5 center">
+      <div className="stationImg pure-u-1 pure-u-sm-1-4 center">
         {station.imageUrl ? <a href={station.imageUrl}><img src={station.imageSmallUrl} alt={station.name} /></a> : ''}
         {station.imageUrl ? <small>Bild: {station.imageSrc}</small> : ''}
         {station.imageLicenseUrl ? <small><a href={station.imageLicenseUrl}>{station.imageLicence}</a></small> : <small>{station.imageLicence}</small>}
       </div>
-      <div className="stationInfo pure-u-1 pure-u-sm-3-5 center">
+      <div className="stationInfo pure-u-1 pure-u-sm-1-2 center">
         <p className="station-name"><a href={station.wikipediaUrl}>{station.name}</a></p>
         {station.operator ? <p className="station-data">Betreiber: {station.operator}</p> : ''}
         {station.duration ? <p className="station-data">Zeit im All: {station.duration}</p> : ''}
