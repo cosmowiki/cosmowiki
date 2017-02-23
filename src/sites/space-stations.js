@@ -49,7 +49,7 @@ class SpaceStation {
     station.peri = raw.itemfarthest;
     station.inclination = raw.iteminclination;
     station.mass = raw.itemmass;
-    station.pressVol = raw.itemvolume;
+    station.volume = raw.itemvolume;
 
     return station;
   }
@@ -83,37 +83,36 @@ class Pad {
 }
 /*
 {
-    "itemname": "Saljut 1",
-    "itemname2": "DOS 1",
-    "itemurl": "https://de.wikipedia.org/wiki/Saljut_1",
-    "itemdescription": "Saljut 1 war die erste Raumstation der Welt. Gebaut und entwickelt wurde sie in der Sowjetunion. Abgeleitet aus dem Almas-Programm und unter Zeitdruck gefertigt bestand die Station im Wesentlichen aus einer Almas-Hülle und Baugruppen des Sojus-Raumschiffes. Damit war sie die Grundlage für den zivilen Raumstationstyp DOS, welcher sich mit dem Fortschreiten des Programms immer deutlicher von den Almas-Stationen unterschied. Die Gesamtlänge der Stationen betrug knapp 16 Meter, die Masse rund 18,9 Tonnen. Ursprünglich sollte die Raumstation Sarja (Заря) heißen, dieser Name wurde jedoch kurz vor dem Start geändert, um Verwechslungen mit dem Rufzeichen der Bodenstation zu vermeiden. Bemannt und in Betrieb genommen werden sollte die Station von den drei Besatzungsmitgliedern der Mission Sojus 10, welche am 22. April von Baikonur aus startete. Sojus 10 koppelte am 24. April an die Raumstation an, konnte aber weder eine druckdichte noch eine elektrische Verbindung zu Saljut 1 herstellen. Die Station konnte nicht betreten werden und die Besatzung von Sojus 10 musste zur Erde zurückkehren. Das Raumschiff der nachfolgenden Mission, Sojus 11, erhielt einen verstärkten Kopplungsadapter, um einen erneuten Defekt zu vermeiden. Gestartet wurde am 6. Juni 1971 und bereits einen Tag später konnte eine erfolgreiche Kopplung an Saljut 1 erfolgen. Nach 23 Tagen an Bord der Station koppelte die Besatzung am 29. Juni 1971 mit ihrem Sojus-Raumschiff ab und bereitete die Landung vor. Bei der Absprengung des Orbitalmoduls öffnete sich ein Luftventil unplanmäßig und die Landekapsel verlor während des Wiedereintrittes ihre Atmosphäre, was den Tod aller drei Raumfahrer zur Folge hatte. Saljut 1 war ursprünglich für eine Nutzungsdauer von drei Monaten ausgelegt. Nach 175 Tagen im Orbit trat Saljut 1 daraufhin planmäßig am 11. Oktober über dem Pazifik in die Erdatmosphäre ein und verglühte.",
-    "itemimgsmallurl": "/img/spacestations/Salyut_1_sm.png",
-    "itemimgurl": "/img/spacestations/Salyut_1_lg.png",
+    "itemname": "Mir",
+    "itemurl": "https://de.wikipedia.org/wiki/Mir_%28Raumstation%29",
+    "itemdescription": "Die Mir (russisch Мир ‚Frieden‘ oder ‚Welt‘) war eine von der Sowjetunion erbaute, bemannte Raumstation, die von 1986 bis zu ihrem kontrollierten Absturz 2001 die Erde umkreiste. Nachdem die Mir in den ersten Jahren nur von der Sowjetunion und den mit ihr verbundenen Staaten genutzt wurde, betrieb sie die russische Raumfahrtagentur Roskosmos nach dem politischen Umbruch im Ostblock weiter und öffnete sie auch für westliche Staaten und deren Raumfahrtagenturen. Die Raumstation Mir war zu ihrer Zeit das größte künstliche Objekt im Erdorbit und gilt – mit dem Sputnik-Satelliten 1957 und Juri Gagarins Erstflug 1961 – als größter Erfolg der sowjetischen Raumfahrt. Die Mir war die erste auf einen dauerhaften und wissenschaftlichen Betrieb ausgelegte Raumstation. Der modulare Aufbau der Mir wurde bei der später gebauten Internationalen Raumstation (ISS) übernommen. Ihr Modul Swesda ist eine modifizierte Version des Basisblocks der Mir. Dem Hauptmodul wurden sechs weitere Module hinzugefügt. Alle Module wurden vom kasachischen Baikonur aus mit Proton-Raketen gestartet, bis auf das Andockmodul für das Space Shuttle. Es kam mit der US-amerikanischen Fähre Atlantis vom Kennedy Space Center aus ins All. Die einzelnen Module waren: Die Wissenschaftsmodule Kwant, Kwant 2, Kristall (Kwant 3), Spektr, das Andockmodul für das Space Shuttle (Shuttle Docking Module) sowie das Forschungsmodul Priroda. Die Raumstation wurde insgesamt von 96 Kosmonauten besucht. 19 von ihnen betraten die Station zweimal, Alexander Wiktorenko viermal und Anatoli Solowjow fünfmal. Die längste Zeit an Bord verbrachte der russische Kosmonaut Waleri Poljakow: Er arbeitete 679 Tage an Bord der Mir. Von Januar 1994 bis Mai 1995 stellte er mit 438 Tagen im All einen neuen Rekord für die menschliche Verweildauer im All im Rahmen einer Mission auf. Der lange Zeitraum wurde auch als Test für einen möglichen bemannten Marsflug gewertet – der Flug zum roten Planeten dauert etwa ein Jahr. Am 20. November 1998 startete mit Sarja das erste Modul der Internationalen Raumstation. 1999 gründete sich in den Niederlanden die MirCorp, ein Unternehmen, das versuchte, das Überleben der Mir über private Mittel zu sichern. Zu den Überlegungen gehörten auch Nutzungen für den Weltraumtourismus. Am 23. Oktober 2000 kam das offizielle Aus. Der russische Vorschlag, Teile der Mir zum Aufbau der ISS zu verwenden, wurde von US-amerikanischer Seite – trotz der damit verbundenen Einsparungen – verworfen. In den frühen Morgenstunden des 23. März 2001 wurde die Mir mit drei Bremsschüben des letzten Progress-Raumfrachters zum kontrollierten Wiedereintritt in die Atmosphäre gebracht. Mehr als 1500 (ca. 40 Tonnen) nicht verglühte Trümmer der Station stürzten um 6:57 Uhr südöstlich der Fidschi-Insel in den Pazifischen Ozean. In ihrer 15-jährigen Geschichte umrundete die ursprünglich nur für eine Lebensdauer von sieben Jahren ausgelegte Station die Erde 86.325 Mal in einer Höhe von 390 Kilometern über der Erdoberfläche.",
+    "itemid": "1986-017A",
+    "itemimgsmallurl": "/img/spacestations/Mir_sm.jpg",
+    "itemimgurl": "/img/spacestations/Mir_lg.jpg",
     "itemimgsrc": "NASA",
     "itemimglicence": "gemeinfrei",
-    "itemdateyear": "1971",
-    "itemdatemonth": 4,
-    "itemdateday": 19,
-    "itemdate3year": "1971",
-    "itemdate3month": 10,
-    "itemdate3day": 11,
-    "itemduration": "175 d",
-    "itemparent": "Proton-K",
+    "itemdateyear": "1986",
+    "itemdatemonth": "02",
+    "itemdateday": "19",
+    "itemdate3year": "2001",
+    "itemdate3month": "03",
+    "itemdate3day": "23",
+    "itemduration": "15 a 32 d",
+    "itemparent": "Proton K/D-2",
     "itemparenturl": "https://de.wikipedia.org/wiki/Proton_%28Rakete%29",
-    "itemoperator": "UdSSR",
-    "itemlocation": "Ba LC-81/24",
+    "itemoperator": "UdSSR / Russland",
+    "itemlocation": "Ba LC-200/39",
     "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
-    "itemfarthest": "222 km",
-    "itemnearest": "200 km",
+    "itemfarthest": "374 km",
+    "itemnearest": "354 km",
     "iteminclination": "51,6°",
-    "itemmass": "18.425 t",
-    "itemvolume": "100 m³",
+    "itemmass": "129.700 t",
+    "itemvolume": "350 m³",
     "itemproperty": 3,
-    "itemproperty2": 24,
-    "itemproperty3": 6,
-    "itemproperty4": 1,
-    "itemproperty5": 2,
-    "itemproperty6": 0
+    "itemproperty2": 4594,
+    "itemproperty3": 125,
+    "itemproperty4": 28,
+    "itemproperty5": 39,
+    "itemproperty6": 68
 },
-
  */
