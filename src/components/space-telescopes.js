@@ -10,7 +10,7 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
         <h3>Augen und Ohren im All</h3>
       </div>
       <div id="todo" className="pure-u-1">
-        <p>@wolfram pls edit the month in endDate to appear as word when there is no endday</p>
+        <p>@wolfram pls edit the month in endDate to appear as word when there is no endday (enable for all pages)</p>
       </div>
       <div id="controlArea" className="spacetelecopes pure-u-1">
         <div id="controllers" className="pure-u-1">
@@ -49,14 +49,17 @@ export default SpaceTelescopesComponent;
 const TelescopeComponent = ({ telescope }) => {
   return (
     <div className="spacetelescope-row data-row pure-u-1">
-      <div className="spacetelescopeImg pure-u-1 pure-u-sm-1-5 center">
+      <div className="spacetelescopeImg pure-u-1 pure-u-sm-1-6 pure-u-lg-1-5 center">
         {telescope.imageUrl ? <a href={telescope.imageUrl}><img src={telescope.imageSmallUrl} alt={telescope.name} /></a> : ''}
         {telescope.imageUrl ? <small>Bild: {telescope.imageSrc}</small> : ''}
         {telescope.imageLicenseUrl ? <small><a href={telescope.imageLicenseUrl}>{telescope.imageLicence}</a></small> : <small>{telescope.imageLicence}</small>}
       </div>
-      <div className="spacetelescopeInfo pure-u-1 pure-u-sm-3-5 center">
-        <a href={telescope.wikipediaUrl}>{telescope.name}</a><br />
-        {telescope.endDate ? `von ${telescope.launchDate} bis ${telescope.endDate}` : `Start: ${telescope.launchDate}`}
+      <div className="spacetelescopeInfo pure-u-1 pure-u-sm-2-3 pure-u-lg-3-5 center">
+        <p className="telescope-name"><a href={telescope.wikipediaUrl}>{telescope.name}</a></p>
+        {telescope.alternativename ? <p className="telescope-alternative-name">({telescope.alternativename})</p> : ''}
+        {telescope.operator ? <p className="telescope-data">Betreiber: {telescope.operator}</p> : ''}
+        {telescope.purpose ? <p className="telescope-data">{telescope.purpose}</p> : ''}
+        <p className="telescope-data">{telescope.endDate ? `von ${telescope.launchDate} bis ${telescope.endDate}` : `Start: ${telescope.launchDate}`}</p>
       </div>
     </div>
   );

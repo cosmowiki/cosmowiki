@@ -1,16 +1,17 @@
 .spacetelescope-row {padding: .5em 0;}
 
-.spacetelescopeImg {min-heiht: 120px;}
+.spacetelescopeImg {min-heiht: 120px; overflow: hidden;}
 .spacetelescopeImg img {display: block; height: 120px; margin: 0 auto;}
 .spacetelescopeImg small {display: block; font-size: .8em;}
-.spacetelescopeInfo a {font-size: 1.25em; line-height: 2em;}
+.spacetelescopeInfo p.telescope-name {margin: .5em 0 0; font-size: 1.25em;}
+.spacetelescopeInfo p.telescope-alternative-name {margin: 0 0 .5em; font-size: 1em;}
+.spacetelescopeInfo p.telescope-data {margin: .5em 0 0; font-size: 1em;}
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
-  .spacetelescopeImg img {margin: 0 auto;}
-  .spacetelescopeInfo a {font-size: 1.5em; line-height: 90px;}
+  .spacetelescopeInfo p.telescope-name {margin: 1em 0 0; font-size: 1.25em;}
 }
 @media only all and (min-width: 48em) {
-.spacetelescopeImg small {display: inline;}
-.spacetelescopeImg small:last-child {margin-left: .5em;}
+  .spacetelescopeImg small {display: inline;}
+  .spacetelescopeImg small:last-child {margin-left: .5em;}
 }
