@@ -14,7 +14,7 @@
         "itemstatus": "beendet",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "Radiowellen (0,2 MHz – 20 MHz)"
+        "itempurpose": "Radiowellen"
     },
     {
         "itemname": "OAO-2",
@@ -28,7 +28,7 @@
         "itemdate2month": "01",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "UV"
+        "itempurpose": "Ultraviolettstrahlung"
     },
     {
         "itemname": "Uhuru",
@@ -51,7 +51,7 @@
         "itemstatus": "beendet",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "Röntgen (2 keV – 20 keV)"
+        "itempurpose": "Röntgenstrahlung"
     },
     {
         "itemname": "Orion 1 Space Observatories",
@@ -60,8 +60,8 @@
         "itemdatemonth": "04",
         "itemdateday": "19",
         "itemcountry": "UdSSR / Russland",
-        "itemoperator": "USSR",
-        "itempurpose": "UV"
+        "itemoperator": "IKI",
+        "itempurpose": "Ultraviolettstrahlung"
     },
     {
         "itemname": "Far Ultraviolet Camera/Spectrograph",
@@ -77,7 +77,7 @@
         "itemdateday": "16",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "UV"
+        "itempurpose": "Ultraviolettstrahlung"
     },
     {
         "itemname": "Orbiting Astronomical Observatory 3",
@@ -96,7 +96,7 @@
         "itemstatus": "beendet",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "UV, Röntgen (90 nm – 330 nm)"
+        "itempurpose": "Ultraviolettstrahlung, Röntgenstrahlung"
     },
     {
         "itemname": "Small Astronomy Satellite 2",
@@ -112,7 +112,7 @@
         "itemdateday": "15",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "Gamma"
+        "itempurpose": "Gammastrahlung"
     },
     {
         "itemname": "Radio Astronomy Explorer B",
@@ -130,7 +130,7 @@
         "itemstatus": "beendet",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "Radiowellen (25 kHz – 13,1 MHz)"
+        "itempurpose": "Radiowellen"
     },
     {
         "itemname": "Orion 2 Space Observatories",
@@ -139,8 +139,8 @@
         "itemdatemonth": "12",
         "itemdateday": "18",
         "itemcountry": "UdSSR / Russland",
-        "itemoperator": "USSR",
-        "itempurpose": "UV"
+        "itemoperator": "IKI",
+        "itempurpose": "Ultraviolettstrahlung"
     },
     {
         "itemname": "Astronomische Nederlandse Satelliet",
@@ -156,7 +156,7 @@
         "itemdateday": "30",
         "itemcountry": "Niederlande",
         "itemoperator": "SRON",
-        "itempurpose": "UV"
+        "itempurpose": "Ultraviolettstrahlung"
     },
     {
         "itemname": "Ariel 5",
@@ -172,7 +172,7 @@
         "itemdateday": "15",
         "itemcountry": "GB, USA",
         "itemoperator": "SRC, NASA",
-        "itempurpose": "Röntgen"
+        "itempurpose": "Röntgenstrahlung"
     },
     {
         "itemname": "Aryabhata",
@@ -187,7 +187,7 @@
         "itemdateday": "19",
         "itemcountry": "Indien",
         "itemoperator": "ISRO",
-        "itempurpose": "Röntgen"
+        "itempurpose": "Röntgenstrahlung"
     },
     {
         "itemname": "Small Astronomy Satellite 3",
@@ -203,7 +203,7 @@
         "itemdateday": "07",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "Röntgen"
+        "itempurpose": "Röntgenstrahlung"
     },
     {
         "itemname": "Cosmic Ray Satellite B",
@@ -223,7 +223,7 @@
         "itemstatus": "beendet",
         "itemcountry": "EU",
         "itemoperator": "ESA",
-        "itempurpose": "Gamma (30 MeV – 5 GeV), Röntgen"
+        "itempurpose": "Gammastrahlung"
     },
     {
         "itemname": "1st High Energy Astronomy Observatory",
@@ -239,7 +239,7 @@
         "itemdateday": "12",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "Röntgen"
+        "itempurpose": "Röntgenstrahlung"
     },
     {
         "itemname": "International Ultraviolet Explorer",
@@ -259,7 +259,7 @@
         "itemstatus": "inaktiv",
         "itemcountry": "USA, EU, GB",
         "itemoperator": "NASA, ESA, SERC",
-        "itempurpose": "UV (115 nm – 320 nm)"
+        "itempurpose": "Ultraviolettstrahlung"
     },
     {
         "itemname": "Einstein Observatory",
@@ -275,7 +275,7 @@
         "itemdateday": "13",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "Röntgen"
+        "itempurpose": "Röntgenstrahlung"
     },
     {
         "itemname": "Hakuchō",
@@ -291,7 +291,7 @@
         "itemdateday": "21",
         "itemcountry": "Japan",
         "itemoperator": "ISAS",
-        "itempurpose": "Röntgen"
+        "itempurpose": "Röntgenstrahlung"
     },
     {
         "itemname": "High Energy Astronomy Observatory 3",
@@ -326,7 +326,7 @@
         "itemstatus": "beendet",
         "itemcountry": "USA, Niederlande, GB",
         "itemoperator": "NASA, NIVR, SERC",
-        "itempurpose": "IR (12 µm, 25 µm, 60 µm, 100 µm)"
+        "itempurpose": "Infrarotstrahlung"
     },
     {
         "itemname": "Tenma",
@@ -342,7 +342,7 @@
         "itemdateday": "20",
         "itemcountry": "Japan",
         "itemoperator": "ISAS",
-        "itempurpose": "Röntgen"
+        "itempurpose": "Röntgenstrahlung"
     },
     {
         "itemname": "Astron",
@@ -359,7 +359,7 @@
         "itemstatus": "beendet",
         "itemcountry": "UdSSR",
         "itemoperator": "RAW",
-        "itempurpose": "UV, Röntgen (2 keV – 25 keV)"
+        "itempurpose": "Ultraviolettstrahlung, Röntgenstrahlung"
     },
     {
         "itemname": "European X-Ray Observatory Satellite",
@@ -383,7 +383,7 @@
         "itemstatus": "beendet",
         "itemcountry": "EU",
         "itemoperator": "ESA",
-        "itempurpose": "Röntgen (0,05 keV – 2,5 keV, 2 keV – 20 keV, 1 keV – 50 keV)"
+        "itempurpose": "Röntgenstrahlung"
     },
     {
         "itemname": "ASTRO-C",
@@ -407,7 +407,7 @@
         "itemstatus": "beendet",
         "itemcountry": "Japan",
         "itemoperator": "ISAS",
-        "itempurpose": "Röntgen (1keV – 500 keV)"
+        "itempurpose": "Röntgenstrahlung"
     },
     {
         "itemname": "High Precision Parallax Collecting Satellite",
@@ -461,8 +461,8 @@
         "itemdateyear": "1989",
         "itemdatemonth": "12",
         "itemdateday": "01",
-        "itemcountry": "UdSSR / Russland",
-        "itemoperator": "CNRS, IKI"
+        "itemcountry": "UdSSR / Russland, Frankreich, Dänemark, Bulgarien",
+        "itemoperator": "IKI"
     },
     {
         "itemname": "Hubble-Weltraumteleskop",
@@ -479,11 +479,10 @@
         "itemstatus": "aktiv",
         "itemcountry": "USA, EU",
         "itemoperator": "NASA, ESA",
-        "itempurpose": "sichtbares Licht, UV, IR"
+        "itempurpose": "Ultraviolettstrahlung, sichtbares Licht, Infrarotstrahlung"
     },
     {
         "itemname": "ROSAT",
-        "itemname2": "ROSAT",
         "itemurl": "https://de.wikipedia.org/wiki/ROSAT",
         "itemid": "1990-049A",
         "itemdateyear": "1990",
@@ -499,7 +498,7 @@
         "itemstatus": "beendet",
         "itemcountry": "Deutschland",
         "itemoperator": "DLR",
-        "itempurpose": "Röntgen (0,1 keV – 2 keV, 6 nm – 30 nm)"
+        "itempurpose": "Röntgenstrahlung"
     },
     {
         "itemname": "Gamma 1",
@@ -546,7 +545,7 @@
         "itemstatus": "beendet",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "Gammastrahlen (20 keV – 30 GeV)"
+        "itempurpose": "Gammastrahlungstrahlen"
     },
     {
         "itemname": "Yohkoh",
@@ -569,7 +568,7 @@
         "itemstatus": "beendet",
         "itemcountry": "Japan",
         "itemoperator": "ISAS",
-        "itempurpose": "Röntgen (0,5 keV – 2 keV, 14 keV – 93 keV)"
+        "itempurpose": "Röntgenstrahlung"
     },
     {
         "itemname": "Extreme Ultraviolet Explorer",
@@ -593,7 +592,7 @@
         "itemstatus": "beendet",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "UV (7 nm – 76 nm)"
+        "itempurpose": "Ultraviolettstrahlung"
     },
     {
         "itemname": "Solar Anomalous and Magnetospheric Particle Explorer",
@@ -617,7 +616,7 @@
         "itemstatus": "beendet",
         "itemcountry": "USA, Deutschland",
         "itemoperator": "NASA, MPE",
-        "itempurpose": "(0,4 MeV – 100 MeV)"
+        "itempurpose": "kosmische Teilchenstrahlung"
     },
     {
         "itemname": "Advanced Satellite for Cosmology and Astrophysics",
@@ -641,7 +640,7 @@
         "itemstatus": "beendet",
         "itemcountry": "Japan, USA",
         "itemoperator": "ISAS, NASA",
-        "itempurpose": "Röntgen"
+        "itempurpose": "Röntgenstrahlung"
     },
     {
         "itemname": "Array of Low Energy X-ray Imaging Sensors",
@@ -701,7 +700,7 @@
         "itemstatus": "beendet",
         "itemcountry": "EU",
         "itemoperator": "ESA",
-        "itempurpose": "IR"
+        "itempurpose": "Infrarotstrahlung"
     },
     {
         "itemname": "Solar and Heliospheric Observatory",
@@ -718,7 +717,7 @@
         "itemstatus": "aktiv",
         "itemcountry": "USA, EU",
         "itemoperator": "NASA, ESA",
-        "itempurpose": "sichtbares Licht, UV"
+        "itempurpose": "sichtbares Licht, Ultraviolettstrahlung"
     },
     {
         "itemname": "Rossi X-Ray Timing Explorer",
@@ -742,7 +741,7 @@
         "itemstatus": "beendet",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "Röntgen"
+        "itempurpose": "Röntgenstrahlung"
     },
     {
         "itemname": "Midcourse Space Experiment",
@@ -779,7 +778,7 @@
         "itemstatus": "beendet",
         "itemcountry": "Italien, Niederlande",
         "itemoperator": "ASI, NIVR",
-        "itempurpose": "Röntgen"
+        "itempurpose": "Röntgenstrahlung"
     },
     {
         "itemname": "Highly Advanced Laboratory for Communications and Astronomy",
@@ -820,7 +819,7 @@
         "itemstatus": "beendet",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "sichtbares Licht, UV"
+        "itempurpose": "sichtbares Licht, Ultraviolettstrahlung"
     },
     {
         "itemname": "Alpha Magnetic Spectrometer 01",
@@ -905,7 +904,7 @@
         "itemstatus": "beendet",
         "itemcountry": "USA, Frankreich, Kanada",
         "itemoperator": "NASA, CNES, CSA",
-        "itempurpose": "UV"
+        "itempurpose": "Ultraviolettstrahlung"
     },
     {
         "itemname": "Chandra X-ray Observatory",
@@ -921,7 +920,7 @@
         "itemstatus": "aktiv",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "Röntgen"
+        "itempurpose": "Röntgenstrahlung"
     },
     {
         "itemname": "XMM-Newton",
@@ -938,7 +937,7 @@
         "itemstatus": "aktiv",
         "itemcountry": "EU",
         "itemoperator": "ESA",
-        "itempurpose": "Röntgen"
+        "itempurpose": "Röntgenstrahlung"
     },
     {
         "itemname": "High Energy Transient Explorer 2",
@@ -1004,7 +1003,7 @@
         "itemstatus": "aktiv",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "Röntgen, Gamma (3 keV – 17 MeV)"
+        "itempurpose": "Röntgenstrahlung, Gammastrahlung"
     },
     {
         "itemname": "International Gamma-Ray Astrophysics Laboratory",
@@ -1022,7 +1021,7 @@
         "itemstatus": "aktiv",
         "itemcountry": "EU",
         "itemoperator": "ESA",
-        "itempurpose": "Gamma"
+        "itempurpose": "Gammastrahlung"
     },
     {
         "itemname": "Cosmic Hot Interstellar Plasma Spectrometer satellite",
@@ -1054,7 +1053,7 @@
         "itemstatus": "aktiv",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "UV"
+        "itempurpose": "Ultraviolettstrahlung"
     },
     {
         "itemname": "Microvariability & Oscillations of Stars",
@@ -1084,7 +1083,7 @@
         "itemstatus": "aktiv",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "IR, 3 – 180 µm"
+        "itempurpose": "Infrarotstrahlung"
     },
     {
         "itemname": "Korea Advanced Institute of Science and Technology Satellite 4",
@@ -1112,7 +1111,7 @@
         "itemstatus": "aktiv",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "Gamma"
+        "itempurpose": "Gammastrahlung"
     },
     {
         "itemname": "ASTRO-E",
@@ -1129,7 +1128,7 @@
         "itemstatus": "aktiv",
         "itemcountry": "Japan, USA",
         "itemoperator": "JAXA, NASA",
-        "itempurpose": "Röntgen"
+        "itempurpose": "Röntgenstrahlung"
     },
     {
         "itemname": "ASTRO-F",
@@ -1144,7 +1143,7 @@
         "itemduration": "4a",
         "itemcountry": "Japan",
         "itemoperator": "JAXA",
-        "itempurpose": "IR"
+        "itempurpose": "Infrarotstrahlung"
     },
     {
         "itemname": "Payload for Antimatter Matter Exploration and Light-nuclei Astrophysics",
@@ -1175,7 +1174,7 @@
         "itemstatus": "aktiv",
         "itemcountry": "Japan, EU, GB",
         "itemoperator": "JAXA, ESA, PPARC, MSFC",
-        "itempurpose": "Röntgen, EUV, sichtbares Licht (480 nm – 640 nm, 17 nm – 21,2 nm, 24,6 nm – 29,2 nm)"
+        "itempurpose": "Röntgenstrahlung, extreme Ultraviolettstrahlung, sichtbares Licht"
     },
     {
         "itemname": "Solar TErrestrial RElations Observatory A",
@@ -1192,7 +1191,7 @@
         "itemstatus": "aktiv",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "UV"
+        "itempurpose": "Ultraviolettstrahlung"
     },
     {
         "itemname": "Solar TErrestrial RElations Observatory B",
@@ -1209,7 +1208,7 @@
         "itemstatus": "aktiv",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "UV"
+        "itempurpose": "Ultraviolettstrahlung"
     },
     {
         "itemname": "Convection, Rotation et Transits planétaires",
@@ -1245,7 +1244,7 @@
         "itemstatus": "aktiv",
         "itemcountry": "Italien",
         "itemoperator": "ASI",
-        "itempurpose": "Gamma"
+        "itempurpose": "Gammastrahlung"
     },
     {
         "itemname": "Fermi Gamma-ray Space Telescope",
@@ -1262,7 +1261,7 @@
         "itemstatus": "aktiv",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "Gamma"
+        "itempurpose": "Gammastrahlung"
     },
     {
         "itemname": "Interstellar Boundary Explorer",
@@ -1293,7 +1292,7 @@
         "itemstatus": "aktiv",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "sichtbares Licht, IR"
+        "itempurpose": "sichtbares Licht, Infrarotstrahlung"
     },
     {
         "itemname": "Herschel Space Observatory",
@@ -1316,7 +1315,7 @@
         "itemstatus": "beendet",
         "itemcountry": "EU",
         "itemoperator": "ESA",
-        "itempurpose": "IR"
+        "itempurpose": "Infrarotstrahlung"
     },
     {
         "itemname": "Planck Surveyor",
@@ -1357,7 +1356,7 @@
         "itemstatus": "aktiv",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "IR"
+        "itempurpose": "Infrarotstrahlung"
     },
     {
         "itemname": "Interplanetary Kite-craft Accelerated by Radiation Of the Sun",
@@ -1374,7 +1373,7 @@
         "itemdateday": "21",
         "itemcountry": "Japan",
         "itemoperator": "JAXA",
-        "itempurpose": "Gamma"
+        "itempurpose": "Gammastrahlung"
     },
     {
         "itemname": "Alpha Magnetic Spectrometer 02",
@@ -1420,7 +1419,7 @@
         "itemstatus": "aktiv",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "Röntgen"
+        "itempurpose": "Röntgenstrahlung"
     },
     {
         "itemname": "Near Earth Object Surveillance Satellite",
@@ -1541,7 +1540,7 @@
         "itemstatus": "geplant",
         "itemcountry": "Japan, USA, EU",
         "itemoperator": "JAXA, NASA, ESA",
-        "itempurpose": "Röntgen"
+        "itempurpose": "Röntgenstrahlung"
     },
     {
         "itemname": "Hard X-ray Modulation Telescope",
@@ -1587,7 +1586,7 @@
         "itemstatus": "geplant",
         "itemcountry": "USA, EU, Kanada",
         "itemoperator": "NASA, ESA, CSA",
-        "itempurpose": "IR"
+        "itempurpose": "Infrarotstrahlung"
     },
     {
         "itemname": "Euclid Weltraumteleskop",
@@ -1601,7 +1600,7 @@
         "itemstatus": "geplant",
         "itemcountry": "EU",
         "itemoperator": "ESA",
-        "itempurpose": "sichtbares Licht, nahes IR"
+        "itempurpose": "sichtbares Licht, nahe Infrarotstrahlung"
     },
     {
         "itemname": "Advanced Technology Large-Aperture Space Telescope",
@@ -1615,6 +1614,6 @@
         "itemstatus": "geplant",
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itempurpose": "UV, sichtbares Licht, IR"
+        "itempurpose": "Ultraviolettstrahlung, sichtbares Licht, Infrarotstrahlung"
     }
 ]
