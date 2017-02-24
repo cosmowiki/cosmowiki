@@ -77,7 +77,7 @@ export default class VcardComponent extends React.Component {
                     <h3>{ item.name }</h3>
                   </div>
                   { shortName }
-                  <div id="vcardItemLong" className="justify">{ wikipediaArticle }</div>
+                  <div id="vcardItemLong">{ wikipediaArticle }</div>
                 </div>
                 <div id="vcardContentRight">
                   <div className="vcardItemRelatedCat">
