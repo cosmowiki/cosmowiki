@@ -32,7 +32,8 @@ export default class ChronicleComponent extends React.Component {
           <h3>Meilensteine der Astronomie und Raumfahrt</h3>
         </div>
         <div id="todo" className="pure-u-1">
-          <p>@wolfram pls hide the span id="coordinates" from the Wikipedia article when loading in vcard</p>
+          <p>@wolfram pls hide the span id="coordinates" from the Wikipedia article when loading in vcard (i.e. Lascaux)</p>
+          <p>@wolfram pls hide the img src="//de.wikipedia.org/wiki/Special:CentralAutoLogin/..." on the bottom of the embedded articel in vcard</p>
         </div>
         <div id="dataArea" className="events pure-u-1">
           <div id="timeline">
@@ -62,7 +63,7 @@ const ItemComponent = ({item, onClick}) => {
       </div>
       <div className="event-data2 pure-u-1 pure-u-lg-15-24">
         <div className="event-name pure-u-7-8 pure-u-md-1" onClick={onClick}>
-          <p>{item.name}</p>
+          <p><a name={item.name}>{item.name}</a></p>
         </div>
       </div>
     </div>
