@@ -50,6 +50,7 @@ const HomeComponent = ({appUrl}) => {
                 {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
                 {url: appUrl.constellationsSite(), name: 'Sternbilder'},
                 {url: appUrl.starsSite(), name: 'Sterne'},
+                {url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope'},
 
               ].map(link =>
                 <li key={link.url+link.name}>
