@@ -107,6 +107,7 @@ main.home {border: none;}
   #homeNav ul.main-menu li:first-child a,
   #homeNav ul.main-menu li:last-child a {border-radius: 0;}
   #homeNav ul.main-menu li:last-child a {border-right: 0;}
+  #homeNav ul.main-menu li:last-child:hover a {border-bottom: 0;}
   #homeNav ul.sub-menu li a {
     padding: .5em 0;
     border-top: 1px solid #fff; border-right: 0; border-bottom: 0;
@@ -114,7 +115,9 @@ main.home {border: none;}
   #homeNav ul.sub-menu li:last-child a {
     border-bottom: 0; border-radius: 0 0 5px 5px;
   }
-  #homeNav ul.main-menu li:last-child:hover a {border-bottom: 0;}
+  #homeNav ul.sub-menu li:last-child:hover a {
+    border-bottom: 0; border-radius: 0 0 5px 5px;
+  }
 }
 
 /*  home nav a:hover background images ---------------------------------------*/

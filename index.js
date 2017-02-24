@@ -33377,7 +33377,7 @@ var AstronomyComponent = function AstronomyComponent(_ref) {
       _react2["default"].createElement(
         "ul",
         { id: "pageSubMenu", className: "pure-u-1 center" },
-        [{ url: appUrl.astronomersSite(), name: 'Astronomen' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }].map(function (link) {
+        [{ url: appUrl.astronomersSite(), name: 'Astronomen' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
           return _react2["default"].createElement(
             "li",
             { className: link.name, key: link.url + link.name },
@@ -34168,7 +34168,7 @@ var HomeComponent = function HomeComponent(_ref) {
           _react2["default"].createElement(
             "ul",
             { className: "sub-menu" },
-            [{ url: appUrl.astronomersSite(), name: 'Astronomen' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }].map(function (link) {
+            [{ url: appUrl.astronomersSite(), name: 'Astronomen' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
               return _react2["default"].createElement(
                 "li",
                 { key: link.url + link.name },
@@ -34748,7 +34748,7 @@ var Navigation = function Navigation(_ref) {
         _react2["default"].createElement(
           "ul",
           { className: "pure-menu-children sub-menu astronomy" },
-          [{ url: appUrl.astronomersSite(), name: 'Astronomen' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }].map(function (link) {
+          [{ url: appUrl.astronomersSite(), name: 'Astronomen' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
             return _react2["default"].createElement(
               "li",
               { key: link.url, className: "pure-menu-item left" },
