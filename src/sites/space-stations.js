@@ -37,6 +37,7 @@ class SpaceStation {
     const reenterday = raw.itemdate3day ? `${raw.itemdate3day}.` : '';
     station.reenterDate = `${reenterday}${reentermonth}${reenteryear}`;
     station.duration = raw.itemduration ? raw.itemduration : '';
+    station.status = raw.itemstatus ? raw.itemstatus : '';
     station.rocket = Rocket.fromRawData(raw);
     station.pad = Pad.fromRawData(raw);
     station.crewSize = raw.itemproperty;

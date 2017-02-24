@@ -1,13 +1,13 @@
 .station-row {padding: .5em 0;}
 
-.stationImg {overflow: hidden;}
-.stationImg img {height: 120px;}
-.stationImg small {display: block; font-size: .8em;}
-.stationImg small:last-child {margin-left: .5em;}
-.stationInfo p.station-name {margin: .5em 0 0; font-size: 1.25em;}
-.stationInfo p.station-data {margin: .5em 0 0; font-size: 1em;}
+.station-img {overflow: hidden;}
+.station-img img {height: 100px;}
+.station-img small {display: block; font-size: .8em;}
+.station-img small:last-child {margin-left: .5em;}
+p.station-name {margin: .5em 0 0; font-size: 1.25em;}
+p.station-data {margin: .25em 0 0; font-size: 1em;}
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
-  .stationInfo p.station-name {margin: 1em 0 0; font-size: 1.25em;}
+  p.station-name {margin: .75em 0 0; font-size: 1.25em;}
 }
