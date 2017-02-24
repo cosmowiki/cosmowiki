@@ -26,7 +26,7 @@ class Constellation {
     item.imageSrc = raw.itemimgsrc;
     item.imageLicence = raw.itemimglicence;
     item.imageLicenceUrl = raw.itemimglicenceurl;
-    item.named = raw.itemdateyear;
+    item.namedYear = raw.itemdateyear;
     item.astronomer = raw.itemparent;
     item.rightAscension = raw.itemrightascension;
     item.declination = raw.itemdeclination;
@@ -39,6 +39,8 @@ class Constellation {
     item.squareDegrees = raw.itemproperty4;
     item.starsOver3Mag = raw['itemproperty5'];
     item.highestBrightness = raw.itemproperty6;
+    item.brightest = raw.itemproperty7;
+    item.brightestUrl = raw.itemproperty8;
     return item;
   }
 

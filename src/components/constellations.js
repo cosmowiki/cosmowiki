@@ -47,17 +47,19 @@ export default ConstellationsComponent;
 const ConstellationComponent = ({constellation:item}) => {
   return (
     <div className="constellation-row data-row pure-u-1">
-      <div className="constellationImg pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 center">
+      <div className="constellation-img pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 center">
         <a href={item.imageLargeUrl}><img src={item.imageSmallUrl} alt={item.name} /></a>
         <small>
           Bild: {item.imageSrc}<br />
           <a href={item.imageLicenceUrl}>{item.imageLicence}</a>
         </small>
       </div>
-      <div className="constellationInfo pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 center">
-        <a href={item.wikipediaUrl}>{item.name}</a><br />
-        <p>({item.latinName})</p>
-        <p>{item.named} von {item.astronomer} benannt</p>
+      <div className="constellation-info pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 center">
+        <p className="constellation-name"><a href={item.wikipediaUrl}>{item.name}</a></p>
+        <p className="constellation-latin-name">({item.latinName})</p>
+        <p className="constellation-data">sichtbar von {item.visibleFrom} bis {item.visibleTo}</p>
+        <p className="constellation-data">im Jahr {item.namedYear} von {item.astronomer} benannt</p>
+        <p className="constellation-data">hellster Stern ist {item.brightestUrl ? <a href={item.brightestUrl}>{item.brightest}</a> : `${item.brightest}`} mit {item.highestBrightness} mag</p>
       </div>
     </div>
   );
