@@ -33775,7 +33775,12 @@ var ChronicleComponent = (function (_React$Component) {
           _react2['default'].createElement(
             'p',
             null,
-            '@wolfram pls hide the span id="coordinates" from the Wikipedia article when loading in vcard'
+            '@wolfram pls hide the span id="coordinates" from the Wikipedia article when loading in vcard (i.e. Lascaux)'
+          ),
+          _react2['default'].createElement(
+            'p',
+            null,
+            '@wolfram pls hide the img src="//de.wikipedia.org/wiki/Special:CentralAutoLogin/..." on the bottom of the embedded articel in vcard'
           )
         ),
         _react2['default'].createElement(
@@ -33849,7 +33854,11 @@ var ItemComponent = function ItemComponent(_ref) {
         _react2['default'].createElement(
           'p',
           null,
-          item.name
+          _react2['default'].createElement(
+            'a',
+            { name: item.name },
+            item.name
+          )
         )
       )
     )
@@ -36772,7 +36781,7 @@ var VcardComponent = (function (_React$Component) {
                   shortName,
                   _react2['default'].createElement(
                     'div',
-                    { id: 'vcardItemLong', className: 'justify' },
+                    { id: 'vcardItemLong' },
                     wikipediaArticle
                   )
                 ),
