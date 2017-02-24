@@ -86,18 +86,18 @@ const MissionComponent = ({mission}) => {
       </div>
       <div className="mission-dates pure-u-1-2 pure-u-sm-6-24">
         <div className="mission-launch pure-u-lg-1-2">
-          <p><b>Start:</b> {mission.launchDate}</p>
+          <p>Start: {mission.launchDate}</p>
         </div>
         <div className="mission-end pure-u-lg-1-2">
-          {mission.endDate ? <p><b>Ende:</b> {mission.endDate}</p> : <p><b>Status:</b> {mission.status}</p>}
+          {mission.endDate ? <p>Ende: {mission.endDate}</p> : <p>Status: {mission.status}</p>}
         </div>
       </div>
       <div className="mission-info pure-u-1-2 pure-u-sm-9-24 left">
         <div className="mission-operator">
-          {mission.operator ? <p><b>Betreiber:</b> {mission.operator} - ${mission.country}</p> : <p><b>Land:</b> {mission.country}</p>}
+          {mission.operator ? <p>Betreiber: {mission.operator} - {mission.country}</p> : <p>Land: {mission.country}</p>}
         </div>
         <div className="mission-destination">
-          <p><b>Ziel:</b> {mission.destination}</p>
+          <p>Ziel: {mission.destination}</p>
         </div>
       </div>
     </div>
