@@ -27,7 +27,9 @@ ul {list-style-type: none;}
 
 a {font-weight: 500; text-decoration: none; cursor: pointer;}
 a, a:link, a:visited {color: #55f;}
+a img, a:link img, a:visited img {}
 a:focus, a:hover, a:active {color: #333;}
+a:focus img, a:hover img, a:active img {}
 
 /*>Global Classes ----------------------------------------------------------- */
 

@@ -1,13 +1,14 @@
 .constellation-row {padding: .5em 0;}
 
-.constellationImg {min-width: 170px; overflow: hidden;}
-.constellationImg img {width: 100px; display: block; margin: 0 auto;}
-.constellationImg small {text-align: right; font-size: .8em; margin: 0 .2em;}
-
-.constellationInfo {margin-top: .2em;}
-.constellationInfo a {font-size: 1.5em; line-height: 1.5em;}
+.constellation-img {overflow: hidden;}
+.constellation-img img {width: 100px; height: 100px;}
+.constellation-img small {display: block; font-size: .8em;}
+.constellation-img small:last-child {margin-left: .5em;}
+p.constellation-name {margin: .5em 0 0; font-size: 1.25em;}
+p.constellation-latin-name {margin: 0 0 .5em; font-size: 1em;}
+p.constellation-data {margin: .25em 0 0; font-size: 1em;}
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
-  .constellationInfo p {margin-top: 1em;}
+  p.constellation-name {margin: 1em 0 0; font-size: 1.25em;}
 }

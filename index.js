@@ -33583,7 +33583,7 @@ var ConstellationComponent = function ConstellationComponent(_ref2) {
     { className: 'constellation-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'constellationImg pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 center' },
+      { className: 'constellation-img pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 center' },
       _react2['default'].createElement(
         'a',
         { href: item.imageLargeUrl },
@@ -33604,27 +33604,52 @@ var ConstellationComponent = function ConstellationComponent(_ref2) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'constellationInfo pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 center' },
-      _react2['default'].createElement(
-        'a',
-        { href: item.wikipediaUrl },
-        item.name
-      ),
-      _react2['default'].createElement('br', null),
+      { className: 'constellation-info pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 center' },
       _react2['default'].createElement(
         'p',
-        null,
+        { className: 'constellation-name' },
+        _react2['default'].createElement(
+          'a',
+          { href: item.wikipediaUrl },
+          item.name
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'constellation-latin-name' },
         '(',
         item.latinName,
         ')'
       ),
       _react2['default'].createElement(
         'p',
-        null,
-        item.named,
+        { className: 'constellation-data' },
+        'sichtbar von ',
+        item.visibleFrom,
+        ' bis ',
+        item.visibleTo
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'constellation-data' },
+        'im Jahr ',
+        item.namedYear,
         ' von ',
         item.astronomer,
         ' benannt'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'constellation-data' },
+        'hellster Stern ist ',
+        item.brightestUrl ? _react2['default'].createElement(
+          'a',
+          { href: item.brightestUrl },
+          item.brightest
+        ) : '' + item.brightest,
+        ' mit ',
+        item.highestBrightness,
+        ' mag'
       )
     )
   );
@@ -34544,12 +34569,7 @@ var MissionComponent = function MissionComponent(_ref2) {
         _react2['default'].createElement(
           'p',
           null,
-          _react2['default'].createElement(
-            'b',
-            null,
-            'Start:'
-          ),
-          ' ',
+          'Start: ',
           mission.launchDate
         )
       ),
@@ -34559,22 +34579,12 @@ var MissionComponent = function MissionComponent(_ref2) {
         mission.endDate ? _react2['default'].createElement(
           'p',
           null,
-          _react2['default'].createElement(
-            'b',
-            null,
-            'Ende:'
-          ),
-          ' ',
+          'Ende: ',
           mission.endDate
         ) : _react2['default'].createElement(
           'p',
           null,
-          _react2['default'].createElement(
-            'b',
-            null,
-            'Status:'
-          ),
-          ' ',
+          'Status: ',
           mission.status
         )
       )
@@ -34588,24 +34598,14 @@ var MissionComponent = function MissionComponent(_ref2) {
         mission.operator ? _react2['default'].createElement(
           'p',
           null,
-          _react2['default'].createElement(
-            'b',
-            null,
-            'Betreiber:'
-          ),
-          ' ',
+          'Betreiber: ',
           mission.operator,
-          ' - $',
+          ' - ',
           mission.country
         ) : _react2['default'].createElement(
           'p',
           null,
-          _react2['default'].createElement(
-            'b',
-            null,
-            'Land:'
-          ),
-          ' ',
+          'Land: ',
           mission.country
         )
       ),
@@ -34615,12 +34615,7 @@ var MissionComponent = function MissionComponent(_ref2) {
         _react2['default'].createElement(
           'p',
           null,
-          _react2['default'].createElement(
-            'b',
-            null,
-            'Ziel:'
-          ),
-          ' ',
+          'Ziel: ',
           mission.destination
         )
       )
@@ -35830,7 +35825,7 @@ var StationComponent = function StationComponent(_ref2) {
     { className: 'station-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'stationImg pure-u-1 pure-u-sm-1-4 center' },
+      { className: 'station-img pure-u-1 pure-u-sm-1-4 center' },
       station.imageUrl ? _react2['default'].createElement(
         'a',
         { href: station.imageUrl },
@@ -35858,7 +35853,7 @@ var StationComponent = function StationComponent(_ref2) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'stationInfo pure-u-1 pure-u-sm-1-2 center' },
+      { className: 'station-info pure-u-1 pure-u-sm-1-2 center' },
       _react2['default'].createElement(
         'p',
         { className: 'station-name' },
@@ -35883,7 +35878,7 @@ var StationComponent = function StationComponent(_ref2) {
       _react2['default'].createElement(
         'p',
         { className: 'station-data' },
-        station.reenterDate ? 'von ' + station.launchDate + ' bis ' + station.reenterDate : 'Start: ' + station.launchDate
+        station.reenterDate ? 'von ' + station.launchDate + ' bis ' + station.reenterDate : 'Start: ' + station.launchDate + ' - ' + station.status
       ),
       station.volume ? _react2['default'].createElement(
         'p',
@@ -35941,7 +35936,7 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
       _react2['default'].createElement(
         'p',
         null,
-        '@wolfram pls edit the month in endDate to appear as word when there is no endday (enable for all pages)'
+        '@wolfram pls edit the month in endDate to appear as word when there is no endday (enable for all dates in all pages)'
       )
     ),
     _react2['default'].createElement(
@@ -36043,7 +36038,7 @@ var TelescopeComponent = function TelescopeComponent(_ref2) {
     { className: 'spacetelescope-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'spacetelescopeImg pure-u-1 pure-u-sm-1-4 pure-u-lg-1-5 center' },
+      { className: 'spacetelescope-img pure-u-1 pure-u-sm-1-4 pure-u-lg-1-5 center' },
       telescope.imageUrl ? _react2['default'].createElement(
         'a',
         { href: telescope.imageUrl },
@@ -36063,18 +36058,14 @@ var TelescopeComponent = function TelescopeComponent(_ref2) {
           { href: telescope.imageLicenseUrl },
           telescope.imageLicence
         )
-      ) : _react2['default'].createElement(
-        'small',
-        null,
-        telescope.imageLicence
-      )
+      ) : ''
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'spacetelescopeInfo pure-u-1 pure-u-sm-1-2 pure-u-lg-3-5 center' },
+      { className: 'spacetelescope-info pure-u-1 pure-u-sm-1-2 pure-u-lg-3-5 center' },
       _react2['default'].createElement(
         'p',
-        { className: 'telescope-name' },
+        { className: 'spacetelescope-name' },
         _react2['default'].createElement(
           'a',
           { href: telescope.wikipediaUrl },
@@ -36083,27 +36074,33 @@ var TelescopeComponent = function TelescopeComponent(_ref2) {
       ),
       telescope.alternativename ? _react2['default'].createElement(
         'p',
-        { className: 'telescope-alternative-name' },
+        { className: 'spacetelescope-alternative-name' },
         '(',
         telescope.alternativename,
         ')'
       ) : '',
       telescope.operator ? _react2['default'].createElement(
         'p',
-        { className: 'telescope-data' },
+        { className: 'spacetelescope-data' },
         'Betreiber: ',
         telescope.operator
       ) : '',
       telescope.purpose ? _react2['default'].createElement(
         'p',
-        { className: 'telescope-data' },
+        { className: 'spacetelescope-data' },
         telescope.purpose
       ) : '',
       _react2['default'].createElement(
         'p',
-        { className: 'telescope-data' },
+        { className: 'spacetelescope-data' },
         telescope.endDate ? 'von ' + telescope.launchDate + ' bis ' + telescope.endDate : 'Start: ' + telescope.launchDate
-      )
+      ),
+      telescope.status ? _react2['default'].createElement(
+        'p',
+        { className: 'spacetelescope-data' },
+        'Status: ',
+        telescope.status
+      ) : ''
     )
   );
 };
@@ -37463,7 +37460,7 @@ var Constellation = (function () {
       item.imageSrc = raw.itemimgsrc;
       item.imageLicence = raw.itemimglicence;
       item.imageLicenceUrl = raw.itemimglicenceurl;
-      item.named = raw.itemdateyear;
+      item.namedYear = raw.itemdateyear;
       item.astronomer = raw.itemparent;
       item.rightAscension = raw.itemrightascension;
       item.declination = raw.itemdeclination;
@@ -37476,6 +37473,8 @@ var Constellation = (function () {
       item.squareDegrees = raw.itemproperty4;
       item.starsOver3Mag = raw['itemproperty5'];
       item.highestBrightness = raw.itemproperty6;
+      item.brightest = raw.itemproperty7;
+      item.brightestUrl = raw.itemproperty8;
       return item;
     }
   }]);
@@ -38132,6 +38131,7 @@ var SpaceStation = (function () {
       var reenterday = raw.itemdate3day ? raw.itemdate3day + '.' : '';
       station.reenterDate = '' + reenterday + reentermonth + reenteryear;
       station.duration = raw.itemduration ? raw.itemduration : '';
+      station.status = raw.itemstatus ? raw.itemstatus : '';
       station.rocket = Rocket.fromRawData(raw);
       station.pad = Pad.fromRawData(raw);
       station.crewSize = raw.itemproperty;
@@ -38304,6 +38304,7 @@ var Telescope = (function () {
       var endday = raw.itemdate2day ? raw.itemdate2day + '.' : '';
       telescope.endDate = '' + endday + endmonth + endyear;
       telescope.duration = raw.itemduration ? raw.itemduration : '';
+      telescope.status = raw.itemstatus ? raw.itemstatus : '';
       telescope.rocket = Rocket.fromRawData(raw);
       telescope.pad = Pad.fromRawData(raw);
       telescope.status = raw.itemstatus;
