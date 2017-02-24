@@ -36,6 +36,7 @@ class Telescope {
     const endday = raw.itemdate2day ? `${raw.itemdate2day}.` : '';
     telescope.endDate = `${endday}${endmonth}${endyear}`;
     telescope.duration = raw.itemduration ? raw.itemduration : '';
+    telescope.status = raw.itemstatus ? raw.itemstatus : '';
     telescope.rocket = Rocket.fromRawData(raw);
     telescope.pad = Pad.fromRawData(raw);
     telescope.status = raw.itemstatus;
