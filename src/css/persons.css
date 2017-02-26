@@ -16,7 +16,7 @@
 @media only all and (min-width: 64em) {
 	.person-name div {font-size: 1.125em; line-height: 1.75em; text-align: left;}
 	.person-name p {margin-left: .2em;}
-	.person-data1 div,
-	.person-data2 div {display: inline-block; line-height: 1.75em; text-align: left;}
+	.person-data1 div {line-height: 1.75em; text-align: left;}
+	.person-data2 div {line-height: 1.75em;}
 	.person-born p {margin-left: .5em;}
 }
