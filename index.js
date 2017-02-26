@@ -34822,10 +34822,10 @@ var defaultNotes = _react2["default"].createElement(
   { id: "defaultNotes" },
   _react2["default"].createElement(
     "div",
-    { className: "scroll-up-link pure-u-1-24" },
+    { className: "scroll-up-link pure-u-1-24 pure-u-lg-1-3" },
     _react2["default"].createElement(
       "p",
-      null,
+      { className: "left" },
       _react2["default"].createElement(
         "a",
         { id: "scrollUpArrow", href: "javascript:self.scrollTo(0,0);" },
@@ -34835,28 +34835,25 @@ var defaultNotes = _react2["default"].createElement(
   ),
   _react2["default"].createElement(
     "div",
-    { id: "notComplete", className: "pure-u-11-12 center" },
+    { id: "notComplete", className: "pure-u-11-12 pure-u-lg-1-3 center" },
     _react2["default"].createElement(
       "p",
       null,
       "Sie kennen noch mehr Daten zu dieser Seite?",
       _react2["default"].createElement("br", null),
-      "Bereichern Sie cosmowiki.org und melden Sie uns diese bitte ",
       _react2["default"].createElement(
         "a",
-        {
-          href: "http://de.cosmowiki.de/?page_id=22", target: "_self", title: "Kontakt" },
-        "hier"
-      ),
-      "."
+        { href: "/about#contact", target: "_self", title: "Kontakt" },
+        "Bereichern Sie cosmowiki.org."
+      )
     )
   ),
   _react2["default"].createElement(
     "div",
-    { className: "scroll-up-link pure-u-1-24 right" },
+    { className: "scroll-up-link pure-u-1-24 pure-u-lg-1-3 right" },
     _react2["default"].createElement(
       "p",
-      null,
+      { className: "right" },
       _react2["default"].createElement(
         "a",
         { id: "scrollUpArrow", href: "javascript:self.scrollTo(0,0);" },
@@ -35479,10 +35476,10 @@ var PersonGroupComponent = function PersonGroupComponent(_ref2) {
       { className: 'letter-section-header pure-u-1' },
       _react2['default'].createElement(
         'div',
-        { className: 'scroll-up-link pure-u-1-24' },
+        { className: 'scroll-up-link pure-u-11-24' },
         _react2['default'].createElement(
           'p',
-          null,
+          { className: 'left' },
           _react2['default'].createElement(
             'a',
             { id: 'scrollUpArrow', href: 'javascript:self.scrollTo(0,0);' },
@@ -35492,7 +35489,7 @@ var PersonGroupComponent = function PersonGroupComponent(_ref2) {
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'first-letter pure-u-11-12 center' },
+        { className: 'first-letter pure-u-1-12 center' },
         _react2['default'].createElement(
           'p',
           { name: '#' + groupKey },
@@ -35501,10 +35498,10 @@ var PersonGroupComponent = function PersonGroupComponent(_ref2) {
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'scroll-up-link pure-u-1-24 right' },
+        { className: 'scroll-up-link pure-u-11-24' },
         _react2['default'].createElement(
           'p',
-          null,
+          { className: 'right' },
           _react2['default'].createElement(
             'a',
             { id: 'scrollUpArrow', href: 'javascript:self.scrollTo(0,0);' },
@@ -36407,10 +36404,10 @@ var StarsGroupComponent = function StarsGroupComponent(_ref3) {
       { className: 'letter-section-header pure-u-1' },
       _react2['default'].createElement(
         'div',
-        { className: 'scroll-up-link pure-u-1-24' },
+        { className: 'scroll-up-link pure-u-11-24' },
         _react2['default'].createElement(
           'p',
-          null,
+          { className: 'left' },
           _react2['default'].createElement(
             'a',
             { id: 'scrollUpArrow', href: 'javascript:self.scrollTo(0,0);' },
@@ -36420,7 +36417,7 @@ var StarsGroupComponent = function StarsGroupComponent(_ref3) {
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'first-letter pure-u-11-12 center' },
+        { className: 'first-letter pure-u-1-12 center' },
         _react2['default'].createElement(
           'p',
           { name: '#' + groupKey },
@@ -36429,10 +36426,10 @@ var StarsGroupComponent = function StarsGroupComponent(_ref3) {
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'scroll-up-link pure-u-1-24 right' },
+        { className: 'scroll-up-link pure-u-11-24' },
         _react2['default'].createElement(
           'p',
-          null,
+          { className: 'right' },
           _react2['default'].createElement(
             'a',
             { id: 'scrollUpArrow', href: 'javascript:self.scrollTo(0,0);' },
