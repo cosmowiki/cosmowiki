@@ -9,7 +9,7 @@
 #nice to have
 - simple vcard with abstract of first paragraph from wikipedia
 - relations and breadcrum on the vcard
-- global search with form in branding bar (best case without submit button)
+- global search with form in branding bar (best without submit button)
 
 #General questions
 - show content really in a vcard? rather on a page?
@@ -20,7 +20,7 @@
 ##branding
 - [x] fix the branding on top
 - [x] insert search form
-- insert toggle button for nav menu on small screens (look at the pure js)
+- insert toggle button for responsive nav menu on small screens (look at the pure js)
 
 ##Home
 - [x] make it responsive
@@ -28,6 +28,8 @@
 
 ##Events
 - [x] rename the component, css and site files to "events"
+- hide the span id="coordinates" from embedded article in vcard (i.e. Lascaux)
+- hide the img src="//de.wikipedia.org/wiki/Special:CentralAuto..." (on bottom) of embedded article in vcard
 
 ##People
 - [x] make it responsive
@@ -57,7 +59,8 @@
 - open the href={item.name} in vcard
 
 ##Space telescopes
-- create site
+- [x] create site like space stations site
+- open the href={item.name} in vcard
 
 ##Missions
 - [x] make it responsive
@@ -65,9 +68,8 @@
 
 ##about
 - [x] make it responsive
-- [x] no jump to anchor when clicking internal link
+- [x] jump to anchor + 40 px (height of branding) when clicking internal link
 - [x] create contact form
-- [x] make the links in #footerElse open the appropriate answers in the about-site
 - make the contact form work, send mail to admin@cosmowiki.org
 
 ###Imprint
@@ -85,9 +87,8 @@
 
 ###notes
 - [x] insert arrows to scroll up
-- scroll-up-arrow on small screens as buttons (with bg)?
-- constellationNotes ul review
+- [x] constellationNotes ul review
 
 ###Footer
 - [x] make it responsive
-- [x] make the links in #footerElse open the appropriate answers in the about-site
+- [x] let the links in #footerElse open the appropriate answers in the about-site
