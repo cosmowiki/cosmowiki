@@ -33775,12 +33775,12 @@ var ChronicleComponent = (function (_React$Component) {
           _react2['default'].createElement(
             'p',
             null,
-            '@wolfram pls hide the span id="coordinates" from the Wikipedia article when loading in vcard (i.e. Lascaux)'
+            '@wolfram pls hide the span id="coordinates" from embedded article in vcard (i.e. Lascaux)'
           ),
           _react2['default'].createElement(
             'p',
             null,
-            '@wolfram pls hide the img src="//de.wikipedia.org/wiki/Special:CentralAutoLogin/..." on the bottom of the embedded articel in vcard'
+            '@wolfram pls hide the img src="//de.wikipedia.org/wiki/Special:CentralAuto..." on bottom of embedded article in vcard'
           )
         ),
         _react2['default'].createElement(
