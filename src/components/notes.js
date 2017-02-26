@@ -2,17 +2,17 @@ import React from 'react';
 
 const defaultNotes = (
   <div id="defaultNotes">
-    <div className="scroll-up-link pure-u-1-24">
-      <p><a id="scrollUpArrow" href="javascript:self.scrollTo(0,0);">&uarr;</a></p>
+    <div className="scroll-up-link pure-u-1-24 pure-u-lg-1-3">
+      <p className="left"><a id="scrollUpArrow" href="javascript:self.scrollTo(0,0);">&uarr;</a></p>
     </div>
-    <div id="notComplete" className="pure-u-11-12 center">
+    <div id="notComplete" className="pure-u-11-12 pure-u-lg-1-3 center">
       <p>
-        Sie kennen noch mehr Daten zu dieser Seite?<br/>Bereichern Sie cosmowiki.org und melden Sie uns diese bitte <a
-        href="http://de.cosmowiki.de/?page_id=22" target="_self" title="Kontakt">hier</a>.
+        Sie kennen noch mehr Daten zu dieser Seite?<br/>
+        <a href="/about#contact" target="_self" title="Kontakt">Bereichern Sie cosmowiki.org.</a>
       </p>
     </div>
-    <div className="scroll-up-link pure-u-1-24 right">
-      <p><a id="scrollUpArrow" href="javascript:self.scrollTo(0,0);">&uarr;</a></p>
+    <div className="scroll-up-link pure-u-1-24 pure-u-lg-1-3 right">
+      <p className="right"><a id="scrollUpArrow" href="javascript:self.scrollTo(0,0);">&uarr;</a></p>
     </div>
   </div>
 );
