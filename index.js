@@ -33586,7 +33586,7 @@ var ConstellationComponent = function ConstellationComponent(_ref2) {
       { className: 'constellation-img pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 center' },
       _react2['default'].createElement(
         'a',
-        { href: item.imageLargeUrl },
+        { href: item.imageLargeUrl, title: item.name },
         _react2['default'].createElement('img', { src: item.imageSmallUrl, alt: item.name })
       ),
       _react2['default'].createElement(
@@ -33604,52 +33604,64 @@ var ConstellationComponent = function ConstellationComponent(_ref2) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'constellation-info pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 center' },
+      { className: 'constellation-info pure-u-1 pure-u-sm-1-2 pure-u-md-2-3 center' },
       _react2['default'].createElement(
-        'p',
-        { className: 'constellation-name' },
+        'div',
+        { className: 'constellation-name pure-u-1 pure-u-md-1-2' },
         _react2['default'].createElement(
-          'a',
-          { href: item.wikipediaUrl },
-          item.name
+          'p',
+          { className: 'constellation-name' },
+          _react2['default'].createElement(
+            'a',
+            { href: item.wikipediaUrl, title: item.name },
+            item.name
+          )
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'constellation-latin-name' },
+          '(',
+          item.latinName,
+          ')'
         )
       ),
       _react2['default'].createElement(
-        'p',
-        { className: 'constellation-latin-name' },
-        '(',
-        item.latinName,
-        ')'
-      ),
-      _react2['default'].createElement(
-        'p',
-        { className: 'constellation-data' },
-        'sichtbar von ',
-        item.visibleFrom,
-        ' bis ',
-        item.visibleTo
-      ),
-      _react2['default'].createElement(
-        'p',
-        { className: 'constellation-data' },
-        'im Jahr ',
-        item.namedYear,
-        ' von ',
-        item.astronomer,
-        ' benannt'
-      ),
-      _react2['default'].createElement(
-        'p',
-        { className: 'constellation-data' },
-        'hellster Stern ist ',
-        item.brightestUrl ? _react2['default'].createElement(
-          'a',
-          { href: item.brightestUrl },
-          item.brightest
-        ) : '' + item.brightest,
-        ' mit ',
-        item.highestBrightness,
-        ' mag'
+        'div',
+        { className: 'constellation-data pure-u-1 pure-u-md-1-2' },
+        _react2['default'].createElement(
+          'p',
+          { className: 'constellation-data' },
+          'sichtbar von ',
+          item.visibleFrom,
+          ' bis ',
+          item.visibleTo
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'constellation-data' },
+          'im Jahr ',
+          item.namedYear,
+          ' von ',
+          _react2['default'].createElement(
+            'a',
+            { href: item.astronomerUrl, title: item.astronomer },
+            item.astronomer
+          ),
+          ' benannt'
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'constellation-data' },
+          'hellster Stern: ',
+          item.brightestUrl ? _react2['default'].createElement(
+            'a',
+            { href: item.brightestUrl, title: item.brightest },
+            item.brightest
+          ) : '' + item.brightest,
+          ' mit ',
+          item.highestBrightness,
+          ' mag'
+        )
       )
     )
   );
@@ -35831,10 +35843,10 @@ var StationComponent = function StationComponent(_ref2) {
     { className: 'station-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'station-img pure-u-1 pure-u-sm-1-4 center' },
+      { className: 'station-img pure-u-1 pure-u-sm-1-4 pure-u-md-1-3 center' },
       station.imageUrl ? _react2['default'].createElement(
         'a',
-        { href: station.imageUrl },
+        { href: station.imageUrl, title: station.name },
         _react2['default'].createElement('img', { src: station.imageSmallUrl, alt: station.name })
       ) : '',
       station.imageUrl ? _react2['default'].createElement(
@@ -35859,41 +35871,49 @@ var StationComponent = function StationComponent(_ref2) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'station-info pure-u-1 pure-u-sm-1-2 center' },
+      { className: 'station-info pure-u-1 pure-u-sm-1-2 pure-u-md-2-3 center' },
       _react2['default'].createElement(
-        'p',
-        { className: 'station-name' },
+        'div',
+        { className: 'station-name pure-u-1 pure-u-md-1-2' },
         _react2['default'].createElement(
-          'a',
-          { href: station.wikipediaUrl },
-          station.name
-        )
+          'p',
+          { className: 'station-name' },
+          _react2['default'].createElement(
+            'a',
+            { href: station.wikipediaUrl, title: station.name },
+            station.name
+          )
+        ),
+        station.operator ? _react2['default'].createElement(
+          'p',
+          { className: 'station-operator' },
+          'Betreiber: ',
+          station.operator
+        ) : ''
       ),
-      station.operator ? _react2['default'].createElement(
-        'p',
-        { className: 'station-data' },
-        'Betreiber: ',
-        station.operator
-      ) : '',
-      station.duration ? _react2['default'].createElement(
-        'p',
-        { className: 'station-data' },
-        'Zeit im All: ',
-        station.duration
-      ) : '',
       _react2['default'].createElement(
-        'p',
-        { className: 'station-data' },
-        station.reenterDate ? 'von ' + station.launchDate + ' bis ' + station.reenterDate : 'Start: ' + station.launchDate + ' - ' + station.status
-      ),
-      station.volume ? _react2['default'].createElement(
-        'p',
-        { className: 'station-data' },
-        'Masse: ',
-        station.mass,
-        ', Volumen (unter Druck): ',
-        station.volume
-      ) : ''
+        'div',
+        { className: 'station-data pure-u-1 pure-u-md-1-2' },
+        station.duration ? _react2['default'].createElement(
+          'p',
+          { className: 'station-data' },
+          'Zeit im All: ',
+          station.duration
+        ) : '',
+        _react2['default'].createElement(
+          'p',
+          { className: 'station-data' },
+          station.reenterDate ? 'von ' + station.launchDate + ' bis ' + station.reenterDate : 'Start: ' + station.launchDate + ' - ' + station.status
+        ),
+        station.volume ? _react2['default'].createElement(
+          'p',
+          { className: 'station-data' },
+          'Masse: ',
+          station.mass,
+          ', Volumen (unter Druck): ',
+          station.volume
+        ) : ''
+      )
     )
   );
 };
@@ -36044,10 +36064,10 @@ var TelescopeComponent = function TelescopeComponent(_ref2) {
     { className: 'spacetelescope-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'spacetelescope-img pure-u-1 pure-u-sm-1-4 pure-u-lg-1-5 center' },
+      { className: 'spacetelescope-img pure-u-1 pure-u-sm-1-4 pure-u-md-1-3 center' },
       telescope.imageUrl ? _react2['default'].createElement(
         'a',
-        { href: telescope.imageUrl },
+        { href: telescope.imageUrl, title: telescope.name },
         _react2['default'].createElement('img', { src: telescope.imageSmallUrl, alt: telescope.name })
       ) : '',
       telescope.imageUrl ? _react2['default'].createElement(
@@ -36068,45 +36088,53 @@ var TelescopeComponent = function TelescopeComponent(_ref2) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'spacetelescope-info pure-u-1 pure-u-sm-1-2 pure-u-lg-3-5 center' },
+      { className: 'spacetelescope-info pure-u-1 pure-u-sm-1-2 pure-u-md-2-3 center' },
       _react2['default'].createElement(
-        'p',
-        { className: 'spacetelescope-name' },
+        'div',
+        { className: 'spacetelescope-name pure-u-1 pure-u-md-1-2' },
         _react2['default'].createElement(
-          'a',
-          { href: telescope.wikipediaUrl },
-          telescope.name
-        )
+          'p',
+          { className: 'spacetelescope-name' },
+          _react2['default'].createElement(
+            'a',
+            { href: telescope.wikipediaUrl, title: telescope.name },
+            telescope.name
+          )
+        ),
+        telescope.alternativename ? _react2['default'].createElement(
+          'p',
+          { className: 'spacetelescope-alternative-name' },
+          '(',
+          telescope.alternativename,
+          ')'
+        ) : ''
       ),
-      telescope.alternativename ? _react2['default'].createElement(
-        'p',
-        { className: 'spacetelescope-alternative-name' },
-        '(',
-        telescope.alternativename,
-        ')'
-      ) : '',
-      telescope.operator ? _react2['default'].createElement(
-        'p',
-        { className: 'spacetelescope-data' },
-        'Betreiber: ',
-        telescope.operator
-      ) : '',
-      telescope.purpose ? _react2['default'].createElement(
-        'p',
-        { className: 'spacetelescope-data' },
-        telescope.purpose
-      ) : '',
       _react2['default'].createElement(
-        'p',
-        { className: 'spacetelescope-data' },
-        telescope.endDate ? 'von ' + telescope.launchDate + ' bis ' + telescope.endDate : 'Start: ' + telescope.launchDate
-      ),
-      telescope.status ? _react2['default'].createElement(
-        'p',
-        { className: 'spacetelescope-data' },
-        'Status: ',
-        telescope.status
-      ) : ''
+        'div',
+        { className: 'spacetelescope-data pure-u-1 pure-u-md-1-2' },
+        telescope.operator ? _react2['default'].createElement(
+          'p',
+          { className: 'spacetelescope-data' },
+          'Betreiber: ',
+          telescope.operator
+        ) : '',
+        telescope.purpose ? _react2['default'].createElement(
+          'p',
+          { className: 'spacetelescope-data' },
+          telescope.purpose
+        ) : '',
+        _react2['default'].createElement(
+          'p',
+          { className: 'spacetelescope-data' },
+          telescope.endDate ? 'von ' + telescope.launchDate + ' bis ' + telescope.endDate : 'Start: ' + telescope.launchDate
+        ),
+        telescope.status ? _react2['default'].createElement(
+          'p',
+          { className: 'spacetelescope-data' },
+          'Status: ',
+          telescope.status
+        ) : ''
+      )
     )
   );
 };
@@ -37468,6 +37496,7 @@ var Constellation = (function () {
       item.imageLicenceUrl = raw.itemimglicenceurl;
       item.namedYear = raw.itemdateyear;
       item.astronomer = raw.itemparent;
+      item.astronomerUrl = raw.itemparenturl;
       item.rightAscension = raw.itemrightascension;
       item.declination = raw.itemdeclination;
       item.author = Author.fromRawData(raw);

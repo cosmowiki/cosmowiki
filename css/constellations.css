@@ -12,3 +12,7 @@ p.constellation-data {margin: .25em 0 0; font-size: 1em;}
 @media only all and (min-width: 35.5em) {
   p.constellation-name {margin: 1em 0 0; font-size: 1.25em;}
 }
+@media only all and (min-width: 48em) {
+  .constellation-name,
+  .constellation-data {margin-top: 3em;}
+}
