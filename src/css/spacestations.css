@@ -5,9 +5,13 @@
 .station-img small {display: block; font-size: .8em;}
 .station-img small:last-child {margin-left: .5em;}
 p.station-name {margin: .5em 0 0; font-size: 1.25em;}
-p.station-data {margin: .25em 0 0; font-size: 1em;}
+p.station-operator, p.station-data {margin: .25em 0 0; font-size: 1em;}
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
   p.station-name {margin: .75em 0 0; font-size: 1.25em;}
+}
+@media only all and (min-width: 48em) {
+  .station-name {margin-top: 2.5em;}
+  .station-data {margin-top: 2.5em;}
 }
