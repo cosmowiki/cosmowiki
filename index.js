@@ -34283,7 +34283,7 @@ var Logo = function Logo() {
     { id: "branding", className: "pure-u-1" },
     _react2["default"].createElement(
       "div",
-      { id: "logo", className: "pure-u-1-6 pure-u-sm-1-4 pure-u-md-1-3" },
+      { id: "logo", className: "pure-u-1-8 pure-u-sm-1-4 pure-u-md-1-3" },
       _react2["default"].createElement(
         "a",
         { href: "/", title: "CosmoWiki.de", rel: "home" },
@@ -34293,16 +34293,16 @@ var Logo = function Logo() {
     ),
     _react2["default"].createElement(
       "div",
-      { id: "search", className: "pure-u-2-3 pure-u-sm-1-2 pure-u-md-1-3 center" },
+      { id: "searchArea", className: "pure-u-3-4 pure-u-sm-1-2 pure-u-md-1-3 center" },
       _react2["default"].createElement(
         "form",
         { id: "searchForm", role: "search", method: "get", action: "" },
-        _react2["default"].createElement("input", { id: "searchInput", className: "pure-u-1", type: "text", name: "s", value: "", placeholder: "CosmoWiki durchsuchen", required: true })
+        _react2["default"].createElement("input", { id: "search", className: "pure-u-1", name: "search", type: "text", placeholder: "CosmoWiki durchsuchen", required: true })
       )
     ),
     _react2["default"].createElement(
       "div",
-      { id: "menuToggle", className: "pure-u-1-6 pure-u-sm-1-4 pure-u-md-1-3 right" },
+      { id: "menuToggle", className: "pure-u-1-8 pure-u-sm-1-4 pure-u-md-1-3 right" },
       _react2["default"].createElement("a", { href: "#" })
     )
   );
