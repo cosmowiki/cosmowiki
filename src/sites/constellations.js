@@ -28,6 +28,7 @@ class Constellation {
     item.imageLicenceUrl = raw.itemimglicenceurl;
     item.namedYear = raw.itemdateyear;
     item.astronomer = raw.itemparent;
+    item.astronomerUrl = raw.itemparenturl;
     item.rightAscension = raw.itemrightascension;
     item.declination = raw.itemdeclination;
     item.author = Author.fromRawData(raw);
