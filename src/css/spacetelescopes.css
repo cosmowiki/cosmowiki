@@ -12,3 +12,7 @@ p.spacetelescope-data {margin: .25em 0 0; font-size: 1em;}
 @media only all and (min-width: 35.5em) {
   p.spacetelescope-name {margin: .25em 0 0; font-size: 1.25em;}
 }
+@media only all and (min-width: 48em) {
+  .spacetelescope-name {margin-top: 3em;}
+  .spacetelescope-data {margin-top: 1.5em;}
+}
