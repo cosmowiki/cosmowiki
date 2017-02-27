@@ -72,17 +72,15 @@ header, main, footer {margin: 0 auto; max-width: 1025px;}
 img#CosmoWikiLogo {display: none;}
 img#CosmoWikiIcon {display: block; margin: 5px; height: 30px;}
 
-#search, #menuToggle {height: 40px;}
+#searchArea, #menuToggle {height: 40px;}
 
-#searchForm {padding:0;}
-#searchInput,
+#searchForm {margin: 8px 0;}
+#search,
 #searchSubmit {
-	margin: 8px 0;
 	line-height:20px; font-size: 16px;
 	background:#fff; box-shadow:none;
 	border:1px solid #99f; border-radius: 5px;
 }
-#searchInput {padding: 2px 5px;}
 #searchSubmit {
 	width:30px; padding: 2px; cursor:pointer;
 	color:#99f; font-weight: bold;
