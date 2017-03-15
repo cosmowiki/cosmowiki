@@ -1,33 +1,15 @@
-/*#featured.objects {background: url("/img/featured_objects.jpg") center top / contain no-repeat;}*/
-
-@media all and (min-width: 48em) {
-	#pageSubMenu a:focus,
-	#pageSubMenu a:hover,
-	#pageSubMenu a:active {color: #fff;}
-
-	#pageSubMenu li.Sonnensystem a:focus,
-	#pageSubMenu li.Sonnensystem a:hover,
-	#pageSubMenu li.Sonnensystem a:active {
-		background: url("/img/featured_solsys1.jpg") center / cover no-repeat;
-	}
-	#pageSubMenu li.Sternbilder a:focus,
-	#pageSubMenu li.Sternbilder a:hover,
-	#pageSubMenu li.Sternbilder a:active {
-		background: url("/img/featured_constellations1.jpg") center / cover no-repeat;
-	}
-	#pageSubMenu li.Sterne a:focus,
-	#pageSubMenu li.Sterne a:hover,
-	#pageSubMenu li.Sterne a:active {
-		background: url("/img/featured_stars1.jpg") center / cover no-repeat;
-	}
-	#pageSubMenu li.Raumstationen a:focus,
-	#pageSubMenu li.Raumstationen a:hover,
-	#pageSubMenu li.Raumstationen a:active {
-		background: url("/img/featured_stations1.jpg") center / cover no-repeat;
-	}
-	#pageSubMenu li.Weltraumteleskope a:focus,
-	#pageSubMenu li.Weltraumteleskope a:hover,
-	#pageSubMenu li.Weltraumteleskope a:active {
-		background: url("/img/featured_spacetele1.jpg") center / cover no-repeat;
-	}
+#pageSubMenu li.Sonnensystem {
+	background: url("/img/featured_solsys.jpg") center / cover no-repeat;
+}
+#pageSubMenu li.Sternbilder {
+	background: url("/img/featured_constellations.jpg") center / cover no-repeat;
+}
+#pageSubMenu li.Sterne {
+	background: url("/img/featured_stars.jpg") center / cover no-repeat;
+}
+#pageSubMenu li.Raumstationen {
+	background: url("/img/featured_stations.jpg") center / cover no-repeat;
+}
+#pageSubMenu li.Weltraumteleskope {
+	background: url("/img/featured_spacetele.jpg") center / cover no-repeat;
 }
