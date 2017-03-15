@@ -35342,11 +35342,6 @@ var PeopleComponent = function PeopleComponent(_ref) {
       _react2['default'].createElement(
         'p',
         null,
-        '@wolfram pls hide the filter-options "astronauts" on astronomers-site and "astronomers" on astronauts-site'
-      ),
-      _react2['default'].createElement(
-        'p',
-        null,
         '@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens'
       )
     ),
