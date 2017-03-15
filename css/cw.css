@@ -186,6 +186,9 @@ main {border-bottom: 1em solid #eee;}
 	background: rgba(255,255,255,.8);
 	border-bottom: 1px solid #fff;
 }
+#pageSubMenu a:focus,
+#pageSubMenu a:hover,
+#pageSubMenu a:active {color: #fff; background: rgba(255,255,255,.5);}
 
 /*		dataArea -------------------------------------------------------------- */
 
