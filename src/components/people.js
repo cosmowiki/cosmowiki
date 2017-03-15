@@ -14,7 +14,6 @@ const PeopleComponent = ({groupedPeople}) => {
       </div>
       <div id="todo" className="pure-u-1">
         <p>@wolfram pls replace the filter forms with FilterRows as in stars-site</p>
-        <p>@wolfram pls hide the filter-options "astronauts" on astronomers-site and "astronomers" on astronauts-site</p>
         <p>@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens</p>
       </div>
       <div id="controlArea" className="persons pure-u-1">
