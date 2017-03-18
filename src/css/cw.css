@@ -52,7 +52,7 @@ a:focus img, a:hover img, a:active img {}
 	background-size: cover;
 }
 #wrapper {
-	background: url(/img/bgWrapper8_sm.jpg) center / cover no-repeat fixed #113;
+	/*background: url(/img/bgWrapper8_sm.jpg) center / cover no-repeat fixed #113;*/
 }
 
 header, main, footer {margin: 0 auto; max-width: 1025px;}
@@ -62,7 +62,7 @@ header, main, footer {margin: 0 auto; max-width: 1025px;}
 #branding {
 	position: fixed; top: 0; left: 0;
 	height: 40px;
-	background-image: linear-gradient(to right, #fff 50px, rgba(153,153,255,.2));
+	background-image: linear-gradient(to right, #fff 50px, #ddf);
 	border-bottom: 1px solid #fff;
 }
 #branding:hover {
@@ -254,7 +254,7 @@ footer ul li:last-child a:hover {border-radius: 0 0 5px 5px;}
 
 @media only screen and (min-width: 48em) {
 	#branding {
-		background-image: linear-gradient(to right, #fff 180px, rgba(153,153,255,.2));
+		background-image: linear-gradient(to right, #fff 180px, #ddf);
 	}
 	#branding:hover {
 		background-image: linear-gradient(to right, #fff 180px, #ddf);
@@ -288,17 +288,17 @@ footer ul li:last-child a:hover {border-radius: 0 0 5px 5px;}
 }
 @media only screen and (min-width: 1200px) {
 	#wrapper {
-		background: url(/img/bgWrapper8_md.jpg) center / cover no-repeat fixed #113;
+		/*background: url(/img/bgWrapper8_md.jpg) center / cover no-repeat fixed #113;*/
   }
 }
 @media only screen and (min-width: 2500px) {
 	#wrapper {
-		background: url(/img/bgWrapper8_lg.jpg) center / cover no-repeat fixed #113;
+		/*background: url(/img/bgWrapper8_lg.jpg) center / cover no-repeat fixed #113;*/
   }
 }
 @media only screen and (min-width: 3800px) {
 	#wrapper {
-		background: url(/img/bgWrapper8_xl.jpg) center / cover no-repeat fixed #113;
+		/*background: url(/img/bgWrapper8_xl.jpg) center / cover no-repeat fixed #113;*/
   }
 }
 
