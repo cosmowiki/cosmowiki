@@ -1,33 +1,116 @@
-/*#featured.solsys {background: url("/img/featured_solsys.jpg") center top / contain no-repeat;}*/
-.solsysRow {background: #c7e9ff;}
-.solsysRow.Stern {background: LemonChiffon;}
-.solsysRow.Merkur {background: #eedc82;}
-.solsysRow.Venus {background: #cccdd5;}
-.solsysRow.Erde {background: LightsteelBlue;}
-.solsysRow.Mars {background: SandyBrown;}
-.solsysRow.Jupiter {background: #e2d2c3;}
-.solsysRow.Saturn {background: Khaki;}
-.solsysRow.Uranus {background: #bee3e6;}
-.solsysRow.Neptun {background: #90d0f8;}
-.solsysInfoBox {
-	position: absolute; width: 310px; margin: 0; padding: 3px; font-weight: normal;
-	border-width: 0 2px 2px 2px; border-style: solid; border-radius: 0 0 6px 6px;
-	box-shadow: 0px 6px 6px #999;
+#solarsystemTable {
+	font-size: 1.25em;
 }
-.solsysInfoBox.Sonne, .solsysInfoBox.Planet, .solsysInfoBox.Mond {background: #fff;}
-.solsysInfoBox, .solsysInfoBox.Gruppe von Objekten.Sonne {border-color: #c7e9ff;}
-.solsysRow.Planet {margin-left: 320px;}
-.solsysRow.Mond {margin-left: 640px;}
-.solsysInfoBox.Sonne {border-color: LemonChiffon;}
-.solsysInfoBox.Merkur {border-color: #eedc82;}
-.solsysInfoBox.Venus {border-color: #cccdd5;}
-.solsysInfoBox.Erde {border-color: LightsteelBlue;}
-.solsysInfoBox.Mars {border-color: SandyBrown;}
-.solsysInfoBox.Jupiter {border-color: #e2d2c3;}
-.solsysInfoBox.Saturn {border-color: Khaki;}
-.solsysInfoBox.Uranus {border-color: #bee3e6;}
-.solsysInfoBox.Neptun {border-color: #90d0f8;}
-.solsysItem a {padding: 5px; display: block;}
-.solsysCategory {margin-bottom: 10px;}
-.solsysInfoBox th, .solsysInfoBox td {padding-right: 5px; min-width: 145px}
-.solsysInfoBox li {margin-left: 20px;}
+#solarsystemTable div {display: block;}
+.solsys-name {padding: .2em;}
+#sun,
+#asteroidBelt,
+#transneptunianObjects,
+#oortCloud,
+.group2,
+.group3,
+.group4 {border-bottom: 1px solid #fff;}
+.group2 {margin-left: 25%;}
+.group3 {margin-left: 50%;}
+.group4 {margin-left: 75%;}
+
+/*#sun {outline: 1px solid black;}
+#innerPlanets {outline: 1px solid blue;}
+#asteroidBelt {outline: 1px solid red;}
+#outerPlanets {outline: 1px solid black;}*/
+
+.sun {
+	background-image: linear-gradient( to right, rgba(240,88,2,.5) 50%, rgba(255,255,255,0));
+}
+.sun:focus, .sun:hover, .sun:active {
+	background-image: linear-gradient( to right, rgba(240,88,2,.8) 50%, rgba(255,255,255,0));
+}
+
+#innerPlanets,
+#outerPlanets {background: rgba(255,255,255,.3);}
+
+.mercury {
+	background-image: linear-gradient( to right, rgba(210,210,210,.5) 50%, rgba(255,255,255,0));
+}
+.mercury:focus, .mercury:hover, .mercury:active {
+	background-image: linear-gradient( to right, rgba(210,210,210,.8) 50%, rgba(255,255,255,0));
+}
+
+.venus {
+	background-image: linear-gradient( to right, rgba(230,190,18,.5) 50%, rgba(255,255,255,0));
+}
+.venus:focus, .venus:hover, .venus:active {
+	background-image: linear-gradient( to right, rgba(230,190,18,.8) 50%, rgba(255,255,255,0));
+}
+
+.earth {
+	background-image: linear-gradient( to right, rgba(1,114,192,.5) 50%, rgba(255,255,255,0));
+}
+.earth:focus, .earth:hover, .earth:active {
+	background-image: linear-gradient( to right, rgba(1,114,192,.8) 50%, rgba(255,255,255,0));
+}
+
+.aten-asteroids,
+.apollo-asteroids,
+.amor-asteroids,
+.asteroid-belt,
+.centaurs-1,
+.centaurs-2,
+.centaurs-3,
+.oort-cloud {
+	background-image: linear-gradient( to right, rgba(181,181,181,.5) 50%, rgba(255,255,255,0));
+}
+.aten-asteroids:focus, .aten-asteroids:hover, .aten-asteroids:active,
+.apollo-asteroids:focus, .apollo-asteroids:hover, .apollo-asteroids:active,
+.amor-asteroids:focus, .amor-asteroids:hover, .amor-asteroids:active,
+.asteroid-belt:focus, .asteroid-belt:hover, .asteroid-belt:active,
+.centaurs-1:focus, .centaurs-1:hover, .centaurs-1:active,
+.centaurs-2:focus, .centaurs-2:hover, .centaurs-2:active,
+.centaurs-3:focus, .centaurs-3:hover, .centaurs-3:active,
+.oort-cloud:focus, .oort-cloud:hover, .oort-cloud:active {
+	background-image: linear-gradient( to right, rgba(181,181,181,.8) 50%, rgba(255,255,255,0));
+}
+
+.mars {
+	background-image: linear-gradient( to right, rgba(229,145,85,.5) 50%, rgba(255,255,255,0));
+}
+.mars:focus, .mars:hover, .mars:active {
+	background-image: linear-gradient( to right, rgba(229,145,85,.8) 50%, rgba(255,255,255,0));
+}
+
+.jupiter {
+	background-image: linear-gradient( to right, rgba(171,154,144,.5) 50%, rgba(255,255,255,0));
+}
+.jupiter:focus, .jupiter:hover, .jupiter:active {
+	background-image: linear-gradient( to right, rgba(171,154,144,.8) 50%, rgba(255,255,255,0));
+}
+
+.saturn {
+	background-image: linear-gradient( to right, rgba(221,198,157,.5) 50%, rgba(255,255,255,0));
+}
+.saturn:focus, .saturn:hover, .saturn:active {
+	background-image: linear-gradient( to right, rgba(221,198,157,.8) 50%, rgba(255,255,255,0));
+}
+
+.uranus {
+	background-image: linear-gradient( to right, rgba(181,223,221,.5) 50%, rgba(255,255,255,0));
+}
+.uranus:focus, .uranus:hover, .uranus:active {
+	background-image: linear-gradient( to right, rgba(181,223,221,.8) 50%, rgba(255,255,255,0));
+}
+
+.neptune {
+	background-image: linear-gradient( to right, rgba(72,115,255,.5) 50%, rgba(255,255,255,0));
+}
+.neptune:focus, .neptune:hover, .neptune:active {
+	background-image: linear-gradient( to right, rgba(72,115,255,.8) 50%, rgba(255,255,255,0));
+}
+
+.transneptunian-objects {
+	background-image: linear-gradient( to right, rgba(193,160,129,.5) 50%, rgba(255,255,255,0));
+}
+.transneptunian-objects:focus,
+.transneptunian-objects:hover,
+.transneptunian-objects:active {
+	background-image: linear-gradient( to right, rgba(193,160,129,.8) 50%, rgba(255,255,255,0));
+}

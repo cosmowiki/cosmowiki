@@ -35658,26 +35658,358 @@ var SolarSystemComponent = function SolarSystemComponent() {
     { role: 'main', className: 'pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { id: 'featured', className: 'pure-u-1 solsys' },
+      { id: 'featured', className: 'solar-system pure-u-1 center' },
       _react2['default'].createElement(
         'h1',
         null,
-        'unser Sonnensystem'
+        'das Sonnensystem'
       ),
       _react2['default'].createElement(
         'h3',
         null,
-        'kosmische Heimat'
+        'unsere kosmische Heimat'
       )
     ),
-    _react2['default'].createElement('script', { type: 'text/javascript', src: 'js/solsysTable.js' }),
+    _react2['default'].createElement('div', { id: 'controlArea', className: 'solar-system pure-u-1' }),
     _react2['default'].createElement(
       'div',
-      { id: 'dataArea', className: 'pure-u-1  solsys' },
+      { id: 'dataArea', className: 'solar-system pure-u-1' },
       _react2['default'].createElement(
         'div',
-        { id: 'solsysTable' },
-        'missing data ... got no JSON file for this :('
+        { id: 'solarsystemTable' },
+        _react2['default'].createElement(
+          'div',
+          { id: 'sun', className: 'sun group1 pure-u-1' },
+          _react2['default'].createElement(
+            'div',
+            { className: 'solsys-name' },
+            'Sonne'
+          )
+        ),
+        _react2['default'].createElement(
+          'div',
+          { id: 'innerPlanets', className: 'group1 pure-u-1' },
+          _react2['default'].createElement(
+            'div',
+            { className: 'solsys-name' },
+            'Innere Planeten'
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'mercury', className: 'planet mercury group2 pure-u-3-4' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Merkur'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'venus', className: 'planet venus group2 pure-u-3-4' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Venus'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'atenAsteroids', className: 'aten-asteroids collapsable group2 pure-u-3-4' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Aten-Typ-Asteroiden'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'earth', className: 'planet earth group2 pure-u-3-4' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Erde'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'earthMoon', className: 'earth moon group4 pure-u-1-4' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Mond'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'nearEarthObjects', className: 'earth near-earth-objects collapsable group3 pure-u-1-2' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'erdnahe Objekte'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'apolloAsteroids', className: 'apollo-asteroids collapsable group2 pure-u-3-4' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Apollo-Typ-Asteroiden'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'mars', className: 'mars group2 pure-u-3-4' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Mars'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'mars1', className: 'mars moon group4 pure-u-1-4' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Phobos'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'mars2', className: 'mars moon group4 pure-u-1-4' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Deimos'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'marsTrojans', className: 'mars mars-trojans collapsable group3 pure-u-1-2' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Mars-Trojaner'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'amorAsteroids', className: 'amor-asteroids collapsable group2 pure-u-3-4' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Amor-Typ-Asteroiden'
+            )
+          )
+        ),
+        _react2['default'].createElement(
+          'div',
+          { id: 'asteroidBelt', className: 'asteroid-belt collapsable group1 pure-u-1' },
+          _react2['default'].createElement(
+            'div',
+            { className: 'solsys-name' },
+            'Asteroidengürtel'
+          )
+        ),
+        _react2['default'].createElement(
+          'div',
+          { id: 'outerPlanets', className: 'group1 pure-u-1' },
+          _react2['default'].createElement(
+            'div',
+            { className: 'solsys-name' },
+            'Äußere Planeten'
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'jupiter', className: 'planet jupiter group2 pure-u-3-4' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Jupiter'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'jupiterMoons', className: 'jupiter jupiter-moons collapsable group3 pure-u-1-2' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Jupiter-Monde'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'jupiter1', className: 'jupiter moon group4 pure-u-1-4' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Jupiter I'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'jupiterTrojans', className: 'jupiter jupiter-trojans collapsable group3 pure-u-1-2' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Jupiter-Trojaner'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'centaurs1', className: 'centaurs-1 collapsable group2 pure-u-3-4' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Zentauren'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'saturn', className: 'planet saturn group2 pure-u-3-4' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Saturn'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'saturnMoons', className: 'saturn saturn-moons collapsable group3 pure-u-1-2' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Saturn-Monde'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'saturn1', className: 'saturn moon group4 pure-u-1-4' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Saturn I'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'centaurs2', className: 'centaurs-2 collapsable group2 pure-u-3-4' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Zentauren'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'uranus', className: 'planet uranus group2 pure-u-3-4' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Uranus'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'uranusMoons', className: 'uranus uranus-moons collapsable group3 pure-u-1-2' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Uranus-Monde'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'uranus1', className: 'uranus moon group4 pure-u-1-4' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Uranus I'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'centaurs3', className: 'centaurs-3 collapsable group2 pure-u-3-4' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Zentauren'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'neptune', className: 'planet neptune group2 pure-u-3-4' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Neptun'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'neptuneMoons', className: 'neptune neptune-moons collapsable group3 pure-u-1-2' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Neptun-Monde'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'neptune1', className: 'neptune moon group4 pure-u-1-4' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Neptun I'
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'neptuneTrojans', className: 'neptune neptune-trojans collapsable group3 pure-u-1-2' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'solsys-name' },
+              'Neptun-Trojaner'
+            )
+          )
+        ),
+        _react2['default'].createElement(
+          'div',
+          { id: 'transneptunianObjects', className: 'transneptunian-objects group1 pure-u-1' },
+          _react2['default'].createElement(
+            'div',
+            { className: 'solsys-name' },
+            'Transneptunische Objekte'
+          )
+        ),
+        _react2['default'].createElement(
+          'div',
+          { id: 'kuiperBelt', className: 'transneptunian-objects kuiper-belt collapsable group2 pure-u-3-4' },
+          _react2['default'].createElement(
+            'div',
+            { className: 'solsys-name' },
+            'Kuipergürtel'
+          )
+        ),
+        _react2['default'].createElement(
+          'div',
+          { id: 'sedna', className: 'transneptunian-objects sedna group3 pure-u-1-2' },
+          _react2['default'].createElement(
+            'div',
+            { className: 'solsys-name' },
+            'Sedna'
+          )
+        ),
+        _react2['default'].createElement(
+          'div',
+          { id: 'oortCloud', className: 'oort-cloud collapsable group1 pure-u-1' },
+          _react2['default'].createElement(
+            'div',
+            { className: 'solsys-name' },
+            'Oortsche Wolke'
+          )
+        )
       )
     ),
     _react2['default'].createElement(_notes2['default'], null)
