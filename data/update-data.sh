@@ -55,3 +55,9 @@ if [[ $# == 0 || $1 == spacetelescopes ]]; then
   gsjson 1YY06xH0Q6AWq8W1FLcY_h9dWl9Q7ECFOu6J6qbXKgMM --beautify $FILENAME --worksheet 8
   echo "`du -h $FILENAME` loaded"
 fi
+
+if [[ $# == 0 || $1 == solarsystem ]]; then
+  FILENAME=data/solarsystem.json
+  gsjson 1YY06xH0Q6AWq8W1FLcY_h9dWl9Q7ECFOu6J6qbXKgMM --beautify $FILENAME --worksheet 9
+  echo "`du -h $FILENAME` loaded"
+fi
