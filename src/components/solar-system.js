@@ -66,15 +66,25 @@ const SolarSystemComponent = () => {
               <div className="item-name">Amor-Typ-Asteroiden</div>
               <div id="amor1Asteroids" className="item-has-children type-3 pure-u-3-4">
                 <div className="item-name">Amor-I-Asteroiden</div>
+
               </div>
               <div id="amor2Asteroids" className="item-has-children type-3 pure-u-3-4">
                 <div className="item-name">Amor-II-Asteroiden</div>
+                <div id="1221amor" className="type-4 pure-u-2-3">
+                  <div className="item-name">(1221) Amor</div>
+                </div>
               </div>
               <div id="amor3Asteroids" className="item-has-children type-3 pure-u-3-4">
                 <div className="item-name">Amor-III-Asteroiden</div>
+                <div id="1036ganymed" className="type-4 pure-u-2-3">
+                  <div className="item-name">(1036) Ganymed</div>
+                </div>
               </div>
               <div id="amor4Asteroids" className="item-has-children type-3 pure-u-3-4">
                 <div className="item-name">Amor-IV-Asteroiden</div>
+                <div id="3552donquixote" className="type-4 pure-u-2-3">
+                  <div className="item-name">(3552) Don Quixote</div>
+                </div>
               </div>
             </div>
           </div>

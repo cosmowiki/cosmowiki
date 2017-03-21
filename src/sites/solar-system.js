@@ -46,9 +46,12 @@ class Item {
   static fromRawData(raw) {
     const item = new Item();
     item.name = raw.itemname;
-    item.alternativename = raw.itemname2;
+    item.name2 = raw.itemname2;
+    const alternativename1 = raw.itemname3 ? `${raw.itemname3}`: '';
+    const alternativename2 = raw.itemname4 ? ` ${raw.itemname4}`: '';
+    item.alternativename = `(${alternativename1}${alternativename2})`;//to use in id=""
     item.type = raw.itemtype;//1 = pure-u-1, 2 = pure-u-4-5, 3 = pure-u-3-4, 4 = pure-u-2-3, 5 = pure-u-1-2
-    item.category = raw.itemcategory;
+    item.category = raw.itemcategory;//star, group, planet, moon, object
     item.parent = raw.itemparent;
     item.color = raw.itemcolor;
     item.wikipediaUrl = raw.itemurl;
@@ -58,9 +61,14 @@ class Item {
     item.imageLicence = raw.itemimglicence;
     item.imageLicenseUrl = raw.itemimglicenceurl;
 
-    item.apo = raw.itemnearest;
-    item.peri = raw.itemfarthest;
+    item.semimajoraxis = raw.semimajoraxis;
+    item.farthest = raw.itemapoapsis;
+    item.nearest = raw.itemperiapsis;
+    item.eccentricity = raw.itemeccentricity;
     item.inclination = raw.iteminclination;
+    item.orbitalperiod = raw.itemorbitalperiod;
+    item.synodicperiod = raw.itemsynodicperiod;
+    item.orbitalspeed = raw.itemorbitalspeed;
     item.diameter = raw.itemdiameter;
     item.mass = raw.itemmass;
     item.density = raw.itemdensity;

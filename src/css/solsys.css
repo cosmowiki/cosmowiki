@@ -4,10 +4,10 @@
 
 #solarsystemTable div {display: block;}
 .item-name {padding: .2em;}
-.type-1 div.item-name {border-top: 1px solid #fff;}
-.type-2 div.item-name {border-top: none; border-bottom: 1px solid #fff;}
+.type-1 .item-name {border-top: 1px solid #fff;}
+.type-2 .item-name {border-top: none; border-bottom: 1px solid #fff;}
 /* how to avoid border-bottom of last div.item-name inside each div.type-1? */
-/*.type-1 div.item-name:last-of-type {border-top: none; border-bottom: none;}*/
+/*.type-2 .item-name:last-of-type {border-top: none; border-bottom: none;}*/
 
 .type-2 {margin-left: 20%;}
 .type-3 {margin-left: 25%;}
