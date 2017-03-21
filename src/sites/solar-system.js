@@ -26,7 +26,7 @@ For each item in JSON with existing(!) item.name2 build a div as a child of the 
   <div className="item-name">{item.name}</div>
 
 WHEN item.type > 1 AND item.category = "group", THEN add className item-has-children
-after item.category to expand the group onClick to show child-elements.
+before item.type to expand the group onClick to show child-elements.
 */
 
 export default class SolarSystem {
