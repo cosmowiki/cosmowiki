@@ -64,16 +64,16 @@ const SolarSystemComponent = () => {
             </div>
             <div id="amorAsteroids" className="item-has-children type-2 pure-u-4-5">
               <div className="item-name">Amor-Typ-Asteroiden</div>
-              <div id="amor1Asteroids" className="item-has-children type-2 pure-u-3-4">
+              <div id="amor1Asteroids" className="item-has-children type-3 pure-u-3-4">
                 <div className="item-name">Amor-I-Asteroiden</div>
               </div>
-              <div id="amor2Asteroids" className="item-has-children type-2 pure-u-3-4">
+              <div id="amor2Asteroids" className="item-has-children type-3 pure-u-3-4">
                 <div className="item-name">Amor-II-Asteroiden</div>
               </div>
-              <div id="amor3Asteroids" className="item-has-children type-2 pure-u-3-4">
+              <div id="amor3Asteroids" className="item-has-children type-3 pure-u-3-4">
                 <div className="item-name">Amor-III-Asteroiden</div>
               </div>
-              <div id="amor4Asteroids" className="item-has-children type-2 pure-u-3-4">
+              <div id="amor4Asteroids" className="item-has-children type-3 pure-u-3-4">
                 <div className="item-name">Amor-IV-Asteroiden</div>
               </div>
             </div>
