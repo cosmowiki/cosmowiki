@@ -1,6 +1,18 @@
 import React from 'react';
 import SolarSystemComponent from '../components/solar-system';
 
+export default class SolarSystem {
+
+  static componentWithData(_, appUrl) {
+    return <SolarSystemComponent appUrl={appUrl} />;
+  }
+
+  static fromRawData() {
+    return rawData.map(raw => SolarSystem.fromRawData(raw))
+  }
+
+}
+
 /*
 Conditions to build the component/solar-system.js:
 - item.type 1 = inner planets group, the asteroid-belt, outer planets group,
@@ -28,18 +40,6 @@ For each item in JSON with existing(!) item.name2 build a div as a child of the 
 WHEN item.type > 1 AND item.category = "group", THEN add className item-has-children
 before item.type to expand the group onClick to show child-elements.
 */
-
-export default class SolarSystem {
-
-  static componentWithData(_, appUrl) {
-    return <SolarSystemComponent appUrl={appUrl} />;
-  }
-
-  static fromRawData() {
-    return rawData.map(raw => SolarSystem.fromRawData(raw))
-  }
-
-}
 
 class Item {
 
