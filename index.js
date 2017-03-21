@@ -38707,38 +38707,38 @@ var _componentsSolarSystem = require('../components/solar-system');
 
 var _componentsSolarSystem2 = _interopRequireDefault(_componentsSolarSystem);
 
-/*
-Conditions to build the component/solar-system.js:
-- item.type 1 = inner planets group, the asteroid-belt, outer planets group,
-transneptunian-objects group and the oort-cloud.
-- item.type 2 = all planets and groups equal in hierarchy.
-- item.type 3 = trojan groups, groups of planet moons and the asteroid groups of the asteroid-belt.
-- item.type 4 = all planet moons, asteroids of the asteroid-belt and kuiperbelt objects.
-- item.type 5 = only moons of kuiperbelt-objects.
-In html structure item.type 5 is a child of item.type 4, 4 a child of 3, 3 of 2 and 2 of 1.
-
-For each item in JSON build a div like this:
-<div id="{item.name2}" className="{item.type} pure-u-x">.
-Some JSON items may not contain an item.name2. These divs don't get an id
-and will exist only to ensure a proper stucture in html and pure-grid.
-Pure-grid-classes:
-item.type 1 = pure-u-1
-item.type 2 = pure-u-4-5
-item.type 3 = pure-u-3-4
-item.type 4 = pure-u-2-3
-item.type 5 = pure-u-1-2
-
-For each item in JSON with existing(!) item.name2 build a div as a child of the div above like this:
-  <div className="item-name">{item.name}</div>
-
-WHEN item.type > 1 AND item.category = "group", THEN add className item-has-children
-before item.type to expand the group onClick to show child-elements.
-*/
-
 var SolarSystem = (function () {
   function SolarSystem() {
     _classCallCheck(this, SolarSystem);
   }
+
+  /*
+  Conditions to build the component/solar-system.js:
+  - item.type 1 = inner planets group, the asteroid-belt, outer planets group,
+  transneptunian-objects group and the oort-cloud.
+  - item.type 2 = all planets and groups equal in hierarchy.
+  - item.type 3 = trojan groups, groups of planet moons and the asteroid groups of the asteroid-belt.
+  - item.type 4 = all planet moons, asteroids of the asteroid-belt and kuiperbelt objects.
+  - item.type 5 = only moons of kuiperbelt-objects.
+  In html structure item.type 5 is a child of item.type 4, 4 a child of 3, 3 of 2 and 2 of 1.
+  
+  For each item in JSON build a div like this:
+  <div id="{item.name2}" className="{item.type} pure-u-x">.
+  Some JSON items may not contain an item.name2. These divs don't get an id
+  and will exist only to ensure a proper stucture in html and pure-grid.
+  Pure-grid-classes:
+  item.type 1 = pure-u-1
+  item.type 2 = pure-u-4-5
+  item.type 3 = pure-u-3-4
+  item.type 4 = pure-u-2-3
+  item.type 5 = pure-u-1-2
+  
+  For each item in JSON with existing(!) item.name2 build a div as a child of the div above like this:
+    <div className="item-name">{item.name}</div>
+  
+  WHEN item.type > 1 AND item.category = "group", THEN add className item-has-children
+  before item.type to expand the group onClick to show child-elements.
+  */
 
   _createClass(SolarSystem, null, [{
     key: 'componentWithData',
