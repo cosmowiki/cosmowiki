@@ -13,8 +13,8 @@ In html structure item.type 5 is a child of item.type 4, 4 a child of 3, 3 of 2 
 
 For each item in JSON build a div like this:
 <div id="{item.name2}" className="{item.type} pure-u-x">.
-Some JSON items may not contain an item.name2. These divs don't get an id and exist only to
-ensure a proper stucture in html and pure-grid.
+Some JSON items may not contain an item.name2. These divs don't get an id
+and will exist only to ensure a proper stucture in html and pure-grid.
 Pure-grid-classes:
 item.type 1 = pure-u-1
 item.type 2 = pure-u-4-5
