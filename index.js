@@ -35853,6 +35853,15 @@ var SolarSystemComponent = function SolarSystemComponent() {
                 'div',
                 { className: 'item-name' },
                 'Amor-II-Asteroiden'
+              ),
+              _react2['default'].createElement(
+                'div',
+                { id: '1221amor', className: 'type-4 pure-u-2-3' },
+                _react2['default'].createElement(
+                  'div',
+                  { className: 'item-name' },
+                  '(1221) Amor'
+                )
               )
             ),
             _react2['default'].createElement(
@@ -35862,6 +35871,15 @@ var SolarSystemComponent = function SolarSystemComponent() {
                 'div',
                 { className: 'item-name' },
                 'Amor-III-Asteroiden'
+              ),
+              _react2['default'].createElement(
+                'div',
+                { id: '1036ganymed', className: 'type-4 pure-u-2-3' },
+                _react2['default'].createElement(
+                  'div',
+                  { className: 'item-name' },
+                  '(1036) Ganymed'
+                )
               )
             ),
             _react2['default'].createElement(
@@ -35871,6 +35889,15 @@ var SolarSystemComponent = function SolarSystemComponent() {
                 'div',
                 { className: 'item-name' },
                 'Amor-IV-Asteroiden'
+              ),
+              _react2['default'].createElement(
+                'div',
+                { id: '3552donquixote', className: 'type-4 pure-u-2-3' },
+                _react2['default'].createElement(
+                  'div',
+                  { className: 'item-name' },
+                  '(3552) Don Quixote'
+                )
               )
             )
           )
@@ -38776,9 +38803,12 @@ var Item = (function () {
     value: function fromRawData(raw) {
       var item = new Item();
       item.name = raw.itemname;
-      item.alternativename = raw.itemname2;
+      item.name2 = raw.itemname2;
+      var alternativename1 = raw.itemname3 ? '' + raw.itemname3 : '';
+      var alternativename2 = raw.itemname4 ? ' ' + raw.itemname4 : '';
+      item.alternativename = '(' + alternativename1 + alternativename2 + ')'; //to use in id=""
       item.type = raw.itemtype; //1 = pure-u-1, 2 = pure-u-4-5, 3 = pure-u-3-4, 4 = pure-u-2-3, 5 = pure-u-1-2
-      item.category = raw.itemcategory;
+      item.category = raw.itemcategory; //star, group, planet, moon, object
       item.parent = raw.itemparent;
       item.color = raw.itemcolor;
       item.wikipediaUrl = raw.itemurl;
@@ -38788,9 +38818,14 @@ var Item = (function () {
       item.imageLicence = raw.itemimglicence;
       item.imageLicenseUrl = raw.itemimglicenceurl;
 
-      item.apo = raw.itemnearest;
-      item.peri = raw.itemfarthest;
+      item.semimajoraxis = raw.semimajoraxis;
+      item.farthest = raw.itemapoapsis;
+      item.nearest = raw.itemperiapsis;
+      item.eccentricity = raw.itemeccentricity;
       item.inclination = raw.iteminclination;
+      item.orbitalperiod = raw.itemorbitalperiod;
+      item.synodicperiod = raw.itemsynodicperiod;
+      item.orbitalspeed = raw.itemorbitalspeed;
       item.diameter = raw.itemdiameter;
       item.mass = raw.itemmass;
       item.density = raw.itemdensity;
