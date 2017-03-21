@@ -35839,7 +35839,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'amor1Asteroids', className: 'item-has-children type-2 pure-u-3-4' },
+              { id: 'amor1Asteroids', className: 'item-has-children type-3 pure-u-3-4' },
               _react2['default'].createElement(
                 'div',
                 { className: 'item-name' },
@@ -35848,7 +35848,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'amor2Asteroids', className: 'item-has-children type-2 pure-u-3-4' },
+              { id: 'amor2Asteroids', className: 'item-has-children type-3 pure-u-3-4' },
               _react2['default'].createElement(
                 'div',
                 { className: 'item-name' },
@@ -35857,7 +35857,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'amor3Asteroids', className: 'item-has-children type-2 pure-u-3-4' },
+              { id: 'amor3Asteroids', className: 'item-has-children type-3 pure-u-3-4' },
               _react2['default'].createElement(
                 'div',
                 { className: 'item-name' },
@@ -35866,7 +35866,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'amor4Asteroids', className: 'item-has-children type-2 pure-u-3-4' },
+              { id: 'amor4Asteroids', className: 'item-has-children type-3 pure-u-3-4' },
               _react2['default'].createElement(
                 'div',
                 { className: 'item-name' },
