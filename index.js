@@ -35696,8 +35696,8 @@ var SolarSystemComponent = function SolarSystemComponent() {
           'div',
           { id: 'sun', className: 'type-1 pure-u-1' },
           _react2['default'].createElement(
-            'div',
-            { className: 'item-name' },
+            'a',
+            { href: '#', title: '', className: 'item-name' },
             'Sonne'
           )
         ),
@@ -35705,16 +35705,16 @@ var SolarSystemComponent = function SolarSystemComponent() {
           'div',
           { id: 'innerPlanets', className: 'type-1 pure-u-1' },
           _react2['default'].createElement(
-            'div',
-            { className: 'item-name' },
+            'a',
+            { href: '#', className: 'item-name' },
             'Innere Planeten'
           ),
           _react2['default'].createElement(
             'div',
             { id: 'mercury', className: 'type-2 pure-u-4-5' },
             _react2['default'].createElement(
-              'div',
-              { className: 'item-name' },
+              'a',
+              { href: '#', className: 'item-name' },
               'Merkur'
             )
           ),
@@ -35722,28 +35722,28 @@ var SolarSystemComponent = function SolarSystemComponent() {
             'div',
             { id: 'venus', className: 'type-2 pure-u-4-5' },
             _react2['default'].createElement(
-              'div',
-              { className: 'item-name' },
+              'a',
+              { href: '#', className: 'item-name' },
               'Venus'
             )
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'atenAsteroids', className: 'item-has-children type-2 pure-u-4-5' },
+            { id: 'atenAsteroids', className: 'collapsed type-2 pure-u-4-5' },
             _react2['default'].createElement(
-              'div',
-              { className: 'item-name' },
+              'a',
+              { href: '#', className: 'item-name' },
               'Aten-Typ-Asteroiden'
             ),
             _react2['default'].createElement(
               'div',
-              { className: 'item-has-children type-3 pure-u-3-4' },
+              { className: 'type-3 pure-u-3-4' },
               _react2['default'].createElement(
                 'div',
                 { id: '2062aten', className: 'type-4 pure-u-2-3' },
                 _react2['default'].createElement(
-                  'div',
-                  { className: 'item-name' },
+                  'a',
+                  { href: '#', className: 'item-name' },
                   '(2062) Aten'
                 )
               )
@@ -35753,8 +35753,8 @@ var SolarSystemComponent = function SolarSystemComponent() {
             'div',
             { id: 'earth', className: 'type-2 pure-u-4-5' },
             _react2['default'].createElement(
-              'div',
-              { className: 'item-name' },
+              'a',
+              { href: '#', className: 'item-name' },
               'Erde'
             ),
             _react2['default'].createElement(
@@ -35764,48 +35764,61 @@ var SolarSystemComponent = function SolarSystemComponent() {
                 'div',
                 { id: 'moon', className: 'type-4 pure-u-2-3' },
                 _react2['default'].createElement(
-                  'div',
-                  { className: 'item-name' },
+                  'a',
+                  { href: '#', className: 'item-name' },
                   'Mond'
                 )
               )
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'nearEarthObjects', className: 'item-has-children type-3 pure-u-3-4' },
+              { id: 'nearEarthObjects', className: 'type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'erdnahe Objekte'
               )
             )
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'apolloAsteroids', className: 'item-has-children type-2 pure-u-4-5' },
+            { id: 'apolloAsteroids', className: 'collapsed type-2 pure-u-4-5' },
+            _react2['default'].createElement(
+              'a',
+              { href: '#', className: 'item-name' },
+              'Apollo-Typ-Asteroiden'
+            ),
             _react2['default'].createElement(
               'div',
-              { className: 'item-name' },
-              'Apollo-Typ-Asteroiden'
+              { className: 'type-3 pure-u-3-4' },
+              _react2['default'].createElement(
+                'div',
+                { id: '1862apollo', className: 'type-4 pure-u-2-3' },
+                _react2['default'].createElement(
+                  'a',
+                  { href: '#', className: 'item-name' },
+                  '(1862) Apollo'
+                )
+              )
             )
           ),
           _react2['default'].createElement(
             'div',
             { id: 'mars', className: 'type-2 pure-u-4-5' },
             _react2['default'].createElement(
-              'div',
-              { className: 'item-name' },
+              'a',
+              { href: '#', className: 'item-name' },
               'Mars'
             ),
             _react2['default'].createElement(
               'div',
-              { className: 'item-has-children type-3 pure-u-3-4' },
+              { className: 'type-3 pure-u-3-4' },
               _react2['default'].createElement(
                 'div',
                 { id: 'phobos', className: 'type-4 pure-u-2-3' },
                 _react2['default'].createElement(
-                  'div',
-                  { className: 'item-name' },
+                  'a',
+                  { href: '#', className: 'item-name' },
                   'Phobos'
                 )
               ),
@@ -35813,89 +35826,89 @@ var SolarSystemComponent = function SolarSystemComponent() {
                 'div',
                 { id: 'deimos', className: 'type-4 pure-u-2-3' },
                 _react2['default'].createElement(
-                  'div',
-                  { className: 'item-name' },
+                  'a',
+                  { href: '#', className: 'item-name' },
                   'Deimos'
                 )
               )
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'marsTrojanGroup', className: 'item-has-children type-3 pure-u-3-4' },
+              { id: 'marsTrojanGroup', className: 'type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'Mars-Trojaner'
               )
             )
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'amorAsteroids', className: 'item-has-children type-2 pure-u-4-5' },
+            { id: 'amorAsteroids', className: 'collapsed type-2 pure-u-4-5' },
             _react2['default'].createElement(
-              'div',
-              { className: 'item-name' },
+              'a',
+              { href: '#', className: 'item-name' },
               'Amor-Typ-Asteroiden'
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'amor1Asteroids', className: 'item-has-children type-3 pure-u-3-4' },
+              { id: 'amor1Asteroids', className: 'type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'Amor-I-Asteroiden'
               )
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'amor2Asteroids', className: 'item-has-children type-3 pure-u-3-4' },
+              { id: 'amor2Asteroids', className: 'collapsed type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'Amor-II-Asteroiden'
               ),
               _react2['default'].createElement(
                 'div',
                 { id: '1221amor', className: 'type-4 pure-u-2-3' },
                 _react2['default'].createElement(
-                  'div',
-                  { className: 'item-name' },
+                  'a',
+                  { href: '#', className: 'item-name' },
                   '(1221) Amor'
                 )
               )
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'amor3Asteroids', className: 'item-has-children type-3 pure-u-3-4' },
+              { id: 'amor3Asteroids', className: 'collapsed type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'Amor-III-Asteroiden'
               ),
               _react2['default'].createElement(
                 'div',
                 { id: '1036ganymed', className: 'type-4 pure-u-2-3' },
                 _react2['default'].createElement(
-                  'div',
-                  { className: 'item-name' },
+                  'a',
+                  { href: '#', className: 'item-name' },
                   '(1036) Ganymed'
                 )
               )
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'amor4Asteroids', className: 'item-has-children type-3 pure-u-3-4' },
+              { id: 'amor4Asteroids', className: 'collapsed type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'Amor-IV-Asteroiden'
               ),
               _react2['default'].createElement(
                 'div',
                 { id: '3552donquixote', className: 'type-4 pure-u-2-3' },
                 _react2['default'].createElement(
-                  'div',
-                  { className: 'item-name' },
+                  'a',
+                  { href: '#', className: 'item-name' },
                   '(3552) Don Quixote'
                 )
               )
@@ -35904,70 +35917,70 @@ var SolarSystemComponent = function SolarSystemComponent() {
         ),
         _react2['default'].createElement(
           'div',
-          { id: 'asteroidBelt', className: 'item-has-children type-1 pure-u-1' },
+          { id: 'asteroidBelt', className: 'collapsed type-1 pure-u-1' },
           _react2['default'].createElement(
-            'div',
-            { className: 'item-name' },
+            'a',
+            { href: '#', className: 'item-name' },
             'Asteroidengürtel'
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'innerMainbelt', className: 'item-has-children type-2 pure-u-4-5' },
+            { id: 'innerMainbelt', className: 'collapsed type-2 pure-u-4-5' },
             _react2['default'].createElement(
-              'div',
-              { className: 'item-name' },
+              'a',
+              { href: '#', className: 'item-name' },
               'Innerer Hauptgürtel'
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'floraGroup', className: 'item-has-children type-3 pure-u-3-4' },
+              { id: 'floraGroup', className: 'collapsed type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'Flora-Gruppe'
               ),
               _react2['default'].createElement(
                 'div',
                 { id: '8flora', className: 'type-4 pure-u-2-3' },
                 _react2['default'].createElement(
-                  'div',
-                  { className: 'item-name' },
+                  'a',
+                  { href: '#', className: 'item-name' },
                   '(8) Flora'
                 )
               )
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'vestaGroup', className: 'item-has-children type-3 pure-u-3-4' },
+              { id: 'vestaGroup', className: 'collapsed type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'Vesta-Gruppe'
               ),
               _react2['default'].createElement(
                 'div',
                 { id: '4vesta', className: 'type-4 pure-u-2-3' },
                 _react2['default'].createElement(
-                  'div',
-                  { className: 'item-name' },
+                  'a',
+                  { href: '#', className: 'item-name' },
                   '(4) Vesta'
                 )
               )
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'nysaGroup', className: 'item-has-children type-3 pure-u-3-4' },
+              { id: 'nysaGroup', className: 'collapsed type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'Nysa-Gruppe'
               ),
               _react2['default'].createElement(
                 'div',
                 { id: '44nysa', className: 'type-4 pure-u-2-3' },
                 _react2['default'].createElement(
-                  'div',
-                  { className: 'item-name' },
+                  'a',
+                  { href: '#', className: 'item-name' },
                   '(44) Nysa'
                 )
               )
@@ -35975,44 +35988,44 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'middleMainbelt', className: 'item-has-children type-2 pure-u-4-5' },
+            { id: 'middleMainbelt', className: 'collapsed type-2 pure-u-4-5' },
             _react2['default'].createElement(
-              'div',
-              { className: 'item-name' },
+              'a',
+              { href: '#', className: 'item-name' },
               'Mittlerer Hauptgürtel'
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'eunomiaGroup', className: 'item-has-children type-3 pure-u-3-4' },
+              { id: 'eunomiaGroup', className: 'collapsed type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'Eunomia-Gruppe'
               ),
               _react2['default'].createElement(
                 'div',
                 { id: '15eunomia', className: 'type-4 pure-u-2-3' },
                 _react2['default'].createElement(
-                  'div',
-                  { className: 'item-name' },
+                  'a',
+                  { href: '#', className: 'item-name' },
                   '(15) Eunomia'
                 )
               )
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'gefionGroup', className: 'item-has-children type-3 pure-u-3-4' },
+              { id: 'gefionGroup', className: 'collapsed type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'Gefion-Gruppe'
               ),
               _react2['default'].createElement(
                 'div',
                 { id: '1272gefion', className: 'type-4 pure-u-2-3' },
                 _react2['default'].createElement(
-                  'div',
-                  { className: 'item-name' },
+                  'a',
+                  { href: '#', className: 'item-name' },
                   '(1272) Gefion'
                 )
               )
@@ -36020,80 +36033,80 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'outerMainbelt', className: 'item-has-children type-2 pure-u-4-5' },
+            { id: 'outerMainbelt', className: 'collapsed type-2 pure-u-4-5' },
             _react2['default'].createElement(
-              'div',
-              { className: 'item-name' },
+              'a',
+              { href: '#', className: 'item-name' },
               'Äußerer Hauptgürtel'
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'koronisGroup', className: 'item-has-children type-3 pure-u-3-4' },
+              { id: 'koronisGroup', className: 'collapsed type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'Koronis-Gruppe'
               ),
               _react2['default'].createElement(
                 'div',
                 { id: '158koronis', className: 'type-4 pure-u-2-3' },
                 _react2['default'].createElement(
-                  'div',
-                  { className: 'item-name' },
+                  'a',
+                  { href: '#', className: 'item-name' },
                   '(158) Koronis'
                 )
               )
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'eosGroup', className: 'item-has-children type-3 pure-u-3-4' },
+              { id: 'eosGroup', className: 'collapsed type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'Eos-Gruppe'
               ),
               _react2['default'].createElement(
                 'div',
                 { id: '221eos', className: 'type-4 pure-u-2-3' },
                 _react2['default'].createElement(
-                  'div',
-                  { className: 'item-name' },
+                  'a',
+                  { href: '#', className: 'item-name' },
                   '(221) Eos'
                 )
               )
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'themisGroup', className: 'item-has-children type-3 pure-u-3-4' },
+              { id: 'themisGroup', className: 'collapsed type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'Themis-Gruppe'
               ),
               _react2['default'].createElement(
                 'div',
                 { id: '24themis', className: 'type-4 pure-u-2-3' },
                 _react2['default'].createElement(
-                  'div',
-                  { className: 'item-name' },
+                  'a',
+                  { href: '#', className: 'item-name' },
                   '(24) Themis'
                 )
               )
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'hygieaGroup', className: 'item-has-children type-3 pure-u-3-4' },
+              { id: 'hygieaGroup', className: 'collapsed type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'Hygiea-Gruppe'
               ),
               _react2['default'].createElement(
                 'div',
                 { id: '10hygiea', className: 'type-4 pure-u-2-3' },
                 _react2['default'].createElement(
-                  'div',
-                  { className: 'item-name' },
+                  'a',
+                  { href: '#', className: 'item-name' },
                   '(10) Hygiea'
                 )
               )
@@ -36104,52 +36117,52 @@ var SolarSystemComponent = function SolarSystemComponent() {
           'div',
           { id: 'outerPlanets', className: 'type-1 pure-u-1' },
           _react2['default'].createElement(
-            'div',
-            { className: 'item-name' },
+            'a',
+            { href: '#', className: 'item-name' },
             'Äußere Planeten'
           ),
           _react2['default'].createElement(
             'div',
             { id: 'jupiter', className: 'type-2 pure-u-4-5' },
             _react2['default'].createElement(
-              'div',
-              { className: 'item-name' },
+              'a',
+              { href: '#', className: 'item-name' },
               'Jupiter'
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'jupiterMoons', className: 'item-has-children type-3 pure-u-3-4' },
+              { id: 'jupiterMoons', className: 'collapsed type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'Jupiter-Monde'
               ),
               _react2['default'].createElement(
                 'div',
                 { id: 'io', className: 'type-4 pure-u-2-3' },
                 _react2['default'].createElement(
-                  'div',
-                  { className: 'item-name' },
+                  'a',
+                  { href: '#', className: 'item-name' },
                   'Io'
                 )
               )
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'jupiterTrojans', className: 'item-has-children type-3 pure-u-3-4' },
+              { id: 'jupiterTrojans', className: 'type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'Jupiter-Trojaner'
               )
             )
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'centaurs1', className: 'item-has-children type-2 pure-u-4-5' },
+            { id: 'centaurs1', className: 'type-2 pure-u-4-5' },
             _react2['default'].createElement(
-              'div',
-              { className: 'item-name' },
+              'a',
+              { href: '#', className: 'item-name' },
               'Zentauren'
             )
           ),
@@ -36157,24 +36170,24 @@ var SolarSystemComponent = function SolarSystemComponent() {
             'div',
             { id: 'saturn', className: 'type-2 pure-u-4-5' },
             _react2['default'].createElement(
-              'div',
-              { className: 'item-name' },
+              'a',
+              { href: '#', className: 'item-name' },
               'Saturn'
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'saturnMoons', className: 'item-has-children type-3 pure-u-3-4' },
+              { id: 'saturnMoons', className: 'collapsed type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'Saturn-Monde'
               ),
               _react2['default'].createElement(
                 'div',
                 { id: 'mimas', className: 'type-4 pure-u-2-3' },
                 _react2['default'].createElement(
-                  'div',
-                  { className: 'item-name' },
+                  'a',
+                  { href: '#', className: 'item-name' },
                   'Mimas'
                 )
               )
@@ -36182,10 +36195,10 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'centaurs2', className: 'item-has-children type-2 pure-u-4-5' },
+            { id: 'centaurs2', className: 'type-2 pure-u-4-5' },
             _react2['default'].createElement(
-              'div',
-              { className: 'item-name' },
+              'a',
+              { href: '#', className: 'item-name' },
               'Zentauren'
             )
           ),
@@ -36193,24 +36206,24 @@ var SolarSystemComponent = function SolarSystemComponent() {
             'div',
             { id: 'uranus', className: 'type-2 pure-u-4-5' },
             _react2['default'].createElement(
-              'div',
-              { className: 'item-name' },
+              'a',
+              { href: '#', className: 'item-name' },
               'Uranus'
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'uranusMoons', className: 'item-has-children type-3 pure-u-3-4' },
+              { id: 'uranusMoons', className: 'collapsed type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'Uranus-Monde'
               ),
               _react2['default'].createElement(
                 'div',
                 { id: 'ariel', className: 'type-4 pure-u-2-3' },
                 _react2['default'].createElement(
-                  'div',
-                  { className: 'item-name' },
+                  'a',
+                  { href: '#', className: 'item-name' },
                   'Ariel'
                 )
               )
@@ -36218,10 +36231,10 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'centaurs3', className: 'item-has-children type-2 pure-u-4-5' },
+            { id: 'centaurs3', className: 'type-2 pure-u-4-5' },
             _react2['default'].createElement(
-              'div',
-              { className: 'item-name' },
+              'a',
+              { href: '#', className: 'item-name' },
               'Zentauren'
             )
           ),
@@ -36229,34 +36242,34 @@ var SolarSystemComponent = function SolarSystemComponent() {
             'div',
             { id: 'neptune', className: 'type-2 pure-u-4-5' },
             _react2['default'].createElement(
-              'div',
-              { className: 'item-name' },
+              'a',
+              { href: '#', className: 'item-name' },
               'Neptun'
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'neptuneMoons', className: 'item-has-children type-3 pure-u-3-4' },
+              { id: 'neptuneMoons', className: 'collapsed type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'Neptun-Monde'
               ),
               _react2['default'].createElement(
                 'div',
                 { id: 'triton', className: 'type-4 pure-u-2-3' },
                 _react2['default'].createElement(
-                  'div',
-                  { className: 'item-name' },
+                  'a',
+                  { href: '#', className: 'item-name' },
                   'Triton'
                 )
               )
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'neptuneTrojans', className: 'item-has-children type-3 pure-u-3-4' },
+              { id: 'neptuneTrojans', className: 'type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'Neptun-Trojaner'
               )
             )
@@ -36264,42 +36277,42 @@ var SolarSystemComponent = function SolarSystemComponent() {
         ),
         _react2['default'].createElement(
           'div',
-          { id: 'transneptunianObjects', className: 'item-has-children type-1 pure-u-1' },
+          { id: 'transneptunianObjects', className: 'collapsed type-1 pure-u-1' },
           _react2['default'].createElement(
-            'div',
-            { className: 'item-name' },
+            'a',
+            { href: '#', className: 'item-name' },
             'Transneptunische Objekte (TNO)'
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'kuiperbelt', className: 'item-has-children type-2 pure-u-4-5' },
+            { id: 'kuiperbelt', className: 'collapsed type-2 pure-u-4-5' },
             _react2['default'].createElement(
-              'div',
-              { className: 'item-name' },
+              'a',
+              { href: '#', className: 'item-name' },
               'Kuipergürtel'
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'kuiperbeltObjects', className: 'group item-has-children type-3 pure-u-3-4' },
+              { id: 'kuiperbeltObjects', className: 'group collapsed type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'Kuipergürtelobjekte (KBO)'
               ),
               _react2['default'].createElement(
                 'div',
                 { id: 'pluto', className: 'type-4 pure-u-2-3' },
                 _react2['default'].createElement(
-                  'div',
-                  { className: 'item-name' },
+                  'a',
+                  { href: '#', className: 'item-name' },
                   'Pluto'
                 ),
                 _react2['default'].createElement(
                   'div',
                   { id: 'charon', className: 'type-5 pure-u-1-2' },
                   _react2['default'].createElement(
-                    'div',
-                    { className: 'item-name' },
+                    'a',
+                    { href: '#', className: 'item-name' },
                     'Charon'
                   )
                 )
@@ -36307,18 +36320,18 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'sednoidGroup', className: 'item-has-children type-3 pure-u-3-4' },
+              { id: 'sednoidGroup', className: 'collapsed type-3 pure-u-3-4' },
               _react2['default'].createElement(
-                'div',
-                { className: 'item-name' },
+                'a',
+                { href: '#', className: 'item-name' },
                 'Sednoiden'
               ),
               _react2['default'].createElement(
                 'div',
                 { id: 'sedna', className: 'type-4 pure-u-2-3' },
                 _react2['default'].createElement(
-                  'div',
-                  { className: 'item-name' },
+                  'a',
+                  { href: '#', className: 'item-name' },
                   'Sedna'
                 )
               )
@@ -36327,10 +36340,10 @@ var SolarSystemComponent = function SolarSystemComponent() {
         ),
         _react2['default'].createElement(
           'div',
-          { id: 'oortCloud', className: 'item-has-children type-1 pure-u-1' },
+          { id: 'oortCloud', className: 'collapsed type-1 pure-u-1' },
           _react2['default'].createElement(
-            'div',
-            { className: 'item-name' },
+            'a',
+            { href: '#', className: 'item-name' },
             'Oortsche Wolke'
           )
         )
@@ -38714,38 +38727,48 @@ var SolarSystem = (function () {
 
   /*
   Conditions to build the component/solar-system.js:
-  - item.type 1 = inner planets group, the asteroid-belt group, outer planets group,
-  transneptunian-objects group and the oort-cloud group.
-  - item.type 2 = all planets and groups equal in hierarchy.
-  - item.type 3 = trojan groups, groups of planet-moons and the sub-groups of the asteroid-belt.
-  - item.type 4 = all planet-moons, asteroids of the asteroid-belt and kuiperbelt objects.
-  - item.type 5 = only moons of kuiperbelt objects.
-  In html structure item.type 5 is a child of item.type 4, 4 child of 3, 3 of 2 and 2 of 1.
   
-  For each item in JSON build a container div like this:
+  Meaning of the itemtype in the JSON-file:
+  - type-1 = group of inner planets, the asteroid-belt, group of outer planets,
+  transneptunian-objects and the oort-cloud = the parent items of all other items.
+  - type-2 = all planets and groups equal in hierarchy.
+  - type-3 = trojan groups, groups of planet-moons and the sub-groups of the asteroid-belt.
+  - type-4 = all planet-moons, asteroids of the asteroid-belt and kuiperbelt objects.
+  - type-5 = only moons of kuiperbelt objects.
+  
+  For each item in JSON build a div like this:
+  
   <div id="{item.name2}" className="{item.type} pure-u-x">
-  
   </div>
+  
+  Pure-grid-classes:
+  - type-1 = pure-u-1
+  - type-2 = pure-u-4-5
+  - type-3 = pure-u-3-4
+  - type-4 = pure-u-2-3
+  - type-5 = pure-u-1-2
+  
+  IF item.type value is type-2, type-3, type-4 or type-5 AND item.category is "group",
+  THEN add CSS class "collapsed".
+  For the future, these groups should be collapsed onLoad and folded out onClick
+  to show their child-elements like on the about-site.
+  OnClick the CSS class "collapsed" should be replaced with "expanded" to change the icon.
+  
+  For the html-structure:
+  - div.type-2 is a child of the div.type-1 (and a sibling of the <a> in the parent div if there is <a>),
+  - div.type-3 is a child of the div.type-2,
+  - div.type-4 is a child of the div.type-3,
+  - div.type-5 is a child of the div.type-4.
+  
   Some JSON items don't contain item.name and item.name2. These divs don't get an id
   and will exist only to ensure a proper stucture in html and pure-grid.
-  Pure-grid-classes:
-  item.type 1 = pure-u-1
-  item.type 2 = pure-u-4-5
-  item.type 3 = pure-u-3-4
-  item.type 4 = pure-u-2-3
-  item.type 5 = pure-u-1-2
-  ONLY IF item.type value is higher than "1" AND item.category = "group",
-  THEN add CSS class "item-has-children".
   
-  For each item in JSON with existing(!) item.name build a 2nd div as a child of the container div:
-    <div className="item-name">
-      <a href={item.wikipediaUrl} title={item.name}>{item.name}</a>
-    </div>
+  For all JSON elements that contain item.name build a link as first-child of the div:
+    <a href={item.wikipediaUrl} title={item.name} className="item-name">{item.name}</a>
   
-  The className="item-name" is not className={item.name}! I need this to control background etc.
-  Set the <a href={item.wikipediaUrl} title={item.name}> + </a> only if item.wikipediaUrl exists.
-  For the future, groups with the CSS class "item-has-children" should be collapsed onLoad
-  and folded out onClick to show the child-elements.
+  The className="item-name" in <a> is not className={item.name}!
+  (I need this to control background etc.)
+  
   */
 
   _createClass(SolarSystem, null, [{
@@ -38859,7 +38882,7 @@ var Item = (function () {
       item.category = raw.itemcategory; //star, group, planet, moon, object
       item.parent = raw.itemparent;
       item.color = raw.itemcolor;
-      item.wikipediaUrl = raw.itemurl ? raw.itemurl : '';
+      item.wikipediaUrl = raw.itemurl ? raw.itemurl : '#';
       item.imageSmallUrl = raw.itemimgsmallurl ? raw.itemimgsmallurl : '';
       item.imageUrl = raw.itemimgurl ? raw.itemimgurl : '';
       item.imageSrc = raw.itemimgsrc ? raw.itemimgsrc : '';
