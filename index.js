@@ -36280,7 +36280,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           { id: 'transneptunianObjects', className: 'type-1 pure-u-1' },
           _react2['default'].createElement(
             'a',
-            { href: '#', className: 'item-name collapsed' },
+            { href: '#', className: 'item-name' },
             'Transneptunische Objekte (TNO)'
           ),
           _react2['default'].createElement(
@@ -36340,7 +36340,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
         ),
         _react2['default'].createElement(
           'div',
-          { id: 'oortCloud', className: 'collapsed type-1 pure-u-1' },
+          { id: 'oortCloud', className: 'type-1 pure-u-1' },
           _react2['default'].createElement(
             'a',
             { href: '#', className: 'item-name' },
