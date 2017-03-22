@@ -55,6 +55,7 @@ IF item.type value is type-2, type-3, type-4 or type-5 AND item.category is "gro
 THEN add CSS class "collapsed" to the <a>.
 These groups should be collapsed onLoad and expanded onClick to show their child-elements.
 On click the CSS class "collapsed" should be replaced with "expanded" to change the icon.
+(see the solsys.css)
 Please edit this too for the about-site.
 */
 
