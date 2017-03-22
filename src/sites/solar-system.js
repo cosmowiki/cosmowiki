@@ -36,12 +36,6 @@ Pure-grid-classes:
 - type-4 = pure-u-2-3
 - type-5 = pure-u-1-2
 
-IF item.type value is type-2, type-3, type-4 or type-5 AND item.category is "group",
-THEN add CSS class "collapsed".
-For the future, these groups should be collapsed onLoad and folded out onClick
-to show their child-elements like on the about-site.
-OnClick the CSS class "collapsed" should be replaced with "expanded" to change the icon.
-
 For the html-structure:
 - div.type-2 is a child of the div.type-1 (and a sibling of the <a> in the parent div if there is <a>),
 - div.type-3 is a child of the div.type-2,
@@ -49,14 +43,19 @@ For the html-structure:
 - div.type-5 is a child of the div.type-4.
 
 Some JSON items don't contain item.name and item.name2. These divs don't get an id
-and will exist only to ensure a proper stucture in html and pure-grid.
+and will exist only to ensure a proper stucture in html and Pure-grid.
 
-For all JSON elements that contain item.name build a link as first-child of the div:
+For all JSON elements that have an item.name build a link as first child of the div:
   <a href={item.wikipediaUrl} title={item.name} className="item-name">{item.name}</a>
 
 The className="item-name" in <a> is not className={item.name}!
 (I need this to control background etc.)
 
+IF item.type value is type-2, type-3, type-4 or type-5 AND item.category is "group",
+THEN add CSS class "collapsed" to the <a>.
+These groups should be collapsed onLoad and expanded onClick to show their child-elements.
+On click the CSS class "collapsed" should be replaced with "expanded" to change the icon.
+Please edit this too for the about-site.
 */
 
 class Item {
