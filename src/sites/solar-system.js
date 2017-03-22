@@ -15,38 +15,48 @@ export default class SolarSystem {
 
 /*
 Conditions to build the component/solar-system.js:
-- item.type 1 = inner planets group, the asteroid-belt group, outer planets group,
-transneptunian-objects group and the oort-cloud group.
-- item.type 2 = all planets and groups equal in hierarchy.
-- item.type 3 = trojan groups, groups of planet-moons and the sub-groups of the asteroid-belt.
-- item.type 4 = all planet-moons, asteroids of the asteroid-belt and kuiperbelt objects.
-- item.type 5 = only moons of kuiperbelt objects.
-In html structure item.type 5 is a child of item.type 4, 4 child of 3, 3 of 2 and 2 of 1.
 
-For each item in JSON build a container div like this:
+Meaning of the itemtype in the JSON-file:
+- type-1 = group of inner planets, the asteroid-belt, group of outer planets,
+transneptunian-objects and the oort-cloud = the parent items of all other items.
+- type-2 = all planets and groups equal in hierarchy.
+- type-3 = trojan groups, groups of planet-moons and the sub-groups of the asteroid-belt.
+- type-4 = all planet-moons, asteroids of the asteroid-belt and kuiperbelt objects.
+- type-5 = only moons of kuiperbelt objects.
+
+For each item in JSON build a div like this:
+
 <div id="{item.name2}" className="{item.type} pure-u-x">
-
 </div>
+
+Pure-grid-classes:
+- type-1 = pure-u-1
+- type-2 = pure-u-4-5
+- type-3 = pure-u-3-4
+- type-4 = pure-u-2-3
+- type-5 = pure-u-1-2
+
+IF item.type value is type-2, type-3, type-4 or type-5 AND item.category is "group",
+THEN add CSS class "collapsed".
+For the future, these groups should be collapsed onLoad and folded out onClick
+to show their child-elements like on the about-site.
+OnClick the CSS class "collapsed" should be replaced with "expanded" to change the icon.
+
+For the html-structure:
+- div.type-2 is a child of the div.type-1 (and a sibling of the <a> in the parent div if there is <a>),
+- div.type-3 is a child of the div.type-2,
+- div.type-4 is a child of the div.type-3,
+- div.type-5 is a child of the div.type-4.
+
 Some JSON items don't contain item.name and item.name2. These divs don't get an id
 and will exist only to ensure a proper stucture in html and pure-grid.
-Pure-grid-classes:
-item.type 1 = pure-u-1
-item.type 2 = pure-u-4-5
-item.type 3 = pure-u-3-4
-item.type 4 = pure-u-2-3
-item.type 5 = pure-u-1-2
-ONLY IF item.type value is higher than "1" AND item.category = "group",
-THEN add CSS class "item-has-children".
 
-For each item in JSON with existing(!) item.name build a 2nd div as a child of the container div:
-  <div className="item-name">
-    <a href={item.wikipediaUrl} title={item.name}>{item.name}</a>
-  </div>
+For all JSON elements that contain item.name build a link as first-child of the div:
+  <a href={item.wikipediaUrl} title={item.name} className="item-name">{item.name}</a>
 
-The className="item-name" is not className={item.name}! I need this to control background etc.
-Set the <a href={item.wikipediaUrl} title={item.name}> + </a> only if item.wikipediaUrl exists.
-For the future, groups with the CSS class "item-has-children" should be collapsed onLoad
-and folded out onClick to show the child-elements.
+The className="item-name" in <a> is not className={item.name}!
+(I need this to control background etc.)
+
 */
 
 class Item {
@@ -62,7 +72,7 @@ class Item {
     item.category = raw.itemcategory;//star, group, planet, moon, object
     item.parent = raw.itemparent;
     item.color = raw.itemcolor;
-    item.wikipediaUrl = raw.itemurl ? raw.itemurl : '';
+    item.wikipediaUrl = raw.itemurl ? raw.itemurl : '#';
     item.imageSmallUrl = raw.itemimgsmallurl ? raw.itemimgsmallurl : '';
     item.imageUrl = raw.itemimgurl ? raw.itemimgurl : '';
     item.imageSrc = raw.itemimgsrc ? raw.itemimgsrc : '';
