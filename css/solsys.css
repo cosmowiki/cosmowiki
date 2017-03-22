@@ -14,8 +14,8 @@
 .type-4 {margin-left: 33.333%;}
 .type-5 {margin-left: 50%;}
 
-.expanded:before {content: "\25BE  ";}
 .collapsed:before {content: "\25B8  ";}
+.expanded:before {content: "\25BE  ";}
 
 #sun a.item-name {
 	background-image: linear-gradient( to right, rgba(240,88,2,.5) 50%, rgba(240,88,2,0));
