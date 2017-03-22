@@ -213,7 +213,7 @@ const SolarSystemComponent = () => {
             </div>
           </div>
           <div id="transneptunianObjects" className="type-1 pure-u-1">
-            <a href="#" className="item-name collapsed">Transneptunische Objekte (TNO)</a>
+            <a href="#" className="item-name">Transneptunische Objekte (TNO)</a>
             <div id="kuiperbelt" className="type-2 pure-u-4-5">
               <a href="#" className="item-name collapsed">Kuipergürtel</a>
               <div id="kuiperbeltObjects" className ="type-3 pure-u-3-4">
@@ -233,7 +233,7 @@ const SolarSystemComponent = () => {
               </div>
             </div>
           </div>
-          <div id="oortCloud" className="collapsed type-1 pure-u-1">
+          <div id="oortCloud" className="type-1 pure-u-1">
             <a href="#" className="item-name">Oortsche Wolke</a>
           </div>
         </div>
