@@ -9,7 +9,7 @@ const SolarSystemComponent = () => {
         <h3>unsere kosmische Heimat</h3>
       </div>
       <div id="todo" className="pure-u-1">
-        <p>@wolfram how to avoid border-bottom of last shown div.item-name inside each div.type-1?</p>
+        <p>@wolfram how to avoid border-bottom of last displayed div.item-name inside each div.type-1?</p>
       </div>
       <div id="controlArea" className="solar-system pure-u-1">
       </div>
@@ -21,10 +21,10 @@ const SolarSystemComponent = () => {
           <div id="innerPlanets" className="type-1 pure-u-1">
             <div className="item-name">Innere Planeten</div>
             <div id="mercury" className="type-2 pure-u-4-5">
-              <div className="item-name mercury">Merkur</div>
+              <div className="item-name">Merkur</div>
             </div>
             <div id="venus" className="type-2 pure-u-4-5">
-              <div className="item-name venus">Venus</div>
+              <div className="item-name">Venus</div>
             </div>
             <div id="atenAsteroids" className="item-has-children type-2 pure-u-4-5">
               <div className="item-name">Aten-Typ-Asteroiden</div>

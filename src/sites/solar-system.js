@@ -15,17 +15,19 @@ export default class SolarSystem {
 
 /*
 Conditions to build the component/solar-system.js:
-- item.type 1 = inner planets group, the asteroid-belt, outer planets group,
-transneptunian-objects group and the oort-cloud.
+- item.type 1 = inner planets group, the asteroid-belt group, outer planets group,
+transneptunian-objects group and the oort-cloud group.
 - item.type 2 = all planets and groups equal in hierarchy.
-- item.type 3 = trojan groups, groups of planet moons and the asteroid groups of the asteroid-belt.
-- item.type 4 = all planet moons, asteroids of the asteroid-belt and kuiperbelt objects.
-- item.type 5 = only moons of kuiperbelt-objects.
-In html structure item.type 5 is a child of item.type 4, 4 a child of 3, 3 of 2 and 2 of 1.
+- item.type 3 = trojan groups, groups of planet-moons and the sub-groups of the asteroid-belt.
+- item.type 4 = all planet-moons, asteroids of the asteroid-belt and kuiperbelt objects.
+- item.type 5 = only moons of kuiperbelt objects.
+In html structure item.type 5 is a child of item.type 4, 4 child of 3, 3 of 2 and 2 of 1.
 
-For each item in JSON build a div like this:
-<div id="{item.name2}" className="{item.type} pure-u-x">.
-Some JSON items may not contain an item.name2. These divs don't get an id
+For each item in JSON build a container div like this:
+<div id="{item.name2}" className="{item.type} pure-u-x">
+
+</div>
+Some JSON items don't contain item.name and item.name2. These divs don't get an id
 and will exist only to ensure a proper stucture in html and pure-grid.
 Pure-grid-classes:
 item.type 1 = pure-u-1
@@ -33,12 +35,15 @@ item.type 2 = pure-u-4-5
 item.type 3 = pure-u-3-4
 item.type 4 = pure-u-2-3
 item.type 5 = pure-u-1-2
+ONLY IF item.type value is higher than "1" AND item.category = "group",
+THEN add className "item-has-children" to expand the group onClick to show child-elements.
 
-For each item in JSON with existing(!) item.name2 build a div as a child of the div above like this:
-  <div className="item-name">{item.name}</div>
-
-WHEN item.type > 1 AND item.category = "group", THEN add className item-has-children
-before item.type to expand the group onClick to show child-elements.
+For each item in JSON with existing(!) item.name build a 2nd div as a child of the container div:
+  <div className="item-name">
+    <a href={item.wikipediaUrl} title={item.name}>{item.name}</a>
+  </div>
+The className="item-name" is not className={item.name}! I need this to control background etc.
+Set the <a href={item.wikipediaUrl} title={item.name}> + </a> only if item.wikipediaUrl exists.
 */
 
 class Item {
@@ -46,44 +51,86 @@ class Item {
   static fromRawData(raw) {
     const item = new Item();
     item.name = raw.itemname;
-    item.name2 = raw.itemname2;
-    const alternativename1 = raw.itemname3 ? `${raw.itemname3}`: '';
-    const alternativename2 = raw.itemname4 ? ` ${raw.itemname4}`: '';
-    item.alternativename = `(${alternativename1}${alternativename2})`;//to use in id=""
+    item.name2 = raw.itemname2;//to use in id=""
+    const alternativename1 = raw.itemname3 ? raw.itemname3 : '';
+    const alternativename2 = raw.itemname4 ? `, ${raw.itemname4}`: '';
+    item.alternativeName = `${alternativename1}${alternativename2}`;
     item.type = raw.itemtype;//1 = pure-u-1, 2 = pure-u-4-5, 3 = pure-u-3-4, 4 = pure-u-2-3, 5 = pure-u-1-2
     item.category = raw.itemcategory;//star, group, planet, moon, object
     item.parent = raw.itemparent;
     item.color = raw.itemcolor;
-    item.wikipediaUrl = raw.itemurl;
-    item.imageSmallUrl = raw.itemimgsmallurl;
-    item.imageUrl = raw.itemimgurl;
-    item.imageSrc = raw.itemimgsrc;
-    item.imageLicence = raw.itemimglicence;
-    item.imageLicenseUrl = raw.itemimglicenceurl;
+    item.wikipediaUrl = raw.itemurl ? raw.itemurl : '';
+    item.imageSmallUrl = raw.itemimgsmallurl ? raw.itemimgsmallurl : '';
+    item.imageUrl = raw.itemimgurl ? raw.itemimgurl : '';
+    item.imageSrc = raw.itemimgsrc ? raw.itemimgsrc : '';
+    item.imageLicence = raw.itemimglicence ? raw.itemimglicence : '';
+    item.imageLicenseUrl = raw.itemimglicenceurl ? raw.itemimglicenceurl : '';
 
-    item.semimajoraxis = raw.semimajoraxis;
-    item.farthest = raw.itemapoapsis;
-    item.nearest = raw.itemperiapsis;
-    item.eccentricity = raw.itemeccentricity;
-    item.inclination = raw.iteminclination;
-    item.orbitalperiod = raw.itemorbitalperiod;
-    item.synodicperiod = raw.itemsynodicperiod;
-    item.orbitalspeed = raw.itemorbitalspeed;
-    item.diameter = raw.itemdiameter;
-    item.mass = raw.itemmass;
-    item.density = raw.itemdensity;
-    item.appMagnitude = raw.itemappmag;
-    item.minTemperature = raw.itemmintemperature;
-    item.midTemperature = raw.itemmidtemperature;
-    item.maxTemperature = raw.itemmaxtemperature;
-    item.pressure = raw.itempressure;
-    item.atmosphere = raw.itematmosphere;
+    item.semiMajorAxis = raw.semimajoraxis ? raw.semimajoraxis : '';
+    item.farthest = raw.itemapoapsis ? raw.itemapoapsis : '';
+    item.nearest = raw.itemperiapsis ? raw.itemperiapsis : '';
+    item.eccentricity = raw.itemeccentricity ? raw.itemeccentricity : '';
+    item.inclination = raw.iteminclination ? raw.iteminclination : '';
+    item.orbitalPeriod = raw.itemorbitalperiod ? raw.itemorbitalperiod : '';
+    item.synodicPeriod = raw.itemsynodicperiod ? raw.itemsynodicperiod : '';
+    item.orbitalSpeed = raw.itemorbitalspeed ? raw.itemorbitalspeed : '';
+    item.diameter = raw.itemdiameter ? raw.itemdiameter : '';
+    item.mass = raw.itemmass ? raw.itemmass : '';
+    item.density = raw.itemdensity ? raw.itemdensity : '';
+    item.appMagnitude = raw.itemappmag ? raw.itemappmag : '';
+    item.minTemperature = raw.itemmintemperature ? raw.itemmintemperature : '';
+    item.midTemperature = raw.itemmidtemperature ? raw.itemmidtemperature : '';
+    item.maxTemperature = raw.itemmaxtemperature ? raw.itemmaxtemperature : '';
+    item.pressure = raw.itempressure ? raw.itempressure : '';
+    item.atmosphere = raw.itematmosphere ? raw.itematmosphere : '';
+
+    item.discoverer = raw.itemdiscoverer ? raw.itemdiscoverer : '';
+    item.dicoveryDate = raw.itemdicoverydate ? raw.itemdicoverydate : '';
 
     return item;
   }
 
 }
-
+// {
+//     "itemindex": "0",
+//     "itemname": "Sonne",
+//     "itemname2": "sun",
+//     "itemtype": 1,
+//     "itemcategory": "star",
+//     "itemparent": "solar-system",
+//     "itemurl": "https://de.wikipedia.org/wiki/Sonne",
+//     "itemcolor": "#f05802",
+//     "angularsize": "31,5 - 32,5'",
+//     "virtbright": "-26ᵐ74",
+//     "itemspectraltype": "G2V",
+//     "mean_distance_milky_way_core": "≈ 2.7 × 10¹⁷ km",
+//     "galactic_period": "(2.25–2.50) × 10⁸ a",
+//     "velocity": "≈ 220 km/s (Orbit um das Zentrum der Milchstraße)\n≈ 20 km/s (relativ zur Durchschnittsgeschwindigkeit anderer Sterne in stellarer Nachbarschaft)\n≈ 370 km/s (relativ zur Kosmischen Hintergrundstrahlung)",
+//     "meandistancetoearth": "1 AU (149,6 Mio. km)",
+//     "distancetoearth": "0,98328877 AU - 1,01671123 AU (147,1 Mio. km - 152,1 Mio. km)",
+//     "itemdiameter": "1.392.700 km (Äquator)",
+//     "itemmass": "1,989 × 10³⁰ kg",
+//     "itemdensity": "1,408 g/cm³",
+//     "solareGravitationskonstante(g·M)": "1,32712440018 × 10²⁰ m³/s²",
+//     "fallbeschleunigungAnDerOberfläche": "274 m/s²",
+//     "fluchtgeschwindigkeit": "617,3 km/s",
+//     "itemrotationperiod": "25,38 d",
+//     "axial_tilt": "7,25°",
+//     "absoluteHelligkeit": "4,83 mag",
+//     "leuchtkraft": "3,846 × 10²⁶ W",
+//     "itemmidtemperature": "5778 K",
+//     "itematmosphere": "Wasserstoff: 92,1 %, Helium: 7,8 %, Sauerstoff: 500 ppm, Kohlenstoff: 230 ppm, Neon: 100 ppm, Stickstoff: 70 ppm",
+//     "sonstiges": "Alter: 4,57 × 10⁹ a"
+// },
+// {
+//     "itemindex": "1.0",
+//     "itemname": "Innere Planeten",
+//     "itemname2": "innerPlanets",
+//     "itemtype": 1,
+//     "itemcategory": "group",
+//     "itemparent": "solar-system",
+//     "itemurl": "https://de.wikipedia.org/wiki/Innerer_Planet"
+// },
 // {
 //     "itemindex": "1.1",
 //     "itemname": "Merkur",
