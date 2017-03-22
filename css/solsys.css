@@ -14,18 +14,15 @@
 .type-4 {margin-left: 33.333%;}
 .type-5 {margin-left: 50%;}
 
+.item-has-children>a:after {content: "\25BE";}
+
 #sun div.item-name {
-	background-image: linear-gradient( to right, rgba(240,88,2,.5) 50%, rgba(255,255,255,0));
+	background-image: linear-gradient( to right, rgba(240,88,2,.5) 50%, rgba(240,88,2,0));
 }
 #sun div.item-name:focus, #sun div.item-name:hover, #sun div.item-name:active {
-	background-image: linear-gradient( to right, rgba(240,88,2,.8) 50%, rgba(255,255,255,0));
+	background-image: linear-gradient( to right, rgba(240,88,2,.8) 50%, rgba(240,88,2,0));
 }
 
-#innerPlanets,
-#asteroidBelt,
-#outerPlanets,
-#transneptunianObjects,
-#oortCloud {background: rgba(255,255,255,0);}
 #innerPlanets:focus, #innerPlanets:hover, #innerPlanets:active,
 #asteroidBelt:focus, #asteroidBelt:hover, #asteroidBelt:active,
 #outerPlanets:focus, #outerPlanets:hover, #outerPlanets:active,
@@ -33,28 +30,28 @@
 #oortCloud:focus, #oortCloud:hover, #oortCloud:active {background: rgba(255,255,255,.3);}
 
 #mercury div.item-name {
-	background-image: linear-gradient( to right, rgba(210,210,210,.5) 50%, rgba(255,255,255,0));
+	background-image: linear-gradient( to right, rgba(210,210,210,.5) 50%, rgba(210,210,210,0));
 }
 #mercury div.item-name:focus,
 #mercury div.item-name:hover,
 #mercury div.item-name:active {
-	background-image: linear-gradient( to right, rgba(210,210,210,.8) 50%, rgba(255,255,255,0));
+	background-image: linear-gradient( to right, rgba(210,210,210,.8) 50%, rgba(210,210,210,0));
 }
 
 #venus div.item-name {
-	background-image: linear-gradient( to right, rgba(230,190,18,.5) 50%, rgba(255,255,255,0));
+	background-image: linear-gradient( to right, rgba(230,190,18,.5) 50%, rgba(230,190,18,0));
 }
 #venus div.item-name:focus,
 #venus div.item-name:hover,
 #venus div.item-name:active {
-	background-image: linear-gradient( to right, rgba(230,190,18,.8) 50%, rgba(255,255,255,0));
+	background-image: linear-gradient( to right, rgba(230,190,18,.8) 50%, rgba(230,190,18,0));
 }
 
 #earth div.item-name {
-	background-image: linear-gradient( to right, rgba(1,114,192,.5) 50%, rgba(255,255,255,0));
+	background-image: linear-gradient( to right, rgba(1,114,192,.5) 50%, rgba(1,114,192,0));
 }
 #earth div.item-name:focus, #earth div.item-name:hover, #earth div.item-name:active {
-	background-image: linear-gradient( to right, rgba(1,114,192,.8) 50%, rgba(255,255,255,0));
+	background-image: linear-gradient( to right, rgba(1,114,192,.8) 50%, rgba(1,114,192,0));
 }
 
 #atenAsteroids div.item-name,
@@ -66,7 +63,7 @@
 #centaurs1 div.item-name,
 #centaurs2 div.item-name,
 #centaurs3 div.item-name {
-	background-image: linear-gradient( to right, rgba(181,181,181,.5) 50%, rgba(255,255,255,0));
+	background-image: linear-gradient( to right, rgba(181,181,181,.5) 50%, rgba(181,181,181,0));
 }
 #atenAsteroids div.item-name:focus, #atenAsteroids div.item-name:hover, #atenAsteroids div.item-name:active,
 #apolloAsteroids div.item-name:focus, #apolloAsteroids div.item-name:hover, #apolloAsteroids div.item-name:active,
@@ -77,47 +74,47 @@
 #centaurs1 div.item-name:focus, #centaurs1 div.item-name:hover, #centaurs1 div.item-name:active,
 #centaurs2 div.item-name:focus, #centaurs2 div.item-name:hover, #centaurs2 div.item-name:active,
 #centaurs3 div.item-name:focus, #centaurs3 div.item-name:hover, #centaurs3 div.item-name:active {
-	background-image: linear-gradient( to right, rgba(181,181,181,.8) 50%, rgba(255,255,255,0));
+	background-image: linear-gradient( to right, rgba(181,181,181,.8) 50%, rgba(181,181,181,0));
 }
 
 #mars div.item-name {
-	background-image: linear-gradient( to right, rgba(229,145,85,.5) 50%, rgba(255,255,255,0));
+	background-image: linear-gradient( to right, rgba(229,145,85,.5) 50%, rgba(229,145,85,0));
 }
 #mars div.item-name:focus, #mars div.item-name:hover, #mars div.item-name:active {
-	background-image: linear-gradient( to right, rgba(229,145,85,.8) 50%, rgba(255,255,255,0));
+	background-image: linear-gradient( to right, rgba(229,145,85,.8) 50%, rgba(229,145,85,0));
 }
 
 #jupiter div.item-name {
-	background-image: linear-gradient( to right, rgba(171,154,144,.5) 50%, rgba(255,255,255,0));
+	background-image: linear-gradient( to right, rgba(171,154,144,.5) 50%, rgba(171,154,144,0));
 }
 #jupiter div.item-name:focus, #jupiter div.item-name:hover, #jupiter div.item-name:active {
-	background-image: linear-gradient( to right, rgba(171,154,144,.8) 50%, rgba(255,255,255,0));
+	background-image: linear-gradient( to right, rgba(171,154,144,.8) 50%, rgba(171,154,144,0));
 }
 
 #saturn div.item-name {
-	background-image: linear-gradient( to right, rgba(221,198,157,.5) 50%, rgba(255,255,255,0));
+	background-image: linear-gradient( to right, rgba(221,198,157,.5) 50%, rgba(221,198,157,0));
 }
 #saturn div.item-name:focus, #saturn div.item-name:hover, #saturn div.item-name:active {
-	background-image: linear-gradient( to right, rgba(221,198,157,.8) 50%, rgba(255,255,255,0));
+	background-image: linear-gradient( to right, rgba(221,198,157,.8) 50%, rgba(221,198,157,0));
 }
 
 #uranus div.item-name {
-	background-image: linear-gradient( to right, rgba(181,223,221,.5) 50%, rgba(255,255,255,0));
+	background-image: linear-gradient( to right, rgba(181,223,221,.5) 50%, rgba(181,223,221,0));
 }
 #uranus div.item-name:focus, #uranus div.item-name:hover, #uranus div.item-name:active {
-	background-image: linear-gradient( to right, rgba(181,223,221,.8) 50%, rgba(255,255,255,0));
+	background-image: linear-gradient( to right, rgba(181,223,221,.8) 50%, rgba(181,223,221,0));
 }
 
 #neptune div.item-name {
-	background-image: linear-gradient( to right, rgba(72,115,255,.5) 50%, rgba(255,255,255,0));
+	background-image: linear-gradient( to right, rgba(72,115,255,.5) 50%, rgba(72,115,255,0));
 }
 #neptune div.item-name:focus, #neptune div.item-name:hover, #neptune div.item-name:active {
-	background-image: linear-gradient( to right, rgba(72,115,255,.8) 50%, rgba(255,255,255,0));
+	background-image: linear-gradient( to right, rgba(72,115,255,.8) 50%, rgba(72,115,255,0));
 }
 
 #kuiperbelt div.item-name {
-	background-image: linear-gradient( to right, rgba(193,160,129,.5) 50%, rgba(255,255,255,0));
+	background-image: linear-gradient( to right, rgba(193,160,129,.5) 50%, rgba(193,160,129,0));
 }
 #kuiperbelt div.item-name:focus, #kuiperbelt div.item-name:hover, #kuiperbelt div.item-name:active {
-	background-image: linear-gradient( to right, rgba(193,160,129,.8) 50%, rgba(255,255,255,0));
+	background-image: linear-gradient( to right, rgba(193,160,129,.8) 50%, rgba(193,160,129,0));
 }
