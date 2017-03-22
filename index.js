@@ -38735,14 +38735,17 @@ var SolarSystem = (function () {
   item.type 4 = pure-u-2-3
   item.type 5 = pure-u-1-2
   ONLY IF item.type value is higher than "1" AND item.category = "group",
-  THEN add className "item-has-children" to expand the group onClick to show child-elements.
+  THEN add CSS class "item-has-children".
   
   For each item in JSON with existing(!) item.name build a 2nd div as a child of the container div:
     <div className="item-name">
       <a href={item.wikipediaUrl} title={item.name}>{item.name}</a>
     </div>
+  
   The className="item-name" is not className={item.name}! I need this to control background etc.
   Set the <a href={item.wikipediaUrl} title={item.name}> + </a> only if item.wikipediaUrl exists.
+  For the future, groups with the CSS class "item-has-children" should be collapsed onLoad
+  and folded out onClick to show the child-elements.
   */
 
   _createClass(SolarSystem, null, [{
@@ -38872,6 +38875,7 @@ var Item = (function () {
       item.synodicPeriod = raw.itemsynodicperiod ? raw.itemsynodicperiod : '';
       item.orbitalSpeed = raw.itemorbitalspeed ? raw.itemorbitalspeed : '';
       item.diameter = raw.itemdiameter ? raw.itemdiameter : '';
+      item.measures = raw.itemmeasures ? raw.itemmeasures : '';
       item.mass = raw.itemmass ? raw.itemmass : '';
       item.density = raw.itemdensity ? raw.itemdensity : '';
       item.appMagnitude = raw.itemappmag ? raw.itemappmag : '';
