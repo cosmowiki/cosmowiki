@@ -35711,7 +35711,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'mercury', className: 'type-2 pure-u-4-5' },
+            { id: 'mercury', className: 'type-2 pure-u-1 pure-u-sm-4-5' },
             _react2['default'].createElement(
               'a',
               { href: '#', className: 'item-name' },
@@ -35720,7 +35720,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'venus', className: 'type-2 pure-u-4-5' },
+            { id: 'venus', className: 'type-2 pure-u-1 pure-u-sm-4-5' },
             _react2['default'].createElement(
               'a',
               { href: '#', className: 'item-name' },
@@ -35729,7 +35729,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'atenAsteroids', className: 'type-2 pure-u-4-5' },
+            { id: 'atenAsteroids', className: 'type-2 pure-u-1 pure-u-sm-4-5' },
             _react2['default'].createElement(
               'a',
               { href: '#', className: 'item-name collapsed' },
@@ -35737,10 +35737,10 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { className: 'type-3 pure-u-3-4' },
+              { className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'div',
-                { id: '2062aten', className: 'type-4 pure-u-2-3' },
+                { id: '2062aten', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -35751,7 +35751,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'earth', className: 'type-2 pure-u-4-5' },
+            { id: 'earth', className: 'type-2 pure-u-1 pure-u-sm-4-5' },
             _react2['default'].createElement(
               'a',
               { href: '#', className: 'item-name' },
@@ -35759,10 +35759,10 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { className: 'type-3 pure-u-3-4' },
+              { className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'div',
-                { id: 'moon', className: 'type-4 pure-u-2-3' },
+                { id: 'moon', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -35772,7 +35772,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'nearEarthObjects', className: 'type-3 pure-u-3-4' },
+              { id: 'nearEarthObjects', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name' },
@@ -35782,7 +35782,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'apolloAsteroids', className: 'type-2 pure-u-4-5' },
+            { id: 'apolloAsteroids', className: 'type-2 pure-u-1 pure-u-sm-4-5' },
             _react2['default'].createElement(
               'a',
               { href: '#', className: 'item-name collapsed' },
@@ -35790,10 +35790,10 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { className: 'type-3 pure-u-3-4' },
+              { className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'div',
-                { id: '1862apollo', className: 'type-4 pure-u-2-3' },
+                { id: '1862apollo', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -35804,7 +35804,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'mars', className: 'type-2 pure-u-4-5' },
+            { id: 'mars', className: 'type-2 pure-u-1 pure-u-sm-4-5' },
             _react2['default'].createElement(
               'a',
               { href: '#', className: 'item-name' },
@@ -35812,10 +35812,10 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { className: 'type-3 pure-u-3-4' },
+              { className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'div',
-                { id: 'phobos', className: 'type-4 pure-u-2-3' },
+                { id: 'phobos', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -35824,7 +35824,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
               ),
               _react2['default'].createElement(
                 'div',
-                { id: 'deimos', className: 'type-4 pure-u-2-3' },
+                { id: 'deimos', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -35834,7 +35834,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'marsTrojanGroup', className: 'type-3 pure-u-3-4' },
+              { id: 'marsTrojanGroup', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name' },
@@ -35844,7 +35844,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'amorAsteroids', className: 'type-2 pure-u-4-5' },
+            { id: 'amorAsteroids', className: 'type-2 pure-u-1 pure-u-sm-4-5' },
             _react2['default'].createElement(
               'a',
               { href: '#', className: 'item-name collapsed' },
@@ -35852,7 +35852,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'amor1Asteroids', className: 'type-3 pure-u-3-4' },
+              { id: 'amor1Asteroids', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name' },
@@ -35861,7 +35861,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'amor2Asteroids', className: 'type-3 pure-u-3-4' },
+              { id: 'amor2Asteroids', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name collapsed' },
@@ -35869,7 +35869,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
               ),
               _react2['default'].createElement(
                 'div',
-                { id: '1221amor', className: 'type-4 pure-u-2-3' },
+                { id: '1221amor', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -35879,7 +35879,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'amor3Asteroids', className: 'type-3 pure-u-3-4' },
+              { id: 'amor3Asteroids', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name collapsed' },
@@ -35887,7 +35887,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
               ),
               _react2['default'].createElement(
                 'div',
-                { id: '1036ganymed', className: 'type-4 pure-u-2-3' },
+                { id: '1036ganymed', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -35897,7 +35897,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'amor4Asteroids', className: 'type-3 pure-u-3-4' },
+              { id: 'amor4Asteroids', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name collapsed' },
@@ -35905,7 +35905,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
               ),
               _react2['default'].createElement(
                 'div',
-                { id: '3552donquixote', className: 'type-4 pure-u-2-3' },
+                { id: '3552donquixote', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -35925,7 +35925,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'innerMainbelt', className: 'type-2 pure-u-4-5' },
+            { id: 'innerMainbelt', className: 'type-2 pure-u-1 pure-u-sm-4-5' },
             _react2['default'].createElement(
               'a',
               { href: '#', className: 'item-name collapsed' },
@@ -35933,7 +35933,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'floraGroup', className: 'type-3 pure-u-3-4' },
+              { id: 'floraGroup', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name collapsed' },
@@ -35941,7 +35941,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
               ),
               _react2['default'].createElement(
                 'div',
-                { id: '8flora', className: 'type-4 pure-u-2-3' },
+                { id: '8flora', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -35951,7 +35951,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'vestaGroup', className: 'type-3 pure-u-3-4' },
+              { id: 'vestaGroup', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name collapsed' },
@@ -35959,7 +35959,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
               ),
               _react2['default'].createElement(
                 'div',
-                { id: '4vesta', className: 'type-4 pure-u-2-3' },
+                { id: '4vesta', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -35969,7 +35969,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'nysaGroup', className: 'type-3 pure-u-3-4' },
+              { id: 'nysaGroup', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name collapsed' },
@@ -35977,7 +35977,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
               ),
               _react2['default'].createElement(
                 'div',
-                { id: '44nysa', className: 'type-4 pure-u-2-3' },
+                { id: '44nysa', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -35988,7 +35988,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'middleMainbelt', className: 'type-2 pure-u-4-5' },
+            { id: 'middleMainbelt', className: 'type-2 pure-u-1 pure-u-sm-4-5' },
             _react2['default'].createElement(
               'a',
               { href: '#', className: 'item-name collapsed' },
@@ -35996,7 +35996,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'eunomiaGroup', className: 'type-3 pure-u-3-4' },
+              { id: 'eunomiaGroup', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name collapsed' },
@@ -36004,7 +36004,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
               ),
               _react2['default'].createElement(
                 'div',
-                { id: '15eunomia', className: 'type-4 pure-u-2-3' },
+                { id: '15eunomia', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -36014,7 +36014,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'gefionGroup', className: 'type-3 pure-u-3-4' },
+              { id: 'gefionGroup', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name collapsed' },
@@ -36022,7 +36022,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
               ),
               _react2['default'].createElement(
                 'div',
-                { id: '1272gefion', className: 'type-4 pure-u-2-3' },
+                { id: '1272gefion', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -36033,7 +36033,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'outerMainbelt', className: 'type-2 pure-u-4-5' },
+            { id: 'outerMainbelt', className: 'type-2 pure-u-1 pure-u-sm-4-5' },
             _react2['default'].createElement(
               'a',
               { href: '#', className: 'item-name collapsed' },
@@ -36041,7 +36041,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'koronisGroup', className: 'type-3 pure-u-3-4' },
+              { id: 'koronisGroup', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name collapsed' },
@@ -36049,7 +36049,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
               ),
               _react2['default'].createElement(
                 'div',
-                { id: '158koronis', className: 'type-4 pure-u-2-3' },
+                { id: '158koronis', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -36059,7 +36059,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'eosGroup', className: 'type-3 pure-u-3-4' },
+              { id: 'eosGroup', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name collapsed' },
@@ -36067,7 +36067,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
               ),
               _react2['default'].createElement(
                 'div',
-                { id: '221eos', className: 'type-4 pure-u-2-3' },
+                { id: '221eos', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -36077,7 +36077,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'themisGroup', className: 'type-3 pure-u-3-4' },
+              { id: 'themisGroup', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name collapsed' },
@@ -36085,7 +36085,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
               ),
               _react2['default'].createElement(
                 'div',
-                { id: '24themis', className: 'type-4 pure-u-2-3' },
+                { id: '24themis', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -36095,7 +36095,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'hygieaGroup', className: 'type-3 pure-u-3-4' },
+              { id: 'hygieaGroup', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name collapsed' },
@@ -36103,7 +36103,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
               ),
               _react2['default'].createElement(
                 'div',
-                { id: '10hygiea', className: 'type-4 pure-u-2-3' },
+                { id: '10hygiea', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -36123,7 +36123,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'jupiter', className: 'type-2 pure-u-4-5' },
+            { id: 'jupiter', className: 'type-2 pure-u-1 pure-u-sm-4-5' },
             _react2['default'].createElement(
               'a',
               { href: '#', className: 'item-name' },
@@ -36131,7 +36131,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'jupiterMoons', className: 'type-3 pure-u-3-4' },
+              { id: 'jupiterMoons', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name collapsed' },
@@ -36139,7 +36139,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
               ),
               _react2['default'].createElement(
                 'div',
-                { id: 'io', className: 'type-4 pure-u-2-3' },
+                { id: 'io', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -36149,7 +36149,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'jupiterTrojans', className: 'type-3 pure-u-3-4' },
+              { id: 'jupiterTrojans', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name' },
@@ -36159,7 +36159,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'centaurs1', className: 'type-2 pure-u-4-5' },
+            { id: 'centaurs1', className: 'type-2 pure-u-1 pure-u-sm-4-5' },
             _react2['default'].createElement(
               'a',
               { href: '#', className: 'item-name' },
@@ -36168,7 +36168,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'saturn', className: 'type-2 pure-u-4-5' },
+            { id: 'saturn', className: 'type-2 pure-u-1 pure-u-sm-4-5' },
             _react2['default'].createElement(
               'a',
               { href: '#', className: 'item-name' },
@@ -36176,7 +36176,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'saturnMoons', className: 'type-3 pure-u-3-4' },
+              { id: 'saturnMoons', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name collapsed' },
@@ -36184,7 +36184,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
               ),
               _react2['default'].createElement(
                 'div',
-                { id: 'mimas', className: 'type-4 pure-u-2-3' },
+                { id: 'mimas', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -36195,7 +36195,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'centaurs2', className: 'type-2 pure-u-4-5' },
+            { id: 'centaurs2', className: 'type-2 pure-u-1 pure-u-sm-4-5' },
             _react2['default'].createElement(
               'a',
               { href: '#', className: 'item-name' },
@@ -36204,7 +36204,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'uranus', className: 'type-2 pure-u-4-5' },
+            { id: 'uranus', className: 'type-2 pure-u-1 pure-u-sm-4-5' },
             _react2['default'].createElement(
               'a',
               { href: '#', className: 'item-name' },
@@ -36212,7 +36212,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'uranusMoons', className: 'type-3 pure-u-3-4' },
+              { id: 'uranusMoons', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name collapsed' },
@@ -36220,7 +36220,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
               ),
               _react2['default'].createElement(
                 'div',
-                { id: 'ariel', className: 'type-4 pure-u-2-3' },
+                { id: 'ariel', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -36231,7 +36231,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'centaurs3', className: 'type-2 pure-u-4-5' },
+            { id: 'centaurs3', className: 'type-2 pure-u-1 pure-u-sm-4-5' },
             _react2['default'].createElement(
               'a',
               { href: '#', className: 'item-name' },
@@ -36240,7 +36240,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'neptune', className: 'type-2 pure-u-4-5' },
+            { id: 'neptune', className: 'type-2 pure-u-1 pure-u-sm-4-5' },
             _react2['default'].createElement(
               'a',
               { href: '#', className: 'item-name' },
@@ -36248,7 +36248,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'neptuneMoons', className: 'type-3 pure-u-3-4' },
+              { id: 'neptuneMoons', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name collapsed' },
@@ -36256,7 +36256,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
               ),
               _react2['default'].createElement(
                 'div',
-                { id: 'triton', className: 'type-4 pure-u-2-3' },
+                { id: 'triton', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -36266,7 +36266,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'neptuneTrojans', className: 'type-3 pure-u-3-4' },
+              { id: 'neptuneTrojans', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name' },
@@ -36285,7 +36285,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'kuiperbelt', className: 'type-2 pure-u-4-5' },
+            { id: 'kuiperbelt', className: 'type-2 pure-u-1 pure-u-sm-4-5' },
             _react2['default'].createElement(
               'a',
               { href: '#', className: 'item-name collapsed' },
@@ -36293,7 +36293,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'kuiperbeltObjects', className: 'type-3 pure-u-3-4' },
+              { id: 'kuiperbeltObjects', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name collapsed' },
@@ -36301,7 +36301,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
               ),
               _react2['default'].createElement(
                 'div',
-                { id: 'pluto', className: 'type-4 pure-u-2-3' },
+                { id: 'pluto', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -36309,7 +36309,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
                 ),
                 _react2['default'].createElement(
                   'div',
-                  { id: 'charon', className: 'type-5 pure-u-1-2' },
+                  { id: 'charon', className: 'type-5 pure-u-1 pure-u-1-2' },
                   _react2['default'].createElement(
                     'a',
                     { href: '#', className: 'item-name' },
@@ -36320,7 +36320,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: 'sednoidGroup', className: 'type-3 pure-u-3-4' },
+              { id: 'sednoidGroup', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name collapsed' },
@@ -36328,7 +36328,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
               ),
               _react2['default'].createElement(
                 'div',
-                { id: 'sedna', className: 'type-4 pure-u-2-3' },
+                { id: 'sedna', className: 'type-4 pure-u-1 pure-u-sm-2-3' },
                 _react2['default'].createElement(
                   'a',
                   { href: '#', className: 'item-name' },
@@ -36348,7 +36348,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           ),
           _react2['default'].createElement(
             'div',
-            { id: 'periodicComets', className: 'type-2 pure-u-4-5' },
+            { id: 'periodicComets', className: 'type-2 pure-u-1 pure-u-sm-4-5' },
             _react2['default'].createElement(
               'a',
               { href: '#', className: 'item-name collapsed' },
@@ -36356,7 +36356,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: '1phalley', className: 'type-3 pure-u-3-4' },
+              { id: '1phalley', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name' },
@@ -36365,7 +36365,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { id: '2pencke', className: 'type-3 pure-u-3-4' },
+              { id: '2pencke', className: 'type-3 pure-u-1 pure-u-sm-3-4' },
               _react2['default'].createElement(
                 'a',
                 { href: '#', className: 'item-name' },

@@ -4,15 +4,18 @@
 
 #solarsystemTable div, #solarsystemTable a {display: block;}
 .item-name {padding: .2em;}
-.type-1 a.item-name {border-top: 1px solid #fff;}
-.type-2 a.item-name {border-top: none; border-bottom: 1px solid #fff;}
+.type-1 .item-name {border-top: 1px solid #fff;}
+.type-2 .item-name {border-top: none; border-bottom: 1px solid #fff;}
 /* how to avoid border-bottom of last a.item-name inside each div.type-1? */
 /*.type-1 div:last-of-type a:last-child {border-top: none; border-bottom: none;}*/
 
-.type-2 {margin-left: 20%;}
-.type-3 {margin-left: 25%;}
-.type-4 {margin-left: 33.333%;}
-.type-5 {margin-left: 50%;}
+/* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
+@media only all and (min-width: 35.5em) {
+	.type-2 {margin-left: 20%;}
+	.type-3 {margin-left: 25%;}
+	.type-4 {margin-left: 33.333%;}
+	.type-5 {margin-left: 50%;}
+}
 
 .collapsed:before {content: "\25B8  ";}
 .expanded:before {content: "\25BE  ";}
