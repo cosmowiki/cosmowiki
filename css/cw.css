@@ -230,19 +230,18 @@ footer {background: #f8f8f8; border-top: 1em solid #99f;}
 	padding: 1em 0 .5em;
 	border-top: 1px solid #fff;	border-bottom: 1px solid #ddd;
 }
-footer h4, footer ul {border-radius: 5px;}
 footer h4 {
-	margin: 0 .25em 0; padding: .125em 0;
-	background: #eee; border: 1px solid #ddd; border-radius: 5px 5px 0 0;
+	padding: .125em 0;
+	background: #eee;
+	border-width: 1px 0; border-style: solid; border-color: #ddd;
 }
 footer ul {
-	margin: 0 .25em .5em;
+	margin: 0 0 .5em;
 	background: #fff;
-	border-radius: 0 0 5px 5px; border: 1px solid #ddd; border-top-width: 0;
+	border-width: 0 0 1px; border-style: solid; border-color: #ddd;
 }
 footer ul li a {display: block; line-height: 1.5em;}
 footer ul li a:hover {background: #eee;}
-footer ul li:last-child a:hover {border-radius: 0 0 5px 5px;}
 
 /*.shariff-button a.share_text {color: #fff;}*/
 
@@ -251,7 +250,18 @@ footer ul li:last-child a:hover {border-radius: 0 0 5px 5px;}
 
 /* properties for breakpoints ----------------------------------------------- */
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
-
+@media only screen and (min-width: 35.5em) {
+	footer h4 {
+		margin: 0 auto 0;
+		border: 1px solid #ddd; border-radius: 5px 5px 0 0;
+	}
+	footer ul {
+		margin: 0 auto .5em;
+		background: #fff;
+		border-radius: 0 0 5px 5px; border: 1px solid #ddd; border-top-width: 0;
+	}
+	footer ul li:last-child a:hover {border-radius: 0 0 5px 5px;}
+}
 @media only screen and (min-width: 48em) {
 	#branding {
 		background-image: linear-gradient(to right, #fff 180px, #ddf);
@@ -268,7 +278,12 @@ footer ul li:last-child a:hover {border-radius: 0 0 5px 5px;}
 	#footerContainer div:last-child h4 {margin-right: .5em;}
 	#footerContainer div:first-child ul {margin-left: .5em;}
 	#footerContainer div:last-child ul {margin-right: .5em;}
-	footer ul {min-height: 12em;}
+		footer h4 {
+			margin: 0 .25em 0;
+		}
+		footer ul {
+			margin: 0 .25em .5em; min-height: 12em;
+		}
 	footer ul li:last-child a:hover {border-radius: 0;}
 }
 @media only screen and (min-width: 64em) {
