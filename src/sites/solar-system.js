@@ -37,7 +37,7 @@ Pure-grid-classes:
 - type-5 = pure-u-1-2
 
 For the html-structure:
-- div.type-2 is a child of the div.type-1 (and a sibling of the <a> in the parent div if there is <a>),
+- div.type-2 is a child of the div.type-1,
 - div.type-3 is a child of the div.type-2,
 - div.type-4 is a child of the div.type-3,
 - div.type-5 is a child of the div.type-4.
