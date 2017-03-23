@@ -104,7 +104,7 @@ const questions = {
           Online-Enzyklopädie <a title="Wikipedia.org" href="http://de.wikipedia.org/" target="_blank"><b>Wikipedia.org</b></a> und
           seinen vielen freiwilligen Mitarbeitern für das größte Lexikon
           der Welt bedanken! Sie alle haben das Wissen der Menschheit in das
-          21. Jahrhundert katapultiert und uns allen damit einen unschätzbaren Dienst erwiesen.
+          21. Jahrhundert katapultiert und erweisen uns allen damit täglich einen unschätzbaren Dienst.
         </p>
         <p>
           Weiterhin bedanken wir uns von ganzem Herzen bei <a title="Wolfram Kriesing" href="https://twitter.com/wolframkriesing" target="_blank"><b>Wolfram Kriesing</b></a> für
@@ -170,7 +170,7 @@ export default class AboutComponent extends React.Component {
           <h3>Ohne Idee keine Entwicklung</h3>
         </div>
         <div id="todo" className="pure-u-1">
-          <p>@wolfram pls when clicking on link in #footerElse do a auto-scroll to question and avoid covering by branding</p>
+          <p>@wolfram pls when clicking on link in #footerElse jump to the question but avoid covering by branding</p>
           <p>@wolfram pls make the contact form work, send mail to admin@cosmowiki.org</p>
         </div>
         <div id="about" className="justify">
@@ -191,12 +191,13 @@ export default class AboutComponent extends React.Component {
 
 const Question = ({toggleFunction, category, isVisible}) => {
   const {question, answer} = questions[category];
-  const classNames = isVisible ? 'answer visible' : 'answer hidden';
+  const linkActivity = isVisible ? ' expanded' : ' collapsed';
+  const listVisibility = isVisible ? ' visible' : ' hidden';
 
   return (
     <li className="question">
-      <a className="question-link" href={'#' + category} onClick={toggleFunction}><i className="fa fa-caret-right fa-fw" />{' ' + question}</a>
-      <ul id={category} className={classNames}>{answer}</ul>
+      <a className={'question-link' + linkActivity} href={'#' + category} onClick={toggleFunction}>{' ' + question}</a>
+      <ul id={category} className={'answer' + listVisibility}>{answer}</ul>
     </li>
   );
 };
