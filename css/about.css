@@ -2,8 +2,12 @@
   background: rgba(255,255,255,.8);
   border-bottom: 1px solid #fff;
 }
-#about ul li.question:hover {background: rgba(255,255,255,.9);}
-#about a.question-link {display: block; padding: 2em .5em;}
+
+.question-link .collapsed:before {content: "\25BE  ";}
+.question-link .expanded:before {content: "\25B8  ";}
+
+#about .question:hover {background: rgba(255,255,255,.9);}
+#about .question-link {display: block; padding: 2em .5em;}
 #about ul ul li p {display: block; margin: 0 1em 1em;}
 #about form {margin: 0 1em;}
 #about label,

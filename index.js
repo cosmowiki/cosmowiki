@@ -33152,7 +33152,7 @@ var questions = {
             'Wikipedia.org'
           )
         ),
-        ' und seinen vielen freiwilligen Mitarbeitern für das größte Lexikon der Welt bedanken! Sie alle haben das Wissen der Menschheit in das 21. Jahrhundert katapultiert und uns allen damit einen unschätzbaren Dienst erwiesen.'
+        ' und seinen vielen freiwilligen Mitarbeitern für das größte Lexikon der Welt bedanken! Sie alle haben das Wissen der Menschheit in das 21. Jahrhundert katapultiert und erweisen uns allen damit täglich einen unschätzbaren Dienst.'
       ),
       _react2['default'].createElement(
         'p',
@@ -33277,7 +33277,7 @@ var AboutComponent = (function (_React$Component) {
           _react2['default'].createElement(
             'p',
             null,
-            '@wolfram pls when clicking on link in #footerElse do a auto-scroll to question and avoid covering by branding'
+            '@wolfram pls when clicking on link in #footerElse jump to the question but avoid covering by branding'
           ),
           _react2['default'].createElement(
             'p',
@@ -33319,20 +33319,20 @@ var Question = function Question(_ref) {
   var question = _questions$category.question;
   var answer = _questions$category.answer;
 
-  var classNames = isVisible ? 'answer visible' : 'answer hidden';
+  var linkActivity = isVisible ? ' expanded' : ' collapsed';
+  var listVisibility = isVisible ? ' visible' : ' hidden';
 
   return _react2['default'].createElement(
     'li',
     { className: 'question' },
     _react2['default'].createElement(
       'a',
-      { className: 'question-link', href: '#' + category, onClick: toggleFunction },
-      _react2['default'].createElement('i', { className: 'fa fa-caret-right fa-fw' }),
+      { className: 'question-link' + linkActivity, href: '#' + category, onClick: toggleFunction },
       ' ' + question
     ),
     _react2['default'].createElement(
       'ul',
-      { id: category, className: classNames },
+      { id: category, className: 'answer' + listVisibility },
       answer
     )
   );
@@ -36340,6 +36340,42 @@ var SolarSystemComponent = function SolarSystemComponent() {
         ),
         _react2['default'].createElement(
           'div',
+          { id: 'comets', className: 'type-1 pure-u-1' },
+          _react2['default'].createElement(
+            'a',
+            { href: '#', className: 'item-name' },
+            'Kometen'
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'periodicComets', className: 'type-2 pure-u-4-5' },
+            _react2['default'].createElement(
+              'a',
+              { href: '#', className: 'item-name collapsed' },
+              'periodische Kometen'
+            ),
+            _react2['default'].createElement(
+              'div',
+              { id: '1phalley', className: 'type-3 pure-u-3-4' },
+              _react2['default'].createElement(
+                'a',
+                { href: '#', className: 'item-name' },
+                '1P/Halley'
+              )
+            ),
+            _react2['default'].createElement(
+              'div',
+              { id: '2pencke', className: 'type-3 pure-u-3-4' },
+              _react2['default'].createElement(
+                'a',
+                { href: '#', className: 'item-name' },
+                '2P/Encke'
+              )
+            )
+          )
+        ),
+        _react2['default'].createElement(
+          'div',
           { id: 'oortCloud', className: 'type-1 pure-u-1' },
           _react2['default'].createElement(
             'a',
@@ -38730,9 +38766,9 @@ var SolarSystem = (function () {
   
   Meaning of the itemtype in the JSON-file:
   - type-1 = group of inner planets, the asteroid-belt, group of outer planets,
-  transneptunian-objects and the oort-cloud = the parent items of all other items.
+  transneptunian-objects, comets and the oort-cloud = the parents of all other items.
   - type-2 = all planets and groups equal in hierarchy.
-  - type-3 = trojan groups, groups of planet-moons and the sub-groups of the asteroid-belt.
+  - type-3 = trojan groups, groups of planet-moons, the sub-groups of the asteroid-belt and comet-groups.
   - type-4 = all planet-moons, asteroids of the asteroid-belt and kuiperbelt objects.
   - type-5 = only moons of kuiperbelt objects.
   
@@ -38765,11 +38801,10 @@ var SolarSystem = (function () {
   
   IF item.type value is type-2, type-3, type-4 or type-5 AND item.category is "group",
   THEN add CSS class "collapsed" to the <a>.
-  These groups have already child elements in the JSON and should be collapsed onLoad
-  and expand onClick to show their child-elements.
+  These groups have already child elements in the spreadsheet
+  and should be collapsed onLoad and expand onClick to show their child-elements.
   On click the CSS class "collapsed" should be replaced with "expanded" to change the icon.
-  (see the solsys.css)
-  Please edit this too for the about-site.
+  (as the questions in the about-site, class-selectors already defined in solsys.css)
   */
 
   _createClass(SolarSystem, null, [{
