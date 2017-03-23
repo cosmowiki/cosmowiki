@@ -7,7 +7,7 @@ const Footer = ({appUrl}) => {
         <p>@wolfram pls insert the shariff-button</p>
       </div>
       <div id="footerContainer" className="pure-u-1">
-        <div id="footerMainPages" className="footer-part pure-u-1 pure-u-sm-1-2 pure-u-md-1-5">
+        <div id="footerMainPages" className="footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5">
           <h4>Hauptseiten</h4>
           <ul>
             {[
@@ -25,7 +25,7 @@ const Footer = ({appUrl}) => {
             )}
           </ul>
         </div>
-        <div id="footerSubPages" className="footer-part pure-u-1 pure-u-sm-1-2 pure-u-md-1-5">
+        <div id="footerSubPages" className="footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5">
           <h4>Unterseiten</h4>
           <ul>
             {[
@@ -45,7 +45,7 @@ const Footer = ({appUrl}) => {
             )}
           </ul>
         </div>
-        <div id="footerNetworks" className="footer-part pure-u-1 pure-u-sm-1-2 pure-u-md-1-5">
+        <div id="footerNetworks" className="footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5">
           <h4>Folgen</h4>
           <ul>
             <li>
@@ -62,7 +62,7 @@ const Footer = ({appUrl}) => {
             </li>
         </ul>
         </div>
-        <div id="footerShare" className="footer-part pure-u-1 pure-u-sm-1-2 pure-u-md-1-5">
+        <div id="footerShare" className="footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5">
           <h4>Teilen</h4>
           <ul>
             <li>
@@ -80,7 +80,7 @@ const Footer = ({appUrl}) => {
             </li>
           </ul>
         </div>
-        <div id="footerElse" className="footer-part pure-u-1 pure-u-sm-1-2 pure-u-md-1-5">
+        <div id="footerElse" className="footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5">
           <h4>Sonstiges</h4>
           <ul>
             {[
