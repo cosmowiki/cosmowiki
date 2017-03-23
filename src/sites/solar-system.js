@@ -18,9 +18,9 @@ Conditions to build the component/solar-system.js:
 
 Meaning of the itemtype in the JSON-file:
 - type-1 = group of inner planets, the asteroid-belt, group of outer planets,
-transneptunian-objects and the oort-cloud = the parent items of all other items.
+transneptunian-objects, comets and the oort-cloud = the parents of all other items.
 - type-2 = all planets and groups equal in hierarchy.
-- type-3 = trojan groups, groups of planet-moons and the sub-groups of the asteroid-belt.
+- type-3 = trojan groups, groups of planet-moons, the sub-groups of the asteroid-belt and comet-groups.
 - type-4 = all planet-moons, asteroids of the asteroid-belt and kuiperbelt objects.
 - type-5 = only moons of kuiperbelt objects.
 
@@ -53,11 +53,10 @@ The className="item-name" in <a> is not className={item.name}!
 
 IF item.type value is type-2, type-3, type-4 or type-5 AND item.category is "group",
 THEN add CSS class "collapsed" to the <a>.
-These groups have already child elements in the JSON and should be collapsed onLoad
-and expand onClick to show their child-elements.
+These groups have already child elements in the spreadsheet
+and should be collapsed onLoad and expand onClick to show their child-elements.
 On click the CSS class "collapsed" should be replaced with "expanded" to change the icon.
-(see the solsys.css)
-Please edit this too for the about-site.
+(as the questions in the about-site, class-selectors already defined in solsys.css)
 */
 
 class Item {

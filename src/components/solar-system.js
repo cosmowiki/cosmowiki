@@ -233,6 +233,18 @@ const SolarSystemComponent = () => {
               </div>
             </div>
           </div>
+          <div id="comets" className="type-1 pure-u-1">
+            <a href="#" className="item-name">Kometen</a>
+            <div id="periodicComets" className="type-2 pure-u-4-5">
+              <a href="#" className="item-name collapsed">periodische Kometen</a>
+              <div id="1phalley" className ="type-3 pure-u-3-4">
+                <a href="#" className="item-name">1P/Halley</a>
+              </div>
+              <div id="2pencke" className="type-3 pure-u-3-4">
+                <a href="#" className="item-name">2P/Encke</a>
+              </div>
+            </div>
+          </div>
           <div id="oortCloud" className="type-1 pure-u-1">
             <a href="#" className="item-name">Oortsche Wolke</a>
           </div>
