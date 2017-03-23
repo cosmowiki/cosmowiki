@@ -38779,10 +38779,10 @@ var SolarSystem = (function () {
   
   Pure-grid-classes:
   - type-1 = pure-u-1
-  - type-2 = pure-u-4-5
-  - type-3 = pure-u-3-4
-  - type-4 = pure-u-2-3
-  - type-5 = pure-u-1-2
+  - type-2 = pure-u-md-5-6 pure-lg-4-5
+  - type-3 = pure-u-md-4-5 pure-lg-3-4
+  - type-4 = pure-u-md-3-4 pure-lg-2-3
+  - type-5 = pure-u-md-2-3 pure-lg-1-2
   
   For the html-structure:
   - div.type-2 is a child of the div.type-1,
