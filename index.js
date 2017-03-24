@@ -33014,7 +33014,7 @@ var questions = {
       _react2['default'].createElement(
         'p',
         null,
-        'CosmoWiki.org dient interessierten Laien ebenso wie begeisterten Amateuren und allen anderen Space-Fans. Jeder Nutzer kann hier frei das gewaltige Universum der Astronomie und Raumfahrt unter einem Dach entdecken, die Geschichte dieser zwei wohl bedeutendsten Bereiche menschlichen Schaffens erkunden und zielgerichtet Informationen über Personen, Orte oder Objekte finden.'
+        'CosmoWiki.org dient interessierten Laien ebenso wie begeisterten Amateuren und allen anderen Space-Fans. Jeder Nutzer kann hier frei das gewaltige Universum der Astronomie und Raumfahrt unter einem Dach entdecken, die Geschichte dieser zwei wohl bedeutendsten Bereiche aus Wissenschaft und Technik erkunden und zielgerichtet Informationen über Personen, Orte oder Objekte finden.'
       ),
       _react2['default'].createElement(
         'p',
@@ -33034,7 +33034,7 @@ var questions = {
       _react2['default'].createElement(
         'p',
         null,
-        'Dieses Projekt wird nie fertiggestellt sein, da sich auch Astronomie und Raumfahrt permanent weiterentwickeln. Unsere Datenbank wächst ständig um neue Inhalte an, bestehende Einträge werden um weitere interessante Fakten ergänzt. Zusätzlich wird auch die Seite selbst weiterentwickelt, neue Funktionen werden das Nutzererlebnis verbessern. Wir hoffen auch, CosmoWiki.org bald in anderen Sprachen anbieten zu können.'
+        'Dieses Projekt wird nie fertiggestellt sein, da sich auch Astronomie und Raumfahrt permanent weiterentwickeln. Unsere Datenbank wächst ständig um neue Inhalte an, bestehende Einträge werden um weitere interessante Fakten und Daten ergänzt. Zusätzlich wird auch die Seite selbst weiterentwickelt, neue Funktionen werden das Nutzererlebnis verbessern. Wir hoffen auch, CosmoWiki.org bald in anderen Sprachen anbieten zu können.'
       ),
       _react2['default'].createElement(
         'p',
@@ -35685,7 +35685,6 @@ var SolarSystemComponent = function SolarSystemComponent() {
         '@wolfram how to avoid border-bottom of last displayed div.item-name inside each div.type-1?'
       )
     ),
-    _react2['default'].createElement('div', { id: 'controlArea', className: 'solar-system pure-u-1' }),
     _react2['default'].createElement(
       'div',
       { id: 'dataArea', className: 'solar-system pure-u-1' },
