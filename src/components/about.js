@@ -23,8 +23,8 @@ const questions = {
           CosmoWiki.org dient interessierten Laien ebenso wie begeisterten Amateuren
           und allen anderen Space-Fans. Jeder Nutzer kann hier frei das gewaltige
           Universum der Astronomie und Raumfahrt unter einem Dach entdecken,
-          die Geschichte dieser zwei wohl bedeutendsten Bereiche menschlichen
-          Schaffens erkunden und zielgerichtet Informationen über Personen, Orte oder Objekte finden.
+          die Geschichte dieser zwei wohl bedeutendsten Bereiche aus Wissenschaft
+          und Technik erkunden und zielgerichtet Informationen über Personen, Orte oder Objekte finden.
         </p>
         <p>
           Selbst sind wir natürlich auch fasziniert von allem, was mit dem
@@ -37,7 +37,7 @@ const questions = {
           Dieses Projekt wird nie fertiggestellt sein, da sich auch Astronomie
           und Raumfahrt permanent weiterentwickeln. Unsere Datenbank wächst
           ständig um neue Inhalte an, bestehende Einträge werden um weitere
-          interessante Fakten ergänzt. Zusätzlich wird auch die Seite selbst
+          interessante Fakten und Daten ergänzt. Zusätzlich wird auch die Seite selbst
           weiterentwickelt, neue Funktionen werden das Nutzererlebnis verbessern.
           Wir hoffen auch, CosmoWiki.org bald in anderen Sprachen anbieten zu können.
         </p>

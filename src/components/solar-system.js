@@ -11,8 +11,6 @@ const SolarSystemComponent = () => {
       <div id="todo" className="pure-u-1">
         <p>@wolfram how to avoid border-bottom of last displayed div.item-name inside each div.type-1?</p>
       </div>
-      <div id="controlArea" className="solar-system pure-u-1">
-      </div>
       <div id="dataArea" className="solar-system pure-u-1">
         <div id="solarsystemTable">
           <div id="sun" className="type-1 pure-u-1">
