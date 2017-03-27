@@ -70,7 +70,7 @@
         "itemcountry": "USA",
         "itemproperty": "Raumfahrer",
         "itemtype": "2",
-        "itemtags": "STS-119"
+        "itemtags": "ISS, STS-119"
     },
     {
         "itemname": "Acton",
@@ -83,7 +83,7 @@
         "itemcountry": "USA",
         "itemproperty": "Raumfahrer",
         "itemtype": "2",
-        "itemtags": "STS-51-F"
+        "itemtags": "STS-51-F, Spacelab"
     },
     {
         "itemname": "Adams",
@@ -123,7 +123,7 @@
         "itemcountry": "UdSSR / Russland",
         "itemproperty": "Raumfahrer",
         "itemtype": "2",
-        "itemtags": "Sojus TM-11, Sojus TM-18, Sojus TM-29, Sojus TM-33, Sojus TM-32"
+        "itemtags": "Mir, ISS, Sojus TM-11, Sojus TM-18, Sojus TM-29, Sojus TM-33, Sojus TM-32"
     },
     {
         "itemname": "Ahnert",
@@ -181,7 +181,7 @@
         "itemcountry": "USA",
         "itemproperty": "Raumfahrer",
         "itemtype": "2",
-        "itemtags": "STS-41, STS-49, STS-61, STS-79"
+        "itemtags": "STS-41, Discovery, Ulysses, STS-49, EVA, STS-61, Endeavour, Hubble, STS-79, Atlantis, Mir"
     },
     {
         "itemname": "Akiyama",
@@ -194,7 +194,7 @@
         "itemcountry": "Japan",
         "itemproperty": "Raumfahrer",
         "itemtype": "2",
-        "itemtags": "Sojus TM-11, Sojus TM-10, Japan"
+        "itemtags": "Sojus TM-11, Sojus TM-10, Mir"
     },
     {
         "itemname": "Aksjonow",
@@ -207,7 +207,7 @@
         "itemcountry": "UdSSR / Russland",
         "itemproperty": "Raumfahrer",
         "itemtype": "2",
-        "itemtags": "Sojus 22, Sojus T-2"
+        "itemtags": "Sojus 22, Saljut 6, Sojus T-2"
     },
     {
         "itemname": "Al Saud",
@@ -220,7 +220,7 @@
         "itemcountry": "Saudi-Arabien",
         "itemproperty": "Raumfahrer",
         "itemtype": "2",
-        "itemtags": "STS-51-G, Saudi-Arabien"
+        "itemtags": "STS-51-G, Discovery"
     },
     {
         "itemname": "Al-Battani",
@@ -303,7 +303,7 @@
         "itemcountry": "Bulgarien",
         "itemproperty": "Raumfahrer",
         "itemtype": "2",
-        "itemtags": "Sojus TM-5"
+        "itemtags": "Sojus 33, Saljut 6, Sojus TM-5, Mir"
     },
     {
         "itemname": "Alexandrow",
@@ -316,7 +316,7 @@
         "itemcountry": "UdSSR / Russland",
         "itemproperty": "Raumfahrer",
         "itemtype": "2",
-        "itemtags": "Sojus T-9, Sojus TM-3"
+        "itemtags": "Sojus T-9, Saljut 7, Sojus TM-3, Mir"
     },
     {
         "itemname": "Alfvén",
@@ -372,7 +372,7 @@
         "itemcountry": "USA",
         "itemproperty": "Raumfahrer",
         "itemtype": "2",
-        "itemtags": "STS-46, Schweiz, Italien, STS-62, STS-75"
+        "itemtags": "STS-46, Atlantis, EURECA, STS-62, Columbia, STS-75"
     },
     {
         "itemname": "Allen",
@@ -385,7 +385,7 @@
         "itemcountry": "USA",
         "itemproperty": "Raumfahrer",
         "itemtype": "2",
-        "itemtags": "STS-5, STS-51-A"
+        "itemtags": "STS-5, Columbia, STS-51-A, Discovery"
     },
     {
         "itemname": "Alpher",
@@ -478,7 +478,7 @@
         "itemcountry": "USA",
         "itemproperty": "Raumfahrer",
         "itemtype": "2",
-        "itemtags": "ISS-Expedition 15, ISS-Expedition 16,  STS-117, STS-120, STS-131"
+        "itemtags": "NEEMO 5, ISS-Expedition 15, Atlantis, ISS, ISS-Expedition 16,  STS-117, STS-120, STS-131"
     },
     {
         "itemname": "Anderson",

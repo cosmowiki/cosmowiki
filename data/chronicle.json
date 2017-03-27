@@ -154,7 +154,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Camera_obscura",
         "itemdateyear": "4. Jhdt. v. Chr.",
         "itemcountry": "Griechenland",
-        "itemlocation": "Platonische Akademie",
+        "itemlocation": "Athen",
         "itemlatitude": "37.9925",
         "itemlongitude": "23.708056",
         "itemtype": 1
@@ -164,7 +164,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Geozentrisches_Weltbild",
         "itemdateyear": "384 – 322 v. Chr.",
         "itemcountry": "Griechenland",
-        "itemlocation": "Platonische Akademie",
+        "itemlocation": "Athen",
         "itemlatitude": "37.9925",
         "itemlongitude": "23.708056",
         "itemtype": 1
@@ -829,7 +829,7 @@
     },
     {
         "itemname": "Projekt Diana - erster Radarkontakt zu einem Himmelskörper (Mond)",
-        "itemurl": "https://de.wikipedia.org/wiki/John_Hibbett_DeWitt#Project_Diana",
+        "itemurl": "https://de.wikipedia.org/wiki/John_Hibbett_DeWitt",
         "itemdateyear": "1946",
         "itemdatemonth": "10",
         "itemdateday": "01",
@@ -2624,7 +2624,7 @@
     },
     {
         "itemname": "Start der EPOXI-Mission, Reaktivierung der Sonde Deep Impact",
-        "itemurl": "https://de.wikipedia.org/wiki/Deep_Impact_(Sonde)#Erweiterte_Mission_EPOXI",
+        "itemurl": "https://de.wikipedia.org/wiki/Deep_Impact_(Sonde)",
         "itemdateyear": "2007",
         "itemdatemonth": "09",
         "itemdateday": "26",
