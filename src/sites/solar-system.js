@@ -29,18 +29,18 @@ For each item in JSON build a div like this:
 <div id="{item.name2}" className="{item.type} pure-u-x">
 </div>
 
-item.tpye => Pure-grid-classes:
-- type-1 = pure-u-1
-- type-2 = pure-u-md-5-6 pure-lg-4-5
-- type-3 = pure-u-md-4-5 pure-lg-3-4
-- type-4 = pure-u-md-3-4 pure-lg-2-3
-- type-5 = pure-u-md-2-3 pure-lg-1-2
-
 For the DOM hierarchy:
 - div.type-2 is a child of the div.type-1,
 - div.type-3 is a child of the div.type-2,
 - div.type-4 is a child of the div.type-3,
 - div.type-5 is a child of the div.type-4.
+
+For the Pure-grid-classes:
+- type-1 = pure-u-1
+- type-2 = pure-u-md-5-6 pure-lg-4-5
+- type-3 = pure-u-md-4-5 pure-lg-3-4
+- type-4 = pure-u-md-3-4 pure-lg-2-3
+- type-5 = pure-u-md-2-3 pure-lg-1-2
 
 Some JSON items don't contain item.name and item.name2. These divs don't get an id=""
 and will only ensure a proper DOM hierarchy and Pure-grid.
@@ -68,7 +68,7 @@ class Item {
     const alternativename1 = raw.itemname3 ? raw.itemname3 : '';
     const alternativename2 = raw.itemname4 ? `, ${raw.itemname4}`: '';
     item.alternativeName = `${alternativename1}${alternativename2}`;
-    item.type = raw.itemtype;//1 = pure-u-1, 2 = pure-u-4-5, 3 = pure-u-3-4, 4 = pure-u-2-3, 5 = pure-u-1-2
+    item.type = raw.itemtype;//to control the Pure grid
     item.category = raw.itemcategory;//star, group, planet, moon, object
     item.parent = raw.itemparent;
     item.color = raw.itemcolor;
