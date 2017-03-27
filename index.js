@@ -38776,21 +38776,21 @@ var SolarSystem = (function () {
   <div id="{item.name2}" className="{item.type} pure-u-x">
   </div>
   
-  Pure-grid-classes:
+  item.tpye => Pure-grid-classes:
   - type-1 = pure-u-1
   - type-2 = pure-u-md-5-6 pure-lg-4-5
   - type-3 = pure-u-md-4-5 pure-lg-3-4
   - type-4 = pure-u-md-3-4 pure-lg-2-3
   - type-5 = pure-u-md-2-3 pure-lg-1-2
   
-  For the html-structure:
+  For the DOM hierarchy:
   - div.type-2 is a child of the div.type-1,
   - div.type-3 is a child of the div.type-2,
   - div.type-4 is a child of the div.type-3,
   - div.type-5 is a child of the div.type-4.
   
-  Some JSON items don't contain item.name and item.name2. These divs don't get an id
-  and will exist only to ensure a proper stucture in html and Pure-grid.
+  Some JSON items don't contain item.name and item.name2. These divs don't get an id=""
+  and will only ensure a proper DOM hierarchy and Pure-grid.
   
   For all JSON elements that have an item.name build a link as first child of the div:
     <a href={item.wikipediaUrl} title={item.name} className="item-name">{item.name}</a>
@@ -38834,11 +38834,13 @@ var Item = (function () {
   //     "itemindex": "0",
   //     "itemname": "Sonne",
   //     "itemname2": "sun",
-  //     "itemtype": 1,
-  //     "itemcategory": "star",
-  //     "itemparent": "solar-system",
   //     "itemurl": "https://de.wikipedia.org/wiki/Sonne",
-  //     "itemcolor": "#f05802",
+  //     "itemtype": "type-1",
+  //     "itemcolor": "#fffacd (255,250,205)",
+  //     "itemcategory": "star",
+  //     "itemimgurl": "img/solarsystem/sun.jpg",
+  //     "itemimgsrc": "NASA",
+  //     "itemparent": "solar-system",
   //     "angularsize": "31,5 - 32,5'",
   //     "virtbright": "-26ᵐ74",
   //     "itemspectraltype": "G2V",
@@ -38846,7 +38848,7 @@ var Item = (function () {
   //     "galactic_period": "(2.25–2.50) × 10⁸ a",
   //     "velocity": "≈ 220 km/s (Orbit um das Zentrum der Milchstraße)\n≈ 20 km/s (relativ zur Durchschnittsgeschwindigkeit anderer Sterne in stellarer Nachbarschaft)\n≈ 370 km/s (relativ zur Kosmischen Hintergrundstrahlung)",
   //     "meandistancetoearth": "1 AU (149,6 Mio. km)",
-  //     "distancetoearth": "0,98328877 AU - 1,01671123 AU (147,1 Mio. km - 152,1 Mio. km)",
+  //     "itemdistancetoearth": "0,98328877 AU - 1,01671123 AU (147,1 Mio. km - 152,1 Mio. km)",
   //     "itemdiameter": "1.392.700 km (Äquator)",
   //     "itemmass": "1,989 × 10³⁰ kg",
   //     "itemdensity": "1,408 g/cm³",
@@ -38865,26 +38867,29 @@ var Item = (function () {
   //     "itemindex": "1.0",
   //     "itemname": "Innere Planeten",
   //     "itemname2": "innerPlanets",
-  //     "itemtype": 1,
+  //     "itemurl": "https://de.wikipedia.org/wiki/Innerer_Planet",
+  //     "itemtype": "type-1",
   //     "itemcategory": "group",
-  //     "itemparent": "solar-system",
-  //     "itemurl": "https://de.wikipedia.org/wiki/Innerer_Planet"
+  //     "itemparent": "solar-system"
   // },
   // {
   //     "itemindex": "1.1",
   //     "itemname": "Merkur",
   //     "itemname2": "mercury",
-  //     "itemtype": 2,
-  //     "itemcategory": "planet",
-  //     "itemparent": "inner-planets",
   //     "itemurl": "https://de.wikipedia.org/wiki/Merkur_(Planet)",
-  //     "itemcolor": "#d2d2d2",
+  //     "itemtype": "type-2",
+  //     "itemcolor": "#eedc82 (238,220,130)",
+  //     "itemcategory": "planet",
+  //     "itemimgsmallurl": "img/solarsystem/mercury_sm.jpg",
+  //     "itemimgurl": "img/solarsystem/mercury_lg.jpg",
+  //     "itemimgsrc": "NASA",
+  //     "itemparent": "inner-planets",
   //     "semimajoraxis": "57.909.000 km (0,3871 AE)",
   //     "itemapoapsis": "69.863.200 km (0,467 AE)",
   //     "itemperiapsis": "45.927.200 km (0,307 AE)",
   //     "itemeccentricity": 0.2056,
   //     "inclinationecliptic": "7,00°",
-  //     "distancetoearth": "0,517 - 1,483 AE",
+  //     "itemdistancetoearth": "0,517 - 1,483 AE",
   //     "itemorbitalperiod": "87,969 d",
   //     "itemsynodicperiod": "115,88 d",
   //     "itemorbitalspeed": "47,87 km/s",
@@ -38923,6 +38928,8 @@ var Item = (function () {
       item.imageSrc = raw.itemimgsrc ? raw.itemimgsrc : '';
       item.imageLicence = raw.itemimglicence ? raw.itemimglicence : '';
       item.imageLicenseUrl = raw.itemimglicenceurl ? raw.itemimglicenceurl : '';
+
+      item.spectraltype = raw.itemspectraltype;
 
       item.semiMajorAxis = raw.semimajoraxis ? raw.semimajoraxis : '';
       item.farthest = raw.itemapoapsis ? raw.itemapoapsis : '';

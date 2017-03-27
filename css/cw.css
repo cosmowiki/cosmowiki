@@ -260,8 +260,8 @@ footer ul li a:hover {background: #eee;}
 		background: #fff;
 		border-radius: 0 0 5px 5px; border: 1px solid #ddd; border-top-width: 0;
 	}
-	footer ul li:last-child a:hover {border-radius: 0 0 5px 5px;}
 }
+
 @media only screen and (min-width: 48em) {
 	#branding {
 		background-image: linear-gradient(to right, #fff 180px, #ddf);
@@ -271,21 +271,21 @@ footer ul li a:hover {background: #eee;}
 	}
 	img#CosmoWikiLogo {display: block; margin: 5px; height: 30px;}
 	img#CosmoWikiIcon {display: none;}
+
 	#menuToggleButton {display: none;}
+
 	#sortArea, #filterArea, #sort form, #filter form {display: inline;}
 	#sort a, #filter a {display: none;}
+
 	#footerContainer div:first-child h4 {margin-left: .5em;}
 	#footerContainer div:last-child h4 {margin-right: .5em;}
 	#footerContainer div:first-child ul {margin-left: .5em;}
 	#footerContainer div:last-child ul {margin-right: .5em;}
-		footer h4 {
-			margin: 0 .25em 0;
-		}
-		footer ul {
-			margin: 0 .25em .5em; min-height: 12em;
-		}
-	footer ul li:last-child a:hover {border-radius: 0;}
+
+	footer h4 {margin: 0 .25em 0;}
+	footer ul {margin: 0 .25em .5em; min-height: 12em;}
 }
+
 @media only screen and (min-width: 64em) {
 	header, main, footer {max-width: 1000px;}
 	main {margin-bottom: 1em; border-radius: 0 0 5px 5px;}
@@ -301,16 +301,19 @@ footer ul li a:hover {background: #eee;}
 	nav {margin-top: 1em; border-radius: 5px 5px 0 0;}
 	footer {border-radius: 5px 5px 5px 5px;}
 }
+
 @media only screen and (min-width: 1200px) {
 	#wrapper {
 		background: url(/img/bgWrapper8_md.jpg) center / cover no-repeat fixed #113;
   }
 }
+
 @media only screen and (min-width: 2500px) {
 	#wrapper {
 		background: url(/img/bgWrapper8_lg.jpg) center / cover no-repeat fixed #113;
   }
 }
+
 @media only screen and (min-width: 3800px) {
 	#wrapper {
 		background: url(/img/bgWrapper8_xl.jpg) center / cover no-repeat fixed #113;
