@@ -63,7 +63,7 @@ if [[ $# == 0 || $1 == solarsystem ]]; then
 fi
 
 if [[ $# == 0 || $1 == eva ]]; then
-  FILENAME=data/eva.json
+  FILENAME=data/spacewalks.json
   gsjson 1YY06xH0Q6AWq8W1FLcY_h9dWl9Q7ECFOu6J6qbXKgMM --beautify $FILENAME --worksheet 10
   echo "`du -h $FILENAME` loaded"
 fi
