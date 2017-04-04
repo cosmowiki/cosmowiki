@@ -1,0 +1,30 @@
+.spacewalk-row div {padding: .2em 0;}
+
+/*.spacewalkImg {min-width: 150px;}
+.spacewalkImg img {width: 150px; display: block; margin: 2% auto;}
+.spacewalkImg small {margin-left: 50%; font-size: .8em;}*/
+
+.spacewalk-name div {font-size: 1.25em;}
+.spacewalk-dates div,
+.spacewalk-info div {display: block; font-size: 1.125em;}
+.spacewalk-dates div {text-align: right;}
+.spacewalk-dates p {margin-right: .5em;}
+.spacewalk-info p {margin-left: .5em;}
+
+/* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
+@media only all and (min-width: 35.5em) {
+  .spacewalk-name div {line-height: 2.25em;}
+  .spacewalk-dates div, .spacewalkInfo div {text-align: left;}
+  .spacewalk-dates p {margin: 0 0 0 .2em;}
+  .spacewalk-info p {margin: 0;}
+}
+@media only all and (min-width: 64em) {
+  .spacewalk-name div,
+  .spacewalk-dates div,
+  .spacewalk-info div {font-size: 1.125em; line-height: 1.75em;}
+  .spacewalk-dates div,
+  .spacewalk-info div {display: inline-block;}
+  .spacewalk-dates {text-align: left;}
+  .spacewalk-dates p,
+  .spacewalk-info p {margin: 0;}
+}
