@@ -35,6 +35,7 @@ const Footer = ({appUrl}) => {
               {url: appUrl.constellationsSite(), name: 'Sternbilder'},
               {url: appUrl.starsSite(), name: 'Sterne'},
               {url: appUrl.missionsSite(), name: 'Missionen'},
+              {url: appUrl.spacewalksSite(), name: 'Weltraumausstiege'},
               {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
               {url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope'},
 

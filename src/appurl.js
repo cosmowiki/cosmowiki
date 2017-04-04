@@ -48,6 +48,10 @@ export default class AppUrl {
     return '/missions'
   }
 
+  spacewalksSite() {
+    return '/spacewalks'
+  }
+
   spaceflightSite() {
     return '/spaceflight'
   }
