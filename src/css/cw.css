@@ -116,16 +116,26 @@ nav ul ul li:last-child a {border-bottom: none; border-radius: 0 0 5px 5px;}
 
 main {border-bottom: 1em solid #eee;}
 
-/*			featured ------------------------------------------------------------ */
+/*			siteTitle ----------------------------------------------------------- */
 
-#featured {
+#siteTitle {
 	min-height: 4.5em;
 	background: rgba(255, 255, 255, .9);
 	border-bottom: 1px solid #ddd;
 }
 
-#featured h1 {padding: .2em 0 .1em; font-size: 1.75em; font-weight: normal;}
-#featured h3 {padding: .1em 0;}
+#siteTitle h1 {padding: .2em 0 .1em; font-size: 1.75em; font-weight: normal;}
+#siteTitle h3 {padding: .1em 0;}
+
+/*			summary ------------------------------------------------------------- */
+
+#summary {background: rgba(255, 255, 255, .95); border-bottom: 1px solid #ddd;}
+#summary p,
+#summary h1, #summary h2, #summary h3, #summary h4, #summary h5,
+#summary ul {padding: 1em;}
+
+/*#siteTitle h1 {padding: .2em 0 .1em; font-size: 1.75em; font-weight: normal;}
+#siteTitle h3 {padding: .1em 0;}*/
 
 /*			todo ---------------------------------------------------------------- */
 

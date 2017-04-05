@@ -4,9 +4,30 @@ import Notes from './notes';
 const SpacewalksComponent = ({spacewalks}) => {
   return (
     <main role="main" className="spacewalks pure-u-1 center">
-      <div id="featured" className="spacewalks pure-u-1">
+      <div id="siteTitle" className="spacewalks pure-u-1">
         <h1>Weltraumausstiege</h1>
         <h3>frei im All</h3>
+      </div>
+      <div id="summary" className="spacewalks pure-u-1 justify">
+        <p><i>Der Weltraumausstieg</i>, auch <i>EVA</i> (extra-vehicular activity = Außenbordaktivität)
+        oder <i>spacewalk</i> genannt, ist ein Begriff für den Aufenthalt von Astronauten
+        außerhalb eines Raumfahrzeuges im Vakuum des Weltalls oder auf einem anderen Himmelskörper.
+        (z. B. Lunar Extra Vehicular Activity = LEVA) Er wird meist für Arbeiten
+        an einem Raumfahrzeug, zu wissenschaftlichen Zwecken oder zur Erprobung neuer Techniken durchgeführt.</p>
+        <p>Die Raumfahrer sind hierbei nur durch einen speziellen Raumanzug vor
+        dem Vakuum und der Strahlung des Weltraums sowie vor Mikrometeoriten geschützt.
+        Die Strahlenbelastung ist dabei etwa doppelt so hoch wie im Raumfahrzeug.</p>
+        <p>Aktivitäten in der Schwerelosigkeit erfordern etwa 2,5 mal mehr Zeit als auf der Erde.</p>
+        <p>Bei so genannten Stand-Up-EVA (SEVA) steht ein Raumfahrer meist in der
+        geöffneten Luke seines Raumfahzeugs um einen weiteren Raumfahrer bei dessen
+        EVA zu assistieren oder ihn zu filmen.</p>
+        <h3>Wussten Sie schon ...</h3>
+        <ul>
+          <li>... dass bis jetzt [totalNumberOfItems] Weltraumausstiege von [totalNumberOfAstronauts] durchgeführt wurden?</li>
+          <li>... dass [astronautWithMaxNumberOfItems] mit [maxNumberOfItems] EVA die meisten Außenbordeinsätze absolvierte?</li>
+          <li>... dass [astronautsLongestItem] am [longestItemStartDate] den mit [longestItemTime] bislang längsten Weltraumausstieg durchgeführt haben?</li>
+        </ul>
+        <img src="" />
       </div>
       <div id="controlArea" className="spacewalks pure-u-1">
         <div id="controllers" className="pure-u-1">
@@ -41,22 +62,24 @@ export default SpacewalksComponent;
 const SpacewalkComponent = ({spacewalk}) => {
   return (
     <div className="spacewalk-row data-row pure-u-1">
-      <div className="spacewalk-name pure-u-1 pure-u-sm-9-24 center">
+      <div className="spacewalk-name pure-u-1-4 left">
         <div className="pure-u-1">
           <p><a href={spacewalk.wikipediaUrl}>{spacewalk.name}</a></p>
         </div>
       </div>
-      <div className="spacewalk-dates pure-u-1-2 pure-u-sm-6-24">
-        <div className="spacewalk-start pure-u-lg-1-2">
-          <p>Beginn: {spacewalk.start}</p>
+      <div className="spacewalk-info pure-u-3-4 left">
+        <div className="spacewalk-dates pure-u-11-24">
+          <p>{spacewalk.startDate}{spacewalk.startTime ? ` - ${spacewalk.startTime}` : ''}</p>
+          <p>{spacewalk.startDate != spacewalk.endDate ? `bis ${spacewalk.endDate}` : ''}
+          {spacewalk.startDate != spacewalk.endDate && spacewalk.endTime ? ` - ${spacewalk.endTime}` : ''}
+          {spacewalk.startDate == spacewalk.endDate && spacewalk.endTime ? `bis ${spacewalk.endTime}` : ''}</p>
         </div>
-        <div className="spacewalk-end pure-u-lg-1-2">
-          <p>Ende: {spacewalk.end}</p>
-        </div>
-      </div>
-      <div className="spacewalk-info pure-u-1-2 pure-u-sm-9-24 left">
-        <div className="spacewalk-astronauts">
-          <p>{spacewalk.astronaut1}{spacewalk.astronaut2 ? `, ${spacewalk.astronaut2}` : ''}</p>
+        <div className="spacewalk-astronauts pure-u-13-24 left">
+          <p>
+            {spacewalk.astronaut1} ({spacewalk.countSpacewalks1}/{spacewalk.totalSpacewalks1})
+            {spacewalk.astronaut2 ? `, ${spacewalk.astronaut2} (${spacewalk.countSpacewalks2}/${spacewalk.totalSpacewalks2})` : ''}
+            {spacewalk.astronaut3 ? `, ${spacewalk.astronaut3} (${spacewalk.countSpacewalks3}/${spacewalk.totalSpacewalks3})` : ''}
+          </p>
         </div>
       </div>
     </div>
