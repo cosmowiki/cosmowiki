@@ -227,21 +227,24 @@ main {border-bottom: 1em solid #eee;}
 
 footer {background: #f8f8f8; border-top: 1em solid #99f;}
 #footerContainer {
-	padding: 1em 0 .5em;
+	padding: 0;
 	border-top: 1px solid #fff;	border-bottom: 1px solid #ddd;
 }
-footer h4 {
-	padding: .125em 0;
-	background: #eee;
+
+.footer-part ul {
+	margin: .25em 0;
+	background: #fff;
 	border-width: 1px 0; border-style: solid; border-color: #ddd;
 }
-footer ul {
-	margin: 0 0 .5em;
-	background: #fff;
-	border-width: 0 0 1px; border-style: solid; border-color: #ddd;
+
+.footer-part li {line-height: 1.5em;}
+.footer-part li a {display: block;}
+.footer-part li h4 {
+	background: #eee;
+	border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;
 }
-footer ul li a {display: block; line-height: 1.5em;}
-footer ul li a:hover {background: #eee;}
+.footer-part ul li:first-child h4 {border-top: none;}
+.footer-part li a:hover {background: #eee;}
 
 /*.shariff-button a.share_text {color: #fff;}*/
 
@@ -251,15 +254,10 @@ footer ul li a:hover {background: #eee;}
 /* properties for breakpoints ----------------------------------------------- */
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only screen and (min-width: 35.5em) {
-	footer h4 {
-		margin: 0 auto 0;
-		border: 1px solid #ddd; border-radius: 5px 5px 0 0;
-	}
-	footer ul {
-		margin: 0 auto .5em;
-		background: #fff;
-		border-radius: 0 0 5px 5px; border: 1px solid #ddd; border-top-width: 0;
-	}
+	.footer-part ul {margin: .5em .25em; border-width: 1px; border-radius: 5px;}
+	.footer-part li h4 {border-radius: 0;}
+	.footer-part ul li:last-child {border-radius: 0 0 5px 5px;}
+	.footer-part ul li:first-child h4 {border-radius: 5px 5px 0 0;}
 }
 
 @media only screen and (min-width: 48em) {
@@ -276,14 +274,10 @@ footer ul li a:hover {background: #eee;}
 
 	#sortArea, #filterArea, #sort form, #filter form {display: inline;}
 	#sort a, #filter a {display: none;}
+	.footer-part ul {min-height: 16em;}
+	.footer-part:first-child ul {margin-left: .5em;}
+	.footer-part:last-child ul {margin-right: .5em;}
 
-	#footerContainer div:first-child h4 {margin-left: .5em;}
-	#footerContainer div:last-child h4 {margin-right: .5em;}
-	#footerContainer div:first-child ul {margin-left: .5em;}
-	#footerContainer div:last-child ul {margin-right: .5em;}
-
-	footer h4 {margin: 0 .25em 0;}
-	footer ul {margin: 0 .25em .5em; min-height: 12em;}
 }
 
 @media only screen and (min-width: 64em) {

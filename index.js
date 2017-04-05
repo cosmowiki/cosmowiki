@@ -33928,13 +33928,17 @@ var Footer = function Footer(_ref) {
         "div",
         { id: "footerMainPages", className: "footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5" },
         _react2["default"].createElement(
-          "h4",
-          null,
-          "Hauptseiten"
-        ),
-        _react2["default"].createElement(
           "ul",
           null,
+          _react2["default"].createElement(
+            "li",
+            null,
+            _react2["default"].createElement(
+              "h4",
+              null,
+              "Hauptseiten"
+            )
+          ),
           [{ url: appUrl.eventsSite(), name: 'Chronik' }, { url: appUrl.peopleSite(), name: 'Personen' }, { url: '', name: 'Orte' }, { url: appUrl.objectsSite(), name: 'Objekte' }, { url: appUrl.astronomySite(), name: 'Astronomie' }, { url: appUrl.spaceflightSite(), name: 'Raumfahrt' }].map(function (link) {
             return _react2["default"].createElement(
               "li",
@@ -33950,16 +33954,48 @@ var Footer = function Footer(_ref) {
       ),
       _react2["default"].createElement(
         "div",
-        { id: "footerSubPages", className: "footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5" },
-        _react2["default"].createElement(
-          "h4",
-          null,
-          "Unterseiten"
-        ),
+        { id: "footerAstronomy", className: "footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5" },
         _react2["default"].createElement(
           "ul",
           null,
-          [{ url: appUrl.astronomersSite(), name: 'Astronomen' }, { url: appUrl.astronautsSite(), name: 'Raumfahrer' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.missionsSite(), name: 'Missionen' }, { url: appUrl.spacewalksSite(), name: 'Weltraumausstiege' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
+          _react2["default"].createElement(
+            "li",
+            null,
+            _react2["default"].createElement(
+              "h4",
+              null,
+              "Astronomie"
+            )
+          ),
+          [{ url: appUrl.astronomersSite(), name: 'Astronomen' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
+            return _react2["default"].createElement(
+              "li",
+              { key: link.url },
+              _react2["default"].createElement(
+                "a",
+                { className: "footerLink", href: link.url },
+                link.name
+              )
+            );
+          })
+        )
+      ),
+      _react2["default"].createElement(
+        "div",
+        { id: "footerSpaceflight", className: "footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5" },
+        _react2["default"].createElement(
+          "ul",
+          null,
+          _react2["default"].createElement(
+            "li",
+            null,
+            _react2["default"].createElement(
+              "h4",
+              null,
+              "Raumfahrt"
+            )
+          ),
+          [{ url: appUrl.astronautsSite(), name: 'Raumfahrer' }, { url: appUrl.missionsSite(), name: 'Missionen' }, { url: appUrl.spacewalksSite(), name: 'Weltraumausstiege' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
             return _react2["default"].createElement(
               "li",
               { key: link.url },
@@ -33976,13 +34012,17 @@ var Footer = function Footer(_ref) {
         "div",
         { id: "footerNetworks", className: "footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5" },
         _react2["default"].createElement(
-          "h4",
-          null,
-          "Folgen"
-        ),
-        _react2["default"].createElement(
           "ul",
           null,
+          _react2["default"].createElement(
+            "li",
+            null,
+            _react2["default"].createElement(
+              "h4",
+              null,
+              "Folgen"
+            )
+          ),
           _react2["default"].createElement(
             "li",
             null,
@@ -34018,40 +34058,52 @@ var Footer = function Footer(_ref) {
               { className: "footerLink", href: "https://github.com/cosmowiki/cosmowiki", target: "_blank", title: "CosmoWiki.org bei Github" },
               "Github"
             )
-          )
-        )
-      ),
-      _react2["default"].createElement(
-        "div",
-        { id: "footerShare", className: "footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5" },
-        _react2["default"].createElement(
-          "h4",
-          null,
-          "Teilen"
-        ),
-        _react2["default"].createElement(
-          "ul",
-          null,
+          ),
+          _react2["default"].createElement(
+            "li",
+            null,
+            _react2["default"].createElement(
+              "h4",
+              null,
+              "Teilen"
+            )
+          ),
           _react2["default"].createElement(
             "li",
             null,
             _react2["default"].createElement("div", { className: "shariff", "data-theme": "grey", "data-services": "[\"twitter\",\"googleplus\",\"facebook\",\"mail\",\"info\"]" }),
-            "SHARIFF!!!!"
+            _react2["default"].createElement(
+              "a",
+              { className: "footerLink", href: "#" },
+              "SHARIFF!!!!"
+            )
           ),
           _react2["default"].createElement(
             "li",
             null,
-            "Facebook"
+            _react2["default"].createElement(
+              "a",
+              { className: "footerLink", href: "#" },
+              "Twitter"
+            )
           ),
           _react2["default"].createElement(
             "li",
             null,
-            "Twitter"
+            _react2["default"].createElement(
+              "a",
+              { className: "footerLink", href: "#" },
+              "Facebook"
+            )
           ),
           _react2["default"].createElement(
             "li",
             null,
-            "Google+"
+            _react2["default"].createElement(
+              "a",
+              { className: "footerLink", href: "#" },
+              "Google+"
+            )
           )
         )
       ),
@@ -34059,13 +34111,17 @@ var Footer = function Footer(_ref) {
         "div",
         { id: "footerElse", className: "footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5" },
         _react2["default"].createElement(
-          "h4",
-          null,
-          "Sonstiges"
-        ),
-        _react2["default"].createElement(
           "ul",
           null,
+          _react2["default"].createElement(
+            "li",
+            null,
+            _react2["default"].createElement(
+              "h4",
+              null,
+              "Sonstiges"
+            )
+          ),
           [{ url: appUrl.aboutSite() + '#whatis', name: 'Was ist CosmoWiki.org?' }, { url: appUrl.aboutSite() + '#license', name: 'Lizenz' }, { url: appUrl.aboutSite() + '#contribute', name: 'Beitragen' }, { url: appUrl.aboutSite() + '#thanks', name: 'Danksagungen' }, { url: appUrl.aboutSite() + '#contact', name: 'Kontakt' }, { url: appUrl.aboutSite() + '#imprint', name: 'Impressum' }].map(function (link) {
             return _react2["default"].createElement(
               "li",
