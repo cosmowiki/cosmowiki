@@ -33264,7 +33264,7 @@ var AboutComponent = (function (_React$Component) {
         { role: 'main', className: 'pure-u-1' },
         _react2['default'].createElement(
           'div',
-          { id: 'featured', className: 'pure-u-1 about center' },
+          { id: 'siteTitle', className: 'pure-u-1 about center' },
           _react2['default'].createElement(
             'h1',
             null,
@@ -33365,7 +33365,7 @@ var AstronomyComponent = function AstronomyComponent(_ref) {
     { role: "main", className: "pure-u-1" },
     _react2["default"].createElement(
       "div",
-      { id: "featured", className: "pure-u-1 astronomy center" },
+      { id: "siteTitle", className: "pure-u-1 astronomy center" },
       _react2["default"].createElement(
         "h1",
         null,
@@ -33479,7 +33479,7 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
     { role: 'main', className: 'pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { id: 'featured', className: 'constellations pure-u-1 center' },
+      { id: 'siteTitle', className: 'constellations pure-u-1 center' },
       _react2['default'].createElement(
         'h1',
         null,
@@ -33780,7 +33780,7 @@ var ChronicleComponent = (function (_React$Component) {
         { role: 'main', className: 'pure-u-1' },
         _react2['default'].createElement(
           'div',
-          { id: 'featured', className: 'chronicle pure-u-1 center' },
+          { id: 'siteTitle', className: 'chronicle pure-u-1 center' },
           _react2['default'].createElement(
             'h1',
             null,
@@ -34406,7 +34406,7 @@ var MissionsComponent = function MissionsComponent(_ref) {
     { role: 'main', className: 'missions pure-u-1 center' },
     _react2['default'].createElement(
       'div',
-      { id: 'featured', className: 'missions pure-u-1' },
+      { id: 'siteTitle', className: 'missions pure-u-1' },
       _react2['default'].createElement(
         'h1',
         null,
@@ -35264,7 +35264,7 @@ var ObjectsComponent = function ObjectsComponent(_ref) {
     { role: "main", className: "pure-u-1" },
     _react2["default"].createElement(
       "div",
-      { id: "featured", className: "objects pure-u-1 center" },
+      { id: "siteTitle", className: "objects pure-u-1 center" },
       _react2["default"].createElement(
         "h1",
         null,
@@ -35386,7 +35386,7 @@ var PeopleComponent = function PeopleComponent(_ref) {
     { role: 'main', className: 'pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { id: 'featured', className: 'persons pure-u-1 center' },
+      { id: 'siteTitle', className: 'persons pure-u-1 center' },
       _react2['default'].createElement(
         'h1',
         null,
@@ -35725,7 +35725,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
     { role: 'main', className: 'pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { id: 'featured', className: 'solar-system pure-u-1 center' },
+      { id: 'siteTitle', className: 'solar-system pure-u-1 center' },
       _react2['default'].createElement(
         'h1',
         null,
@@ -36477,7 +36477,7 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
     { role: 'main', className: 'pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { id: 'featured', className: 'stations pure-u-1 center' },
+      { id: 'siteTitle', className: 'stations pure-u-1 center' },
       _react2['default'].createElement(
         'h1',
         null,
@@ -36689,7 +36689,7 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
     { role: 'main', className: 'pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { id: 'featured', className: 'spacetelecopes pure-u-1 center' },
+      { id: 'siteTitle', className: 'spacetelecopes pure-u-1 center' },
       _react2['default'].createElement(
         'h1',
         null,
@@ -36906,7 +36906,7 @@ var SpaceflightComponent = function SpaceflightComponent(_ref) {
     { role: "main", className: "pure-u-1" },
     _react2["default"].createElement(
       "div",
-      { id: "featured", className: "spaceflight pure-u-1 center" },
+      { id: "siteTitle", className: "spaceflight pure-u-1 center" },
       _react2["default"].createElement(
         "h1",
         null,
@@ -36973,7 +36973,7 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
     { role: 'main', className: 'spacewalks pure-u-1 center' },
     _react2['default'].createElement(
       'div',
-      { id: 'featured', className: 'spacewalks pure-u-1' },
+      { id: 'siteTitle', className: 'spacewalks pure-u-1' },
       _react2['default'].createElement(
         'h1',
         null,
@@ -36984,6 +36984,72 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
         null,
         'frei im All'
       )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'summary', className: 'spacewalks pure-u-1 justify' },
+      _react2['default'].createElement(
+        'p',
+        null,
+        _react2['default'].createElement(
+          'i',
+          null,
+          'Der Weltraumausstieg'
+        ),
+        ', auch ',
+        _react2['default'].createElement(
+          'i',
+          null,
+          'EVA'
+        ),
+        ' (extra-vehicular activity = Außenbordaktivität) oder ',
+        _react2['default'].createElement(
+          'i',
+          null,
+          'spacewalk'
+        ),
+        ' genannt, ist ein Begriff für den Aufenthalt von Astronauten außerhalb eines Raumfahrzeuges im Vakuum des Weltalls oder auf einem anderen Himmelskörper. (z. B. Lunar Extra Vehicular Activity = LEVA) Er wird meist für Arbeiten an einem Raumfahrzeug, zu wissenschaftlichen Zwecken oder zur Erprobung neuer Techniken durchgeführt.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        'Die Raumfahrer sind hierbei nur durch einen speziellen Raumanzug vor dem Vakuum und der Strahlung des Weltraums sowie vor Mikrometeoriten geschützt. Die Strahlenbelastung ist dabei etwa doppelt so hoch wie im Raumfahrzeug.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        'Aktivitäten in der Schwerelosigkeit erfordern etwa 2,5 mal mehr Zeit als auf der Erde.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        'Bei so genannten Stand-Up-EVA (SEVA) steht ein Raumfahrer meist in der geöffneten Luke seines Raumfahzeugs um einen weiteren Raumfahrer bei dessen EVA zu assistieren oder ihn zu filmen.'
+      ),
+      _react2['default'].createElement(
+        'h3',
+        null,
+        'Wussten Sie schon ...'
+      ),
+      _react2['default'].createElement(
+        'ul',
+        null,
+        _react2['default'].createElement(
+          'li',
+          null,
+          '... dass bis jetzt [totalNumberOfItems] Weltraumausstiege von [totalNumberOfAstronauts] durchgeführt wurden?'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          '... dass [astronautWithMaxNumberOfItems] mit [maxNumberOfItems] EVA die meisten Außenbordeinsätze absolvierte?'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          '... dass [astronautsLongestItem] am [longestItemStartDate] den mit [longestItemTime] bislang längsten Weltraumausstieg durchgeführt haben?'
+        )
+      ),
+      _react2['default'].createElement('img', { src: '' })
     ),
     _react2['default'].createElement(
       'div',
@@ -37064,7 +37130,7 @@ var SpacewalkComponent = function SpacewalkComponent(_ref2) {
     { className: 'spacewalk-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'spacewalk-name pure-u-1 pure-u-sm-9-24 center' },
+      { className: 'spacewalk-name pure-u-1-4 left' },
       _react2['default'].createElement(
         'div',
         { className: 'pure-u-1' },
@@ -37081,39 +37147,38 @@ var SpacewalkComponent = function SpacewalkComponent(_ref2) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'spacewalk-dates pure-u-1-2 pure-u-sm-6-24' },
+      { className: 'spacewalk-info pure-u-3-4 left' },
       _react2['default'].createElement(
         'div',
-        { className: 'spacewalk-start pure-u-lg-1-2' },
+        { className: 'spacewalk-dates pure-u-11-24' },
         _react2['default'].createElement(
           'p',
           null,
-          'Beginn: ',
-          spacewalk.start
+          spacewalk.startDate,
+          spacewalk.startTime ? ' - ' + spacewalk.startTime : ''
+        ),
+        _react2['default'].createElement(
+          'p',
+          null,
+          spacewalk.startDate != spacewalk.endDate ? 'bis ' + spacewalk.endDate : '',
+          spacewalk.startDate != spacewalk.endDate && spacewalk.endTime ? ' - ' + spacewalk.endTime : '',
+          spacewalk.startDate == spacewalk.endDate && spacewalk.endTime ? 'bis ' + spacewalk.endTime : ''
         )
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'spacewalk-end pure-u-lg-1-2' },
-        _react2['default'].createElement(
-          'p',
-          null,
-          'Ende: ',
-          spacewalk.end
-        )
-      )
-    ),
-    _react2['default'].createElement(
-      'div',
-      { className: 'spacewalk-info pure-u-1-2 pure-u-sm-9-24 left' },
-      _react2['default'].createElement(
-        'div',
-        { className: 'spacewalk-astronauts' },
+        { className: 'spacewalk-astronauts pure-u-13-24 left' },
         _react2['default'].createElement(
           'p',
           null,
           spacewalk.astronaut1,
-          spacewalk.astronaut2 ? ', ' + spacewalk.astronaut2 : ''
+          ' (',
+          spacewalk.countSpacewalks1,
+          '/',
+          spacewalk.totalSpacewalks1,
+          ')',
+          spacewalk.astronaut2 ? ', ' + spacewalk.astronaut2 + ' (' + spacewalk.countSpacewalks2 + '/' + spacewalk.totalSpacewalks2 + ')' : '',
+          spacewalk.astronaut3 ? ', ' + spacewalk.astronaut3 + ' (' + spacewalk.countSpacewalks3 + '/' + spacewalk.totalSpacewalks3 + ')' : ''
         )
       )
     )
@@ -37154,7 +37219,7 @@ var StarsComponent = function StarsComponent(_ref) {
     { role: 'main', className: 'pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { id: 'featured', className: 'stars pure-u-1 center' },
+      { id: 'siteTitle', className: 'stars pure-u-1 center' },
       _react2['default'].createElement(
         'h1',
         null,
@@ -39623,11 +39688,39 @@ var Spacewalk = (function () {
     _classCallCheck(this, Spacewalk);
   }
 
+  // {
+  //     "itemindex": 11,
+  //     "itemname": "Sojus 4 - Sojus 5 - Umstieg",
+  //     "itemurl": "https://de.wikipedia.org/wiki/Sojus_5",
+  //     "itemname2": "Sojus 4",
+  //     "itemurl2": "https://de.wikipedia.org/wiki/Sojus_4",
+  //     "itemname3": "Sojus 5",
+  //     "itemurl3": "https://de.wikipedia.org/wiki/Sojus_5",
+  //     "itemdescription": "Erste Außenbordtätigkeit von 2 Personen; erstes Umsteigen von einem Raumschiff in ein anderes (von Sojus 5 nach Sojus 4)",
+  //     "itemdateyear": 1969,
+  //     "itemdatemonth": "01",
+  //     "itemdateday": "16",
+  //     "itemtime": "12:43:00",
+  //     "itemdate2year": 1969,
+  //     "itemdate2month": "01",
+  //     "itemdate2day": "16",
+  //     "itemtime2": "13:15:00",
+  //     "itemduration": "00:32:00 h",
+  //     "itemperson": "Jewgeni Chrunow",
+  //     "itempersoncount": 1,
+  //     "itempersontotal": 1,
+  //     "itemperson2": "Alexej Jelissejew",
+  //     "itemperson2count": 1,
+  //     "itemperson2total": 1,
+  //     "itemtags": "Sojus"
+  // },
+
   _createClass(Spacewalk, null, [{
     key: 'fromRawData',
     value: function fromRawData(raw) {
       var spacewalk = new Spacewalk();
 
+      spacewalk.index = raw.itemindex;
       spacewalk.name = raw.itemname;
       spacewalk.wikipediaUrl = raw.itemurl;
       spacewalk.mission1Name = raw.itemname2;
@@ -39637,24 +39730,31 @@ var Spacewalk = (function () {
       var startyear = raw.itemdateyear;
       var startmonth = raw.itemdatemonth ? raw.itemdatemonth + '.' : '';
       var startday = raw.itemdateday ? raw.itemdateday + '.' : '';
-      spacewalk.start = '' + startday + startmonth + startyear;
+      spacewalk.startDate = '' + startday + startmonth + startyear;
+      spacewalk.startTime = raw.itemtime;
       var endyear = raw.itemdate2year ? '' + raw.itemdate2year : '';
       var endmonth = raw.itemdate2month ? raw.itemdate2month + '.' : '';
       var endday = raw.itemdate2day ? raw.itemdate2day + '.' : '';
-      spacewalk.end = '' + endday + endmonth + endyear;
+      spacewalk.endDate = '' + endday + endmonth + endyear;
+      spacewalk.endTime = raw.itemtime2;
       spacewalk.duration = raw.itemduration;
       spacewalk.country = raw.itemcountry;
       spacewalk.status = raw.itemstatus ? raw.itemstatus : '-';
       spacewalk.operator = raw.itemoperator ? raw.itemoperator : '';
-      var astronaut1 = raw.itemperson ? raw.itemperson : ''; //better take an array spacewalk.astronauts[]?
-      var astronaut2 = raw.itemperson2 ? raw.itemperson2 : '';
-      var astronaut3 = raw.itemperson3 ? raw.itemperson3 : '';
-      var astronaut4 = raw.itemperson4 ? raw.itemperson4 : '';
-      var astronaut5 = raw.itemperson5 ? raw.itemperson5 : '';
-      var astronaut6 = raw.itemperson6 ? raw.itemperson6 : '';
-      var astronaut7 = raw.itemperson7 ? raw.itemperson7 : '';
-      var astronaut8 = raw.itemperson8 ? raw.itemperson8 : '';
-      spacewalk.astronauts = astronaut1 + ', ' + astronaut2 + ', ' + astronaut3 + ', ' + astronaut4 + ', ' + astronaut5 + ', ' + astronaut6 + ', ' + astronaut7 + ', ' + astronaut8;
+      spacewalk.astronaut1 = raw.itemperson ? raw.itemperson : '';
+      spacewalk.countSpacewalks1 = raw.itempersoncount ? raw.itempersoncount : '';
+      spacewalk.totalSpacewalks1 = raw.itempersontotal ? raw.itempersontotal : '';
+      spacewalk.astronaut2 = raw.itemperson2 ? raw.itemperson2 : '';
+      spacewalk.countSpacewalks2 = raw.itemperson2count ? raw.itemperson2count : '';
+      spacewalk.totalSpacewalks2 = raw.itemperson2total ? raw.itemperson2total : '';
+      spacewalk.astronaut3 = raw.itemperson3 ? raw.itemperson3 : '';
+      spacewalk.countSpacewalks3 = raw.itemperson3count ? raw.itemperson3count : '';
+      spacewalk.totalSpacewalks3 = raw.itemperson3total ? raw.itemperson3total : '';
+      spacewalk.astronaut4 = raw.itemperson4 ? raw.itemperson4 : '';
+      spacewalk.astronaut5 = raw.itemperson5 ? raw.itemperson5 : '';
+      spacewalk.astronaut6 = raw.itemperson6 ? raw.itemperson6 : '';
+      spacewalk.astronaut7 = raw.itemperson7 ? raw.itemperson7 : '';
+      spacewalk.astronaut8 = raw.itemperson8 ? raw.itemperson8 : '';
 
       return spacewalk;
     }
