@@ -37026,28 +37026,24 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
         'Bei so genannten Stand-Up-EVA (SEVA) steht ein Raumfahrer meist in der geöffneten Luke seines Raumfahzeugs um einen weiteren Raumfahrer bei dessen EVA zu assistieren oder ihn zu filmen.'
       ),
       _react2['default'].createElement(
-        'h3',
+        'h4',
         null,
-        'Wussten Sie schon ...'
+        'Interessante Fakten:'
       ),
       _react2['default'].createElement(
-        'ul',
+        'p',
         null,
-        _react2['default'].createElement(
-          'li',
-          null,
-          '... dass bis jetzt [totalNumberOfItems] Weltraumausstiege von [totalNumberOfAstronauts] durchgeführt wurden?'
-        ),
-        _react2['default'].createElement(
-          'li',
-          null,
-          '... dass [astronautWithMaxNumberOfItems] mit [maxNumberOfItems] EVA die meisten Außenbordeinsätze absolvierte?'
-        ),
-        _react2['default'].createElement(
-          'li',
-          null,
-          '... dass [astronautsLongestItem] am [longestItemStartDate] den mit [longestItemTime] bislang längsten Weltraumausstieg durchgeführt haben?'
-        )
+        'Bis jetzt wurden [totalNumberOfItems] Weltraumausstiege von [totalNumberOfAstronauts] durchgeführt.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        '[astronautWithMaxNumberOfItems] absolvierte mit [maxNumberOfItems] EVA die meisten Außenbordeinsätze.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        'Am [longestItemStartDate] führten [astronautsLongestItem] den mit [longestItemTime] bislang längsten Weltraumausstieg durch.'
       ),
       _react2['default'].createElement('img', { src: '' })
     ),
