@@ -8,8 +8,8 @@ const Footer = ({appUrl}) => {
       </div>
       <div id="footerContainer" className="pure-u-1">
         <div id="footerMainPages" className="footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5">
-          <h4>Hauptseiten</h4>
           <ul>
+            <li><h4>Hauptseiten</h4></li>
             {[
               {url: appUrl.eventsSite(), name: 'Chronik'},
               {url: appUrl.peopleSite(), name: 'Personen'},
@@ -25,15 +25,28 @@ const Footer = ({appUrl}) => {
             )}
           </ul>
         </div>
-        <div id="footerSubPages" className="footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5">
-          <h4>Unterseiten</h4>
+        <div id="footerAstronomy" className="footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5">
           <ul>
+            <li><h4>Astronomie</h4></li>
             {[
               {url: appUrl.astronomersSite(), name: 'Astronomen'},
-              {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
               {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
               {url: appUrl.constellationsSite(), name: 'Sternbilder'},
               {url: appUrl.starsSite(), name: 'Sterne'},
+              {url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope'},
+
+            ].map(link =>
+              <li key={link.url}>
+                <a className="footerLink" href={ link.url }>{ link.name }</a>
+              </li>
+            )}
+          </ul>
+        </div>
+        <div id="footerSpaceflight" className="footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5">
+          <ul>
+            <li><h4>Raumfahrt</h4></li>
+            {[
+              {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
               {url: appUrl.missionsSite(), name: 'Missionen'},
               {url: appUrl.spacewalksSite(), name: 'Weltraumausstiege'},
               {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
@@ -47,8 +60,8 @@ const Footer = ({appUrl}) => {
           </ul>
         </div>
         <div id="footerNetworks" className="footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5">
-          <h4>Folgen</h4>
           <ul>
+            <li><h4>Folgen</h4></li>
             <li>
               <a className="footerLink" href="https://twitter.com/cosmowiki" target="_blank" title="CosmoWiki.org bei Twitter">Twitter</a>
             </li>
@@ -61,29 +74,25 @@ const Footer = ({appUrl}) => {
             <li>
               <a className="footerLink" href="https://github.com/cosmowiki/cosmowiki" target="_blank" title="CosmoWiki.org bei Github">Github</a>
             </li>
-        </ul>
-        </div>
-        <div id="footerShare" className="footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5">
-          <h4>Teilen</h4>
-          <ul>
+            <li><h4>Teilen</h4></li>
             <li>
               <div className="shariff" data-theme="grey" data-services="[&quot;twitter&quot;,&quot;googleplus&quot;,&quot;facebook&quot;,&quot;mail&quot;,&quot;info&quot;]"></div>
-              SHARIFF!!!!
+              <a className="footerLink" href="#">SHARIFF!!!!</a>
             </li>
             <li>
-              Facebook
+              <a className="footerLink" href="#">Twitter</a>
             </li>
             <li>
-              Twitter
+              <a className="footerLink" href="#">Facebook</a>
             </li>
             <li>
-              Google+
+              <a className="footerLink" href="#">Google+</a>
             </li>
           </ul>
         </div>
         <div id="footerElse" className="footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5">
-          <h4>Sonstiges</h4>
           <ul>
+            <li><h4>Sonstiges</h4></li>
             {[
               {url: appUrl.aboutSite() + '#whatis', name: 'Was ist CosmoWiki.org?'},
               {url: appUrl.aboutSite() + '#license', name: 'Lizenz'},
