@@ -8,7 +8,7 @@ const StarsComponent = ({groupedStars, constellations}) => {
 
   return (
     <main role="main" className="pure-u-1">
-      <div id="featured" className="stars pure-u-1 center">
+      <div id="siteTitle" className="stars pure-u-1 center">
         <h1>Sterne</h1>
         <h3>strahlende Objekte im All</h3>
       </div>

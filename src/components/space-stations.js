@@ -4,7 +4,7 @@ import Notes from './notes';
 const SpaceStationsComponent = ({spaceStations:stations}) => {
   return (
     <main role="main" className="pure-u-1">
-      <div id="featured" className="stations pure-u-1 center">
+      <div id="siteTitle" className="stations pure-u-1 center">
         <h1>Raumstationen</h1>
         <h3>künstliche Habitate im All</h3>
       </div>

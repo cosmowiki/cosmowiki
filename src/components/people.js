@@ -8,7 +8,7 @@ const PeopleComponent = ({groupedPeople}) => {
 
   return (
     <main role="main" className="pure-u-1">
-      <div id="featured" className="persons pure-u-1 center">
+      <div id="siteTitle" className="persons pure-u-1 center">
         <h1>Personen</h1>
         <h3>Entdecker, Pioniere, Wissenschaftler</h3>
       </div>

@@ -5,7 +5,7 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
 
   return (
     <main role="main" className="pure-u-1">
-      <div id="featured" className="spacetelecopes pure-u-1 center">
+      <div id="siteTitle" className="spacetelecopes pure-u-1 center">
         <h1>Weltraumteleskope</h1>
         <h3>Augen und Ohren im All</h3>
       </div>

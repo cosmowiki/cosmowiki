@@ -1,6 +1,6 @@
 <?php include("header.php")?>
 	<main role="main" class="pure-u-2-3">
-		<div id="featured" class="satellites">
+		<div id="siteTitle" class="satellites">
 			<h1>Satelliten</h1>
 			<p>messen, beobachten, &uuml;bertragen</p>
 		</div>

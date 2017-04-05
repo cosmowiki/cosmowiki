@@ -4,7 +4,7 @@ import {ConstellationNotes} from './notes';
 const ConstellationsComponent = ({constellations}) => {
   return (
     <main role="main" className="pure-u-1">
-      <div id="featured" className="constellations pure-u-1 center">
+      <div id="siteTitle" className="constellations pure-u-1 center">
         <h1>Sternbilder</h1>
         <h3>Figuren am Firmament</h3>
       </div>

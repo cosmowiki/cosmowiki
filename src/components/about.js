@@ -165,7 +165,7 @@ export default class AboutComponent extends React.Component {
 
     return (
       <main role="main" className="pure-u-1">
-        <div id="featured" className="pure-u-1 about center">
+        <div id="siteTitle" className="pure-u-1 about center">
           <h1>Wir über uns</h1>
           <h3>Ohne Idee keine Entwicklung</h3>
         </div>
