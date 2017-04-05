@@ -21,12 +21,10 @@ const SpacewalksComponent = ({spacewalks}) => {
         <p>Bei so genannten Stand-Up-EVA (SEVA) steht ein Raumfahrer meist in der
         geöffneten Luke seines Raumfahzeugs um einen weiteren Raumfahrer bei dessen
         EVA zu assistieren oder ihn zu filmen.</p>
-        <h3>Wussten Sie schon ...</h3>
-        <ul>
-          <li>... dass bis jetzt [totalNumberOfItems] Weltraumausstiege von [totalNumberOfAstronauts] durchgeführt wurden?</li>
-          <li>... dass [astronautWithMaxNumberOfItems] mit [maxNumberOfItems] EVA die meisten Außenbordeinsätze absolvierte?</li>
-          <li>... dass [astronautsLongestItem] am [longestItemStartDate] den mit [longestItemTime] bislang längsten Weltraumausstieg durchgeführt haben?</li>
-        </ul>
+        <h4>Interessante Fakten:</h4>
+        <p>Bis jetzt wurden [totalNumberOfItems] Weltraumausstiege von [totalNumberOfAstronauts] durchgeführt.</p>
+        <p>[astronautWithMaxNumberOfItems] absolvierte mit [maxNumberOfItems] EVA die meisten Außenbordeinsätze.</p>
+        <p>Am [longestItemStartDate] führten [astronautsLongestItem] den mit [longestItemTime] bislang längsten Weltraumausstieg durch.</p>
         <img src="" />
       </div>
       <div id="controlArea" className="spacewalks pure-u-1">
