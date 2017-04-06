@@ -25,7 +25,7 @@ class Spacewalk {
     spacewalk.mission1Url = raw.itemurl2;
     spacewalk.mission2Name = raw.itemname3;
     spacewalk.mission2Url = raw.itemurl3;
-    const startyear = raw.itemdateyear;
+    const startyear = raw.itemdateyear ? raw.itemdateyear : '';
     const startmonth = raw.itemdatemonth ? `${raw.itemdatemonth}.` : '';
     const startday = raw.itemdateday ? `${raw.itemdateday}.` : '';
     spacewalk.startDate = `${startday}${startmonth}${startyear}`;
@@ -36,23 +36,20 @@ class Spacewalk {
     spacewalk.endDate = `${endday}${endmonth}${endyear}`;
     spacewalk.endTime = raw.itemtime2;
     spacewalk.duration = raw.itemduration;
-    spacewalk.country = raw.itemcountry;
-    spacewalk.status = raw.itemstatus ? raw.itemstatus : '-';
-    spacewalk.operator = raw.itemoperator ? raw.itemoperator : '';
     spacewalk.astronaut1 = raw.itemperson ? raw.itemperson : '';
-    spacewalk.countSpacewalks1 = raw.itempersoncount ? raw.itempersoncount : '';
-    spacewalk.totalSpacewalks1 = raw.itempersontotal ? raw.itempersontotal : '';
     spacewalk.astronaut2 = raw.itemperson2 ? raw.itemperson2 : '';
-    spacewalk.countSpacewalks2 = raw.itemperson2count ? raw.itemperson2count : '';
-    spacewalk.totalSpacewalks2 = raw.itemperson2total ? raw.itemperson2total : '';
     spacewalk.astronaut3 = raw.itemperson3 ? raw.itemperson3 : '';
-    spacewalk.countSpacewalks3 = raw.itemperson3count ? raw.itemperson3count : '';
-    spacewalk.totalSpacewalks3 = raw.itemperson3total ? raw.itemperson3total : '';
     spacewalk.astronaut4 = raw.itemperson4 ? raw.itemperson4 : '';
     spacewalk.astronaut5 = raw.itemperson5 ? raw.itemperson5 : '';
     spacewalk.astronaut6 = raw.itemperson6 ? raw.itemperson6 : '';
     spacewalk.astronaut7 = raw.itemperson7 ? raw.itemperson7 : '';
     spacewalk.astronaut8 = raw.itemperson8 ? raw.itemperson8 : '';
+    spacewalk.countSpacewalks1 = raw.itempersoncount;
+    spacewalk.totalSpacewalks1 = raw.itempersontotal;
+    spacewalk.countSpacewalks2 = raw.itemperson2count;
+    spacewalk.totalSpacewalks2 = raw.itemperson2total;
+    spacewalk.countSpacewalks3 = raw.itemperson3count;
+    spacewalk.totalSpacewalks3 = raw.itemperson3total;
 
     return spacewalk;
   }

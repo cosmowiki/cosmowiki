@@ -3793,9 +3793,9 @@
         "itemtime": "21:12:00",
         "itemdate2year": 1998,
         "itemdate2month": "01",
-        "itemdate2day": "14",
+        "itemdate2day": 15,
         "itemtime2": "01:04:00",
-        "itemduration": "-20:08:00 h",
+        "itemduration": "03:52:00 h",
         "itemperson": "Anatoli Solowjow",
         "itempersoncount": 16,
         "itempersontotal": 16,
@@ -9119,7 +9119,7 @@
         "itemdate2month": "03",
         "itemdate2day": "24",
         "itemtime2": "17:58:00",
-        "itemduration": 24.27361111111111,
+        "itemduration": 0.27361111111111114,
         "itemperson": "Shane Kimbrough",
         "itempersoncount": 5,
         "itempersontotal": 6,
@@ -9144,7 +9144,7 @@
         "itemdate2month": "03",
         "itemdate2day": "30",
         "itemtime2": "19:33:00",
-        "itemduration": 24.294444444444444,
+        "itemduration": 0.2944444444444444,
         "itemperson": "Peggy Whitson",
         "itempersoncount": 8,
         "itempersontotal": 8,
@@ -9152,6 +9152,5 @@
         "itemperson2count": 6,
         "itemperson2total": 6,
         "itemtags": "ISS, Sojus"
-    },
-    {}
+    }
 ]
