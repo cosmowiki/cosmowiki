@@ -1,15 +1,15 @@
 #pageSubMenu li.Sonnensystem {
-	background: url("/img/featured_solsys.jpg") center / cover no-repeat;
+	background: url("/img/title_solarsystem.jpg") center / cover no-repeat;
 }
 #pageSubMenu li.Sternbilder {
-	background: url("/img/featured_constellations.jpg") center / cover no-repeat;
+	background: url("/img/title_constellations.jpg") center / cover no-repeat;
 }
 #pageSubMenu li.Sterne {
-	background: url("/img/featured_stars.jpg") center / cover no-repeat;
+	background: url("/img/title_stars.jpg") center / cover no-repeat;
 }
 #pageSubMenu li.Raumstationen {
-	background: url("/img/featured_stations.jpg") center / cover no-repeat;
+	background: url("/img/title_stations.jpg") center / cover no-repeat;
 }
 #pageSubMenu li.Weltraumteleskope {
-	background: url("/img/featured_spacetele.jpg") center / cover no-repeat;
+	background: url("/img/title_spacetelescopes.jpg") center / cover no-repeat;
 }

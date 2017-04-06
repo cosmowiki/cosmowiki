@@ -1,12 +1,15 @@
 #pageSubMenu li.Raumfahrer {
-	background: url("/img/featured_astronauts.jpg") center / cover no-repeat;
+	background: url("/img/title_astronauts.jpg") center / cover no-repeat;
 }
 #pageSubMenu li.Missionen {
-	background: url("/img/featured_missions.jpg") center / cover no-repeat;
+	background: url("/img/title_missions.jpg") center / cover no-repeat;
+}
+#pageSubMenu li.Weltraumausstiege {
+	background: url("/img/title_spacewalks.jpg") center / cover no-repeat;
 }
 #pageSubMenu li.Raumstationen {
-	background: url("/img/featured_stations.jpg") center / cover no-repeat;
+	background: url("/img/title_stations.jpg") center / cover no-repeat;
 }
 #pageSubMenu li.Weltraumteleskope {
-	background: url("/img/featured_spacetele.jpg") center / cover no-repeat;
+	background: url("/img/title_spacetelescopes.jpg") center / cover no-repeat;
 }

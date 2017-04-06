@@ -33780,7 +33780,7 @@ var ChronicleComponent = (function (_React$Component) {
         { role: 'main', className: 'pure-u-1' },
         _react2['default'].createElement(
           'div',
-          { id: 'siteTitle', className: 'chronicle pure-u-1 center' },
+          { id: 'siteTitle', className: 'events pure-u-1 center' },
           _react2['default'].createElement(
             'h1',
             null,
@@ -36987,7 +36987,17 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'summary', className: 'spacewalks pure-u-1 justify' },
+      { id: 'summary', className: 'spacewalks pure-u-1 left' },
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img' },
+        _react2['default'].createElement('img', { src: '/img/spacewalks/eva1_sm.jpg' }),
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img-src small' },
+          'Quelle: NASA'
+        )
+      ),
       _react2['default'].createElement(
         'p',
         null,
@@ -37011,6 +37021,16 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
         ' genannt, ist ein Begriff für den Aufenthalt von Astronauten außerhalb eines Raumfahrzeuges im Vakuum des Weltalls oder auf einem anderen Himmelskörper. (z. B. Lunar Extra Vehicular Activity = LEVA) Er wird meist für Arbeiten an einem Raumfahrzeug, zu wissenschaftlichen Zwecken oder zur Erprobung neuer Techniken durchgeführt.'
       ),
       _react2['default'].createElement(
+        'div',
+        { className: 'summary-img' },
+        _react2['default'].createElement('img', { src: '/img/spacewalks/eva2_sm.jpg' }),
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img-src small' },
+          'Quelle: NASA'
+        )
+      ),
+      _react2['default'].createElement(
         'p',
         null,
         'Die Raumfahrer sind hierbei nur durch einen speziellen Raumanzug vor dem Vakuum und der Strahlung des Weltraums sowie vor Mikrometeoriten geschützt. Die Strahlenbelastung ist dabei etwa doppelt so hoch wie im Raumfahrzeug.'
@@ -37018,12 +37038,24 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
       _react2['default'].createElement(
         'p',
         null,
-        'Aktivitäten in der Schwerelosigkeit erfordern etwa 2,5 mal mehr Zeit als auf der Erde.'
+        'Bei so genannten Stand-Up-EVA (SEVA) steht ein Raumfahrer meist in der geöffneten Luke seines Raumfahrzeugs um einen weiteren Raumfahrer bei dessen EVA zu assistieren oder ihn zu filmen.'
       ),
       _react2['default'].createElement(
         'p',
         null,
-        'Bei so genannten Stand-Up-EVA (SEVA) steht ein Raumfahrer meist in der geöffneten Luke seines Raumfahzeugs um einen weiteren Raumfahrer bei dessen EVA zu assistieren oder ihn zu filmen.'
+        'Der sowjetische Kosmonaut ',
+        _react2['default'].createElement(
+          'i',
+          null,
+          'Alexej Leonow'
+        ),
+        ' absolvierte am 18. März 1965 den ersten Weltraumausstieg. Zwölf Minuten lang schwebte er außerhalb von ',
+        _react2['default'].createElement(
+          'i',
+          null,
+          'Woschod 2'
+        ),
+        ' auf einer Umlaufbahn um die Erde. Bei der Rückkehr in das Raumschiff ergaben sich Schwierigkeiten, da Leonows Raumanzug durch den fehlenden Gegendruck im All aufgebläht und zu steif geworden war. Erst als Leonow Druck aus seinem Anzug abgelassen hatte, gelang ihm der Einstieg in die Schleuse.'
       ),
       _react2['default'].createElement(
         'h4',
@@ -37031,21 +37063,24 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
         'Interessante Fakten:'
       ),
       _react2['default'].createElement(
-        'p',
+        'ul',
         null,
-        'Bis jetzt wurden [totalNumberOfItems] Weltraumausstiege von [totalNumberOfAstronauts] durchgeführt.'
-      ),
-      _react2['default'].createElement(
-        'p',
-        null,
-        '[astronautWithMaxNumberOfItems] absolvierte mit [maxNumberOfItems] EVA die meisten Außenbordeinsätze.'
-      ),
-      _react2['default'].createElement(
-        'p',
-        null,
-        'Am [longestItemStartDate] führten [astronautsLongestItem] den mit [longestItemTime] bislang längsten Weltraumausstieg durch.'
-      ),
-      _react2['default'].createElement('img', { src: '' })
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Bis jetzt wurden [totalNumberOfItems] Weltraumausstiege von [totalNumberOfAstronauts] Astronauten durchgeführt.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          '[astronautMaxNumberOfItems] absolvierte mit [maxNumberOfItems] EVA die meisten Außenbordeinsätze.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Am [longestItemStartDate] führten [astronautsLongestItem] den mit [longestItemTime] bislang längsten Weltraumausstieg durch.'
+        )
+      )
     ),
     _react2['default'].createElement(
       'div',
@@ -39723,7 +39758,7 @@ var Spacewalk = (function () {
       spacewalk.mission1Url = raw.itemurl2;
       spacewalk.mission2Name = raw.itemname3;
       spacewalk.mission2Url = raw.itemurl3;
-      var startyear = raw.itemdateyear;
+      var startyear = raw.itemdateyear ? raw.itemdateyear : '';
       var startmonth = raw.itemdatemonth ? raw.itemdatemonth + '.' : '';
       var startday = raw.itemdateday ? raw.itemdateday + '.' : '';
       spacewalk.startDate = '' + startday + startmonth + startyear;
@@ -39734,23 +39769,20 @@ var Spacewalk = (function () {
       spacewalk.endDate = '' + endday + endmonth + endyear;
       spacewalk.endTime = raw.itemtime2;
       spacewalk.duration = raw.itemduration;
-      spacewalk.country = raw.itemcountry;
-      spacewalk.status = raw.itemstatus ? raw.itemstatus : '-';
-      spacewalk.operator = raw.itemoperator ? raw.itemoperator : '';
       spacewalk.astronaut1 = raw.itemperson ? raw.itemperson : '';
-      spacewalk.countSpacewalks1 = raw.itempersoncount ? raw.itempersoncount : '';
-      spacewalk.totalSpacewalks1 = raw.itempersontotal ? raw.itempersontotal : '';
       spacewalk.astronaut2 = raw.itemperson2 ? raw.itemperson2 : '';
-      spacewalk.countSpacewalks2 = raw.itemperson2count ? raw.itemperson2count : '';
-      spacewalk.totalSpacewalks2 = raw.itemperson2total ? raw.itemperson2total : '';
       spacewalk.astronaut3 = raw.itemperson3 ? raw.itemperson3 : '';
-      spacewalk.countSpacewalks3 = raw.itemperson3count ? raw.itemperson3count : '';
-      spacewalk.totalSpacewalks3 = raw.itemperson3total ? raw.itemperson3total : '';
       spacewalk.astronaut4 = raw.itemperson4 ? raw.itemperson4 : '';
       spacewalk.astronaut5 = raw.itemperson5 ? raw.itemperson5 : '';
       spacewalk.astronaut6 = raw.itemperson6 ? raw.itemperson6 : '';
       spacewalk.astronaut7 = raw.itemperson7 ? raw.itemperson7 : '';
       spacewalk.astronaut8 = raw.itemperson8 ? raw.itemperson8 : '';
+      spacewalk.countSpacewalks1 = raw.itempersoncount;
+      spacewalk.totalSpacewalks1 = raw.itempersontotal;
+      spacewalk.countSpacewalks2 = raw.itemperson2count;
+      spacewalk.totalSpacewalks2 = raw.itemperson2total;
+      spacewalk.countSpacewalks3 = raw.itemperson3count;
+      spacewalk.totalSpacewalks3 = raw.itemperson3total;
 
       return spacewalk;
     }
