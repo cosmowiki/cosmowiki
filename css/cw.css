@@ -145,6 +145,7 @@ main {border-bottom: 1em solid #eee;}
 /*			summary ------------------------------------------------------------- */
 
 #summary {background: rgba(255, 255, 255, .95); border-bottom: 1px solid #ddd;}
+#summaryContainer {margin: .5em;}
 #summary p,
 #summary h1,
 #summary h2,
@@ -152,11 +153,18 @@ main {border-bottom: 1em solid #eee;}
 #summary h4,
 #summary h5,
 #summary ul,
-#summary .summary-img  {padding: .5em;}
+.summary-img {padding: .5em 0;}
+#summary p:nth-of-type(odd) {text-indent: 1em;}
 #summary ul {list-style: disc inside;}
-#summary img {height: 7em;}
-#summary .summary-img:nth-of-type(odd) {float: left;}
-#summary .summary-img:nth-of-type(even) {float: right;}
+.summary-img {border: 1px solid #55f; border-radius: 5px;}
+.summary-img:hover {border: 1px solid #333; border-radius: 5px;}
+#summary img {height: 5.9em; border-radius: 5px;}
+.summary-img:nth-of-type(odd) {
+	float: left; margin: .5em .5em 0 0; padding: 2px;
+}
+.summary-img:nth-of-type(even) {
+	float: right; margin: .5em 0 .5em .5em; padding: 2px;
+}
 
 /*			todo ---------------------------------------------------------------- */
 

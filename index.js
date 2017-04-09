@@ -36990,95 +36990,171 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
       { id: 'summary', className: 'spacewalks pure-u-1 left' },
       _react2['default'].createElement(
         'div',
-        { className: 'summary-img' },
-        _react2['default'].createElement('img', { src: '/img/spacewalks/eva1_sm.jpg' }),
+        { id: 'summaryContainer', className: 'spacewalks' },
         _react2['default'].createElement(
           'div',
-          { className: 'summary-img-src small' },
-          'Quelle: NASA'
-        )
-      ),
-      _react2['default'].createElement(
-        'p',
-        null,
-        _react2['default'].createElement(
-          'i',
-          null,
-          'Der Weltraumausstieg'
+          { className: 'summary-img' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/spacewalks/eva2_lg.jpg', title: 'Buzz Aldrin auf dem Mond' },
+            _react2['default'].createElement('img', { src: '/img/spacewalks/eva2_sm.jpg' })
+          ),
+          _react2['default'].createElement(
+            'div',
+            { className: 'summary-img-src small' },
+            'NASA'
+          )
         ),
-        ', auch ',
         _react2['default'].createElement(
-          'i',
+          'p',
           null,
-          'EVA'
+          _react2['default'].createElement(
+            'b',
+            null,
+            _react2['default'].createElement(
+              'i',
+              null,
+              'Der Weltraumausstieg'
+            )
+          ),
+          ', auch ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'EVA'
+          ),
+          ' (extra-vehicular activity = Außenbordaktivität) oder ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'spacewalk'
+          ),
+          ' genannt, ist ein Begriff für den Aufenthalt von Astronauten außerhalb eines Raumfahrzeuges im Vakuum des Weltalls oder auf einem anderen Himmelskörper. (z. B. Lunar Extra Vehicular Activity = LEVA) Er wird meist für Arbeiten an einem Raumfahrzeug, zu wissenschaftlichen Zwecken oder zur Erprobung neuer Techniken durchgeführt.'
         ),
-        ' (extra-vehicular activity = Außenbordaktivität) oder ',
         _react2['default'].createElement(
-          'i',
+          'p',
           null,
-          'spacewalk'
+          'Die Raumfahrer sind hierbei nur durch einen speziellen Raumanzug vor dem Vakuum und der Strahlung des Weltraums sowie vor Mikrometeoriten geschützt. Die Strahlenbelastung ist dabei etwa doppelt so hoch wie im Raumfahrzeug.'
         ),
-        ' genannt, ist ein Begriff für den Aufenthalt von Astronauten außerhalb eines Raumfahrzeuges im Vakuum des Weltalls oder auf einem anderen Himmelskörper. (z. B. Lunar Extra Vehicular Activity = LEVA) Er wird meist für Arbeiten an einem Raumfahrzeug, zu wissenschaftlichen Zwecken oder zur Erprobung neuer Techniken durchgeführt.'
-      ),
-      _react2['default'].createElement(
-        'div',
-        { className: 'summary-img' },
-        _react2['default'].createElement('img', { src: '/img/spacewalks/eva2_sm.jpg' }),
         _react2['default'].createElement(
           'div',
-          { className: 'summary-img-src small' },
-          'Quelle: NASA'
-        )
-      ),
-      _react2['default'].createElement(
-        'p',
-        null,
-        'Die Raumfahrer sind hierbei nur durch einen speziellen Raumanzug vor dem Vakuum und der Strahlung des Weltraums sowie vor Mikrometeoriten geschützt. Die Strahlenbelastung ist dabei etwa doppelt so hoch wie im Raumfahrzeug.'
-      ),
-      _react2['default'].createElement(
-        'p',
-        null,
-        'Bei so genannten Stand-Up-EVA (SEVA) steht ein Raumfahrer meist in der geöffneten Luke seines Raumfahrzeugs um einen weiteren Raumfahrer bei dessen EVA zu assistieren oder ihn zu filmen.'
-      ),
-      _react2['default'].createElement(
-        'p',
-        null,
-        'Der sowjetische Kosmonaut ',
-        _react2['default'].createElement(
-          'i',
-          null,
-          'Alexej Leonow'
-        ),
-        ' absolvierte am 18. März 1965 den ersten Weltraumausstieg. Zwölf Minuten lang schwebte er außerhalb von ',
-        _react2['default'].createElement(
-          'i',
-          null,
-          'Woschod 2'
-        ),
-        ' auf einer Umlaufbahn um die Erde. Bei der Rückkehr in das Raumschiff ergaben sich Schwierigkeiten, da Leonows Raumanzug durch den fehlenden Gegendruck im All aufgebläht und zu steif geworden war. Erst als Leonow Druck aus seinem Anzug abgelassen hatte, gelang ihm der Einstieg in die Schleuse.'
-      ),
-      _react2['default'].createElement(
-        'h4',
-        null,
-        'Interessante Fakten:'
-      ),
-      _react2['default'].createElement(
-        'ul',
-        null,
-        _react2['default'].createElement(
-          'li',
-          null,
-          'Bis jetzt wurden [totalNumberOfItems] Weltraumausstiege von [totalNumberOfAstronauts] Astronauten durchgeführt.'
+          { className: 'summary-img' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/spacewalks/eva4_lg.jpg', title: 'Juri Onufrijenko an der Raumstation Mir' },
+            _react2['default'].createElement('img', { src: '/img/spacewalks/eva4_sm.jpg' })
+          ),
+          _react2['default'].createElement(
+            'div',
+            { className: 'summary-img-src small' },
+            'NASA'
+          )
         ),
         _react2['default'].createElement(
-          'li',
+          'p',
           null,
-          '[astronautMaxNumberOfItems] absolvierte mit [maxNumberOfItems] EVA die meisten Außenbordeinsätze.'
+          'Bei der so genannten ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Stand-Up-EVA'
+          ),
+          ' (SEVA) steht ein Raumfahrer in der geöffneten Luke seines Raumfahrzeugs ohne dies zu verlassen. Er ist hierbei vollständig abhängig vom den Systemen des Raumanzugs und assistiert einem weiteren Raumfahrer bei dessen EVA oder filmt ihn dabei.'
         ),
         _react2['default'].createElement(
-          'li',
+          'p',
           null,
-          'Am [longestItemStartDate] führten [astronautsLongestItem] den mit [longestItemTime] bislang längsten Weltraumausstieg durch.'
+          'Wirklich freie Aufenthalte im All ohne Sicherungsleine wurden mit der ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Manned Maneuvering Unit (MMU)'
+          ),
+          ', einer Art Tornister mit kleinen Schubdüsen möglich. Sie werden nur in Ausnahmefällen durchgeführt. Der aktuelle Nachfolger der MMU ist das ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'SAFER'
+          ),
+          '-System (Simplified Aid for EVA Rescue).'
+        ),
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/spacewalks/eva3_lg.jpg', title: 'Missionslogo von Woschod 2' },
+            _react2['default'].createElement('img', { src: '/img/spacewalks/eva3_sm.jpg' })
+          ),
+          _react2['default'].createElement(
+            'div',
+            { className: 'summary-img-src small' },
+            'Quelle unbekannt'
+          )
+        ),
+        _react2['default'].createElement(
+          'p',
+          null,
+          'Der sowjetische Kosmonaut ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Alexej Leonow'
+          ),
+          ' absolvierte am 18. März 1965 den ersten Weltraumausstieg. Zwölf Minuten lang schwebte er außerhalb von ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Woschod 2'
+          ),
+          ' auf seiner eigenen Umlaufbahn um die Erde. Bei der Rückkehr in das Raumschiff ergaben sich Schwierigkeiten, da Leonows Raumanzug durch den fehlenden Gegendruck im All aufgebläht und zu steif geworden war. Erst als Leonow Druck aus seinem Anzug abgelassen hatte, gelang ihm der Einstieg in die Schleuse. In seinem Buch "Zwei Mann im Mond" verarbeitete Alexej Leonow seinen Weltraum"spaziergang".'
+        ),
+        _react2['default'].createElement(
+          'p',
+          null,
+          'Die erste Frau, die einen Außenbordeinsatz durchführte, war ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Swetlana Sawizkaja'
+          ),
+          ' am 25. Juli 1984 an Bord der sowjetischen Raumstation ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Saljut 7'
+          ),
+          '. Gemeinsam mit ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Wladimir Dschanibekow'
+          ),
+          ' testete sie neue Werkzeuge und Verfahren zum Schweißen, Schneiden und Beschichten von Materialien unter Weltraumbedingungen.'
+        ),
+        _react2['default'].createElement(
+          'h4',
+          null,
+          'Interessante Fakten:'
+        ),
+        _react2['default'].createElement(
+          'ul',
+          null,
+          _react2['default'].createElement(
+            'li',
+            null,
+            'Bis jetzt wurden [totalNumberOfItems] Weltraumausstiege von [totalNumberOfAstronauts] Astronauten durchgeführt.'
+          ),
+          _react2['default'].createElement(
+            'li',
+            null,
+            '[astronautMaxNumberOfItems] absolvierte mit [maxNumberOfItems] EVA die meisten Außenbordeinsätze.'
+          ),
+          _react2['default'].createElement(
+            'li',
+            null,
+            'Am [longestItemStartDate] führten [astronautsLongestItem] den mit [longestItemTime] bislang längsten Weltraumausstieg durch.'
+          )
         )
       )
     ),
