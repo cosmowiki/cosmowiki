@@ -145,7 +145,7 @@ main {border-bottom: 1em solid #eee;}
 /*			summary ------------------------------------------------------------- */
 
 #summary {background: rgba(255, 255, 255, .95); border-bottom: 1px solid #ddd;}
-#summaryContainer {margin: .5em;}
+#summaryContainer {margin: 0 .5em;}
 #summary p,
 #summary h1,
 #summary h2,
@@ -156,9 +156,9 @@ main {border-bottom: 1em solid #eee;}
 .summary-img {padding: .5em 0;}
 #summary p:nth-of-type(odd) {text-indent: 1em;}
 #summary ul {list-style: disc inside;}
-.summary-img {border: 1px solid #55f; border-radius: 5px;}
-.summary-img:hover {border: 1px solid #333; border-radius: 5px;}
-#summary img {height: 5.9em; border-radius: 5px;}
+.summary-img {border: 1px solid #55f;}
+.summary-img:hover {border: 1px solid #333;}
+#summary img {height: 5.9em;}
 .summary-img:nth-of-type(odd) {
 	float: left; margin: .5em .5em 0 0; padding: 2px;
 }
@@ -324,7 +324,13 @@ footer {background: #f8f8f8; border-top: 1em solid #99f;}
 	main {margin-bottom: 1em; border-radius: 0 0 5px 5px;}
 	nav {margin-top: 1em; border-radius: 5px 5px 0 0;}
 	footer {margin-bottom: 1em; border-radius: 5px 5px 5px 5px;}
+
+	.summary-img {border-radius: 5px;}
+	.summary-img:hover {border-radius: 5px;}
+	#summary img {border-radius: 3px;}
+
   #controlArea {min-height: 1.5em;}
+
 	.scroll-up-link {text-align: center;}
 }
 
