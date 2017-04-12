@@ -37,13 +37,11 @@ class Spacewalk {
     spacewalk.endTime = raw.itemtime2;
     spacewalk.duration = raw.itemduration;
     spacewalk.astronaut1 = raw.itemperson ? raw.itemperson : '';
+    spacewalk.astronaut1Url = raw.itempersonurl ? raw.itempersonurl : '';
     spacewalk.astronaut2 = raw.itemperson2 ? raw.itemperson2 : '';
+    spacewalk.astronaut2Url = raw.itemperson2url ? raw.itemperson2url : '';
     spacewalk.astronaut3 = raw.itemperson3 ? raw.itemperson3 : '';
-    spacewalk.astronaut4 = raw.itemperson4 ? raw.itemperson4 : '';
-    spacewalk.astronaut5 = raw.itemperson5 ? raw.itemperson5 : '';
-    spacewalk.astronaut6 = raw.itemperson6 ? raw.itemperson6 : '';
-    spacewalk.astronaut7 = raw.itemperson7 ? raw.itemperson7 : '';
-    spacewalk.astronaut8 = raw.itemperson8 ? raw.itemperson8 : '';
+    spacewalk.astronaut3Url = raw.itemperson3url ? raw.itemperson3url : '';
     spacewalk.countSpacewalks1 = raw.itempersoncount;
     spacewalk.totalSpacewalks1 = raw.itempersontotal;
     spacewalk.countSpacewalks2 = raw.itemperson2count;

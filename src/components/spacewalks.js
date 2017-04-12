@@ -54,7 +54,7 @@ const SpacewalksComponent = ({spacewalks}) => {
             <div className="summary-img-src small">Quelle unbekannt</div>
           </div>
           <p>
-            Der sowjetische Kosmonaut <i>Alexej Leonow</i> absolvierte am 18. März 1965
+            Der sowjetische Kosmonaut <i>Alexei Leonow</i> absolvierte am 18. März 1965
             den ersten Weltraumausstieg. Zwölf Minuten lang schwebte er außerhalb
             von <i>Woschod 2</i> auf seiner eigenen Umlaufbahn um die Erde. Bei der Rückkehr in
             das Raumschiff ergaben sich Schwierigkeiten, da Leonows Raumanzug durch
@@ -70,7 +70,7 @@ const SpacewalksComponent = ({spacewalks}) => {
             und Verfahren zum Schweißen, Schneiden und Beschichten von Materialien
             unter Weltraumbedingungen.
           </p>
-          <h4>Interessante Fakten:</h4>
+          <h4>Wussten Sie schon?</h4>
           <ul>
             <li>Bis jetzt wurden [totalNumberOfItems] Weltraumausstiege von [totalNumberOfAstronauts] Astronauten durchgeführt.</li>
             <li>[astronautMaxNumberOfItems] absolvierte mit [maxNumberOfItems] EVA die meisten Außenbordeinsätze.</li>
@@ -111,24 +111,22 @@ export default SpacewalksComponent;
 const SpacewalkComponent = ({spacewalk}) => {
   return (
     <div className="spacewalk-row data-row pure-u-1">
-      <div className="spacewalk-name pure-u-1-4 left">
+      <div className="spacewalk-name pure-u-1 pure-u-lg-1-4 center">
         <div className="pure-u-1">
           <p><a href={spacewalk.wikipediaUrl}>{spacewalk.name}</a></p>
         </div>
       </div>
-      <div className="spacewalk-info pure-u-3-4 left">
-        <div className="spacewalk-dates pure-u-11-24">
-          <p>{spacewalk.startDate}{spacewalk.startTime ? ` - ${spacewalk.startTime}` : ''}</p>
-          <p>{spacewalk.startDate != spacewalk.endDate ? `bis ${spacewalk.endDate}` : ''}
+      <div className="spacewalk-info pure-u-1 pure-u-lg-3-4">
+        <div className="spacewalk-dates pure-u-1 pure-u-md-1-2 center">
+          <p className="spacewalk-start pure-u-1-2 center">{spacewalk.startDate}{spacewalk.startTime ? ` - ${spacewalk.startTime}` : ''}</p>
+          <p className="spacewalk-end pure-u-1-2 center">{spacewalk.startDate != spacewalk.endDate ? `bis ${spacewalk.endDate}` : ''}
           {spacewalk.startDate != spacewalk.endDate && spacewalk.endTime ? ` - ${spacewalk.endTime}` : ''}
           {spacewalk.startDate == spacewalk.endDate && spacewalk.endTime ? `bis ${spacewalk.endTime}` : ''}</p>
         </div>
-        <div className="spacewalk-astronauts pure-u-13-24 left">
-          <p>
-            {spacewalk.astronaut1} ({spacewalk.countSpacewalks1}/{spacewalk.totalSpacewalks1})
-            {spacewalk.astronaut2 ? `, ${spacewalk.astronaut2} (${spacewalk.countSpacewalks2}/${spacewalk.totalSpacewalks2})` : ''}
-            {spacewalk.astronaut3 ? `, ${spacewalk.astronaut3} (${spacewalk.countSpacewalks3}/${spacewalk.totalSpacewalks3})` : ''}
-          </p>
+        <div className="spacewalk-astronauts pure-u-1 pure-u-md-1-2 center">
+          <p className="spacewalk-astronaut1 pure-u-sm-1-3"><a href={spacewalk.astronaut1Url} title={spacewalk.astronaut1}>{spacewalk.astronaut1}</a> ({spacewalk.countSpacewalks1}/{spacewalk.totalSpacewalks1})</p>
+          {spacewalk.astronaut2 ? <p className="spacewalk-astronaut2 pure-u-sm-1-3"><a href={spacewalk.astronaut2Url} title={spacewalk.astronaut2}>{spacewalk.astronaut2}</a> ({spacewalk.countSpacewalks2}/{spacewalk.totalSpacewalks2})</p> : ''}
+          {spacewalk.astronaut3 ? <p className="spacewalk-astronaut3 pure-u-sm-1-3"><a href={spacewalk.astronaut3Url} title={spacewalk.astronaut3}>{spacewalk.astronaut3}</a> ({spacewalk.countSpacewalks3}/{spacewalk.totalSpacewalks3})</p> : ''}
         </div>
       </div>
     </div>
