@@ -37099,7 +37099,7 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
           _react2['default'].createElement(
             'i',
             null,
-            'Alexej Leonow'
+            'Alexei Leonow'
           ),
           ' absolvierte am 18. März 1965 den ersten Weltraumausstieg. Zwölf Minuten lang schwebte er außerhalb von ',
           _react2['default'].createElement(
@@ -37135,7 +37135,7 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
         _react2['default'].createElement(
           'h4',
           null,
-          'Interessante Fakten:'
+          'Wussten Sie schon?'
         ),
         _react2['default'].createElement(
           'ul',
@@ -37237,7 +37237,7 @@ var SpacewalkComponent = function SpacewalkComponent(_ref2) {
     { className: 'spacewalk-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'spacewalk-name pure-u-1-4 left' },
+      { className: 'spacewalk-name pure-u-1 pure-u-lg-1-4 center' },
       _react2['default'].createElement(
         'div',
         { className: 'pure-u-1' },
@@ -37254,19 +37254,19 @@ var SpacewalkComponent = function SpacewalkComponent(_ref2) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'spacewalk-info pure-u-3-4 left' },
+      { className: 'spacewalk-info pure-u-1 pure-u-lg-3-4' },
       _react2['default'].createElement(
         'div',
-        { className: 'spacewalk-dates pure-u-11-24' },
+        { className: 'spacewalk-dates pure-u-1 pure-u-md-1-2 center' },
         _react2['default'].createElement(
           'p',
-          null,
+          { className: 'spacewalk-start pure-u-1-2 center' },
           spacewalk.startDate,
           spacewalk.startTime ? ' - ' + spacewalk.startTime : ''
         ),
         _react2['default'].createElement(
           'p',
-          null,
+          { className: 'spacewalk-end pure-u-1-2 center' },
           spacewalk.startDate != spacewalk.endDate ? 'bis ' + spacewalk.endDate : '',
           spacewalk.startDate != spacewalk.endDate && spacewalk.endTime ? ' - ' + spacewalk.endTime : '',
           spacewalk.startDate == spacewalk.endDate && spacewalk.endTime ? 'bis ' + spacewalk.endTime : ''
@@ -37274,19 +37274,49 @@ var SpacewalkComponent = function SpacewalkComponent(_ref2) {
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'spacewalk-astronauts pure-u-13-24 left' },
+        { className: 'spacewalk-astronauts pure-u-1 pure-u-md-1-2 center' },
         _react2['default'].createElement(
           'p',
-          null,
-          spacewalk.astronaut1,
+          { className: 'spacewalk-astronaut1 pure-u-sm-1-3' },
+          _react2['default'].createElement(
+            'a',
+            { href: spacewalk.astronaut1Url, title: spacewalk.astronaut1 },
+            spacewalk.astronaut1
+          ),
           ' (',
           spacewalk.countSpacewalks1,
           '/',
           spacewalk.totalSpacewalks1,
-          ')',
-          spacewalk.astronaut2 ? ', ' + spacewalk.astronaut2 + ' (' + spacewalk.countSpacewalks2 + '/' + spacewalk.totalSpacewalks2 + ')' : '',
-          spacewalk.astronaut3 ? ', ' + spacewalk.astronaut3 + ' (' + spacewalk.countSpacewalks3 + '/' + spacewalk.totalSpacewalks3 + ')' : ''
-        )
+          ')'
+        ),
+        spacewalk.astronaut2 ? _react2['default'].createElement(
+          'p',
+          { className: 'spacewalk-astronaut2 pure-u-sm-1-3' },
+          _react2['default'].createElement(
+            'a',
+            { href: spacewalk.astronaut2Url, title: spacewalk.astronaut2 },
+            spacewalk.astronaut2
+          ),
+          ' (',
+          spacewalk.countSpacewalks2,
+          '/',
+          spacewalk.totalSpacewalks2,
+          ')'
+        ) : '',
+        spacewalk.astronaut3 ? _react2['default'].createElement(
+          'p',
+          { className: 'spacewalk-astronaut3 pure-u-sm-1-3' },
+          _react2['default'].createElement(
+            'a',
+            { href: spacewalk.astronaut3Url, title: spacewalk.astronaut3 },
+            spacewalk.astronaut3
+          ),
+          ' (',
+          spacewalk.countSpacewalks3,
+          '/',
+          spacewalk.totalSpacewalks3,
+          ')'
+        ) : ''
       )
     )
   );
@@ -39846,13 +39876,11 @@ var Spacewalk = (function () {
       spacewalk.endTime = raw.itemtime2;
       spacewalk.duration = raw.itemduration;
       spacewalk.astronaut1 = raw.itemperson ? raw.itemperson : '';
+      spacewalk.astronaut1Url = raw.itempersonurl ? raw.itempersonurl : '';
       spacewalk.astronaut2 = raw.itemperson2 ? raw.itemperson2 : '';
+      spacewalk.astronaut2Url = raw.itemperson2url ? raw.itemperson2url : '';
       spacewalk.astronaut3 = raw.itemperson3 ? raw.itemperson3 : '';
-      spacewalk.astronaut4 = raw.itemperson4 ? raw.itemperson4 : '';
-      spacewalk.astronaut5 = raw.itemperson5 ? raw.itemperson5 : '';
-      spacewalk.astronaut6 = raw.itemperson6 ? raw.itemperson6 : '';
-      spacewalk.astronaut7 = raw.itemperson7 ? raw.itemperson7 : '';
-      spacewalk.astronaut8 = raw.itemperson8 ? raw.itemperson8 : '';
+      spacewalk.astronaut3Url = raw.itemperson3url ? raw.itemperson3url : '';
       spacewalk.countSpacewalks1 = raw.itempersoncount;
       spacewalk.totalSpacewalks1 = raw.itempersontotal;
       spacewalk.countSpacewalks2 = raw.itemperson2count;

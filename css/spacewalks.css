@@ -1,28 +1,26 @@
 .spacewalk-row div {padding: .2em 0;}
 
-.spacewalk-name p {
-  margin-left: .25em; font-size: 1.25em; line-height: 1.75;
-}
-.spacewalk-dates p {
-  display: inline-block; font-size: 1.125em; line-height: 2;
-}
-.spacewalk-dates p:first-child {
-  margin-right: .5em;
-}
-.spacewalk-astronauts p {font-size: 1.125em; line-height: 2;}
+/*.spacewalk-row div {outline: 1px solid #000;}*/
+
+.spacewalk-name p {font-size: 1.25em;}
+.spacewalk-info p {font-size: 1.125em;}
+.spacewalk-dates p {display: inline;}
+.spacewalk-end {margin-left: .25em;}
+
+.spacewalk-astronauts p {display: block; font-size: 1.125em;}
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
-/*@media only all and (min-width: 35.5em) {
-  .spacewalk-name div {line-height: 2.25em;}
-  .spacewalk-dates p {margin: 0 0 0 .2em;}
-  .spacewalk-info p {margin: 0;}
+@media only all and (min-width: 35.5em) {
+  .spacewalk-astronauts p {display: inline; margin-left: .25em;}
+  .spacewalk-astronaut1 {margin: 0;}
+}
+@media only all and (min-width: 48em) {
+  .spacewalk-info div {display: inline-block;}
+  .spacewalk-astronaut2,
+  .spacewalk-astronaut3 {margin-left: .25em;}
 }
 @media only all and (min-width: 64em) {
-  .spacewalk-name div,
-  .spacewalk-dates div,
-  .spacewalk-info div {font-size: 1.125em; line-height: 1.75em;}
-  .spacewalk-dates div,
-  .spacewalk-info div {display: inline-block;}
-  .spacewalk-dates p,
-  .spacewalk-info p {margin: 0;}
-}*/
+  .spacewalk-name {line-height: 2em;}
+  .spacewalk-info {text-align: left;}
+  .spacewalk-info p {line-height: 1.75em;}
+}
