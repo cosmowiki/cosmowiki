@@ -6,7 +6,7 @@ const SpacewalksComponent = ({spacewalks}) => {
     <main role="main" className="spacewalks pure-u-1 center">
       <div id="siteTitle" className="spacewalks pure-u-1">
         <h1>Weltraumausstiege</h1>
-        <h3>frei im All</h3>
+        <h3>- völlig losgelöst -</h3>
       </div>
       <div id="summary" className="spacewalks pure-u-1 left">
         <div id="summaryContainer" className="spacewalks">
@@ -55,13 +55,17 @@ const SpacewalksComponent = ({spacewalks}) => {
           </div>
           <p>
             Der sowjetische Kosmonaut <i>Alexei Leonow</i> absolvierte am 18. März 1965
-            den ersten Weltraumausstieg. Zwölf Minuten lang schwebte er außerhalb
-            von <i>Woschod 2</i> auf seiner eigenen Umlaufbahn um die Erde. Bei der Rückkehr in
-            das Raumschiff ergaben sich Schwierigkeiten, da Leonows Raumanzug durch
-            den fehlenden Gegendruck im All aufgebläht und zu steif geworden war.
-            Erst als Leonow Druck aus seinem Anzug abgelassen hatte, gelang ihm der
-            Einstieg in die Schleuse. In seinem Buch "Zwei Mann im Mond" verarbeitete
-            Alexej Leonow seinen Weltraum"spaziergang".
+            den ersten Weltraumausstieg. Etwa zwölf Minuten lang schwebte er außerhalb
+            von <i>Woschod 2</i> auf seiner eigenen Umlaufbahn um die Erde. Eine
+            Kamera an der Außenseite des Raumschiffs übertrug das historische Ereignis.
+          </p>
+          <p>
+            Bei der Rückkehr in das Raumschiff ergaben sich große Schwierigkeiten,
+            da sich der Berkut-Raumanzug durch den fehlenden Gegendruck im All aufgebläht
+            hatte und zu steif geworden war. Erst als Leonow Druck aus seinem Anzug abgelassen
+            hatte, gelang ihm der Einstieg in die Schleuse. Durch den Stress dabei
+            stieg seine Körpertemperatur um 3,2 °C an. In dem Buch "Zwei Mann im Mond" verarbeitete
+            er seinen Weltraum"spaziergang" und die gesamte Mission.
           </p>
           <p>
             Die erste Frau, die einen Außenbordeinsatz durchführte, war <i>Swetlana Sawizkaja</i> am
@@ -79,7 +83,7 @@ const SpacewalksComponent = ({spacewalks}) => {
         </div>
       </div>
       <div id="controlArea" className="spacewalks pure-u-1">
-        <div id="controllers" className="pure-u-1">
+        <div id="controllers" className="pure-u-1 left">
           <div id="sort" className="spacewalks pure-u-1-2 left">
             <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
             <div id="sortArea">
@@ -88,8 +92,10 @@ const SpacewalksComponent = ({spacewalks}) => {
                 <select name="sortSpacewalks" defaultValue="sortSpacewalksStartUp">
                   <option value="sortSpacewalksStartUp">Startdatum &uarr;</option>
                   <option value="sortSpacewalksStartDown">Startdatum &darr;</option>
-                  <option value="sortSpacewalksDurationUp">Spacewalksdauer &uarr;</option>
-                  <option value="sortSpacewalksDurationDown">Spacewalksdauer &darr;</option>
+                  <option value="sortSpacewalksDurationUp">Dauer &uarr;</option>
+                  <option value="sortSpacewalksDurationDown">Dauer &darr;</option>
+                  <option value="sortSpacewalksAstronautsUp">Astronauten &uarr;</option>
+                  <option value="sortSpacewalksAstronautsDown">Astronauten &darr;</option>
                 </select>
               </form>
             </div>
@@ -111,12 +117,12 @@ export default SpacewalksComponent;
 const SpacewalkComponent = ({spacewalk}) => {
   return (
     <div className="spacewalk-row data-row pure-u-1">
-      <div className="spacewalk-name pure-u-1 pure-u-lg-5-24 center">
+      <div className="spacewalk-name pure-u-1 pure-u-lg-1-4 center">
         <div className="pure-u-1">
           <p><a href={spacewalk.wikipediaUrl}>{spacewalk.name}</a></p>
         </div>
       </div>
-      <div className="spacewalk-info pure-u-1 pure-u-lg-19-24">
+      <div className="spacewalk-info pure-u-1 pure-u-lg-3-4">
         <div className="spacewalk-dates pure-u-1 pure-u-md-1-2 pure-u-lg-5-12 center">
           <p className="spacewalk-start pure-u-1-2 center">{spacewalk.startDate}{spacewalk.startTime ? ` - ${spacewalk.startTime}` : ''}</p>
           <p className="spacewalk-end pure-u-1-2 center">{spacewalk.startDate != spacewalk.endDate ? `bis ${spacewalk.endDate}` : ''}
