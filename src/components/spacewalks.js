@@ -111,19 +111,19 @@ export default SpacewalksComponent;
 const SpacewalkComponent = ({spacewalk}) => {
   return (
     <div className="spacewalk-row data-row pure-u-1">
-      <div className="spacewalk-name pure-u-1 pure-u-lg-1-4 center">
+      <div className="spacewalk-name pure-u-1 pure-u-lg-5-24 center">
         <div className="pure-u-1">
           <p><a href={spacewalk.wikipediaUrl}>{spacewalk.name}</a></p>
         </div>
       </div>
-      <div className="spacewalk-info pure-u-1 pure-u-lg-3-4">
-        <div className="spacewalk-dates pure-u-1 pure-u-md-1-2 center">
+      <div className="spacewalk-info pure-u-1 pure-u-lg-19-24">
+        <div className="spacewalk-dates pure-u-1 pure-u-md-1-2 pure-u-lg-5-12 center">
           <p className="spacewalk-start pure-u-1-2 center">{spacewalk.startDate}{spacewalk.startTime ? ` - ${spacewalk.startTime}` : ''}</p>
           <p className="spacewalk-end pure-u-1-2 center">{spacewalk.startDate != spacewalk.endDate ? `bis ${spacewalk.endDate}` : ''}
           {spacewalk.startDate != spacewalk.endDate && spacewalk.endTime ? ` - ${spacewalk.endTime}` : ''}
           {spacewalk.startDate == spacewalk.endDate && spacewalk.endTime ? `bis ${spacewalk.endTime}` : ''}</p>
         </div>
-        <div className="spacewalk-astronauts pure-u-1 pure-u-md-1-2 center">
+        <div className="spacewalk-astronauts pure-u-1 pure-u-md-1-2 pure-u-lg-7-12 center">
           <p className="spacewalk-astronaut1 pure-u-sm-1-3"><a href={spacewalk.astronaut1Url} title={spacewalk.astronaut1}>{spacewalk.astronaut1}</a> ({spacewalk.countSpacewalks1}/{spacewalk.totalSpacewalks1})</p>
           {spacewalk.astronaut2 ? <p className="spacewalk-astronaut2 pure-u-sm-1-3"><a href={spacewalk.astronaut2Url} title={spacewalk.astronaut2}>{spacewalk.astronaut2}</a> ({spacewalk.countSpacewalks2}/{spacewalk.totalSpacewalks2})</p> : ''}
           {spacewalk.astronaut3 ? <p className="spacewalk-astronaut3 pure-u-sm-1-3"><a href={spacewalk.astronaut3Url} title={spacewalk.astronaut3}>{spacewalk.astronaut3}</a> ({spacewalk.countSpacewalks3}/{spacewalk.totalSpacewalks3})</p> : ''}
