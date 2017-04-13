@@ -36982,7 +36982,7 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
       _react2['default'].createElement(
         'h3',
         null,
-        'frei im All'
+        '- völlig losgelöst -'
       )
     ),
     _react2['default'].createElement(
@@ -37101,13 +37101,18 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
             null,
             'Alexei Leonow'
           ),
-          ' absolvierte am 18. März 1965 den ersten Weltraumausstieg. Zwölf Minuten lang schwebte er außerhalb von ',
+          ' absolvierte am 18. März 1965 den ersten Weltraumausstieg. Etwa zwölf Minuten lang schwebte er außerhalb von ',
           _react2['default'].createElement(
             'i',
             null,
             'Woschod 2'
           ),
-          ' auf seiner eigenen Umlaufbahn um die Erde. Bei der Rückkehr in das Raumschiff ergaben sich Schwierigkeiten, da Leonows Raumanzug durch den fehlenden Gegendruck im All aufgebläht und zu steif geworden war. Erst als Leonow Druck aus seinem Anzug abgelassen hatte, gelang ihm der Einstieg in die Schleuse. In seinem Buch "Zwei Mann im Mond" verarbeitete Alexej Leonow seinen Weltraum"spaziergang".'
+          ' auf seiner eigenen Umlaufbahn um die Erde. Eine Kamera an der Außenseite des Raumschiffs übertrug das historische Ereignis.'
+        ),
+        _react2['default'].createElement(
+          'p',
+          null,
+          'Bei der Rückkehr in das Raumschiff ergaben sich große Schwierigkeiten, da sich der Berkut-Raumanzug durch den fehlenden Gegendruck im All aufgebläht hatte und zu steif geworden war. Erst als Leonow Druck aus seinem Anzug abgelassen hatte, gelang ihm der Einstieg in die Schleuse. Durch den Stress dabei stieg seine Körpertemperatur um 3,2 °C an. In dem Buch "Zwei Mann im Mond" verarbeitete er seinen Weltraum"spaziergang" und die gesamte Mission.'
         ),
         _react2['default'].createElement(
           'p',
@@ -37163,7 +37168,7 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
       { id: 'controlArea', className: 'spacewalks pure-u-1' },
       _react2['default'].createElement(
         'div',
-        { id: 'controllers', className: 'pure-u-1' },
+        { id: 'controllers', className: 'pure-u-1 left' },
         _react2['default'].createElement(
           'div',
           { id: 'sort', className: 'spacewalks pure-u-1-2 left' },
@@ -37199,12 +37204,22 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortSpacewalksDurationUp' },
-                  'Spacewalksdauer ↑'
+                  'Dauer ↑'
                 ),
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortSpacewalksDurationDown' },
-                  'Spacewalksdauer ↓'
+                  'Dauer ↓'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortSpacewalksAstronautsUp' },
+                  'Astronauten ↑'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortSpacewalksAstronautsDown' },
+                  'Astronauten ↓'
                 )
               )
             )
@@ -37237,7 +37252,7 @@ var SpacewalkComponent = function SpacewalkComponent(_ref2) {
     { className: 'spacewalk-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'spacewalk-name pure-u-1 pure-u-lg-5-24 center' },
+      { className: 'spacewalk-name pure-u-1 pure-u-lg-1-4 center' },
       _react2['default'].createElement(
         'div',
         { className: 'pure-u-1' },
@@ -37254,7 +37269,7 @@ var SpacewalkComponent = function SpacewalkComponent(_ref2) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'spacewalk-info pure-u-1 pure-u-lg-19-24' },
+      { className: 'spacewalk-info pure-u-1 pure-u-lg-3-4' },
       _react2['default'].createElement(
         'div',
         { className: 'spacewalk-dates pure-u-1 pure-u-md-1-2 pure-u-lg-5-12 center' },

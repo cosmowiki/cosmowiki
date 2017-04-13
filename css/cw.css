@@ -40,6 +40,7 @@ a:focus img, a:hover img, a:active img {}
 .small {font-size: .7em;}
 .visible {display: block;}
 .hidden {display: none;}
+.outline {outline: 1px solid #aaa;}
 
 /*	Structure --------------------------------------------------------------- */
 
@@ -114,15 +115,16 @@ nav ul ul li:last-child a {border-bottom: none; border-radius: 0 0 5px 5px;}
 
 /*		Main ------------------------------------------------------------------ */
 
-main {border-bottom: 1em solid #eee;}
+main {background: rgba(255,255,255,.8); border-bottom: 1em solid #eee;}
 
 /*			siteTitle ----------------------------------------------------------- */
 
 #siteTitle {
 	min-height: 4.5em;
-	background: rgba(255,255,255,.9);
+	background: rgba(255,255,255,.5);
 	border-bottom: 1px solid #ddd;
 }
+
 /*#siteTitle.events {background: url("/img/title_chronicle.jpg") center / cover no-repeat;}
 #siteTitle.persons {background: url("/img/title_people.jpg") center / cover no-repeat;}
 #siteTitle.astronomers {background: url("/img/title_astronomers.jpg") center / cover no-repeat;}
@@ -144,27 +146,35 @@ main {border-bottom: 1em solid #eee;}
 
 /*			summary ------------------------------------------------------------- */
 
-#summary {background: rgba(255, 255, 255, .95); border-bottom: 1px solid #ddd;}
-#summaryContainer {margin: 0 .5em;}
-#summary p,
+#summary {
+	min-height: 1em;
+	background: rgba(255, 255, 255,.8);
+	border-bottom: 1px solid #fff;
+}
+#summaryContainer {padding: 1em;}
+#summaryContainer {display: none;}
+
+#summary p {margin-bottom: 1em;}
+#summary p:nth-of-type(odd) {text-indent: 1em;}
+
+.summary-img {border: 1px solid #55f;}
+.summary-img:hover {border: 1px solid #333;}
+.summary-img img {height: 5em;}
+.summary-img:nth-of-type(odd) {
+	float: left; margin-right: .5em; padding: 2px;
+}
+.summary-img:nth-of-type(even) {
+	float: right; margin-left: .5em; padding: 2px;
+}
+
 #summary h1,
 #summary h2,
 #summary h3,
 #summary h4,
 #summary h5,
-#summary ul,
-.summary-img {padding: .5em 0;}
-#summary p:nth-of-type(odd) {text-indent: 1em;}
+#summary ul {margin: 1em 0;}
 #summary ul {list-style: disc inside;}
-.summary-img {border: 1px solid #55f;}
-.summary-img:hover {border: 1px solid #333;}
-#summary img {height: 5.9em;}
-.summary-img:nth-of-type(odd) {
-	float: left; margin: .5em .5em 0 0; padding: 2px;
-}
-.summary-img:nth-of-type(even) {
-	float: right; margin: .5em 0 .5em .5em; padding: 2px;
-}
+#summary ul li {margin: .5em 0;}
 
 /*			todo ---------------------------------------------------------------- */
 
@@ -231,7 +241,7 @@ main {border-bottom: 1em solid #eee;}
 
 /*		dataArea -------------------------------------------------------------- */
 
-#dataArea {font-size: .8em;	background: rgba(255,255,255,.8);}
+#dataArea {font-size: .8em;	background: rgba(255,255,255,.5);}
 
 .letter-section-header {
 	background: rgba(255,255,255,.5);
