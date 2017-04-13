@@ -16,11 +16,13 @@
 }
 @media only all and (min-width: 48em) {
   .spacewalk-info div {display: inline-block;}
-  .spacewalk-astronaut2,
+  .spacewalk-dates {text-align: right;}
+  .spacewalk-astronauts {text-align: left;}
   .spacewalk-astronaut3 {margin-left: .25em;}
 }
 @media only all and (min-width: 64em) {
   .spacewalk-name {line-height: 2em;}
+  .spacewalk-dates,
   .spacewalk-info {text-align: left;}
   .spacewalk-info p {line-height: 1.75em;}
 }

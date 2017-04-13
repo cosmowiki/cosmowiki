@@ -37237,7 +37237,7 @@ var SpacewalkComponent = function SpacewalkComponent(_ref2) {
     { className: 'spacewalk-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'spacewalk-name pure-u-1 pure-u-lg-1-4 center' },
+      { className: 'spacewalk-name pure-u-1 pure-u-lg-5-24 center' },
       _react2['default'].createElement(
         'div',
         { className: 'pure-u-1' },
@@ -37254,10 +37254,10 @@ var SpacewalkComponent = function SpacewalkComponent(_ref2) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'spacewalk-info pure-u-1 pure-u-lg-3-4' },
+      { className: 'spacewalk-info pure-u-1 pure-u-lg-19-24' },
       _react2['default'].createElement(
         'div',
-        { className: 'spacewalk-dates pure-u-1 pure-u-md-1-2 center' },
+        { className: 'spacewalk-dates pure-u-1 pure-u-md-1-2 pure-u-lg-5-12 center' },
         _react2['default'].createElement(
           'p',
           { className: 'spacewalk-start pure-u-1-2 center' },
@@ -37274,7 +37274,7 @@ var SpacewalkComponent = function SpacewalkComponent(_ref2) {
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'spacewalk-astronauts pure-u-1 pure-u-md-1-2 center' },
+        { className: 'spacewalk-astronauts pure-u-1 pure-u-md-1-2 pure-u-lg-7-12 center' },
         _react2['default'].createElement(
           'p',
           { className: 'spacewalk-astronaut1 pure-u-sm-1-3' },
