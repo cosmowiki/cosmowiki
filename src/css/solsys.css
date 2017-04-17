@@ -36,8 +36,8 @@
 	.type-5 {margin-left: 50%;}
 }
 
-.collapsed:before {content: "\25B8  ";}
-.expanded:before {content: "\25BE  ";}
+.item-name.collapsed:before {content: "\25B8  ";}
+.item-name.expanded:before {content: "\25BE  ";}
 
 #sun a.item-name {
 	background-image: linear-gradient( to right, rgba(255,128,128,.7) 50%, rgba(255,128,128,0));
