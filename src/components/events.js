@@ -66,10 +66,9 @@ export default class ChronicleComponent extends React.Component {
               und deren Konstellationen bildeten die Grundlagen für die ersten Kalender.
             </p>
             <div className="summary-img float-right">
-              <a href="/img/events/2_lg.jpg" title="Bildbeschreibung - Großansicht">
-                <img src="/img/events/2_sm.jpg" alt="Bildbeschreibung" />
+              <a href="/img/events/herschel_telescope_lg.jpg" title="Wilhelm Herschels 40-Fuß-Teleskop - Großansicht">
+                <img src="/img/events/herschel_telescope_sm.jpg" alt="Wilhelm Herschels 40-Fuß-Teleskop" />
               </a>
-              <p className="summary-img-src small"></p>
             </div>
             <p className="summary-text">
               Seefahrer und Händler teilten die Beobachtungen, die sie auf ihren
@@ -90,10 +89,9 @@ export default class ChronicleComponent extends React.Component {
               der Mathematik beschrieben.
             </p>
             <div className="summary-img float-left">
-              <a href="/img/events/3_lg.jpg" title="Bildbeschreibung - Großansicht">
-                <img src="/img/events/3_sm.jpg" alt="Bildbeschreibung" />
+              <a href="/img/events/Columbia_sts-1_lg.jpg" title="Space Shuttle Columbia STS-1 - Großansicht">
+                <img src="/img/events/Columbia_sts-1_sm.jpg" alt="Space Shuttle Columbia STS-1" />
               </a>
-              <p className="summary-img-src small"></p>
             </div>
             <p className="summary-text">
               Doch der Mensch wollte den Himmel nicht nur betrachten, er wollte ihn
