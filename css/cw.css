@@ -37,6 +37,9 @@ a:focus img, a:hover img, a:active img {}
 .center {text-align: center;}
 .right {text-align: right;}
 .justify {text-align: justify;}
+.float-left {float: left;}
+.float-right {float: right;}
+.no-float {float: none;}
 .small {font-size: .7em;}
 .visible {display: block;}
 .hidden {display: none;}
@@ -146,35 +149,41 @@ main {background: rgba(255,255,255,.8); border-bottom: 1em solid #eee;}
 
 /*			summary ------------------------------------------------------------- */
 
-#summary {
-	min-height: 1em;
-	background: rgba(255, 255, 255,.8);
-	border-bottom: 1px solid #fff;
-}
-#summaryContainer {padding: 1em;}
-#summaryContainer {display: none;}
+#summary {background: rgba(255, 255, 255,.8); border-bottom: 1px solid #fff;}
 
-#summary p {margin-bottom: 1em;}
-#summary p:nth-of-type(odd) {text-indent: 1em;}
+#summaryToggleSwitch {display: block; font-size: 2em;}
+#summaryToggleSwitch.expanded {margin-right: .125em; text-align: right;}
+#summaryToggleSwitch.expanded:after {content: '\00D7';}
+#summaryToggleSwitch.collapsed {text-align: center;}
+#summaryToggleSwitch.collapsed:after {content: '\25BE';}
 
-.summary-img {border: 1px solid #55f;}
-.summary-img:hover {border: 1px solid #333;}
-.summary-img img {height: 5em;}
-.summary-img:nth-of-type(odd) {
-	float: left; margin-right: .5em; padding: 2px;
-}
-.summary-img:nth-of-type(even) {
-	float: right; margin-left: .5em; padding: 2px;
-}
+#summaryContainer {padding: 0 .25em 0;}
+.summary-text,
+div.summary-img.full-width,
+#summaryContainer h1,
+#summaryContainer h2,
+#summaryContainer h3,
+#summaryContainer h4,
+#summaryContainer h5,
+#summaryContainer ul {margin-bottom: 1em;}
 
-#summary h1,
-#summary h2,
-#summary h3,
-#summary h4,
-#summary h5,
-#summary ul {margin: 1em 0;}
-#summary ul {list-style: disc inside;}
-#summary ul li {margin: .5em 0;}
+.summary-img {padding: 2px;	border: 1px solid #55f;}
+.summary-img:focus,
+.summary-img:hover,
+.summary-img:active {border: 1px solid #333;}
+.summary-img.float-left {margin-right: .5em;}
+.summary-img.float-right {margin-left: .5em;}
+.summary-img img {display: block;}
+.summary-img:nth-of-type(odd) img {height: 6em;}
+.summary-img:nth-of-type(even) img {height: 7em;}
+.summary-img.full-width {float: none; margin: auto;}
+.summary-img.full-width img {width: 100%; height: inherit;}
+
+.summary-text:nth-of-type(odd) {text-indent: 1em;}
+.summary-text:first-of-type::first-letter {font-size: 1.25em; font-weight: 900;}
+
+.summary-list {list-style: disc inside;}
+.summary-list li {margin: .5em 0;}
 
 /*			todo ---------------------------------------------------------------- */
 
@@ -303,6 +312,8 @@ footer {background: #f8f8f8; border-top: 1em solid #99f;}
 /* properties for breakpoints ----------------------------------------------- */
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only screen and (min-width: 35.5em) {
+	#summaryContainer {padding: 0 .5em;}
+	#summaryToggleSwitch.expanded {margin-right: .25em;}
 	.footer-part ul {margin: .5em .25em; border-width: 1px; border-radius: 5px;}
 	.footer-part li h4 {border-radius: 0;}
 	.footer-part ul li:last-child {border-radius: 0 0 5px 5px;}
@@ -320,7 +331,8 @@ footer {background: #f8f8f8; border-top: 1em solid #99f;}
 	img#CosmoWikiIcon {display: none;}
 
 	#menuToggleButton {display: none;}
-
+	#summaryContainer {padding: 0 1em;}
+	#summaryToggleSwitch.expanded {margin-right: .5em;}
 	#sortArea, #filterArea, #sort form, #filter form {display: inline;}
 	#sort a, #filter a {display: none;}
 	.footer-part ul {min-height: 16em;}
@@ -337,7 +349,7 @@ footer {background: #f8f8f8; border-top: 1em solid #99f;}
 
 	.summary-img {border-radius: 5px;}
 	.summary-img:hover {border-radius: 5px;}
-	#summary img {border-radius: 3px;}
+	.summary-img img {border-radius: 3px;}
 
   #controlArea {min-height: 1.5em;}
 

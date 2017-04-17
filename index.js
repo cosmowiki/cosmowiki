@@ -33503,6 +33503,41 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
         'p',
         null,
         '@all open the large constellation image in a pop-up?'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@Wolfram pls make the #summaryToggleSwitch work.'
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'summary', className: 'constellations pure-u-1 left' },
+      _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
+      _react2['default'].createElement(
+        'div',
+        { id: 'summaryContainer', className: 'constellations visible' },
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img float-right' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/constellations/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/constellations/1_sm.jpg', alt: 'Bildbeschreibung' })
+          ),
+          _react2['default'].createElement('p', { className: 'summary-img-src small' })
+        ),
+        _react2['default'].createElement('p', { className: 'summary-text' }),
+        _react2['default'].createElement(
+          'h4',
+          null,
+          'Wussten Sie schon?'
+        ),
+        _react2['default'].createElement(
+          'ul',
+          { className: 'summary-list' },
+          _react2['default'].createElement('li', null)
+        )
       )
     ),
     _react2['default'].createElement(
@@ -33804,6 +33839,216 @@ var ChronicleComponent = (function (_React$Component) {
             'p',
             null,
             '@wolfram pls hide the img src="//de.wikipedia.org/wiki/Special:CentralAuto..." on bottom of embedded article in vcard'
+          ),
+          _react2['default'].createElement(
+            'p',
+            null,
+            '@Wolfram pls make the #summaryToggleSwitch work.'
+          )
+        ),
+        _react2['default'].createElement(
+          'div',
+          { id: 'summary', className: 'events pure-u-1 left' },
+          _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
+          _react2['default'].createElement(
+            'div',
+            { id: 'summaryContainer', className: 'events visible' },
+            _react2['default'].createElement(
+              'p',
+              { className: 'summary-text' },
+              'Seit Jahrtausenden blicken wir in den Himmel und versuchen zu ergründen, was uns umgibt und woher wir kommen. Auch die frühen Menschen stellten sich wohl schon die größte aller Fragen:',
+              _react2['default'].createElement('br', null),
+              _react2['default'].createElement(
+                'i',
+                null,
+                'Was ist dort draußen?'
+              )
+            ),
+            _react2['default'].createElement(
+              'div',
+              { className: 'summary-img float-left' },
+              _react2['default'].createElement(
+                'a',
+                { href: '/img/events/nebra_lg.jpg', title: 'Himmelsscheibe von Nebra - Großansicht' },
+                _react2['default'].createElement('img', { src: '/img/events/nebra_sm.jpg', alt: 'Himmelsscheibe von Nebra' })
+              ),
+              _react2['default'].createElement(
+                'p',
+                { className: 'summary-img-src small' },
+                'Dbachmann',
+                _react2['default'].createElement('br', null),
+                _react2['default'].createElement(
+                  'a',
+                  { href: 'http://creativecommons.org/licenses/by-sa/3.0/', title: 'CC BY-SA 3.0' },
+                  'CC BY-SA 3.0'
+                )
+              )
+            ),
+            _react2['default'].createElement(
+              'p',
+              { className: 'summary-text' },
+              'Täglich ziehen Sonne und Mond am Firmament entlang und bestimmen den Rhythmus des Lebens auf der Erde. Schon in den ersten menschlichen Gesellschaften erkannten Priester und Schamanen kosmische Zyklen und nutzten ihr Wissen. Aussaat und Ernte richteten sich danach, kultische Riten entstanden.'
+            ),
+            _react2['default'].createElement(
+              'p',
+              { className: 'summary-text' },
+              'Rund um den Globus besaßen die Erbauer der ersten Observatorien schon verblüffend genaue astronomische Kenntnisse. Die Sonnenwenden und Mondphasen, das Erscheinen von besonders hellen Planeten, Sternen und deren Konstellationen bildeten die Grundlagen für die ersten Kalender.'
+            ),
+            _react2['default'].createElement(
+              'div',
+              { className: 'summary-img float-right' },
+              _react2['default'].createElement(
+                'a',
+                { href: '/img/events/2_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+                _react2['default'].createElement('img', { src: '/img/events/2_sm.jpg', alt: 'Bildbeschreibung' })
+              ),
+              _react2['default'].createElement('p', { className: 'summary-img-src small' })
+            ),
+            _react2['default'].createElement(
+              'p',
+              { className: 'summary-text' },
+              'Seefahrer und Händler teilten die Beobachtungen, die sie auf ihren Reisen gewonnen hatten. Mathematiker und Philosophen berechneten bereits in der Antike geografische und astronomische Größen und stellten erste Theorien über die Beschaffenheit des Größten wie des Kleinsten im Universum auf.'
+            ),
+            _react2['default'].createElement(
+              'p',
+              { className: 'summary-text' },
+              'Zeit und Raum waren bestimmbar geworden. Die große Frage der Himmelskunde nach dem Zentrum der Welt bewegte die Astronomen des Mittelalters. Im Spannungsfeld zwischen Wissenschaft und kulturell-religiösen Traditionen setzten sich bahnbrechende Erkenntnisse jedoch nur langsam durch.'
+            ),
+            _react2['default'].createElement(
+              'p',
+              { className: 'summary-text' },
+              'Vor 500 Jahren sprengte dann das ',
+              _react2['default'].createElement(
+                'i',
+                null,
+                'Fernrohr'
+              ),
+              ' die Grenzen des menschlichen Auges. Nach und nach offenbarten sich die Gesetze der Natur, unser Weltbild wurde präziser. ',
+              _react2['default'].createElement(
+                'i',
+                null,
+                'Planetenbahnen'
+              ),
+              ' und die ',
+              _react2['default'].createElement(
+                'i',
+                null,
+                'Gravitation'
+              ),
+              ' wurden in der Sprache der Mathematik beschrieben.'
+            ),
+            _react2['default'].createElement(
+              'div',
+              { className: 'summary-img float-left' },
+              _react2['default'].createElement(
+                'a',
+                { href: '/img/events/3_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+                _react2['default'].createElement('img', { src: '/img/events/3_sm.jpg', alt: 'Bildbeschreibung' })
+              ),
+              _react2['default'].createElement('p', { className: 'summary-img-src small' })
+            ),
+            _react2['default'].createElement(
+              'p',
+              { className: 'summary-text' },
+              'Doch der Mensch wollte den Himmel nicht nur betrachten, er wollte ihn bereisen. Erkenntnisse in der Physik und Chemie ermöglichten das Reisen per ',
+              _react2['default'].createElement(
+                'i',
+                null,
+                'Ballon'
+              ),
+              ', später im ',
+              _react2['default'].createElement(
+                'i',
+                null,
+                'Flugzeug'
+              ),
+              '. Wir wollten mehr - ',
+              _react2['default'].createElement(
+                'i',
+                null,
+                'schneller, höher, weiter!'
+              )
+            ),
+            _react2['default'].createElement(
+              'p',
+              { className: 'summary-text' },
+              'Die ',
+              _react2['default'].createElement(
+                'i',
+                null,
+                'Raumfahrt'
+              ),
+              ' beförderte dann den Menschen erstmals in den Kosmos. Sie bereicherte unseren Erfahrungsschatz um viele schöne und interessante Momente, aber auch um einige Tragödien. So ließen Generationen von Wissenschaftlern und Pionieren den kollektiven Wissensspeicher der Menschheit immer weiter anwachsen.'
+            ),
+            _react2['default'].createElement(
+              'p',
+              { className: 'summary-text' },
+              _react2['default'].createElement(
+                'i',
+                null,
+                'Urknall, Relativität und Quantenmechanik'
+              ),
+              ', die Kräfte im ',
+              _react2['default'].createElement(
+                'i',
+                null,
+                'Atom'
+              ),
+              ', ',
+              _react2['default'].createElement(
+                'i',
+                null,
+                'Schwarze Löcher'
+              ),
+              ' und ',
+              _react2['default'].createElement(
+                'i',
+                null,
+                'Dunkle Materie'
+              ),
+              ' - immer weiter dringt die Menschheit in die Tiefen des Alls vor. Mit Augen, Ohren und Raumsonden greifen wir nach den Sternen, und jedes gelöste Rätsel wirft neue Fragen auf. ',
+              _react2['default'].createElement(
+                'b',
+                null,
+                'Herzlich willkommen in der Gegenwart!'
+              )
+            ),
+            _react2['default'].createElement(
+              'h4',
+              null,
+              'Wussten Sie schon?'
+            ),
+            _react2['default'].createElement(
+              'ul',
+              { className: 'summary-list' },
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Die ca. 4000 Jahre alte ',
+                _react2['default'].createElement(
+                  'i',
+                  null,
+                  'Himmelsscheibe von Nebra'
+                ),
+                ' ist eines der ältesten Zeugnisse astronomischer Darstellungen der Menschheit.'
+              ),
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Chinesische Astonomen beschrieben bereits 613 v. Chr. den 2300 Jahre später nach Edmund Halley benannten Kometen.'
+              ),
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Schon 1917 entwickelte der deutsche Raumfahrtpionier ',
+                _react2['default'].createElement(
+                  'i',
+                  null,
+                  'Hermann Oberth'
+                ),
+                ' eine mit Ethanol und Sauerstoff betriebene Rakete.'
+              )
+            )
           )
         ),
         _react2['default'].createElement(
@@ -34435,6 +34680,124 @@ var MissionsComponent = function MissionsComponent(_ref) {
         'p',
         null,
         '@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@Wolfram pls make the #summaryToggleSwitch work.'
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'summary', className: 'missions pure-u-1 left' },
+      _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
+      _react2['default'].createElement(
+        'div',
+        { id: 'summaryContainer', className: 'missions visible' },
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img float-right' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/missions/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/missions/1_sm.jpg', alt: 'Bildbeschreibung' })
+          ),
+          _react2['default'].createElement('p', { className: 'summary-img-src small' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Die Geschichte der Raumfahrt begann schon lange vor Sputnik 1. Die größten Pioniere der Raketentechnik waren sicher ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Max Valier'
+          ),
+          ', ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Konstantin Ziolkowski'
+          ),
+          ', ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Robert Goddard'
+          ),
+          ' und ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Hermann Oberth'
+          ),
+          '. Doch schon im Jahr 1232 sollen in China die ersten Raketen zu militärischen Zwecken eingesetzt worden sein.'
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Das Militär war oft genug die treibende Kraft hinter technischen Entwicklungen, so auch in der Raumfahrt. Die ersten Raketenflugzeuge, wie die Bachem ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'BA 349'
+          ),
+          ', Messerschmitt ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Me 163'
+          ),
+          ' oder die Heinkel ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'He 176'
+          ),
+          ', wie auch die erste funktionsfähigen Großrakete ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Aggregat 4'
+          ),
+          ' (V2) waren rein zu kriegerischen Zwecken entwickelt worden.'
+        ),
+        _react2['default'].createElement(
+          'h4',
+          null,
+          'Wussten Sie schon?'
+        ),
+        _react2['default'].createElement(
+          'ul',
+          { className: 'summary-list' },
+          _react2['default'].createElement(
+            'li',
+            null,
+            'Die ',
+            _react2['default'].createElement(
+              'i',
+              null,
+              'Fédération Aéronautique Internationale'
+            ),
+            ' (FAI) definiert die Grenze zum Weltraum bei 100 km Höhe über dem Meeresspiegel.'
+          ),
+          _react2['default'].createElement(
+            'li',
+            null,
+            'Das Space-Shuttle Challenger transportierte am 30. Oktober 1985 mit der Mission STS-61-A acht Astronauten ins All.'
+          ),
+          _react2['default'].createElement(
+            'li',
+            null,
+            'Am 28. April 2001 startete ',
+            _react2['default'].createElement(
+              'i',
+              null,
+              'Dennis Tito'
+            ),
+            ' als erster Weltraumtourist an Bord von Sojus TM-32 zur Internationalen Raumstation.'
+          )
+        )
       )
     ),
     _react2['default'].createElement(
@@ -35410,6 +35773,131 @@ var PeopleComponent = function PeopleComponent(_ref) {
         'p',
         null,
         '@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@Wolfram pls make the #summaryToggleSwitch work.'
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'summary', className: 'persons pure-u-1 left' },
+      _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
+      _react2['default'].createElement(
+        'div',
+        { id: 'summaryContainer', className: 'persons visible' },
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Naturwissenschaftler und Raumfahrer – seit Jahrtausenden entdecken und erobern sie neue Welten und Räume, sie erkennen Zusammenhänge und Naturgesetze. Als Pioniere erweitern sie ständig den Horizont der Erkenntnis.'
+        ),
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img float-right' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/persons/2_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/persons/2_sm.jpg', alt: 'Bildbeschreibung' })
+          ),
+          _react2['default'].createElement('p', { className: 'summary-img-src small' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Aus Schamanen und Priestern wurden Astrologen und Philosophen, später dann Quantenphysiker und Bordingenieure. Ihr steter Drang nach der Erforschung des Unbekannten sind bis heute der Motor der Wissenschaft.'
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Sie stellen die entscheidenden Fragen und suchen nach deren Antworten. Sie sind aufmerksame Beobachter ihrer Umwelt und werten Daten aus. Neugier, Beharrlichkeit und Ausdauer sind Grundvoraussetzungen, um als Forscher nicht nur erfolgreich zu sein, sondern auch Misserfolge und Rückschläge zu verkraften.'
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Neben den vielen bekannten Namen gibt es unzählige Menschen, die im kleinen und großen Maßstab Bedeutendes geleistet haben. Wie Zahnräder in einem Getriebe greifen ihre Arbeiten ineinander und treiben die Wissenschaft voran in Richtung Zukunft.'
+        ),
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img full-width center' },
+          _react2['default'].createElement('img', { src: '/img/title_people.jpg', alt: 'Collage berühmter Personen' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Mit ihren Leistungen schreiben sie sich in die Geschichtsbücher ein. Auszeichnungen werden ihnen verliehen und sie stiften neue Preise. Den Größten zu Ehren errichten wir Monumente und benennen Universitäten und Mondkrater nach diesen Giganten der Wissenschaft.'
+        ),
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img float-left' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/persons/3_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/persons/3_sm.jpg', alt: 'Bildbeschreibung' })
+          ),
+          _react2['default'].createElement('p', { className: 'summary-img-src small' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Doch aus dem Fall eines Apfels ein Naturgesetz abzuleiten oder mit akribischer Denkarbeit die Beziehungen zwischen Raum und Zeit zu formulieren, bringt die Menschheit ebenso voran wie die Entwicklung neuer Materialien oder die Reparatur eines Solarpanels an einer Raumstation.'
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Institute und Raumfahrtorganisationen auf der ganzen Welt ringen um Nachwuchs. Die nächsten Ingenieure und Wissenschaftler der MINT-Disziplinen werden die Antriebe der Zukunft entwickeln und die Geheimnisse der Dunklen Materie entschlüsseln, kommende Raumfahrer werden auf dem Mars landen. ',
+          _react2['default'].createElement(
+            'b',
+            null,
+            'Jeder Einzelne zählt!'
+          )
+        ),
+        _react2['default'].createElement(
+          'h4',
+          null,
+          'Wussten Sie schon?'
+        ),
+        _react2['default'].createElement(
+          'ul',
+          { className: 'summary-list' },
+          _react2['default'].createElement(
+            'li',
+            null,
+            'Der deutsche Astronom ',
+            _react2['default'].createElement(
+              'i',
+              null,
+              'Johann Bayer'
+            ),
+            ' (1572 - 1625) führte eine noch heute gebräuliche systematische Benennung von Sternen ein.'
+          ),
+          _react2['default'].createElement(
+            'li',
+            null,
+            'Am ',
+            _react2['default'].createElement(
+              'i',
+              null,
+              'Apollo-Programm'
+            ),
+            ' und der ersten bemannten Mondlandung arbeiteten insgesamt etwa 400.000 Menschen mit.'
+          ),
+          _react2['default'].createElement(
+            'li',
+            null,
+            'Der Kosmonaut Waleri Bykowski hält mit vier Tagen und 23 Stunden den Rekord für den längsten Soloflug der Raumfahrtgeschichte.'
+          ),
+          _react2['default'].createElement(
+            'li',
+            null,
+            _react2['default'].createElement(
+              'i',
+              null,
+              'Brain May'
+            ),
+            ', der Gitarrist der britischen Rockband Queen ist seit 2007 auch promovierter Astrophysiker.'
+          )
+        )
       )
     ),
     _react2['default'].createElement(
@@ -35744,6 +36232,41 @@ var SolarSystemComponent = function SolarSystemComponent() {
         'p',
         null,
         '@wolfram how to avoid border-bottom of last displayed div.item-name inside each div.type-1?'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@Wolfram pls make the #summaryToggleSwitch work.'
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'summary', className: 'solar-system pure-u-1 left' },
+      _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
+      _react2['default'].createElement(
+        'div',
+        { id: 'summaryContainer', className: 'solar-system visible' },
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img float-right' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/solarsystem/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/solarsystem/1_sm.jpg', alt: 'Bildbeschreibung' })
+          ),
+          _react2['default'].createElement('p', { className: 'summary-img-src small' })
+        ),
+        _react2['default'].createElement('p', { className: 'summary-text' }),
+        _react2['default'].createElement(
+          'h4',
+          null,
+          'Wussten Sie schon?'
+        ),
+        _react2['default'].createElement(
+          'ul',
+          { className: 'summary-list' },
+          _react2['default'].createElement('li', null)
+        )
       )
     ),
     _react2['default'].createElement(
@@ -36491,6 +37014,45 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
     ),
     _react2['default'].createElement(
       'div',
+      { id: 'todo', className: 'pure-u-1' },
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@Wolfram pls make the #summaryToggleSwitch work.'
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'summary', className: 'stations pure-u-1 left' },
+      _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
+      _react2['default'].createElement(
+        'div',
+        { id: 'summaryContainer', className: 'stations visible' },
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img float-left' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/spacestations/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/spacestations/1_sm.jpg', alt: 'Bildbeschreibung' })
+          ),
+          _react2['default'].createElement('p', { className: 'summary-img-src small' })
+        ),
+        _react2['default'].createElement('p', { className: 'summary-text' }),
+        _react2['default'].createElement(
+          'h4',
+          null,
+          'Wussten Sie schon?'
+        ),
+        _react2['default'].createElement(
+          'ul',
+          { className: 'summary-list' },
+          _react2['default'].createElement('li', null)
+        )
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
       { id: 'controlArea', className: 'stations pure-u-1' },
       _react2['default'].createElement(
         'div',
@@ -36708,6 +37270,41 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
         'p',
         null,
         '@wolfram pls edit the month in endDate to appear as word when there is no endday (enable for all dates in all pages)'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@Wolfram pls make the #summaryToggleSwitch work.'
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'summary', className: 'spacetelecopes pure-u-1 left' },
+      _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
+      _react2['default'].createElement(
+        'div',
+        { id: 'summaryContainer', className: 'spacetelecopes visible' },
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img float-right' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/spacetelecopes/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/spacetelecopes/1_sm.jpg', alt: 'Bildbeschreibung' })
+          ),
+          _react2['default'].createElement('p', { className: 'summary-img-src small' })
+        ),
+        _react2['default'].createElement('p', { className: 'summary-text' }),
+        _react2['default'].createElement(
+          'h4',
+          null,
+          'Wussten Sie schon?'
+        ),
+        _react2['default'].createElement(
+          'ul',
+          { className: 'summary-list' },
+          _react2['default'].createElement('li', null)
+        )
       )
     ),
     _react2['default'].createElement(
@@ -36987,35 +37584,27 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
     ),
     _react2['default'].createElement(
       'div',
+      { id: 'todo', className: 'pure-u-1' },
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@Wolfram pls make the #summaryToggleSwitch work.'
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
       { id: 'summary', className: 'spacewalks pure-u-1 left' },
+      _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
       _react2['default'].createElement(
         'div',
-        { id: 'summaryContainer', className: 'spacewalks' },
-        _react2['default'].createElement(
-          'div',
-          { className: 'summary-img' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/spacewalks/eva2_lg.jpg', title: 'Buzz Aldrin auf dem Mond' },
-            _react2['default'].createElement('img', { src: '/img/spacewalks/eva2_sm.jpg' })
-          ),
-          _react2['default'].createElement(
-            'div',
-            { className: 'summary-img-src small' },
-            'NASA'
-          )
-        ),
+        { id: 'summaryContainer', className: 'spacewalks visible' },
         _react2['default'].createElement(
           'p',
-          null,
+          { className: 'summary-text' },
           _react2['default'].createElement(
-            'b',
+            'i',
             null,
-            _react2['default'].createElement(
-              'i',
-              null,
-              'Der Weltraumausstieg'
-            )
+            'Der Weltraumausstieg'
           ),
           ', auch ',
           _react2['default'].createElement(
@@ -37032,27 +37621,27 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
           ' genannt, ist ein Begriff für den Aufenthalt von Astronauten außerhalb eines Raumfahrzeuges im Vakuum des Weltalls oder auf einem anderen Himmelskörper. (z. B. Lunar Extra Vehicular Activity = LEVA) Er wird meist für Arbeiten an einem Raumfahrzeug, zu wissenschaftlichen Zwecken oder zur Erprobung neuer Techniken durchgeführt.'
         ),
         _react2['default'].createElement(
-          'p',
-          null,
-          'Die Raumfahrer sind hierbei nur durch einen speziellen Raumanzug vor dem Vakuum und der Strahlung des Weltraums sowie vor Mikrometeoriten geschützt. Die Strahlenbelastung ist dabei etwa doppelt so hoch wie im Raumfahrzeug.'
-        ),
-        _react2['default'].createElement(
           'div',
-          { className: 'summary-img' },
+          { className: 'summary-img float-right' },
           _react2['default'].createElement(
             'a',
-            { href: '/img/spacewalks/eva4_lg.jpg', title: 'Juri Onufrijenko an der Raumstation Mir' },
-            _react2['default'].createElement('img', { src: '/img/spacewalks/eva4_sm.jpg' })
+            { href: '/img/spacewalks/eva2_lg.jpg', title: 'Buzz Aldrin auf dem Mond' },
+            _react2['default'].createElement('img', { src: '/img/spacewalks/eva2_sm.jpg', alt: 'Großansicht' })
           ),
           _react2['default'].createElement(
-            'div',
+            'p',
             { className: 'summary-img-src small' },
             'NASA'
           )
         ),
         _react2['default'].createElement(
           'p',
-          null,
+          { className: 'summary-text' },
+          'Die Raumfahrer sind hierbei nur durch einen speziellen Raumanzug vor dem Vakuum und der Strahlung des Weltraums sowie vor Mikrometeoriten geschützt. Die Strahlenbelastung ist dabei etwa doppelt so hoch wie im Raumfahrzeug.'
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
           'Bei der so genannten ',
           _react2['default'].createElement(
             'i',
@@ -37062,8 +37651,22 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
           ' (SEVA) steht ein Raumfahrer in der geöffneten Luke seines Raumfahrzeugs ohne dies zu verlassen. Er ist hierbei vollständig abhängig vom den Systemen des Raumanzugs und assistiert einem weiteren Raumfahrer bei dessen EVA oder filmt ihn dabei.'
         ),
         _react2['default'].createElement(
+          'div',
+          { className: 'summary-img float-left' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/spacewalks/eva4_lg.jpg', title: 'Juri Onufrijenko an der Raumstation Mir' },
+            _react2['default'].createElement('img', { src: '/img/spacewalks/eva4_sm.jpg', alt: 'Großansicht' })
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-img-src small' },
+            'NASA'
+          )
+        ),
+        _react2['default'].createElement(
           'p',
-          null,
+          { className: 'summary-text' },
           'Wirklich freie Aufenthalte im All ohne Sicherungsleine wurden mit der ',
           _react2['default'].createElement(
             'i',
@@ -37079,22 +37682,8 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
           '-System (Simplified Aid for EVA Rescue).'
         ),
         _react2['default'].createElement(
-          'div',
-          { className: 'summary-img' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/spacewalks/eva3_lg.jpg', title: 'Missionslogo von Woschod 2' },
-            _react2['default'].createElement('img', { src: '/img/spacewalks/eva3_sm.jpg' })
-          ),
-          _react2['default'].createElement(
-            'div',
-            { className: 'summary-img-src small' },
-            'Quelle unbekannt'
-          )
-        ),
-        _react2['default'].createElement(
           'p',
-          null,
+          { className: 'summary-text' },
           'Der sowjetische Kosmonaut ',
           _react2['default'].createElement(
             'i',
@@ -37110,13 +37699,27 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
           ' auf seiner eigenen Umlaufbahn um die Erde. Eine Kamera an der Außenseite des Raumschiffs übertrug das historische Ereignis.'
         ),
         _react2['default'].createElement(
+          'div',
+          { className: 'summary-img float-right' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/spacewalks/eva3_lg.jpg', title: 'Missionslogo von Woschod 2' },
+            _react2['default'].createElement('img', { src: '/img/spacewalks/eva3_sm.jpg', alt: 'Großansicht' })
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-img-src small' },
+            'Quelle unbekannt'
+          )
+        ),
+        _react2['default'].createElement(
           'p',
-          null,
+          { className: 'summary-text' },
           'Bei der Rückkehr in das Raumschiff ergaben sich große Schwierigkeiten, da sich der Berkut-Raumanzug durch den fehlenden Gegendruck im All aufgebläht hatte und zu steif geworden war. Erst als Leonow Druck aus seinem Anzug abgelassen hatte, gelang ihm der Einstieg in die Schleuse. Durch den Stress dabei stieg seine Körpertemperatur um 3,2 °C an. In dem Buch "Zwei Mann im Mond" verarbeitete er seinen Weltraum"spaziergang" und die gesamte Mission.'
         ),
         _react2['default'].createElement(
           'p',
-          null,
+          { className: 'summary-text' },
           'Die erste Frau, die einen Außenbordeinsatz durchführte, war ',
           _react2['default'].createElement(
             'i',
@@ -37144,7 +37747,7 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
         ),
         _react2['default'].createElement(
           'ul',
-          null,
+          { className: 'summary-list' },
           _react2['default'].createElement(
             'li',
             null,
@@ -37194,12 +37797,12 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortSpacewalksStartUp' },
-                  'Startdatum ↑'
+                  'Beginn ↑'
                 ),
                 _react2['default'].createElement(
                   'option',
                   { value: 'sortSpacewalksStartDown' },
-                  'Startdatum ↓'
+                  'Beginn ↓'
                 ),
                 _react2['default'].createElement(
                   'option',
@@ -37400,6 +38003,41 @@ var StarsComponent = function StarsComponent(_ref) {
         'p',
         null,
         'find a solution for the greek letters / bayer names vs. historical names'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@Wolfram pls make the #summaryToggleSwitch work.'
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'summary', className: 'stars pure-u-1 left' },
+      _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
+      _react2['default'].createElement(
+        'div',
+        { id: 'summaryContainer', className: 'stars visible' },
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img float-left' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/stars/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/stars/1_sm.jpg', alt: 'Bildbeschreibung' })
+          ),
+          _react2['default'].createElement('p', { className: 'summary-img-src small' })
+        ),
+        _react2['default'].createElement('p', { className: 'summary-text' }),
+        _react2['default'].createElement(
+          'h4',
+          null,
+          'Wussten Sie schon?'
+        ),
+        _react2['default'].createElement(
+          'ul',
+          { className: 'summary-list' },
+          _react2['default'].createElement('li', null)
+        )
       )
     ),
     _react2['default'].createElement(

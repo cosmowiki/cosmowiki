@@ -3,8 +3,14 @@
   border-bottom: 1px solid #fff;
 }
 
-.question-link .collapsed:before {content: "\25BE  ";}
-.question-link .expanded:before {content: "\25B8  ";}
+.question-link.collapsed:before {content: '\25B8 ';}
+.question-link.collapsed:focus:before,
+.question-link.collapsed:hover:before,
+.question-link.collapsed:active:before {content: '\25BE ';}
+.question-link.expanded:before {content: '\25BE ';}
+.question-link.expanded:focus:before,
+.question-link.expanded:hover:before,
+.question-link.expanded:active:before {content: '\25B8 ';}
 
 #about .question:hover {background: rgba(255,255,255,.9);}
 #about .question-link {display: block; padding: 2em .5em;}
