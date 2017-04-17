@@ -25,11 +25,10 @@ const PeopleComponent = ({groupedPeople}) => {
             erobern sie neue Welten und Räume, sie erkennen Zusammenhänge und Naturgesetze.
             Als Pioniere erweitern sie ständig den Horizont der Erkenntnis.
           </p>
-          <div className="summary-img float-right">
-            <a href="/img/persons/2_lg.jpg" title="Bildbeschreibung - Großansicht">
-              <img src="/img/persons/2_sm.jpg" alt="Bildbeschreibung" />
+          <div className="summary-img float-right size-lg">
+            <a href="/img/persons/claudius_ptolemaeus_lg.jpg" title="Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch - Großansicht">
+              <img src="/img/persons/claudius_ptolemaeus_sm.jpg" alt="Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch" />
             </a>
-            <p className="summary-img-src small"></p>
           </div>
           <p className="summary-text">
             Aus Schamanen und Priestern wurden Astrologen und Philosophen, später
@@ -44,13 +43,13 @@ const PeopleComponent = ({groupedPeople}) => {
             zu verkraften.
           </p>
           <p className="summary-text">
-            Neben den vielen bekannten Namen gibt es unzählige Menschen, die im kleinen
-            und großen Maßstab Bedeutendes geleistet haben. Wie Zahnräder in einem
-            Getriebe greifen ihre Arbeiten ineinander und treiben die Wissenschaft
+            Neben den großen Namen gibt es viele unbekannte Akademiker und Amateure,
+            die im kleinen und großen Maßstab Bedeutendes geleistet haben. Wie Zahnräder
+            in einem Getriebe greifen ihre Arbeiten ineinander und treiben die Wissenschaft
             voran in Richtung Zukunft.
           </p>
           <div className="summary-img full-width center">
-            <img src="/img/title_people.jpg" alt="Collage berühmter Personen" />
+            <img src="/img/persons/people_collage.jpg" alt="Collage berühmter Personen" />
           </div>
           <p className="summary-text">
             Mit ihren Leistungen schreiben sie sich in die Geschichtsbücher ein.
@@ -59,10 +58,9 @@ const PeopleComponent = ({groupedPeople}) => {
             Mondkrater nach diesen Giganten der Wissenschaft.
           </p>
           <div className="summary-img float-left">
-            <a href="/img/persons/3_lg.jpg" title="Bildbeschreibung - Großansicht">
-              <img src="/img/persons/3_sm.jpg" alt="Bildbeschreibung" />
+            <a href="/img/persons/Challenger_STS51L_crew_lg.jpg" title="Crew der Challenger STS-51-L - Großansicht">
+              <img src="/img/persons/Challenger_STS51L_crew_sm.jpg" alt="Crew der Challenger STS-51-L" />
             </a>
-            <p className="summary-img-src small"></p>
           </div>
           <p className="summary-text">
             Doch aus dem Fall eines Apfels ein Naturgesetz abzuleiten oder mit akribischer
