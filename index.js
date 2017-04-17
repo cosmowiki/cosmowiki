@@ -33899,10 +33899,9 @@ var ChronicleComponent = (function (_React$Component) {
               { className: 'summary-img float-right' },
               _react2['default'].createElement(
                 'a',
-                { href: '/img/events/2_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-                _react2['default'].createElement('img', { src: '/img/events/2_sm.jpg', alt: 'Bildbeschreibung' })
-              ),
-              _react2['default'].createElement('p', { className: 'summary-img-src small' })
+                { href: '/img/events/herschel_telescope_lg.jpg', title: 'Wilhelm Herschels 40-Fuß-Teleskop - Großansicht' },
+                _react2['default'].createElement('img', { src: '/img/events/herschel_telescope_sm.jpg', alt: 'Wilhelm Herschels 40-Fuß-Teleskop' })
+              )
             ),
             _react2['default'].createElement(
               'p',
@@ -33942,10 +33941,9 @@ var ChronicleComponent = (function (_React$Component) {
               { className: 'summary-img float-left' },
               _react2['default'].createElement(
                 'a',
-                { href: '/img/events/3_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-                _react2['default'].createElement('img', { src: '/img/events/3_sm.jpg', alt: 'Bildbeschreibung' })
-              ),
-              _react2['default'].createElement('p', { className: 'summary-img-src small' })
+                { href: '/img/events/Columbia_sts-1_lg.jpg', title: 'Space Shuttle Columbia STS-1 - Großansicht' },
+                _react2['default'].createElement('img', { src: '/img/events/Columbia_sts-1_sm.jpg', alt: 'Space Shuttle Columbia STS-1' })
+              )
             ),
             _react2['default'].createElement(
               'p',
