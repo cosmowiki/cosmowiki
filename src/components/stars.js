@@ -16,6 +16,26 @@ const StarsComponent = ({groupedStars, constellations}) => {
         <p>@wolfram pls make the sorter and filter work</p>
         <p>@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens</p>
         <p>find a solution for the greek letters / bayer names vs. historical names</p>
+        <p>@Wolfram pls make the #summaryToggleSwitch work.</p>
+      </div>
+      <div id="summary" className="stars pure-u-1 left">
+        <a id="summaryToggleSwitch" className="expanded" href="#" title="Artikel anzeigen / schließen"></a>
+        <div id="summaryContainer" className="stars visible">
+          <div className="summary-img float-left">
+            <a href="/img/stars/1_lg.jpg" title="Bildbeschreibung - Großansicht">
+              <img src="/img/stars/1_sm.jpg" alt="Bildbeschreibung" />
+            </a>
+            <p className="summary-img-src small"></p>
+          </div>
+          <p className="summary-text">
+          </p>
+          <h4>Wussten Sie schon?</h4>
+          <ul className="summary-list">
+            <li>
+
+            </li>
+          </ul>
+        </div>
       </div>
       <div id="controlArea" className="stars pure-u-1">
         <div id="controllers" className="pure-u-1">

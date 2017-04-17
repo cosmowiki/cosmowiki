@@ -10,6 +10,26 @@ const SolarSystemComponent = () => {
       </div>
       <div id="todo" className="pure-u-1">
         <p>@wolfram how to avoid border-bottom of last displayed div.item-name inside each div.type-1?</p>
+        <p>@Wolfram pls make the #summaryToggleSwitch work.</p>
+      </div>
+      <div id="summary" className="solar-system pure-u-1 left">
+        <a id="summaryToggleSwitch" className="expanded" href="#" title="Artikel anzeigen / schließen"></a>
+        <div id="summaryContainer" className="solar-system visible">
+          <div className="summary-img float-right">
+            <a href="/img/solarsystem/1_lg.jpg" title="Bildbeschreibung - Großansicht">
+              <img src="/img/solarsystem/1_sm.jpg" alt="Bildbeschreibung" />
+            </a>
+            <p className="summary-img-src small"></p>
+          </div>
+          <p className="summary-text">
+          </p>
+          <h4>Wussten Sie schon?</h4>
+          <ul className="summary-list">
+            <li>
+
+            </li>
+          </ul>
+        </div>
       </div>
       <div id="dataArea" className="solar-system pure-u-1">
         <div id="solarsystemTable">

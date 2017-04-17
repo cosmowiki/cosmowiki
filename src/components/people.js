@@ -15,6 +15,87 @@ const PeopleComponent = ({groupedPeople}) => {
       <div id="todo" className="pure-u-1">
         <p>@wolfram pls replace the filter forms with FilterRows as in stars-site</p>
         <p>@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens</p>
+        <p>@Wolfram pls make the #summaryToggleSwitch work.</p>
+      </div>
+      <div id="summary" className="persons pure-u-1 left">
+        <a id="summaryToggleSwitch" className="expanded" href="#" title="Artikel anzeigen / schließen"></a>
+        <div id="summaryContainer" className="persons visible">
+          <p className="summary-text">
+            Naturwissenschaftler und Raumfahrer – seit Jahrtausenden entdecken und
+            erobern sie neue Welten und Räume, sie erkennen Zusammenhänge und Naturgesetze.
+            Als Pioniere erweitern sie ständig den Horizont der Erkenntnis.
+          </p>
+          <div className="summary-img float-right">
+            <a href="/img/persons/2_lg.jpg" title="Bildbeschreibung - Großansicht">
+              <img src="/img/persons/2_sm.jpg" alt="Bildbeschreibung" />
+            </a>
+            <p className="summary-img-src small"></p>
+          </div>
+          <p className="summary-text">
+            Aus Schamanen und Priestern wurden Astrologen und Philosophen, später
+            dann Quantenphysiker und Bordingenieure. Ihr steter Drang nach der Erforschung
+            des Unbekannten sind bis heute der Motor der Wissenschaft.
+          </p>
+          <p className="summary-text">
+            Sie stellen die entscheidenden Fragen und suchen nach deren Antworten.
+            Sie sind aufmerksame Beobachter ihrer Umwelt und werten Daten aus. Neugier,
+            Beharrlichkeit und Ausdauer sind Grundvoraussetzungen, um als Forscher
+            nicht nur erfolgreich zu sein, sondern auch Misserfolge und Rückschläge
+            zu verkraften.
+          </p>
+          <p className="summary-text">
+            Neben den vielen bekannten Namen gibt es unzählige Menschen, die im kleinen
+            und großen Maßstab Bedeutendes geleistet haben. Wie Zahnräder in einem
+            Getriebe greifen ihre Arbeiten ineinander und treiben die Wissenschaft
+            voran in Richtung Zukunft.
+          </p>
+          <div className="summary-img full-width center">
+            <img src="/img/title_people.jpg" alt="Collage berühmter Personen" />
+          </div>
+          <p className="summary-text">
+            Mit ihren Leistungen schreiben sie sich in die Geschichtsbücher ein.
+            Auszeichnungen werden ihnen verliehen und sie stiften neue Preise. Den
+            Größten zu Ehren errichten wir Monumente und benennen Universitäten und
+            Mondkrater nach diesen Giganten der Wissenschaft.
+          </p>
+          <div className="summary-img float-left">
+            <a href="/img/persons/3_lg.jpg" title="Bildbeschreibung - Großansicht">
+              <img src="/img/persons/3_sm.jpg" alt="Bildbeschreibung" />
+            </a>
+            <p className="summary-img-src small"></p>
+          </div>
+          <p className="summary-text">
+            Doch aus dem Fall eines Apfels ein Naturgesetz abzuleiten oder mit akribischer
+            Denkarbeit die Beziehungen zwischen Raum und Zeit zu formulieren, bringt
+            die Menschheit ebenso voran wie die Entwicklung neuer Materialien oder
+            die Reparatur eines Solarpanels an einer Raumstation.
+          </p>
+          <p className="summary-text">
+            Institute und Raumfahrtorganisationen auf der ganzen Welt ringen um
+            Nachwuchs. Die nächsten Ingenieure und Wissenschaftler der MINT-Disziplinen
+            werden die Antriebe der Zukunft entwickeln und die Geheimnisse der Dunklen
+            Materie entschlüsseln, kommende Raumfahrer werden auf dem Mars landen. <b>Jeder Einzelne zählt!</b>
+          </p>
+          <h4>Wussten Sie schon?</h4>
+          <ul className="summary-list">
+            <li>
+              Der deutsche Astronom <i>Johann Bayer</i> (1572 - 1625) führte eine
+              noch heute gebräuliche systematische Benennung von Sternen ein.
+            </li>
+            <li>
+              Am <i>Apollo-Programm</i> und der ersten bemannten Mondlandung arbeiteten
+              insgesamt etwa 400.000 Menschen mit.
+            </li>
+            <li>
+              Der Kosmonaut Waleri Bykowski hält mit vier Tagen und 23 Stunden den
+              Rekord für den längsten Soloflug der Raumfahrtgeschichte.
+            </li>
+            <li>
+              <i>Brain May</i>, der Gitarrist der britischen Rockband Queen ist
+              seit 2007 auch promovierter Astrophysiker.
+            </li>
+          </ul>
+        </div>
       </div>
       <div id="controlArea" className="persons pure-u-1">
         <div id="controllers" className="pure-u-1">

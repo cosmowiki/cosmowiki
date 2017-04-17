@@ -11,6 +11,26 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
       </div>
       <div id="todo" className="pure-u-1">
         <p>@wolfram pls edit the month in endDate to appear as word when there is no endday (enable for all dates in all pages)</p>
+        <p>@Wolfram pls make the #summaryToggleSwitch work.</p>
+      </div>
+      <div id="summary" className="spacetelecopes pure-u-1 left">
+        <a id="summaryToggleSwitch" className="expanded" href="#" title="Artikel anzeigen / schließen"></a>
+        <div id="summaryContainer" className="spacetelecopes visible">
+          <div className="summary-img float-right">
+            <a href="/img/spacetelecopes/1_lg.jpg" title="Bildbeschreibung - Großansicht">
+              <img src="/img/spacetelecopes/1_sm.jpg" alt="Bildbeschreibung" />
+            </a>
+            <p className="summary-img-src small"></p>
+          </div>
+          <p className="summary-text">
+          </p>
+          <h4>Wussten Sie schon?</h4>
+          <ul className="summary-list">
+            <li>
+
+            </li>
+          </ul>
+        </div>
       </div>
       <div id="controlArea" className="spacetelecopes pure-u-1">
         <div id="controllers" className="pure-u-1">
