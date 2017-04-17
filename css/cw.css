@@ -173,9 +173,10 @@ div.summary-img.full-width,
 .summary-img:active {border: 1px solid #333;}
 .summary-img.float-left {margin-right: .5em;}
 .summary-img.float-right {margin-left: .5em;}
-.summary-img img {display: block;}
-.summary-img:nth-of-type(odd) img {height: 6em;}
-.summary-img:nth-of-type(even) img {height: 7em;}
+.summary-img img {display: block; height: 6em;}
+.summary-img.size-lg img {height: 9em;}
+.summary-img.size-md img {height: 7em;}
+.summary-img.size-sm img {height: 5em;}
 .summary-img.full-width {float: none; margin: auto;}
 .summary-img.full-width img {width: 100%; height: inherit;}
 

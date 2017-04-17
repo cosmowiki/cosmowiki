@@ -33896,7 +33896,7 @@ var ChronicleComponent = (function (_React$Component) {
             ),
             _react2['default'].createElement(
               'div',
-              { className: 'summary-img float-right' },
+              { className: 'summary-img float-right size-lg' },
               _react2['default'].createElement(
                 'a',
                 { href: '/img/events/herschel_telescope_lg.jpg', title: 'Wilhelm Herschels 40-Fuß-Teleskop - Großansicht' },
@@ -35792,13 +35792,12 @@ var PeopleComponent = function PeopleComponent(_ref) {
         ),
         _react2['default'].createElement(
           'div',
-          { className: 'summary-img float-right' },
+          { className: 'summary-img float-right size-lg' },
           _react2['default'].createElement(
             'a',
-            { href: '/img/persons/2_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/persons/2_sm.jpg', alt: 'Bildbeschreibung' })
-          ),
-          _react2['default'].createElement('p', { className: 'summary-img-src small' })
+            { href: '/img/persons/claudius_ptolemaeus_lg.jpg', title: 'Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/persons/claudius_ptolemaeus_sm.jpg', alt: 'Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch' })
+          )
         ),
         _react2['default'].createElement(
           'p',
@@ -35813,12 +35812,12 @@ var PeopleComponent = function PeopleComponent(_ref) {
         _react2['default'].createElement(
           'p',
           { className: 'summary-text' },
-          'Neben den vielen bekannten Namen gibt es unzählige Menschen, die im kleinen und großen Maßstab Bedeutendes geleistet haben. Wie Zahnräder in einem Getriebe greifen ihre Arbeiten ineinander und treiben die Wissenschaft voran in Richtung Zukunft.'
+          'Neben den großen Namen gibt es viele unbekannte Akademiker und Amateure, die im kleinen und großen Maßstab Bedeutendes geleistet haben. Wie Zahnräder in einem Getriebe greifen ihre Arbeiten ineinander und treiben die Wissenschaft voran in Richtung Zukunft.'
         ),
         _react2['default'].createElement(
           'div',
           { className: 'summary-img full-width center' },
-          _react2['default'].createElement('img', { src: '/img/title_people.jpg', alt: 'Collage berühmter Personen' })
+          _react2['default'].createElement('img', { src: '/img/persons/people_collage.jpg', alt: 'Collage berühmter Personen' })
         ),
         _react2['default'].createElement(
           'p',
@@ -35830,10 +35829,9 @@ var PeopleComponent = function PeopleComponent(_ref) {
           { className: 'summary-img float-left' },
           _react2['default'].createElement(
             'a',
-            { href: '/img/persons/3_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/persons/3_sm.jpg', alt: 'Bildbeschreibung' })
-          ),
-          _react2['default'].createElement('p', { className: 'summary-img-src small' })
+            { href: '/img/persons/Challenger_STS51L_crew_lg.jpg', title: 'Crew der Challenger STS-51-L - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/persons/Challenger_STS51L_crew_sm.jpg', alt: 'Crew der Challenger STS-51-L' })
+          )
         ),
         _react2['default'].createElement(
           'p',
