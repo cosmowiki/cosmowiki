@@ -171,6 +171,8 @@ div.summary-img.full-width,
 .summary-img:focus,
 .summary-img:hover,
 .summary-img:active {border: 1px solid #333;}
+.summary-img:nth-of-type(odd) {float: right; margin-left: .5em;}
+.summary-img:nth-of-type(even) {float: left; margin-right: .5em;}
 .summary-img.float-left {margin-right: .5em;}
 .summary-img.float-right {margin-left: .5em;}
 .summary-img img {display: block; height: 6em;}
@@ -178,7 +180,9 @@ div.summary-img.full-width,
 .summary-img.size-md img {height: 7em;}
 .summary-img.size-sm img {height: 5em;}
 .summary-img.full-width {float: none; margin: auto;}
-.summary-img.full-width img {width: 100%; height: inherit;}
+.summary-img.full-width img {width: 100%; height: auto;}
+.summary-img.solar-system {float: none; margin: auto;}
+.summary-img.solar-system img {width: auto; height: auto;}
 
 .summary-text:nth-of-type(odd) {text-indent: 1em;}
 .summary-text:first-of-type::first-letter {font-size: 1.25em; font-weight: 900;}

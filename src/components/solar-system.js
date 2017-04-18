@@ -15,6 +15,46 @@ const SolarSystemComponent = () => {
       <div id="summary" className="solar-system pure-u-1 left">
         <a id="summaryToggleSwitch" className="expanded" href="#" title="Artikel anzeigen / schließen"></a>
         <div id="summaryContainer" className="solar-system visible">
+          <p className="summary-text">
+            In klaren Nächten sehen wir manchmal Merkur, Venus, Mars, Jupiter oder Saturn einzeln oder zu mehreren am Himmel entlangziehen.
+            Sie scheinen sich dabei etwa auf einer Linie zu bewegen. Im Altertum wurden sie deshalb als Wandelsterne bezeichnet.
+            Es ist diese Linie, oder besser Ebene, die den Wissenschaftlern den wohl wichtigsten Hinweis auf die mögliche Entstehungsgeschichte unseres Heimatsystems lieferte.
+          </p>
+          <div className="summary-img float-left size-lg">
+            <a href="/img/solarsystem/orbits_lg.jpg" title="Umlaufbahnen - Großansicht">
+              <img src="/img/solarsystem/orbits_sm.jpg" alt="Umlaufbahnen" />
+            </a>
+          </div>
+          <p className="summary-text">
+            Die Bahnen aller Planeten unseres Systems liegen nahezu auf dieser einen Ebene, der Ekliptik.
+            Sie umrunden darauf die Sonne in der gleichen Richtung, in die sie sich selbst auch dreht - gegen den Uhrzeigersinn, würde der Beobachter vom Nordpol der Ekliptik auf sie herunterschauen.
+            Auch die Eigenrotation der Planeten entspricht dieser Richtung. Nur die Venus rotiert retrograd um ihre eigene Achse.
+          </p>
+          <p className="summary-text">
+            Wissenschaftler vermuten den Ursprung des Sonnensystems in einer
+            rotierenden Materiewolke, die durch einen äußeren Impuls - vielleicht
+            eine nahe Supernova gestaucht wurde und sich somit noch schneller drehte.
+            Ein Großteil der Materie verdichtete sich in ihrem Zentrum bis schließlich
+            unter enormem Druck und immmer weiter steigenden Temperaturen die Kernfusion zündete.
+            Die Sonne war geboren.
+          </p>
+          <p className="summary-text">
+            Ringsum verklumpten Staubteilchen zu immer größeren Gebilden miteinander und formten die Bausteine der künftigen Planeten.
+            Mit steigenden Massen und somit wachsenden Anziehungskräften sammelten sie mehr und mehr Teilchen und Klumpen aus ihrem kosmischen Umfeld ein.
+            Sie räumten ihre Bahnen leer und durch Resonanzen der Gravitationskräfte mit denen anderer Protoplaneten entstanden die ersten Freiräume.
+          </p>
+          <div className="summary-img full-width center">
+              <img src="/img/solarsystem/solarsystem.jpg" alt="das Sonnensystem" />
+          </div>
+          <p className="summary-text">
+
+          </p>
+          <p className="summary-text">
+
+          </p>
+          <p className="summary-text">
+
+          </p>
           <div className="summary-img float-right">
             <a href="/img/solarsystem/1_lg.jpg" title="Bildbeschreibung - Großansicht">
               <img src="/img/solarsystem/1_sm.jpg" alt="Bildbeschreibung" />
@@ -22,7 +62,17 @@ const SolarSystemComponent = () => {
             <p className="summary-img-src small"></p>
           </div>
           <p className="summary-text">
+
           </p>
+          <p className="summary-text">
+
+          </p>
+          <div className="summary-img float-right">
+            <a href="/img/solarsystem/1_lg.jpg" title="Bildbeschreibung - Großansicht">
+              <img src="/img/solarsystem/1_sm.jpg" alt="Bildbeschreibung" />
+            </a>
+            <p className="summary-img-src small"></p>
+          </div>
           <h4>Wussten Sie schon?</h4>
           <ul className="summary-list">
             <li>
