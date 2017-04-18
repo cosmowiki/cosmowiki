@@ -36480,30 +36480,10 @@ var SolarSystemComponent = function SolarSystemComponent() {
           { className: 'summary-img full-width center' },
           _react2['default'].createElement('img', { src: '/img/solarsystem/solarsystem.jpg', alt: 'das Sonnensystem' })
         ),
-        _react2['default'].createElement('p', { className: 'summary-text' }),
-        _react2['default'].createElement('p', { className: 'summary-text' }),
-        _react2['default'].createElement('p', { className: 'summary-text' }),
         _react2['default'].createElement(
-          'div',
-          { className: 'summary-img float-right' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/solarsystem/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/solarsystem/1_sm.jpg', alt: 'Bildbeschreibung' })
-          ),
-          _react2['default'].createElement('p', { className: 'summary-img-src small' })
-        ),
-        _react2['default'].createElement('p', { className: 'summary-text' }),
-        _react2['default'].createElement('p', { className: 'summary-text' }),
-        _react2['default'].createElement(
-          'div',
-          { className: 'summary-img float-right' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/solarsystem/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/solarsystem/1_sm.jpg', alt: 'Bildbeschreibung' })
-          ),
-          _react2['default'].createElement('p', { className: 'summary-img-src small' })
+          'p',
+          { className: 'summary-text' },
+          'So umkreisen acht Planeten unseren Zentralstern - seit die IAU Pluto im Jahr 2006 zum Zwergplanten herabstufte. Bis auf Merkur und Venus werden sie von mindestens einem Mond umrundet, Saturn von 62 und Jupiter sogar von 67! Die äußeren Planeten, Jupiter, Saturn, Uranus und Neptun verfügen zusätzlich auch über Ringsysteme aus Eis- oder Gesteinspartikeln unterschiedlicher Größe. Auf der Äquatorebene des Planeten rotieren sie in mehreren Ringscheiben um ihn herum.'
         ),
         _react2['default'].createElement(
           'h4',
