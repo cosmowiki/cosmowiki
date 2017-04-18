@@ -36458,6 +36458,43 @@ var SolarSystemComponent = function SolarSystemComponent() {
         'div',
         { id: 'summaryContainer', className: 'solar-system visible' },
         _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'In klaren Nächten sehen wir manchmal Merkur, Venus, Mars, Jupiter oder Saturn einzeln oder zu mehreren am Himmel entlangziehen. Sie scheinen sich dabei etwa auf einer Linie zu bewegen. Im Altertum wurden sie deshalb als Wandelsterne bezeichnet. Es ist diese Linie, oder besser Ebene, die den Wissenschaftlern den wohl wichtigsten Hinweis auf die mögliche Entstehungsgeschichte unseres Heimatsystems lieferte.'
+        ),
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img float-left size-lg' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/solarsystem/orbits_lg.jpg', title: 'Umlaufbahnen - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/solarsystem/orbits_sm.jpg', alt: 'Umlaufbahnen' })
+          )
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Die Bahnen aller Planeten unseres Systems liegen nahezu auf dieser einen Ebene, der Ekliptik. Sie umrunden darauf die Sonne in der gleichen Richtung, in die sie sich selbst auch dreht - gegen den Uhrzeigersinn, würde der Beobachter vom Nordpol der Ekliptik auf sie herunterschauen. Auch die Eigenrotation der Planeten entspricht dieser Richtung. Nur die Venus rotiert retrograd um ihre eigene Achse.'
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Wissenschaftler vermuten den Ursprung des Sonnensystems in einer rotierenden Materiewolke, die durch einen äußeren Impuls - vielleicht eine nahe Supernova gestaucht wurde und sich somit noch schneller drehte. Ein Großteil der Materie verdichtete sich in ihrem Zentrum bis schließlich unter enormem Druck und immmer weiter steigenden Temperaturen die Kernfusion zündete. Die Sonne war geboren.'
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Ringsum verklumpten Staubteilchen zu immer größeren Gebilden miteinander und formten die Bausteine der künftigen Planeten. Mit steigenden Massen und somit wachsenden Anziehungskräften sammelten sie mehr und mehr Teilchen und Klumpen aus ihrem kosmischen Umfeld ein. Sie räumten ihre Bahnen leer und durch Resonanzen der Gravitationskräfte mit denen anderer Protoplaneten entstanden die ersten Freiräume.'
+        ),
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img full-width center' },
+          _react2['default'].createElement('img', { src: '/img/solarsystem/solarsystem.jpg', alt: 'das Sonnensystem' })
+        ),
+        _react2['default'].createElement('p', { className: 'summary-text' }),
+        _react2['default'].createElement('p', { className: 'summary-text' }),
+        _react2['default'].createElement('p', { className: 'summary-text' }),
+        _react2['default'].createElement(
           'div',
           { className: 'summary-img float-right' },
           _react2['default'].createElement(
@@ -36468,6 +36505,17 @@ var SolarSystemComponent = function SolarSystemComponent() {
           _react2['default'].createElement('p', { className: 'summary-img-src small' })
         ),
         _react2['default'].createElement('p', { className: 'summary-text' }),
+        _react2['default'].createElement('p', { className: 'summary-text' }),
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img float-right' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/solarsystem/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/solarsystem/1_sm.jpg', alt: 'Bildbeschreibung' })
+          ),
+          _react2['default'].createElement('p', { className: 'summary-img-src small' })
+        ),
         _react2['default'].createElement(
           'h4',
           null,
