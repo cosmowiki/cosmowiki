@@ -16,18 +16,94 @@ const ConstellationsComponent = ({constellations}) => {
       <div id="summary" className="constellations pure-u-1 left">
         <a id="summaryToggleSwitch" className="expanded" href="#" title="Artikel anzeigen / schließen"></a>
         <div id="summaryContainer" className="constellations visible">
-          <div className="summary-img float-right">
-            <a href="/img/constellations/1_lg.jpg" title="Bildbeschreibung - Großansicht">
-              <img src="/img/constellations/1_sm.jpg" alt="Bildbeschreibung" />
+          <p className="summary-text">
+            <i>Orion</i>, <i>Kassiopeia</i> oder die <i>Zwillinge</i> Castor und Pollux -
+            wir alle kennen mindestens ein Sternbild (Konstellation) und können es
+            aus dem Stehgreif am Nachthimmel finden. Die Figuren weisen seit Jahrhunderten
+            Reisenden den Weg.
+          </p>
+          <div className="summary-img size-md">
+            <a href="/img/constellations/Ursa_Major_(Bode).jpg" title="Großer Bär, Kupferstich aus dem Sternatlas von Johann Elert Bode - Großansicht">
+              <img src="/img/constellations/Ursa_Major_(Bode).jpg" alt="Großer Bär, Kupferstich aus dem Sternatlas von Johann Elert Bode" />
             </a>
-            <p className="summary-img-src small"></p>
           </div>
           <p className="summary-text">
+            Auf der Nordhalbkugel helfen <i>Großer Wagen</i> und <i>Kleiner Wagen</i> den
+            Polarstern zu finden, wobei der Große Wagen ein Asterismus und kein eigenes
+            Sternbild ist, sondern nur ein Teil des <i>Großen Bären</i>. Auch die Kassiopeia,
+            das "Himmels-W" zieht nach Norden hin geöffnet am Firmament entlang.
+          </p>
+          <div className="summary-img size-md">
+            <a href="/img/constellations/Dunhuang_star_map_lg.jpg" title="Sternenkarte von Dunhuang, China - Großansicht">
+              <img src="/img/constellations/Dunhuang_star_map_sm.jpg" alt="Sternenkarte von Dunhuang, China" />
+            </a>
+          </div>
+          <p className="summary-text">
+            Die Bewohner der südlichen Hemisphäre orientieren sich am <i>Kreuz des Südens</i>, dessen
+            Name von christlichen Seefahrern geprägt wurde. Schon <i>Amerigo Vespucci</i>,
+            nach dem die Neue Welt ihren Namen Amerika erhielt, nutzte das Kreuz des
+            Südens Anfang des 16. Jahrhunderts zur Orientierung auf seinen Reisen
+            entlang der Ostküste Südamerikas.
+          </p>
+          <p className="summary-text">
+            Sternbilder dürften schon in vielen frühgeschichtlichen Kulturen bekannt
+            gewesen sein. Die heute verwendeten haben ihren Ursprung in den 12 Tierkreiszeichen
+            aus Babylonien und dem Ägypten des Altertums. Mitte des 2. Jahrhunderts
+            n. Chr. erstellte <i>Claudius Ptolemäus</i> dann mit dem <i>Almagest</i> eines
+            der größten Werke der antiken Astronomie. Dieses für die folgenden 1500
+            Jahre prägende Lehrbuch enthielt auch einen Sternenkatalog mit Angaben
+            zu 1025 Sternen in 48 Sternbildern.
+          </p>
+          <div className="summary-img size-md">
+            <a href="/img/constellations/Planisphaerium_Coeleste_lg.jpg" title="Planisphaerium Coeleste von Georg Christoph Eimmart, 1705 - Großansicht">
+              <img src="/img/constellations/Planisphaerium_Coeleste_sm.jpg" alt="Planisphaerium Coeleste von Georg Christoph Eimmart, 1705" />
+            </a>
+          </div>
+          <p className="summary-text">
+            <i>Johann Bayer</i> übernahm dann 1603 in seiner <i>Uranometria</i> einige
+            Konstellationen aus Himmelsgloben des <i>Petrus Plancius</i>, die auf
+            die niederländischen Navigatoren <i>Pieter Dirkszoon Keyser</i> und <i>Frederick de Houtman</i> zurückgingen.
+            Der Astronomen <i>Johannes Hevelius</i> und <i>Nicolas-Louis de Lacaille</i> fügten
+            weitere hinzu.
+          </p>
+          <p className="summary-text">
+            Religiöse Motive führten zur Umbenennung und Ersetzung heidnischer Sternbilder.
+            Zu Ehren zeitgenössischer Herrscher oder aus astronomischer Notwendigkeit
+            heraus wurde der Kanon immer wieder reformiert und erweitert. Durch die
+            Erfindung des Teleskopes war die Zahl der bekannten Sterne schnell gewachsen
+            und die Kreativität bei der "Erfindung" neuer Konstellationen wuchs mit
+            dem Zwang nach Zuordnung.
+          </p>
+          <div className="summary-img size-sm">
+            <a href="/img/constellations/Papua_New_Guinea_lg.png" title="Flagge von Papua Neuguinea - Großansicht">
+              <img src="/img/constellations/Papua_New_Guinea_sm.png" alt="Flagge von Papua Neuguinea" />
+            </a>
+          </div>
+          <p className="summary-text">
+            Nach einem Vorschlag des amerikanischen Astronomen <i>Henry Norris Russell</i> legte
+            dann 1922 die <i>Internationale Astronomische Union</i> (IAU) auf ihrer ersten
+            Generalversammlung 88 Sternbilder fest, deren Grenzen sechs Jahre später
+            exakt definiert wurden.
+          </p>
+          <p className="summary-text">
+            Weltweit am bekanntesten dürfte das Kreuz des Südens sein, das auf vielen
+            Flaggen abgebildet ist und auch das Logo der <i>Europäischen Südsternwarte</i> (ESO)
+            ziert. Der Große Wagen prangt gemeinsam mit dem Polarstern auf der Flagge
+            des US-Bundesstaates Alaska.
           </p>
           <h4>Wussten Sie schon?</h4>
           <ul className="summary-list">
             <li>
-
+              Durch die <i>Präzessionsbwegung der Erde</i> war das Kreuz des Südens in
+              der Antike auch im Mittelmeerraum sichtbar.
+            </li>
+            <li>
+              Das Kreuz des Südens ist auf den Staatsflaggen von Australien, Brasilien,
+              Neuseeland, Papua-Neuguinea und Samoa zu sehen.
+            </li>
+            <li>
+              Die Namen von Sternbildern wie <i>Chemischer Ofen</i> oder <i>Luftpumpe</i> symbolisieren
+              den technischen Fortschritt des 18. Jahrhunderts.
             </li>
           </ul>
         </div>
