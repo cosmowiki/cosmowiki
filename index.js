@@ -33518,16 +33518,199 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
         'div',
         { id: 'summaryContainer', className: 'constellations visible' },
         _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Orion'
+          ),
+          ', ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Kassiopeia'
+          ),
+          ' oder die ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Zwillinge'
+          ),
+          ' Castor und Pollux - wir alle kennen mindestens ein Sternbild (Konstellation) und können es aus dem Stehgreif am Nachthimmel finden. Die Figuren weisen seit Jahrhunderten Reisenden den Weg.'
+        ),
+        _react2['default'].createElement(
           'div',
-          { className: 'summary-img float-right' },
+          { className: 'summary-img size-md' },
           _react2['default'].createElement(
             'a',
-            { href: '/img/constellations/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/constellations/1_sm.jpg', alt: 'Bildbeschreibung' })
-          ),
-          _react2['default'].createElement('p', { className: 'summary-img-src small' })
+            { href: '/img/constellations/Ursa_Major_(Bode).jpg', title: 'Großer Bär, Kupferstich aus dem Sternatlas von Johann Elert Bode - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/constellations/Ursa_Major_(Bode).jpg', alt: 'Großer Bär, Kupferstich aus dem Sternatlas von Johann Elert Bode' })
+          )
         ),
-        _react2['default'].createElement('p', { className: 'summary-text' }),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Auf der Nordhalbkugel helfen ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Großer Wagen'
+          ),
+          ' und ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Kleiner Wagen'
+          ),
+          ' den Polarstern zu finden, wobei der Große Wagen ein Asterismus und kein eigenes Sternbild ist, sondern nur ein Teil des ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Großen Bären'
+          ),
+          '. Auch die Kassiopeia, das "Himmels-W" zieht nach Norden hin geöffnet am Firmament entlang.'
+        ),
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img size-md' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/constellations/Dunhuang_star_map_lg.jpg', title: 'Sternenkarte von Dunhuang, China - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/constellations/Dunhuang_star_map_sm.jpg', alt: 'Sternenkarte von Dunhuang, China' })
+          )
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Die Bewohner der südlichen Hemisphäre orientieren sich am ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Kreuz des Südens'
+          ),
+          ', dessen Name von christlichen Seefahrern geprägt wurde. Schon ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Amerigo Vespucci'
+          ),
+          ', nach dem die Neue Welt ihren Namen Amerika erhielt, nutzte das Kreuz des Südens Anfang des 16. Jahrhunderts zur Orientierung auf seinen Reisen entlang der Ostküste Südamerikas.'
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Sternbilder dürften schon in vielen frühgeschichtlichen Kulturen bekannt gewesen sein. Die heute verwendeten haben ihren Ursprung in den 12 Tierkreiszeichen aus Babylonien und dem Ägypten des Altertums. Mitte des 2. Jahrhunderts n. Chr. erstellte ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Claudius Ptolemäus'
+          ),
+          ' dann mit dem ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Almagest'
+          ),
+          ' eines der größten Werke der antiken Astronomie. Dieses für die folgenden 1500 Jahre prägende Lehrbuch enthielt auch einen Sternenkatalog mit Angaben zu 1025 Sternen in 48 Sternbildern.'
+        ),
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img size-md' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/constellations/Planisphaerium_Coeleste_lg.jpg', title: 'Planisphaerium Coeleste von Georg Christoph Eimmart, 1705 - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/constellations/Planisphaerium_Coeleste_sm.jpg', alt: 'Planisphaerium Coeleste von Georg Christoph Eimmart, 1705' })
+          )
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Johann Bayer'
+          ),
+          ' übernahm dann 1603 in seiner ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Uranometria'
+          ),
+          ' einige Konstellationen aus Himmelsgloben des ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Petrus Plancius'
+          ),
+          ', die auf die niederländischen Navigatoren ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Pieter Dirkszoon Keyser'
+          ),
+          ' und ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Frederick de Houtman'
+          ),
+          ' zurückgingen. Der Astronomen ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Johannes Hevelius'
+          ),
+          ' und ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Nicolas-Louis de Lacaille'
+          ),
+          ' fügten weitere hinzu.'
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Religiöse Motive führten zur Umbenennung und Ersetzung heidnischer Sternbilder. Zu Ehren zeitgenössischer Herrscher oder aus astronomischer Notwendigkeit heraus wurde der Kanon immer wieder reformiert und erweitert. Durch die Erfindung des Teleskopes war die Zahl der bekannten Sterne schnell gewachsen und die Kreativität bei der "Erfindung" neuer Konstellationen wuchs mit dem Zwang nach Zuordnung.'
+        ),
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img size-sm' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/constellations/Papua_New_Guinea_lg.png', title: 'Flagge von Papua Neuguinea - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/constellations/Papua_New_Guinea_sm.png', alt: 'Flagge von Papua Neuguinea' })
+          )
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Nach einem Vorschlag des amerikanischen Astronomen ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Henry Norris Russell'
+          ),
+          ' legte dann 1922 die ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Internationale Astronomische Union'
+          ),
+          ' (IAU) auf ihrer ersten Generalversammlung 88 Sternbilder fest, deren Grenzen sechs Jahre später exakt definiert wurden.'
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Weltweit am bekanntesten dürfte das Kreuz des Südens sein, das auf vielen Flaggen abgebildet ist und auch das Logo der ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Europäischen Südsternwarte'
+          ),
+          ' (ESO) ziert. Der Große Wagen prangt gemeinsam mit dem Polarstern auf der Flagge des US-Bundesstaates Alaska.'
+        ),
         _react2['default'].createElement(
           'h4',
           null,
@@ -33536,7 +33719,39 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
         _react2['default'].createElement(
           'ul',
           { className: 'summary-list' },
-          _react2['default'].createElement('li', null)
+          _react2['default'].createElement(
+            'li',
+            null,
+            'Durch die ',
+            _react2['default'].createElement(
+              'i',
+              null,
+              'Präzessionsbwegung der Erde'
+            ),
+            ' war das Kreuz des Südens in der Antike auch im Mittelmeerraum sichtbar.'
+          ),
+          _react2['default'].createElement(
+            'li',
+            null,
+            'Das Kreuz des Südens ist auf den Staatsflaggen von Australien, Brasilien, Neuseeland, Papua-Neuguinea und Samoa zu sehen.'
+          ),
+          _react2['default'].createElement(
+            'li',
+            null,
+            'Die Namen von Sternbildern wie ',
+            _react2['default'].createElement(
+              'i',
+              null,
+              'Chemischer Ofen'
+            ),
+            ' oder ',
+            _react2['default'].createElement(
+              'i',
+              null,
+              'Luftpumpe'
+            ),
+            ' symbolisieren den technischen Fortschritt des 18. Jahrhunderts.'
+          )
         )
       )
     ),
