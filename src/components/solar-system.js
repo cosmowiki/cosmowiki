@@ -47,32 +47,11 @@ const SolarSystemComponent = () => {
               <img src="/img/solarsystem/solarsystem.jpg" alt="das Sonnensystem" />
           </div>
           <p className="summary-text">
-
+            So umkreisen acht Planeten unseren Zentralstern - seit die IAU Pluto im Jahr 2006 zum Zwergplanten herabstufte.
+            Bis auf Merkur und Venus werden sie von mindestens einem Mond umrundet, Saturn von 62 und Jupiter sogar von 67!
+            Die äußeren Planeten, Jupiter, Saturn, Uranus und Neptun verfügen zusätzlich auch über Ringsysteme aus Eis- oder Gesteinspartikeln unterschiedlicher Größe.
+            Auf der Äquatorebene des Planeten rotieren sie in mehreren Ringscheiben um ihn herum. 
           </p>
-          <p className="summary-text">
-
-          </p>
-          <p className="summary-text">
-
-          </p>
-          <div className="summary-img float-right">
-            <a href="/img/solarsystem/1_lg.jpg" title="Bildbeschreibung - Großansicht">
-              <img src="/img/solarsystem/1_sm.jpg" alt="Bildbeschreibung" />
-            </a>
-            <p className="summary-img-src small"></p>
-          </div>
-          <p className="summary-text">
-
-          </p>
-          <p className="summary-text">
-
-          </p>
-          <div className="summary-img float-right">
-            <a href="/img/solarsystem/1_lg.jpg" title="Bildbeschreibung - Großansicht">
-              <img src="/img/solarsystem/1_sm.jpg" alt="Bildbeschreibung" />
-            </a>
-            <p className="summary-img-src small"></p>
-          </div>
           <h4>Wussten Sie schon?</h4>
           <ul className="summary-list">
             <li>
