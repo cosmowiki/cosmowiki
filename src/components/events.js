@@ -88,7 +88,7 @@ export default class ChronicleComponent extends React.Component {
               wurde präziser. <i>Planetenbahnen</i> und die <i>Gravitation</i> wurden in der Sprache
               der Mathematik beschrieben.
             </p>
-            <div className="summary-img float-left">
+            <div className="summary-img float-left size-lg">
               <a href="/img/events/Columbia_sts-1_lg.jpg" title="Space Shuttle Columbia STS-1 - Großansicht">
                 <img src="/img/events/Columbia_sts-1_sm.jpg" alt="Space Shuttle Columbia STS-1" />
               </a>
@@ -100,7 +100,7 @@ export default class ChronicleComponent extends React.Component {
               - <i>schneller, höher, weiter!</i>
             </p>
             <p className="summary-text">
-              Die <i>Raumfahrt</i> beförderte dann den Menschen erstmals in den Kosmos.
+              Die Raumfahrt beförderte dann den Menschen erstmals in den Kosmos.
               Sie bereicherte unseren Erfahrungsschatz um viele schöne und interessante
               Momente, aber auch um einige Tragödien. So ließen Generationen von
               Wissenschaftlern und Pionieren den kollektiven Wissensspeicher der
@@ -111,7 +111,7 @@ export default class ChronicleComponent extends React.Component {
               im <i>Atom</i>, <i>Schwarze Löcher</i> und <i>Dunkle Materie</i> - immer
               weiter dringt die Menschheit in die Tiefen des Alls vor. Mit Augen,
               Ohren und Raumsonden greifen wir nach den Sternen, und jedes gelöste
-              Rätsel wirft neue Fragen auf. <b>Herzlich willkommen in der Gegenwart!</b>
+              Rätsel wirft neue Fragen auf. Willkommen in der Gegenwart!
             </p>
             <h4>Wussten Sie schon?</h4>
             <ul className="summary-list">

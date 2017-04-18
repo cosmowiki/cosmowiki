@@ -37,9 +37,6 @@ a:focus img, a:hover img, a:active img {}
 .center {text-align: center;}
 .right {text-align: right;}
 .justify {text-align: justify;}
-.float-left {float: left;}
-.float-right {float: right;}
-.no-float {float: none;}
 .small {font-size: .7em;}
 .visible {display: block;}
 .hidden {display: none;}
@@ -157,7 +154,7 @@ main {background: rgba(255,255,255,.8); border-bottom: 1em solid #eee;}
 #summaryToggleSwitch.collapsed {text-align: center;}
 #summaryToggleSwitch.collapsed:after {content: '\25BE';}
 
-#summaryContainer {padding: 0 .25em 0;}
+#summaryContainer {padding: 0 .25em 0; border-bottom: 1em solid #99f;}
 .summary-text,
 div.summary-img.full-width,
 #summaryContainer h1,
@@ -173,16 +170,14 @@ div.summary-img.full-width,
 .summary-img:active {border: 1px solid #333;}
 .summary-img:nth-of-type(odd) {float: right; margin-left: .5em;}
 .summary-img:nth-of-type(even) {float: left; margin-right: .5em;}
-.summary-img.float-left {margin-right: .5em;}
-.summary-img.float-right {margin-left: .5em;}
+.summary-img.float-left {float: left; margin: 0 .5em 0 0;}
+.summary-img.float-right {float: right; margin: 0 0 0 .5em;}
+.summary-img.full-width {float: none; margin: auto;}
 .summary-img img {display: block; height: 6em;}
 .summary-img.size-lg img {height: 9em;}
 .summary-img.size-md img {height: 7em;}
 .summary-img.size-sm img {height: 5em;}
-.summary-img.full-width {float: none; margin: auto;}
 .summary-img.full-width img {width: 100%; height: auto;}
-.summary-img.solar-system {float: none; margin: auto;}
-.summary-img.solar-system img {width: auto; height: auto;}
 
 .summary-text:nth-of-type(odd) {text-indent: 1em;}
 .summary-text:first-of-type::first-letter {font-size: 1.25em; font-weight: 900;}

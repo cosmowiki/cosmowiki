@@ -57,7 +57,7 @@ const PeopleComponent = ({groupedPeople}) => {
             Größten zu Ehren errichten wir Monumente und benennen Universitäten und
             Mondkrater nach diesen Giganten der Wissenschaft.
           </p>
-          <div className="summary-img float-left">
+          <div className="summary-img float-left size-md">
             <a href="/img/persons/Challenger_STS51L_crew_lg.jpg" title="Crew der Challenger STS-51-L - Großansicht">
               <img src="/img/persons/Challenger_STS51L_crew_sm.jpg" alt="Crew der Challenger STS-51-L" />
             </a>
