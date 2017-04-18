@@ -34153,7 +34153,7 @@ var ChronicleComponent = (function (_React$Component) {
             ),
             _react2['default'].createElement(
               'div',
-              { className: 'summary-img float-left' },
+              { className: 'summary-img float-left size-lg' },
               _react2['default'].createElement(
                 'a',
                 { href: '/img/events/Columbia_sts-1_lg.jpg', title: 'Space Shuttle Columbia STS-1 - Großansicht' },
@@ -34185,13 +34185,7 @@ var ChronicleComponent = (function (_React$Component) {
             _react2['default'].createElement(
               'p',
               { className: 'summary-text' },
-              'Die ',
-              _react2['default'].createElement(
-                'i',
-                null,
-                'Raumfahrt'
-              ),
-              ' beförderte dann den Menschen erstmals in den Kosmos. Sie bereicherte unseren Erfahrungsschatz um viele schöne und interessante Momente, aber auch um einige Tragödien. So ließen Generationen von Wissenschaftlern und Pionieren den kollektiven Wissensspeicher der Menschheit immer weiter anwachsen.'
+              'Die Raumfahrt beförderte dann den Menschen erstmals in den Kosmos. Sie bereicherte unseren Erfahrungsschatz um viele schöne und interessante Momente, aber auch um einige Tragödien. So ließen Generationen von Wissenschaftlern und Pionieren den kollektiven Wissensspeicher der Menschheit immer weiter anwachsen.'
             ),
             _react2['default'].createElement(
               'p',
@@ -34219,12 +34213,7 @@ var ChronicleComponent = (function (_React$Component) {
                 null,
                 'Dunkle Materie'
               ),
-              ' - immer weiter dringt die Menschheit in die Tiefen des Alls vor. Mit Augen, Ohren und Raumsonden greifen wir nach den Sternen, und jedes gelöste Rätsel wirft neue Fragen auf. ',
-              _react2['default'].createElement(
-                'b',
-                null,
-                'Herzlich willkommen in der Gegenwart!'
-              )
+              ' - immer weiter dringt die Menschheit in die Tiefen des Alls vor. Mit Augen, Ohren und Raumsonden greifen wir nach den Sternen, und jedes gelöste Rätsel wirft neue Fragen auf. Willkommen in der Gegenwart!'
             ),
             _react2['default'].createElement(
               'h4',
@@ -36041,7 +36030,7 @@ var PeopleComponent = function PeopleComponent(_ref) {
         ),
         _react2['default'].createElement(
           'div',
-          { className: 'summary-img float-left' },
+          { className: 'summary-img float-left size-md' },
           _react2['default'].createElement(
             'a',
             { href: '/img/persons/Challenger_STS51L_crew_lg.jpg', title: 'Crew der Challenger STS-51-L - Großansicht' },
