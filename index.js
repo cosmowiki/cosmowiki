@@ -33512,11 +33512,11 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'summary', className: 'constellations pure-u-1 left' },
+      { id: 'summary', className: 'pure-u-1 left' },
       _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
       _react2['default'].createElement(
         'div',
-        { id: 'summaryContainer', className: 'constellations visible' },
+        { id: 'summaryContainer', className: 'visible' },
         _react2['default'].createElement(
           'p',
           { className: 'summary-text' },
@@ -33541,11 +33541,16 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
         ),
         _react2['default'].createElement(
           'div',
-          { className: 'summary-img size-md' },
+          { className: 'summary-img size-lg' },
           _react2['default'].createElement(
             'a',
             { href: '/img/constellations/Ursa_Major_(Bode).jpg', title: 'Großer Bär, Kupferstich aus dem Sternatlas von Johann Elert Bode - Großansicht' },
             _react2['default'].createElement('img', { src: '/img/constellations/Ursa_Major_(Bode).jpg', alt: 'Großer Bär, Kupferstich aus dem Sternatlas von Johann Elert Bode' })
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-img-text small' },
+            'Großer Bär, Johann Elert Bode'
           )
         ),
         _react2['default'].createElement(
@@ -33573,11 +33578,16 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
         ),
         _react2['default'].createElement(
           'div',
-          { className: 'summary-img size-md' },
+          { className: 'summary-img size-lg' },
           _react2['default'].createElement(
             'a',
             { href: '/img/constellations/Dunhuang_star_map_lg.jpg', title: 'Sternenkarte von Dunhuang, China - Großansicht' },
             _react2['default'].createElement('img', { src: '/img/constellations/Dunhuang_star_map_sm.jpg', alt: 'Sternenkarte von Dunhuang, China' })
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-img-text small' },
+            'Dunhuang Sternenkarte'
           )
         ),
         _react2['default'].createElement(
@@ -33621,6 +33631,13 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
             'a',
             { href: '/img/constellations/Planisphaerium_Coeleste_lg.jpg', title: 'Planisphaerium Coeleste von Georg Christoph Eimmart, 1705 - Großansicht' },
             _react2['default'].createElement('img', { src: '/img/constellations/Planisphaerium_Coeleste_sm.jpg', alt: 'Planisphaerium Coeleste von Georg Christoph Eimmart, 1705' })
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-img-text small' },
+            'Planisphaerium Coeleste,',
+            _react2['default'].createElement('br', null),
+            'Georg Christoph Eimmart'
           )
         ),
         _react2['default'].createElement(
@@ -33681,6 +33698,11 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
             'a',
             { href: '/img/constellations/Papua_New_Guinea_lg.png', title: 'Flagge von Papua Neuguinea - Großansicht' },
             _react2['default'].createElement('img', { src: '/img/constellations/Papua_New_Guinea_sm.png', alt: 'Flagge von Papua Neuguinea' })
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-img-text small' },
+            'Papua-Neuguinea'
           )
         ),
         _react2['default'].createElement(
@@ -34063,11 +34085,11 @@ var ChronicleComponent = (function (_React$Component) {
         ),
         _react2['default'].createElement(
           'div',
-          { id: 'summary', className: 'events pure-u-1 left' },
+          { id: 'summary', className: 'pure-u-1 left' },
           _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
           _react2['default'].createElement(
             'div',
-            { id: 'summaryContainer', className: 'events visible' },
+            { id: 'summaryContainer', className: 'visible' },
             _react2['default'].createElement(
               'p',
               { className: 'summary-text' },
@@ -34081,7 +34103,7 @@ var ChronicleComponent = (function (_React$Component) {
             ),
             _react2['default'].createElement(
               'div',
-              { className: 'summary-img float-left' },
+              { className: 'summary-img float-left size-md' },
               _react2['default'].createElement(
                 'a',
                 { href: '/img/events/nebra_lg.jpg', title: 'Himmelsscheibe von Nebra - Großansicht' },
@@ -34089,8 +34111,10 @@ var ChronicleComponent = (function (_React$Component) {
               ),
               _react2['default'].createElement(
                 'p',
-                { className: 'summary-img-src small' },
-                'Dbachmann',
+                { className: 'summary-img-text small' },
+                'Himmelsscheibe',
+                _react2['default'].createElement('br', null),
+                'Quelle: Dbachmann',
                 _react2['default'].createElement('br', null),
                 _react2['default'].createElement(
                   'a',
@@ -34116,6 +34140,11 @@ var ChronicleComponent = (function (_React$Component) {
                 'a',
                 { href: '/img/events/herschel_telescope_lg.jpg', title: 'Wilhelm Herschels 40-Fuß-Teleskop - Großansicht' },
                 _react2['default'].createElement('img', { src: '/img/events/herschel_telescope_sm.jpg', alt: 'Wilhelm Herschels 40-Fuß-Teleskop' })
+              ),
+              _react2['default'].createElement(
+                'p',
+                { className: 'summary-img-text small' },
+                'Herschels 40-Fuß-Teleskop'
               )
             ),
             _react2['default'].createElement(
@@ -34158,6 +34187,11 @@ var ChronicleComponent = (function (_React$Component) {
                 'a',
                 { href: '/img/events/Columbia_sts-1_lg.jpg', title: 'Space Shuttle Columbia STS-1 - Großansicht' },
                 _react2['default'].createElement('img', { src: '/img/events/Columbia_sts-1_sm.jpg', alt: 'Space Shuttle Columbia STS-1' })
+              ),
+              _react2['default'].createElement(
+                'p',
+                { className: 'summary-img-text small' },
+                'Space Shuttle Columbia, STS-1'
               )
             ),
             _react2['default'].createElement(
@@ -34891,20 +34925,24 @@ var MissionsComponent = function MissionsComponent(_ref) {
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'summary', className: 'missions pure-u-1 left' },
+      { id: 'summary', className: 'pure-u-1 left' },
       _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
       _react2['default'].createElement(
         'div',
-        { id: 'summaryContainer', className: 'missions visible' },
+        { id: 'summaryContainer', className: 'visible' },
         _react2['default'].createElement(
           'div',
-          { className: 'summary-img float-right' },
+          { className: 'summary-img' },
           _react2['default'].createElement(
             'a',
             { href: '/img/missions/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
             _react2['default'].createElement('img', { src: '/img/missions/1_sm.jpg', alt: 'Bildbeschreibung' })
           ),
-          _react2['default'].createElement('p', { className: 'summary-img-src small' })
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-img-text small' },
+            'Bildbeschreibung'
+          )
         ),
         _react2['default'].createElement(
           'p',
@@ -34963,6 +35001,20 @@ var MissionsComponent = function MissionsComponent(_ref) {
             'Aggregat 4'
           ),
           ' (V2) waren rein zu kriegerischen Zwecken entwickelt worden.'
+        ),
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/missions/2_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/missions/2_sm.jpg', alt: 'Bildbeschreibung' })
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-img-text small' },
+            'Bildbeschreibung'
+          )
         ),
         _react2['default'].createElement(
           'h4',
@@ -35984,11 +36036,11 @@ var PeopleComponent = function PeopleComponent(_ref) {
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'summary', className: 'persons pure-u-1 left' },
+      { id: 'summary', className: 'pure-u-1 left' },
       _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
       _react2['default'].createElement(
         'div',
-        { id: 'summaryContainer', className: 'persons visible' },
+        { id: 'summaryContainer', className: 'visible' },
         _react2['default'].createElement(
           'p',
           { className: 'summary-text' },
@@ -36001,6 +36053,11 @@ var PeopleComponent = function PeopleComponent(_ref) {
             'a',
             { href: '/img/persons/claudius_ptolemaeus_lg.jpg', title: 'Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch - Großansicht' },
             _react2['default'].createElement('img', { src: '/img/persons/claudius_ptolemaeus_sm.jpg', alt: 'Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch' })
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-img-text small' },
+            'Claudius Ptolemäus'
           )
         ),
         _react2['default'].createElement(
@@ -36021,7 +36078,12 @@ var PeopleComponent = function PeopleComponent(_ref) {
         _react2['default'].createElement(
           'div',
           { className: 'summary-img full-width center' },
-          _react2['default'].createElement('img', { src: '/img/persons/people_collage.jpg', alt: 'Collage berühmter Personen' })
+          _react2['default'].createElement('img', { src: '/img/persons/people_collage.jpg', alt: 'Collage berühmter Personen' }),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-img-text small' },
+            'Aristoteles, A. Shepard, I. Newton, E. Halley, V. Tereschkowa, A. Einstein, N. Kopernikus, J. Gagarin, G. Galilei, S. Hawking, T. Brahe, N. Armstrong'
+          )
         ),
         _react2['default'].createElement(
           'p',
@@ -36030,11 +36092,16 @@ var PeopleComponent = function PeopleComponent(_ref) {
         ),
         _react2['default'].createElement(
           'div',
-          { className: 'summary-img float-left size-md' },
+          { className: 'summary-img float-left size-lg' },
           _react2['default'].createElement(
             'a',
             { href: '/img/persons/Challenger_STS51L_crew_lg.jpg', title: 'Crew der Challenger STS-51-L - Großansicht' },
             _react2['default'].createElement('img', { src: '/img/persons/Challenger_STS51L_crew_sm.jpg', alt: 'Crew der Challenger STS-51-L' })
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-img-text small' },
+            'Crew der Challenger STS-51-L'
           )
         ),
         _react2['default'].createElement(
@@ -36045,7 +36112,8 @@ var PeopleComponent = function PeopleComponent(_ref) {
         _react2['default'].createElement(
           'p',
           { className: 'summary-text' },
-          'Institute und Raumfahrtorganisationen auf der ganzen Welt ringen um Nachwuchs. Die nächsten Ingenieure und Wissenschaftler der MINT-Disziplinen werden die Antriebe der Zukunft entwickeln und die Geheimnisse der Dunklen Materie entschlüsseln, kommende Raumfahrer werden auf dem Mars landen. ',
+          'Institute und Raumfahrtorganisationen auf der ganzen Welt ringen um Nachwuchs. Die nächsten Ingenieure und Wissenschaftler der MINT-Disziplinen werden die Antriebe der Zukunft entwickeln und die Geheimnisse der Dunklen Materie entschlüsseln, die Raumfahrer von morgen werden auf dem Mars landen.',
+          _react2['default'].createElement('br', null),
           _react2['default'].createElement(
             'b',
             null,
@@ -36449,7 +36517,43 @@ var SolarSystemComponent = function SolarSystemComponent() {
         _react2['default'].createElement(
           'p',
           { className: 'summary-text' },
-          'In klaren Nächten sehen wir manchmal Merkur, Venus, Mars, Jupiter oder Saturn einzeln oder zu mehreren am Himmel entlangziehen. Sie scheinen sich dabei etwa auf einer Linie zu bewegen. Im Altertum wurden sie deshalb als Wandelsterne bezeichnet. Es ist diese Linie, oder besser Ebene, die den Wissenschaftlern den wohl wichtigsten Hinweis auf die mögliche Entstehungsgeschichte unseres Heimatsystems lieferte.'
+          'In klaren Nächten sehen wir manchmal ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Merkur'
+          ),
+          ', ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Venus'
+          ),
+          ', ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Mars'
+          ),
+          ', ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Jupiter'
+          ),
+          ' oder ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Saturn'
+          ),
+          ' einzeln oder zu mehreren am Himmel entlangziehen. Sie scheinen sich dabei etwa auf einer Linie zu bewegen. Im Altertum wurden sie deshalb als ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Wandelsterne'
+          ),
+          ' bezeichnet. Es ist diese Linie, oder besser gesagt Ebene, die den Wissenschaftlern den wohl wichtigsten Hinweis auf die mögliche Entstehungsgeschichte unseres Heimatsystems lieferte.'
         ),
         _react2['default'].createElement(
           'div',
@@ -36458,32 +36562,227 @@ var SolarSystemComponent = function SolarSystemComponent() {
             'a',
             { href: '/img/solarsystem/orbits_lg.jpg', title: 'Umlaufbahnen - Großansicht' },
             _react2['default'].createElement('img', { src: '/img/solarsystem/orbits_sm.jpg', alt: 'Umlaufbahnen' })
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-img-text small' },
+            'die Ekliptik'
           )
         ),
         _react2['default'].createElement(
           'p',
           { className: 'summary-text' },
-          'Die Bahnen aller Planeten unseres Systems liegen nahezu auf dieser einen Ebene, der Ekliptik. Sie umrunden darauf die Sonne in der gleichen Richtung, in die sie sich selbst auch dreht - gegen den Uhrzeigersinn, würde der Beobachter vom Nordpol der Ekliptik auf sie herunterschauen. Auch die Eigenrotation der Planeten entspricht dieser Richtung. Nur die Venus rotiert retrograd um ihre eigene Achse.'
+          'Die Bahnen aller Planeten unseres Systems liegen nahezu auf dieser einen Ebene, der ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Ekliptik'
+          ),
+          '. Sie umrunden darauf die ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Sonne'
+          ),
+          ' in der gleichen Richtung, in die sie sich selbst auch dreht - gegen den Uhrzeigersinn, würde der Beobachter vom Nordpol der Ekliptik auf sie herunterschauen. Auch die Eigenrotation der Planeten entspricht dieser Richtung. Nur die Venus rotiert ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'retrograd'
+          ),
+          ' um ihre eigene Achse.'
         ),
         _react2['default'].createElement(
           'p',
           { className: 'summary-text' },
-          'Wissenschaftler vermuten den Ursprung des Sonnensystems in einer rotierenden Materiewolke, die durch einen äußeren Impuls - vielleicht eine nahe Supernova gestaucht wurde und sich somit noch schneller drehte. Ein Großteil der Materie verdichtete sich in ihrem Zentrum bis schließlich unter enormem Druck und immmer weiter steigenden Temperaturen die Kernfusion zündete. Die Sonne war geboren.'
+          'Wissenschaftler vermuten den Ursprung des Sonnensystems in einer rotierenden Materiewolke, die durch einen äußeren Impuls - vielleicht eine nahe ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Supernova'
+          ),
+          ' gestaucht wurde und sich somit noch schneller drehte. Ein Großteil der Materie verdichtete sich in ihrem Zentrum bis schließlich unter enormem Druck und immmer weiter steigenden Temperaturen die ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Kernfusion'
+          ),
+          ' zündete. Die Sonne war geboren.'
         ),
         _react2['default'].createElement(
           'p',
           { className: 'summary-text' },
-          'Ringsum verklumpten Staubteilchen zu immer größeren Gebilden miteinander und formten die Bausteine der künftigen Planeten. Mit steigenden Massen und somit wachsenden Anziehungskräften sammelten sie mehr und mehr Teilchen und Klumpen aus ihrem kosmischen Umfeld ein. Sie räumten ihre Bahnen leer und durch Resonanzen der Gravitationskräfte mit denen anderer Protoplaneten entstanden die ersten Freiräume.'
+          'Ringsum verklumpten Staubteilchen zu immer größeren Gebilden miteinander und formten die Bausteine der künftigen Planeten. Mit steigenden Massen und somit wachsenden Anziehungskräften sammelten sie mehr und mehr Teilchen und Klumpen aus ihrem kosmischen Umfeld ein. Sie räumten ihre Bahnen leer und durch Resonanzen der Gravitationskräfte mit denen anderer',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Protoplaneten'
+          ),
+          ' entstanden die ersten Freiräume.'
         ),
         _react2['default'].createElement(
           'div',
           { className: 'summary-img full-width center' },
-          _react2['default'].createElement('img', { src: '/img/solarsystem/solarsystem.jpg', alt: 'das Sonnensystem' })
+          _react2['default'].createElement('img', { src: '/img/solarsystem/solarsystem.jpg', alt: 'das Sonnensystem' }),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-img-text small' },
+            'Sonne, Merkur, Venus, Erde, Mars, Jupiter, Saturn, Uranus, Neptun - maßstabs,- aber nicht abstandsgetreu'
+          )
         ),
         _react2['default'].createElement(
           'p',
           { className: 'summary-text' },
-          'So umkreisen acht Planeten unseren Zentralstern - seit die IAU Pluto im Jahr 2006 zum Zwergplanten herabstufte. Bis auf Merkur und Venus werden sie von mindestens einem Mond umrundet, Saturn von 62 und Jupiter sogar von 67! Die äußeren Planeten, Jupiter, Saturn, Uranus und Neptun verfügen zusätzlich auch über Ringsysteme aus Eis- oder Gesteinspartikeln unterschiedlicher Größe. Auf der Äquatorebene des Planeten rotieren sie in mehreren Ringscheiben um ihn herum.'
+          'So umkreisen heute acht Planeten unseren Zentralstern, seit die ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Internationale Astronomische Union'
+          ),
+          ' (IAU) den früher als Planet geführten ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Pluto'
+          ),
+          ' im Jahr 2006 zum Zwergplanten herabstufte. Die Entfernungen dabei sind riesig. So beträgt der mittlere Abstand zwischen Sonne und Erde ca. 150 Millionen Kilometer, oder eine ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Astronomische Einheit'
+          ),
+          ' (AU). Die Inneren Planeten Merkur, Venus, Erde und Mars sind Gesteinsplaneten, deren Atmosphären zwischen sehr dicht (Venus) und sehr dünn (Mars) variieren. Merkur verfügt über keine nennenswerte Gashülle. Die sonnenächsten Körper Merkur und Venus besitzen keine Monde, während die Erde von einem, der Mars von zwei Trabanten (Phobos und Deimos) begleitet wird.'
+        ),
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img float-right size-md' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/solarsystem/saturn_lg.jpg', title: 'Saturn - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/solarsystem/saturn_sm.jpg', alt: 'Saturn' })
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-img-text small' },
+            'Saturn mit Ringsystem, Quelle: NASA'
+          )
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Die Äußeren Planeten hingegen sind völlig anders beschaffen. Sie sind ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Gasplaneten'
+          ),
+          ', deren Atmosphären je nach Entfernung zur Sonne gasförmig (',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Jupiter'
+          ),
+          ' und ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Saturn'
+          ),
+          ') oder sogar teilweise flüssig (',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Uranus'
+          ),
+          ' und ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Neptun'
+          ),
+          ') sind. Im Innern besitzen sie wahrscheinlich alle einen kleinen, festen Kern aus Gestein und Eis. Die vier Riesen verfügen zusätzlich auch über Ringsysteme aus Gesteins- oder Eispartikeln unterschiedlicher Größe. Auf den Äquatorebenen der Planeten rotieren sie in mehreren Ringscheiben um sie herum. Jupiter wird von 62 Monden umkreist, Saturn sogar von 67! Die Eisriesen Uranus und Neptun verfügen über 27, bzw. 14 Monde.'
+        ),
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img float-left size-lg' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/solarsystem/mainbelt_and_trojans.png', title: 'Trojaner - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/solarsystem/mainbelt_and_trojans.png', alt: 'Trojaner' })
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-img-text small' },
+            'Trojaner, Quelle: Rivi',
+            _react2['default'].createElement('br', null),
+            _react2['default'].createElement(
+              'a',
+              { href: 'http://creativecommons.org/licenses/by-sa/3.0/', title: 'CC BY-SA 3.0' },
+              'CC BY-SA 3.0'
+            )
+          )
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Neben den Planeten und ihren Monden existiert eine Vielzahl kleinerer Objekte in unserem Sonnensystem, die in der Entstehungsphase nicht von der Sonne oder den Planeten eingefangen wurden. So werden die Bahnen der inneren Planeten von unzähligen ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Asteroiden'
+          ),
+          ' verschiedenster Größen (auch ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Planetoiden'
+          ),
+          ' genannt) gekreuzt. Die meisten konzentrieren sich im Hauptgürtel zwischen Mars und Jupiter.'
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Zentauren'
+          ),
+          ' werden Asteroiden genannt, die sich zwischen den Umlaufbahnen von Jupiter und Neptun um die Sonne bewegen. Asteroiden, die einem Planeten auf seinem Orbit entweder vorauseilen oder ihm nachfolgen, nennt man ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Trojaner'
+          ),
+          '. Die meisten sind bislang auf der Jupiterbahn bekannt. Nur Merkur und Saturn scheinen keine Trojaner zu besitzen.'
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Noch weit außerhalb des Neptunorbits, liegt der ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Kuipergürtel'
+          ),
+          ', eine ringförmige Region mit tausenden meist kleinen, aber auch bis zu mehreren hundert Kilometern großen Objekten, so auch Pluto. Am äußeren Rand unseres Sonnensystems befindet sich vermutlich dann die ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Oortsche Wolke'
+          ),
+          ', eine Ansammlung astronomischer Objekte in Form einer Kugelschale. Beide Regionen gelten als Ursprungsgebiete von ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Kometen'
+          ),
+          ', die auf hochelliptischen Bahnen durch das Sonnensystem ziehen. Wissenschaftler erhoffen sich aus der Untersuchung dieser "Schweifsterne" auch mit Raumsonden wie zum Beispiel ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Rosetta'
+          ),
+          ' genauere Erkenntnisse über die Entstehung unseres Systems.'
         ),
         _react2['default'].createElement(
           'h4',
@@ -36493,7 +36792,26 @@ var SolarSystemComponent = function SolarSystemComponent() {
         _react2['default'].createElement(
           'ul',
           { className: 'summary-list' },
-          _react2['default'].createElement('li', null)
+          _react2['default'].createElement(
+            'li',
+            null,
+            'Die Sonne macht 99,86 % der Gesamtmasse des Systems aus. Ihr Durchmesser ist 109-mal größer als der der Erde.'
+          ),
+          _react2['default'].createElement(
+            'li',
+            null,
+            'Der nächste Stern ist Proxima Centauri in ca. 4,22 Lichtjahren Entfernung. Alpha Centauri, das nächste System, ist 4,34 Lj entfernt.'
+          ),
+          _react2['default'].createElement(
+            'li',
+            null,
+            'Die Erde umrundet die Sonne in 365,256 Tagen mit durchschnittlich ca. 30 Kilometern pro Sekunde.'
+          ),
+          _react2['default'].createElement(
+            'li',
+            null,
+            'Auch Asteroiden und Zwergplaneten können Monde besitzen. Charon, Nix, Hydra, Kerberos und Styx umkreisen Pluto.'
+          )
         )
       )
     ),
@@ -37251,22 +37569,64 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'summary', className: 'stations pure-u-1 left' },
+      { id: 'summary', className: 'pure-u-1 left' },
       _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
       _react2['default'].createElement(
         'div',
-        { id: 'summaryContainer', className: 'stations visible' },
+        { id: 'summaryContainer', className: 'visible' },
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        ),
         _react2['default'].createElement(
           'div',
-          { className: 'summary-img float-left' },
+          { className: 'summary-img' },
           _react2['default'].createElement(
             'a',
-            { href: '/img/spacestations/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/spacestations/1_sm.jpg', alt: 'Bildbeschreibung' })
+            { href: '/img/stars/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/stars/1_sm.jpg', alt: 'Bildbeschreibung' })
           ),
-          _react2['default'].createElement('p', { className: 'summary-img-src small' })
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-img-text small' },
+            'Bildbeschreibung'
+          )
         ),
-        _react2['default'].createElement('p', { className: 'summary-text' }),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        ),
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/stars/2_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/stars/2_sm.jpg', alt: 'Bildbeschreibung' })
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-img-text small' },
+            'Bildbeschreibung'
+          )
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        ),
         _react2['default'].createElement(
           'h4',
           null,
@@ -37275,7 +37635,11 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
         _react2['default'].createElement(
           'ul',
           { className: 'summary-list' },
-          _react2['default'].createElement('li', null)
+          _react2['default'].createElement(
+            'li',
+            null,
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+          )
         )
       )
     ),
@@ -37507,22 +37871,64 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'summary', className: 'spacetelecopes pure-u-1 left' },
+      { id: 'summary', className: 'pure-u-1 left' },
       _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
       _react2['default'].createElement(
         'div',
-        { id: 'summaryContainer', className: 'spacetelecopes visible' },
+        { id: 'summaryContainer', className: 'visible' },
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        ),
         _react2['default'].createElement(
           'div',
-          { className: 'summary-img float-right' },
+          { className: 'summary-img' },
           _react2['default'].createElement(
             'a',
-            { href: '/img/spacetelecopes/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/spacetelecopes/1_sm.jpg', alt: 'Bildbeschreibung' })
+            { href: '/img/stars/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/stars/1_sm.jpg', alt: 'Bildbeschreibung' })
           ),
-          _react2['default'].createElement('p', { className: 'summary-img-src small' })
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-img-text small' },
+            'Bildbeschreibung'
+          )
         ),
-        _react2['default'].createElement('p', { className: 'summary-text' }),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        ),
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/stars/2_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/stars/2_sm.jpg', alt: 'Bildbeschreibung' })
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-img-text small' },
+            'Bildbeschreibung'
+          )
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        ),
         _react2['default'].createElement(
           'h4',
           null,
@@ -37531,7 +37937,11 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
         _react2['default'].createElement(
           'ul',
           { className: 'summary-list' },
-          _react2['default'].createElement('li', null)
+          _react2['default'].createElement(
+            'li',
+            null,
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+          )
         )
       )
     ),
@@ -37821,11 +38231,11 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'summary', className: 'spacewalks pure-u-1 left' },
+      { id: 'summary', className: 'pure-u-1 left' },
       _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
       _react2['default'].createElement(
         'div',
-        { id: 'summaryContainer', className: 'spacewalks visible' },
+        { id: 'summaryContainer', className: 'visible' },
         _react2['default'].createElement(
           'p',
           { className: 'summary-text' },
@@ -37850,16 +38260,16 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
         ),
         _react2['default'].createElement(
           'div',
-          { className: 'summary-img float-right' },
+          { className: 'summary-img float-right size-xl' },
           _react2['default'].createElement(
             'a',
-            { href: '/img/spacewalks/eva2_lg.jpg', title: 'Buzz Aldrin auf dem Mond' },
-            _react2['default'].createElement('img', { src: '/img/spacewalks/eva2_sm.jpg', alt: 'Großansicht' })
+            { href: '/img/spacewalks/eva2_lg.jpg', title: 'Buzz Aldrin auf dem Mond - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/spacewalks/eva2_sm.jpg', alt: 'Buzz Aldrin auf dem Mond' })
           ),
           _react2['default'].createElement(
             'p',
-            { className: 'summary-img-src small' },
-            'NASA'
+            { className: 'summary-img-text small' },
+            'Buzz Aldrin, Mond'
           )
         ),
         _react2['default'].createElement(
@@ -37880,16 +38290,16 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
         ),
         _react2['default'].createElement(
           'div',
-          { className: 'summary-img float-left' },
+          { className: 'summary-img float-left size-lg' },
           _react2['default'].createElement(
             'a',
-            { href: '/img/spacewalks/eva4_lg.jpg', title: 'Juri Onufrijenko an der Raumstation Mir' },
-            _react2['default'].createElement('img', { src: '/img/spacewalks/eva4_sm.jpg', alt: 'Großansicht' })
+            { href: '/img/spacewalks/eva4_lg.jpg', title: 'Juri Onufrijenko an der Raumstation Mir - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/spacewalks/eva4_sm.jpg', alt: 'Juri Onufrijenko an der Raumstation Mir' })
           ),
           _react2['default'].createElement(
             'p',
-            { className: 'summary-img-src small' },
-            'NASA'
+            { className: 'summary-img-text small' },
+            'Juri Onufrijenko, Mir'
           )
         ),
         _react2['default'].createElement(
@@ -37931,13 +38341,13 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
           { className: 'summary-img float-right' },
           _react2['default'].createElement(
             'a',
-            { href: '/img/spacewalks/eva3_lg.jpg', title: 'Missionslogo von Woschod 2' },
-            _react2['default'].createElement('img', { src: '/img/spacewalks/eva3_sm.jpg', alt: 'Großansicht' })
+            { href: '/img/spacewalks/eva3_lg.jpg', title: 'Missionslogo von Woschod 2 - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/spacewalks/eva3_sm.jpg', alt: 'Missionslogo von Woschod 2' })
           ),
           _react2['default'].createElement(
             'p',
-            { className: 'summary-img-src small' },
-            'Quelle unbekannt'
+            { className: 'summary-img-text small' },
+            'Logo von Woschod 2'
           )
         ),
         _react2['default'].createElement(
@@ -38240,22 +38650,64 @@ var StarsComponent = function StarsComponent(_ref) {
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'summary', className: 'stars pure-u-1 left' },
+      { id: 'summary', className: 'pure-u-1 left' },
       _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
       _react2['default'].createElement(
         'div',
-        { id: 'summaryContainer', className: 'stars visible' },
+        { id: 'summaryContainer', className: 'visible' },
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        ),
         _react2['default'].createElement(
           'div',
-          { className: 'summary-img float-left' },
+          { className: 'summary-img' },
           _react2['default'].createElement(
             'a',
             { href: '/img/stars/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
             _react2['default'].createElement('img', { src: '/img/stars/1_sm.jpg', alt: 'Bildbeschreibung' })
           ),
-          _react2['default'].createElement('p', { className: 'summary-img-src small' })
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-img-text small' },
+            'Bildbeschreibung'
+          )
         ),
-        _react2['default'].createElement('p', { className: 'summary-text' }),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        ),
+        _react2['default'].createElement(
+          'div',
+          { className: 'summary-img' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/img/stars/2_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+            _react2['default'].createElement('img', { src: '/img/stars/2_sm.jpg', alt: 'Bildbeschreibung' })
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-img-text small' },
+            'Bildbeschreibung'
+          )
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-text' },
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        ),
         _react2['default'].createElement(
           'h4',
           null,
@@ -38264,7 +38716,11 @@ var StarsComponent = function StarsComponent(_ref) {
         _react2['default'].createElement(
           'ul',
           { className: 'summary-list' },
-          _react2['default'].createElement('li', null)
+          _react2['default'].createElement(
+            'li',
+            null,
+            'Alle von der Erde aus mit bloßem Auge sichtbaren Sterne gehören zu unserer Heimatgalaxie, der Milchstraße.'
+          )
         )
       )
     ),
