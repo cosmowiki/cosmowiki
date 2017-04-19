@@ -136,7 +136,7 @@ const SolarSystemComponent = () => {
               Entfernung. Alpha Centauri, das nächste System, ist 4,34 Lj entfernt.
             </li>
             <li>
-              Die Erde umrundet die Sonne in 365,256 Tagen mit durchschnittlich 
+              Die Erde umrundet die Sonne in 365,256 Tagen mit durchschnittlich
               ca. 30 Kilometern pro Sekunde.
             </li>
             <li>
