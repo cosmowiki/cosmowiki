@@ -34135,7 +34135,7 @@ var ChronicleComponent = (function (_React$Component) {
             ),
             _react2['default'].createElement(
               'div',
-              { className: 'summary-img float-right size-lg' },
+              { className: 'summary-img float-right size-xl' },
               _react2['default'].createElement(
                 'a',
                 { href: '/img/events/herschel_telescope_lg.jpg', title: 'Wilhelm Herschels 40-Fuß-Teleskop - Großansicht' },
