@@ -67,7 +67,7 @@ export default class ChronicleComponent extends React.Component {
               und Mondphasen, das Erscheinen von besonders hellen Planeten, Sternen
               und deren Konstellationen bildeten die Grundlagen für die ersten Kalender.
             </p>
-            <div className="summary-img float-right size-lg">
+            <div className="summary-img float-right size-xl">
               <a href="/img/events/herschel_telescope_lg.jpg" title="Wilhelm Herschels 40-Fuß-Teleskop - Großansicht">
                 <img src="/img/events/herschel_telescope_sm.jpg" alt="Wilhelm Herschels 40-Fuß-Teleskop" />
               </a>
