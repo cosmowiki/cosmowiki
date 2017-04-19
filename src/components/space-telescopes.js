@@ -13,21 +13,60 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
         <p>@wolfram pls edit the month in endDate to appear as word when there is no endday (enable for all dates in all pages)</p>
         <p>@Wolfram pls make the #summaryToggleSwitch work.</p>
       </div>
-      <div id="summary" className="spacetelecopes pure-u-1 left">
+      <div id="summary" className="pure-u-1 left">
         <a id="summaryToggleSwitch" className="expanded" href="#" title="Artikel anzeigen / schließen"></a>
-        <div id="summaryContainer" className="spacetelecopes visible">
-          <div className="summary-img float-right">
-            <a href="/img/spacetelecopes/1_lg.jpg" title="Bildbeschreibung - Großansicht">
-              <img src="/img/spacetelecopes/1_sm.jpg" alt="Bildbeschreibung" />
+        <div id="summaryContainer" className="visible">
+          <p className="summary-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+          <div className="summary-img">
+            <a href="/img/stars/1_lg.jpg" title="Bildbeschreibung - Großansicht">
+              <img src="/img/stars/1_sm.jpg" alt="Bildbeschreibung" />
             </a>
-            <p className="summary-img-src small"></p>
+            <p className="summary-img-text small">
+              Bildbeschreibung
+            </p>
           </div>
           <p className="summary-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+          <p className="summary-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+          <div className="summary-img">
+            <a href="/img/stars/2_lg.jpg" title="Bildbeschreibung - Großansicht">
+              <img src="/img/stars/2_sm.jpg" alt="Bildbeschreibung" />
+            </a>
+            <p className="summary-img-text small">
+              Bildbeschreibung
+            </p>
+          </div>
+          <p className="summary-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+          <p className="summary-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
           </p>
           <h4>Wussten Sie schon?</h4>
           <ul className="summary-list">
             <li>
-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.
             </li>
           </ul>
         </div>

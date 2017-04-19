@@ -11,9 +11,9 @@ const SpacewalksComponent = ({spacewalks}) => {
       <div id="todo" className="pure-u-1">
         <p>@Wolfram pls make the #summaryToggleSwitch work.</p>
       </div>
-      <div id="summary" className="spacewalks pure-u-1 left">
+      <div id="summary" className="pure-u-1 left">
         <a id="summaryToggleSwitch" className="expanded" href="#" title="Artikel anzeigen / schließen"></a>
-        <div id="summaryContainer" className="spacewalks visible">
+        <div id="summaryContainer" className="visible">
           <p className="summary-text">
             <i>Der Weltraumausstieg</i>, auch <i>EVA</i> (extra-vehicular activity = Außenbordaktivität)
             oder <i>spacewalk</i> genannt, ist ein Begriff für den Aufenthalt von
@@ -22,11 +22,13 @@ const SpacewalksComponent = ({spacewalks}) => {
             Er wird meist für Arbeiten an einem Raumfahrzeug, zu wissenschaftlichen
             Zwecken oder zur Erprobung neuer Techniken durchgeführt.
           </p>
-          <div className="summary-img float-right">
-            <a href="/img/spacewalks/eva2_lg.jpg" title="Buzz Aldrin auf dem Mond">
-              <img src="/img/spacewalks/eva2_sm.jpg" alt="Großansicht" />
+          <div className="summary-img float-right size-xl">
+            <a href="/img/spacewalks/eva2_lg.jpg" title="Buzz Aldrin auf dem Mond - Großansicht">
+              <img src="/img/spacewalks/eva2_sm.jpg" alt="Buzz Aldrin auf dem Mond" />
             </a>
-            <p className="summary-img-src small">NASA</p>
+            <p className="summary-img-text small">
+              Buzz Aldrin, Mond
+            </p>
           </div>
           <p className="summary-text">
             Die Raumfahrer sind hierbei nur durch einen speziellen Raumanzug vor
@@ -39,11 +41,13 @@ const SpacewalksComponent = ({spacewalks}) => {
             vollständig abhängig vom den Systemen des Raumanzugs und assistiert
             einem weiteren Raumfahrer bei dessen EVA oder filmt ihn dabei.
           </p>
-          <div className="summary-img float-left">
-            <a href="/img/spacewalks/eva4_lg.jpg" title="Juri Onufrijenko an der Raumstation Mir">
-              <img src="/img/spacewalks/eva4_sm.jpg" alt="Großansicht" />
+          <div className="summary-img float-left size-lg">
+            <a href="/img/spacewalks/eva4_lg.jpg" title="Juri Onufrijenko an der Raumstation Mir - Großansicht">
+              <img src="/img/spacewalks/eva4_sm.jpg" alt="Juri Onufrijenko an der Raumstation Mir" />
             </a>
-            <p className="summary-img-src small">NASA</p>
+            <p className="summary-img-text small">
+              Juri Onufrijenko, Mir
+            </p>
           </div>
           <p className="summary-text">
             Wirklich freie Aufenthalte im All ohne Sicherungsleine wurden mit der <i>Manned Maneuvering Unit (MMU)</i>,
@@ -58,10 +62,12 @@ const SpacewalksComponent = ({spacewalks}) => {
             Kamera an der Außenseite des Raumschiffs übertrug das historische Ereignis.
           </p>
           <div className="summary-img float-right">
-            <a href="/img/spacewalks/eva3_lg.jpg" title="Missionslogo von Woschod 2">
-              <img src="/img/spacewalks/eva3_sm.jpg" alt="Großansicht" />
+            <a href="/img/spacewalks/eva3_lg.jpg" title="Missionslogo von Woschod 2 - Großansicht">
+              <img src="/img/spacewalks/eva3_sm.jpg" alt="Missionslogo von Woschod 2" />
             </a>
-            <p className="summary-img-src small">Quelle unbekannt</p>
+            <p className="summary-img-text small">
+              Logo von Woschod 2
+            </p>
           </div>
           <p className="summary-text">
             Bei der Rückkehr in das Raumschiff ergaben sich große Schwierigkeiten,

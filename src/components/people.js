@@ -17,9 +17,9 @@ const PeopleComponent = ({groupedPeople}) => {
         <p>@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens</p>
         <p>@Wolfram pls make the #summaryToggleSwitch work.</p>
       </div>
-      <div id="summary" className="persons pure-u-1 left">
+      <div id="summary" className="pure-u-1 left">
         <a id="summaryToggleSwitch" className="expanded" href="#" title="Artikel anzeigen / schließen"></a>
-        <div id="summaryContainer" className="persons visible">
+        <div id="summaryContainer" className="visible">
           <p className="summary-text">
             Naturwissenschaftler und Raumfahrer – seit Jahrtausenden entdecken und
             erobern sie neue Welten und Räume, sie erkennen Zusammenhänge und Naturgesetze.
@@ -29,6 +29,9 @@ const PeopleComponent = ({groupedPeople}) => {
             <a href="/img/persons/claudius_ptolemaeus_lg.jpg" title="Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch - Großansicht">
               <img src="/img/persons/claudius_ptolemaeus_sm.jpg" alt="Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch" />
             </a>
+            <p className="summary-img-text small">
+              Claudius Ptolemäus
+            </p>
           </div>
           <p className="summary-text">
             Aus Schamanen und Priestern wurden Astrologen und Philosophen, später
@@ -50,6 +53,9 @@ const PeopleComponent = ({groupedPeople}) => {
           </p>
           <div className="summary-img full-width center">
             <img src="/img/persons/people_collage.jpg" alt="Collage berühmter Personen" />
+            <p className="summary-img-text small">
+              Aristoteles, A. Shepard, I. Newton, E. Halley, V. Tereschkowa, A. Einstein, N. Kopernikus, J. Gagarin, G. Galilei, S. Hawking, T. Brahe, N. Armstrong
+            </p>
           </div>
           <p className="summary-text">
             Mit ihren Leistungen schreiben sie sich in die Geschichtsbücher ein.
@@ -57,10 +63,13 @@ const PeopleComponent = ({groupedPeople}) => {
             Größten zu Ehren errichten wir Monumente und benennen Universitäten und
             Mondkrater nach diesen Giganten der Wissenschaft.
           </p>
-          <div className="summary-img float-left size-md">
+          <div className="summary-img float-left size-lg">
             <a href="/img/persons/Challenger_STS51L_crew_lg.jpg" title="Crew der Challenger STS-51-L - Großansicht">
               <img src="/img/persons/Challenger_STS51L_crew_sm.jpg" alt="Crew der Challenger STS-51-L" />
             </a>
+            <p className="summary-img-text small">
+              Crew der Challenger STS-51-L
+            </p>
           </div>
           <p className="summary-text">
             Doch aus dem Fall eines Apfels ein Naturgesetz abzuleiten oder mit akribischer
@@ -72,7 +81,8 @@ const PeopleComponent = ({groupedPeople}) => {
             Institute und Raumfahrtorganisationen auf der ganzen Welt ringen um
             Nachwuchs. Die nächsten Ingenieure und Wissenschaftler der MINT-Disziplinen
             werden die Antriebe der Zukunft entwickeln und die Geheimnisse der Dunklen
-            Materie entschlüsseln, kommende Raumfahrer werden auf dem Mars landen. <b>Jeder Einzelne zählt!</b>
+            Materie entschlüsseln, die Raumfahrer von morgen werden auf dem Mars landen.<br />
+            <b>Jeder Einzelne zählt!</b>
           </p>
           <h4>Wussten Sie schon?</h4>
           <ul className="summary-list">

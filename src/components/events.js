@@ -36,21 +36,23 @@ export default class ChronicleComponent extends React.Component {
           <p>@wolfram pls hide the img src="//de.wikipedia.org/wiki/Special:CentralAuto..." on bottom of embedded article in vcard</p>
           <p>@Wolfram pls make the #summaryToggleSwitch work.</p>
         </div>
-        <div id="summary" className="events pure-u-1 left">
+        <div id="summary" className="pure-u-1 left">
           <a id="summaryToggleSwitch" className="expanded" href="#" title="Artikel anzeigen / schließen"></a>
-          <div id="summaryContainer" className="events visible">
+          <div id="summaryContainer" className="visible">
             <p className="summary-text">
               Seit Jahrtausenden blicken wir in den Himmel und versuchen zu ergründen,
               was uns umgibt und woher wir kommen. Auch die frühen Menschen stellten
               sich wohl schon die größte aller Fragen:<br />
               <i>Was ist dort draußen?</i>
             </p>
-            <div className="summary-img float-left">
+            <div className="summary-img float-left size-md">
               <a href="/img/events/nebra_lg.jpg" title="Himmelsscheibe von Nebra - Großansicht">
                 <img src="/img/events/nebra_sm.jpg" alt="Himmelsscheibe von Nebra" />
               </a>
-              <p className="summary-img-src small">
-                Dbachmann<br /><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="CC BY-SA 3.0">CC BY-SA 3.0</a>
+              <p className="summary-img-text small">
+                Himmelsscheibe<br />
+                Quelle: Dbachmann<br />
+                <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="CC BY-SA 3.0">CC BY-SA 3.0</a>
               </p>
             </div>
             <p className="summary-text">
@@ -69,6 +71,9 @@ export default class ChronicleComponent extends React.Component {
               <a href="/img/events/herschel_telescope_lg.jpg" title="Wilhelm Herschels 40-Fuß-Teleskop - Großansicht">
                 <img src="/img/events/herschel_telescope_sm.jpg" alt="Wilhelm Herschels 40-Fuß-Teleskop" />
               </a>
+              <p className="summary-img-text small">
+                Herschels 40-Fuß-Teleskop
+              </p>
             </div>
             <p className="summary-text">
               Seefahrer und Händler teilten die Beobachtungen, die sie auf ihren
@@ -92,6 +97,9 @@ export default class ChronicleComponent extends React.Component {
               <a href="/img/events/Columbia_sts-1_lg.jpg" title="Space Shuttle Columbia STS-1 - Großansicht">
                 <img src="/img/events/Columbia_sts-1_sm.jpg" alt="Space Shuttle Columbia STS-1" />
               </a>
+              <p className="summary-img-text small">
+                Space Shuttle Columbia, STS-1
+              </p>
             </div>
             <p className="summary-text">
               Doch der Mensch wollte den Himmel nicht nur betrachten, er wollte ihn

@@ -13,19 +13,22 @@ const ConstellationsComponent = ({constellations}) => {
         <p>@all open the large constellation image in a pop-up?</p>
         <p>@Wolfram pls make the #summaryToggleSwitch work.</p>
       </div>
-      <div id="summary" className="constellations pure-u-1 left">
+      <div id="summary" className="pure-u-1 left">
         <a id="summaryToggleSwitch" className="expanded" href="#" title="Artikel anzeigen / schließen"></a>
-        <div id="summaryContainer" className="constellations visible">
+        <div id="summaryContainer" className="visible">
           <p className="summary-text">
             <i>Orion</i>, <i>Kassiopeia</i> oder die <i>Zwillinge</i> Castor und Pollux -
             wir alle kennen mindestens ein Sternbild (Konstellation) und können es
             aus dem Stehgreif am Nachthimmel finden. Die Figuren weisen seit Jahrhunderten
             Reisenden den Weg.
           </p>
-          <div className="summary-img size-md">
+          <div className="summary-img size-lg">
             <a href="/img/constellations/Ursa_Major_(Bode).jpg" title="Großer Bär, Kupferstich aus dem Sternatlas von Johann Elert Bode - Großansicht">
               <img src="/img/constellations/Ursa_Major_(Bode).jpg" alt="Großer Bär, Kupferstich aus dem Sternatlas von Johann Elert Bode" />
             </a>
+            <p className="summary-img-text small">
+              Großer Bär, Johann Elert Bode
+            </p>
           </div>
           <p className="summary-text">
             Auf der Nordhalbkugel helfen <i>Großer Wagen</i> und <i>Kleiner Wagen</i> den
@@ -33,10 +36,13 @@ const ConstellationsComponent = ({constellations}) => {
             Sternbild ist, sondern nur ein Teil des <i>Großen Bären</i>. Auch die Kassiopeia,
             das "Himmels-W" zieht nach Norden hin geöffnet am Firmament entlang.
           </p>
-          <div className="summary-img size-md">
+          <div className="summary-img size-lg">
             <a href="/img/constellations/Dunhuang_star_map_lg.jpg" title="Sternenkarte von Dunhuang, China - Großansicht">
               <img src="/img/constellations/Dunhuang_star_map_sm.jpg" alt="Sternenkarte von Dunhuang, China" />
             </a>
+            <p className="summary-img-text small">
+              Dunhuang Sternenkarte
+            </p>
           </div>
           <p className="summary-text">
             Die Bewohner der südlichen Hemisphäre orientieren sich am <i>Kreuz des Südens</i>, dessen
@@ -58,6 +64,10 @@ const ConstellationsComponent = ({constellations}) => {
             <a href="/img/constellations/Planisphaerium_Coeleste_lg.jpg" title="Planisphaerium Coeleste von Georg Christoph Eimmart, 1705 - Großansicht">
               <img src="/img/constellations/Planisphaerium_Coeleste_sm.jpg" alt="Planisphaerium Coeleste von Georg Christoph Eimmart, 1705" />
             </a>
+            <p className="summary-img-text small">
+              Planisphaerium Coeleste,<br />
+              Georg Christoph Eimmart
+            </p>
           </div>
           <p className="summary-text">
             <i>Johann Bayer</i> übernahm dann 1603 in seiner <i>Uranometria</i> einige
@@ -78,6 +88,9 @@ const ConstellationsComponent = ({constellations}) => {
             <a href="/img/constellations/Papua_New_Guinea_lg.png" title="Flagge von Papua Neuguinea - Großansicht">
               <img src="/img/constellations/Papua_New_Guinea_sm.png" alt="Flagge von Papua Neuguinea" />
             </a>
+            <p className="summary-img-text small">
+              Papua-Neuguinea
+            </p>
           </div>
           <p className="summary-text">
             Nach einem Vorschlag des amerikanischen Astronomen <i>Henry Norris Russell</i> legte

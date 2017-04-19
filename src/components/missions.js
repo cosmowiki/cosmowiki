@@ -14,14 +14,16 @@ const MissionsComponent = ({missions}) => {
         <p>@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens</p>
         <p>@Wolfram pls make the #summaryToggleSwitch work.</p>
       </div>
-      <div id="summary" className="missions pure-u-1 left">
+      <div id="summary" className="pure-u-1 left">
         <a id="summaryToggleSwitch" className="expanded" href="#" title="Artikel anzeigen / schließen"></a>
-        <div id="summaryContainer" className="missions visible">
-          <div className="summary-img float-right">
+        <div id="summaryContainer" className="visible">
+          <div className="summary-img">
             <a href="/img/missions/1_lg.jpg" title="Bildbeschreibung - Großansicht">
               <img src="/img/missions/1_sm.jpg" alt="Bildbeschreibung" />
             </a>
-            <p className="summary-img-src small"></p>
+            <p className="summary-img-text small">
+              Bildbeschreibung
+            </p>
           </div>
           <p className="summary-text">
             Die Geschichte der Raumfahrt begann schon lange vor Sputnik 1. Die
@@ -37,6 +39,14 @@ const MissionsComponent = ({missions}) => {
             wie auch die erste funktionsfähigen Großrakete <i>Aggregat 4</i> (V2)
             waren rein zu kriegerischen Zwecken entwickelt worden.
           </p>
+          <div className="summary-img">
+            <a href="/img/missions/2_lg.jpg" title="Bildbeschreibung - Großansicht">
+              <img src="/img/missions/2_sm.jpg" alt="Bildbeschreibung" />
+            </a>
+            <p className="summary-img-text small">
+              Bildbeschreibung
+            </p>
+          </div>
           <h4>Wussten Sie schon?</h4>
           <ul className="summary-list">
             <li>
