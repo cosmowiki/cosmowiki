@@ -21,7 +21,7 @@
 #about button {display: block; margin-bottom: 1em;}
 #about input,
 #about textarea,
-#about button {background: #fff; border: 1px solid #99f; border-radius: 5px;}
+#about button {background: #fff; border: 1px solid #aaf; border-radius: 5px;}
 #about button {color: #55f;}
 #about button:focus,
 #about button:hover,

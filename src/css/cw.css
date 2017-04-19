@@ -80,11 +80,11 @@ img#CosmoWikiIcon {display: block; margin: 5px; height: 30px;}
 #searchSubmit {
 	line-height:20px; font-size: 16px;
 	background:#fff; box-shadow:none;
-	border:1px solid #99f; border-radius: 5px;
+	border:1px solid #aaf; border-radius: 5px;
 }
 #searchSubmit {
 	width:30px; padding: 2px; cursor:pointer;
-	color:#99f; font-weight: bold;
+	color:#aaf; font-weight: bold;
 }
 #searchSubmit:hover,
 #searchSubmit:active,
@@ -154,7 +154,7 @@ main {background: rgba(255,255,255,.8); border-bottom: 1em solid #eee;}
 #summaryToggleSwitch.collapsed {text-align: center;}
 #summaryToggleSwitch.collapsed:after {content: '\25BE';}
 
-#summaryContainer {padding: 0 .25em 0; border-bottom: 1em solid #99f;}
+#summaryContainer {padding: 0 .25em 0; border-bottom: 1em solid #aaf;}
 .summary-text,
 div.summary-img.full-width,
 #summaryContainer h1,
@@ -174,9 +174,11 @@ div.summary-img.full-width,
 .summary-img.float-right {float: right; margin: 0 0 0 .5em;}
 .summary-img.full-width {float: none; margin: auto;}
 .summary-img img {display: block; height: 6em;}
-.summary-img.size-lg img {height: 9em;}
-.summary-img.size-md img {height: 7em;}
+.summary-img.size-xs img {height: 4em;}
 .summary-img.size-sm img {height: 5em;}
+.summary-img.size-md img {height: 7em;}
+.summary-img.size-lg img {height: 8em;}
+.summary-img.size-xl img {height: 9em;}
 .summary-img.full-width img {width: 100%; height: auto;}
 
 .summary-text:nth-of-type(odd) {text-indent: 1em;}
@@ -283,7 +285,7 @@ div.summary-img.full-width,
 
 /*	Footer ------------------------------------------------------------------ */
 
-footer {background: #f8f8f8; border-top: 1em solid #99f;}
+footer {background: #f8f8f8; border-top: 1em solid #aaf;}
 #footerContainer {
 	padding: 0;
 	border-top: 1px solid #fff;	border-bottom: 1px solid #ddd;
