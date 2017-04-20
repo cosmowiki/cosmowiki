@@ -158,8 +158,9 @@ main {background: rgba(255,255,255,.8); border-bottom: 1em solid #eee;}
 .summary-text,
 div.summary-img.full-width,
 div.summary-img.half-width,
-#summaryContainer h4,
-#summaryContainer ul {margin-bottom: 1em;}
+#summary h4,
+#summary ul {margin-bottom: 1em;}
+#summary h4 {padding-left: .5em;}
 
 .summary-img {padding: 2px;	border: 1px solid #55f;}
 .summary-img:focus,
