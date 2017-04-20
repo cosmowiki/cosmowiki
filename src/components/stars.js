@@ -22,50 +22,80 @@ const StarsComponent = ({groupedStars, constellations}) => {
         <a id="summaryToggleSwitch" className="expanded" href="#" title="Artikel anzeigen / schließen"></a>
         <div id="summaryContainer" className="visible">
           <p className="summary-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
+            Sie sind kleine helle Punkte am Nachthimmel und dennoch ist alles an ihnen gigantisch - Größe, Masse und Temperatur.
+            Sie sind riesige und unglaublich heiße Kraftwerke - Sterne.
+            Die Oberflächentemperaturen der meisten Sterne reichen von etwa 2200 K bis 45000 K, ihre Massen von 0,07 bis 120 Sonnenmassen und ihre Radien von 0,1 bis 25 Sonnenradien.
           </p>
-          <div className="summary-img">
-            <a href="/img/stars/1_lg.jpg" title="Bildbeschreibung - Großansicht">
-              <img src="/img/stars/1_sm.jpg" alt="Bildbeschreibung" />
+          <div className="summary-img size-sm">
+            <a href="/img/stars/star-sizes_lg.jpg" title="Größenvergleich - Großansicht">
+              <img src="/img/stars/star-sizes_sm.jpg" alt="Größenvergleich" />
             </a>
-            <p className="summary-img-text small">
-              Bildbeschreibung
+            <p className="summary-img-text">
+              Größenvergleich<br />
+              Quelle: <a href="http://www.davidjarvis.ca/" title="Dave Jarvis">Dave Jarvis</a><br />
+              <a href="http://creativecommons.org/licenses/by-sa/3.0" title="CC-BY-SA 3.0">CC-BY-SA 3.0</a>
             </p>
           </div>
           <p className="summary-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
-          </p>
-          <p className="summary-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
+            In ihnen liefert die stellare Kernfusion durch die Verschmelzung von zumeist Wasserstoff zu Helium gewaltige Energiemengen, die ebenso wie ihre kräftigen Magnetfelder weit ins All hinein wirken. Auf den umlaufenden Planeten können sie dadurch Leben ermöglichen oder auch dauerhaft verhindern.
+            Sonnensysteme mit nur einem Zentralstern wie das unsere sind eher die Seltenheit. Schätzungsweise zwei Drittel aller Sterne haben einen oder sogar mehrere Geschwister, die oft um ein gemeinsames Zentrum kreisen.
           </p>
           <div className="summary-img">
-            <a href="/img/stars/2_lg.jpg" title="Bildbeschreibung - Großansicht">
-              <img src="/img/stars/2_sm.jpg" alt="Bildbeschreibung" />
+            <a href="/img/stars/cluster_ngc1783_lg.jpg" title="Sternhaufen NGC 1783 - Großansicht">
+              <img src="/img/stars/cluster_ngc1783_sm.jpg" alt="Sternhaufen NGC 1783" />
             </a>
-            <p className="summary-img-text small">
-              Bildbeschreibung
+            <p className="summary-img-text">
+              Sternhaufen NGC 1783<br />
+              Quelle: ESA/Hubble & NASA<br />
+              <a href="https://creativecommons.org/licenses/by/4.0/" title="CC-BY 4.0">CC-BY 4.0</a>
             </p>
           </div>
           <p className="summary-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
+            Auch in kosmischen Dimensionen gesehen sind Sterne selten Einzelgänger.
+            Sie konzentrieren sich in Sternhaufen und zu Millionen oder sogar Milliarden in Galaxien, die widerum in Haufen auftreten.
+            Astronomen schätzen die Zahl der Sterne im sichtbaren Universum auf etwa 70 Trilliarden.
+            In unserer Heimatgalaxie, der Milchstraße, existieren ca. 100 Milliarden Sonnen.
           </p>
           <p className="summary-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
+            Mit bloßem Auge sind von der Erde aus höchstens 5000 bis 6000 Sterne zu erkennen.
+            Der Mensch sah in ihnen Götter, er verband sie zu Sternbildern und nutzt sie bis heute zur Navigation.
+            Die ersten Namen von Sternen, die heute noch gebräuchlich sind, stammen oft aus der arabischen oder griechisch-hellenistischen Antike, so zum Beispiel Beteigeuze oder Sirius.
+            Neuere Bezeichnungen entstanden mit der Erstellung großer Himmelsatlanten und Sternenkataloge, wie der Uranometria von Johann Bayer (1603) oder dem Hipparcos-Katalog (HIP).
+          </p>
+          <div className="summary-img size-md">
+            <a href="/img/stars/E-ELT_lg.jpg" title="European Extremely Large Telescope - Großansicht">
+              <img src="/img/stars/E-ELT_sm.jpg" alt="European Extremely Large Telescope" />
+            </a>
+            <p className="summary-img-text">
+              European Extremely Large Telescope<br />
+              Quelle: ESO, <a href="https://creativecommons.org/licenses/by/4.0/" title="CC-BY 4.0">CC-BY 4.0</a>
+            </p>
+          </div>
+          <p className="summary-text">
+            Von der Frühgeschichte des Menschen bis heute beobachten, katalogisieren und vermessen wir also Sterne.
+            Schon im Altertum wurden dazu von China über Ägypten bis nach Südamerika große Observatorien errichtet.
+            Heute bauen wir riesige Radioteleskope, wie zum Beispiel das Very Large Array (VLA) in New Mexico,
+            oder wir schicken Weltraumteleskope ins All, die Röntgenstrahlen, Mikrowellen
+            oder einen großen Bereich des Lichtspektrums beobachten können, wie das Hubble Space Telescope (HST).
+          </p>
+          <div className="summary-img size-xl">
+            <a href="/img/stars/milky_way_center_lg.jpg" title="Zentrum der Milchstraße - Großansicht">
+              <img src="/img/stars/milky_way_center_sm.jpg" alt="Zentrum der Milchstraße" />
+            </a>
+            <p className="summary-img-text">
+              Zentrum der Milchstraße
+            </p>
+          </div>
+          <p className="summary-text">
+            Mit ihnen entstehen nicht nur phantastische Aufnahmen, die uns begeistern. Vor allem geht es um die Bestimmung von Eigenschaften wie Leuchtkraft und Alter, Größe, Masse, Zusammensetzung und Bewegung.
+            Der Lebenszyklus von Sternen kann heute schon gut beschrieben werden. Astronomen setzen die gewonnenen Informationen zueinander ins Verhältnis und teilen Sterne danach in verschiedene Klassen ein.
+            Daraus gingen wichtige Darstellungen wie beispielsweise das Hertzsprung-Russell-Diagramm (HDR) hervor, mit dem sich die Entwicklungszustände abbilden lassen.
+          </p>
+          <p className="summary-text">
+            Mittlerweile sind nicht nur massearme- und reiche, große und kleine, helle und weniger helle Sterne bekannt.
+            Drei verschiedene Sternenpopulationen, eingeteilt nach ihrer Lebensdauer in der Entwicklung des Universums, werden unterschieden.
+            Weiterhin differenziert man Sterne anhand ihres individuellen Alters, ihrer Zugehörigkeit zu Regionen und Sternhaufen, teilt sie in Größen- und Spektralklassen ein.
+            Ihre extremsten Erscheinungsformen und Phänomene, wie zum Beispiel Neutronensterne, Supernovae, Schwarze Löcher oder Pulsare geben den Forschern bis heute noch viele Rätsel auf und bleiben dadurch absolut spannend.
           </p>
           <h4>Wussten Sie schon?</h4>
           <ul className="summary-list">
