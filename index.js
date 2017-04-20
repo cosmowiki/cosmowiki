@@ -39109,6 +39109,21 @@ var StarsComponent = function StarsComponent(_ref) {
             'li',
             null,
             'Alle von der Erde aus mit bloßem Auge sichtbaren Sterne gehören zu unserer Heimatgalaxie, der Milchstraße.'
+          ),
+          _react2['default'].createElement(
+            'li',
+            null,
+            'Als aktuell größter bekannter Stern gilt der Rote Überriese UY Scuti im Sternbild Schild mit 1708 ± 192 Sonnenradien.'
+          ),
+          _react2['default'].createElement(
+            'li',
+            null,
+            'Der Stern Castor im Sternbild Zwillinge ist eigentlich ein System aus drei Sternpaaren, also sechs Sternen insgesamt.'
+          ),
+          _react2['default'].createElement(
+            'li',
+            null,
+            'Sirius, der schon vor 5000 Jahren in Ägypten eine kalendarische Funktion hatte, ist mit −1,46 mag der hellste Stern am Nachthimmel.'
           )
         )
       )
