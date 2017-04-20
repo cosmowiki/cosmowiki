@@ -22,11 +22,11 @@ const SpacewalksComponent = ({spacewalks}) => {
             Er wird meist für Arbeiten an einem Raumfahrzeug, zu wissenschaftlichen
             Zwecken oder zur Erprobung neuer Techniken durchgeführt.
           </p>
-          <div className="summary-img float-right size-xl">
-            <a href="/img/spacewalks/eva2_lg.jpg" title="Buzz Aldrin auf dem Mond - Großansicht">
-              <img src="/img/spacewalks/eva2_sm.jpg" alt="Buzz Aldrin auf dem Mond" />
+          <div className="summary-img float-right size-lg">
+            <a href="/img/spacewalks/buzz_aldrin_moon_lg.jpg" title="Buzz Aldrin auf dem Mond - Großansicht">
+              <img src="/img/spacewalks/buzz_aldrin_moon_sm.jpg" alt="Buzz Aldrin auf dem Mond" />
             </a>
-            <p className="summary-img-text small">
+            <p className="summary-img-text">
               Buzz Aldrin, Mond
             </p>
           </div>
@@ -41,11 +41,11 @@ const SpacewalksComponent = ({spacewalks}) => {
             vollständig abhängig vom den Systemen des Raumanzugs und assistiert
             einem weiteren Raumfahrer bei dessen EVA oder filmt ihn dabei.
           </p>
-          <div className="summary-img float-left size-lg">
-            <a href="/img/spacewalks/eva4_lg.jpg" title="Juri Onufrijenko an der Raumstation Mir - Großansicht">
-              <img src="/img/spacewalks/eva4_sm.jpg" alt="Juri Onufrijenko an der Raumstation Mir" />
+          <div className="summary-img float-left">
+            <a href="/img/spacewalks/juri_onufrijenko_mir_lg.jpg" title="Juri Onufrijenko an der Raumstation Mir - Großansicht">
+              <img src="/img/spacewalks/juri_onufrijenko_mir_sm.jpg" alt="Juri Onufrijenko an der Raumstation Mir" />
             </a>
-            <p className="summary-img-text small">
+            <p className="summary-img-text">
               Juri Onufrijenko, Mir
             </p>
           </div>
@@ -62,10 +62,10 @@ const SpacewalksComponent = ({spacewalks}) => {
             Kamera an der Außenseite des Raumschiffs übertrug das historische Ereignis.
           </p>
           <div className="summary-img float-right">
-            <a href="/img/spacewalks/eva3_lg.jpg" title="Missionslogo von Woschod 2 - Großansicht">
-              <img src="/img/spacewalks/eva3_sm.jpg" alt="Missionslogo von Woschod 2" />
+            <a href="/img/spacewalks/woschod_2_lg.jpg" title="Missionslogo von Woschod 2 - Großansicht">
+              <img src="/img/spacewalks/woschod_2_sm.jpg" alt="Missionslogo von Woschod 2" />
             </a>
-            <p className="summary-img-text small">
+            <p className="summary-img-text">
               Logo von Woschod 2
             </p>
           </div>

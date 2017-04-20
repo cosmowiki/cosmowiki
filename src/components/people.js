@@ -29,7 +29,7 @@ const PeopleComponent = ({groupedPeople}) => {
             <a href="/img/persons/claudius_ptolemaeus_lg.jpg" title="Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch - Großansicht">
               <img src="/img/persons/claudius_ptolemaeus_sm.jpg" alt="Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch" />
             </a>
-            <p className="summary-img-text small">
+            <p className="summary-img-text">
               Claudius Ptolemäus
             </p>
           </div>
@@ -53,7 +53,7 @@ const PeopleComponent = ({groupedPeople}) => {
           </p>
           <div className="summary-img full-width center">
             <img src="/img/persons/people_collage.jpg" alt="Collage berühmter Personen" />
-            <p className="summary-img-text small">
+            <p className="summary-img-text">
               Aristoteles, A. Shepard, I. Newton, E. Halley, V. Tereschkowa, A. Einstein, N. Kopernikus, J. Gagarin, G. Galilei, S. Hawking, T. Brahe, N. Armstrong
             </p>
           </div>
@@ -67,7 +67,7 @@ const PeopleComponent = ({groupedPeople}) => {
             <a href="/img/persons/Challenger_STS51L_crew_lg.jpg" title="Crew der Challenger STS-51-L - Großansicht">
               <img src="/img/persons/Challenger_STS51L_crew_sm.jpg" alt="Crew der Challenger STS-51-L" />
             </a>
-            <p className="summary-img-text small">
+            <p className="summary-img-text">
               Crew der Challenger STS-51-L
             </p>
           </div>

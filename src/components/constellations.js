@@ -26,7 +26,7 @@ const ConstellationsComponent = ({constellations}) => {
             <a href="/img/constellations/Ursa_Major_(Bode).jpg" title="Großer Bär, Kupferstich aus dem Sternatlas von Johann Elert Bode - Großansicht">
               <img src="/img/constellations/Ursa_Major_(Bode).jpg" alt="Großer Bär, Kupferstich aus dem Sternatlas von Johann Elert Bode" />
             </a>
-            <p className="summary-img-text small">
+            <p className="summary-img-text">
               Großer Bär, Johann Elert Bode
             </p>
           </div>
@@ -40,7 +40,7 @@ const ConstellationsComponent = ({constellations}) => {
             <a href="/img/constellations/Dunhuang_star_map_lg.jpg" title="Sternenkarte von Dunhuang, China - Großansicht">
               <img src="/img/constellations/Dunhuang_star_map_sm.jpg" alt="Sternenkarte von Dunhuang, China" />
             </a>
-            <p className="summary-img-text small">
+            <p className="summary-img-text">
               Dunhuang Sternenkarte
             </p>
           </div>
@@ -60,11 +60,11 @@ const ConstellationsComponent = ({constellations}) => {
             Jahre prägende Lehrbuch enthielt auch einen Sternenkatalog mit Angaben
             zu 1025 Sternen in 48 Sternbildern.
           </p>
-          <div className="summary-img size-md">
+          <div className="summary-img">
             <a href="/img/constellations/Planisphaerium_Coeleste_lg.jpg" title="Planisphaerium Coeleste von Georg Christoph Eimmart, 1705 - Großansicht">
               <img src="/img/constellations/Planisphaerium_Coeleste_sm.jpg" alt="Planisphaerium Coeleste von Georg Christoph Eimmart, 1705" />
             </a>
-            <p className="summary-img-text small">
+            <p className="summary-img-text">
               Planisphaerium Coeleste,<br />
               Georg Christoph Eimmart
             </p>
@@ -88,7 +88,7 @@ const ConstellationsComponent = ({constellations}) => {
             <a href="/img/constellations/Papua_New_Guinea_lg.png" title="Flagge von Papua Neuguinea - Großansicht">
               <img src="/img/constellations/Papua_New_Guinea_sm.png" alt="Flagge von Papua Neuguinea" />
             </a>
-            <p className="summary-img-text small">
+            <p className="summary-img-text">
               Papua-Neuguinea
             </p>
           </div>

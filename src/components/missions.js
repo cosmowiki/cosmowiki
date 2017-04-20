@@ -21,7 +21,7 @@ const MissionsComponent = ({missions}) => {
             <a href="/img/missions/1_lg.jpg" title="Bildbeschreibung - Großansicht">
               <img src="/img/missions/1_sm.jpg" alt="Bildbeschreibung" />
             </a>
-            <p className="summary-img-text small">
+            <p className="summary-img-text">
               Bildbeschreibung
             </p>
           </div>
@@ -43,7 +43,7 @@ const MissionsComponent = ({missions}) => {
             <a href="/img/missions/2_lg.jpg" title="Bildbeschreibung - Großansicht">
               <img src="/img/missions/2_sm.jpg" alt="Bildbeschreibung" />
             </a>
-            <p className="summary-img-text small">
+            <p className="summary-img-text">
               Bildbeschreibung
             </p>
           </div>

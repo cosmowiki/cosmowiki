@@ -22,11 +22,11 @@ const SolarSystemComponent = () => {
             Es ist diese Linie, oder besser gesagt Ebene, die den Wissenschaftlern
             den wohl wichtigsten Hinweis auf die mögliche Entstehungsgeschichte unseres Heimatsystems lieferte.
           </p>
-          <div className="summary-img float-left size-lg">
-            <a href="/img/solarsystem/orbits_lg.jpg" title="Umlaufbahnen - Großansicht">
-              <img src="/img/solarsystem/orbits_sm.jpg" alt="Umlaufbahnen" />
+          <div className="summary-img float-left size-xl">
+            <a href="/img/solarsystem/orbits_lg.jpg" title="die Ekliptik - Großansicht">
+              <img src="/img/solarsystem/orbits_sm.jpg" alt="die Ekliptik" />
             </a>
-            <p className="summary-img-text small">
+            <p className="summary-img-text">
               die Ekliptik
             </p>
           </div>
@@ -55,7 +55,7 @@ const SolarSystemComponent = () => {
           </p>
           <div className="summary-img full-width center">
             <img src="/img/solarsystem/solarsystem.jpg" alt="das Sonnensystem" />
-            <p className="summary-img-text small">
+            <p className="summary-img-text">
               Sonne, Merkur, Venus, Erde, Mars, Jupiter, Saturn, Uranus, Neptun - maßstabs,- aber nicht abstandsgetreu
             </p>
           </div>
@@ -70,11 +70,11 @@ const SolarSystemComponent = () => {
             Merkur und Venus besitzen keine Monde, während die Erde von einem, der Mars
             von zwei Trabanten (Phobos und Deimos) begleitet wird.
           </p>
-          <div className="summary-img float-right size-md">
+          <div className="summary-img float-right">
             <a href="/img/solarsystem/saturn_lg.jpg" title="Saturn - Großansicht">
               <img src="/img/solarsystem/saturn_sm.jpg" alt="Saturn" />
             </a>
-            <p className="summary-img-text small">
+            <p className="summary-img-text">
               Saturn mit Ringsystem, Quelle: NASA
             </p>
           </div>
@@ -93,7 +93,7 @@ const SolarSystemComponent = () => {
             <a href="/img/solarsystem/mainbelt_and_trojans.png" title="Trojaner - Großansicht">
               <img src="/img/solarsystem/mainbelt_and_trojans.png" alt="Trojaner" />
             </a>
-            <p className="summary-img-text small">
+            <p className="summary-img-text">
               Trojaner, Quelle: Rivi<br />
               <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="CC BY-SA 3.0">CC BY-SA 3.0</a>
             </p>
@@ -106,6 +106,16 @@ const SolarSystemComponent = () => {
             Größen (auch <i>Planetoiden</i> genannt) gekreuzt. Die meisten konzentrieren
             sich im Hauptgürtel zwischen Mars und Jupiter.
           </p>
+          <div className="summary-img size-sm">
+            <a href="/img/solarsystem/oort_cloud.jpg" title="Oortsche Wolke - Großansicht">
+              <img src="/img/solarsystem/oort_cloud.jpg" alt="Oortsche Wolke" />
+            </a>
+            <p className="summary-img-text">
+              Oortsche Wolke<br />
+              Quelle: Dr. H. Sulzer<br />
+              <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="CC BY-SA 3.0">CC BY-SA 3.0</a>
+            </p>
+          </div>
           <p className="summary-text">
             <i>Zentauren</i> werden Asteroiden genannt, die sich zwischen den Umlaufbahnen
             von Jupiter und Neptun um die Sonne bewegen. Asteroiden, die einem Planeten

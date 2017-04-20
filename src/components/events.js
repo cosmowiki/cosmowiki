@@ -49,7 +49,7 @@ export default class ChronicleComponent extends React.Component {
               <a href="/img/events/nebra_lg.jpg" title="Himmelsscheibe von Nebra - Großansicht">
                 <img src="/img/events/nebra_sm.jpg" alt="Himmelsscheibe von Nebra" />
               </a>
-              <p className="summary-img-text small">
+              <p className="summary-img-text">
                 Himmelsscheibe<br />
                 Quelle: Dbachmann<br />
                 <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="CC BY-SA 3.0">CC BY-SA 3.0</a>
@@ -71,7 +71,7 @@ export default class ChronicleComponent extends React.Component {
               <a href="/img/events/herschel_telescope_lg.jpg" title="Wilhelm Herschels 40-Fuß-Teleskop - Großansicht">
                 <img src="/img/events/herschel_telescope_sm.jpg" alt="Wilhelm Herschels 40-Fuß-Teleskop" />
               </a>
-              <p className="summary-img-text small">
+              <p className="summary-img-text">
                 Herschels 40-Fuß-Teleskop
               </p>
             </div>
@@ -97,7 +97,7 @@ export default class ChronicleComponent extends React.Component {
               <a href="/img/events/Columbia_sts-1_lg.jpg" title="Space Shuttle Columbia STS-1 - Großansicht">
                 <img src="/img/events/Columbia_sts-1_sm.jpg" alt="Space Shuttle Columbia STS-1" />
               </a>
-              <p className="summary-img-text small">
+              <p className="summary-img-text">
                 Space Shuttle Columbia, STS-1
               </p>
             </div>

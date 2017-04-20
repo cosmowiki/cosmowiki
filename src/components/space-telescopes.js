@@ -17,16 +17,13 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
         <a id="summaryToggleSwitch" className="expanded" href="#" title="Artikel anzeigen / schließen"></a>
         <div id="summaryContainer" className="visible">
           <p className="summary-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
+            Mit der Aufnahme "Hubble Ultra Deep Field" (HUDF) gelang der Blick in 13 Milliarden Lichtjahre entfernte Regionen des Weltraums und damit in eine Zeit, in der das Universum geade einmal 800 Millionen Jahre alt war.
           </p>
           <div className="summary-img">
             <a href="/img/stars/1_lg.jpg" title="Bildbeschreibung - Großansicht">
               <img src="/img/stars/1_sm.jpg" alt="Bildbeschreibung" />
             </a>
-            <p className="summary-img-text small">
+            <p className="summary-img-text">
               Bildbeschreibung
             </p>
           </div>
@@ -46,7 +43,7 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
             <a href="/img/stars/2_lg.jpg" title="Bildbeschreibung - Großansicht">
               <img src="/img/stars/2_sm.jpg" alt="Bildbeschreibung" />
             </a>
-            <p className="summary-img-text small">
+            <p className="summary-img-text">
               Bildbeschreibung
             </p>
           </div>
