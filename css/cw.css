@@ -160,7 +160,7 @@ div.summary-img.full-width,
 div.summary-img.half-width,
 #summary h4,
 #summary ul {margin-bottom: 1em;}
-#summary h4 {padding-left: .5em;}
+#summary h4 {padding-left: .5em; line-height: 1.5em; background: #eee;}
 
 .summary-img {padding: 2px;	border: 1px solid #55f;}
 .summary-img:focus,
@@ -183,8 +183,6 @@ div.summary-img.half-width,
 
 .summary-text:nth-of-type(odd) {text-indent: 1em;}
 .summary-text:first-of-type::first-letter {font-size: 1.25em; font-weight: 900;}
-
-#summaryContainer h4 {background: #ddd; line-height: 1.5em;}
 
 .summary-list {list-style: disc inside;}
 .summary-list li {margin: .5em 0;}
