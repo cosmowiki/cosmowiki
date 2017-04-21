@@ -38981,7 +38981,7 @@ var StarsComponent = function StarsComponent(_ref) {
         _react2['default'].createElement(
           'p',
           { className: 'summary-text' },
-          'Sie sind kleine helle Punkte am Nachthimmel und dennoch ist alles an ihnen gigantisch - Größe, Masse und Temperatur. Sie sind riesige und unglaublich heiße Kraftwerke - Sterne. Die Oberflächentemperaturen der meisten Sterne reichen von etwa 2200 K bis 45000 K, ihre Massen von 0,07 bis 120 Sonnenmassen und ihre Radien von 0,1 bis 25 Sonnenradien.'
+          'Sie sind kleine helle Punkte am Nachthimmel und dennoch ist alles an ihnen gigantisch - Größe, Masse und Temperatur. Sterne sind riesige und unglaublich heiße Kraftwerke. Die Oberflächentemperaturen der meisten Sterne reichen von etwa 2200 K bis 45000 K, ihre Massen von 0,07 bis 120 Sonnenmassen und ihre Größen von 0,1 bis 25 Sonnenradien.'
         ),
         _react2['default'].createElement(
           'div',
@@ -39013,7 +39013,13 @@ var StarsComponent = function StarsComponent(_ref) {
         _react2['default'].createElement(
           'p',
           { className: 'summary-text' },
-          'In ihnen liefert die stellare Kernfusion durch die Verschmelzung von zumeist Wasserstoff zu Helium gewaltige Energiemengen, die ebenso wie ihre kräftigen Magnetfelder weit ins All hinein wirken. Auf den umlaufenden Planeten können sie dadurch Leben ermöglichen oder auch dauerhaft verhindern. Sonnensysteme mit nur einem Zentralstern wie das unsere sind eher die Seltenheit. Schätzungsweise zwei Drittel aller Sterne haben einen oder sogar mehrere Geschwister, die oft um ein gemeinsames Zentrum kreisen.'
+          'In ihnen liefert die ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'stellare Kernfusion'
+          ),
+          ' durch die Verschmelzung von zumeist Wasserstoff zu Helium gewaltige Energiemengen, die ebenso wie ihre kräftigen Magnetfelder weit ins All hinein wirken. Auf den umlaufenden Planeten können sie dadurch Leben ermöglichen oder auch dauerhaft verhindern. Sonnensysteme mit nur einem Zentralstern wie das unsere sind eher die Seltenheit. Schätzungsweise zwei Drittel aller Sterne haben einen oder sogar mehrere Geschwister, die oft um ein gemeinsames Zentrum kreisen.'
         ),
         _react2['default'].createElement(
           'div',
@@ -39040,12 +39046,60 @@ var StarsComponent = function StarsComponent(_ref) {
         _react2['default'].createElement(
           'p',
           { className: 'summary-text' },
-          'Auch in kosmischen Dimensionen gesehen sind Sterne selten Einzelgänger. Sie konzentrieren sich in Sternhaufen und zu Millionen oder sogar Milliarden in Galaxien, die widerum in Haufen auftreten. Astronomen schätzen die Zahl der Sterne im sichtbaren Universum auf etwa 70 Trilliarden. In unserer Heimatgalaxie, der Milchstraße, existieren ca. 100 Milliarden Sonnen.'
+          'Auch in kosmischen Dimensionen gesehen sind Sterne selten Einzelgänger. Sie konzentrieren sich in ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Sternhaufen'
+          ),
+          ' und zu Millionen oder sogar Milliarden in ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Galaxien'
+          ),
+          ', die widerum in ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Galaxienhaufen'
+          ),
+          ' auftreten. Astronomen schätzen die Zahl der Sterne im sichtbaren Universum auf etwa 70 Trilliarden. In unserer Heimatgalaxie, der Milchstraße, existieren ca. 100 Milliarden Sonnen.'
         ),
         _react2['default'].createElement(
           'p',
           { className: 'summary-text' },
-          'Mit bloßem Auge sind von der Erde aus höchstens 5000 bis 6000 Sterne zu erkennen. Der Mensch sah in ihnen Götter, er verband sie zu Sternbildern und nutzt sie bis heute zur Navigation. Die ersten Namen von Sternen, die heute noch gebräuchlich sind, stammen oft aus der arabischen oder griechisch-hellenistischen Antike, so zum Beispiel Beteigeuze oder Sirius. Neuere Bezeichnungen entstanden mit der Erstellung großer Himmelsatlanten und Sternenkataloge, wie der Uranometria von Johann Bayer (1603) oder dem Hipparcos-Katalog (HIP).'
+          'Mit bloßem Auge sind von der Erde aus höchstens 5000 bis 6000 Sterne zu erkennen. Der Mensch sah in ihnen Götter, er verband sie zu Sternbildern und nutzt sie bis heute zur Navigation. Die ersten Namen von Sternen, die heute noch gebräuchlich sind, stammen oft aus der arabischen oder griechisch-hellenistischen Antike, so zum Beispiel Beteigeuze oder Sirius. Neuere Bezeichnungen entstanden mit der Erstellung großer ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Himmelsatlanten'
+          ),
+          ' und ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Sternenkataloge'
+          ),
+          ', wie der ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Uranometria'
+          ),
+          ' von ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Johann Bayer'
+          ),
+          ' (1603) oder dem ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Hipparcos-Katalog'
+          ),
+          ' (HIP).'
         ),
         _react2['default'].createElement(
           'div',
@@ -39071,7 +39125,25 @@ var StarsComponent = function StarsComponent(_ref) {
         _react2['default'].createElement(
           'p',
           { className: 'summary-text' },
-          'Von der Frühgeschichte des Menschen bis heute beobachten, katalogisieren und vermessen wir also Sterne. Schon im Altertum wurden dazu von China über Ägypten bis nach Südamerika große Observatorien errichtet. Heute bauen wir riesige Radioteleskope, wie zum Beispiel das Very Large Array (VLA) in New Mexico, oder wir schicken Weltraumteleskope ins All, die Röntgenstrahlen, Mikrowellen oder einen großen Bereich des Lichtspektrums beobachten können, wie das Hubble Space Telescope (HST).'
+          'Von der Frühgeschichte des Menschen bis heute beobachten, katalogisieren und vermessen wir also Sterne. Schon im Altertum wurden dazu von China über Ägypten bis nach Südamerika große Observatorien errichtet. Heute bauen wir riesige ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Radioteleskope'
+          ),
+          ', wie zum Beispiel das ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Very Large Array'
+          ),
+          ' (VLA) in New Mexico, oder wir schicken Weltraumteleskope ins All, die Röntgenstrahlen, Mikrowellen oder einen großen Bereich des Lichtspektrums beobachten können, wie das ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Hubble Space Telescope'
+          ),
+          ' (HST).'
         ),
         _react2['default'].createElement(
           'div',
@@ -39090,12 +39162,54 @@ var StarsComponent = function StarsComponent(_ref) {
         _react2['default'].createElement(
           'p',
           { className: 'summary-text' },
-          'Mit ihnen entstehen nicht nur phantastische Aufnahmen, die uns begeistern. Vor allem geht es um die Bestimmung von Eigenschaften wie Leuchtkraft und Alter, Größe, Masse, Zusammensetzung und Bewegung. Der Lebenszyklus von Sternen kann heute schon gut beschrieben werden. Astronomen setzen die gewonnenen Informationen zueinander ins Verhältnis und teilen Sterne danach in verschiedene Klassen ein. Daraus gingen wichtige Darstellungen wie beispielsweise das Hertzsprung-Russell-Diagramm (HDR) hervor, mit dem sich die Entwicklungszustände abbilden lassen.'
+          'Mit ihnen entstehen nicht nur phantastische Aufnahmen, die uns begeistern. Vor allem geht es um die Bestimmung von Eigenschaften wie Leuchtkraft und Alter, Größe, Masse, Zusammensetzung und Bewegung. Der Lebenszyklus von Sternen kann heute schon gut beschrieben werden. Astronomen setzen die gewonnenen Informationen zueinander ins Verhältnis und teilen Sterne danach in verschiedene Klassen ein. Daraus gingen wichtige Darstellungen wie beispielsweise das ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Hertzsprung-Russell-Diagramm'
+          ),
+          ' (HDR) hervor, mit dem sich die Entwicklungszustände abbilden lassen.'
         ),
         _react2['default'].createElement(
           'p',
           { className: 'summary-text' },
-          'Mittlerweile sind nicht nur massearme- und reiche, große und kleine, helle und weniger helle Sterne bekannt. Drei verschiedene Sternenpopulationen, eingeteilt nach ihrer Lebensdauer in der Entwicklung des Universums, werden unterschieden. Weiterhin differenziert man Sterne anhand ihres individuellen Alters, ihrer Zugehörigkeit zu Regionen und Sternhaufen, teilt sie in Größen- und Spektralklassen ein. Ihre extremsten Erscheinungsformen und Phänomene, wie zum Beispiel Neutronensterne, Supernovae, Schwarze Löcher oder Pulsare geben den Forschern bis heute noch viele Rätsel auf und bleiben dadurch absolut spannend.'
+          'Mittlerweile sind nicht nur massearme- und reiche, große und kleine, helle und weniger helle Sterne bekannt. Drei verschiedene ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Sternenpopulationen'
+          ),
+          ', eingeteilt nach ihrer Lebensdauer in der Entwicklung des Universums, werden unterschieden. Weiterhin differenziert man Sterne anhand ihres individuellen Alters, ihrer Zugehörigkeit zu Regionen und Sternhaufen, teilt sie in Größen- und ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Spektralklassen'
+          ),
+          ' ein. Ihre extremsten Erscheinungsformen und Phänomene, wie zum Beispiel ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Neutronensterne'
+          ),
+          ',',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Supernovae'
+          ),
+          ', ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Schwarze Löcher'
+          ),
+          ' oder ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Pulsare'
+          ),
+          ' geben den Forschern bis heute noch viele Rätsel auf und bleiben dadurch absolut spannend.'
         ),
         _react2['default'].createElement(
           'h4',
