@@ -63,6 +63,7 @@ header, main, footer {margin: 0 auto; max-width: 1025px;}
 #branding {
 	position: fixed; top: 0; left: 0;
 	height: 40px;
+	z-index: 1;
 	background-image: linear-gradient(to right, #fff 50px, #ddd);
 	border-bottom: 1px solid #fff;
 }
