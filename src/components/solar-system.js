@@ -16,9 +16,9 @@ const SolarSystemComponent = () => {
         <a id="summaryToggleSwitch" className="expanded" href="#" title="Artikel anzeigen / schließen"></a>
         <div id="summaryContainer" className="solar-system visible">
           <p className="summary-text">
-            In klaren Nächten sehen wir manchmal <i>Merkur</i>, <i>Venus</i>, <i>Mars</i>, <i>Jupiter</i> oder <i>Saturn</i> einzeln
+            In klaren Nächten sehen wir manchmal <em>Merkur</em>, <em>Venus</em>, <em>Mars</em>, <em>Jupiter</em> oder <em>Saturn</em> einzeln
             oder zu mehreren am Himmel entlangziehen. Sie scheinen sich dabei etwa
-            auf einer Linie zu bewegen. Im Altertum wurden sie deshalb als <i>Wandelsterne</i> bezeichnet.
+            auf einer Linie zu bewegen. Im Altertum wurden sie deshalb als <em>Wandelsterne</em> bezeichnet.
             Es ist diese Linie, oder besser gesagt Ebene, die den Wissenschaftlern
             den wohl wichtigsten Hinweis auf die mögliche Entstehungsgeschichte unseres Heimatsystems lieferte.
           </p>
@@ -31,39 +31,40 @@ const SolarSystemComponent = () => {
             </p>
           </div>
           <p className="summary-text">
-            Die Bahnen aller Planeten unseres Systems liegen nahezu auf dieser einen Ebene, der <i>Ekliptik</i>.
-            Sie umrunden darauf die <i>Sonne</i> in der gleichen Richtung, in die sie sich
+            Die Bahnen aller Planeten unseres Systems liegen nahezu auf dieser einen Ebene, der <em>Ekliptik</em>.
+            Sie umrunden darauf die <em>Sonne</em> in der gleichen Richtung, in die sie sich
             selbst auch dreht - gegen den Uhrzeigersinn, würde der Beobachter vom Nordpol
             der Ekliptik auf sie herunterschauen. Auch die Eigenrotation der Planeten
-            entspricht dieser Richtung. Nur die Venus rotiert <i>retrograd</i> um ihre eigene Achse.
+            entspricht dieser Richtung. Nur die Venus rotiert <em>retrograd</em> um ihre eigene Achse.
           </p>
           <p className="summary-text">
-            Wissenschaftler vermuten den Ursprung des Sonnensystems in einer
-            rotierenden Materiewolke, die durch einen äußeren Impuls - vielleicht
-            eine nahe <i>Supernova</i> gestaucht wurde und sich somit noch schneller drehte.
-            Ein Großteil der Materie verdichtete sich in ihrem Zentrum bis schließlich
-            unter enormem Druck und immmer weiter steigenden Temperaturen die <i>Kernfusion</i> zündete.
+            Wissenschaftler vermuten den Ursprung des Sonnensystems in einem rotierenden
+            Materienebel, der sich durch die Fliehkräfte zu einer <em>Akkretionsscheibe</em> verformte.
+            Mehr und mehr Materie stürzte in das Zentrum der Scheibe und verdichtete sich, bis schließlich
+            unter enormem Druck und immmer weiter steigenden Temperaturen die <em>Kernfusion</em> zündete.
             Die Sonne war geboren.
           </p>
           <p className="summary-text">
-            Ringsum verklumpten Staubteilchen zu immer größeren Gebilden miteinander
-            und formten die Bausteine der künftigen Planeten. Mit steigenden Massen
-            und somit wachsenden Anziehungskräften sammelten sie mehr und mehr Teilchen
-            und Klumpen aus ihrem kosmischen Umfeld ein. Sie räumten ihre Bahnen
-            leer und durch Resonanzen der Gravitationskräfte mit denen anderer
-            <i>Protoplaneten</i> entstanden die ersten Freiräume.
+            Rings um den jungen Stern verklumpten Staubteilchen zu immer größeren
+            Gebilden miteinander und formten die <em>Planetesimale</em>, die Bausteine
+            der künftigen Planeten. Mit steigenden Massen und somit wachsenden
+            Anziehungskräften wuchsen sie zu <em>Protoplaneten</em> heran und sammelten
+            noch mehr Materie aus ihrem kosmischen Umfeld ein. Auf ihrem Umlauf
+            um die Sonne und durch Resonanzen ihrer Gravitationskräfte räumten
+            sie ihre Bahnen im Laufe von vielen Jahrmillionen leer.
           </p>
-          <div className="summary-img full-width center">
+          <div className="summary-img width-100 center">
             <img src="/img/solarsystem/solarsystem.jpg" alt="das Sonnensystem" />
             <p className="summary-img-text">
-              Sonne, Merkur, Venus, Erde, Mars, Jupiter, Saturn, Uranus, Neptun - maßstabs,- aber nicht abstandsgetreu
+              Sonne, Merkur, Venus, Erde, Mars, Jupiter, Saturn, Uranus, Neptun - maßstabs,- aber nicht abstandsgetreu<br />
+              Quelle: <a href="http://iau.org/" title="IAU">IAU</a> <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="CC BY-SA 3.0">CC BY-SA 3.0</a>
             </p>
           </div>
           <p className="summary-text">
-            So umkreisen heute acht Planeten unseren Zentralstern, seit die <i>Internationale Astronomische Union</i> (IAU)
-            den früher als Planet geführten <i>Pluto</i> im Jahr 2006 zum Zwergplanten herabstufte.
+            So umkreisen heute acht Planeten unseren Zentralstern, seit die <em>Internationale Astronomische Union</em> (IAU)
+            den früher als Planet geführten <em>Pluto</em> im Jahr 2006 zum Zwergplanten herabstufte.
             Die Entfernungen dabei sind riesig. So beträgt der mittlere Abstand zwischen Sonne und Erde ca.
-            150 Millionen Kilometer, oder eine <i>Astronomische Einheit</i> (AU).
+            150 Millionen Kilometer, oder eine <em>Astronomische Einheit</em> (AU).
             Die Inneren Planeten Merkur, Venus, Erde und Mars sind Gesteinsplaneten,
             deren Atmosphären zwischen sehr dicht (Venus) und sehr dünn (Mars) variieren.
             Merkur verfügt über keine nennenswerte Gashülle. Die sonnenächsten Körper
@@ -79,9 +80,9 @@ const SolarSystemComponent = () => {
             </p>
           </div>
           <p className="summary-text">
-            Die Äußeren Planeten hingegen sind völlig anders beschaffen. Sie sind <i>Gasplaneten</i>,
-            deren Atmosphären je nach Entfernung zur Sonne gasförmig (<i>Jupiter</i> und <i>Saturn</i>)
-            oder sogar teilweise flüssig (<i>Uranus</i> und <i>Neptun</i>) sind. Im Innern besitzen
+            Die Äußeren Planeten hingegen sind völlig anders beschaffen. Sie sind <em>Gasplaneten</em>,
+            deren Atmosphären je nach Entfernung zur Sonne gasförmig (<em>Jupiter</em> und <em>Saturn</em>)
+            oder sogar teilweise flüssig (<em>Uranus</em> und <em>Neptun</em>) sind. Im Innern besitzen
             sie wahrscheinlich alle einen kleinen, festen Kern aus Gestein und Eis.
             Die vier Riesen verfügen zusätzlich auch über Ringsysteme aus Gesteins- oder
             Eispartikeln unterschiedlicher Größe. Auf den Äquatorebenen der Planeten
@@ -102,8 +103,8 @@ const SolarSystemComponent = () => {
             Neben den Planeten und ihren Monden existiert eine Vielzahl kleinerer
             Objekte in unserem Sonnensystem, die in der Entstehungsphase nicht von
             der Sonne oder den Planeten eingefangen wurden. So werden die Bahnen
-            der inneren Planeten von unzähligen <i>Asteroiden</i> verschiedenster
-            Größen (auch <i>Planetoiden</i> genannt) gekreuzt. Die meisten konzentrieren
+            der inneren Planeten von unzähligen <em>Asteroiden</em> verschiedenster
+            Größen (auch <em>Planetoiden</em> genannt) gekreuzt. Die meisten konzentrieren
             sich im Hauptgürtel zwischen Mars und Jupiter.
           </p>
           <div className="summary-img size-sm">
@@ -117,28 +118,28 @@ const SolarSystemComponent = () => {
             </p>
           </div>
           <p className="summary-text">
-            <i>Zentauren</i> werden Asteroiden genannt, die sich zwischen den Umlaufbahnen
+            <em>Zentauren</em> werden Asteroiden genannt, die sich zwischen den Umlaufbahnen
             von Jupiter und Neptun um die Sonne bewegen. Asteroiden, die einem Planeten
-            auf seinem Orbit entweder vorauseilen oder ihm nachfolgen, nennt man <i>Trojaner</i>.
+            auf seinem Orbit entweder vorauseilen oder ihm nachfolgen, nennt man <em>Trojaner</em>.
             Die meisten sind bislang auf der Jupiterbahn bekannt. Nur Merkur und Saturn
             scheinen keine Trojaner zu besitzen.
           </p>
           <p className="summary-text">
-            Noch weit außerhalb des Neptunorbits, liegt der <i>Kuipergürtel</i>, eine
+            Noch weit außerhalb des Neptunorbits, liegt der <em>Kuipergürtel</em>, eine
             ringförmige Region mit tausenden meist kleinen, aber auch bis zu mehreren
             hundert Kilometern großen Objekten, so auch Pluto. Am äußeren Rand unseres
-            Sonnensystems befindet sich vermutlich dann die <i>Oortsche Wolke</i>,
+            Sonnensystems befindet sich vermutlich dann die <em>Oortsche Wolke</em>,
             eine Ansammlung astronomischer Objekte in Form einer Kugelschale.
-            Beide Regionen gelten als Ursprungsgebiete von <i>Kometen</i>, die auf
+            Beide Regionen gelten als Ursprungsgebiete von <em>Kometen</em>, die auf
             hochelliptischen Bahnen durch das Sonnensystem ziehen.
             Wissenschaftler erhoffen sich aus der Untersuchung dieser "Schweifsterne"
-            auch mit Raumsonden wie zum Beispiel <i>Rosetta</i> genauere Erkenntnisse
+            auch mit Raumsonden wie zum Beispiel <em>Rosetta</em> genauere Erkenntnisse
             über die Entstehung unseres Systems.
           </p>
           <h4>Wussten Sie schon?</h4>
           <ul className="summary-list">
             <li>
-              Die Sonne macht 99,86 % der Gesamtmasse des Systems aus. Ihr Durchmesser
+              Die Sonne macht 99,86 % der Gesamtmasse unseres Systems aus. Ihr Durchmesser
               ist 109-mal größer als der der Erde.
             </li>
             <li>
@@ -146,8 +147,8 @@ const SolarSystemComponent = () => {
               Entfernung. Alpha Centauri, das nächste System, ist 4,34 Lj entfernt.
             </li>
             <li>
-              Die Erde umrundet die Sonne in 365,256 Tagen mit durchschnittlich
-              ca. 30 Kilometern pro Sekunde.
+              Die Erde umrundet die Sonne in 365,256 Tagen mit einer Geschwindigkeit
+              von durchschnittlich ca. 30 Kilometern pro Sekunde.
             </li>
             <li>
               Auch Asteroiden und Zwergplaneten können Monde besitzen.

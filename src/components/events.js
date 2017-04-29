@@ -43,7 +43,7 @@ export default class ChronicleComponent extends React.Component {
               Seit Jahrtausenden blicken wir in den Himmel und versuchen zu ergründen,
               was uns umgibt und woher wir kommen. Auch die frühen Menschen stellten
               sich wohl schon die größte aller Fragen:<br />
-              <i>Was ist dort draußen?</i>
+              <em>Was ist dort draußen?</em>
             </p>
             <div className="summary-img float-left size-md">
               <a href="/img/events/nebra_lg.jpg" title="Himmelsscheibe von Nebra - Großansicht">
@@ -88,9 +88,9 @@ export default class ChronicleComponent extends React.Component {
               Traditionen setzten sich bahnbrechende Erkenntnisse jedoch nur langsam durch.
             </p>
             <p className="summary-text">
-              Vor 500 Jahren sprengte dann das <i>Fernrohr</i> die Grenzen des menschlichen Auges.
+              Vor 500 Jahren sprengte dann das <em>Fernrohr</em> die Grenzen des menschlichen Auges.
               Nach und nach offenbarten sich die Gesetze der Natur, unser Weltbild
-              wurde präziser. <i>Planetenbahnen</i> und die <i>Gravitation</i> wurden in der Sprache
+              wurde präziser. <em>Planetenbahnen</em> und die <em>Gravitation</em> wurden in der Sprache
               der Mathematik beschrieben.
             </p>
             <div className="summary-img float-left size-lg">
@@ -104,8 +104,8 @@ export default class ChronicleComponent extends React.Component {
             <p className="summary-text">
               Doch der Mensch wollte den Himmel nicht nur betrachten, er wollte ihn
               bereisen. Erkenntnisse in der Physik und Chemie ermöglichten das Reisen
-              per <i>Ballon</i>, später im <i>Flugzeug</i>. Wir wollten mehr
-              - <i>schneller, höher, weiter!</i>
+              per <em>Ballon</em>, später im <em>Flugzeug</em>. Wir wollten mehr
+              - <em>schneller, höher, weiter!</em>
             </p>
             <p className="summary-text">
               Die Raumfahrt beförderte dann den Menschen erstmals in den Kosmos.
@@ -115,8 +115,8 @@ export default class ChronicleComponent extends React.Component {
               Menschheit immer weiter anwachsen.
             </p>
             <p className="summary-text">
-              <i>Urknall, Relativität und Quantenmechanik</i>, die Kräfte
-              im <i>Atom</i>, <i>Schwarze Löcher</i> und <i>Dunkle Materie</i> - immer
+              <em>Urknall, Relativität und Quantenmechanik</em>, die Kräfte
+              im <em>Atom</em>, <em>Schwarze Löcher</em> und <em>Dunkle Materie</em> - immer
               weiter dringt die Menschheit in die Tiefen des Alls vor. Mit Augen,
               Ohren und Raumsonden greifen wir nach den Sternen, und jedes gelöste
               Rätsel wirft neue Fragen auf. Willkommen in der Gegenwart!
@@ -124,7 +124,7 @@ export default class ChronicleComponent extends React.Component {
             <h4>Wussten Sie schon?</h4>
             <ul className="summary-list">
               <li>
-                Die ca. 4000 Jahre alte <i>Himmelsscheibe von Nebra</i> ist eines
+                Die ca. 4000 Jahre alte <em>Himmelsscheibe von Nebra</em> ist eines
                 der ältesten Zeugnisse astronomischer Darstellungen der Menschheit.
               </li>
               <li>
@@ -132,7 +132,7 @@ export default class ChronicleComponent extends React.Component {
                 später nach Edmund Halley benannten Kometen.
               </li>
               <li>
-                Schon 1917 entwickelte der deutsche Raumfahrtpionier <i>Hermann Oberth</i> eine
+                Schon 1917 entwickelte der deutsche Raumfahrtpionier <em>Hermann Oberth</em> eine
                 mit Ethanol und Sauerstoff betriebene Rakete.
               </li>
             </ul>
