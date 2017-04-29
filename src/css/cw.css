@@ -158,7 +158,9 @@ main {background: rgba(255,255,255,.8); border-bottom: 1em solid #eee;}
 #summaryContainer {
   position: relative; overflow: auto; height: 21.5em; /* Why 21.5em? Shows half a line at the bottom, which indicates it's scrollable. */
   padding: 0 .25em 0; border-bottom: 1em solid #aaf;
+  transition: height 0.3s;
 }
+#summaryContainer.hiddenWithFadeOut {height: 0;}
 #summaryBottomGradient {
   position: absolute; height: 6em; width: 100%; left: 0; bottom: 1em; background: linear-gradient(180deg, transparent, white);
 }
