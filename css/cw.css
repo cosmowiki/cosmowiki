@@ -62,11 +62,8 @@ header, main, footer {margin: 0 auto; max-width: 1025px;}
 
 #branding {
 	position: fixed; top: 0; left: 0;	height: 40px;	z-index: 1;
-	background-image: linear-gradient(to right, #fff 50px, #ddd);
+	background-image: linear-gradient(to right, #fff 50px, #eee);
 	border-bottom: 1px solid #fff;
-}
-#branding:hover {
-	background-image: linear-gradient(to right, #fff 50px, #ddd);
 }
 
 img#CosmoWikiLogo {display: none;}
@@ -167,9 +164,9 @@ div.summary-img.width-25,
 .summary-img:focus,
 .summary-img:hover,
 .summary-img:active {border: 1px solid #333;}
-.summary-img:nth-of-type(odd),
+.summary-img:nth-of-type(odd) {float: right; margin: 0 0 0 .5em;}
+.summary-img:nth-of-type(even) {float: left; margin: 0 .5em 0 0;}
 .summary-img.float-right {float: right; margin: 0 0 0 .5em;}
-.summary-img:nth-of-type(even),
 .summary-img.float-left {float: left; margin: 0 .5em 0 0;}
 .summary-img.width-100 {float: none; margin: auto;}
 .summary-img.width-75 {float: none; width: 75%; margin: auto;}
@@ -330,10 +327,7 @@ footer {background: #f8f8f8; border-top: 1em solid #aaf;}
 
 @media only screen and (min-width: 48em) {
 	#branding {
-		background-image: linear-gradient(to right, #fff 180px, #ddd);
-	}
-	#branding:hover {
-		background-image: linear-gradient(to right, #fff 180px, #ddd);
+		background-image: linear-gradient(to right, #fff 180px, #eee);
 	}
 	img#CosmoWikiLogo {display: block; margin: 5px; height: 30px;}
 	img#CosmoWikiIcon {display: none;}

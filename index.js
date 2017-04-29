@@ -39734,14 +39734,10 @@ var VcardComponent = (function (_React$Component) {
           _react2['default'].createElement(
             'div',
             { id: 'vcard' },
+            _react2['default'].createElement('a', { id: 'vcardClose', title: 'Schließen', onClick: onClose }),
             _react2['default'].createElement(
               'div',
               { id: 'vcardContainer' },
-              _react2['default'].createElement(
-                'a',
-                { className: 'center', id: 'vcardClose', title: 'Schließen', onClick: onClose },
-                '×'
-              ),
               _react2['default'].createElement(
                 'div',
                 { id: 'vcardHeader' },
@@ -39754,26 +39750,26 @@ var VcardComponent = (function (_React$Component) {
                     { href: 'path/to/home' },
                     'Home'
                   ),
-                  ' → ',
+                  ' > ',
                   _react2['default'].createElement(
                     'a',
                     { href: 'path/to/subPage' },
                     'subPage'
                   ),
-                  ' → ',
+                  ' > ',
                   _react2['default'].createElement(
                     'a',
                     {
                       href: 'path/to/1stVisitedItem' },
                     '1stVisitedItem'
                   ),
-                  ' → ',
+                  ' > ',
                   _react2['default'].createElement(
                     'a',
                     { href: 'path/to/2ndVisitedItem' },
                     '2ndVisitedItem'
                   ),
-                  ' →',
+                  ' >',
                   _react2['default'].createElement(
                     'a',
                     { href: 'path/to/openItem' },
@@ -39786,7 +39782,7 @@ var VcardComponent = (function (_React$Component) {
                 { id: 'vcardContent' },
                 _react2['default'].createElement(
                   'div',
-                  { id: 'vcardContentLeft' },
+                  { id: 'vcardContentLeft', className: 'pure-u-3-4' },
                   image,
                   _react2['default'].createElement(
                     'div',
@@ -39806,19 +39802,19 @@ var VcardComponent = (function (_React$Component) {
                 ),
                 _react2['default'].createElement(
                   'div',
-                  { id: 'vcardContentRight' },
+                  { id: 'vcardContentRight', className: 'pure-u-1-4' },
                   _react2['default'].createElement(
                     'div',
                     { className: 'vcardItemRelatedCat' },
                     _react2['default'].createElement(
-                      'h5',
+                      'h4',
                       null,
                       'relatedCat1'
                     )
                   ),
                   _react2['default'].createElement(
                     'div',
-                    { className: 'vcardItemRelatedLinks' },
+                    { className: 'vcardItemRelatedList' },
                     _react2['default'].createElement(
                       'ul',
                       null,
@@ -39855,14 +39851,14 @@ var VcardComponent = (function (_React$Component) {
                     'div',
                     { className: 'vcardItemRelatedCat' },
                     _react2['default'].createElement(
-                      'h5',
+                      'h4',
                       null,
                       'relatedCat2'
                     )
                   ),
                   _react2['default'].createElement(
                     'div',
-                    { className: 'vcardItemRelatedLinks' },
+                    { className: 'vcardItemRelatedList' },
                     _react2['default'].createElement(
                       'ul',
                       null,
@@ -39899,14 +39895,14 @@ var VcardComponent = (function (_React$Component) {
                     'div',
                     { className: 'vcardItemRelatedCat' },
                     _react2['default'].createElement(
-                      'h5',
+                      'h4',
                       null,
                       'relatedCat3'
                     )
                   ),
                   _react2['default'].createElement(
                     'div',
-                    { className: 'vcardItemRelatedLinks' },
+                    { className: 'vcardItemRelatedList' },
                     _react2['default'].createElement(
                       'ul',
                       null,

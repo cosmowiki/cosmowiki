@@ -7,36 +7,39 @@
   position: fixed; top: 0; left: 0; margin: 0; width: 100%; height: 100%;
 }
 
-#vcard {margin: auto; padding-top: 10%; width: 940px; height: auto !important;}
+#vcard {margin: 10% auto; max-width: 1000px; height: auto !important;}
 
 #vcardContainer {
-	margin: auto; padding: 5px 10px; width: 904px;
-	border: 2px solid #ccf; border-radius: 5px;
-	background: white;
+	padding: .5em;
+	border: 2px solid #aaf; border-radius: 5px;
+	background: #fff;
 }
 
-#vcardClose {
-	float: right; width: 21px; height: 21px;
-	margin-top: -17px; margin-right: -22px;
-	font-size: 32px; line-height: 16px; cursor: pointer;
-	border: 1px solid #ccf; border-radius: 13px; background: white;
-}
+/*#vcardClose {
+	display: block;	float: right;	width: 20px; height: 20px;
+	margin-top: -21px; margin-right: -21px;
+	font-size: 33px; line-height: 17px;	cursor: pointer;
+	border: 2px solid #aaf;	border-radius: 13px;
+	background: #fff;
+}*/
+#vcardClose {display: block; float: right;	margin: -.125em .25em; font-size: 2em;}
+#vcardClose:after {content: '\00D7';}
 
 #vcardHeader, #vcardContent, #vcardFooter {width: 100%;}
 
-#vcardHeader {font-size: .75em; border-bottom: 1px solid #99f;}
+#vcardHeader {font-size: .75em; border-bottom: 1px solid #aaf;}
 
-#vcardHistory {padding-bottom: 5px;}
+#vcardHistory {width: 95%; padding-bottom: .5em;}
 
-#vcardContent {display: -webkit-flex; display: flex; padding: 10px 0;}
-#vcardContentLeft {padding-right: 10px; width: 592px;}
+#vcardContent {display: -webkit-flex; display: flex; padding: .5em 0;}
+#vcardContentLeft {padding-right: .5em;}
 
 #vcardItemImg img {
-	float: left; margin: 0 5px 5px 0; min-height: 150px;
+	float: left; margin: 0 .5em .5em 0; min-height: 150px;
 	border: 2px solid #a0a0a0;
 }
 
-#vcardItemName, #vcardItemShort {padding: 5px 0;}
+#vcardItemName h3 {background: #eee;}
 
 #vcardItemLong {clear: both; max-height: 20em; overflow: scroll;}
 #coordinates {display: none;}
@@ -44,15 +47,15 @@
 #vcard p {font-size: .9em;}
 
 #vcardContentRight {
-	padding-left: 10px;	width: 290px;
-	border-left: 1px solid #99f;
+	padding-left: .5em;
+	border-left: 1px solid #aaf;
 }
-.vcardItemRelatedCat {line-height: 1.1em;}
+.vcardItemRelatedCat h4 {background: #eee;}
 
-.vcardItemRelatedLinks ul {list-style: none; padding: 0 0 0 5px;}
-.vcardItemRelatedLinks ul:last-child {padding-bottom: 10px;}
-.vcardItemRelatedLinks li {padding: 2px 0;}
+.vcardItemRelatedList {list-style: none; padding: .5em 0 .5em;}
+.vcardItemRelatedList:last-child {padding-bottom: 10px;}
+.vcardItemRelatedList li {padding: .2em 0;}
 
-#vcardFooter {font-size: .75em; border-top: 1px solid #99f;}
+#vcardFooter {font-size: .75em; border-top: 1px solid #aaf;}
 
 #vcardItemWpLink {padding-top: 5px;}
