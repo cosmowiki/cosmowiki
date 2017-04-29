@@ -15,7 +15,10 @@ class Summary extends React.Component {
     return (
       <div id="summary" className="pure-u-1 left">
         <a id="summaryToggleSwitch" className={switchClassName} title="Artikel anzeigen / schließen" onClick={toggle}/>
-        <div id="summaryContainer" className={containerClassName}>{this.props.children}</div>
+        <div id="summaryContainer" className={containerClassName}>
+          {this.props.children}
+        </div>
+        <div style={{ position: 'absolute', height: '6em', width: '100%', left: 0, bottom: '1em', background: 'linear-gradient(180deg, transparent, grey)' }} />
       </div>
     );
   }

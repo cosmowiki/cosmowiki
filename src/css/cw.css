@@ -147,7 +147,7 @@ main {background: rgba(255,255,255,.8); border-bottom: 1em solid #eee;}
 
 /*			summary ------------------------------------------------------------- */
 
-#summary {background: rgba(255, 255, 255,.8); border-bottom: 1px solid #fff;}
+#summary {background: rgba(255, 255, 255,.8); border-bottom: 1px solid #fff;position: relative;}
 
 #summaryToggleSwitch {display: block; font-size: 2em;}
 #summaryToggleSwitch.expanded {margin-right: .125em; text-align: right;}
@@ -155,7 +155,10 @@ main {background: rgba(255,255,255,.8); border-bottom: 1em solid #eee;}
 #summaryToggleSwitch.collapsed {text-align: center;}
 #summaryToggleSwitch.collapsed:after {content: '\25BE';}
 
-#summaryContainer {padding: 0 .25em 0; border-bottom: 1em solid #aaf;}
+#summaryContainer {
+  position: relative; overflow: auto; height: 21.5em; /* Why 21.5em? Shows half a line at the bottom, which indicates it's scrollable. */
+  padding: 0 .25em 0; border-bottom: 1em solid #aaf;
+}
 .summary-text,
 div.summary-img.full-width,
 div.summary-img.half-width,
