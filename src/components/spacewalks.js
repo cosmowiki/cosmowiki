@@ -28,9 +28,6 @@ const SpacewalksComponent = ({spacewalks}) => {
         <h1>Weltraumausstiege</h1>
         <h3>- völlig losgelöst -</h3>
       </div>
-      <div id="todo" className="pure-u-1">
-        <p>@Wolfram pls make the #summaryToggleSwitch work.</p>
-      </div>
       <Summary>
         <p className="summary-text">
           <i>Der Weltraumausstieg</i>, auch <i>EVA</i> (extra-vehicular activity = Außenbordaktivität)
