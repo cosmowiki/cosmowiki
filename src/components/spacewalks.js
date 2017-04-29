@@ -18,7 +18,7 @@ class Summary extends React.Component {
         <div id="summaryContainer" className={containerClassName}>
           {this.props.children}
         </div>
-        <div style={{ position: 'absolute', height: '6em', width: '100%', left: 0, bottom: '1em', background: 'linear-gradient(180deg, transparent, grey)' }} />
+        <div id="summaryBottomGradient" />
       </div>
     );
   }
