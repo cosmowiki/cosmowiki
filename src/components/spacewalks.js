@@ -1,6 +1,25 @@
 import React from 'react';
 import Notes from './notes';
 
+class Summary extends React.Component {
+  constructor() {
+    super();
+    this.state = {isOpen: true};
+  }
+  render() {
+    const isOpen = this.state.isOpen;
+    const toggle = () => {
+      this.setState({isOpen: !isOpen}); };
+    const className = isOpen ? "expanded" : "collapsed";
+    return (
+      <div id="summary" className="pure-u-1 left">
+        <a id="summaryToggleSwitch" className={className} title="Artikel anzeigen / schließen" onClick={toggle}/>
+        {isOpen ? this.props.children : null}
+      </div>
+    );
+  }
+}
+
 const SpacewalksComponent = ({spacewalks}) => {
   return (
     <main role="main" className="spacewalks pure-u-1 center">
@@ -11,8 +30,7 @@ const SpacewalksComponent = ({spacewalks}) => {
       <div id="todo" className="pure-u-1">
         <p>@Wolfram pls make the #summaryToggleSwitch work.</p>
       </div>
-      <div id="summary" className="pure-u-1 left">
-        <a id="summaryToggleSwitch" className="expanded" href="#" title="Artikel anzeigen / schließen"></a>
+      <Summary>
         <div id="summaryContainer" className="visible">
           <p className="summary-text">
             <i>Der Weltraumausstieg</i>, auch <i>EVA</i> (extra-vehicular activity = Außenbordaktivität)
@@ -97,7 +115,7 @@ const SpacewalksComponent = ({spacewalks}) => {
             </li>
           </ul>
         </div>
-      </div>
+      </Summary>
       <div id="controlArea" className="spacewalks pure-u-1">
         <div id="controllers" className="pure-u-1 left">
           <div id="sort" className="spacewalks pure-u-1-2 left">
