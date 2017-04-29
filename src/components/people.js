@@ -51,7 +51,7 @@ const PeopleComponent = ({groupedPeople}) => {
             in einem Getriebe greifen ihre Arbeiten ineinander und treiben die Wissenschaft
             voran in Richtung Zukunft.
           </p>
-          <div className="summary-img full-width center">
+          <div className="summary-img width-75 center">
             <img src="/img/persons/people_collage.jpg" alt="Collage berühmter Personen" />
             <p className="summary-img-text">
               Aristoteles, A. Shepard, I. Newton, E. Halley, V. Tereschkowa, A. Einstein, N. Kopernikus, J. Gagarin, G. Galilei, S. Hawking, T. Brahe, N. Armstrong
@@ -87,11 +87,11 @@ const PeopleComponent = ({groupedPeople}) => {
           <h4>Wussten Sie schon?</h4>
           <ul className="summary-list">
             <li>
-              Der deutsche Astronom <i>Johann Bayer</i> (1572 - 1625) führte eine
+              Der deutsche Astronom <em>Johann Bayer</em> (1572 - 1625) führte eine
               noch heute gebräuliche systematische Benennung von Sternen ein.
             </li>
             <li>
-              Am <i>Apollo-Programm</i> und der ersten bemannten Mondlandung arbeiteten
+              Am <em>Apollo-Programm</em> und der ersten bemannten Mondlandung arbeiteten
               insgesamt etwa 400.000 Menschen mit.
             </li>
             <li>
@@ -99,7 +99,7 @@ const PeopleComponent = ({groupedPeople}) => {
               Rekord für den längsten Soloflug der Raumfahrtgeschichte.
             </li>
             <li>
-              <i>Brain May</i>, der Gitarrist der britischen Rockband Queen ist
+              <em>Brain May</em>, der Gitarrist der britischen Rockband Queen ist
               seit 2007 auch promovierter Astrophysiker.
             </li>
           </ul>
