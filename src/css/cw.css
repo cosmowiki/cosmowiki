@@ -61,9 +61,7 @@ header, main, footer {margin: 0 auto; max-width: 1025px;}
 /*		Branding -------------------------------------------------------------- */
 
 #branding {
-	position: fixed; top: 0; left: 0;
-	height: 40px;
-	z-index: 1;
+	position: fixed; top: 0; left: 0;	height: 40px;	z-index: 1;
 	background-image: linear-gradient(to right, #fff 50px, #ddd);
 	border-bottom: 1px solid #fff;
 }
@@ -157,8 +155,10 @@ main {background: rgba(255,255,255,.8); border-bottom: 1em solid #eee;}
 
 #summaryContainer {padding: 0 .25em 0; border-bottom: 1em solid #aaf;}
 .summary-text,
-div.summary-img.full-width,
-div.summary-img.half-width,
+div.summary-img.width-100,
+div.summary-img.width-75,
+div.summary-img.width-50,
+div.summary-img.width-25,
 #summary h4,
 #summary ul {margin-bottom: 1em;}
 #summary h4 {padding-left: .5em; line-height: 1.5em; background: #eee;}
@@ -167,23 +167,28 @@ div.summary-img.half-width,
 .summary-img:focus,
 .summary-img:hover,
 .summary-img:active {border: 1px solid #333;}
-.summary-img:nth-of-type(odd) {float: right; margin-left: .5em;}
-.summary-img:nth-of-type(even) {float: left; margin-right: .5em;}
-.summary-img.float-left {float: left; margin: 0 .5em 0 0;}
+.summary-img:nth-of-type(odd),
 .summary-img.float-right {float: right; margin: 0 0 0 .5em;}
-.summary-img.full-width {float: none; margin: auto;}
-.summary-img.half-width {float: none; width: 50%; margin: auto;}
+.summary-img:nth-of-type(even),
+.summary-img.float-left {float: left; margin: 0 .5em 0 0;}
+.summary-img.width-100 {float: none; margin: auto;}
+.summary-img.width-75 {float: none; width: 75%; margin: auto;}
+.summary-img.width-50 {float: none; width: 50%; margin: auto;}
+.summary-img.width-25 {float: none; width: 50%; margin: auto;}
 .summary-img img {display: block; height: 6.5em;}
 .summary-img.size-xs img {height: 4.5em;}
 .summary-img.size-sm img {height: 5.25em;}
 .summary-img.size-lg img {height: 8em;}
 .summary-img.size-xl img {height: 10em;}
-.summary-img.full-width img,
-.summary-img.half-width img {width: 100%; height: auto;}
+.summary-img.width-100 img,
+.summary-img.width-75 img,
+.summary-img.width-50 img,
+.summary-img.width-25 img {width: 100%; height: auto;}
 .summary-img-text {margin-top: 2px; font-size: .7em;}
 
 .summary-text:nth-of-type(odd) {text-indent: 1em;}
 .summary-text:first-of-type::first-letter {font-size: 1.25em; font-weight: 900;}
+.summary-text em {font-style: normal; background: #eee;}
 
 .summary-list {list-style: disc inside;}
 .summary-list li {margin: .5em 0;}

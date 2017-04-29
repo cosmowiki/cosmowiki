@@ -17,7 +17,7 @@ const ConstellationsComponent = ({constellations}) => {
         <a id="summaryToggleSwitch" className="expanded" href="#" title="Artikel anzeigen / schließen"></a>
         <div id="summaryContainer" className="visible">
           <p className="summary-text">
-            <i>Orion</i>, <i>Kassiopeia</i> oder die <i>Zwillinge</i> Castor und Pollux -
+            <em>Orion</em>, <em>Kassiopeia</em> oder die <em>Zwillinge</em> Castor und Pollux -
             wir alle kennen mindestens ein Sternbild (Konstellation) und können es
             aus dem Stehgreif am Nachthimmel finden. Die Figuren weisen seit Jahrhunderten
             Reisenden den Weg.
@@ -31,9 +31,9 @@ const ConstellationsComponent = ({constellations}) => {
             </p>
           </div>
           <p className="summary-text">
-            Auf der Nordhalbkugel helfen <i>Großer Wagen</i> und <i>Kleiner Wagen</i> den
-            Polarstern zu finden, wobei der Große Wagen ein Asterismus und kein eigenes
-            Sternbild ist, sondern nur ein Teil des <i>Großen Bären</i>. Auch die Kassiopeia,
+            Auf der Nordhalbkugel helfen <em>Großer Wagen</em> und <em>Kleiner Wagen</em> den
+            Polarstern zu finden, wobei der Große Wagen als Asterismus kein eigenes
+            Sternbild ist, sondern nur ein Teil des <em>Großen Bären</em>. Auch die Kassiopeia,
             das "Himmels-W" zieht nach Norden hin geöffnet am Firmament entlang.
           </p>
           <div className="summary-img size-lg">
@@ -45,8 +45,8 @@ const ConstellationsComponent = ({constellations}) => {
             </p>
           </div>
           <p className="summary-text">
-            Die Bewohner der südlichen Hemisphäre orientieren sich am <i>Kreuz des Südens</i>, dessen
-            Name von christlichen Seefahrern geprägt wurde. Schon <i>Amerigo Vespucci</i>,
+            Die Bewohner der südlichen Hemisphäre orientieren sich am <em>Kreuz des Südens</em>, dessen
+            Name von christlichen Seefahrern geprägt wurde. Schon <em>Amerigo Vespucci</em>,
             nach dem die Neue Welt ihren Namen Amerika erhielt, nutzte das Kreuz des
             Südens Anfang des 16. Jahrhunderts zur Orientierung auf seinen Reisen
             entlang der Ostküste Südamerikas.
@@ -55,7 +55,7 @@ const ConstellationsComponent = ({constellations}) => {
             Sternbilder dürften schon in vielen frühgeschichtlichen Kulturen bekannt
             gewesen sein. Die heute verwendeten haben ihren Ursprung in den 12 Tierkreiszeichen
             aus Babylonien und dem Ägypten des Altertums. Mitte des 2. Jahrhunderts
-            n. Chr. erstellte <i>Claudius Ptolemäus</i> dann mit dem <i>Almagest</i> eines
+            n. Chr. erstellte <em>Claudius Ptolemäus</em> dann mit dem <em>Almagest</em> eines
             der größten Werke der antiken Astronomie. Dieses für die folgenden 1500
             Jahre prägende Lehrbuch enthielt auch einen Sternenkatalog mit Angaben
             zu 1025 Sternen in 48 Sternbildern.
@@ -70,10 +70,10 @@ const ConstellationsComponent = ({constellations}) => {
             </p>
           </div>
           <p className="summary-text">
-            <i>Johann Bayer</i> übernahm dann 1603 in seiner <i>Uranometria</i> einige
-            Konstellationen aus Himmelsgloben des <i>Petrus Plancius</i>, die auf
-            die niederländischen Navigatoren <i>Pieter Dirkszoon Keyser</i> und <i>Frederick de Houtman</i> zurückgingen.
-            Der Astronomen <i>Johannes Hevelius</i> und <i>Nicolas-Louis de Lacaille</i> fügten
+            <em>Johann Bayer</em> übernahm dann 1603 in seiner <em>Uranometria</em> einige
+            Konstellationen aus Himmelsgloben des <em>Petrus Plancius</em>, die auf
+            die niederländischen Navigatoren <em>Pieter Dirkszoon Keyser</em> und <em>Frederick de Houtman</em> zurückgingen.
+            Der Astronomen <em>Johannes Hevelius</em> und <em>Nicolas-Louis de Lacaille</em> fügten
             weitere hinzu.
           </p>
           <p className="summary-text">
@@ -93,21 +93,21 @@ const ConstellationsComponent = ({constellations}) => {
             </p>
           </div>
           <p className="summary-text">
-            Nach einem Vorschlag des amerikanischen Astronomen <i>Henry Norris Russell</i> legte
-            dann 1922 die <i>Internationale Astronomische Union</i> (IAU) auf ihrer ersten
+            Nach einem Vorschlag des amerikanischen Astronomen <em>Henry Norris Russell</em> legte
+            dann 1922 die <em>Internationale Astronomische Union</em> (IAU) auf ihrer ersten
             Generalversammlung 88 Sternbilder fest, deren Grenzen sechs Jahre später
             exakt definiert wurden.
           </p>
           <p className="summary-text">
             Weltweit am bekanntesten dürfte das Kreuz des Südens sein, das auf vielen
-            Flaggen abgebildet ist und auch das Logo der <i>Europäischen Südsternwarte</i> (ESO)
+            Flaggen abgebildet ist und auch das Logo der <em>Europäischen Südsternwarte</em> (ESO)
             ziert. Der Große Wagen prangt gemeinsam mit dem Polarstern auf der Flagge
             des US-Bundesstaates Alaska.
           </p>
           <h4>Wussten Sie schon?</h4>
           <ul className="summary-list">
             <li>
-              Durch die <i>Präzessionsbwegung der Erde</i> war das Kreuz des Südens in
+              Durch die <em>Präzessionsbwegung der Erde</em> war das Kreuz des Südens in
               der Antike auch im Mittelmeerraum sichtbar.
             </li>
             <li>
@@ -115,7 +115,7 @@ const ConstellationsComponent = ({constellations}) => {
               Neuseeland, Papua-Neuguinea und Samoa zu sehen.
             </li>
             <li>
-              Die Namen von Sternbildern wie <i>Chemischer Ofen</i> oder <i>Luftpumpe</i> symbolisieren
+              Die Namen von Sternbildern wie <em>Chemischer Ofen</em> oder <em>Luftpumpe</em> symbolisieren
               den technischen Fortschritt des 18. Jahrhunderts.
             </li>
           </ul>
