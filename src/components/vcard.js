@@ -61,17 +61,17 @@ export default class VcardComponent extends React.Component {
         <div id="vcardBackground"></div>
         <div id="vcardOverlay">
           <div id="vcard">
+            <a id="vcardClose" title="Schlie&szlig;en" onClick={ onClose }></a>
             <div id="vcardContainer">
-              <a className="center" id="vcardClose" title="Schlie&szlig;en" onClick={ onClose }>&times;</a>
               <div id="vcardHeader">
                 <div id="vcardHistory">
-                  Verlauf: <a href="path/to/home">Home</a> &rarr; <a href="path/to/subPage">subPage</a> &rarr; <a
-                  href="path/to/1stVisitedItem">1stVisitedItem</a> &rarr; <a href="path/to/2ndVisitedItem">2ndVisitedItem</a> &rarr;
+                  Verlauf: <a href="path/to/home">Home</a> > <a href="path/to/subPage">subPage</a> > <a
+                  href="path/to/1stVisitedItem">1stVisitedItem</a> > <a href="path/to/2ndVisitedItem">2ndVisitedItem</a> >
                   <a href="path/to/openItem">openItem</a>
                 </div>
               </div>
               <div id="vcardContent">
-                <div id="vcardContentLeft">
+                <div id="vcardContentLeft" className="pure-u-3-4">
                   { image }
                   <div id="vcardItemName">
                     <h3>{ item.name }</h3>
@@ -79,11 +79,11 @@ export default class VcardComponent extends React.Component {
                   { shortName }
                   <div id="vcardItemLong">{ wikipediaArticle }</div>
                 </div>
-                <div id="vcardContentRight">
+                <div id="vcardContentRight" className="pure-u-1-4">
                   <div className="vcardItemRelatedCat">
-                    <h5>relatedCat1</h5>
+                    <h4>relatedCat1</h4>
                   </div>
-                  <div className="vcardItemRelatedLinks">
+                  <div className="vcardItemRelatedList">
                     <ul>
                       <li><a href="path/to/vcardItemRelated">relatedLink1 relatedLink1</a></li>
                       <li><a href="path/to/vcardItemRelated">relatedLink2</a></li>
@@ -91,9 +91,9 @@ export default class VcardComponent extends React.Component {
                     </ul>
                   </div>
                   <div className="vcardItemRelatedCat">
-                    <h5>relatedCat2</h5>
+                    <h4>relatedCat2</h4>
                   </div>
-                  <div className="vcardItemRelatedLinks">
+                  <div className="vcardItemRelatedList">
                     <ul>
                       <li><a href="path/to/vcardItemRelated">relatedLink1</a></li>
                       <li><a href="path/to/vcardItemRelated">relatedLink2</a></li>
@@ -101,9 +101,9 @@ export default class VcardComponent extends React.Component {
                     </ul>
                   </div>
                   <div className="vcardItemRelatedCat">
-                    <h5>relatedCat3</h5>
+                    <h4>relatedCat3</h4>
                   </div>
-                  <div className="vcardItemRelatedLinks">
+                  <div className="vcardItemRelatedList">
                     <ul>
                       <li><a href="path/to/vcardItemRelated">relatedLink1</a></li>
                       <li><a href="path/to/vcardItemRelated">relatedLink2</a></li>
