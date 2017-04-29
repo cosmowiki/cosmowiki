@@ -33822,19 +33822,19 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
           'p',
           { className: 'summary-text' },
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Orion'
           ),
           ', ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Kassiopeia'
           ),
           ' oder die ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Zwillinge'
           ),
@@ -33859,19 +33859,19 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
           { className: 'summary-text' },
           'Auf der Nordhalbkugel helfen ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Großer Wagen'
           ),
           ' und ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Kleiner Wagen'
           ),
-          ' den Polarstern zu finden, wobei der Große Wagen ein Asterismus und kein eigenes Sternbild ist, sondern nur ein Teil des ',
+          ' den Polarstern zu finden, wobei der Große Wagen als Asterismus kein eigenes Sternbild ist, sondern nur ein Teil des ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Großen Bären'
           ),
@@ -33896,13 +33896,13 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
           { className: 'summary-text' },
           'Die Bewohner der südlichen Hemisphäre orientieren sich am ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Kreuz des Südens'
           ),
           ', dessen Name von christlichen Seefahrern geprägt wurde. Schon ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Amerigo Vespucci'
           ),
@@ -33913,13 +33913,13 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
           { className: 'summary-text' },
           'Sternbilder dürften schon in vielen frühgeschichtlichen Kulturen bekannt gewesen sein. Die heute verwendeten haben ihren Ursprung in den 12 Tierkreiszeichen aus Babylonien und dem Ägypten des Altertums. Mitte des 2. Jahrhunderts n. Chr. erstellte ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Claudius Ptolemäus'
           ),
           ' dann mit dem ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Almagest'
           ),
@@ -33945,43 +33945,43 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
           'p',
           { className: 'summary-text' },
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Johann Bayer'
           ),
           ' übernahm dann 1603 in seiner ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Uranometria'
           ),
           ' einige Konstellationen aus Himmelsgloben des ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Petrus Plancius'
           ),
           ', die auf die niederländischen Navigatoren ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Pieter Dirkszoon Keyser'
           ),
           ' und ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Frederick de Houtman'
           ),
           ' zurückgingen. Der Astronomen ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Johannes Hevelius'
           ),
           ' und ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Nicolas-Louis de Lacaille'
           ),
@@ -34011,13 +34011,13 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
           { className: 'summary-text' },
           'Nach einem Vorschlag des amerikanischen Astronomen ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Henry Norris Russell'
           ),
           ' legte dann 1922 die ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Internationale Astronomische Union'
           ),
@@ -34028,7 +34028,7 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
           { className: 'summary-text' },
           'Weltweit am bekanntesten dürfte das Kreuz des Südens sein, das auf vielen Flaggen abgebildet ist und auch das Logo der ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Europäischen Südsternwarte'
           ),
@@ -34047,7 +34047,7 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
             null,
             'Durch die ',
             _react2['default'].createElement(
-              'i',
+              'em',
               null,
               'Präzessionsbwegung der Erde'
             ),
@@ -34063,13 +34063,13 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
             null,
             'Die Namen von Sternbildern wie ',
             _react2['default'].createElement(
-              'i',
+              'em',
               null,
               'Chemischer Ofen'
             ),
             ' oder ',
             _react2['default'].createElement(
-              'i',
+              'em',
               null,
               'Luftpumpe'
             ),
@@ -34397,7 +34397,7 @@ var ChronicleComponent = (function (_React$Component) {
               'Seit Jahrtausenden blicken wir in den Himmel und versuchen zu ergründen, was uns umgibt und woher wir kommen. Auch die frühen Menschen stellten sich wohl schon die größte aller Fragen:',
               _react2['default'].createElement('br', null),
               _react2['default'].createElement(
-                'i',
+                'em',
                 null,
                 'Was ist dort draußen?'
               )
@@ -34463,19 +34463,19 @@ var ChronicleComponent = (function (_React$Component) {
               { className: 'summary-text' },
               'Vor 500 Jahren sprengte dann das ',
               _react2['default'].createElement(
-                'i',
+                'em',
                 null,
                 'Fernrohr'
               ),
               ' die Grenzen des menschlichen Auges. Nach und nach offenbarten sich die Gesetze der Natur, unser Weltbild wurde präziser. ',
               _react2['default'].createElement(
-                'i',
+                'em',
                 null,
                 'Planetenbahnen'
               ),
               ' und die ',
               _react2['default'].createElement(
-                'i',
+                'em',
                 null,
                 'Gravitation'
               ),
@@ -34500,19 +34500,19 @@ var ChronicleComponent = (function (_React$Component) {
               { className: 'summary-text' },
               'Doch der Mensch wollte den Himmel nicht nur betrachten, er wollte ihn bereisen. Erkenntnisse in der Physik und Chemie ermöglichten das Reisen per ',
               _react2['default'].createElement(
-                'i',
+                'em',
                 null,
                 'Ballon'
               ),
               ', später im ',
               _react2['default'].createElement(
-                'i',
+                'em',
                 null,
                 'Flugzeug'
               ),
               '. Wir wollten mehr - ',
               _react2['default'].createElement(
-                'i',
+                'em',
                 null,
                 'schneller, höher, weiter!'
               )
@@ -34526,25 +34526,25 @@ var ChronicleComponent = (function (_React$Component) {
               'p',
               { className: 'summary-text' },
               _react2['default'].createElement(
-                'i',
+                'em',
                 null,
                 'Urknall, Relativität und Quantenmechanik'
               ),
               ', die Kräfte im ',
               _react2['default'].createElement(
-                'i',
+                'em',
                 null,
                 'Atom'
               ),
               ', ',
               _react2['default'].createElement(
-                'i',
+                'em',
                 null,
                 'Schwarze Löcher'
               ),
               ' und ',
               _react2['default'].createElement(
-                'i',
+                'em',
                 null,
                 'Dunkle Materie'
               ),
@@ -34563,7 +34563,7 @@ var ChronicleComponent = (function (_React$Component) {
                 null,
                 'Die ca. 4000 Jahre alte ',
                 _react2['default'].createElement(
-                  'i',
+                  'em',
                   null,
                   'Himmelsscheibe von Nebra'
                 ),
@@ -34579,7 +34579,7 @@ var ChronicleComponent = (function (_React$Component) {
                 null,
                 'Schon 1917 entwickelte der deutsche Raumfahrtpionier ',
                 _react2['default'].createElement(
-                  'i',
+                  'em',
                   null,
                   'Hermann Oberth'
                 ),
@@ -36378,7 +36378,7 @@ var PeopleComponent = function PeopleComponent(_ref) {
         ),
         _react2['default'].createElement(
           'div',
-          { className: 'summary-img full-width center' },
+          { className: 'summary-img width-75 center' },
           _react2['default'].createElement('img', { src: '/img/persons/people_collage.jpg', alt: 'Collage berühmter Personen' }),
           _react2['default'].createElement(
             'p',
@@ -36434,7 +36434,7 @@ var PeopleComponent = function PeopleComponent(_ref) {
             null,
             'Der deutsche Astronom ',
             _react2['default'].createElement(
-              'i',
+              'em',
               null,
               'Johann Bayer'
             ),
@@ -36445,7 +36445,7 @@ var PeopleComponent = function PeopleComponent(_ref) {
             null,
             'Am ',
             _react2['default'].createElement(
-              'i',
+              'em',
               null,
               'Apollo-Programm'
             ),
@@ -36460,7 +36460,7 @@ var PeopleComponent = function PeopleComponent(_ref) {
             'li',
             null,
             _react2['default'].createElement(
-              'i',
+              'em',
               null,
               'Brain May'
             ),
@@ -36820,37 +36820,37 @@ var SolarSystemComponent = function SolarSystemComponent() {
           { className: 'summary-text' },
           'In klaren Nächten sehen wir manchmal ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Merkur'
           ),
           ', ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Venus'
           ),
           ', ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Mars'
           ),
           ', ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Jupiter'
           ),
           ' oder ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Saturn'
           ),
           ' einzeln oder zu mehreren am Himmel entlangziehen. Sie scheinen sich dabei etwa auf einer Linie zu bewegen. Im Altertum wurden sie deshalb als ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Wandelsterne'
           ),
@@ -36875,19 +36875,19 @@ var SolarSystemComponent = function SolarSystemComponent() {
           { className: 'summary-text' },
           'Die Bahnen aller Planeten unseres Systems liegen nahezu auf dieser einen Ebene, der ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Ekliptik'
           ),
           '. Sie umrunden darauf die ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Sonne'
           ),
           ' in der gleichen Richtung, in die sie sich selbst auch dreht - gegen den Uhrzeigersinn, würde der Beobachter vom Nordpol der Ekliptik auf sie herunterschauen. Auch die Eigenrotation der Planeten entspricht dieser Richtung. Nur die Venus rotiert ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'retrograd'
           ),
@@ -36896,15 +36896,15 @@ var SolarSystemComponent = function SolarSystemComponent() {
         _react2['default'].createElement(
           'p',
           { className: 'summary-text' },
-          'Wissenschaftler vermuten den Ursprung des Sonnensystems in einer rotierenden Materiewolke, die durch einen äußeren Impuls - vielleicht eine nahe ',
+          'Wissenschaftler vermuten den Ursprung des Sonnensystems in einem rotierenden Materienebel, der sich durch die Fliehkräfte zu einer ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
-            'Supernova'
+            'Akkretionsscheibe'
           ),
-          ' gestaucht wurde und sich somit noch schneller drehte. Ein Großteil der Materie verdichtete sich in ihrem Zentrum bis schließlich unter enormem Druck und immmer weiter steigenden Temperaturen die ',
+          ' verformte. Mehr und mehr Materie stürzte in das Zentrum der Scheibe und verdichtete sich, bis schließlich unter enormem Druck und immmer weiter steigenden Temperaturen die ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Kernfusion'
           ),
@@ -36913,22 +36913,41 @@ var SolarSystemComponent = function SolarSystemComponent() {
         _react2['default'].createElement(
           'p',
           { className: 'summary-text' },
-          'Ringsum verklumpten Staubteilchen zu immer größeren Gebilden miteinander und formten die Bausteine der künftigen Planeten. Mit steigenden Massen und somit wachsenden Anziehungskräften sammelten sie mehr und mehr Teilchen und Klumpen aus ihrem kosmischen Umfeld ein. Sie räumten ihre Bahnen leer und durch Resonanzen der Gravitationskräfte mit denen anderer',
+          'Rings um den jungen Stern verklumpten Staubteilchen zu immer größeren Gebilden miteinander und formten die ',
           _react2['default'].createElement(
-            'i',
+            'em',
+            null,
+            'Planetesimale'
+          ),
+          ', die Bausteine der künftigen Planeten. Mit steigenden Massen und somit wachsenden Anziehungskräften wuchsen sie zu ',
+          _react2['default'].createElement(
+            'em',
             null,
             'Protoplaneten'
           ),
-          ' entstanden die ersten Freiräume.'
+          ' heran und sammelten noch mehr Materie aus ihrem kosmischen Umfeld ein. Auf ihrem Umlauf um die Sonne und durch Resonanzen ihrer Gravitationskräfte räumten sie ihre Bahnen im Laufe von vielen Jahrmillionen leer.'
         ),
         _react2['default'].createElement(
           'div',
-          { className: 'summary-img full-width center' },
+          { className: 'summary-img width-100 center' },
           _react2['default'].createElement('img', { src: '/img/solarsystem/solarsystem.jpg', alt: 'das Sonnensystem' }),
           _react2['default'].createElement(
             'p',
             { className: 'summary-img-text' },
-            'Sonne, Merkur, Venus, Erde, Mars, Jupiter, Saturn, Uranus, Neptun - maßstabs,- aber nicht abstandsgetreu'
+            'Sonne, Merkur, Venus, Erde, Mars, Jupiter, Saturn, Uranus, Neptun - maßstabs,- aber nicht abstandsgetreu',
+            _react2['default'].createElement('br', null),
+            'Quelle: ',
+            _react2['default'].createElement(
+              'a',
+              { href: 'http://iau.org/', title: 'IAU' },
+              'IAU'
+            ),
+            ' ',
+            _react2['default'].createElement(
+              'a',
+              { href: 'http://creativecommons.org/licenses/by-sa/3.0/', title: 'CC BY-SA 3.0' },
+              'CC BY-SA 3.0'
+            )
           )
         ),
         _react2['default'].createElement(
@@ -36936,19 +36955,19 @@ var SolarSystemComponent = function SolarSystemComponent() {
           { className: 'summary-text' },
           'So umkreisen heute acht Planeten unseren Zentralstern, seit die ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Internationale Astronomische Union'
           ),
           ' (IAU) den früher als Planet geführten ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Pluto'
           ),
           ' im Jahr 2006 zum Zwergplanten herabstufte. Die Entfernungen dabei sind riesig. So beträgt der mittlere Abstand zwischen Sonne und Erde ca. 150 Millionen Kilometer, oder eine ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Astronomische Einheit'
           ),
@@ -36973,31 +36992,31 @@ var SolarSystemComponent = function SolarSystemComponent() {
           { className: 'summary-text' },
           'Die Äußeren Planeten hingegen sind völlig anders beschaffen. Sie sind ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Gasplaneten'
           ),
           ', deren Atmosphären je nach Entfernung zur Sonne gasförmig (',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Jupiter'
           ),
           ' und ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Saturn'
           ),
           ') oder sogar teilweise flüssig (',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Uranus'
           ),
           ' und ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Neptun'
           ),
@@ -37028,13 +37047,13 @@ var SolarSystemComponent = function SolarSystemComponent() {
           { className: 'summary-text' },
           'Neben den Planeten und ihren Monden existiert eine Vielzahl kleinerer Objekte in unserem Sonnensystem, die in der Entstehungsphase nicht von der Sonne oder den Planeten eingefangen wurden. So werden die Bahnen der inneren Planeten von unzähligen ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Asteroiden'
           ),
           ' verschiedenster Größen (auch ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Planetoiden'
           ),
@@ -37066,13 +37085,13 @@ var SolarSystemComponent = function SolarSystemComponent() {
           'p',
           { className: 'summary-text' },
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Zentauren'
           ),
           ' werden Asteroiden genannt, die sich zwischen den Umlaufbahnen von Jupiter und Neptun um die Sonne bewegen. Asteroiden, die einem Planeten auf seinem Orbit entweder vorauseilen oder ihm nachfolgen, nennt man ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Trojaner'
           ),
@@ -37083,25 +37102,25 @@ var SolarSystemComponent = function SolarSystemComponent() {
           { className: 'summary-text' },
           'Noch weit außerhalb des Neptunorbits, liegt der ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Kuipergürtel'
           ),
           ', eine ringförmige Region mit tausenden meist kleinen, aber auch bis zu mehreren hundert Kilometern großen Objekten, so auch Pluto. Am äußeren Rand unseres Sonnensystems befindet sich vermutlich dann die ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Oortsche Wolke'
           ),
           ', eine Ansammlung astronomischer Objekte in Form einer Kugelschale. Beide Regionen gelten als Ursprungsgebiete von ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Kometen'
           ),
           ', die auf hochelliptischen Bahnen durch das Sonnensystem ziehen. Wissenschaftler erhoffen sich aus der Untersuchung dieser "Schweifsterne" auch mit Raumsonden wie zum Beispiel ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Rosetta'
           ),
@@ -37118,7 +37137,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           _react2['default'].createElement(
             'li',
             null,
-            'Die Sonne macht 99,86 % der Gesamtmasse des Systems aus. Ihr Durchmesser ist 109-mal größer als der der Erde.'
+            'Die Sonne macht 99,86 % der Gesamtmasse unseres Systems aus. Ihr Durchmesser ist 109-mal größer als der der Erde.'
           ),
           _react2['default'].createElement(
             'li',
@@ -37128,7 +37147,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           _react2['default'].createElement(
             'li',
             null,
-            'Die Erde umrundet die Sonne in 365,256 Tagen mit durchschnittlich ca. 30 Kilometern pro Sekunde.'
+            'Die Erde umrundet die Sonne in 365,256 Tagen mit einer Geschwindigkeit von durchschnittlich ca. 30 Kilometern pro Sekunde.'
           ),
           _react2['default'].createElement(
             'li',
@@ -38563,19 +38582,19 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
           'p',
           { className: 'summary-text' },
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Der Weltraumausstieg'
           ),
           ', auch ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'EVA'
           ),
           ' (extra-vehicular activity = Außenbordaktivität) oder ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'spacewalk'
           ),
@@ -38605,7 +38624,7 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
           { className: 'summary-text' },
           'Bei der so genannten ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Stand-Up-EVA'
           ),
@@ -38630,13 +38649,13 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
           { className: 'summary-text' },
           'Wirklich freie Aufenthalte im All ohne Sicherungsleine wurden mit der ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Manned Maneuvering Unit (MMU)'
           ),
           ', einer Art Tornister mit kleinen Schubdüsen möglich. Sie werden nur in Ausnahmefällen durchgeführt. Der aktuelle Nachfolger der MMU ist das ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'SAFER'
           ),
@@ -38647,13 +38666,13 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
           { className: 'summary-text' },
           'Der sowjetische Kosmonaut ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Alexei Leonow'
           ),
           ' absolvierte am 18. März 1965 den ersten Weltraumausstieg. Etwa zwölf Minuten lang schwebte er außerhalb von ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Woschod 2'
           ),
@@ -38683,19 +38702,19 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
           { className: 'summary-text' },
           'Die erste Frau, die einen Außenbordeinsatz durchführte, war ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Swetlana Sawizkaja'
           ),
           ' am 25. Juli 1984 an Bord der sowjetischen Raumstation ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Saljut 7'
           ),
           '. Gemeinsam mit ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Wladimir Dschanibekow'
           ),
@@ -39015,7 +39034,7 @@ var StarsComponent = function StarsComponent(_ref) {
           { className: 'summary-text' },
           'In ihnen liefert die ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'stellare Kernfusion'
           ),
@@ -39048,19 +39067,19 @@ var StarsComponent = function StarsComponent(_ref) {
           { className: 'summary-text' },
           'Auch in kosmischen Dimensionen gesehen sind Sterne selten Einzelgänger. Sie konzentrieren sich in ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Sternhaufen'
           ),
           ' und zu Millionen oder sogar Milliarden in ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Galaxien'
           ),
           ', die widerum in ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Galaxienhaufen'
           ),
@@ -39071,31 +39090,31 @@ var StarsComponent = function StarsComponent(_ref) {
           { className: 'summary-text' },
           'Mit bloßem Auge sind von der Erde aus höchstens 5000 bis 6000 Sterne zu erkennen. Der Mensch sah in ihnen Götter, er verband sie zu Sternbildern und nutzt sie bis heute zur Navigation. Die ersten Namen von Sternen, die heute noch gebräuchlich sind, stammen oft aus der arabischen oder griechisch-hellenistischen Antike, so zum Beispiel Beteigeuze oder Sirius. Neuere Bezeichnungen entstanden mit der Erstellung großer ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Himmelsatlanten'
           ),
           ' und ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Sternenkataloge'
           ),
           ', wie der ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Uranometria'
           ),
           ' von ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Johann Bayer'
           ),
           ' (1603) oder dem ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Hipparcos-Katalog'
           ),
@@ -39127,19 +39146,19 @@ var StarsComponent = function StarsComponent(_ref) {
           { className: 'summary-text' },
           'Von der Frühgeschichte des Menschen bis heute beobachten, katalogisieren und vermessen wir also Sterne. Schon im Altertum wurden dazu von China über Ägypten bis nach Südamerika große Observatorien errichtet. Heute bauen wir riesige ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Radioteleskope'
           ),
           ', wie zum Beispiel das ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Very Large Array'
           ),
           ' (VLA) in New Mexico, oder wir schicken Weltraumteleskope ins All, die Röntgenstrahlen, Mikrowellen oder einen großen Bereich des Lichtspektrums beobachten können, wie das ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Hubble Space Telescope'
           ),
@@ -39164,7 +39183,7 @@ var StarsComponent = function StarsComponent(_ref) {
           { className: 'summary-text' },
           'Mit ihnen entstehen nicht nur phantastische Aufnahmen, die uns begeistern. Vor allem geht es um die Bestimmung von Eigenschaften wie Leuchtkraft und Alter, Größe, Masse, Zusammensetzung und Bewegung. Der Lebenszyklus von Sternen kann heute schon gut beschrieben werden. Astronomen setzen die gewonnenen Informationen zueinander ins Verhältnis und teilen Sterne danach in verschiedene Klassen ein. Daraus gingen wichtige Darstellungen wie beispielsweise das ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Hertzsprung-Russell-Diagramm'
           ),
@@ -39175,37 +39194,37 @@ var StarsComponent = function StarsComponent(_ref) {
           { className: 'summary-text' },
           'Mittlerweile sind nicht nur massearme- und reiche, große und kleine, helle und weniger helle Sterne bekannt. Drei verschiedene ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Sternenpopulationen'
           ),
           ', eingeteilt nach ihrer Lebensdauer in der Entwicklung des Universums, werden unterschieden. Weiterhin differenziert man Sterne anhand ihres individuellen Alters, ihrer Zugehörigkeit zu Regionen und Sternhaufen, teilt sie in Größen- und ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Spektralklassen'
           ),
           ' ein. Ihre extremsten Erscheinungsformen und Phänomene, wie zum Beispiel ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Neutronensterne'
           ),
           ',',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Supernovae'
           ),
           ', ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Schwarze Löcher'
           ),
           ' oder ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Pulsare'
           ),
