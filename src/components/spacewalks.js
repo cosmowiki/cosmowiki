@@ -11,14 +11,14 @@ class Summary extends React.Component {
     const toggle = () => {
       this.setState({isOpen: !isOpen}); };
     const switchClassName = isOpen ? "expanded" : "collapsed";
-    const containerClassName = isOpen ? "visible" : "hiddenWithFadeOut";
+    const containerClassName = isOpen ? "visible" : "minimized";
     return (
       <div id="summary" className="pure-u-1 left">
         <a id="summaryToggleSwitch" className={switchClassName} title="Artikel anzeigen / schließen" onClick={toggle}/>
         <div id="summaryContainer" className={containerClassName}>
           {this.props.children}
         </div>
-        {isOpen ? <div id="summaryBottomGradient" /> :null}
+        {isOpen ? null : <div id="summaryShade" /> }
       </div>
     );
   }

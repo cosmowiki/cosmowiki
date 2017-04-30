@@ -142,22 +142,35 @@ main {background: rgba(255,255,255,.8); border-bottom: 1em solid #eee;}
 
 /*			summary ------------------------------------------------------------- */
 
-#summary {background: rgba(255, 255, 255,.8); border-bottom: 1px solid #fff;position: relative;}
+#summary {
+	position: relative;
+	background: rgba(255, 255, 255,.8);
+	border-bottom: 1px solid #fff;
+}
 
-#summaryToggleSwitch {display: block; font-size: 2em; text-align: right; position: relative; transition: right 0.7s;}
-#summaryToggleSwitch.expanded {margin-right: .125em; right: 0;}
+#summaryToggleSwitch {
+	display: block;
+	font-size: 2em; line-height: .75em;
+}
+#summaryToggleSwitch.expanded {
+	text-align: right;
+	background: transparent;
+}
 #summaryToggleSwitch.expanded:after {content: '\00D7';}
-#summaryToggleSwitch.collapsed {right: 50%;}
+#summaryToggleSwitch.collapsed {
+	text-align: center;
+	background: rgba(255, 255, 255,.8);
+}
 #summaryToggleSwitch.collapsed:after {content: '\25BE';}
 
 #summaryContainer {
-  position: relative; overflow: auto; height: 21.5em; /* Why 21.5em? Shows half a line at the bottom, which indicates it's scrollable. */
+  position: relative; overflow: hidden; height: 100%;
   padding: 0 .25em 0; border-bottom: 1em solid #aaf;
-  transition: height 0.3s;
 }
-#summaryContainer.hiddenWithFadeOut {height: 0;}
-#summaryBottomGradient {
-  position: absolute; height: 6em; width: 100%; left: 0; bottom: 1em; background: linear-gradient(180deg, transparent, white);
+#summaryContainer.minimized {height: 2.25em;}
+#summaryShade {
+  position: absolute; height: 2.25em; width: 100%; left: 0; bottom: 1em;
+	background-image: linear-gradient(to bottom, rgba(255,255,255,.8), #fff);
 }
 .summary-text,
 div.summary-img.width-100,
