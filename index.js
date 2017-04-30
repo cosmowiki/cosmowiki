@@ -38532,7 +38532,15 @@ Object.defineProperty(exports, '__esModule', {
   value: true
 });
 
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var _react = require('react');
 
@@ -38541,6 +38549,44 @@ var _react2 = _interopRequireDefault(_react);
 var _notes = require('./notes');
 
 var _notes2 = _interopRequireDefault(_notes);
+
+var Summary = (function (_React$Component) {
+  _inherits(Summary, _React$Component);
+
+  function Summary() {
+    _classCallCheck(this, Summary);
+
+    _get(Object.getPrototypeOf(Summary.prototype), 'constructor', this).call(this);
+    this.state = { isOpen: true };
+  }
+
+  _createClass(Summary, [{
+    key: 'render',
+    value: function render() {
+      var _this = this;
+
+      var isOpen = this.state.isOpen;
+      var toggle = function toggle() {
+        _this.setState({ isOpen: !isOpen });
+      };
+      var switchClassName = isOpen ? "expanded" : "collapsed";
+      var containerClassName = isOpen ? "visible" : "hiddenWithFadeOut";
+      return _react2['default'].createElement(
+        'div',
+        { id: 'summary', className: 'pure-u-1 left' },
+        _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: switchClassName, title: 'Artikel anzeigen / schließen', onClick: toggle }),
+        _react2['default'].createElement(
+          'div',
+          { id: 'summaryContainer', className: containerClassName },
+          this.props.children
+        ),
+        isOpen ? _react2['default'].createElement('div', { id: 'summaryBottomGradient' }) : null
+      );
+    }
+  }]);
+
+  return Summary;
+})(_react2['default'].Component);
 
 var SpacewalksComponent = function SpacewalksComponent(_ref) {
   var spacewalks = _ref.spacewalks;
@@ -38563,186 +38609,172 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
       )
     ),
     _react2['default'].createElement(
-      'div',
-      { id: 'todo', className: 'pure-u-1' },
+      Summary,
+      null,
       _react2['default'].createElement(
         'p',
-        null,
-        '@Wolfram pls make the #summaryToggleSwitch work.'
-      )
-    ),
-    _react2['default'].createElement(
-      'div',
-      { id: 'summary', className: 'pure-u-1 left' },
-      _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
+        { className: 'summary-text' },
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Der Weltraumausstieg'
+        ),
+        ', auch ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'EVA'
+        ),
+        ' (extra-vehicular activity = Außenbordaktivität) oder ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'spacewalk'
+        ),
+        ' genannt, ist ein Begriff für den Aufenthalt von Astronauten außerhalb eines Raumfahrzeuges im Vakuum des Weltalls oder auf einem anderen Himmelskörper. (z. B. Lunar Extra Vehicular Activity = LEVA) Er wird meist für Arbeiten an einem Raumfahrzeug, zu wissenschaftlichen Zwecken oder zur Erprobung neuer Techniken durchgeführt.'
+      ),
       _react2['default'].createElement(
         'div',
-        { id: 'summaryContainer', className: 'visible' },
+        { className: 'summary-img float-right size-lg' },
         _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Der Weltraumausstieg'
-          ),
-          ', auch ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'EVA'
-          ),
-          ' (extra-vehicular activity = Außenbordaktivität) oder ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'spacewalk'
-          ),
-          ' genannt, ist ein Begriff für den Aufenthalt von Astronauten außerhalb eines Raumfahrzeuges im Vakuum des Weltalls oder auf einem anderen Himmelskörper. (z. B. Lunar Extra Vehicular Activity = LEVA) Er wird meist für Arbeiten an einem Raumfahrzeug, zu wissenschaftlichen Zwecken oder zur Erprobung neuer Techniken durchgeführt.'
-        ),
-        _react2['default'].createElement(
-          'div',
-          { className: 'summary-img float-right size-lg' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/spacewalks/buzz_aldrin_moon_lg.jpg', title: 'Buzz Aldrin auf dem Mond - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/spacewalks/buzz_aldrin_moon_sm.jpg', alt: 'Buzz Aldrin auf dem Mond' })
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Buzz Aldrin, Mond'
-          )
+          'a',
+          { href: '/img/spacewalks/buzz_aldrin_moon_lg.jpg', title: 'Buzz Aldrin auf dem Mond - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/spacewalks/buzz_aldrin_moon_sm.jpg', alt: 'Buzz Aldrin auf dem Mond' })
         ),
         _react2['default'].createElement(
           'p',
-          { className: 'summary-text' },
-          'Die Raumfahrer sind hierbei nur durch einen speziellen Raumanzug vor dem Vakuum und der Strahlung des Weltraums sowie vor Mikrometeoriten geschützt. Die Strahlenbelastung ist dabei etwa doppelt so hoch wie im Raumfahrzeug.'
-        ),
+          { className: 'summary-img-text' },
+          'Buzz Aldrin, Mond'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Die Raumfahrer sind hierbei nur durch einen speziellen Raumanzug vor dem Vakuum und der Strahlung des Weltraums sowie vor Mikrometeoriten geschützt. Die Strahlenbelastung ist dabei etwa doppelt so hoch wie im Raumfahrzeug.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Bei der so genannten ',
         _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Bei der so genannten ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Stand-Up-EVA'
-          ),
-          ' (SEVA) steht ein Raumfahrer in der geöffneten Luke seines Raumfahrzeugs ohne dies zu verlassen. Er ist hierbei vollständig abhängig vom den Systemen des Raumanzugs und assistiert einem weiteren Raumfahrer bei dessen EVA oder filmt ihn dabei.'
-        ),
-        _react2['default'].createElement(
-          'div',
-          { className: 'summary-img float-left' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/spacewalks/juri_onufrijenko_mir_lg.jpg', title: 'Juri Onufrijenko an der Raumstation Mir - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/spacewalks/juri_onufrijenko_mir_sm.jpg', alt: 'Juri Onufrijenko an der Raumstation Mir' })
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Juri Onufrijenko, Mir'
-          )
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Wirklich freie Aufenthalte im All ohne Sicherungsleine wurden mit der ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Manned Maneuvering Unit (MMU)'
-          ),
-          ', einer Art Tornister mit kleinen Schubdüsen möglich. Sie werden nur in Ausnahmefällen durchgeführt. Der aktuelle Nachfolger der MMU ist das ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'SAFER'
-          ),
-          '-System (Simplified Aid for EVA Rescue).'
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Der sowjetische Kosmonaut ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Alexei Leonow'
-          ),
-          ' absolvierte am 18. März 1965 den ersten Weltraumausstieg. Etwa zwölf Minuten lang schwebte er außerhalb von ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Woschod 2'
-          ),
-          ' auf seiner eigenen Umlaufbahn um die Erde. Eine Kamera an der Außenseite des Raumschiffs übertrug das historische Ereignis.'
-        ),
-        _react2['default'].createElement(
-          'div',
-          { className: 'summary-img float-right' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/spacewalks/woschod_2_lg.jpg', title: 'Missionslogo von Woschod 2 - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/spacewalks/woschod_2_sm.jpg', alt: 'Missionslogo von Woschod 2' })
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Logo von Woschod 2'
-          )
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Bei der Rückkehr in das Raumschiff ergaben sich große Schwierigkeiten, da sich der Berkut-Raumanzug durch den fehlenden Gegendruck im All aufgebläht hatte und zu steif geworden war. Erst als Leonow Druck aus seinem Anzug abgelassen hatte, gelang ihm der Einstieg in die Schleuse. Durch den Stress dabei stieg seine Körpertemperatur um 3,2 °C an. In dem Buch "Zwei Mann im Mond" verarbeitete er seinen Weltraum"spaziergang" und die gesamte Mission.'
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Die erste Frau, die einen Außenbordeinsatz durchführte, war ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Swetlana Sawizkaja'
-          ),
-          ' am 25. Juli 1984 an Bord der sowjetischen Raumstation ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Saljut 7'
-          ),
-          '. Gemeinsam mit ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Wladimir Dschanibekow'
-          ),
-          ' testete sie neue Werkzeuge und Verfahren zum Schweißen, Schneiden und Beschichten von Materialien unter Weltraumbedingungen.'
-        ),
-        _react2['default'].createElement(
-          'h4',
+          'em',
           null,
-          'Wussten Sie schon?'
+          'Stand-Up-EVA'
+        ),
+        ' (SEVA) steht ein Raumfahrer in der geöffneten Luke seines Raumfahrzeugs ohne dies zu verlassen. Er ist hierbei vollständig abhängig vom den Systemen des Raumanzugs und assistiert einem weiteren Raumfahrer bei dessen EVA oder filmt ihn dabei.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img float-left' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/spacewalks/juri_onufrijenko_mir_lg.jpg', title: 'Juri Onufrijenko an der Raumstation Mir - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/spacewalks/juri_onufrijenko_mir_sm.jpg', alt: 'Juri Onufrijenko an der Raumstation Mir' })
         ),
         _react2['default'].createElement(
-          'ul',
-          { className: 'summary-list' },
-          _react2['default'].createElement(
-            'li',
-            null,
-            'Bis jetzt wurden [totalNumberOfItems] Weltraumausstiege von [totalNumberOfAstronauts] Astronauten durchgeführt.'
-          ),
-          _react2['default'].createElement(
-            'li',
-            null,
-            '[astronautMaxNumberOfItems] absolvierte mit [maxNumberOfItems] EVA die meisten Außenbordeinsätze.'
-          ),
-          _react2['default'].createElement(
-            'li',
-            null,
-            'Am [longestItemStartDate] führten [astronautsLongestItem] den mit [longestItemTime] bislang längsten Weltraumausstieg durch.'
-          )
+          'p',
+          { className: 'summary-img-text' },
+          'Juri Onufrijenko, Mir'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Wirklich freie Aufenthalte im All ohne Sicherungsleine wurden mit der ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Manned Maneuvering Unit (MMU)'
+        ),
+        ', einer Art Tornister mit kleinen Schubdüsen möglich. Sie werden nur in Ausnahmefällen durchgeführt. Der aktuelle Nachfolger der MMU ist das ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'SAFER'
+        ),
+        '-System (Simplified Aid for EVA Rescue).'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Der sowjetische Kosmonaut ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Alexei Leonow'
+        ),
+        ' absolvierte am 18. März 1965 den ersten Weltraumausstieg. Etwa zwölf Minuten lang schwebte er außerhalb von ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Woschod 2'
+        ),
+        ' auf seiner eigenen Umlaufbahn um die Erde. Eine Kamera an der Außenseite des Raumschiffs übertrug das historische Ereignis.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img float-right' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/spacewalks/woschod_2_lg.jpg', title: 'Missionslogo von Woschod 2 - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/spacewalks/woschod_2_sm.jpg', alt: 'Missionslogo von Woschod 2' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Logo von Woschod 2'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Bei der Rückkehr in das Raumschiff ergaben sich große Schwierigkeiten, da sich der Berkut-Raumanzug durch den fehlenden Gegendruck im All aufgebläht hatte und zu steif geworden war. Erst als Leonow Druck aus seinem Anzug abgelassen hatte, gelang ihm der Einstieg in die Schleuse. Durch den Stress dabei stieg seine Körpertemperatur um 3,2 °C an. In dem Buch "Zwei Mann im Mond" verarbeitete er seinen Weltraum"spaziergang" und die gesamte Mission.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Die erste Frau, die einen Außenbordeinsatz durchführte, war ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Swetlana Sawizkaja'
+        ),
+        ' am 25. Juli 1984 an Bord der sowjetischen Raumstation ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Saljut 7'
+        ),
+        '. Gemeinsam mit ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Wladimir Dschanibekow'
+        ),
+        ' testete sie neue Werkzeuge und Verfahren zum Schweißen, Schneiden und Beschichten von Materialien unter Weltraumbedingungen.'
+      ),
+      _react2['default'].createElement(
+        'h4',
+        null,
+        'Wussten Sie schon?'
+      ),
+      _react2['default'].createElement(
+        'ul',
+        { className: 'summary-list' },
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Bis jetzt wurden [totalNumberOfItems] Weltraumausstiege von [totalNumberOfAstronauts] Astronauten durchgeführt.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          '[astronautMaxNumberOfItems] absolvierte mit [maxNumberOfItems] EVA die meisten Außenbordeinsätze.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Am [longestItemStartDate] führten [astronautsLongestItem] den mit [longestItemTime] bislang längsten Weltraumausstieg durch.'
         )
       )
     ),
