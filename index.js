@@ -38570,7 +38570,7 @@ var Summary = (function (_React$Component) {
         _this.setState({ isOpen: !isOpen });
       };
       var switchClassName = isOpen ? "expanded" : "collapsed";
-      var containerClassName = isOpen ? "visible" : "hiddenWithFadeOut";
+      var containerClassName = isOpen ? "visible" : "minimized";
       return _react2['default'].createElement(
         'div',
         { id: 'summary', className: 'pure-u-1 left' },
@@ -38580,7 +38580,7 @@ var Summary = (function (_React$Component) {
           { id: 'summaryContainer', className: containerClassName },
           this.props.children
         ),
-        isOpen ? _react2['default'].createElement('div', { id: 'summaryBottomGradient' }) : null
+        isOpen ? null : _react2['default'].createElement('div', { id: 'summaryShade' })
       );
     }
   }]);
