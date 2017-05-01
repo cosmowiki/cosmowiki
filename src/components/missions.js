@@ -1,6 +1,29 @@
 import React from 'react';
 import Notes from './notes';
 
+class Summary extends React.Component {
+  constructor() {
+    super();
+    this.state = {isOpen: true};
+  }
+  render() {
+    const isOpen = this.state.isOpen;
+    const toggle = () => {
+      this.setState({isOpen: !isOpen}); };
+    const switchClassName = isOpen ? "expanded" : "collapsed";
+    const containerClassName = isOpen ? "visible" : "minimized";
+    return (
+      <div id="summary" className="pure-u-1 left">
+        <a id="summaryToggleSwitch" className={switchClassName} title="Artikel anzeigen / schließen" onClick={toggle}/>
+        <div id="summaryContainer" className={containerClassName}>
+          {this.props.children}
+        </div>
+        {isOpen ? null : <div id="summaryShade" /> }
+      </div>
+    );
+  }
+}
+
 const MissionsComponent = ({missions}) => {
   return (
     <main role="main" className="missions pure-u-1 center">
@@ -14,56 +37,54 @@ const MissionsComponent = ({missions}) => {
         <p>@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens</p>
         <p>@Wolfram pls make the #summaryToggleSwitch work.</p>
       </div>
-      <div id="summary" className="pure-u-1 left">
-        <a id="summaryToggleSwitch" className="expanded" href="#" title="Artikel anzeigen / schließen"></a>
-        <div id="summaryContainer" className="visible">
-          <div className="summary-img">
-            <a href="/img/missions/1_lg.jpg" title="Bildbeschreibung - Großansicht">
-              <img src="/img/missions/1_sm.jpg" alt="Bildbeschreibung" />
-            </a>
-            <p className="summary-img-text">
-              Bildbeschreibung
-            </p>
-          </div>
-          <p className="summary-text">
-            Die Geschichte der Raumfahrt begann schon lange vor Sputnik 1. Die
-            größten Pioniere der Raketentechnik waren
-            sicher <i>Max Valier</i>, <i>Konstantin Ziolkowski</i>, <i>Robert Goddard</i> und <i>Hermann Oberth</i>.
-            Doch schon im Jahr 1232 sollen in China die ersten Raketen zu militärischen
-            Zwecken eingesetzt worden sein.
+      <Summary>
+        <p className="summary-text">
+          Die Geschichte der Raumfahrt begann schon lange vor Sputnik 1. Die
+          größten Pioniere der Raketentechnik waren
+          sicher <i>Max Valier</i>, <i>Konstantin Ziolkowski</i>, <i>Robert Goddard</i> und <i>Hermann Oberth</i>.
+          Doch schon im Jahr 1232 sollen in China die ersten Raketen zu militärischen
+          Zwecken eingesetzt worden sein.
+        </p>
+        <p className="summary-text">
+          Das Militär war oft genug die treibende Kraft hinter technischen Entwicklungen,
+          so auch in der Raumfahrt. Die ersten Raketenflugzeuge, wie die
+          Bachem <i>BA 349</i>, Messerschmitt <i>Me 163</i> oder die Heinkel <i>He 176</i>,
+          wie auch die erste funktionsfähigen Großrakete <i>Aggregat 4</i> (V2)
+          waren rein zu kriegerischen Zwecken entwickelt worden.
+        </p>
+        <div className="summary-img">
+          <a href="/img/missions/1_lg.jpg" title="Bildbeschreibung - Großansicht">
+            <img src="/img/missions/1_sm.jpg" alt="Bildbeschreibung" />
+          </a>
+          <p className="summary-img-text">
+            Bildbeschreibung
           </p>
-          <p className="summary-text">
-            Das Militär war oft genug die treibende Kraft hinter technischen Entwicklungen,
-            so auch in der Raumfahrt. Die ersten Raketenflugzeuge, wie die
-            Bachem <i>BA 349</i>, Messerschmitt <i>Me 163</i> oder die Heinkel <i>He 176</i>,
-            wie auch die erste funktionsfähigen Großrakete <i>Aggregat 4</i> (V2)
-            waren rein zu kriegerischen Zwecken entwickelt worden.
-          </p>
-          <div className="summary-img">
-            <a href="/img/missions/2_lg.jpg" title="Bildbeschreibung - Großansicht">
-              <img src="/img/missions/2_sm.jpg" alt="Bildbeschreibung" />
-            </a>
-            <p className="summary-img-text">
-              Bildbeschreibung
-            </p>
-          </div>
-          <h4>Wussten Sie schon?</h4>
-          <ul className="summary-list">
-            <li>
-              Die <i>Fédération Aéronautique Internationale</i> (FAI) definiert
-              die Grenze zum Weltraum bei 100 km Höhe über dem Meeresspiegel.
-            </li>
-            <li>
-              Das Space-Shuttle Challenger transportierte am 30. Oktober 1985 mit
-              der Mission STS-61-A acht Astronauten ins All.
-            </li>
-            <li>
-              Am 28. April 2001 startete <i>Dennis Tito</i> als erster Weltraumtourist
-              an Bord von Sojus TM-32 zur Internationalen Raumstation.
-            </li>
-          </ul>
         </div>
-      </div>
+        <div className="summary-img">
+          <a href="/img/missions/2_lg.jpg" title="Bildbeschreibung - Großansicht">
+            <img src="/img/missions/2_sm.jpg" alt="Bildbeschreibung" />
+          </a>
+          <p className="summary-img-text">
+            Bildbeschreibung
+          </p>
+        </div>
+
+        <h4>Wussten Sie schon?</h4>
+        <ul className="summary-list">
+          <li>
+            Die <i>Fédération Aéronautique Internationale</i> (FAI) definiert
+            die Grenze zum Weltraum bei 100 km Höhe über dem Meeresspiegel.
+          </li>
+          <li>
+            Das Space-Shuttle Challenger transportierte am 30. Oktober 1985 mit
+            der Mission STS-61-A acht Astronauten ins All.
+          </li>
+          <li>
+            Am 28. April 2001 startete <i>Dennis Tito</i> als erster Weltraumtourist
+            an Bord von Sojus TM-32 zur Internationalen Raumstation.
+          </li>
+        </ul>
+      </Summary>
       <div id="controlArea" className="missions pure-u-1">
         <div id="controllers" className="pure-u-1">
           <div id="sort" className="missions pure-u-1-2 left">
