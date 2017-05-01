@@ -39,7 +39,6 @@ const StarsComponent = ({groupedStars, constellations}) => {
         <p>@wolfram pls make the sorter and filter work</p>
         <p>@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens</p>
         <p>find a solution for the greek letters / bayer names vs. historical names</p>
-        <p>@Wolfram pls make the #summaryToggleSwitch work.</p>
       </div>
       <Summary>
         <p className="summary-text">

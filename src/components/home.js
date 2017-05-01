@@ -65,6 +65,7 @@ const HomeComponent = ({appUrl}) => {
               {[
                 {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
                 {url: appUrl.missionsSite(), name: 'Missionen'},
+                {url: appUrl.spacewalksSite(), name: 'Weltraumausstiege'},
                 {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
                 {url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope'},
 

@@ -57,7 +57,6 @@ export default class ChronicleComponent extends React.Component {
         <div id="todo" className="pure-u-1">
           <p>@wolfram pls hide the span id="coordinates" from embedded article in vcard (i.e. Lascaux)</p>
           <p>@wolfram pls hide the img src="//de.wikipedia.org/wiki/Special:CentralAuto..." on bottom of embedded article in vcard</p>
-          <p>@Wolfram pls make the #summaryToggleSwitch work.</p>
         </div>
         <Summary>
           <p className="summary-text">

@@ -33,7 +33,6 @@ const SolarSystemComponent = () => {
       </div>
       <div id="todo" className="pure-u-1">
         <p>@wolfram how to avoid border-bottom of last displayed div.item-name inside each div.type-1?</p>
-        <p>@Wolfram pls make the #summaryToggleSwitch work.</p>
       </div>
       <Summary>
         <p className="summary-text">

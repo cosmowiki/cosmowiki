@@ -38,7 +38,6 @@ const PeopleComponent = ({groupedPeople}) => {
       <div id="todo" className="pure-u-1">
         <p>@wolfram pls replace the filter forms with FilterRows as in stars-site</p>
         <p>@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens</p>
-        <p>@Wolfram pls make the #summaryToggleSwitch work.</p>
       </div>
       <Summary>
         <p className="summary-text">
