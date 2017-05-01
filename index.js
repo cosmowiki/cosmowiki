@@ -34451,11 +34451,6 @@ var ChronicleComponent = (function (_React$Component2) {
             'p',
             null,
             '@wolfram pls hide the img src="//de.wikipedia.org/wiki/Special:CentralAuto..." on bottom of embedded article in vcard'
-          ),
-          _react2['default'].createElement(
-            'p',
-            null,
-            '@Wolfram pls make the #summaryToggleSwitch work.'
           )
         ),
         _react2['default'].createElement(
@@ -35131,7 +35126,7 @@ var HomeComponent = function HomeComponent(_ref) {
           _react2["default"].createElement(
             "ul",
             { className: "sub-menu" },
-            [{ url: appUrl.astronautsSite(), name: 'Raumfahrer' }, { url: appUrl.missionsSite(), name: 'Missionen' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
+            [{ url: appUrl.astronautsSite(), name: 'Raumfahrer' }, { url: appUrl.missionsSite(), name: 'Missionen' }, { url: appUrl.spacewalksSite(), name: 'Weltraumausstiege' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
               return _react2["default"].createElement(
                 "li",
                 { key: link.url + link.name },
@@ -36484,11 +36479,6 @@ var PeopleComponent = function PeopleComponent(_ref) {
         'p',
         null,
         '@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens'
-      ),
-      _react2['default'].createElement(
-        'p',
-        null,
-        '@Wolfram pls make the #summaryToggleSwitch work.'
       )
     ),
     _react2['default'].createElement(
@@ -36998,11 +36988,6 @@ var SolarSystemComponent = function SolarSystemComponent() {
         'p',
         null,
         '@wolfram how to avoid border-bottom of last displayed div.item-name inside each div.type-1?'
-      ),
-      _react2['default'].createElement(
-        'p',
-        null,
-        '@Wolfram pls make the #summaryToggleSwitch work.'
       )
     ),
     _react2['default'].createElement(
@@ -39253,11 +39238,6 @@ var StarsComponent = function StarsComponent(_ref) {
         'p',
         null,
         'find a solution for the greek letters / bayer names vs. historical names'
-      ),
-      _react2['default'].createElement(
-        'p',
-        null,
-        '@Wolfram pls make the #summaryToggleSwitch work.'
       )
     ),
     _react2['default'].createElement(
