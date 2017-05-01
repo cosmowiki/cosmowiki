@@ -33764,13 +33764,59 @@ Object.defineProperty(exports, '__esModule', {
   value: true
 });
 
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
 var _notes = require('./notes');
+
+var Summary = (function (_React$Component) {
+  _inherits(Summary, _React$Component);
+
+  function Summary() {
+    _classCallCheck(this, Summary);
+
+    _get(Object.getPrototypeOf(Summary.prototype), 'constructor', this).call(this);
+    this.state = { isOpen: true };
+  }
+
+  _createClass(Summary, [{
+    key: 'render',
+    value: function render() {
+      var _this = this;
+
+      var isOpen = this.state.isOpen;
+      var toggle = function toggle() {
+        _this.setState({ isOpen: !isOpen });
+      };
+      var switchClassName = isOpen ? "expanded" : "collapsed";
+      var containerClassName = isOpen ? "visible" : "minimized";
+      return _react2['default'].createElement(
+        'div',
+        { id: 'summary', className: 'pure-u-1 left' },
+        _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: switchClassName, title: 'Artikel anzeigen / schließen', onClick: toggle }),
+        _react2['default'].createElement(
+          'div',
+          { id: 'summaryContainer', className: containerClassName },
+          this.props.children
+        ),
+        isOpen ? null : _react2['default'].createElement('div', { id: 'summaryShade' })
+      );
+    }
+  }]);
+
+  return Summary;
+})(_react2['default'].Component);
 
 var ConstellationsComponent = function ConstellationsComponent(_ref) {
   var constellations = _ref.constellations;
@@ -33804,277 +33850,267 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
         'p',
         null,
         '@all open the large constellation image in a pop-up?'
-      ),
-      _react2['default'].createElement(
-        'p',
-        null,
-        '@Wolfram pls make the #summaryToggleSwitch work.'
       )
     ),
     _react2['default'].createElement(
-      'div',
-      { id: 'summary', className: 'pure-u-1 left' },
-      _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
+      Summary,
+      null,
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Orion'
+        ),
+        ', ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Kassiopeia'
+        ),
+        ' oder die ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Zwillinge'
+        ),
+        ' Castor und Pollux - wir alle kennen mindestens ein Sternbild (Konstellation) und können es aus dem Stehgreif am Nachthimmel finden. Die Figuren weisen seit Jahrhunderten Reisenden den Weg.'
+      ),
       _react2['default'].createElement(
         'div',
-        { id: 'summaryContainer', className: 'visible' },
+        { className: 'summary-img size-lg' },
         _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Orion'
-          ),
-          ', ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Kassiopeia'
-          ),
-          ' oder die ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Zwillinge'
-          ),
-          ' Castor und Pollux - wir alle kennen mindestens ein Sternbild (Konstellation) und können es aus dem Stehgreif am Nachthimmel finden. Die Figuren weisen seit Jahrhunderten Reisenden den Weg.'
-        ),
-        _react2['default'].createElement(
-          'div',
-          { className: 'summary-img size-lg' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/constellations/Ursa_Major_(Bode).jpg', title: 'Großer Bär, Kupferstich aus dem Sternatlas von Johann Elert Bode - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/constellations/Ursa_Major_(Bode).jpg', alt: 'Großer Bär, Kupferstich aus dem Sternatlas von Johann Elert Bode' })
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Großer Bär, Johann Elert Bode'
-          )
+          'a',
+          { href: '/img/constellations/Ursa_Major_(Bode).jpg', title: 'Großer Bär, Kupferstich aus dem Sternatlas von Johann Elert Bode - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/constellations/Ursa_Major_(Bode).jpg', alt: 'Großer Bär, Kupferstich aus dem Sternatlas von Johann Elert Bode' })
         ),
         _react2['default'].createElement(
           'p',
-          { className: 'summary-text' },
-          'Auf der Nordhalbkugel helfen ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Großer Wagen'
-          ),
-          ' und ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Kleiner Wagen'
-          ),
-          ' den Polarstern zu finden, wobei der Große Wagen als Asterismus kein eigenes Sternbild ist, sondern nur ein Teil des ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Großen Bären'
-          ),
-          '. Auch die Kassiopeia, das "Himmels-W" zieht nach Norden hin geöffnet am Firmament entlang.'
-        ),
+          { className: 'summary-img-text' },
+          'Großer Bär, Johann Elert Bode'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Auf der Nordhalbkugel helfen ',
         _react2['default'].createElement(
-          'div',
-          { className: 'summary-img size-lg' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/constellations/Dunhuang_star_map_lg.jpg', title: 'Sternenkarte von Dunhuang, China - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/constellations/Dunhuang_star_map_sm.jpg', alt: 'Sternenkarte von Dunhuang, China' })
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Dunhuang Sternenkarte'
-          )
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Die Bewohner der südlichen Hemisphäre orientieren sich am ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Kreuz des Südens'
-          ),
-          ', dessen Name von christlichen Seefahrern geprägt wurde. Schon ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Amerigo Vespucci'
-          ),
-          ', nach dem die Neue Welt ihren Namen Amerika erhielt, nutzte das Kreuz des Südens Anfang des 16. Jahrhunderts zur Orientierung auf seinen Reisen entlang der Ostküste Südamerikas.'
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Sternbilder dürften schon in vielen frühgeschichtlichen Kulturen bekannt gewesen sein. Die heute verwendeten haben ihren Ursprung in den 12 Tierkreiszeichen aus Babylonien und dem Ägypten des Altertums. Mitte des 2. Jahrhunderts n. Chr. erstellte ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Claudius Ptolemäus'
-          ),
-          ' dann mit dem ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Almagest'
-          ),
-          ' eines der größten Werke der antiken Astronomie. Dieses für die folgenden 1500 Jahre prägende Lehrbuch enthielt auch einen Sternenkatalog mit Angaben zu 1025 Sternen in 48 Sternbildern.'
-        ),
-        _react2['default'].createElement(
-          'div',
-          { className: 'summary-img' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/constellations/Planisphaerium_Coeleste_lg.jpg', title: 'Planisphaerium Coeleste von Georg Christoph Eimmart, 1705 - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/constellations/Planisphaerium_Coeleste_sm.jpg', alt: 'Planisphaerium Coeleste von Georg Christoph Eimmart, 1705' })
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Planisphaerium Coeleste,',
-            _react2['default'].createElement('br', null),
-            'Georg Christoph Eimmart'
-          )
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Johann Bayer'
-          ),
-          ' übernahm dann 1603 in seiner ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Uranometria'
-          ),
-          ' einige Konstellationen aus Himmelsgloben des ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Petrus Plancius'
-          ),
-          ', die auf die niederländischen Navigatoren ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Pieter Dirkszoon Keyser'
-          ),
-          ' und ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Frederick de Houtman'
-          ),
-          ' zurückgingen. Der Astronomen ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Johannes Hevelius'
-          ),
-          ' und ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Nicolas-Louis de Lacaille'
-          ),
-          ' fügten weitere hinzu.'
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Religiöse Motive führten zur Umbenennung und Ersetzung heidnischer Sternbilder. Zu Ehren zeitgenössischer Herrscher oder aus astronomischer Notwendigkeit heraus wurde der Kanon immer wieder reformiert und erweitert. Durch die Erfindung des Teleskopes war die Zahl der bekannten Sterne schnell gewachsen und die Kreativität bei der "Erfindung" neuer Konstellationen wuchs mit dem Zwang nach Zuordnung.'
-        ),
-        _react2['default'].createElement(
-          'div',
-          { className: 'summary-img size-sm' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/constellations/Papua_New_Guinea_lg.png', title: 'Flagge von Papua Neuguinea - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/constellations/Papua_New_Guinea_sm.png', alt: 'Flagge von Papua Neuguinea' })
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Papua-Neuguinea'
-          )
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Nach einem Vorschlag des amerikanischen Astronomen ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Henry Norris Russell'
-          ),
-          ' legte dann 1922 die ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Internationale Astronomische Union'
-          ),
-          ' (IAU) auf ihrer ersten Generalversammlung 88 Sternbilder fest, deren Grenzen sechs Jahre später exakt definiert wurden.'
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Weltweit am bekanntesten dürfte das Kreuz des Südens sein, das auf vielen Flaggen abgebildet ist und auch das Logo der ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Europäischen Südsternwarte'
-          ),
-          ' (ESO) ziert. Der Große Wagen prangt gemeinsam mit dem Polarstern auf der Flagge des US-Bundesstaates Alaska.'
-        ),
-        _react2['default'].createElement(
-          'h4',
+          'em',
           null,
-          'Wussten Sie schon?'
+          'Großer Wagen'
+        ),
+        ' und ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Kleiner Wagen'
+        ),
+        ' den Polarstern zu finden, wobei der Große Wagen als Asterismus kein eigenes Sternbild ist, sondern nur ein Teil des ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Großen Bären'
+        ),
+        '. Auch die Kassiopeia, das "Himmels-W" zieht nach Norden hin geöffnet am Firmament entlang.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img size-lg' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/constellations/Dunhuang_star_map_lg.jpg', title: 'Sternenkarte von Dunhuang, China - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/constellations/Dunhuang_star_map_sm.jpg', alt: 'Sternenkarte von Dunhuang, China' })
         ),
         _react2['default'].createElement(
-          'ul',
-          { className: 'summary-list' },
+          'p',
+          { className: 'summary-img-text' },
+          'Dunhuang Sternenkarte'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Die Bewohner der südlichen Hemisphäre orientieren sich am ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Kreuz des Südens'
+        ),
+        ', dessen Name von christlichen Seefahrern geprägt wurde. Schon ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Amerigo Vespucci'
+        ),
+        ', nach dem die Neue Welt ihren Namen Amerika erhielt, nutzte das Kreuz des Südens Anfang des 16. Jahrhunderts zur Orientierung auf seinen Reisen entlang der Ostküste Südamerikas.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Sternbilder dürften schon in vielen frühgeschichtlichen Kulturen bekannt gewesen sein. Die heute verwendeten haben ihren Ursprung in den 12 Tierkreiszeichen aus Babylonien und dem Ägypten des Altertums. Mitte des 2. Jahrhunderts n. Chr. erstellte ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Claudius Ptolemäus'
+        ),
+        ' dann mit dem ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Almagest'
+        ),
+        ' eines der größten Werke der antiken Astronomie. Dieses für die folgenden 1500 Jahre prägende Lehrbuch enthielt auch einen Sternenkatalog mit Angaben zu 1025 Sternen in 48 Sternbildern.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/constellations/Planisphaerium_Coeleste_lg.jpg', title: 'Planisphaerium Coeleste von Georg Christoph Eimmart, 1705 - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/constellations/Planisphaerium_Coeleste_sm.jpg', alt: 'Planisphaerium Coeleste von Georg Christoph Eimmart, 1705' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Planisphaerium Coeleste,',
+          _react2['default'].createElement('br', null),
+          'Georg Christoph Eimmart'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Johann Bayer'
+        ),
+        ' übernahm dann 1603 in seiner ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Uranometria'
+        ),
+        ' einige Konstellationen aus Himmelsgloben des ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Petrus Plancius'
+        ),
+        ', die auf die niederländischen Navigatoren ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Pieter Dirkszoon Keyser'
+        ),
+        ' und ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Frederick de Houtman'
+        ),
+        ' zurückgingen. Der Astronomen ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Johannes Hevelius'
+        ),
+        ' und ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Nicolas-Louis de Lacaille'
+        ),
+        ' fügten weitere hinzu.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Religiöse Motive führten zur Umbenennung und Ersetzung heidnischer Sternbilder. Zu Ehren zeitgenössischer Herrscher oder aus astronomischer Notwendigkeit heraus wurde der Kanon immer wieder reformiert und erweitert. Durch die Erfindung des Teleskopes war die Zahl der bekannten Sterne schnell gewachsen und die Kreativität bei der "Erfindung" neuer Konstellationen wuchs mit dem Zwang nach Zuordnung.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img size-sm' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/constellations/Papua_New_Guinea_lg.png', title: 'Flagge von Papua Neuguinea - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/constellations/Papua_New_Guinea_sm.png', alt: 'Flagge von Papua Neuguinea' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Papua-Neuguinea'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Nach einem Vorschlag des amerikanischen Astronomen ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Henry Norris Russell'
+        ),
+        ' legte dann 1922 die ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Internationale Astronomische Union'
+        ),
+        ' (IAU) auf ihrer ersten Generalversammlung 88 Sternbilder fest, deren Grenzen sechs Jahre später exakt definiert wurden.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Weltweit am bekanntesten dürfte das Kreuz des Südens sein, das auf vielen Flaggen abgebildet ist und auch das Logo der ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Europäischen Südsternwarte'
+        ),
+        ' (ESO) ziert. Der Große Wagen prangt gemeinsam mit dem Polarstern auf der Flagge des US-Bundesstaates Alaska.'
+      ),
+      _react2['default'].createElement(
+        'h4',
+        null,
+        'Wussten Sie schon?'
+      ),
+      _react2['default'].createElement(
+        'ul',
+        { className: 'summary-list' },
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Durch die ',
           _react2['default'].createElement(
-            'li',
+            'em',
             null,
-            'Durch die ',
-            _react2['default'].createElement(
-              'em',
-              null,
-              'Präzessionsbwegung der Erde'
-            ),
-            ' war das Kreuz des Südens in der Antike auch im Mittelmeerraum sichtbar.'
+            'Präzessionsbwegung der Erde'
           ),
+          ' war das Kreuz des Südens in der Antike auch im Mittelmeerraum sichtbar.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Das Kreuz des Südens ist auf den Staatsflaggen von Australien, Brasilien, Neuseeland, Papua-Neuguinea und Samoa zu sehen.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Die Namen von Sternbildern wie ',
           _react2['default'].createElement(
-            'li',
+            'em',
             null,
-            'Das Kreuz des Südens ist auf den Staatsflaggen von Australien, Brasilien, Neuseeland, Papua-Neuguinea und Samoa zu sehen.'
+            'Chemischer Ofen'
           ),
+          ' oder ',
           _react2['default'].createElement(
-            'li',
+            'em',
             null,
-            'Die Namen von Sternbildern wie ',
-            _react2['default'].createElement(
-              'em',
-              null,
-              'Chemischer Ofen'
-            ),
-            ' oder ',
-            _react2['default'].createElement(
-              'em',
-              null,
-              'Luftpumpe'
-            ),
-            ' symbolisieren den technischen Fortschritt des 18. Jahrhunderts.'
-          )
+            'Luftpumpe'
+          ),
+          ' symbolisieren den technischen Fortschritt des 18. Jahrhunderts.'
         )
       )
     ),
@@ -34320,8 +34356,46 @@ var _vcard = require('./vcard');
 
 var _vcard2 = _interopRequireDefault(_vcard);
 
-var ChronicleComponent = (function (_React$Component) {
-  _inherits(ChronicleComponent, _React$Component);
+var Summary = (function (_React$Component) {
+  _inherits(Summary, _React$Component);
+
+  function Summary() {
+    _classCallCheck(this, Summary);
+
+    _get(Object.getPrototypeOf(Summary.prototype), 'constructor', this).call(this);
+    this.state = { isOpen: true };
+  }
+
+  _createClass(Summary, [{
+    key: 'render',
+    value: function render() {
+      var _this = this;
+
+      var isOpen = this.state.isOpen;
+      var toggle = function toggle() {
+        _this.setState({ isOpen: !isOpen });
+      };
+      var switchClassName = isOpen ? "expanded" : "collapsed";
+      var containerClassName = isOpen ? "visible" : "minimized";
+      return _react2['default'].createElement(
+        'div',
+        { id: 'summary', className: 'pure-u-1 left' },
+        _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: switchClassName, title: 'Artikel anzeigen / schließen', onClick: toggle }),
+        _react2['default'].createElement(
+          'div',
+          { id: 'summaryContainer', className: containerClassName },
+          this.props.children
+        ),
+        isOpen ? null : _react2['default'].createElement('div', { id: 'summaryShade' })
+      );
+    }
+  }]);
+
+  return Summary;
+})(_react2['default'].Component);
+
+var ChronicleComponent = (function (_React$Component2) {
+  _inherits(ChronicleComponent, _React$Component2);
 
   function ChronicleComponent() {
     _classCallCheck(this, ChronicleComponent);
@@ -34333,7 +34407,7 @@ var ChronicleComponent = (function (_React$Component) {
   _createClass(ChronicleComponent, [{
     key: 'render',
     value: function render() {
-      var _this = this;
+      var _this2 = this;
 
       var items = this.props.items;
 
@@ -34341,10 +34415,10 @@ var ChronicleComponent = (function (_React$Component) {
         return _extends({ description: item.date + ' in ' + item.place }, item);
       };
       var showOverlay = function showOverlay(item) {
-        _this.setState({ itemInOverlay: itemForOverlay(item) });
+        _this2.setState({ itemInOverlay: itemForOverlay(item) });
       };
       var hideOverlay = function hideOverlay() {
-        _this.setState({ itemInOverlay: null });
+        _this2.setState({ itemInOverlay: null });
       };
       var overlay = this.state.itemInOverlay ? _react2['default'].createElement(_vcard2['default'], { item: this.state.itemInOverlay, onClose: hideOverlay }) : null;
 
@@ -34385,206 +34459,201 @@ var ChronicleComponent = (function (_React$Component) {
           )
         ),
         _react2['default'].createElement(
-          'div',
-          { id: 'summary', className: 'pure-u-1 left' },
-          _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
+          Summary,
+          null,
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-text' },
+            'Seit Jahrtausenden blicken wir in den Himmel und versuchen zu ergründen, was uns umgibt und woher wir kommen. Auch die frühen Menschen stellten sich wohl schon die größte aller Fragen:',
+            _react2['default'].createElement('br', null),
+            _react2['default'].createElement(
+              'em',
+              null,
+              'Was ist dort draußen?'
+            )
+          ),
           _react2['default'].createElement(
             'div',
-            { id: 'summaryContainer', className: 'visible' },
+            { className: 'summary-img float-left size-md' },
+            _react2['default'].createElement(
+              'a',
+              { href: '/img/events/nebra_lg.jpg', title: 'Himmelsscheibe von Nebra - Großansicht' },
+              _react2['default'].createElement('img', { src: '/img/events/nebra_sm.jpg', alt: 'Himmelsscheibe von Nebra' })
+            ),
             _react2['default'].createElement(
               'p',
-              { className: 'summary-text' },
-              'Seit Jahrtausenden blicken wir in den Himmel und versuchen zu ergründen, was uns umgibt und woher wir kommen. Auch die frühen Menschen stellten sich wohl schon die größte aller Fragen:',
+              { className: 'summary-img-text' },
+              'Himmelsscheibe',
+              _react2['default'].createElement('br', null),
+              'Quelle: Dbachmann',
               _react2['default'].createElement('br', null),
               _react2['default'].createElement(
-                'em',
-                null,
-                'Was ist dort draußen?'
-              )
-            ),
-            _react2['default'].createElement(
-              'div',
-              { className: 'summary-img float-left size-md' },
-              _react2['default'].createElement(
                 'a',
-                { href: '/img/events/nebra_lg.jpg', title: 'Himmelsscheibe von Nebra - Großansicht' },
-                _react2['default'].createElement('img', { src: '/img/events/nebra_sm.jpg', alt: 'Himmelsscheibe von Nebra' })
-              ),
-              _react2['default'].createElement(
-                'p',
-                { className: 'summary-img-text' },
-                'Himmelsscheibe',
-                _react2['default'].createElement('br', null),
-                'Quelle: Dbachmann',
-                _react2['default'].createElement('br', null),
-                _react2['default'].createElement(
-                  'a',
-                  { href: 'http://creativecommons.org/licenses/by-sa/3.0/', title: 'CC BY-SA 3.0' },
-                  'CC BY-SA 3.0'
-                )
+                { href: 'http://creativecommons.org/licenses/by-sa/3.0/', title: 'CC BY-SA 3.0' },
+                'CC BY-SA 3.0'
               )
+            )
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-text' },
+            'Täglich ziehen Sonne und Mond am Firmament entlang und bestimmen den Rhythmus des Lebens auf der Erde. Schon in den ersten menschlichen Gesellschaften erkannten Priester und Schamanen kosmische Zyklen und nutzten ihr Wissen. Aussaat und Ernte richteten sich danach, kultische Riten entstanden.'
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-text' },
+            'Rund um den Globus besaßen die Erbauer der ersten Observatorien schon verblüffend genaue astronomische Kenntnisse. Die Sonnenwenden und Mondphasen, das Erscheinen von besonders hellen Planeten, Sternen und deren Konstellationen bildeten die Grundlagen für die ersten Kalender.'
+          ),
+          _react2['default'].createElement(
+            'div',
+            { className: 'summary-img float-right size-xl' },
+            _react2['default'].createElement(
+              'a',
+              { href: '/img/events/herschel_telescope_lg.jpg', title: 'Wilhelm Herschels 40-Fuß-Teleskop - Großansicht' },
+              _react2['default'].createElement('img', { src: '/img/events/herschel_telescope_sm.jpg', alt: 'Wilhelm Herschels 40-Fuß-Teleskop' })
             ),
             _react2['default'].createElement(
               'p',
-              { className: 'summary-text' },
-              'Täglich ziehen Sonne und Mond am Firmament entlang und bestimmen den Rhythmus des Lebens auf der Erde. Schon in den ersten menschlichen Gesellschaften erkannten Priester und Schamanen kosmische Zyklen und nutzten ihr Wissen. Aussaat und Ernte richteten sich danach, kultische Riten entstanden.'
-            ),
+              { className: 'summary-img-text' },
+              'Herschels 40-Fuß-Teleskop'
+            )
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-text' },
+            'Seefahrer und Händler teilten die Beobachtungen, die sie auf ihren Reisen gewonnen hatten. Mathematiker und Philosophen berechneten bereits in der Antike geografische und astronomische Größen und stellten erste Theorien über die Beschaffenheit des Größten wie des Kleinsten im Universum auf.'
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-text' },
+            'Zeit und Raum waren bestimmbar geworden. Die große Frage der Himmelskunde nach dem Zentrum der Welt bewegte die Astronomen des Mittelalters. Im Spannungsfeld zwischen Wissenschaft und kulturell-religiösen Traditionen setzten sich bahnbrechende Erkenntnisse jedoch nur langsam durch.'
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-text' },
+            'Vor 500 Jahren sprengte dann das ',
             _react2['default'].createElement(
-              'p',
-              { className: 'summary-text' },
-              'Rund um den Globus besaßen die Erbauer der ersten Observatorien schon verblüffend genaue astronomische Kenntnisse. Die Sonnenwenden und Mondphasen, das Erscheinen von besonders hellen Planeten, Sternen und deren Konstellationen bildeten die Grundlagen für die ersten Kalender.'
-            ),
-            _react2['default'].createElement(
-              'div',
-              { className: 'summary-img float-right size-xl' },
-              _react2['default'].createElement(
-                'a',
-                { href: '/img/events/herschel_telescope_lg.jpg', title: 'Wilhelm Herschels 40-Fuß-Teleskop - Großansicht' },
-                _react2['default'].createElement('img', { src: '/img/events/herschel_telescope_sm.jpg', alt: 'Wilhelm Herschels 40-Fuß-Teleskop' })
-              ),
-              _react2['default'].createElement(
-                'p',
-                { className: 'summary-img-text' },
-                'Herschels 40-Fuß-Teleskop'
-              )
-            ),
-            _react2['default'].createElement(
-              'p',
-              { className: 'summary-text' },
-              'Seefahrer und Händler teilten die Beobachtungen, die sie auf ihren Reisen gewonnen hatten. Mathematiker und Philosophen berechneten bereits in der Antike geografische und astronomische Größen und stellten erste Theorien über die Beschaffenheit des Größten wie des Kleinsten im Universum auf.'
-            ),
-            _react2['default'].createElement(
-              'p',
-              { className: 'summary-text' },
-              'Zeit und Raum waren bestimmbar geworden. Die große Frage der Himmelskunde nach dem Zentrum der Welt bewegte die Astronomen des Mittelalters. Im Spannungsfeld zwischen Wissenschaft und kulturell-religiösen Traditionen setzten sich bahnbrechende Erkenntnisse jedoch nur langsam durch.'
-            ),
-            _react2['default'].createElement(
-              'p',
-              { className: 'summary-text' },
-              'Vor 500 Jahren sprengte dann das ',
-              _react2['default'].createElement(
-                'em',
-                null,
-                'Fernrohr'
-              ),
-              ' die Grenzen des menschlichen Auges. Nach und nach offenbarten sich die Gesetze der Natur, unser Weltbild wurde präziser. ',
-              _react2['default'].createElement(
-                'em',
-                null,
-                'Planetenbahnen'
-              ),
-              ' und die ',
-              _react2['default'].createElement(
-                'em',
-                null,
-                'Gravitation'
-              ),
-              ' wurden in der Sprache der Mathematik beschrieben.'
-            ),
-            _react2['default'].createElement(
-              'div',
-              { className: 'summary-img float-left size-lg' },
-              _react2['default'].createElement(
-                'a',
-                { href: '/img/events/Columbia_sts-1_lg.jpg', title: 'Space Shuttle Columbia STS-1 - Großansicht' },
-                _react2['default'].createElement('img', { src: '/img/events/Columbia_sts-1_sm.jpg', alt: 'Space Shuttle Columbia STS-1' })
-              ),
-              _react2['default'].createElement(
-                'p',
-                { className: 'summary-img-text' },
-                'Space Shuttle Columbia, STS-1'
-              )
-            ),
-            _react2['default'].createElement(
-              'p',
-              { className: 'summary-text' },
-              'Doch der Mensch wollte den Himmel nicht nur betrachten, er wollte ihn bereisen. Erkenntnisse in der Physik und Chemie ermöglichten das Reisen per ',
-              _react2['default'].createElement(
-                'em',
-                null,
-                'Ballon'
-              ),
-              ', später im ',
-              _react2['default'].createElement(
-                'em',
-                null,
-                'Flugzeug'
-              ),
-              '. Wir wollten mehr - ',
-              _react2['default'].createElement(
-                'em',
-                null,
-                'schneller, höher, weiter!'
-              )
-            ),
-            _react2['default'].createElement(
-              'p',
-              { className: 'summary-text' },
-              'Die Raumfahrt beförderte dann den Menschen erstmals in den Kosmos. Sie bereicherte unseren Erfahrungsschatz um viele schöne und interessante Momente, aber auch um einige Tragödien. So ließen Generationen von Wissenschaftlern und Pionieren den kollektiven Wissensspeicher der Menschheit immer weiter anwachsen.'
-            ),
-            _react2['default'].createElement(
-              'p',
-              { className: 'summary-text' },
-              _react2['default'].createElement(
-                'em',
-                null,
-                'Urknall, Relativität und Quantenmechanik'
-              ),
-              ', die Kräfte im ',
-              _react2['default'].createElement(
-                'em',
-                null,
-                'Atom'
-              ),
-              ', ',
-              _react2['default'].createElement(
-                'em',
-                null,
-                'Schwarze Löcher'
-              ),
-              ' und ',
-              _react2['default'].createElement(
-                'em',
-                null,
-                'Dunkle Materie'
-              ),
-              ' - immer weiter dringt die Menschheit in die Tiefen des Alls vor. Mit Augen, Ohren und Raumsonden greifen wir nach den Sternen, und jedes gelöste Rätsel wirft neue Fragen auf. Willkommen in der Gegenwart!'
-            ),
-            _react2['default'].createElement(
-              'h4',
+              'em',
               null,
-              'Wussten Sie schon?'
+              'Fernrohr'
+            ),
+            ' die Grenzen des menschlichen Auges. Nach und nach offenbarten sich die Gesetze der Natur, unser Weltbild wurde präziser. ',
+            _react2['default'].createElement(
+              'em',
+              null,
+              'Planetenbahnen'
+            ),
+            ' und die ',
+            _react2['default'].createElement(
+              'em',
+              null,
+              'Gravitation'
+            ),
+            ' wurden in der Sprache der Mathematik beschrieben.'
+          ),
+          _react2['default'].createElement(
+            'div',
+            { className: 'summary-img float-left size-lg' },
+            _react2['default'].createElement(
+              'a',
+              { href: '/img/events/Columbia_sts-1_lg.jpg', title: 'Space Shuttle Columbia STS-1 - Großansicht' },
+              _react2['default'].createElement('img', { src: '/img/events/Columbia_sts-1_sm.jpg', alt: 'Space Shuttle Columbia STS-1' })
             ),
             _react2['default'].createElement(
-              'ul',
-              { className: 'summary-list' },
+              'p',
+              { className: 'summary-img-text' },
+              'Space Shuttle Columbia, STS-1'
+            )
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-text' },
+            'Doch der Mensch wollte den Himmel nicht nur betrachten, er wollte ihn bereisen. Erkenntnisse in der Physik und Chemie ermöglichten das Reisen per ',
+            _react2['default'].createElement(
+              'em',
+              null,
+              'Ballon'
+            ),
+            ', später im ',
+            _react2['default'].createElement(
+              'em',
+              null,
+              'Flugzeug'
+            ),
+            '. Wir wollten mehr - ',
+            _react2['default'].createElement(
+              'em',
+              null,
+              'schneller, höher, weiter!'
+            )
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-text' },
+            'Die Raumfahrt beförderte dann den Menschen erstmals in den Kosmos. Sie bereicherte unseren Erfahrungsschatz um viele schöne und interessante Momente, aber auch um einige Tragödien. So ließen Generationen von Wissenschaftlern und Pionieren den kollektiven Wissensspeicher der Menschheit immer weiter anwachsen.'
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'summary-text' },
+            _react2['default'].createElement(
+              'em',
+              null,
+              'Urknall, Relativität und Quantenmechanik'
+            ),
+            ', die Kräfte im ',
+            _react2['default'].createElement(
+              'em',
+              null,
+              'Atom'
+            ),
+            ', ',
+            _react2['default'].createElement(
+              'em',
+              null,
+              'Schwarze Löcher'
+            ),
+            ' und ',
+            _react2['default'].createElement(
+              'em',
+              null,
+              'Dunkle Materie'
+            ),
+            ' - immer weiter dringt die Menschheit in die Tiefen des Alls vor. Mit Augen, Ohren und Raumsonden greifen wir nach den Sternen, und jedes gelöste Rätsel wirft neue Fragen auf. Willkommen in der Gegenwart!'
+          ),
+          _react2['default'].createElement(
+            'h4',
+            null,
+            'Wussten Sie schon?'
+          ),
+          _react2['default'].createElement(
+            'ul',
+            { className: 'summary-list' },
+            _react2['default'].createElement(
+              'li',
+              null,
+              'Die ca. 4000 Jahre alte ',
               _react2['default'].createElement(
-                'li',
+                'em',
                 null,
-                'Die ca. 4000 Jahre alte ',
-                _react2['default'].createElement(
-                  'em',
-                  null,
-                  'Himmelsscheibe von Nebra'
-                ),
-                ' ist eines der ältesten Zeugnisse astronomischer Darstellungen der Menschheit.'
+                'Himmelsscheibe von Nebra'
               ),
+              ' ist eines der ältesten Zeugnisse astronomischer Darstellungen der Menschheit.'
+            ),
+            _react2['default'].createElement(
+              'li',
+              null,
+              'Chinesische Astonomen beschrieben bereits 613 v. Chr. den 2300 Jahre später nach Edmund Halley benannten Kometen.'
+            ),
+            _react2['default'].createElement(
+              'li',
+              null,
+              'Schon 1917 entwickelte der deutsche Raumfahrtpionier ',
               _react2['default'].createElement(
-                'li',
+                'em',
                 null,
-                'Chinesische Astonomen beschrieben bereits 613 v. Chr. den 2300 Jahre später nach Edmund Halley benannten Kometen.'
+                'Hermann Oberth'
               ),
-              _react2['default'].createElement(
-                'li',
-                null,
-                'Schon 1917 entwickelte der deutsche Raumfahrtpionier ',
-                _react2['default'].createElement(
-                  'em',
-                  null,
-                  'Hermann Oberth'
-                ),
-                ' eine mit Ethanol und Sauerstoff betriebene Rakete.'
-              )
+              ' eine mit Ethanol und Sauerstoff betriebene Rakete.'
             )
           )
         ),
@@ -35170,7 +35239,15 @@ Object.defineProperty(exports, '__esModule', {
   value: true
 });
 
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var _react = require('react');
 
@@ -35179,6 +35256,44 @@ var _react2 = _interopRequireDefault(_react);
 var _notes = require('./notes');
 
 var _notes2 = _interopRequireDefault(_notes);
+
+var Summary = (function (_React$Component) {
+  _inherits(Summary, _React$Component);
+
+  function Summary() {
+    _classCallCheck(this, Summary);
+
+    _get(Object.getPrototypeOf(Summary.prototype), 'constructor', this).call(this);
+    this.state = { isOpen: true };
+  }
+
+  _createClass(Summary, [{
+    key: 'render',
+    value: function render() {
+      var _this = this;
+
+      var isOpen = this.state.isOpen;
+      var toggle = function toggle() {
+        _this.setState({ isOpen: !isOpen });
+      };
+      var switchClassName = isOpen ? "expanded" : "collapsed";
+      var containerClassName = isOpen ? "visible" : "minimized";
+      return _react2['default'].createElement(
+        'div',
+        { id: 'summary', className: 'pure-u-1 left' },
+        _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: switchClassName, title: 'Artikel anzeigen / schließen', onClick: toggle }),
+        _react2['default'].createElement(
+          'div',
+          { id: 'summaryContainer', className: containerClassName },
+          this.props.children
+        ),
+        isOpen ? null : _react2['default'].createElement('div', { id: 'summaryShade' })
+      );
+    }
+  }]);
+
+  return Summary;
+})(_react2['default'].Component);
 
 var MissionsComponent = function MissionsComponent(_ref) {
   var missions = _ref.missions;
@@ -35225,133 +35340,128 @@ var MissionsComponent = function MissionsComponent(_ref) {
       )
     ),
     _react2['default'].createElement(
-      'div',
-      { id: 'summary', className: 'pure-u-1 left' },
-      _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
+      Summary,
+      null,
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Die Geschichte der Raumfahrt begann schon lange vor Sputnik 1. Die größten Pioniere der Raketentechnik waren sicher ',
+        _react2['default'].createElement(
+          'i',
+          null,
+          'Max Valier'
+        ),
+        ', ',
+        _react2['default'].createElement(
+          'i',
+          null,
+          'Konstantin Ziolkowski'
+        ),
+        ', ',
+        _react2['default'].createElement(
+          'i',
+          null,
+          'Robert Goddard'
+        ),
+        ' und ',
+        _react2['default'].createElement(
+          'i',
+          null,
+          'Hermann Oberth'
+        ),
+        '. Doch schon im Jahr 1232 sollen in China die ersten Raketen zu militärischen Zwecken eingesetzt worden sein.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Das Militär war oft genug die treibende Kraft hinter technischen Entwicklungen, so auch in der Raumfahrt. Die ersten Raketenflugzeuge, wie die Bachem ',
+        _react2['default'].createElement(
+          'i',
+          null,
+          'BA 349'
+        ),
+        ', Messerschmitt ',
+        _react2['default'].createElement(
+          'i',
+          null,
+          'Me 163'
+        ),
+        ' oder die Heinkel ',
+        _react2['default'].createElement(
+          'i',
+          null,
+          'He 176'
+        ),
+        ', wie auch die erste funktionsfähigen Großrakete ',
+        _react2['default'].createElement(
+          'i',
+          null,
+          'Aggregat 4'
+        ),
+        ' (V2) waren rein zu kriegerischen Zwecken entwickelt worden.'
+      ),
       _react2['default'].createElement(
         'div',
-        { id: 'summaryContainer', className: 'visible' },
+        { className: 'summary-img' },
         _react2['default'].createElement(
-          'div',
-          { className: 'summary-img' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/missions/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/missions/1_sm.jpg', alt: 'Bildbeschreibung' })
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Bildbeschreibung'
-          )
+          'a',
+          { href: '/img/missions/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/missions/1_sm.jpg', alt: 'Bildbeschreibung' })
         ),
         _react2['default'].createElement(
           'p',
-          { className: 'summary-text' },
-          'Die Geschichte der Raumfahrt begann schon lange vor Sputnik 1. Die größten Pioniere der Raketentechnik waren sicher ',
-          _react2['default'].createElement(
-            'i',
-            null,
-            'Max Valier'
-          ),
-          ', ',
-          _react2['default'].createElement(
-            'i',
-            null,
-            'Konstantin Ziolkowski'
-          ),
-          ', ',
-          _react2['default'].createElement(
-            'i',
-            null,
-            'Robert Goddard'
-          ),
-          ' und ',
-          _react2['default'].createElement(
-            'i',
-            null,
-            'Hermann Oberth'
-          ),
-          '. Doch schon im Jahr 1232 sollen in China die ersten Raketen zu militärischen Zwecken eingesetzt worden sein.'
+          { className: 'summary-img-text' },
+          'Bildbeschreibung'
+        )
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/missions/2_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/missions/2_sm.jpg', alt: 'Bildbeschreibung' })
         ),
         _react2['default'].createElement(
           'p',
-          { className: 'summary-text' },
-          'Das Militär war oft genug die treibende Kraft hinter technischen Entwicklungen, so auch in der Raumfahrt. Die ersten Raketenflugzeuge, wie die Bachem ',
-          _react2['default'].createElement(
-            'i',
-            null,
-            'BA 349'
-          ),
-          ', Messerschmitt ',
-          _react2['default'].createElement(
-            'i',
-            null,
-            'Me 163'
-          ),
-          ' oder die Heinkel ',
-          _react2['default'].createElement(
-            'i',
-            null,
-            'He 176'
-          ),
-          ', wie auch die erste funktionsfähigen Großrakete ',
-          _react2['default'].createElement(
-            'i',
-            null,
-            'Aggregat 4'
-          ),
-          ' (V2) waren rein zu kriegerischen Zwecken entwickelt worden.'
-        ),
+          { className: 'summary-img-text' },
+          'Bildbeschreibung'
+        )
+      ),
+      _react2['default'].createElement(
+        'h4',
+        null,
+        'Wussten Sie schon?'
+      ),
+      _react2['default'].createElement(
+        'ul',
+        { className: 'summary-list' },
         _react2['default'].createElement(
-          'div',
-          { className: 'summary-img' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/missions/2_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/missions/2_sm.jpg', alt: 'Bildbeschreibung' })
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Bildbeschreibung'
-          )
-        ),
-        _react2['default'].createElement(
-          'h4',
+          'li',
           null,
-          'Wussten Sie schon?'
+          'Die ',
+          _react2['default'].createElement(
+            'i',
+            null,
+            'Fédération Aéronautique Internationale'
+          ),
+          ' (FAI) definiert die Grenze zum Weltraum bei 100 km Höhe über dem Meeresspiegel.'
         ),
         _react2['default'].createElement(
-          'ul',
-          { className: 'summary-list' },
+          'li',
+          null,
+          'Das Space-Shuttle Challenger transportierte am 30. Oktober 1985 mit der Mission STS-61-A acht Astronauten ins All.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Am 28. April 2001 startete ',
           _react2['default'].createElement(
-            'li',
+            'i',
             null,
-            'Die ',
-            _react2['default'].createElement(
-              'i',
-              null,
-              'Fédération Aéronautique Internationale'
-            ),
-            ' (FAI) definiert die Grenze zum Weltraum bei 100 km Höhe über dem Meeresspiegel.'
+            'Dennis Tito'
           ),
-          _react2['default'].createElement(
-            'li',
-            null,
-            'Das Space-Shuttle Challenger transportierte am 30. Oktober 1985 mit der Mission STS-61-A acht Astronauten ins All.'
-          ),
-          _react2['default'].createElement(
-            'li',
-            null,
-            'Am 28. April 2001 startete ',
-            _react2['default'].createElement(
-              'i',
-              null,
-              'Dennis Tito'
-            ),
-            ' als erster Weltraumtourist an Bord von Sojus TM-32 zur Internationalen Raumstation.'
-          )
+          ' als erster Weltraumtourist an Bord von Sojus TM-32 zur Internationalen Raumstation.'
         )
       )
     ),
@@ -36277,7 +36387,15 @@ Object.defineProperty(exports, '__esModule', {
   value: true
 });
 
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var _react = require('react');
 
@@ -36290,6 +36408,44 @@ var _notes2 = _interopRequireDefault(_notes);
 var _chunksLetterLinks = require('./chunks/letter-links');
 
 var _chunksLetterLinks2 = _interopRequireDefault(_chunksLetterLinks);
+
+var Summary = (function (_React$Component) {
+  _inherits(Summary, _React$Component);
+
+  function Summary() {
+    _classCallCheck(this, Summary);
+
+    _get(Object.getPrototypeOf(Summary.prototype), 'constructor', this).call(this);
+    this.state = { isOpen: true };
+  }
+
+  _createClass(Summary, [{
+    key: 'render',
+    value: function render() {
+      var _this = this;
+
+      var isOpen = this.state.isOpen;
+      var toggle = function toggle() {
+        _this.setState({ isOpen: !isOpen });
+      };
+      var switchClassName = isOpen ? "expanded" : "collapsed";
+      var containerClassName = isOpen ? "visible" : "minimized";
+      return _react2['default'].createElement(
+        'div',
+        { id: 'summary', className: 'pure-u-1 left' },
+        _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: switchClassName, title: 'Artikel anzeigen / schließen', onClick: toggle }),
+        _react2['default'].createElement(
+          'div',
+          { id: 'summaryContainer', className: containerClassName },
+          this.props.children
+        ),
+        isOpen ? null : _react2['default'].createElement('div', { id: 'summaryShade' })
+      );
+    }
+  }]);
+
+  return Summary;
+})(_react2['default'].Component);
 
 var PeopleComponent = function PeopleComponent(_ref) {
   var groupedPeople = _ref.groupedPeople;
@@ -36336,136 +36492,131 @@ var PeopleComponent = function PeopleComponent(_ref) {
       )
     ),
     _react2['default'].createElement(
-      'div',
-      { id: 'summary', className: 'pure-u-1 left' },
-      _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
+      Summary,
+      null,
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Naturwissenschaftler und Raumfahrer – seit Jahrtausenden entdecken und erobern sie neue Welten und Räume, sie erkennen Zusammenhänge und Naturgesetze. Als Pioniere erweitern sie ständig den Horizont der Erkenntnis.'
+      ),
       _react2['default'].createElement(
         'div',
-        { id: 'summaryContainer', className: 'visible' },
+        { className: 'summary-img float-right size-lg' },
         _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Naturwissenschaftler und Raumfahrer – seit Jahrtausenden entdecken und erobern sie neue Welten und Räume, sie erkennen Zusammenhänge und Naturgesetze. Als Pioniere erweitern sie ständig den Horizont der Erkenntnis.'
-        ),
-        _react2['default'].createElement(
-          'div',
-          { className: 'summary-img float-right size-lg' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/persons/claudius_ptolemaeus_lg.jpg', title: 'Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/persons/claudius_ptolemaeus_sm.jpg', alt: 'Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch' })
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Claudius Ptolemäus'
-          )
+          'a',
+          { href: '/img/persons/claudius_ptolemaeus_lg.jpg', title: 'Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/persons/claudius_ptolemaeus_sm.jpg', alt: 'Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch' })
         ),
         _react2['default'].createElement(
           'p',
-          { className: 'summary-text' },
-          'Aus Schamanen und Priestern wurden Astrologen und Philosophen, später dann Quantenphysiker und Bordingenieure. Ihr steter Drang nach der Erforschung des Unbekannten sind bis heute der Motor der Wissenschaft.'
+          { className: 'summary-img-text' },
+          'Claudius Ptolemäus'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Aus Schamanen und Priestern wurden Astrologen und Philosophen, später dann Quantenphysiker und Bordingenieure. Ihr steter Drang nach der Erforschung des Unbekannten sind bis heute der Motor der Wissenschaft.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Sie stellen die entscheidenden Fragen und suchen nach deren Antworten. Sie sind aufmerksame Beobachter ihrer Umwelt und werten Daten aus. Neugier, Beharrlichkeit und Ausdauer sind Grundvoraussetzungen, um als Forscher nicht nur erfolgreich zu sein, sondern auch Misserfolge und Rückschläge zu verkraften.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Neben den großen Namen gibt es viele unbekannte Akademiker und Amateure, die im kleinen und großen Maßstab Bedeutendes geleistet haben. Wie Zahnräder in einem Getriebe greifen ihre Arbeiten ineinander und treiben die Wissenschaft voran in Richtung Zukunft.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img width-75 center' },
+        _react2['default'].createElement('img', { src: '/img/persons/people_collage.jpg', alt: 'Collage berühmter Personen' }),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Aristoteles, A. Shepard, I. Newton, E. Halley, V. Tereschkowa, A. Einstein, N. Kopernikus, J. Gagarin, G. Galilei, S. Hawking, T. Brahe, N. Armstrong'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Mit ihren Leistungen schreiben sie sich in die Geschichtsbücher ein. Auszeichnungen werden ihnen verliehen und sie stiften neue Preise. Den Größten zu Ehren errichten wir Monumente und benennen Universitäten und Mondkrater nach diesen Giganten der Wissenschaft.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img float-left size-lg' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/persons/Challenger_STS51L_crew_lg.jpg', title: 'Crew der Challenger STS-51-L - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/persons/Challenger_STS51L_crew_sm.jpg', alt: 'Crew der Challenger STS-51-L' })
         ),
         _react2['default'].createElement(
           'p',
-          { className: 'summary-text' },
-          'Sie stellen die entscheidenden Fragen und suchen nach deren Antworten. Sie sind aufmerksame Beobachter ihrer Umwelt und werten Daten aus. Neugier, Beharrlichkeit und Ausdauer sind Grundvoraussetzungen, um als Forscher nicht nur erfolgreich zu sein, sondern auch Misserfolge und Rückschläge zu verkraften.'
-        ),
+          { className: 'summary-img-text' },
+          'Crew der Challenger STS-51-L'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Doch aus dem Fall eines Apfels ein Naturgesetz abzuleiten oder mit akribischer Denkarbeit die Beziehungen zwischen Raum und Zeit zu formulieren, bringt die Menschheit ebenso voran wie die Entwicklung neuer Materialien oder die Reparatur eines Solarpanels an einer Raumstation.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Institute und Raumfahrtorganisationen auf der ganzen Welt ringen um Nachwuchs. Die nächsten Ingenieure und Wissenschaftler der MINT-Disziplinen werden die Antriebe der Zukunft entwickeln und die Geheimnisse der Dunklen Materie entschlüsseln, die Raumfahrer von morgen werden auf dem Mars landen.',
+        _react2['default'].createElement('br', null),
         _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Neben den großen Namen gibt es viele unbekannte Akademiker und Amateure, die im kleinen und großen Maßstab Bedeutendes geleistet haben. Wie Zahnräder in einem Getriebe greifen ihre Arbeiten ineinander und treiben die Wissenschaft voran in Richtung Zukunft.'
-        ),
-        _react2['default'].createElement(
-          'div',
-          { className: 'summary-img width-75 center' },
-          _react2['default'].createElement('img', { src: '/img/persons/people_collage.jpg', alt: 'Collage berühmter Personen' }),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Aristoteles, A. Shepard, I. Newton, E. Halley, V. Tereschkowa, A. Einstein, N. Kopernikus, J. Gagarin, G. Galilei, S. Hawking, T. Brahe, N. Armstrong'
-          )
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Mit ihren Leistungen schreiben sie sich in die Geschichtsbücher ein. Auszeichnungen werden ihnen verliehen und sie stiften neue Preise. Den Größten zu Ehren errichten wir Monumente und benennen Universitäten und Mondkrater nach diesen Giganten der Wissenschaft.'
-        ),
-        _react2['default'].createElement(
-          'div',
-          { className: 'summary-img float-left size-lg' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/persons/Challenger_STS51L_crew_lg.jpg', title: 'Crew der Challenger STS-51-L - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/persons/Challenger_STS51L_crew_sm.jpg', alt: 'Crew der Challenger STS-51-L' })
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Crew der Challenger STS-51-L'
-          )
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Doch aus dem Fall eines Apfels ein Naturgesetz abzuleiten oder mit akribischer Denkarbeit die Beziehungen zwischen Raum und Zeit zu formulieren, bringt die Menschheit ebenso voran wie die Entwicklung neuer Materialien oder die Reparatur eines Solarpanels an einer Raumstation.'
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Institute und Raumfahrtorganisationen auf der ganzen Welt ringen um Nachwuchs. Die nächsten Ingenieure und Wissenschaftler der MINT-Disziplinen werden die Antriebe der Zukunft entwickeln und die Geheimnisse der Dunklen Materie entschlüsseln, die Raumfahrer von morgen werden auf dem Mars landen.',
-          _react2['default'].createElement('br', null),
-          _react2['default'].createElement(
-            'b',
-            null,
-            'Jeder Einzelne zählt!'
-          )
-        ),
-        _react2['default'].createElement(
-          'h4',
+          'b',
           null,
-          'Wussten Sie schon?'
+          'Jeder Einzelne zählt!'
+        )
+      ),
+      _react2['default'].createElement(
+        'h4',
+        null,
+        'Wussten Sie schon?'
+      ),
+      _react2['default'].createElement(
+        'ul',
+        { className: 'summary-list' },
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Der deutsche Astronom ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Johann Bayer'
+          ),
+          ' (1572 - 1625) führte eine noch heute gebräuliche systematische Benennung von Sternen ein.'
         ),
         _react2['default'].createElement(
-          'ul',
-          { className: 'summary-list' },
+          'li',
+          null,
+          'Am ',
           _react2['default'].createElement(
-            'li',
+            'em',
             null,
-            'Der deutsche Astronom ',
-            _react2['default'].createElement(
-              'em',
-              null,
-              'Johann Bayer'
-            ),
-            ' (1572 - 1625) führte eine noch heute gebräuliche systematische Benennung von Sternen ein.'
+            'Apollo-Programm'
           ),
+          ' und der ersten bemannten Mondlandung arbeiteten insgesamt etwa 400.000 Menschen mit.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Der Kosmonaut Waleri Bykowski hält mit vier Tagen und 23 Stunden den Rekord für den längsten Soloflug der Raumfahrtgeschichte.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
           _react2['default'].createElement(
-            'li',
+            'em',
             null,
-            'Am ',
-            _react2['default'].createElement(
-              'em',
-              null,
-              'Apollo-Programm'
-            ),
-            ' und der ersten bemannten Mondlandung arbeiteten insgesamt etwa 400.000 Menschen mit.'
+            'Brain May'
           ),
-          _react2['default'].createElement(
-            'li',
-            null,
-            'Der Kosmonaut Waleri Bykowski hält mit vier Tagen und 23 Stunden den Rekord für den längsten Soloflug der Raumfahrtgeschichte.'
-          ),
-          _react2['default'].createElement(
-            'li',
-            null,
-            _react2['default'].createElement(
-              'em',
-              null,
-              'Brain May'
-            ),
-            ', der Gitarrist der britischen Rockband Queen ist seit 2007 auch promovierter Astrophysiker.'
-          )
+          ', der Gitarrist der britischen Rockband Queen ist seit 2007 auch promovierter Astrophysiker.'
         )
       )
     ),
@@ -36766,7 +36917,15 @@ Object.defineProperty(exports, '__esModule', {
   value: true
 });
 
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var _react = require('react');
 
@@ -36775,6 +36934,44 @@ var _react2 = _interopRequireDefault(_react);
 var _notes = require('./notes');
 
 var _notes2 = _interopRequireDefault(_notes);
+
+var Summary = (function (_React$Component) {
+  _inherits(Summary, _React$Component);
+
+  function Summary() {
+    _classCallCheck(this, Summary);
+
+    _get(Object.getPrototypeOf(Summary.prototype), 'constructor', this).call(this);
+    this.state = { isOpen: true };
+  }
+
+  _createClass(Summary, [{
+    key: 'render',
+    value: function render() {
+      var _this = this;
+
+      var isOpen = this.state.isOpen;
+      var toggle = function toggle() {
+        _this.setState({ isOpen: !isOpen });
+      };
+      var switchClassName = isOpen ? "expanded" : "collapsed";
+      var containerClassName = isOpen ? "visible" : "minimized";
+      return _react2['default'].createElement(
+        'div',
+        { id: 'summary', className: 'pure-u-1 left' },
+        _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: switchClassName, title: 'Artikel anzeigen / schließen', onClick: toggle }),
+        _react2['default'].createElement(
+          'div',
+          { id: 'summaryContainer', className: containerClassName },
+          this.props.children
+        ),
+        isOpen ? null : _react2['default'].createElement('div', { id: 'summaryShade' })
+      );
+    }
+  }]);
+
+  return Summary;
+})(_react2['default'].Component);
 
 var SolarSystemComponent = function SolarSystemComponent() {
   return _react2['default'].createElement(
@@ -36809,351 +37006,346 @@ var SolarSystemComponent = function SolarSystemComponent() {
       )
     ),
     _react2['default'].createElement(
-      'div',
-      { id: 'summary', className: 'solar-system pure-u-1 left' },
-      _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
+      Summary,
+      null,
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'In klaren Nächten sehen wir manchmal ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Merkur'
+        ),
+        ', ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Venus'
+        ),
+        ', ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Mars'
+        ),
+        ', ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Jupiter'
+        ),
+        ' oder ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Saturn'
+        ),
+        ' einzeln oder zu mehreren am Himmel entlangziehen. Sie scheinen sich dabei etwa auf einer Linie zu bewegen. Im Altertum wurden sie deshalb als ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Wandelsterne'
+        ),
+        ' bezeichnet. Es ist diese Linie, oder besser gesagt Ebene, die den Wissenschaftlern den wohl wichtigsten Hinweis auf die mögliche Entstehungsgeschichte unseres Heimatsystems lieferte.'
+      ),
       _react2['default'].createElement(
         'div',
-        { id: 'summaryContainer', className: 'solar-system visible' },
+        { className: 'summary-img float-left size-xl' },
         _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'In klaren Nächten sehen wir manchmal ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Merkur'
-          ),
-          ', ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Venus'
-          ),
-          ', ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Mars'
-          ),
-          ', ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Jupiter'
-          ),
-          ' oder ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Saturn'
-          ),
-          ' einzeln oder zu mehreren am Himmel entlangziehen. Sie scheinen sich dabei etwa auf einer Linie zu bewegen. Im Altertum wurden sie deshalb als ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Wandelsterne'
-          ),
-          ' bezeichnet. Es ist diese Linie, oder besser gesagt Ebene, die den Wissenschaftlern den wohl wichtigsten Hinweis auf die mögliche Entstehungsgeschichte unseres Heimatsystems lieferte.'
-        ),
-        _react2['default'].createElement(
-          'div',
-          { className: 'summary-img float-left size-xl' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/solarsystem/orbits_lg.jpg', title: 'die Ekliptik - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/solarsystem/orbits_sm.jpg', alt: 'die Ekliptik' })
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'die Ekliptik'
-          )
+          'a',
+          { href: '/img/solarsystem/orbits_lg.jpg', title: 'die Ekliptik - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/solarsystem/orbits_sm.jpg', alt: 'die Ekliptik' })
         ),
         _react2['default'].createElement(
           'p',
-          { className: 'summary-text' },
-          'Die Bahnen aller Planeten unseres Systems liegen nahezu auf dieser einen Ebene, der ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Ekliptik'
-          ),
-          '. Sie umrunden darauf die ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Sonne'
-          ),
-          ' in der gleichen Richtung, in die sie sich selbst auch dreht - gegen den Uhrzeigersinn, würde der Beobachter vom Nordpol der Ekliptik auf sie herunterschauen. Auch die Eigenrotation der Planeten entspricht dieser Richtung. Nur die Venus rotiert ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'retrograd'
-          ),
-          ' um ihre eigene Achse.'
-        ),
+          { className: 'summary-img-text' },
+          'die Ekliptik'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Die Bahnen aller Planeten unseres Systems liegen nahezu auf dieser einen Ebene, der ',
         _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Wissenschaftler vermuten den Ursprung des Sonnensystems in einem rotierenden Materienebel, der sich durch die Fliehkräfte zu einer ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Akkretionsscheibe'
-          ),
-          ' verformte. Mehr und mehr Materie stürzte in das Zentrum der Scheibe und verdichtete sich, bis schließlich unter enormem Druck und immmer weiter steigenden Temperaturen die ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Kernfusion'
-          ),
-          ' zündete. Die Sonne war geboren.'
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Rings um den jungen Stern verklumpten Staubteilchen zu immer größeren Gebilden miteinander und formten die ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Planetesimale'
-          ),
-          ', die Bausteine der künftigen Planeten. Mit steigenden Massen und somit wachsenden Anziehungskräften wuchsen sie zu ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Protoplaneten'
-          ),
-          ' heran und sammelten noch mehr Materie aus ihrem kosmischen Umfeld ein. Auf ihrem Umlauf um die Sonne und durch Resonanzen ihrer Gravitationskräfte räumten sie ihre Bahnen im Laufe von vielen Jahrmillionen leer.'
-        ),
-        _react2['default'].createElement(
-          'div',
-          { className: 'summary-img width-100 center' },
-          _react2['default'].createElement('img', { src: '/img/solarsystem/solarsystem.jpg', alt: 'das Sonnensystem' }),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Sonne, Merkur, Venus, Erde, Mars, Jupiter, Saturn, Uranus, Neptun - maßstabs,- aber nicht abstandsgetreu',
-            _react2['default'].createElement('br', null),
-            'Quelle: ',
-            _react2['default'].createElement(
-              'a',
-              { href: 'http://iau.org/', title: 'IAU' },
-              'IAU'
-            ),
-            ' ',
-            _react2['default'].createElement(
-              'a',
-              { href: 'http://creativecommons.org/licenses/by-sa/3.0/', title: 'CC BY-SA 3.0' },
-              'CC BY-SA 3.0'
-            )
-          )
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'So umkreisen heute acht Planeten unseren Zentralstern, seit die ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Internationale Astronomische Union'
-          ),
-          ' (IAU) den früher als Planet geführten ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Pluto'
-          ),
-          ' im Jahr 2006 zum Zwergplanten herabstufte. Die Entfernungen dabei sind riesig. So beträgt der mittlere Abstand zwischen Sonne und Erde ca. 150 Millionen Kilometer, oder eine ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Astronomische Einheit'
-          ),
-          ' (AU). Die Inneren Planeten Merkur, Venus, Erde und Mars sind Gesteinsplaneten, deren Atmosphären zwischen sehr dicht (Venus) und sehr dünn (Mars) variieren. Merkur verfügt über keine nennenswerte Gashülle. Die sonnenächsten Körper Merkur und Venus besitzen keine Monde, während die Erde von einem, der Mars von zwei Trabanten (Phobos und Deimos) begleitet wird.'
-        ),
-        _react2['default'].createElement(
-          'div',
-          { className: 'summary-img float-right' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/solarsystem/saturn_lg.jpg', title: 'Saturn - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/solarsystem/saturn_sm.jpg', alt: 'Saturn' })
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Saturn mit Ringsystem, Quelle: NASA'
-          )
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Die Äußeren Planeten hingegen sind völlig anders beschaffen. Sie sind ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Gasplaneten'
-          ),
-          ', deren Atmosphären je nach Entfernung zur Sonne gasförmig (',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Jupiter'
-          ),
-          ' und ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Saturn'
-          ),
-          ') oder sogar teilweise flüssig (',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Uranus'
-          ),
-          ' und ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Neptun'
-          ),
-          ') sind. Im Innern besitzen sie wahrscheinlich alle einen kleinen, festen Kern aus Gestein und Eis. Die vier Riesen verfügen zusätzlich auch über Ringsysteme aus Gesteins- oder Eispartikeln unterschiedlicher Größe. Auf den Äquatorebenen der Planeten rotieren sie in mehreren Ringscheiben um sie herum. Jupiter wird von 62 Monden umkreist, Saturn sogar von 67! Die Eisriesen Uranus und Neptun verfügen über 27, bzw. 14 Monde.'
-        ),
-        _react2['default'].createElement(
-          'div',
-          { className: 'summary-img float-left size-lg' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/solarsystem/mainbelt_and_trojans.png', title: 'Trojaner - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/solarsystem/mainbelt_and_trojans.png', alt: 'Trojaner' })
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Trojaner, Quelle: Rivi',
-            _react2['default'].createElement('br', null),
-            _react2['default'].createElement(
-              'a',
-              { href: 'http://creativecommons.org/licenses/by-sa/3.0/', title: 'CC BY-SA 3.0' },
-              'CC BY-SA 3.0'
-            )
-          )
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Neben den Planeten und ihren Monden existiert eine Vielzahl kleinerer Objekte in unserem Sonnensystem, die in der Entstehungsphase nicht von der Sonne oder den Planeten eingefangen wurden. So werden die Bahnen der inneren Planeten von unzähligen ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Asteroiden'
-          ),
-          ' verschiedenster Größen (auch ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Planetoiden'
-          ),
-          ' genannt) gekreuzt. Die meisten konzentrieren sich im Hauptgürtel zwischen Mars und Jupiter.'
-        ),
-        _react2['default'].createElement(
-          'div',
-          { className: 'summary-img size-sm' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/solarsystem/oort_cloud.jpg', title: 'Oortsche Wolke - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/solarsystem/oort_cloud.jpg', alt: 'Oortsche Wolke' })
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Oortsche Wolke',
-            _react2['default'].createElement('br', null),
-            'Quelle: Dr. H. Sulzer',
-            _react2['default'].createElement('br', null),
-            _react2['default'].createElement(
-              'a',
-              { href: 'http://creativecommons.org/licenses/by-sa/3.0/', title: 'CC BY-SA 3.0' },
-              'CC BY-SA 3.0'
-            )
-          )
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Zentauren'
-          ),
-          ' werden Asteroiden genannt, die sich zwischen den Umlaufbahnen von Jupiter und Neptun um die Sonne bewegen. Asteroiden, die einem Planeten auf seinem Orbit entweder vorauseilen oder ihm nachfolgen, nennt man ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Trojaner'
-          ),
-          '. Die meisten sind bislang auf der Jupiterbahn bekannt. Nur Merkur und Saturn scheinen keine Trojaner zu besitzen.'
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Noch weit außerhalb des Neptunorbits, liegt der ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Kuipergürtel'
-          ),
-          ', eine ringförmige Region mit tausenden meist kleinen, aber auch bis zu mehreren hundert Kilometern großen Objekten, so auch Pluto. Am äußeren Rand unseres Sonnensystems befindet sich vermutlich dann die ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Oortsche Wolke'
-          ),
-          ', eine Ansammlung astronomischer Objekte in Form einer Kugelschale. Beide Regionen gelten als Ursprungsgebiete von ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Kometen'
-          ),
-          ', die auf hochelliptischen Bahnen durch das Sonnensystem ziehen. Wissenschaftler erhoffen sich aus der Untersuchung dieser "Schweifsterne" auch mit Raumsonden wie zum Beispiel ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Rosetta'
-          ),
-          ' genauere Erkenntnisse über die Entstehung unseres Systems.'
-        ),
-        _react2['default'].createElement(
-          'h4',
+          'em',
           null,
-          'Wussten Sie schon?'
+          'Ekliptik'
+        ),
+        '. Sie umrunden darauf die ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Sonne'
+        ),
+        ' in der gleichen Richtung, in die sie sich selbst auch dreht - gegen den Uhrzeigersinn, würde der Beobachter vom Nordpol der Ekliptik auf sie herunterschauen. Auch die Eigenrotation der Planeten entspricht dieser Richtung. Nur die Venus rotiert ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'retrograd'
+        ),
+        ' um ihre eigene Achse.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Wissenschaftler vermuten den Ursprung des Sonnensystems in einem rotierenden Materienebel, der sich durch die Fliehkräfte zu einer ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Akkretionsscheibe'
+        ),
+        ' verformte. Mehr und mehr Materie stürzte in das Zentrum der Scheibe und verdichtete sich, bis schließlich unter enormem Druck und immmer weiter steigenden Temperaturen die ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Kernfusion'
+        ),
+        ' zündete. Die Sonne war geboren.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Rings um den jungen Stern verklumpten Staubteilchen zu immer größeren Gebilden miteinander und formten die ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Planetesimale'
+        ),
+        ', die Bausteine der künftigen Planeten. Mit steigenden Massen und somit wachsenden Anziehungskräften wuchsen sie zu ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Protoplaneten'
+        ),
+        ' heran und sammelten noch mehr Materie aus ihrem kosmischen Umfeld ein. Auf ihrem Umlauf um die Sonne und durch Resonanzen ihrer Gravitationskräfte räumten sie ihre Bahnen im Laufe von vielen Jahrmillionen leer.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img width-100 center' },
+        _react2['default'].createElement('img', { src: '/img/solarsystem/solarsystem.jpg', alt: 'das Sonnensystem' }),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Sonne, Merkur, Venus, Erde, Mars, Jupiter, Saturn, Uranus, Neptun - maßstabs,- aber nicht abstandsgetreu',
+          _react2['default'].createElement('br', null),
+          'Quelle: ',
+          _react2['default'].createElement(
+            'a',
+            { href: 'http://iau.org/', title: 'IAU' },
+            'IAU'
+          ),
+          ' ',
+          _react2['default'].createElement(
+            'a',
+            { href: 'http://creativecommons.org/licenses/by-sa/3.0/', title: 'CC BY-SA 3.0' },
+            'CC BY-SA 3.0'
+          )
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'So umkreisen heute acht Planeten unseren Zentralstern, seit die ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Internationale Astronomische Union'
+        ),
+        ' (IAU) den früher als Planet geführten ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Pluto'
+        ),
+        ' im Jahr 2006 zum Zwergplanten herabstufte. Die Entfernungen dabei sind riesig. So beträgt der mittlere Abstand zwischen Sonne und Erde ca. 150 Millionen Kilometer, oder eine ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Astronomische Einheit'
+        ),
+        ' (AU). Die Inneren Planeten Merkur, Venus, Erde und Mars sind Gesteinsplaneten, deren Atmosphären zwischen sehr dicht (Venus) und sehr dünn (Mars) variieren. Merkur verfügt über keine nennenswerte Gashülle. Die sonnenächsten Körper Merkur und Venus besitzen keine Monde, während die Erde von einem, der Mars von zwei Trabanten (Phobos und Deimos) begleitet wird.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img float-right' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/solarsystem/saturn_lg.jpg', title: 'Saturn - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/solarsystem/saturn_sm.jpg', alt: 'Saturn' })
         ),
         _react2['default'].createElement(
-          'ul',
-          { className: 'summary-list' },
+          'p',
+          { className: 'summary-img-text' },
+          'Saturn mit Ringsystem, Quelle: NASA'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Die Äußeren Planeten hingegen sind völlig anders beschaffen. Sie sind ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Gasplaneten'
+        ),
+        ', deren Atmosphären je nach Entfernung zur Sonne gasförmig (',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Jupiter'
+        ),
+        ' und ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Saturn'
+        ),
+        ') oder sogar teilweise flüssig (',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Uranus'
+        ),
+        ' und ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Neptun'
+        ),
+        ') sind. Im Innern besitzen sie wahrscheinlich alle einen kleinen, festen Kern aus Gestein und Eis. Die vier Riesen verfügen zusätzlich auch über Ringsysteme aus Gesteins- oder Eispartikeln unterschiedlicher Größe. Auf den Äquatorebenen der Planeten rotieren sie in mehreren Ringscheiben um sie herum. Jupiter wird von 62 Monden umkreist, Saturn sogar von 67! Die Eisriesen Uranus und Neptun verfügen über 27, bzw. 14 Monde.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img float-left size-lg' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/solarsystem/mainbelt_and_trojans.png', title: 'Trojaner - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/solarsystem/mainbelt_and_trojans.png', alt: 'Trojaner' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Trojaner, Quelle: Rivi',
+          _react2['default'].createElement('br', null),
           _react2['default'].createElement(
-            'li',
-            null,
-            'Die Sonne macht 99,86 % der Gesamtmasse unseres Systems aus. Ihr Durchmesser ist 109-mal größer als der der Erde.'
-          ),
-          _react2['default'].createElement(
-            'li',
-            null,
-            'Der nächste Stern ist Proxima Centauri in ca. 4,22 Lichtjahren Entfernung. Alpha Centauri, das nächste System, ist 4,34 Lj entfernt.'
-          ),
-          _react2['default'].createElement(
-            'li',
-            null,
-            'Die Erde umrundet die Sonne in 365,256 Tagen mit einer Geschwindigkeit von durchschnittlich ca. 30 Kilometern pro Sekunde.'
-          ),
-          _react2['default'].createElement(
-            'li',
-            null,
-            'Auch Asteroiden und Zwergplaneten können Monde besitzen. Charon, Nix, Hydra, Kerberos und Styx umkreisen Pluto.'
+            'a',
+            { href: 'http://creativecommons.org/licenses/by-sa/3.0/', title: 'CC BY-SA 3.0' },
+            'CC BY-SA 3.0'
           )
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Neben den Planeten und ihren Monden existiert eine Vielzahl kleinerer Objekte in unserem Sonnensystem, die in der Entstehungsphase nicht von der Sonne oder den Planeten eingefangen wurden. So werden die Bahnen der inneren Planeten von unzähligen ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Asteroiden'
+        ),
+        ' verschiedenster Größen (auch ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Planetoiden'
+        ),
+        ' genannt) gekreuzt. Die meisten konzentrieren sich im Hauptgürtel zwischen Mars und Jupiter.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img size-sm' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/solarsystem/oort_cloud.jpg', title: 'Oortsche Wolke - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/solarsystem/oort_cloud.jpg', alt: 'Oortsche Wolke' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Oortsche Wolke',
+          _react2['default'].createElement('br', null),
+          'Quelle: Dr. H. Sulzer',
+          _react2['default'].createElement('br', null),
+          _react2['default'].createElement(
+            'a',
+            { href: 'http://creativecommons.org/licenses/by-sa/3.0/', title: 'CC BY-SA 3.0' },
+            'CC BY-SA 3.0'
+          )
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Zentauren'
+        ),
+        ' werden Asteroiden genannt, die sich zwischen den Umlaufbahnen von Jupiter und Neptun um die Sonne bewegen. Asteroiden, die einem Planeten auf seinem Orbit entweder vorauseilen oder ihm nachfolgen, nennt man ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Trojaner'
+        ),
+        '. Die meisten sind bislang auf der Jupiterbahn bekannt. Nur Merkur und Saturn scheinen keine Trojaner zu besitzen.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Noch weit außerhalb des Neptunorbits, liegt der ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Kuipergürtel'
+        ),
+        ', eine ringförmige Region mit tausenden meist kleinen, aber auch bis zu mehreren hundert Kilometern großen Objekten, so auch Pluto. Am äußeren Rand unseres Sonnensystems befindet sich vermutlich dann die ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Oortsche Wolke'
+        ),
+        ', eine Ansammlung astronomischer Objekte in Form einer Kugelschale. Beide Regionen gelten als Ursprungsgebiete von ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Kometen'
+        ),
+        ', die auf hochelliptischen Bahnen durch das Sonnensystem ziehen. Wissenschaftler erhoffen sich aus der Untersuchung dieser "Schweifsterne" auch mit Raumsonden wie zum Beispiel ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Rosetta'
+        ),
+        ' genauere Erkenntnisse über die Entstehung unseres Systems.'
+      ),
+      _react2['default'].createElement(
+        'h4',
+        null,
+        'Wussten Sie schon?'
+      ),
+      _react2['default'].createElement(
+        'ul',
+        { className: 'summary-list' },
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Die Sonne macht 99,86 % der Gesamtmasse unseres Systems aus. Ihr Durchmesser ist 109-mal größer als der der Erde.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Der nächste Stern ist Proxima Centauri in ca. 4,22 Lichtjahren Entfernung. Alpha Centauri, das nächste System, ist 4,34 Lj entfernt.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Die Erde umrundet die Sonne in 365,256 Tagen mit einer Geschwindigkeit von durchschnittlich ca. 30 Kilometern pro Sekunde.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Auch Asteroiden und Zwergplaneten können Monde besitzen. Charon, Nix, Hydra, Kerberos und Styx umkreisen Pluto.'
         )
       )
     ),
@@ -38960,7 +39152,15 @@ Object.defineProperty(exports, '__esModule', {
   value: true
 });
 
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var _react = require('react');
 
@@ -38971,6 +39171,44 @@ var _notes = require('./notes');
 var _chunksLetterLinks = require('./chunks/letter-links');
 
 var _chunksLetterLinks2 = _interopRequireDefault(_chunksLetterLinks);
+
+var Summary = (function (_React$Component) {
+  _inherits(Summary, _React$Component);
+
+  function Summary() {
+    _classCallCheck(this, Summary);
+
+    _get(Object.getPrototypeOf(Summary.prototype), 'constructor', this).call(this);
+    this.state = { isOpen: true };
+  }
+
+  _createClass(Summary, [{
+    key: 'render',
+    value: function render() {
+      var _this = this;
+
+      var isOpen = this.state.isOpen;
+      var toggle = function toggle() {
+        _this.setState({ isOpen: !isOpen });
+      };
+      var switchClassName = isOpen ? "expanded" : "collapsed";
+      var containerClassName = isOpen ? "visible" : "minimized";
+      return _react2['default'].createElement(
+        'div',
+        { id: 'summary', className: 'pure-u-1 left' },
+        _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: switchClassName, title: 'Artikel anzeigen / schließen', onClick: toggle }),
+        _react2['default'].createElement(
+          'div',
+          { id: 'summaryContainer', className: containerClassName },
+          this.props.children
+        ),
+        isOpen ? null : _react2['default'].createElement('div', { id: 'summaryShade' })
+      );
+    }
+  }]);
+
+  return Summary;
+})(_react2['default'].Component);
 
 var StarsComponent = function StarsComponent(_ref) {
   var groupedStars = _ref.groupedStars;
@@ -39023,273 +39261,268 @@ var StarsComponent = function StarsComponent(_ref) {
       )
     ),
     _react2['default'].createElement(
-      'div',
-      { id: 'summary', className: 'pure-u-1 left' },
-      _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
+      Summary,
+      null,
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Sie sind kleine helle Punkte am Nachthimmel und dennoch ist alles an ihnen gigantisch - Größe, Masse und Temperatur. Sterne sind riesige und unglaublich heiße Kraftwerke. Die Oberflächentemperaturen der meisten Sterne reichen von etwa 2200 K bis 45000 K, ihre Massen von 0,07 bis 120 Sonnenmassen und ihre Größen von 0,1 bis 25 Sonnenradien.'
+      ),
       _react2['default'].createElement(
         'div',
-        { id: 'summaryContainer', className: 'visible' },
+        { className: 'summary-img size-sm' },
         _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Sie sind kleine helle Punkte am Nachthimmel und dennoch ist alles an ihnen gigantisch - Größe, Masse und Temperatur. Sterne sind riesige und unglaublich heiße Kraftwerke. Die Oberflächentemperaturen der meisten Sterne reichen von etwa 2200 K bis 45000 K, ihre Massen von 0,07 bis 120 Sonnenmassen und ihre Größen von 0,1 bis 25 Sonnenradien.'
+          'a',
+          { href: '/img/stars/star-sizes_lg.jpg', title: 'Größenvergleich - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/stars/star-sizes_sm.jpg', alt: 'Größenvergleich' })
         ),
         _react2['default'].createElement(
-          'div',
-          { className: 'summary-img size-sm' },
+          'p',
+          { className: 'summary-img-text' },
+          'Größenvergleich',
+          _react2['default'].createElement('br', null),
+          'Quelle: ',
           _react2['default'].createElement(
             'a',
-            { href: '/img/stars/star-sizes_lg.jpg', title: 'Größenvergleich - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/stars/star-sizes_sm.jpg', alt: 'Größenvergleich' })
+            { href: 'http://www.davidjarvis.ca/', title: 'Dave Jarvis' },
+            'Dave Jarvis'
           ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Größenvergleich',
-            _react2['default'].createElement('br', null),
-            'Quelle: ',
-            _react2['default'].createElement(
-              'a',
-              { href: 'http://www.davidjarvis.ca/', title: 'Dave Jarvis' },
-              'Dave Jarvis'
-            ),
-            _react2['default'].createElement('br', null),
-            _react2['default'].createElement(
-              'a',
-              { href: 'http://creativecommons.org/licenses/by-sa/3.0', title: 'CC-BY-SA 3.0' },
-              'CC-BY-SA 3.0'
-            )
-          )
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'In ihnen liefert die ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'stellare Kernfusion'
-          ),
-          ' durch die Verschmelzung von zumeist Wasserstoff zu Helium gewaltige Energiemengen, die ebenso wie ihre kräftigen Magnetfelder weit ins All hinein wirken. Auf den umlaufenden Planeten können sie dadurch Leben ermöglichen oder auch dauerhaft verhindern. Sonnensysteme mit nur einem Zentralstern wie das unsere sind eher die Seltenheit. Schätzungsweise zwei Drittel aller Sterne haben einen oder sogar mehrere Geschwister, die oft um ein gemeinsames Zentrum kreisen.'
-        ),
-        _react2['default'].createElement(
-          'div',
-          { className: 'summary-img' },
+          _react2['default'].createElement('br', null),
           _react2['default'].createElement(
             'a',
-            { href: '/img/stars/cluster_ngc1783_lg.jpg', title: 'Sternhaufen NGC 1783 - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/stars/cluster_ngc1783_sm.jpg', alt: 'Sternhaufen NGC 1783' })
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Sternhaufen NGC 1783',
-            _react2['default'].createElement('br', null),
-            'Quelle: ESA/Hubble & NASA',
-            _react2['default'].createElement('br', null),
-            _react2['default'].createElement(
-              'a',
-              { href: 'https://creativecommons.org/licenses/by/4.0/', title: 'CC-BY 4.0' },
-              'CC-BY 4.0'
-            )
+            { href: 'http://creativecommons.org/licenses/by-sa/3.0', title: 'CC-BY-SA 3.0' },
+            'CC-BY-SA 3.0'
           )
-        ),
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'In ihnen liefert die ',
         _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Auch in kosmischen Dimensionen gesehen sind Sterne selten Einzelgänger. Sie konzentrieren sich in ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Sternhaufen'
-          ),
-          ' und zu Millionen oder sogar Milliarden in ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Galaxien'
-          ),
-          ', die widerum in ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Galaxienhaufen'
-          ),
-          ' auftreten. Astronomen schätzen die Zahl der Sterne im sichtbaren Universum auf etwa 70 Trilliarden. In unserer Heimatgalaxie, der Milchstraße, existieren ca. 100 Milliarden Sonnen.'
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Mit bloßem Auge sind von der Erde aus höchstens 5000 bis 6000 Sterne zu erkennen. Der Mensch sah in ihnen Götter, er verband sie zu Sternbildern und nutzt sie bis heute zur Navigation. Die ersten Namen von Sternen, die heute noch gebräuchlich sind, stammen oft aus der arabischen oder griechisch-hellenistischen Antike, so zum Beispiel Beteigeuze oder Sirius. Neuere Bezeichnungen entstanden mit der Erstellung großer ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Himmelsatlanten'
-          ),
-          ' und ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Sternenkataloge'
-          ),
-          ', wie der ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Uranometria'
-          ),
-          ' von ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Johann Bayer'
-          ),
-          ' (1603) oder dem ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Hipparcos-Katalog'
-          ),
-          ' (HIP).'
-        ),
-        _react2['default'].createElement(
-          'div',
-          { className: 'summary-img size-md' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/stars/E-ELT_lg.jpg', title: 'European Extremely Large Telescope - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/stars/E-ELT_sm.jpg', alt: 'European Extremely Large Telescope' })
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'European Extremely Large Telescope',
-            _react2['default'].createElement('br', null),
-            'Quelle: ESO, ',
-            _react2['default'].createElement(
-              'a',
-              { href: 'https://creativecommons.org/licenses/by/4.0/', title: 'CC-BY 4.0' },
-              'CC-BY 4.0'
-            )
-          )
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Von der Frühgeschichte des Menschen bis heute beobachten, katalogisieren und vermessen wir also Sterne. Schon im Altertum wurden dazu von China über Ägypten bis nach Südamerika große Observatorien errichtet. Heute bauen wir riesige ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Radioteleskope'
-          ),
-          ', wie zum Beispiel das ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Very Large Array'
-          ),
-          ' (VLA) in New Mexico, oder wir schicken Weltraumteleskope ins All, die Röntgenstrahlen, Mikrowellen oder einen großen Bereich des Lichtspektrums beobachten können, wie das ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Hubble Space Telescope'
-          ),
-          ' (HST).'
-        ),
-        _react2['default'].createElement(
-          'div',
-          { className: 'summary-img size-xl' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/stars/milky_way_center_lg.jpg', title: 'Zentrum der Milchstraße - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/stars/milky_way_center_sm.jpg', alt: 'Zentrum der Milchstraße' })
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Zentrum der Milchstraße'
-          )
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Mit ihnen entstehen nicht nur phantastische Aufnahmen, die uns begeistern. Vor allem geht es um die Bestimmung von Eigenschaften wie Leuchtkraft und Alter, Größe, Masse, Zusammensetzung und Bewegung. Der Lebenszyklus von Sternen kann heute schon gut beschrieben werden. Astronomen setzen die gewonnenen Informationen zueinander ins Verhältnis und teilen Sterne danach in verschiedene Klassen ein. Daraus gingen wichtige Darstellungen wie beispielsweise das ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Hertzsprung-Russell-Diagramm'
-          ),
-          ' (HDR) hervor, mit dem sich die Entwicklungszustände abbilden lassen.'
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Mittlerweile sind nicht nur massearme- und reiche, große und kleine, helle und weniger helle Sterne bekannt. Drei verschiedene ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Sternenpopulationen'
-          ),
-          ', eingeteilt nach ihrer Lebensdauer in der Entwicklung des Universums, werden unterschieden. Weiterhin differenziert man Sterne anhand ihres individuellen Alters, ihrer Zugehörigkeit zu Regionen und Sternhaufen, teilt sie in Größen- und ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Spektralklassen'
-          ),
-          ' ein. Ihre extremsten Erscheinungsformen und Phänomene, wie zum Beispiel ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Neutronensterne'
-          ),
-          ',',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Supernovae'
-          ),
-          ', ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Schwarze Löcher'
-          ),
-          ' oder ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Pulsare'
-          ),
-          ' geben den Forschern bis heute noch viele Rätsel auf und bleiben dadurch absolut spannend.'
-        ),
-        _react2['default'].createElement(
-          'h4',
+          'em',
           null,
-          'Wussten Sie schon?'
+          'stellare Kernfusion'
+        ),
+        ' durch die Verschmelzung von zumeist Wasserstoff zu Helium gewaltige Energiemengen, die ebenso wie ihre kräftigen Magnetfelder weit ins All hinein wirken. Auf den umlaufenden Planeten können sie dadurch Leben ermöglichen oder auch dauerhaft verhindern. Sonnensysteme mit nur einem Zentralstern wie das unsere sind eher die Seltenheit. Schätzungsweise zwei Drittel aller Sterne haben einen oder sogar mehrere Geschwister, die oft um ein gemeinsames Zentrum kreisen.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/stars/cluster_ngc1783_lg.jpg', title: 'Sternhaufen NGC 1783 - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/stars/cluster_ngc1783_sm.jpg', alt: 'Sternhaufen NGC 1783' })
         ),
         _react2['default'].createElement(
-          'ul',
-          { className: 'summary-list' },
+          'p',
+          { className: 'summary-img-text' },
+          'Sternhaufen NGC 1783',
+          _react2['default'].createElement('br', null),
+          'Quelle: ESA/Hubble & NASA',
+          _react2['default'].createElement('br', null),
           _react2['default'].createElement(
-            'li',
-            null,
-            'Alle von der Erde aus mit bloßem Auge sichtbaren Sterne gehören zu unserer Heimatgalaxie, der Milchstraße.'
-          ),
-          _react2['default'].createElement(
-            'li',
-            null,
-            'Als aktuell größter bekannter Stern gilt der Rote Überriese UY Scuti im Sternbild Schild mit 1708 ± 192 Sonnenradien.'
-          ),
-          _react2['default'].createElement(
-            'li',
-            null,
-            'Der Stern Castor im Sternbild Zwillinge ist eigentlich ein System aus drei Sternpaaren, also sechs Sternen insgesamt.'
-          ),
-          _react2['default'].createElement(
-            'li',
-            null,
-            'Sirius, der schon vor 5000 Jahren in Ägypten eine kalendarische Funktion hatte, ist mit −1,46 mag der hellste Stern am Nachthimmel.'
+            'a',
+            { href: 'https://creativecommons.org/licenses/by/4.0/', title: 'CC-BY 4.0' },
+            'CC-BY 4.0'
           )
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Auch in kosmischen Dimensionen gesehen sind Sterne selten Einzelgänger. Sie konzentrieren sich in ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Sternhaufen'
+        ),
+        ' und zu Millionen oder sogar Milliarden in ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Galaxien'
+        ),
+        ', die widerum in ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Galaxienhaufen'
+        ),
+        ' auftreten. Astronomen schätzen die Zahl der Sterne im sichtbaren Universum auf etwa 70 Trilliarden. In unserer Heimatgalaxie, der Milchstraße, existieren ca. 100 Milliarden Sonnen.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Mit bloßem Auge sind von der Erde aus höchstens 5000 bis 6000 Sterne zu erkennen. Der Mensch sah in ihnen Götter, er verband sie zu Sternbildern und nutzt sie bis heute zur Navigation. Die ersten Namen von Sternen, die heute noch gebräuchlich sind, stammen oft aus der arabischen oder griechisch-hellenistischen Antike, so zum Beispiel Beteigeuze oder Sirius. Neuere Bezeichnungen entstanden mit der Erstellung großer ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Himmelsatlanten'
+        ),
+        ' und ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Sternenkataloge'
+        ),
+        ', wie der ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Uranometria'
+        ),
+        ' von ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Johann Bayer'
+        ),
+        ' (1603) oder dem ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Hipparcos-Katalog'
+        ),
+        ' (HIP).'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img size-md' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/stars/E-ELT_lg.jpg', title: 'European Extremely Large Telescope - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/stars/E-ELT_sm.jpg', alt: 'European Extremely Large Telescope' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'European Extremely Large Telescope',
+          _react2['default'].createElement('br', null),
+          'Quelle: ESO, ',
+          _react2['default'].createElement(
+            'a',
+            { href: 'https://creativecommons.org/licenses/by/4.0/', title: 'CC-BY 4.0' },
+            'CC-BY 4.0'
+          )
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Von der Frühgeschichte des Menschen bis heute beobachten, katalogisieren und vermessen wir also Sterne. Schon im Altertum wurden dazu von China über Ägypten bis nach Südamerika große Observatorien errichtet. Heute bauen wir riesige ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Radioteleskope'
+        ),
+        ', wie zum Beispiel das ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Very Large Array'
+        ),
+        ' (VLA) in New Mexico, oder wir schicken Weltraumteleskope ins All, die Röntgenstrahlen, Mikrowellen oder einen großen Bereich des Lichtspektrums beobachten können, wie das ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Hubble Space Telescope'
+        ),
+        ' (HST).'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img size-xl' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/stars/milky_way_center_lg.jpg', title: 'Zentrum der Milchstraße - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/stars/milky_way_center_sm.jpg', alt: 'Zentrum der Milchstraße' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Zentrum der Milchstraße'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Mit ihnen entstehen nicht nur phantastische Aufnahmen, die uns begeistern. Vor allem geht es um die Bestimmung von Eigenschaften wie Leuchtkraft und Alter, Größe, Masse, Zusammensetzung und Bewegung. Der Lebenszyklus von Sternen kann heute schon gut beschrieben werden. Astronomen setzen die gewonnenen Informationen zueinander ins Verhältnis und teilen Sterne danach in verschiedene Klassen ein. Daraus gingen wichtige Darstellungen wie beispielsweise das ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Hertzsprung-Russell-Diagramm'
+        ),
+        ' (HDR) hervor, mit dem sich die Entwicklungszustände abbilden lassen.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Mittlerweile sind nicht nur massearme- und reiche, große und kleine, helle und weniger helle Sterne bekannt. Drei verschiedene ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Sternenpopulationen'
+        ),
+        ', eingeteilt nach ihrer Lebensdauer in der Entwicklung des Universums, werden unterschieden. Weiterhin differenziert man Sterne anhand ihres individuellen Alters, ihrer Zugehörigkeit zu Regionen und Sternhaufen, teilt sie in Größen- und ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Spektralklassen'
+        ),
+        ' ein. Ihre extremsten Erscheinungsformen und Phänomene, wie zum Beispiel ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Neutronensterne'
+        ),
+        ',',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Supernovae'
+        ),
+        ', ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Schwarze Löcher'
+        ),
+        ' oder ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Pulsare'
+        ),
+        ' geben den Forschern bis heute noch viele Rätsel auf und bleiben dadurch absolut spannend.'
+      ),
+      _react2['default'].createElement(
+        'h4',
+        null,
+        'Wussten Sie schon?'
+      ),
+      _react2['default'].createElement(
+        'ul',
+        { className: 'summary-list' },
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Alle von der Erde aus mit bloßem Auge sichtbaren Sterne gehören zu unserer Heimatgalaxie, der Milchstraße.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Als aktuell größter bekannter Stern gilt der Rote Überriese UY Scuti im Sternbild Schild mit 1708 ± 192 Sonnenradien.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Der Stern Castor im Sternbild Zwillinge ist eigentlich ein System aus drei Sternpaaren, also sechs Sternen insgesamt.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Sirius, der schon vor 5000 Jahren in Ägypten eine kalendarische Funktion hatte, ist mit −1,46 mag der hellste Stern am Nachthimmel.'
         )
       )
     ),

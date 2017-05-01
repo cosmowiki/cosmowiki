@@ -167,9 +167,9 @@ main {background: rgba(255,255,255,.8); border-bottom: 1em solid #eee;}
   position: relative; overflow: hidden; height: 100%;
   padding: 0 .25em 0; border-bottom: 1em solid #aaf;
 }
-#summaryContainer.minimized {height: 2.25em;}
+#summaryContainer.minimized {height: 2.75em;}
 #summaryShade {
-  position: absolute; height: 2.25em; width: 100%; left: 0; bottom: 1em;
+  position: absolute; height: 2.75em; width: 100%; left: 0; bottom: 1em;
 	background-image: linear-gradient(to bottom, rgba(255,255,255,.8), #fff);
 }
 .summary-text,
