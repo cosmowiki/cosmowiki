@@ -66,10 +66,13 @@ const MissionsComponent = ({missions}) => {
           </p>
         </div>
         <p className="summary-text">
-          Kurz vor dem Ende des Zweiten Weltkrieges begann der Wettstreit zwischen der <em>UdSSR</em> und den <em>USA</em> um die Vorreiterrolle in der Raketentechnik.
-          Wer rekrutiert die besten deutschen Wissenschaftler und Techniker, wer erbeutet die detailiertesten Baupläne und die wertvollsten Bauteile?
+          Kurz vor dem Ende des Zweiten Weltkrieges begann der Wettstreit zwischen
+          der <em>UdSSR</em> und den <em>USA</em> um die Vorreiterrolle in der Raketentechnik.
+          Wer rekrutiert die besten deutschen Wissenschaftler und Techniker, wer
+          erbeutet die detailiertesten Baupläne und die wertvollsten Bauteile?
           Wer schafft es als Erster, mit diesen Ressourcen eine funktionsfähige Rakete zu starten?
-          Die deutsche A4 stellt also in diesen beiden Ländern die Grundlage für die Raketentechnik und die Raumfahrt dar.
+          Die deutsche A4 stellt also in diesen beiden Ländern die Grundlage für
+          die Raketentechnik und die Raumfahrt dar.
         </p>
         <p className="summary-text">
           Nach vielen Rückschlägen aber auch einigen erfolgreichen Starts auf beiden Seiten
