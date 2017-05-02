@@ -1,6 +1,29 @@
 import React from 'react';
 import Notes from './notes';
 
+class Summary extends React.Component {
+  constructor() {
+    super();
+    this.state = {isOpen: true};
+  }
+  render() {
+    const isOpen = this.state.isOpen;
+    const toggle = () => {
+      this.setState({isOpen: !isOpen}); };
+    const switchClassName = isOpen ? "expanded" : "collapsed";
+    const containerClassName = isOpen ? "visible" : "minimized";
+    return (
+      <div id="summary" className="pure-u-1 left">
+        <a id="summaryToggleSwitch" className={switchClassName} title="Artikel anzeigen / schließen" onClick={toggle}/>
+        <div id="summaryContainer" className={containerClassName}>
+          {this.props.children}
+        </div>
+        {isOpen ? null : <div id="summaryShade" /> }
+      </div>
+    );
+  }
+}
+
 const SpaceTelescopesComponent = ({ telescopes }) => {
 
   return (
@@ -11,63 +34,59 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
       </div>
       <div id="todo" className="pure-u-1">
         <p>@wolfram pls edit the month in endDate to appear as word when there is no endday (enable for all dates in all pages)</p>
-        <p>@Wolfram pls make the #summaryToggleSwitch work.</p>
       </div>
-      <div id="summary" className="pure-u-1 left">
-        <a id="summaryToggleSwitch" className="expanded" href="#" title="Artikel anzeigen / schließen"></a>
-        <div id="summaryContainer" className="visible">
-          <p className="summary-text">
-            Mit der Aufnahme "Hubble Ultra Deep Field" (HUDF) gelang der Blick in 13 Milliarden Lichtjahre entfernte Regionen des Weltraums und damit in eine Zeit, in der das Universum geade einmal 800 Millionen Jahre alt war.
+      <Summary>
+        <p className="summary-text">
+          Mit der Aufnahme "Hubble Ultra Deep Field" (HUDF) gelang der Blick in 13 Milliarden Lichtjahre entfernte Regionen des Weltraums und damit in eine Zeit, in der das Universum geade einmal 800 Millionen Jahre alt war.
+        </p>
+        <div className="summary-img">
+          <a href="/img/stars/1_lg.jpg" title="Bildbeschreibung - Großansicht">
+            <img src="/img/stars/1_sm.jpg" alt="Bildbeschreibung" />
+          </a>
+          <p className="summary-img-text">
+            Bildbeschreibung
           </p>
-          <div className="summary-img">
-            <a href="/img/stars/1_lg.jpg" title="Bildbeschreibung - Großansicht">
-              <img src="/img/stars/1_sm.jpg" alt="Bildbeschreibung" />
-            </a>
-            <p className="summary-img-text">
-              Bildbeschreibung
-            </p>
-          </div>
-          <p className="summary-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
-          </p>
-          <p className="summary-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
-          </p>
-          <div className="summary-img">
-            <a href="/img/stars/2_lg.jpg" title="Bildbeschreibung - Großansicht">
-              <img src="/img/stars/2_sm.jpg" alt="Bildbeschreibung" />
-            </a>
-            <p className="summary-img-text">
-              Bildbeschreibung
-            </p>
-          </div>
-          <p className="summary-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
-          </p>
-          <p className="summary-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
-          </p>
-          <h4>Wussten Sie schon?</h4>
-          <ul className="summary-list">
-            <li>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.
-            </li>
-          </ul>
         </div>
-      </div>
+        <p className="summary-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat.
+        </p>
+        <p className="summary-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat.
+        </p>
+        <div className="summary-img">
+          <a href="/img/stars/2_lg.jpg" title="Bildbeschreibung - Großansicht">
+            <img src="/img/stars/2_sm.jpg" alt="Bildbeschreibung" />
+          </a>
+          <p className="summary-img-text">
+            Bildbeschreibung
+          </p>
+        </div>
+        <p className="summary-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat.
+        </p>
+        <p className="summary-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat.
+        </p>
+        <h4>Wussten Sie schon?</h4>
+        <ul className="summary-list">
+          <li>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.
+          </li>
+        </ul>
+      </Summary>
       <div id="controlArea" className="spacetelecopes pure-u-1">
         <div id="controllers" className="pure-u-1">
           <div id="sort" className="spacetelecopes pure-u-1-2 left">
