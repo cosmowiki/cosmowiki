@@ -35,53 +35,132 @@ const MissionsComponent = ({missions}) => {
         <p>@wolfram pls replace the filter forms with FilterRows as in stars-site</p>
         <p>@wolfram pls make the sorter and filters work</p>
         <p>@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens</p>
-        <p>@Wolfram pls make the #summaryToggleSwitch work.</p>
       </div>
       <Summary>
         <p className="summary-text">
-          Die Geschichte der Raumfahrt begann schon lange vor Sputnik 1. Die
-          größten Pioniere der Raketentechnik waren
-          sicher <i>Max Valier</i>, <i>Konstantin Ziolkowski</i>, <i>Robert Goddard</i> und <i>Hermann Oberth</i>.
-          Doch schon im Jahr 1232 sollen in China die ersten Raketen zu militärischen
+          Die Geschichte der Raumfahrt begann schon lange vor Sputnik 1 und auch
+          lange vor den großen Pionieren der Raketentechnik, <em>Konstantin Ziolkowski</em>, <em>Robert Goddard</em>, <em>Hermann Oberth</em> und <em>Max Valier</em>.
+          Schon im Jahr 1232 sollen in China die ersten Raketen zu militärischen
           Zwecken eingesetzt worden sein.
         </p>
+        <div className="summary-img size-lg">
+          <a href="/img/missions/tsiolkovsky.jpg" title="Konstantin Eduardowitsch Ziolkowski - Großansicht">
+            <img src="/img/missions/tsiolkovsky.jpg" alt="Konstantin Eduardowitsch Ziolkowski" />
+          </a>
+          <p className="summary-img-text">
+            Konstantin Ziolkowski
+          </p>
+        </div>
         <p className="summary-text">
           Das Militär war oft genug die treibende Kraft hinter technischen Entwicklungen,
-          so auch in der Raumfahrt. Die ersten Raketenflugzeuge, wie die
-          Bachem <i>BA 349</i>, Messerschmitt <i>Me 163</i> oder die Heinkel <i>He 176</i>,
-          wie auch die erste funktionsfähigen Großrakete <i>Aggregat 4</i> (V2)
-          waren rein zu kriegerischen Zwecken entwickelt worden.
+          so auch in der Raumfahrt. Die ersten Raketenflugzeuge, wie zum Beispiel die
+          Bachem <em>Ba 349</em> waren rein zu kriegerischen Zwecken entwickelt
+          worden - ebenso wie die erste funktionsfähige Großrakete <em>Aggregat 4</em>, die so genannte V2.
         </p>
         <div className="summary-img">
-          <a href="/img/missions/1_lg.jpg" title="Bildbeschreibung - Großansicht">
-            <img src="/img/missions/1_sm.jpg" alt="Bildbeschreibung" />
+          <a href="/img/missions/sputnik1_lg.jpg" title="Sputnik 1 - Großansicht">
+            <img src="/img/missions/sputnik1_sm.jpg" alt="Sputnik 1" />
           </a>
           <p className="summary-img-text">
-            Bildbeschreibung
+            Sputnik 1
           </p>
         </div>
+        <p className="summary-text">
+          Kurz vor dem Ende des Zweiten Weltkrieges begann der Wettstreit zwischen der <em>UdSSR</em> und den <em>USA</em> um die Vorreiterrolle in der Raketentechnik.
+          Wer rekrutiert die besten deutschen Wissenschaftler und Techniker, wer erbeutet die detailiertesten Baupläne und die wertvollsten Bauteile?
+          Wer schafft es als Erster, mit diesen Ressourcen eine funktionsfähige Rakete zu starten?
+          Die deutsche A4 stellt also in diesen beiden Ländern die Grundlage für die Raketentechnik und die Raumfahrt dar.
+        </p>
+        <p className="summary-text">
+          Nach vielen Rückschlägen aber auch einigen erfolgreichen Starts auf beiden Seiten
+          schossen dann die Sowjets am 4. Oktober 1957 mit <em>Sputnik 1</em> den ersten künstlichen
+          Satelliten in eine Erdumlaufbahn. Diese silbrig glänzende Kugel, 58 cm
+          im Durchmesser, mit ihren vier Antennen war das erste von Menschen geschaffene Objekt im All.
+          Die USA erlebten ihren "Sputnik-Schock" und starteten nur knapp vier Monate später,
+          am 1. Februar 1958 ihren ersten Satelliten <em>Explorer 1</em>.<br />
+          Der "Wettlauf ins All" hatte begonnen.
+        </p>
+        <div className="summary-img size-xl">
+          <a href="/img/missions/Challenger_catastrophe_lg.jpg" title="Challenger-Katastrophe - Großansicht">
+            <img src="/img/missions/Challenger_catastrophe_sm.jpg" alt="Challenger-Katastrophe" />
+          </a>
+          <p className="summary-img-text">
+            Challenger-Katastrophe
+          </p>
+        </div>
+        <p className="summary-text">
+          Es entwickelte sich ein Kopf-an-Kopf-Rennen, bei dem mal die eine Seite,
+          mal die andere große Erfolge aber auch schwere Katastrophen zu verzeichnen hatte.
+          Neben den Tragödien von <em>Apollo 1</em> und <em>Sojus 11</em> erinnert
+          uns jeder Raumfahrtunfall daran, dass Reisen ins All hochkomplex und immer noch sehr riskant sind.
+        </p>
+        <div className="summary-img size-lg">
+          <a href="/img/missions/Apollo_11_first_step.jpg" title="Neil Armstrong betritt den Mond - Großansicht">
+            <img src="/img/missions/Apollo_11_first_step.jpg" alt="Neil Armstrong betritt den Mond" />
+          </a>
+          <p className="summary-img-text">
+            Neil Armstrong betritt den Mond
+          </p>
+        </div>
+        <p className="summary-text">
+          Im Lauf der Jahrzehnte wuchs die Zahl der Raumfahrtnationen um Länder
+          wie <em>Japan</em>, <em>Indien</em> und <em>China</em> an. Europa bündelte
+          seine Fähigkeiten und Finanzen in der <em>ESA</em>. Dutzende Meilensteine
+          haben die Techniker, Ingenieure und Raumfahrer auf der ganzen Welt bislang erreicht:<br />
+          Juri Gagarin - der erste Mensch im All, unzählige Satelliten für die Forschung, Spionage und Nachrichtenübermittlung,
+          Raumstationen im Erdorbit, <em>Weltraumausstiege</em> - sogar auf dem
+          Mond, <em>Landesonden</em> - auch <em>Rover</em> auf anderen Planeten, ja
+          auf Asteroiden, <em>Raumsonden</em> am Rand unseres Sonnensystems, <em>Weltraumteleskope</em>, die
+          phantastische Erkenntnisse und Aufnahmen liefern.
+        </p>
         <div className="summary-img">
-          <a href="/img/missions/2_lg.jpg" title="Bildbeschreibung - Großansicht">
-            <img src="/img/missions/2_sm.jpg" alt="Bildbeschreibung" />
+          <a href="/img/missions/voyager_spacecraft_lg.jpg" title="Voyager-Raumsonde - Großansicht">
+            <img src="/img/missions/voyager_spacecraft_sm.jpg" alt="Voyager-Raumsonde" />
           </a>
           <p className="summary-img-text">
-            Bildbeschreibung
+            Voyager-Raumsonde
           </p>
         </div>
+        <p className="summary-text">
+          Mit kreativen Ideen und dem Besten, das Wissenschaft und Technik heute zu
+          bieten haben, erweitert die Raumfahrt den Horizont. Noch in diesem Jahrhundert
+          werden Menschen auf dem Mars landen, werden Sonden sich durch die Eispanzer
+          der Jupiter- bzw. Saturnmonde <em>Europa</em> und <em>Enceladus</em> schmelzen und die darunterliegenden
+          Ozeane erkunden. <em>Gravitationswellen</em> werden mit <em>eLISA</em> weiter erforscht
+          werden, <em>Dunkle Energie</em> und <em>Dunkle Materie</em> mit dem <em>Euclid-Weltraumteleskop</em>.
+        </p>
+        <div className="summary-img">
+          <a href="/img/missions/iss_lg.jpg" title="ISS - Großansicht">
+            <img src="/img/missions/iss_sm.jpg" alt="ISS" />
+          </a>
+          <p className="summary-img-text">
+            International Space Station
+          </p>
+        </div>
+        <p className="summary-text">
+          Doch Raumfahrt ist nicht mehr länger die Domäne von Staaten und Raumfahrtorganisationen.
+          Durch den Einstieg privater Unternehmen gelangen neue Impulse in die Branche.
+          Preisgünstige Konzepte um ins All zu fliegen werden nicht nur den <em>Weltraumtourismus</em> fördern.
+          Die Errichtung einer <em>Mondbasis</em> und großer <em>Raumstationen</em> steht
+          ebenso auf der Agenda wie die Förderung von Seltenen Erden und anderen wertvollen Metallen auf Asteroiden.
+          Mit neuen Antrieben werden Menschen eines fernen Tages auch Reisen antreten,
+          die heute noch unvorstellbar sind. Bis dahin ist jede einzelne Raumfahrtmission
+          ein großer Schritt für die Menschheit.
+        </p>
 
         <h4>Wussten Sie schon?</h4>
         <ul className="summary-list">
           <li>
-            Die <i>Fédération Aéronautique Internationale</i> (FAI) definiert
+            Die <em>Fédération Aéronautique Internationale</em> (FAI) definiert
             die Grenze zum Weltraum bei 100 km Höhe über dem Meeresspiegel.
           </li>
           <li>
-            Das Space-Shuttle Challenger transportierte am 30. Oktober 1985 mit
-            der Mission STS-61-A acht Astronauten ins All.
+            Das <em>Space-Shuttle Challenger</em> transportierte am 30. Oktober 1985 mit
+            der Mission <em>STS-61-A</em> acht Astronauten ins All.
           </li>
           <li>
-            Am 28. April 2001 startete <i>Dennis Tito</i> als erster Weltraumtourist
-            an Bord von Sojus TM-32 zur Internationalen Raumstation.
+            Am 28. April 2001 startete <em>Dennis Tito</em> als erster Weltraumtourist
+            an Bord von <em>Sojus TM-32</em> zur Internationalen Raumstation.
           </li>
         </ul>
       </Summary>
