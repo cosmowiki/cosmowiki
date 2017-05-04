@@ -35521,7 +35521,7 @@ var MissionsComponent = function MissionsComponent(_ref) {
           null,
           'Juri Gagarin'
         ),
-        ' - der erste Mensch im All, unzählige Satelliten für die Forschung, Spionage und Nachrichtenübermittlung, Raumstationen im Erdorbit, ',
+        ' war der erste Mensch im All, unzählige Satelliten für die Forschung, Spionage und Nachrichtenübermittlung und riesige Raumstationen kreisen im Erdorbit, ',
         _react2['default'].createElement(
           'em',
           null,
