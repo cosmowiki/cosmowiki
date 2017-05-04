@@ -110,7 +110,7 @@ const MissionsComponent = ({missions}) => {
           wie <em>Japan</em>, <em>Indien</em> und <em>China</em> an. Europa bündelte
           seine Fähigkeiten und Finanzen in der <em>ESA</em>. Dutzende Meilensteine
           haben die Techniker, Ingenieure und Raumfahrer auf der ganzen Welt bislang erreicht:<br />
-          Juri Gagarin - der erste Mensch im All, unzählige Satelliten für die Forschung, Spionage und Nachrichtenübermittlung,
+          <em>Juri Gagarin</em> - der erste Mensch im All, unzählige Satelliten für die Forschung, Spionage und Nachrichtenübermittlung,
           Raumstationen im Erdorbit, <em>Weltraumausstiege</em> - sogar auf dem
           Mond, <em>Landesonden</em> - auch <em>Rover</em> auf anderen Planeten, ja
           auf Asteroiden, <em>Raumsonden</em> am Rand unseres Sonnensystems, <em>Weltraumteleskope</em>, die
