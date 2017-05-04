@@ -35327,11 +35327,6 @@ var MissionsComponent = function MissionsComponent(_ref) {
         'p',
         null,
         '@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens'
-      ),
-      _react2['default'].createElement(
-        'p',
-        null,
-        '@Wolfram pls make the #summaryToggleSwitch work.'
       )
     ),
     _react2['default'].createElement(
@@ -35340,88 +35335,321 @@ var MissionsComponent = function MissionsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Die Geschichte der Raumfahrt begann schon lange vor Sputnik 1. Die größten Pioniere der Raketentechnik waren sicher ',
+        'Die Geschichte der Raumfahrt begann schon lange vor Sputnik 1 und auch lange vor den großen Pionieren der Raketentechnik, ',
         _react2['default'].createElement(
-          'i',
-          null,
-          'Max Valier'
-        ),
-        ', ',
-        _react2['default'].createElement(
-          'i',
+          'em',
           null,
           'Konstantin Ziolkowski'
         ),
         ', ',
         _react2['default'].createElement(
-          'i',
+          'em',
           null,
           'Robert Goddard'
         ),
-        ' und ',
+        ', ',
         _react2['default'].createElement(
-          'i',
+          'em',
           null,
           'Hermann Oberth'
         ),
-        '. Doch schon im Jahr 1232 sollen in China die ersten Raketen zu militärischen Zwecken eingesetzt worden sein.'
+        ' und ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Max Valier'
+        ),
+        '. Schon im Jahr 1232 sollen in China die ersten Raketen zu militärischen Zwecken eingesetzt worden sein.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img size-lg' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/missions/tsiolkovsky.jpg', title: 'Konstantin Eduardowitsch Ziolkowski - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/missions/tsiolkovsky.jpg', alt: 'Konstantin Eduardowitsch Ziolkowski' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Konstantin Ziolkowski'
+        )
       ),
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Das Militär war oft genug die treibende Kraft hinter technischen Entwicklungen, so auch in der Raumfahrt. Die ersten Raketenflugzeuge, wie die Bachem ',
+        'Das Militär war oft genug die treibende Kraft hinter technischen Entwicklungen, so auch in der Raumfahrt. Die ersten Raketenflugzeuge, wie zum Beispiel die Bachem ',
         _react2['default'].createElement(
-          'i',
+          'em',
           null,
-          'BA 349'
+          'Ba 349'
         ),
-        ', Messerschmitt ',
+        ' waren rein zu kriegerischen Zwecken entwickelt worden - ebenso wie die erste funktionsfähige Großrakete ',
         _react2['default'].createElement(
-          'i',
-          null,
-          'Me 163'
-        ),
-        ' oder die Heinkel ',
-        _react2['default'].createElement(
-          'i',
-          null,
-          'He 176'
-        ),
-        ', wie auch die erste funktionsfähigen Großrakete ',
-        _react2['default'].createElement(
-          'i',
+          'em',
           null,
           'Aggregat 4'
         ),
-        ' (V2) waren rein zu kriegerischen Zwecken entwickelt worden.'
+        ', die so genannte V2.'
       ),
       _react2['default'].createElement(
         'div',
         { className: 'summary-img' },
         _react2['default'].createElement(
           'a',
-          { href: '/img/missions/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-          _react2['default'].createElement('img', { src: '/img/missions/1_sm.jpg', alt: 'Bildbeschreibung' })
+          { href: '/img/missions/sputnik1_lg.jpg', title: 'Sputnik 1 - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/missions/sputnik1_sm.jpg', alt: 'Sputnik 1' })
         ),
         _react2['default'].createElement(
           'p',
           { className: 'summary-img-text' },
-          'Bildbeschreibung'
+          'Sputnik 1'
         )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Kurz vor dem Ende des Zweiten Weltkrieges begann der Wettstreit zwischen der ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'UdSSR'
+        ),
+        ' und den ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'USA'
+        ),
+        ' um die Vorreiterrolle in der Raketentechnik. Wer rekrutiert die besten deutschen Wissenschaftler und Techniker, wer erbeutet die detailiertesten Baupläne und die wertvollsten Bauteile? Wer schafft es als Erster, mit diesen Ressourcen eine funktionsfähige Rakete zu starten? Die deutsche A4 stellt also in diesen beiden Ländern die Grundlage für die Raketentechnik und die Raumfahrt dar.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Nach vielen Rückschlägen aber auch einigen erfolgreichen Starts auf beiden Seiten schossen dann die Sowjets am 4. Oktober 1957 mit ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Sputnik 1'
+        ),
+        ' den ersten künstlichen Satelliten in eine Erdumlaufbahn. Diese silbrig glänzende Kugel, 58 cm im Durchmesser, mit ihren vier Antennen war das erste von Menschen geschaffene Objekt im All. Die USA erlebten ihren "Sputnik-Schock" und starteten nur knapp vier Monate später, am 1. Februar 1958 ihren ersten Satelliten ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Explorer 1'
+        ),
+        '.',
+        _react2['default'].createElement('br', null),
+        'Der "Wettlauf ins All" hatte begonnen.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img size-xl' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/missions/Challenger_catastrophe_lg.jpg', title: 'Challenger-Katastrophe - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/missions/Challenger_catastrophe_sm.jpg', alt: 'Challenger-Katastrophe' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Challenger-Katastrophe'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Es entwickelte sich ein Kopf-an-Kopf-Rennen, bei dem mal die eine Seite, mal die andere große Erfolge aber auch schwere Katastrophen zu verzeichnen hatte. Neben den Tragödien von ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Apollo 1'
+        ),
+        ' und ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Sojus 11'
+        ),
+        ' erinnert uns jeder Raumfahrtunfall daran, dass Reisen ins All hochkomplex und immer noch sehr riskant sind.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img size-lg' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/missions/Apollo_11_first_step.jpg', title: 'Neil Armstrong betritt den Mond - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/missions/Apollo_11_first_step.jpg', alt: 'Neil Armstrong betritt den Mond' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Neil Armstrong betritt den Mond'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Im Lauf der Jahrzehnte wuchs die Zahl der Raumfahrtnationen um Länder wie ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Japan'
+        ),
+        ', ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Indien'
+        ),
+        ' und ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'China'
+        ),
+        ' an. Europa bündelte seine Fähigkeiten und Finanzen in der ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'ESA'
+        ),
+        '. Dutzende Meilensteine haben die Techniker, Ingenieure und Raumfahrer auf der ganzen Welt bislang erreicht:',
+        _react2['default'].createElement('br', null),
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Juri Gagarin'
+        ),
+        ' - der erste Mensch im All, unzählige Satelliten für die Forschung, Spionage und Nachrichtenübermittlung, Raumstationen im Erdorbit, ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Weltraumausstiege'
+        ),
+        ' - sogar auf dem Mond, ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Landesonden'
+        ),
+        ' - auch ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Rover'
+        ),
+        ' auf anderen Planeten, ja auf Asteroiden, ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Raumsonden'
+        ),
+        ' am Rand unseres Sonnensystems, ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Weltraumteleskope'
+        ),
+        ', die phantastische Erkenntnisse und Aufnahmen liefern.'
       ),
       _react2['default'].createElement(
         'div',
         { className: 'summary-img' },
         _react2['default'].createElement(
           'a',
-          { href: '/img/missions/2_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-          _react2['default'].createElement('img', { src: '/img/missions/2_sm.jpg', alt: 'Bildbeschreibung' })
+          { href: '/img/missions/voyager_spacecraft_lg.jpg', title: 'Voyager-Raumsonde - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/missions/voyager_spacecraft_sm.jpg', alt: 'Voyager-Raumsonde' })
         ),
         _react2['default'].createElement(
           'p',
           { className: 'summary-img-text' },
-          'Bildbeschreibung'
+          'Voyager-Raumsonde'
         )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Mit kreativen Ideen und dem Besten, das Wissenschaft und Technik heute zu bieten haben, erweitert die Raumfahrt den Horizont. Noch in diesem Jahrhundert werden Menschen auf dem Mars landen, werden Sonden sich durch die Eispanzer der Jupiter- bzw. Saturnmonde ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Europa'
+        ),
+        ' und ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Enceladus'
+        ),
+        ' schmelzen und die darunterliegenden Ozeane erkunden. ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Gravitationswellen'
+        ),
+        ' werden mit ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'eLISA'
+        ),
+        ' weiter erforscht werden, ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Dunkle Energie'
+        ),
+        ' und ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Dunkle Materie'
+        ),
+        ' mit dem ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Euclid-Weltraumteleskop'
+        ),
+        '.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/missions/iss_lg.jpg', title: 'ISS - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/missions/iss_sm.jpg', alt: 'ISS' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'International Space Station'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Doch Raumfahrt ist nicht mehr länger die Domäne von Staaten und Raumfahrtorganisationen. Durch den Einstieg privater Unternehmen gelangen neue Impulse in die Branche. Preisgünstige Konzepte um ins All zu fliegen werden nicht nur den ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Weltraumtourismus'
+        ),
+        ' fördern. Die Errichtung einer ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Mondbasis'
+        ),
+        ' und großer ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Raumstationen'
+        ),
+        ' steht ebenso auf der Agenda wie die Förderung von Seltenen Erden und anderen wertvollen Metallen auf Asteroiden. Mit neuen Antrieben werden Menschen eines fernen Tages auch Reisen antreten, die heute noch unvorstellbar sind. Bis dahin ist jede einzelne Raumfahrtmission ein großer Schritt für die Menschheit.'
       ),
       _react2['default'].createElement(
         'h4',
@@ -35436,7 +35664,7 @@ var MissionsComponent = function MissionsComponent(_ref) {
           null,
           'Die ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Fédération Aéronautique Internationale'
           ),
@@ -35445,18 +35673,36 @@ var MissionsComponent = function MissionsComponent(_ref) {
         _react2['default'].createElement(
           'li',
           null,
-          'Das Space-Shuttle Challenger transportierte am 30. Oktober 1985 mit der Mission STS-61-A acht Astronauten ins All.'
+          'Das ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Space-Shuttle Challenger'
+          ),
+          ' transportierte am 30. Oktober 1985 mit der Mission ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'STS-61-A'
+          ),
+          ' acht Astronauten ins All.'
         ),
         _react2['default'].createElement(
           'li',
           null,
           'Am 28. April 2001 startete ',
           _react2['default'].createElement(
-            'i',
+            'em',
             null,
             'Dennis Tito'
           ),
-          ' als erster Weltraumtourist an Bord von Sojus TM-32 zur Internationalen Raumstation.'
+          ' als erster Weltraumtourist an Bord von ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Sojus TM-32'
+          ),
+          ' zur Internationalen Raumstation.'
         )
       )
     ),
@@ -38047,7 +38293,15 @@ Object.defineProperty(exports, '__esModule', {
   value: true
 });
 
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var _react = require('react');
 
@@ -38056,6 +38310,44 @@ var _react2 = _interopRequireDefault(_react);
 var _notes = require('./notes');
 
 var _notes2 = _interopRequireDefault(_notes);
+
+var Summary = (function (_React$Component) {
+  _inherits(Summary, _React$Component);
+
+  function Summary() {
+    _classCallCheck(this, Summary);
+
+    _get(Object.getPrototypeOf(Summary.prototype), 'constructor', this).call(this);
+    this.state = { isOpen: true };
+  }
+
+  _createClass(Summary, [{
+    key: 'render',
+    value: function render() {
+      var _this = this;
+
+      var isOpen = this.state.isOpen;
+      var toggle = function toggle() {
+        _this.setState({ isOpen: !isOpen });
+      };
+      var switchClassName = isOpen ? "expanded" : "collapsed";
+      var containerClassName = isOpen ? "visible" : "minimized";
+      return _react2['default'].createElement(
+        'div',
+        { id: 'summary', className: 'pure-u-1 left' },
+        _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: switchClassName, title: 'Artikel anzeigen / schließen', onClick: toggle }),
+        _react2['default'].createElement(
+          'div',
+          { id: 'summaryContainer', className: containerClassName },
+          this.props.children
+        ),
+        isOpen ? null : _react2['default'].createElement('div', { id: 'summaryShade' })
+      );
+    }
+  }]);
+
+  return Summary;
+})(_react2['default'].Component);
 
 var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
   var stations = _ref.spaceStations;
@@ -38078,87 +38370,73 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
       )
     ),
     _react2['default'].createElement(
-      'div',
-      { id: 'todo', className: 'pure-u-1' },
+      Summary,
+      null,
       _react2['default'].createElement(
         'p',
-        null,
-        '@Wolfram pls make the #summaryToggleSwitch work.'
-      )
-    ),
-    _react2['default'].createElement(
-      'div',
-      { id: 'summary', className: 'pure-u-1 left' },
-      _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
+        { className: 'summary-text' },
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+      ),
       _react2['default'].createElement(
         'div',
-        { id: 'summaryContainer', className: 'visible' },
+        { className: 'summary-img' },
         _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-        ),
-        _react2['default'].createElement(
-          'div',
-          { className: 'summary-img' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/stars/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/stars/1_sm.jpg', alt: 'Bildbeschreibung' })
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Bildbeschreibung'
-          )
+          'a',
+          { href: '/img/stars/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/stars/1_sm.jpg', alt: 'Bildbeschreibung' })
         ),
         _react2['default'].createElement(
           'p',
-          { className: 'summary-text' },
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+          { className: 'summary-img-text' },
+          'Bildbeschreibung'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/stars/2_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/stars/2_sm.jpg', alt: 'Bildbeschreibung' })
         ),
         _react2['default'].createElement(
           'p',
-          { className: 'summary-text' },
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-        ),
+          { className: 'summary-img-text' },
+          'Bildbeschreibung'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+      ),
+      _react2['default'].createElement(
+        'h4',
+        null,
+        'Wussten Sie schon?'
+      ),
+      _react2['default'].createElement(
+        'ul',
+        { className: 'summary-list' },
         _react2['default'].createElement(
-          'div',
-          { className: 'summary-img' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/stars/2_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/stars/2_sm.jpg', alt: 'Bildbeschreibung' })
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Bildbeschreibung'
-          )
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-        ),
-        _react2['default'].createElement(
-          'h4',
+          'li',
           null,
-          'Wussten Sie schon?'
-        ),
-        _react2['default'].createElement(
-          'ul',
-          { className: 'summary-list' },
-          _react2['default'].createElement(
-            'li',
-            null,
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-          )
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
         )
       )
     ),
@@ -38344,7 +38622,15 @@ Object.defineProperty(exports, '__esModule', {
   value: true
 });
 
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var _react = require('react');
 
@@ -38353,6 +38639,44 @@ var _react2 = _interopRequireDefault(_react);
 var _notes = require('./notes');
 
 var _notes2 = _interopRequireDefault(_notes);
+
+var Summary = (function (_React$Component) {
+  _inherits(Summary, _React$Component);
+
+  function Summary() {
+    _classCallCheck(this, Summary);
+
+    _get(Object.getPrototypeOf(Summary.prototype), 'constructor', this).call(this);
+    this.state = { isOpen: true };
+  }
+
+  _createClass(Summary, [{
+    key: 'render',
+    value: function render() {
+      var _this = this;
+
+      var isOpen = this.state.isOpen;
+      var toggle = function toggle() {
+        _this.setState({ isOpen: !isOpen });
+      };
+      var switchClassName = isOpen ? "expanded" : "collapsed";
+      var containerClassName = isOpen ? "visible" : "minimized";
+      return _react2['default'].createElement(
+        'div',
+        { id: 'summary', className: 'pure-u-1 left' },
+        _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: switchClassName, title: 'Artikel anzeigen / schließen', onClick: toggle }),
+        _react2['default'].createElement(
+          'div',
+          { id: 'summaryContainer', className: containerClassName },
+          this.props.children
+        ),
+        isOpen ? null : _react2['default'].createElement('div', { id: 'summaryShade' })
+      );
+    }
+  }]);
+
+  return Summary;
+})(_react2['default'].Component);
 
 var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
   var telescopes = _ref.telescopes;
@@ -38381,86 +38705,76 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
         'p',
         null,
         '@wolfram pls edit the month in endDate to appear as word when there is no endday (enable for all dates in all pages)'
-      ),
-      _react2['default'].createElement(
-        'p',
-        null,
-        '@Wolfram pls make the #summaryToggleSwitch work.'
       )
     ),
     _react2['default'].createElement(
-      'div',
-      { id: 'summary', className: 'pure-u-1 left' },
-      _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: 'expanded', href: '#', title: 'Artikel anzeigen / schließen' }),
+      Summary,
+      null,
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Mit der Aufnahme "Hubble Ultra Deep Field" (HUDF) gelang der Blick in 13 Milliarden Lichtjahre entfernte Regionen des Weltraums und damit in eine Zeit, in der das Universum geade einmal 800 Millionen Jahre alt war.'
+      ),
       _react2['default'].createElement(
         'div',
-        { id: 'summaryContainer', className: 'visible' },
+        { className: 'summary-img' },
         _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Mit der Aufnahme "Hubble Ultra Deep Field" (HUDF) gelang der Blick in 13 Milliarden Lichtjahre entfernte Regionen des Weltraums und damit in eine Zeit, in der das Universum geade einmal 800 Millionen Jahre alt war.'
-        ),
-        _react2['default'].createElement(
-          'div',
-          { className: 'summary-img' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/stars/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/stars/1_sm.jpg', alt: 'Bildbeschreibung' })
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Bildbeschreibung'
-          )
+          'a',
+          { href: '/img/stars/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/stars/1_sm.jpg', alt: 'Bildbeschreibung' })
         ),
         _react2['default'].createElement(
           'p',
-          { className: 'summary-text' },
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+          { className: 'summary-img-text' },
+          'Bildbeschreibung'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/stars/2_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/stars/2_sm.jpg', alt: 'Bildbeschreibung' })
         ),
         _react2['default'].createElement(
           'p',
-          { className: 'summary-text' },
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-        ),
+          { className: 'summary-img-text' },
+          'Bildbeschreibung'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+      ),
+      _react2['default'].createElement(
+        'h4',
+        null,
+        'Wussten Sie schon?'
+      ),
+      _react2['default'].createElement(
+        'ul',
+        { className: 'summary-list' },
         _react2['default'].createElement(
-          'div',
-          { className: 'summary-img' },
-          _react2['default'].createElement(
-            'a',
-            { href: '/img/stars/2_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-            _react2['default'].createElement('img', { src: '/img/stars/2_sm.jpg', alt: 'Bildbeschreibung' })
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: 'summary-img-text' },
-            'Bildbeschreibung'
-          )
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-text' },
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-        ),
-        _react2['default'].createElement(
-          'h4',
+          'li',
           null,
-          'Wussten Sie schon?'
-        ),
-        _react2['default'].createElement(
-          'ul',
-          { className: 'summary-list' },
-          _react2['default'].createElement(
-            'li',
-            null,
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-          )
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
         )
       )
     ),
