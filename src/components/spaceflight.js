@@ -13,14 +13,14 @@ const SpaceflightComponent = ({appUrl}) => {
       <div id="pageSubMenuContainer">
         <ul id="pageSubMenu" className="pure-u-1 center">
           {[
-            {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
-            {url: appUrl.missionsSite(), name: 'Missionen'},
-            {url: appUrl.spacewalksSite(), name: 'Weltraumausstiege'},
-            {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
-            {url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope'},
+            {url: appUrl.astronautsSite(), style: 'astronauts', name: 'Raumfahrer'},
+            {url: appUrl.missionsSite(), style: 'missions', name: 'Missionen'},
+            {url: appUrl.spacewalksSite(), style: 'spacewalks', name: 'Weltraumausstiege'},
+            {url: appUrl.spaceStationsSite(), style: 'spacestations', name: 'Raumstationen'},
+            {url: appUrl.spaceTelescopesSite(), style: 'spacetelescopes', name: 'Weltraumteleskope'},
 
           ].map(link =>
-            <li className={ link.name } key={link.url+link.name}>
+            <li className={ link.style } key={link.url+link.name}>
               <a href={ link.url }>{ link.name }</a>
             </li>
           )}

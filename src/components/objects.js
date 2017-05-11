@@ -13,14 +13,14 @@ const ObjectsComponent = ({appUrl}) => {
       <div id="pageSubMenuContainer">
         <ul id="pageSubMenu" className="pure-u-1 center">
           {[
-            {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
-            {url: appUrl.constellationsSite(), name: 'Sternbilder'},
-            {url: appUrl.starsSite(), name: 'Sterne'},
-            {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
-            {url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope'},
+            {url: appUrl.solarSystemSite(), style: 'solarsystem', name: 'Sonnensystem'},
+            {url: appUrl.constellationsSite(), style: 'constellations', name: 'Sternbilder'},
+            {url: appUrl.starsSite(), style: 'stars', name: 'Sterne'},
+            {url: appUrl.spaceStationsSite(), style: 'spacestations', name: 'Raumstationen'},
+            {url: appUrl.spaceTelescopesSite(), style: 'spacetelescopes', name: 'Weltraumteleskope'},
 
           ].map(link =>
-            <li className={ link.name } key={link.url+link.name}>
+            <li className={ link.style } key={link.url+link.name}>
               <a href={ link.url }>{ link.name }</a>
             </li>
           )}
