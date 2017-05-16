@@ -92,7 +92,7 @@ const PeopleComponent = ({groupedPeople}) => {
           </p>
         </div>
         <p className="summary-text">
-          Doch aus dem Fall eines Apfels ein Naturgesetz abzuleiten oder mit akribischer
+          Aus dem Fall eines Apfels ein Naturgesetz abzuleiten oder mit akribischer
           Denkarbeit die Beziehungen zwischen Raum und Zeit zu formulieren, bringt
           die Menschheit ebenso voran wie die Entwicklung neuer Materialien oder
           die Reparatur eines Solarpanels an einer Raumstation.
@@ -102,7 +102,7 @@ const PeopleComponent = ({groupedPeople}) => {
           Nachwuchs. Die nächsten Ingenieure und Wissenschaftler der MINT-Disziplinen
           werden die Antriebe der Zukunft entwickeln und die Geheimnisse der Dunklen
           Materie entschlüsseln, die Raumfahrer von morgen werden auf dem Mars landen.<br />
-          <b>Jeder Einzelne zählt!</b>
+          Jeder Einzelne zählt!
         </p>
         <h4>Wussten Sie schon?</h4>
         <ul className="summary-list">
