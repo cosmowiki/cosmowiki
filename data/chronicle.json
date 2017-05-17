@@ -30,7 +30,7 @@
         "itemlatitude": "51.198333",
         "itemlongitude": "11.864597",
         "itemtype": 1,
-        "itemtags": "Goseck, Kreisgrabenanlage"
+        "itemtags": "Goseck, Kreisgrabenanlage, Kalender, Zeit"
     },
     {
         "itemname": "Errichtung der Megalithanlage von Nabta-Playa",
@@ -64,7 +64,7 @@
         "itemlatitude": "51.178889",
         "itemlongitude": "-1.826389",
         "itemtype": 1,
-        "itemtags": "Stonehenge, Megalithanlage"
+        "itemtags": "Stonehenge, Megalithanlage, Kalender, Zeit"
     },
     {
         "itemname": "Errichtung der Megalithanlage von Mnajdra",
@@ -86,7 +86,7 @@
         "itemlatitude": "29.85",
         "itemlongitude": "31.25",
         "itemtype": 1,
-        "itemtags": "Kalender"
+        "itemtags": "Kalender, Zeit"
     },
     {
         "itemname": "belegte Beobachtung einer Sonnenfinsternis",
@@ -121,7 +121,7 @@
         "itemlatitude": "27.661667",
         "itemlongitude": "30.905556",
         "itemtype": 1,
-        "itemtags": "Wasseruhr"
+        "itemtags": "Wasseruhr, Uhr, Zeit"
     },
     {
         "itemname": "Entstehung der Nazca-Linien",
@@ -252,7 +252,7 @@
         "itemlatitude": "35.864167",
         "itemlongitude": "23.305",
         "itemtype": 1,
-        "itemtags": "Antikythera"
+        "itemtags": "Antikythera, Mechanismus, Uhr, Zeit, Planeten"
     },
     {
         "itemname": "Was war der Stern von Betlehem?",
@@ -358,28 +358,36 @@
         "itemdateyear": "1424 – 1428",
         "itemcountry": "Usbekistan",
         "itemlocation": "Samarkand",
-        "itemtype": 1
+        "itemlatitude": "39.674736",
+        "itemlongitude": "67.005661",
+        "itemtype": 1,
+        "itemtags": "Observatorium"
     },
     {
-        "itemname": "Nicolaus von Kues veröffentlicht \"De docta ignorantia\"",
+        "itemname": "Nicolaus von Kues (Cusanus) veröffentlicht \"De docta ignorantia\"",
         "itemurl": "https://de.wikipedia.org/wiki/Nikolaus_von_Kues",
         "itemdateyear": "1440",
         "itemcountry": "Deutschland",
         "itemlocation": "Kues",
-        "itemtype": 1
+        "itemlatitude": "49.916111",
+        "itemlongitude": "7.069444",
+        "itemtype": 1,
+        "itemtags": "Kosmologie"
     },
     {
-        "itemname": "bemannter Raketenstart auf einem Stuhl mit Feuerwerksraketen?",
+        "itemname": "Wan Hu versucht auf einem Stuhl mit Feuerwerksraketen zu starten (chin. Sage)",
         "itemurl": "https://de.wikipedia.org/wiki/Wan_Hu",
         "itemdateyear": "1500",
         "itemcountry": "China",
-        "itemtype": 2
+        "itemtype": 2,
+        "itemtags": "Rakete"
     },
     {
-        "itemname": "Magalhães beschreibt die Magellansche Wolken",
+        "itemname": "Fernão de Magalhães (Ferdinand Magellan) beschreibt die Magellanschen Wolken",
         "itemurl": "https://de.wikipedia.org/wiki/Magellansche_Wolke",
         "itemdateyear": "1519 – 1522",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Magellan"
     },
     {
         "itemname": "Copernicus veröffentlicht \"De revolutionibus orbium coelestium\"",
