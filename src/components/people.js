@@ -146,7 +146,7 @@ const PeopleComponent = ({groupedPeople}) => {
               <form id="filterPeopleByProfession" className="filter-form">
                 <label>Beruf:</label>
                 <select name="peopleProfessions" defaultValue="showAllProfessions">
-                  <option value="showAllProfessions">alle</option>// TODO use only the 10 most listed professions
+                  <option value="showAllProfessions">alle</option>
                 </select>
               </form>
               <form id="filterPeopleByCountry" className="filter-form">
