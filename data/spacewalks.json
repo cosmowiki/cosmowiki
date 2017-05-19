@@ -15,6 +15,7 @@
         "itemtime2": "08:47:00",
         "itemduration": "00:12:09 h",
         "itemperson": "Alexei Leonow",
+        "itempersonurl": "https://de.wikipedia.org/wiki/Alexei_Archipowitsch_Leonow",
         "itempersoncount": 1,
         "itempersontotal": 1,
         "itemtags": "Woschod"
@@ -35,6 +36,7 @@
         "itemtime2": "20:06:00",
         "itemduration": "00:20:00 h",
         "itemperson": "Edward White",
+        "itempersonurl": "https://de.wikipedia.org/wiki/Edward_Higgins_White",
         "itempersoncount": 1,
         "itempersontotal": 1,
         "itemtags": "Gemini"
@@ -54,9 +56,10 @@
         "itemdate2day": "05",
         "itemtime2": "17:09:00",
         "itemduration": "02:07:00 h",
-        "itemperson": "Gene Cernan",
+        "itemperson": "Eugene Cernan",
+        "itempersonurl": "https://de.wikipedia.org/wiki/Eugene_Cernan",
         "itempersoncount": 1,
-        "itempersontotal": 1,
+        "itempersontotal": 4,
         "itemtags": "Gemini"
     },
     {
@@ -75,6 +78,7 @@
         "itemtime2": "22:33:00",
         "itemduration": "00:49:00 h",
         "itemperson": "Michael Collins",
+        "itempersonurl": "https://de.wikipedia.org/wiki/Michael_Collins_(Astronaut)",
         "itempersoncount": 1,
         "itempersontotal": 2,
         "itemtags": "Gemini, Stand-Up-EVA"
@@ -95,6 +99,7 @@
         "itemtime2": "23:40:00",
         "itemduration": "00:39:00 h",
         "itemperson": "Michael Collins",
+        "itempersonurl": "https://de.wikipedia.org/wiki/Michael_Collins_(Astronaut)",
         "itempersoncount": 2,
         "itempersontotal": 2,
         "itemtags": "Gemini"
@@ -115,6 +120,7 @@
         "itemtime2": "15:17:00",
         "itemduration": "00:33:00 h",
         "itemperson": "Richard Gordon",
+        "itempersonurl": "https://de.wikipedia.org/wiki/Richard_Gordon",
         "itempersoncount": 1,
         "itempersontotal": 2,
         "itemtags": "Gemini"
@@ -135,6 +141,7 @@
         "itemtime2": "14:57:00",
         "itemduration": "02:08:00 h",
         "itemperson": "Richard Gordon",
+        "itempersonurl": "https://de.wikipedia.org/wiki/Richard_Gordon",
         "itempersoncount": 2,
         "itempersontotal": 2,
         "itemtags": "Gemini"
@@ -155,6 +162,7 @@
         "itemtime2": "18:44:00",
         "itemduration": "02:29:00 h",
         "itemperson": "Buzz Aldrin",
+        "itempersonurl": "https://de.wikipedia.org/wiki/Buzz_Aldrin",
         "itempersoncount": 1,
         "itempersontotal": 4,
         "itemtags": "Gemini, Stand-Up-EVA"
@@ -175,6 +183,7 @@
         "itemtime2": "17:40:00",
         "itemduration": "02:06:00 h",
         "itemperson": "Buzz Aldrin",
+        "itempersonurl": "https://de.wikipedia.org/wiki/Buzz_Aldrin",
         "itempersoncount": 2,
         "itempersontotal": 4,
         "itemtags": "Gemini"
@@ -195,6 +204,7 @@
         "itemtime2": "15:47:00",
         "itemduration": "00:55:00 h",
         "itemperson": "Buzz Aldrin",
+        "itempersonurl": "https://de.wikipedia.org/wiki/Buzz_Aldrin",
         "itempersoncount": 3,
         "itempersontotal": 4,
         "itemtags": "Gemini, Stand-Up-EVA"
@@ -218,6 +228,7 @@
         "itemtime2": "13:15:00",
         "itemduration": "00:32:00 h",
         "itemperson": "Jewgeni Chrunow",
+        "itempersonurl": "https://de.wikipedia.org/wiki/Jewgeni_Wassiljewitsch_Chrunow",
         "itempersoncount": 1,
         "itempersontotal": 1,
         "itemperson2": "Alexej Jelissejew",
@@ -583,8 +594,8 @@
         "itemtime2": "07:06:42",
         "itemduration": "07:11:53 h",
         "itemperson": "Eugene Cernan",
-        "itempersoncount": 1,
-        "itempersontotal": 3,
+        "itempersoncount": 2,
+        "itempersontotal": 4,
         "itemperson2": "Jack Schmitt",
         "itemperson2count": 1,
         "itemperson2total": 4,
@@ -606,8 +617,8 @@
         "itemtime2": "07:05:02",
         "itemduration": "07:36:56 h",
         "itemperson": "Eugene Cernan",
-        "itempersoncount": 2,
-        "itempersontotal": 3,
+        "itempersoncount": 3,
+        "itempersontotal": 4,
         "itemperson2": "Jack Schmitt",
         "itemperson2count": 2,
         "itemperson2total": 4,
@@ -629,8 +640,8 @@
         "itemtime2": "05:40:56",
         "itemduration": "07:15:08 h",
         "itemperson": "Eugene Cernan",
-        "itempersoncount": 3,
-        "itempersontotal": 3,
+        "itempersoncount": 4,
+        "itempersontotal": 4,
         "itemperson2": "Jack Schmitt",
         "itemperson2count": 3,
         "itemperson2total": 4,
