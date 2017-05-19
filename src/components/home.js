@@ -12,7 +12,7 @@ const HomeComponent = ({appUrl}) => {
             <a href={appUrl.peopleSite()}>Personen</a>
             <ul className="sub-menu">
               {[
-                {url: appUrl.astronomersSite(), name: 'Astronomen'},
+                {url: appUrl.astronomersSite(), name: 'Wissenschaftler'},
                 {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
 
               ].map(link =>
@@ -46,7 +46,7 @@ const HomeComponent = ({appUrl}) => {
             <a href={appUrl.astronomySite()}>Astronomie</a>
             <ul className="sub-menu">
               {[
-                {url: appUrl.astronomersSite(), name: 'Astronomen'},
+                {url: appUrl.astronomersSite(), name: 'Wissenschaftler'},
                 {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
                 {url: appUrl.constellationsSite(), name: 'Sternbilder'},
                 {url: appUrl.starsSite(), name: 'Sterne'},

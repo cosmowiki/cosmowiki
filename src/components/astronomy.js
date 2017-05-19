@@ -13,7 +13,7 @@ const AstronomyComponent = ({appUrl}) => {
       <div id="pageSubMenuContainer">
         <ul id="pageSubMenu" className="pure-u-1 center">
           {[
-            {url: appUrl.astronomersSite(), style: 'scientists', name: 'Astronomen'},
+            {url: appUrl.astronomersSite(), style: 'scientists', name: 'Wissenschaftler'},
             {url: appUrl.solarSystemSite(), style: 'solarsystem', name: 'Sonnensystem'},
             {url: appUrl.constellationsSite(), style: 'constellations', name: 'Sternbilder'},
             {url: appUrl.starsSite(), style: 'stars', name: 'Sterne'},
