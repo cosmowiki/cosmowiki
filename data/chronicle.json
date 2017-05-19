@@ -390,12 +390,15 @@
         "itemtags": "Magellan"
     },
     {
-        "itemname": "Copernicus veröffentlicht \"De revolutionibus orbium coelestium\"",
+        "itemname": "Nicolaus Copernicus veröffentlicht \"De revolutionibus orbium coelestium\"",
         "itemurl": "https://de.wikipedia.org/wiki/De_Revolutionibus_Orbium_Coelestium",
         "itemdateyear": "1543",
         "itemcountry": "Polen",
         "itemlocation": "Frauenburg",
-        "itemtype": 1
+        "itemlatitude": "54.35",
+        "itemlongitude": "19.683333",
+        "itemtype": 1,
+        "itemtags": "Weltbild, heliozentrisch, Planetenbahn"
     },
     {
         "itemname": "Daniele Barbaro setzt geschliffenen Linsen in der Camera obscura ein",
@@ -403,7 +406,10 @@
         "itemdateyear": "1568",
         "itemcountry": "Italien",
         "itemlocation": "Venedig",
-        "itemtype": 1
+        "itemlatitude": "45.811944",
+        "itemlongitude": "11.976389",
+        "itemtype": 1,
+        "itemtags": "Linse, Kamera"
     },
     {
         "itemname": "Tycho Brahe und die Supernova von 1572",
@@ -413,7 +419,10 @@
         "itemdateday": "11",
         "itemcountry": "Schweden",
         "itemlocation": "Kloster Herrevad",
-        "itemtype": 1
+        "itemlatitude": "56.087778",
+        "itemlongitude": "13.2325",
+        "itemtype": 1,
+        "itemtags": "Supernova"
     },
     {
         "itemname": "Tycho Brahe beschreibt Kometen als ferne Himmelskörper",
@@ -421,15 +430,21 @@
         "itemdateyear": "1577",
         "itemcountry": "Dänemark",
         "itemlocation": "Uraniborg",
-        "itemtype": 1
+        "itemlatitude": "55.907833",
+        "itemlongitude": "12.696222",
+        "itemtype": 1,
+        "itemtags": "Komet"
     },
     {
-        "itemname": "Tycho Brahe setzt einen präzisen Mauerquadranten ein",
+        "itemname": "Tycho Brahe setzt seinen präzisen Mauerquadranten ein",
         "itemurl": "https://de.wikipedia.org/wiki/Mauerquadrant",
         "itemdateyear": "1600",
         "itemcountry": "Dänemark",
         "itemlocation": "Uraniborg",
-        "itemtype": 1
+        "itemlatitude": "55.907833",
+        "itemlongitude": "12.696222",
+        "itemtype": 1,
+        "itemtags": "Mauerquadrant, Observatorium"
     },
     {
         "itemname": "Johann Bayer erstellt den Himmelsatlas \"Uranometria\"",
@@ -437,15 +452,21 @@
         "itemdateyear": "1603",
         "itemcountry": "Deutschland",
         "itemlocation": "Augsburg",
-        "itemtype": 1
+        "itemlatitude": "48.371667",
+        "itemlongitude": "10.898333",
+        "itemtype": 1,
+        "itemtags": "Himmelsatlas, Sternenkatalog, Sternbild, Stern"
     },
     {
         "itemname": "Hans Lipperhey erfindet das Linsenfernrohr",
-        "itemurl": "https://de.wikipedia.org/wiki/Linsenfernrohr",
+        "itemurl": "https://de.wikipedia.org/wiki/Hans_Lipperhey",
         "itemdateyear": "1608",
         "itemcountry": "Niederlande",
         "itemlocation": "Middelburg",
-        "itemtype": 1
+        "itemlatitude": "51.499622",
+        "itemlongitude": "3.613528",
+        "itemtype": 1,
+        "itemtags": "Fernrohr, Teleskop, Optik"
     },
     {
         "itemname": "Johannes Kepler veröffentlicht die Gesetze der Planetenbahnen",
@@ -453,7 +474,10 @@
         "itemdateyear": "1609",
         "itemcountry": "Tschechien",
         "itemlocation": "Prag",
-        "itemtype": 1
+        "itemlatitude": "50.085972",
+        "itemlongitude": "14.414861",
+        "itemtype": 1,
+        "itemtags": "Planet, Gesetz"
     },
     {
         "itemname": "Galileo Galilei entdeckt mit einem Fernrohr die vier größten Jupitermonde",
@@ -463,25 +487,34 @@
         "itemdateday": "07",
         "itemcountry": "Italien",
         "itemlocation": "Padua",
-        "itemtype": 1
+        "itemlatitude": "45.416667",
+        "itemlongitude": "11.866667",
+        "itemtype": 1,
+        "itemtags": "Jupiter, Mond, Io, Europa, Ganymed, Kallisto, Fernrohr"
     },
     {
-        "itemname": "Galilei veröffentlicht in \"Siderius nuncius\" seine Ergebnisse",
+        "itemname": "Galilei veröffentlicht in \"Siderius nuncius\" die Ergebnisse seiner Beobachtungen mit dem Fernrohr",
         "itemurl": "https://de.wikipedia.org/wiki/Sidereus_Nuncius",
         "itemdateyear": "1610",
         "itemdatemonth": "03",
         "itemdateday": "01",
         "itemcountry": "Italien",
         "itemlocation": "Padua",
-        "itemtype": 1
+        "itemlatitude": "45.416667",
+        "itemlongitude": "11.866667",
+        "itemtype": 1,
+        "itemtags": "Stern, Jupiter, Mond, Io, Europa, Ganymed, Kallisto, Fernrohr"
     },
     {
-        "itemname": "Niccolò Zucchi baut vermutlich das erste Spiegelteleskop",
+        "itemname": "Niccolò Zucchi (Nicolaus Zucchius) beschreibt erstmals das Spiegelteleskop",
         "itemurl": "https://de.wikipedia.org/wiki/Spiegelteleskop",
         "itemdateyear": "1616",
         "itemcountry": "Italien",
         "itemlocation": "Rom",
-        "itemtype": 1
+        "itemlatitude": "41.898947",
+        "itemlongitude": "12.484558",
+        "itemtype": 1,
+        "itemtags": "Spiegelteleskop"
     },
     {
         "itemname": "Jeremia Horrocks beobachtet erstmals einen Venustransit",
@@ -526,7 +559,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Huygens berechnet erstmals die Lichtgeschwindigkeit mit 213.000 km/s",
+        "itemname": "Christiaan Huygens berechnet erstmals die Lichtgeschwindigkeit mit 213.000 km/s",
         "itemurl": "https://de.wikipedia.org/wiki/Lichtgeschwindigkeit",
         "itemdateyear": "1678",
         "itemcountry": "Niederlande",
@@ -534,7 +567,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Newton veröffentlicht das Gravitationsgesetz",
+        "itemname": "Isaac Newton veröffentlicht das Gravitationsgesetz",
         "itemurl": "https://de.wikipedia.org/wiki/Newtonsches_Gravitationsgesetz",
         "itemdateyear": "1687",
         "itemcountry": "England",
@@ -542,7 +575,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Huygens schreibt über andere Sonnen, Planeten und außerirdisches Leben",
+        "itemname": "Christiaan Huygens schreibt über andere Sonnen, Planeten und außerirdisches Leben",
         "itemurl": "https://de.wikipedia.org/wiki/Christiaan_Huygens",
         "itemdateyear": "1690",
         "itemcountry": "Niederlande",
@@ -647,7 +680,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Robert Wilhelm Bunsen u. Gustav Robert Kirchhoff begründen die Spektrometrie",
+        "itemname": "Robert Wilhelm Bunsen und Gustav Robert Kirchhoff begründen die Spektrometrie",
         "itemurl": "https://de.wikipedia.org/wiki/Spektroskopie",
         "itemdateyear": "1859",
         "itemcountry": "Deutschland",
