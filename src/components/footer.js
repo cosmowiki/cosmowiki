@@ -29,7 +29,7 @@ const Footer = ({appUrl}) => {
           <ul>
             <li><h4>Astronomie</h4></li>
             {[
-              {url: appUrl.astronomersSite(), name: 'Wissenschaftler'},
+              {url: appUrl.scientistsSite(), name: 'Wissenschaftler'},
               {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
               {url: appUrl.constellationsSite(), name: 'Sternbilder'},
               {url: appUrl.starsSite(), name: 'Sterne'},

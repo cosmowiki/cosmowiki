@@ -11,7 +11,7 @@ import ContentOnlyComponent from './components/content-only';
 import Home from './sites/home';
 import Events from './sites/events';
 import People from './sites/people';
-import Astronomers from './sites/astronomers';
+import Scientists from './sites/scientists';
 import Astronauts from './sites/astronauts';
 import Objects from './sites/objects';
 import SolarSystem from './sites/solar-system';
@@ -57,9 +57,9 @@ const rerender = (surroundingComponent, content) => {
 const urlToComponent = {
   '/chronicle': {klass: Events, fileName: 'data/chronicle.json'},
   '/people': {klass: People, fileName: 'data/people.json'},
-  '/astronomers': {klass: Astronomers, fileName: 'data/people.json'},
-  '/astronauts': {klass: Astronauts, fileName: 'data/people.json'},
-  '/solar-system': {klass: SolarSystem},
+  '/scientists': {klass: Scientists, fileName: 'data/scientists.json'},
+  '/astronauts': {klass: Astronauts, fileName: 'data/astronauts.json'},
+  '/solar-system': {klass: SolarSystem, fileName: 'data/solarsystem.json'},
   '/constellations': {klass: Constellations, fileName: 'data/constellations.json'},
   '/stars': {klass: Stars, fileName: 'data/stars.json'},
   '/space-stations': {klass: SpaceStations, fileName: 'data/spacestations.json'},

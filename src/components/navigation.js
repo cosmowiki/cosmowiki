@@ -11,7 +11,7 @@ const Navigation = ({ appUrl }) => {
           <a className="pure-menu-link menu-item persons" href={appUrl.peopleSite()}>Personen</a>
           <ul className="pure-menu-children sub-menu persons">
             {[
-              {url: appUrl.astronomersSite(), name: 'Wissenschaftler'},
+              {url: appUrl.scientistsSite(), name: 'Wissenschaftler'},
               {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
 
             ].map(link =>
@@ -45,7 +45,7 @@ const Navigation = ({ appUrl }) => {
           <a className="pure-menu-link menu-item astronomy" href={appUrl.astronomySite()}>Astronomie</a>
           <ul className="pure-menu-children sub-menu astronomy">
             {[
-              {url: appUrl.astronomersSite(), name: 'Wissenschaftler'},
+              {url: appUrl.scientistsSite(), name: 'Wissenschaftler'},
               {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
               {url: appUrl.constellationsSite(), name: 'Sternbilder'},
               {url: appUrl.starsSite(), name: 'Sterne'},
