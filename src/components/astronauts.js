@@ -25,15 +25,15 @@ class Summary extends React.Component {
   }
 }
 
-const PeopleComponent = ({groupedPeople}) => {
-  const allFirstLetters = Object.keys(groupedPeople);
-  const groupsIterable = allFirstLetters.map(key => groupedPeople[key]);
+const AstronautsComponent = ({groupedAstronauts}) => {
+  const allFirstLetters = Object.keys(groupedAstronauts);
+  const groupsIterable = allFirstLetters.map(key => groupedAstronauts[key]);
 
   return (
     <main role="main" className="pure-u-1">
-      <div id="siteTitle" className="persons pure-u-1 center">
-        <h1>Personen</h1>
-        <h3>Entdecker, Pioniere, Wissenschaftler</h3>
+      <div id="siteTitle" className="astronauts pure-u-1 center">
+        <h1>Raumfahrer</h1>
+        <h3>Astronauten, Komsonauten, Taikonauten</h3>
       </div>
       <div id="todo" className="pure-u-1">
         <p>@wolfram pls replace the filter forms with FilterRows as in stars-site</p>
@@ -72,7 +72,7 @@ const PeopleComponent = ({groupedPeople}) => {
           voran in Richtung Zukunft.
         </p>
         <div className="summary-img width-75 center">
-          <img src="/img/persons/people_collage.jpg" alt="Collage berühmter Personen" />
+          <img src="/img/persons/people_collage.jpg" alt="Collage berühmter astronauten" />
           <p className="summary-img-text">
             Aristoteles, A. Shepard, I. Newton, E. Halley, V. Tereschkowa, A. Einstein, N. Kopernikus, J. Gagarin, G. Galilei, S. Hawking, T. Brahe, N. Armstrong
           </p>
@@ -133,8 +133,14 @@ const PeopleComponent = ({groupedPeople}) => {
                 <select name="sortPeople" defaultValue="sortPeopleNameUp">
                   <option value="sortPeopleNameUp">Name &uarr;</option>
                   <option value="sortPeopleNameDown">Name &darr;</option>
-                  <option value="sortPeopleBornUp">Geburtsdatum &uarr;</option>// not important yet, too much items w/o dates
-                  <option value="sortPeopleBornDown">Geburtsdatum &darr;</option>// not important yet, too much items w/o dates
+                  <option value="sortPeopleFirstLaunchUp">erster Raumflug &uarr;</option>
+                  <option value="sortPeopleFirstLaunchDown">erster Raumflug &darr;</option>
+                  <option value="sortPeopleTimeInSpaceUp">Gesamtzeit im All &uarr;</option>
+                  <option value="sortPeopleTimeInSpaceDown">Gesamtzeit im All &darr;</option>
+                  <option value="sortPeopleNumberSpacewalksUp">Anzahl EVAs &uarr;</option>
+                  <option value="sortPeopleNumberSpacewalksDown">Anzahl EVAs &darr;</option>
+                  <option value="sortPeopleDurationsSpacewalksUp">EVA Gesamtdauer &uarr;</option>// not important yet, too much items w/o dates
+                  <option value="sortPeopleDurationsSpacewalksDown">EVA Gesamtdauer &darr;</option>// not important yet, too much items w/o dates
                 </select>
               </form>
             </div>
@@ -142,12 +148,6 @@ const PeopleComponent = ({groupedPeople}) => {
           <div id="filter" className="people pure-u-1-2 right">
             <a href="#" className="toggle-filter" name="toggle-filter">Filtern</a>
             <div id="filterArea">
-              <form id="filterPeopleByProfession" className="filter-form">
-                <label>Beruf:</label>
-                <select name="peopleProfessions" defaultValue="showAllProfessions">
-                  <option value="showAllProfessions">alle</option>
-                </select>
-              </form>
               <form id="filterPeopleByCountry" className="filter-form">
                 <label>Land:</label>
                 <select name="peopleCountries" defaultValue="showAllCountries">
@@ -160,8 +160,8 @@ const PeopleComponent = ({groupedPeople}) => {
         <LetterLinks letters={allFirstLetters} />
       </div>
       <div id="dataArea" className="people pure-u-1">
-        <div id="personsTable">
-          {groupsIterable.map((group, idx) => <PersonGroupComponent group={group} key={idx} />)}
+        <div id="peopleTable">
+          {groupsIterable.map((group, idx) => <AstronautGroupComponent group={group} key={idx} />)}
         </div>
       </div>
       <Notes />
@@ -169,11 +169,11 @@ const PeopleComponent = ({groupedPeople}) => {
   );
 };
 
-export default PeopleComponent;
+export default AstronautsComponent;
 
-const PersonGroupComponent = ({group}) => {
+const AstronautGroupComponent = ({group}) => {
   const groupKey = group.key;
-  const people = group.data;
+  const astronauts = group.data;
 
   return (
           <div id={groupKey} className="letter-section pure-u-1">
@@ -188,76 +188,40 @@ const PersonGroupComponent = ({group}) => {
                 <p className="right"><a id="scrollUpArrow" href="javascript:self.scrollTo(0,0);">&uarr;</a></p>
               </div>
             </div>
-            {people.map((person, idx) => <PersonComponent person={person} key={idx} />)}
+            {astronauts.map((astronaut, idx) => <AstronautComponent astronaut={astronaut} key={idx} />)}
           </div>
   );
 };
 
-const PersonComponent = ({person}) => {
+const AstronautComponent = ({astronaut}) => {
   return (
-            <div className="person-row data-row pure-u-1">
-              <div className="person-name pure-u-1 pure-u-md-1 pure-u-lg-7-24">
-                <div className="pure-u-1">
-                  <p><a href={person.link}>{person.name}</a></p>
+            <div className="astronaut-row data-row pure-u-1">
+              <div className="astronaut-name pure-u-1 pure-u-md-1 pure-u-lg-7-24">
+                <div className="pure-u-1 left">
+                  <p><a href={astronaut.link}>{astronaut.name}</a></p>
                 </div>
               </div>
-              <div className="person-data1 pure-u-1 pure-u-md-1-3 pure-u-lg-5-24">
-                <div className="person-born pure-u-1-2 pure-u-md-1-2 center">
-                  <p>{person.born ? `∗ ${person.born}` : ''}</p>
+              <div className="astronaut-country pure-u-1 pure-u-md-1-3 pure-u-lg-2-24">
+                <p>{astronaut.country ? astronaut.country : ''}</p>
+              </div>
+              <div className="astronaut-spaceflights pure-u-1 pure-u-md-2-3 pure-u-lg-10-24">
+                <div className="astronaut-firstlaunch pure-u-1 pure-u-md-13-24">
+                  <p>{astronaut.firstlaunch ? `erster Raumflug: ${astronaut.firstlaunch}` : ''}</p>
                 </div>
-                <div className="person-died pure-u-1-2 pure-u-md-1-2 center">
-                  <p>{person.died ? `† ${person.died}`: ''}</p>
+                <div className="astronaut-timeinspace pure-u-1 pure-u-md-11-24">
+                  <p>{astronaut.timeinspace ? `Zeit im All: ${astronaut.timeinspace}` : ''}</p>
                 </div>
               </div>
-              <div className="person-data2 pure-u-1 pure-u-md-2-3 pure-u-lg-1-2">
-                <div className="person-country pure-u-1-2 pure-u-md-1-2 center">
-                  <p>{person.country ? person.country : ''}</p>
+              {astronaut.numberspacewalks ?
+              <div className="astronaut-spacewalks pure-u-1 pure-u-md-2-3 pure-u-lg-5-24">
+                <div className="astronaut-numberspacewalks pure-u-md-9-24">
+                  <p>EVAs: {astronaut.numberspacewalks}</p>
                 </div>
-                <div className="person-profession pure-u-1-2 pure-u-md-1-2 center">
-                  <p>{person.profession ? person.profession : ''}</p>
+                <div className="astronaut-durationspacewalks pure-u-md-15-24">
+                  <p>Dauer: {astronaut.durationspacewalks}</p>
                 </div>
               </div>
+               : ''}
             </div>
   );
 };
-
-// old code with the tooltip on hover
-// import classNames from 'classnames';
-// class PersonComponent extends React.Component {
-//
-//   constructor() {
-//     super();
-//     this.state = {detailsVisible: false};
-//   }
-//
-//   render() {
-//     const showDetails = () => {
-//       this.setState({detailsVisible: true});
-//     };
-//     const hideDetails = () => {
-//       this.setState({detailsVisible: false});
-//     };
-//
-//     const {person} = this.props;
-//     let cssClasses = ['person-infobox pure-u-1 pure-u-md-1-2 pure-u-lg-1-3'];
-//     cssClasses.push(this.state.detailsVisible ? 'visible' : 'hidden');
-//
-//     return (
-//             <div className="person-row data-row pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-//               <div className="person-item">
-//                 <a onMouseOver={showDetails} onMouseOut={hideDetails} href={person.wikipediaUrl}>{person.name}</a>
-//               </div>
-//               <div className={classNames(cssClasses)}>
-//                 <div className="person-profession">{person.profession}</div>
-//                 <div className="person-life">
-//                   {person.born ? `∗ ${person.born}` : ''} &nbsp;
-//                   {person.died ? `† ${person.died}`: ''}</div>
-//                 <div className="person-country">{person.country}</div>
-//                 <div className="person-info justify">{person.description}</div>
-//               </div>
-//             </div>
-//     );
-//
-//   }
-//
-// }

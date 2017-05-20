@@ -25,15 +25,15 @@ class Summary extends React.Component {
   }
 }
 
-const PeopleComponent = ({groupedPeople}) => {
-  const allFirstLetters = Object.keys(groupedPeople);
-  const groupsIterable = allFirstLetters.map(key => groupedPeople[key]);
+const ScientistsComponent = ({groupedScientists}) => {
+  const allFirstLetters = Object.keys(groupedScientists);
+  const groupsIterable = allFirstLetters.map(key => groupedScientists[key]);
 
   return (
     <main role="main" className="pure-u-1">
-      <div id="siteTitle" className="persons pure-u-1 center">
-        <h1>Personen</h1>
-        <h3>Entdecker, Pioniere, Wissenschaftler</h3>
+      <div id="siteTitle" className="scientists pure-u-1 center">
+        <h1>Wissenschaftler</h1>
+        <h3>Astronomen, Kosmologen, Physiker</h3>
       </div>
       <div id="todo" className="pure-u-1">
         <p>@wolfram pls replace the filter forms with FilterRows as in stars-site</p>
@@ -160,8 +160,8 @@ const PeopleComponent = ({groupedPeople}) => {
         <LetterLinks letters={allFirstLetters} />
       </div>
       <div id="dataArea" className="people pure-u-1">
-        <div id="personsTable">
-          {groupsIterable.map((group, idx) => <PersonGroupComponent group={group} key={idx} />)}
+        <div id="peopleTable">
+          {groupsIterable.map((group, idx) => <ScientistGroupComponent group={group} key={idx} />)}
         </div>
       </div>
       <Notes />
@@ -169,11 +169,11 @@ const PeopleComponent = ({groupedPeople}) => {
   );
 };
 
-export default PeopleComponent;
+export default ScientistsComponent;
 
-const PersonGroupComponent = ({group}) => {
+const ScientistGroupComponent = ({group}) => {
   const groupKey = group.key;
-  const people = group.data;
+  const scientists = group.data;
 
   return (
           <div id={groupKey} className="letter-section pure-u-1">
@@ -188,33 +188,33 @@ const PersonGroupComponent = ({group}) => {
                 <p className="right"><a id="scrollUpArrow" href="javascript:self.scrollTo(0,0);">&uarr;</a></p>
               </div>
             </div>
-            {people.map((person, idx) => <PersonComponent person={person} key={idx} />)}
+            {scientists.map((scientist, idx) => <ScientistComponent scientist={scientist} key={idx} />)}
           </div>
   );
 };
 
-const PersonComponent = ({person}) => {
+const ScientistComponent = ({scientist}) => {
   return (
-            <div className="person-row data-row pure-u-1">
-              <div className="person-name pure-u-1 pure-u-md-1 pure-u-lg-7-24">
+            <div className="scientist-row data-row pure-u-1">
+              <div className="scientist-name pure-u-1 pure-u-md-1 pure-u-lg-7-24">
                 <div className="pure-u-1">
-                  <p><a href={person.link}>{person.name}</a></p>
+                  <p><a href={scientist.link}>{scientist.name}</a></p>
                 </div>
               </div>
-              <div className="person-data1 pure-u-1 pure-u-md-1-3 pure-u-lg-5-24">
-                <div className="person-born pure-u-1-2 pure-u-md-1-2 center">
-                  <p>{person.born ? `∗ ${person.born}` : ''}</p>
+              <div className="scientist-data1 pure-u-1 pure-u-md-1-3 pure-u-lg-5-24">
+                <div className="scientist-born pure-u-1-2 pure-u-md-1-2 center">
+                  <p>{scientist.born ? `∗ ${scientist.born}` : ''}</p>
                 </div>
-                <div className="person-died pure-u-1-2 pure-u-md-1-2 center">
-                  <p>{person.died ? `† ${person.died}`: ''}</p>
+                <div className="scientist-died pure-u-1-2 pure-u-md-1-2 center">
+                  <p>{scientist.died ? `† ${scientist.died}`: ''}</p>
                 </div>
               </div>
-              <div className="person-data2 pure-u-1 pure-u-md-2-3 pure-u-lg-1-2">
-                <div className="person-country pure-u-1-2 pure-u-md-1-2 center">
-                  <p>{person.country ? person.country : ''}</p>
+              <div className="scientist-data2 pure-u-1 pure-u-md-2-3 pure-u-lg-1-2">
+                <div className="scientist-country pure-u-1-2 pure-u-md-1-2 center">
+                  <p>{scientist.country ? scientist.country : ''}</p>
                 </div>
-                <div className="person-profession pure-u-1-2 pure-u-md-1-2 center">
-                  <p>{person.profession ? person.profession : ''}</p>
+                <div className="scientist-profession pure-u-1-2 pure-u-md-1-2 center">
+                  <p>{scientist.profession ? scientist.profession : ''}</p>
                 </div>
               </div>
             </div>
@@ -223,7 +223,7 @@ const PersonComponent = ({person}) => {
 
 // old code with the tooltip on hover
 // import classNames from 'classnames';
-// class PersonComponent extends React.Component {
+// class ScientistComponent extends React.Component {
 //
 //   constructor() {
 //     super();
@@ -238,22 +238,22 @@ const PersonComponent = ({person}) => {
 //       this.setState({detailsVisible: false});
 //     };
 //
-//     const {person} = this.props;
-//     let cssClasses = ['person-infobox pure-u-1 pure-u-md-1-2 pure-u-lg-1-3'];
+//     const {scientist} = this.props;
+//     let cssClasses = ['scientist-infobox pure-u-1 pure-u-md-1-2 pure-u-lg-1-3'];
 //     cssClasses.push(this.state.detailsVisible ? 'visible' : 'hidden');
 //
 //     return (
-//             <div className="person-row data-row pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-//               <div className="person-item">
-//                 <a onMouseOver={showDetails} onMouseOut={hideDetails} href={person.wikipediaUrl}>{person.name}</a>
+//             <div className="scientist-row data-row pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+//               <div className="scientist-item">
+//                 <a onMouseOver={showDetails} onMouseOut={hideDetails} href={scientist.wikipediaUrl}>{scientist.name}</a>
 //               </div>
 //               <div className={classNames(cssClasses)}>
-//                 <div className="person-profession">{person.profession}</div>
-//                 <div className="person-life">
-//                   {person.born ? `∗ ${person.born}` : ''} &nbsp;
-//                   {person.died ? `† ${person.died}`: ''}</div>
-//                 <div className="person-country">{person.country}</div>
-//                 <div className="person-info justify">{person.description}</div>
+//                 <div className="scientist-profession">{scientist.profession}</div>
+//                 <div className="scientist-life">
+//                   {scientist.born ? `∗ ${scientist.born}` : ''} &nbsp;
+//                   {scientist.died ? `† ${scientist.died}`: ''}</div>
+//                 <div className="scientist-country">{scientist.country}</div>
+//                 <div className="scientist-info justify">{scientist.description}</div>
 //               </div>
 //             </div>
 //     );

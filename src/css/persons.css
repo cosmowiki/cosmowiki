@@ -1,8 +1,28 @@
-.person-row {padding: .2em 0;}
+.person-row,
+.scientist-row,
+.astronaut-row {padding: .2em 0;}
 
-.person-name div {display: block; font-size: 1.25em; text-align: center;}
+.person-name div,
+.scientist-name div,
+.astronaut-name div {font-size: 1.25em;}
+
 .person-data1 div,
-.person-data2 div {display: inline-block; font-size: 1.125em;}
+.person-data2 div,
+.scientist-data1 div,
+.scientist-data2 div,
+.astronaut-country,
+.astronaut-spaceflights div,
+.astronaut-spacewalks div {display: inline-block; font-size: 1.125em;}
+
+.person-name div,
+.scientist-name div,
+.astronaut-name div {display: block; text-align: center;}
+
+.astronaut-country,
+.astronaut-spaceflights,
+.astronaut-spacewalks {text-align: center;}
+.astronaut-numberspacewalks {text-align: right;}
+.astronaut-durationspacewalks p {margin-left: .5em; text-align: left;}
 
 /* only for visualisation ----------------------------------------------------*/
 /*.person-name, .person-data1, .person-data2 {outline: 1px solid blue;}*/
@@ -10,13 +30,29 @@
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 48em) {
-	.person-data1 div,
-	.person-data2 div {display: inline-block;}
+	.astronaut-name div p {padding-left: .2em;}
+	.astronaut-country,
+	.astronaut-spaceflights,
+	.astronaut-spacewalks {text-align: left;}
+	.astronaut-durationspacewalks p {margin: 0;}
 }
 @media only all and (min-width: 64em) {
-	.person-name div {font-size: 1.125em; line-height: 1.75em; text-align: left;}
+	.person-name div,
+	.person-data1 div,
+	.person-data2 div {font-size: 1.125em; line-height: 1.75em; text-align: left;}
 	.person-name p {margin-left: .2em;}
-	.person-data1 div {line-height: 1.75em; text-align: left;}
-	.person-data2 div {line-height: 1.75em;}
 	.person-born p {margin-left: .5em;}
+
+	.scientist-name div {font-size: 1.125em; line-height: 1.75em; text-align: left;}
+	.scientist-name p {margin-left: .2em;}
+	.scientist-data1 div {margin-left: .2em;}
+	.scientist-data2 div {line-height: 1.75em;}
+
+	.astronaut-name div {font-size: 1.125em; line-height: 1.75em; text-align: left;}
+	.astronaut-name p {margin-left: .2em;}
+	.astronaut-country,
+	.astronaut-spaceflights div,
+	.astronaut-spacewalks div {line-height: 1.75em;}
+	.astronaut-country,
+	.astronaut-spacewalks div {text-align: left;}
 }
