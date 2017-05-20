@@ -173,7 +173,7 @@ const MissionsComponent = ({missions}) => {
             <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
             <div id="sortArea">
               <form id="sortMissions" className="sort-form">
-                <label>Sortieren nach:</label>
+                
                 <select name="sortMissions" defaultValue="sortMissionsLaunchUp">
                   <option value="sortMissionsLaunchUp">Startdatum &uarr;</option>
                   <option value="sortMissionsLaunchDown">Startdatum &darr;</option>

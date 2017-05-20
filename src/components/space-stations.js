@@ -92,7 +92,7 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
             <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
             <div id="sortArea">
               <form id="sortStations" className="sort-form">
-                <label>Sortieren nach:</label>
+
                 <select name="sortStations" defaultValue="sortStationsLaunchUp">
                   <option value="sortStationsLaunchUp">Startdatum &uarr;</option>
                   <option value="sortStationsLaunchDown">Startdatum &darr;</option>

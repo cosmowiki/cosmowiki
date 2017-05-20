@@ -93,7 +93,7 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
             <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
             <div id="sortArea">
               <form id="sortSpacetelecopes" className="sort-form">
-                <label>Sortieren nach:</label>
+
                 <select name="sortSpacetelecopes" defaultValue="sortSpacetelecopesLaunchUp">
                   <option value="sortSpacetelecopesLaunchUp">Startdatum &uarr;</option>
                   <option value="sortSpacetelecopesLaunchDown">Startdatum &darr;</option>
