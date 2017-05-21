@@ -1,6 +1,6 @@
 [
     {
-        "itemname": "steinzeitliche Menschen erschaffen den Ishango-Knochen, eventuell als Mondkalender",
+        "itemname": "steinzeitliche Menschen erschaffen den Ishango-Knochen",
         "itemurl": "https://de.wikipedia.org/wiki/Ishango-Knochen"
     },
     {
@@ -8,11 +8,11 @@
         "itemurl": "https://de.wikipedia.org/wiki/H%C3%B6hle_von_Lascaux"
     },
     {
-        "itemname": "Errichtung der Kreisgrabenanlage von Goseck - das älteste Sonnenobservatorium der Welt",
+        "itemname": "Errichtung der Kreisgrabenanlage von Goseck",
         "itemurl": "https://de.wikipedia.org/wiki/Kreisgrabenanlage_von_Goseck"
     },
     {
-        "itemname": "Errichtung der Megalithanlage von Nabta-Playa für Kalenderzwecke",
+        "itemname": "Errichtung der Megalithanlage von Nabta-Playa",
         "itemurl": "https://de.wikipedia.org/wiki/Nabta-Playa"
     },
     {
@@ -20,11 +20,11 @@
         "itemurl": "https://de.wikipedia.org/wiki/Maya-Kalender"
     },
     {
-        "itemname": "Errichtung der Megalithanlage von Stonehenge, wohl auch für Kalenderzwecke",
+        "itemname": "Errichtung der Megalithanlage von Stonehenge",
         "itemurl": "https://de.wikipedia.org/wiki/Stonehenge"
     },
     {
-        "itemname": "Errichtung der Megalithanlage von Mnajdra für Kalenderzwecke",
+        "itemname": "Errichtung der Megalithanlage von Mnajdra",
         "itemurl": "https://de.wikipedia.org/wiki/Mnajdra"
     },
     {
@@ -76,7 +76,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Chanquillo"
     },
     {
-        "itemname": "Einführung eines Schalttages alle vier Jahre, jedoch nur bis zum Tod von Ptolemaios III.",
+        "itemname": "Einführung eines Schalttages alle vier Jahre",
         "itemurl": "https://de.wikipedia.org/wiki/Kanopus-Dekret"
     },
     {
@@ -132,19 +132,19 @@
         "itemurl": "https://de.wikipedia.org/wiki/Ulug_Begs_Observatorium"
     },
     {
-        "itemname": "Nicolaus von Kues veröffentlicht \"De docta ignorantia\"",
+        "itemname": "Nicolaus von Kues (Cusanus) veröffentlicht \"De docta ignorantia\"",
         "itemurl": "https://de.wikipedia.org/wiki/Nikolaus_von_Kues"
     },
     {
-        "itemname": "bemannter Raketenstart auf einem Stuhl mit Feuerwerksraketen?",
+        "itemname": "Wan Hu versucht auf einem Stuhl mit Feuerwerksraketen zu starten (chin. Sage)",
         "itemurl": "https://de.wikipedia.org/wiki/Wan_Hu"
     },
     {
-        "itemname": "Magalhães beschreibt die Magellansche Wolken",
+        "itemname": "Fernão de Magalhães (Ferdinand Magellan) beschreibt die Magellanschen Wolken",
         "itemurl": "https://de.wikipedia.org/wiki/Magellansche_Wolke"
     },
     {
-        "itemname": "Copernicus veröffentlicht \"De revolutionibus orbium coelestium\"",
+        "itemname": "Nicolaus Copernicus veröffentlicht \"De revolutionibus orbium coelestium\"",
         "itemurl": "https://de.wikipedia.org/wiki/De_Revolutionibus_Orbium_Coelestium"
     },
     {
@@ -160,7 +160,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Tycho_Brahe"
     },
     {
-        "itemname": "Tycho Brahe setzt einen präzisen Mauerquadranten ein",
+        "itemname": "Tycho Brahe setzt seinen präzisen Mauerquadranten ein",
         "itemurl": "https://de.wikipedia.org/wiki/Mauerquadrant"
     },
     {
@@ -169,7 +169,7 @@
     },
     {
         "itemname": "Hans Lipperhey erfindet das Linsenfernrohr",
-        "itemurl": "https://de.wikipedia.org/wiki/Linsenfernrohr"
+        "itemurl": "https://de.wikipedia.org/wiki/Hans_Lipperhey"
     },
     {
         "itemname": "Johannes Kepler veröffentlicht die Gesetze der Planetenbahnen",
@@ -180,11 +180,11 @@
         "itemurl": "https://de.wikipedia.org/wiki/Galileische_Monde"
     },
     {
-        "itemname": "Galilei veröffentlicht in \"Siderius nuncius\" seine Ergebnisse",
+        "itemname": "Galilei veröffentlicht in \"Siderius nuncius\" die Ergebnisse seiner Beobachtungen mit dem Fernrohr",
         "itemurl": "https://de.wikipedia.org/wiki/Sidereus_Nuncius"
     },
     {
-        "itemname": "Niccolò Zucchi baut vermutlich das erste Spiegelteleskop",
+        "itemname": "Niccolò Zucchi (Nicolaus Zucchius) beschreibt erstmals das Spiegelteleskop",
         "itemurl": "https://de.wikipedia.org/wiki/Spiegelteleskop"
     },
     {
@@ -208,15 +208,15 @@
         "itemurl": "https://de.wikipedia.org/wiki/Lichtgeschwindigkeit"
     },
     {
-        "itemname": "Huygens berechnet erstmals die Lichtgeschwindigkeit mit 213.000 km/s",
+        "itemname": "Christiaan Huygens berechnet erstmals die Lichtgeschwindigkeit mit 213.000 km/s",
         "itemurl": "https://de.wikipedia.org/wiki/Lichtgeschwindigkeit"
     },
     {
-        "itemname": "Newton veröffentlicht das Gravitationsgesetz",
+        "itemname": "Isaac Newton veröffentlicht das Gravitationsgesetz",
         "itemurl": "https://de.wikipedia.org/wiki/Newtonsches_Gravitationsgesetz"
     },
     {
-        "itemname": "Huygens schreibt über andere Sonnen, Planeten und außerirdisches Leben",
+        "itemname": "Christiaan Huygens schreibt über andere Sonnen, Planeten und außerirdisches Leben",
         "itemurl": "https://de.wikipedia.org/wiki/Christiaan_Huygens"
     },
     {
@@ -264,7 +264,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Neptun_(Planet)"
     },
     {
-        "itemname": "Robert Wilhelm Bunsen u. Gustav Robert Kirchhoff begründen die Spektrometrie",
+        "itemname": "Robert Wilhelm Bunsen und Gustav Robert Kirchhoff begründen die Spektrometrie",
         "itemurl": "https://de.wikipedia.org/wiki/Spektroskopie"
     },
     {
@@ -312,7 +312,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Deutsche_Versuchsanstalt_f%C3%BCr_Luftfahrt"
     },
     {
-        "itemname": "Henry N. Russel entwickelt nach Arbeiten von Ejnar Hertzsprung das Hertzsprung-Russel-Diagramm",
+        "itemname": "Henry Russel entwickelt nach Arbeiten von Ejnar Hertzsprung das Hertzsprung-Russel-Diagramm",
         "itemurl": "https://de.wikipedia.org/wiki/Hertzsprung-Russell-Diagramm"
     },
     {
@@ -432,7 +432,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Sputnik_1"
     },
     {
-        "itemname": "Start des ersten amerikanischen Satelliten - Explorer 1, Nachweis des Van-Allen-Strahlungsgürtels",
+        "itemname": "Start des ersten US-Satelliten Explorer 1, Nachweis des Van-Allen-Strahlungsgürtels",
         "itemurl": "https://de.wikipedia.org/wiki/Explorer_1"
     },
     {
@@ -544,7 +544,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Venera-Mission"
     },
     {
-        "itemname": "Start von Venera 3, sie landet als erstes von Menschen erzeugtes Objekt auf einem anderen Planeten",
+        "itemname": "Start von Venera 3, erstes von Menschen erzeugtes Objekt landet auf einem anderen Planeten",
         "itemurl": "https://de.wikipedia.org/wiki/Venera-Mission"
     },
     {
@@ -560,7 +560,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Gemini_7"
     },
     {
-        "itemname": "Start von Luna 9, mit der Sonde gelingt die erste weiche Landung auf einem Himmelskörper (Mond)",
+        "itemname": "Start von Luna 9, der Sonde gelingt die erste weiche Landung auf einem Himmelskörper (Mond)",
         "itemurl": "https://de.wikipedia.org/wiki/Luna-Programm"
     },
     {
@@ -612,7 +612,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Venera-Mission"
     },
     {
-        "itemname": "erste automatische (nur mechanische) Kopplung zweier Raumschiffe - Kosmos 186 u. Kosmos 188",
+        "itemname": "erste automatische, nur mechanische Kopplung zweier Raumschiffe - Kosmos 186 u. Kosmos 188",
         "itemurl": "https://de.wikipedia.org/wiki/Kosmos_186"
     },
     {
@@ -1305,13 +1305,13 @@
     },
     {
         "itemname": "Allen",
-        "itemurl": "https://de.wikipedia.org/wiki/James_van_Allen",
-        "itemname2": "James Alfred van"
+        "itemurl": "https://de.wikipedia.org/wiki/Andrew_M._Allen",
+        "itemname2": "Andrew Michael"
     },
     {
         "itemname": "Allen",
-        "itemurl": "https://de.wikipedia.org/wiki/Andrew_M._Allen",
-        "itemname2": "Andrew Michael"
+        "itemurl": "https://de.wikipedia.org/wiki/James_van_Allen",
+        "itemname2": "James Alfred van"
     },
     {
         "itemname": "Allen",
@@ -1344,11 +1344,6 @@
     },
     {
         "itemname": "Anderson",
-        "itemurl": "https://de.wikipedia.org/wiki/Wilhelm_Anderson",
-        "itemname2": "Wilhelm"
-    },
-    {
-        "itemname": "Anderson",
         "itemurl": "https://de.wikipedia.org/wiki/Clayton_Conrad_Anderson",
         "itemname2": "Clayton Conrad"
     },
@@ -1356,6 +1351,11 @@
         "itemname": "Anderson",
         "itemurl": "https://de.wikipedia.org/wiki/Michael_Philip_Anderson",
         "itemname2": "Michael Philip"
+    },
+    {
+        "itemname": "Anderson",
+        "itemurl": "https://de.wikipedia.org/wiki/Wilhelm_Anderson",
+        "itemname2": "Wilhelm"
     },
     {
         "itemname": "Ansari",
@@ -2050,14 +2050,14 @@
         "itemname2": "Vincenzo"
     },
     {
-        "itemname": "Chadwick",
-        "itemurl": "https://de.wikipedia.org/wiki/James_Chadwick",
-        "itemname2": "James"
-    },
-    {
         "itemname": "Chacornac",
         "itemurl": "https://de.wikipedia.org/wiki/Jean_Chacornac",
         "itemname2": "Jean"
+    },
+    {
+        "itemname": "Chadwick",
+        "itemurl": "https://de.wikipedia.org/wiki/James_Chadwick",
+        "itemname2": "James"
     },
     {
         "itemname": "Chaffee",
@@ -2550,13 +2550,13 @@
     },
     {
         "itemname": "Fabricius",
-        "itemurl": "https://de.wikipedia.org/wiki/Johann_Fabricius_%28Astronom%29",
-        "itemname2": "Johann"
+        "itemurl": "https://de.wikipedia.org/wiki/David_Fabricius",
+        "itemname2": "David"
     },
     {
         "itemname": "Fabricius",
-        "itemurl": "https://de.wikipedia.org/wiki/David_Fabricius",
-        "itemname2": "David"
+        "itemurl": "https://de.wikipedia.org/wiki/Johann_Fabricius_%28Astronom%29",
+        "itemname2": "Johann"
     },
     {
         "itemname": "Faris",
@@ -2585,6 +2585,11 @@
     },
     {
         "itemname": "Ferguson",
+        "itemurl": "https://de.wikipedia.org/wiki/Christopher_John_Ferguson",
+        "itemname2": "Christopher John"
+    },
+    {
+        "itemname": "Ferguson",
         "itemurl": "https://de.wikipedia.org/wiki/James_Ferguson_(A,_1797%E2%80%931867)",
         "itemname2": "James"
     },
@@ -2592,11 +2597,6 @@
         "itemname": "Ferguson",
         "itemurl": "https://de.wikipedia.org/wiki/James_Ferguson_(A,_1710%E2%80%931776)",
         "itemname2": "James"
-    },
-    {
-        "itemname": "Ferguson",
-        "itemurl": "https://de.wikipedia.org/wiki/Christopher_John_Ferguson",
-        "itemname2": "Christopher John"
     },
     {
         "itemname": "Fermi",
@@ -2790,13 +2790,13 @@
     },
     {
         "itemname": "Garriott",
-        "itemurl": "https://de.wikipedia.org/wiki/Richard_Garriott",
-        "itemname2": "Richard"
+        "itemurl": "https://de.wikipedia.org/wiki/Owen_Kay_Garriott",
+        "itemname2": "Owen Kay"
     },
     {
         "itemname": "Garriott",
-        "itemurl": "https://de.wikipedia.org/wiki/Owen_Kay_Garriott",
-        "itemname2": "Owen Kay"
+        "itemurl": "https://de.wikipedia.org/wiki/Richard_Garriott",
+        "itemname2": "Richard"
     },
     {
         "itemname": "Gauß",
@@ -2804,14 +2804,14 @@
         "itemname2": "Carl Friedrich"
     },
     {
-        "itemname": "Gemar",
-        "itemurl": "https://de.wikipedia.org/wiki/Charles_Donald_Gemar",
-        "itemname2": "Charles Donald"
-    },
-    {
         "itemname": "Geiger",
         "itemurl": "https://de.wikipedia.org/wiki/Hans_Geiger_%28Physiker%29",
         "itemname2": "Hans"
+    },
+    {
+        "itemname": "Gemar",
+        "itemurl": "https://de.wikipedia.org/wiki/Charles_Donald_Gemar",
+        "itemname2": "Charles Donald"
     },
     {
         "itemname": "Gent",
@@ -2894,11 +2894,6 @@
         "itemname2": "Thomas"
     },
     {
-        "itemname": "Gould",
-        "itemurl": "https://de.wikipedia.org/wiki/Benjamin_Apthorp_Gould",
-        "itemname2": "Benjamin Apthorp"
-    },
-    {
         "itemname": "Goldschmidt",
         "itemurl": "https://de.wikipedia.org/wiki/Hermann_Mayer_Salomon_Goldschmidt",
         "itemname2": "Hermann"
@@ -2932,6 +2927,11 @@
         "itemname": "Gorie",
         "itemurl": "https://de.wikipedia.org/wiki/Dominic_Lee_Pudwill_Gorie",
         "itemname2": "Dominic Lee Pudwill"
+    },
+    {
+        "itemname": "Gould",
+        "itemurl": "https://de.wikipedia.org/wiki/Benjamin_Apthorp_Gould",
+        "itemname2": "Benjamin Apthorp"
     },
     {
         "itemname": "Grabe",
@@ -3260,11 +3260,6 @@
     },
     {
         "itemname": "Herschel",
-        "itemurl": "https://de.wikipedia.org/wiki/Wilhelm_Herschel",
-        "itemname2": "Wilhelm (William)"
-    },
-    {
-        "itemname": "Herschel",
         "itemurl": "https://de.wikipedia.org/wiki/Caroline_Herschel",
         "itemname2": "Caroline"
     },
@@ -3272,6 +3267,11 @@
         "itemname": "Herschel",
         "itemurl": "https://de.wikipedia.org/wiki/John_Herschel",
         "itemname2": "John"
+    },
+    {
+        "itemname": "Herschel",
+        "itemurl": "https://de.wikipedia.org/wiki/Wilhelm_Herschel",
+        "itemname2": "Wilhelm (William)"
     },
     {
         "itemname": "Hertzsprung",
@@ -3652,11 +3652,6 @@
     },
     {
         "itemname": "Kirch",
-        "itemurl": "https://de.wikipedia.org/wiki/Maria_Margaretha_Kirch",
-        "itemname2": "Maria Margaretha"
-    },
-    {
-        "itemname": "Kirch",
         "itemurl": "https://de.wikipedia.org/wiki/Christfried_Kirch",
         "itemname2": "Christfried"
     },
@@ -3669,6 +3664,11 @@
         "itemname": "Kirch",
         "itemurl": "https://de.wikipedia.org/wiki/Gottfried_Kirch",
         "itemname2": "Gottfried"
+    },
+    {
+        "itemname": "Kirch",
+        "itemurl": "https://de.wikipedia.org/wiki/Maria_Margaretha_Kirch",
+        "itemname2": "Maria Margaretha"
     },
     {
         "itemname": "Kirchhoff",
@@ -3851,14 +3851,14 @@
         "itemname2": "André "
     },
     {
-        "itemname": "Lagerkvist",
-        "itemurl": "https://de.wikipedia.org/wiki/Claes-Ingvar_Lagerkvist",
-        "itemname2": "Claes-Ingvar"
-    },
-    {
         "itemname": "Lacaille",
         "itemurl": "https://de.wikipedia.org/wiki/Nicolas_Louis_de_Lacaille",
         "itemname2": "Nicolas Louis de"
+    },
+    {
+        "itemname": "Lagerkvist",
+        "itemurl": "https://de.wikipedia.org/wiki/Claes-Ingvar_Lagerkvist",
+        "itemname2": "Claes-Ingvar"
     },
     {
         "itemname": "Lalande",
@@ -4407,13 +4407,13 @@
     },
     {
         "itemname": "Mitchell",
-        "itemurl": "https://de.wikipedia.org/wiki/Maria_Mitchell",
-        "itemname2": "Maria"
+        "itemurl": "https://de.wikipedia.org/wiki/Edgar_Dean_Mitchell",
+        "itemname2": "Edgar Dean"
     },
     {
         "itemname": "Mitchell",
-        "itemurl": "https://de.wikipedia.org/wiki/Edgar_Dean_Mitchell",
-        "itemname2": "Edgar Dean"
+        "itemurl": "https://de.wikipedia.org/wiki/Maria_Mitchell",
+        "itemname2": "Maria"
     },
     {
         "itemname": "Möbius",
@@ -4542,13 +4542,13 @@
     },
     {
         "itemname": "Nierop",
-        "itemurl": "https://de.wikipedia.org/wiki/Pieter_Rembrantsz_van_Nierop",
-        "itemname2": "Pieter Rembrantsz van"
+        "itemurl": "https://de.wikipedia.org/wiki/Dirck_Rembrantsz_van_Nierop",
+        "itemname2": "Dirck Rembrantsz van"
     },
     {
         "itemname": "Nierop",
-        "itemurl": "https://de.wikipedia.org/wiki/Dirck_Rembrantsz_van_Nierop",
-        "itemname2": "Dirck Rembrantsz van"
+        "itemurl": "https://de.wikipedia.org/wiki/Pieter_Rembrantsz_van_Nierop",
+        "itemname2": "Pieter Rembrantsz van"
     },
     {
         "itemname": "Nikolajew",
@@ -4927,13 +4927,13 @@
     },
     {
         "itemname": "Proctor",
-        "itemurl": "https://de.wikipedia.org/wiki/Richard_Anthony_Proctor",
-        "itemname2": "Richard Anthony"
+        "itemurl": "https://de.wikipedia.org/wiki/Mary_Proctor",
+        "itemname2": "Mary"
     },
     {
         "itemname": "Proctor",
-        "itemurl": "https://de.wikipedia.org/wiki/Mary_Proctor",
-        "itemname2": "Mary"
+        "itemurl": "https://de.wikipedia.org/wiki/Richard_Anthony_Proctor",
+        "itemname2": "Richard Anthony"
     },
     {
         "itemname": "Prunariu",
@@ -5351,13 +5351,13 @@
     },
     {
         "itemname": "See",
-        "itemurl": "https://de.wikipedia.org/wiki/Thomas_Jefferson_Jackson_See",
-        "itemname2": "Thomas Jefferson Jackson"
+        "itemurl": "https://de.wikipedia.org/wiki/Elliott_See",
+        "itemname2": "Elliott "
     },
     {
         "itemname": "See",
-        "itemurl": "https://de.wikipedia.org/wiki/Elliott_See",
-        "itemname2": "Elliott "
+        "itemurl": "https://de.wikipedia.org/wiki/Thomas_Jefferson_Jackson_See",
+        "itemname2": "Thomas Jefferson Jackson"
     },
     {
         "itemname": "Seeliger",
@@ -5428,11 +5428,6 @@
         "itemname": "Shepard",
         "itemurl": "https://de.wikipedia.org/wiki/Alan_Shepard",
         "itemname2": "Alan Bartlett"
-    },
-    {
-        "itemname": "Sheperd",
-        "itemurl": "https://de.wikipedia.org/wiki/William_McMichael_Shepherd",
-        "itemname2": "William McMichael"
     },
     {
         "itemname": "Shepherd",
@@ -5960,18 +5955,13 @@
     },
     {
         "itemname": "Walker",
-        "itemurl": "https://de.wikipedia.org/wiki/Arthur_Geoffrey_Walker",
-        "itemname2": "Arthur Geoffrey"
-    },
-    {
-        "itemname": "Walker",
         "itemurl": "http://en.wikipedia.org/wiki/Arthur_B._C._Walker,_Jr.",
         "itemname2": "Arthur Bertram Cuthbert, Jr."
     },
     {
         "itemname": "Walker",
-        "itemurl": "https://de.wikipedia.org/wiki/Joseph_Albert_Walker",
-        "itemname2": "Joseph Albert"
+        "itemurl": "https://de.wikipedia.org/wiki/Arthur_Geoffrey_Walker",
+        "itemname2": "Arthur Geoffrey"
     },
     {
         "itemname": "Walker",
@@ -5982,6 +5972,11 @@
         "itemname": "Walker",
         "itemurl": "https://de.wikipedia.org/wiki/David_Mathieson_Walker",
         "itemname2": "David Mathieson"
+    },
+    {
+        "itemname": "Walker",
+        "itemurl": "https://de.wikipedia.org/wiki/Joseph_Albert_Walker",
+        "itemname2": "Joseph Albert"
     },
     {
         "itemname": "Walker",
@@ -6065,13 +6060,13 @@
     },
     {
         "itemname": "White",
-        "itemurl": "https://de.wikipedia.org/wiki/Simon_White",
-        "itemname2": "Simon"
+        "itemurl": "https://de.wikipedia.org/wiki/Edward_Higgins_White",
+        "itemname2": "Edward Higgins"
     },
     {
         "itemname": "White",
-        "itemurl": "https://de.wikipedia.org/wiki/Edward_Higgins_White",
-        "itemname2": "Edward Higgins"
+        "itemurl": "https://de.wikipedia.org/wiki/Simon_White",
+        "itemname2": "Simon"
     },
     {
         "itemname": "Whitson",
@@ -6150,13 +6145,13 @@
     },
     {
         "itemname": "Wolf",
-        "itemurl": "https://de.wikipedia.org/wiki/Max_Wolf",
-        "itemname2": "Max"
+        "itemurl": "https://de.wikipedia.org/wiki/David_Alexander_Wolf",
+        "itemname2": "David Alexander"
     },
     {
         "itemname": "Wolf",
-        "itemurl": "https://de.wikipedia.org/wiki/David_Alexander_Wolf",
-        "itemname2": "David Alexander"
+        "itemurl": "https://de.wikipedia.org/wiki/Max_Wolf",
+        "itemname2": "Max"
     },
     {
         "itemname": "Wolk",
@@ -13508,52 +13503,52 @@
         "itemname2": "oortCloud"
     },
     {
-        "itemname": "Woschod 2 - EVA",
+        "itemname": "Woschod 2 EVA",
         "itemurl": "https://de.wikipedia.org/wiki/Woschod_2",
         "itemname2": "Woschod 2"
     },
     {
-        "itemname": "Gemini 4 - EVA",
+        "itemname": "Gemini 4 EVA",
         "itemurl": "https://de.wikipedia.org/wiki/Gemini_4",
         "itemname2": "Gemini 4"
     },
     {
-        "itemname": "Gemini 9 - EVA",
+        "itemname": "Gemini 9 EVA",
         "itemurl": "https://de.wikipedia.org/wiki/Gemini_9",
         "itemname2": "Gemini 9"
     },
     {
-        "itemname": "Gemini 10 - EVA 1 (Stand-Up-EVA)",
+        "itemname": "Gemini 10 EVA 1 (SEVA)",
         "itemurl": "https://de.wikipedia.org/wiki/Gemini_10",
         "itemname2": "Gemini 10"
     },
     {
-        "itemname": "Gemini 10 - EVA 2",
+        "itemname": "Gemini 10 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Gemini_10",
         "itemname2": "Gemini 10"
     },
     {
-        "itemname": "Gemini 11 - EVA 1",
+        "itemname": "Gemini 11 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Gemini_11",
         "itemname2": "Gemini 11"
     },
     {
-        "itemname": "Gemini 11 - EVA 2",
+        "itemname": "Gemini 11 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Gemini_11",
         "itemname2": "Gemini 11"
     },
     {
-        "itemname": "Gemini 12 - EVA 1 (Stand-Up-EVA)",
+        "itemname": "Gemini 12 EVA 1 (SEVA)",
         "itemurl": "https://de.wikipedia.org/wiki/Gemini_12",
         "itemname2": "Gemini 12"
     },
     {
-        "itemname": "Gemini 12 - EVA 2",
+        "itemname": "Gemini 12 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Gemini_12",
         "itemname2": "Gemini 12"
     },
     {
-        "itemname": "Gemini 12 - EVA 3 (Stand-Up-EVA)",
+        "itemname": "Gemini 12 EVA 3 (SEVA)",
         "itemurl": "https://de.wikipedia.org/wiki/Gemini_12",
         "itemname2": "Gemini 12"
     },
@@ -13563,7 +13558,7 @@
         "itemname2": "Sojus 4"
     },
     {
-        "itemname": "Apollo 9 - (Stand-Up-EVA)",
+        "itemname": "Apollo 9 SEVA",
         "itemurl": "https://de.wikipedia.org/wiki/Apollo_9",
         "itemname2": "Apollo 9"
     },
@@ -13593,7 +13588,7 @@
         "itemname2": "Apollo 14"
     },
     {
-        "itemname": "Apollo 15 - (Stand-Up-EVA)",
+        "itemname": "Apollo 15 SEVA",
         "itemurl": "https://de.wikipedia.org/wiki/Apollo_15",
         "itemname2": "Apollo 15"
     },
@@ -13613,7 +13608,7 @@
         "itemname2": "Apollo 15"
     },
     {
-        "itemname": "Apollo 15 - Rückflug EVA (Stand-Up-EVA)",
+        "itemname": "Apollo 15 - Rückflug SEVA",
         "itemurl": "https://de.wikipedia.org/wiki/Apollo_15",
         "itemname2": "Apollo 15"
     },
@@ -13633,7 +13628,7 @@
         "itemname2": "Apollo 16"
     },
     {
-        "itemname": "Apollo 16 - Rückflug EVA (Stand-Up-EVA)",
+        "itemname": "Apollo 16 - Rückflug SEVA",
         "itemurl": "https://de.wikipedia.org/wiki/Apollo_16",
         "itemname2": "Apollo 16"
     },
@@ -13653,1796 +13648,1796 @@
         "itemname2": "Apollo 17"
     },
     {
-        "itemname": "Apollo 17 - Rückflug EVA (Stand-Up-EVA)",
+        "itemname": "Apollo 17 - Rückflug SEVA",
         "itemurl": "https://de.wikipedia.org/wiki/Apollo_17",
         "itemname2": "Apollo 17"
     },
     {
-        "itemname": "Skylab 2 CM - EVA 1 (Stand-Up-EVA)",
+        "itemname": "Skylab 2 CM EVA 1 (SEVA)",
         "itemurl": "https://de.wikipedia.org/wiki/Skylab_2",
         "itemname2": "Skylab 2 CM"
     },
     {
-        "itemname": "Skylab 2 - EVA 2",
+        "itemname": "Skylab 2 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Skylab_2",
         "itemname2": "Skylab 2"
     },
     {
-        "itemname": "Skylab 2 - EVA 3",
+        "itemname": "Skylab 2 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/Skylab_2",
         "itemname2": "Skylab 2"
     },
     {
-        "itemname": "Skylab 3 - EVA 1",
+        "itemname": "Skylab 3 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Skylab_3",
         "itemname2": "Skylab 3"
     },
     {
-        "itemname": "Skylab 3 - EVA 2",
+        "itemname": "Skylab 3 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Skylab_3",
         "itemname2": "Skylab 3"
     },
     {
-        "itemname": "Skylab 3 - EVA 3",
+        "itemname": "Skylab 3 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/Skylab_3",
         "itemname2": "Skylab 3"
     },
     {
-        "itemname": "Skylab 4 - EVA 1",
+        "itemname": "Skylab 4 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Skylab_4",
         "itemname2": "Skylab 4"
     },
     {
-        "itemname": "Skylab 4 - EVA 2",
+        "itemname": "Skylab 4 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Skylab_4",
         "itemname2": "Skylab 4"
     },
     {
-        "itemname": "Skylab 4 - EVA 3",
+        "itemname": "Skylab 4 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/Skylab_4",
         "itemname2": "Skylab 4"
     },
     {
-        "itemname": "Skylab 4 - EVA 4",
+        "itemname": "Skylab 4 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/Skylab_4",
         "itemname2": "Skylab 4"
     },
     {
-        "itemname": "Saljut 6 EO-1 - (Stand-Up-EVA)",
+        "itemname": "Saljut 6 EO-1 SEVA",
         "itemurl": "https://de.wikipedia.org/wiki/Saljut_6",
         "itemname2": "Sojus 26"
     },
     {
-        "itemname": "Saljut 6 EO-2 - (Stand-Up-EVA)",
+        "itemname": "Saljut 6 EO-2 SEVA",
         "itemurl": "https://de.wikipedia.org/wiki/Saljut_6",
         "itemname2": "Sojus 29"
     },
     {
-        "itemname": "Saljut 6 EO-3 - EVA",
+        "itemname": "Saljut 6 EO-3 EVA",
         "itemurl": "https://de.wikipedia.org/wiki/Saljut_6",
         "itemname2": "Sojus 34"
     },
     {
-        "itemname": "Saljut 7 EO-1 - (Stand-Up-EVA)",
+        "itemname": "Saljut 7 EO-1 SEVA",
         "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
         "itemname2": "Sojus T-5"
     },
     {
-        "itemname": "STS-6 - EVA 1",
+        "itemname": "STS-6 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-6",
         "itemname2": "STS-6"
     },
     {
-        "itemname": "Saljut 7 EO-2 - EVA 1",
+        "itemname": "Saljut 7 EO-2 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
         "itemname2": "Sojus T-9"
     },
     {
-        "itemname": "Saljut 7 EO-2 - EVA 2",
+        "itemname": "Saljut 7 EO-2 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
         "itemname2": "Sojus T-9"
     },
     {
-        "itemname": "STS-41-B - EVA 1",
+        "itemname": "STS-41-B EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-41-B",
         "itemname2": "STS-41-B"
     },
     {
-        "itemname": "STS-41-B - EVA 2",
+        "itemname": "STS-41-B EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-41-B",
         "itemname2": "STS-41-B"
     },
     {
-        "itemname": "STS-41-C - EVA 1",
+        "itemname": "STS-41-C EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-41-C",
         "itemname2": "STS-41-C"
     },
     {
-        "itemname": "STS-41-C - EVA 2",
+        "itemname": "STS-41-C EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-41-C",
         "itemname2": "STS-41-C"
     },
     {
-        "itemname": "Saljut 7 EO-3 - EVA 1",
+        "itemname": "Saljut 7 EO-3 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
         "itemname2": "Sojus T-11"
     },
     {
-        "itemname": "Saljut 7 EO-3 - EVA 2",
+        "itemname": "Saljut 7 EO-3 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
         "itemname2": "Sojus T-11"
     },
     {
-        "itemname": "Saljut 7 EO-3 - EVA 3",
+        "itemname": "Saljut 7 EO-3 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
         "itemname2": "Sojus T-11"
     },
     {
-        "itemname": "Saljut 7 EO-3 - EVA 4",
+        "itemname": "Saljut 7 EO-3 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
         "itemname2": "Sojus T-11"
     },
     {
-        "itemname": "Saljut 7 EO-3 - EVA 5",
+        "itemname": "Saljut 7 EO-3 EVA 5",
         "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
         "itemname2": "Sojus T-11"
     },
     {
-        "itemname": "Saljut 7 - VE-4 - EVA 1",
+        "itemname": "Saljut 7 - VE-4 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
         "itemname2": "Sojus T-12"
     },
     {
-        "itemname": "Saljut 7 EO-3 - EVA 6",
+        "itemname": "Saljut 7 EO-3 EVA 6",
         "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
         "itemname2": "Sojus T-11"
     },
     {
-        "itemname": "STS-41-G - EVA 1",
+        "itemname": "STS-41-G EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-41-G",
         "itemname2": "STS-41-G"
     },
     {
-        "itemname": "STS-51-A - EVA 1",
+        "itemname": "STS-51-A EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-51-A",
         "itemname2": "STS-51-A"
     },
     {
-        "itemname": "STS-51-A - EVA 2",
+        "itemname": "STS-51-A EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-51-A",
         "itemname2": "STS-51-A"
     },
     {
-        "itemname": "STS-51-D - EVA 1",
+        "itemname": "STS-51-D EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-51-D",
         "itemname2": "STS-51-D"
     },
     {
-        "itemname": "Saljut 7 EO-4 - EVA 1",
+        "itemname": "Saljut 7 EO-4 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
         "itemname2": "Sojus T-13"
     },
     {
-        "itemname": "STS-51-I - EVA 1",
+        "itemname": "STS-51-I EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-51-I",
         "itemname2": "STS-51-I"
     },
     {
-        "itemname": "STS-51-I - EVA 2",
+        "itemname": "STS-51-I EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-51-I",
         "itemname2": "STS-51-I"
     },
     {
-        "itemname": "STS-61-B - EVA 1",
+        "itemname": "STS-61-B EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-61-B",
         "itemname2": "STS-61-B"
     },
     {
-        "itemname": "STS-61-B - EVA 2",
+        "itemname": "STS-61-B EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-61-B",
         "itemname2": "STS-61-B"
     },
     {
-        "itemname": "Saljut 7 EO-6 - EVA 1",
+        "itemname": "Saljut 7 EO-6 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
         "itemname2": "Sojus T-15"
     },
     {
-        "itemname": "Saljut 7 EO-6 - EVA 2",
+        "itemname": "Saljut 7 EO-6 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
         "itemname2": "Sojus T-15"
     },
     {
-        "itemname": "Mir EO-2 - EVA 1",
+        "itemname": "Mir EO-2 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-2"
     },
     {
-        "itemname": "Mir EO-2 - EVA 2",
+        "itemname": "Mir EO-2 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-2"
     },
     {
-        "itemname": "Mir EO-2 - EVA 3",
+        "itemname": "Mir EO-2 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-2"
     },
     {
-        "itemname": "Mir EO-3 - EVA 1",
+        "itemname": "Mir EO-3 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-4"
     },
     {
-        "itemname": "Mir EO-3 - EVA 2",
+        "itemname": "Mir EO-3 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-4"
     },
     {
-        "itemname": "Mir EO-3 - EVA 3",
+        "itemname": "Mir EO-3 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-4"
     },
     {
-        "itemname": "Mir EO-4 - EVA 1",
+        "itemname": "Mir EO-4 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-7"
     },
     {
-        "itemname": "Mir EO-5 - EVA 1",
+        "itemname": "Mir EO-5 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-8"
     },
     {
-        "itemname": "Mir EO-5 - EVA 2",
+        "itemname": "Mir EO-5 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-8"
     },
     {
-        "itemname": "Mir EO-5 - EVA 3",
+        "itemname": "Mir EO-5 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-8"
     },
     {
-        "itemname": "Mir EO-5 - EVA 4",
+        "itemname": "Mir EO-5 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-8"
     },
     {
-        "itemname": "Mir EO-5 - EVA 5",
+        "itemname": "Mir EO-5 EVA 5",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-8"
     },
     {
-        "itemname": "Mir EO-6 - EVA 1",
+        "itemname": "Mir EO-6 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-9"
     },
     {
-        "itemname": "Mir EO-6 - EVA 2",
+        "itemname": "Mir EO-6 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-9"
     },
     {
-        "itemname": "Mir EO-7 - EVA 1",
+        "itemname": "Mir EO-7 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-10"
     },
     {
-        "itemname": "Mir EO-8 - EVA 1",
+        "itemname": "Mir EO-8 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-11"
     },
     {
-        "itemname": "Mir EO-8 - EVA 2",
+        "itemname": "Mir EO-8 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-11"
     },
     {
-        "itemname": "Mir EO-8 - EVA 3",
+        "itemname": "Mir EO-8 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-11"
     },
     {
-        "itemname": "STS-37 - EVA 1",
+        "itemname": "STS-37 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-37",
         "itemname2": "STS-37"
     },
     {
-        "itemname": "STS-37 - EVA 2",
+        "itemname": "STS-37 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-37",
         "itemname2": "STS-37"
     },
     {
-        "itemname": "Mir EO-8 - EVA 4",
+        "itemname": "Mir EO-8 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-11"
     },
     {
-        "itemname": "Mir EO-9 - EVA 1",
+        "itemname": "Mir EO-9 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-12"
     },
     {
-        "itemname": "Mir EO-9 - EVA 2",
+        "itemname": "Mir EO-9 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-12"
     },
     {
-        "itemname": "Mir EO-9 - EVA 3",
+        "itemname": "Mir EO-9 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-12"
     },
     {
-        "itemname": "Mir EO-9 - EVA 4",
+        "itemname": "Mir EO-9 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-12"
     },
     {
-        "itemname": "Mir EO-9 - EVA 5",
+        "itemname": "Mir EO-9 EVA 5",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-12"
     },
     {
-        "itemname": "Mir EO-9 - EVA 6",
+        "itemname": "Mir EO-9 EVA 6",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-12"
     },
     {
-        "itemname": "Mir EO-10 - EVA 1",
+        "itemname": "Mir EO-10 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-13"
     },
     {
-        "itemname": "STS-49 - EVA 1",
+        "itemname": "STS-49 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-49",
         "itemname2": "STS-49"
     },
     {
-        "itemname": "STS-49 - EVA 2",
+        "itemname": "STS-49 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-49",
         "itemname2": "STS-49"
     },
     {
-        "itemname": "STS-49 - EVA 3",
+        "itemname": "STS-49 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-49",
         "itemname2": "STS-49"
     },
     {
-        "itemname": "STS-49 - EVA 4",
+        "itemname": "STS-49 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/STS-49",
         "itemname2": "STS-49"
     },
     {
-        "itemname": "Mir EO-11 - EVA 1",
+        "itemname": "Mir EO-11 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-14"
     },
     {
-        "itemname": "Mir EO-12 - EVA 1",
+        "itemname": "Mir EO-12 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-15"
     },
     {
-        "itemname": "Mir EO-12 - EVA 2",
+        "itemname": "Mir EO-12 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-15"
     },
     {
-        "itemname": "Mir EO-12 - EVA 3",
+        "itemname": "Mir EO-12 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-15"
     },
     {
-        "itemname": "Mir EO-12 - EVA 4",
+        "itemname": "Mir EO-12 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-15"
     },
     {
-        "itemname": "STS-54 - EVA 1",
+        "itemname": "STS-54 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-54",
         "itemname2": "STS-54"
     },
     {
-        "itemname": "Mir EO-13 - EVA 1",
+        "itemname": "Mir EO-13 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-16"
     },
     {
-        "itemname": "Mir EO-13 - EVA 2",
+        "itemname": "Mir EO-13 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-16"
     },
     {
-        "itemname": "STS-57 - EVA 1",
+        "itemname": "STS-57 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-57",
         "itemname2": "STS-57"
     },
     {
-        "itemname": "Mir EO-14 - EVA 1",
+        "itemname": "Mir EO-14 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-17"
     },
     {
-        "itemname": "STS-51 - EVA 1",
+        "itemname": "STS-51 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-51",
         "itemname2": "STS-51"
     },
     {
-        "itemname": "Mir EO-14 - EVA 2",
+        "itemname": "Mir EO-14 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-17"
     },
     {
-        "itemname": "Mir EO-14 - EVA 3",
+        "itemname": "Mir EO-14 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-17"
     },
     {
-        "itemname": "Mir EO-14 - EVA 4",
+        "itemname": "Mir EO-14 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-17"
     },
     {
-        "itemname": "Mir EO-14 - EVA 5",
+        "itemname": "Mir EO-14 EVA 5",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-17"
     },
     {
-        "itemname": "STS-61 - EVA 1",
+        "itemname": "STS-61 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-61",
         "itemname2": "STS-61"
     },
     {
-        "itemname": "STS-61 - EVA 2",
+        "itemname": "STS-61 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-61",
         "itemname2": "STS-61"
     },
     {
-        "itemname": "STS-61 - EVA 3",
+        "itemname": "STS-61 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-61",
         "itemname2": "STS-61"
     },
     {
-        "itemname": "STS-61 - EVA 4",
+        "itemname": "STS-61 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/STS-61",
         "itemname2": "STS-61"
     },
     {
-        "itemname": "STS-61 - EVA 5",
+        "itemname": "STS-61 EVA 5",
         "itemurl": "https://de.wikipedia.org/wiki/STS-61",
         "itemname2": "STS-61"
     },
     {
-        "itemname": "Mir EO-16 - EVA 1",
+        "itemname": "Mir EO-16 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-19"
     },
     {
-        "itemname": "Mir EO-16 - EVA 2",
+        "itemname": "Mir EO-16 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-19"
     },
     {
-        "itemname": "STS-64 - EVA 1",
+        "itemname": "STS-64 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-64",
         "itemname2": "STS-64"
     },
     {
-        "itemname": "STS-63 - EVA 1",
+        "itemname": "STS-63 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-63",
         "itemname2": "STS-63"
     },
     {
-        "itemname": "Mir EO-18 - EVA 1",
+        "itemname": "Mir EO-18 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-21"
     },
     {
-        "itemname": "Mir EO-18 - EVA 2",
+        "itemname": "Mir EO-18 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-21"
     },
     {
-        "itemname": "Mir EO-18 - EVA 3",
+        "itemname": "Mir EO-18 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-21"
     },
     {
-        "itemname": "Mir EO-18 - EVA 4",
+        "itemname": "Mir EO-18 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-21"
     },
     {
-        "itemname": "Mir EO-18 - EVA 5",
+        "itemname": "Mir EO-18 EVA 5",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-21"
     },
     {
-        "itemname": "Mir EO-19 - EVA 1",
+        "itemname": "Mir EO-19 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "STS-71"
     },
     {
-        "itemname": "Mir EO-19 - EVA 2",
+        "itemname": "Mir EO-19 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "STS-71"
     },
     {
-        "itemname": "Mir EO-19 - EVA 3",
+        "itemname": "Mir EO-19 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "STS-71"
     },
     {
-        "itemname": "STS-69 - EVA 1",
+        "itemname": "STS-69 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-69",
         "itemname2": "STS-69"
     },
     {
-        "itemname": "Mir EO-20 - EVA 1",
+        "itemname": "Mir EO-20 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-22"
     },
     {
-        "itemname": "Mir EO-20 - EVA 2",
+        "itemname": "Mir EO-20 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-22"
     },
     {
-        "itemname": "STS-72 - EVA 1",
+        "itemname": "STS-72 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-72",
         "itemname2": "STS-72"
     },
     {
-        "itemname": "STS-72 - EVA 2",
+        "itemname": "STS-72 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-72",
         "itemname2": "STS-72"
     },
     {
-        "itemname": "Mir EO-20 - EVA 3",
+        "itemname": "Mir EO-20 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-22"
     },
     {
-        "itemname": "Mir EO-21 - EVA 1",
+        "itemname": "Mir EO-21 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-23"
     },
     {
-        "itemname": "STS-76/Mir EO-21 - EVA",
+        "itemname": "STS-76/Mir EO-21 EVA",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "STS-76"
     },
     {
-        "itemname": "Mir EO-21 - EVA 2",
+        "itemname": "Mir EO-21 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-23"
     },
     {
-        "itemname": "Mir EO-21 - EVA 3",
+        "itemname": "Mir EO-21 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-23"
     },
     {
-        "itemname": "Mir EO-21 - EVA 4",
+        "itemname": "Mir EO-21 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-23"
     },
     {
-        "itemname": "Mir EO-21 - EVA 5",
+        "itemname": "Mir EO-21 EVA 5",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-23"
     },
     {
-        "itemname": "Mir EO-21 - EVA 6",
+        "itemname": "Mir EO-21 EVA 6",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-23"
     },
     {
-        "itemname": "Mir EO-22 - EVA 1",
+        "itemname": "Mir EO-22 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-24"
     },
     {
-        "itemname": "Mir EO-22 - EVA 2",
+        "itemname": "Mir EO-22 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-24"
     },
     {
-        "itemname": "STS-82 - EVA 1",
+        "itemname": "STS-82 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-82",
         "itemname2": "STS-82"
     },
     {
-        "itemname": "STS-82 - EVA 2",
+        "itemname": "STS-82 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-82",
         "itemname2": "STS-82"
     },
     {
-        "itemname": "STS-82 - EVA 3",
+        "itemname": "STS-82 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-82",
         "itemname2": "STS-82"
     },
     {
-        "itemname": "STS-82 - EVA 4",
+        "itemname": "STS-82 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/STS-82",
         "itemname2": "STS-82"
     },
     {
-        "itemname": "STS-82 - EVA 5",
+        "itemname": "STS-82 EVA 5",
         "itemurl": "https://de.wikipedia.org/wiki/STS-82",
         "itemname2": "STS-82"
     },
     {
-        "itemname": "Mir EO-23 - EVA 1",
+        "itemname": "Mir EO-23 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-25"
     },
     {
-        "itemname": "Mir EO-24 - EVA 1",
+        "itemname": "Mir EO-24 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-26"
     },
     {
-        "itemname": "Mir EO-24 - EVA 2",
+        "itemname": "Mir EO-24 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-26"
     },
     {
-        "itemname": "STS-86 - EVA 1",
+        "itemname": "STS-86 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-86",
         "itemname2": "STS-86"
     },
     {
-        "itemname": "Mir EO-24 - EVA 3",
+        "itemname": "Mir EO-24 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-26"
     },
     {
-        "itemname": "Mir EO-24 - EVA 4",
+        "itemname": "Mir EO-24 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-26"
     },
     {
-        "itemname": "Mir EO-24 - EVA 5",
+        "itemname": "Mir EO-24 EVA 5",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-26"
     },
     {
-        "itemname": "STS-87 - EVA 1",
+        "itemname": "STS-87 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-87",
         "itemname2": "STS-87"
     },
     {
-        "itemname": "STS-87 - EVA 2",
+        "itemname": "STS-87 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-87",
         "itemname2": "STS-87"
     },
     {
-        "itemname": "Mir EO-24 - EVA 6",
+        "itemname": "Mir EO-24 EVA 6",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-26"
     },
     {
-        "itemname": "Mir EO-24 - EVA 7",
+        "itemname": "Mir EO-24 EVA 7",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-26"
     },
     {
-        "itemname": "Mir EO-25 - EVA 1",
+        "itemname": "Mir EO-25 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-27"
     },
     {
-        "itemname": "Mir EO-25 - EVA 2",
+        "itemname": "Mir EO-25 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-27"
     },
     {
-        "itemname": "Mir EO-25 - EVA 3",
+        "itemname": "Mir EO-25 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-27"
     },
     {
-        "itemname": "Mir EO-25 - EVA 4",
+        "itemname": "Mir EO-25 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-27"
     },
     {
-        "itemname": "Mir EO-25 - EVA 5",
+        "itemname": "Mir EO-25 EVA 5",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-27"
     },
     {
-        "itemname": "Mir EO-26 - EVA 1",
+        "itemname": "Mir EO-26 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-28"
     },
     {
-        "itemname": "Mir EO-26 - EVA 2",
+        "itemname": "Mir EO-26 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-28"
     },
     {
-        "itemname": "STS-88 - EVA 1",
+        "itemname": "STS-88 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-88",
         "itemname2": "STS-88"
     },
     {
-        "itemname": "STS-88 - EVA 2",
+        "itemname": "STS-88 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-88",
         "itemname2": "STS-88"
     },
     {
-        "itemname": "STS-88 - EVA 3",
+        "itemname": "STS-88 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-88",
         "itemname2": "STS-88"
     },
     {
-        "itemname": "Mir EO-27 - EVA 1",
+        "itemname": "Mir EO-27 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-29"
     },
     {
-        "itemname": "STS-96 - EVA 1",
+        "itemname": "STS-96 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-96",
         "itemname2": "STS-96"
     },
     {
-        "itemname": "Mir EO-27 - EVA 2",
+        "itemname": "Mir EO-27 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-28"
     },
     {
-        "itemname": "Mir EO-27 - EVA 3",
+        "itemname": "Mir EO-27 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-28"
     },
     {
-        "itemname": "STS-103 - EVA 1",
+        "itemname": "STS-103 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-103",
         "itemname2": "STS-103"
     },
     {
-        "itemname": "STS-103 - EVA 2",
+        "itemname": "STS-103 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-103",
         "itemname2": "STS-103"
     },
     {
-        "itemname": "STS-103 - EVA 3",
+        "itemname": "STS-103 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-103",
         "itemname2": "STS-103"
     },
     {
-        "itemname": "Mir EO-28 - EVA 1",
+        "itemname": "Mir EO-28 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
         "itemname2": "Sojus TM-30"
     },
     {
-        "itemname": "STS-101 - EVA 1",
+        "itemname": "STS-101 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-101",
         "itemname2": "STS-101"
     },
     {
-        "itemname": "STS-106 - EVA 1",
+        "itemname": "STS-106 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-106",
         "itemname2": "STS-106"
     },
     {
-        "itemname": "STS-92 - EVA 1",
+        "itemname": "STS-92 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-92",
         "itemname2": "STS-92"
     },
     {
-        "itemname": "STS-92 - EVA 2",
+        "itemname": "STS-92 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-92",
         "itemname2": "STS-92"
     },
     {
-        "itemname": "STS-92 - EVA 3",
+        "itemname": "STS-92 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-92",
         "itemname2": "STS-92"
     },
     {
-        "itemname": "STS-92 - EVA 4",
+        "itemname": "STS-92 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/STS-92",
         "itemname2": "STS-92"
     },
     {
-        "itemname": "STS-97 - EVA 1",
+        "itemname": "STS-97 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-97",
         "itemname2": "STS-97"
     },
     {
-        "itemname": "STS-97 - EVA 2",
+        "itemname": "STS-97 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-97",
         "itemname2": "STS-97"
     },
     {
-        "itemname": "STS-97 - EVA 3",
+        "itemname": "STS-97 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-97",
         "itemname2": "STS-97"
     },
     {
-        "itemname": "STS-98 - EVA 1",
+        "itemname": "STS-98 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-98",
         "itemname2": "STS-98"
     },
     {
-        "itemname": "STS-98 - EVA 2",
+        "itemname": "STS-98 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-98",
         "itemname2": "STS-98"
     },
     {
-        "itemname": "STS-98 - EVA 3",
+        "itemname": "STS-98 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-98",
         "itemname2": "STS-98"
     },
     {
-        "itemname": "STS-102 - EVA 1",
+        "itemname": "STS-102 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-102",
         "itemname2": "STS-102"
     },
     {
-        "itemname": "STS-102 - EVA 2",
+        "itemname": "STS-102 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-102",
         "itemname2": "STS-102"
     },
     {
-        "itemname": "STS-100 - EVA 1",
+        "itemname": "STS-100 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-100",
         "itemname2": "STS-100"
     },
     {
-        "itemname": "STS-100 - EVA 2",
+        "itemname": "STS-100 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-100",
         "itemname2": "STS-100"
     },
     {
-        "itemname": "ISS-Expedition 2 - EVA 1",
+        "itemname": "ISS-Expedition 2 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_2",
         "itemname2": "STS-102"
     },
     {
-        "itemname": "STS-104 - EVA 1",
+        "itemname": "STS-104 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-104",
         "itemname2": "STS-104"
     },
     {
-        "itemname": "STS-104 - EVA 2",
+        "itemname": "STS-104 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-104",
         "itemname2": "STS-104"
     },
     {
-        "itemname": "STS-104 - EVA 3",
+        "itemname": "STS-104 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-104",
         "itemname2": "STS-104"
     },
     {
-        "itemname": "STS-105 - EVA 1",
+        "itemname": "STS-105 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-105",
         "itemname2": "STS-105"
     },
     {
-        "itemname": "STS-105 - EVA 2",
+        "itemname": "STS-105 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-105",
         "itemname2": "STS-105"
     },
     {
-        "itemname": "ISS-Expedition 3 - EVA 1",
+        "itemname": "ISS-Expedition 3 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_3",
         "itemname2": "STS-105"
     },
     {
-        "itemname": "ISS-Expedition 3 - EVA 2",
+        "itemname": "ISS-Expedition 3 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_3",
         "itemname2": "STS-105"
     },
     {
-        "itemname": "ISS-Expedition 3 - EVA 3",
+        "itemname": "ISS-Expedition 3 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_3",
         "itemname2": "STS-105"
     },
     {
-        "itemname": "ISS-Expedition 3 - EVA 4",
+        "itemname": "ISS-Expedition 3 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_3",
         "itemname2": "STS-105"
     },
     {
-        "itemname": "STS-108 - EVA 1",
+        "itemname": "STS-108 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-108",
         "itemname2": "STS-108"
     },
     {
-        "itemname": "ISS-Expedition 4 - EVA 1",
+        "itemname": "ISS-Expedition 4 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_4",
         "itemname2": "STS-108"
     },
     {
-        "itemname": "ISS-Expedition 4 - EVA 2",
+        "itemname": "ISS-Expedition 4 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_4",
         "itemname2": "STS-108"
     },
     {
-        "itemname": "ISS-Expedition 4 - EVA 3",
+        "itemname": "ISS-Expedition 4 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_4",
         "itemname2": "STS-108"
     },
     {
-        "itemname": "STS-109 - EVA 1",
+        "itemname": "STS-109 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-109",
         "itemname2": "STS-109"
     },
     {
-        "itemname": "STS-109 - EVA 2",
+        "itemname": "STS-109 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-109",
         "itemname2": "STS-109"
     },
     {
-        "itemname": "STS-109 - EVA 3",
+        "itemname": "STS-109 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-109",
         "itemname2": "STS-109"
     },
     {
-        "itemname": "STS-109 - EVA 4",
+        "itemname": "STS-109 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/STS-109",
         "itemname2": "STS-109"
     },
     {
-        "itemname": "STS-109 - EVA 5",
+        "itemname": "STS-109 EVA 5",
         "itemurl": "https://de.wikipedia.org/wiki/STS-109",
         "itemname2": "STS-109"
     },
     {
-        "itemname": "STS-110 - EVA 1",
+        "itemname": "STS-110 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-110",
         "itemname2": "STS-110"
     },
     {
-        "itemname": "STS-110 - EVA 2",
+        "itemname": "STS-110 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-110",
         "itemname2": "STS-110"
     },
     {
-        "itemname": "STS-110 - EVA 3",
+        "itemname": "STS-110 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-110",
         "itemname2": "STS-110"
     },
     {
-        "itemname": "STS-110 - EVA 4",
+        "itemname": "STS-110 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/STS-110",
         "itemname2": "STS-110"
     },
     {
-        "itemname": "STS-111 - EVA 1",
+        "itemname": "STS-111 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-111",
         "itemname2": "STS-111"
     },
     {
-        "itemname": "STS-111 - EVA 2",
+        "itemname": "STS-111 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-111",
         "itemname2": "STS-111"
     },
     {
-        "itemname": "STS-111 - EVA 3",
+        "itemname": "STS-111 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-111",
         "itemname2": "STS-111"
     },
     {
-        "itemname": "ISS-Expedition 5 - EVA 1",
+        "itemname": "ISS-Expedition 5 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_5",
         "itemname2": "STS-111"
     },
     {
-        "itemname": "ISS-Expedition 5 - EVA 2",
+        "itemname": "ISS-Expedition 5 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_5",
         "itemname2": "STS-111"
     },
     {
-        "itemname": "STS-112 - EVA 1",
+        "itemname": "STS-112 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-112",
         "itemname2": "STS-112"
     },
     {
-        "itemname": "STS-112 - EVA 2",
+        "itemname": "STS-112 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-112",
         "itemname2": "STS-112"
     },
     {
-        "itemname": "STS-112 - EVA 3",
+        "itemname": "STS-112 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-112",
         "itemname2": "STS-112"
     },
     {
-        "itemname": "STS-113 - EVA 1",
+        "itemname": "STS-113 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-113",
         "itemname2": "STS-113"
     },
     {
-        "itemname": "STS-113 - EVA 2",
+        "itemname": "STS-113 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-113",
         "itemname2": "STS-113"
     },
     {
-        "itemname": "STS-113 - EVA 3",
+        "itemname": "STS-113 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-113",
         "itemname2": "STS-113"
     },
     {
-        "itemname": "ISS-Expedition 6 - EVA 1",
+        "itemname": "ISS-Expedition 6 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_6",
         "itemname2": "STS-113"
     },
     {
-        "itemname": "ISS-Expedition 6 - EVA 2",
+        "itemname": "ISS-Expedition 6 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_6",
         "itemname2": "STS-113"
     },
     {
-        "itemname": "ISS-Expedition 8 - EVA 1",
+        "itemname": "ISS-Expedition 8 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_8",
         "itemname2": "Sojus TMA-3"
     },
     {
-        "itemname": "ISS-Expedition 9 - EVA 1",
+        "itemname": "ISS-Expedition 9 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_9",
         "itemname2": "Sojus TMA-4"
     },
     {
-        "itemname": "ISS-Expedition 9 - EVA 2",
+        "itemname": "ISS-Expedition 9 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_9",
         "itemname2": "Sojus TMA-4"
     },
     {
-        "itemname": "ISS-Expedition 9 - EVA 3",
+        "itemname": "ISS-Expedition 9 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_9",
         "itemname2": "Sojus TMA-4"
     },
     {
-        "itemname": "ISS-Expedition 9 - EVA 4",
+        "itemname": "ISS-Expedition 9 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_9",
         "itemname2": "Sojus TMA-4"
     },
     {
-        "itemname": "ISS-Expedition 10 - EVA 1",
+        "itemname": "ISS-Expedition 10 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_10",
         "itemname2": "Sojus TMA-5"
     },
     {
-        "itemname": "ISS-Expedition 10 - EVA 2",
+        "itemname": "ISS-Expedition 10 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_10",
         "itemname2": "Sojus TMA-5"
     },
     {
-        "itemname": "STS-114 - EVA 1",
+        "itemname": "STS-114 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-114",
         "itemname2": "STS-114"
     },
     {
-        "itemname": "STS-114 - EVA 2",
+        "itemname": "STS-114 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-114",
         "itemname2": "STS-114"
     },
     {
-        "itemname": "STS-114 - EVA 3",
+        "itemname": "STS-114 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-114",
         "itemname2": "STS-114"
     },
     {
-        "itemname": "ISS-Expedition 11 - EVA 1",
+        "itemname": "ISS-Expedition 11 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_11",
         "itemname2": "Sojus TMA-6"
     },
     {
-        "itemname": "ISS-Expedition 12 - EVA 1",
+        "itemname": "ISS-Expedition 12 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_12",
         "itemname2": "Sojus TMA-7"
     },
     {
-        "itemname": "ISS-Expedition 12 - EVA 2",
+        "itemname": "ISS-Expedition 12 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_12",
         "itemname2": "Sojus TMA-7"
     },
     {
-        "itemname": "ISS-Expedition 13 - EVA 1",
+        "itemname": "ISS-Expedition 13 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_13",
         "itemname2": "Sojus TMA-8"
     },
     {
-        "itemname": "STS-121 - EVA 1",
+        "itemname": "STS-121 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-121",
         "itemname2": "STS-121"
     },
     {
-        "itemname": "STS-121 - EVA 2",
+        "itemname": "STS-121 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-121",
         "itemname2": "STS-121"
     },
     {
-        "itemname": "STS-121 - EVA 3",
+        "itemname": "STS-121 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-121",
         "itemname2": "STS-121"
     },
     {
-        "itemname": "ISS-Expedition 13 - EVA 2",
+        "itemname": "ISS-Expedition 13 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_13",
         "itemname2": "Sojus TMA-8"
     },
     {
-        "itemname": "STS-115 - EVA 1",
+        "itemname": "STS-115 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-115",
         "itemname2": "STS-115"
     },
     {
-        "itemname": "STS-115 - EVA 2",
+        "itemname": "STS-115 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-115",
         "itemname2": "STS-115"
     },
     {
-        "itemname": "STS-115 - EVA 3",
+        "itemname": "STS-115 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-115",
         "itemname2": "STS-115"
     },
     {
-        "itemname": "ISS-Expedition 14 - EVA 1",
+        "itemname": "ISS-Expedition 14 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_14",
         "itemname2": "Sojus TMA-9"
     },
     {
-        "itemname": "STS-116 - EVA 1",
+        "itemname": "STS-116 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-116",
         "itemname2": "STS-116"
     },
     {
-        "itemname": "STS-116 - EVA 2",
+        "itemname": "STS-116 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-116",
         "itemname2": "STS-116"
     },
     {
-        "itemname": "STS-116 - EVA 3",
+        "itemname": "STS-116 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-116",
         "itemname2": "STS-116"
     },
     {
-        "itemname": "STS-116 - EVA 4",
+        "itemname": "STS-116 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/STS-116",
         "itemname2": "STS-116"
     },
     {
-        "itemname": "ISS-Expedition 14 - EVA 2",
+        "itemname": "ISS-Expedition 14 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_14",
         "itemname2": "Sojus TMA-9"
     },
     {
-        "itemname": "ISS-Expedition 14 - EVA 3",
+        "itemname": "ISS-Expedition 14 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_14",
         "itemname2": "Sojus TMA-9"
     },
     {
-        "itemname": "ISS-Expedition 14 - EVA 4",
+        "itemname": "ISS-Expedition 14 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_14",
         "itemname2": "Sojus TMA-9"
     },
     {
-        "itemname": "ISS-Expedition 14 - EVA 5",
+        "itemname": "ISS-Expedition 14 EVA 5",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_14",
         "itemname2": "Sojus TMA-9"
     },
     {
-        "itemname": "ISS-Expedition 15 - EVA 1",
+        "itemname": "ISS-Expedition 15 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_15",
         "itemname2": "Sojus TMA-10"
     },
     {
-        "itemname": "ISS-Expedition 15 - EVA 2",
+        "itemname": "ISS-Expedition 15 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_15",
         "itemname2": "Sojus TMA-10"
     },
     {
-        "itemname": "STS-117 - EVA 1",
+        "itemname": "STS-117 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-117",
         "itemname2": "STS-117"
     },
     {
-        "itemname": "STS-117 - EVA 2",
+        "itemname": "STS-117 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-117",
         "itemname2": "STS-117"
     },
     {
-        "itemname": "STS-117 - EVA 3",
+        "itemname": "STS-117 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-117",
         "itemname2": "STS-117"
     },
     {
-        "itemname": "STS-117 - EVA 4",
+        "itemname": "STS-117 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/STS-117",
         "itemname2": "STS-117"
     },
     {
-        "itemname": "ISS-Expedition 15 - EVA 3",
+        "itemname": "ISS-Expedition 15 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_15",
         "itemname2": "Sojus TMA-10"
     },
     {
-        "itemname": "STS-118 - EVA 1",
+        "itemname": "STS-118 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-118",
         "itemname2": "STS-118"
     },
     {
-        "itemname": "STS-118 - EVA 2",
+        "itemname": "STS-118 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-118",
         "itemname2": "STS-118"
     },
     {
-        "itemname": "STS-118 - EVA 3",
+        "itemname": "STS-118 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-118",
         "itemname2": "STS-118"
     },
     {
-        "itemname": "STS-118 - EVA 4",
+        "itemname": "STS-118 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/STS-118",
         "itemname2": "STS-118"
     },
     {
-        "itemname": "STS-120 - EVA 1",
+        "itemname": "STS-120 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-120",
         "itemname2": "STS-120"
     },
     {
-        "itemname": "STS-120 - EVA 2",
+        "itemname": "STS-120 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-120",
         "itemname2": "STS-120"
     },
     {
-        "itemname": "STS-120 - EVA 3",
+        "itemname": "STS-120 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-120",
         "itemname2": "STS-120"
     },
     {
-        "itemname": "STS-120 - EVA 4",
+        "itemname": "STS-120 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/STS-120",
         "itemname2": "STS-120"
     },
     {
-        "itemname": "ISS-Expedition 16 - EVA 1",
+        "itemname": "ISS-Expedition 16 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_16",
         "itemname2": "Sojus TMA-11"
     },
     {
-        "itemname": "ISS-Expedition 16 - EVA 2",
+        "itemname": "ISS-Expedition 16 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_16",
         "itemname2": "Sojus TMA-11"
     },
     {
-        "itemname": "ISS-Expedition 16 - EVA 3",
+        "itemname": "ISS-Expedition 16 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_16",
         "itemname2": "Sojus TMA-11"
     },
     {
-        "itemname": "ISS-Expedition 16 - EVA 4",
+        "itemname": "ISS-Expedition 16 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_16",
         "itemname2": "Sojus TMA-11"
     },
     {
-        "itemname": "ISS-Expedition 16 - EVA 5",
+        "itemname": "ISS-Expedition 16 EVA 5",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_16",
         "itemname2": "Sojus TMA-11"
     },
     {
-        "itemname": "STS-122 - EVA 1",
+        "itemname": "STS-122 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-122",
         "itemname2": "STS-122"
     },
     {
-        "itemname": "STS-122 - EVA 2",
+        "itemname": "STS-122 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-122",
         "itemname2": "STS-122"
     },
     {
-        "itemname": "STS-122 - EVA 3",
+        "itemname": "STS-122 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-122",
         "itemname2": "STS-122"
     },
     {
-        "itemname": "STS-123 - EVA 1",
+        "itemname": "STS-123 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-123",
         "itemname2": "STS-123"
     },
     {
-        "itemname": "STS-123 - EVA 2",
+        "itemname": "STS-123 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-123",
         "itemname2": "STS-123"
     },
     {
-        "itemname": "STS-123 - EVA 3",
+        "itemname": "STS-123 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-123",
         "itemname2": "STS-123"
     },
     {
-        "itemname": "STS-123 - EVA 4",
+        "itemname": "STS-123 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/STS-123",
         "itemname2": "STS-123"
     },
     {
-        "itemname": "STS-123 - EVA 5",
+        "itemname": "STS-123 EVA 5",
         "itemurl": "https://de.wikipedia.org/wiki/STS-123",
         "itemname2": "STS-123"
     },
     {
-        "itemname": "STS-124 - EVA 1",
+        "itemname": "STS-124 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-124",
         "itemname2": "STS-124"
     },
     {
-        "itemname": "STS-124 - EVA 2",
+        "itemname": "STS-124 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-124",
         "itemname2": "STS-124"
     },
     {
-        "itemname": "STS-124 - EVA 3",
+        "itemname": "STS-124 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-124",
         "itemname2": "STS-124"
     },
     {
-        "itemname": "ISS-Expedition 17 - EVA 1",
+        "itemname": "ISS-Expedition 17 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_17",
         "itemname2": "Sojus TMA-12"
     },
     {
-        "itemname": "ISS-Expedition 17 - EVA 2",
+        "itemname": "ISS-Expedition 17 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_17",
         "itemname2": "Sojus TMA-12"
     },
     {
-        "itemname": "Shenzhou 7 - EVA",
+        "itemname": "Shenzhou 7 EVA",
         "itemurl": "https://de.wikipedia.org/wiki/Shenzhou_7"
     },
     {
-        "itemname": "STS-126 - EVA 1",
+        "itemname": "STS-126 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-126",
         "itemname2": "STS-126"
     },
     {
-        "itemname": "STS-126 - EVA 2",
+        "itemname": "STS-126 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-126",
         "itemname2": "STS-126"
     },
     {
-        "itemname": "STS-126 - EVA 3",
+        "itemname": "STS-126 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-126",
         "itemname2": "STS-126"
     },
     {
-        "itemname": "STS-126 - EVA 4",
+        "itemname": "STS-126 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/STS-126",
         "itemname2": "STS-126"
     },
     {
-        "itemname": "ISS-Expedition 18 - EVA 1",
+        "itemname": "ISS-Expedition 18 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_18",
         "itemname2": "Sojus TMA-13"
     },
     {
-        "itemname": "ISS-Expedition 18 - EVA 2",
+        "itemname": "ISS-Expedition 18 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_18",
         "itemname2": "Sojus TMA-13"
     },
     {
-        "itemname": "STS-119 - EVA 1",
+        "itemname": "STS-119 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-119",
         "itemname2": "STS-119"
     },
     {
-        "itemname": "STS-119 - EVA 2",
+        "itemname": "STS-119 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-119",
         "itemname2": "STS-119"
     },
     {
-        "itemname": "STS-119 - EVA 3",
+        "itemname": "STS-119 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-119",
         "itemname2": "STS-119"
     },
     {
-        "itemname": "STS-125 - EVA 1",
+        "itemname": "STS-125 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-125",
         "itemname2": "STS-125"
     },
     {
-        "itemname": "STS-125 - EVA 2",
+        "itemname": "STS-125 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-125",
         "itemname2": "STS-125"
     },
     {
-        "itemname": "STS-125 - EVA 3",
+        "itemname": "STS-125 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-125",
         "itemname2": "STS-125"
     },
     {
-        "itemname": "STS-125 - EVA 4",
+        "itemname": "STS-125 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/STS-125",
         "itemname2": "STS-125"
     },
     {
-        "itemname": "STS-125 - EVA 5",
+        "itemname": "STS-125 EVA 5",
         "itemurl": "https://de.wikipedia.org/wiki/STS-125",
         "itemname2": "STS-125"
     },
     {
-        "itemname": "ISS-Expedition 20 - EVA 1",
+        "itemname": "ISS-Expedition 20 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_20",
         "itemname2": "Sojus TMA-14"
     },
     {
-        "itemname": "ISS-Expedition 20 - EVA 2",
+        "itemname": "ISS-Expedition 20 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_20",
         "itemname2": "Sojus TMA-14"
     },
     {
-        "itemname": "STS-127 - EVA 1",
+        "itemname": "STS-127 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-127",
         "itemname2": "STS-127"
     },
     {
-        "itemname": "STS-127 - EVA 2",
+        "itemname": "STS-127 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-127",
         "itemname2": "STS-127"
     },
     {
-        "itemname": "STS-127 - EVA 3",
+        "itemname": "STS-127 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-127",
         "itemname2": "STS-127"
     },
     {
-        "itemname": "STS-127 - EVA 4",
+        "itemname": "STS-127 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/STS-127",
         "itemname2": "STS-127"
     },
     {
-        "itemname": "STS-127 - EVA 5",
+        "itemname": "STS-127 EVA 5",
         "itemurl": "https://de.wikipedia.org/wiki/STS-127",
         "itemname2": "STS-127"
     },
     {
-        "itemname": "STS-128 - EVA 1",
+        "itemname": "STS-128 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-128",
         "itemname2": "STS-128"
     },
     {
-        "itemname": "STS-128 - EVA 2",
+        "itemname": "STS-128 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-128",
         "itemname2": "STS-128"
     },
     {
-        "itemname": "STS-128 - EVA 3",
+        "itemname": "STS-128 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-128",
         "itemname2": "STS-128"
     },
     {
-        "itemname": "STS-129 - EVA 1",
+        "itemname": "STS-129 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-129",
         "itemname2": "STS-129"
     },
     {
-        "itemname": "STS-129 - EVA 2",
+        "itemname": "STS-129 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-129",
         "itemname2": "STS-129"
     },
     {
-        "itemname": "STS-129 - EVA 3",
+        "itemname": "STS-129 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-129",
         "itemname2": "STS-129"
     },
     {
-        "itemname": "ISS-Expedition 22 - EVA 1",
+        "itemname": "ISS-Expedition 22 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_22",
         "itemname2": "Sojus TMA-17"
     },
     {
-        "itemname": "STS-130 - EVA 1",
+        "itemname": "STS-130 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-130",
         "itemname2": "STS-130"
     },
     {
-        "itemname": "STS-130 - EVA 2",
+        "itemname": "STS-130 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-130",
         "itemname2": "STS-130"
     },
     {
-        "itemname": "STS-130 - EVA 3",
+        "itemname": "STS-130 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-130",
         "itemname2": "STS-130"
     },
     {
-        "itemname": "STS-131 - EVA 1",
+        "itemname": "STS-131 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-131",
         "itemname2": "STS-131"
     },
     {
-        "itemname": "STS-131 - EVA 2",
+        "itemname": "STS-131 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-131",
         "itemname2": "STS-131"
     },
     {
-        "itemname": "STS-131 - EVA 3",
+        "itemname": "STS-131 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-131",
         "itemname2": "STS-131"
     },
     {
-        "itemname": "STS-132 - EVA 1",
+        "itemname": "STS-132 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-132",
         "itemname2": "STS-132"
     },
     {
-        "itemname": "STS-132 - EVA 2",
+        "itemname": "STS-132 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-132",
         "itemname2": "STS-132"
     },
     {
-        "itemname": "STS-132 - EVA 3",
+        "itemname": "STS-132 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-132",
         "itemname2": "STS-132"
     },
     {
-        "itemname": "ISS-Expedition 24 - EVA 1",
+        "itemname": "ISS-Expedition 24 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_24",
         "itemname2": "Sojus TMA-18"
     },
     {
-        "itemname": "ISS-Expedition 24 - EVA 2",
+        "itemname": "ISS-Expedition 24 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_24",
         "itemname2": "Sojus TMA-19"
     },
     {
-        "itemname": "ISS-Expedition 24 - EVA 3",
+        "itemname": "ISS-Expedition 24 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_24",
         "itemname2": "Sojus TMA-19"
     },
     {
-        "itemname": "ISS-Expedition 24 - EVA 4",
+        "itemname": "ISS-Expedition 24 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_24",
         "itemname2": "Sojus TMA-19"
     },
     {
-        "itemname": "ISS-Expedition 25 - EVA 1",
+        "itemname": "ISS-Expedition 25 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_25",
         "itemname2": "Sojus TMA-19"
     },
     {
-        "itemname": "ISS-Expedition 26 - EVA 1",
+        "itemname": "ISS-Expedition 26 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_26",
         "itemname2": "Sojus TMA-20"
     },
     {
-        "itemname": "ISS-Expedition 26 - EVA 2",
+        "itemname": "ISS-Expedition 26 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_26",
         "itemname2": "Sojus TMA-20"
     },
     {
-        "itemname": "STS-133 - EVA 1",
+        "itemname": "STS-133 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-133",
         "itemname2": "STS-133"
     },
     {
-        "itemname": "STS-133 - EVA 2",
+        "itemname": "STS-133 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-133",
         "itemname2": "STS-133"
     },
     {
-        "itemname": "STS-134 - EVA 1",
+        "itemname": "STS-134 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/STS-134",
         "itemname2": "STS-134"
     },
     {
-        "itemname": "STS-134 - EVA 2",
+        "itemname": "STS-134 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/STS-134",
         "itemname2": "STS-134"
     },
     {
-        "itemname": "STS-134 - EVA 3",
+        "itemname": "STS-134 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/STS-134",
         "itemname2": "STS-134"
     },
     {
-        "itemname": "STS-134 - EVA 4",
+        "itemname": "STS-134 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/STS-134",
         "itemname2": "STS-134"
     },
     {
-        "itemname": "ISS-Expedition 28 - EVA 1",
+        "itemname": "ISS-Expedition 28 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_28",
         "itemname2": "Sojus TMA-21"
     },
     {
-        "itemname": "ISS-Expedition 28 - EVA 2",
+        "itemname": "ISS-Expedition 28 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_28",
         "itemname2": "Sojus TMA-02M"
     },
     {
-        "itemname": "ISS-Expedition 30 - EVA 1",
+        "itemname": "ISS-Expedition 30 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_30",
         "itemname2": "Sojus TMA-22"
     },
     {
-        "itemname": "ISS-Expedition 32 - EVA 1",
+        "itemname": "ISS-Expedition 32 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_32",
         "itemname2": "Sojus TMA-04M"
     },
     {
-        "itemname": "ISS-Expedition 32 - EVA 2",
+        "itemname": "ISS-Expedition 32 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_32",
         "itemname2": "Sojus TMA-05M"
     },
     {
-        "itemname": "ISS-Expedition 32 - EVA 3",
+        "itemname": "ISS-Expedition 32 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_32",
         "itemname2": "Sojus TMA-05M"
     },
     {
-        "itemname": "ISS-Expedition 33 - EVA 1",
+        "itemname": "ISS-Expedition 33 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_33",
         "itemname2": "Sojus TMA-05M"
     },
     {
-        "itemname": "ISS-Expedition 35 - EVA 1",
+        "itemname": "ISS-Expedition 35 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_35",
         "itemname2": "Sojus TMA-08M"
     },
     {
-        "itemname": "ISS-Expedition 35 - EVA 2",
+        "itemname": "ISS-Expedition 35 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_35",
         "itemname2": "Sojus TMA-08M"
     },
     {
-        "itemname": "ISS-Expedition 36 - EVA 1",
+        "itemname": "ISS-Expedition 36 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_36",
         "itemname2": "Sojus TMA-09M"
     },
     {
-        "itemname": "ISS-Expedition 36 - EVA 2",
+        "itemname": "ISS-Expedition 36 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_36",
         "itemname2": "Sojus TMA-08M"
     },
     {
-        "itemname": "ISS-Expedition 36 - EVA 3",
+        "itemname": "ISS-Expedition 36 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_36",
         "itemname2": "Sojus TMA-08M"
     },
     {
-        "itemname": "ISS-Expedition 36 - EVA 4",
+        "itemname": "ISS-Expedition 36 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_36",
         "itemname2": "Sojus TMA-09M"
     },
     {
-        "itemname": "ISS-Expedition 36 - EVA 5",
+        "itemname": "ISS-Expedition 36 EVA 5",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_36",
         "itemname2": "Sojus TMA-09M"
     },
     {
-        "itemname": "ISS-Expedition 37 - EVA 1",
+        "itemname": "ISS-Expedition 37 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_37",
         "itemname2": "Sojus TMA-10M"
     },
     {
-        "itemname": "ISS-Expedition 38 - EVA 1",
+        "itemname": "ISS-Expedition 38 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_38",
         "itemname2": "Sojus TMA-11M"
     },
     {
-        "itemname": "ISS-Expedition 38 - EVA 2",
+        "itemname": "ISS-Expedition 38 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_38",
         "itemname2": "Sojus TMA-11M"
     },
     {
-        "itemname": "ISS-Expedition 38 - EVA 3",
+        "itemname": "ISS-Expedition 38 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_38",
         "itemname2": "Sojus TMA-10M"
     },
     {
-        "itemname": "ISS-Expedition 38 - EVA 4",
+        "itemname": "ISS-Expedition 38 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_38",
         "itemname2": "Sojus TMA-10M"
     },
     {
-        "itemname": "ISS-Expedition 39 - EVA 1",
+        "itemname": "ISS-Expedition 39 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_39",
         "itemname2": "Sojus TMA-11M"
     },
     {
-        "itemname": "ISS-Expedition 40 - EVA 1",
+        "itemname": "ISS-Expedition 40 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_40",
         "itemname2": "Sojus TMA-12M"
     },
     {
-        "itemname": "ISS-Expedition 40 - EVA 2",
+        "itemname": "ISS-Expedition 40 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_40",
         "itemname2": "Sojus TMA-12M"
     },
     {
-        "itemname": "ISS-Expedition 41 - EVA 1",
+        "itemname": "ISS-Expedition 41 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_41",
         "itemname2": "Sojus TMA-13M"
     },
     {
-        "itemname": "ISS-Expedition 41 - EVA 2",
+        "itemname": "ISS-Expedition 41 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_41",
         "itemname2": "Sojus TMA-13M"
     },
     {
-        "itemname": "ISS-Expedition 41 - EVA 3",
+        "itemname": "ISS-Expedition 41 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_41",
         "itemname2": "Sojus TMA-13M"
     },
     {
-        "itemname": "ISS-Expedition 42 - EVA 1",
+        "itemname": "ISS-Expedition 42 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_42",
         "itemname2": "Sojus TMA-14M"
     },
     {
-        "itemname": "ISS-Expedition 42 - EVA 2",
+        "itemname": "ISS-Expedition 42 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_42",
         "itemname2": "Sojus TMA-14M"
     },
     {
-        "itemname": "ISS-Expedition 42 - EVA 3",
+        "itemname": "ISS-Expedition 42 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_42",
         "itemname2": "Sojus TMA-14M"
     },
     {
-        "itemname": "ISS-Expedition 44 - EVA 1",
+        "itemname": "ISS-Expedition 44 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_44",
         "itemname2": "Sojus TMA-16M"
     },
     {
-        "itemname": "ISS-Expedition 45 - EVA 1",
+        "itemname": "ISS-Expedition 45 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_45",
         "itemname2": "Sojus TMA-16M"
     },
     {
-        "itemname": "ISS-Expedition 45 - EVA 2",
+        "itemname": "ISS-Expedition 45 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_45",
         "itemname2": "Sojus TMA-16M"
     },
     {
-        "itemname": "ISS-Expedition 46 - EVA 1",
+        "itemname": "ISS-Expedition 46 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_46",
         "itemname2": "Sojus TMA-16M"
     },
     {
-        "itemname": "ISS-Expedition 46 - EVA 2",
+        "itemname": "ISS-Expedition 46 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_46",
         "itemname2": "Sojus TMA-19M"
     },
     {
-        "itemname": "ISS-Expedition 46 - EVA 3",
+        "itemname": "ISS-Expedition 46 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_46",
         "itemname2": "Sojus TMA-18M"
     },
     {
-        "itemname": "ISS-Expedition 48 - EVA 1",
+        "itemname": "ISS-Expedition 48 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_48",
         "itemname2": "Sojus TMA-20M"
     },
     {
-        "itemname": "ISS-Expedition 48 - EVA 2",
+        "itemname": "ISS-Expedition 48 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_48",
         "itemname2": "Sojus TMA-20M"
     },
     {
-        "itemname": "ISS-Expedition 50 - EVA 1",
+        "itemname": "ISS-Expedition 50 EVA 1",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_50",
         "itemname2": "Sojus MS-02"
     },
     {
-        "itemname": "ISS-Expedition 50 - EVA 2",
+        "itemname": "ISS-Expedition 50 EVA 2",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_50",
         "itemname2": "Sojus MS-02"
     },
     {
-        "itemname": "ISS-Expedition 50 - EVA 3",
+        "itemname": "ISS-Expedition 50 EVA 3",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_50",
         "itemname2": "Sojus MS-02"
     },
     {
-        "itemname": "ISS-Expedition 50 - EVA 4",
+        "itemname": "ISS-Expedition 50 EVA 4",
         "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_50",
         "itemname2": "Sojus MS-03"
     }

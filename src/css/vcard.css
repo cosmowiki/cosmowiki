@@ -9,29 +9,16 @@
 
 #vcard {margin: 10% auto; max-width: 1000px; height: auto !important;}
 
-#vcardContainer {
-	padding: .5em;
-	border: 2px solid #aaf; border-radius: 5px;
-	background: #fff;
-}
+#vcardContainer {border: 2px solid #aaf; border-radius: 5px; background: #fff;}
 
-/*#vcardClose {
-	display: block;	float: right;	width: 20px; height: 20px;
-	margin-top: -21px; margin-right: -21px;
-	font-size: 33px; line-height: 17px;	cursor: pointer;
-	border: 2px solid #aaf;	border-radius: 13px;
-	background: #fff;
-}*/
-#vcardClose {display: block; float: right;	margin: -.125em .25em; font-size: 2em;}
+#vcardClose {display: block; float: right;	margin: -.2em .25em; font-size: 2em;}
 #vcardClose:after {content: '\00D7';}
 
-#vcardHeader, #vcardContent, #vcardFooter {width: 100%;}
+#vcardHeader, #vcardContent, #vcardFooter {padding: .5em;}
 
 #vcardHeader {font-size: .75em; border-bottom: 1px solid #aaf;}
 
-#vcardHistory {width: 95%; padding-bottom: .5em;}
-
-#vcardContent {display: -webkit-flex; display: flex; padding: .5em 0;}
+#vcardContent {display: -webkit-flex; display: flex; padding: .5em;}
 #vcardContentLeft {padding-right: .5em;}
 
 #vcardItemImg img {
@@ -46,10 +33,7 @@
 #vcardItemLong p {margin: .5em 0;}
 #vcard p {font-size: .9em;}
 
-#vcardContentRight {
-	padding-left: .5em;
-	border-left: 1px solid #aaf;
-}
+#vcardContentRight {padding-left: .5em;	border-left: 1px solid #aaf;}
 .vcardItemRelatedCat h4 {background: #eee;}
 
 .vcardItemRelatedList {list-style: none; padding: .5em 0 .5em;}
@@ -57,5 +41,3 @@
 .vcardItemRelatedList li {padding: .2em 0;}
 
 #vcardFooter {font-size: .75em; border-top: 1px solid #aaf;}
-
-#vcardItemWpLink {padding-top: 5px;}

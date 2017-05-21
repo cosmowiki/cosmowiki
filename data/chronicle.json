@@ -1,13 +1,14 @@
 [
     {
-        "itemname": "steinzeitliche Menschen erschaffen den Ishango-Knochen, eventuell als Mondkalender",
+        "itemname": "steinzeitliche Menschen erschaffen den Ishango-Knochen",
         "itemurl": "https://de.wikipedia.org/wiki/Ishango-Knochen",
         "itemdateyear": "18000 v. Chr.",
         "itemcountry": "Kongo",
         "itemlocation": "Ishango",
         "itemlatitude": "-0.126969",
         "itemlongitude": "29.600403",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Ishango"
     },
     {
         "itemname": "Entstehung der Malereien in der Höhle von Lascaux",
@@ -17,27 +18,30 @@
         "itemlocation": "Lascaux",
         "itemlatitude": "45.053806",
         "itemlongitude": "1.170833",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Lascaux, Höhle"
     },
     {
-        "itemname": "Errichtung der Kreisgrabenanlage von Goseck - das älteste Sonnenobservatorium der Welt",
+        "itemname": "Errichtung der Kreisgrabenanlage von Goseck",
         "itemurl": "https://de.wikipedia.org/wiki/Kreisgrabenanlage_von_Goseck",
         "itemdateyear": "4900 v. Chr.",
         "itemcountry": "Deutschland",
         "itemlocation": "Goseck",
         "itemlatitude": "51.198333",
         "itemlongitude": "11.864597",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Goseck, Kreisgrabenanlage, Kalender, Zeit"
     },
     {
-        "itemname": "Errichtung der Megalithanlage von Nabta-Playa für Kalenderzwecke",
+        "itemname": "Errichtung der Megalithanlage von Nabta-Playa",
         "itemurl": "https://de.wikipedia.org/wiki/Nabta-Playa",
         "itemdateyear": "4800 v. Chr.",
         "itemcountry": "Ägypten",
         "itemlocation": "Nabta-Playa",
         "itemlatitude": "22.533333",
         "itemlongitude": "30.7",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Nabta-Playa, Megalithanlage"
     },
     {
         "itemname": "Beginn des Kalenders der Maya",
@@ -48,27 +52,30 @@
         "itemcountry": "Mittelamerika",
         "itemlatitude": "17",
         "itemlongitude": "91",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Maya"
     },
     {
-        "itemname": "Errichtung der Megalithanlage von Stonehenge, wohl auch für Kalenderzwecke",
+        "itemname": "Errichtung der Megalithanlage von Stonehenge",
         "itemurl": "https://de.wikipedia.org/wiki/Stonehenge",
         "itemdateyear": "3100 v. Chr.",
         "itemcountry": "GB",
         "itemlocation": "Stonehenge",
         "itemlatitude": "51.178889",
         "itemlongitude": "-1.826389",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Stonehenge, Megalithanlage, Kalender, Zeit"
     },
     {
-        "itemname": "Errichtung der Megalithanlage von Mnajdra für Kalenderzwecke",
+        "itemname": "Errichtung der Megalithanlage von Mnajdra",
         "itemurl": "https://de.wikipedia.org/wiki/Mnajdra",
         "itemdateyear": "3100 v. Chr.",
         "itemcountry": "Malta",
         "itemlocation": "Mnajdra",
         "itemlatitude": "35.826667",
         "itemlongitude": "14.436389",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Mnajdra, Megalithanlage"
     },
     {
         "itemname": "Einführung des 365-Tage-Kalenders",
@@ -78,7 +85,8 @@
         "itemlocation": "Memphis",
         "itemlatitude": "29.85",
         "itemlongitude": "31.25",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Kalender, Zeit"
     },
     {
         "itemname": "belegte Beobachtung einer Sonnenfinsternis",
@@ -90,7 +98,8 @@
         "itemlocation": "Dengfeng",
         "itemlatitude": "34.46",
         "itemlongitude": "113.03",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Sonnenfinsternis"
     },
     {
         "itemname": "Herstellung der Himmelsscheibe von Nebra",
@@ -100,7 +109,8 @@
         "itemlocation": "Nebra",
         "itemlatitude": "51.283889",
         "itemlongitude": "11.52",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Nebra, Himmelsscheibe"
     },
     {
         "itemname": "Amemhet baut eine Wasseruhr",
@@ -110,7 +120,8 @@
         "itemlocation": "Achet-Aton",
         "itemlatitude": "27.661667",
         "itemlongitude": "30.905556",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Wasseruhr, Uhr, Zeit"
     },
     {
         "itemname": "Entstehung der Nazca-Linien",
@@ -120,7 +131,8 @@
         "itemlocation": "Nazca",
         "itemlatitude": "-14.720556",
         "itemlongitude": "-75.150278",
-        "itemtype": 0
+        "itemtype": 0,
+        "itemtags": "Nazca"
     },
     {
         "itemname": "belegte Beobachtung einer Sonnenfinsternis",
@@ -131,14 +143,16 @@
         "itemcountry": "Assyrien",
         "itemlatitude": "38.15",
         "itemlongitude": "54.05",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Sonnenfinsternis"
     },
     {
         "itemname": "mutmaßliche Beobachtung des späteren Kometen Halley",
         "itemurl": "https://de.wikipedia.org/wiki/Geschichte_der_Astronomie",
         "itemdateyear": "613 v. Chr.",
         "itemcountry": "China",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Halley"
     },
     {
         "itemname": "der chinesische Astronom Shi Shen erstellt einen Sternenkatalog",
@@ -147,7 +161,8 @@
         "itemcountry": "China",
         "itemlatitude": "34.79",
         "itemlongitude": "114.34",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Shi Shen, Sternenkatalog"
     },
     {
         "itemname": "Aristoteles entdeckt das Prinzip der Camera obscura",
@@ -157,7 +172,8 @@
         "itemlocation": "Athen",
         "itemlatitude": "37.9925",
         "itemlongitude": "23.708056",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Aristoteles, Camera obscura"
     },
     {
         "itemname": "Aristoteles beschreibt das geozentrische Weltbild",
@@ -167,7 +183,8 @@
         "itemlocation": "Athen",
         "itemlatitude": "37.9925",
         "itemlongitude": "23.708056",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Aristoteles, Weltbild, geozentrisch"
     },
     {
         "itemname": "Aristarchos von Samos beschreibt das heliozentrische Weltbild",
@@ -177,7 +194,8 @@
         "itemlocation": "Samos",
         "itemlatitude": "37.727778",
         "itemlongitude": "26.823056",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Aristarchos, Weltbild, heliozentrisch"
     },
     {
         "itemname": "Bau eines Sonnenobservatoriums durch unbekannte Kultur",
@@ -187,10 +205,11 @@
         "itemlocation": "Chanquillo",
         "itemlatitude": "-9.556667",
         "itemlongitude": "-78.235833",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Observatorium"
     },
     {
-        "itemname": "Einführung eines Schalttages alle vier Jahre, jedoch nur bis zum Tod von Ptolemaios III.",
+        "itemname": "Einführung eines Schalttages alle vier Jahre",
         "itemurl": "https://de.wikipedia.org/wiki/Kanopus-Dekret",
         "itemdateyear": "238 v. Chr.",
         "itemdatemonth": "03",
@@ -199,7 +218,8 @@
         "itemlocation": "Kanopus",
         "itemlatitude": "31.303333",
         "itemlongitude": "30.083333",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Schalttag, Kalender"
     },
     {
         "itemname": "Eratosthenes von Kyrene berechnet den Umfang der Erde",
@@ -209,14 +229,19 @@
         "itemlocation": "Alexandria",
         "itemlatitude": "31.2135",
         "itemlongitude": "29.927661",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Eratosthenes, Umfang, Erde"
     },
     {
         "itemname": "Hipparchos erstellt einen Sternenkatalog",
         "itemurl": "https://de.wikipedia.org/wiki/Hipparchos_(Astronom)",
         "itemdateyear": "135 v. Chr.",
         "itemcountry": "Griechenland",
-        "itemtype": 1
+        "itemlocation": "Nicäa",
+        "itemlatitude": "40.429167",
+        "itemlongitude": "29.721111",
+        "itemtype": 1,
+        "itemtags": "Hipparchos, Sternenkatalog"
     },
     {
         "itemname": "Bau des Mechanismus von Antikythera",
@@ -224,7 +249,10 @@
         "itemdateyear": "100 v. Chr.",
         "itemcountry": "Griechenland",
         "itemlocation": "Antikythera",
-        "itemtype": 1
+        "itemlatitude": "35.864167",
+        "itemlongitude": "23.305",
+        "itemtype": 1,
+        "itemtags": "Antikythera, Mechanismus, Uhr, Zeit, Planeten"
     },
     {
         "itemname": "Was war der Stern von Betlehem?",
@@ -234,7 +262,10 @@
         "itemdateday": "15",
         "itemcountry": "Israel",
         "itemlocation": "Judäa",
-        "itemtype": 1
+        "itemlatitude": "31.703056",
+        "itemlongitude": "35.195556",
+        "itemtype": 1,
+        "itemtags": "Betlehem, Konjunktion, Komet, Nova"
     },
     {
         "itemname": "Claudius Ptolemäus erstellt einen Sternenkatalog",
@@ -242,7 +273,10 @@
         "itemdateyear": "100 – 175",
         "itemcountry": "Griechenland",
         "itemlocation": "Ägypten",
-        "itemtype": 1
+        "itemlatitude": "31.2135",
+        "itemlongitude": "29.927661",
+        "itemtype": 1,
+        "itemtags": "Sternenkatalog"
     },
     {
         "itemname": "Errichtung des Turmbaus von Palenque",
@@ -250,7 +284,10 @@
         "itemdateyear": "490",
         "itemcountry": "Mexiko",
         "itemlocation": "Palenque",
-        "itemtype": 1
+        "itemlatitude": "17.483333",
+        "itemlongitude": "-92.05",
+        "itemtype": 1,
+        "itemtags": "Observatorium"
     },
     {
         "itemname": "Bau des Observatoriums von Cheomseongdae",
@@ -258,7 +295,10 @@
         "itemdateyear": "632 – 647",
         "itemcountry": "Südkorea",
         "itemlocation": "Gyeongju",
-        "itemtype": 1
+        "itemlatitude": "35.836394",
+        "itemlongitude": "129.221749",
+        "itemtype": 1,
+        "itemtags": "Observatorium"
     },
     {
         "itemname": "der arabische Astronom as-Sufi erstellt das \"Buch der Fixsterne\"",
@@ -266,14 +306,18 @@
         "itemdateyear": "964",
         "itemcountry": "Iran",
         "itemlocation": "Isfahan",
-        "itemtype": 1
+        "itemlatitude": "32.6575",
+        "itemlongitude": "51.676667",
+        "itemtype": 1,
+        "itemtags": "Sternenkatalog, Sternbild"
     },
     {
         "itemname": "die Supernova von 1054 lässt den Krebsnebel entstehen",
         "itemurl": "https://de.wikipedia.org/wiki/Supernova_1054",
         "itemdateyear": "1054",
         "itemcountry": "Europa/Asien",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Supernova, Krebsnebel"
     },
     {
         "itemname": "Einsatz von Raketen zu militärischen Zwecken",
@@ -281,7 +325,10 @@
         "itemdateyear": "1232",
         "itemcountry": "China",
         "itemlocation": "Kaifeng",
-        "itemtype": 2
+        "itemlatitude": "34.791111",
+        "itemlongitude": "114.348056",
+        "itemtype": 2,
+        "itemtags": "Rakete"
     },
     {
         "itemname": "Errichtung des Observatoriums Rasad-e Khan",
@@ -289,7 +336,10 @@
         "itemdateyear": "1259 – 1262",
         "itemcountry": "Iran",
         "itemlocation": "Talebkhan",
-        "itemtype": 1
+        "itemlatitude": "37.396078",
+        "itemlongitude": "46.209158",
+        "itemtype": 1,
+        "itemtags": "Observatorium"
     },
     {
         "itemname": "Errichtung des Gaocheng-Observatoriums",
@@ -298,7 +348,9 @@
         "itemcountry": "China",
         "itemlocation": "Dengfeng",
         "itemlatitude": "34.402406",
-        "itemlongitude": "113.140711"
+        "itemlongitude": "113.140711",
+        "itemtype": 1,
+        "itemtags": "Observatorium"
     },
     {
         "itemname": "Errichtung des Observatoriums Gurkani Zij",
@@ -306,36 +358,47 @@
         "itemdateyear": "1424 – 1428",
         "itemcountry": "Usbekistan",
         "itemlocation": "Samarkand",
-        "itemtype": 1
+        "itemlatitude": "39.674736",
+        "itemlongitude": "67.005661",
+        "itemtype": 1,
+        "itemtags": "Observatorium"
     },
     {
-        "itemname": "Nicolaus von Kues veröffentlicht \"De docta ignorantia\"",
+        "itemname": "Nicolaus von Kues (Cusanus) veröffentlicht \"De docta ignorantia\"",
         "itemurl": "https://de.wikipedia.org/wiki/Nikolaus_von_Kues",
         "itemdateyear": "1440",
         "itemcountry": "Deutschland",
         "itemlocation": "Kues",
-        "itemtype": 1
+        "itemlatitude": "49.916111",
+        "itemlongitude": "7.069444",
+        "itemtype": 1,
+        "itemtags": "Kosmologie"
     },
     {
-        "itemname": "bemannter Raketenstart auf einem Stuhl mit Feuerwerksraketen?",
+        "itemname": "Wan Hu versucht auf einem Stuhl mit Feuerwerksraketen zu starten (chin. Sage)",
         "itemurl": "https://de.wikipedia.org/wiki/Wan_Hu",
         "itemdateyear": "1500",
         "itemcountry": "China",
-        "itemtype": 2
+        "itemtype": 2,
+        "itemtags": "Rakete"
     },
     {
-        "itemname": "Magalhães beschreibt die Magellansche Wolken",
+        "itemname": "Fernão de Magalhães (Ferdinand Magellan) beschreibt die Magellanschen Wolken",
         "itemurl": "https://de.wikipedia.org/wiki/Magellansche_Wolke",
         "itemdateyear": "1519 – 1522",
-        "itemtype": 1
+        "itemtype": 1,
+        "itemtags": "Magellan"
     },
     {
-        "itemname": "Copernicus veröffentlicht \"De revolutionibus orbium coelestium\"",
+        "itemname": "Nicolaus Copernicus veröffentlicht \"De revolutionibus orbium coelestium\"",
         "itemurl": "https://de.wikipedia.org/wiki/De_Revolutionibus_Orbium_Coelestium",
         "itemdateyear": "1543",
         "itemcountry": "Polen",
         "itemlocation": "Frauenburg",
-        "itemtype": 1
+        "itemlatitude": "54.35",
+        "itemlongitude": "19.683333",
+        "itemtype": 1,
+        "itemtags": "Weltbild, heliozentrisch, Planetenbahn"
     },
     {
         "itemname": "Daniele Barbaro setzt geschliffenen Linsen in der Camera obscura ein",
@@ -343,7 +406,10 @@
         "itemdateyear": "1568",
         "itemcountry": "Italien",
         "itemlocation": "Venedig",
-        "itemtype": 1
+        "itemlatitude": "45.811944",
+        "itemlongitude": "11.976389",
+        "itemtype": 1,
+        "itemtags": "Linse, Kamera"
     },
     {
         "itemname": "Tycho Brahe und die Supernova von 1572",
@@ -353,7 +419,10 @@
         "itemdateday": "11",
         "itemcountry": "Schweden",
         "itemlocation": "Kloster Herrevad",
-        "itemtype": 1
+        "itemlatitude": "56.087778",
+        "itemlongitude": "13.2325",
+        "itemtype": 1,
+        "itemtags": "Supernova"
     },
     {
         "itemname": "Tycho Brahe beschreibt Kometen als ferne Himmelskörper",
@@ -361,15 +430,21 @@
         "itemdateyear": "1577",
         "itemcountry": "Dänemark",
         "itemlocation": "Uraniborg",
-        "itemtype": 1
+        "itemlatitude": "55.907833",
+        "itemlongitude": "12.696222",
+        "itemtype": 1,
+        "itemtags": "Komet"
     },
     {
-        "itemname": "Tycho Brahe setzt einen präzisen Mauerquadranten ein",
+        "itemname": "Tycho Brahe setzt seinen präzisen Mauerquadranten ein",
         "itemurl": "https://de.wikipedia.org/wiki/Mauerquadrant",
         "itemdateyear": "1600",
         "itemcountry": "Dänemark",
         "itemlocation": "Uraniborg",
-        "itemtype": 1
+        "itemlatitude": "55.907833",
+        "itemlongitude": "12.696222",
+        "itemtype": 1,
+        "itemtags": "Mauerquadrant, Observatorium"
     },
     {
         "itemname": "Johann Bayer erstellt den Himmelsatlas \"Uranometria\"",
@@ -377,15 +452,21 @@
         "itemdateyear": "1603",
         "itemcountry": "Deutschland",
         "itemlocation": "Augsburg",
-        "itemtype": 1
+        "itemlatitude": "48.371667",
+        "itemlongitude": "10.898333",
+        "itemtype": 1,
+        "itemtags": "Himmelsatlas, Sternenkatalog, Sternbild, Stern"
     },
     {
         "itemname": "Hans Lipperhey erfindet das Linsenfernrohr",
-        "itemurl": "https://de.wikipedia.org/wiki/Linsenfernrohr",
+        "itemurl": "https://de.wikipedia.org/wiki/Hans_Lipperhey",
         "itemdateyear": "1608",
         "itemcountry": "Niederlande",
         "itemlocation": "Middelburg",
-        "itemtype": 1
+        "itemlatitude": "51.499622",
+        "itemlongitude": "3.613528",
+        "itemtype": 1,
+        "itemtags": "Fernrohr, Teleskop, Optik"
     },
     {
         "itemname": "Johannes Kepler veröffentlicht die Gesetze der Planetenbahnen",
@@ -393,7 +474,10 @@
         "itemdateyear": "1609",
         "itemcountry": "Tschechien",
         "itemlocation": "Prag",
-        "itemtype": 1
+        "itemlatitude": "50.085972",
+        "itemlongitude": "14.414861",
+        "itemtype": 1,
+        "itemtags": "Planet, Gesetz"
     },
     {
         "itemname": "Galileo Galilei entdeckt mit einem Fernrohr die vier größten Jupitermonde",
@@ -403,25 +487,34 @@
         "itemdateday": "07",
         "itemcountry": "Italien",
         "itemlocation": "Padua",
-        "itemtype": 1
+        "itemlatitude": "45.416667",
+        "itemlongitude": "11.866667",
+        "itemtype": 1,
+        "itemtags": "Jupiter, Mond, Io, Europa, Ganymed, Kallisto, Fernrohr"
     },
     {
-        "itemname": "Galilei veröffentlicht in \"Siderius nuncius\" seine Ergebnisse",
+        "itemname": "Galilei veröffentlicht in \"Siderius nuncius\" die Ergebnisse seiner Beobachtungen mit dem Fernrohr",
         "itemurl": "https://de.wikipedia.org/wiki/Sidereus_Nuncius",
         "itemdateyear": "1610",
         "itemdatemonth": "03",
         "itemdateday": "01",
         "itemcountry": "Italien",
         "itemlocation": "Padua",
-        "itemtype": 1
+        "itemlatitude": "45.416667",
+        "itemlongitude": "11.866667",
+        "itemtype": 1,
+        "itemtags": "Stern, Jupiter, Mond, Io, Europa, Ganymed, Kallisto, Fernrohr"
     },
     {
-        "itemname": "Niccolò Zucchi baut vermutlich das erste Spiegelteleskop",
+        "itemname": "Niccolò Zucchi (Nicolaus Zucchius) beschreibt erstmals das Spiegelteleskop",
         "itemurl": "https://de.wikipedia.org/wiki/Spiegelteleskop",
         "itemdateyear": "1616",
         "itemcountry": "Italien",
         "itemlocation": "Rom",
-        "itemtype": 1
+        "itemlatitude": "41.898947",
+        "itemlongitude": "12.484558",
+        "itemtype": 1,
+        "itemtags": "Spiegelteleskop"
     },
     {
         "itemname": "Jeremia Horrocks beobachtet erstmals einen Venustransit",
@@ -466,7 +559,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Huygens berechnet erstmals die Lichtgeschwindigkeit mit 213.000 km/s",
+        "itemname": "Christiaan Huygens berechnet erstmals die Lichtgeschwindigkeit mit 213.000 km/s",
         "itemurl": "https://de.wikipedia.org/wiki/Lichtgeschwindigkeit",
         "itemdateyear": "1678",
         "itemcountry": "Niederlande",
@@ -474,7 +567,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Newton veröffentlicht das Gravitationsgesetz",
+        "itemname": "Isaac Newton veröffentlicht das Gravitationsgesetz",
         "itemurl": "https://de.wikipedia.org/wiki/Newtonsches_Gravitationsgesetz",
         "itemdateyear": "1687",
         "itemcountry": "England",
@@ -482,7 +575,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Huygens schreibt über andere Sonnen, Planeten und außerirdisches Leben",
+        "itemname": "Christiaan Huygens schreibt über andere Sonnen, Planeten und außerirdisches Leben",
         "itemurl": "https://de.wikipedia.org/wiki/Christiaan_Huygens",
         "itemdateyear": "1690",
         "itemcountry": "Niederlande",
@@ -587,7 +680,7 @@
         "itemtype": 1
     },
     {
-        "itemname": "Robert Wilhelm Bunsen u. Gustav Robert Kirchhoff begründen die Spektrometrie",
+        "itemname": "Robert Wilhelm Bunsen und Gustav Robert Kirchhoff begründen die Spektrometrie",
         "itemurl": "https://de.wikipedia.org/wiki/Spektroskopie",
         "itemdateyear": "1859",
         "itemcountry": "Deutschland",
@@ -697,7 +790,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Henry N. Russel entwickelt nach Arbeiten von Ejnar Hertzsprung das Hertzsprung-Russel-Diagramm",
+        "itemname": "Henry Russel entwickelt nach Arbeiten von Ejnar Hertzsprung das Hertzsprung-Russel-Diagramm",
         "itemurl": "https://de.wikipedia.org/wiki/Hertzsprung-Russell-Diagramm",
         "itemdateyear": "1913",
         "itemcountry": "USA",
@@ -971,7 +1064,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Start des ersten amerikanischen Satelliten - Explorer 1, Nachweis des Van-Allen-Strahlungsgürtels",
+        "itemname": "Start des ersten US-Satelliten Explorer 1, Nachweis des Van-Allen-Strahlungsgürtels",
         "itemurl": "https://de.wikipedia.org/wiki/Explorer_1",
         "itemdateyear": "1958",
         "itemdatemonth": "02",
@@ -1239,7 +1332,7 @@
         "itemtype": 3
     },
     {
-        "itemname": "Start von Venera 3, sie landet als erstes von Menschen erzeugtes Objekt auf einem anderen Planeten",
+        "itemname": "Start von Venera 3, erstes von Menschen erzeugtes Objekt landet auf einem anderen Planeten",
         "itemurl": "https://de.wikipedia.org/wiki/Venera-Mission",
         "itemdateyear": "1965",
         "itemdatemonth": "11",
@@ -1277,7 +1370,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Start von Luna 9, mit der Sonde gelingt die erste weiche Landung auf einem Himmelskörper (Mond)",
+        "itemname": "Start von Luna 9, der Sonde gelingt die erste weiche Landung auf einem Himmelskörper (Mond)",
         "itemurl": "https://de.wikipedia.org/wiki/Luna-Programm",
         "itemdateyear": "1966",
         "itemdatemonth": "02",
@@ -1405,13 +1498,14 @@
         "itemtype": 3
     },
     {
-        "itemname": "erste automatische (nur mechanische) Kopplung zweier Raumschiffe - Kosmos 186 u. Kosmos 188",
+        "itemname": "erste automatische, nur mechanische Kopplung zweier Raumschiffe - Kosmos 186 u. Kosmos 188",
         "itemurl": "https://de.wikipedia.org/wiki/Kosmos_186",
         "itemdateyear": "1967",
         "itemdatemonth": "10",
         "itemdateday": "30",
         "itemcountry": "Erdorbit",
-        "itemtype": 2
+        "itemtype": 2,
+        "itemtags": "Kosmos 186, Kosmos 188"
     },
     {
         "itemname": "Apollo 4, erster unbemannter Testflug einer Saturn V-Rakete",
@@ -1421,7 +1515,8 @@
         "itemdateday": "09",
         "itemcountry": "USA",
         "itemlocation": "Cape Canaveral AFS",
-        "itemtype": 2
+        "itemtype": 2,
+        "itemtags": "Apollo 4, Saturn V"
     },
     {
         "itemname": "Einweihung des Mauna-Kea-Observatoriums",

@@ -70,7 +70,7 @@ const PeopleComponent = ({groupedPeople}) => {
           </p>
         </div>
         <p className="summary-text">
-          Doch aus dem Fall eines Apfels ein Naturgesetz abzuleiten oder mit akribischer
+          Aus dem Fall eines Apfels ein Naturgesetz abzuleiten oder mit akribischer
           Denkarbeit die Beziehungen zwischen Raum und Zeit zu formulieren, bringt
           die Menschheit ebenso voran wie die Entwicklung neuer Materialien oder
           die Reparatur eines Solarpanels an einer Raumstation.
@@ -80,7 +80,7 @@ const PeopleComponent = ({groupedPeople}) => {
           Nachwuchs. Die nächsten Ingenieure und Wissenschaftler der MINT-Disziplinen
           werden die Antriebe der Zukunft entwickeln und die Geheimnisse der Dunklen
           Materie entschlüsseln, die Raumfahrer von morgen werden auf dem Mars landen.<br />
-          <b>Jeder Einzelne zählt!</b>
+          Jeder Einzelne zählt!
         </p>
         <h4>Wussten Sie schon?</h4>
         <ul className="summary-list">
@@ -102,16 +102,15 @@ const PeopleComponent = ({groupedPeople}) => {
           </li>
         </ul>
       </Summary>
-      <div id="controlArea" className="persons pure-u-1">
+      <div id="controlArea" className="people pure-u-1">
         <div id="controllers" className="pure-u-1">
           <div id="sort" className="people pure-u-1-2 left">
             <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
             <div id="sortArea">
               <form id="sortPeople" className="sort-form">
-                <label>Sortieren nach:</label>
                 <select name="sortPeople" defaultValue="sortPeopleNameUp">
                   <option value="sortPeopleNameUp">Name &uarr;</option>
-                    <option value="sortPeopleNameDown">Name &darr;</option>
+                  <option value="sortPeopleNameDown">Name &darr;</option>
                   <option value="sortPeopleBornUp">Geburtsdatum &uarr;</option>// not important yet, too much items w/o dates
                   <option value="sortPeopleBornDown">Geburtsdatum &darr;</option>// not important yet, too much items w/o dates
                 </select>
@@ -124,7 +123,7 @@ const PeopleComponent = ({groupedPeople}) => {
               <form id="filterPeopleByProfession" className="filter-form">
                 <label>Beruf:</label>
                 <select name="peopleProfessions" defaultValue="showAllProfessions">
-                  <option value="showAllProfessions">alle</option>// TODO use only the 10 most listed professions
+                  <option value="showAllProfessions">alle</option>
                 </select>
               </form>
               <form id="filterPeopleByCountry" className="filter-form">

@@ -3,6 +3,8 @@ import {
   assertThat, hasProperty
 } from 'hamjest';
 import {Person} from '../people';
+import {Scientists} from '../scientists';
+import {Astronauts} from '../astronauts';
 import Grouper from './grouper';
 
 describe('groups objects by name', function() {
@@ -29,15 +31,16 @@ describe('groups objects by name', function() {
 
     const grouped = new Grouper(people).byName();
 
+
     assert.deepEqual(Object.keys(grouped), ['A', 'B']);
   });
 
   it('ensure using a string of the name (which provides `toString()`)', function() {
     const objects = [
-      {name: {toString() {return 'A'}}} 
+      {name: {toString() {return 'A'}}}
     ];
     const grouped = new Grouper(objects).byName();
     assertThat(grouped, hasProperty('A'));
   });
-  
+
 });

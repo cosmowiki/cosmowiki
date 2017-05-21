@@ -7,8 +7,8 @@ export default class SolarSystem {
     return <SolarSystemComponent appUrl={appUrl} />;
   }
 
-  static fromRawData() {
-    return rawData.map(raw => SolarSystem.fromRawData(raw))
+  static fromRawData(rawData) {
+    return rawData.map(raw => Item.fromRawData(raw))
   }
 
 }
