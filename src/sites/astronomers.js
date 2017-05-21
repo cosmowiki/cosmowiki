@@ -1,6 +1,5 @@
 import React from 'react';
 import {default as People, Person} from './people';
-import PeopleComponent from '../components/people';
 
 export default class Astronomers extends People {
   
