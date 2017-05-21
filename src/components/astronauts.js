@@ -197,31 +197,38 @@ const AstronautComponent = ({astronaut}) => {
   return (
             <div className="astronaut-row data-row pure-u-1">
               <div className="astronaut-name pure-u-1 pure-u-md-1 pure-u-lg-7-24">
-                <div className="pure-u-1 left">
+                <div className="pure-u-1">
                   <p><a href={astronaut.link}>{astronaut.name}</a></p>
                 </div>
               </div>
-              <div className="astronaut-country pure-u-1 pure-u-md-1-3 pure-u-lg-2-24">
-                <p>{astronaut.country ? astronaut.country : ''}</p>
-              </div>
-              <div className="astronaut-spaceflights pure-u-1 pure-u-md-2-3 pure-u-lg-10-24">
-                <div className="astronaut-firstlaunch pure-u-1 pure-u-md-13-24">
-                  <p>{astronaut.firstlaunch ? `erster Raumflug: ${astronaut.firstlaunch}` : ''}</p>
+              {astronaut.imgSmallUrl ?
+                <div className="astronaut-img pure-u-1-3 pure-u-sm-1-2 pure-u-md-2-24 center">
+                  <a href={astronaut.imgUrl} title={astronaut.name}><img src={astronaut.imgSmallUrl} alt={astronaut.name} /></a>
                 </div>
-                <div className="astronaut-timeinspace pure-u-1 pure-u-md-11-24">
-                  <p>{astronaut.timeinspace ? `Zeit im All: ${astronaut.timeinspace}` : ''}</p>
-                </div>
-              </div>
-              {astronaut.numberspacewalks ?
-              <div className="astronaut-spacewalks pure-u-1 pure-u-md-2-3 pure-u-lg-5-24">
-                <div className="astronaut-numberspacewalks pure-u-md-9-24">
-                  <p>EVAs: {astronaut.numberspacewalks}</p>
-                </div>
-                <div className="astronaut-durationspacewalks pure-u-md-15-24">
-                  <p>Dauer: {astronaut.durationspacewalks}</p>
-                </div>
-              </div>
                : ''}
+              <div className="astronaut-data pure-u-2-3">
+                <div className="astronaut-country pure-u-1 pure-u-md-1-3 pure-u-lg-2-24">
+                  <p>{astronaut.country ? astronaut.country : ''}</p>
+                </div>
+                <div className="astronaut-spaceflights pure-u-1 pure-u-md-2-3 pure-u-lg-9-24">
+                  <div className="astronaut-firstlaunch pure-u-1 pure-u-md-13-24">
+                    <p>{astronaut.firstLaunch ? `erster Raumflug: ${astronaut.firstLaunch}` : ''}</p>
+                  </div>
+                  <div className="astronaut-timeinspace pure-u-1 pure-u-md-11-24">
+                    <p>{astronaut.timeInSpace ? `Zeit im All: ${astronaut.timeInSpace}` : ''}</p>
+                  </div>
+                </div>
+                {astronaut.numberOfSpacewalks ?
+                <div className="astronaut-spacewalks pure-u-1 pure-u-md-2-3 pure-u-lg-4-24">
+                  <div className="astronaut-numberspacewalks pure-u-md-9-24">
+                    <p>EVAs: {astronaut.numberOfSpacewalks}</p>
+                  </div>
+                  <div className="astronaut-durationspacewalks pure-u-md-15-24">
+                    <p>Dauer: {astronaut.durationOfSpacewalks}</p>
+                  </div>
+                </div>
+                : ''}
+              </div>
             </div>
   );
 };

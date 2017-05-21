@@ -14,18 +14,8 @@ describe('groups objects by name', function() {
       new Person({name: 'A'}),
       new Person({name: 'B'})
     ];
-    const astronauts = [
-      new Astronaut({name: 'A'}),
-      new Astronaut({name: 'B'})
-    ];
-    const scientists = [
-      new Scientist({name: 'A'}),
-      new Scientist({name: 'B'})
-    ];
 
     const grouped = new Grouper(people).byName();
-    const grouped = new Grouper(astronauts).byName();
-    const grouped = new Grouper(scientists).byName();
 
     assert.equal(Object.keys(grouped).length, 2);
   });
@@ -38,24 +28,8 @@ describe('groups objects by name', function() {
       new Person({name: 'B'}),
       new Person({name: 'b'})
     ];
-    const astronauts = [
-      new Astronaut({name: 'A'}),
-      new Astronaut({name: 'a'}),
-      new Astronaut({name: 'B'}),
-      new Astronaut({name: 'B'}),
-      new Astronaut({name: 'b'})
-    ];
-    const scientists = [
-      new Scientist({name: 'A'}),
-      new Scientist({name: 'a'}),
-      new Scientist({name: 'B'}),
-      new Scientist({name: 'B'}),
-      new Scientist({name: 'b'})
-    ];
 
     const grouped = new Grouper(people).byName();
-    const grouped = new Grouper(astronauts).byName();
-    const grouped = new Grouper(scientists).byName();
 
 
     assert.deepEqual(Object.keys(grouped), ['A', 'B']);

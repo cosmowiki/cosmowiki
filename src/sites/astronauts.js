@@ -20,18 +20,18 @@ export class Astronaut {
   constructor({name, link, imgSmallUrl, imgUrl, country, agency, agencyUrl, missions, born, died, timeInSpace, firstLaunch, numberOfSpacewalks, durationOfSpacewalks, type}) {
     this.name = name;
     this.link = link;
-    this.imgsmallurl = imgSmallUrl;
-    this.imgurl = imgUrl;
+    this.imgSmallUrl = imgSmallUrl;
+    this.imgUrl = imgUrl;
     this.country = country;
     this.agency = agency;
     this.agencyurl = agencyUrl;
     this.missions = missions;
     this.born = born;
     this.died = died;
-    this.timeinspace = timeInSpace;
-    this.firstlaunch = firstLaunch;
-    this.numberspacewalks = numberOfSpacewalks;
-    this.durationspacewalks = durationOfSpacewalks;
+    this.timeInSpace = timeInSpace;
+    this.firstLaunch = firstLaunch;
+    this.numberOfSpacewalks = numberOfSpacewalks;
+    this.durationOfSpacewalks = durationOfSpacewalks;
     this.type = type;
   }
 
