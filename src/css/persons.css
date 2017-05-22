@@ -11,9 +11,7 @@
 .person-data2 div,
 .scientist-data1 div,
 .scientist-data2 div,
-.astronaut-country,
-.astronaut-spaceflights div,
-.astronaut-spacewalks div {font-size: 1.125em;}
+.astronaut-data {font-size: 1.125em;}
 
 /* display -------------------------------------------------------------------*/
 .person-name div,
@@ -30,15 +28,18 @@
 /*.astronaut-spaceflights {background: #ccc;}*/
 /*.astronaut-spacewalks {background: #ccc;}*/
 
-.astronaut-name {display: block;}
+.astronaut-name {display: block; margin-botttom: .2em;}
 .astronaut-name div {text-align: left;}
 .astronaut-name p,
+.astronaut-name img,
 .astronaut-img,
 .astronaut-data,
-.astronaut-durationspacewalks p {margin-left: .5em;}
+.astronaut-country p,
+.astronaut-durationspacewalks p {margin-left: .2em;}
+.astronaut-name img {height: .75em;}
 .astronaut-img {display: inline; overflow: hidden;}
 .astronaut-img img {height: 100px;}
-.astronaut-data p {line-height: 1.5em;}
+.astronaut-data div,
 .astronaut-spacewalks div {display: inline-block;}
 
 /*.astronaut-numberspacewalks {text-align: right;}*/
@@ -61,11 +62,4 @@
 	.scientist-name p {margin-left: .2em;}
 	.scientist-data1 div {margin-left: .2em;}
 	.scientist-data2 div {line-height: 1.75em;}
-
-	.astronaut-name div {font-size: 1.125em; line-height: 1.75em; text-align: left;}
-	.astronaut-country,
-	.astronaut-spaceflights div,
-	.astronaut-spacewalks div {line-height: 1.75em;}
-	.astronaut-country,
-	.astronaut-spacewalks div {text-align: left;}
 }

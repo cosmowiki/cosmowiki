@@ -19,9 +19,21 @@ const AstronautsComponent = ({groupedAstronauts}) => {
       </div>
       <Summary>
         <p className="summary-text">
-          Naturwissenschaftler und Raumfahrer – seit Jahrtausenden entdecken und
-          erobern sie neue Welten und Räume, sie erkennen Zusammenhänge und Naturgesetze.
-          Als Pioniere erweitern sie ständig den Horizont der Erkenntnis.
+          Nach der Definition der Fédération Aéronautique Internationale (FAI) beginnt
+          der Weltraum in einer Höhe von 100 km über der Erdoberfläche.
+          Die International Association of Space Explorers (ASE) und alle internationalen
+          Raumfahrtagenturen erkennen nur solche Personen als Raumfahrer an, welche
+          bei einem Raumflug mindestens eine Erdumkreisung absolviert haben.
+          Somit ist ein Mensch ein Raumfahrer, wenn er die 100-Kilometer-Marke überflogen
+          und dabei mindestens einmal die Erde umkreist hat.
+        </p>
+        <p className="summary-text">
+          Doch auch über diese Merkmale hinaus sind Raumfahrer außergewöhnliche Menschen.
+          Enorme körperliche und psychische Belastbarkeit sind nur zwei von vielen
+          Punkten in ihrem Anforderungsprofil. Sie sind hochintelligent und haben
+          viele Jahre an Universitäten und Hochschulen studiert. Studienabschlüsse
+          als Ingenieur, in Naturwissenschaften oder Medizin sind in ihren Lebensläufen
+          zu finden - oft sogar mehrere davon.
         </p>
         <div className="summary-img float-right size-lg">
           <a href="/img/persons/claudius_ptolemaeus_lg.jpg" title="Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch - Großansicht">
@@ -32,22 +44,42 @@ const AstronautsComponent = ({groupedAstronauts}) => {
           </p>
         </div>
         <p className="summary-text">
-          Aus Schamanen und Priestern wurden Astrologen und Philosophen, später
-          dann Quantenphysiker und Bordingenieure. Ihr steter Drang nach der Erforschung
-          des Unbekannten sind bis heute der Motor der Wissenschaft.
+          Bemannte Raumfahrt zu betreiben, war ein prestigeträchtiges Unterfangen
+          für eine Nation. Zwischen den beiden Supermächten UdSSR und USA entbrannte
+          ein Wettstreit darum, welches Land den ersten Menschen ins All schicken würde.
         </p>
         <p className="summary-text">
-          Sie stellen die entscheidenden Fragen und suchen nach deren Antworten.
-          Sie sind aufmerksame Beobachter ihrer Umwelt und werten Daten aus. Neugier,
-          Beharrlichkeit und Ausdauer sind Grundvoraussetzungen, um als Forscher
-          nicht nur erfolgreich zu sein, sondern auch Misserfolge und Rückschläge
-          zu verkraften.
+          Juri Gagarin umrundete dann am 12. April 1961 mit Wostok 1 als erster Mensch
+          die Erde - die Sowjets hatten dieses Rennen also gewonnen. Der erste US-Amerikaner
+          im All war dann Alan Shepard. Am 5. Mai 1961 absolvierte er mit  Mercury-Redstone 3 einen
+          suborbitalen Flug mit einer Gipfelhöhe von 187 Kilometern. Den ersten
+          amerikanischen Orbitalflug führte John Glenn am 20. Februar 1962 mit Mercury-Atlas 6 durch.
         </p>
         <p className="summary-text">
-          Neben den großen Namen gibt es viele unbekannte Akademiker und Amateure,
-          die im kleinen und großen Maßstab Bedeutendes geleistet haben. Wie Zahnräder
-          in einem Getriebe greifen ihre Arbeiten ineinander und treiben die Wissenschaft
-          voran in Richtung Zukunft.
+          In den ersten Jahren der bemannten Raumfahrt wurden Astronauten, oder
+          Kosmonauten, wie sie in der damaligen Sowjetunion genannt wurden, fast
+          ausschließlich aus dem Militär rekrutiert. Langjährige Erfahrungen als
+          Kampf- und Testpiloten und hohes technisches Verständnis qualifizierten
+          nur eine kleine Elite für den vielleicht interessantesten Beruf überhaupt.
+        </p>
+        <p className="summary-text">
+          Das Training der Astronauten ist legendär. Allein um die G-Kräfte während eines
+          Raumfluges zu überstehen, sind ausgiebige Belastungsproben in der Zentrifuge nötig.
+          So traten bei den Starts der US-amerikanischen Space-Shuttles etwa 3 bis 4 g auf,
+          die Kosmonauten in den Sojus-Kapseln sind hingegen bei der Landung bis zu 10 g ausgesetzt.
+        </p>
+        <p className="summary-text">
+          Die Schwerelosigkeit im All stellt dann wiederum völlig andere Anforderungen
+          an den menschlichen Körper, besonders an den Gleichgewichtssinn. Muskel- und
+          Knochenschwund sind die bekanntesten Nebenwirkungen eines Aufenthaltes im Weltall.
+          Für die Raumfahrer auf Langzeitmissionen bedeutet dies, ein intensives
+          Sportprogramm abzuleisten - jeden Tag.
+        </p>
+        <p className="summary-text">
+          Das physische Training der Astronauten ist nur ein kleiner Teil ihrer Ausbildung.
+          Die dauert heute für eine Mission zur ISS insgesamt zwei Jahre. Um überhaupt
+          ausgewählt zu werden, bedarf es einer Menge Durchhaltevermögen und auch Glück.
+          Unter Tausenden Bewerbern schafft es am Ende nur eine Handvoll.
         </p>
         <div className="summary-img width-75 center">
           <img src="/img/persons/people_collage.jpg" alt="Collage berühmter astronauten" />
@@ -75,30 +107,19 @@ const AstronautsComponent = ({groupedAstronauts}) => {
           die Menschheit ebenso voran wie die Entwicklung neuer Materialien oder
           die Reparatur eines Solarpanels an einer Raumstation.
         </p>
-        <p className="summary-text">
-          Institute und Raumfahrtorganisationen auf der ganzen Welt ringen um
-          Nachwuchs. Die nächsten Ingenieure und Wissenschaftler der MINT-Disziplinen
-          werden die Antriebe der Zukunft entwickeln und die Geheimnisse der Dunklen
-          Materie entschlüsseln, die Raumfahrer von morgen werden auf dem Mars landen.<br />
-          Jeder Einzelne zählt!
-        </p>
         <h4>Wussten Sie schon?</h4>
         <ul className="summary-list">
           <li>
-            Der deutsche Astronom <em>Johann Bayer</em> (1572 - 1625) führte eine
-            noch heute gebräuliche systematische Benennung von Sternen ein.
-          </li>
-          <li>
-            Am <em>Apollo-Programm</em> und der ersten bemannten Mondlandung arbeiteten
-            insgesamt etwa 400.000 Menschen mit.
+            Der Kontrukteur Konstantin Feoktistow und der Arzt Boris Jegorow an Bord
+            von Woschod 1 waren die ersten Zivilisten im All.
           </li>
           <li>
             Der Kosmonaut Waleri Bykowski hält mit vier Tagen und 23 Stunden den
             Rekord für den längsten Soloflug der Raumfahrtgeschichte.
           </li>
           <li>
-            <em>Brain May</em>, der Gitarrist der britischen Rockband Queen ist
-            seit 2007 auch promovierter Astrophysiker.
+            Yang Liwei startete am 15. Oktober 2003 als erster chinesischer Raumfahrer,
+            auch Taikonaut genannt, mit Shenzhou 5 ins All.
           </li>
         </ul>
       </Summary>
@@ -174,35 +195,40 @@ const AstronautGroupComponent = ({group}) => {
 const AstronautComponent = ({astronaut}) => {
   return (
             <div className="astronaut-row data-row pure-u-1">
-              <div className="astronaut-name pure-u-1 pure-u-md-1 pure-u-lg-7-24">
+              <div className="astronaut-name pure-u-1">
                 <div className="pure-u-1">
-                  <p><a href={astronaut.link}>{astronaut.name}</a></p>
+                  <p><a href={astronaut.link} title={astronaut.name}>{astronaut.name}</a><img src={astronaut.flag} alt={astronaut.country} title={astronaut.country} /></p>
                 </div>
               </div>
               {astronaut.imgSmallUrl ?
-                <div className="astronaut-img pure-u-1-3 pure-u-sm-1-2 pure-u-md-2-24 center">
-                  <a href={astronaut.imgUrl} title={astronaut.name}><img src={astronaut.imgSmallUrl} alt={astronaut.name} /></a>
+                <div className="astronaut-img pure-u-1-3 pure-u-sm-1-4 pure-u-md-1-5 pure-u-lg-1-8">
+                  <a href={astronaut.imgUrl} title={astronaut.name}><img src={astronaut.imgSmallUrl} alt={astronaut.name} title={astronaut.name} /></a>
                 </div>
-               : ''}
-              <div className="astronaut-data pure-u-2-3">
-                <div className="astronaut-country pure-u-1 pure-u-md-1-3 pure-u-lg-2-24">
-                  <p>{astronaut.country ? astronaut.country : ''}</p>
+              : ''}
+              <div className="astronaut-data pure-u-2-3 pure-u-sm-3-4 pure-u-md-4-5 pure-u-lg-7-8">
+                <div className="astronaut-life">
+                  <p>* {astronaut.born}{astronaut.died ? ` † ${astronaut.died}` : ''}</p>
                 </div>
+                {astronaut.firstLaunch ?
                 <div className="astronaut-spaceflights pure-u-1 pure-u-md-2-3 pure-u-lg-9-24">
                   <div className="astronaut-firstlaunch pure-u-1 pure-u-md-13-24">
-                    <p>{astronaut.firstLaunch ? `erster Raumflug: ${astronaut.firstLaunch}` : ''}</p>
+                    <p>erster Raumflug: {astronaut.firstLaunch}</p>
+                  </div>
+                  <div className="astronaut-missions pure-u-1 pure-u-md-13-24">
+                    <p>{astronaut.missions}</p>
                   </div>
                   <div className="astronaut-timeinspace pure-u-1 pure-u-md-11-24">
-                    <p>{astronaut.timeInSpace ? `Zeit im All: ${astronaut.timeInSpace}` : ''}</p>
+                    <p>Gesamtzeit im All: {astronaut.timeInSpace}</p>
                   </div>
                 </div>
+                : ''}
                 {astronaut.numberOfSpacewalks ?
                 <div className="astronaut-spacewalks pure-u-1 pure-u-md-2-3 pure-u-lg-4-24">
                   <div className="astronaut-numberspacewalks pure-u-md-9-24">
                     <p>EVAs: {astronaut.numberOfSpacewalks}</p>
                   </div>
                   <div className="astronaut-durationspacewalks pure-u-md-15-24">
-                    <p>Dauer: {astronaut.durationOfSpacewalks}</p>
+                    <p>Gesamtdauer: {astronaut.durationOfSpacewalks}</p>
                   </div>
                 </div>
                 : ''}

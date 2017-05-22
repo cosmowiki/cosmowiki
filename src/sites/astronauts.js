@@ -17,12 +17,13 @@ export default class Astronauts {
 
 export class Astronaut {
 
-  constructor({name, link, imgSmallUrl, imgUrl, country, agency, agencyUrl, missions, born, died, timeInSpace, firstLaunch, numberOfSpacewalks, durationOfSpacewalks, type}) {
+  constructor({name, link, imgSmallUrl, imgUrl, country, flag, agency, agencyUrl, missions, born, died, timeInSpace, firstLaunch, numberOfSpacewalks, durationOfSpacewalks, type}) {
     this.name = name;
     this.link = link;
     this.imgSmallUrl = imgSmallUrl;
     this.imgUrl = imgUrl;
     this.country = country;
+    this.flag = flag;
     this.agency = agency;
     this.agencyurl = agencyUrl;
     this.missions = missions;
@@ -64,6 +65,7 @@ export class Astronaut {
       imgSmallUrl: raw.itemimgsmallurl,
       imgUrl: raw.itemimgurl,
       country: raw.itemcountry,
+      flag: raw.itemcolor,
       agency: raw.itemparent,
       agencyUrl: raw.itemparenturl,
       missions: raw.itemdescription,
