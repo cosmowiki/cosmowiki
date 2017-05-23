@@ -4,8 +4,7 @@
 
 /* font & text-align ---------------------------------------------------------*/
 .person-name div,
-.scientist-name div,
-.astronaut-name div {text-align: center; font-size: 1.25em;}
+.scientist-name div {text-align: center;}
 
 .person-data1 div,
 .person-data2 div,
@@ -23,33 +22,30 @@
 .scientist-data2 div {display: inline-block;}
 
 /* astronaut -----------------------------------------------------------------*/
-/*.astronaut-name {background: #ccc;}*/
-/*.astronaut-country {background: #ccc;}*/
-/*.astronaut-spaceflights {background: #ccc;}*/
-/*.astronaut-spacewalks {background: #ccc;}*/
+.astronaut-name {display: block; margin: 0 0 .2em .2em; font-size: 1.25em; text-align: left;}
+.astronaut-name img {margin-left: .2em; height: .75em;}
 
-.astronaut-name {display: block; margin-botttom: .2em;}
-.astronaut-name div {text-align: left;}
-.astronaut-name p,
-.astronaut-name img,
-.astronaut-img,
-.astronaut-data,
-.astronaut-country p,
-.astronaut-durationspacewalks p {margin-left: .2em;}
-.astronaut-name img {height: .75em;}
-.astronaut-img {display: inline; overflow: hidden;}
-.astronaut-img img {height: 100px;}
-.astronaut-data div,
-.astronaut-spacewalks div {display: inline-block;}
+.astronaut-img {display: inline;}
+.astronaut-img {margin: .2em 0 0 .2em;}
+.astronaut-img img {height: 110px;}
 
-/*.astronaut-numberspacewalks {text-align: right;}*/
+.astronaut-data {margin: 0 0 0 .2em;}
+.astronaut-data div {display: block;}
+
+.astronaut-life p {display: inline;}
+.astronaut-died {margin-left: .5em;}
+
+.astronaut-spaceflights div {display: block;}
+.astronaut-missionsdata p {display: inline;}
+.astronaut-numberofmissions {margin-right: .5em;}
+
+.astronaut-spacewalks p {display: inline;}
+.astronaut-durationofspacewalks {margin-left: .5em;}
+
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 48em) {
-	.astronaut-country,
-	.astronaut-spaceflights,
-	.astronaut-spacewalks {}
-	.astronaut-durationspacewalks p {margin: 0;}
+
 }
 @media only all and (min-width: 64em) {
 	.person-name div,
@@ -62,4 +58,5 @@
 	.scientist-name p {margin-left: .2em;}
 	.scientist-data1 div {margin-left: .2em;}
 	.scientist-data2 div {line-height: 1.75em;}
+
 }

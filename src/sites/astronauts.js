@@ -17,7 +17,7 @@ export default class Astronauts {
 
 export class Astronaut {
 
-  constructor({name, link, imgSmallUrl, imgUrl, country, flag, agency, agencyUrl, missions, born, died, timeInSpace, firstLaunch, numberOfSpacewalks, durationOfSpacewalks, type}) {
+  constructor({name, link, imgSmallUrl, imgUrl, country, flag, agency, agencyUrl, numberOfMissions, missions, born, died, timeInSpace, firstLaunch, numberOfSpacewalks, durationOfSpacewalks, type}) {
     this.name = name;
     this.link = link;
     this.imgSmallUrl = imgSmallUrl;
@@ -26,6 +26,7 @@ export class Astronaut {
     this.flag = flag;
     this.agency = agency;
     this.agencyurl = agencyUrl;
+    this.numberOfMissions = numberOfMissions;
     this.missions = missions;
     this.born = born;
     this.died = died;
@@ -42,6 +43,7 @@ export class Astronaut {
     // "itemname2": "Neil",
     // "itemdescription": "Gemini 8, Apollo 11",
     // "itemtype": 2,
+    // "itemcolor": "/img/flags/USA.png",
     // "itemimgsmallurl": "/img/astronauts/armstrong_neil_sm.jpg",
     // "itemimgurl": "/img/astronauts/armstrong_neil_lg.jpg",
     // "itemdateyear": "1930",
@@ -68,6 +70,7 @@ export class Astronaut {
       flag: raw.itemcolor,
       agency: raw.itemparent,
       agencyUrl: raw.itemparenturl,
+      numberOfMissions: raw.itemid,
       missions: raw.itemdescription,
       born: [raw.itemdateday, raw.itemdatemonth, raw.itemdateyear].filter(v => v).join('.'),
       died: [raw.itemdate2day, raw.itemdate2month, raw.itemdate2year].filter(v => v).join('.'),
