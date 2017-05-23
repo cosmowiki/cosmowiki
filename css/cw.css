@@ -274,6 +274,34 @@ div.summary-img.width-25,
 #pageSubMenu a:hover,
 #pageSubMenu a:active {color: #fff; background: rgba(255,255,255,.3);}
 
+#pageSubMenu li.astronauts {
+	background: url("/img/title_astronauts.jpg") center / cover no-repeat;
+}
+#pageSubMenu li.constellations {
+	background: url("/img/title_constellations.jpg") center / cover no-repeat;
+}
+#pageSubMenu li.missions {
+	background: url("/img/title_missions.jpg") center / cover no-repeat;
+}
+#pageSubMenu li.scientists {
+	background: url("/img/title_astronomers.jpg") center / cover no-repeat;
+}
+#pageSubMenu li.solarsystem {
+	background: url("/img/title_solarsystem.jpg") center / cover no-repeat;
+}
+#pageSubMenu li.spacestations {
+	background: url("/img/title_stations.jpg") center / cover no-repeat;
+}
+#pageSubMenu li.spacetelescopes {
+	background: url("/img/title_spacetelescopes.jpg") center / cover no-repeat;
+}
+#pageSubMenu li.spacewalks {
+	background: url("/img/title_spacewalks.jpg") center / cover no-repeat;
+}
+#pageSubMenu li.stars {
+	background: url("/img/title_stars.jpg") center / cover no-repeat;
+}
+
 /*		dataArea -------------------------------------------------------------- */
 
 #dataArea {font-size: .8em;	background: rgba(255,255,255,.5);}

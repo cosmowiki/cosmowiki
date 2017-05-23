@@ -7330,7 +7330,7 @@ module.exports = Array.isArray || function (arr) {
 require('whatwg-fetch');
 module.exports = self.fetch.bind(self);
 
-},{"whatwg-fetch":420}],229:[function(require,module,exports){
+},{"whatwg-fetch":421}],229:[function(require,module,exports){
 (function (process){
 var path = require('path');
 var fs = require('fs');
@@ -8131,6 +8131,10 @@ process.off = noop;
 process.removeListener = noop;
 process.removeAllListeners = noop;
 process.emit = noop;
+process.prependListener = noop;
+process.prependOnceListener = noop;
+
+process.listeners = function (name) { return [] }
 
 process.binding = function (name) {
     throw new Error('process.binding is not supported');
@@ -8554,6 +8558,20 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
       return emptyFunction.thatReturnsNull;
     }
 
+    for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
+      var checker = arrayOfTypeCheckers[i];
+      if (typeof checker !== 'function') {
+        warning(
+          false,
+          'Invalid argument supplid to oneOfType. Expected an array of check functions, but ' +
+          'received %s at index %s.',
+          getPostfixForTypeWarning(checker),
+          i
+        );
+        return emptyFunction.thatReturnsNull;
+      }
+    }
+
     function validate(props, propName, componentName, location, propFullName) {
       for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
         var checker = arrayOfTypeCheckers[i];
@@ -8686,6 +8704,9 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
   // This handles more types than `getPropType`. Only used for error messages.
   // See `createPrimitiveTypeChecker`.
   function getPreciseType(propValue) {
+    if (typeof propValue === 'undefined' || propValue === null) {
+      return '' + propValue;
+    }
     var propType = getPropType(propValue);
     if (propType === 'object') {
       if (propValue instanceof Date) {
@@ -8695,6 +8716,23 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
       }
     }
     return propType;
+  }
+
+  // Returns a string that is postfixed to a warning about an invalid type.
+  // For example, "undefined" or "of type array"
+  function getPostfixForTypeWarning(value) {
+    var type = getPreciseType(value);
+    switch (type) {
+      case 'array':
+      case 'object':
+        return 'an ' + type;
+      case 'boolean':
+      case 'date':
+      case 'regexp':
+        return 'a ' + type;
+      default:
+        return type;
+    }
   }
 
   // Returns class name of the object, if any.
@@ -29417,7 +29455,7 @@ function indexOf(xs, x) {
   return -1;
 }
 }).call(this,require('_process'))
-},{"./_stream_duplex":400,"./internal/streams/BufferList":405,"./internal/streams/stream":406,"_process":235,"buffer":8,"buffer-shims":7,"core-util-is":197,"events":198,"inherits":225,"isarray":227,"process-nextick-args":234,"string_decoder/":417,"util":5}],403:[function(require,module,exports){
+},{"./_stream_duplex":400,"./internal/streams/BufferList":405,"./internal/streams/stream":406,"_process":235,"buffer":8,"buffer-shims":7,"core-util-is":197,"events":198,"inherits":225,"isarray":227,"process-nextick-args":234,"string_decoder/":418,"util":5}],403:[function(require,module,exports){
 // a transform stream is a readable/writable stream where you do
 // something with the data.  Sometimes it's called a "filter",
 // but that's not a great name for it, since that implies a thing where
@@ -30147,7 +30185,7 @@ function CorkedRequest(state) {
   };
 }
 }).call(this,require('_process'))
-},{"./_stream_duplex":400,"./internal/streams/stream":406,"_process":235,"buffer":8,"buffer-shims":7,"core-util-is":197,"inherits":225,"process-nextick-args":234,"util-deprecate":419}],405:[function(require,module,exports){
+},{"./_stream_duplex":400,"./internal/streams/stream":406,"_process":235,"buffer":8,"buffer-shims":7,"core-util-is":197,"inherits":225,"process-nextick-args":234,"util-deprecate":420}],405:[function(require,module,exports){
 'use strict';
 
 var Buffer = require('buffer').Buffer;
@@ -30894,6 +30932,9 @@ module.exports = require('./lib/_stream_writable.js');
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{"_process":235}],412:[function(require,module,exports){
+module.exports = require('buffer')
+
+},{"buffer":8}],413:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -31022,7 +31063,7 @@ Stream.prototype.pipe = function(dest, options) {
   return dest;
 };
 
-},{"events":198,"inherits":225,"readable-stream/duplex.js":399,"readable-stream/passthrough.js":407,"readable-stream/readable.js":408,"readable-stream/transform.js":409,"readable-stream/writable.js":410}],413:[function(require,module,exports){
+},{"events":198,"inherits":225,"readable-stream/duplex.js":399,"readable-stream/passthrough.js":407,"readable-stream/readable.js":408,"readable-stream/transform.js":409,"readable-stream/writable.js":410}],414:[function(require,module,exports){
 var ClientRequest = require('./lib/request')
 var extend = require('xtend')
 var statusCodes = require('builtin-status-codes')
@@ -31097,7 +31138,7 @@ http.METHODS = [
 	'UNLOCK',
 	'UNSUBSCRIBE'
 ]
-},{"./lib/request":415,"builtin-status-codes":9,"url":418,"xtend":421}],414:[function(require,module,exports){
+},{"./lib/request":416,"builtin-status-codes":9,"url":419,"xtend":422}],415:[function(require,module,exports){
 (function (global){
 exports.fetch = isFunction(global.fetch) && isFunction(global.ReadableByteStream)
 
@@ -31141,7 +31182,7 @@ function isFunction (value) {
 xhr = null // Help gc
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],415:[function(require,module,exports){
+},{}],416:[function(require,module,exports){
 (function (process,global,Buffer){
 // var Base64 = require('Base64')
 var capability = require('./capability')
@@ -31423,7 +31464,7 @@ var unsafeHeaders = [
 ]
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer)
-},{"./capability":414,"./response":416,"_process":235,"buffer":8,"foreach":222,"indexof":224,"inherits":225,"object-keys":231,"stream":412}],416:[function(require,module,exports){
+},{"./capability":415,"./response":417,"_process":235,"buffer":8,"foreach":222,"indexof":224,"inherits":225,"object-keys":231,"stream":413}],417:[function(require,module,exports){
 (function (process,global,Buffer){
 var capability = require('./capability')
 var foreach = require('foreach')
@@ -31600,11 +31641,10 @@ IncomingMessage.prototype._onXHRProgress = function () {
 }
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer)
-},{"./capability":414,"_process":235,"buffer":8,"foreach":222,"inherits":225,"stream":412}],417:[function(require,module,exports){
+},{"./capability":415,"_process":235,"buffer":8,"foreach":222,"inherits":225,"stream":413}],418:[function(require,module,exports){
 'use strict';
 
-var Buffer = require('buffer').Buffer;
-var bufferShim = require('buffer-shims');
+var Buffer = require('safe-buffer').Buffer;
 
 var isEncoding = Buffer.isEncoding || function (encoding) {
   encoding = '' + encoding;
@@ -31681,7 +31721,7 @@ function StringDecoder(encoding) {
   }
   this.lastNeed = 0;
   this.lastTotal = 0;
-  this.lastChar = bufferShim.allocUnsafe(nb);
+  this.lastChar = Buffer.allocUnsafe(nb);
 }
 
 StringDecoder.prototype.write = function (buf) {
@@ -31874,7 +31914,7 @@ function simpleWrite(buf) {
 function simpleEnd(buf) {
   return buf && buf.length ? this.write(buf) : '';
 }
-},{"buffer":8,"buffer-shims":7}],418:[function(require,module,exports){
+},{"safe-buffer":412}],419:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -32583,7 +32623,7 @@ function isNullOrUndefined(arg) {
   return  arg == null;
 }
 
-},{"punycode":240,"querystring":243}],419:[function(require,module,exports){
+},{"punycode":240,"querystring":243}],420:[function(require,module,exports){
 (function (global){
 
 /**
@@ -32654,7 +32694,7 @@ function config (name) {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],420:[function(require,module,exports){
+},{}],421:[function(require,module,exports){
 (function(self) {
   'use strict';
 
@@ -33117,7 +33157,7 @@ function config (name) {
   self.fetch.polyfill = true
 })(typeof self !== 'undefined' ? self : this);
 
-},{}],421:[function(require,module,exports){
+},{}],422:[function(require,module,exports){
 module.exports = extend
 
 var hasOwnProperty = Object.prototype.hasOwnProperty;
@@ -33138,7 +33178,7 @@ function extend() {
     return target
 }
 
-},{}],422:[function(require,module,exports){
+},{}],423:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -33174,7 +33214,7 @@ function loadRemoteFile(fileUrl, onLoaded) {
   request.end();
 }
 
-},{"http":413,"url":418}],423:[function(require,module,exports){
+},{"http":414,"url":419}],424:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -33201,9 +33241,9 @@ var AppUrl = (function () {
       return '/people';
     }
   }, {
-    key: 'astronomersSite',
-    value: function astronomersSite() {
-      return '/astronomers';
+    key: 'scientistsSite',
+    value: function scientistsSite() {
+      return '/scientists';
     }
   }, {
     key: 'astronomySite',
@@ -33278,7 +33318,7 @@ var AppUrl = (function () {
 exports['default'] = AppUrl;
 module.exports = exports['default'];
 
-},{}],424:[function(require,module,exports){
+},{}],425:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -33645,7 +33685,503 @@ var Question = function Question(_ref) {
 };
 module.exports = exports['default'];
 
-},{"react":449}],425:[function(require,module,exports){
+},{"react":453}],426:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _notes = require('./notes');
+
+var _notes2 = _interopRequireDefault(_notes);
+
+var _chunksLetterLinks = require('./chunks/letter-links');
+
+var _chunksLetterLinks2 = _interopRequireDefault(_chunksLetterLinks);
+
+var _chunksSummary = require('./chunks/summary');
+
+var AstronautsComponent = function AstronautsComponent(_ref) {
+  var groupedAstronauts = _ref.groupedAstronauts;
+
+  var allFirstLetters = Object.keys(groupedAstronauts);
+  var groupsIterable = allFirstLetters.map(function (key) {
+    return groupedAstronauts[key];
+  });
+
+  return _react2['default'].createElement(
+    'main',
+    { role: 'main', className: 'pure-u-1' },
+    _react2['default'].createElement(
+      'div',
+      { id: 'siteTitle', className: 'astronauts pure-u-1 center' },
+      _react2['default'].createElement(
+        'h1',
+        null,
+        'Raumfahrer'
+      ),
+      _react2['default'].createElement(
+        'h3',
+        null,
+        'Astronauten, Komsonauten, Taikonauten'
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'todo', className: 'pure-u-1' },
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@wolfram pls replace the filter forms with FilterRows as in stars-site'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens'
+      )
+    ),
+    _react2['default'].createElement(
+      _chunksSummary.Summary,
+      null,
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Nach der Definition der Fédération Aéronautique Internationale (FAI) beginnt der Weltraum in einer Höhe von 100 km über der Erdoberfläche. Die International Association of Space Explorers (ASE) und alle internationalen Raumfahrtagenturen erkennen nur solche Personen als Raumfahrer an, welche bei einem Raumflug mindestens eine Erdumkreisung absolviert haben. Somit ist ein Mensch ein Raumfahrer, wenn er die 100-Kilometer-Marke überflogen und dabei mindestens einmal die Erde umkreist hat.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Doch auch über diese Merkmale hinaus sind Raumfahrer außergewöhnliche Menschen. Enorme körperliche und psychische Belastbarkeit sind nur zwei von vielen Punkten in ihrem Anforderungsprofil. Sie sind hochintelligent und haben viele Jahre an Universitäten und Hochschulen studiert. Studienabschlüsse als Ingenieur, in Naturwissenschaften oder Medizin sind in ihren Lebensläufen zu finden - oft sogar mehrere davon.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img float-right size-lg' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/persons/claudius_ptolemaeus_lg.jpg', title: 'Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/persons/claudius_ptolemaeus_sm.jpg', alt: 'Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Claudius Ptolemäus'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Bemannte Raumfahrt zu betreiben, war ein prestigeträchtiges Unterfangen für eine Nation. Zwischen den beiden Supermächten UdSSR und USA entbrannte ein Wettstreit darum, welches Land den ersten Menschen ins All schicken würde.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Juri Gagarin umrundete dann am 12. April 1961 mit Wostok 1 als erster Mensch die Erde - die Sowjets hatten dieses Rennen also gewonnen. Der erste US-Amerikaner im All war dann Alan Shepard. Am 5. Mai 1961 absolvierte er mit  Mercury-Redstone 3 einen suborbitalen Flug mit einer Gipfelhöhe von 187 Kilometern. Den ersten amerikanischen Orbitalflug führte John Glenn am 20. Februar 1962 mit Mercury-Atlas 6 durch.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'In den ersten Jahren der bemannten Raumfahrt wurden Astronauten, oder Kosmonauten, wie sie in der damaligen Sowjetunion genannt wurden, fast ausschließlich aus dem Militär rekrutiert. Langjährige Erfahrungen als Kampf- und Testpiloten und hohes technisches Verständnis qualifizierten nur eine kleine Elite für den vielleicht interessantesten Beruf überhaupt.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Das Training der Astronauten ist legendär. Allein um die G-Kräfte während eines Raumfluges zu überstehen, sind ausgiebige Belastungsproben in der Zentrifuge nötig. So traten bei den Starts der US-amerikanischen Space-Shuttles etwa 3 bis 4 g auf, die Kosmonauten in den Sojus-Kapseln sind hingegen bei der Landung bis zu 10 g ausgesetzt.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Die Schwerelosigkeit im All stellt dann wiederum völlig andere Anforderungen an den menschlichen Körper, besonders an den Gleichgewichtssinn. Muskel- und Knochenschwund sind die bekanntesten Nebenwirkungen eines Aufenthaltes im Weltall. Für die Raumfahrer auf Langzeitmissionen bedeutet dies, ein intensives Sportprogramm abzuleisten - jeden Tag.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Das physische Training der Astronauten ist nur ein kleiner Teil ihrer Ausbildung. Die dauert heute für eine Mission zur ISS insgesamt zwei Jahre. Um überhaupt ausgewählt zu werden, bedarf es einer Menge Durchhaltevermögen und auch Glück. Unter Tausenden Bewerbern schafft es am Ende nur eine Handvoll.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img width-75 center' },
+        _react2['default'].createElement('img', { src: '/img/persons/people_collage.jpg', alt: 'Collage berühmter astronauten' }),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Aristoteles, A. Shepard, I. Newton, E. Halley, V. Tereschkowa, A. Einstein, N. Kopernikus, J. Gagarin, G. Galilei, S. Hawking, T. Brahe, N. Armstrong'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Mit ihren Leistungen schreiben sie sich in die Geschichtsbücher ein. Auszeichnungen werden ihnen verliehen und sie stiften neue Preise. Den Größten zu Ehren errichten wir Monumente und benennen Universitäten und Mondkrater nach diesen Giganten der Wissenschaft.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img float-left size-lg' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/persons/Challenger_STS51L_crew_lg.jpg', title: 'Crew der Challenger STS-51-L - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/persons/Challenger_STS51L_crew_sm.jpg', alt: 'Crew der Challenger STS-51-L' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Crew der Challenger STS-51-L'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Aus dem Fall eines Apfels ein Naturgesetz abzuleiten oder mit akribischer Denkarbeit die Beziehungen zwischen Raum und Zeit zu formulieren, bringt die Menschheit ebenso voran wie die Entwicklung neuer Materialien oder die Reparatur eines Solarpanels an einer Raumstation.'
+      ),
+      _react2['default'].createElement(
+        'h4',
+        null,
+        'Wussten Sie schon?'
+      ),
+      _react2['default'].createElement(
+        'ul',
+        { className: 'summary-list' },
+        _react2['default'].createElement(
+          'li',
+          null,
+          'German Titow war bei seinem Flug mit Wostok 2 am 6. August 1961 erst 25 Jahre alt. Er ist damit der jüngste Raumfahrer bisher.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'John Glenn ist bislang der älteste Raumfahrer. Bei seinem Start mit STS-95 am 29. Oktober 1998 war er bereits 77 jahre alt.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Der Kontrukteur Konstantin Feoktistow und der Arzt Boris Jegorow an Bord von Woschod 1 waren die ersten Zivilisten im All.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Der Kosmonaut Waleri Bykowski hält mit vier Tagen und 23 Stunden den Rekord für den längsten Soloflug der Raumfahrtgeschichte.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Yang Liwei startete am 15. Oktober 2003 als erster chinesischer Raumfahrer, auch Taikonaut genannt, mit Shenzhou 5 ins All.'
+        )
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'controlArea', className: 'people pure-u-1' },
+      _react2['default'].createElement(
+        'div',
+        { id: 'controllers', className: 'pure-u-1' },
+        _react2['default'].createElement(
+          'div',
+          { id: 'sort', className: 'people pure-u-1-2 left' },
+          _react2['default'].createElement(
+            'a',
+            { href: '#', className: 'toggle-sort', name: 'toggle-sort' },
+            'Sortieren'
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'sortArea' },
+            _react2['default'].createElement(
+              'form',
+              { id: 'sortAstronauts', className: 'sort-form' },
+              _react2['default'].createElement(
+                'select',
+                { name: 'sortAstronauts', defaultValue: 'sortAstronautsNameUp' },
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortAstronautsNameUp' },
+                  'Name ↑'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortAstronautsNameDown' },
+                  'Name ↓'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortAstronautsBornUp' },
+                  'geboren ↑'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortAstronautsBornDown' },
+                  'geboren ↓'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortAstronautsNumberOfMissionsUp' },
+                  'Anzahl Missionen ↑'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortAstronautsNumberOfMissionsDown' },
+                  'Anzahl Missionen ↓'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortAstronautsTimeInSpaceUp' },
+                  'Gesamtzeit im All ↑'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortAstronautsTimeInSpaceDown' },
+                  'Gesamtzeit im All ↓'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortAstronautsFirstLaunchUp' },
+                  'erster Raumflug ↑'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortAstronautsFirstLaunchDown' },
+                  'erster Raumflug ↓'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortAstronautsNumberOfSpacewalksUp' },
+                  'Anzahl EVAs ↑'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortAstronautsNumberOfSpacewalksDown' },
+                  'Anzahl EVAs ↓'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortAstronautsDurationOfSpacewalksUp' },
+                  'EVA Gesamtdauer ↑'
+                ),
+                '// not important yet, too much items w/o dates',
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortAstronautsDurationOfSpacewalksDown' },
+                  'EVA Gesamtdauer ↓'
+                ),
+                '// not important yet, too much items w/o dates'
+              )
+            )
+          )
+        ),
+        _react2['default'].createElement(
+          'div',
+          { id: 'filter', className: 'astronauts pure-u-1-2 right' },
+          _react2['default'].createElement(
+            'a',
+            { href: '#', className: 'toggle-filter', name: 'toggle-filter' },
+            'Filtern'
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'filterArea' },
+            _react2['default'].createElement(
+              'form',
+              { id: 'filterAstronautsByCountry', className: 'filter-form' },
+              _react2['default'].createElement(
+                'label',
+                null,
+                'Land:'
+              ),
+              _react2['default'].createElement(
+                'select',
+                { name: 'astronautsCountries', defaultValue: 'showAllCountries' },
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'showAllCountries' },
+                  'alle'
+                )
+              )
+            )
+          )
+        )
+      ),
+      _react2['default'].createElement(_chunksLetterLinks2['default'], { letters: allFirstLetters })
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'dataArea', className: 'people pure-u-1' },
+      _react2['default'].createElement(
+        'div',
+        { id: 'peopleTable' },
+        groupsIterable.map(function (group, idx) {
+          return _react2['default'].createElement(AstronautGroupComponent, { group: group, key: idx });
+        })
+      )
+    ),
+    _react2['default'].createElement(_notes2['default'], null)
+  );
+};
+
+exports['default'] = AstronautsComponent;
+
+var AstronautGroupComponent = function AstronautGroupComponent(_ref2) {
+  var group = _ref2.group;
+
+  var groupKey = group.key;
+  var astronauts = group.data;
+
+  return _react2['default'].createElement(
+    'div',
+    { id: groupKey, className: 'letter-section pure-u-1' },
+    _react2['default'].createElement(
+      'div',
+      { className: 'letter-section-header pure-u-1' },
+      _react2['default'].createElement(
+        'div',
+        { className: 'scroll-up-link pure-u-11-24' },
+        _react2['default'].createElement(
+          'p',
+          { className: 'left' },
+          _react2['default'].createElement(
+            'a',
+            { id: 'scrollUpArrow', href: 'javascript:self.scrollTo(0,0);' },
+            '↑'
+          )
+        )
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'first-letter pure-u-1-12 center' },
+        _react2['default'].createElement(
+          'p',
+          { name: '#' + groupKey },
+          groupKey
+        )
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'scroll-up-link pure-u-11-24' },
+        _react2['default'].createElement(
+          'p',
+          { className: 'right' },
+          _react2['default'].createElement(
+            'a',
+            { id: 'scrollUpArrow', href: 'javascript:self.scrollTo(0,0);' },
+            '↑'
+          )
+        )
+      )
+    ),
+    astronauts.map(function (astronaut, idx) {
+      return _react2['default'].createElement(AstronautComponent, { astronaut: astronaut, key: idx });
+    })
+  );
+};
+
+var AstronautComponent = function AstronautComponent(_ref3) {
+  var astronaut = _ref3.astronaut;
+
+  return _react2['default'].createElement(
+    'div',
+    { className: 'astronaut-row data-row pure-u-1 pure-u-md-1-2 pure-u-lg-1-3' },
+    _react2['default'].createElement(
+      'div',
+      { className: 'astronaut-name pure-u-1' },
+      _react2['default'].createElement(
+        'a',
+        { href: astronaut.link, title: astronaut.name },
+        astronaut.name
+      ),
+      _react2['default'].createElement('img', { src: astronaut.flag, alt: astronaut.country, title: astronaut.country })
+    ),
+    astronaut.imgSmallUrl ? _react2['default'].createElement(
+      'div',
+      { className: 'astronaut-img pure-u-1-3' },
+      _react2['default'].createElement(
+        'a',
+        { href: astronaut.imgUrl, title: astronaut.name },
+        _react2['default'].createElement('img', { src: astronaut.imgSmallUrl, alt: astronaut.name, title: astronaut.name })
+      )
+    ) : '',
+    _react2['default'].createElement(
+      'div',
+      { className: 'astronaut-data pure-u-2-3' },
+      astronaut.born ? _react2['default'].createElement(
+        'div',
+        { className: 'astronaut-life pure-u-1' },
+        _react2['default'].createElement(
+          'p',
+          { className: 'astronaut-born' },
+          '* ',
+          astronaut.born
+        ),
+        astronaut.died ? _react2['default'].createElement(
+          'p',
+          { className: 'astronaut-died' },
+          '† ',
+          astronaut.died
+        ) : ''
+      ) : '',
+      astronaut.missions ? _react2['default'].createElement(
+        'div',
+        { className: 'astronaut-spaceflights pure-u-1' },
+        astronaut.numberOfMissions ? _react2['default'].createElement(
+          'div',
+          { className: 'astronaut-missionsdata pure-u-1' },
+          _react2['default'].createElement(
+            'p',
+            { className: 'astronaut-numberofmissions' },
+            'Flüge: ',
+            astronaut.numberOfMissions
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'astronaut-timeinspace' },
+            'gesamt: ',
+            astronaut.timeInSpace
+          )
+        ) : '',
+        _react2['default'].createElement(
+          'div',
+          { className: 'astronaut-missions pure-u-1' },
+          _react2['default'].createElement(
+            'p',
+            null,
+            astronaut.missions
+          )
+        ),
+        astronaut.firstLaunch ? _react2['default'].createElement(
+          'div',
+          { className: 'astronaut-firstlaunch pure-u-1' },
+          _react2['default'].createElement(
+            'p',
+            null,
+            'erster Raumflug: ',
+            astronaut.firstLaunch
+          )
+        ) : ''
+      ) : '',
+      astronaut.numberOfSpacewalks ? _react2['default'].createElement(
+        'div',
+        { className: 'astronaut-spacewalks pure-u-1' },
+        _react2['default'].createElement(
+          'p',
+          { className: 'astronaut-numberofspacewalks' },
+          'EVAs: ',
+          astronaut.numberOfSpacewalks
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'astronaut-durationofspacewalks' },
+          'Gesamtdauer: ',
+          astronaut.durationOfSpacewalks
+        )
+      ) : ''
+    )
+  );
+};
+module.exports = exports['default'];
+
+},{"./chunks/letter-links":428,"./chunks/summary":429,"./notes":439,"react":453}],427:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33689,10 +34225,10 @@ var AstronomyComponent = function AstronomyComponent(_ref) {
       _react2["default"].createElement(
         "ul",
         { id: "pageSubMenu", className: "pure-u-1 center" },
-        [{ url: appUrl.astronomersSite(), name: 'Astronomen' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
+        [{ url: appUrl.scientistsSite(), style: 'scientists', name: 'Wissenschaftler' }, { url: appUrl.solarSystemSite(), style: 'solarsystem', name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), style: 'constellations', name: 'Sternbilder' }, { url: appUrl.starsSite(), style: 'stars', name: 'Sterne' }, { url: appUrl.spaceTelescopesSite(), style: 'spacetelescopes', name: 'Weltraumteleskope' }].map(function (link) {
           return _react2["default"].createElement(
             "li",
-            { className: link.name, key: link.url + link.name },
+            { className: link.style, key: link.url + link.name },
             _react2["default"].createElement(
               "a",
               { href: link.url },
@@ -33708,7 +34244,7 @@ var AstronomyComponent = function AstronomyComponent(_ref) {
 exports["default"] = AstronomyComponent;
 module.exports = exports["default"];
 
-},{"react":449}],426:[function(require,module,exports){
+},{"react":453}],428:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33757,28 +34293,26 @@ var Letter = function Letter(_ref2) {
 };
 module.exports = exports["default"];
 
-},{"react":449}],427:[function(require,module,exports){
-'use strict';
+},{"react":453}],429:[function(require,module,exports){
+"use strict";
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
-
-var _notes = require('./notes');
 
 var Summary = (function (_React$Component) {
   _inherits(Summary, _React$Component);
@@ -33786,12 +34320,12 @@ var Summary = (function (_React$Component) {
   function Summary() {
     _classCallCheck(this, Summary);
 
-    _get(Object.getPrototypeOf(Summary.prototype), 'constructor', this).call(this);
+    _get(Object.getPrototypeOf(Summary.prototype), "constructor", this).call(this);
     this.state = { isOpen: true };
   }
 
   _createClass(Summary, [{
-    key: 'render',
+    key: "render",
     value: function render() {
       var _this = this;
 
@@ -33801,22 +34335,41 @@ var Summary = (function (_React$Component) {
       };
       var switchClassName = isOpen ? "expanded" : "collapsed";
       var containerClassName = isOpen ? "visible" : "minimized";
-      return _react2['default'].createElement(
-        'div',
-        { id: 'summary', className: 'pure-u-1 left' },
-        _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: switchClassName, title: 'Artikel anzeigen / schließen', onClick: toggle }),
-        _react2['default'].createElement(
-          'div',
-          { id: 'summaryContainer', className: containerClassName },
+      return _react2["default"].createElement(
+        "div",
+        { id: "summary", className: "pure-u-1 left" },
+        _react2["default"].createElement("a", { id: "summaryToggleSwitch", className: switchClassName, title: "Artikel anzeigen / schließen", onClick: toggle }),
+        _react2["default"].createElement(
+          "div",
+          { id: "summaryContainer", className: containerClassName },
           this.props.children
         ),
-        isOpen ? null : _react2['default'].createElement('div', { id: 'summaryShade' })
+        isOpen ? null : _react2["default"].createElement("div", { id: "summaryShade" })
       );
     }
   }]);
 
   return Summary;
-})(_react2['default'].Component);
+})(_react2["default"].Component);
+
+exports.Summary = Summary;
+
+},{"react":453}],430:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _notes = require('./notes');
+
+var _chunksSummary = require('./chunks/summary');
 
 var ConstellationsComponent = function ConstellationsComponent(_ref) {
   var constellations = _ref.constellations;
@@ -33853,7 +34406,7 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
       )
     ),
     _react2['default'].createElement(
-      Summary,
+      _chunksSummary.Summary,
       null,
       _react2['default'].createElement(
         'p',
@@ -34288,7 +34841,7 @@ var ConstellationComponent = function ConstellationComponent(_ref2) {
 };
 module.exports = exports['default'];
 
-},{"./notes":436,"react":449}],428:[function(require,module,exports){
+},{"./chunks/summary":429,"./notes":439,"react":453}],431:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -34325,7 +34878,7 @@ var ContentOnlyComponent = function ContentOnlyComponent(_ref) {
 exports['default'] = ContentOnlyComponent;
 module.exports = exports['default'];
 
-},{"./homefooter":432,"./logo":433,"react":449}],429:[function(require,module,exports){
+},{"./homefooter":435,"./logo":436,"react":453}],432:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -34356,46 +34909,10 @@ var _vcard = require('./vcard');
 
 var _vcard2 = _interopRequireDefault(_vcard);
 
-var Summary = (function (_React$Component) {
-  _inherits(Summary, _React$Component);
+var _chunksSummary = require('./chunks/summary');
 
-  function Summary() {
-    _classCallCheck(this, Summary);
-
-    _get(Object.getPrototypeOf(Summary.prototype), 'constructor', this).call(this);
-    this.state = { isOpen: true };
-  }
-
-  _createClass(Summary, [{
-    key: 'render',
-    value: function render() {
-      var _this = this;
-
-      var isOpen = this.state.isOpen;
-      var toggle = function toggle() {
-        _this.setState({ isOpen: !isOpen });
-      };
-      var switchClassName = isOpen ? "expanded" : "collapsed";
-      var containerClassName = isOpen ? "visible" : "minimized";
-      return _react2['default'].createElement(
-        'div',
-        { id: 'summary', className: 'pure-u-1 left' },
-        _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: switchClassName, title: 'Artikel anzeigen / schließen', onClick: toggle }),
-        _react2['default'].createElement(
-          'div',
-          { id: 'summaryContainer', className: containerClassName },
-          this.props.children
-        ),
-        isOpen ? null : _react2['default'].createElement('div', { id: 'summaryShade' })
-      );
-    }
-  }]);
-
-  return Summary;
-})(_react2['default'].Component);
-
-var ChronicleComponent = (function (_React$Component2) {
-  _inherits(ChronicleComponent, _React$Component2);
+var ChronicleComponent = (function (_React$Component) {
+  _inherits(ChronicleComponent, _React$Component);
 
   function ChronicleComponent() {
     _classCallCheck(this, ChronicleComponent);
@@ -34407,7 +34924,7 @@ var ChronicleComponent = (function (_React$Component2) {
   _createClass(ChronicleComponent, [{
     key: 'render',
     value: function render() {
-      var _this2 = this;
+      var _this = this;
 
       var items = this.props.items;
 
@@ -34415,10 +34932,10 @@ var ChronicleComponent = (function (_React$Component2) {
         return _extends({ description: item.date + ' in ' + item.place }, item);
       };
       var showOverlay = function showOverlay(item) {
-        _this2.setState({ itemInOverlay: itemForOverlay(item) });
+        _this.setState({ itemInOverlay: itemForOverlay(item) });
       };
       var hideOverlay = function hideOverlay() {
-        _this2.setState({ itemInOverlay: null });
+        _this.setState({ itemInOverlay: null });
       };
       var overlay = this.state.itemInOverlay ? _react2['default'].createElement(_vcard2['default'], { item: this.state.itemInOverlay, onClose: hideOverlay }) : null;
 
@@ -34454,7 +34971,7 @@ var ChronicleComponent = (function (_React$Component2) {
           )
         ),
         _react2['default'].createElement(
-          Summary,
+          _chunksSummary.Summary,
           null,
           _react2['default'].createElement(
             'p',
@@ -34739,7 +35256,7 @@ var ItemComponent = function ItemComponent(_ref) {
 // <div id="timelineFooter"></div>
 module.exports = exports['default'];
 
-},{"./notes":436,"./vcard":446,"react":449}],430:[function(require,module,exports){
+},{"./chunks/summary":429,"./notes":439,"./vcard":450,"react":453}],433:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34813,7 +35330,7 @@ var Footer = function Footer(_ref) {
               "Astronomie"
             )
           ),
-          [{ url: appUrl.astronomersSite(), name: 'Astronomen' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
+          [{ url: appUrl.scientistsSite(), name: 'Wissenschaftler' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
             return _react2["default"].createElement(
               "li",
               { key: link.url },
@@ -35000,7 +35517,7 @@ exports["default"] = Footer;
 //                  title="CC-BY-SA" src="/img/cc-by-sa-88x31.png" alt="CC-By-SA"/></a>
 module.exports = exports["default"];
 
-},{"react":449}],431:[function(require,module,exports){
+},{"react":453}],434:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -35045,7 +35562,7 @@ var HomeComponent = function HomeComponent(_ref) {
           _react2["default"].createElement(
             "ul",
             { className: "sub-menu" },
-            [{ url: appUrl.astronomersSite(), name: 'Astronomen' }, { url: appUrl.astronautsSite(), name: 'Raumfahrer' }].map(function (link) {
+            [{ url: appUrl.scientistsSite(), name: 'Wissenschaftler' }, { url: appUrl.astronautsSite(), name: 'Raumfahrer' }].map(function (link) {
               return _react2["default"].createElement(
                 "li",
                 { key: link.url + link.name },
@@ -35102,7 +35619,7 @@ var HomeComponent = function HomeComponent(_ref) {
           _react2["default"].createElement(
             "ul",
             { className: "sub-menu" },
-            [{ url: appUrl.astronomersSite(), name: 'Astronomen' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
+            [{ url: appUrl.scientistsSite(), name: 'Wissenschaftler' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
               return _react2["default"].createElement(
                 "li",
                 { key: link.url + link.name },
@@ -35147,7 +35664,7 @@ var HomeComponent = function HomeComponent(_ref) {
 exports["default"] = HomeComponent;
 module.exports = exports["default"];
 
-},{"react":449}],432:[function(require,module,exports){
+},{"react":453}],435:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -35177,7 +35694,7 @@ var Homefooter = function Homefooter(_ref) {
 exports["default"] = Homefooter;
 module.exports = exports["default"];
 
-},{"react":449}],433:[function(require,module,exports){
+},{"react":453}],436:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -35227,22 +35744,14 @@ exports["default"] = Logo;
 // <input id="searchSubmit" type="button" value="Go" />
 module.exports = exports["default"];
 
-},{"react":449}],434:[function(require,module,exports){
+},{"react":453}],437:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
   value: true
 });
 
-var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-
-var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var _react = require('react');
 
@@ -35252,43 +35761,7 @@ var _notes = require('./notes');
 
 var _notes2 = _interopRequireDefault(_notes);
 
-var Summary = (function (_React$Component) {
-  _inherits(Summary, _React$Component);
-
-  function Summary() {
-    _classCallCheck(this, Summary);
-
-    _get(Object.getPrototypeOf(Summary.prototype), 'constructor', this).call(this);
-    this.state = { isOpen: true };
-  }
-
-  _createClass(Summary, [{
-    key: 'render',
-    value: function render() {
-      var _this = this;
-
-      var isOpen = this.state.isOpen;
-      var toggle = function toggle() {
-        _this.setState({ isOpen: !isOpen });
-      };
-      var switchClassName = isOpen ? "expanded" : "collapsed";
-      var containerClassName = isOpen ? "visible" : "minimized";
-      return _react2['default'].createElement(
-        'div',
-        { id: 'summary', className: 'pure-u-1 left' },
-        _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: switchClassName, title: 'Artikel anzeigen / schließen', onClick: toggle }),
-        _react2['default'].createElement(
-          'div',
-          { id: 'summaryContainer', className: containerClassName },
-          this.props.children
-        ),
-        isOpen ? null : _react2['default'].createElement('div', { id: 'summaryShade' })
-      );
-    }
-  }]);
-
-  return Summary;
-})(_react2['default'].Component);
+var _chunksSummary = require('./chunks/summary');
 
 var MissionsComponent = function MissionsComponent(_ref) {
   var missions = _ref.missions;
@@ -35330,7 +35803,7 @@ var MissionsComponent = function MissionsComponent(_ref) {
       )
     ),
     _react2['default'].createElement(
-      Summary,
+      _chunksSummary.Summary,
       null,
       _react2['default'].createElement(
         'p',
@@ -35727,11 +36200,6 @@ var MissionsComponent = function MissionsComponent(_ref) {
               'form',
               { id: 'sortMissions', className: 'sort-form' },
               _react2['default'].createElement(
-                'label',
-                null,
-                'Sortieren nach:'
-              ),
-              _react2['default'].createElement(
                 'select',
                 { name: 'sortMissions', defaultValue: 'sortMissionsLaunchUp' },
                 _react2['default'].createElement(
@@ -36006,7 +36474,7 @@ var PadLink = function PadLink(_ref4) {
 // </div>
 module.exports = exports['default'];
 
-},{"./notes":436,"react":449}],435:[function(require,module,exports){
+},{"./chunks/summary":429,"./notes":439,"react":453}],438:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -36048,7 +36516,7 @@ var Navigation = function Navigation(_ref) {
         _react2["default"].createElement(
           "ul",
           { className: "pure-menu-children sub-menu persons" },
-          [{ url: appUrl.astronomersSite(), name: 'Astronomen' }, { url: appUrl.astronautsSite(), name: 'Raumfahrer' }].map(function (link) {
+          [{ url: appUrl.scientistsSite(), name: 'Wissenschaftler' }, { url: appUrl.astronautsSite(), name: 'Raumfahrer' }].map(function (link) {
             return _react2["default"].createElement(
               "li",
               { key: link.url, className: "pure-menu-item left" },
@@ -36105,7 +36573,7 @@ var Navigation = function Navigation(_ref) {
         _react2["default"].createElement(
           "ul",
           { className: "pure-menu-children sub-menu astronomy" },
-          [{ url: appUrl.astronomersSite(), name: 'Astronomen' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
+          [{ url: appUrl.scientistsSite(), name: 'Wissenschaftler' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
             return _react2["default"].createElement(
               "li",
               { key: link.url, className: "pure-menu-item left" },
@@ -36152,7 +36620,7 @@ var Navigation = function Navigation(_ref) {
 exports["default"] = Navigation;
 module.exports = exports["default"];
 
-},{"react":449}],436:[function(require,module,exports){
+},{"react":453}],439:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -36512,7 +36980,7 @@ var StarNotes = function StarNotes() {
 };
 exports.StarNotes = StarNotes;
 
-},{"react":449}],437:[function(require,module,exports){
+},{"react":453}],440:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -36556,10 +37024,10 @@ var ObjectsComponent = function ObjectsComponent(_ref) {
       _react2["default"].createElement(
         "ul",
         { id: "pageSubMenu", className: "pure-u-1 center" },
-        [{ url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
+        [{ url: appUrl.solarSystemSite(), style: 'solarsystem', name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), style: 'constellations', name: 'Sternbilder' }, { url: appUrl.starsSite(), style: 'stars', name: 'Sterne' }, { url: appUrl.spaceStationsSite(), style: 'spacestations', name: 'Raumstationen' }, { url: appUrl.spaceTelescopesSite(), style: 'spacetelescopes', name: 'Weltraumteleskope' }].map(function (link) {
           return _react2["default"].createElement(
             "li",
-            { className: link.name, key: link.url + link.name },
+            { className: link.style, key: link.url + link.name },
             _react2["default"].createElement(
               "a",
               { href: link.url },
@@ -36575,7 +37043,7 @@ var ObjectsComponent = function ObjectsComponent(_ref) {
 exports["default"] = ObjectsComponent;
 module.exports = exports["default"];
 
-},{"react":449}],438:[function(require,module,exports){
+},{"react":453}],441:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -36621,22 +37089,14 @@ var PageComponent = function PageComponent(_ref) {
 exports['default'] = PageComponent;
 module.exports = exports['default'];
 
-},{"./footer":430,"./logo":433,"./navigation":435,"react":449}],439:[function(require,module,exports){
+},{"./footer":433,"./logo":436,"./navigation":438,"react":453}],442:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
   value: true
 });
 
-var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-
-var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var _react = require('react');
 
@@ -36650,43 +37110,7 @@ var _chunksLetterLinks = require('./chunks/letter-links');
 
 var _chunksLetterLinks2 = _interopRequireDefault(_chunksLetterLinks);
 
-var Summary = (function (_React$Component) {
-  _inherits(Summary, _React$Component);
-
-  function Summary() {
-    _classCallCheck(this, Summary);
-
-    _get(Object.getPrototypeOf(Summary.prototype), 'constructor', this).call(this);
-    this.state = { isOpen: true };
-  }
-
-  _createClass(Summary, [{
-    key: 'render',
-    value: function render() {
-      var _this = this;
-
-      var isOpen = this.state.isOpen;
-      var toggle = function toggle() {
-        _this.setState({ isOpen: !isOpen });
-      };
-      var switchClassName = isOpen ? "expanded" : "collapsed";
-      var containerClassName = isOpen ? "visible" : "minimized";
-      return _react2['default'].createElement(
-        'div',
-        { id: 'summary', className: 'pure-u-1 left' },
-        _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: switchClassName, title: 'Artikel anzeigen / schließen', onClick: toggle }),
-        _react2['default'].createElement(
-          'div',
-          { id: 'summaryContainer', className: containerClassName },
-          this.props.children
-        ),
-        isOpen ? null : _react2['default'].createElement('div', { id: 'summaryShade' })
-      );
-    }
-  }]);
-
-  return Summary;
-})(_react2['default'].Component);
+var _chunksSummary = require('./chunks/summary');
 
 var PeopleComponent = function PeopleComponent(_ref) {
   var groupedPeople = _ref.groupedPeople;
@@ -36728,7 +37152,7 @@ var PeopleComponent = function PeopleComponent(_ref) {
       )
     ),
     _react2['default'].createElement(
-      Summary,
+      _chunksSummary.Summary,
       null,
       _react2['default'].createElement(
         'p',
@@ -36796,18 +37220,14 @@ var PeopleComponent = function PeopleComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Doch aus dem Fall eines Apfels ein Naturgesetz abzuleiten oder mit akribischer Denkarbeit die Beziehungen zwischen Raum und Zeit zu formulieren, bringt die Menschheit ebenso voran wie die Entwicklung neuer Materialien oder die Reparatur eines Solarpanels an einer Raumstation.'
+        'Aus dem Fall eines Apfels ein Naturgesetz abzuleiten oder mit akribischer Denkarbeit die Beziehungen zwischen Raum und Zeit zu formulieren, bringt die Menschheit ebenso voran wie die Entwicklung neuer Materialien oder die Reparatur eines Solarpanels an einer Raumstation.'
       ),
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
         'Institute und Raumfahrtorganisationen auf der ganzen Welt ringen um Nachwuchs. Die nächsten Ingenieure und Wissenschaftler der MINT-Disziplinen werden die Antriebe der Zukunft entwickeln und die Geheimnisse der Dunklen Materie entschlüsseln, die Raumfahrer von morgen werden auf dem Mars landen.',
         _react2['default'].createElement('br', null),
-        _react2['default'].createElement(
-          'b',
-          null,
-          'Jeder Einzelne zählt!'
-        )
+        'Jeder Einzelne zählt!'
       ),
       _react2['default'].createElement(
         'h4',
@@ -36858,7 +37278,7 @@ var PeopleComponent = function PeopleComponent(_ref) {
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'controlArea', className: 'persons pure-u-1' },
+      { id: 'controlArea', className: 'people pure-u-1' },
       _react2['default'].createElement(
         'div',
         { id: 'controllers', className: 'pure-u-1' },
@@ -36876,11 +37296,6 @@ var PeopleComponent = function PeopleComponent(_ref) {
             _react2['default'].createElement(
               'form',
               { id: 'sortPeople', className: 'sort-form' },
-              _react2['default'].createElement(
-                'label',
-                null,
-                'Sortieren nach:'
-              ),
               _react2['default'].createElement(
                 'select',
                 { name: 'sortPeople', defaultValue: 'sortPeopleNameUp' },
@@ -36936,8 +37351,7 @@ var PeopleComponent = function PeopleComponent(_ref) {
                   'option',
                   { value: 'showAllProfessions' },
                   'alle'
-                ),
-                '// TODO use only the 10 most listed professions'
+                )
               )
             ),
             _react2['default'].createElement(
@@ -37146,22 +37560,14 @@ var PersonComponent = function PersonComponent(_ref3) {
 // }
 module.exports = exports['default'];
 
-},{"./chunks/letter-links":426,"./notes":436,"react":449}],440:[function(require,module,exports){
+},{"./chunks/letter-links":428,"./chunks/summary":429,"./notes":439,"react":453}],443:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
   value: true
 });
 
-var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-
-var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var _react = require('react');
 
@@ -37171,43 +37577,478 @@ var _notes = require('./notes');
 
 var _notes2 = _interopRequireDefault(_notes);
 
-var Summary = (function (_React$Component) {
-  _inherits(Summary, _React$Component);
+var _chunksLetterLinks = require('./chunks/letter-links');
 
-  function Summary() {
-    _classCallCheck(this, Summary);
+var _chunksLetterLinks2 = _interopRequireDefault(_chunksLetterLinks);
 
-    _get(Object.getPrototypeOf(Summary.prototype), 'constructor', this).call(this);
-    this.state = { isOpen: true };
-  }
+var _chunksSummary = require('./chunks/summary');
 
-  _createClass(Summary, [{
-    key: 'render',
-    value: function render() {
-      var _this = this;
+var ScientistsComponent = function ScientistsComponent(_ref) {
+  var groupedScientists = _ref.groupedScientists;
 
-      var isOpen = this.state.isOpen;
-      var toggle = function toggle() {
-        _this.setState({ isOpen: !isOpen });
-      };
-      var switchClassName = isOpen ? "expanded" : "collapsed";
-      var containerClassName = isOpen ? "visible" : "minimized";
-      return _react2['default'].createElement(
+  var allFirstLetters = Object.keys(groupedScientists);
+  var groupsIterable = allFirstLetters.map(function (key) {
+    return groupedScientists[key];
+  });
+
+  return _react2['default'].createElement(
+    'main',
+    { role: 'main', className: 'pure-u-1' },
+    _react2['default'].createElement(
+      'div',
+      { id: 'siteTitle', className: 'scientists pure-u-1 center' },
+      _react2['default'].createElement(
+        'h1',
+        null,
+        'Wissenschaftler'
+      ),
+      _react2['default'].createElement(
+        'h3',
+        null,
+        'Astronomen, Kosmologen, Physiker'
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'todo', className: 'pure-u-1' },
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@wolfram pls replace the filter forms with FilterRows as in stars-site'
+      ),
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens'
+      )
+    ),
+    _react2['default'].createElement(
+      _chunksSummary.Summary,
+      null,
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Naturwissenschaftler und Raumfahrer – seit Jahrtausenden entdecken und erobern sie neue Welten und Räume, sie erkennen Zusammenhänge und Naturgesetze. Als Pioniere erweitern sie ständig den Horizont der Erkenntnis.'
+      ),
+      _react2['default'].createElement(
         'div',
-        { id: 'summary', className: 'pure-u-1 left' },
-        _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: switchClassName, title: 'Artikel anzeigen / schließen', onClick: toggle }),
+        { className: 'summary-img float-right size-lg' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/persons/claudius_ptolemaeus_lg.jpg', title: 'Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/persons/claudius_ptolemaeus_sm.jpg', alt: 'Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Claudius Ptolemäus'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Aus Schamanen und Priestern wurden Astrologen und Philosophen, später dann Quantenphysiker und Bordingenieure. Ihr steter Drang nach der Erforschung des Unbekannten sind bis heute der Motor der Wissenschaft.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Sie stellen die entscheidenden Fragen und suchen nach deren Antworten. Sie sind aufmerksame Beobachter ihrer Umwelt und werten Daten aus. Neugier, Beharrlichkeit und Ausdauer sind Grundvoraussetzungen, um als Forscher nicht nur erfolgreich zu sein, sondern auch Misserfolge und Rückschläge zu verkraften.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Neben den großen Namen gibt es viele unbekannte Akademiker und Amateure, die im kleinen und großen Maßstab Bedeutendes geleistet haben. Wie Zahnräder in einem Getriebe greifen ihre Arbeiten ineinander und treiben die Wissenschaft voran in Richtung Zukunft.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img width-75 center' },
+        _react2['default'].createElement('img', { src: '/img/persons/people_collage.jpg', alt: 'Collage berühmter Personen' }),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Aristoteles, A. Shepard, I. Newton, E. Halley, V. Tereschkowa, A. Einstein, N. Kopernikus, J. Gagarin, G. Galilei, S. Hawking, T. Brahe, N. Armstrong'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Mit ihren Leistungen schreiben sie sich in die Geschichtsbücher ein. Auszeichnungen werden ihnen verliehen und sie stiften neue Preise. Den Größten zu Ehren errichten wir Monumente und benennen Universitäten und Mondkrater nach diesen Giganten der Wissenschaft.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img float-left size-lg' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/persons/Challenger_STS51L_crew_lg.jpg', title: 'Crew der Challenger STS-51-L - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/persons/Challenger_STS51L_crew_sm.jpg', alt: 'Crew der Challenger STS-51-L' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Crew der Challenger STS-51-L'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Aus dem Fall eines Apfels ein Naturgesetz abzuleiten oder mit akribischer Denkarbeit die Beziehungen zwischen Raum und Zeit zu formulieren, bringt die Menschheit ebenso voran wie die Entwicklung neuer Materialien oder die Reparatur eines Solarpanels an einer Raumstation.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Institute und Raumfahrtorganisationen auf der ganzen Welt ringen um Nachwuchs. Die nächsten Ingenieure und Wissenschaftler der MINT-Disziplinen werden die Antriebe der Zukunft entwickeln und die Geheimnisse der Dunklen Materie entschlüsseln, die Raumfahrer von morgen werden auf dem Mars landen.',
+        _react2['default'].createElement('br', null),
+        'Jeder Einzelne zählt!'
+      ),
+      _react2['default'].createElement(
+        'h4',
+        null,
+        'Wussten Sie schon?'
+      ),
+      _react2['default'].createElement(
+        'ul',
+        { className: 'summary-list' },
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Der deutsche Astronom ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Johann Bayer'
+          ),
+          ' (1572 - 1625) führte eine noch heute gebräuliche systematische Benennung von Sternen ein.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Am ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Apollo-Programm'
+          ),
+          ' und der ersten bemannten Mondlandung arbeiteten insgesamt etwa 400.000 Menschen mit.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Der Kosmonaut Waleri Bykowski hält mit vier Tagen und 23 Stunden den Rekord für den längsten Soloflug der Raumfahrtgeschichte.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Brain May'
+          ),
+          ', der Gitarrist der britischen Rockband Queen ist seit 2007 auch promovierter Astrophysiker.'
+        )
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'controlArea', className: 'people pure-u-1' },
+      _react2['default'].createElement(
+        'div',
+        { id: 'controllers', className: 'pure-u-1' },
         _react2['default'].createElement(
           'div',
-          { id: 'summaryContainer', className: containerClassName },
-          this.props.children
+          { id: 'sort', className: 'people pure-u-1-2 left' },
+          _react2['default'].createElement(
+            'a',
+            { href: '#', className: 'toggle-sort', name: 'toggle-sort' },
+            'Sortieren'
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'sortArea' },
+            _react2['default'].createElement(
+              'form',
+              { id: 'sortPeople', className: 'sort-form' },
+              _react2['default'].createElement(
+                'select',
+                { name: 'sortPeople', defaultValue: 'sortPeopleNameUp' },
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortPeopleNameUp' },
+                  'Name ↑'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortPeopleNameDown' },
+                  'Name ↓'
+                ),
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortPeopleBornUp' },
+                  'Geburtsdatum ↑'
+                ),
+                '// not important yet, too much items w/o dates',
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'sortPeopleBornDown' },
+                  'Geburtsdatum ↓'
+                ),
+                '// not important yet, too much items w/o dates'
+              )
+            )
+          )
         ),
-        isOpen ? null : _react2['default'].createElement('div', { id: 'summaryShade' })
-      );
-    }
-  }]);
+        _react2['default'].createElement(
+          'div',
+          { id: 'filter', className: 'people pure-u-1-2 right' },
+          _react2['default'].createElement(
+            'a',
+            { href: '#', className: 'toggle-filter', name: 'toggle-filter' },
+            'Filtern'
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'filterArea' },
+            _react2['default'].createElement(
+              'form',
+              { id: 'filterPeopleByProfession', className: 'filter-form' },
+              _react2['default'].createElement(
+                'label',
+                null,
+                'Beruf:'
+              ),
+              _react2['default'].createElement(
+                'select',
+                { name: 'peopleProfessions', defaultValue: 'showAllProfessions' },
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'showAllProfessions' },
+                  'alle'
+                )
+              )
+            ),
+            _react2['default'].createElement(
+              'form',
+              { id: 'filterPeopleByCountry', className: 'filter-form' },
+              _react2['default'].createElement(
+                'label',
+                null,
+                'Land:'
+              ),
+              _react2['default'].createElement(
+                'select',
+                { name: 'peopleCountries', defaultValue: 'showAllCountries' },
+                _react2['default'].createElement(
+                  'option',
+                  { value: 'showAllCountries' },
+                  'alle'
+                )
+              )
+            )
+          )
+        )
+      ),
+      _react2['default'].createElement(_chunksLetterLinks2['default'], { letters: allFirstLetters })
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'dataArea', className: 'people pure-u-1' },
+      _react2['default'].createElement(
+        'div',
+        { id: 'peopleTable' },
+        groupsIterable.map(function (group, idx) {
+          return _react2['default'].createElement(ScientistGroupComponent, { group: group, key: idx });
+        })
+      )
+    ),
+    _react2['default'].createElement(_notes2['default'], null)
+  );
+};
 
-  return Summary;
-})(_react2['default'].Component);
+exports['default'] = ScientistsComponent;
+
+var ScientistGroupComponent = function ScientistGroupComponent(_ref2) {
+  var group = _ref2.group;
+
+  var groupKey = group.key;
+  var scientists = group.data;
+
+  return _react2['default'].createElement(
+    'div',
+    { id: groupKey, className: 'letter-section pure-u-1' },
+    _react2['default'].createElement(
+      'div',
+      { className: 'letter-section-header pure-u-1' },
+      _react2['default'].createElement(
+        'div',
+        { className: 'scroll-up-link pure-u-11-24' },
+        _react2['default'].createElement(
+          'p',
+          { className: 'left' },
+          _react2['default'].createElement(
+            'a',
+            { id: 'scrollUpArrow', href: 'javascript:self.scrollTo(0,0);' },
+            '↑'
+          )
+        )
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'first-letter pure-u-1-12 center' },
+        _react2['default'].createElement(
+          'p',
+          { name: '#' + groupKey },
+          groupKey
+        )
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'scroll-up-link pure-u-11-24' },
+        _react2['default'].createElement(
+          'p',
+          { className: 'right' },
+          _react2['default'].createElement(
+            'a',
+            { id: 'scrollUpArrow', href: 'javascript:self.scrollTo(0,0);' },
+            '↑'
+          )
+        )
+      )
+    ),
+    scientists.map(function (scientist, idx) {
+      return _react2['default'].createElement(ScientistComponent, { scientist: scientist, key: idx });
+    })
+  );
+};
+
+var ScientistComponent = function ScientistComponent(_ref3) {
+  var scientist = _ref3.scientist;
+
+  return _react2['default'].createElement(
+    'div',
+    { className: 'scientist-row data-row pure-u-1' },
+    _react2['default'].createElement(
+      'div',
+      { className: 'scientist-name pure-u-1 pure-u-md-1 pure-u-lg-7-24' },
+      _react2['default'].createElement(
+        'div',
+        { className: 'pure-u-1' },
+        _react2['default'].createElement(
+          'p',
+          null,
+          _react2['default'].createElement(
+            'a',
+            { href: scientist.link },
+            scientist.name
+          )
+        )
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { className: 'scientist-data1 pure-u-1 pure-u-md-1-3 pure-u-lg-5-24' },
+      _react2['default'].createElement(
+        'div',
+        { className: 'scientist-born pure-u-1-2 pure-u-md-1-2 center' },
+        _react2['default'].createElement(
+          'p',
+          null,
+          scientist.born ? '∗ ' + scientist.born : ''
+        )
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'scientist-died pure-u-1-2 pure-u-md-1-2 center' },
+        _react2['default'].createElement(
+          'p',
+          null,
+          scientist.died ? '† ' + scientist.died : ''
+        )
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { className: 'scientist-data2 pure-u-1 pure-u-md-2-3 pure-u-lg-1-2' },
+      _react2['default'].createElement(
+        'div',
+        { className: 'scientist-country pure-u-1-2 pure-u-md-1-2 center' },
+        _react2['default'].createElement(
+          'p',
+          null,
+          scientist.country ? scientist.country : ''
+        )
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'scientist-profession pure-u-1-2 pure-u-md-1-2 center' },
+        _react2['default'].createElement(
+          'p',
+          null,
+          scientist.profession ? scientist.profession : ''
+        )
+      )
+    )
+  );
+};
+
+// old code with the tooltip on hover
+// import classNames from 'classnames';
+// class ScientistComponent extends React.Component {
+//
+//   constructor() {
+//     super();
+//     this.state = {detailsVisible: false};
+//   }
+//
+//   render() {
+//     const showDetails = () => {
+//       this.setState({detailsVisible: true});
+//     };
+//     const hideDetails = () => {
+//       this.setState({detailsVisible: false});
+//     };
+//
+//     const {scientist} = this.props;
+//     let cssClasses = ['scientist-infobox pure-u-1 pure-u-md-1-2 pure-u-lg-1-3'];
+//     cssClasses.push(this.state.detailsVisible ? 'visible' : 'hidden');
+//
+//     return (
+//             <div className="scientist-row data-row pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+//               <div className="scientist-item">
+//                 <a onMouseOver={showDetails} onMouseOut={hideDetails} href={scientist.wikipediaUrl}>{scientist.name}</a>
+//               </div>
+//               <div className={classNames(cssClasses)}>
+//                 <div className="scientist-profession">{scientist.profession}</div>
+//                 <div className="scientist-life">
+//                   {scientist.born ? `∗ ${scientist.born}` : ''} &nbsp;
+//                   {scientist.died ? `† ${scientist.died}`: ''}</div>
+//                 <div className="scientist-country">{scientist.country}</div>
+//                 <div className="scientist-info justify">{scientist.description}</div>
+//               </div>
+//             </div>
+//     );
+//
+//   }
+//
+// }
+module.exports = exports['default'];
+
+},{"./chunks/letter-links":428,"./chunks/summary":429,"./notes":439,"react":453}],444:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _notes = require('./notes');
+
+var _notes2 = _interopRequireDefault(_notes);
+
+var _chunksSummary = require('./chunks/summary');
 
 var SolarSystemComponent = function SolarSystemComponent() {
   return _react2['default'].createElement(
@@ -37237,7 +38078,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
       )
     ),
     _react2['default'].createElement(
-      Summary,
+      _chunksSummary.Summary,
       null,
       _react2['default'].createElement(
         'p',
@@ -38286,22 +39127,14 @@ var SolarSystemComponent = function SolarSystemComponent() {
 exports['default'] = SolarSystemComponent;
 module.exports = exports['default'];
 
-},{"./notes":436,"react":449}],441:[function(require,module,exports){
+},{"./chunks/summary":429,"./notes":439,"react":453}],445:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
   value: true
 });
 
-var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-
-var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var _react = require('react');
 
@@ -38311,43 +39144,7 @@ var _notes = require('./notes');
 
 var _notes2 = _interopRequireDefault(_notes);
 
-var Summary = (function (_React$Component) {
-  _inherits(Summary, _React$Component);
-
-  function Summary() {
-    _classCallCheck(this, Summary);
-
-    _get(Object.getPrototypeOf(Summary.prototype), 'constructor', this).call(this);
-    this.state = { isOpen: true };
-  }
-
-  _createClass(Summary, [{
-    key: 'render',
-    value: function render() {
-      var _this = this;
-
-      var isOpen = this.state.isOpen;
-      var toggle = function toggle() {
-        _this.setState({ isOpen: !isOpen });
-      };
-      var switchClassName = isOpen ? "expanded" : "collapsed";
-      var containerClassName = isOpen ? "visible" : "minimized";
-      return _react2['default'].createElement(
-        'div',
-        { id: 'summary', className: 'pure-u-1 left' },
-        _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: switchClassName, title: 'Artikel anzeigen / schließen', onClick: toggle }),
-        _react2['default'].createElement(
-          'div',
-          { id: 'summaryContainer', className: containerClassName },
-          this.props.children
-        ),
-        isOpen ? null : _react2['default'].createElement('div', { id: 'summaryShade' })
-      );
-    }
-  }]);
-
-  return Summary;
-})(_react2['default'].Component);
+var _chunksSummary = require('./chunks/summary');
 
 var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
   var stations = _ref.spaceStations;
@@ -38370,7 +39167,7 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
       )
     ),
     _react2['default'].createElement(
-      Summary,
+      _chunksSummary.Summary,
       null,
       _react2['default'].createElement(
         'p',
@@ -38460,11 +39257,6 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
             _react2['default'].createElement(
               'form',
               { id: 'sortStations', className: 'sort-form' },
-              _react2['default'].createElement(
-                'label',
-                null,
-                'Sortieren nach:'
-              ),
               _react2['default'].createElement(
                 'select',
                 { name: 'sortStations', defaultValue: 'sortStationsLaunchUp' },
@@ -38615,22 +39407,14 @@ var StationComponent = function StationComponent(_ref2) {
 };
 module.exports = exports['default'];
 
-},{"./notes":436,"react":449}],442:[function(require,module,exports){
+},{"./chunks/summary":429,"./notes":439,"react":453}],446:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
   value: true
 });
 
-var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-
-var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var _react = require('react');
 
@@ -38640,43 +39424,7 @@ var _notes = require('./notes');
 
 var _notes2 = _interopRequireDefault(_notes);
 
-var Summary = (function (_React$Component) {
-  _inherits(Summary, _React$Component);
-
-  function Summary() {
-    _classCallCheck(this, Summary);
-
-    _get(Object.getPrototypeOf(Summary.prototype), 'constructor', this).call(this);
-    this.state = { isOpen: true };
-  }
-
-  _createClass(Summary, [{
-    key: 'render',
-    value: function render() {
-      var _this = this;
-
-      var isOpen = this.state.isOpen;
-      var toggle = function toggle() {
-        _this.setState({ isOpen: !isOpen });
-      };
-      var switchClassName = isOpen ? "expanded" : "collapsed";
-      var containerClassName = isOpen ? "visible" : "minimized";
-      return _react2['default'].createElement(
-        'div',
-        { id: 'summary', className: 'pure-u-1 left' },
-        _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: switchClassName, title: 'Artikel anzeigen / schließen', onClick: toggle }),
-        _react2['default'].createElement(
-          'div',
-          { id: 'summaryContainer', className: containerClassName },
-          this.props.children
-        ),
-        isOpen ? null : _react2['default'].createElement('div', { id: 'summaryShade' })
-      );
-    }
-  }]);
-
-  return Summary;
-})(_react2['default'].Component);
+var _chunksSummary = require('./chunks/summary');
 
 var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
   var telescopes = _ref.telescopes;
@@ -38708,7 +39456,7 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
       )
     ),
     _react2['default'].createElement(
-      Summary,
+      _chunksSummary.Summary,
       null,
       _react2['default'].createElement(
         'p',
@@ -38798,11 +39546,6 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
             _react2['default'].createElement(
               'form',
               { id: 'sortSpacetelecopes', className: 'sort-form' },
-              _react2['default'].createElement(
-                'label',
-                null,
-                'Sortieren nach:'
-              ),
               _react2['default'].createElement(
                 'select',
                 { name: 'sortSpacetelecopes', defaultValue: 'sortSpacetelecopesLaunchUp' },
@@ -38953,7 +39696,7 @@ var TelescopeComponent = function TelescopeComponent(_ref2) {
 };
 module.exports = exports['default'];
 
-},{"./notes":436,"react":449}],443:[function(require,module,exports){
+},{"./chunks/summary":429,"./notes":439,"react":453}],447:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -38997,10 +39740,10 @@ var SpaceflightComponent = function SpaceflightComponent(_ref) {
       _react2["default"].createElement(
         "ul",
         { id: "pageSubMenu", className: "pure-u-1 center" },
-        [{ url: appUrl.astronautsSite(), name: 'Raumfahrer' }, { url: appUrl.missionsSite(), name: 'Missionen' }, { url: appUrl.spacewalksSite(), name: 'Weltraumausstiege' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
+        [{ url: appUrl.astronautsSite(), style: 'astronauts', name: 'Raumfahrer' }, { url: appUrl.missionsSite(), style: 'missions', name: 'Missionen' }, { url: appUrl.spacewalksSite(), style: 'spacewalks', name: 'Weltraumausstiege' }, { url: appUrl.spaceStationsSite(), style: 'spacestations', name: 'Raumstationen' }, { url: appUrl.spaceTelescopesSite(), style: 'spacetelescopes', name: 'Weltraumteleskope' }].map(function (link) {
           return _react2["default"].createElement(
             "li",
-            { className: link.name, key: link.url + link.name },
+            { className: link.style, key: link.url + link.name },
             _react2["default"].createElement(
               "a",
               { href: link.url },
@@ -39016,22 +39759,14 @@ var SpaceflightComponent = function SpaceflightComponent(_ref) {
 exports["default"] = SpaceflightComponent;
 module.exports = exports["default"];
 
-},{"react":449}],444:[function(require,module,exports){
+},{"react":453}],448:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
   value: true
 });
 
-var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-
-var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var _react = require('react');
 
@@ -39041,43 +39776,7 @@ var _notes = require('./notes');
 
 var _notes2 = _interopRequireDefault(_notes);
 
-var Summary = (function (_React$Component) {
-  _inherits(Summary, _React$Component);
-
-  function Summary() {
-    _classCallCheck(this, Summary);
-
-    _get(Object.getPrototypeOf(Summary.prototype), 'constructor', this).call(this);
-    this.state = { isOpen: true };
-  }
-
-  _createClass(Summary, [{
-    key: 'render',
-    value: function render() {
-      var _this = this;
-
-      var isOpen = this.state.isOpen;
-      var toggle = function toggle() {
-        _this.setState({ isOpen: !isOpen });
-      };
-      var switchClassName = isOpen ? "expanded" : "collapsed";
-      var containerClassName = isOpen ? "visible" : "minimized";
-      return _react2['default'].createElement(
-        'div',
-        { id: 'summary', className: 'pure-u-1 left' },
-        _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: switchClassName, title: 'Artikel anzeigen / schließen', onClick: toggle }),
-        _react2['default'].createElement(
-          'div',
-          { id: 'summaryContainer', className: containerClassName },
-          this.props.children
-        ),
-        isOpen ? null : _react2['default'].createElement('div', { id: 'summaryShade' })
-      );
-    }
-  }]);
-
-  return Summary;
-})(_react2['default'].Component);
+var _chunksSummary = require('./chunks/summary');
 
 var SpacewalksComponent = function SpacewalksComponent(_ref) {
   var spacewalks = _ref.spacewalks;
@@ -39100,7 +39799,7 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
       )
     ),
     _react2['default'].createElement(
-      Summary,
+      _chunksSummary.Summary,
       null,
       _react2['default'].createElement(
         'p',
@@ -39290,11 +39989,6 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
               'form',
               { id: 'sortSpacewalks', className: 'sort-form' },
               _react2['default'].createElement(
-                'label',
-                null,
-                'Sortieren nach:'
-              ),
-              _react2['default'].createElement(
                 'select',
                 { name: 'sortSpacewalks', defaultValue: 'sortSpacewalksStartUp' },
                 _react2['default'].createElement(
@@ -39444,22 +40138,14 @@ var SpacewalkComponent = function SpacewalkComponent(_ref2) {
 };
 module.exports = exports['default'];
 
-},{"./notes":436,"react":449}],445:[function(require,module,exports){
+},{"./chunks/summary":429,"./notes":439,"react":453}],449:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
   value: true
 });
 
-var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-
-var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var _react = require('react');
 
@@ -39471,43 +40157,7 @@ var _chunksLetterLinks = require('./chunks/letter-links');
 
 var _chunksLetterLinks2 = _interopRequireDefault(_chunksLetterLinks);
 
-var Summary = (function (_React$Component) {
-  _inherits(Summary, _React$Component);
-
-  function Summary() {
-    _classCallCheck(this, Summary);
-
-    _get(Object.getPrototypeOf(Summary.prototype), 'constructor', this).call(this);
-    this.state = { isOpen: true };
-  }
-
-  _createClass(Summary, [{
-    key: 'render',
-    value: function render() {
-      var _this = this;
-
-      var isOpen = this.state.isOpen;
-      var toggle = function toggle() {
-        _this.setState({ isOpen: !isOpen });
-      };
-      var switchClassName = isOpen ? "expanded" : "collapsed";
-      var containerClassName = isOpen ? "visible" : "minimized";
-      return _react2['default'].createElement(
-        'div',
-        { id: 'summary', className: 'pure-u-1 left' },
-        _react2['default'].createElement('a', { id: 'summaryToggleSwitch', className: switchClassName, title: 'Artikel anzeigen / schließen', onClick: toggle }),
-        _react2['default'].createElement(
-          'div',
-          { id: 'summaryContainer', className: containerClassName },
-          this.props.children
-        ),
-        isOpen ? null : _react2['default'].createElement('div', { id: 'summaryShade' })
-      );
-    }
-  }]);
-
-  return Summary;
-})(_react2['default'].Component);
+var _chunksSummary = require('./chunks/summary');
 
 var StarsComponent = function StarsComponent(_ref) {
   var groupedStars = _ref.groupedStars;
@@ -39555,7 +40205,7 @@ var StarsComponent = function StarsComponent(_ref) {
       )
     ),
     _react2['default'].createElement(
-      Summary,
+      _chunksSummary.Summary,
       null,
       _react2['default'].createElement(
         'p',
@@ -39840,11 +40490,6 @@ var StarsComponent = function StarsComponent(_ref) {
             _react2['default'].createElement(
               'form',
               { id: 'sortStars', className: 'sort-form' },
-              _react2['default'].createElement(
-                'label',
-                null,
-                'Sortieren nach:'
-              ),
               _react2['default'].createElement(
                 'select',
                 { name: 'sortStars', defaultValue: 'sortStarsHistoricalName' },
@@ -40171,7 +40816,7 @@ var StarComponent = function StarComponent(_ref4) {
 // </tr>
 module.exports = exports['default'];
 
-},{"./chunks/letter-links":426,"./notes":436,"react":449}],446:[function(require,module,exports){
+},{"./chunks/letter-links":428,"./chunks/summary":429,"./notes":439,"react":453}],450:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -40524,7 +41169,7 @@ exports['default'] = VcardComponent;
 ;
 module.exports = exports['default'];
 
-},{"isomorphic-fetch":228,"react":449}],447:[function(require,module,exports){
+},{"isomorphic-fetch":228,"react":453}],451:[function(require,module,exports){
 (function (process,__dirname){
 'use strict';
 
@@ -40570,9 +41215,9 @@ var _sitesPeople = require('./sites/people');
 
 var _sitesPeople2 = _interopRequireDefault(_sitesPeople);
 
-var _sitesAstronomers = require('./sites/astronomers');
+var _sitesScientists = require('./sites/scientists');
 
-var _sitesAstronomers2 = _interopRequireDefault(_sitesAstronomers);
+var _sitesScientists2 = _interopRequireDefault(_sitesScientists);
 
 var _sitesAstronauts = require('./sites/astronauts');
 
@@ -40666,9 +41311,9 @@ var rerender = function rerender(surroundingComponent, content) {
 var urlToComponent = {
   '/chronicle': { klass: _sitesEvents2['default'], fileName: 'data/chronicle.json' },
   '/people': { klass: _sitesPeople2['default'], fileName: 'data/people.json' },
-  '/astronomers': { klass: _sitesAstronomers2['default'], fileName: 'data/people.json' },
-  '/astronauts': { klass: _sitesAstronauts2['default'], fileName: 'data/people.json' },
-  '/solar-system': { klass: _sitesSolarSystem2['default'] },
+  '/scientists': { klass: _sitesScientists2['default'], fileName: 'data/scientists.json' },
+  '/astronauts': { klass: _sitesAstronauts2['default'], fileName: 'data/astronauts.json' },
+  '/solar-system': { klass: _sitesSolarSystem2['default'], fileName: 'data/solarsystem.json' },
   '/constellations': { klass: _sitesConstellations2['default'], fileName: 'data/constellations.json' },
   '/stars': { klass: _sitesStars2['default'], fileName: 'data/stars.json' },
   '/space-stations': { klass: _sitesSpaceStations2['default'], fileName: 'data/spacestations.json' },
@@ -40764,7 +41409,7 @@ if (createStaticSites) {
 }
 
 }).call(this,require('_process'),"/src")
-},{"./_external-deps/http-get":422,"./appurl":423,"./components/content-only":428,"./components/page":438,"./scripts/make-urls-offline":448,"./sites/about":450,"./sites/astronauts":451,"./sites/astronomers":452,"./sites/astronomy":453,"./sites/constellations":454,"./sites/events":455,"./sites/home":457,"./sites/missions":458,"./sites/objects":459,"./sites/people":460,"./sites/solar-system":461,"./sites/space-stations":462,"./sites/space-telescopes":463,"./sites/spaceflight":464,"./sites/spacewalks":465,"./sites/stars":466,"_process":235,"babel/polyfill":3,"fs":6,"mkdirp":229,"path":233,"react":449,"react-dom":244,"react-dom/server":373}],448:[function(require,module,exports){
+},{"./_external-deps/http-get":423,"./appurl":424,"./components/content-only":431,"./components/page":441,"./scripts/make-urls-offline":452,"./sites/about":454,"./sites/astronauts":455,"./sites/astronomy":456,"./sites/constellations":457,"./sites/events":458,"./sites/home":460,"./sites/missions":461,"./sites/objects":462,"./sites/people":463,"./sites/scientists":464,"./sites/solar-system":465,"./sites/space-stations":466,"./sites/space-telescopes":467,"./sites/spaceflight":468,"./sites/spacewalks":469,"./sites/stars":470,"_process":235,"babel/polyfill":3,"fs":6,"mkdirp":229,"path":233,"react":453,"react-dom":244,"react-dom/server":373}],452:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -40780,7 +41425,7 @@ function useOfflineUrls(s) {
   return s.replace('//cdnjs.cloudflare.com/ajax/libs/', pathPrefix).replace(/\/\/yui\.yahooapis\.com\//g, pathPrefix).replace('//maxcdn.bootstrapcdn.com/', pathPrefix);
 }
 
-},{}],449:[function(require,module,exports){
+},{}],453:[function(require,module,exports){
 (function (global){
 /* global global */
 "use strict";
@@ -40793,7 +41438,7 @@ exports["default"] = react;
 module.exports = exports["default"];
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],450:[function(require,module,exports){
+},{}],454:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -40835,7 +41480,7 @@ var About = (function () {
 exports['default'] = About;
 module.exports = exports['default'];
 
-},{"../components/about":424,"react":449}],451:[function(require,module,exports){
+},{"../components/about":425,"react":453}],455:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -40844,106 +41489,156 @@ Object.defineProperty(exports, '__esModule', {
 
 var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _people = require('./people');
+var _componentsAstronauts = require('../components/astronauts');
 
-var _people2 = _interopRequireDefault(_people);
+var _componentsAstronauts2 = _interopRequireDefault(_componentsAstronauts);
 
-var _componentsPeople = require('../components/people');
+var _helperGrouper = require('./helper/grouper');
 
-var _componentsPeople2 = _interopRequireDefault(_componentsPeople);
+var _helperGrouper2 = _interopRequireDefault(_helperGrouper);
 
-var Astronauts = (function (_People) {
-  _inherits(Astronauts, _People);
-
+var Astronauts = (function () {
   function Astronauts() {
     _classCallCheck(this, Astronauts);
-
-    _get(Object.getPrototypeOf(Astronauts.prototype), 'constructor', this).apply(this, arguments);
   }
 
   _createClass(Astronauts, null, [{
     key: 'fromRawData',
     value: function fromRawData(rawData) {
-      var allPeople = _get(Object.getPrototypeOf(Astronauts), 'fromRawData', this).call(this, rawData);
-      return allPeople.filter(function (person) {
-        return person.type == _people.Person.ASTRONAUT || person.type == _people.Person.ASTRONOMER_AND_ASTRONAUT;
+      return rawData.map(function (raw) {
+        return Astronaut.fromRawData(raw);
       });
+    }
+  }, {
+    key: 'componentWithData',
+    value: function componentWithData(astronauts) {
+      var groups = new _helperGrouper2['default'](astronauts).byName();
+      return _react2['default'].createElement(_componentsAstronauts2['default'], { groupedAstronauts: groups });
     }
   }]);
 
   return Astronauts;
-})(_people2['default']);
+})();
 
 exports['default'] = Astronauts;
-module.exports = exports['default'];
 
-},{"../components/people":439,"./people":460,"react":449}],452:[function(require,module,exports){
-'use strict';
+var Astronaut = (function () {
+  function Astronaut(_ref) {
+    var name = _ref.name;
+    var link = _ref.link;
+    var imgSmallUrl = _ref.imgSmallUrl;
+    var imgUrl = _ref.imgUrl;
+    var country = _ref.country;
+    var flag = _ref.flag;
+    var agency = _ref.agency;
+    var agencyUrl = _ref.agencyUrl;
+    var numberOfMissions = _ref.numberOfMissions;
+    var missions = _ref.missions;
+    var born = _ref.born;
+    var died = _ref.died;
+    var timeInSpace = _ref.timeInSpace;
+    var firstLaunch = _ref.firstLaunch;
+    var numberOfSpacewalks = _ref.numberOfSpacewalks;
+    var durationOfSpacewalks = _ref.durationOfSpacewalks;
+    var type = _ref.type;
 
-Object.defineProperty(exports, '__esModule', {
-  value: true
-});
+    _classCallCheck(this, Astronaut);
 
-var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-
-var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
-var _people = require('./people');
-
-var _people2 = _interopRequireDefault(_people);
-
-var _componentsPeople = require('../components/people');
-
-var _componentsPeople2 = _interopRequireDefault(_componentsPeople);
-
-var Astronomers = (function (_People) {
-  _inherits(Astronomers, _People);
-
-  function Astronomers() {
-    _classCallCheck(this, Astronomers);
-
-    _get(Object.getPrototypeOf(Astronomers.prototype), 'constructor', this).apply(this, arguments);
+    this.name = name;
+    this.link = link;
+    this.imgSmallUrl = imgSmallUrl;
+    this.imgUrl = imgUrl;
+    this.country = country;
+    this.flag = flag;
+    this.agency = agency;
+    this.agencyurl = agencyUrl;
+    this.numberOfMissions = numberOfMissions;
+    this.missions = missions;
+    this.born = born;
+    this.died = died;
+    this.timeInSpace = timeInSpace;
+    this.firstLaunch = firstLaunch;
+    this.numberOfSpacewalks = numberOfSpacewalks;
+    this.durationOfSpacewalks = durationOfSpacewalks;
+    this.type = type;
   }
 
-  _createClass(Astronomers, null, [{
+  _createClass(Astronaut, null, [{
     key: 'fromRawData',
-    value: function fromRawData(rawData) {
-      var allPeople = _get(Object.getPrototypeOf(Astronomers), 'fromRawData', this).call(this, rawData);
-      return allPeople.filter(function (person) {
-        return person.type == _people.Person.ASTRONOMER || person.type == _people.Person.ASTRONOMER_AND_ASTRONAUT;
-      });
+    value: function fromRawData(raw) {
+      // "itemname": "Armstrong",
+      // "itemurl": "https://de.wikipedia.org/wiki/Neil_Armstrong",
+      // "itemname2": "Neil",
+      // "itemdescription": "Gemini 8, Apollo 11",
+      // "itemtype": 2,
+      // "itemcolor": "/img/flags/USA.png",
+      // "itemimgsmallurl": "/img/astronauts/armstrong_neil_sm.jpg",
+      // "itemimgurl": "/img/astronauts/armstrong_neil_lg.jpg",
+      // "itemdateyear": "1930",
+      // "itemdatemonth": "08",
+      // "itemdateday": "05",
+      // "itemdate2year": "2012",
+      // "itemdate2month": "08",
+      // "itemdate2day": "25",
+      // "itemtime2": "8 d 13:59 h",
+      // "itemdate3year": 1966,
+      // "itemdate3month": "03",
+      // "itemdate3day": "16",
+      // "itemduration": "2:31 h",
+      // "itemstatus": 1,
+      // "itemcountry": "USA",
+      // "itemproperty": "Raumfahrer, Pilot",
+      // "itemtags": "Gemini 8, Apollo 11, Mond, Mondlandung"
+      var item = {
+        name: [raw.itemname, raw.itemname2].filter(function (v) {
+          return v;
+        }).join(', '),
+        link: raw.itemurl,
+        imgSmallUrl: raw.itemimgsmallurl,
+        imgUrl: raw.itemimgurl,
+        country: raw.itemcountry,
+        flag: raw.itemcolor,
+        agency: raw.itemparent,
+        agencyUrl: raw.itemparenturl,
+        numberOfMissions: raw.itemid,
+        missions: raw.itemdescription,
+        born: [raw.itemdateday, raw.itemdatemonth, raw.itemdateyear].filter(function (v) {
+          return v;
+        }).join('.'),
+        died: [raw.itemdate2day, raw.itemdate2month, raw.itemdate2year].filter(function (v) {
+          return v;
+        }).join('.'),
+        timeInSpace: raw.itemtime2,
+        firstLaunch: [raw.itemdate3day, raw.itemdate3month, raw.itemdate3year].filter(function (v) {
+          return v;
+        }).join('.'),
+        numberOfSpacewalks: raw.itemstatus,
+        durationOfSpacewalks: raw.itemduration,
+        type: raw.itemtype
+      };
+      //item.tags = raw.tags.split(',');
+      return new Astronaut(item);
     }
   }]);
 
-  return Astronomers;
-})(_people2['default']);
+  return Astronaut;
+})();
 
-exports['default'] = Astronomers;
-module.exports = exports['default'];
+exports.Astronaut = Astronaut;
 
-},{"../components/people":439,"./people":460,"react":449}],453:[function(require,module,exports){
+Astronaut.ASTRONOMER = 1;
+Astronaut.ASTRONAUT = 2;
+Astronaut.ASTRONOMER_AND_ASTRONAUT = 3;
+
+},{"../components/astronauts":426,"./helper/grouper":459,"react":453}],456:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -40985,7 +41680,7 @@ var Astronomy = (function () {
 exports['default'] = Astronomy;
 module.exports = exports['default'];
 
-},{"../components/astronomy":425,"react":449}],454:[function(require,module,exports){
+},{"../components/astronomy":427,"react":453}],457:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -41137,7 +41832,7 @@ var Star = (function () {
 
 module.exports = exports['default'];
 
-},{"../components/constellations":427,"react":449}],455:[function(require,module,exports){
+},{"../components/constellations":430,"react":453}],458:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -41219,7 +41914,7 @@ var Event = (function () {
 
 module.exports = exports['default'];
 
-},{"../components/events":429,"react":449}],456:[function(require,module,exports){
+},{"../components/events":432,"react":453}],459:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -41264,7 +41959,7 @@ var Grouper = (function () {
 exports['default'] = Grouper;
 module.exports = exports['default'];
 
-},{}],457:[function(require,module,exports){
+},{}],460:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -41306,7 +42001,7 @@ var Home = (function () {
 exports['default'] = Home;
 module.exports = exports['default'];
 
-},{"../components/home":431,"react":449}],458:[function(require,module,exports){
+},{"../components/home":434,"react":453}],461:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -41442,7 +42137,7 @@ var Pad = function Pad(name, wikipediaUrl) {
 
 module.exports = exports['default'];
 
-},{"../components/missions":434,"react":449}],459:[function(require,module,exports){
+},{"../components/missions":437,"react":453}],462:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -41484,7 +42179,7 @@ var Objects = (function () {
 exports['default'] = Objects;
 module.exports = exports['default'];
 
-},{"../components/objects":437,"react":449}],460:[function(require,module,exports){
+},{"../components/objects":440,"react":453}],463:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -41604,7 +42299,127 @@ Person.ASTRONOMER = 1;
 Person.ASTRONAUT = 2;
 Person.ASTRONOMER_AND_ASTRONAUT = 3;
 
-},{"../components/people":439,"./helper/grouper":456,"react":449}],461:[function(require,module,exports){
+},{"../components/people":442,"./helper/grouper":459,"react":453}],464:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
+
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _componentsScientists = require('../components/scientists');
+
+var _componentsScientists2 = _interopRequireDefault(_componentsScientists);
+
+var _helperGrouper = require('./helper/grouper');
+
+var _helperGrouper2 = _interopRequireDefault(_helperGrouper);
+
+var Scientists = (function () {
+  function Scientists() {
+    _classCallCheck(this, Scientists);
+  }
+
+  _createClass(Scientists, null, [{
+    key: 'fromRawData',
+    value: function fromRawData(rawData) {
+      return rawData.map(function (raw) {
+        return Scientist.fromRawData(raw);
+      });
+    }
+  }, {
+    key: 'componentWithData',
+    value: function componentWithData(scientists) {
+      var groups = new _helperGrouper2['default'](scientists).byName();
+      return _react2['default'].createElement(_componentsScientists2['default'], { groupedScientists: groups });
+    }
+  }]);
+
+  return Scientists;
+})();
+
+exports['default'] = Scientists;
+
+var Scientist = (function () {
+  function Scientist(_ref) {
+    var name = _ref.name;
+    var link = _ref.link;
+    var profession = _ref.profession;
+    var country = _ref.country;
+    var description = _ref.description;
+    var born = _ref.born;
+    var died = _ref.died;
+    var type = _ref.type;
+
+    _classCallCheck(this, Scientist);
+
+    this.name = name;
+    this.link = link;
+    this.profession = profession;
+    this.country = country;
+    this.description = description;
+    this.born = born;
+    this.died = died;
+    this.type = type;
+  }
+
+  _createClass(Scientist, null, [{
+    key: 'fromRawData',
+    value: function fromRawData(raw) {
+      // "itemname": "Armstrong",
+      // "itemname2": "Neil",
+      // "itemurl": "https://de.wikipedia.org/wiki/Neil_Armstrong",
+      // "itemdescription": "Gemini 8, Apollo 11 - erster Mensch auf dem Mond am 21.06.1969",
+      // "itemdateyear": "1930",
+      // "itemdatemonth": 8,
+      // "itemdateday": 5,
+      // "itemdate2year": "2012",
+      // "itemdate2month": 8,
+      // "itemdate2day": 25,
+      // "itemcountry": "USA",
+      // "itemproperty": "Raumfahrer, Pilot",
+      // "itemtype": 2,
+      // "itemtags": "Gemini 8, Apollo 11, Mond, Mondlandung"
+      var item = {
+        name: [raw.itemname, raw.itemname2].filter(function (v) {
+          return v;
+        }).join(', '),
+        link: raw.itemurl,
+        profession: raw.itemproperty,
+        country: raw.itemcountry,
+        description: raw.itemdescription,
+        born: [raw.itemdateday, raw.itemdatemonth, raw.itemdateyear].filter(function (v) {
+          return v;
+        }).join('.'),
+        died: [raw.itemdate2day, raw.itemdate2month, raw.itemdate2year].filter(function (v) {
+          return v;
+        }).join('.'),
+        type: raw.itemtype
+      };
+      //item.tags = raw.tags.split(',');
+      return new Scientist(item);
+    }
+  }]);
+
+  return Scientist;
+})();
+
+exports.Scientist = Scientist;
+
+Scientist.ASTRONOMER = 1;
+Scientist.ASTRONAUT = 2;
+Scientist.ASTRONOMER_AND_ASTRONAUT = 3;
+
+},{"../components/scientists":443,"./helper/grouper":459,"react":453}],465:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -41683,9 +42498,9 @@ var SolarSystem = (function () {
     }
   }, {
     key: 'fromRawData',
-    value: function fromRawData() {
+    value: function fromRawData(rawData) {
       return rawData.map(function (raw) {
-        return SolarSystem.fromRawData(raw);
+        return Item.fromRawData(raw);
       });
     }
   }]);
@@ -41832,7 +42647,7 @@ var Item = (function () {
 
 module.exports = exports['default'];
 
-},{"../components/solar-system":440,"react":449}],462:[function(require,module,exports){
+},{"../components/solar-system":444,"react":453}],466:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -42006,7 +42821,7 @@ var Pad = (function () {
 
 module.exports = exports['default'];
 
-},{"../components/space-stations":441,"react":449}],463:[function(require,module,exports){
+},{"../components/space-stations":445,"react":453}],467:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -42162,7 +42977,7 @@ var Pad = (function () {
 
 module.exports = exports['default'];
 
-},{"../components/space-telescopes":442,"react":449}],464:[function(require,module,exports){
+},{"../components/space-telescopes":446,"react":453}],468:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -42204,7 +43019,7 @@ var Spaceflight = (function () {
 exports['default'] = Spaceflight;
 module.exports = exports['default'];
 
-},{"../components/spaceflight":443,"react":449}],465:[function(require,module,exports){
+},{"../components/spaceflight":447,"react":453}],469:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -42326,7 +43141,7 @@ var Spacewalk = (function () {
 
 module.exports = exports['default'];
 
-},{"../components/spacewalks":444,"react":449}],466:[function(require,module,exports){
+},{"../components/spacewalks":448,"react":453}],470:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -42484,4 +43299,4 @@ var Star = (function () {
 
 module.exports = exports['default'];
 
-},{"../components/stars":445,"./helper/grouper":456,"react":449}]},{},[447]);
+},{"../components/stars":449,"./helper/grouper":459,"react":453}]},{},[451]);

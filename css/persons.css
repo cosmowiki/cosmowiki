@@ -1,22 +1,62 @@
-.person-row {padding: .2em 0;}
+.person-row,
+.scientist-row,
+.astronaut-row {padding: .2em 0;}
 
-.person-name div {display: block; font-size: 1.25em; text-align: center;}
+/* font & text-align ---------------------------------------------------------*/
+.person-name div,
+.scientist-name div {text-align: center;}
+
 .person-data1 div,
-.person-data2 div {display: inline-block; font-size: 1.125em;}
+.person-data2 div,
+.scientist-data1 div,
+.scientist-data2 div,
+.astronaut-data {font-size: 1.125em;}
 
-/* only for visualisation ----------------------------------------------------*/
-/*.person-name, .person-data1, .person-data2 {outline: 1px solid blue;}*/
-/* ---------------------------------------------------------------------------*/
+/* display -------------------------------------------------------------------*/
+.person-name div,
+.scientist-name div {display: block;}
+
+.person-data1 div,
+.person-data2 div,
+.scientist-data1 div,
+.scientist-data2 div {display: inline-block;}
+
+/* astronaut -----------------------------------------------------------------*/
+.astronaut-name {display: block; margin: 0 0 .2em .2em; font-size: 1.25em; text-align: left;}
+.astronaut-name img {margin-left: .2em; height: .75em;}
+
+.astronaut-img {display: inline;}
+.astronaut-img {margin: .2em 0 0 .2em;}
+.astronaut-img img {height: 110px;}
+
+.astronaut-data {margin: 0 0 0 .2em;}
+.astronaut-data div {display: block;}
+
+.astronaut-life p {display: inline;}
+.astronaut-died {margin-left: .5em;}
+
+.astronaut-spaceflights div {display: block;}
+.astronaut-missionsdata p {display: inline;}
+.astronaut-numberofmissions {margin-right: .5em;}
+
+.astronaut-spacewalks p {display: inline;}
+.astronaut-durationofspacewalks {margin-left: .5em;}
+
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 48em) {
-	.person-data1 div,
-	.person-data2 div {display: inline-block;}
+
 }
 @media only all and (min-width: 64em) {
-	.person-name div {font-size: 1.125em; line-height: 1.75em; text-align: left;}
+	.person-name div,
+	.person-data1 div,
+	.person-data2 div {font-size: 1.125em; line-height: 1.75em; text-align: left;}
 	.person-name p {margin-left: .2em;}
-	.person-data1 div {line-height: 1.75em; text-align: left;}
-	.person-data2 div {line-height: 1.75em;}
 	.person-born p {margin-left: .5em;}
+
+	.scientist-name div {font-size: 1.125em; line-height: 1.75em; text-align: left;}
+	.scientist-name p {margin-left: .2em;}
+	.scientist-data1 div {margin-left: .2em;}
+	.scientist-data2 div {line-height: 1.75em;}
+
 }
