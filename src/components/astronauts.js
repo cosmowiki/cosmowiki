@@ -69,20 +69,21 @@ const AstronautsComponent = ({groupedAstronauts}) => {
           die Kosmonauten in den Sojus-Kapseln sind hingegen bei der Landung bis zu 10 g ausgesetzt.
         </p>
         <p className="summary-text">
-          Die Schwerelosigkeit im All stellt dann wiederum völlig andere Anforderungen
+          Die Schwerelosigkeit im All stellt wiederum völlig andere Anforderungen
           an den menschlichen Körper, besonders an den Gleichgewichtssinn. Muskel- und
           Knochenschwund sind die bekanntesten Nebenwirkungen eines Aufenthaltes im Weltall.
           Für die Raumfahrer auf Langzeitmissionen bedeutet dies, ein intensives
           Sportprogramm abzuleisten - jeden Tag.
         </p>
         <p className="summary-text">
-          Das physische Training der Astronauten ist nur ein kleiner Teil ihrer Ausbildung.
-          Die dauert heute für eine Mission zur ISS insgesamt zwei Jahre. Um überhaupt
-          ausgewählt zu werden, bedarf es einer Menge Durchhaltevermögen und auch Glück.
-          Unter Tausenden Bewerbern schafft es am Ende nur eine Handvoll.
+          In der Ausbildung der Astronauten ist das physische Training hingegen
+          nur ein kleiner Teil. Für eine Mission zur ISS werden die heutigen Raumfahrer
+          insgesamt zwei Jahre lang geschult. Um überhaupt ausgewählt zu werden, bedarf
+          es einer Menge Durchhaltevermögen und auch Glück. Unter vielen Tausenden
+          Bewerbern schafft es am Ende nur eine Handvoll.
         </p>
         <div className="summary-img width-75 center">
-          <img src="/img/persons/people_collage.jpg" alt="Collage berühmter astronauten" />
+          <img src="/img/persons/people_collage.jpg" alt="Collage berühmter Astronauten" />
           <p className="summary-img-text">
             Aristoteles, A. Shepard, I. Newton, E. Halley, V. Tereschkowa, A. Einstein, N. Kopernikus, J. Gagarin, G. Galilei, S. Hawking, T. Brahe, N. Armstrong
           </p>
