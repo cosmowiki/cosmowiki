@@ -37456,65 +37456,63 @@ var PersonComponent = function PersonComponent(_ref3) {
     { className: 'person-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'person-name pure-u-1 pure-u-md-1 pure-u-lg-7-24' },
+      { className: 'person-name pure-u-1 pure-u-md-1-2 pure-u-lg-8-24' },
       _react2['default'].createElement(
-        'div',
-        { className: 'pure-u-1' },
+        'p',
+        null,
         _react2['default'].createElement(
-          'p',
-          null,
-          _react2['default'].createElement(
-            'a',
-            { href: person.link },
-            person.name
-          )
+          'a',
+          { href: person.link },
+          person.name
         )
       )
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'person-data1 pure-u-1 pure-u-md-1-3 pure-u-lg-5-24' },
+      { className: 'person-info pure-u-1 pure-u-md-1-3 pure-u-lg-11-24' },
       _react2['default'].createElement(
         'div',
-        { className: 'person-born pure-u-1-2 pure-u-md-1-2 center' },
-        _react2['default'].createElement(
-          'p',
-          null,
-          person.born ? '∗ ' + person.born : ''
-        )
-      ),
-      _react2['default'].createElement(
-        'div',
-        { className: 'person-died pure-u-1-2 pure-u-md-1-2 center' },
-        _react2['default'].createElement(
-          'p',
-          null,
-          person.died ? '† ' + person.died : ''
-        )
-      )
-    ),
-    _react2['default'].createElement(
-      'div',
-      { className: 'person-data2 pure-u-1 pure-u-md-2-3 pure-u-lg-1-2' },
-      _react2['default'].createElement(
-        'div',
-        { className: 'person-country pure-u-1-2 pure-u-md-1-2 center' },
-        _react2['default'].createElement(
-          'p',
-          null,
-          person.country ? person.country : ''
-        )
-      ),
-      _react2['default'].createElement(
-        'div',
-        { className: 'person-profession pure-u-1-2 pure-u-md-1-2 center' },
+        { className: 'person-profession pure-u-1 pure-u-lg-2-3' },
         _react2['default'].createElement(
           'p',
           null,
           person.profession ? person.profession : ''
         )
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'person-country pure-u-1 pure-u-lg-1-3' },
+        _react2['default'].createElement(
+          'p',
+          null,
+          person.country
+        )
       )
-    )
+    ),
+    person.born ? _react2['default'].createElement(
+      'div',
+      { className: 'person-life pure-u-1 pure-u-md-1-6 pure-u-lg-5-24' },
+      _react2['default'].createElement(
+        'div',
+        { className: 'person-born pure-u-md-1 pure-u-lg-1-2' },
+        _react2['default'].createElement(
+          'p',
+          null,
+          '∗ ',
+          person.born
+        )
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'person-died pure-u-md-1 pure-u-lg-1-2' },
+        person.died ? _react2['default'].createElement(
+          'p',
+          null,
+          '† ',
+          person.died
+        ) : ''
+      )
+    ) : ''
   );
 };
 
@@ -37722,22 +37720,6 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
         _react2['default'].createElement(
           'li',
           null,
-          'Am ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Apollo-Programm'
-          ),
-          ' und der ersten bemannten Mondlandung arbeiteten insgesamt etwa 400.000 Menschen mit.'
-        ),
-        _react2['default'].createElement(
-          'li',
-          null,
-          'Der Kosmonaut Waleri Bykowski hält mit vier Tagen und 23 Stunden den Rekord für den längsten Soloflug der Raumfahrtgeschichte.'
-        ),
-        _react2['default'].createElement(
-          'li',
-          null,
           _react2['default'].createElement(
             'em',
             null,
@@ -37766,29 +37748,29 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
             { id: 'sortArea' },
             _react2['default'].createElement(
               'form',
-              { id: 'sortPeople', className: 'sort-form' },
+              { id: 'sortScientists', className: 'sort-form' },
               _react2['default'].createElement(
                 'select',
-                { name: 'sortPeople', defaultValue: 'sortPeopleNameUp' },
+                { name: 'sortScientists', defaultValue: 'sortScientistsNameUp' },
                 _react2['default'].createElement(
                   'option',
-                  { value: 'sortPeopleNameUp' },
+                  { value: 'sortScientistsNameUp' },
                   'Name ↑'
                 ),
                 _react2['default'].createElement(
                   'option',
-                  { value: 'sortPeopleNameDown' },
+                  { value: 'sortScientistsNameDown' },
                   'Name ↓'
                 ),
                 _react2['default'].createElement(
                   'option',
-                  { value: 'sortPeopleBornUp' },
+                  { value: 'sortScientistsBornUp' },
                   'Geburtsdatum ↑'
                 ),
                 '// not important yet, too much items w/o dates',
                 _react2['default'].createElement(
                   'option',
-                  { value: 'sortPeopleBornDown' },
+                  { value: 'sortScientistsBornDown' },
                   'Geburtsdatum ↓'
                 ),
                 '// not important yet, too much items w/o dates'
@@ -37798,7 +37780,7 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
         ),
         _react2['default'].createElement(
           'div',
-          { id: 'filter', className: 'people pure-u-1-2 right' },
+          { id: 'filter', className: 'scientists pure-u-1-2 right' },
           _react2['default'].createElement(
             'a',
             { href: '#', className: 'toggle-filter', name: 'toggle-filter' },
@@ -37809,7 +37791,7 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
             { id: 'filterArea' },
             _react2['default'].createElement(
               'form',
-              { id: 'filterPeopleByProfession', className: 'filter-form' },
+              { id: 'filterScientistsByProfession', className: 'filter-form' },
               _react2['default'].createElement(
                 'label',
                 null,
@@ -37817,7 +37799,7 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
               ),
               _react2['default'].createElement(
                 'select',
-                { name: 'peopleProfessions', defaultValue: 'showAllProfessions' },
+                { name: 'scientistsProfessions', defaultValue: 'showAllProfessions' },
                 _react2['default'].createElement(
                   'option',
                   { value: 'showAllProfessions' },
@@ -37827,7 +37809,7 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
             ),
             _react2['default'].createElement(
               'form',
-              { id: 'filterPeopleByCountry', className: 'filter-form' },
+              { id: 'filterScientistsByCountry', className: 'filter-form' },
               _react2['default'].createElement(
                 'label',
                 null,
@@ -37835,7 +37817,7 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
               ),
               _react2['default'].createElement(
                 'select',
-                { name: 'peopleCountries', defaultValue: 'showAllCountries' },
+                { name: 'scientistsCountries', defaultValue: 'showAllCountries' },
                 _react2['default'].createElement(
                   'option',
                   { value: 'showAllCountries' },
@@ -37927,65 +37909,63 @@ var ScientistComponent = function ScientistComponent(_ref3) {
     { className: 'scientist-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'scientist-name pure-u-1 pure-u-md-1 pure-u-lg-7-24' },
+      { className: 'scientist-name pure-u-1 pure-u-md-1-2 pure-u-lg-8-24' },
       _react2['default'].createElement(
-        'div',
-        { className: 'pure-u-1' },
+        'p',
+        null,
         _react2['default'].createElement(
-          'p',
-          null,
-          _react2['default'].createElement(
-            'a',
-            { href: scientist.link },
-            scientist.name
-          )
+          'a',
+          { href: scientist.link },
+          scientist.name
         )
       )
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'scientist-data1 pure-u-1 pure-u-md-1-3 pure-u-lg-5-24' },
+      { className: 'scientist-info pure-u-1 pure-u-md-1-3 pure-u-lg-11-24' },
       _react2['default'].createElement(
         'div',
-        { className: 'scientist-born pure-u-1-2 pure-u-md-1-2 center' },
-        _react2['default'].createElement(
-          'p',
-          null,
-          scientist.born ? '∗ ' + scientist.born : ''
-        )
-      ),
-      _react2['default'].createElement(
-        'div',
-        { className: 'scientist-died pure-u-1-2 pure-u-md-1-2 center' },
-        _react2['default'].createElement(
-          'p',
-          null,
-          scientist.died ? '† ' + scientist.died : ''
-        )
-      )
-    ),
-    _react2['default'].createElement(
-      'div',
-      { className: 'scientist-data2 pure-u-1 pure-u-md-2-3 pure-u-lg-1-2' },
-      _react2['default'].createElement(
-        'div',
-        { className: 'scientist-country pure-u-1-2 pure-u-md-1-2 center' },
-        _react2['default'].createElement(
-          'p',
-          null,
-          scientist.country ? scientist.country : ''
-        )
-      ),
-      _react2['default'].createElement(
-        'div',
-        { className: 'scientist-profession pure-u-1-2 pure-u-md-1-2 center' },
+        { className: 'scientist-profession pure-u-1 pure-u-lg-2-3' },
         _react2['default'].createElement(
           'p',
           null,
           scientist.profession ? scientist.profession : ''
         )
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'scientist-country pure-u-1 pure-u-lg-1-3' },
+        _react2['default'].createElement(
+          'p',
+          null,
+          scientist.country
+        )
       )
-    )
+    ),
+    scientist.born ? _react2['default'].createElement(
+      'div',
+      { className: 'scientist-life pure-u-1 pure-u-md-1-6 pure-u-lg-5-24' },
+      _react2['default'].createElement(
+        'div',
+        { className: 'scientist-born pure-u-md-1 pure-u-lg-1-2' },
+        _react2['default'].createElement(
+          'p',
+          null,
+          '∗ ',
+          scientist.born
+        )
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'scientist-died pure-u-md-1 pure-u-lg-1-2' },
+        scientist.died ? _react2['default'].createElement(
+          'p',
+          null,
+          '† ',
+          scientist.died
+        ) : ''
+      )
+    ) : ''
   );
 };
 
@@ -39452,7 +39432,7 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
       _react2['default'].createElement(
         'p',
         null,
-        '@wolfram pls edit the month in endDate to appear as word when there is no endday (enable for all dates in all pages)'
+        '@wolfram pls edit the month in endDate to appear as word when there is no endday (to use it on demand for all dates in all pages)'
       )
     ),
     _react2['default'].createElement(
@@ -41608,7 +41588,7 @@ var Astronaut = (function () {
         flag: raw.itemcolor,
         agency: raw.itemparent,
         agencyUrl: raw.itemparenturl,
-        numberOfMissions: raw.itemid,
+        numberOfMissions: raw.itemmissions,
         missions: raw.itemdescription,
         born: [raw.itemdateday, raw.itemdatemonth, raw.itemdateyear].filter(function (v) {
           return v;
@@ -42414,10 +42394,6 @@ var Scientist = (function () {
 })();
 
 exports.Scientist = Scientist;
-
-Scientist.ASTRONOMER = 1;
-Scientist.ASTRONAUT = 2;
-Scientist.ASTRONOMER_AND_ASTRONAUT = 3;
 
 },{"../components/scientists":443,"./helper/grouper":459,"react":453}],465:[function(require,module,exports){
 'use strict';

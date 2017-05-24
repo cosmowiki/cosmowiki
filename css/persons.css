@@ -1,35 +1,35 @@
-.person-row,
-.scientist-row,
+/*	person & scientist -------------------------------------------------------*/
+.person-row, .scientist-row {padding: .2em 0;}
+
+.person-name, .scientist-name {font-size: 1.25em; text-align: center;}
+
+.person-info, .scientist-info,
+.person-life, .scientist-life {font-size: 1.125em; text-align: center;}
+
+.person-info div, .scientist-info div,
+.person-life div, .scientist-life div {display: inline-block;}
+.person-born p, .scientist-born p {margin-right: .2em; text-align: right;}
+.person-died p, .scientist-died p {margin-left: .2em; text-align: left;}
+
+.person-name, .scientist-name {}
+.person-country, .scientist-country {}
+.person-profession, .scientist-profession {}
+/*.person-life, .scientist-life {background: #ccc;}*/
+
+/*	astronaut ----------------------------------------------------------------*/
 .astronaut-row {padding: .2em 0;}
 
-/* font & text-align ---------------------------------------------------------*/
-.person-name div,
-.scientist-name div {text-align: center;}
-
-.person-data1 div,
-.person-data2 div,
-.scientist-data1 div,
-.scientist-data2 div,
-.astronaut-data {font-size: 1.125em;}
-
-/* display -------------------------------------------------------------------*/
-.person-name div,
-.scientist-name div {display: block;}
-
-.person-data1 div,
-.person-data2 div,
-.scientist-data1 div,
-.scientist-data2 div {display: inline-block;}
-
-/* astronaut -----------------------------------------------------------------*/
-.astronaut-name {display: block; margin: 0 0 .2em .2em; font-size: 1.25em; text-align: left;}
+.astronaut-name {
+	display: block; margin: 0 0 .2em .2em;
+	font-size: 1.25em; text-align: left;
+}
 .astronaut-name img {margin-left: .2em; height: .75em;}
 
 .astronaut-img {display: inline;}
 .astronaut-img {margin: .2em 0 0 .2em;}
 .astronaut-img img {height: 110px;}
 
-.astronaut-data {margin: 0 0 0 .2em;}
+.astronaut-data {margin: 0 0 0 .2em; font-size: 1.125em;}
 .astronaut-data div {display: block;}
 
 .astronaut-life p {display: inline;}
@@ -42,21 +42,17 @@
 .astronaut-spacewalks p {display: inline;}
 .astronaut-durationofspacewalks {margin-left: .5em;}
 
-
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 48em) {
-
+	.person-name,	.scientist-name {line-height: 2.125em; font-size: 1.125em;}
+	.person-name,	.scientist-name,
+	.person-info,	.scientist-info,
+	.person-life,	.scientist-life {text-align: left;}
+	.person-name p,	.scientist-name p {margin-left: .2em;}
+	.person-born p,	.scientist-born p {text-align: left;}
 }
 @media only all and (min-width: 64em) {
-	.person-name div,
-	.person-data1 div,
-	.person-data2 div {font-size: 1.125em; line-height: 1.75em; text-align: left;}
-	.person-name p {margin-left: .2em;}
-	.person-born p {margin-left: .5em;}
-
-	.scientist-name div {font-size: 1.125em; line-height: 1.75em; text-align: left;}
-	.scientist-name p {margin-left: .2em;}
-	.scientist-data1 div {margin-left: .2em;}
-	.scientist-data2 div {line-height: 1.75em;}
-
+	.person-name,	.scientist-name,
+	.person-info,	.scientist-info,
+	.person-life,	.scientist-life {line-height: 1.5em; text-align: left;}
 }
