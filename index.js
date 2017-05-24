@@ -33797,17 +33797,17 @@ var AstronautsComponent = function AstronautsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Die Schwerelosigkeit im All stellt dann wiederum völlig andere Anforderungen an den menschlichen Körper, besonders an den Gleichgewichtssinn. Muskel- und Knochenschwund sind die bekanntesten Nebenwirkungen eines Aufenthaltes im Weltall. Für die Raumfahrer auf Langzeitmissionen bedeutet dies, ein intensives Sportprogramm abzuleisten - jeden Tag.'
+        'Die Schwerelosigkeit im All stellt wiederum völlig andere Anforderungen an den menschlichen Körper, besonders an den Gleichgewichtssinn. Muskel- und Knochenschwund sind die bekanntesten Nebenwirkungen eines Aufenthaltes im Weltall. Für die Raumfahrer auf Langzeitmissionen bedeutet dies, ein intensives Sportprogramm abzuleisten - jeden Tag.'
       ),
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Das physische Training der Astronauten ist nur ein kleiner Teil ihrer Ausbildung. Die dauert heute für eine Mission zur ISS insgesamt zwei Jahre. Um überhaupt ausgewählt zu werden, bedarf es einer Menge Durchhaltevermögen und auch Glück. Unter Tausenden Bewerbern schafft es am Ende nur eine Handvoll.'
+        'In der Ausbildung der Astronauten ist das physische Training hingegen nur ein kleiner Teil. Für eine Mission zur ISS werden die heutigen Raumfahrer insgesamt zwei Jahre lang geschult. Um überhaupt ausgewählt zu werden, bedarf es einer Menge Durchhaltevermögen und auch Glück. Unter vielen Tausenden Bewerbern schafft es am Ende nur eine Handvoll.'
       ),
       _react2['default'].createElement(
         'div',
         { className: 'summary-img width-75 center' },
-        _react2['default'].createElement('img', { src: '/img/persons/people_collage.jpg', alt: 'Collage berühmter astronauten' }),
+        _react2['default'].createElement('img', { src: '/img/persons/people_collage.jpg', alt: 'Collage berühmter Astronauten' }),
         _react2['default'].createElement(
           'p',
           { className: 'summary-img-text' },
