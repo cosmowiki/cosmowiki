@@ -70,7 +70,7 @@ export class Astronaut {
       flag: raw.itemcolor,
       agency: raw.itemparent,
       agencyUrl: raw.itemparenturl,
-      numberOfMissions: raw.itemid,
+      numberOfMissions: raw.itemmissions,
       missions: raw.itemdescription,
       born: [raw.itemdateday, raw.itemdatemonth, raw.itemdateyear].filter(v => v).join('.'),
       died: [raw.itemdate2day, raw.itemdate2month, raw.itemdate2year].filter(v => v).join('.'),
