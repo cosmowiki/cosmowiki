@@ -253,8 +253,8 @@
         "itemname": "Amenemhet",
         "itemurl": "https://de.wikipedia.org/wiki/Amenemhet_(107._Dynastie)",
         "itemdescription": "erfand die Wasseruhr",
-        "itemdateyear": "-1555",
-        "itemdate2year": "-1505",
+        "itemdateyear": "1555 v. Chr.",
+        "itemdate2year": "1505 v. Chr.",
         "itemcountry": "Ägypten",
         "itemproperty": "Adliger",
         "itemtype": 0
@@ -338,8 +338,8 @@
         "itemname": "Aristarchos von Samos",
         "itemurl": "https://de.wikipedia.org/wiki/Aristarchos_von_Samos",
         "itemdescription": "Hypothese eines heliozentrischen Weltbildes",
-        "itemdateyear": "-310",
-        "itemdate2year": "-230",
+        "itemdateyear": "310 v. Chr.",
+        "itemdate2year": "230 v. Chr.",
         "itemcountry": "Griechenland",
         "itemproperty": "Astronom, Mathematiker",
         "itemtype": 1
@@ -348,8 +348,8 @@
         "itemname": "Aristoteles",
         "itemurl": "https://de.wikipedia.org/wiki/Aristoteles",
         "itemdescription": "Beschreibung eines geozentrischen Weltbildes, Entdeckung des Prinzips der camera obscura",
-        "itemdateyear": "-384",
-        "itemdate2year": "-322",
+        "itemdateyear": "384 v. Chr.",
+        "itemdate2year": "322 v. Chr.",
         "itemcountry": "Griechenland",
         "itemproperty": "Philosoph",
         "itemtype": 0
@@ -522,7 +522,7 @@
         "itemdate2year": "1953",
         "itemdate2month": "10",
         "itemdate2day": "13",
-        "itemcountry": "UdSSR / Russland",
+        "itemcountry": "SU / RUS",
         "itemproperty": "Astronom",
         "itemtype": 1
     },
@@ -1255,7 +1255,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Isaak_Chalatnikow",
         "itemname2": "Isaak",
         "itemdescription": "Arbeit über Singularitäten in Einsteins Allgemeiner Relativitätstheorie",
-        "itemcountry": "UdSSR / Russland",
+        "itemcountry": "SU / RUS",
         "itemproperty": "Physiker",
         "itemtype": 0
     },
@@ -1710,8 +1710,8 @@
         "itemname": "Eratosthenes",
         "itemurl": "https://de.wikipedia.org/wiki/Eratosthenes",
         "itemdescription": "belegte Kreisgestalt der Erde, Berechnung des Erdumfang",
-        "itemdateyear": "-273",
-        "itemdate2year": "-194",
+        "itemdateyear": "273 v. Chr.",
+        "itemdate2year": "194 v. Chr.",
         "itemcountry": "Griechenland, Ägypten",
         "itemproperty": "Mathematiker, Astronom, Philosoph",
         "itemtype": 1
@@ -1890,7 +1890,7 @@
         "itemdescription": "stellte Gleichung über die Entwicklung eines expandierenden Universum auf (Friedmann-Gleichung)",
         "itemdateyear": "1888",
         "itemdate2year": "1925",
-        "itemcountry": "UdSSR / Russland",
+        "itemcountry": "SU / RUS",
         "itemproperty": "Physiker, Geophysiker, Mathematiker",
         "itemtype": 1
     },
@@ -1923,7 +1923,7 @@
         "itemdescription": "Postulat der Kosmischen Hintergrundstrahlung+(mit Ralph Alpher und Robert Herman), (α-β-γ-)Theorie zur Elementenentstehung (mit Ralph Alpher)",
         "itemdateyear": "1904",
         "itemdate2year": "1968",
-        "itemcountry": "UdSSR / Russland/USA",
+        "itemcountry": "SU / RUS/USA",
         "itemproperty": "Physiker",
         "itemtype": 1
     },
@@ -2018,7 +2018,7 @@
         "itemdescription": "initiierte und leitete den Aufbau der Petersburger Universitäts-Sternwarte, beobachtete u.a. die Bewegung der Jupitermonde, die Umlaufbahnen von Doppelsternen und mehr",
         "itemdateyear": "1848",
         "itemdate2year": "1937",
-        "itemcountry": "UdSSR / Russland",
+        "itemcountry": "SU / RUS",
         "itemproperty": "Astronom",
         "itemtype": 1
     },
@@ -2542,8 +2542,8 @@
         "itemname": "Hipparchos",
         "itemurl": "https://de.wikipedia.org/wiki/Hipparchos_%28A%29",
         "itemdescription": "erstellte Katalog mit über 800 Sternen (135 v. Chr.)",
-        "itemdateyear": "-190",
-        "itemdate2year": "-120",
+        "itemdateyear": "190 v. Chr.",
+        "itemdate2year": "120 v. Chr.",
         "itemcountry": "Griechenland",
         "itemproperty": "Astronom, Mathematiker, Geograf",
         "itemtype": 1
@@ -2975,7 +2975,7 @@
         "itemdescription": "entdeckte 4 Asteroiden",
         "itemdateyear": "1840",
         "itemdate2year": "1919",
-        "itemcountry": "UdSSR / Russland",
+        "itemcountry": "SU / RUS",
         "itemproperty": "Astronom",
         "itemtype": 1
     },
@@ -3051,7 +3051,7 @@
         "itemdescription": "entdeckte im Mondkrater Alphonsus vorübergehende Leuchterscheinungen (Lunar Transient Phenomena)",
         "itemdateyear": "1908",
         "itemdate2year": "1983",
-        "itemcountry": "UdSSR / Russland",
+        "itemcountry": "SU / RUS",
         "itemproperty": "Astronom",
         "itemtype": 1
     },
@@ -3171,7 +3171,7 @@
         "itemdate2year": "1968",
         "itemdate2month": "04",
         "itemdate2day": "01",
-        "itemcountry": "UdSSR / Russland",
+        "itemcountry": "SU / RUS",
         "itemproperty": "Physiker",
         "itemtype": 1
     },
@@ -3301,7 +3301,7 @@
         "itemdate2year": "1985",
         "itemdate2month": "10",
         "itemdate2day": "29",
-        "itemcountry": "UdSSR / Russland",
+        "itemcountry": "SU / RUS",
         "itemproperty": "Physiker",
         "itemtype": 1
     },
@@ -3310,7 +3310,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Andrei_Dmitrijewitsch_Linde",
         "itemname2": "Andrej",
         "itemdescription": "Begründer der Inflationstheorie",
-        "itemcountry": "UdSSR / Russland/USA",
+        "itemcountry": "SU / RUS/USA",
         "itemproperty": "Kosmologe",
         "itemtype": 1
     },
@@ -3557,7 +3557,7 @@
         "itemname": "Meitner",
         "itemurl": "https://de.wikipedia.org/wiki/Lise_Meitner",
         "itemname2": "Lise",
-        "itemcountry": "Österreich, Deutschland, Schweden",
+        "itemcountry": "Österreich",
         "itemproperty": "Physiker",
         "itemtype": 1
     },
@@ -3761,7 +3761,7 @@
         "itemdescription": "entdeckte insgesamt 74 Asteroiden, darunter (951) Gaspra, war Entdecker oder Co-Entdecker mehrerer periodisch wiederkehrender Kometen, darunter 25D/Neujmin, 28P/Neujmin, 42P/Neujmin, 57P/du Toit-Neujmin-Delporte und 58P/Jackson-Neujmin",
         "itemdateyear": "1886",
         "itemdate2year": "1946",
-        "itemcountry": "UdSSR / Russland",
+        "itemcountry": "SU / RUS",
         "itemproperty": "Astronom",
         "itemtype": 1
     },
@@ -3827,7 +3827,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Igor_Dmitrijewitsch_Nowikow",
         "itemname2": "Igor Dmitrijewitsch",
         "itemdescription": "formulierte das Nowikow-Selbstübereinstimmungsprinzip",
-        "itemcountry": "UdSSR / Russland",
+        "itemcountry": "SU / RUS",
         "itemproperty": "Astrophysiker, Kosmologe",
         "itemtype": 1
     },
@@ -4249,8 +4249,8 @@
         "itemname": "Ptolemaios III.",
         "itemurl": "https://de.wikipedia.org/wiki/Ptolemaios_III.",
         "itemdescription": "Einführung eines Schalttages alle vier Jahre (238 v. Chr.)",
-        "itemdateyear": "-246",
-        "itemdate2year": "-222",
+        "itemdateyear": "246 v. Chr.",
+        "itemdate2year": "222 v. Chr.",
         "itemcountry": "Ägypten",
         "itemproperty": "Adliger",
         "itemtype": 0
@@ -4424,7 +4424,7 @@
         "itemname": "Sacharow",
         "itemurl": "https://de.wikipedia.org/wiki/Andrei_Dmitrijewitsch_Sacharow",
         "itemname2": "Andrei Dmitrijewitsch",
-        "itemcountry": "UdSSR / Russland",
+        "itemcountry": "SU / RUS",
         "itemproperty": "Physiker",
         "itemtype": 1
     },
@@ -4677,7 +4677,7 @@
         "itemname2": "Jakow Borissowitsch",
         "itemdateyear": "1914",
         "itemdate2year": "1987",
-        "itemcountry": "UdSSR / Russland",
+        "itemcountry": "SU / RUS",
         "itemproperty": "Physiker",
         "itemtype": 1
     },
@@ -4863,7 +4863,7 @@
         "itemdate2year": "1864",
         "itemdate2month": "11",
         "itemdate2day": "23",
-        "itemcountry": "Estland, UdSSR / Russland",
+        "itemcountry": "Estland, SU / RUS",
         "itemproperty": "Astronom, Geodät",
         "itemtype": 1
     },
@@ -4908,7 +4908,7 @@
         "itemdate2year": "1905",
         "itemdate2month": "04",
         "itemdate2day": "16",
-        "itemcountry": "UdSSR / Russland",
+        "itemcountry": "SU / RUS",
         "itemproperty": "Astronom",
         "itemtype": 1
     },
@@ -5021,7 +5021,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Ludmila_Iwanowna_Tschernych",
         "itemname2": "Ludmila Iwanowna",
         "itemdescription": "entdeckte 268 Asteroiden",
-        "itemcountry": "UdSSR / Russland",
+        "itemcountry": "SU / RUS",
         "itemproperty": "Astronom",
         "itemtype": 1
     },
@@ -5031,7 +5031,7 @@
         "itemname2": "Nikolai Stepanowitsch",
         "itemdescription": "entdeckte mehrere Kometen und 537 Asteroiden",
         "itemdate2year": "2004",
-        "itemcountry": "UdSSR / Russland",
+        "itemcountry": "SU / RUS",
         "itemproperty": "Astronom",
         "itemtype": 1
     },
@@ -5137,7 +5137,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Alexander_N._Vyssotsky",
         "itemname2": "Alexander N.",
         "itemdate2year": "1973",
-        "itemcountry": "UdSSR / Russland",
+        "itemcountry": "SU / RUS",
         "itemproperty": "Astronom",
         "itemtype": 1
     },
@@ -5340,7 +5340,7 @@
         "itemname2": "Konstantin",
         "itemdescription": "stellte Raketengrundgleichung auf",
         "itemdate2year": "1937",
-        "itemcountry": "UdSSR / Russland",
+        "itemcountry": "SU / RUS",
         "itemproperty": "Physiker",
         "itemtype": 1
     },
