@@ -58,6 +58,3 @@ export class Scientist {
   }
 
 }
-Scientist.ASTRONOMER = 1;
-Scientist.ASTRONAUT = 2;
-Scientist.ASTRONOMER_AND_ASTRONAUT = 3;

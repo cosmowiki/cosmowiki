@@ -89,14 +89,6 @@ const ScientistsComponent = ({groupedScientists}) => {
             noch heute gebräuliche systematische Benennung von Sternen ein.
           </li>
           <li>
-            Am <em>Apollo-Programm</em> und der ersten bemannten Mondlandung arbeiteten
-            insgesamt etwa 400.000 Menschen mit.
-          </li>
-          <li>
-            Der Kosmonaut Waleri Bykowski hält mit vier Tagen und 23 Stunden den
-            Rekord für den längsten Soloflug der Raumfahrtgeschichte.
-          </li>
-          <li>
             <em>Brain May</em>, der Gitarrist der britischen Rockband Queen ist
             seit 2007 auch promovierter Astrophysiker.
           </li>
@@ -107,28 +99,28 @@ const ScientistsComponent = ({groupedScientists}) => {
           <div id="sort" className="people pure-u-1-2 left">
             <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
             <div id="sortArea">
-              <form id="sortPeople" className="sort-form">
-                <select name="sortPeople" defaultValue="sortPeopleNameUp">
-                  <option value="sortPeopleNameUp">Name &uarr;</option>
-                  <option value="sortPeopleNameDown">Name &darr;</option>
-                  <option value="sortPeopleBornUp">Geburtsdatum &uarr;</option>// not important yet, too much items w/o dates
-                  <option value="sortPeopleBornDown">Geburtsdatum &darr;</option>// not important yet, too much items w/o dates
+              <form id="sortScientists" className="sort-form">
+                <select name="sortScientists" defaultValue="sortScientistsNameUp">
+                  <option value="sortScientistsNameUp">Name &uarr;</option>
+                  <option value="sortScientistsNameDown">Name &darr;</option>
+                  <option value="sortScientistsBornUp">Geburtsdatum &uarr;</option>// not important yet, too much items w/o dates
+                  <option value="sortScientistsBornDown">Geburtsdatum &darr;</option>// not important yet, too much items w/o dates
                 </select>
               </form>
             </div>
           </div>
-          <div id="filter" className="people pure-u-1-2 right">
+          <div id="filter" className="scientists pure-u-1-2 right">
             <a href="#" className="toggle-filter" name="toggle-filter">Filtern</a>
             <div id="filterArea">
-              <form id="filterPeopleByProfession" className="filter-form">
+              <form id="filterScientistsByProfession" className="filter-form">
                 <label>Beruf:</label>
-                <select name="peopleProfessions" defaultValue="showAllProfessions">
+                <select name="scientistsProfessions" defaultValue="showAllProfessions">
                   <option value="showAllProfessions">alle</option>
                 </select>
               </form>
-              <form id="filterPeopleByCountry" className="filter-form">
+              <form id="filterScientistsByCountry" className="filter-form">
                 <label>Land:</label>
-                <select name="peopleCountries" defaultValue="showAllCountries">
+                <select name="scientistsCountries" defaultValue="showAllCountries">
                   <option value="showAllCountries">alle</option>
                 </select>
               </form>
@@ -174,27 +166,27 @@ const ScientistGroupComponent = ({group}) => {
 const ScientistComponent = ({scientist}) => {
   return (
             <div className="scientist-row data-row pure-u-1">
-              <div className="scientist-name pure-u-1 pure-u-md-1 pure-u-lg-7-24">
-                <div className="pure-u-1">
-                  <p><a href={scientist.link}>{scientist.name}</a></p>
-                </div>
+              <div className="scientist-name pure-u-1 pure-u-md-1-2 pure-u-lg-8-24">
+                <p><a href={scientist.link}>{scientist.name}</a></p>
               </div>
-              <div className="scientist-data1 pure-u-1 pure-u-md-1-3 pure-u-lg-5-24">
-                <div className="scientist-born pure-u-1-2 pure-u-md-1-2 center">
-                  <p>{scientist.born ? `∗ ${scientist.born}` : ''}</p>
-                </div>
-                <div className="scientist-died pure-u-1-2 pure-u-md-1-2 center">
-                  <p>{scientist.died ? `† ${scientist.died}`: ''}</p>
-                </div>
-              </div>
-              <div className="scientist-data2 pure-u-1 pure-u-md-2-3 pure-u-lg-1-2">
-                <div className="scientist-country pure-u-1-2 pure-u-md-1-2 center">
-                  <p>{scientist.country ? scientist.country : ''}</p>
-                </div>
-                <div className="scientist-profession pure-u-1-2 pure-u-md-1-2 center">
+              <div className="scientist-info pure-u-1 pure-u-md-1-3 pure-u-lg-11-24">
+                <div className="scientist-profession pure-u-1 pure-u-lg-2-3">
                   <p>{scientist.profession ? scientist.profession : ''}</p>
                 </div>
+                <div className="scientist-country pure-u-1 pure-u-lg-1-3">
+                  <p>{scientist.country}</p>
+                </div>
               </div>
+              {scientist.born ?
+              <div className="scientist-life pure-u-1 pure-u-md-1-6 pure-u-lg-5-24">
+                <div className="scientist-born pure-u-md-1 pure-u-lg-1-2">
+                  <p>∗ {scientist.born}</p>
+                </div>
+                <div className="scientist-died pure-u-md-1 pure-u-lg-1-2">
+                  {scientist.died ? <p>† {scientist.died}</p> : ''}
+                </div>
+              </div>
+              : ''}
             </div>
   );
 };
