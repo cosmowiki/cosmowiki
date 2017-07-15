@@ -15,7 +15,7 @@ const SolarSystemComponent = () => {
       <Summary>
         <p className="summary-text">
           In klaren Nächten sehen wir manchmal <em>Merkur</em>, <em>Venus</em>, <em>Mars</em>, <em>Jupiter</em> oder <em>Saturn</em> einzeln
-          oder zu mehreren am Himmel entlangziehen. Sie scheinen sich dabei etwa
+          oder zu mehreren am Himmel stehen. Sie scheinen sich im Lauf der Zeit dabei etwa
           auf einer Linie zu bewegen. Im Altertum wurden sie deshalb als <em>Wandelsterne</em> bezeichnet.
           Es ist diese Linie, oder besser gesagt Ebene, die den Wissenschaftlern
           den wohl wichtigsten Hinweis auf die mögliche Entstehungsgeschichte unseres Heimatsystems lieferte.
