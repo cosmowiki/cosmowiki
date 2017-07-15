@@ -46,7 +46,7 @@ const SpacewalksComponent = ({spacewalks}) => {
           </p>
         </div>
         <p className="summary-text">
-          Wirklich freie Aufenthalte im All ohne Sicherungsleine wurden mit der <em>Manned Maneuvering Unit (MMU)</em>,
+          Wirklich freie Aufenthalte im All ohne Sicherungsleine wurden mit der <em>Manned Maneuvering Unit</em> (MMU),
           einer Art Tornister mit kleinen Schubdüsen möglich. Sie werden nur in
           Ausnahmefällen durchgeführt. Der aktuelle Nachfolger der MMU ist
           das <em>SAFER</em>-System (Simplified Aid for EVA Rescue).
@@ -100,7 +100,7 @@ const SpacewalksComponent = ({spacewalks}) => {
             <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
             <div id="sortArea">
               <form id="sortSpacewalks" className="sort-form">
-                
+
                 <select name="sortSpacewalks" defaultValue="sortSpacewalksStartUp">
                   <option value="sortSpacewalksStartUp">Beginn &uarr;</option>
                   <option value="sortSpacewalksStartDown">Beginn &darr;</option>

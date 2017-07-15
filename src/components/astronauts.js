@@ -19,14 +19,22 @@ const AstronautsComponent = ({groupedAstronauts}) => {
       </div>
       <Summary>
         <p className="summary-text">
-          Nach der Definition der Fédération Aéronautique Internationale (FAI) beginnt
+          Nach der Definition der <em>Fédération Aéronautique Internationale</em> (FAI) beginnt
           der Weltraum in einer Höhe von 100 km über der Erdoberfläche.
-          Die International Association of Space Explorers (ASE) und alle internationalen
+          Die <em>International Association of Space Explorers</em> (ASE) und alle internationalen
           Raumfahrtagenturen erkennen nur solche Personen als Raumfahrer an, welche
           bei einem Raumflug mindestens eine Erdumkreisung absolviert haben.
           Somit ist ein Mensch ein Raumfahrer, wenn er die 100-Kilometer-Marke überflogen
           und dabei mindestens einmal die Erde umkreist hat.
         </p>
+        <div className="summary-img size-xl">
+          <a href="/img/astronauts/Jeffrey_Williams_inside_the_Soyuz_TMA-8_spacecraft_lg.jpg" title="Jeffrey Williams in der Sojus-TMA-8-Kapsel - Großansicht">
+            <img src="/img/astronauts/Jeffrey_Williams_inside_the_Soyuz_TMA-8_spacecraft_sm.jpg" alt="Jeffrey Williams in der Sojus-TMA-8-Kapsel" />
+          </a>
+          <p className="summary-img-text">
+            Jeffrey Williams in der Sojus-TMA-8-Kapsel
+          </p>
+        </div>
         <p className="summary-text">
           Doch auch über diese Merkmale hinaus sind Raumfahrer außergewöhnliche Menschen.
           Enorme körperliche und psychische Belastbarkeit sind nur zwei von vielen
@@ -35,25 +43,24 @@ const AstronautsComponent = ({groupedAstronauts}) => {
           als Ingenieur, in Naturwissenschaften oder Medizin sind in ihren Lebensläufen
           zu finden - oft sogar mehrere davon.
         </p>
-        <div className="summary-img float-right size-lg">
-          <a href="/img/persons/claudius_ptolemaeus_lg.jpg" title="Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch - Großansicht">
-            <img src="/img/persons/claudius_ptolemaeus_sm.jpg" alt="Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch" />
-          </a>
+        <p className="summary-text">
+          Bemannte Raumfahrt zu betreiben, war ein prestigeträchtiges Unterfangen
+          für eine Nation. Zwischen den beiden Supermächten <em>UdSSR</em> und <em>USA</em> entbrannte
+          ein Wettstreit darum, welches Land den ersten Menschen ins All schicken würde.
+        </p>
+        <div className="summary-img size-lg">
+          <img src="/img/astronauts/Gagarin_in_Sweden.jpg" alt="Juri Gagarin" />
           <p className="summary-img-text">
-            Claudius Ptolemäus
+            Juri Gagarin
           </p>
         </div>
         <p className="summary-text">
-          Bemannte Raumfahrt zu betreiben, war ein prestigeträchtiges Unterfangen
-          für eine Nation. Zwischen den beiden Supermächten UdSSR und USA entbrannte
-          ein Wettstreit darum, welches Land den ersten Menschen ins All schicken würde.
-        </p>
-        <p className="summary-text">
-          Juri Gagarin umrundete dann am 12. April 1961 mit Wostok 1 als erster Mensch
+          <em>Juri Gagarin</em> umrundete dann am 12. April 1961 mit <em>Wostok 1</em> als erster Mensch
           die Erde - die Sowjets hatten dieses Rennen also gewonnen. Der erste US-Amerikaner
-          im All war dann Alan Shepard. Am 5. Mai 1961 absolvierte er mit  Mercury-Redstone 3 einen
-          suborbitalen Flug mit einer Gipfelhöhe von 187 Kilometern. Den ersten
-          amerikanischen Orbitalflug führte John Glenn am 20. Februar 1962 mit Mercury-Atlas 6 durch.
+          im All war dann <em>Alan Shepard</em>. Am 5. Mai 1961 absolvierte er
+          mit <em>Mercury-Redstone 3</em> einen suborbitalen Flug mit einer Gipfelhöhe
+          von 187 Kilometern. Den ersten amerikanischen Orbitalflug führte <em>John Glenn</em> am
+          20. Februar 1962 mit <em>Mercury-Atlas 6</em> durch.
         </p>
         <p className="summary-text">
           In den ersten Jahren der bemannten Raumfahrt wurden Astronauten, oder
@@ -61,52 +68,65 @@ const AstronautsComponent = ({groupedAstronauts}) => {
           ausschließlich aus dem Militär rekrutiert. Langjährige Erfahrungen als
           Kampf- und Testpiloten und hohes technisches Verständnis qualifizierten
           nur eine kleine Elite für den vielleicht interessantesten Beruf überhaupt.
+          Diese Auserwählten besetzten die ersten Raumstationen und blieben bis zu
+          mehreren hundert Tagen im All.
         </p>
+        <div className="summary-img size-sm">
+          <a href="/img/astronauts/20G_centrifuge_lg.jpg" title="20-g-Zentrifuge im Ames Research Center der NASA - Großansicht">
+            <img src="/img/astronauts/20G_centrifuge_sm.jpg" alt="20-g-Zentrifuge im Ames Research Center der NASA" />
+          </a>
+          <p className="summary-img-text">
+            20-g-Zentrifuge, Ames Research Center, NASA
+          </p>
+        </div>
         <p className="summary-text">
-          Das Training der Astronauten ist legendär. Allein um die G-Kräfte während eines
-          Raumfluges zu überstehen, sind ausgiebige Belastungsproben in der Zentrifuge nötig.
+          Das Training der Astronauten ist legendär. Allein um die <em>G-Kräfte</em> während eines
+          Raumfluges zu überstehen, sind ausgiebige Belastungsproben in der <em>Zentrifuge</em> nötig.
           So traten bei den Starts der US-amerikanischen Space-Shuttles etwa 3 bis 4 g auf,
           die Kosmonauten in den Sojus-Kapseln sind hingegen bei der Landung bis zu 10 g ausgesetzt.
         </p>
+        <div className="summary-img">
+          <a href="/img/astronauts/NASA_Apollo_17_Lunar_Roving_Vehicle_lg.jpg" title="Lunar Roving Vehicle - Großansicht">
+            <img src="/img/astronauts/NASA_Apollo_17_Lunar_Roving_Vehicle_sm.jpg" alt="Lunar Roving Vehicle" />
+          </a>
+          <p className="summary-img-text">
+            Lunar Roving Vehicle
+          </p>
+        </div>
         <p className="summary-text">
           Die Schwerelosigkeit im All stellt wiederum völlig andere Anforderungen
           an den menschlichen Körper, besonders an den Gleichgewichtssinn. Muskel- und
           Knochenschwund sind die bekanntesten Nebenwirkungen eines Aufenthaltes im Weltall.
-          Für die Raumfahrer auf Langzeitmissionen bedeutet dies, ein intensives
+          Für die Raumfahrer auf <em>Langzeitmissionen</em> bedeutet dies, ein intensives
           Sportprogramm abzuleisten - jeden Tag.
         </p>
-        <p className="summary-text">
-          In der Ausbildung der Astronauten ist das physische Training hingegen
-          nur ein kleiner Teil. Für eine Mission zur ISS werden die heutigen Raumfahrer
-          insgesamt zwei Jahre lang geschult. Um überhaupt ausgewählt zu werden, bedarf
-          es einer Menge Durchhaltevermögen und auch Glück. Unter vielen Tausenden
-          Bewerbern schafft es am Ende nur eine Handvoll.
-        </p>
-        <div className="summary-img width-75 center">
-          <img src="/img/persons/people_collage.jpg" alt="Collage berühmter Astronauten" />
-          <p className="summary-img-text">
-            Aristoteles, A. Shepard, I. Newton, E. Halley, V. Tereschkowa, A. Einstein, N. Kopernikus, J. Gagarin, G. Galilei, S. Hawking, T. Brahe, N. Armstrong
-          </p>
-        </div>
-        <p className="summary-text">
-          Mit ihren Leistungen schreiben sie sich in die Geschichtsbücher ein.
-          Auszeichnungen werden ihnen verliehen und sie stiften neue Preise. Den
-          Größten zu Ehren errichten wir Monumente und benennen Universitäten und
-          Mondkrater nach diesen Giganten der Wissenschaft.
-        </p>
-        <div className="summary-img float-left size-lg">
-          <a href="/img/persons/Challenger_STS51L_crew_lg.jpg" title="Crew der Challenger STS-51-L - Großansicht">
-            <img src="/img/persons/Challenger_STS51L_crew_sm.jpg" alt="Crew der Challenger STS-51-L" />
+        <div className="summary-img">
+          <a href="/img/astronauts/Concept_Mars_colony_lg.jpg" title="Besiedlung des Mars - Großansicht">
+            <img src="/img/astronauts/Concept_Mars_colony_sm.jpg" alt="Besiedlung des Mars" />
           </a>
           <p className="summary-img-text">
-            Crew der Challenger STS-51-L
+            Besiedlung des Mars
           </p>
         </div>
         <p className="summary-text">
-          Aus dem Fall eines Apfels ein Naturgesetz abzuleiten oder mit akribischer
-          Denkarbeit die Beziehungen zwischen Raum und Zeit zu formulieren, bringt
-          die Menschheit ebenso voran wie die Entwicklung neuer Materialien oder
-          die Reparatur eines Solarpanels an einer Raumstation.
+          In der Ausbildung der Astronauten ist das physische Training hingegen
+          nur ein kleiner Teil. Für eine Mission zur <em>Internationalen Raumstation</em> ISS
+          werden die heutigen Raumfahrer insgesamt zwei Jahre lang geschult. Um
+          überhaupt ausgewählt zu werden, bedarf es einer Menge Durchhaltevermögen
+          und auch Glück. Unter vielen Tausenden Bewerbern schafft es am Ende nur eine Handvoll.
+        </p>
+        <p className="summary-text">
+          Die Aufgaben der künftigen Raumfahrer werden sich Schritt für Schritt erweitern.
+          1972 setzte <em>Eugene Cernan</em> als bislang letzter Mensch seinen Fuß auf einen
+          anderen Himmelskörper, den <em>Mond</em>. Die Verlagerung künstlicher Habitate von
+          Raumstationen auf die Oberfläche von Mond und <em>Mars</em> (oder darunter) wird
+          der nächste Meilenstein der bemannten Raumfahrt sein.
+        </p>
+        <p className="summary-text">
+          Auch wenn aus Kostengründen künftig mehr und mehr Roboter im All zum Einsatz
+          kommen, wird unser Pioniergeist immer wieder Menschen dort hoch schicken.
+          Die Raumfahrer der Zukunft werden nicht nur fremde Planeten erkunden. Sie
+          werden Botschafter der Menschheit in den Weiten des Weltalls sein.
         </p>
         <h4>Wussten Sie schon?</h4>
         <ul className="summary-list">
