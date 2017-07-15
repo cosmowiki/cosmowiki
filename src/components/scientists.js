@@ -20,11 +20,11 @@ const ScientistsComponent = ({groupedScientists}) => {
       <Summary>
         <p className="summary-text">
           Das Universum ist voller Rätsel, und Millionen Wissenschaftler bemühen sich
-          Tag für Tag, all die mysteriösen Zusammenhänge zu entschlüsseln. Um die
-          Natur des Größten und Kleinsten zu beschreiben stellen sie Hypothesen und
-          Theorien auf, führen Beweise und leiten aus ihren Beobachtungen Gesetze ab.
+          Tag für Tag, all die mysteriösen Zusammenhänge zu entschlüsseln, um die
+          Natur des Größten und Kleinsten zu beschreiben. Sie stellen Hypothesen
+          und Theorien auf, führen Beweise und leiten aus ihren Beobachtungen Naturgesetze ab.
         </p>
-        <div className="summary-img size-xl">
+        <div className="summary-img size-xl float-left">
           <a href="/img/scientists/Kopernikus_Nikolaus_lg.jpg" title="Nikolaus Kopernikus - Großansicht">
             <img src="/img/scientists/Kopernikus_Nikolaus_sm.jpg" alt="Nikolaus Kopernikus" />
           </a>
@@ -44,24 +44,29 @@ const ScientistsComponent = ({groupedScientists}) => {
           Es hat Jahrtausende gedauert, das heutige Weltbild zu formen. Jeder Lehrer
           gab seine Sicht der Dinge an seine Schüler weiter, und manchmal fand sich
           unter ihnen einer, der zweifelte, der überprüfte, der wagemutig genug war,
-          überhaupt neue Fragen zu stellen. Doch er starb vielleicht, bevor er selbst
-          eine Antwort darauf fand. Eines Tages jedoch, in einem anderen Teil unserer
-          Welt, las ein junger Neugieriger die alten Texte und hatte die zündende Idee!
+          überhaupt neue Fragen zu stellen. Doch er starb, bevor er selbst eine
+          Antwort finden konnte. Viele Jahre später aber las ein junger Neugieriger
+          in einem anderen Teil der Welt die alten Texte und hatte die eine
+          zündende Idee! Bahnbrechende Antworten, interessante Theorien und vereinfachende
+          Gleichungen sind das Ziel der Forschung.
         </p>
         <p className="summary-text">
-          Immer wieder gelang es mutigen Forschern alte Dogmen und Irrwege zu widerlegen
-          und ihre Überzeugungen gegen Widerstände zu verteidigen. Die Erde ist keine
-          Scheibe, aber wie sieht sie aus? Sie ist auch nicht das Zentrum des
+          Immer wieder gelang es mutigen Philosophen, Mathematikern, Astronomen,
+          Kosmologen und Physikern alte Dogmen und Irrwege zu widerlegen und ihre
+          Überzeugungen gegen Widerstände zu verteidigen. Die Erde ist keine Scheibe,
+          aber wie sieht sie wirklich aus? Sie ist auch nicht das Zentrum des
           Universums, sondern sie bewegt sich um die Sonne herum. Warum spüren wir
           nichts von dieser Bewegung? Ist die Sonne dann das Zentrum? Wenn ja, wovon?
-          Was liegt hinter den Sternen? Jede Antwort wirft neue Fragen auf, und
-          manch neue Frage weckt Zweifel an alten Gewissheiten.
+          Was liegt hinter den Sternen? Jede Antwort wirft zugleich neue Fragen auf, und
+          manch neue Idee weckt Zweifel an alten Lehrsätzen.
         </p>
         <p className="summary-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-          ea commodo consequat.
+          Beobachten und experimentieren, protokollieren und berechnen, schlussfolgern
+          und beweisen - systematisch und gewissenhaft arbeitet der Forscher an
+          seinem Schreibtisch, im Labor oder im Observatorium, und doch ist es oft
+          der Zufall, die Inspiration, der göttliche Funke oder der fallende Apfel,
+          der die Lösung bringt. Doch schließlich schwebt über allen Antworten die große,
+          zentrale Frage nach dem Ursprung der Welt, nach der Schöpfung selbst, nach Gott.
         </p>
         <div className="summary-img">
           <a href="/img/scientists/2_lg.jpg" title="Bildbeschreibung - Großansicht">
@@ -72,16 +77,25 @@ const ScientistsComponent = ({groupedScientists}) => {
           </p>
         </div>
         <p className="summary-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-          ea commodo consequat.
+          In der Antike versuchte Eratosthenes den Umfang der Erde zu berechnen,
+          während die Ägypter den Schalttag alle vier Jahre einführten. Zu dieser
+          Zeit bestand der äußerst genaue Maya-Kalender vermutlich schon seit 3000 Jahren,
+          und in China war etwa 900 Jahre zuvor eine Sonnenfinsternis aufgezeichnet
+          worden. Hatte der indische Gelehrte Aryabhata 500 n. Chr. schon eine Idee
+          von einem heliozentrischen Weltbild - 1000 Jahre vor der <em>Kopernikanischen Wende</em>?
         </p>
         <p className="summary-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-          ea commodo consequat.
+          Wie Perlen auf einer Schnur reihen sich die Erkenntnisse über unsere Welt
+          in der Geschichte der Wissenschaft aneinander. Als um 1500 im arabischen
+          Raum der Islam und die Astronomie gleichermaßen ihre höchste Blüte
+          erreichen, explodiert auch in Europa nach den Jahrhunderten des finsteren
+          Mittelalters der Forscherdrang. Von Regiomontanus, Kopernikus und Tycho Brahe
+          zieht sich eine Linie über Johann Bayer, Johannes Keler und Galileo Galilei
+          bis hin zu Christiaan Huygens, Giovanni Domenico Cassini und Isaac Newton.
+        </p>
+        <p className="summary-text">
+          Heute erstellen Superrechner komplexe Modelle von
+          Schwarzen Löchern und Gravitationswellen oder vom Urknall.
         </p>
         <h4>Wussten Sie schon?</h4>
         <ul className="summary-list">
