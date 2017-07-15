@@ -206,7 +206,7 @@ div.summary-img.width-25,
 
 .summary-text:nth-of-type(odd) {text-indent: 1em;}
 .summary-text:first-of-type::first-letter {font-size: 1.25em; font-weight: 900;}
-.summary-text em {font-style: normal; background: #eee;}
+/*.summary-text em {font-style: normal; background: #eee;}*/
 
 .summary-list {list-style: disc inside;}
 .summary-list li {margin: .5em 0;}
