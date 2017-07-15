@@ -38443,77 +38443,65 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Naturwissenschaftler und Raumfahrer – seit Jahrtausenden entdecken und erobern sie neue Welten und Räume, sie erkennen Zusammenhänge und Naturgesetze. Als Pioniere erweitern sie ständig den Horizont der Erkenntnis.'
+        'Das Universum ist voller Rätsel, und Millionen Wissenschaftler bemühen sich Tag für Tag, all die mysteriösen Zusammenhänge zu entschlüsseln. Um die Natur des Größten und Kleinsten zu beschreiben stellen sie Hypothesen und Theorien auf, führen Beweise und leiten aus ihren Beobachtungen Gesetze ab.'
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'summary-img float-right size-lg' },
+        { className: 'summary-img size-xl' },
         _react2['default'].createElement(
           'a',
-          { href: '/img/persons/claudius_ptolemaeus_lg.jpg', title: 'Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch - Großansicht' },
-          _react2['default'].createElement('img', { src: '/img/persons/claudius_ptolemaeus_sm.jpg', alt: 'Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch' })
+          { href: '/img/scientists/Kopernikus_Nikolaus_lg.jpg', title: 'Nikolaus Kopernikus - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/scientists/Kopernikus_Nikolaus_sm.jpg', alt: 'Nikolaus Kopernikus' })
         ),
         _react2['default'].createElement(
           'p',
           { className: 'summary-img-text' },
-          'Claudius Ptolemäus'
+          'Nikolaus Kopernikus'
         )
       ),
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Aus Schamanen und Priestern wurden Astrologen und Philosophen, später dann Quantenphysiker und Bordingenieure. Ihr steter Drang nach der Erforschung des Unbekannten sind bis heute der Motor der Wissenschaft.'
+        'Ist die Erde nun eine Scheibe oder nicht? Warum bewegt sich die Sonne um die Erde, oder ist es umgekehrt? Was hält die Sterne am Himmelszelt und warum bewegen sich einige, ander hingegen nicht? Oder bewegen sie sich vielleicht doch? Woher kommt das Mondlicht und wer oder was verbirgt sich hinter seinem Gesicht? Erscheint ein Stern um die gleiche Zeit wieder am Nachthimmel wie im Vorjahr? Ist es denn ein Stern? Was ist ein Stern?'
       ),
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Sie stellen die entscheidenden Fragen und suchen nach deren Antworten. Sie sind aufmerksame Beobachter ihrer Umwelt und werten Daten aus. Neugier, Beharrlichkeit und Ausdauer sind Grundvoraussetzungen, um als Forscher nicht nur erfolgreich zu sein, sondern auch Misserfolge und Rückschläge zu verkraften.'
+        'Es hat Jahrtausende gedauert, das heutige Weltbild zu formen. Jeder Lehrer gab seine Sicht der Dinge an seine Schüler weiter, und manchmal fand sich unter ihnen einer, der zweifelte, der überprüfte, der wagemutig genug war, überhaupt neue Fragen zu stellen. Doch er starb vielleicht, bevor er selbst eine Antwort darauf fand. Eines Tages jedoch, in einem anderen Teil unserer Welt, las ein junger Neugieriger die alten Texte und hatte die zündende Idee!'
       ),
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Neben den großen Namen gibt es viele unbekannte Akademiker und Amateure, die im kleinen und großen Maßstab Bedeutendes geleistet haben. Wie Zahnräder in einem Getriebe greifen ihre Arbeiten ineinander und treiben die Wissenschaft voran in Richtung Zukunft.'
+        'Immer wieder gelang es mutigen Forschern alte Dogmen und Irrwege zu widerlegen und ihre Überzeugungen gegen Widerstände zu verteidigen. Die Erde ist keine Scheibe, aber wie sieht sie aus? Sie ist auch nicht das Zentrum des Universums, sondern sie bewegt sich um die Sonne herum. Warum spüren wir nichts von dieser Bewegung? Ist die Sonne dann das Zentrum? Wenn ja, wovon? Was liegt hinter den Sternen? Jede Antwort wirft neue Fragen auf, und manch neue Frage weckt Zweifel an alten Gewissheiten.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'summary-img width-75 center' },
-        _react2['default'].createElement('img', { src: '/img/persons/people_collage.jpg', alt: 'Collage berühmter Personen' }),
-        _react2['default'].createElement(
-          'p',
-          { className: 'summary-img-text' },
-          'Aristoteles, A. Shepard, I. Newton, E. Halley, V. Tereschkowa, A. Einstein, N. Kopernikus, J. Gagarin, G. Galilei, S. Hawking, T. Brahe, N. Armstrong'
-        )
-      ),
-      _react2['default'].createElement(
-        'p',
-        { className: 'summary-text' },
-        'Mit ihren Leistungen schreiben sie sich in die Geschichtsbücher ein. Auszeichnungen werden ihnen verliehen und sie stiften neue Preise. Den Größten zu Ehren errichten wir Monumente und benennen Universitäten und Mondkrater nach diesen Giganten der Wissenschaft.'
-      ),
-      _react2['default'].createElement(
-        'div',
-        { className: 'summary-img float-left size-lg' },
+        { className: 'summary-img' },
         _react2['default'].createElement(
           'a',
-          { href: '/img/persons/Challenger_STS51L_crew_lg.jpg', title: 'Crew der Challenger STS-51-L - Großansicht' },
-          _react2['default'].createElement('img', { src: '/img/persons/Challenger_STS51L_crew_sm.jpg', alt: 'Crew der Challenger STS-51-L' })
+          { href: '/img/scientists/2_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/scientists/2_sm.jpg', alt: 'Bildbeschreibung' })
         ),
         _react2['default'].createElement(
           'p',
           { className: 'summary-img-text' },
-          'Crew der Challenger STS-51-L'
+          'Bildbeschreibung'
         )
       ),
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Aus dem Fall eines Apfels ein Naturgesetz abzuleiten oder mit akribischer Denkarbeit die Beziehungen zwischen Raum und Zeit zu formulieren, bringt die Menschheit ebenso voran wie die Entwicklung neuer Materialien oder die Reparatur eines Solarpanels an einer Raumstation.'
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
       ),
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Institute und Raumfahrtorganisationen auf der ganzen Welt ringen um Nachwuchs. Die nächsten Ingenieure und Wissenschaftler der MINT-Disziplinen werden die Antriebe der Zukunft entwickeln und die Geheimnisse der Dunklen Materie entschlüsseln, die Raumfahrer von morgen werden auf dem Mars landen.',
-        _react2['default'].createElement('br', null),
-        'Jeder Einzelne zählt!'
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
       ),
       _react2['default'].createElement(
         'h4',
@@ -38526,23 +38514,7 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
         _react2['default'].createElement(
           'li',
           null,
-          'Der deutsche Astronom ',
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Johann Bayer'
-          ),
-          ' (1572 - 1625) führte eine noch heute gebräuliche systematische Benennung von Sternen ein.'
-        ),
-        _react2['default'].createElement(
-          'li',
-          null,
-          _react2['default'].createElement(
-            'em',
-            null,
-            'Brain May'
-          ),
-          ', der Gitarrist der britischen Rockband Queen ist seit 2007 auch promovierter Astrophysiker.'
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
         )
       )
     ),
@@ -38910,7 +38882,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           null,
           'Saturn'
         ),
-        ' einzeln oder zu mehreren am Himmel entlangziehen. Sie scheinen sich dabei etwa auf einer Linie zu bewegen. Im Altertum wurden sie deshalb als ',
+        ' einzeln oder zu mehreren am Himmel stehen. Sie scheinen sich im Lauf der Zeit dabei etwa auf einer Linie zu bewegen. Im Altertum wurden sie deshalb als ',
         _react2['default'].createElement(
           'em',
           null,
