@@ -11,14 +11,41 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
       </div>
       <Summary>
         <p className="summary-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-          ea commodo consequat.
+          Der Mensch selbst ist nicht für ein Überleben im All geschaffen. Nach
+          den ersten bemannten Raumflügen der 1960er Jahre wollten wir auch für
+          mehr als ein paar Tage Astronauten in den Weltraum schicken. In der Zeit
+          des Kalten Krieges sollten sie aus einer Umlaufbahn heraus vor allem die
+          Fototechnik zum Zweck der Spionage bedienen. Später dann wurden dauerhaft
+          bemannte Raumstationen nötig, um Experimente in nahezu schwereloser Umgebung
+          durchzuführen.
         </p>
         <div className="summary-img">
           <a href="/img/stars/1_lg.jpg" title="Bildbeschreibung - Großansicht">
             <img src="/img/stars/1_sm.jpg" alt="Bildbeschreibung" />
+          </a>
+          <p className="summary-img-text">
+            Bildbeschreibung
+          </p>
+        </div>
+        <p className="summary-text">
+          Man nehme also Luft zum Atmen, ausreichend Trinkwasser und getrocknete
+          oder auf anderem Weg konservierte Nahrung und Treibstoff, umhülle alles
+          mit einigen Millimetern Aluminiumblech und einer Isolierung gegen die
+          Kälte des Alls und transportiere dieses Gebilde mit einer Rakete auf
+          in einen Orbit um die Erde. Fertig.
+        </p>
+        <p className="summary-text">
+          Ganz so einfach ist es natürlich nicht, denn Raumstationen zählen zu
+          den teuersten Raumfahrtprojekten überhaupt. Sie sind so aufwändig, dass
+          sich zur Zeit 14 Nationen mit ihren Raumfahrtagenturen an der Internationalen
+          Raumstation ISS beteiligen. Die ersten Raumstationen waren für eine
+          Besatzung von zwei bis drei Raumfahrern ausgelegt, während sich auf der
+          ISS bis zu sechs Astronauten gleichzeitig aufhalten können, vorausgesetzt,
+          es sind zwei Sojus-Raumschiffe für eine eventuelle Evakuierung angedockt.
+        </p>
+        <div className="summary-img">
+          <a href="/img/stars/2_lg.jpg" title="Bildbeschreibung - Großansicht">
+            <img src="/img/stars/2_sm.jpg" alt="Bildbeschreibung" />
           </a>
           <p className="summary-img-text">
             Bildbeschreibung
