@@ -38462,41 +38462,93 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Ist die Erde nun eine Scheibe oder nicht? Warum bewegt sich die Sonne um die Erde, oder ist es umgekehrt? Was hält die Sterne am Himmelszelt und warum bewegen sich einige, ander hingegen nicht? Oder bewegen sie sich vielleicht doch? Woher kommt das Mondlicht und wer oder was verbirgt sich hinter seinem Gesicht? Erscheint ein Stern um die gleiche Zeit wieder am Nachthimmel wie im Vorjahr? Ist es denn ein Stern? Was ist ein Stern?'
+        'Ist die Erde nun eine Scheibe oder nicht? Warum bewegt sich die Sonne um die Erde, oder ist es umgekehrt? Was hält die Sterne am Himmelszelt und warum bewegen sich einige, andere hingegen nicht? Oder bewegen sie sich vielleicht doch? Woher kommt das Mondlicht und wer oder was verbirgt sich hinter seinem Gesicht? Erscheint ein Stern um die gleiche Zeit wieder am Nachthimmel wie im Vorjahr? Ist es denn ein Stern? Was ist ein Stern?'
       ),
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Es hat Jahrtausende gedauert, das heutige Weltbild zu formen. Jeder Lehrer gab seine Sicht der Dinge an seine Schüler weiter, und manchmal fand sich unter ihnen einer, der zweifelte, der überprüfte, der wagemutig genug war, überhaupt neue Fragen zu stellen. Doch er starb, bevor er selbst eine Antwort finden konnte. Viele Jahre später aber las ein junger Neugieriger in einem anderen Teil der Welt die alten Texte und hatte die eine zündende Idee! Bahnbrechende Antworten, interessante Theorien und vereinfachende Gleichungen sind das Ziel der Forschung.'
-      ),
-      _react2['default'].createElement(
-        'p',
-        { className: 'summary-text' },
-        'Immer wieder gelang es mutigen Philosophen, Mathematikern, Astronomen, Kosmologen und Physikern alte Dogmen und Irrwege zu widerlegen und ihre Überzeugungen gegen Widerstände zu verteidigen. Die Erde ist keine Scheibe, aber wie sieht sie wirklich aus? Sie ist auch nicht das Zentrum des Universums, sondern sie bewegt sich um die Sonne herum. Warum spüren wir nichts von dieser Bewegung? Ist die Sonne dann das Zentrum? Wenn ja, wovon? Was liegt hinter den Sternen? Jede Antwort wirft zugleich neue Fragen auf, und manch neue Idee weckt Zweifel an alten Lehrsätzen.'
-      ),
-      _react2['default'].createElement(
-        'p',
-        { className: 'summary-text' },
-        'Beobachten und experimentieren, protokollieren und berechnen, schlussfolgern und beweisen - systematisch und gewissenhaft arbeitet der Forscher an seinem Schreibtisch, im Labor oder im Observatorium, und doch ist es oft der Zufall, die Inspiration, der göttliche Funke oder der fallende Apfel, der die Lösung bringt. Doch schließlich schwebt über allen Antworten die große, zentrale Frage nach dem Ursprung der Welt, nach der Schöpfung selbst, nach Gott.'
+        'Es hat Jahrtausende gedauert, das heutige Weltbild zu formen. Generation für Generation geben Lehrer ihre Ansichten an die Schüler weiter, und manchmal findet sich unter ihnen einer, der zweifelt, der überprüft, der wagemutig genug ist, überhaupt neue Fragen zu stellen. Von der richtigen Frage geht der Weg zur Erkenntnis über eine zündende Idee hin zu interessanten Theorien und vereinfachenden Gleichungen.'
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'summary-img' },
+        { className: 'summary-img float-right size-xs' },
         _react2['default'].createElement(
           'a',
-          { href: '/img/scientists/2_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-          _react2['default'].createElement('img', { src: '/img/scientists/2_sm.jpg', alt: 'Bildbeschreibung' })
+          { href: '/img/scientists/E_mc_2_IMG_0859.jpg', title: 'E = mc² - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/scientists/E_mc_2_IMG_0859.jpg', alt: 'E = mc²' })
         ),
         _react2['default'].createElement(
           'p',
           { className: 'summary-img-text' },
-          'Bildbeschreibung'
+          'E = mc², Albert Einstein, 1905'
         )
       ),
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'In der Antike versuchte Eratosthenes den Umfang der Erde zu berechnen, während die Ägypter den Schalttag alle vier Jahre einführten. Zu dieser Zeit bestand der äußerst genaue Maya-Kalender vermutlich schon seit 3000 Jahren, und in China war etwa 900 Jahre zuvor eine Sonnenfinsternis aufgezeichnet worden. Hatte der indische Gelehrte Aryabhata 500 n. Chr. schon eine Idee von einem heliozentrischen Weltbild - 1000 Jahre vor der ',
+        'Immer wieder gelang es mutigen Philosophen, Mathematikern, Astronomen, Kosmologen und Physikern alte Dogmen und Irrwege zu widerlegen und ihre Überzeugungen gegen Widerstände zu verteidigen. Die Erde ist keine Scheibe, aber wie sieht sie wirklich aus? Sie ist auch nicht das Zentrum des Universums, sondern sie bewegt sich um die Sonne herum. Warum spüren wir nichts von dieser Bewegung? Ist die Sonne tatsächlich das Zentrum von allem? Was liegt hinter den Sternen? Jede Antwort wirft zugleich neue Fragen auf, und manch neue Idee weckt Zweifel an alten Lehrsätzen.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img size-xl float-left' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/scientists/Lunar_eclipse_al-Biruni_lg.jpg', title: 'Theorie der Mondfinsternisse, al-Biruni - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/scientists/Lunar_eclipse_al-Biruni_sm.jpg', alt: 'Theorie der Mondfinsternisse, al-Biruni' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Theorie der Mondfinsternisse, al-Biruni'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Beobachten und experimentieren, protokollieren und berechnen, schlussfolgern und beweisen - systematisch und gewissenhaft arbeiten Forscher an Schreibtischen, im Labor oder im Observatorium, und doch ist es oft der Zufall, die Inspiration oder der fallende Apfel, der die Lösung bringt. So arbeitet sich die Wissenschaft vor bis an die Grenzen des Begreifbaren, und über all den kleinen und großen Rätseln steht am Ende die eine zentrale Frage nach dem Ursprung der Welt, nach der Schöpfung selbst, nach dem Göttlichen in uns. 42 ;-)'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img float-right size-lg' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/scientists/Max_Planck_lg.jpg', title: 'Max Planck - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/scientists/Max_Planck_sm.jpg', alt: 'Max Planck' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Max Planck'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'In der Antike versuchte ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Eratosthenes'
+        ),
+        ' den Umfang der Erde zu berechnen, während die Ägypter den ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Schalttag'
+        ),
+        ' alle vier Jahre einführten. Zu dieser Zeit bestand der äußerst genaue ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Maya-Kalender'
+        ),
+        ' vermutlich schon seit 3000 Jahren, und in China war etwa 900 Jahre zuvor eine Sonnenfinsternis aufgezeichnet worden. Hatte der indische Gelehrte ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Aryabhata'
+        ),
+        ' schon 500 n. Chr. eine Idee von einem heliozentrischen Weltbild - 1000 Jahre vor der ',
         _react2['default'].createElement(
           'em',
           null,
@@ -38505,14 +38557,196 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
         '?'
       ),
       _react2['default'].createElement(
-        'p',
-        { className: 'summary-text' },
-        'Wie Perlen auf einer Schnur reihen sich die Erkenntnisse über unsere Welt in der Geschichte der Wissenschaft aneinander. Als um 1500 im arabischen Raum der Islam und die Astronomie gleichermaßen ihre höchste Blüte erreichen, explodiert auch in Europa nach den Jahrhunderten des finsteren Mittelalters der Forscherdrang. Von Regiomontanus, Kopernikus und Tycho Brahe zieht sich eine Linie über Johann Bayer, Johannes Keler und Galileo Galilei bis hin zu Christiaan Huygens, Giovanni Domenico Cassini und Isaac Newton.'
+        'div',
+        { className: 'summary-img float-left size-lg' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/scientists/Stephen_Hawking.StarChild.jpg', title: 'Stephen Hawking - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/scientists/Stephen_Hawking.StarChild.jpg', alt: 'Stephen Hawking' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Stephen Hawking'
+        )
       ),
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Heute erstellen Superrechner komplexe Modelle von Schwarzen Löchern und Gravitationswellen oder vom Urknall.'
+        'Wie Perlen auf einer Schnur reihen sich die Erkenntnisse über unsere Welt aneinander. Als um 1500 im arabischen Raum der Islam und die Astronomie gleichermaßen ihre höchste Blüte erreichen, explodiert auch in Europa nach den Jahrhunderten des finsteren Mittelalters der Forscherdrang. Von ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Regiomontanus'
+        ),
+        ', ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Nikolaus Kopernikus'
+        ),
+        ' und ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Tycho Brahe'
+        ),
+        ' zieht sich eine Linie über ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Johann Bayer'
+        ),
+        ', ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Johannes Kepler'
+        ),
+        ' und ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Galileo Galilei'
+        ),
+        ' bis hin zu ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Christiaan Huygens'
+        ),
+        ', ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Giovanni Domenico Cassini'
+        ),
+        ' und ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Isaac Newton'
+        ),
+        '.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img float-right size-lg' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/scientists/Columbia_Supercomputer_-_NASA_Advanced_Supercomputing_Facility_lg.jpg', title: 'Columbia Supercomputer - NASA - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/scientists/Columbia_Supercomputer_-_NASA_Advanced_Supercomputing_Facility_sm.jpg', alt: 'Columbia Supercomputer - NASA' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Columbia Supercomputer - NASA'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Nach den klassischen Astronomen versuchten ab dem 18. Jahrhundert die Chemiker und Physiker die Welt zunehmend präziser zu erklären. Die Berechnung der endlichen ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Lichtgeschwindigkeit'
+        ),
+        ', die Erforschung von Gasen und Verbrennungsvorgängen und Erkenntnisse über die geologische Entwicklung unseres Planeten waren Meilensteine, die zu Eckpfeilern der heutigen Naturwissenschaften wurden.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Heute - nach der der Begründung der ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Quantenphysik'
+        ),
+        ' durch ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Max Planck'
+        ),
+        ' und ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Albert Einsteins Relativitätstheorie'
+        ),
+        ', der Entdeckung der ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Radioaktivität'
+        ),
+        ' durch ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Marie Curie'
+        ),
+        ', der Erklärung der ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Kernspaltung'
+        ),
+        ' durch ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Otto Hahn'
+        ),
+        ' und ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Lise Meitner'
+        ),
+        ' und der Darstellung stellarer ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Fusionsprozesse'
+        ),
+        ' durch ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Hans Bethe'
+        ),
+        ' und ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Carl Friedrich von Weizsäcker'
+        ),
+        ', erstellen Superrechner komplexe Modelle von ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Schwarzen Löchern'
+        ),
+        ' und',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Gravitationswellen'
+        ),
+        ' oder vom ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Urknall'
+        ),
+        '.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Die Aufgaben der kommenden Wissenschaftler werden immer komplexer, ihre Arbeiten immer spezialisierter. Der Mensch wird vielleicht niemals alles verstehen, möglicherweise ist unser Gehirn dazu nicht im Stande. Doch er wird es immer versuchen.'
       ),
       _react2['default'].createElement(
         'h4',
@@ -38525,7 +38759,97 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
         _react2['default'].createElement(
           'li',
           null,
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+          'Schon die Sumerer und Babylonier teilten eine Stunde ihrem ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Sexagesimalsystem'
+          ),
+          ' folgend in 60 Minuten auf.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Der arabische Gelehrte Abu Ali al-Hasan ibn al-Heithem stellte bereits um 1000 n. Chr. Vergrößerungslinsen aus Glas her.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Galileo Galilei'
+          ),
+          ' entdeckte 1610 die ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Saturnringe'
+          ),
+          ', deutete sie aber als "Henkel". Erst ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Christiaan Huygens'
+          ),
+          ' beschrieb sie 1655 korrekt.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Am 13. März 1781 entdeckte ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Wilhelm Herschel'
+          ),
+          ' den ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Uranus'
+          ),
+          '. Bis dahin waren nur Merkur, Venus, Mars, Jupiter und Saturn bekannt.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Das ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Periodensystem der Elemente'
+          ),
+          ' wurde 1869 fast zeitgleich von ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Dmitri Mendelejew'
+          ),
+          ' sowie von ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Lothar Meyer'
+          ),
+          ' entwickelt.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Der Astrophysiker Jerry R. Ehman zeichnete am 15. August 1977 im Rahmen eines ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'SETI'
+          ),
+          '-Projekts das ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Wow!-Signal'
+          ),
+          ' auf.'
         )
       )
     ),
@@ -39952,7 +40276,7 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        'Der Mensch selbst ist nicht für ein Überleben im All geschaffen. Nach den ersten bemannten Raumflügen der 1960er Jahre wollten wir auch für mehr als ein paar Tage Astronauten in den Weltraum schicken. In der Zeit des Kalten Krieges sollten sie aus einer Umlaufbahn heraus vor allem die Fototechnik zum Zweck der Spionage bedienen. Später dann wurden dauerhaft bemannte Raumstationen nötig, um Experimente in nahezu schwereloser Umgebung durchzuführen.'
       ),
       _react2['default'].createElement(
         'div',
@@ -39961,6 +40285,30 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
           'a',
           { href: '/img/stars/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
           _react2['default'].createElement('img', { src: '/img/stars/1_sm.jpg', alt: 'Bildbeschreibung' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Bildbeschreibung'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Man nehme also Luft zum Atmen, ausreichend Trinkwasser und getrocknete oder auf anderem Weg konservierte Nahrung und Treibstoff, umhülle alles mit einigen Millimetern Aluminiumblech und einer Isolierung gegen die Kälte des Alls und transportiere dieses Gebilde mit einer Rakete auf in einen Orbit um die Erde. Fertig.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Ganz so einfach ist es natürlich nicht, denn Raumstationen zählen zu den teuersten Raumfahrtprojekten überhaupt. Sie sind so aufwändig, dass sich zur Zeit 14 Nationen mit ihren Raumfahrtagenturen an der Internationalen Raumstation ISS beteiligen. Die ersten Raumstationen waren für eine Besatzung von zwei bis drei Raumfahrern ausgelegt, während sich auf der ISS bis zu sechs Astronauten gleichzeitig aufhalten können, vorausgesetzt, es sind zwei Sojus-Raumschiffe für eine eventuelle Evakuierung angedockt.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/stars/2_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/stars/2_sm.jpg', alt: 'Bildbeschreibung' })
         ),
         _react2['default'].createElement(
           'p',
