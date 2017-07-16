@@ -84,7 +84,7 @@
 - [x] create site
 - [x] style it
 - [x] make it responsive
-- create summary
+- [x] create summary
 - complete data for launch
 - save images locally
 - open the href={item.name} in vcard
