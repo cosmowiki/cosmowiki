@@ -23,8 +23,8 @@ const MissionsComponent = ({missions}) => {
           Zwecken eingesetzt worden sein.
         </p>
         <div className="summary-img size-lg">
-          <a href="/img/missions/tsiolkovsky.jpg" title="Konstantin Eduardowitsch Ziolkowski - Großansicht">
-            <img src="/img/missions/tsiolkovsky.jpg" alt="Konstantin Eduardowitsch Ziolkowski" />
+          <a href="/img/missions/tsiolkovsky.jpg" title="Konstantin Ziolkowski - Großansicht">
+            <img src="/img/missions/tsiolkovsky.jpg" alt="Konstantin Ziolkowski" />
           </a>
           <p className="summary-img-text">
             Konstantin Ziolkowski
