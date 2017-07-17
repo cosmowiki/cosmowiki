@@ -34445,15 +34445,15 @@ var AstronautsComponent = function AstronautsComponent(_ref) {
         _react2['default'].createElement(
           'em',
           null,
-          'Fédération Aéronautique Internationale'
+          'Fédération Aéronautique Internationale FAI'
         ),
-        ' (FAI) beginnt der Weltraum in einer Höhe von 100 km über der Erdoberfläche. Die ',
+        ' beginnt der Weltraum in einer Höhe von 100 km über der Erdoberfläche. Die ',
         _react2['default'].createElement(
           'em',
           null,
-          'International Association of Space Explorers'
+          'International Association of Space Explorers ASE'
         ),
-        ' (ASE) und alle internationalen Raumfahrtagenturen erkennen nur solche Personen als Raumfahrer an, welche bei einem Raumflug mindestens eine Erdumkreisung absolviert haben. Somit ist ein Mensch ein Raumfahrer, wenn er die 100-Kilometer-Marke überflogen und dabei mindestens einmal die Erde umkreist hat.'
+        ' und alle internationalen Raumfahrtagenturen erkennen nur solche Personen als Raumfahrer an, welche bei einem Raumflug mindestens eine Erdumkreisung absolviert haben. Somit ist ein Mensch ein Raumfahrer, wenn er die 100-Kilometer-Marke überflogen und dabei mindestens einmal die Erde umkreist hat.'
       ),
       _react2['default'].createElement(
         'div',
@@ -34594,13 +34594,7 @@ var AstronautsComponent = function AstronautsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Die Schwerelosigkeit im All stellt wiederum völlig andere Anforderungen an den menschlichen Körper, besonders an den Gleichgewichtssinn. Muskel- und Knochenschwund sind die bekanntesten Nebenwirkungen eines Aufenthaltes im Weltall. Für die Raumfahrer auf ',
-        _react2['default'].createElement(
-          'em',
-          null,
-          'Langzeitmissionen'
-        ),
-        ' bedeutet dies, ein intensives Sportprogramm abzuleisten - jeden Tag.'
+        'Die Schwerelosigkeit im All stellt wiederum völlig andere Anforderungen an den menschlichen Körper, besonders an den Gleichgewichtssinn. Muskel- und Knochenschwund sind die bekanntesten Nebenwirkungen eines Aufenthaltes im Weltall. Für die Raumfahrer auf Langzeitmissionen bedeutet dies, ein intensives Sportprogramm abzuleisten - jeden Tag.'
       ),
       _react2['default'].createElement(
         'div',
@@ -34623,9 +34617,9 @@ var AstronautsComponent = function AstronautsComponent(_ref) {
         _react2['default'].createElement(
           'em',
           null,
-          'Internationalen Raumstation'
+          'Internationalen Raumstation ISS'
         ),
-        ' ISS werden die heutigen Raumfahrer insgesamt zwei Jahre lang geschult. Um überhaupt ausgewählt zu werden, bedarf es einer Menge Durchhaltevermögen und auch Glück. Unter vielen Tausenden Bewerbern schafft es am Ende nur eine Handvoll.'
+        ' werden die heutigen Raumfahrer insgesamt zwei Jahre lang geschult. Um überhaupt ausgewählt zu werden, bedarf es einer Menge Durchhaltevermögen und auch Glück. Unter vielen Tausenden Bewerbern schafft es am Ende nur eine Handvoll.'
       ),
       _react2['default'].createElement(
         'p',
@@ -34642,13 +34636,13 @@ var AstronautsComponent = function AstronautsComponent(_ref) {
           null,
           'Mond'
         ),
-        '. Die Verlagerung künstlicher Habitate von Raumstationen auf die Oberfläche von Mond und ',
+        '. Die Verlagerung künstlicher Habitate von Raumstationen auf (oder unter) die Oberfläche von Mond und ',
         _react2['default'].createElement(
           'em',
           null,
           'Mars'
         ),
-        ' (oder darunter) wird der nächste Meilenstein der bemannten Raumfahrt sein.'
+        ' wird der nächste Meilenstein der bemannten Raumfahrt sein.'
       ),
       _react2['default'].createElement(
         'p',
@@ -34666,27 +34660,84 @@ var AstronautsComponent = function AstronautsComponent(_ref) {
         _react2['default'].createElement(
           'li',
           null,
-          'German Titow war bei seinem Flug mit Wostok 2 am 6. August 1961 erst 25 Jahre alt. Er ist damit der jüngste Raumfahrer bisher.'
+          _react2['default'].createElement(
+            'em',
+            null,
+            'German Titow'
+          ),
+          ' war bei seinem Flug mit ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Wostok 2'
+          ),
+          ' am 6. August 1961 erst 25 Jahre alt. Er ist damit der jüngste Raumfahrer bisher.'
         ),
         _react2['default'].createElement(
           'li',
           null,
-          'John Glenn ist bislang der älteste Raumfahrer. Bei seinem Start mit STS-95 am 29. Oktober 1998 war er bereits 77 jahre alt.'
+          _react2['default'].createElement(
+            'em',
+            null,
+            'John Glenn'
+          ),
+          ' ist bislang der älteste Raumfahrer. Bei seinem Start mit',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'STS-95'
+          ),
+          ' am 29. Oktober 1998 war er bereits 77 jahre alt.'
         ),
         _react2['default'].createElement(
           'li',
           null,
-          'Der Kontrukteur Konstantin Feoktistow und der Arzt Boris Jegorow an Bord von Woschod 1 waren die ersten Zivilisten im All.'
+          'Der Kontrukteur ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Konstantin Feoktistow'
+          ),
+          ' und der Arzt ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Boris Jegorow'
+          ),
+          ' an Bord von ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Woschod 1'
+          ),
+          ' waren die ersten Zivilisten im All.'
         ),
         _react2['default'].createElement(
           'li',
           null,
-          'Der Kosmonaut Waleri Bykowski hält mit vier Tagen und 23 Stunden den Rekord für den längsten Soloflug der Raumfahrtgeschichte.'
+          'Der Kosmonaut ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Waleri Bykowski'
+          ),
+          ' hält mit vier Tagen und 23 Stunden den Rekord für den längsten Soloflug der Raumfahrtgeschichte.'
         ),
         _react2['default'].createElement(
           'li',
           null,
-          'Yang Liwei startete am 15. Oktober 2003 als erster chinesischer Raumfahrer, auch Taikonaut genannt, mit Shenzhou 5 ins All.'
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Yang Liwei'
+          ),
+          ' startete am 15. Oktober 2003 als erster chinesischer Raumfahrer, auch Taikonaut genannt, mit ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Shenzhou 5'
+          ),
+          ' ins All.'
         )
       )
     ),
@@ -35282,7 +35333,13 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
           null,
           'Großen Bären'
         ),
-        '. Auch die Kassiopeia, das "Himmels-W" zieht nach Norden hin geöffnet am Firmament entlang.'
+        '. Auch die ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Kassiopeia'
+        ),
+        ', das "Himmels-W" zieht nach Norden hin geöffnet am Firmament entlang.'
       ),
       _react2['default'].createElement(
         'div',
@@ -35426,9 +35483,9 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
         _react2['default'].createElement(
           'em',
           null,
-          'Internationale Astronomische Union'
+          'Internationale Astronomische Union IAU'
         ),
-        ' (IAU) auf ihrer ersten Generalversammlung 88 Sternbilder fest, deren Grenzen sechs Jahre später exakt definiert wurden.'
+        ' auf ihrer ersten Generalversammlung 88 Sternbilder fest, deren Grenzen sechs Jahre später exakt definiert wurden.'
       ),
       _react2['default'].createElement(
         'p',
@@ -35437,9 +35494,9 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
         _react2['default'].createElement(
           'em',
           null,
-          'Europäischen Südsternwarte'
+          'Europäischen Südsternwarte ESO'
         ),
-        ' (ESO) ziert. Der Große Wagen prangt gemeinsam mit dem Polarstern auf der Flagge des US-Bundesstaates Alaska.'
+        ' ziert. Der Große Wagen prangt gemeinsam mit dem Polarstern auf der Flagge des US-Bundesstaates Alaska.'
       ),
       _react2['default'].createElement(
         'h4',
@@ -35793,13 +35850,9 @@ var ChronicleComponent = (function (_React$Component) {
           _react2['default'].createElement(
             'p',
             { className: 'summary-text' },
-            'Seit Jahrtausenden blicken wir in den Himmel und versuchen zu ergründen, was uns umgibt und woher wir kommen. Auch die frühen Menschen stellten sich wohl schon die größte aller Fragen:',
+            'Seit Jahrtausenden blicken wir in den Himmel und versuchen zu ergründen, was uns umgibt und woher wir kommen. Auch die frühen Menschen stellten sich wohl schon die große Frage:',
             _react2['default'].createElement('br', null),
-            _react2['default'].createElement(
-              'em',
-              null,
-              'Was ist dort draußen?'
-            )
+            'Was ist dort draußen?'
           ),
           _react2['default'].createElement(
             'div',
@@ -35897,24 +35950,7 @@ var ChronicleComponent = (function (_React$Component) {
           _react2['default'].createElement(
             'p',
             { className: 'summary-text' },
-            'Doch der Mensch wollte den Himmel nicht nur betrachten, er wollte ihn bereisen. Erkenntnisse in der Physik und Chemie ermöglichten das Reisen per ',
-            _react2['default'].createElement(
-              'em',
-              null,
-              'Ballon'
-            ),
-            ', später im ',
-            _react2['default'].createElement(
-              'em',
-              null,
-              'Flugzeug'
-            ),
-            '. Wir wollten mehr - ',
-            _react2['default'].createElement(
-              'em',
-              null,
-              'schneller, höher, weiter!'
-            )
+            'Doch der Mensch wollte den Himmel nicht nur betrachten, er wollte ihn bereisen. Erkenntnisse in der Physik und Chemie ermöglichten das Reisen per Ballon, später im Flugzeug. Wir wollten mehr - schneller, höher, weiter!'
           ),
           _react2['default'].createElement(
             'p',
@@ -35927,7 +35963,19 @@ var ChronicleComponent = (function (_React$Component) {
             _react2['default'].createElement(
               'em',
               null,
-              'Urknall, Relativität und Quantenmechanik'
+              'Urknall'
+            ),
+            ', ',
+            _react2['default'].createElement(
+              'em',
+              null,
+              'Raumzeit'
+            ),
+            ' und ',
+            _react2['default'].createElement(
+              'em',
+              null,
+              'Quantenmechanik'
             ),
             ', die Kräfte im ',
             _react2['default'].createElement(
@@ -35971,7 +36019,13 @@ var ChronicleComponent = (function (_React$Component) {
             _react2['default'].createElement(
               'li',
               null,
-              'Chinesische Astonomen beschrieben bereits 613 v. Chr. den 2300 Jahre später nach Edmund Halley benannten Kometen.'
+              'Chinesische Astonomen beschrieben bereits 613 v. Chr. den 2300 Jahre später nach ',
+              _react2['default'].createElement(
+                'em',
+                null,
+                'Edmund Halley'
+              ),
+              ' benannten Kometen.'
             ),
             _react2['default'].createElement(
               'li',
@@ -36625,7 +36679,13 @@ var MissionsComponent = function MissionsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Die Geschichte der Raumfahrt begann schon lange vor Sputnik 1 und auch lange vor den großen Pionieren der Raketentechnik, ',
+        'Die Geschichte der Raumfahrt begann schon lange vor ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Sputnik 1'
+        ),
+        ' und auch lange vor den großen Pionieren der Raketentechnik, ',
         _react2['default'].createElement(
           'em',
           null,
@@ -36699,19 +36759,7 @@ var MissionsComponent = function MissionsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Kurz vor dem Ende des Zweiten Weltkrieges begann der Wettstreit zwischen der ',
-        _react2['default'].createElement(
-          'em',
-          null,
-          'UdSSR'
-        ),
-        ' und den ',
-        _react2['default'].createElement(
-          'em',
-          null,
-          'USA'
-        ),
-        ' um die Vorreiterrolle in der Raketentechnik. Wer rekrutiert die besten deutschen Wissenschaftler und Techniker, wer erbeutet die detailiertesten Baupläne und die wertvollsten Bauteile? Wer schafft es als Erster, mit diesen Ressourcen eine funktionsfähige Rakete zu starten? Die deutsche A4 stellt also in diesen beiden Ländern die Grundlage für die Raketentechnik und die Raumfahrt dar.'
+        'Kurz vor dem Ende des Zweiten Weltkrieges begann der Wettstreit zwischen der UdSSR und den USA um die Vorreiterrolle in der Raketentechnik. Wer rekrutiert die besten deutschen Wissenschaftler und Techniker, wer erbeutet die detailiertesten Baupläne und die wertvollsten Bauteile? Wer schafft es als Erster, mit diesen Ressourcen eine funktionsfähige Rakete zu starten? Die deutsche A4 stellt also in diesen beiden Ländern die Grundlage für die Raketentechnik und die Raumfahrt dar.'
       ),
       _react2['default'].createElement(
         'p',
@@ -36780,25 +36828,7 @@ var MissionsComponent = function MissionsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Im Lauf der Jahrzehnte wuchs die Zahl der Raumfahrtnationen um Länder wie ',
-        _react2['default'].createElement(
-          'em',
-          null,
-          'Japan'
-        ),
-        ', ',
-        _react2['default'].createElement(
-          'em',
-          null,
-          'Indien'
-        ),
-        ' und ',
-        _react2['default'].createElement(
-          'em',
-          null,
-          'China'
-        ),
-        ' an. Europa bündelte seine Fähigkeiten und Finanzen in der ',
+        'Im Lauf der Jahrzehnte wuchs die Zahl der Raumfahrtnationen um Länder wie Japan, Indien und China an. Europa bündelte seine Fähigkeiten und Finanzen in der ',
         _react2['default'].createElement(
           'em',
           null,
@@ -36956,9 +36986,9 @@ var MissionsComponent = function MissionsComponent(_ref) {
           _react2['default'].createElement(
             'em',
             null,
-            'Fédération Aéronautique Internationale'
+            'Fédération Aéronautique Internationale FAI'
           ),
-          ' (FAI) definiert die Grenze zum Weltraum bei 100 km Höhe über dem Meeresspiegel.'
+          ' definiert die Grenze zum Weltraum bei 100 km Höhe über dem Meeresspiegel.'
         ),
         _react2['default'].createElement(
           'li',
@@ -38037,7 +38067,7 @@ var PeopleComponent = function PeopleComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Aus dem Fall eines Apfels ein Naturgesetz abzuleiten oder mit akribischer Denkarbeit die Beziehungen zwischen Raum und Zeit zu formulieren, bringt die Menschheit ebenso voran wie die Entwicklung neuer Materialien oder die Reparatur eines Solarpanels an einer Raumstation.'
+        'Aus dem Fall eines Apfels ein Naturgesetz abzuleiten oder mit akribischer Denkarbeit die Relativität von Raum und Zeit zu formulieren, bringt die Menschheit ebenso voran wie die Entwicklung neuer Materialien oder die Reparatur eines Solarpanels an einer Raumstation.'
       ),
       _react2['default'].createElement(
         'p',
@@ -38079,7 +38109,13 @@ var PeopleComponent = function PeopleComponent(_ref) {
         _react2['default'].createElement(
           'li',
           null,
-          'Der Kosmonaut Waleri Bykowski hält mit vier Tagen und 23 Stunden den Rekord für den längsten Soloflug der Raumfahrtgeschichte.'
+          'Der Kosmonaut ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Waleri Bykowski'
+          ),
+          ' hält mit vier Tagen und 23 Stunden den Rekord für den längsten Soloflug der Raumfahrtgeschichte.'
         ),
         _react2['default'].createElement(
           'li',
@@ -38474,8 +38510,8 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
         { className: 'summary-img float-right size-xs' },
         _react2['default'].createElement(
           'a',
-          { href: '/img/scientists/E_mc_2_IMG_0859.jpg', title: 'E = mc² - Großansicht' },
-          _react2['default'].createElement('img', { src: '/img/scientists/E_mc_2_IMG_0859.jpg', alt: 'E = mc²' })
+          { href: '/img/scientists/E_mc_2_IMG_0859.jpg', title: 'E = mc², Albert Einstein, 1905 - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/scientists/E_mc_2_IMG_0859.jpg', alt: 'E = mc², Albert Einstein, 1905' })
         ),
         _react2['default'].createElement(
           'p',
@@ -38729,7 +38765,7 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
           null,
           'Schwarzen Löchern'
         ),
-        ' und',
+        ' und ',
         _react2['default'].createElement(
           'em',
           null,
@@ -38770,7 +38806,13 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
         _react2['default'].createElement(
           'li',
           null,
-          'Der arabische Gelehrte Abu Ali al-Hasan ibn al-Heithem stellte bereits um 1000 n. Chr. Vergrößerungslinsen aus Glas her.'
+          'Der arabische Gelehrte Abu Ali al-Hasan ibn ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'al-Heithem'
+          ),
+          ' stellte bereits um 1000 n. Chr. Vergrößerungslinsen aus Glas her.'
         ),
         _react2['default'].createElement(
           'li',
@@ -39254,7 +39296,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           null,
           'Sonne'
         ),
-        ' in der gleichen Richtung, in die sie sich selbst auch dreht - gegen den Uhrzeigersinn, würde der Beobachter vom Nordpol der Ekliptik auf sie herunterschauen. Auch die Eigenrotation der Planeten entspricht dieser Richtung. Nur die Venus rotiert ',
+        ' in der gleichen Richtung, in die sie sich selbst auch dreht - gegen den Uhrzeigersinn, würde der Beobachter auf den Nordpol der Sonne herunterschauen. Auch die Eigenrotation der Planeten entspricht dieser Richtung. Nur die Venus rotiert ',
         _react2['default'].createElement(
           'em',
           null,
@@ -39326,9 +39368,9 @@ var SolarSystemComponent = function SolarSystemComponent() {
         _react2['default'].createElement(
           'em',
           null,
-          'Internationale Astronomische Union'
+          'Internationale Astronomische Union IAU'
         ),
-        ' (IAU) den früher als Planet geführten ',
+        ' den früher als Planet geführten ',
         _react2['default'].createElement(
           'em',
           null,
@@ -39338,9 +39380,21 @@ var SolarSystemComponent = function SolarSystemComponent() {
         _react2['default'].createElement(
           'em',
           null,
-          'Astronomische Einheit'
+          'Astronomische Einheit AU'
         ),
-        ' (AU). Die Inneren Planeten Merkur, Venus, Erde und Mars sind Gesteinsplaneten, deren Atmosphären zwischen sehr dicht (Venus) und sehr dünn (Mars) variieren. Merkur verfügt über keine nennenswerte Gashülle. Die sonnenächsten Körper Merkur und Venus besitzen keine Monde, während die Erde von einem, der Mars von zwei Trabanten (Phobos und Deimos) begleitet wird.'
+        '. Die Inneren Planeten Merkur, Venus, Erde und Mars sind Gesteinsplaneten, deren Atmosphären zwischen sehr dicht (Venus) und sehr dünn (Mars) variieren. Merkur verfügt über keine nennenswerte Gashülle. Die sonnenächsten Körper Merkur und Venus besitzen keine Monde, während die Erde von einem, der Mars von zwei Trabanten (',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Phobos'
+        ),
+        ' und ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Deimos'
+        ),
+        ') begleitet wird.'
       ),
       _react2['default'].createElement(
         'div',
@@ -39365,19 +39419,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           null,
           'Gasplaneten'
         ),
-        ', deren Atmosphären je nach Entfernung zur Sonne gasförmig (',
-        _react2['default'].createElement(
-          'em',
-          null,
-          'Jupiter'
-        ),
-        ' und ',
-        _react2['default'].createElement(
-          'em',
-          null,
-          'Saturn'
-        ),
-        ') oder sogar teilweise flüssig (',
+        ', deren Atmosphären je nach Entfernung zur Sonne gasförmig (Jupiter und Saturn) oder sogar teilweise flüssig (',
         _react2['default'].createElement(
           'em',
           null,
@@ -39426,7 +39468,13 @@ var SolarSystemComponent = function SolarSystemComponent() {
           null,
           'Planetoiden'
         ),
-        ' genannt) gekreuzt. Die meisten konzentrieren sich im Hauptgürtel zwischen Mars und Jupiter.'
+        ' genannt) gekreuzt. Die meisten konzentrieren sich im ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Hauptgürtel'
+        ),
+        ' zwischen Mars und Jupiter.'
       ),
       _react2['default'].createElement(
         'div',
@@ -39511,7 +39559,19 @@ var SolarSystemComponent = function SolarSystemComponent() {
         _react2['default'].createElement(
           'li',
           null,
-          'Der nächste Stern ist Proxima Centauri in ca. 4,22 Lichtjahren Entfernung. Alpha Centauri, das nächste System, ist 4,34 Lj entfernt.'
+          'Der nächste Stern ist ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Proxima Centauri'
+          ),
+          ' in ca. 4,22 Lichtjahren Entfernung. ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Alpha Centauri'
+          ),
+          ', das nächste System, ist 4,34 Lj entfernt.'
         ),
         _react2['default'].createElement(
           'li',
@@ -39521,7 +39581,37 @@ var SolarSystemComponent = function SolarSystemComponent() {
         _react2['default'].createElement(
           'li',
           null,
-          'Auch Asteroiden und Zwergplaneten können Monde besitzen. Charon, Nix, Hydra, Kerberos und Styx umkreisen Pluto.'
+          'Auch Asteroiden und Zwergplaneten können Monde besitzen.',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Charon'
+          ),
+          ', ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Nix'
+          ),
+          ', ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Hydra'
+          ),
+          ', ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Kerberos'
+          ),
+          ' und ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Styx'
+          ),
+          ' umkreisen Pluto.'
         )
       )
     ),
@@ -40276,79 +40366,231 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Der Mensch selbst ist nicht für ein Überleben im All geschaffen. Nach den ersten bemannten Raumflügen der 1960er Jahre wollten wir auch für mehr als ein paar Tage Astronauten in den Weltraum schicken. In der Zeit des Kalten Krieges sollten sie aus einer Umlaufbahn heraus vor allem die Fototechnik zum Zweck der Spionage bedienen. Später dann wurden dauerhaft bemannte Raumstationen nötig, um Experimente in nahezu schwereloser Umgebung durchzuführen.'
+        'Schon lange sahen Visionäre die Notwendigkeit, das Leben im All zu erproben. Langfristig werden wir wohl längere Reisen durch den Kosmos unternehmen, ob zum Mond oder Mars oder später sogar über die Grenzen unseres Sonnensystems hinaus. Der Aufenthalt im Weltall wird Teil der menschlichen Zukunft sein. Doch wir sind nicht für ein Überleben im All geschaffen. Dort draußen fehlt es an Luft, Wasser und Nahrung, die Strahlung ist hochgradig zellschädigend, und Mikrometeoriten sind eine reale Gefahr. Nach den ersten bemannten Raumflügen der 1960er Jahre wollten wir nun Astronauten auch für längere Zeit in den Weltraum schicken.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img size-lg' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/spacestations/Von_Braun_1952_Space_Station_Concept_lg.jpg', title: 'Konzept einer Raumstation, v. Braun - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/spacestations/Von_Braun_1952_Space_Station_Concept_sm.jpg', alt: 'Konzept einer Raumstation, v. Braun' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Konzept einer Raumstation, v. Braun'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Man nehme also Luft zum Atmen, ausreichend Trinkwasser und getrocknete oder auf anderem Weg konservierte Nahrung und Treibstoff, umhülle alles mit einigen Millimetern Aluminiumblech und einer Isolierung gegen die Kälte des Alls und transportiere dieses Gebilde mit einer Rakete auf in einen Orbit um die Erde. Fertig ist das Habitat im All.'
       ),
       _react2['default'].createElement(
         'div',
         { className: 'summary-img' },
         _react2['default'].createElement(
           'a',
-          { href: '/img/stars/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-          _react2['default'].createElement('img', { src: '/img/stars/1_sm.jpg', alt: 'Bildbeschreibung' })
+          { href: '/img/spacestations/Salyut_1_lg.png', title: 'Saljut 1 mit Sojus-Raumschiff - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/spacestations/Salyut_1_sm.png', alt: 'Saljut 1 mit Sojus-Raumschiff' })
         ),
         _react2['default'].createElement(
           'p',
           { className: 'summary-img-text' },
-          'Bildbeschreibung'
+          'Saljut 1 mit Sojus-Raumschiff'
         )
       ),
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Man nehme also Luft zum Atmen, ausreichend Trinkwasser und getrocknete oder auf anderem Weg konservierte Nahrung und Treibstoff, umhülle alles mit einigen Millimetern Aluminiumblech und einer Isolierung gegen die Kälte des Alls und transportiere dieses Gebilde mit einer Rakete auf in einen Orbit um die Erde. Fertig.'
+        'Ganz so einfach ist es natürlich nicht. Raumstationen zählen zu den teuersten Raumfahrtprojekten überhaupt. Sie sind so aufwändig, dass sich zur Zeit 14 Nationen mit ihren Raumfahrtagenturen an der ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Internationalen Raumstation ISS'
+        ),
+        ' beteiligen. Die ersten Stationen waren einzelne Raumschiffe, für eine Besatzung von zwei bis drei Raumfahrern ausgelegt, während sich auf der ISS, die inzwischen aus einer Vielzahl von Modulen besteht, bis zu sechs Astronauten gleichzeitig aufhalten können.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img size-lg' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/spacestations/Skylab_(SL-4)_lg.jpg', title: 'Skylab - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/spacestations/Skylab_(SL-4)_sm.jpg', alt: 'Skylab' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Skylab'
+        )
       ),
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Ganz so einfach ist es natürlich nicht, denn Raumstationen zählen zu den teuersten Raumfahrtprojekten überhaupt. Sie sind so aufwändig, dass sich zur Zeit 14 Nationen mit ihren Raumfahrtagenturen an der Internationalen Raumstation ISS beteiligen. Die ersten Raumstationen waren für eine Besatzung von zwei bis drei Raumfahrern ausgelegt, während sich auf der ISS bis zu sechs Astronauten gleichzeitig aufhalten können, vorausgesetzt, es sind zwei Sojus-Raumschiffe für eine eventuelle Evakuierung angedockt.'
+        'Nachdem die Amerikaner viel Arbeit und Energie in das ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Apollo-Programm'
+        ),
+        ' investiert und so den Wettlauf zum Mond gewonnen hatten, konzentrierten sich die Sowjets ab Mitte der 1960er Jahre wieder mehr auf bemannte Raumfahrt im Erdorbit. Mit ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Saljut 1'
+        ),
+        ' (1971) bis ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Saljut 7'
+        ),
+        ' (1982 bis 1986) sammelten sie enorm wichtige Erfahrungen über Langzeitaufenthalte und den Bau komplexer Strukturen im All. Die erste und bisher einzige US-amerikanische Raumstation war ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Skylab'
+        ),
+        ' (1973 bis 1979).'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Eine der wichtigsten Erkenntnisse aus Skylab war die Notwendigkeit, eine Raumstation mit Treibstoff auf auf einfache Weise wiederzubefüllen. Durch die in einer Höhe von 300 bis 400 Kilometern zwar sehr dünne, aber immer noch existierende Erdatmosphäre wird das Raumfahrzeug so stark gebremst, dass die Umlaufbahn in gewissen zeitlichen Abständen angehoben werden muss um einen Absturz zu verhindern.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img size-lg' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/spacestations/Mir_lg.jpg', title: 'Raumstation Mir - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/spacestations/Mir_sm.jpg', alt: 'Raumstation Mir' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Raumstation Mir'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Ein weiterer, essentieller Bestandteil einer Raumstation sind die Andockstellen. Raumtransporter müssen an die Station andocken können, um die Besatzungen auszutauschen, Material zu liefern und Abfall zu entsorgen oder um weitere Module hinzu zu fügen.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img size-xxl' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/spacestations/ISS_June_1999_lg.jpg', title: 'ISS 1999, Sarja und Unity - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/spacestations/ISS_June_1999_sm.jpg', alt: 'ISS 1999, Sarja und Unity' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'ISS 1999, Sarja und Unity'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Die erste, wirklich große Station war die ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Mir'
+        ),
+        '. Von der UdSSR 1986 gestartet, blieb sie 15 Jahre lang im All. Nach einer rein sowjetischen Nutzung in den ersten zwei Jahren, ermöglichten die Sowjets auch Raumfahrern anderer Nationen Besuche auf der Mir, darunter Syrien, Afghanistan, Frankreich und Deutschland. Auf der Station wurden zahlreiche Rekorde aufgestellt, darunter der noch heute geltende für den längsten Aufenthalt im Weltraum von ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Waleri Poljakow'
+        ),
+        ' mit 437 Tagen.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Nach beinahe 20 Jahren Planung war es dann soweit. ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Sarja'
+        ),
+        ' - das erste Modul für die Internationale Raumstation ISS aus russischer Produktion wurde Ende 1998 gestartet und legte den Grundstein für das größte aller bisherigen Raumfahrtprojekte. Seit dem ist viel passiert.'
       ),
       _react2['default'].createElement(
         'div',
         { className: 'summary-img' },
         _react2['default'].createElement(
           'a',
-          { href: '/img/stars/2_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-          _react2['default'].createElement('img', { src: '/img/stars/2_sm.jpg', alt: 'Bildbeschreibung' })
+          { href: '/img/spacestations/ISS_configuration_2017-06_de.svg_lg.png', title: 'ISS, Stand 2017 - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/spacestations/ISS_configuration_2017-06_de.svg_sm.png', alt: 'ISS, Stand 2017' })
         ),
         _react2['default'].createElement(
           'p',
           { className: 'summary-img-text' },
-          'Bildbeschreibung'
+          'ISS, Stand 2017'
         )
       ),
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        'Die ISS wurde kontinuierlich ausgebaut und verfügt heute über mehrere Labor-, Wohn- und Servicemodule, Verbindungsknoten, Luftschleusen für Außenbordeinsätze, Solarmodule mit insgesamt 4500 m² Fläche, einen Roboterarm und mehrere Kräne sowie die berühmte Aussichtskuppel Cupola. Weiterhin existieren etliche Plattformen an den äußeren Strukturen der Station für Experimente im luftleeren Raum.'
       ),
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-      ),
-      _react2['default'].createElement(
-        'div',
-        { className: 'summary-img' },
+        'Für den Betrieb und die Versorgung großer Habitate im All ist internationale Kooperation nötig. Russland (',
         _react2['default'].createElement(
-          'a',
-          { href: '/img/stars/2_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-          _react2['default'].createElement('img', { src: '/img/stars/2_sm.jpg', alt: 'Bildbeschreibung' })
+          'em',
+          null,
+          'Roskosmos'
         ),
+        '), die USA (',
         _react2['default'].createElement(
-          'p',
-          { className: 'summary-img-text' },
-          'Bildbeschreibung'
-        )
+          'em',
+          null,
+          'NASA'
+        ),
+        '), Japan (',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'JAXA'
+        ),
+        ') und die EU (',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'ESA'
+        ),
+        ') sind die Hauptbetreiber der ISS. Inzwischen hat die ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Nationale Weltraumbehörde Chinas CNSA'
+        ),
+        ' ebenfalls eigene Raumstationen gestartet - ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Tiangong 1'
+        ),
+        ' war die erste, und weitere werden folgen. Auch private Raumfahrtunternehmen steigen zunehmend in diese gewaltigen Projekte mit ein.'
       ),
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-      ),
-      _react2['default'].createElement(
-        'p',
-        { className: 'summary-text' },
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        'Eines Tages wird die ISS durch einen Nachfolger abgelöst werden, und in noch fernerer Zukunft werden Menschen große Raumstationen im Orbit um andere Himmelskörper, auf oder sogar unter ihrer Oberfläche errichten. Vielleicht wird es sogar irgendwann einmal die schon 1976 vorgestellten ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'O’Neill-Kolonien'
+        ),
+        ' geben. Bis dahin ist es noch ein weiter und vor allem teurer Weg, den die Menschheit hoffentlich gemeinsam gehen wird.'
       ),
       _react2['default'].createElement(
         'h4',
@@ -40361,7 +40603,68 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
         _react2['default'].createElement(
           'li',
           null,
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+          'Die sowjetischen Saljut-Raumstationen dienten auch der militärischen Aufklärung und gingen aus dem ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Almaz-Programm'
+          ),
+          ' hervor.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Der Start von Skylab war gleichzeitig auch der letzte Start einer',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Saturn V'
+          ),
+          ' Rakete - in diesem Fall mit nur zwei Stufen.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Alexander Wolkow'
+          ),
+          ' und ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Sergei Krikaljow'
+          ),
+          ' betraten 1991 als Sowjetbürger die Mir und kehrten 1992 als russische Bürger zurück.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Der russische Kosmonaut ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Sergei Wassiljewitsch Awdejew'
+          ),
+          ' feierte drei seiner Geburtstage im Weltraum - alle auf der Station Mir.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Der humanoide Roboter ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Robonaut 2'
+          ),
+          ' startete im Februar 2011 mit ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'STS-133'
+          ),
+          ' (Discovery) zur Internationalen Raumstation ISS.'
         )
       )
     ),
