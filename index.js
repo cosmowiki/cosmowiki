@@ -35296,7 +35296,19 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
           null,
           'Zwillinge'
         ),
-        ' Castor und Pollux - wir alle kennen mindestens ein Sternbild (Konstellation) und können es aus dem Stehgreif am Nachthimmel finden. Die Figuren weisen seit Jahrhunderten Reisenden den Weg.'
+        ' ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Castor'
+        ),
+        ' und ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Pollux'
+        ),
+        ' - wir alle kennen mindestens ein Sternbild (Konstellation) und können es aus dem Stehgreif am Nachthimmel finden. Die Figuren weisen seit Jahrhunderten Reisenden den Weg.'
       ),
       _react2['default'].createElement(
         'div',
