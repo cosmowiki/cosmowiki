@@ -49,8 +49,8 @@ const ScientistsComponent = ({groupedScientists}) => {
           Theorien und vereinfachenden Gleichungen.
         </p>
         <div className="summary-img float-right size-xs">
-          <a href="/img/scientists/E_mc_2_IMG_0859.jpg" title="E = mc² - Großansicht">
-            <img src="/img/scientists/E_mc_2_IMG_0859.jpg" alt="E = mc²" />
+          <a href="/img/scientists/E_mc_2_IMG_0859.jpg" title="E = mc², Albert Einstein, 1905 - Großansicht">
+            <img src="/img/scientists/E_mc_2_IMG_0859.jpg" alt="E = mc², Albert Einstein, 1905" />
           </a>
           <p className="summary-img-text">
             E = mc², Albert Einstein, 1905
@@ -112,9 +112,10 @@ const ScientistsComponent = ({groupedScientists}) => {
           aneinander. Als um 1500 im arabischen Raum der Islam und die Astronomie
           gleichermaßen ihre höchste Blüte erreichen, explodiert auch in Europa
           nach den Jahrhunderten des finsteren Mittelalters der Forscherdrang.
-          Von <em>Regiomontanus</em>, <em>Nikolaus Kopernikus</em> und <em>Tycho Brahe</em> zieht
-          sich eine Linie über <em>Johann Bayer</em>, <em>Johannes Kepler</em> und <em>Galileo Galilei</em> bis
-          hin zu <em>Christiaan Huygens</em>, <em>Giovanni Domenico Cassini</em> und <em>Isaac Newton</em>.
+          Von <em>Regiomontanus</em>, <em>Nikolaus Kopernikus</em> und <em>Tycho
+          Brahe</em> zieht sich eine Linie über <em>Johann Bayer</em>, <em>Johannes
+          Kepler</em> und <em>Galileo Galilei</em> bis hin zu <em>Christiaan
+          Huygens</em>, <em>Giovanni Domenico Cassini</em> und <em>Isaac Newton</em>.
         </p>
         <div className="summary-img float-right size-lg">
           <a href="/img/scientists/Columbia_Supercomputer_-_NASA_Advanced_Supercomputing_Facility_lg.jpg" title="Columbia Supercomputer - NASA - Großansicht">
@@ -133,12 +134,14 @@ const ScientistsComponent = ({groupedScientists}) => {
           Naturwissenschaften wurden.
         </p>
         <p className="summary-text">
-          Heute - nach der der Begründung der <em>Quantenphysik</em> durch <em>Max Planck</em> und <em>Albert Einsteins Relativitätstheorie</em>,
+          Heute - nach der der Begründung der <em>Quantenphysik</em> durch <em>Max
+          Planck</em> und <em>Albert Einsteins Relativitätstheorie</em>,
           der Entdeckung der <em>Radioaktivität</em> durch <em>Marie Curie</em>,
-          der Erklärung der <em>Kernspaltung</em> durch <em>Otto Hahn</em> und <em>Lise Meitner</em> und
-          der Darstellung stellarer <em>Fusionsprozesse</em> durch <em>Hans Bethe</em> und <em>Carl Friedrich von Weizsäcker</em>,
-          erstellen Superrechner komplexe Modelle von <em>Schwarzen Löchern</em> und
-          <em>Gravitationswellen</em> oder vom <em>Urknall</em>.
+          der Erklärung der <em>Kernspaltung</em> durch <em>Otto Hahn</em> und <em>Lise
+          Meitner</em> und der Darstellung stellarer <em>Fusionsprozesse</em> durch <em>Hans
+          Bethe</em> und <em>Carl Friedrich von Weizsäcker</em>, erstellen Superrechner
+          komplexe Modelle von <em>Schwarzen Löchern</em> und <em>Gravitationswellen</em> oder
+          vom <em>Urknall</em>.
         </p>
         <p className="summary-text">
           Die Aufgaben der kommenden Wissenschaftler werden immer komplexer, ihre
@@ -153,15 +156,16 @@ const ScientistsComponent = ({groupedScientists}) => {
             in 60 Minuten auf.
           </li>
           <li>
-            Der arabische Gelehrte Abu Ali al-Hasan ibn al-Heithem stellte bereits
+            Der arabische Gelehrte Abu Ali al-Hasan ibn <em>al-Heithem</em> stellte bereits
             um 1000 n. Chr. Vergrößerungslinsen aus Glas her.
           </li>
           <li>
-            <em>Galileo Galilei</em> entdeckte 1610 die <em>Saturnringe</em>, deutete sie aber als "Henkel".
-            Erst <em>Christiaan Huygens</em> beschrieb sie 1655 korrekt.
+            <em>Galileo Galilei</em> entdeckte 1610 die <em>Saturnringe</em>, deutete
+            sie aber als "Henkel". Erst <em>Christiaan Huygens</em> beschrieb sie 1655 korrekt.
           </li>
           <li>
-            Am 13. März 1781 entdeckte <em>Wilhelm Herschel</em> den <em>Uranus</em>. Bis dahin waren nur Merkur, Venus, Mars, Jupiter und Saturn bekannt.
+            Am 13. März 1781 entdeckte <em>Wilhelm Herschel</em> den <em>Uranus</em>.
+            Bis dahin waren nur Merkur, Venus, Mars, Jupiter und Saturn bekannt.
           </li>
           <li>
             Das <em>Periodensystem der Elemente</em> wurde 1869 fast zeitgleich

@@ -16,8 +16,9 @@ const MissionsComponent = ({missions}) => {
       </div>
       <Summary>
         <p className="summary-text">
-          Die Geschichte der Raumfahrt begann schon lange vor Sputnik 1 und auch
-          lange vor den großen Pionieren der Raketentechnik, <em>Konstantin Ziolkowski</em>, <em>Robert Goddard</em>, <em>Hermann Oberth</em> und <em>Max Valier</em>.
+          Die Geschichte der Raumfahrt begann schon lange vor <em>Sputnik 1</em> und auch
+          lange vor den großen Pionieren der Raketentechnik, <em>Konstantin
+          Ziolkowski</em>, <em>Robert Goddard</em>, <em>Hermann Oberth</em> und <em>Max Valier</em>.
           Schon im Jahr 1232 sollen in China die ersten Raketen zu militärischen
           Zwecken eingesetzt worden sein.
         </p>
@@ -33,7 +34,8 @@ const MissionsComponent = ({missions}) => {
           Das Militär war oft genug die treibende Kraft hinter technischen Entwicklungen,
           so auch in der Raumfahrt. Die ersten Raketenflugzeuge, wie zum Beispiel die
           Bachem <em>Ba 349</em> waren rein zu kriegerischen Zwecken entwickelt
-          worden - ebenso wie die erste funktionsfähige Großrakete <em>Aggregat 4</em>, die so genannte V2.
+          worden - ebenso wie die erste funktionsfähige Großrakete <em>Aggregat
+          4</em>, die so genannte V2.
         </p>
         <div className="summary-img">
           <a href="/img/missions/sputnik1_lg.jpg" title="Sputnik 1 - Großansicht">
@@ -45,7 +47,7 @@ const MissionsComponent = ({missions}) => {
         </div>
         <p className="summary-text">
           Kurz vor dem Ende des Zweiten Weltkrieges begann der Wettstreit zwischen
-          der <em>UdSSR</em> und den <em>USA</em> um die Vorreiterrolle in der Raketentechnik.
+          der UdSSR und den USA um die Vorreiterrolle in der Raketentechnik.
           Wer rekrutiert die besten deutschen Wissenschaftler und Techniker, wer
           erbeutet die detailiertesten Baupläne und die wertvollsten Bauteile?
           Wer schafft es als Erster, mit diesen Ressourcen eine funktionsfähige Rakete zu starten?
@@ -73,7 +75,8 @@ const MissionsComponent = ({missions}) => {
           Es entwickelte sich ein Kopf-an-Kopf-Rennen, bei dem mal die eine Seite,
           mal die andere große Erfolge aber auch schwere Katastrophen zu verzeichnen hatte.
           Neben den Tragödien von <em>Apollo 1</em> und <em>Sojus 11</em> erinnert
-          uns jeder Raumfahrtunfall daran, dass Reisen ins All hochkomplex und immer noch sehr riskant sind.
+          uns jeder Raumfahrtunfall daran, dass Reisen ins All hochkomplex und immer
+          noch sehr riskant sind.
         </p>
         <div className="summary-img size-lg">
           <a href="/img/missions/Apollo_11_first_step.jpg" title="Neil Armstrong betritt den Mond - Großansicht">
@@ -85,10 +88,11 @@ const MissionsComponent = ({missions}) => {
         </div>
         <p className="summary-text">
           Im Lauf der Jahrzehnte wuchs die Zahl der Raumfahrtnationen um Länder
-          wie <em>Japan</em>, <em>Indien</em> und <em>China</em> an. Europa bündelte
-          seine Fähigkeiten und Finanzen in der <em>ESA</em>. Dutzende Meilensteine
-          haben die Techniker, Ingenieure und Raumfahrer auf der ganzen Welt bislang erreicht:<br />
-          <em>Juri Gagarin</em> war der erste Mensch im All, unzählige Satelliten für die Forschung, Spionage und Nachrichtenübermittlung und riesige
+          wie Japan, Indien und China an. Europa bündelte seine Fähigkeiten und
+          Finanzen in der <em>ESA</em>. Dutzende Meilensteine haben die Techniker,
+          Ingenieure und Raumfahrer auf der ganzen Welt bislang erreicht:<br />
+          <em>Juri Gagarin</em> war der erste Mensch im All, unzählige Satelliten
+          für die Forschung, Spionage und Nachrichtenübermittlung und riesige
           Raumstationen kreisen im Erdorbit, <em>Weltraumausstiege</em> - sogar auf dem
           Mond, <em>Landesonden</em> - auch <em>Rover</em> auf anderen Planeten, ja
           auf Asteroiden, <em>Raumsonden</em> am Rand unseres Sonnensystems, <em>Weltraumteleskope</em>, die
@@ -106,9 +110,10 @@ const MissionsComponent = ({missions}) => {
           Mit kreativen Ideen und dem Besten, das Wissenschaft und Technik heute zu
           bieten haben, erweitert die Raumfahrt den Horizont. Noch in diesem Jahrhundert
           werden Menschen auf dem Mars landen, werden Sonden sich durch die Eispanzer
-          der Jupiter- bzw. Saturnmonde <em>Europa</em> und <em>Enceladus</em> schmelzen und die darunterliegenden
-          Ozeane erkunden. <em>Gravitationswellen</em> werden mit <em>eLISA</em> weiter erforscht
-          werden, <em>Dunkle Energie</em> und <em>Dunkle Materie</em> mit dem <em>Euclid-Weltraumteleskop</em>.
+          der Jupiter- bzw. Saturnmonde <em>Europa</em> und <em>Enceladus</em> schmelzen
+          und die darunterliegenden Ozeane erkunden. <em>Gravitationswellen</em> werden
+          mit <em>eLISA</em> weiter erforscht werden, <em>Dunkle Energie</em> und <em>Dunkle
+          Materie</em> mit dem <em>Euclid-Weltraumteleskop</em>.
         </p>
         <div className="summary-img">
           <a href="/img/missions/iss_lg.jpg" title="ISS - Großansicht">
@@ -132,7 +137,7 @@ const MissionsComponent = ({missions}) => {
         <h4>Wussten Sie schon?</h4>
         <ul className="summary-list">
           <li>
-            Die <em>Fédération Aéronautique Internationale</em> (FAI) definiert
+            Die <em>Fédération Aéronautique Internationale FAI</em> definiert
             die Grenze zum Weltraum bei 100 km Höhe über dem Meeresspiegel.
           </li>
           <li>
@@ -151,7 +156,7 @@ const MissionsComponent = ({missions}) => {
             <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
             <div id="sortArea">
               <form id="sortMissions" className="sort-form">
-                
+
                 <select name="sortMissions" defaultValue="sortMissionsLaunchUp">
                   <option value="sortMissionsLaunchUp">Startdatum &uarr;</option>
                   <option value="sortMissionsLaunchDown">Startdatum &darr;</option>

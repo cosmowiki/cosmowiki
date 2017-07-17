@@ -29,11 +29,12 @@ const SolarSystemComponent = () => {
           </p>
         </div>
         <p className="summary-text">
-          Die Bahnen aller Planeten unseres Systems liegen nahezu auf dieser einen Ebene, der <em>Ekliptik</em>.
-          Sie umrunden darauf die <em>Sonne</em> in der gleichen Richtung, in die sie sich
-          selbst auch dreht - gegen den Uhrzeigersinn, würde der Beobachter vom Nordpol
-          der Ekliptik auf sie herunterschauen. Auch die Eigenrotation der Planeten
-          entspricht dieser Richtung. Nur die Venus rotiert <em>retrograd</em> um ihre eigene Achse.
+          Die Bahnen aller Planeten unseres Systems liegen nahezu auf dieser einen Ebene,
+          der <em>Ekliptik</em>. Sie umrunden darauf die <em>Sonne</em> in der
+          gleichen Richtung, in die sie sich selbst auch dreht - gegen den Uhrzeigersinn,
+          würde der Beobachter auf den Nordpol der Sonne herunterschauen. Auch die
+          Eigenrotation der Planeten entspricht dieser Richtung. Nur die Venus
+          rotiert <em>retrograd</em> um ihre eigene Achse.
         </p>
         <p className="summary-text">
           Wissenschaftler vermuten den Ursprung des Sonnensystems in einem rotierenden
@@ -59,15 +60,16 @@ const SolarSystemComponent = () => {
           </p>
         </div>
         <p className="summary-text">
-          So umkreisen heute acht Planeten unseren Zentralstern, seit die <em>Internationale Astronomische Union</em> (IAU)
-          den früher als Planet geführten <em>Pluto</em> im Jahr 2006 zum Zwergplanten herabstufte.
-          Die Entfernungen dabei sind riesig. So beträgt der mittlere Abstand zwischen Sonne und Erde ca.
-          150 Millionen Kilometer, oder eine <em>Astronomische Einheit</em> (AU).
-          Die Inneren Planeten Merkur, Venus, Erde und Mars sind Gesteinsplaneten,
-          deren Atmosphären zwischen sehr dicht (Venus) und sehr dünn (Mars) variieren.
-          Merkur verfügt über keine nennenswerte Gashülle. Die sonnenächsten Körper
-          Merkur und Venus besitzen keine Monde, während die Erde von einem, der Mars
-          von zwei Trabanten (Phobos und Deimos) begleitet wird.
+          So umkreisen heute acht Planeten unseren Zentralstern, seit die <em>Internationale
+          Astronomische Union IAU</em> den früher als Planet geführten <em>Pluto</em> im
+          Jahr 2006 zum Zwergplanten herabstufte. Die Entfernungen dabei sind riesig.
+          So beträgt der mittlere Abstand zwischen Sonne und Erde ca. 150 Millionen
+          Kilometer, oder eine <em>Astronomische Einheit AU</em>. Die Inneren Planeten
+          Merkur, Venus, Erde und Mars sind Gesteinsplaneten, deren Atmosphären
+          zwischen sehr dicht (Venus) und sehr dünn (Mars) variieren. Merkur verfügt
+          über keine nennenswerte Gashülle. Die sonnenächsten Körper Merkur und
+          Venus besitzen keine Monde, während die Erde von einem, der Mars von zwei
+          Trabanten (<em>Phobos</em> und <em>Deimos</em>) begleitet wird.
         </p>
         <div className="summary-img float-right">
           <a href="/img/solarsystem/saturn_lg.jpg" title="Saturn - Großansicht">
@@ -79,7 +81,7 @@ const SolarSystemComponent = () => {
         </div>
         <p className="summary-text">
           Die Äußeren Planeten hingegen sind völlig anders beschaffen. Sie sind <em>Gasplaneten</em>,
-          deren Atmosphären je nach Entfernung zur Sonne gasförmig (<em>Jupiter</em> und <em>Saturn</em>)
+          deren Atmosphären je nach Entfernung zur Sonne gasförmig (Jupiter und Saturn)
           oder sogar teilweise flüssig (<em>Uranus</em> und <em>Neptun</em>) sind. Im Innern besitzen
           sie wahrscheinlich alle einen kleinen, festen Kern aus Gestein und Eis.
           Die vier Riesen verfügen zusätzlich auch über Ringsysteme aus Gesteins- oder
@@ -103,7 +105,7 @@ const SolarSystemComponent = () => {
           der Sonne oder den Planeten eingefangen wurden. So werden die Bahnen
           der inneren Planeten von unzähligen <em>Asteroiden</em> verschiedenster
           Größen (auch <em>Planetoiden</em> genannt) gekreuzt. Die meisten konzentrieren
-          sich im Hauptgürtel zwischen Mars und Jupiter.
+          sich im <em>Hauptgürtel</em> zwischen Mars und Jupiter.
         </p>
         <div className="summary-img size-sm">
           <a href="/img/solarsystem/oort_cloud.jpg" title="Oortsche Wolke - Großansicht">
@@ -141,8 +143,8 @@ const SolarSystemComponent = () => {
             ist 109-mal größer als der der Erde.
           </li>
           <li>
-            Der nächste Stern ist Proxima Centauri in ca. 4,22 Lichtjahren
-            Entfernung. Alpha Centauri, das nächste System, ist 4,34 Lj entfernt.
+            Der nächste Stern ist <em>Proxima Centauri</em> in ca. 4,22 Lichtjahren
+            Entfernung. <em>Alpha Centauri</em>, das nächste System, ist 4,34 Lj entfernt.
           </li>
           <li>
             Die Erde umrundet die Sonne in 365,256 Tagen mit einer Geschwindigkeit
@@ -150,7 +152,8 @@ const SolarSystemComponent = () => {
           </li>
           <li>
             Auch Asteroiden und Zwergplaneten können Monde besitzen.
-            Charon, Nix, Hydra, Kerberos und Styx umkreisen Pluto.
+            <em>Charon</em>, <em>Nix</em>, <em>Hydra</em>, <em>Kerberos</em> und <em>Styx</em> umkreisen
+            Pluto.
           </li>
         </ul>
       </Summary>

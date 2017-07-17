@@ -31,8 +31,9 @@ const ConstellationsComponent = ({constellations}) => {
         <p className="summary-text">
           Auf der Nordhalbkugel helfen <em>Großer Wagen</em> und <em>Kleiner Wagen</em> den
           Polarstern zu finden, wobei der Große Wagen als Asterismus kein eigenes
-          Sternbild ist, sondern nur ein Teil des <em>Großen Bären</em>. Auch die Kassiopeia,
-          das "Himmels-W" zieht nach Norden hin geöffnet am Firmament entlang.
+          Sternbild ist, sondern nur ein Teil des <em>Großen Bären</em>. Auch
+          die <em>Kassiopeia</em>, das "Himmels-W" zieht nach Norden hin geöffnet
+          am Firmament entlang.
         </p>
         <div className="summary-img size-lg">
           <a href="/img/constellations/Dunhuang_star_map_lg.jpg" title="Sternenkarte von Dunhuang, China - Großansicht">
@@ -70,9 +71,9 @@ const ConstellationsComponent = ({constellations}) => {
         <p className="summary-text">
           <em>Johann Bayer</em> übernahm dann 1603 in seiner <em>Uranometria</em> einige
           Konstellationen aus Himmelsgloben des <em>Petrus Plancius</em>, die auf
-          die niederländischen Navigatoren <em>Pieter Dirkszoon Keyser</em> und <em>Frederick de Houtman</em> zurückgingen.
-          Der Astronomen <em>Johannes Hevelius</em> und <em>Nicolas-Louis de Lacaille</em> fügten
-          weitere hinzu.
+          die niederländischen Navigatoren <em>Pieter Dirkszoon Keyser</em> und <em>Frederick
+          de Houtman</em> zurückgingen. Der Astronomen <em>Johannes
+          Hevelius</em> und <em>Nicolas-Louis de Lacaille</em> fügten weitere hinzu.
         </p>
         <p className="summary-text">
           Religiöse Motive führten zur Umbenennung und Ersetzung heidnischer Sternbilder.
@@ -92,15 +93,15 @@ const ConstellationsComponent = ({constellations}) => {
         </div>
         <p className="summary-text">
           Nach einem Vorschlag des amerikanischen Astronomen <em>Henry Norris Russell</em> legte
-          dann 1922 die <em>Internationale Astronomische Union</em> (IAU) auf ihrer ersten
+          dann 1922 die <em>Internationale Astronomische Union IAU</em> auf ihrer ersten
           Generalversammlung 88 Sternbilder fest, deren Grenzen sechs Jahre später
           exakt definiert wurden.
         </p>
         <p className="summary-text">
           Weltweit am bekanntesten dürfte das Kreuz des Südens sein, das auf vielen
-          Flaggen abgebildet ist und auch das Logo der <em>Europäischen Südsternwarte</em> (ESO)
-          ziert. Der Große Wagen prangt gemeinsam mit dem Polarstern auf der Flagge
-          des US-Bundesstaates Alaska.
+          Flaggen abgebildet ist und auch das Logo der <em>Europäischen Südsternwarte
+          ESO</em> ziert. Der Große Wagen prangt gemeinsam mit dem Polarstern auf
+          der Flagge des US-Bundesstaates Alaska.
         </p>
         <h4>Wussten Sie schon?</h4>
         <ul className="summary-list">

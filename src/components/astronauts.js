@@ -19,9 +19,9 @@ const AstronautsComponent = ({groupedAstronauts}) => {
       </div>
       <Summary>
         <p className="summary-text">
-          Nach der Definition der <em>Fédération Aéronautique Internationale</em> (FAI) beginnt
+          Nach der Definition der <em>Fédération Aéronautique Internationale FAI</em> beginnt
           der Weltraum in einer Höhe von 100 km über der Erdoberfläche.
-          Die <em>International Association of Space Explorers</em> (ASE) und alle internationalen
+          Die <em>International Association of Space Explorers ASE</em> und alle internationalen
           Raumfahrtagenturen erkennen nur solche Personen als Raumfahrer an, welche
           bei einem Raumflug mindestens eine Erdumkreisung absolviert haben.
           Somit ist ein Mensch ein Raumfahrer, wenn er die 100-Kilometer-Marke überflogen
@@ -97,7 +97,7 @@ const AstronautsComponent = ({groupedAstronauts}) => {
           Die Schwerelosigkeit im All stellt wiederum völlig andere Anforderungen
           an den menschlichen Körper, besonders an den Gleichgewichtssinn. Muskel- und
           Knochenschwund sind die bekanntesten Nebenwirkungen eines Aufenthaltes im Weltall.
-          Für die Raumfahrer auf <em>Langzeitmissionen</em> bedeutet dies, ein intensives
+          Für die Raumfahrer auf Langzeitmissionen bedeutet dies, ein intensives
           Sportprogramm abzuleisten - jeden Tag.
         </p>
         <div className="summary-img">
@@ -110,16 +110,16 @@ const AstronautsComponent = ({groupedAstronauts}) => {
         </div>
         <p className="summary-text">
           In der Ausbildung der Astronauten ist das physische Training hingegen
-          nur ein kleiner Teil. Für eine Mission zur <em>Internationalen Raumstation</em> ISS
-          werden die heutigen Raumfahrer insgesamt zwei Jahre lang geschult. Um
-          überhaupt ausgewählt zu werden, bedarf es einer Menge Durchhaltevermögen
+          nur ein kleiner Teil. Für eine Mission zur <em>Internationalen Raumstation
+          ISS</em> werden die heutigen Raumfahrer insgesamt zwei Jahre lang geschult.
+          Um überhaupt ausgewählt zu werden, bedarf es einer Menge Durchhaltevermögen
           und auch Glück. Unter vielen Tausenden Bewerbern schafft es am Ende nur eine Handvoll.
         </p>
         <p className="summary-text">
           Die Aufgaben der künftigen Raumfahrer werden sich Schritt für Schritt erweitern.
           1972 setzte <em>Eugene Cernan</em> als bislang letzter Mensch seinen Fuß auf einen
           anderen Himmelskörper, den <em>Mond</em>. Die Verlagerung künstlicher Habitate von
-          Raumstationen auf die Oberfläche von Mond und <em>Mars</em> (oder darunter) wird
+          Raumstationen auf (oder unter) die Oberfläche von Mond und <em>Mars</em> wird
           der nächste Meilenstein der bemannten Raumfahrt sein.
         </p>
         <p className="summary-text">
@@ -131,24 +131,24 @@ const AstronautsComponent = ({groupedAstronauts}) => {
         <h4>Wussten Sie schon?</h4>
         <ul className="summary-list">
           <li>
-            German Titow war bei seinem Flug mit Wostok 2 am 6. August 1961 erst
-            25 Jahre alt. Er ist damit der jüngste Raumfahrer bisher.
+            <em>German Titow</em> war bei seinem Flug mit <em>Wostok 2</em> am 6.
+            August 1961 erst 25 Jahre alt. Er ist damit der jüngste Raumfahrer bisher.
           </li>
           <li>
-            John Glenn ist bislang der älteste Raumfahrer. Bei seinem Start mit
-            STS-95 am 29. Oktober 1998 war er bereits 77 jahre alt.
+            <em>John Glenn</em> ist bislang der älteste Raumfahrer. Bei seinem Start mit
+            <em>STS-95</em> am 29. Oktober 1998 war er bereits 77 jahre alt.
           </li>
           <li>
-            Der Kontrukteur Konstantin Feoktistow und der Arzt Boris Jegorow an Bord
-            von Woschod 1 waren die ersten Zivilisten im All.
+            Der Kontrukteur <em>Konstantin Feoktistow</em> und der Arzt <em>Boris
+            Jegorow</em> an Bord von <em>Woschod 1</em> waren die ersten Zivilisten im All.
           </li>
           <li>
-            Der Kosmonaut Waleri Bykowski hält mit vier Tagen und 23 Stunden den
+            Der Kosmonaut <em>Waleri Bykowski</em> hält mit vier Tagen und 23 Stunden den
             Rekord für den längsten Soloflug der Raumfahrtgeschichte.
           </li>
           <li>
-            Yang Liwei startete am 15. Oktober 2003 als erster chinesischer Raumfahrer,
-            auch Taikonaut genannt, mit Shenzhou 5 ins All.
+            <em>Yang Liwei</em> startete am 15. Oktober 2003 als erster chinesischer Raumfahrer,
+            auch Taikonaut genannt, mit <em>Shenzhou 5</em> ins All.
           </li>
         </ul>
       </Summary>

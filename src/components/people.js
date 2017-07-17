@@ -71,7 +71,7 @@ const PeopleComponent = ({groupedPeople}) => {
         </div>
         <p className="summary-text">
           Aus dem Fall eines Apfels ein Naturgesetz abzuleiten oder mit akribischer
-          Denkarbeit die Beziehungen zwischen Raum und Zeit zu formulieren, bringt
+          Denkarbeit die Relativität von Raum und Zeit zu formulieren, bringt
           die Menschheit ebenso voran wie die Entwicklung neuer Materialien oder
           die Reparatur eines Solarpanels an einer Raumstation.
         </p>
@@ -93,7 +93,7 @@ const PeopleComponent = ({groupedPeople}) => {
             insgesamt etwa 400.000 Menschen mit.
           </li>
           <li>
-            Der Kosmonaut Waleri Bykowski hält mit vier Tagen und 23 Stunden den
+            Der Kosmonaut <em>Waleri Bykowski</em> hält mit vier Tagen und 23 Stunden den
             Rekord für den längsten Soloflug der Raumfahrtgeschichte.
           </li>
           <li>
