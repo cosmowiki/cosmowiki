@@ -114,6 +114,7 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
+- [x] save images locally
 - complete data for launch
 - open the href={item.name} in vcard
 - solution for greek letters
@@ -122,7 +123,7 @@
 - [x] create site
 - [x] style it
 - [x] make it responsive
-- create summary
+- [x] create summary
 - [x] complete data for launch
 - [x] save images locally
 - [x] show station image and small only if imageUrl exists
@@ -133,6 +134,7 @@
 - [x] style it
 - [x] make it responsive
 - create summary
+- save images locally
 - complete data for launch
 - save images locally
 - open the href={item.name} in vcard
@@ -142,6 +144,7 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
+- [x] save images locally
 - complete data for launch
 - save images locally
 - open the href={item.name} in vcard
