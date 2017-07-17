@@ -36728,8 +36728,8 @@ var MissionsComponent = function MissionsComponent(_ref) {
         { className: 'summary-img size-lg' },
         _react2['default'].createElement(
           'a',
-          { href: '/img/missions/tsiolkovsky.jpg', title: 'Konstantin Eduardowitsch Ziolkowski - Großansicht' },
-          _react2['default'].createElement('img', { src: '/img/missions/tsiolkovsky.jpg', alt: 'Konstantin Eduardowitsch Ziolkowski' })
+          { href: '/img/missions/tsiolkovsky.jpg', title: 'Konstantin Ziolkowski - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/missions/tsiolkovsky.jpg', alt: 'Konstantin Ziolkowski' })
         ),
         _react2['default'].createElement(
           'p',
