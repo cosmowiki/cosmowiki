@@ -15,7 +15,7 @@ const ConstellationsComponent = ({constellations}) => {
       </div>
       <Summary>
         <p className="summary-text">
-          <em>Orion</em>, <em>Kassiopeia</em> oder die <em>Zwillinge</em> Castor und Pollux -
+          <em>Orion</em>, <em>Kassiopeia</em> oder die <em>Zwillinge</em> <em>Castor</em> und <em>Pollux</em> -
           wir alle kennen mindestens ein Sternbild (Konstellation) und können es
           aus dem Stehgreif am Nachthimmel finden. Die Figuren weisen seit Jahrhunderten
           Reisenden den Weg.
