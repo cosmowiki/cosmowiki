@@ -34311,12 +34311,12 @@ var AboutComponent = (function (_React$Component) {
           _react2['default'].createElement(
             'p',
             null,
-            '@wolfram pls when clicking on link in #footerElse jump to the question but avoid covering by branding'
+            '@wolfram: pls when clicking on link in #footerElse jump to the question but avoid covering by branding'
           ),
           _react2['default'].createElement(
             'p',
             null,
-            '@wolfram pls make the contact form work, send mail to admin@cosmowiki.org'
+            '@wolfram: pls make the contact form work, send mail to admin@cosmowiki.org'
           )
         ),
         _react2['default'].createElement(
@@ -34427,12 +34427,7 @@ var AstronautsComponent = function AstronautsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         null,
-        '@wolfram pls replace the filter forms with FilterRows as in stars-site'
-      ),
-      _react2['default'].createElement(
-        'p',
-        null,
-        '@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens'
+        '@wolfram: same tasks as in people.js'
       )
     ),
     _react2['default'].createElement(
@@ -35066,11 +35061,6 @@ var AstronomyComponent = function AstronomyComponent(_ref) {
     ),
     _react2["default"].createElement(
       "div",
-      { id: "todo", className: "pure-u-1" },
-      "how to 100% height including the footer if site is smaller than 100%?"
-    ),
-    _react2["default"].createElement(
-      "div",
       { id: "pageSubMenuContainer" },
       _react2["default"].createElement(
         "ul",
@@ -35247,12 +35237,7 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         null,
-        '@wolfram pls replace the form filterConstellationsByVisibility with a FilterRow as in stars-site'
-      ),
-      _react2['default'].createElement(
-        'p',
-        null,
-        '@all open the large constellation image in a pop-up?'
+        '@wolfram: pls make the filter work with FilterRows as in stars-site'
       )
     ),
     _react2['default'].createElement(
@@ -35830,12 +35815,12 @@ var ChronicleComponent = (function (_React$Component) {
           _react2['default'].createElement(
             'p',
             null,
-            '@wolfram pls hide the span id="coordinates" from embedded article in vcard (i.e. Lascaux)'
+            '@wolfram: pls hide the span id="coordinates" from embedded article in vcard (i.e. Lascaux)'
           ),
           _react2['default'].createElement(
             'p',
             null,
-            '@wolfram pls hide the img src="//de.wikipedia.org/wiki/Special:CentralAuto..." on bottom of embedded article in vcard'
+            '@wolfram: pls hide the img src="//de.wikipedia.org/wiki/Special:CentralAuto..." on bottom of embedded article in vcard'
           )
         ),
         _react2['default'].createElement(
@@ -36144,7 +36129,7 @@ var Footer = function Footer(_ref) {
       _react2["default"].createElement(
         "p",
         null,
-        "@wolfram pls insert the shariff-button"
+        "@wolfram: pls insert the shariff-button"
       )
     ),
     _react2["default"].createElement(
@@ -36652,17 +36637,17 @@ var MissionsComponent = function MissionsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         null,
-        '@wolfram pls replace the filter forms with FilterRows as in stars-site'
+        '@wolfram: pls make the filter work with FilterRows as in stars-site'
       ),
       _react2['default'].createElement(
         'p',
         null,
-        '@wolfram pls make the sorter and filters work'
+        '@wolfram: pls make the sorter and filters work'
       ),
       _react2['default'].createElement(
         'p',
         null,
-        '@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens'
+        '@wolfram: pls let the toggle-switches for sort and filter hide each other on hover on small screens'
       )
     ),
     _react2['default'].createElement(
@@ -37854,11 +37839,6 @@ var ObjectsComponent = function ObjectsComponent(_ref) {
     ),
     _react2["default"].createElement(
       "div",
-      { id: "todo", className: "pure-u-1" },
-      "@wolfram how to 100% height including the footer if site is smaller than 100%?"
-    ),
-    _react2["default"].createElement(
-      "div",
       { id: "pageSubMenuContainer" },
       _react2["default"].createElement(
         "ul",
@@ -37982,12 +37962,12 @@ var PeopleComponent = function PeopleComponent(_ref) {
       _react2['default'].createElement(
         'p',
         null,
-        '@wolfram pls replace the filter forms with FilterRows as in stars-site'
+        '@wolfram: pls make the filter work with FilterRows as in stars-site'
       ),
       _react2['default'].createElement(
         'p',
         null,
-        '@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens'
+        '@wolfram: pls let the toggle-switches for sort and filter hide each other on hover on small screens'
       )
     ),
     _react2['default'].createElement(
@@ -38455,12 +38435,7 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         null,
-        '@wolfram pls replace the filter forms with FilterRows as in stars-site'
-      ),
-      _react2['default'].createElement(
-        'p',
-        null,
-        '@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens'
+        '@wolfram: same tasks as in people.js'
       )
     ),
     _react2['default'].createElement(
@@ -39210,7 +39185,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
       _react2['default'].createElement(
         'p',
         null,
-        '@wolfram how to avoid border-bottom of last displayed div.item-name inside each div.type-1?'
+        '@wolfram: how to avoid border-bottom of last displayed div.item-name inside each div.type-1?'
       )
     ),
     _react2['default'].createElement(
@@ -40873,7 +40848,7 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
       _react2['default'].createElement(
         'p',
         null,
-        '@wolfram pls edit the month in endDate to appear as word when there is no endday (to use it on demand for all dates in all pages)'
+        '@wolfram: pls edit the month in endDate to appear as word when there is no endday (to use it on demand for all dates in all pages)'
       )
     ),
     _react2['default'].createElement(
@@ -41361,11 +41336,6 @@ var SpaceflightComponent = function SpaceflightComponent(_ref) {
     ),
     _react2["default"].createElement(
       "div",
-      { id: "todo", className: "pure-u-1" },
-      "@wolfram how to 100% height including the footer if site is smaller than 100%?"
-    ),
-    _react2["default"].createElement(
-      "div",
       { id: "pageSubMenuContainer" },
       _react2["default"].createElement(
         "ul",
@@ -41827,12 +41797,12 @@ var StarsComponent = function StarsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         null,
-        '@wolfram pls make the sorter and filter work'
+        '@wolfram: pls make the sorter and filter work'
       ),
       _react2['default'].createElement(
         'p',
         null,
-        '@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens'
+        '@wolfram: pls let the toggle-switches for sort and filter hide each other on hover on small screens'
       ),
       _react2['default'].createElement(
         'p',
