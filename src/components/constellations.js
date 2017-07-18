@@ -10,8 +10,7 @@ const ConstellationsComponent = ({constellations}) => {
         <h3>Figuren am Firmament</h3>
       </div>
       <div id="todo" className="pure-u-1">
-        <p>@wolfram pls replace the form filterConstellationsByVisibility with a FilterRow as in stars-site</p>
-        <p>@all open the large constellation image in a pop-up?</p>
+        <p>@wolfram: pls make the filter work with FilterRows as in stars-site</p>
       </div>
       <Summary>
         <p className="summary-text">

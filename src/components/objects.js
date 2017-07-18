@@ -7,9 +7,6 @@ const ObjectsComponent = ({appUrl}) => {
         <h1>Objekte</h1>
         <h3>Himmelsk&ouml;rper, Raumfahrzeuge, Instrumente</h3>
       </div>
-      <div id="todo" className="pure-u-1">
-        @wolfram how to 100% height including the footer if site is smaller than 100%?
-      </div>
       <div id="pageSubMenuContainer">
         <ul id="pageSubMenu" className="pure-u-1 center">
           {[

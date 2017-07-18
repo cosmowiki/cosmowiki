@@ -170,8 +170,8 @@ export default class AboutComponent extends React.Component {
           <h3>Ohne Idee keine Entwicklung</h3>
         </div>
         <div id="todo" className="pure-u-1">
-          <p>@wolfram pls when clicking on link in #footerElse jump to the question but avoid covering by branding</p>
-          <p>@wolfram pls make the contact form work, send mail to admin@cosmowiki.org</p>
+          <p>@wolfram: pls when clicking on link in #footerElse jump to the question but avoid covering by branding</p>
+          <p>@wolfram: pls make the contact form work, send mail to admin@cosmowiki.org</p>
         </div>
         <div id="about" className="justify">
           <ul id="aboutMenu">

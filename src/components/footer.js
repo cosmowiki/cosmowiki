@@ -4,7 +4,7 @@ const Footer = ({appUrl}) => {
   return (
     <footer className="pure-u-1 center">
       <div id="todo" className="pure-u-1">
-        <p>@wolfram pls insert the shariff-button</p>
+        <p>@wolfram: pls insert the shariff-button</p>
       </div>
       <div id="footerContainer" className="pure-u-1">
         <div id="footerMainPages" className="footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5">

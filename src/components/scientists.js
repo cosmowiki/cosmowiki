@@ -14,8 +14,7 @@ const ScientistsComponent = ({groupedScientists}) => {
         <h3>Astronomen, Kosmologen, Physiker</h3>
       </div>
       <div id="todo" className="pure-u-1">
-        <p>@wolfram pls replace the filter forms with FilterRows as in stars-site</p>
-        <p>@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens</p>
+        <p>@wolfram: same tasks as in people.js</p>
       </div>
       <Summary>
         <p className="summary-text">

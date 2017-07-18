@@ -11,7 +11,7 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
         <h3>Augen und Ohren im All</h3>
       </div>
       <div id="todo" className="pure-u-1">
-        <p>@wolfram pls edit the month in endDate to appear as word when there is no endday (to use it on demand for all dates in all pages)</p>
+        <p>@wolfram: pls edit the month in endDate to appear as word when there is no endday (to use it on demand for all dates in all pages)</p>
       </div>
       <Summary>
         <p className="summary-text">

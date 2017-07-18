@@ -14,8 +14,8 @@ const StarsComponent = ({groupedStars, constellations}) => {
         <h3>strahlende Objekte im All</h3>
       </div>
       <div id="todo" className="pure-u-1">
-        <p>@wolfram pls make the sorter and filter work</p>
-        <p>@wolfram pls let the toggle-switches for sort and filter hide each other on hover on small screens</p>
+        <p>@wolfram: pls make the sorter and filter work</p>
+        <p>@wolfram: pls let the toggle-switches for sort and filter hide each other on hover on small screens</p>
         <p>find a solution for the greek letters / bayer names vs. historical names</p>
       </div>
       <Summary>
