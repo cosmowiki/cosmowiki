@@ -118,7 +118,7 @@ main {background: rgba(255,255,255,.8); border-bottom: 1em solid #eee;}
 #siteTitle {
 	min-height: 4.5em;
 	background: rgba(255,255,255,.5);
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid #fff;
 }
 
 /*#siteTitle.events {background: url("/img/title_chronicle.jpg") center / cover no-repeat;}
@@ -266,7 +266,7 @@ div.summary-img.width-25,
 /*		pageSubMenu ----------------------------------------------------------- */
 
 #pageSubMenu a {
-	display: block; padding: 1em;
+	display: block; padding: 2em;
 	font-size: 1.5em;
 	background: rgba(255,255,255,.8);
 	border-bottom: 1px solid #fff;
