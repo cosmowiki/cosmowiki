@@ -19,9 +19,9 @@ const ScientistsComponent = ({groupedScientists}) => {
       </div>
       <Summary>
         <p className="summary-text">
-          Das Universum ist voller Rätsel, und Millionen Wissenschaftler bemühen sich
-          Tag für Tag, all die mysteriösen Zusammenhänge zu entschlüsseln, um die
-          Natur des Größten und Kleinsten zu beschreiben. Sie stellen Hypothesen
+          Das Universum ist voller Rätsel, und Millionen Wissenschaftler bemühen
+          sich Tag für Tag, all die mysteriösen Zusammenhänge zu entschlüsseln,
+          um die Natur des Größten und Kleinsten zu beschreiben. Sie stellen Hypothesen
           und Theorien auf, führen Beweise und leiten aus ihren Beobachtungen Naturgesetze ab.
         </p>
         <div className="summary-img size-xl float-left">

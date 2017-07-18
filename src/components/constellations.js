@@ -15,7 +15,7 @@ const ConstellationsComponent = ({constellations}) => {
       </div>
       <Summary>
         <p className="summary-text">
-          <em>Orion</em>, <em>Kassiopeia</em> oder die <em>Zwillinge</em> <em>Castor</em> und <em>Pollux</em> -
+          <em>Orion</em>, <em>Kassiopeia</em> oder die beiden <em>Zwillinge</em> <em>Castor</em> und <em>Pollux</em> -
           wir alle kennen mindestens ein Sternbild (Konstellation) und können es
           aus dem Stehgreif am Nachthimmel finden. Die Figuren weisen seit Jahrhunderten
           Reisenden den Weg.
@@ -44,11 +44,11 @@ const ConstellationsComponent = ({constellations}) => {
           </p>
         </div>
         <p className="summary-text">
-          Die Bewohner der südlichen Hemisphäre orientieren sich am <em>Kreuz des Südens</em>, dessen
-          Name von christlichen Seefahrern geprägt wurde. Schon <em>Amerigo Vespucci</em>,
-          nach dem die Neue Welt ihren Namen Amerika erhielt, nutzte das Kreuz des
-          Südens Anfang des 16. Jahrhunderts zur Orientierung auf seinen Reisen
-          entlang der Ostküste Südamerikas.
+          Die Bewohner der südlichen Hemisphäre orientieren sich am <em>Kreuz des
+          Südens</em>, dessen Name von christlichen Seefahrern geprägt wurde.
+          Schon <em>Amerigo Vespucci</em>, nach dem die Neue Welt ihren Namen Amerika
+          erhielt, nutzte das Kreuz des Südens Anfang des 16. Jahrhunderts zur Orientierung
+          auf seinen Reisen entlang der Ostküste Südamerikas.
         </p>
         <p className="summary-text">
           Sternbilder dürften schon in vielen frühgeschichtlichen Kulturen bekannt
@@ -93,15 +93,15 @@ const ConstellationsComponent = ({constellations}) => {
         </div>
         <p className="summary-text">
           Nach einem Vorschlag des amerikanischen Astronomen <em>Henry Norris Russell</em> legte
-          dann 1922 die <em>Internationale Astronomische Union IAU</em> auf ihrer ersten
+          dann 1922 die <em>Internationale Astronomische Union</em> (IAU) auf ihrer ersten
           Generalversammlung 88 Sternbilder fest, deren Grenzen sechs Jahre später
           exakt definiert wurden.
         </p>
         <p className="summary-text">
           Weltweit am bekanntesten dürfte das Kreuz des Südens sein, das auf vielen
-          Flaggen abgebildet ist und auch das Logo der <em>Europäischen Südsternwarte
-          ESO</em> ziert. Der Große Wagen prangt gemeinsam mit dem Polarstern auf
-          der Flagge des US-Bundesstaates Alaska.
+          Flaggen abgebildet ist und auch das Logo der <em>Europäischen
+          Südsternwarte</em> (ESO) ziert. Der Große Wagen prangt gemeinsam mit dem
+          Polarstern auf der Flagge des US-Bundesstaates Alaska.
         </p>
         <h4>Wussten Sie schon?</h4>
         <ul className="summary-list">

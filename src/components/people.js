@@ -70,17 +70,18 @@ const PeopleComponent = ({groupedPeople}) => {
           </p>
         </div>
         <p className="summary-text">
-          Aus dem Fall eines Apfels ein Naturgesetz abzuleiten oder mit akribischer
-          Denkarbeit die Relativität von Raum und Zeit zu formulieren, bringt
-          die Menschheit ebenso voran wie die Entwicklung neuer Materialien oder
-          die Reparatur eines Solarpanels an einer Raumstation.
+          Aus dem Fall eines Apfels ein Naturgesetz abzuleiten, mit akribischer
+          Denkarbeit die Relativität von Raum und Zeit zu formulieren oder jahrzehntelang
+          mit riesigen Detektoren nach Elementarteilchen zu suchen, bringt die Menschheit
+          ebenso voran wie die Ergebnisse biomedizinischer Forschung, die Entwicklung
+          neuer Materialien oder die Reparatur eines Solarpanels an einer Raumstation.
         </p>
         <p className="summary-text">
           Institute und Raumfahrtorganisationen auf der ganzen Welt ringen um
-          Nachwuchs. Die nächsten Ingenieure und Wissenschaftler der MINT-Disziplinen
-          werden die Antriebe der Zukunft entwickeln und die Geheimnisse der Dunklen
-          Materie entschlüsseln, die Raumfahrer von morgen werden auf dem Mars landen.<br />
-          Jeder Einzelne zählt!
+          talentierten und motivierten Nachwuchs. Die nächsten Ingenieure und
+          Wissenschaftler der MINT-Disziplinen werden die Raumfahrtantriebe der
+          Zukunft entwickeln und die Geheimnisse der Dunklen Materie entschlüsseln,
+          die Raumfahrer von morgen werden auf dem Mars landen. Jeder Einzelne zählt!
         </p>
         <h4>Wussten Sie schon?</h4>
         <ul className="summary-list">

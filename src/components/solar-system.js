@@ -39,9 +39,9 @@ const SolarSystemComponent = () => {
         <p className="summary-text">
           Wissenschaftler vermuten den Ursprung des Sonnensystems in einem rotierenden
           Materienebel, der sich durch die Fliehkräfte zu einer <em>Akkretionsscheibe</em> verformte.
-          Mehr und mehr Materie stürzte in das Zentrum der Scheibe und verdichtete sich, bis schließlich
-          unter enormem Druck und immmer weiter steigenden Temperaturen die <em>Kernfusion</em> zündete.
-          Die Sonne war geboren.
+          Mehr und mehr Materie stürzte in das Zentrum der Scheibe und verdichtete
+          sich, bis schließlich unter enormem Druck und immmer weiter steigenden
+          Temperaturen die <em>Kernfusion</em> zündete. Die Sonne war geboren.
         </p>
         <p className="summary-text">
           Rings um den jungen Stern verklumpten Staubteilchen zu immer größeren
@@ -61,15 +61,15 @@ const SolarSystemComponent = () => {
         </div>
         <p className="summary-text">
           So umkreisen heute acht Planeten unseren Zentralstern, seit die <em>Internationale
-          Astronomische Union IAU</em> den früher als Planet geführten <em>Pluto</em> im
+          Astronomische Union</em> (IAU) den früher als Planet geführten <em>Pluto</em> im
           Jahr 2006 zum Zwergplanten herabstufte. Die Entfernungen dabei sind riesig.
           So beträgt der mittlere Abstand zwischen Sonne und Erde ca. 150 Millionen
-          Kilometer, oder eine <em>Astronomische Einheit AU</em>. Die Inneren Planeten
+          Kilometer, oder eine <em>Astronomische Einheit</em> (AU). Die Inneren Planeten
           Merkur, Venus, Erde und Mars sind Gesteinsplaneten, deren Atmosphären
           zwischen sehr dicht (Venus) und sehr dünn (Mars) variieren. Merkur verfügt
           über keine nennenswerte Gashülle. Die sonnenächsten Körper Merkur und
-          Venus besitzen keine Monde, während die Erde von einem, der Mars von zwei
-          Trabanten (<em>Phobos</em> und <em>Deimos</em>) begleitet wird.
+          Venus besitzen keine Monde, während die Erde von einem und der Mars von
+          den zwei Trabanten <em>Phobos</em> und <em>Deimos</em> begleitet wird.
         </p>
         <div className="summary-img float-right">
           <a href="/img/solarsystem/saturn_lg.jpg" title="Saturn - Großansicht">
@@ -82,13 +82,13 @@ const SolarSystemComponent = () => {
         <p className="summary-text">
           Die Äußeren Planeten hingegen sind völlig anders beschaffen. Sie sind <em>Gasplaneten</em>,
           deren Atmosphären je nach Entfernung zur Sonne gasförmig (Jupiter und Saturn)
-          oder sogar teilweise flüssig (<em>Uranus</em> und <em>Neptun</em>) sind. Im Innern besitzen
-          sie wahrscheinlich alle einen kleinen, festen Kern aus Gestein und Eis.
-          Die vier Riesen verfügen zusätzlich auch über Ringsysteme aus Gesteins- oder
-          Eispartikeln unterschiedlicher Größe. Auf den Äquatorebenen der Planeten
-          rotieren sie in mehreren Ringscheiben um sie herum. Jupiter wird von 62
-          Monden umkreist, Saturn sogar von 67! Die Eisriesen Uranus und Neptun
-          verfügen über 27, bzw. 14 Monde.
+          oder sogar teilweise flüssig wie im Fall von <em>Uranus</em> und <em>Neptun</em> sind.
+          Im Innern besitzen sie wahrscheinlich alle einen kleinen, festen Kern
+          aus Gestein und Eis. Die vier Riesen verfügen zusätzlich auch über Ringsysteme
+          aus Gesteins- oder Eispartikeln unterschiedlicher Größe. Auf den Äquatorebenen
+          der Planeten rotieren sie in mehreren Ringscheiben um sie herum. Jupiter
+          wird von 62 Monden umkreist, Saturn sogar von 67! Die Eisriesen Uranus
+          und Neptun verfügen über 27, bzw. 14 Monde.
         </p>
         <div className="summary-img float-left size-lg">
           <a href="/img/solarsystem/mainbelt_and_trojans.png" title="Trojaner - Großansicht">
@@ -104,7 +104,7 @@ const SolarSystemComponent = () => {
           Objekte in unserem Sonnensystem, die in der Entstehungsphase nicht von
           der Sonne oder den Planeten eingefangen wurden. So werden die Bahnen
           der inneren Planeten von unzähligen <em>Asteroiden</em> verschiedenster
-          Größen (auch <em>Planetoiden</em> genannt) gekreuzt. Die meisten konzentrieren
+          Größen, auch <em>Planetoiden</em> genannt, gekreuzt. Die meisten konzentrieren
           sich im <em>Hauptgürtel</em> zwischen Mars und Jupiter.
         </p>
         <div className="summary-img size-sm">

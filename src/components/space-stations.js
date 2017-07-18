@@ -48,7 +48,7 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
           Ganz so einfach ist es natürlich nicht. Raumstationen zählen zu den teuersten
           Raumfahrtprojekten überhaupt. Sie sind so aufwändig, dass sich zur Zeit
           14 Nationen mit ihren Raumfahrtagenturen an der <em>Internationalen
-          Raumstation ISS</em> beteiligen. Die ersten Stationen waren einzelne Raumschiffe,
+          Raumstation</em> (ISS) beteiligen. Die ersten Stationen waren einzelne Raumschiffe,
           für eine Besatzung von zwei bis drei Raumfahrern ausgelegt, während sich auf der
           ISS, die inzwischen aus einer Vielzahl von Modulen besteht, bis zu sechs
           Astronauten gleichzeitig aufhalten können.
@@ -135,10 +135,10 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
           Für den Betrieb und die Versorgung großer Habitate im All ist internationale
           Kooperation nötig. Russland (<em>Roskosmos</em>), die USA (<em>NASA</em>),
           Japan (<em>JAXA</em>) und die EU (<em>ESA</em>) sind die Hauptbetreiber
-          der ISS. Inzwischen hat die <em>Nationale Weltraumbehörde Chinas CNSA</em> ebenfalls
-          eigene Raumstationen gestartet - <em>Tiangong 1</em> war die erste, und
-          weitere werden folgen. Auch private Raumfahrtunternehmen steigen zunehmend
-          in diese gewaltigen Projekte mit ein.
+          der ISS. Inzwischen hat die <em>Nationale Weltraumbehörde Chinas</em> (CNSA)
+          ebenfalls eigene Raumstationen gestartet - <em>Tiangong 1</em> war die
+          erste, und weitere werden folgen. Auch private Raumfahrtunternehmen steigen
+          zunehmend in diese gewaltigen Projekte mit ein.
         </p>
         <p className="summary-text">
           Eines Tages wird die ISS durch einen Nachfolger abgelöst werden, und
@@ -155,8 +155,8 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
             Aufklärung und gingen aus dem <em>Almaz-Programm</em> hervor.
           </li>
           <li>
-            Der Start von Skylab war gleichzeitig auch der letzte Start einer
-            <em>Saturn V</em> Rakete - in diesem Fall mit nur zwei Stufen.
+            Der Start von Skylab war gleichzeitig auch der letzte Start einer <em>Saturn
+            V</em> Rakete - in diesem Fall mit nur zwei Stufen.
           </li>
           <li>
             <em>Alexander Wolkow</em> und <em>Sergei Krikaljow</em> betraten 1991

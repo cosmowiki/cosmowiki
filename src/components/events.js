@@ -40,8 +40,7 @@ export default class ChronicleComponent extends React.Component {
           <p className="summary-text">
             Seit Jahrtausenden blicken wir in den Himmel und versuchen zu ergründen,
             was uns umgibt und woher wir kommen. Auch die frühen Menschen stellten
-            sich wohl schon die große Frage:<br />
-            Was ist dort draußen?
+            sich wohl schon die große Frage: Was ist dort draußen?
           </p>
           <div className="summary-img float-left size-md">
             <a href="/img/events/nebra_lg.jpg" title="Himmelsscheibe von Nebra - Großansicht">
@@ -86,10 +85,10 @@ export default class ChronicleComponent extends React.Component {
             Traditionen setzten sich bahnbrechende Erkenntnisse jedoch nur langsam durch.
           </p>
           <p className="summary-text">
-            Vor 500 Jahren sprengte dann das <em>Fernrohr</em> die Grenzen des menschlichen Auges.
-            Nach und nach offenbarten sich die Gesetze der Natur, unser Weltbild
-            wurde präziser. <em>Planetenbahnen</em> und die <em>Gravitation</em> wurden in der Sprache
-            der Mathematik beschrieben.
+            Vor 500 Jahren sprengte dann das <em>Fernrohr</em> die Grenzen des
+            menschlichen Auges. Nach und nach offenbarten sich die Gesetze der Natur,
+            unser Weltbild wurde präziser. <em>Planetenbahnen</em> und
+            die <em>Gravitation</em> wurden in der Sprache der Mathematik beschrieben.
           </p>
           <div className="summary-img float-left size-lg">
             <a href="/img/events/Columbia_sts-1_lg.jpg" title="Space Shuttle Columbia STS-1 - Großansicht">
@@ -115,9 +114,9 @@ export default class ChronicleComponent extends React.Component {
           <p className="summary-text">
             <em>Urknall</em>, <em>Raumzeit</em> und <em>Quantenmechanik</em>, die Kräfte
             im <em>Atom</em>, <em>Schwarze Löcher</em> und <em>Dunkle Materie</em> - immer
-            weiter dringt die Menschheit in die Tiefen des Alls vor. Mit Augen,
-            Ohren und Raumsonden greifen wir nach den Sternen, und jedes gelöste
-            Rätsel wirft neue Fragen auf. Willkommen in der Gegenwart!
+            weiter dringt die Menschheit in die Geheimnissefen des Universums vor.
+            Mit Augen, Ohren und Raumsonden greifen wir nach den Sternen, und jedes
+            gelöste Rätsel wirft neue Fragen auf. Willkommen in der Gegenwart!
           </p>
           <h4>Wussten Sie schon?</h4>
           <ul className="summary-list">

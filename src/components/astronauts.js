@@ -19,9 +19,9 @@ const AstronautsComponent = ({groupedAstronauts}) => {
       </div>
       <Summary>
         <p className="summary-text">
-          Nach der Definition der <em>Fédération Aéronautique Internationale FAI</em> beginnt
+          Nach der Definition der <em>Fédération Aéronautique Internationale</em> (FAI) beginnt
           der Weltraum in einer Höhe von 100 km über der Erdoberfläche.
-          Die <em>International Association of Space Explorers ASE</em> und alle internationalen
+          Die <em>International Association of Space Explorers</em> (ASE) und alle internationalen
           Raumfahrtagenturen erkennen nur solche Personen als Raumfahrer an, welche
           bei einem Raumflug mindestens eine Erdumkreisung absolviert haben.
           Somit ist ein Mensch ein Raumfahrer, wenn er die 100-Kilometer-Marke überflogen
@@ -45,7 +45,7 @@ const AstronautsComponent = ({groupedAstronauts}) => {
         </p>
         <p className="summary-text">
           Bemannte Raumfahrt zu betreiben, war ein prestigeträchtiges Unterfangen
-          für eine Nation. Zwischen den beiden Supermächten <em>UdSSR</em> und <em>USA</em> entbrannte
+          für eine Nation. Zwischen den beiden Supermächten UdSSR und USA entbrannte
           ein Wettstreit darum, welches Land den ersten Menschen ins All schicken würde.
         </p>
         <div className="summary-img size-lg">
@@ -55,12 +55,13 @@ const AstronautsComponent = ({groupedAstronauts}) => {
           </p>
         </div>
         <p className="summary-text">
-          <em>Juri Gagarin</em> umrundete dann am 12. April 1961 mit <em>Wostok 1</em> als erster Mensch
-          die Erde - die Sowjets hatten dieses Rennen also gewonnen. Der erste US-Amerikaner
-          im All war dann <em>Alan Shepard</em>. Am 5. Mai 1961 absolvierte er
-          mit <em>Mercury-Redstone 3</em> einen suborbitalen Flug mit einer Gipfelhöhe
-          von 187 Kilometern. Den ersten amerikanischen Orbitalflug führte <em>John Glenn</em> am
-          20. Februar 1962 mit <em>Mercury-Atlas 6</em> durch.
+          <em>Juri Gagarin</em> umrundete dann am 12. April 1961 mit <em>Wostok 1</em> als
+          erster Mensch die Erde - die Sowjets hatten dieses Rennen also gewonnen.
+          Der erste US-Amerikaner im All war dann <em>Alan Shepard</em>. Am 5. Mai
+          1961 absolvierte er mit <em>Mercury-Redstone 3</em> einen suborbitalen
+          Flug mit einer Gipfelhöhe von 187 Kilometern. Den ersten amerikanischen
+          Orbitalflug führte <em>John Glenn</em> am 20. Februar 1962 mit <em>Mercury-Atlas
+          6</em> durch.
         </p>
         <p className="summary-text">
           In den ersten Jahren der bemannten Raumfahrt wurden Astronauten, oder
@@ -80,10 +81,11 @@ const AstronautsComponent = ({groupedAstronauts}) => {
           </p>
         </div>
         <p className="summary-text">
-          Das Training der Astronauten ist legendär. Allein um die <em>G-Kräfte</em> während eines
-          Raumfluges zu überstehen, sind ausgiebige Belastungsproben in der <em>Zentrifuge</em> nötig.
-          So traten bei den Starts der US-amerikanischen Space-Shuttles etwa 3 bis 4 g auf,
-          die Kosmonauten in den Sojus-Kapseln sind hingegen bei der Landung bis zu 10 g ausgesetzt.
+          Das Training der Astronauten ist legendär. Allein um die <em>G-Kräfte</em> während
+          eines Raumfluges zu überstehen, sind ausgiebige Belastungsproben in
+          der Zentrifuge nötig. So traten bei den Starts der US-amerikanischen
+          Space-Shuttles etwa 3 bis 4 g auf, die Kosmonauten in den Sojus-Kapseln
+          sind hingegen bei der Landung bis zu 10 g ausgesetzt.
         </p>
         <div className="summary-img">
           <a href="/img/astronauts/NASA_Apollo_17_Lunar_Roving_Vehicle_lg.jpg" title="Lunar Roving Vehicle - Großansicht">
@@ -95,10 +97,10 @@ const AstronautsComponent = ({groupedAstronauts}) => {
         </div>
         <p className="summary-text">
           Die Schwerelosigkeit im All stellt wiederum völlig andere Anforderungen
-          an den menschlichen Körper, besonders an den Gleichgewichtssinn. Muskel- und
-          Knochenschwund sind die bekanntesten Nebenwirkungen eines Aufenthaltes im Weltall.
-          Für die Raumfahrer auf Langzeitmissionen bedeutet dies, ein intensives
-          Sportprogramm abzuleisten - jeden Tag.
+          an den menschlichen Körper, besonders an den Gleichgewichtssinn. Muskel-
+          und Knochenschwund sind die bekanntesten Nebenwirkungen eines Aufenthaltes
+          im Weltall. Für die Raumfahrer auf Langzeitmissionen bedeutet dies, ein
+          intensives Sportprogramm abzuleisten - jeden Tag.
         </p>
         <div className="summary-img">
           <a href="/img/astronauts/Concept_Mars_colony_lg.jpg" title="Besiedlung des Mars - Großansicht">
@@ -110,10 +112,11 @@ const AstronautsComponent = ({groupedAstronauts}) => {
         </div>
         <p className="summary-text">
           In der Ausbildung der Astronauten ist das physische Training hingegen
-          nur ein kleiner Teil. Für eine Mission zur <em>Internationalen Raumstation
-          ISS</em> werden die heutigen Raumfahrer insgesamt zwei Jahre lang geschult.
-          Um überhaupt ausgewählt zu werden, bedarf es einer Menge Durchhaltevermögen
-          und auch Glück. Unter vielen Tausenden Bewerbern schafft es am Ende nur eine Handvoll.
+          nur ein kleiner Teil. Für eine Mission zur <em>Internationalen
+          Raumstation</em> (ISS) werden die heutigen Raumfahrer insgesamt zwei Jahre
+          lang geschult. Um überhaupt ausgewählt zu werden, bedarf es einer Menge
+          Durchhaltevermögen und auch Glück. Unter vielen Tausenden Bewerbern schafft
+          es am Ende nur eine Handvoll Kandidaten.
         </p>
         <p className="summary-text">
           Die Aufgaben der künftigen Raumfahrer werden sich Schritt für Schritt erweitern.

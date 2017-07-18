@@ -55,11 +55,12 @@ const MissionsComponent = ({missions}) => {
           die Raketentechnik und die Raumfahrt dar.
         </p>
         <p className="summary-text">
-          Nach vielen Rückschlägen aber auch einigen erfolgreichen Starts auf beiden Seiten
-          schossen dann die Sowjets am 4. Oktober 1957 mit <em>Sputnik 1</em> den ersten künstlichen
-          Satelliten in eine Erdumlaufbahn. Diese silbrig glänzende Kugel, 58 cm
-          im Durchmesser, mit ihren vier Antennen war das erste von Menschen geschaffene Objekt im All.
-          Die USA erlebten ihren "Sputnik-Schock" und starteten nur knapp vier Monate später,
+          Nach vielen Rückschlägen aber auch einigen erfolgreichen Starts auf beiden
+          Seiten schossen dann die Sowjets am 4. Oktober 1957 mit <em>Sputnik
+          1</em> den ersten künstlichen Satelliten in eine Erdumlaufbahn. Diese
+          silbrig glänzende Kugel, 58 cm im Durchmesser, mit ihren vier Antennen
+          war das erste von Menschen geschaffene Objekt im All. Die USA erlebten
+          ihren "Sputnik-Schock" und starteten nur knapp vier Monate später,
           am 1. Februar 1958 ihren ersten Satelliten <em>Explorer 1</em>.<br />
           Der "Wettlauf ins All" hatte begonnen.
         </p>
@@ -94,9 +95,10 @@ const MissionsComponent = ({missions}) => {
           <em>Juri Gagarin</em> war der erste Mensch im All, unzählige Satelliten
           für die Forschung, Spionage und Nachrichtenübermittlung und riesige
           Raumstationen kreisen im Erdorbit, <em>Weltraumausstiege</em> - sogar auf dem
-          Mond, <em>Landesonden</em> - auch <em>Rover</em> auf anderen Planeten, ja
-          auf Asteroiden, <em>Raumsonden</em> am Rand unseres Sonnensystems, <em>Weltraumteleskope</em>, die
-          phantastische Erkenntnisse und Aufnahmen liefern.
+          Mond, <em>Landesonden</em> - auch <em>Rover</em> auf anderen Planeten,
+          ja auf Asteroiden, <em>Raumsonden</em> am Rand unseres
+          Sonnensystems, <em>Weltraumteleskope</em>, die phantastische Erkenntnisse
+          und Aufnahmen liefern.
         </p>
         <div className="summary-img">
           <a href="/img/missions/voyager_spacecraft_lg.jpg" title="Voyager-Raumsonde - Großansicht">
@@ -137,7 +139,7 @@ const MissionsComponent = ({missions}) => {
         <h4>Wussten Sie schon?</h4>
         <ul className="summary-list">
           <li>
-            Die <em>Fédération Aéronautique Internationale FAI</em> definiert
+            Die <em>Fédération Aéronautique Internationale</em> (FAI) definiert
             die Grenze zum Weltraum bei 100 km Höhe über dem Meeresspiegel.
           </li>
           <li>

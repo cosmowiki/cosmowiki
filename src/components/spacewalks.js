@@ -14,7 +14,7 @@ const SpacewalksComponent = ({spacewalks}) => {
           <em>Der Weltraumausstieg</em>, auch <em>EVA</em> (extra-vehicular activity = Außenbordaktivität)
           oder <em>spacewalk</em> genannt, ist ein Begriff für den Aufenthalt von
           Astronauten außerhalb eines Raumfahrzeuges im Vakuum des Weltalls oder
-          auf einem anderen Himmelskörper. (z. B. Lunar Extra Vehicular Activity = LEVA)
+          auf einem anderen Himmelskörper. (z. B. <em>Lunar Extra Vehicular Activity</em> = LEVA)
           Er wird meist für Arbeiten an einem Raumfahrzeug, zu wissenschaftlichen
           Zwecken oder zur Erprobung neuer Techniken durchgeführt.
         </p>
@@ -46,10 +46,11 @@ const SpacewalksComponent = ({spacewalks}) => {
           </p>
         </div>
         <p className="summary-text">
-          Wirklich freie Aufenthalte im All ohne Sicherungsleine wurden mit der <em>Manned Maneuvering Unit</em> (MMU),
-          einer Art Tornister mit kleinen Schubdüsen möglich. Sie werden nur in
-          Ausnahmefällen durchgeführt. Der aktuelle Nachfolger der MMU ist
-          das <em>SAFER</em>-System (Simplified Aid for EVA Rescue).
+          Wirklich freie Aufenthalte im All ohne Sicherungsleine wurden mit
+          der <em>Manned Maneuvering Unit</em> (MMU), einer Art Tornister mit kleinen
+          Schubdüsen möglich. Sie werden nur in Ausnahmefällen durchgeführt. Der
+          aktuelle Nachfolger der MMU ist das <em>SAFER</em>-System (Simplified
+            Aid for EVA Rescue).
         </p>
         <p className="summary-text">
           Der sowjetische Kosmonaut <em>Alexei Leonow</em> absolvierte am 18. März 1965
@@ -68,14 +69,14 @@ const SpacewalksComponent = ({spacewalks}) => {
         <p className="summary-text">
           Bei der Rückkehr in das Raumschiff ergaben sich große Schwierigkeiten,
           da sich der Berkut-Raumanzug durch den fehlenden Gegendruck im All aufgebläht
-          hatte und zu steif geworden war. Erst als Leonow Druck aus seinem Anzug abgelassen
-          hatte, gelang ihm der Einstieg in die Schleuse. Durch den Stress dabei
-          stieg seine Körpertemperatur um 3,2 °C an. In dem Buch "Zwei Mann im Mond" verarbeitete
-          er seinen Weltraum"spaziergang" und die gesamte Mission.
+          hatte und zu steif geworden war. Erst als Leonow Druck aus seinem Anzug
+          abgelassen hatte, gelang ihm der Einstieg in die Schleuse. Durch den Stress
+          dabei stieg seine Körpertemperatur um 3,2 °C an. In dem Buch "Zwei Mann im Mond"
+          verarbeitete er seinen Weltraum"spaziergang" und die gesamte Mission.
         </p>
         <p className="summary-text">
-          Die erste Frau, die einen Außenbordeinsatz durchführte, war <em>Swetlana Sawizkaja</em> am
-          25. Juli 1984 an Bord der sowjetischen Raumstation <em>Saljut 7</em>.
+          Die erste Frau, die einen Außenbordeinsatz durchführte, war <em>Swetlana
+          Sawizkaja</em> am 25. Juli 1984 an Bord der sowjetischen Raumstation <em>Saljut 7</em>.
           Gemeinsam mit <em>Wladimir Dschanibekow</em> testete sie neue Werkzeuge
           und Verfahren zum Schweißen, Schneiden und Beschichten von Materialien
           unter Weltraumbedingungen.
