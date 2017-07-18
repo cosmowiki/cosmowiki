@@ -34445,15 +34445,15 @@ var AstronautsComponent = function AstronautsComponent(_ref) {
         _react2['default'].createElement(
           'em',
           null,
-          'Fédération Aéronautique Internationale FAI'
+          'Fédération Aéronautique Internationale'
         ),
-        ' beginnt der Weltraum in einer Höhe von 100 km über der Erdoberfläche. Die ',
+        ' (FAI) beginnt der Weltraum in einer Höhe von 100 km über der Erdoberfläche. Die ',
         _react2['default'].createElement(
           'em',
           null,
-          'International Association of Space Explorers ASE'
+          'International Association of Space Explorers'
         ),
-        ' und alle internationalen Raumfahrtagenturen erkennen nur solche Personen als Raumfahrer an, welche bei einem Raumflug mindestens eine Erdumkreisung absolviert haben. Somit ist ein Mensch ein Raumfahrer, wenn er die 100-Kilometer-Marke überflogen und dabei mindestens einmal die Erde umkreist hat.'
+        ' (ASE) und alle internationalen Raumfahrtagenturen erkennen nur solche Personen als Raumfahrer an, welche bei einem Raumflug mindestens eine Erdumkreisung absolviert haben. Somit ist ein Mensch ein Raumfahrer, wenn er die 100-Kilometer-Marke überflogen und dabei mindestens einmal die Erde umkreist hat.'
       ),
       _react2['default'].createElement(
         'div',
@@ -34477,19 +34477,7 @@ var AstronautsComponent = function AstronautsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Bemannte Raumfahrt zu betreiben, war ein prestigeträchtiges Unterfangen für eine Nation. Zwischen den beiden Supermächten ',
-        _react2['default'].createElement(
-          'em',
-          null,
-          'UdSSR'
-        ),
-        ' und ',
-        _react2['default'].createElement(
-          'em',
-          null,
-          'USA'
-        ),
-        ' entbrannte ein Wettstreit darum, welches Land den ersten Menschen ins All schicken würde.'
+        'Bemannte Raumfahrt zu betreiben, war ein prestigeträchtiges Unterfangen für eine Nation. Zwischen den beiden Supermächten UdSSR und USA entbrannte ein Wettstreit darum, welches Land den ersten Menschen ins All schicken würde.'
       ),
       _react2['default'].createElement(
         'div',
@@ -34569,13 +34557,7 @@ var AstronautsComponent = function AstronautsComponent(_ref) {
           null,
           'G-Kräfte'
         ),
-        ' während eines Raumfluges zu überstehen, sind ausgiebige Belastungsproben in der ',
-        _react2['default'].createElement(
-          'em',
-          null,
-          'Zentrifuge'
-        ),
-        ' nötig. So traten bei den Starts der US-amerikanischen Space-Shuttles etwa 3 bis 4 g auf, die Kosmonauten in den Sojus-Kapseln sind hingegen bei der Landung bis zu 10 g ausgesetzt.'
+        ' während eines Raumfluges zu überstehen, sind ausgiebige Belastungsproben in der Zentrifuge nötig. So traten bei den Starts der US-amerikanischen Space-Shuttles etwa 3 bis 4 g auf, die Kosmonauten in den Sojus-Kapseln sind hingegen bei der Landung bis zu 10 g ausgesetzt.'
       ),
       _react2['default'].createElement(
         'div',
@@ -34617,9 +34599,9 @@ var AstronautsComponent = function AstronautsComponent(_ref) {
         _react2['default'].createElement(
           'em',
           null,
-          'Internationalen Raumstation ISS'
+          'Internationalen Raumstation'
         ),
-        ' werden die heutigen Raumfahrer insgesamt zwei Jahre lang geschult. Um überhaupt ausgewählt zu werden, bedarf es einer Menge Durchhaltevermögen und auch Glück. Unter vielen Tausenden Bewerbern schafft es am Ende nur eine Handvoll.'
+        ' (ISS) werden die heutigen Raumfahrer insgesamt zwei Jahre lang geschult. Um überhaupt ausgewählt zu werden, bedarf es einer Menge Durchhaltevermögen und auch Glück. Unter vielen Tausenden Bewerbern schafft es am Ende nur eine Handvoll Kandidaten.'
       ),
       _react2['default'].createElement(
         'p',
@@ -35290,7 +35272,7 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
           null,
           'Kassiopeia'
         ),
-        ' oder die ',
+        ' oder die beiden ',
         _react2['default'].createElement(
           'em',
           null,
@@ -35495,9 +35477,9 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
         _react2['default'].createElement(
           'em',
           null,
-          'Internationale Astronomische Union IAU'
+          'Internationale Astronomische Union'
         ),
-        ' auf ihrer ersten Generalversammlung 88 Sternbilder fest, deren Grenzen sechs Jahre später exakt definiert wurden.'
+        ' (IAU) auf ihrer ersten Generalversammlung 88 Sternbilder fest, deren Grenzen sechs Jahre später exakt definiert wurden.'
       ),
       _react2['default'].createElement(
         'p',
@@ -35506,9 +35488,9 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
         _react2['default'].createElement(
           'em',
           null,
-          'Europäischen Südsternwarte ESO'
+          'Europäischen Südsternwarte'
         ),
-        ' ziert. Der Große Wagen prangt gemeinsam mit dem Polarstern auf der Flagge des US-Bundesstaates Alaska.'
+        ' (ESO) ziert. Der Große Wagen prangt gemeinsam mit dem Polarstern auf der Flagge des US-Bundesstaates Alaska.'
       ),
       _react2['default'].createElement(
         'h4',
@@ -35862,9 +35844,7 @@ var ChronicleComponent = (function (_React$Component) {
           _react2['default'].createElement(
             'p',
             { className: 'summary-text' },
-            'Seit Jahrtausenden blicken wir in den Himmel und versuchen zu ergründen, was uns umgibt und woher wir kommen. Auch die frühen Menschen stellten sich wohl schon die große Frage:',
-            _react2['default'].createElement('br', null),
-            'Was ist dort draußen?'
+            'Seit Jahrtausenden blicken wir in den Himmel und versuchen zu ergründen, was uns umgibt und woher wir kommen. Auch die frühen Menschen stellten sich wohl schon die große Frage: Was ist dort draußen?'
           ),
           _react2['default'].createElement(
             'div',
@@ -36007,7 +35987,7 @@ var ChronicleComponent = (function (_React$Component) {
               null,
               'Dunkle Materie'
             ),
-            ' - immer weiter dringt die Menschheit in die Tiefen des Alls vor. Mit Augen, Ohren und Raumsonden greifen wir nach den Sternen, und jedes gelöste Rätsel wirft neue Fragen auf. Willkommen in der Gegenwart!'
+            ' - immer weiter dringt die Menschheit in die Geheimnissefen des Universums vor. Mit Augen, Ohren und Raumsonden greifen wir nach den Sternen, und jedes gelöste Rätsel wirft neue Fragen auf. Willkommen in der Gegenwart!'
           ),
           _react2['default'].createElement(
             'h4',
@@ -36998,9 +36978,9 @@ var MissionsComponent = function MissionsComponent(_ref) {
           _react2['default'].createElement(
             'em',
             null,
-            'Fédération Aéronautique Internationale FAI'
+            'Fédération Aéronautique Internationale'
           ),
-          ' definiert die Grenze zum Weltraum bei 100 km Höhe über dem Meeresspiegel.'
+          ' (FAI) definiert die Grenze zum Weltraum bei 100 km Höhe über dem Meeresspiegel.'
         ),
         _react2['default'].createElement(
           'li',
@@ -38079,14 +38059,12 @@ var PeopleComponent = function PeopleComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Aus dem Fall eines Apfels ein Naturgesetz abzuleiten oder mit akribischer Denkarbeit die Relativität von Raum und Zeit zu formulieren, bringt die Menschheit ebenso voran wie die Entwicklung neuer Materialien oder die Reparatur eines Solarpanels an einer Raumstation.'
+        'Aus dem Fall eines Apfels ein Naturgesetz abzuleiten, mit akribischer Denkarbeit die Relativität von Raum und Zeit zu formulieren oder jahrzehntelang mit riesigen Detektoren nach Elementarteilchen zu suchen, bringt die Menschheit ebenso voran wie die Ergebnisse biomedizinischer Forschung, die Entwicklung neuer Materialien oder die Reparatur eines Solarpanels an einer Raumstation.'
       ),
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Institute und Raumfahrtorganisationen auf der ganzen Welt ringen um Nachwuchs. Die nächsten Ingenieure und Wissenschaftler der MINT-Disziplinen werden die Antriebe der Zukunft entwickeln und die Geheimnisse der Dunklen Materie entschlüsseln, die Raumfahrer von morgen werden auf dem Mars landen.',
-        _react2['default'].createElement('br', null),
-        'Jeder Einzelne zählt!'
+        'Institute und Raumfahrtorganisationen auf der ganzen Welt ringen um talentierten und motivierten Nachwuchs. Die nächsten Ingenieure und Wissenschaftler der MINT-Disziplinen werden die Raumfahrtantriebe der Zukunft entwickeln und die Geheimnisse der Dunklen Materie entschlüsseln, die Raumfahrer von morgen werden auf dem Mars landen. Jeder Einzelne zählt!'
       ),
       _react2['default'].createElement(
         'h4',
@@ -39380,9 +39358,9 @@ var SolarSystemComponent = function SolarSystemComponent() {
         _react2['default'].createElement(
           'em',
           null,
-          'Internationale Astronomische Union IAU'
+          'Internationale Astronomische Union'
         ),
-        ' den früher als Planet geführten ',
+        ' (IAU) den früher als Planet geführten ',
         _react2['default'].createElement(
           'em',
           null,
@@ -39392,9 +39370,9 @@ var SolarSystemComponent = function SolarSystemComponent() {
         _react2['default'].createElement(
           'em',
           null,
-          'Astronomische Einheit AU'
+          'Astronomische Einheit'
         ),
-        '. Die Inneren Planeten Merkur, Venus, Erde und Mars sind Gesteinsplaneten, deren Atmosphären zwischen sehr dicht (Venus) und sehr dünn (Mars) variieren. Merkur verfügt über keine nennenswerte Gashülle. Die sonnenächsten Körper Merkur und Venus besitzen keine Monde, während die Erde von einem, der Mars von zwei Trabanten (',
+        ' (AU). Die Inneren Planeten Merkur, Venus, Erde und Mars sind Gesteinsplaneten, deren Atmosphären zwischen sehr dicht (Venus) und sehr dünn (Mars) variieren. Merkur verfügt über keine nennenswerte Gashülle. Die sonnenächsten Körper Merkur und Venus besitzen keine Monde, während die Erde von einem und der Mars von den zwei Trabanten ',
         _react2['default'].createElement(
           'em',
           null,
@@ -39406,7 +39384,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           null,
           'Deimos'
         ),
-        ') begleitet wird.'
+        ' begleitet wird.'
       ),
       _react2['default'].createElement(
         'div',
@@ -39431,7 +39409,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           null,
           'Gasplaneten'
         ),
-        ', deren Atmosphären je nach Entfernung zur Sonne gasförmig (Jupiter und Saturn) oder sogar teilweise flüssig (',
+        ', deren Atmosphären je nach Entfernung zur Sonne gasförmig (Jupiter und Saturn) oder sogar teilweise flüssig wie im Fall von ',
         _react2['default'].createElement(
           'em',
           null,
@@ -39443,7 +39421,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
           null,
           'Neptun'
         ),
-        ') sind. Im Innern besitzen sie wahrscheinlich alle einen kleinen, festen Kern aus Gestein und Eis. Die vier Riesen verfügen zusätzlich auch über Ringsysteme aus Gesteins- oder Eispartikeln unterschiedlicher Größe. Auf den Äquatorebenen der Planeten rotieren sie in mehreren Ringscheiben um sie herum. Jupiter wird von 62 Monden umkreist, Saturn sogar von 67! Die Eisriesen Uranus und Neptun verfügen über 27, bzw. 14 Monde.'
+        ' sind. Im Innern besitzen sie wahrscheinlich alle einen kleinen, festen Kern aus Gestein und Eis. Die vier Riesen verfügen zusätzlich auch über Ringsysteme aus Gesteins- oder Eispartikeln unterschiedlicher Größe. Auf den Äquatorebenen der Planeten rotieren sie in mehreren Ringscheiben um sie herum. Jupiter wird von 62 Monden umkreist, Saturn sogar von 67! Die Eisriesen Uranus und Neptun verfügen über 27, bzw. 14 Monde.'
       ),
       _react2['default'].createElement(
         'div',
@@ -39474,13 +39452,13 @@ var SolarSystemComponent = function SolarSystemComponent() {
           null,
           'Asteroiden'
         ),
-        ' verschiedenster Größen (auch ',
+        ' verschiedenster Größen, auch ',
         _react2['default'].createElement(
           'em',
           null,
           'Planetoiden'
         ),
-        ' genannt) gekreuzt. Die meisten konzentrieren sich im ',
+        ' genannt, gekreuzt. Die meisten konzentrieren sich im ',
         _react2['default'].createElement(
           'em',
           null,
@@ -40420,9 +40398,9 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
         _react2['default'].createElement(
           'em',
           null,
-          'Internationalen Raumstation ISS'
+          'Internationalen Raumstation'
         ),
-        ' beteiligen. Die ersten Stationen waren einzelne Raumschiffe, für eine Besatzung von zwei bis drei Raumfahrern ausgelegt, während sich auf der ISS, die inzwischen aus einer Vielzahl von Modulen besteht, bis zu sechs Astronauten gleichzeitig aufhalten können.'
+        ' (ISS) beteiligen. Die ersten Stationen waren einzelne Raumschiffe, für eine Besatzung von zwei bis drei Raumfahrern ausgelegt, während sich auf der ISS, die inzwischen aus einer Vielzahl von Modulen besteht, bis zu sechs Astronauten gleichzeitig aufhalten können.'
       ),
       _react2['default'].createElement(
         'div',
@@ -40583,9 +40561,9 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
         _react2['default'].createElement(
           'em',
           null,
-          'Nationale Weltraumbehörde Chinas CNSA'
+          'Nationale Weltraumbehörde Chinas'
         ),
-        ' ebenfalls eigene Raumstationen gestartet - ',
+        ' (CNSA) ebenfalls eigene Raumstationen gestartet - ',
         _react2['default'].createElement(
           'em',
           null,
@@ -40626,7 +40604,7 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
         _react2['default'].createElement(
           'li',
           null,
-          'Der Start von Skylab war gleichzeitig auch der letzte Start einer',
+          'Der Start von Skylab war gleichzeitig auch der letzte Start einer ',
           _react2['default'].createElement(
             'em',
             null,
@@ -40904,55 +40882,213 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Mit der Aufnahme "Hubble Ultra Deep Field" (HUDF) gelang der Blick in 13 Milliarden Lichtjahre entfernte Regionen des Weltraums und damit in eine Zeit, in der das Universum geade einmal 800 Millionen Jahre alt war.'
+        'Mit der Aufnahme ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Hubble Ultra Deep Field'
+        ),
+        ' (HUDF) gelang dem ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Hubble-Weltraumteleskop'
+        ),
+        ' (HST) im Jahr 2004 der Blick in 13 Milliarden Lichtjahre entfernte Regionen des Weltraums und damit in eine Zeit, in der das Universum geade einmal 800 Millionen Jahre alt war. Es zeigte auf spektakuläre Weise die Leistungsfähigkeit von Teleskopen im All und wurde 2012 vom ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Hubble Extreme Deep Field'
+        ),
+        ' (XDF) noch um 200 Millionen Lichtjahre übertroffen.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img size-xl' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/spacetelescopes/Hubble_Extreme_Deep_Field_lg.jpg', title: 'Hubble Extreme Deep Field (XDF) - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/spacetelescopes/Hubble_Extreme_Deep_Field_sm.jpg', alt: 'Hubble Extreme Deep Field (XDF)' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Hubble Extreme Deep Field (XDF)'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Weltraumteleskope, die in extreme Tiefe des Alls blicken, können also Zeitmaschinen sein. Ungestört von atmosphärischen Einflüssen enthüllen sie zum Beispiel, welche Eigenschaften die frühen Galaxien aufwiesen. Doch nicht nur die enorme zeitliche und räumliche Tiefe ist ein wichtiges Forschungsfeld der Astronomen. Auch nicht so extrem weit entfernte, beziehungsweise alte Objekte können Dank der enormen Detailgenauigkeit unserer Augen und Ohren im All genauestens untersucht werden.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img size-lg' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/spacetelescopes/Electromagnetic_spectrum_lg.png', title: 'elektromagnetisches Spektrum - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/spacetelescopes/Electromagnetic_spectrum_sm.png', alt: 'elektromagnetisches Spektrum' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'elektromagnetisches Spektrum, Horst Frank / Phrood / Anony, ',
+          _react2['default'].createElement(
+            'a',
+            { href: 'http://creativecommons.org/licenses/by-sa/3.0/', title: 'CC BY-SA 3.0' },
+            'CC BY-SA 3.0'
+          )
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Sichtbares Licht ist nur ein Bereich von vielen im elektromagnetischen Spektrum, der hohen Erkenntnisgewinn verspricht. Das erste Weltraumteleskop in der Geschichte - ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Radio Astronomy Explorer A'
+        ),
+        ' (1968) erforschte Radioquellen in unserer Heimatgalaxie, der Milchstraße. Auch die Teleskope der folgenden 20 Jahre arbeiteten nicht im Bereich des sichtbaren Lichtes, sondern zeichneten ultraviolettes oder infrarotes Licht, Röntgen- oder Gammastrahlung auf.'
       ),
       _react2['default'].createElement(
         'div',
         { className: 'summary-img' },
         _react2['default'].createElement(
           'a',
-          { href: '/img/stars/1_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-          _react2['default'].createElement('img', { src: '/img/stars/1_sm.jpg', alt: 'Bildbeschreibung' })
+          { href: '/img/spacetelescopes/COBE_cmb_fluctuations_lg.png', title: 'COBE - kosmische Hintergrundstrahlung - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/spacetelescopes/COBE_cmb_fluctuations_sm.png', alt: 'COBE - kosmische Hintergrundstrahlung' })
         ),
         _react2['default'].createElement(
           'p',
           { className: 'summary-img-text' },
-          'Bildbeschreibung'
+          'COBE - kosmische Hintergrundstrahlung'
         )
       ),
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        'Herausragend unter diesen ersten Weltraumteleskopen war sicherlich ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'COBE'
+        ),
+        '. Das 1989 gestartete, von der ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'NASA'
+        ),
+        ' betriebene Teleskop arbeitete im Mikrowellen-Bereich und lieferte unter anderem Daten, mit denen eine 360°-Karte der ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'kosmischen Hintergrundstrahlung'
+        ),
+        ' erstellt werden konnte, die Aufschluss über die Massenverteilung im frühen Universum kurz nach dem Urknall gab.'
       ),
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        'Doch nicht nur die verschiedenen Bereiche des Spektrums sind interessant. Weltraumteleskope helfen auch, Sternenkataloge zu erstellen, so zum Beispiel ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'HIPPARCOS'
+        ),
+        ' (1989). Mit seinen Instrumenten - in der Hauptsache ein Spiegelteleskop für sichtbares Licht - durchmusterte es das Weltall und lieferte Daten über Position, Entfernung und Bewegung von Sternen. So entstanden mit dem ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Hipparcos-Katalog'
+        ),
+        ' (HIP) sowie dem ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Tycho-Katalog'
+        ),
+        ' zwei Standardwerke für die großen Observatorien der Welt, aber auch für Hobbyastronomen, die Informationen über 1 Million Sterne enthalten.'
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'summary-img' },
+        { className: 'summary-img size-lg' },
         _react2['default'].createElement(
           'a',
-          { href: '/img/stars/2_lg.jpg', title: 'Bildbeschreibung - Großansicht' },
-          _react2['default'].createElement('img', { src: '/img/stars/2_sm.jpg', alt: 'Bildbeschreibung' })
+          { href: '/img/spacetelescopes/STEREO_overlap.png', title: 'STEREO - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/spacetelescopes/STEREO_overlap.png', alt: 'STEREO' })
         ),
         _react2['default'].createElement(
           'p',
           { className: 'summary-img-text' },
-          'Bildbeschreibung'
+          'STEREO'
         )
       ),
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        'Damit Weltraumteleskope auch von kosmischen Effekten ungestört arbeiten können, müssen sie häufig an speziellen Orten im All, den ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Lagrange-Punkten'
+        ),
+        ' des Sonne-Erde-Systems, genauer im Orbit um diese Punkte herum, platziert werden. An diesen Punkten heben sich die Anziehungskräfte von Sonne und Erde auf, so dass sehr stabile Beobachtungspositionen ohne umfangreiche Bahnkorrekturen besetzt werden können.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img size-sm' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/spacetelescopes/Lagrange_very_massive.svg_lg.png', title: 'Lagrange-Punkte - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/spacetelescopes/Lagrange_very_massive.svg_sm.png', alt: 'Lagrange-Punkte' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Lagrange-Punkte'
+        )
       ),
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        'Teleskope, die im infraroten Bereich arbeiten, sind auf der Erde eher selten, da die Atmosphäre dieses Licht stark absorbiert. Nur an hohen, besonders trockenen Standorten können brauchbare Ergebnisse erzielt werden. Ideal für die IR-Astronomie sind dagegen Weltraumteleskope. Doch selbst im All sind Vorkehrungen gegen störende Einflüsse nötig. Die Instrumente des ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Spitzer Space Telescope'
+        ),
+        ' (SST) mussten auf 2 Kelvin heruntergekühlt werden, die des Weltraumteleskopes ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Planck'
+        ),
+        ' zum Teil bis 0,1 Kelvin.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Von Teleskopen im Weltraum sind auch in der Zukunft spektakuläre Ergebnisse zu erwarten. Wissenschaftler auf der ganzen Welt warten gespannt auf Daten des ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'James Web Space Telescopes'
+        ),
+        ' (JWST), dem Nachfolger von Hubble, und des ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Euclid'
+        ),
+        ' genannten und für das Jahr 2020 geplanten Weltraumteleskops der ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'ESA'
+        ),
+        '.'
       ),
       _react2['default'].createElement(
         'h4',
@@ -40965,7 +41101,58 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
         _react2['default'].createElement(
           'li',
           null,
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+          'Das vom ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'DLR'
+          ),
+          ' betriebene Weltraumteleskop ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'ROSAT'
+          ),
+          ' war mit fast 2,5 Tonnen Gewicht der bisher schwerste deutsche Satellit.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Mit dem Röntgenteleskop ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Chandra'
+          ),
+          ' konnte im Mai 2007 die bislang energiereichste Supernova-Explosion beobachtet werden.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Die zwei Sonden des ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Solar TErrestrial RElations Observatory'
+          ),
+          ' (STEREO) ermöglichen eine dreidimensionale Beobachtung der Sonne.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Das Weltraumteleskop ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Kepler'
+          ),
+          ' entdeckte in ca. 600 Lj Entfernung mit ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Kepler 22b'
+          ),
+          ' den ersten Exoplaneten in einer habitablen Zone.'
         )
       )
     ),
@@ -41264,7 +41451,13 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
           null,
           'spacewalk'
         ),
-        ' genannt, ist ein Begriff für den Aufenthalt von Astronauten außerhalb eines Raumfahrzeuges im Vakuum des Weltalls oder auf einem anderen Himmelskörper. (z. B. Lunar Extra Vehicular Activity = LEVA) Er wird meist für Arbeiten an einem Raumfahrzeug, zu wissenschaftlichen Zwecken oder zur Erprobung neuer Techniken durchgeführt.'
+        ' genannt, ist ein Begriff für den Aufenthalt von Astronauten außerhalb eines Raumfahrzeuges im Vakuum des Weltalls oder auf einem anderen Himmelskörper. (z. B. ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Lunar Extra Vehicular Activity'
+        ),
+        ' = LEVA) Er wird meist für Arbeiten an einem Raumfahrzeug, zu wissenschaftlichen Zwecken oder zur Erprobung neuer Techniken durchgeführt.'
       ),
       _react2['default'].createElement(
         'div',
@@ -41736,7 +41929,7 @@ var StarsComponent = function StarsComponent(_ref) {
           null,
           'Galaxienhaufen'
         ),
-        ' auftreten. Astronomen schätzen die Zahl der Sterne im sichtbaren Universum auf etwa 70 Trilliarden. In unserer Heimatgalaxie, der Milchstraße, existieren ca. 100 Milliarden Sonnen.'
+        ' auftreten. Astronomen schätzen die Zahl der Sterne im sichtbaren Universum auf etwa 70 Trilliarden. Allein in unserer Heimatgalaxie, der Milchstraße, existieren ca. 100 Milliarden Sonnen.'
       ),
       _react2['default'].createElement(
         'p',
@@ -41863,7 +42056,7 @@ var StarsComponent = function StarsComponent(_ref) {
           null,
           'Neutronensterne'
         ),
-        ',',
+        ', ',
         _react2['default'].createElement(
           'em',
           null,
@@ -41899,7 +42092,19 @@ var StarsComponent = function StarsComponent(_ref) {
         _react2['default'].createElement(
           'li',
           null,
-          'Als aktuell größter bekannter Stern gilt der Rote Überriese UY Scuti im Sternbild Schild mit 1708 ± 192 Sonnenradien.'
+          'Als aktuell größter bekannter Stern gilt der Rote Überriese ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'UY Scuti'
+          ),
+          ' im ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Sternbild Schild'
+          ),
+          ' mit 1708 ± 192 Sonnenradien.'
         ),
         _react2['default'].createElement(
           'li',
