@@ -148,9 +148,7 @@ const SolarSystemComponent = () => {
             von durchschnittlich ca. 30 Kilometern pro Sekunde.
           </li>
           <li>
-            Auch Asteroiden und Zwergplaneten können Monde besitzen.
-            <em>Charon</em>, <em>Nix</em>, <em>Hydra</em>, <em>Kerberos</em> und <em>Styx</em> umkreisen
-            Pluto.
+            Auch Asteroiden und Zwergplaneten können Monde besitzen. <em>Charon</em>, <em>Nix</em>, <em>Hydra</em>, <em>Kerberos</em> und <em>Styx</em> umkreisen Pluto.
           </li>
         </ul>
       </Summary>
