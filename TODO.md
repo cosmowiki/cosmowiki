@@ -6,7 +6,7 @@
 - responsive nav menu with button on the right in branding bar (look at the pure js)
 - make the sorters and filters work (filters with FilterRow as in stars)
 - let the toggle-switches for sort and filter hide each other on :hover on small screens
-- global scroll-to-top-button on right side when scrolled down below 100% height
+- global scroll-to-top-button on right side when scrolled down below 100% window-height
 - open the <a href={item.name}> in vcard
 
 #nice to have
