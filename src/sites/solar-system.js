@@ -26,7 +26,7 @@ transneptunian-objects, comets and the oort-cloud = the parents of all other ite
 
 For each item in JSON build a div like this:
 
-<div id="{item.name2}" className="{item.type} {item.category} pure-u-x">
+<div id="{item.name2}" className="{item.type} {item.category} pure-grid-class">
 </div>
 
 For the DOM hierarchy:
@@ -51,12 +51,12 @@ For all JSON elements that have an item.name build a link as first child of the 
 The className="item-name" in <a> is not className={item.name}!
 (I need this to control background etc.)
 
-IF item.type value is type-2, type-3, type-4 or type-5 AND item.category is "group",
-THEN add CSS class "collapsed" to the <a>.
-These groups have already child elements in the spreadsheet
-and should be collapsed onLoad and expand onClick to show their child-elements.
-On click the CSS class "collapsed" should be replaced with "expanded" to change the icon.
-(as the questions in the about-site, class-selectors already defined in solsys.css)
+IF item.type value is type-2, type-3, type-4 or type-5 AND item.category is "group"
+AND the element has children, THEN add CSS class "collapsed" to the <a>.
+These groups should be collapsed onLoad and expanded onClick (and again collapsed
+onClick) to show their child elements.
+On click the CSS class "collapsed" should be replaced with "expanded" to change
+the icon and show all child elements. (similar to the about-site)
 */
 
 class Item {

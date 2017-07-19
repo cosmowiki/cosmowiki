@@ -169,7 +169,7 @@ const SolarSystemComponent = () => {
             </div>
             <div id="atenAsteroids" className="type-2 group pure-u-md-5-6 pure-lg-4-5">
               <a href="#" className="item-name collapsed">Aten-Typ-Asteroiden</a>
-              <div className="type-3 pure-u-md-4-5 pure-lg-3-4">
+              <div className="type-3 empty pure-u-md-4-5 pure-lg-3-4">
                 <div id="2062aten" className="type-4 pure-u-md-3-4 pure-lg-2-3">
                   <a href="#" className="item-name">(2062) Aten</a>
                 </div>
@@ -177,7 +177,7 @@ const SolarSystemComponent = () => {
             </div>
             <div id="earth" className="type-2 pure-u-md-5-6 pure-lg-4-5">
               <a href="#" className="item-name">Erde</a>
-              <div className="type-3 pure-u-md-4-5 pure-lg-3-4">
+              <div className="type-3 empty pure-u-md-4-5 pure-lg-3-4">
                 <div id="moon" className="type-4 pure-u-md-3-4 pure-lg-2-3">
                   <a href="#" className="item-name">Mond</a>
                 </div>
@@ -188,7 +188,7 @@ const SolarSystemComponent = () => {
             </div>
             <div id="apolloAsteroids" className="type-2 group pure-u-md-5-6 pure-lg-4-5">
               <a href="#" className="item-name collapsed">Apollo-Typ-Asteroiden</a>
-              <div className="type-3 pure-u-md-4-5 pure-lg-3-4">
+              <div className="type-3 empty pure-u-md-4-5 pure-lg-3-4">
                 <div id="1862apollo" className="type-4 pure-u-md-3-4 pure-lg-2-3">
                   <a href="#" className="item-name">(1862) Apollo</a>
                 </div>
@@ -196,7 +196,7 @@ const SolarSystemComponent = () => {
             </div>
             <div id="mars" className="type-2 pure-u-md-5-6 pure-lg-4-5">
               <a href="#" className="item-name">Mars</a>
-              <div className="type-3 pure-u-md-4-5 pure-lg-3-4">
+              <div className="type-3 empty pure-u-md-4-5 pure-lg-3-4">
                 <div id="phobos" className="type-4 pure-u-md-3-4 pure-lg-2-3">
                   <a href="#" className="item-name">Phobos</a>
                 </div>

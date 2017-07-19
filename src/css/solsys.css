@@ -14,15 +14,11 @@ div.type-3,
 div.type-4,
 div.type-5 {border-top: 1px solid #fff;}
 
-#sun {border-top: none;}
+#sun,
+div.empty {border-top: none;}
 #oortCloud {border-bottom: 1px solid #fff;}
 
 .item-name {padding: .2em;}
-
-/*.type-1.group {border-top: 1px solid #fff;}
-.type-1.group:last-of-type {border-bottom: 1px solid #fff;}*/
-/*.type-2 .item-name {border-top: none; border-bottom: 1px solid #fff;}*/
-/* how to avoid border-bottom of last a.item-name inside each div.type-1? */
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
@@ -51,7 +47,7 @@ div.type-5 {border-top: 1px solid #fff;}
 .item-name.collapsed:before {content: "\25B8  ";}
 .item-name.expanded:before {content: "\25BE  ";}
 
-/*	colors and gradients for groups, planets, moons etc */
+/*	backgrounds and gradients */
 #sun a.item-name {
 	background-image: linear-gradient( to right, rgba(255,128,128,.7) 50%, rgba(255,128,128,0));
 }
