@@ -140,6 +140,10 @@ main {background: rgba(255,255,255,.8); border-bottom: 1em solid #eee;}
 #siteTitle h1 {padding: .2em 0 .1em; font-size: 1.75em; font-weight: normal;}
 #siteTitle h3 {padding: .1em 0;}
 
+/*			todo ---------------------------------------------------------------- */
+
+#todo {text-align: center; background: red;}
+
 /*			summary ------------------------------------------------------------- */
 
 #summary {
@@ -211,10 +215,6 @@ div.summary-img.width-25,
 
 .summary-list {list-style: disc inside;}
 .summary-list li {margin: .5em 0;}
-
-/*			todo ---------------------------------------------------------------- */
-
-#todo {text-align: center; background: red;}
 
 /*			controlArea -------------------------------------------------------- */
 

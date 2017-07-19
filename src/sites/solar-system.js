@@ -17,7 +17,7 @@ export default class SolarSystem {
 Conditions to build the component/solar-system.js:
 
 Meaning of the itemtype in the JSON-file:
-- type-1 = group of inner planets, the asteroid-belt, group of outer planets,
+- type-1 = the sun, group of inner planets, the asteroid-belt, group of outer planets,
 transneptunian-objects, comets and the oort-cloud = the parents of all other items.
 - type-2 = all planets and groups equal in hierarchy.
 - type-3 = trojan groups, groups of planet-moons, the sub-groups of the asteroid-belt and comet-groups.
@@ -26,7 +26,7 @@ transneptunian-objects, comets and the oort-cloud = the parents of all other ite
 
 For each item in JSON build a div like this:
 
-<div id="{item.name2}" className="{item.type} pure-u-x">
+<div id="{item.name2}" className="{item.type} {item.category} pure-u-x">
 </div>
 
 For the DOM hierarchy:
