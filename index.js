@@ -39496,7 +39496,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
         _react2['default'].createElement(
           'li',
           null,
-          'Auch Asteroiden und Zwergplaneten können Monde besitzen.',
+          'Auch Asteroiden und Zwergplaneten können Monde besitzen. ',
           _react2['default'].createElement(
             'em',
             null,
