@@ -39622,7 +39622,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { className: 'type-3 pure-u-md-4-5 pure-lg-3-4' },
+              { className: 'type-3 empty pure-u-md-4-5 pure-lg-3-4' },
               _react2['default'].createElement(
                 'div',
                 { id: '2062aten', className: 'type-4 pure-u-md-3-4 pure-lg-2-3' },
@@ -39644,7 +39644,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { className: 'type-3 pure-u-md-4-5 pure-lg-3-4' },
+              { className: 'type-3 empty pure-u-md-4-5 pure-lg-3-4' },
               _react2['default'].createElement(
                 'div',
                 { id: 'moon', className: 'type-4 pure-u-md-3-4 pure-lg-2-3' },
@@ -39675,7 +39675,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { className: 'type-3 pure-u-md-4-5 pure-lg-3-4' },
+              { className: 'type-3 empty pure-u-md-4-5 pure-lg-3-4' },
               _react2['default'].createElement(
                 'div',
                 { id: '1862apollo', className: 'type-4 pure-u-md-3-4 pure-lg-2-3' },
@@ -39697,7 +39697,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
             ),
             _react2['default'].createElement(
               'div',
-              { className: 'type-3 pure-u-md-4-5 pure-lg-3-4' },
+              { className: 'type-3 empty pure-u-md-4-5 pure-lg-3-4' },
               _react2['default'].createElement(
                 'div',
                 { id: 'phobos', className: 'type-4 pure-u-md-3-4 pure-lg-2-3' },
@@ -44063,7 +44063,7 @@ var SolarSystem = (function () {
   
   For each item in JSON build a div like this:
   
-  <div id="{item.name2}" className="{item.type} {item.category} pure-u-x">
+  <div id="{item.name2}" className="{item.type} {item.category} pure-grid-class">
   </div>
   
   For the DOM hierarchy:
@@ -44088,12 +44088,12 @@ var SolarSystem = (function () {
   The className="item-name" in <a> is not className={item.name}!
   (I need this to control background etc.)
   
-  IF item.type value is type-2, type-3, type-4 or type-5 AND item.category is "group",
-  THEN add CSS class "collapsed" to the <a>.
-  These groups have already child elements in the spreadsheet
-  and should be collapsed onLoad and expand onClick to show their child-elements.
-  On click the CSS class "collapsed" should be replaced with "expanded" to change the icon.
-  (as the questions in the about-site, class-selectors already defined in solsys.css)
+  IF item.type value is type-2, type-3, type-4 or type-5 AND item.category is "group"
+  AND the element has children, THEN add CSS class "collapsed" to the <a>.
+  These groups should be collapsed onLoad and expanded onClick (and again collapsed
+  onClick) to show their child elements.
+  On click the CSS class "collapsed" should be replaced with "expanded" to change
+  the icon and show all child elements. (similar to the about-site)
   */
 
   _createClass(SolarSystem, null, [{
