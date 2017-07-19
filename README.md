@@ -31,7 +31,7 @@ Run `npm run data-from-spreadsheet name-of-the-page` to update a single JSON fil
 - document creation of new sites
 - responsive nav menu (look at the pure manual)
 
-#nice to have
+# nice to have
 - simple vcard with abstract of first paragraph from wikipedia
 - relations and breadcrum on the vcard
 

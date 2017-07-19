@@ -1,38 +1,38 @@
-#Roadmap until first release
+# Roadmap until first release
 - [x] speed up local development, using watchify?
 - make the map (places) work
 - include shariff for private social linking
 - document creation of new sites in README
 - responsive nav menu with button on the right in branding bar (look at the pure js)
 - make the sorters and filters work (filters with FilterRow as in stars)
-- let the toggle-switches for sort and filter hide each other on :hover on small screens
-- global scroll-to-top-button on right side when scrolled down below 100% window-height
-- open the <a href={item.name}> in vcard
+- let the toggle switches for sort and filter hide each other on :hover on small screens
+- global scroll-to-top-button like [this][1]
+- open the a href={item.name} in vcard
 
-#nice to have
+# nice to have
 - simple vcard with abstract of first paragraph from wikipedia
 - relations and breadcrum on the vcard
 - global search with form in branding bar (best without submit button)
 
-#General questions
+# general questions
 - show content really in a vcard? rather on a page?
 - list related items only with their wikipedia url (semicolon separated) and decrypt them to get the real names?
 - rather open item images in a pop-up/overlay?
 
-#currently to do
+# currently to do
 
-##branding
+## branding
 - [x] fix the branding on top
 - [x] insert search form
 - insert toggle button for responsive nav menu on small screens (look at the pure js)
 
-##home
+## home
 - [x] create site
 - [x] style it
 - [x] make it responsive
 - spread the #homeNav links evenly in height on small screens or use tiles
 
-##events
+## events
 - [x] create site
 - [x] style it
 - [x] make it responsive
@@ -42,7 +42,7 @@
 - hide the img src="//de.wikipedia.org/wiki/Special:CentralAuto..." (on bottom) of embedded article in vcard
 - complete data for launch
 
-##people
+## people
 - [x] create site
 - [x] style it
 - [x] make it responsive
@@ -50,33 +50,33 @@
 - [x] set comma only if itemname2 exists
 - complete data for launch
 
-###astronauts
+### astronauts
 - [x] create site
 - [x] style it
 - [x] make it responsive
 - [x] create summary
 - complete data for launch
 
-###scientists
+### scientists
 - [x] create site
 - [x] style it
 - [x] make it responsive
 - [x] create summary
 - complete data for launch
 
-##places
+## places
 - create site
 - style it
 - make it responsive
 - create summary
 - complete data for launch
 
-##objects
+## objects
 - [x] create site
 - [x] style it
 - [x] make it responsive
 
-###solar system
+### solar system
 - [x] create site
 - [x] style it
 - [x] make it responsive
@@ -84,7 +84,7 @@
 - make it work according to the conditions in sites/solar-system.js
 - complete data for launch
 
-###constellations
+### constellations
 - [x] create site
 - [x] style it
 - [x] make it responsive
@@ -92,7 +92,7 @@
 - [x] complete data for launch
 - show more data on large screens?
 
-###stars
+### stars
 - [x] create site
 - [x] style it
 - [x] make it responsive
@@ -100,14 +100,14 @@
 - find a solution for the greek letters / bayer names vs. historical names
 - complete data for launch
 
-###space stations
+### space stations
 - [x] create site
 - [x] style it
 - [x] make it responsive
 - [x] create summary
 - [x] complete data for launch
 
-###space telescopes
+### space telescopes
 - [x] create site
 - [x] style it
 - [x] make it responsive
@@ -115,31 +115,31 @@
 - complete data for launch
 - show month in endDate as month name when there is no endday
 
-##astronomy
+## astronomy
 - [x] create site
 - [x] style it
 - [x] make it responsive
 
-##spaceflight
+## spaceflight
 - [x] create site
 - [x] style it
 - [x] make it responsive
 
-###missions
+### missions
 - [x] create site
 - [x] style it
 - [x] make it responsive
 - [x] create summary
 - complete data for launch
 
-###spacewalks
+### spacewalks
 - [x] create site
 - [x] style it
 - [x] make it responsive
 - create summary
 - complete data for launch
 
-####about
+## about
 - [x] create site
 - [x] style it
 - [x] make it responsive
@@ -147,24 +147,18 @@
 - [x] create contact form
 - make the contact form work, send mail to admin@cosmowiki.org
 
-####footer
+## footer
 - [x] style it
 - [x] make it responsive
 - [x] let the links in #footerElse open the appropriate answers in the about-site
 
-#####imprint
+#### imprint
 - [x] as a transparent .gif or .png
 
-#####.letter-section-header
-- scroll-up-arrow on small screens as buttons
+## .letter-section-header
+- remove scroll-up-arrows if global scroll-to-top-button is placed
 
-#####sort and filter
-- let the toggle-switches for sort and filter hide each other on hover on small screens
+## sort and filter
+- let the toggle switches for sort and filter hide each other on hover on small screens
 
-#####sort
-- [x] label "Sortieren nach:"
-- [x] sort up / sort down with arrows
-
-#####notes
-- [x] insert arrows to scroll up
-- [x] constellationNotes ul review
+[1]: http://jsfiddle.net/yeyene/J3zyq/3/
