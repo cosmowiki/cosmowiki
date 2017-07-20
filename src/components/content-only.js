@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from './logo'
+import Logo from './homelogo'
 import Homefooter from './homefooter';
 
 const ContentOnlyComponent = ({children, appUrl}) => {
