@@ -30,7 +30,6 @@
 - [x] create site
 - [x] style it
 - [x] make it responsive
-- spread the #homeNav links evenly in height on small screens or use tiles
 
 ## events
 - [x] create site
