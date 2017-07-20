@@ -1,12 +1,13 @@
 #solarsystemTable {
 	font-size: 1.25em;
 }
+#solarsystemTable div, #solarsystemTable a {display: block;}
+
 .type-2,
 .type-3,
 .type-4,
 .type-5 {margin-left: 10%; width: 90%;}
 
-#solarsystemTable div, #solarsystemTable a {display: block;}
 
 div.type-1,
 div.type-2,
