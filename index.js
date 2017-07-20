@@ -39189,6 +39189,15 @@ var SolarSystemComponent = function SolarSystemComponent() {
       )
     ),
     _react2['default'].createElement(
+      'div',
+      { id: 'todo', className: 'pure-u-1' },
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@wolfram: pls make it work according to the conditions in sites/solar-system.js'
+      )
+    ),
+    _react2['default'].createElement(
       _chunksSummary.Summary,
       null,
       _react2['default'].createElement(

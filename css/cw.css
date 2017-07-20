@@ -90,14 +90,14 @@ header {margin: 40px auto 0;}
 nav {
 	margin: 0 auto;
 	background: #f8f8f8;
-	border-bottom: 1px solid #ddd;}
+	border-bottom: 1px solid #fff;}
 
 .pure-menu-link:focus,
 .pure-menu-link:hover,
 .pure-menu-link:active {background: #fff;}
-.pure-menu-children {background: transparent; border-top: 1px solid #ddd;}
+.pure-menu-children {background: transparent; border-top: 1px solid #fff;}
 
-nav ul ul li a {background: #f8f8f8; border-bottom: 1px solid #ddd;}
+nav ul ul li a {background: #f8f8f8; border-bottom: 1px solid #fff;}
 nav ul ul li:last-child a {border-bottom: none; border-radius: 0 0 5px 5px;}
 
 /*		Main ------------------------------------------------------------------ */
@@ -119,7 +119,7 @@ main {background: rgba(255,255,255,.8); border-bottom: 1em solid #eee;}
 /*			summary ------------------------------------------------------------- */
 #summary {
 	position: relative;
-	background: rgba(255, 255, 255,.8);
+	background: rgba(255, 255, 255,.5);
 	border-bottom: 1px solid #fff;
 }
 
@@ -154,7 +154,7 @@ div.summary-img.width-50,
 div.summary-img.width-25,
 #summary h4,
 #summary ul {margin-bottom: 1em;}
-#summary h4 {padding-left: .5em; line-height: 1.5em; background: #eee;}
+#summary h4 {padding-left: .5em; line-height: 1.5em; background: #ddd;}
 
 .summary-img {padding: 2px;	border: 1px solid #55f;}
 .summary-img:focus,
