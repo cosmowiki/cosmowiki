@@ -20,6 +20,14 @@ div.empty {border-top: none;}
 #oortCloud {border-bottom: 1px solid #fff;}
 
 .item-name {padding: .2em;}
+.item-name.collapsed:after {content: " \25B8";}
+.item-name.collapsed:focus:after,
+.item-name.collapsed:hover:after,
+.item-name.collapsed:active:after {content: " \25BE";}
+.item-name.expanded:after {content: " \25BE";}
+.item-name.expanded:focus:after,
+.item-name.expanded:hover:after,
+.item-name.expanded:active:after {content: " \25B8";}
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
@@ -44,9 +52,6 @@ div.empty {border-top: none;}
 	.type-4 {margin-left: 33.333%;}
 	.type-5 {margin-left: 50%;}
 }
-
-.item-name.collapsed:before {content: "\25B8  ";}
-.item-name.expanded:before {content: "\25BE  ";}
 
 /*	backgrounds and gradients */
 #sun a.item-name {
