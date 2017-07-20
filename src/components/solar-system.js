@@ -9,6 +9,9 @@ const SolarSystemComponent = () => {
         <h1>das Sonnensystem</h1>
         <h3>unsere kosmische Heimat</h3>
       </div>
+      <div id="todo" className="pure-u-1">
+        <p>@wolfram: pls make it work according to the conditions in sites/solar-system.js</p>
+      </div>
       <Summary>
         <p className="summary-text">
           In klaren Nächten sehen wir manchmal <em>Merkur</em>, <em>Venus</em>, <em>Mars</em>, <em>Jupiter</em> oder <em>Saturn</em> einzeln
