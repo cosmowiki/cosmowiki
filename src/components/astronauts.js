@@ -254,9 +254,6 @@ const AstronautComponent = ({astronaut}) => {
                     <p className="astronaut-timeinspace">gesamt: {astronaut.timeInSpace}</p>
                   </div>
                   : ''}
-                  <div className="astronaut-missions pure-u-1">
-                    <p>{astronaut.missions}</p>
-                  </div>
                   {astronaut.firstLaunch ?
                   <div className="astronaut-firstlaunch pure-u-1">
                     <p>erster Raumflug: {astronaut.firstLaunch}</p>
