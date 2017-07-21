@@ -34985,15 +34985,6 @@ var AstronautComponent = function AstronautComponent(_ref3) {
             astronaut.timeInSpace
           )
         ) : '',
-        _react2['default'].createElement(
-          'div',
-          { className: 'astronaut-missions pure-u-1' },
-          _react2['default'].createElement(
-            'p',
-            null,
-            astronaut.missions
-          )
-        ),
         astronaut.firstLaunch ? _react2['default'].createElement(
           'div',
           { className: 'astronaut-firstlaunch pure-u-1' },
