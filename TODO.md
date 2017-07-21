@@ -46,7 +46,7 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
-- [x] set comma only if itemname2 exists
+- collect item images
 - complete data for launch
 
 ### astronauts
@@ -54,6 +54,7 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
+- collect item images
 - complete data for launch
 
 ### scientists
@@ -61,6 +62,7 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
+- collect item images
 - complete data for launch
 
 ## places
@@ -81,6 +83,7 @@
 - [x] make it responsive
 - [x] create summary
 - make it work according to the conditions in sites/solar-system.js
+- collect item images
 - complete data for launch
 
 ### constellations
@@ -88,6 +91,7 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
+- [x] collect item images
 - [x] complete data for launch
 - show more data on large screens?
 
@@ -104,6 +108,7 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
+- collect item images
 - [x] complete data for launch
 
 ### space telescopes
@@ -111,8 +116,9 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
-- complete data for launch
 - show month in endDate as month name when there is no endday
+- collect item images
+- complete data for launch
 
 ## astronomy
 - [x] create site
@@ -129,6 +135,7 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
+- collect item images
 - complete data for launch
 
 ### spacewalks
