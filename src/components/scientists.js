@@ -229,10 +229,8 @@ const ScientistGroupComponent = ({group}) => {
 
   return (
           <div id={groupKey} className="letter-section pure-u-1">
-            <div className="letter-section-header pure-u-1">
-              <div className="first-letter pure-u-1 center">
-                <p name={`#${groupKey}`}>{groupKey}</p>
-              </div>
+            <div className="leading-letter pure-u-1">
+              <p name={`#${groupKey}`}>{groupKey}</p>
             </div>
             {scientists.map((scientist, idx) => <ScientistComponent scientist={scientist} key={idx} />)}
           </div>

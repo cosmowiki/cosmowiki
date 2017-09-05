@@ -156,10 +156,8 @@ const PersonGroupComponent = ({group}) => {
 
   return (
           <div id={groupKey} className="letter-section pure-u-1">
-            <div className="letter-section-header pure-u-1">
-              <div className="first-letter pure-u-1 center">
-                <p name={`#${groupKey}`}>{groupKey}</p>
-              </div>
+            <div className="leading-letter pure-u-1 center">
+              <p name={`#${groupKey}`}>{groupKey}</p>
             </div>
             {people.map((person, idx) => <PersonComponent person={person} key={idx} />)}
           </div>

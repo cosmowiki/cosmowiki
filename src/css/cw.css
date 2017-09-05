@@ -273,14 +273,14 @@ div.summary-img.width-25,
 	background: url('/img/title_stars.jpg') center / cover no-repeat;
 }
 
-/*		global buttons ------------------------------------------------------- */
+/*		scroll-buttons ------------------------------------------------------- */
 a#scrollUp,
 a#scrollDown {
 	display: block; visibility: visible; z-index: 999; cursor: pointer;
 	position: fixed;	bottom: 100px;	right: 0; width: 35px; height: 35px;
   line-height: 35px; font-size: 20px; text-align: center; overflow: hidden;
-  background-color: rgba(128,128,128,.5);
-	border-width: 1px 0 0 1px; border-style: solid; border-color: #55f;
+  background-color: #ddd;
+	border-width: 1px 0 0 1px; border-style: solid; border-color: #fff;
 	border-radius: 5px 0 0 0;
 }
 a#scrollDown {
@@ -288,25 +288,18 @@ a#scrollDown {
 	border-width: 0 0 1px 1px; border-radius: 0 0 0 5px;
 }
 a#scrollUp:hover,
-a#scrollDown:hover {
-	background-color: rgba(255,255,255,.8);
-	border-color: #333;
-}
+a#scrollDown:hover {background-color: #eee;}
 a#scrollUp:before {content: "\23EB";}
 a#scrollDown:before {content: "\23EC";}
 
 /*		dataArea -------------------------------------------------------------- */
 #dataArea {font-size: .8em;	background: rgba(255,255,255,.5);}
 
-.letter-section-header {
-	background: rgba(255,255,255,.5);
+.leading-letter p {
+	padding: .2em;
+	font-size: 1.25em; font-weight: 500;
 	border-bottom: 1px solid #fff;
 }
-.first-letter, .scroll-up-link {display: inline-block;}
-.first-letter p, .scroll-up-link p {
-	margin: .2em; font-size: 1.3em; font-weight: 900;
-}
-#scrollUpArrow {display: block; font-weight: 900;}
 
 .data-row {display: inline-block;	border-bottom: 1px solid #fff;}
 
@@ -405,15 +398,17 @@ footer {background: #f8f8f8; border-top: 1em solid #aaf;}
 	footer {border-radius: 5px 5px 5px 5px;}
 }
 @media only screen and (min-width: 1100px) {
-	a#scrollUp {
+	a#scrollUp,
+	a#scrollDown {
 		bottom: 250px; right: 0; left: calc(50% + 500px); width: 50px; height: 50px;
 		line-height: 50px; font-size: 30px;
+		background-color: rgba(255,255,255,.3);
 		border: none; border-radius: 0 5px 0 0;
 	}
-	a#scrollDown {
-		bottom: 200px; right: 0; left: calc(50% + 500px); width: 50px; height: 50px;
-		line-height: 50px; font-size: 30px;
-		border: none; border-radius: 0 0 5px 0;
+	a#scrollDown {bottom: 200px; border: none; border-radius: 0 0 5px 0;}
+	a#scrollUp:hover,
+	a#scrollDown:hover {
+		background-color: rgba(255,255,255,.8);
 	}
 }
 
