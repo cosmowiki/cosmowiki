@@ -6,18 +6,18 @@
 - responsive nav menu with button on the right in branding bar (look at the pure js)
 - make the sorters and filters work (filters with FilterRow as in stars)
 - let the toggle switches for sort and filter hide each other on :hover on small screens
-- global scroll-to-top-button like [this][1]
-- open the a href={item.name} in vcard
+- [x] global scroll-to-top-button like [this][1]
+- open the a href={item.name} in a vcard-page
 
 # nice to have
-- simple vcard with abstract of first paragraph from wikipedia
-- relations and breadcrum on the vcard
-- global search with form in branding bar (best without submit button)
+- simple vcard-page with abstract of first(?) paragraph from wikipedia
+- relations and breadcrumb on the vcard
+- global search with form in branding bar (submit button only on :hover)
 
 # general questions
 - show content really in a vcard? rather on a page?
-- list related items only with their wikipedia url (semicolon separated) and decrypt them to get the real names?
-- rather open item images in a pop-up/overlay?
+- list related items in spreadsheets only with their wikipedia url (semicolon separated) and decrypt them to get the real names?
+- rather open item images in a pop-up or overlay instead of a blank site?
 
 # currently to do
 
@@ -116,7 +116,7 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
-- show month in endDate as month name when there is no endday
+- show month in endDate as word when there is no endday
 - collect item images
 - complete data for launch
 
@@ -162,7 +162,7 @@
 - [x] as a transparent .gif or .png
 
 ## .letter-section-header
-- remove scroll-up-arrows if global scroll-to-top-button is placed
+- [x] remove scroll-up-arrows if global scroll-to-top-button is placed
 
 ## sort and filter
 - let the toggle switches for sort and filter hide each other on hover on small screens
