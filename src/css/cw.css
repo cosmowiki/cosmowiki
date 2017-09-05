@@ -13,7 +13,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 html, body, #app {height: 100%;}
 body, html, button, input, select, textarea,
-.pure-g [class *= "pure-u"] {
+.pure-g [class *= 'pure-u'] {
 	color: #222; font-family: sans-serif; font-weight: 100;
 }
 
@@ -142,9 +142,9 @@ main {background: rgba(255,255,255,.8); border-bottom: 1em solid #eee;}
   position: relative; overflow: hidden; height: 100%;
   padding: 0 .25em 0; border-bottom: 1em solid #aaf;
 }
-#summaryContainer.minimized {height: 2.75em;}
+#summaryContainer.minimized {height: 1.5em;}
 #summaryShade {
-  position: absolute; height: 2.75em; width: 100%; left: 0; bottom: 1em;
+  position: absolute; height: 1.5em; width: 100%; left: 0; bottom: 1em;
 	background-image: linear-gradient(to bottom, rgba(255,255,255,.8), #fff);
 }
 .summary-text,
@@ -246,32 +246,54 @@ div.summary-img.width-25,
 #pageSubMenu a:active {color: #fff; background: rgba(255,255,255,.3);}
 
 #pageSubMenu li.astronauts {
-	background: url("/img/title_astronauts.jpg") center / cover no-repeat;
+	background: url('/img/title_astronauts.jpg') center / cover no-repeat;
 }
 #pageSubMenu li.constellations {
-	background: url("/img/title_constellations.jpg") center / cover no-repeat;
+	background: url('/img/title_constellations.jpg') center / cover no-repeat;
 }
 #pageSubMenu li.missions {
-	background: url("/img/title_missions.jpg") center / cover no-repeat;
+	background: url('/img/title_missions.jpg') center / cover no-repeat;
 }
 #pageSubMenu li.scientists {
-	background: url("/img/title_astronomers.jpg") center / cover no-repeat;
+	background: url('/img/title_astronomers.jpg') center / cover no-repeat;
 }
 #pageSubMenu li.solarsystem {
-	background: url("/img/title_solarsystem.jpg") center / cover no-repeat;
+	background: url('/img/title_solarsystem.jpg') center / cover no-repeat;
 }
 #pageSubMenu li.spacestations {
-	background: url("/img/title_stations.jpg") center / cover no-repeat;
+	background: url('/img/title_stations.jpg') center / cover no-repeat;
 }
 #pageSubMenu li.spacetelescopes {
-	background: url("/img/title_spacetelescopes.jpg") center / cover no-repeat;
+	background: url('/img/title_spacetelescopes.jpg') center / cover no-repeat;
 }
 #pageSubMenu li.spacewalks {
-	background: url("/img/title_spacewalks.jpg") center / cover no-repeat;
+	background: url('/img/title_spacewalks.jpg') center / cover no-repeat;
 }
 #pageSubMenu li.stars {
-	background: url("/img/title_stars.jpg") center / cover no-repeat;
+	background: url('/img/title_stars.jpg') center / cover no-repeat;
 }
+
+/*		global buttons ------------------------------------------------------- */
+a#scrollUp,
+a#scrollDown {
+	display: block; visibility: visible; z-index: 999; cursor: pointer;
+	position: fixed;	bottom: 100px;	right: 0; width: 35px; height: 35px;
+  line-height: 35px; font-size: 20px; text-align: center; overflow: hidden;
+  background-color: rgba(128,128,128,.5);
+	border-width: 1px 0 0 1px; border-style: solid; border-color: #55f;
+	border-radius: 5px 0 0 0;
+}
+a#scrollDown {
+	bottom: 64px;
+	border-width: 0 0 1px 1px; border-radius: 0 0 0 5px;
+}
+a#scrollUp:hover,
+a#scrollDown:hover {
+	background-color: rgba(255,255,255,.8);
+	border-color: #333;
+}
+a#scrollUp:before {content: "\23EB";}
+a#scrollDown:before {content: "\23EC";}
 
 /*		dataArea -------------------------------------------------------------- */
 #dataArea {font-size: .8em;	background: rgba(255,255,255,.5);}
@@ -382,6 +404,18 @@ footer {background: #f8f8f8; border-top: 1em solid #aaf;}
 	nav {margin-top: 1em; border-radius: 5px 5px 0 0;}
 	footer {border-radius: 5px 5px 5px 5px;}
 }
+@media only screen and (min-width: 1100px) {
+	a#scrollUp {
+		bottom: 250px; right: 0; left: calc(50% + 500px); width: 50px; height: 50px;
+		line-height: 50px; font-size: 30px;
+		border: none; border-radius: 0 5px 0 0;
+	}
+	a#scrollDown {
+		bottom: 200px; right: 0; left: calc(50% + 500px); width: 50px; height: 50px;
+		line-height: 50px; font-size: 30px;
+		border: none; border-radius: 0 0 5px 0;
+	}
+}
 
 @media only screen and (min-width: 1200px) {
 	#wrapper {
@@ -403,10 +437,10 @@ footer {background: #f8f8f8; border-top: 1em solid #aaf;}
 
 /* social media ::before content and colors ----------------------------------*/
 /*
-facebook a::before {content: "\f09a";}
-googleplus a::before {content: "\f0d5";}
-twitter a::before {content: "\f099";}
-github a::before {content: "\f09b";}
+facebook a::before {content: '\f09a';}
+googleplus a::before {content: '\f0d5';}
+twitter a::before {content: '\f099';}
+github a::before {content: '\f09b';}
 facebook a:focus,
 facebook a:hover,
 facebook a:active {background-color: #4273c8;}

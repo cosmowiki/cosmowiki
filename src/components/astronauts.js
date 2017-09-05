@@ -212,14 +212,8 @@ const AstronautGroupComponent = ({group}) => {
   return (
           <div id={groupKey} className="letter-section pure-u-1">
             <div className="letter-section-header pure-u-1">
-              <div className="scroll-up-link pure-u-11-24">
-                <p className="left"><a id="scrollUpArrow" href="javascript:self.scrollTo(0,0);">&uarr;</a></p>
-              </div>
-              <div className="first-letter pure-u-1-12 center">
+              <div className="first-letter pure-u-1 center">
                 <p name={`#${groupKey}`}>{groupKey}</p>
-              </div>
-              <div className="scroll-up-link pure-u-11-24">
-                <p className="right"><a id="scrollUpArrow" href="javascript:self.scrollTo(0,0);">&uarr;</a></p>
               </div>
             </div>
             {astronauts.map((astronaut, idx) => <AstronautComponent astronaut={astronaut} key={idx} />)}
