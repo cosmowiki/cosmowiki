@@ -100,7 +100,7 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
-- find a solution for the greek letters / bayer names vs. historical names
+- separate the greek letters from the latin letters in LetterLinks and letter-section
 - complete data for launch
 
 ### space stations
