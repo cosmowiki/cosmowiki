@@ -4,15 +4,18 @@
 .constellation-img img {width: 100px; height: 100px;}
 .constellation-img small {display: block; font-size: .8em;}
 .constellation-img small:last-child {margin-left: .5em;}
-p.constellation-name {margin: .5em 0 0; font-size: 1.25em;}
+div.constellation-name {margin-top: .5em;}
+p.constellation-name {font-size: 1.25em;}
 p.constellation-latin-name {margin: 0 0 .5em; font-size: 1em;}
+div.constellation-data {display: none;}
 p.constellation-data {margin: .25em 0 0; font-size: 1em;}
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
-  p.constellation-name {margin: 1em 0 0; font-size: 1.25em;}
+  div.constellation-name {margin-top: 1em; font-size: 1.25em;}
+  div.constellation-data {display: inline-block; margin-top: .5em;}
 }
 @media only all and (min-width: 48em) {
-  .constellation-name,
-  .constellation-data {margin-top: 3em;}
+  div.constellation-name,
+  div.constellation-data {margin-top: 3em;}
 }
