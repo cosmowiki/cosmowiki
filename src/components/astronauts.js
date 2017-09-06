@@ -211,7 +211,7 @@ const AstronautGroupComponent = ({group}) => {
 
   return (
           <div id={groupKey} className="letter-section pure-u-1">
-            <div className="leading-letter pure-u-1">
+            <div className="leading-letter pure-u-1 center">
               <p name={`#${groupKey}`}>{groupKey}</p>
             </div>
             {astronauts.map((astronaut, idx) => <AstronautComponent astronaut={astronaut} key={idx} />)}

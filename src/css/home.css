@@ -55,7 +55,8 @@ main.home {border: none; background: none;}
 		background-image: linear-gradient(to right, #fff 180px, rgba(153,153,255,.2));
 	}
 }
-@media all and (min-width: 64em) { /* breakpoint lg min-width: 64em */
+/* breakpoint lg min-width: 64em -------------------------------------------- */
+@media all and (min-width: 64em) {
   #homeNav {
     position: absolute; top: 50%; left: 0;
     transform: none; margin-top: -5em;

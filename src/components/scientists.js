@@ -229,7 +229,7 @@ const ScientistGroupComponent = ({group}) => {
 
   return (
           <div id={groupKey} className="letter-section pure-u-1">
-            <div className="leading-letter pure-u-1">
+            <div className="leading-letter pure-u-1 center">
               <p name={`#${groupKey}`}>{groupKey}</p>
             </div>
             {scientists.map((scientist, idx) => <ScientistComponent scientist={scientist} key={idx} />)}
@@ -264,44 +264,3 @@ const ScientistComponent = ({scientist}) => {
             </div>
   );
 };
-
-// old code with the tooltip on hover
-// import classNames from 'classnames';
-// class ScientistComponent extends React.Component {
-//
-//   constructor() {
-//     super();
-//     this.state = {detailsVisible: false};
-//   }
-//
-//   render() {
-//     const showDetails = () => {
-//       this.setState({detailsVisible: true});
-//     };
-//     const hideDetails = () => {
-//       this.setState({detailsVisible: false});
-//     };
-//
-//     const {scientist} = this.props;
-//     let cssClasses = ['scientist-infobox pure-u-1 pure-u-md-1-2 pure-u-lg-1-3'];
-//     cssClasses.push(this.state.detailsVisible ? 'visible' : 'hidden');
-//
-//     return (
-//             <div className="scientist-row data-row pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-//               <div className="scientist-item">
-//                 <a onMouseOver={showDetails} onMouseOut={hideDetails} href={scientist.wikipediaUrl}>{scientist.name}</a>
-//               </div>
-//               <div className={classNames(cssClasses)}>
-//                 <div className="scientist-profession">{scientist.profession}</div>
-//                 <div className="scientist-life">
-//                   {scientist.born ? `∗ ${scientist.born}` : ''} &nbsp;
-//                   {scientist.died ? `† ${scientist.died}`: ''}</div>
-//                 <div className="scientist-country">{scientist.country}</div>
-//                 <div className="scientist-info justify">{scientist.description}</div>
-//               </div>
-//             </div>
-//     );
-//
-//   }
-//
-// }
