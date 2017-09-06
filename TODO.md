@@ -12,7 +12,7 @@
 # nice to have
 - simple vcard-page with abstract of first(?) paragraph from wikipedia
 - relations and breadcrumb on the vcard
-- global search with form in branding bar (submit button only on :hover)
+- global search (form already in branding bar)
 
 # general questions
 - show content really in a vcard? rather on a page?

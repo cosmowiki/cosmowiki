@@ -10,8 +10,11 @@ const Logo = () => {
         </a>
       </div>
       <div id="searchArea" className="pure-u-3-4 pure-u-sm-1-2 pure-u-md-1-3 center">
-        <form id="searchForm" role="search" method="get" action="">
-          <input id="search" className="pure-u-1" name="search" type="text" placeholder="CosmoWiki durchsuchen" required />
+        <form id="searchForm" className="pure-u-1" role="search" method="get" action="">
+          <input id="searchText" name="search" type="text" placeholder="CosmoWiki durchsuchen" required />
+          <button id="searchSubmit" name="search">
+            <i className="fa fa-search" aria-hidden="true"></i>
+          </button>
         </form>
       </div>
       <div id="menuToggle" className="pure-u-1-8 pure-u-sm-1-4 pure-u-md-1-3 right">

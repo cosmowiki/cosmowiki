@@ -66,22 +66,31 @@ header, main, footer {margin: 0 auto; max-width: 1025px;}
 img#CosmoWikiLogo {display: none;}
 img#CosmoWikiIcon {display: block; margin: 5px; height: 30px;}
 
-#searchForm {width: 95%; margin: 8px auto;}
-#search,
+#searchForm {margin: 8px auto;}
+#searchText,
 #searchSubmit {
-	line-height:20px; font-size: 16px;
+	float: left; padding: 2px; line-height:20px; font-size: 16px;
 	background:#fff; box-shadow:none;
-	border:1px solid #aaf; border-radius: 5px;
+	border: 1px solid #aaf;
+}
+#searchText {
+	margin: 0 auto; width: 66.666%; width: calc(100% - 29px);
+	border-right: none; border-radius: 5px 0 0 5px;
+}
+#searchText:focus {
+	outline: none;
 }
 #searchSubmit {
-	width:30px; padding: 2px; cursor:pointer;
-	color:#aaf; font-weight: bold;
+	position: relative; top: 0; right: 0;
+	width: 24px; cursor: pointer;
+	color: #aaf; text-align: center;
+	border-left: none; border-radius: 0 5px 5px 0;
 }
+#searchSubmit:focus,
 #searchSubmit:hover,
-#searchSubmit:active,
-#searchSubmit:focus {color:#333;}
+#searchSubmit:active {color:#333;}
 
-#menuToggleButton { min-width: 40px; color: #000; background: #fff;}
+#menuToggleButton {min-width: 40px; color: #000; background: #fff;}
 
 /*		Header ---------------------------------------------------------------- */
 header {margin: 40px auto 0;}
