@@ -93,7 +93,6 @@
 - [x] create summary
 - [x] collect item images
 - [x] complete data for launch
-- show more data on large screens?
 
 ### stars
 - [x] create site
