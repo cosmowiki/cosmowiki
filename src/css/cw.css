@@ -285,9 +285,9 @@ div.summary-img.width-25,
 /*		scroll-buttons ------------------------------------------------------- */
 a#scrollUp,
 a#scrollDown {
-	display: block; visibility: visible; z-index: 999; cursor: pointer;
+	visibility: visible; z-index: 999; cursor: pointer;
 	position: fixed;	bottom: 100px;	right: 0; width: 35px; height: 35px;
-  line-height: 35px; font-size: 20px; text-align: center; overflow: hidden;
+  line-height: 35px; font-size: 1.5em; text-align: center; overflow: hidden;
   background-color: #ddd;
 	border-width: 1px 0 0 1px; border-style: solid; border-color: #fff;
 	border-radius: 5px 0 0 0;
@@ -318,14 +318,23 @@ a#scrollDown:before {content: "\23EC";}
 
 
 /*			notes --------------------------------------------------------------- */
-#notes {clear: left; font-size: .8em;	background: #f8f8f8;}
-
-#defaultNotes,
-#constellationNotes,
-#starNotes {padding: .5em 0; border-bottom: 1px solid #ddd;}
-
-#constellationNotes p,
-#starNotes p {padding: .2em .5em;}
+#notes {
+	clear: left;
+	font-size: .8em;
+	background: #f8f8f8;
+	border-bottom: 1px solid #ddd;
+}
+#notesDefault,
+#notesConstellations,
+#notesStars {padding: .5em 0 .25em;}
+#notes h4 {
+	margin: 0 .5em; padding: .25em .5em;
+	font-weight: 900;
+	background: #eee;
+}
+#notes p {padding: .25em 1em;}
+.notesTable {padding: .25em 1em;}
+/*#notesTable div {padding: .25em .5em;}*/
 
 
 /*	Footer ------------------------------------------------------------------ */
@@ -396,8 +405,6 @@ footer {background: #f8f8f8; border-top: 1em solid #aaf;}
 	.summary-img img {border-radius: 3px;}
 
   #controlArea {min-height: 1.5em;}
-
-	.scroll-up-link {text-align: center;}
 }
 
 @media only screen and (min-width: 1025px) {
@@ -410,11 +417,11 @@ footer {background: #f8f8f8; border-top: 1em solid #aaf;}
 	a#scrollUp,
 	a#scrollDown {
 		bottom: 250px; right: 0; left: calc(50% + 500px); width: 50px; height: 50px;
-		line-height: 50px; font-size: 30px;
+		line-height: 50px; font-size: 2em;
 		background-color: rgba(255,255,255,.3);
-		border: none; border-radius: 0 5px 0 0;
+		border: none; border-radius: 5px 5px 0 0;
 	}
-	a#scrollDown {bottom: 200px; border: none; border-radius: 0 0 5px 0;}
+	a#scrollDown {bottom: 200px; border: none; border-radius: 0 0 5px 5px;}
 	a#scrollUp:hover,
 	a#scrollDown:hover {
 		background-color: rgba(255,255,255,.8);
