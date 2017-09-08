@@ -15,7 +15,7 @@
 - global search (form already in branding bar)
 
 # general questions
-- show content really in a vcard? rather on a page?
+- show content on a vcard? or on a page?
 - list related items in spreadsheets only with their wikipedia url (semicolon separated) and decrypt them to get the real names?
 - rather open item images in a pop-up or overlay instead of a blank site?
 
@@ -99,7 +99,7 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
-- separate the greek letters from the latin letters in LetterLinks and letter-section
+- separate the greek letters from the latin letters in LetterLinks and letter-sections
 - complete data for launch
 
 ### space stations
