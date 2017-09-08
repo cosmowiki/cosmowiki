@@ -24,7 +24,7 @@ mkdirp(toPath); // TODO we should get to not needing this, the tests currently u
 
 const fileInDestPath = makeFileInDestPath(toPath);
 
-xdescribe('convert multiple files', () => {
+describe('convert multiple files', () => {
   
   let convert;
   const jsonFiles = fileNames.json;
