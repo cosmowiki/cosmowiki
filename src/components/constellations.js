@@ -166,9 +166,10 @@ const ConstellationComponent = ({constellation:item}) => {
           <p className="constellation-latin-name">({item.latinName})</p>
         </div>
         <div className="constellation-data pure-u-1 pure-u-md-1-2">
-          <p className="constellation-data">sichtbar von {item.visibleFrom} bis {item.visibleTo}</p>
-          <p className="constellation-data">benannt {item.namedYear} von <a href={item.astronomerUrl} title={item.astronomer}>{item.astronomer}</a></p>
-          <p className="constellation-data">hellster Stern: {item.brightestUrl ? <a href={item.brightestUrl} title={item.brightest}>{item.brightest}</a> : `${item.brightest}`} mit {item.highestBrightness} mag</p>
+          <p className="constellation-data1">sichtbar von {item.visibleFrom} bis {item.visibleTo}</p>
+          <p className="constellation-data2">Fläche: {item.squareDegrees} deg²</p>
+          <p className="constellation-data3">hellster Stern:<br />{item.brightestUrl ? <a href={item.brightestUrl} title={item.brightest}>{item.brightest}</a> : `${item.brightest}`} ({item.highestBrightness} mag)</p>
+          <p className="constellation-data4">benannt {item.namedYear} von <a href={item.astronomerUrl} title={item.astronomer}>{item.astronomer}</a></p>
         </div>
       </div>
     </div>
