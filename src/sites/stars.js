@@ -26,8 +26,7 @@ function allConstellationsSorted(stars) {
 }
 
 class StarName {
-  constructor({name, historical, alternative, bayer, short}) {
-    this.name = name;
+  constructor({historical, alternative, bayer, short}) {
     this.historical = historical;
     this.alternative = alternative;
     this.bayer = bayer;
@@ -43,9 +42,8 @@ class Star {
   static fromRawData(raw) {
     const star = new Star();
     star.name = new StarName({
-      name: raw.itemname,
-      historical: raw.itemname2,
-      aternative: raw.itemname3,
+      historical: raw.itemname,
+      alternative: raw.itemname3,
       bayer: raw.itemname4,
       short: raw.itemname5
     });
