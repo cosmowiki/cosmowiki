@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "6.6"
   
-# to empty the cache go to https://travis-ci.com/crewmeister/browser-app/caches
+# to empty the cache go to https://travis-ci.org/cosmowiki/cosmowiki/caches
 cache:
   directories:
   - node_modules
