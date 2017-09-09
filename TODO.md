@@ -99,9 +99,7 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
-- if stars are sorted by historical name then show only latin letters in LetterLinks
-- if stars are sorted by constellations then only show greek letters in LetterLinks
-- if stars are sorted by constellations, then sort them before by bayer name to get the correct alphabetical order of greek letters
+- separate the greek letters from the latin letters in LetterLinks and letter-sections
 - complete data for launch
 
 ### space stations
