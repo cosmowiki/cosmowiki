@@ -15,7 +15,8 @@
 #about .question:hover {background: rgba(255,255,255,.9);}
 #about .question-link {
   display: block; padding: 1.5em .5em;
-  font-size: 1.25em; font-weight: 100;}
+  font-size: 1.25em; font-weight: 100;
+}
 #about ul ul li p {display: block; margin: 0 1em 1em;}
 #about form {margin: 0 1em;}
 #about label,
