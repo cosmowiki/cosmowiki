@@ -25,7 +25,7 @@ ul {list-style-type: none;}
 a {font-weight: 500; text-decoration: none; cursor: pointer;}
 a, a:link, a:visited {color: #55f;}
 a img, a:link img, a:visited img {}
-a:focus, a:hover, a:active {color: #333;}
+a:focus, a:hover, a:active {color: #dd0000;}
 a:focus img, a:hover img, a:active img {}
 
 /*>Global Classes ----------------------------------------------------------- */
@@ -327,14 +327,14 @@ a#scrollDown:before {content: "\23EC";}
 #notesDefault,
 #notesConstellations,
 #notesStars {padding: .5em 0 .25em;}
+
 #notes h4 {
 	margin: 0 .5em; padding: .25em .5em;
 	font-weight: 900;
 	background: #eee;
 }
-#notes p {padding: .25em 1em;}
+#notes p,
 .notesTable {padding: .25em 1em;}
-/*#notesTable div {padding: .25em .5em;}*/
 
 
 /*	Footer ------------------------------------------------------------------ */
@@ -413,6 +413,7 @@ footer {background: #f8f8f8; border-top: 1em solid #aaf;}
 	nav {margin-top: 1em; border-radius: 5px 5px 0 0;}
 	footer {border-radius: 5px 5px 5px 5px;}
 }
+
 @media only screen and (min-width: 1100px) {
 	a#scrollUp,
 	a#scrollDown {
@@ -423,11 +424,10 @@ footer {background: #f8f8f8; border-top: 1em solid #aaf;}
 	}
 	a#scrollDown {bottom: 200px; border: none; border-radius: 0 0 5px 5px;}
 	a#scrollUp:hover,
-	a#scrollDown:hover {
-		background-color: rgba(255,255,255,.8);
-	}
+	a#scrollDown:hover {background-color: rgba(255,255,255,.8);}
 }
 
+/* breakpoints for large background images -----------------------------------*/
 @media only screen and (min-width: 1200px) {
 	#wrapper {
 		background: url(/img/bgWrapper8_md.jpg) center / cover no-repeat fixed #113;
