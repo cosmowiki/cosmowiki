@@ -43,7 +43,7 @@ class Star {
     const star = new Star();
     star.name = new StarName({
       historical: raw.itemname,
-      alternative: raw.itemname3,
+      aternative: raw.itemname3,
       bayer: raw.itemname4,
       short: raw.itemname5
     });
@@ -73,8 +73,8 @@ class Star {
 
 /*
 {
-    "itemname": "θ Eridani",
-    "itemname2": "Acamar",
+    "itemname": "Acamar",
+    "itemurl": "https://de.wikipedia.org/wiki/Acamar",
     "itemname4": "θ Eridani",
     "itemname5": "θ Eri",
     "itemname8": "HR 897",
@@ -83,15 +83,14 @@ class Star {
     "itemname11": "SAO 216113",
     "itemname12": "TYC 7563-1016-1",
     "itemname14": "CD -40° 771",
-    "itemurl": "https://de.wikipedia.org/wiki/Acamar",
     "itemparent": "Eridanus",
     "itemparenturl": "https://de.wikipedia.org/wiki/Eridanus_(Sternbild)",
-    "itemparallax": "20,23 ± 0.55",
-    "itemdistance": "161 ± 4",
+    "itemparallax": "20,23",
+    "itemdistance": 161,
     "itemrightascension": "02h 58m 15,67525s",
     "itemdeclination": "-40° 18′ 16,8524″",
     "itemappmag": "3,2",
     "itemspectraltype": "A3IV-V",
     "tags": "Doppelstern"
-},,
- */
+}
+*/
