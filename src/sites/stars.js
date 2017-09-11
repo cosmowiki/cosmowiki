@@ -26,14 +26,17 @@ function allConstellationsSorted(stars) {
 }
 
 class StarName {
-  constructor({historical, alternative, bayer, short}) {
+  constructor({historical, alternative, bayer, short, flamsteed, hr, hd}) {
     this.historical = historical;
     this.alternative = alternative;
     this.bayer = bayer;
     this.short = short;
+    this.flamsteed = flamsteed;
+    this.hr = hr;
+    this.hd = hd;
   }
   toString() {
-    return this.name;
+    return this.historical || this.flamsteed || this.hr || this.hd;
   }
 }
 
@@ -45,12 +48,12 @@ class Star {
       historical: raw.itemname,
       aternative: raw.itemname3,
       bayer: raw.itemname4,
-      short: raw.itemname5
+      short: raw.itemname5,
+      flamsteed: raw.itemname6,
+      hr: raw.itemname7,
+      hd: raw.itemname8,
     });
     star.link = raw.itemurl;
-    star.flamsteed = raw.itemname6;
-    star.hr = raw.itemname7;
-    star.hd = raw.itemname8;
     star.hip = raw.itemname9;
     star.sao = raw.itemname10;
 

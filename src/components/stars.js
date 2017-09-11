@@ -221,7 +221,7 @@ const StarComponent = ({star}) => {
             <div className="star-row data-row pure-u-1">
               <div className="star-name pure-u-1 pure-u-md-1-3 center">
                 <div className="pure-u-1 pure-u-lg-1-2">
-                  <p><a href={star.link}>{star.name.historical ? star.name.historical : ''}</a></p>
+                  <p><a href={star.link}>{star.name.toString()}</a></p>
                 </div>
                 <div className="pure-u-1 pure-u-lg-1-2">
                   <p><a href={star.link}>{star.name.bayer ? star.name.bayer : ''}</a></p>
