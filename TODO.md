@@ -7,6 +7,7 @@
 - make the sorters and filters work (filters with FilterRow as in stars)
 - let the toggle switches for sort and filter hide each other on :hover on small screens
 - [x] global scroll-to-top-button like [this][1]
+- create landing page
 - open the a href={item.name} in a vcard-page
 
 # nice to have
