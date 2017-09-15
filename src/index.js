@@ -9,6 +9,7 @@ import PageComponent from './components/page';
 import ContentOnlyComponent from './components/content-only';
 
 import Home from './sites/home';
+import Welcome from './sites/welcome';
 import Events from './sites/events';
 import People from './sites/people';
 import Scientists from './sites/scientists';
@@ -55,6 +56,7 @@ const rerender = (surroundingComponent, content) => {
 };
 
 const urlToComponent = {
+  '/welcome': {klass: Welcome},
   '/chronicle': {klass: Events, fileName: 'data/chronicle.json'},
   '/people': {klass: People, fileName: 'data/people.json'},
   '/scientists': {klass: Scientists, fileName: 'data/scientists.json'},
