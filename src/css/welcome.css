@@ -1,0 +1,29 @@
+#presentationArea {background: #eee;}
+.pure-u-md-1-2 {width: 49%;} /* remove line when page is running! */
+.presentation {
+	margin: .25em;
+	padding: .25em;
+	/*background: rgba(255,255,255,.8);*/
+}
+.presentation h4 {
+	padding: .25em;
+	color: #aaf; font-size: 2.5em; font-weight: 900;
+}
+.presentation p {
+	padding: .25em;
+	text-align: justify;
+}
+
+
+/* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
+@media only all and (min-width: 35.5em) {
+	
+}
+
+@media only all and (min-width: 48em) {
+	
+}
+
+@media only all and (min-width: 64em) {
+	
+}
