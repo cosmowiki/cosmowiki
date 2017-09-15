@@ -1,15 +1,15 @@
-#presentationArea {background: #eee;}
+#welcomeArea {background: #eee;}
 .pure-u-md-1-2 {width: 49%;} /* remove line when page is running! */
-.presentation {
+.welcome {
 	margin: .25em;
 	padding: .25em;
 	/*background: rgba(255,255,255,.8);*/
 }
-.presentation h4 {
+.welcome h4 {
 	padding: .25em;
 	color: #aaf; font-size: 2.5em; font-weight: 900;
 }
-.presentation p {
+.welcome p {
 	padding: .25em;
 	text-align: justify;
 }
