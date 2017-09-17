@@ -106,6 +106,7 @@ nav {
 .pure-menu-link:active {background: #fff;}
 .pure-menu-children {background: transparent; border-top: 1px solid #fff;}
 
+nav ul ul li {text-align: left;}
 nav ul ul li a {background: #f8f8f8; border-bottom: 1px solid #fff;}
 nav ul ul li:last-child a {border-bottom: none; border-radius: 0 0 5px 5px;}
 
