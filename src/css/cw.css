@@ -17,8 +17,7 @@ body, html, button, input, select, textarea,
 	color: #222; font-family: sans-serif; font-weight: 100;
 }
 
-h1 {font-weight: 700;}
-h2, h3, h4, h5, h6 {font-weight: normal;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
 
 ul {list-style-type: none;}
 
@@ -119,7 +118,7 @@ main {background: rgba(255,255,255,.8); border-bottom: 1em solid #eee;}
 	border-bottom: 1px solid #fff;
 }
 
-#siteTitle h1 {padding: .2em 0 .1em; font-size: 1.75em; font-weight: normal;}
+#siteTitle h1 {padding: .2em 0 .1em;}
 #siteTitle h3 {padding: .1em 0;}
 
 /*			todo ---------------------------------------------------------------- */
