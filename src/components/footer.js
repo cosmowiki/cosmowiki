@@ -74,7 +74,7 @@ const Footer = ({appUrl}) => {
             <li>
               <a className="footerLink" href="https://github.com/cosmowiki/cosmowiki" target="_blank" title="CosmoWiki.org bei Github">Github</a>
             </li>
-            <li><h4>Teilen</h4></li>
+            <li className="share-list"><h4>Teilen</h4></li>
             <li>
               <div className="shariff" data-theme="grey" data-services="[&quot;twitter&quot;,&quot;googleplus&quot;,&quot;facebook&quot;,&quot;mail&quot;,&quot;info&quot;]"></div>
               <a className="footerLink" href="#">SHARIFF!!!!</a>
