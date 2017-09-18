@@ -13,6 +13,7 @@
 - simple vcard-page with abstract of first(?) paragraph from wikipedia
 - relations and breadcrumb on the vcard
 - global search (form already in branding bar)
+- global switch to toggle color scheme from day to night
 
 # general questions
 - show content on a vcard? or on a page?
