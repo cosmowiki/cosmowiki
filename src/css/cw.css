@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {font-weight: normal;}
 
 ul {list-style-type: none;}
 
-a {font-weight: 500; text-decoration: none; cursor: pointer;}
+a {font-weight: normal; text-decoration: none; cursor: pointer;}
 a, a:link, a:visited {color: #55f;}
 a img, a:link img, a:visited img {}
 a:focus, a:hover, a:active {color: #dd0000;}
