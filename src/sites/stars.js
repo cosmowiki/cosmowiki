@@ -36,7 +36,7 @@ class StarName {
     this.hd = hd;
   }
   toString() {
-    return this.historical || this.flamsteed || this.hr || this.hd;
+    return this.historical || ' ';
   }
 }
 
