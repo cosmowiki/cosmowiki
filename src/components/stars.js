@@ -127,11 +127,11 @@ const StarsComponent = ({groupedStars, constellations}) => {
             Scuti</em> im <em>Sternbild Schild</em> mit 1708 ± 192 Sonnenradien.
           </li>
           <li>
-            Der Stern Castor im Sternbild Zwillinge ist eigentlich ein System aus
+            Der Stern <em>Castor</em> im Sternbild Zwillinge ist eigentlich ein System aus
             drei Sternpaaren, also sechs Sternen insgesamt.
           </li>
           <li>
-            Sirius, der schon vor 5000 Jahren in Ägypten eine kalendarische Funktion
+            <em>Sirius</em>, der schon vor 5000 Jahren in Ägypten eine kalendarische Funktion
             hatte, ist mit −1,46 mag der hellste Stern am Nachthimmel.
           </li>
         </ul>
