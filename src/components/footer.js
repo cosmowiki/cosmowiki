@@ -70,7 +70,7 @@ const Footer = ({appUrl}) => {
               </li>
             )}
           </ul>
-          <ul className="pure-u-1 pure-u-lg-1-6">>
+          <ul className="pure-u-1 pure-u-lg-1-6">
             {[
               {url: appUrl.spaceflightSite(), name: 'Raumfahrt'},
               {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
