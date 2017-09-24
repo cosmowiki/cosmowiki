@@ -15,7 +15,7 @@ const Navigation = ({ appUrl }) => {
               {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
 
             ].map(link =>
-              <li key={link.url} className="pure-menu-item left">
+              <li key={link.url} className="pure-menu-item">
                 <a className="pure-menu-link sub-menu-item persons" href={ link.url }>{ link.name }</a>
               </li>
             )}
@@ -35,7 +35,7 @@ const Navigation = ({ appUrl }) => {
               {url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope'},
 
             ].map(link =>
-              <li key={link.url} className="pure-menu-item left">
+              <li key={link.url} className="pure-menu-item">
                 <a className="pure-menu-link sub-menu-item objects" href={ link.url }>{ link.name }</a>
               </li>
             )}
@@ -52,7 +52,7 @@ const Navigation = ({ appUrl }) => {
               {url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope'},
 
             ].map(link =>
-              <li key={link.url} className="pure-menu-item left">
+              <li key={link.url} className="pure-menu-item">
                 <a className="pure-menu-link sub-menu-item astronomy" href={ link.url }>{ link.name }</a>
               </li>
             )}
@@ -69,7 +69,7 @@ const Navigation = ({ appUrl }) => {
               {url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope'},
 
             ].map(link =>
-              <li key={link.url} className="pure-menu-item left">
+              <li key={link.url} className="pure-menu-item">
                 <a className="pure-menu-link sub-menu-item spaceflight" href={ link.url }>{ link.name }</a>
               </li>
             )}

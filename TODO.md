@@ -14,6 +14,7 @@
 - simple vcard-page with abstract of first(?) paragraph from wikipedia
 - relations and breadcrumb on the vcard
 - global search (form already in branding bar)
+- global switch to toggle day/night & hand over the state on reload etc
 
 # general questions
 - show content on a vcard? or on a page?
@@ -38,6 +39,7 @@
 - [x] make it responsive
 - [x] create summary
 - [x] rename the component, css and site files to "events"
+- create a vertical timeline like [this][2]
 - hide the span id="coordinates" from embedded article in vcard (i.e. Lascaux)
 - hide the img src="//de.wikipedia.org/wiki/Special:CentralAuto..." (on bottom) of embedded article in vcard
 - complete data for launch
@@ -170,3 +172,4 @@
 - let the toggle switches for sort and filter hide each other on hover on small screens
 
 [1]: http://jsfiddle.net/yeyene/J3zyq/3/
+[2]: https://www.w3schools.com/howto/howto_css_timeline.asp
