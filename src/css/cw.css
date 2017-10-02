@@ -24,7 +24,7 @@ ul {list-style-type: none;}
 a {font-weight: normal; text-decoration: none; cursor: pointer;}
 a, a:link, a:visited {color: #55f;}
 a img, a:link img, a:visited img {}
-a:focus, a:hover, a:active {color: #dd0000;}
+a:focus, a:hover, a:active {color: #d00;}
 a:focus img, a:hover img, a:active img {}
 
 /*>Global Classes ----------------------------------------------------------- */
@@ -356,12 +356,9 @@ footer #sitemap a {
 	padding-left: .25em; min-width: 15%;
 	line-height: 1.75em;
 }
-footer #sitemap a:before {content:"- ";}
-footer #sitemap li:first-child a:before {content:"";}
-footer #sitemap li:first-child a {
-	background: #eee;
-	border-radius: 0 0 0 5px;
-}
+footer #sitemap a:before {content: "- ";}
+footer #sitemap li:first-child a:before {content: "";}
+footer #sitemap li:first-child a {background: #ddd;}
 
 footer #extras {padding: 1em 0 1em .5em;}
 footer #extras ul {display: flex; margin: .5em auto 1em;}

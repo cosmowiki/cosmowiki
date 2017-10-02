@@ -11,7 +11,6 @@ const Footer = ({appUrl}) => {
           <ul className="pure-u-1 pure-u-lg-1-6">
             {[
               {url: appUrl.eventsSite(), name: 'Chronik'},
-
             ].map(link =>
               <li key={link.url}>
                 <a href={ link.url }>{ link.name }</a>
@@ -33,7 +32,6 @@ const Footer = ({appUrl}) => {
           <ul className="pure-u-1 pure-u-lg-1-6">
             {[
               {url: '', name: 'Orte'},
-
             ].map(link =>
               <li key={link.url}>
                 <a href={ link.url }>{ link.name }</a>
@@ -103,21 +101,21 @@ const Footer = ({appUrl}) => {
               </li>
             )}
           </ul>
-	      <ul id="footerSocialList">
-	       <li>Folgen Sie uns auf:</li>
-	       <li>
-	         <a href="https://twitter.com/cosmowiki" title="CosmoWiki.org bei Twitter">Twitter</a>
-	       </li>
-	       <li>
-	         <a href="https://www.facebook.com/CosmoWiki.org/" title="CosmoWiki.org bei Facebook">Facebook</a>
-	       </li>
-	       <li>
-	         <a title="CosmoWiki.org bei Google Plus">Google+</a>
-	       </li>
-	       <li>
-	         <a href="https://github.com/cosmowiki/cosmowiki" title="CosmoWiki.org bei Github">Github</a>
-	       </li>
-	      </ul>
+  	      <ul id="footerSocialList">
+    	      <li>Folgen Sie uns auf:</li>
+    	      <li>
+    	        <a href="https://twitter.com/cosmowiki" title="CosmoWiki.org bei Twitter">Twitter</a>
+    	      </li>
+    	      <li>
+    	        <a href="https://www.facebook.com/CosmoWiki.org/" title="CosmoWiki.org bei Facebook">Facebook</a>
+    	      </li>
+    	      <li>
+    	        <a title="CosmoWiki.org bei Google Plus">Google+</a>
+    	      </li>
+    	      <li>
+    	        <a href="https://github.com/cosmowiki/cosmowiki" title="CosmoWiki.org bei Github">Github</a>
+    	      </li>
+  	      </ul>
         </div>
       </div>
       <div id="footerFoot" className="pure-u-1 center">
