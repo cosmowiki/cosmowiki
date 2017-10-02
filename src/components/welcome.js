@@ -31,7 +31,7 @@ const WelcomeComponent = ({appUrl}) => {
           	<div class="presentation">
           		<h4>{[totalAstronautsHoursInSpace]}</h4>
           		<p>
-          			Eine unglaubliche Zahl! So viele Stunden haben alle {[countAstronauts]} Astronauten zusammengerechnet bis heute<sup>*</sup> im All verbracht. Sie reisen in hauchdünnen Röhren aus Aluminium auf hunderten Tonnen hochentzündlicher Treibstoffe mit mehreren Kilometern pro Sekunde ins All. Dort erforschen sie neue Materialien und Fertigungsmethoden, führen Installationen und Reparaturen an Raumschiffen durch und setzen ihre Fußabdrücke auf fremde Himmelskörper. Sie sind die Botschafter der Menschheit im Universum. Besuchen Sie unsere Seite über <a href="/astronauts">Raumfahrer</a>.<br >
+          			Eine unglaubliche Zahl! So viele Stunden haben alle {[countAstronauts]} Astronauten zusammengerechnet bis heute<sup>*</sup> im All verbracht. Sie reisen in hauchdünnen Röhren aus Aluminium auf hunderten Tonnen hochentzündlicher Treibstoffe mit mehreren Kilometern pro Sekunde ins All. Dort erforschen sie neue Materialien und Fertigungsmethoden, führen Installationen und Reparaturen an Raumschiffen durch und setzen ihre Fußabdrücke auf fremde Himmelskörper. Sie sind die Botschafter der Menschheit im Universum. Besuchen Sie unsere Seite über <a href="/astronauts">Raumfahrer</a>.<br />
           			<sup>*</sup> <small>Stand: {[lastUpdated]}</small>
           		</p>
           	</div>
