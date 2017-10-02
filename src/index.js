@@ -56,7 +56,6 @@ const rerender = (surroundingComponent, content) => {
 };
 
 const urlToComponent = {
-  '/welcome': {klass: Welcome},
   '/chronicle': {klass: Events, fileName: 'data/chronicle.json'},
   '/people': {klass: People, fileName: 'data/people.json'},
   '/scientists': {klass: Scientists, fileName: 'data/scientists.json'},
@@ -72,6 +71,7 @@ const urlToComponent = {
   '/spaceflight': {klass: Spaceflight},
   '/objects': {klass: Objects},
   '/about': {klass: About},
+  '/welcome': {klass: Welcome},
   '/': {klass: Home, surroundingComponent: ContentOnlyComponent}
 };
 

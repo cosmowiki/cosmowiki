@@ -5,6 +5,9 @@ const Navigation = ({ appUrl }) => {
     <nav className="pure-u-1 pure-menu pure-menu-horizontal center">
       <ul id="menu" className="pure-menu-list">
         <li className="pure-menu-item">
+          <a className="pure-menu-link menu-item welcome" href={appUrl.welcomeSite()}></a>
+        </li>
+        <li className="pure-menu-item">
           <a className="pure-menu-link menu-item chronicle" href={appUrl.eventsSite()}>Chronik</a>
         </li>
         <li className="pure-menu-item pure-menu-has-children pure-menu-allow-hover">

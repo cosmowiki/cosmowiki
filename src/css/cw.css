@@ -104,6 +104,7 @@ nav {
 .pure-menu-link:focus,
 .pure-menu-link:hover,
 .pure-menu-link:active {background: #fff;}
+.pure-menu-link.welcome:after {content: '\f015';}
 .pure-menu-children {background: transparent; border-top: 1px solid #fff;}
 
 nav ul ul li {text-align: left;}
