@@ -113,9 +113,8 @@ const StarsComponent = ({groupedStars, constellations}) => {
           unterschieden. Weiterhin differenziert man Sterne anhand ihres individuellen
           Alters, ihrer Zugehörigkeit zu Regionen und Sternhaufen, teilt sie in
           Größen- und <em>Spektralklassen</em> ein. Ihre extremsten Erscheinungsformen
-          und Phänomene, wie zum Beispiel <em>Neutronensterne</em>, <em>Supernovae</em>, <em>Schwarze
-          Löcher</em> oder <em>Pulsare</em> geben den Forschern bis heute noch viele
-          Rätsel auf und bleiben dadurch absolut spannend.
+          und Phänomene, wie zum Beispiel <em>Neutronensterne</em>, <em>Supernovae</em>, <em>Schwarze Löcher</em> oder <em>Pulsare</em> geben
+          den Forschern bis heute noch viele Rätsel auf und bleiben dadurch absolut spannend.
         </p>
         <h4>Wussten Sie schon?</h4>
         <ul className="summary-list">
@@ -128,11 +127,11 @@ const StarsComponent = ({groupedStars, constellations}) => {
             Scuti</em> im <em>Sternbild Schild</em> mit 1708 ± 192 Sonnenradien.
           </li>
           <li>
-            Der Stern <em>Castor</em> im Sternbild Zwillinge ist eigentlich ein System aus
+            Der Stern Castor im Sternbild Zwillinge ist eigentlich ein System aus
             drei Sternpaaren, also sechs Sternen insgesamt.
           </li>
           <li>
-            <em>Sirius</em>, der schon vor 5000 Jahren in Ägypten eine kalendarische Funktion
+            Sirius, der schon vor 5000 Jahren in Ägypten eine kalendarische Funktion
             hatte, ist mit −1,46 mag der hellste Stern am Nachthimmel.
           </li>
         </ul>
