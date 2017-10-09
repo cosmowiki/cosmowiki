@@ -340,38 +340,40 @@ a#scrollDown:before {content: "\23EC";}
 #notes p,
 .notesTable {padding: .25em 1em;}
 
-
 /*	Footer ------------------------------------------------------------------ */
-footer {background: #f8f8f8; border-top: 1em solid #aaf;}
-#footerContainer {
-	padding: 0;
+footer {margin: 0 auto; background: #f8f8f8;}
+
+#sitemap,
+#extras,
+#version {
+	padding: .5em;
 	font-size: .9em;
-	border-top: 1px solid #fff;	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
 }
+#sitemap ul {margin-right: .5em;}
+#sitemap a {display: block; padding-left: .25em; line-height: 1.75em;}
+#sitemap a:before {content: "- ";}
+#sitemap li:first-child a:before {content: "";}
+#sitemap li:first-child a {background: #eee;}
 
-footer #sitemap {display: flex; padding: 1em 0 0 .5em;}
-footer #sitemap ul {flex: 1; margin-right: 1em;}
-footer #sitemap a {
-	display: block;
-	padding-left: .25em; min-width: 15%;
-	line-height: 1.75em;
-}
-footer #sitemap a:before {content: "- ";}
-footer #sitemap li:first-child a:before {content: "";}
-footer #sitemap li:first-child a {background: #ddd;}
+#extrasSelf,
+#extrasSocial {display: inline;}
+#extras a {margin-right: 1em;}
 
-footer #extras {padding: 1em 0 1em .5em;}
-footer #extras ul {display: flex; margin: .5em auto 1em;}
-footer #extras li:first-child {margin-right: 1em;}
-footer #extras a {
-	flex: 1; display: block; margin-right: 1em;
-	border-bottom: 1px dashed #ccc;
-}
+#sitemap ul:last-child,
+#extrasSelf a:last-child,
+#extrasSocial a:last-child {margin-right: 0;}
 
-/*.shariff-button a.share_text {color: #fff;}*/
+#extras #twitterLink:before,
+#extras #facebookLink:before,
+#extras #googleLink:before,
+#extras #githubLink:before {margin-right: .5em; font-family: FontAwesome;}
+#extras #twitterLink:before {content: "\f099"; color: #32bbf5;}
+#extras #facebookLink:before {content: "\f09a"; color: #4273c8;}
+#extras #googleLink:before {content: "\f0d5"; color: #d34836;}
+#extras #githubLink:before {content: "\f09b"; color: #4078c0;}
 
-#footerFoot {line-height: 1em; background: #eee;}
-#footerFoot p {font-size: .6em;}
+#version p {margin: 0 auto; line-height: 15px;}
 
 /* breakpoints -------------------------------------------------------------- */
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
@@ -400,8 +402,6 @@ footer #extras a {
 	header, main, footer {max-width: 1000px;}
 	main {margin-bottom: 1em; border-radius: 0 0 5px 5px;}
 	nav {margin-top: 1em; border-radius: 5px 5px 0 0;}
-	footer {margin-bottom: 1em; border-radius: 5px 5px 5px 5px;}
-
 
 	.summary-img {border-radius: 5px;}
 	.summary-img:hover {border-radius: 5px;}
@@ -414,7 +414,6 @@ footer #extras a {
 	header, main, footer {max-width: 1000px;}
 	main {margin-bottom: 1em; border-radius: 0 0 5px 5px;}
 	nav {margin-top: 1em; border-radius: 5px 5px 0 0;}
-	footer {border-radius: 5px 5px 5px 5px;}
 }
 
 @media only screen and (min-width: 1100px) {
