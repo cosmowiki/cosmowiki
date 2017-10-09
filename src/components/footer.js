@@ -9,7 +9,7 @@ const Footer = ({appUrl}) => {
       <div id="footerContainer" className="pure-u-1">
         <div id="footerMainPages" className="footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5">
           <ul>
-            <li><h4>Hauptseiten</h4></li>
+            <li>Hauptseiten</li>
             {[
               {url: appUrl.eventsSite(), name: 'Chronik'},
               {url: appUrl.peopleSite(), name: 'Personen'},
@@ -27,7 +27,7 @@ const Footer = ({appUrl}) => {
         </div>
         <div id="footerAstronomy" className="footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5">
           <ul>
-            <li><h4>Astronomie</h4></li>
+            <li>Astronomie</li>
             {[
               {url: appUrl.scientistsSite(), name: 'Wissenschaftler'},
               {url: appUrl.solarSystemSite(), name: 'Sonnensystem'},
@@ -44,7 +44,7 @@ const Footer = ({appUrl}) => {
         </div>
         <div id="footerSpaceflight" className="footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5">
           <ul>
-            <li><h4>Raumfahrt</h4></li>
+            <li>Raumfahrt</li>
             {[
               {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
               {url: appUrl.missionsSite(), name: 'Missionen'},
@@ -61,7 +61,7 @@ const Footer = ({appUrl}) => {
         </div>
         <div id="footerNetworks" className="footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5">
           <ul>
-            <li><h4>Folgen</h4></li>
+            <li>Folgen</li>
             <li>
               <a className="footerLink" href="https://twitter.com/cosmowiki" target="_blank" title="CosmoWiki.org bei Twitter">Twitter</a>
             </li>
@@ -74,7 +74,7 @@ const Footer = ({appUrl}) => {
             <li>
               <a className="footerLink" href="https://github.com/cosmowiki/cosmowiki" target="_blank" title="CosmoWiki.org bei Github">Github</a>
             </li>
-            <li><h4>Teilen</h4></li>
+            <li className="share-list">Teilen</li>
             <li>
               <div className="shariff" data-theme="grey" data-services="[&quot;twitter&quot;,&quot;googleplus&quot;,&quot;facebook&quot;,&quot;mail&quot;,&quot;info&quot;]"></div>
               <a className="footerLink" href="#">SHARIFF!!!!</a>
@@ -92,7 +92,7 @@ const Footer = ({appUrl}) => {
         </div>
         <div id="footerElse" className="footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5">
           <ul>
-            <li><h4>Sonstiges</h4></li>
+            <li>Sonstiges</li>
             {[
               {url: appUrl.aboutSite() + '#whatis', name: 'Was ist CosmoWiki.org?'},
               {url: appUrl.aboutSite() + '#license', name: 'Lizenz'},

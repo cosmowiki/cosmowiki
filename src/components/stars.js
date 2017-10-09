@@ -16,7 +16,6 @@ const StarsComponent = ({groupedStars, constellations}) => {
       <div id="todo" className="pure-u-1">
         <p>@wolfram: pls make the sorter and filter work</p>
         <p>@wolfram: pls let the toggle-switches for sort and filter hide each other on hover on small screens</p>
-        <p>find a solution for the greek letters / bayer names vs. historical names</p>
       </div>
       <Summary>
         <p className="summary-text">
@@ -143,11 +142,9 @@ const StarsComponent = ({groupedStars, constellations}) => {
             <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
             <div id="sortArea">
               <form id="sortStars" className="sort-form">
-
                 <select name="sortStars" defaultValue="sortStarsHistoricalName">
                   <option value="sortStarsHistoricalName">historischer Name</option>
-                  <option value="sortStarsBayerName">Bayer-Name</option>
-                  <option value="sortStarsConstellationName">Sternbild</option>
+                  <option value="sortStarsConstellation">Sternbild</option>
                   <option value="sortStarsMagUp">Helligkeit &uarr;</option>
                   <option value="sortStarsMagDown">Helligkeit &darr;</option>
                   <option value="sortStarsDistanceUp">Entfernung &uarr;</option>
@@ -199,9 +196,9 @@ const StarsGroupComponent = ({group}) => {
 
   return (
           <div id={groupKey} className="letter-section pure-u-1">
-          <div className="leading-letter pure-u-1 center">
-            <p name={`#${groupKey}`}>{groupKey}</p>
-          </div>
+            <div className="leading-letter pure-u-1 center">
+              <p name={`#${groupKey}`}>{groupKey}</p>
+            </div>
             {stars.map((star, idx) => <StarComponent star={star} key={idx} />)}
           </div>
   );
@@ -224,10 +221,10 @@ const StarComponent = ({star}) => {
             <div className="star-row data-row pure-u-1">
               <div className="star-name pure-u-1 pure-u-md-1-3 center">
                 <div className="pure-u-1 pure-u-lg-1-2">
-                  <p><a href={star.link}>{star.name.name}</a></p>
+                  <p><a href={star.link}>{star.name.toString()}</a></p>
                 </div>
                 <div className="pure-u-1 pure-u-lg-1-2">
-                  <p><a href={star.link}>{star.name.historical ? star.name.bayer : ''}</a></p>
+                  <p><a href={star.link}>{star.name.bayer ? star.name.bayer : ''}</a></p>
                 </div>
               </div>
               <div className="star-data1 pure-u-1 pure-u-md-1-3">

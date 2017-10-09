@@ -7,15 +7,17 @@
 - make the sorters and filters work (filters with FilterRow as in stars)
 - let the toggle switches for sort and filter hide each other on :hover on small screens
 - [x] global scroll-to-top-button like [this][1]
+- create landing page
 - open the a href={item.name} in a vcard-page
 
 # nice to have
 - simple vcard-page with abstract of first(?) paragraph from wikipedia
 - relations and breadcrumb on the vcard
 - global search (form already in branding bar)
+- global switch to toggle day/night & hand over the state on reload etc
 
 # general questions
-- show content really in a vcard? rather on a page?
+- show content on a vcard? or on a page?
 - list related items in spreadsheets only with their wikipedia url (semicolon separated) and decrypt them to get the real names?
 - rather open item images in a pop-up or overlay instead of a blank site?
 
@@ -37,6 +39,7 @@
 - [x] make it responsive
 - [x] create summary
 - [x] rename the component, css and site files to "events"
+- create a vertical timeline like [this][2]
 - hide the span id="coordinates" from embedded article in vcard (i.e. Lascaux)
 - hide the img src="//de.wikipedia.org/wiki/Special:CentralAuto..." (on bottom) of embedded article in vcard
 - complete data for launch
@@ -99,7 +102,9 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
-- separate the greek letters from the latin letters in LetterLinks and letter-section
+- if stars are sorted by historical name then show only latin letters in LetterLinks
+- if stars are sorted by constellations then only show greek letters in LetterLinks
+- if stars are sorted by constellations, then sort them before by bayer name to get the correct alphabetical order of greek letters
 - complete data for launch
 
 ### space stations
@@ -167,3 +172,4 @@
 - let the toggle switches for sort and filter hide each other on hover on small screens
 
 [1]: http://jsfiddle.net/yeyene/J3zyq/3/
+[2]: https://www.w3schools.com/howto/howto_css_timeline.asp

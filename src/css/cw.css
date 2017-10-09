@@ -17,15 +17,14 @@ body, html, button, input, select, textarea,
 	color: #222; font-family: sans-serif; font-weight: 100;
 }
 
-h1 {font-weight: 700;}
-h2, h3, h4, h5, h6 {font-weight: normal;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
 
 ul {list-style-type: none;}
 
-a {font-weight: 500; text-decoration: none; cursor: pointer;}
+a {font-weight: normal; text-decoration: none; cursor: pointer;}
 a, a:link, a:visited {color: #55f;}
 a img, a:link img, a:visited img {}
-a:focus, a:hover, a:active {color: #333;}
+a:focus, a:hover, a:active {color: #dd0000;}
 a:focus img, a:hover img, a:active img {}
 
 /*>Global Classes ----------------------------------------------------------- */
@@ -106,6 +105,7 @@ nav {
 .pure-menu-link:active {background: #fff;}
 .pure-menu-children {background: transparent; border-top: 1px solid #fff;}
 
+nav ul ul li {text-align: left;}
 nav ul ul li a {background: #f8f8f8; border-bottom: 1px solid #fff;}
 nav ul ul li:last-child a {border-bottom: none; border-radius: 0 0 5px 5px;}
 
@@ -119,7 +119,11 @@ main {background: rgba(255,255,255,.8); border-bottom: 1em solid #eee;}
 	border-bottom: 1px solid #fff;
 }
 
-#siteTitle h1 {padding: .2em 0 .1em; font-size: 1.75em; font-weight: normal;}
+#siteTitle h1 {
+	padding: .2em 0 0;
+	color: #888; font-weight: normal;
+	text-shadow: 1px 1px #fff; text-transform: uppercase;
+}
 #siteTitle h3 {padding: .1em 0;}
 
 /*			todo ---------------------------------------------------------------- */
@@ -163,7 +167,11 @@ div.summary-img.width-50,
 div.summary-img.width-25,
 #summary h4,
 #summary ul {margin-bottom: 1em;}
-#summary h4 {padding-left: .5em; line-height: 1.5em; background: #ddd;}
+#summary h4 {
+	padding-left: .5em;
+	line-height: 1.5em;
+	background: rgba(0,0,255,.1);
+}
 
 .summary-img {padding: 2px;	border: 1px solid #55f;}
 .summary-img:focus,
@@ -285,9 +293,9 @@ div.summary-img.width-25,
 /*		scroll-buttons ------------------------------------------------------- */
 a#scrollUp,
 a#scrollDown {
-	display: block; visibility: visible; z-index: 999; cursor: pointer;
+	visibility: visible; z-index: 999; cursor: pointer;
 	position: fixed;	bottom: 100px;	right: 0; width: 35px; height: 35px;
-  line-height: 35px; font-size: 20px; text-align: center; overflow: hidden;
+  line-height: 35px; font-size: 1.5em; text-align: center; overflow: hidden;
   background-color: #ddd;
 	border-width: 1px 0 0 1px; border-style: solid; border-color: #fff;
 	border-radius: 5px 0 0 0;
@@ -305,8 +313,9 @@ a#scrollDown:before {content: "\23EC";}
 #dataArea {font-size: .8em;	background: rgba(255,255,255,.5);}
 
 .leading-letter p {
-	padding: .2em;
-	font-size: 1.25em; font-weight: 500;
+	padding: .25em;
+	line-height: 1.25em; font-size: 1.25em; font-weight: 500;
+	background: rgba(0,0,255,.1);
 	border-bottom: 1px solid #fff;
 }
 
@@ -318,14 +327,23 @@ a#scrollDown:before {content: "\23EC";}
 
 
 /*			notes --------------------------------------------------------------- */
-#notes {clear: left; font-size: .8em;	background: #f8f8f8;}
+#notes {
+	clear: left;
+	font-size: .8em;
+	background: #f8f8f8;
+	border-bottom: 1px solid #ddd;
+}
+#notesDefault,
+#notesConstellations,
+#notesStars {padding: .5em 0 .25em;}
 
-#defaultNotes,
-#constellationNotes,
-#starNotes {padding: .5em 0; border-bottom: 1px solid #ddd;}
-
-#constellationNotes p,
-#starNotes p {padding: .2em .5em;}
+#notes h4 {
+	margin: 0 .5em; padding: .25em .5em;
+	font-weight: 900;
+	background: rgba(0,0,255,.1);
+}
+#notes p,
+.notesTable {padding: .25em 1em;}
 
 
 /*	Footer ------------------------------------------------------------------ */
@@ -335,19 +353,21 @@ footer {background: #f8f8f8; border-top: 1em solid #aaf;}
 	border-top: 1px solid #fff;	border-bottom: 1px solid #ddd;
 }
 
-.footer-part ul {
+footer ul {
 	margin: .25em 0;
 	background: #fff;
 	border-width: 1px 0; border-style: solid; border-color: #ddd;
 }
-.footer-part li {line-height: 1.5em;}
-.footer-part li a {display: block;}
-.footer-part li h4 {
+footer li {line-height: 1.5em;}
+footer li a {display: block;}
+footer li:first-child,
+footer li.share-list {
+	color: 888; font-weight: bold;
 	background: #eee;
-	border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
 }
-.footer-part ul li:first-child h4 {border-top: none;}
-.footer-part li a:hover {background: #eee;}
+footer li.share-list {border-top: 1px solid #ddd;}
+footer li a:hover {background: #eee;}
 
 /*.shariff-button a.share_text {color: #fff;}*/
 
@@ -359,10 +379,9 @@ footer {background: #f8f8f8; border-top: 1em solid #aaf;}
 @media only screen and (min-width: 35.5em) {
 	#summaryContainer {padding: 0 .5em;}
 	#summaryToggleSwitch.expanded {margin-right: .25em;}
-	.footer-part ul {margin: .5em .25em; border-width: 1px; border-radius: 5px;}
-	.footer-part li h4 {border-radius: 0;}
-	.footer-part ul li:last-child {border-radius: 0 0 5px 5px;}
-	.footer-part ul li:first-child h4 {border-radius: 5px 5px 0 0;}
+	footer ul {margin: .5em .25em; border-width: 1px; border-radius: 5px;}
+	footer ul li:first-child {border-radius: 5px 5px 0 0;}
+	footer ul li:last-child {border-radius: 0 0 5px 5px;}
 }
 
 @media only screen and (min-width: 48em) {
@@ -380,9 +399,9 @@ footer {background: #f8f8f8; border-top: 1em solid #aaf;}
 	#sortArea, #filterArea, #sort form, #filter form {display: inline;}
 	#sort a, #filter a {display: none;}
 
-	.footer-part ul {min-height: 16em;}
-	.footer-part:first-child ul {margin-left: .5em;}
-	.footer-part:last-child ul {margin-right: .5em;}
+	footer ul {min-height: 16em;}
+	footer ul:first-child {margin-left: .5em;}
+	footer ul:last-child {margin-right: .5em;}
 }
 
 @media only screen and (min-width: 64em) {
@@ -396,8 +415,6 @@ footer {background: #f8f8f8; border-top: 1em solid #aaf;}
 	.summary-img img {border-radius: 3px;}
 
   #controlArea {min-height: 1.5em;}
-
-	.scroll-up-link {text-align: center;}
 }
 
 @media only screen and (min-width: 1025px) {
@@ -406,21 +423,21 @@ footer {background: #f8f8f8; border-top: 1em solid #aaf;}
 	nav {margin-top: 1em; border-radius: 5px 5px 0 0;}
 	footer {border-radius: 5px 5px 5px 5px;}
 }
+
 @media only screen and (min-width: 1100px) {
 	a#scrollUp,
 	a#scrollDown {
 		bottom: 250px; right: 0; left: calc(50% + 500px); width: 50px; height: 50px;
-		line-height: 50px; font-size: 30px;
+		line-height: 50px; font-size: 2em;
 		background-color: rgba(255,255,255,.3);
-		border: none; border-radius: 0 5px 0 0;
+		border: none; border-radius: 5px 5px 0 0;
 	}
-	a#scrollDown {bottom: 200px; border: none; border-radius: 0 0 5px 0;}
+	a#scrollDown {bottom: 200px; border: none; border-radius: 0 0 5px 5px;}
 	a#scrollUp:hover,
-	a#scrollDown:hover {
-		background-color: rgba(255,255,255,.8);
-	}
+	a#scrollDown:hover {background-color: rgba(255,255,255,.8);}
 }
 
+/* breakpoints for large background images -----------------------------------*/
 @media only screen and (min-width: 1200px) {
 	#wrapper {
 		background: url(/img/bgWrapper8_md.jpg) center / cover no-repeat fixed #113;

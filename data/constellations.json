@@ -21,7 +21,7 @@
         "itemproperty4": "673,434",
         "itemproperty5": 4,
         "itemproperty6": "2,06",
-        "itemproperty7": "Naos",
+        "itemproperty7": "ζ Puppis / Naos",
         "itemproperty8": "https://de.wikipedia.org/wiki/Naos_%28Stern%29"
     },
     {
@@ -46,7 +46,7 @@
         "itemproperty4": "652,473",
         "itemproperty5": 3,
         "itemproperty6": "0,77",
-        "itemproperty7": "Altair",
+        "itemproperty7": "α Aquilae / Altair",
         "itemproperty8": "https://de.wikipedia.org/wiki/Altair"
     },
     {
@@ -96,7 +96,7 @@
         "itemproperty4": "722,278",
         "itemproperty5": 3,
         "itemproperty6": "2,06",
-        "itemproperty7": "Sirrah",
+        "itemproperty7": "α Andromedae / Sirrah",
         "itemproperty8": "https://de.wikipedia.org/wiki/Sirrah"
     },
     {
@@ -121,7 +121,7 @@
         "itemproperty4": "906,831",
         "itemproperty5": 3,
         "itemproperty6": "-0,04",
-        "itemproperty7": "Arcturus",
+        "itemproperty7": "α Bootis / Arcturus",
         "itemproperty8": "https://de.wikipedia.org/wiki/Arktur"
     },
     {
@@ -146,7 +146,8 @@
         "itemproperty4": "282,398",
         "itemproperty5": 0,
         "itemproperty6": "3,56",
-        "itemproperty7": "Labrum"
+        "itemproperty7": "δ Crateris / Labr",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Delta_Crateris"
     },
     {
         "itemname": "Bildhauer",
@@ -218,7 +219,7 @@
         "itemproperty4": "397,502",
         "itemproperty5": 0,
         "itemproperty6": "3,87",
-        "itemproperty7": "Fornacis"
+        "itemproperty7": "α Fornacis / Dalim"
     },
     {
         "itemname": "Delphin",
@@ -242,7 +243,8 @@
         "itemproperty4": "188,549",
         "itemproperty5": 0,
         "itemproperty6": "3,63",
-        "itemproperty7": "Rotanev"
+        "itemproperty7": "β Delphini / Rotanev",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Rotanev"
     },
     {
         "itemname": "Drache",
@@ -266,7 +268,8 @@
         "itemproperty4": "1.082,952",
         "itemproperty5": 3,
         "itemproperty6": "2,23",
-        "itemproperty7": "Etamin"
+        "itemproperty7": "γ Draconis / Etamin",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Etamin"
     },
     {
         "itemname": "Dreieck",
@@ -362,7 +365,8 @@
         "itemproperty4": "1.137,919",
         "itemproperty5": 4,
         "itemproperty6": "0,45",
-        "itemproperty7": "Achernar"
+        "itemproperty7": "α Eridani / Achernar",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Achernar"
     },
     {
         "itemname": "Fische",
@@ -386,7 +390,8 @@
         "itemproperty4": "889,417",
         "itemproperty5": 0,
         "itemproperty6": "3,62",
-        "itemproperty7": "Alpherg"
+        "itemproperty7": "η Piscium / Kullat Nunu",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Kullat_Nunu"
     },
     {
         "itemname": "Fliege",
@@ -458,7 +463,8 @@
         "itemproperty4": "268,165",
         "itemproperty5": 0,
         "itemproperty6": "4,44",
-        "itemproperty7": "Anser"
+        "itemproperty7": "α Vulpeculae / Anser",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Alpha_Vulpeculae"
     },
     {
         "itemname": "Fuhrmann",
@@ -482,7 +488,8 @@
         "itemproperty4": "657,438",
         "itemproperty5": 5,
         "itemproperty6": "0,08",
-        "itemproperty7": "Capella"
+        "itemproperty7": "α Aurigae / Capella",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Capella"
     },
     {
         "itemname": "Füllen",
@@ -506,7 +513,8 @@
         "itemproperty4": "71,641",
         "itemproperty5": 0,
         "itemproperty6": "3,92",
-        "itemproperty7": "Kitalpha"
+        "itemproperty7": "α Equulei / Kitalpha",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Kitalpha"
     },
     {
         "itemname": "Giraffe",
@@ -578,7 +586,8 @@
         "itemproperty4": "1.279,660",
         "itemproperty5": 6,
         "itemproperty6": "1,76",
-        "itemproperty7": "Alioth"
+        "itemproperty7": "ε Ursae Majoris / Alioth",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Alioth_(Stern)"
     },
     {
         "itemname": "Großer Hund",
@@ -602,7 +611,8 @@
         "itemproperty4": "380,118",
         "itemproperty5": 5,
         "itemproperty6": "-1,44",
-        "itemproperty7": "Sirius"
+        "itemproperty7": "α Canis Majoris / Sirius",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Sirius"
     },
     {
         "itemname": "Haar der Berenike",
@@ -626,7 +636,8 @@
         "itemproperty4": "386,475",
         "itemproperty5": 0,
         "itemproperty6": "4,26",
-        "itemproperty7": "β Comae Berenices"
+        "itemproperty7": "β Comae Berenices",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Beta_Comae_Berenices"
     },
     {
         "itemname": "Hase",
@@ -650,7 +661,8 @@
         "itemproperty4": "290,291",
         "itemproperty5": 2,
         "itemproperty6": "2,58",
-        "itemproperty7": "Arneb"
+        "itemproperty7": "α Leporis / Arneb",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Arneb"
     },
     {
         "itemname": "Herkules",
@@ -674,10 +686,11 @@
         "itemproperty4": "1.225,148",
         "itemproperty5": 2,
         "itemproperty6": "2,78",
-        "itemproperty7": "Kornephoros"
+        "itemproperty7": "β Herculis / Kornephoros",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Beta_Herculis"
     },
     {
-        "itemname": "Indianer (Inder)",
+        "itemname": "Inder (Indianer)",
         "itemurl": "https://de.wikipedia.org/wiki/Indianer_(Sternbild)",
         "itemname2": "Indus",
         "itemname3": "Indi",
@@ -698,7 +711,7 @@
         "itemproperty4": "294,006",
         "itemproperty5": 0,
         "itemproperty6": "3,11",
-        "itemproperty7": "The Persian"
+        "itemproperty7": "α Indi"
     },
     {
         "itemname": "Jagdhunde",
@@ -722,7 +735,8 @@
         "itemproperty4": "465,194",
         "itemproperty5": 1,
         "itemproperty6": "2,90",
-        "itemproperty7": "Cor Caroli"
+        "itemproperty7": "α Canum Venaticorum / Cor Caroli",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Cor_Caroli"
     },
     {
         "itemname": "Jungfrau",
@@ -746,7 +760,8 @@
         "itemproperty4": "1.294,428",
         "itemproperty5": 2,
         "itemproperty6": "0,98",
-        "itemproperty7": "Spica"
+        "itemproperty7": "α Virginis / Spica",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Spica"
     },
     {
         "itemname": "Kassiopeia",
@@ -770,7 +785,8 @@
         "itemproperty4": "598,407",
         "itemproperty5": 4,
         "itemproperty6": "2,24",
-        "itemproperty7": "Shedir"
+        "itemproperty7": "α Cassiopeiae / Schedir",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Schedir"
     },
     {
         "itemname": "Kepheus",
@@ -794,7 +810,8 @@
         "itemproperty4": "587,787",
         "itemproperty5": 1,
         "itemproperty6": "2,45",
-        "itemproperty7": "Alderamin"
+        "itemproperty7": "α Cephei / Alderamin",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Alderamin"
     },
     {
         "itemname": "Kiel des Schiffs",
@@ -818,7 +835,8 @@
         "itemproperty4": "494,184",
         "itemproperty5": 6,
         "itemproperty6": "-0,62",
-        "itemproperty7": "Canopus"
+        "itemproperty7": "α Carinae / Canopus",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Canopus"
     },
     {
         "itemname": "Kleine Wasserschlange",
@@ -842,7 +860,8 @@
         "itemproperty4": "243,035",
         "itemproperty5": 2,
         "itemproperty6": "2,82",
-        "itemproperty7": "β Hydri"
+        "itemproperty7": "β Hydri",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Beta_Hydri"
     },
     {
         "itemname": "Kleiner Bär (Kleiner Wagen)",
@@ -866,7 +885,8 @@
         "itemproperty4": "255,864",
         "itemproperty5": 2,
         "itemproperty6": "1,97",
-        "itemproperty7": "Polaris"
+        "itemproperty7": "α Ursae Minoris / Polaris",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Polarstern"
     },
     {
         "itemname": "Kleiner Hund",
@@ -890,7 +910,8 @@
         "itemproperty4": "183,367",
         "itemproperty5": 2,
         "itemproperty6": "0,40",
-        "itemproperty7": "Procyon"
+        "itemproperty7": "α Canis Minoris / Prokyon",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Prokyon"
     },
     {
         "itemname": "Kleiner Löwe",
@@ -914,7 +935,8 @@
         "itemproperty4": "231,956",
         "itemproperty5": 0,
         "itemproperty6": "3,83",
-        "itemproperty7": "Praecipua"
+        "itemproperty7": "46 Leonis Minoris / Praecipua",
+        "itemproperty8": "https://de.wikipedia.org/wiki/46_Leonis_Minoris"
     },
     {
         "itemname": "Kranich",
@@ -938,7 +960,8 @@
         "itemproperty4": "365,513",
         "itemproperty5": 2,
         "itemproperty6": "1,74",
-        "itemproperty7": "Alnair"
+        "itemproperty7": "α Gruis / Alnair",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Al_Nair"
     },
     {
         "itemname": "Krebs",
@@ -962,7 +985,8 @@
         "itemproperty4": "505,872",
         "itemproperty5": 0,
         "itemproperty6": "3,52",
-        "itemproperty7": "Tarf"
+        "itemproperty7": "β Cancri / Altarf",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Altarf"
     },
     {
         "itemname": "Kreuz des Südens",
@@ -986,7 +1010,8 @@
         "itemproperty4": "68,447",
         "itemproperty5": 4,
         "itemproperty6": "0,77",
-        "itemproperty7": "Acrux"
+        "itemproperty7": "α Crucis / Acrux",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Acrux"
     },
     {
         "itemname": "Leier",
@@ -1010,7 +1035,8 @@
         "itemproperty4": "286,476",
         "itemproperty5": 1,
         "itemproperty6": "0,03",
-        "itemproperty7": "Vega"
+        "itemproperty7": "α Lyrae / Wega",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Wega"
     },
     {
         "itemname": "Löwe",
@@ -1034,7 +1060,8 @@
         "itemproperty4": "946,964",
         "itemproperty5": 5,
         "itemproperty6": "1,36",
-        "itemproperty7": "Regulus"
+        "itemproperty7": "α Leonis / Regulus",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Regulus_(Stern)"
     },
     {
         "itemname": "Luchs",
@@ -1083,7 +1110,7 @@
         "itemproperty5": 0,
         "itemproperty6": "4,25",
         "itemproperty7": "α Antliae",
-        "itemproperty8": "https://en.wikipedia.org/wiki/Alpha_Antliae"
+        "itemproperty8": "https://de.wikipedia.org/wiki/Alpha_Antliae"
     },
     {
         "itemname": "Maler",
@@ -1131,7 +1158,8 @@
         "itemproperty4": "209,513",
         "itemproperty5": 0,
         "itemproperty6": "4,67",
-        "itemproperty7": "γ Microscopii"
+        "itemproperty7": "γ Microscopii",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Gamma_Microscopii"
     },
     {
         "itemname": "Netz",
@@ -1179,7 +1207,8 @@
         "itemproperty4": "178,710",
         "itemproperty5": 1,
         "itemproperty6": "2,22",
-        "itemproperty7": "Alphecca"
+        "itemproperty7": "α Coronae Borealis / Alphecca",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Gemma"
     },
     {
         "itemname": "Oktant",
@@ -1203,7 +1232,7 @@
         "itemproperty4": "291,045",
         "itemproperty5": 0,
         "itemproperty6": "3,76",
-        "itemproperty7": "ν Oct"
+        "itemproperty7": "ν Octantis"
     },
     {
         "itemname": "Orion",
@@ -1227,7 +1256,8 @@
         "itemproperty4": "594,120",
         "itemproperty5": 8,
         "itemproperty6": "0,12",
-        "itemproperty7": "Rigel"
+        "itemproperty7": "β Orionis / Rigel",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Rigel"
     },
     {
         "itemname": "Paradiesvogel",
@@ -1275,7 +1305,8 @@
         "itemproperty4": "1.120,794",
         "itemproperty5": 5,
         "itemproperty6": "2,39",
-        "itemproperty7": "Enif"
+        "itemproperty7": "ε Pegasi / Enif",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Enif"
     },
     {
         "itemname": "Pendeluhr",
@@ -1323,7 +1354,8 @@
         "itemproperty4": "614,997",
         "itemproperty5": 5,
         "itemproperty6": "1,79",
-        "itemproperty7": "Mirfak"
+        "itemproperty7": "α Persei / Mirfak",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Mirfak"
     },
     {
         "itemname": "Pfau",
@@ -1347,7 +1379,8 @@
         "itemproperty4": "377,666",
         "itemproperty5": 1,
         "itemproperty6": "1,94",
-        "itemproperty7": "α Pavonis"
+        "itemproperty7": "α Pavonis",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Alpha_Pavonis"
     },
     {
         "itemname": "Pfeil",
@@ -1395,7 +1428,8 @@
         "itemproperty4": "469,319",
         "itemproperty5": 1,
         "itemproperty6": "2,39",
-        "itemproperty7": "Ankaa"
+        "itemproperty7": "α Phoenicis / Ankaa",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Ankaa"
     },
     {
         "itemname": "Rabe",
@@ -1419,7 +1453,8 @@
         "itemproperty4": "183,801",
         "itemproperty5": 3,
         "itemproperty6": "2,59",
-        "itemproperty7": "Gienah"
+        "itemproperty7": "γ Corvi / Gienah",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Gamma_Corvi"
     },
     {
         "itemname": "Schiffskompass",
@@ -1491,7 +1526,8 @@
         "itemproperty4": "636,928",
         "itemproperty5": 1,
         "itemproperty6": "2,63",
-        "itemproperty7": "Unukalhai"
+        "itemproperty7": "α Serpentis / Unukalhai",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Unukalhai"
     },
     {
         "itemname": "Schlangenträger",
@@ -1515,7 +1551,8 @@
         "itemproperty4": "948,340",
         "itemproperty5": 5,
         "itemproperty6": "2,08",
-        "itemproperty7": "Ras Alhague"
+        "itemproperty7": "α Ophiuchi / Ras Alhague",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Ras_Alhague"
     },
     {
         "itemname": "Schütze",
@@ -1539,7 +1576,8 @@
         "itemproperty4": "867,432",
         "itemproperty5": 7,
         "itemproperty6": "1,79",
-        "itemproperty7": "Kaus Australis"
+        "itemproperty7": "ε Sagittarii / Kaus Australis",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Epsilon_Sagittarii"
     },
     {
         "itemname": "Schwan",
@@ -1563,7 +1601,8 @@
         "itemproperty4": "803,983",
         "itemproperty5": 5,
         "itemproperty6": "1,25",
-        "itemproperty7": "Deneb"
+        "itemproperty7": "α Cygni / Deneb",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Deneb"
     },
     {
         "itemname": "Schwertfisch",
@@ -1611,7 +1650,8 @@
         "itemproperty4": "499,649",
         "itemproperty5": 5,
         "itemproperty6": "1,75",
-        "itemproperty7": "Regor"
+        "itemproperty7": "γ Velorum / Regor",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Gamma_Velorum"
     },
     {
         "itemname": "Sextant",
@@ -1659,7 +1699,8 @@
         "itemproperty4": "496,783",
         "itemproperty5": 11,
         "itemproperty6": "1,06",
-        "itemproperty7": "Antares"
+        "itemproperty7": "α Scorpii / Antares",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Antares"
     },
     {
         "itemname": "Steinbock",
@@ -1683,7 +1724,8 @@
         "itemproperty4": "413,947",
         "itemproperty5": 1,
         "itemproperty6": "2,73",
-        "itemproperty7": "Deneb Algiedi"
+        "itemproperty7": "δ Capricorni / Deneb Algiedi",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Deneb_Algedi"
     },
     {
         "itemname": "Stier",
@@ -1707,7 +1749,8 @@
         "itemproperty4": "797,249",
         "itemproperty5": 4,
         "itemproperty6": "0,85",
-        "itemproperty7": "Aldebaran"
+        "itemproperty7": "α Tauri / Aldebaran",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Aldebaran"
     },
     {
         "itemname": "Südliche Krone",
@@ -1731,7 +1774,8 @@
         "itemproperty4": "127,696",
         "itemproperty5": 0,
         "itemproperty6": "4,10",
-        "itemproperty7": "Alphekka Meridiana"
+        "itemproperty7": "α Coronae Australis / Alfecca Meridiana",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Alpha_Coronae_Australis"
     },
     {
         "itemname": "Südlicher Fisch",
@@ -1755,7 +1799,8 @@
         "itemproperty4": "245,375",
         "itemproperty5": 1,
         "itemproperty6": "1,16",
-        "itemproperty7": "Fomalhaut"
+        "itemproperty7": "α Piscis Austrini / Fomalhaut",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Fomalhaut"
     },
     {
         "itemname": "Südliches Dreieck",
@@ -1779,7 +1824,8 @@
         "itemproperty4": "109,978",
         "itemproperty5": 3,
         "itemproperty6": "1,91",
-        "itemproperty7": "Atria"
+        "itemproperty7": "α Trianguli Australis / Atria",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Atria"
     },
     {
         "itemname": "Tafelberg",
@@ -1827,7 +1873,8 @@
         "itemproperty4": "270,184",
         "itemproperty5": 1,
         "itemproperty6": "2,65",
-        "itemproperty7": "Phact"
+        "itemproperty7": "α Columbae / Phact",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Phakt"
     },
     {
         "itemname": "Teleskop",
@@ -1899,7 +1946,8 @@
         "itemproperty4": "538,052",
         "itemproperty5": 2,
         "itemproperty6": "2,61",
-        "itemproperty7": "Zubeneshamali"
+        "itemproperty7": "β Librae / Zuben-el-schemali",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Zuben-el-schemali"
     },
     {
         "itemname": "Walfisch",
@@ -1923,7 +1971,8 @@
         "itemproperty4": "1.231,411",
         "itemproperty5": 2,
         "itemproperty6": "2,04",
-        "itemproperty7": "Deneb Kaitos"
+        "itemproperty7": "β Ceti / Deneb Kaitos",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Deneb_Kaitos"
     },
     {
         "itemname": "Wassermann",
@@ -1947,7 +1996,8 @@
         "itemproperty4": "979,854",
         "itemproperty5": 2,
         "itemproperty6": "2,90",
-        "itemproperty7": "Sadalsuud"
+        "itemproperty7": "β Aquarii / Sadalsuud",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Sadalsuud"
     },
     {
         "itemname": "Wasserschlange",
@@ -1971,7 +2021,8 @@
         "itemproperty4": "1.302,844",
         "itemproperty5": 2,
         "itemproperty6": "1,98",
-        "itemproperty7": "Alphard"
+        "itemproperty7": "α Hydrae / Alphard",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Alphard"
     },
     {
         "itemname": "Widder",
@@ -1995,7 +2046,8 @@
         "itemproperty4": "441,395",
         "itemproperty5": 2,
         "itemproperty6": "2,01",
-        "itemproperty7": "Hamal"
+        "itemproperty7": "α Arietis / Hamal",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Hamal"
     },
     {
         "itemname": "Winkelmaß",
@@ -2019,7 +2071,8 @@
         "itemproperty4": "165,290",
         "itemproperty5": 0,
         "itemproperty6": "4,02",
-        "itemproperty7": "γ2 Normae"
+        "itemproperty7": "γ² Normae",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Winkelmaß_(Sternbild)"
     },
     {
         "itemname": "Wolf",
@@ -2043,7 +2096,8 @@
         "itemproperty4": "333,683",
         "itemproperty5": 3,
         "itemproperty6": "2,30",
-        "itemproperty7": "α Lupi"
+        "itemproperty7": "α Lupi",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Alpha_Lupi"
     },
     {
         "itemname": "Zentaur",
@@ -2067,7 +2121,8 @@
         "itemproperty4": "1.060,422",
         "itemproperty5": 9,
         "itemproperty6": "-0,01",
-        "itemproperty7": "Alpha Centauri"
+        "itemproperty7": "α Centauri / Alpha Centauri",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Alpha_Centauri"
     },
     {
         "itemname": "Zirkel",
@@ -2115,6 +2170,7 @@
         "itemproperty4": "513,761",
         "itemproperty5": 4,
         "itemproperty6": "1,16",
-        "itemproperty7": "Pollux"
+        "itemproperty7": "β Geminorum / Pollux",
+        "itemproperty8": "https://de.wikipedia.org/wiki/Pollux_(Stern)"
     }
 ]
