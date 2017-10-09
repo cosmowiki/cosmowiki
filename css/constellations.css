@@ -4,15 +4,26 @@
 .constellation-img img {width: 100px; height: 100px;}
 .constellation-img small {display: block; font-size: .8em;}
 .constellation-img small:last-child {margin-left: .5em;}
-p.constellation-name {margin: .5em 0 0; font-size: 1.25em;}
-p.constellation-latin-name {margin: 0 0 .5em; font-size: 1em;}
-p.constellation-data {margin: .25em 0 0; font-size: 1em;}
+div.constellation-name {margin-top: .5em;}
+.constellation-name {font-size: 1.25em;}
+p.constellation-latin-name {margin: 0 0 .5em; font-size: .8em;}
+div.constellation-data {display: none;}
+div.constellation-data p {margin: .5em 0; font-size: 1em;}
+.constellation-data2,
+.constellation-data3 {display: none;}
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
-  p.constellation-name {margin: 1em 0 0; font-size: 1.25em;}
+  div.constellation-name {margin-top: 1.25em;}
+  div.constellation-data {display: inline-block; margin-top: .75em;}
 }
 @media only all and (min-width: 48em) {
-  .constellation-name,
-  .constellation-data {margin-top: 3em;}
+  div.constellation-name {margin-top: 3.25em;}
+  div.constellation-data {margin-top: 1.25em;}
+  .constellation-data2,
+  .constellation-data3 {display: block;}
+}
+@media only all and (min-width: 64em) {
+  div.constellation-name {margin-top: 3em;}
+  div.constellation-data {margin-top: .75em;}
 }
