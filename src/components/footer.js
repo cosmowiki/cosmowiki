@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = ({appUrl}) => {
   return (
     <footer className="module pure-u-1 center">
-      <div id="sitemap">
+      <div id="sitemap" class="left">
         <ul className="pure-u-1 pure-u-lg-1-6">
           {[
             {url: appUrl.eventsSite(), name: 'Chronik'},
