@@ -37768,7 +37768,7 @@ var PeopleComponent = function PeopleComponent(_ref) {
           _react2['default'].createElement(
             'em',
             null,
-            'Brain May'
+            'Brian May'
           ),
           ', der Gitarrist der britischen Rockband Queen ist seit 2007 auch promovierter Astrophysiker.'
         )
