@@ -98,7 +98,7 @@ const PeopleComponent = ({groupedPeople}) => {
             Rekord für den längsten Soloflug der Raumfahrtgeschichte.
           </li>
           <li>
-            <em>Brain May</em>, der Gitarrist der britischen Rockband Queen ist
+            <em>Brian May</em>, der Gitarrist der britischen Rockband Queen ist
             seit 2007 auch promovierter Astrophysiker.
           </li>
         </ul>

@@ -9,7 +9,7 @@ import {
 export function convertManyFiles(fromPath, fileNames, toPath) {
   const allFiles = convertAllFiles(fromPath, fileNames, toPath);
   
-  const checkFromPath = 
+  const checkFromPath = () =>
     checkPathExists(fromPath)
       .catch(() => {throw new InvalidDirectory(fromPath);});
   
@@ -20,7 +20,7 @@ export function convertManyFiles(fromPath, fileNames, toPath) {
   const convertEm = () =>
     Promise.all(filterConversions(allFiles));
   
-  return checkFromPath
+  return checkFromPath()
     .then(checkToPath)
     .then(convertEm)
   ;

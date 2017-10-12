@@ -13,7 +13,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "mocha --compilers js:babel/register */{**/,**/**/,**/**/**/}*spec.js --bail",
+    "test": "mocha --compilers js:babel/register src/{**/,**/**/,**/**/**/}*spec.js --bail",
     "watch:test": "parallelshell \"chokidar 'src' -c 'npm test'\" \"chokidar 'test' -c 'npm test'\" \"chokidar 'scripts' -c 'npm test'\"",
     "start": "parallelshell 'http-server dist' 'npm run watch:build'",
     "start-for-offline": "npm config set cosmowiki:build_for_offline 1; cp -R for-offline dist; npm start;",
@@ -63,6 +63,6 @@
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
     "react-leaflet": "^1.0.0-rc.3",
-    "shariff": "^1.17.1"
+    "shariff": "^1.26.2"
   }
 }

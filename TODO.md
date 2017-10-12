@@ -7,12 +7,14 @@
 - make the sorters and filters work (filters with FilterRow as in stars)
 - let the toggle switches for sort and filter hide each other on :hover on small screens
 - [x] global scroll-to-top-button like [this][1]
+- create landing page
 - open the a href={item.name} in a vcard-page
 
 # nice to have
 - simple vcard-page with abstract of first(?) paragraph from wikipedia
 - relations and breadcrumb on the vcard
 - global search (form already in branding bar)
+- global switch to toggle day/night & hand over the state on reload etc
 
 # general questions
 - show content on a vcard? or on a page?

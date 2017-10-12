@@ -26,7 +26,6 @@ const fileInDestPath = makeFileInDestPath(toPath);
 
 describe('convert multiple files', () => {
   
-  let convert;
   const jsonFiles = fileNames.json;
   
   beforeEach(() => {
