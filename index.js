@@ -43004,7 +43004,8 @@ var Grouper = (function () {
       var toBeGrouped = this.objectToGroup;
       var grouped = {};
       toBeGrouped.forEach(function (item) {
-        var nameString = item[property].toString()[0];
+        var nameStart = item[property].toString();
+        var nameString = nameStart ? nameStart[0] : '';
         var groupingKey = nameString.toUpperCase();
         if (!grouped[groupingKey]) {
           grouped[groupingKey] = {
