@@ -359,7 +359,7 @@ footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
 #sitemap li:first-child a {background: rgba(0, 0, 255, .1);}
 
 #extrasSelf,
-#extrasSocial {display: inline;}
+#extrasSocial {display: inline-block;}
 #extras a {margin-right: 1em;}
 
 #sitemap ul:last-child li,
