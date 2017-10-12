@@ -24,7 +24,7 @@ ul {list-style-type: none;}
 a {font-weight: normal; text-decoration: none; cursor: pointer;}
 a, a:link, a:visited {color: #55f;}
 a img, a:link img, a:visited img {}
-a:focus, a:hover, a:active {color: #dd0000;}
+a:focus, a:hover, a:active {color: #d00;}
 a:focus img, a:hover img, a:active img {}
 
 /*>Global Classes ----------------------------------------------------------- */
@@ -345,43 +345,43 @@ a#scrollDown:before {content: "\23EC";}
 #notes p,
 .notesTable {padding: .25em 1em;}
 
-
 /*	Footer ------------------------------------------------------------------ */
-footer {background: #f8f8f8; border-top: 1em solid #aaf;}
-#footerContainer {
-	padding: 0;
-	border-top: 1px solid #fff;	border-bottom: 1px solid #ddd;
-}
+footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
 
-footer ul {
-	margin: .25em 0;
-	background: #fff;
-	border-width: 1px 0; border-style: solid; border-color: #ddd;
-}
-footer li {line-height: 1.5em;}
-footer li a {display: block;}
-footer li:first-child,
-footer li.share-list {
-	color: 888; font-weight: bold;
-	background: #eee;
-	border-bottom: 1px solid #ddd;
-}
-footer li.share-list {border-top: 1px solid #ddd;}
-footer li a:hover {background: #eee;}
+#sitemap,
+#extras,
+#version {padding: .5em; font-size: .9em; border-bottom: 1px solid #ddd;}
 
-/*.shariff-button a.share_text {color: #fff;}*/
+#sitemap ul {margin-right: .5em;}
+#sitemap a {display: block; padding-left: .25em; line-height: 1.75em;}
+#sitemap a:before {content: "- ";}
+#sitemap li:first-child a:before {content: "";}
+#sitemap li:first-child a {background: rgba(0, 0, 255, .1);}
 
-#footerFoot {line-height: 1em; background: #eee;}
-#footerFoot p {font-size: .6em;}
+#extrasSelf,
+#extrasSocial {display: inline;}
+#extras a {margin-right: 1em;}
+
+#sitemap ul:last-child,
+#extrasSelf a:last-child,
+#extrasSocial a:last-child {margin-right: 0;}
+
+#extras #twitterLink:before,
+#extras #facebookLink:before,
+#extras #googleLink:before,
+#extras #githubLink:before {margin-right: .5em; font-family: FontAwesome;}
+#extras #twitterLink:before {content: "\f099"; color: #32bbf5;}
+#extras #facebookLink:before {content: "\f09a"; color: #4273c8;}
+#extras #googleLink:before {content: "\f0d5"; color: #d34836;}
+#extras #githubLink:before {content: "\f09b"; color: #4078c0;}
+
+#version p {margin: 0 auto; line-height: 15px;}
 
 /* breakpoints -------------------------------------------------------------- */
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only screen and (min-width: 35.5em) {
 	#summaryContainer {padding: 0 .5em;}
 	#summaryToggleSwitch.expanded {margin-right: .25em;}
-	footer ul {margin: .5em .25em; border-width: 1px; border-radius: 5px;}
-	footer ul li:first-child {border-radius: 5px 5px 0 0;}
-	footer ul li:last-child {border-radius: 0 0 5px 5px;}
 }
 
 @media only screen and (min-width: 48em) {
@@ -398,17 +398,12 @@ footer li a:hover {background: #eee;}
 
 	#sortArea, #filterArea, #sort form, #filter form {display: inline;}
 	#sort a, #filter a {display: none;}
-
-	footer ul {min-height: 16em;}
-	footer ul:first-child {margin-left: .5em;}
-	footer ul:last-child {margin-right: .5em;}
 }
 
 @media only screen and (min-width: 64em) {
 	header, main, footer {max-width: 1000px;}
 	main {margin-bottom: 1em; border-radius: 0 0 5px 5px;}
 	nav {margin-top: 1em; border-radius: 5px 5px 0 0;}
-	footer {margin-bottom: 1em; border-radius: 5px 5px 5px 5px;}
 
 	.summary-img {border-radius: 5px;}
 	.summary-img:hover {border-radius: 5px;}
@@ -421,7 +416,6 @@ footer li a:hover {background: #eee;}
 	header, main, footer {max-width: 1000px;}
 	main {margin-bottom: 1em; border-radius: 0 0 5px 5px;}
 	nav {margin-top: 1em; border-radius: 5px 5px 0 0;}
-	footer {border-radius: 5px 5px 5px 5px;}
 }
 
 @media only screen and (min-width: 1100px) {
