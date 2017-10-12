@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = ({appUrl}) => {
   return (
     <footer className="module pure-u-1 center">
-      <div id="sitemap" class="left">
+      <div id="sitemap" className="left">
         <ul className="pure-u-1 pure-u-lg-1-6">
           {[
             {url: appUrl.eventsSite(), name: 'Chronik'},
@@ -77,7 +77,7 @@ const Footer = ({appUrl}) => {
         </ul>
       </div>
 	    <div id="extras">
-        <div id="extrasSelf" class="pure-u-1 pure-u-lg-1-2 left">
+        <div id="extrasSelf" className="pure-u-1 pure-u-lg-1-2 left">
           {[
             {url: appUrl.aboutSite() + '#whatis', name: 'Über uns'},
             {url: appUrl.aboutSite() + '#license', name: 'Lizenz'},
@@ -89,14 +89,14 @@ const Footer = ({appUrl}) => {
             <a href={ link.url } target="_self" title={ link.name }>{ link.name }</a>
           )}
         </div>
-        <div id="extrasSocial" class="pure-u-1 pure-u-lg-1-2 right">
+        <div id="extrasSocial" className="pure-u-1 pure-u-lg-1-2 right">
   	      <a id="twitterLink" href="https://twitter.com/cosmowiki" title="CosmoWiki.org bei Twitter">Twitter</a>
     	    <a id="facebookLink" href="https://www.facebook.com/CosmoWiki.org/" title="CosmoWiki.org bei Facebook">Facebook</a>
     	    <a id="googleLink" title="CosmoWiki.org bei Google Plus">Google+</a>
     	    <a id="githubLink" href="https://github.com/cosmowiki/cosmowiki" title="CosmoWiki.org bei Github">Github</a>
         </div>
       </div>
-      <div id="version" class="center">
+      <div id="version" className="center">
         <p>v. 1.0.0</p>
       </div>
     </footer>
