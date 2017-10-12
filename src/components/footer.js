@@ -18,7 +18,6 @@ const Footer = ({appUrl}) => {
             {url: appUrl.peopleSite(), name: 'Personen'},
             {url: appUrl.scientistsSite(), name: 'Wissenschaftler'},
             {url: appUrl.astronautsSite(), name: 'Raumfahrer'},
-
           ].map(link =>
             <li key={link.url}>
               <a href={ link.url }>{ link.name }</a>
@@ -42,7 +41,6 @@ const Footer = ({appUrl}) => {
             {url: appUrl.starsSite(), name: 'Sterne'},
             {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
             {url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope'},
-
           ].map(link =>
             <li key={link.url}>
               <a href={ link.url }>{ link.name }</a>
@@ -57,7 +55,6 @@ const Footer = ({appUrl}) => {
             {url: appUrl.constellationsSite(), name: 'Sternbilder'},
             {url: appUrl.starsSite(), name: 'Sterne'},
             {url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope'},
-
           ].map(link =>
             <li key={link.url}>
               <a href={ link.url }>{ link.name }</a>
@@ -72,7 +69,6 @@ const Footer = ({appUrl}) => {
             {url: appUrl.spacewalksSite(), name: 'Weltraumausstiege'},
             {url: appUrl.spaceStationsSite(), name: 'Raumstationen'},
             {url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope'},
-
           ].map(link =>
             <li key={link.url}>
               <a href={ link.url }>{ link.name }</a>
@@ -89,7 +85,6 @@ const Footer = ({appUrl}) => {
             {url: appUrl.aboutSite() + '#thanks', name: 'Danke'},
             {url: appUrl.aboutSite() + '#contact', name: 'Kontakt'},
             {url: appUrl.aboutSite() + '#imprint', name: 'Impressum'},
-
           ].map(link =>
             <a href={ link.url } target="_self" title={ link.name }>{ link.name }</a>
           )}
