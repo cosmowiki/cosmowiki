@@ -362,7 +362,7 @@ footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
 #extrasSocial {display: inline;}
 #extras a {margin-right: 1em;}
 
-#sitemap ul li:last-child,
+#sitemap ul:last-child li,
 #extrasSelf a:last-child,
 #extrasSocial a:last-child {margin-right: 0;}
 
