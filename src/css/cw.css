@@ -352,7 +352,7 @@ footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
 #extras,
 #version {padding: .5em; font-size: .9em; border-bottom: 1px solid #ddd;}
 
-#sitemap ul {margin-right: .5em;}
+#sitemap li {margin-right: .5em;}
 #sitemap a {display: block; padding-left: .25em; line-height: 1.75em;}
 #sitemap a:before {content: "- ";}
 #sitemap li:first-child a:before {content: "";}
@@ -362,7 +362,7 @@ footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
 #extrasSocial {display: inline;}
 #extras a {margin-right: 1em;}
 
-#sitemap ul:last-child,
+#sitemap ul li:last-child,
 #extrasSelf a:last-child,
 #extrasSocial a:last-child {margin-right: 0;}
 
