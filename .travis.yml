@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "8.6"
+  - "6.11"
   
 # to empty the cache go to https://travis-ci.org/cosmowiki/cosmowiki/caches
 cache:
