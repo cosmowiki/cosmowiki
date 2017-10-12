@@ -35778,214 +35778,147 @@ var Footer = function Footer(_ref) {
 
   return _react2["default"].createElement(
     "footer",
-    { className: "pure-u-1 center" },
+    { className: "module pure-u-1 center" },
     _react2["default"].createElement(
       "div",
-      { id: "todo", className: "pure-u-1" },
+      { id: "sitemap", className: "left" },
       _react2["default"].createElement(
-        "p",
-        null,
-        "@wolfram: pls insert the shariff-button"
+        "ul",
+        { className: "pure-u-1 pure-u-lg-1-6" },
+        [{ url: appUrl.eventsSite(), name: 'Chronik' }].map(function (link) {
+          return _react2["default"].createElement(
+            "li",
+            { key: link.url },
+            _react2["default"].createElement(
+              "a",
+              { href: link.url },
+              link.name
+            )
+          );
+        })
+      ),
+      _react2["default"].createElement(
+        "ul",
+        { className: "pure-u-1 pure-u-lg-1-6" },
+        [{ url: appUrl.peopleSite(), name: 'Personen' }, { url: appUrl.scientistsSite(), name: 'Wissenschaftler' }, { url: appUrl.astronautsSite(), name: 'Raumfahrer' }].map(function (link) {
+          return _react2["default"].createElement(
+            "li",
+            { key: link.url },
+            _react2["default"].createElement(
+              "a",
+              { href: link.url },
+              link.name
+            )
+          );
+        })
+      ),
+      _react2["default"].createElement(
+        "ul",
+        { className: "pure-u-1 pure-u-lg-1-6" },
+        [{ url: '', name: 'Orte' }].map(function (link) {
+          return _react2["default"].createElement(
+            "li",
+            { key: link.url },
+            _react2["default"].createElement(
+              "a",
+              { href: link.url },
+              link.name
+            )
+          );
+        })
+      ),
+      _react2["default"].createElement(
+        "ul",
+        { className: "pure-u-1 pure-u-lg-1-6" },
+        [{ url: appUrl.objectsSite(), name: 'Objekte' }, { url: appUrl.peopleSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
+          return _react2["default"].createElement(
+            "li",
+            { key: link.url },
+            _react2["default"].createElement(
+              "a",
+              { href: link.url },
+              link.name
+            )
+          );
+        })
+      ),
+      _react2["default"].createElement(
+        "ul",
+        { className: "pure-u-1 pure-u-lg-1-6" },
+        [{ url: appUrl.astronomySite(), name: 'Astronomie' }, { url: appUrl.scientistsSite(), name: 'Wissenschaftler' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
+          return _react2["default"].createElement(
+            "li",
+            { key: link.url },
+            _react2["default"].createElement(
+              "a",
+              { href: link.url },
+              link.name
+            )
+          );
+        })
+      ),
+      _react2["default"].createElement(
+        "ul",
+        { className: "pure-u-1 pure-u-lg-1-6" },
+        [{ url: appUrl.spaceflightSite(), name: 'Raumfahrt' }, { url: appUrl.astronautsSite(), name: 'Raumfahrer' }, { url: appUrl.missionsSite(), name: 'Missionen' }, { url: appUrl.spacewalksSite(), name: 'Weltraumausstiege' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
+          return _react2["default"].createElement(
+            "li",
+            { key: link.url },
+            _react2["default"].createElement(
+              "a",
+              { href: link.url },
+              link.name
+            )
+          );
+        })
       )
     ),
     _react2["default"].createElement(
       "div",
-      { id: "footerContainer", className: "pure-u-1" },
+      { id: "extras" },
       _react2["default"].createElement(
         "div",
-        { id: "footerMainPages", className: "footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5" },
-        _react2["default"].createElement(
-          "ul",
-          null,
-          _react2["default"].createElement(
-            "li",
-            null,
-            "Hauptseiten"
-          ),
-          [{ url: appUrl.eventsSite(), name: 'Chronik' }, { url: appUrl.peopleSite(), name: 'Personen' }, { url: '', name: 'Orte' }, { url: appUrl.objectsSite(), name: 'Objekte' }, { url: appUrl.astronomySite(), name: 'Astronomie' }, { url: appUrl.spaceflightSite(), name: 'Raumfahrt' }].map(function (link) {
-            return _react2["default"].createElement(
-              "li",
-              { key: link.url },
-              _react2["default"].createElement(
-                "a",
-                { className: "footerLink", href: link.url },
-                link.name
-              )
-            );
-          })
-        )
+        { id: "extrasSelf", className: "pure-u-1 pure-u-lg-1-2 left" },
+        [{ url: appUrl.aboutSite() + '#whatis', name: 'Über uns' }, { url: appUrl.aboutSite() + '#license', name: 'Lizenz' }, { url: appUrl.aboutSite() + '#contribute', name: 'Beitragen' }, { url: appUrl.aboutSite() + '#thanks', name: 'Danke' }, { url: appUrl.aboutSite() + '#contact', name: 'Kontakt' }, { url: appUrl.aboutSite() + '#imprint', name: 'Impressum' }].map(function (link) {
+          return _react2["default"].createElement(
+            "a",
+            { href: link.url, target: "_self", title: link.name },
+            link.name
+          );
+        })
       ),
       _react2["default"].createElement(
         "div",
-        { id: "footerAstronomy", className: "footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5" },
+        { id: "extrasSocial", className: "pure-u-1 pure-u-lg-1-2 right" },
         _react2["default"].createElement(
-          "ul",
-          null,
-          _react2["default"].createElement(
-            "li",
-            null,
-            "Astronomie"
-          ),
-          [{ url: appUrl.scientistsSite(), name: 'Wissenschaftler' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
-            return _react2["default"].createElement(
-              "li",
-              { key: link.url },
-              _react2["default"].createElement(
-                "a",
-                { className: "footerLink", href: link.url },
-                link.name
-              )
-            );
-          })
-        )
-      ),
-      _react2["default"].createElement(
-        "div",
-        { id: "footerSpaceflight", className: "footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5" },
+          "a",
+          { id: "twitterLink", href: "https://twitter.com/cosmowiki", title: "CosmoWiki.org bei Twitter" },
+          "Twitter"
+        ),
         _react2["default"].createElement(
-          "ul",
-          null,
-          _react2["default"].createElement(
-            "li",
-            null,
-            "Raumfahrt"
-          ),
-          [{ url: appUrl.astronautsSite(), name: 'Raumfahrer' }, { url: appUrl.missionsSite(), name: 'Missionen' }, { url: appUrl.spacewalksSite(), name: 'Weltraumausstiege' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
-            return _react2["default"].createElement(
-              "li",
-              { key: link.url },
-              _react2["default"].createElement(
-                "a",
-                { className: "footerLink", href: link.url },
-                link.name
-              )
-            );
-          })
-        )
-      ),
-      _react2["default"].createElement(
-        "div",
-        { id: "footerNetworks", className: "footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5" },
+          "a",
+          { id: "facebookLink", href: "https://www.facebook.com/CosmoWiki.org/", title: "CosmoWiki.org bei Facebook" },
+          "Facebook"
+        ),
         _react2["default"].createElement(
-          "ul",
-          null,
-          _react2["default"].createElement(
-            "li",
-            null,
-            "Folgen"
-          ),
-          _react2["default"].createElement(
-            "li",
-            null,
-            _react2["default"].createElement(
-              "a",
-              { className: "footerLink", href: "https://twitter.com/cosmowiki", target: "_blank", title: "CosmoWiki.org bei Twitter" },
-              "Twitter"
-            )
-          ),
-          _react2["default"].createElement(
-            "li",
-            null,
-            _react2["default"].createElement(
-              "a",
-              { className: "footerLink", href: "https://www.facebook.com/CosmoWiki.org/", target: "_blank", title: "CosmoWiki.org bei Facebook" },
-              "Facebook"
-            )
-          ),
-          _react2["default"].createElement(
-            "li",
-            null,
-            _react2["default"].createElement(
-              "a",
-              { className: "footerLink", target: "_blank", title: "CosmoWiki.org bei Google Plus" },
-              "Google+"
-            )
-          ),
-          _react2["default"].createElement(
-            "li",
-            null,
-            _react2["default"].createElement(
-              "a",
-              { className: "footerLink", href: "https://github.com/cosmowiki/cosmowiki", target: "_blank", title: "CosmoWiki.org bei Github" },
-              "Github"
-            )
-          ),
-          _react2["default"].createElement(
-            "li",
-            { className: "share-list" },
-            "Teilen"
-          ),
-          _react2["default"].createElement(
-            "li",
-            null,
-            _react2["default"].createElement("div", { className: "shariff", "data-theme": "grey", "data-services": "[\"twitter\",\"googleplus\",\"facebook\",\"mail\",\"info\"]" }),
-            _react2["default"].createElement(
-              "a",
-              { className: "footerLink", href: "#" },
-              "SHARIFF!!!!"
-            )
-          ),
-          _react2["default"].createElement(
-            "li",
-            null,
-            _react2["default"].createElement(
-              "a",
-              { className: "footerLink", href: "#" },
-              "Twitter"
-            )
-          ),
-          _react2["default"].createElement(
-            "li",
-            null,
-            _react2["default"].createElement(
-              "a",
-              { className: "footerLink", href: "#" },
-              "Facebook"
-            )
-          ),
-          _react2["default"].createElement(
-            "li",
-            null,
-            _react2["default"].createElement(
-              "a",
-              { className: "footerLink", href: "#" },
-              "Google+"
-            )
-          )
-        )
-      ),
-      _react2["default"].createElement(
-        "div",
-        { id: "footerElse", className: "footer-part pure-u-1 pure-u-sm-7-8 pure-u-md-1-5" },
+          "a",
+          { id: "googleLink", title: "CosmoWiki.org bei Google Plus" },
+          "Google+"
+        ),
         _react2["default"].createElement(
-          "ul",
-          null,
-          _react2["default"].createElement(
-            "li",
-            null,
-            "Sonstiges"
-          ),
-          [{ url: appUrl.aboutSite() + '#whatis', name: 'Was ist CosmoWiki.org?' }, { url: appUrl.aboutSite() + '#license', name: 'Lizenz' }, { url: appUrl.aboutSite() + '#contribute', name: 'Beitragen' }, { url: appUrl.aboutSite() + '#thanks', name: 'Danksagungen' }, { url: appUrl.aboutSite() + '#contact', name: 'Kontakt' }, { url: appUrl.aboutSite() + '#imprint', name: 'Impressum' }].map(function (link) {
-            return _react2["default"].createElement(
-              "li",
-              { key: link.url },
-              _react2["default"].createElement(
-                "a",
-                { className: "footerLink", href: link.url, target: "_self", title: link.name },
-                link.name
-              )
-            );
-          })
+          "a",
+          { id: "githubLink", href: "https://github.com/cosmowiki/cosmowiki", title: "CosmoWiki.org bei Github" },
+          "Github"
         )
       )
     ),
     _react2["default"].createElement(
       "div",
-      { id: "footerFoot", className: "pure-u-1 center" },
+      { id: "version", className: "center" },
       _react2["default"].createElement(
         "p",
         null,
-        "v. 1.0"
+        "v. 1.0.0"
       )
     )
   );
