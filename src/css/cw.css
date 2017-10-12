@@ -346,20 +346,17 @@ a#scrollDown:before {content: "\23EC";}
 .notesTable {padding: .25em 1em;}
 
 /*	Footer ------------------------------------------------------------------ */
-footer {margin: 0 auto; background: #f8f8f8;}
+footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
 
 #sitemap,
 #extras,
-#version {
-	padding: .5em;
-	font-size: .9em;
-	border-bottom: 1px solid #ddd;
-}
+#version {padding: .5em; font-size: .9em; border-bottom: 1px solid #ddd;}
+
 #sitemap ul {margin-right: .5em;}
 #sitemap a {display: block; padding-left: .25em; line-height: 1.75em;}
 #sitemap a:before {content: "- ";}
 #sitemap li:first-child a:before {content: "";}
-#sitemap li:first-child a {background: #eee;}
+#sitemap li:first-child a {background: rgba(0, 0, 255, .1);}
 
 #extrasSelf,
 #extrasSocial {display: inline;}
