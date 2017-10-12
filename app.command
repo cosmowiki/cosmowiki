@@ -1,5 +1,3 @@
 #!/bin/bash
 cd "$(dirname "$0")"
-nix-shell
-npm install
-npm start
+nix-shell --command 'npm install; npm start'
