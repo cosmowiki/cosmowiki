@@ -32,11 +32,13 @@
 .data-row,
 .data-row:last-child,
 .leading-letter p {border: none;}
-.astronaut-row {margin: .25em 0; background: rgba(255, 255, 255, .3);}
-.astronaut-row:hover {background: rgba(255, 255, 255, .8);}
+.astronaut-card {margin: .25em 0; background: rgba(255, 255, 255, .3);}
+.astronaut-card:hover {background: rgba(255, 255, 255, .8);}
 
+.astronaut-name,
+.astronaut-info {margin: 0 .25em;}
 .astronaut-name {
-	padding: .25em;
+
 	font-size: 1.125em;
 	background: rgba(0, 0, 255, .1);
 }
@@ -45,8 +47,7 @@
 .astronaut-img,
 .astronaut-data {display: inline-block;}
 .astronaut-img img {margin-left: .25em; height: 110px;}
-.astronaut-info,
-.astronaut-data {padding: .25em 0;}
+.astronaut-info {padding: .25em 0;}
 
 .astronaut-data span {margin-left: .5em;}
 .astronaut-born,

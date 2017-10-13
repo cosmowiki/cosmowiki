@@ -223,12 +223,12 @@ const AstronautGroupComponent = ({group}) => {
 
 const AstronautComponent = ({astronaut}) => {
   return (
-            <div className="astronaut-row data-row pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+            <div className="astronaut-card data-row pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
               <div className="astronaut-name">
                 <a href={astronaut.link} title={astronaut.name}>{astronaut.name}</a>
                 <img src={astronaut.flag} alt={astronaut.country} title={astronaut.country} />
               </div>
-              <div className="astronaut-info pure-u-1">
+              <div className="astronaut-info">
                 {astronaut.imgSmallUrl ?
                 <div className="astronaut-img">
                   <a href={astronaut.imgUrl} title={astronaut.name}><img src={astronaut.imgSmallUrl} alt={astronaut.name} title={astronaut.name} /></a>
