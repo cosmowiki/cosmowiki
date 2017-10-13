@@ -238,7 +238,9 @@ const AstronautComponent = ({astronaut}) => {
                   {astronaut.born ?
                   <p className="astronaut-life">
                     <span className="astronaut-born">* {astronaut.born}</span>
-                    {astronaut.died ? <span className="astronaut-died">† {astronaut.died}</span> : ''}
+                    {astronaut.died ?
+                    <span className="astronaut-died">† {astronaut.died}</span>
+                    : ''}
                   </p>
                   : ''}
                   {astronaut.missions ?
@@ -250,7 +252,7 @@ const AstronautComponent = ({astronaut}) => {
                     <span className="astronaut-timeinspace">gesamt: {astronaut.timeInSpace}</span>
                     : ''}
                     {astronaut.firstLaunch ?
-                    <span className="astronaut-firstflight">erster Raumflug: {astronaut.firstLaunch}</span>
+                    <span className="astronaut-firstflight">erster Flug: {astronaut.firstLaunch}</span>
                     : ''}
                   </p>
                   : ''}
