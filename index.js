@@ -35889,10 +35889,11 @@ var Footer = function Footer(_ref) {
       ),
       _react2["default"].createElement(
         "div",
-        { id: "extrasSocial", className: "pure-u-1 pure-u-lg-1-2" },
-        [{ url: 'https://twitter.com/cosmowiki', name: 'Twitter' }, { url: 'https://www.facebook.com/CosmoWiki.org/', name: 'Facebook' }, { url: 'https://plus.google.com/u/0/+CosmoWikide', name: 'Google+' }, { url: 'https://github.com/cosmowiki/cosmowiki', name: 'Github' }].map(function (link) {
-          return _react2["default"].createElement("a", { id: link.name, className: pure - u - lg - 1 - 4, href: link.url, target: "_blank", title: link.name });
-        })
+        { id: "extrasSocial", "class": "pure-u-1 pure-u-lg-1-2" },
+        _react2["default"].createElement("a", { id: "Twitter", href: "https://twitter.com/cosmowiki", title: "CosmoWiki.org bei Twitter" }),
+        _react2["default"].createElement("a", { id: "Facebook", href: "https://www.facebook.com/CosmoWiki.org/", title: "CosmoWiki.org bei Facebook" }),
+        _react2["default"].createElement("a", { id: "GooglePlus", title: "CosmoWiki.org bei Google Plus" }),
+        _react2["default"].createElement("a", { id: "Github", href: "https://github.com/cosmowiki/cosmowiki", title: "CosmoWiki.org bei Github" })
       )
     ),
     _react2["default"].createElement(
