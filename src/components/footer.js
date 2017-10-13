@@ -93,7 +93,7 @@ const Footer = ({appUrl}) => {
           {[
             {url: 'https://twitter.com/cosmowiki', name: 'Twitter'},
             {url: 'https://www.facebook.com/CosmoWiki.org/', name: 'Facebook'},
-            {url: '', name: 'Google+'},
+            {url: 'https://plus.google.com/u/0/+CosmoWikide', name: 'Google+'},
             {url: 'https://github.com/cosmowiki/cosmowiki', name: 'Github'},
           ].map(link =>
             <a id={ link.name } className={ pure-u-lg-1-4 } href={ link.url } target="_blank" title={ link.name }></a>
