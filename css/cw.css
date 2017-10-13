@@ -353,7 +353,7 @@ footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
 #version {padding: .5em; font-size: .9em; border-bottom: 1px solid #ddd;}
 #sitemap {text-align: center;}
 #sitemap ul {margin-bottom: .5em;}
-#sitemap a {display: block; padding-left: .25em; line-height: 1.75em;}
+#sitemap a {display: block; line-height: 1.75em;}
 #sitemap li:first-child a {background: rgba(0, 0, 255, .1);}
 #sitemap ul:last-child li {margin-right: 0;}
 
@@ -379,7 +379,6 @@ footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
 	#summaryContainer {padding: 0 .5em;}
 	#summaryToggleSwitch.expanded {margin-right: .25em;}
 
-	#sitemap {text-align: left;}
 	#sitemap li {margin-right: .5em;}
 	#sitemap ul:nth-of-type(2+1) li {margin-right: 0;}
 	#sitemap a:before {content: "- ";}
@@ -418,8 +417,10 @@ footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
 
   #controlArea {min-height: 1.5em;}
 
+	#sitemap {text-align: left;}
 	#sitemap li {margin-right: .5em;}
 	#sitemap ul:last-child li {margin-right: 0;}
+	#sitemap a {padding-left: .25em;}
 
 	#extrasSelf,
 	#extrasSocial {display: inline-block;}
