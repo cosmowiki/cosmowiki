@@ -33981,16 +33981,20 @@ var AboutComponent = (function (_React$Component) {
         { role: 'main', className: 'pure-u-1' },
         _react2['default'].createElement(
           'div',
-          { id: 'siteTitle', className: 'pure-u-1 about center' },
+          { id: 'siteTitle', className: 'about pure-u-1 center' },
           _react2['default'].createElement(
-            'h1',
-            null,
-            'Wir über uns'
-          ),
-          _react2['default'].createElement(
-            'h3',
-            null,
-            'Ohne Idee keine Entwicklung'
+            'div',
+            { id: 'siteTitleContainer' },
+            _react2['default'].createElement(
+              'h1',
+              null,
+              'Wir über uns'
+            ),
+            _react2['default'].createElement(
+              'h3',
+              null,
+              'Ohne Idee keine Entwicklung'
+            )
           )
         ),
         _react2['default'].createElement(
