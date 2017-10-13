@@ -121,7 +121,6 @@ img#CosmoWikiLogo {display: none;}
 img#CosmoWikiIcon {display: block; height: 1.5em; padding: .25em;}
 
 /*	Nav --------------------------------------------------------------------- */
-.pure-menu-horizontal {width: auto;}
 .pure-menu-link:focus,
 .pure-menu-link:hover,
 .pure-menu-link:active {background: #eef;}
@@ -199,7 +198,7 @@ main {margin: 30px auto 0; max-width: 1000px;}
 #summaryContainer.minimized {height: 1.5em;}
 #summaryShade {
   position: absolute; height: 1.5em; width: 100%; left: 0; bottom: 1em;
-	background-image: linear-gradient(to bottom, rgba(255,255,255,.8), #fff);
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, .8), #fff);
 }
 .summary-text,
 div.summary-img.width-100,
@@ -211,7 +210,7 @@ div.summary-img.width-25,
 #summary h4 {
 	padding-left: .5em;
 	line-height: 1.5em;
-	background: rgba(0,0,255,.1);
+	background: rgba(0, 0, 255, .1);
 }
 
 .summary-img {padding: 2px;	border: 1px solid #55f;}
@@ -250,12 +249,12 @@ div.summary-img.width-25,
 #pageSubMenu a {
 	display: block; padding: 2em;
 	font-size: 1.5em;
-	background: rgba(255,255,255,.8);
+	background: rgba(255, 255, 255, .8);
 	border-bottom: 1px solid #fff;
 }
 #pageSubMenu a:focus,
 #pageSubMenu a:hover,
-#pageSubMenu a:active {color: #fff; background: rgba(255,255,255,.3);}
+#pageSubMenu a:active {color: #fff; background: rgba(255, 255, 255, .3);}
 
 /*	dataArea ---------------------------------------------------------------- */
 #dataArea {font-size: .8em;}
@@ -370,7 +369,7 @@ footer {margin: 0 auto; max-width: 1000px;}
 @media only screen and (min-width: 48em) {
 	img#CosmoWikiLogo {display: block; height: 1.5em; padding: .25em;}
 	img#CosmoWikiIcon {display: none;}
-	
+
 	#menuToggleButton {display: none;}
 
 	#siteTitle h1 {padding: .5em 0 0; font-size: 2em;}

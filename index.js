@@ -36953,7 +36953,7 @@ var Navigation = function Navigation(_ref) {
     { id: "navContainer", className: "pure-u-2-3" },
     _react2["default"].createElement(
       "nav",
-      { className: "pure-u-1 pure-menu pure-menu-horizontal center" },
+      { className: "pure-menu pure-menu-horizontal center" },
       _react2["default"].createElement(
         "ul",
         { id: "menu", className: "pure-menu-list" },
