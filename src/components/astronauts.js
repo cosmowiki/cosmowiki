@@ -245,7 +245,10 @@ const AstronautComponent = ({astronaut}) => {
                   <p className="astronaut-missions">
                     {astronaut.numberOfMissions ?
                     <span className="astronaut-numberofmissions">Flüge: {astronaut.numberOfMissions}</span>
+                    : ''}
+                    {astronaut.timeInSpace ?
                     <span className="astronaut-timeinspace">gesamt: {astronaut.timeInSpace}</span>
+                    : ''}
                     {astronaut.firstLaunch ?
                     <span className="astronaut-firstflight">erster Raumflug: {astronaut.firstLaunch}</span>
                     : ''}
@@ -258,6 +261,7 @@ const AstronautComponent = ({astronaut}) => {
                   </p>
                   : ''}
                 </div>
+              </div>
             </div>
   );
 };
