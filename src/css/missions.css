@@ -1,3 +1,8 @@
+#pageSubMenu li.missions,
+#siteTitle.missions {
+	background: url('/img/title_missions.jpg') center / cover no-repeat;
+}
+
 .mission-row div {padding: .2em 0;}
 
 /*.missionImg {min-width: 150px;}

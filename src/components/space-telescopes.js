@@ -142,29 +142,28 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
           </li>
         </ul>
       </Summary>
-      <div id="controlArea" className="spacetelecopes pure-u-1">
-        <div id="controllers" className="pure-u-1">
-          <div id="sort" className="spacetelecopes pure-u-1-2 left">
-            <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
-            <div id="sortArea">
-              <form id="sortSpacetelecopes" className="sort-form">
-
-                <select name="sortSpacetelecopes" defaultValue="sortSpacetelecopesLaunchUp">
-                  <option value="sortSpacetelecopesLaunchUp">Startdatum &uarr;</option>
-                  <option value="sortSpacetelecopesLaunchDown">Startdatum &darr;</option>
-                  <option value="sortSpacetelecopesNameUp">Name &uarr;</option>
-                  <option value="sortSpacetelecopesNameDown">Name &darr;</option>
-                  <option value="sortSpacetelecopesEndUp">Missionsende &uarr;</option>
-                  <option value="sortSpacetelecopesEndDown">Missionsende &darr;</option>
-                  <option value="sortSpacetelecopesDurationUp">Dauer &uarr;</option>
-                  <option value="sortSpacetelecopesDurationDown">Dauer &darr;</option>
-                </select>
-              </form>
+      <div id="dataArea" className="spacetelescopes module pure-u-1">
+        <div id="controlArea" className="spacetelecopes pure-u-1">
+          <div id="controllers" className="pure-u-1">
+            <div id="sort" className="spacetelecopes pure-u-1-2 left">
+              <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
+              <div id="sortArea">
+                <form id="sortSpacetelecopes" className="sort-form">
+                  <select name="sortSpacetelecopes" defaultValue="sortSpacetelecopesLaunchUp">
+                    <option value="sortSpacetelecopesLaunchUp">Startdatum &uarr;</option>
+                    <option value="sortSpacetelecopesLaunchDown">Startdatum &darr;</option>
+                    <option value="sortSpacetelecopesNameUp">Name &uarr;</option>
+                    <option value="sortSpacetelecopesNameDown">Name &darr;</option>
+                    <option value="sortSpacetelecopesEndUp">Missionsende &uarr;</option>
+                    <option value="sortSpacetelecopesEndDown">Missionsende &darr;</option>
+                    <option value="sortSpacetelecopesDurationUp">Dauer &uarr;</option>
+                    <option value="sortSpacetelecopesDurationDown">Dauer &darr;</option>
+                  </select>
+                </form>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div id="dataArea" className="spacetelescopes pure-u-1">
         <div id="spacetelescopesTable">
           {telescopes.map((telescope, idx) => <TelescopeComponent telescope={ telescope } key={idx}/>)}
         </div>

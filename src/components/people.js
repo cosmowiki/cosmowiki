@@ -103,42 +103,42 @@ const PeopleComponent = ({groupedPeople}) => {
           </li>
         </ul>
       </Summary>
-      <div id="controlArea" className="people pure-u-1">
-        <div id="controllers" className="pure-u-1">
-          <div id="sort" className="people pure-u-1-2 left">
-            <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
-            <div id="sortArea">
-              <form id="sortPeople" className="sort-form">
-                <select name="sortPeople" defaultValue="sortPeopleNameUp">
-                  <option value="sortPeopleNameUp">Name &uarr;</option>
-                  <option value="sortPeopleNameDown">Name &darr;</option>
-                  <option value="sortPeopleBornUp">Geburtsdatum &uarr;</option>// not important yet, too much items w/o dates
-                  <option value="sortPeopleBornDown">Geburtsdatum &darr;</option>// not important yet, too much items w/o dates
-                </select>
-              </form>
+      <div id="dataArea" className="people module pure-u-1">
+        <div id="controlArea" className="people pure-u-1">
+          <div id="controllers" className="pure-u-1">
+            <div id="sort" className="people pure-u-1-2 left">
+              <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
+              <div id="sortArea">
+                <form id="sortPeople" className="sort-form">
+                  <select name="sortPeople" defaultValue="sortPeopleNameUp">
+                    <option value="sortPeopleNameUp">Name &uarr;</option>
+                    <option value="sortPeopleNameDown">Name &darr;</option>
+                    <option value="sortPeopleBornUp">Geburtsdatum &uarr;</option>// not important yet, too much items w/o dates
+                    <option value="sortPeopleBornDown">Geburtsdatum &darr;</option>// not important yet, too much items w/o dates
+                  </select>
+                </form>
+              </div>
+            </div>
+            <div id="filter" className="people pure-u-1-2 right">
+              <a href="#" className="toggle-filter" name="toggle-filter">Filtern</a>
+              <div id="filterArea">
+                <form id="filterPeopleByProfession" className="filter-form">
+                  <label>Beruf:</label>
+                  <select name="peopleProfessions" defaultValue="showAllProfessions">
+                    <option value="showAllProfessions">alle</option>
+                  </select>
+                </form>
+                <form id="filterPeopleByCountry" className="filter-form">
+                  <label>Land:</label>
+                  <select name="peopleCountries" defaultValue="showAllCountries">
+                    <option value="showAllCountries">alle</option>
+                  </select>
+                </form>
+              </div>
             </div>
           </div>
-          <div id="filter" className="people pure-u-1-2 right">
-            <a href="#" className="toggle-filter" name="toggle-filter">Filtern</a>
-            <div id="filterArea">
-              <form id="filterPeopleByProfession" className="filter-form">
-                <label>Beruf:</label>
-                <select name="peopleProfessions" defaultValue="showAllProfessions">
-                  <option value="showAllProfessions">alle</option>
-                </select>
-              </form>
-              <form id="filterPeopleByCountry" className="filter-form">
-                <label>Land:</label>
-                <select name="peopleCountries" defaultValue="showAllCountries">
-                  <option value="showAllCountries">alle</option>
-                </select>
-              </form>
-            </div>
-          </div>
+          <LetterLinks letters={allFirstLetters} />
         </div>
-        <LetterLinks letters={allFirstLetters} />
-      </div>
-      <div id="dataArea" className="people pure-u-1">
         <div id="personsTable">
           {groupsIterable.map((group, idx) => <PersonGroupComponent group={group} key={idx} />)}
         </div>

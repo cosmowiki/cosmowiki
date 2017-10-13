@@ -155,7 +155,7 @@ const SolarSystemComponent = () => {
           </li>
         </ul>
       </Summary>
-      <div id="dataArea" className="solar-system pure-u-1">
+      <div id="dataArea" className="solar-system module pure-u-1">
         <div id="solarsystemTable">
           <div id="sun" className="type-1 star pure-u-1">
             <a href="#" title="" className="item-name">Sonne</a>

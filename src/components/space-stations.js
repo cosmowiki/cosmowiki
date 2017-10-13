@@ -172,29 +172,28 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
           </li>
         </ul>
       </Summary>
-      <div id="controlArea" className="stations pure-u-1">
-        <div id="controllers" className="pure-u-1">
-          <div id="sort" className="stations pure-u-1-2 left">
-            <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
-            <div id="sortArea">
-              <form id="sortStations" className="sort-form">
-
-                <select name="sortStations" defaultValue="sortStationsLaunchUp">
-                  <option value="sortStationsLaunchUp">Startdatum &uarr;</option>
-                  <option value="sortStationsLaunchDown">Startdatum &darr;</option>
-                  <option value="sortStationsNameUp">Name &uarr;</option>
-                  <option value="sortStationsNameDown">Name &darr;</option>
-                  <option value="sortStationsEndUp">Missionsende &uarr;</option>
-                  <option value="sortStationsEndDown">Missionsende &darr;</option>
-                  <option value="sortStationsDurationUp">Dauer &uarr;</option>
-                  <option value="sortStationsDurationDown">Dauer &darr;</option>
-                </select>
-              </form>
+      <div id="dataArea" className="stations module pure-u-1">
+        <div id="controlArea" className="stations pure-u-1">
+          <div id="controllers" className="pure-u-1">
+            <div id="sort" className="stations pure-u-1-2 left">
+              <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
+              <div id="sortArea">
+                <form id="sortStations" className="sort-form">
+                  <select name="sortStations" defaultValue="sortStationsLaunchUp">
+                    <option value="sortStationsLaunchUp">Startdatum &uarr;</option>
+                    <option value="sortStationsLaunchDown">Startdatum &darr;</option>
+                    <option value="sortStationsNameUp">Name &uarr;</option>
+                    <option value="sortStationsNameDown">Name &darr;</option>
+                    <option value="sortStationsEndUp">Missionsende &uarr;</option>
+                    <option value="sortStationsEndDown">Missionsende &darr;</option>
+                    <option value="sortStationsDurationUp">Dauer &uarr;</option>
+                    <option value="sortStationsDurationDown">Dauer &darr;</option>
+                  </select>
+                </form>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div id="dataArea" className="stations pure-u-1">
         <div id="stationsTable">
           {stations.map((station, idx) => <StationComponent spaceStation={station} key={idx}/>)}
         </div>

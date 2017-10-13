@@ -81,7 +81,7 @@ const starNotes = (
 
 const Notes = () => {
   return (
-    <div id="notes" className="pure-u-1">
+    <div id="notes" className="module pure-u-1">
       {defaultNotes}
     </div>
   )
@@ -91,7 +91,7 @@ export default Notes;
 
 export const ConstellationNotes = () => {
   return (
-    <div id="notes" className="pure-u-1">
+    <div id="notes" className="module pure-u-1">
       {defaultNotes}
       {constellationNotes}
     </div>
@@ -101,7 +101,7 @@ export const ConstellationNotes = () => {
 
 export const StarNotes = () => {
   return (
-    <div id="notes" className="pure-u-1">
+    <div id="notes" className="module pure-u-1">
       {defaultNotes}
       {starNotes}
     </div>

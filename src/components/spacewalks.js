@@ -95,27 +95,26 @@ const SpacewalksComponent = ({spacewalks}) => {
           </li>
         </ul>
       </Summary>
-      <div id="controlArea" className="spacewalks pure-u-1">
-        <div id="controllers" className="pure-u-1 left">
-          <div id="sort" className="spacewalks pure-u-1-2 left">
-            <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
-            <div id="sortArea">
-              <form id="sortSpacewalks" className="sort-form">
-
-                <select name="sortSpacewalks" defaultValue="sortSpacewalksStartUp">
-                  <option value="sortSpacewalksStartUp">Beginn &uarr;</option>
-                  <option value="sortSpacewalksStartDown">Beginn &darr;</option>
-                  <option value="sortSpacewalksDurationUp">Dauer &uarr;</option>
-                  <option value="sortSpacewalksDurationDown">Dauer &darr;</option>
-                  <option value="sortSpacewalksAstronautsUp">Astronauten &uarr;</option>
-                  <option value="sortSpacewalksAstronautsDown">Astronauten &darr;</option>
-                </select>
-              </form>
+      <div id="dataArea" className="spacewalks module pure-u-1">
+        <div id="controlArea" className="spacewalks pure-u-1">
+          <div id="controllers" className="pure-u-1 left">
+            <div id="sort" className="spacewalks pure-u-1-2 left">
+              <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
+              <div id="sortArea">
+                <form id="sortSpacewalks" className="sort-form">
+                  <select name="sortSpacewalks" defaultValue="sortSpacewalksStartUp">
+                    <option value="sortSpacewalksStartUp">Beginn &uarr;</option>
+                    <option value="sortSpacewalksStartDown">Beginn &darr;</option>
+                    <option value="sortSpacewalksDurationUp">Dauer &uarr;</option>
+                    <option value="sortSpacewalksDurationDown">Dauer &darr;</option>
+                    <option value="sortSpacewalksAstronautsUp">Astronauten &uarr;</option>
+                    <option value="sortSpacewalksAstronautsDown">Astronauten &darr;</option>
+                  </select>
+                </form>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div id="dataArea" className="spacewalks pure-u-1">
         <div id="spacewalksTable">
           {spacewalks.map((spacewalk, idx) => <SpacewalkComponent spacewalk={spacewalk} key={idx}/>)}
         </div>

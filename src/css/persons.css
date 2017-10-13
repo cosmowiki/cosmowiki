@@ -1,3 +1,15 @@
+#siteTitle.people {
+	background: url('/img/title_people.jpg') center / cover no-repeat;
+}
+#siteTitle.astronauts,
+#pageSubMenu li.astronauts {
+	background: url('/img/title_astronauts.jpg') center / cover no-repeat;
+}
+#siteTitle.scientists,
+#pageSubMenu li.scientists {
+	background: url('/img/title_scientists.jpg') center / cover no-repeat;
+}
+
 /*	person & scientist -------------------------------------------------------*/
 .person-row, .scientist-row {padding: .2em 0;}
 

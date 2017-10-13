@@ -136,37 +136,37 @@ const StarsComponent = ({groupedStars, constellations}) => {
           </li>
         </ul>
       </Summary>
-      <div id="controlArea" className="stars pure-u-1">
-        <div id="controllers" className="pure-u-1">
-          <div id="sort" className="stars pure-u-1-2 left">
-            <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
-            <div id="sortArea">
-              <form id="sortStars" className="sort-form">
-                <select name="sortStars" defaultValue="sortStarsHistoricalName">
-                  <option value="sortStarsHistoricalName">historischer Name</option>
-                  <option value="sortStarsConstellation">Sternbild</option>
-                  <option value="sortStarsMagUp">Helligkeit &uarr;</option>
-                  <option value="sortStarsMagDown">Helligkeit &darr;</option>
-                  <option value="sortStarsDistanceUp">Entfernung &uarr;</option>
-                  <option value="sortStarsDistanceDown">Entfernung &darr;</option>
-                  <option value="sortStarsMassUp">Masse &uarr;</option>
-                  <option value="sortStarsMassDown">Masse &darr;</option>
-                  <option value="sortStarsRadiusUp">Radius &uarr;</option>
-                  <option value="sortStarsRadiusDown">Radius &darr;</option>
-                </select>
-              </form>
+      <div id="dataArea" className="stars module pure-u-1">
+        <div id="controlArea" className="stars pure-u-1">
+          <div id="controllers" className="pure-u-1">
+            <div id="sort" className="stars pure-u-1-2 left">
+              <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
+              <div id="sortArea">
+                <form id="sortStars" className="sort-form">
+                  <select name="sortStars" defaultValue="sortStarsHistoricalName">
+                    <option value="sortStarsHistoricalName">historischer Name</option>
+                    <option value="sortStarsConstellation">Sternbild</option>
+                    <option value="sortStarsMagUp">Helligkeit &uarr;</option>
+                    <option value="sortStarsMagDown">Helligkeit &darr;</option>
+                    <option value="sortStarsDistanceUp">Entfernung &uarr;</option>
+                    <option value="sortStarsDistanceDown">Entfernung &darr;</option>
+                    <option value="sortStarsMassUp">Masse &uarr;</option>
+                    <option value="sortStarsMassDown">Masse &darr;</option>
+                    <option value="sortStarsRadiusUp">Radius &uarr;</option>
+                    <option value="sortStarsRadiusDown">Radius &darr;</option>
+                  </select>
+                </form>
+              </div>
+            </div>
+            <div id="filter" className="missions pure-u-1-2 right">
+              <a href="#" className="toggle-filter" name="toggle-filter">Filtern</a>
+              <div id="filterArea">
+                <FilterRow constellations={constellations} />
+              </div>
             </div>
           </div>
-          <div id="filter" className="missions pure-u-1-2 right">
-            <a href="#" className="toggle-filter" name="toggle-filter">Filtern</a>
-            <div id="filterArea">
-              <FilterRow constellations={constellations} />
-            </div>
-          </div>
+          <LetterLinks letters={allFirstLetters} />
         </div>
-        <LetterLinks letters={allFirstLetters} />
-      </div>
-      <div id="dataArea" className="stars pure-u-1">
         <div id="starsTable">
           {starsIterable.map((group, idx) => <StarsGroupComponent group={group} key={idx} />)}
         </div>

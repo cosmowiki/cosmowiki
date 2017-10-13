@@ -118,27 +118,27 @@ const ConstellationsComponent = ({constellations}) => {
           </li>
         </ul>
       </Summary>
-      <div id="controlArea" className="constellations pure-u-1">
-        <div id="controllers" className="pure-u-1">
-          <div id="filter" className="constellations pure-u-1-2 right">
-            <a href="#" className="toggle-filter" name="toggle-filter">Filtern</a>
-            <div id="filterArea">
-              <form id="filterConstellationsByVisibility" className="filter-form">
-                <label>Sichtbarkeit:</label>
-                <select name="constellationsVisibilities" defaultValue="showAllConstellations">
-                  <option value="showAllConstellations">alle</option>
-                  <option value="showConstellationsNorth">nur nördlich</option>
-                  <option value="showConstellationsNorthsouth">nördlich, teils südlich</option>
-                  <option value="showConstellationsMid">mittig</option>
-                  <option value="showConstellationsSouthnorth">südlich, teils nördlich</option>
-                  <option value="showConstellationsSouth">nur südlich</option>
-                </select>
-              </form>
+      <div id="dataArea" className="constellations module pure-u-1">
+        <div id="controlArea" className="constellations pure-u-1">
+          <div id="controllers" className="pure-u-1">
+            <div id="filter" className="constellations pure-u-1-2 right">
+              <a href="#" className="toggle-filter" name="toggle-filter">Filtern</a>
+              <div id="filterArea">
+                <form id="filterConstellationsByVisibility" className="filter-form">
+                  <label>Sichtbarkeit:</label>
+                  <select name="constellationsVisibilities" defaultValue="showAllConstellations">
+                    <option value="showAllConstellations">alle</option>
+                    <option value="showConstellationsNorth">nur nördlich</option>
+                    <option value="showConstellationsNorthsouth">nördlich, teils südlich</option>
+                    <option value="showConstellationsMid">mittig</option>
+                    <option value="showConstellationsSouthnorth">südlich, teils nördlich</option>
+                    <option value="showConstellationsSouth">nur südlich</option>
+                  </select>
+                </form>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div id="dataArea" className="constellations pure-u-1">
         <div id="constellationsTable">
           {constellations.map((constellation, idx) => <ConstellationComponent constellation={constellation} key={idx}/>)}
         </div>

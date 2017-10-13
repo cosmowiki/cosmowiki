@@ -1,3 +1,8 @@
+#pageSubMenu li.solarsystem,
+#siteTitle.solarsystem {
+	background: url('/img/title_solarsystem.jpg') center / cover no-repeat;
+}
+
 #solarsystemTable {
 	font-size: 1.25em;
 }

@@ -176,42 +176,42 @@ const ScientistsComponent = ({groupedScientists}) => {
           </li>
         </ul>
       </Summary>
-      <div id="controlArea" className="people pure-u-1">
-        <div id="controllers" className="pure-u-1">
-          <div id="sort" className="people pure-u-1-2 left">
-            <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
-            <div id="sortArea">
-              <form id="sortScientists" className="sort-form">
-                <select name="sortScientists" defaultValue="sortScientistsNameUp">
-                  <option value="sortScientistsNameUp">Name &uarr;</option>
-                  <option value="sortScientistsNameDown">Name &darr;</option>
-                  <option value="sortScientistsBornUp">Geburtsdatum &uarr;</option>// not important yet, too much items w/o dates
-                  <option value="sortScientistsBornDown">Geburtsdatum &darr;</option>// not important yet, too much items w/o dates
-                </select>
-              </form>
+      <div id="dataArea" className="people module pure-u-1">
+        <div id="controlArea" className="people pure-u-1">
+          <div id="controllers" className="pure-u-1">
+            <div id="sort" className="people pure-u-1-2 left">
+              <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
+              <div id="sortArea">
+                <form id="sortScientists" className="sort-form">
+                  <select name="sortScientists" defaultValue="sortScientistsNameUp">
+                    <option value="sortScientistsNameUp">Name &uarr;</option>
+                    <option value="sortScientistsNameDown">Name &darr;</option>
+                    <option value="sortScientistsBornUp">Geburtsdatum &uarr;</option>// not important yet, too much items w/o dates
+                    <option value="sortScientistsBornDown">Geburtsdatum &darr;</option>// not important yet, too much items w/o dates
+                  </select>
+                </form>
+              </div>
+            </div>
+            <div id="filter" className="scientists pure-u-1-2 right">
+              <a href="#" className="toggle-filter" name="toggle-filter">Filtern</a>
+              <div id="filterArea">
+                <form id="filterScientistsByProfession" className="filter-form">
+                  <label>Beruf:</label>
+                  <select name="scientistsProfessions" defaultValue="showAllProfessions">
+                    <option value="showAllProfessions">alle</option>
+                  </select>
+                </form>
+                <form id="filterScientistsByCountry" className="filter-form">
+                  <label>Land:</label>
+                  <select name="scientistsCountries" defaultValue="showAllCountries">
+                    <option value="showAllCountries">alle</option>
+                  </select>
+                </form>
+              </div>
             </div>
           </div>
-          <div id="filter" className="scientists pure-u-1-2 right">
-            <a href="#" className="toggle-filter" name="toggle-filter">Filtern</a>
-            <div id="filterArea">
-              <form id="filterScientistsByProfession" className="filter-form">
-                <label>Beruf:</label>
-                <select name="scientistsProfessions" defaultValue="showAllProfessions">
-                  <option value="showAllProfessions">alle</option>
-                </select>
-              </form>
-              <form id="filterScientistsByCountry" className="filter-form">
-                <label>Land:</label>
-                <select name="scientistsCountries" defaultValue="showAllCountries">
-                  <option value="showAllCountries">alle</option>
-                </select>
-              </form>
-            </div>
-          </div>
+          <LetterLinks letters={allFirstLetters} />
         </div>
-        <LetterLinks letters={allFirstLetters} />
-      </div>
-      <div id="dataArea" className="people pure-u-1">
         <div id="peopleTable">
           {groupsIterable.map((group, idx) => <ScientistGroupComponent group={group} key={idx} />)}
         </div>
