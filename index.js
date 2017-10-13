@@ -34360,7 +34360,7 @@ var AstronautsComponent = function AstronautsComponent(_ref) {
             null,
             'STS-95'
           ),
-          ' am 29. Oktober 1998 war er bereits 77 jahre alt.'
+          ' am 29. Oktober 1998 war er bereits 77 Jahre alt.'
         ),
         _react2['default'].createElement(
           'li',
@@ -34552,7 +34552,7 @@ var AstronautsComponent = function AstronautsComponent(_ref) {
       ),
       _react2['default'].createElement(
         'div',
-        { id: 'peopleTable' },
+        { id: 'personsTable' },
         groupsIterable.map(function (group, idx) {
           return _react2['default'].createElement(AstronautGroupComponent, { group: group, key: idx });
         })
@@ -34596,7 +34596,7 @@ var AstronautComponent = function AstronautComponent(_ref3) {
     { className: 'astronaut-row data-row pure-u-1 pure-u-md-1-2 pure-u-lg-1-3' },
     _react2['default'].createElement(
       'div',
-      { className: 'astronaut-name pure-u-1' },
+      { className: 'astronaut-name' },
       _react2['default'].createElement(
         'a',
         { href: astronaut.link, title: astronaut.name },
@@ -34604,80 +34604,76 @@ var AstronautComponent = function AstronautComponent(_ref3) {
       ),
       _react2['default'].createElement('img', { src: astronaut.flag, alt: astronaut.country, title: astronaut.country })
     ),
-    astronaut.imgSmallUrl ? _react2['default'].createElement(
-      'div',
-      { className: 'astronaut-img pure-u-1-3' },
-      _react2['default'].createElement(
-        'a',
-        { href: astronaut.imgUrl, title: astronaut.name },
-        _react2['default'].createElement('img', { src: astronaut.imgSmallUrl, alt: astronaut.name, title: astronaut.name })
-      )
-    ) : '',
     _react2['default'].createElement(
       'div',
-      { className: 'astronaut-data pure-u-2-3' },
-      astronaut.born ? _react2['default'].createElement(
+      { className: 'astronaut-info pure-u-1' },
+      astronaut.imgSmallUrl ? _react2['default'].createElement(
         'div',
-        { className: 'astronaut-life pure-u-1' },
+        { className: 'astronaut-img' },
         _react2['default'].createElement(
-          'p',
-          { className: 'astronaut-born' },
-          '* ',
-          astronaut.born
-        ),
-        astronaut.died ? _react2['default'].createElement(
-          'p',
-          { className: 'astronaut-died' },
-          '† ',
-          astronaut.died
-        ) : ''
+          'a',
+          { href: astronaut.imgUrl, title: astronaut.name },
+          _react2['default'].createElement('img', { src: astronaut.imgSmallUrl, alt: astronaut.name, title: astronaut.name })
+        )
       ) : '',
-      astronaut.missions ? _react2['default'].createElement(
+      _react2['default'].createElement(
         'div',
-        { className: 'astronaut-spaceflights pure-u-1' },
-        astronaut.numberOfMissions ? _react2['default'].createElement(
-          'div',
-          { className: 'astronaut-missionsdata pure-u-1' },
+        { className: 'astronaut-data pure-u-2-3' },
+        astronaut.born ? _react2['default'].createElement(
+          'p',
+          { className: 'astronaut-life' },
           _react2['default'].createElement(
-            'p',
+            'span',
+            { className: 'astronaut-born' },
+            '* ',
+            astronaut.born
+          ),
+          astronaut.died ? _react2['default'].createElement(
+            'span',
+            { className: 'astronaut-died' },
+            '† ',
+            astronaut.died
+          ) : ''
+        ) : '',
+        astronaut.missions ? _react2['default'].createElement(
+          'p',
+          { className: 'astronaut-missions' },
+          astronaut.numberOfMissions ? _react2['default'].createElement(
+            'span',
             { className: 'astronaut-numberofmissions' },
             'Flüge: ',
             astronaut.numberOfMissions
-          ),
-          _react2['default'].createElement(
-            'p',
+          ) : '',
+          astronaut.timeInSpace ? _react2['default'].createElement(
+            'span',
             { className: 'astronaut-timeinspace' },
             'gesamt: ',
             astronaut.timeInSpace
-          )
-        ) : '',
-        astronaut.firstLaunch ? _react2['default'].createElement(
-          'div',
-          { className: 'astronaut-firstlaunch pure-u-1' },
-          _react2['default'].createElement(
-            'p',
-            null,
+          ) : '',
+          astronaut.firstLaunch ? _react2['default'].createElement(
+            'span',
+            { className: 'astronaut-firstflight' },
             'erster Raumflug: ',
             astronaut.firstLaunch
+          ) : ''
+        ) : '',
+        astronaut.numberOfSpacewalks ? _react2['default'].createElement(
+          'p',
+          { className: 'astronaut-spacewalks' },
+          _react2['default'].createElement(
+            'span',
+            { className: 'astronaut-numberofspacewalks' },
+            'EVAs: ',
+            astronaut.numberOfSpacewalks
+          ),
+          _react2['default'].createElement(
+            'span',
+            { className: 'astronaut-durationofspacewalks' },
+            'Gesamtdauer: ',
+            astronaut.durationOfSpacewalks
           )
         ) : ''
-      ) : '',
-      astronaut.numberOfSpacewalks ? _react2['default'].createElement(
-        'div',
-        { className: 'astronaut-spacewalks pure-u-1' },
-        _react2['default'].createElement(
-          'p',
-          { className: 'astronaut-numberofspacewalks' },
-          'EVAs: ',
-          astronaut.numberOfSpacewalks
-        ),
-        _react2['default'].createElement(
-          'p',
-          { className: 'astronaut-durationofspacewalks' },
-          'Gesamtdauer: ',
-          astronaut.durationOfSpacewalks
-        )
-      ) : ''
+      )
     )
   );
 };
