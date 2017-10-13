@@ -77,7 +77,7 @@ const Footer = ({appUrl}) => {
         </ul>
       </div>
 	    <div id="extras">
-        <div id="extrasSelf" className="pure-u-1 pure-u-lg-1-2 left">
+        <div id="extrasSelf" className="pure-u-1 pure-u-lg-1-2">
           {[
             {url: appUrl.aboutSite() + '#whatis', name: 'Über uns'},
             {url: appUrl.aboutSite() + '#license', name: 'Lizenz'},
@@ -86,14 +86,18 @@ const Footer = ({appUrl}) => {
             {url: appUrl.aboutSite() + '#contact', name: 'Kontakt'},
             {url: appUrl.aboutSite() + '#imprint', name: 'Impressum'},
           ].map(link =>
-            <a href={ link.url } target="_self" title={ link.name }>{ link.name }</a>
+            <a className={ pure-u-lg-1-6 } href={ link.url } target="_self" title={ link.name }>{ link.name }</a>
           )}
         </div>
-        <div id="extrasSocial" className="pure-u-1 pure-u-lg-1-2 right">
-  	      <a id="twitterLink" href="https://twitter.com/cosmowiki" title="CosmoWiki.org bei Twitter">Twitter</a>
-    	    <a id="facebookLink" href="https://www.facebook.com/CosmoWiki.org/" title="CosmoWiki.org bei Facebook">Facebook</a>
-    	    <a id="googleLink" title="CosmoWiki.org bei Google Plus">Google+</a>
-    	    <a id="githubLink" href="https://github.com/cosmowiki/cosmowiki" title="CosmoWiki.org bei Github">Github</a>
+        <div id="extrasSocial" className="pure-u-1 pure-u-lg-1-2">
+          {[
+            {url: 'https://twitter.com/cosmowiki', name: 'Twitter'},
+            {url: 'https://www.facebook.com/CosmoWiki.org/', name: 'Facebook'},
+            {url: '', name: 'Google+'},
+            {url: 'https://github.com/cosmowiki/cosmowiki', name: 'Github'},
+          ].map(link =>
+            <a id={ link.name } className={ pure-u-lg-1-4 } href={ link.url } target="_blank" title={ link.name }></a>
+          ]}
         </div>
       </div>
       <div id="version" className="center">

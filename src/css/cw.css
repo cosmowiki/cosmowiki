@@ -351,29 +351,25 @@ footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
 #sitemap,
 #extras,
 #version {padding: .5em; font-size: .9em; border-bottom: 1px solid #ddd;}
-
+#sitemap {text-align: center;}
+#sitemap ul {margin-bottom: .5em;}
 #sitemap li {margin-right: .5em;}
 #sitemap a {display: block; padding-left: .25em; line-height: 1.75em;}
-#sitemap a:before {content: "- ";}
-#sitemap li:first-child a:before {content: "";}
 #sitemap li:first-child a {background: rgba(0, 0, 255, .1);}
+#sitemap ul:last-child li {margin-right: 0;}
+
 
 #extrasSelf,
-#extrasSocial {display: inline-block;}
-#extras a {margin-right: 1em;}
-
-#sitemap ul:last-child li,
-#extrasSelf a:last-child,
-#extrasSocial a:last-child {margin-right: 0;}
-
-#extras #twitterLink:before,
-#extras #facebookLink:before,
-#extras #googleLink:before,
-#extras #githubLink:before {margin-right: .5em; font-family: FontAwesome;}
-#extras #twitterLink:before {content: "\f099"; color: #32bbf5;}
-#extras #facebookLink:before {content: "\f09a"; color: #4273c8;}
-#extras #googleLink:before {content: "\f0d5"; color: #d34836;}
-#extras #githubLink:before {content: "\f09b"; color: #4078c0;}
+#extrasSocial {margin: .5em auto; text-align: center;}
+#extrasSocial a:before {font-family: FontAwesome;}
+#extras #Twitter:before {content: "\f099"; color: #32bbf5;}
+#extras #Facebook:before {content: "\f09a"; color: #4273c8;}
+#extras #GooglePlus:before {content: "\f0d5"; color: #d34836;}
+#extras #Github:before {content: "\f09b"; color: #4078c0;}
+#extras #Twitter:after {content: " Twitter";}
+#extras #Facebook:after {content: " Facebook";}
+#extras #GooglePlus:after {content: " Google+";}
+#extras #Github:after {content: " Github";}
 
 #version p {margin: 0 auto; line-height: 15px;}
 
@@ -410,6 +406,23 @@ footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
 	.summary-img img {border-radius: 3px;}
 
   #controlArea {min-height: 1.5em;}
+
+	#sitemap {text-align: left;}
+	#sitemap ul,
+	#sitemap li {margin: 0;}
+	#sitemap a:before {content: "- ";}
+	#sitemap li:first-child a:before {content: "";}
+
+	#extrasSelf,
+	#extrasSocial {display: inline-block;}
+	#extrasSelf {text-align: left;}
+	#extrasSelf a {margin-right: 1em; text-align: left;}
+	#extrasSocial {text-align: right;}
+	#extrasSocial a {margin-left: 1em; text-align: right;}
+	#extras #Twitter:after {content: " Twitter";}
+	#extras #Facebook:after {content: " Facebook";}
+	#extras #GooglePlus:after {content: " Google+";}
+	#extras #Github:after {content: " Github";}
 }
 
 @media only screen and (min-width: 1025px) {
