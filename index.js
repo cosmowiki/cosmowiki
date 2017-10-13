@@ -34653,7 +34653,7 @@ var AstronautComponent = function AstronautComponent(_ref3) {
           astronaut.firstLaunch ? _react2['default'].createElement(
             'span',
             { className: 'astronaut-firstflight' },
-            'erster Raumflug: ',
+            'erster Flug: ',
             astronaut.firstLaunch
           ) : ''
         ) : '',

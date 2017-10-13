@@ -48,6 +48,7 @@
 .astronaut-info,
 .astronaut-data {padding: .25em 0;}
 
+.astronaut-data span {margin-left: .5em;}
 .astronaut-born,
 .astronaut-died,
 .astronaut-numberofmissions,
