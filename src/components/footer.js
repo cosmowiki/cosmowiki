@@ -4,7 +4,7 @@ const Footer = ({appUrl}) => {
   return (
     <footer className="module pure-u-1 center">
       <div id="sitemap" className="left">
-        <ul className="pure-u-1 pure-u-lg-1-6">
+        <ul className="pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-6">
           {[
             {url: appUrl.eventsSite(), name: 'Chronik'},
           ].map(link =>
@@ -13,7 +13,7 @@ const Footer = ({appUrl}) => {
             </li>
           )}
         </ul>
-        <ul className="pure-u-1 pure-u-lg-1-6">
+        <ul className="pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-6">
           {[
             {url: appUrl.peopleSite(), name: 'Personen'},
             {url: appUrl.scientistsSite(), name: 'Wissenschaftler'},
@@ -24,7 +24,7 @@ const Footer = ({appUrl}) => {
             </li>
           )}
         </ul>
-        <ul className="pure-u-1 pure-u-lg-1-6">
+        <ul className="pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-6">
           {[
             {url: '', name: 'Orte'},
           ].map(link =>
@@ -33,7 +33,7 @@ const Footer = ({appUrl}) => {
             </li>
           )}
         </ul>
-        <ul className="pure-u-1 pure-u-lg-1-6">
+        <ul className="pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-6">
           {[
             {url: appUrl.objectsSite(), name: 'Objekte'},
             {url: appUrl.peopleSite(), name: 'Sonnensystem'},
@@ -47,7 +47,7 @@ const Footer = ({appUrl}) => {
             </li>
           )}
         </ul>
-        <ul className="pure-u-1 pure-u-lg-1-6">
+        <ul className="pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-6">
           {[
             {url: appUrl.astronomySite(), name: 'Astronomie'},
             {url: appUrl.scientistsSite(), name: 'Wissenschaftler'},
@@ -61,7 +61,7 @@ const Footer = ({appUrl}) => {
             </li>
           )}
         </ul>
-        <ul className="pure-u-1 pure-u-lg-1-6">
+        <ul className="pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-6">
           {[
             {url: appUrl.spaceflightSite(), name: 'Raumfahrt'},
             {url: appUrl.astronautsSite(), name: 'Raumfahrer'},

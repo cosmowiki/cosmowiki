@@ -360,6 +360,7 @@ footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
 
 #extrasSelf,
 #extrasSocial {margin: .5em auto; text-align: center;}
+#extras li {margin-bottom: .5em;}
 #extrasSocial a:before {font-family: FontAwesome;}
 #extras #Twitter:before {content: "\f099"; color: #32bbf5;}
 #extras #Facebook:before {content: "\f09a"; color: #4273c8;}
@@ -370,13 +371,21 @@ footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
 #extras #GooglePlus:after {content: " Google+";}
 #extras #Github:after {content: " Github";}
 
-#version p {margin: 0 auto; line-height: 15px;}
+#version p {margin: 0 auto; line-height: 15px; font-size: .8em;}
 
 /* breakpoints -------------------------------------------------------------- */
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only screen and (min-width: 35.5em) {
 	#summaryContainer {padding: 0 .5em;}
 	#summaryToggleSwitch.expanded {margin-right: .25em;}
+
+	#sitemap {text-align: left;}
+	#sitemap li {margin-right: .5em;}
+	#sitemap ul:nth-of-type(2+1) li {margin-right: 0;}
+	#sitemap a:before {content: "- ";}
+	#sitemap li:first-child a:before {content: "";}
+
+	#extras li {display: inline-block; margin: 0 .5em;)
 }
 
 @media only screen and (min-width: 48em) {
@@ -393,6 +402,9 @@ footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
 
 	#sortArea, #filterArea, #sort form, #filter form {display: inline;}
 	#sort a, #filter a {display: none;}
+
+	#sitemap li {margin-right: .5em;}
+	#sitemap ul:nth-of-type(3+1) li {margin-right: 0;}
 }
 
 @media only screen and (min-width: 64em) {
@@ -406,17 +418,12 @@ footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
 
   #controlArea {min-height: 1.5em;}
 
-	#sitemap {text-align: left;}
 	#sitemap li {margin-right: .5em;}
 	#sitemap ul:last-child li {margin-right: 0;}
-	#sitemap a:before {content: "- ";}
-	#sitemap li:first-child a:before {content: "";}
 
 	#extrasSelf,
 	#extrasSocial {display: inline-block;}
 	#extrasSelf ul {text-align: left;}
-	#extrasSelf li,
-	#extrasSocial li {display: inline-block;}
 	#extrasSelf a {margin-right: 1em; text-align: left;}
 	#extrasSocial {text-align: right;}
 	#extrasSocial a {margin-left: 1em; text-align: right;}
