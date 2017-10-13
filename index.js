@@ -34593,7 +34593,7 @@ var AstronautComponent = function AstronautComponent(_ref3) {
 
   return _react2['default'].createElement(
     'div',
-    { className: 'astronaut-row data-row pure-u-1 pure-u-md-1-2 pure-u-lg-1-3' },
+    { className: 'astronaut-card data-row pure-u-1 pure-u-md-1-2 pure-u-lg-1-3' },
     _react2['default'].createElement(
       'div',
       { className: 'astronaut-name' },
@@ -34606,7 +34606,7 @@ var AstronautComponent = function AstronautComponent(_ref3) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'astronaut-info pure-u-1' },
+      { className: 'astronaut-info' },
       astronaut.imgSmallUrl ? _react2['default'].createElement(
         'div',
         { className: 'astronaut-img' },
