@@ -1,3 +1,8 @@
+#pageSubMenu li.stars,
+#siteTitle.stars {
+	background: url('/img/title_stars.jpg') center / cover no-repeat;
+}
+
 .star-row {padding: .2em 0;}
 
 .star-name div {display: block; font-size: 1.25em; text-align: center;}

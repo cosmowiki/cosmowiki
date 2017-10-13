@@ -1,3 +1,6 @@
+#siteTitle.chronicle {
+	background: url('/img/title_chronicle.jpg') center / cover no-repeat;
+}
 .event-row {padding: .2em 0;}
 
 .event-data1 {font-size: 1.125em; text-align: center;}

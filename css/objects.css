@@ -1,1 +1,3 @@
-
+#siteTitle.objects {
+	background: url('/img/title_objects.jpg') center / cover no-repeat;
+}

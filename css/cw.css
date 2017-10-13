@@ -35,7 +35,6 @@ a:focus img, a:hover img, a:active img {}
 .small {font-size: .7em;}
 .visible {display: block;}
 .hidden {display: none;}
-.outline {outline: 1px solid #aaa;}
 
 /*	Structure --------------------------------------------------------------- */
 #wrapper {
@@ -50,106 +49,148 @@ a:focus img, a:hover img, a:active img {}
 	background: url(/img/bgWrapper8_sm.jpg) center / cover no-repeat fixed #113;
 }
 
-header, main, footer {margin: 0 auto; max-width: 1025px;}
-
-/*		Branding -------------------------------------------------------------- */
-#branding,
-#searchArea,
-#menuToggle {height: 40px;}
-
-#branding {
-	position: fixed; top: 0; left: 0;	z-index: 1; min-width: 40px;
-	background-image: linear-gradient(to right, #fff 50px, #eee);
-	border-bottom: 1px solid #fff;
+/*	share-buttons ---------------------------------------------------------- */
+/* Do we need share buttons? */
+/*div#share,
+a#shareTwitter,
+a#shareFacebook,
+a#shareGoogle {
+	position: fixed; bottom: 200px; bottom: calc(30% + 30px); left: 0;
+	width: 30px; height: 30px; z-index: 10; cursor: pointer;
+  font-family: FontAwesome;
+	line-height: 30px; font-size: 1em; text-align: center; overflow: hidden;
+  background-color: #ddd;
+	border-width: 1px 1px 0 0; border-style: solid; border-color: #fff;
 }
-img#CosmoWikiLogo {display: none;}
-img#CosmoWikiIcon {display: block; margin: 5px; height: 30px;}
+a#shareTwitter {
+	bottom: 169px; bottom: calc(30% + 0px);
+	border-width: 0 1px 0 0;
+}
+a#shareFacebook {
+	bottom: 138px; bottom: calc(30% - 30px);
+	border-width: 0 1px 0 0;
+}
+a#shareGoogle {
+	bottom: 107px; bottom: calc(30% - 60px);
+	border-width: 0 1px 1px 0;
+}
+a#shareTwitter:hover,
+a#shareFacebook:hover,
+a#shareGoogle:hover {background-color: #eee;}
+div#share:before {content: '\f1e0';}
+a#shareTwitter:before {content: "\f099"; color: #32bbf5;}
+a#shareFacebook:before {content: "\f09a"; color: #4273c8;}
+a#shareGoogle:before {content: "\f0d5"; color: #d34836;}*/
 
-#searchForm {margin: 8px auto;}
-#searchText,
-#searchSubmit {
+/*	scroll-buttons ---------------------------------------------------------- */
+a#scrollUp,
+a#scrollDown {
+	position: fixed; bottom: 7em; bottom: calc(7em - 0px); right: 0;
+	width: 1.25em; height: 1.25em; z-index: 10; cursor: pointer;
+  font-family: FontAwesome; font-weight: bold;
+	line-height: 1.25em; font-size: 1.25em; text-align: center; overflow: hidden;
+  background-color: #ddd;
+	border-width: 1px 0 0 1px; border-style: solid; border-color: #fff;
+}
+a#scrollDown {
+	bottom: 5.75em; bottom: calc(7em - 1.25em);
+	border-width: 0 0 1px 1px;
+}
+a#scrollUp:hover,
+a#scrollDown:hover {background-color: #eee;}
+a#scrollUp:before {content: '\f102';}
+a#scrollDown:before {content: '\f103';}
+
+/*	menuToggle -------------------------------------------------------------- */
+#menuToggle {
+	position: fixed; bottom: 6.375em; left: 0;
+	width: 1.25em; height: 1.25em; z-index: 10; cursor: pointer;
+  font-family: FontAwesome; font-weight: bold;
+	line-height: 1.25em; font-size: 1.25em; text-align: center; overflow: hidden;
+  background-color: #ddd;
+	border-width: 1px 1px 1px 0; border-style: solid; border-color: #fff;
+}
+a#menuToggle:before {content: '\f0c9';}
+
+/*	Header ------------------------------------------------------------------ */
+header {position: fixed; top: 0; left: 0;	z-index: 10; background: #fff;}
+
+/*	Logo -------------------------------------------------------------------- */
+#logo {min-width: 40px;}
+img#CosmoWikiLogo {display: none;}
+img#CosmoWikiIcon {display: block; height: 1.5em; padding: .25em;}
+
+/*	Nav --------------------------------------------------------------------- */
+.pure-menu-horizontal {width: auto;}
+.pure-menu-link:focus,
+.pure-menu-link:hover,
+.pure-menu-link:active {background: #eef;}
+.pure-menu-children {border-top: 1px solid #ddd;}
+.pure-menu-link.welcome:before {font-family: FontAwesome; content: '\f015';}
+.pure-menu-link.search:before {font-family: FontAwesome; content: '\f002';}
+
+nav ul ul li {text-align: left;}
+nav ul ul li a {background: #fff; border-bottom: 1px solid #ddd;}
+nav ul ul li:last-child a {border-bottom: none;}
+
+/*	Search ------------------------------------------------------------------ */
+#searchArea {
+/* onClick nav li.search set display to "block" to show the search form */
+	display: none; position: absolute; top: 0; left: 25%; z-index: 20;
+	background: #fff;
+}
+#searchArea form {margin: 4px auto;}
+#searchArea input,
+#searchArea button {
 	float: left; padding: 2px; line-height:20px; font-size: 16px;
 	background:#fff; box-shadow:none;
 	border: 1px solid #aaf;
 }
-#searchText {
-	margin: 0 auto; width: 66.666%; width: calc(100% - 29px);
+#searchArea input {
+	margin: 0 auto; width: 90%; width: calc(100% - 29px);
 	border-right: none; border-radius: 5px 0 0 5px;
 }
-#searchText:focus {
-	outline: none;
-}
-#searchSubmit {
-	position: relative; top: 0; right: 0;
-	width: 24px; cursor: pointer;
-	color: #aaf; text-align: center;
+#searchArea input:focus {outline: none;}
+#searchArea button {
+	position: relative; top: 0; right: 0; width: 24px; cursor: pointer;
+	font-family: FontAwesome; color: #aaf; text-align: center;
 	border-left: none; border-radius: 0 5px 5px 0;
 }
-#searchSubmit:focus,
-#searchSubmit:hover,
-#searchSubmit:active {color:#333;}
+#searchArea button:before {content: '\f002';}
+#searchArea button:focus,
+#searchArea button:hover,
+#searchArea button:active {color:#333;}
 
-#menuToggleButton {min-width: 40px; color: #000; background: #fff;}
+/*	Main -------------------------------------------------------------------- */
+main {margin: 30px auto 0; max-width: 1000px;}
 
-/*		Header ---------------------------------------------------------------- */
-header {margin: 40px auto 0;}
-
-/*			Nav ----------------------------------------------------------------- */
-nav {
-	margin: 0 auto;
-	background: #f8f8f8;
-	border-bottom: 1px solid #fff;}
-
-.pure-menu-link:focus,
-.pure-menu-link:hover,
-.pure-menu-link:active {background: #fff;}
-.pure-menu-children {background: transparent; border-top: 1px solid #fff;}
-
-nav ul ul li {text-align: left;}
-nav ul ul li a {background: #f8f8f8; border-bottom: 1px solid #fff;}
-nav ul ul li:last-child a {border-bottom: none; border-radius: 0 0 5px 5px;}
-
-/*		Main ------------------------------------------------------------------ */
-main {background: rgba(255,255,255,.8); border-bottom: 1em solid #eee;}
-
-/*			siteTitle ----------------------------------------------------------- */
-#siteTitle {
-	min-height: 4.5em;
-	background: rgba(255,255,255,.5);
-	border-bottom: 1px solid #fff;
+/*	Module ------------------------------------------------------------------ */
+.module {
+	background: rgba(255, 255, 255, .9);
+	border-top: 15px solid #ccf; border-bottom: 15px solid #eee;
 }
 
+/*	siteTitle --------------------------------------------------------------- */
+#siteTitleContainer {color: #555; background: rgba(255, 255, 255, .8);}
 #siteTitle h1 {
-	padding: .2em 0 0;
-	color: #888; font-weight: normal;
-	text-shadow: 1px 1px #fff; text-transform: uppercase;
+	padding: .5em 0 0;
+	font-size: 1.25em; text-transform: uppercase; text-shadow: 1px 1px #fff;
 }
-#siteTitle h3 {padding: .1em 0;}
+#siteTitle h3 {padding: .25em 0 .5em; font-size: 1em; text-shadow: 1px 1px #fff;}
 
-/*			todo ---------------------------------------------------------------- */
+/*	todo -------------------------------------------------------------------- */
 #todo {text-align: center; background: red;}
 
-/*			summary ------------------------------------------------------------- */
-#summary {
-	position: relative;
-	background: rgba(255, 255, 255,.5);
-	border-bottom: 1px solid #fff;
-}
+/*	summary ----------------------------------------------------------------- */
+#summary {position: relative;}
 
 #summaryToggleSwitch {
-	display: block;
-	font-size: 2em; line-height: .75em;
-}
-#summaryToggleSwitch.expanded {
-	text-align: right;
+	display: block; margin: .25em .25em 0 0; text-align: right;
+	font-family: FontAwesome; font-size: 1.25em;
 	background: transparent;
 }
-#summaryToggleSwitch.expanded:after {content: '\00D7';}
-#summaryToggleSwitch.collapsed {
-	text-align: center;
-	background: rgba(255, 255, 255,.8);
-}
-#summaryToggleSwitch.collapsed:after {content: '\25BE';}
+#summaryToggleSwitch.expanded:after {content: '\f147';}
+#summaryToggleSwitch.collapsed:after {content: '\f196';}
 
 #summaryContainer {
   position: relative; overflow: hidden; height: 100%;
@@ -205,12 +246,37 @@ div.summary-img.width-25,
 .summary-list {list-style: disc inside;}
 .summary-list li {margin: .5em 0;}
 
-/*			controlArea -------------------------------------------------------- */
-#controlArea {background: #eee;}
+/*		pageSubMenu ----------------------------------------------------------- */
+#pageSubMenu a {
+	display: block; padding: 2em;
+	font-size: 1.5em;
+	background: rgba(255,255,255,.8);
+	border-bottom: 1px solid #fff;
+}
+#pageSubMenu a:focus,
+#pageSubMenu a:hover,
+#pageSubMenu a:active {color: #fff; background: rgba(255,255,255,.3);}
 
+/*	dataArea ---------------------------------------------------------------- */
+#dataArea {font-size: .8em;}
+.leading-letter p {
+	padding: .2em;
+	font-size: 1.25em; font-weight: normal;
+	background: rgba(0, 0, 255, .1);
+	border-bottom: 1px solid #fff;
+}
+
+.data-row {display: inline-block;	border-bottom: 1px solid #fff;}
+.data-row:last-child {border-bottom: 1px solid #ddd;}
+
+.data-row:focus,
+.data-row:hover,
+.data-row:active {background: rgba(255, 255, 255, .5);}
+
+/*	controlArea ------------------------------------------------------------- */
 #controllers, #letterIndex {border-bottom: 1px solid #fff;}
 #sort, #filter {
-	display: inline-block;
+	display: inline-block; padding: .5em 0;
 	font-size: .9em; line-height: 2em;
 }
 #filter {float: right;}
@@ -227,16 +293,11 @@ div.summary-img.width-25,
 #filterArea form {text-align: right;}
 #sort select, #filter select {margin-left: .1em;}
 
+#letterIndex {padding: .5em 0; font-size: 1.25em;}
 #letterIndex li {display: inline-block; padding: .2em 0; margin-right: .2em;}
 #letterIndex a {display: inline-block; margin: 0 .2em;}
 
-/*#letterIndex a:hover {font-weight: bold;}*/
-/*#letterIndex a:after {
-	margin-left: .2em; content: attr(title); height: .2em;
-  font-weight:bold; color:transparent; overflow:hidden; visibility:hidden;
-}*/
-
-/*			switch -------------------------------------------------------------- */
+/*	switch ------------------------------------------------------------------ */
 /*
 #switch {float: left; font-size: .8em; font-weight: 500;}
 #switch li {float: left; width: 480px;}
@@ -251,102 +312,22 @@ div.summary-img.width-25,
 #tableSwitch {float: right;}
 */
 
-/*		pageSubMenu ----------------------------------------------------------- */
-#pageSubMenu a {
-	display: block; padding: 2em;
-	font-size: 1.5em;
-	background: rgba(255,255,255,.8);
-	border-bottom: 1px solid #fff;
-}
-#pageSubMenu a:focus,
-#pageSubMenu a:hover,
-#pageSubMenu a:active {color: #fff; background: rgba(255,255,255,.3);}
-
-#pageSubMenu li.astronauts {
-	background: url('/img/title_astronauts.jpg') center / cover no-repeat;
-}
-#pageSubMenu li.constellations {
-	background: url('/img/title_constellations.jpg') center / cover no-repeat;
-}
-#pageSubMenu li.missions {
-	background: url('/img/title_missions.jpg') center / cover no-repeat;
-}
-#pageSubMenu li.scientists {
-	background: url('/img/title_astronomers.jpg') center / cover no-repeat;
-}
-#pageSubMenu li.solarsystem {
-	background: url('/img/title_solarsystem.jpg') center / cover no-repeat;
-}
-#pageSubMenu li.spacestations {
-	background: url('/img/title_stations.jpg') center / cover no-repeat;
-}
-#pageSubMenu li.spacetelescopes {
-	background: url('/img/title_spacetelescopes.jpg') center / cover no-repeat;
-}
-#pageSubMenu li.spacewalks {
-	background: url('/img/title_spacewalks.jpg') center / cover no-repeat;
-}
-#pageSubMenu li.stars {
-	background: url('/img/title_stars.jpg') center / cover no-repeat;
-}
-
-/*		scroll-buttons ------------------------------------------------------- */
-a#scrollUp,
-a#scrollDown {
-	visibility: visible; z-index: 999; cursor: pointer;
-	position: fixed;	bottom: 100px;	right: 0; width: 35px; height: 35px;
-  line-height: 35px; font-size: 1.5em; text-align: center; overflow: hidden;
-  background-color: #ddd;
-	border-width: 1px 0 0 1px; border-style: solid; border-color: #fff;
-	border-radius: 5px 0 0 0;
-}
-a#scrollDown {
-	bottom: 64px;
-	border-width: 0 0 1px 1px; border-radius: 0 0 0 5px;
-}
-a#scrollUp:hover,
-a#scrollDown:hover {background-color: #eee;}
-a#scrollUp:before {content: "\23EB";}
-a#scrollDown:before {content: "\23EC";}
-
-/*		dataArea -------------------------------------------------------------- */
-#dataArea {font-size: .8em;	background: rgba(255,255,255,.5);}
-
-.leading-letter p {
-	padding: .25em;
-	line-height: 1.25em; font-size: 1.25em; font-weight: 500;
-	background: rgba(0,0,255,.1);
-	border-bottom: 1px solid #fff;
-}
-
-.data-row {display: inline-block;	border-bottom: 1px solid #fff;}
-
-.data-row:focus,
-.data-row:hover,
-.data-row:active {background: rgba(255,255,255,.5);}
-
-
-/*			notes --------------------------------------------------------------- */
-#notes {
-	clear: left;
-	font-size: .8em;
-	background: #f8f8f8;
-	border-bottom: 1px solid #ddd;
-}
+/*	notes ------------------------------------------------------------------- */
+#notes {clear: left; font-size: .8em;}
 #notesDefault,
 #notesConstellations,
-#notesStars {padding: .5em 0 .25em;}
+#notesStars {padding: .5em 0 .25em; border-bottom: 1px solid #ddd;}
 
 #notes h4 {
 	margin: 0 .5em; padding: .25em .5em;
 	font-weight: 900;
-	background: rgba(0,0,255,.1);
+	background: rgba(0, 0, 255, .1);
 }
 #notes p,
 .notesTable {padding: .25em 1em;}
 
 /*	Footer ------------------------------------------------------------------ */
-footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
+footer {margin: 0 auto; max-width: 1000px;}
 
 #sitemap,
 #extras,
@@ -377,7 +358,6 @@ footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only screen and (min-width: 35.5em) {
 	#summaryContainer {padding: 0 .5em;}
-	#summaryToggleSwitch.expanded {margin-right: .25em;}
 
 	#sitemap li {margin-right: .5em;}
 	#sitemap ul:nth-of-type(2+1) li {margin-right: 0;}
@@ -388,16 +368,15 @@ footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
 }
 
 @media only screen and (min-width: 48em) {
-	#branding {
-		background-image: linear-gradient(to right, #fff 180px, #eee);
-	}
-	img#CosmoWikiLogo {display: block; margin: 5px; height: 30px;}
+	img#CosmoWikiLogo {display: block; height: 1.5em; padding: .25em;}
 	img#CosmoWikiIcon {display: none;}
-
+	
 	#menuToggleButton {display: none;}
 
+	#siteTitle h1 {padding: .5em 0 0; font-size: 2em;}
+	#siteTitle h3 {padding: .25em 0 .75em; font-size: 1.5em;}
+
 	#summaryContainer {padding: 0 1em;}
-	#summaryToggleSwitch.expanded {margin-right: .5em;}
 
 	#sortArea, #filterArea, #sort form, #filter form {display: inline;}
 	#sort a, #filter a {display: none;}
@@ -407,15 +386,11 @@ footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
 }
 
 @media only screen and (min-width: 64em) {
-	header, main, footer {max-width: 1000px;}
-	main {margin-bottom: 1em; border-radius: 0 0 5px 5px;}
-	nav {margin-top: 1em; border-radius: 5px 5px 0 0;}
-
-	.summary-img {border-radius: 5px;}
-	.summary-img:hover {border-radius: 5px;}
-	.summary-img img {border-radius: 3px;}
-
-  #controlArea {min-height: 1.5em;}
+	#menuToggle {display: none;}
+	main {margin-top: 50px;}
+	.module,
+	#siteTitle {margin-bottom: 15px;}
+	#controlArea {min-height: 1.5em;}
 
 	#sitemap {text-align: left;}
 	#sitemap li {margin-right: .5em;}
@@ -434,23 +409,43 @@ footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
 	#extras #Github:after {content: " Github";}
 }
 
-@media only screen and (min-width: 1025px) {
-	header, main, footer {max-width: 1000px;}
-	main {margin-bottom: 1em; border-radius: 0 0 5px 5px;}
-	nav {margin-top: 1em; border-radius: 5px 5px 0 0;}
-}
-
 @media only screen and (min-width: 1100px) {
+	/* Do we need share buttons? */
+	/*div#share,
+	a#shareTwitter,
+	a#shareFacebook,
+	a#shareGoogle {
+		left: 0; left: calc(50% - 550px); width: 50px; height: 50px;
+		line-height: 50px; font-size: 1.5em;
+		background-color: rgba(255, 255, 255, .7);
+		border: none;
+	}
+	div#share {
+		bottom: 300px; bottom: calc(50% + 50px);
+	}
+	#shareButtons {display: none;}
+	a#shareTwitter {bottom: 250px; bottom: calc(50% + 0px);}
+	a#shareFacebook {bottom: 200px; bottom: calc(50% - 50px);}
+	a#shareGoogle {bottom: 150px; bottom: calc(50% - 100px);}
+	div#share:hover + div#shareButtons,
+	div#shareButtons:hover {display: block;}
+	a#shareTwitter:hover,
+	a#shareFacebook:hover,
+	a#shareGoogle:hover {
+		display: block; background-color: rgba(255, 255, 255, .9);
+	}*/
+
 	a#scrollUp,
 	a#scrollDown {
-		bottom: 250px; right: 0; left: calc(50% + 500px); width: 50px; height: 50px;
-		line-height: 50px; font-size: 2em;
-		background-color: rgba(255,255,255,.3);
-		border: none; border-radius: 5px 5px 0 0;
+		right: 0; left: calc(50% + 500px); width: 1.75em; height: 1.75em;
+		line-height: 1.75em; font-size: 1.75em;
+		background-color: rgba(255, 255, 255, .7);
+		border: none;
 	}
-	a#scrollDown {bottom: 200px; border: none; border-radius: 0 0 5px 5px;}
+	a#scrollUp {bottom: 14em; bottom: calc(50% - 0px);}
+	a#scrollDown {bottom: 12.25em; bottom: calc(50% - 1.75em);}
 	a#scrollUp:hover,
-	a#scrollDown:hover {background-color: rgba(255,255,255,.8);}
+	a#scrollDown:hover {background-color: rgba(255, 255, 255, .9);}
 }
 
 /* breakpoints for large background images -----------------------------------*/

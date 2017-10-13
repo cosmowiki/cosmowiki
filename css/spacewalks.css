@@ -1,3 +1,8 @@
+#pageSubMenu li.spacewalks,
+#siteTitle.spacewalks {
+	background: url('/img/title_spacewalks.jpg') center / cover no-repeat;
+}
+
 .spacewalk-row div {padding: .2em 0;}
 
 .spacewalk-name p {font-size: 1.25em;}
