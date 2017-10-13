@@ -353,7 +353,6 @@ footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
 #version {padding: .5em; font-size: .9em; border-bottom: 1px solid #ddd;}
 #sitemap {text-align: center;}
 #sitemap ul {margin-bottom: .5em;}
-#sitemap li {margin-right: .5em;}
 #sitemap a {display: block; padding-left: .25em; line-height: 1.75em;}
 #sitemap li:first-child a {background: rgba(0, 0, 255, .1);}
 #sitemap ul:last-child li {margin-right: 0;}
@@ -408,14 +407,17 @@ footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
   #controlArea {min-height: 1.5em;}
 
 	#sitemap {text-align: left;}
-	#sitemap ul,
+	#sitemap ul {margin-right: .5em;}
+	#sitemap ul:last-child {margin-right: 0;}
 	#sitemap li {margin: 0;}
 	#sitemap a:before {content: "- ";}
 	#sitemap li:first-child a:before {content: "";}
 
 	#extrasSelf,
 	#extrasSocial {display: inline-block;}
-	#extrasSelf {text-align: left;}
+	#extrasSelf ul {text-align: left;}
+	#extrasSelf li,
+	#extrasSocial li {display: inline-block;}
 	#extrasSelf a {margin-right: 1em; text-align: left;}
 	#extrasSocial {text-align: right;}
 	#extrasSocial a {margin-left: 1em; text-align: right;}

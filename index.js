@@ -35879,21 +35879,49 @@ var Footer = function Footer(_ref) {
       _react2["default"].createElement(
         "div",
         { id: "extrasSelf", className: "pure-u-1 pure-u-lg-1-2" },
-        [{ url: appUrl.aboutSite() + '#whatis', name: 'Über uns' }, { url: appUrl.aboutSite() + '#license', name: 'Lizenz' }, { url: appUrl.aboutSite() + '#contribute', name: 'Beitragen' }, { url: appUrl.aboutSite() + '#thanks', name: 'Danke' }, { url: appUrl.aboutSite() + '#contact', name: 'Kontakt' }, { url: appUrl.aboutSite() + '#imprint', name: 'Impressum' }].map(function (link) {
-          return _react2["default"].createElement(
-            "a",
-            { className: "pure-u-lg-1-6", href: link.url, target: "_self", title: link.name },
-            link.name
-          );
-        })
+        _react2["default"].createElement(
+          "ul",
+          null,
+          [{ url: appUrl.aboutSite() + '#whatis', name: 'Über uns' }, { url: appUrl.aboutSite() + '#license', name: 'Lizenz' }, { url: appUrl.aboutSite() + '#contribute', name: 'Beitragen' }, { url: appUrl.aboutSite() + '#thanks', name: 'Danke' }, { url: appUrl.aboutSite() + '#contact', name: 'Kontakt' }, { url: appUrl.aboutSite() + '#imprint', name: 'Impressum' }].map(function (link) {
+            return _react2["default"].createElement(
+              "li",
+              { key: link.url },
+              _react2["default"].createElement(
+                "a",
+                { href: link.url, target: "_self", title: link.name },
+                link.name
+              )
+            );
+          })
+        )
       ),
       _react2["default"].createElement(
         "div",
         { id: "extrasSocial", className: "pure-u-1 pure-u-lg-1-2" },
-        _react2["default"].createElement("a", { id: "Twitter", href: "https://twitter.com/cosmowiki", title: "CosmoWiki.org bei Twitter" }),
-        _react2["default"].createElement("a", { id: "Facebook", href: "https://www.facebook.com/CosmoWiki.org/", title: "CosmoWiki.org bei Facebook" }),
-        _react2["default"].createElement("a", { id: "GooglePlus", title: "CosmoWiki.org bei Google Plus" }),
-        _react2["default"].createElement("a", { id: "Github", href: "https://github.com/cosmowiki/cosmowiki", title: "CosmoWiki.org bei Github" })
+        _react2["default"].createElement(
+          "ul",
+          null,
+          _react2["default"].createElement(
+            "li",
+            null,
+            _react2["default"].createElement("a", { id: "Twitter", href: "https://twitter.com/cosmowiki", title: "CosmoWiki.org bei Twitter" })
+          ),
+          _react2["default"].createElement(
+            "li",
+            null,
+            _react2["default"].createElement("a", { id: "Facebook", href: "https://www.facebook.com/CosmoWiki.org/", title: "CosmoWiki.org bei Facebook" })
+          ),
+          _react2["default"].createElement(
+            "li",
+            null,
+            _react2["default"].createElement("a", { id: "GooglePlus", title: "CosmoWiki.org bei Google Plus" })
+          ),
+          _react2["default"].createElement(
+            "li",
+            null,
+            _react2["default"].createElement("a", { id: "Github", href: "https://github.com/cosmowiki/cosmowiki", title: "CosmoWiki.org bei Github" })
+          )
+        )
       )
     ),
     _react2["default"].createElement(
