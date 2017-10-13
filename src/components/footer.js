@@ -97,7 +97,7 @@ const Footer = ({appUrl}) => {
             {url: 'https://github.com/cosmowiki/cosmowiki', name: 'Github'},
           ].map(link =>
             <a id={ link.name } className={ pure-u-lg-1-4 } href={ link.url } target="_blank" title={ link.name }></a>
-          ]}
+          )}
         </div>
       </div>
       <div id="version" className="center">
