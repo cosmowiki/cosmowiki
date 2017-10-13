@@ -35784,7 +35784,7 @@ var Footer = function Footer(_ref) {
       { id: "sitemap", className: "left" },
       _react2["default"].createElement(
         "ul",
-        { className: "pure-u-1 pure-u-lg-1-6" },
+        { className: "pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-6" },
         [{ url: appUrl.eventsSite(), name: 'Chronik' }].map(function (link) {
           return _react2["default"].createElement(
             "li",
@@ -35799,7 +35799,7 @@ var Footer = function Footer(_ref) {
       ),
       _react2["default"].createElement(
         "ul",
-        { className: "pure-u-1 pure-u-lg-1-6" },
+        { className: "pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-6" },
         [{ url: appUrl.peopleSite(), name: 'Personen' }, { url: appUrl.scientistsSite(), name: 'Wissenschaftler' }, { url: appUrl.astronautsSite(), name: 'Raumfahrer' }].map(function (link) {
           return _react2["default"].createElement(
             "li",
@@ -35814,7 +35814,7 @@ var Footer = function Footer(_ref) {
       ),
       _react2["default"].createElement(
         "ul",
-        { className: "pure-u-1 pure-u-lg-1-6" },
+        { className: "pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-6" },
         [{ url: '', name: 'Orte' }].map(function (link) {
           return _react2["default"].createElement(
             "li",
@@ -35829,7 +35829,7 @@ var Footer = function Footer(_ref) {
       ),
       _react2["default"].createElement(
         "ul",
-        { className: "pure-u-1 pure-u-lg-1-6" },
+        { className: "pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-6" },
         [{ url: appUrl.objectsSite(), name: 'Objekte' }, { url: appUrl.peopleSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
           return _react2["default"].createElement(
             "li",
@@ -35844,7 +35844,7 @@ var Footer = function Footer(_ref) {
       ),
       _react2["default"].createElement(
         "ul",
-        { className: "pure-u-1 pure-u-lg-1-6" },
+        { className: "pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-6" },
         [{ url: appUrl.astronomySite(), name: 'Astronomie' }, { url: appUrl.scientistsSite(), name: 'Wissenschaftler' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
           return _react2["default"].createElement(
             "li",
@@ -35859,7 +35859,7 @@ var Footer = function Footer(_ref) {
       ),
       _react2["default"].createElement(
         "ul",
-        { className: "pure-u-1 pure-u-lg-1-6" },
+        { className: "pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-6" },
         [{ url: appUrl.spaceflightSite(), name: 'Raumfahrt' }, { url: appUrl.astronautsSite(), name: 'Raumfahrer' }, { url: appUrl.missionsSite(), name: 'Missionen' }, { url: appUrl.spacewalksSite(), name: 'Weltraumausstiege' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
           return _react2["default"].createElement(
             "li",
