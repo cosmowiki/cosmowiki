@@ -86,7 +86,7 @@ const Footer = ({appUrl}) => {
             {url: appUrl.aboutSite() + '#contact', name: 'Kontakt'},
             {url: appUrl.aboutSite() + '#imprint', name: 'Impressum'},
           ].map(link =>
-            <a className={ pure-u-lg-1-6 } href={ link.url } target="_self" title={ link.name }>{ link.name }</a>
+            <a className="pure-u-lg-1-6" href={ link.url } target="_self" title={ link.name }>{ link.name }</a>
           )}
         </div>
         <div id="extrasSocial" className="pure-u-1 pure-u-lg-1-2">
