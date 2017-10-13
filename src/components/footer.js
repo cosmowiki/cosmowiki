@@ -89,15 +89,11 @@ const Footer = ({appUrl}) => {
             <a className="pure-u-lg-1-6" href={ link.url } target="_self" title={ link.name }>{ link.name }</a>
           )}
         </div>
-        <div id="extrasSocial" className="pure-u-1 pure-u-lg-1-2">
-          {[
-            {url: 'https://twitter.com/cosmowiki', name: 'Twitter'},
-            {url: 'https://www.facebook.com/CosmoWiki.org/', name: 'Facebook'},
-            {url: 'https://plus.google.com/u/0/+CosmoWikide', name: 'Google+'},
-            {url: 'https://github.com/cosmowiki/cosmowiki', name: 'Github'},
-          ].map(link =>
-            <a id={ link.name } className={ pure-u-lg-1-4 } href={ link.url } target="_blank" title={ link.name }></a>
-          )}
+        <div id="extrasSocial" class="pure-u-1 pure-u-lg-1-2">
+          <a id="Twitter" href="https://twitter.com/cosmowiki" title="CosmoWiki.org bei Twitter"></a>
+          <a id="Facebook" href="https://www.facebook.com/CosmoWiki.org/" title="CosmoWiki.org bei Facebook"></a>
+          <a id="GooglePlus" title="CosmoWiki.org bei Google Plus"></a>
+          <a id="Github" href="https://github.com/cosmowiki/cosmowiki" title="CosmoWiki.org bei Github"></a>
         </div>
       </div>
       <div id="version" className="center">
