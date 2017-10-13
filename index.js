@@ -34826,7 +34826,7 @@ var Summary = (function (_React$Component) {
       var containerClassName = isOpen ? "visible" : "minimized";
       return _react2["default"].createElement(
         "div",
-        { id: "summary", "class": "module pure-u-1 left" },
+        { id: "summary", className: "module pure-u-1 left" },
         _react2["default"].createElement("a", { id: "summaryToggleSwitch", className: switchClassName, title: "Artikel anzeigen / schließen", onClick: toggle }),
         _react2["default"].createElement(
           "div",
