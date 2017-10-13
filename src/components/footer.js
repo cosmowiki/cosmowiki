@@ -89,7 +89,7 @@ const Footer = ({appUrl}) => {
             <a className="pure-u-lg-1-6" href={ link.url } target="_self" title={ link.name }>{ link.name }</a>
           )}
         </div>
-        <div id="extrasSocial" class="pure-u-1 pure-u-lg-1-2">
+        <div id="extrasSocial" className="pure-u-1 pure-u-lg-1-2">
           <a id="Twitter" href="https://twitter.com/cosmowiki" title="CosmoWiki.org bei Twitter"></a>
           <a id="Facebook" href="https://www.facebook.com/CosmoWiki.org/" title="CosmoWiki.org bei Facebook"></a>
           <a id="GooglePlus" title="CosmoWiki.org bei Google Plus"></a>
