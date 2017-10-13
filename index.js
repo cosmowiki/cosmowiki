@@ -35889,7 +35889,7 @@ var Footer = function Footer(_ref) {
       ),
       _react2["default"].createElement(
         "div",
-        { id: "extrasSocial", "class": "pure-u-1 pure-u-lg-1-2" },
+        { id: "extrasSocial", className: "pure-u-1 pure-u-lg-1-2" },
         _react2["default"].createElement("a", { id: "Twitter", href: "https://twitter.com/cosmowiki", title: "CosmoWiki.org bei Twitter" }),
         _react2["default"].createElement("a", { id: "Facebook", href: "https://www.facebook.com/CosmoWiki.org/", title: "CosmoWiki.org bei Facebook" }),
         _react2["default"].createElement("a", { id: "GooglePlus", title: "CosmoWiki.org bei Google Plus" }),
