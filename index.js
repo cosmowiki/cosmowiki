@@ -34099,14 +34099,18 @@ var AstronautsComponent = function AstronautsComponent(_ref) {
       'div',
       { id: 'siteTitle', className: 'astronauts pure-u-1 center' },
       _react2['default'].createElement(
-        'h1',
-        null,
-        'Raumfahrer'
-      ),
-      _react2['default'].createElement(
-        'h3',
-        null,
-        'Astronauten, Komsonauten, Taikonauten'
+        'div',
+        { id: 'siteTitleContainer' },
+        _react2['default'].createElement(
+          'h1',
+          null,
+          'Raumfahrer'
+        ),
+        _react2['default'].createElement(
+          'h3',
+          null,
+          'Astronauten, Komsonauten, Taikonauten'
+        )
       )
     ),
     _react2['default'].createElement(
@@ -34698,14 +34702,18 @@ var AstronomyComponent = function AstronomyComponent(_ref) {
       "div",
       { id: "siteTitle", className: "pure-u-1 astronomy center" },
       _react2["default"].createElement(
-        "h1",
-        null,
-        "Astronomie"
-      ),
-      _react2["default"].createElement(
-        "h3",
-        null,
-        "der Blick zu den Sternen"
+        "div",
+        { id: "siteTitleContainer" },
+        _react2["default"].createElement(
+          "h1",
+          null,
+          "Astronomie"
+        ),
+        _react2["default"].createElement(
+          "h3",
+          null,
+          "der Blick zu den Sternen"
+        )
       )
     ),
     _react2["default"].createElement(
@@ -34870,14 +34878,18 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
       'div',
       { id: 'siteTitle', className: 'constellations pure-u-1 center' },
       _react2['default'].createElement(
-        'h1',
-        null,
-        'Sternbilder'
-      ),
-      _react2['default'].createElement(
-        'h3',
-        null,
-        'Figuren am Firmament'
+        'div',
+        { id: 'siteTitleContainer' },
+        _react2['default'].createElement(
+          'h1',
+          null,
+          'Sternbilder'
+        ),
+        _react2['default'].createElement(
+          'h3',
+          null,
+          'Figuren am Firmament'
+        )
       )
     ),
     _react2['default'].createElement(
@@ -35455,14 +35467,18 @@ var ChronicleComponent = (function (_React$Component) {
           'div',
           { id: 'siteTitle', className: 'events pure-u-1 center' },
           _react2['default'].createElement(
-            'h1',
-            null,
-            'Chronik'
-          ),
-          _react2['default'].createElement(
-            'h3',
-            null,
-            'Meilensteine der Astronomie und Raumfahrt'
+            'div',
+            { id: 'siteTitleContainer' },
+            _react2['default'].createElement(
+              'h1',
+              null,
+              'Chronik'
+            ),
+            _react2['default'].createElement(
+              'h3',
+              null,
+              'Meilensteine der Astronomie und Raumfahrt'
+            )
           )
         ),
         _react2['default'].createElement(
@@ -36235,14 +36251,18 @@ var MissionsComponent = function MissionsComponent(_ref) {
       'div',
       { id: 'siteTitle', className: 'missions pure-u-1' },
       _react2['default'].createElement(
-        'h1',
-        null,
-        'Missionen'
-      ),
-      _react2['default'].createElement(
-        'h3',
-        null,
-        '3 ... 2 ... 1 ... Lift-off!'
+        'div',
+        { id: 'siteTitleContainer' },
+        _react2['default'].createElement(
+          'h1',
+          null,
+          'Missionen'
+        ),
+        _react2['default'].createElement(
+          'h3',
+          null,
+          '3 ... 2 ... 1 ... Lift-off!'
+        )
       )
     ),
     _react2['default'].createElement(
@@ -37431,14 +37451,18 @@ var ObjectsComponent = function ObjectsComponent(_ref) {
       "div",
       { id: "siteTitle", className: "objects pure-u-1 center" },
       _react2["default"].createElement(
-        "h1",
-        null,
-        "Objekte"
-      ),
-      _react2["default"].createElement(
-        "h3",
-        null,
-        "Himmelskörper, Raumfahrzeuge, Instrumente"
+        "div",
+        { id: "siteTitleContainer" },
+        _react2["default"].createElement(
+          "h1",
+          null,
+          "Objekte"
+        ),
+        _react2["default"].createElement(
+          "h3",
+          null,
+          "Himmelskörper, Raumfahrzeuge, Instrumente"
+        )
       )
     ),
     _react2["default"].createElement(
@@ -37571,14 +37595,18 @@ var PeopleComponent = function PeopleComponent(_ref) {
       'div',
       { id: 'siteTitle', className: 'persons pure-u-1 center' },
       _react2['default'].createElement(
-        'h1',
-        null,
-        'Personen'
-      ),
-      _react2['default'].createElement(
-        'h3',
-        null,
-        'Entdecker, Pioniere, Wissenschaftler'
+        'div',
+        { id: 'siteTitleContainer' },
+        _react2['default'].createElement(
+          'h1',
+          null,
+          'Personen'
+        ),
+        _react2['default'].createElement(
+          'h3',
+          null,
+          'Entdecker, Pioniere, Wissenschaftler'
+        )
       )
     ),
     _react2['default'].createElement(
@@ -37973,14 +38001,18 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
       'div',
       { id: 'siteTitle', className: 'scientists pure-u-1 center' },
       _react2['default'].createElement(
-        'h1',
-        null,
-        'Wissenschaftler'
-      ),
-      _react2['default'].createElement(
-        'h3',
-        null,
-        'Astronomen, Kosmologen, Physiker'
+        'div',
+        { id: 'siteTitleContainer' },
+        _react2['default'].createElement(
+          'h1',
+          null,
+          'Wissenschaftler'
+        ),
+        _react2['default'].createElement(
+          'h3',
+          null,
+          'Astronomen, Kosmologen, Physiker'
+        )
       )
     ),
     _react2['default'].createElement(
@@ -38652,14 +38684,18 @@ var SolarSystemComponent = function SolarSystemComponent() {
       'div',
       { id: 'siteTitle', className: 'solar-system pure-u-1 center' },
       _react2['default'].createElement(
-        'h1',
-        null,
-        'das Sonnensystem'
-      ),
-      _react2['default'].createElement(
-        'h3',
-        null,
-        'unsere kosmische Heimat'
+        'div',
+        { id: 'siteTitleContainer' },
+        _react2['default'].createElement(
+          'h1',
+          null,
+          'das Sonnensystem'
+        ),
+        _react2['default'].createElement(
+          'h3',
+          null,
+          'unsere kosmische Heimat'
+        )
       )
     ),
     _react2['default'].createElement(
@@ -39798,14 +39834,18 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
       'div',
       { id: 'siteTitle', className: 'stations pure-u-1 center' },
       _react2['default'].createElement(
-        'h1',
-        null,
-        'Raumstationen'
-      ),
-      _react2['default'].createElement(
-        'h3',
-        null,
-        'künstliche Habitate im All'
+        'div',
+        { id: 'siteTitleContainer' },
+        _react2['default'].createElement(
+          'h1',
+          null,
+          'Raumstationen'
+        ),
+        _react2['default'].createElement(
+          'h3',
+          null,
+          'künstliche Habitate im All'
+        )
       )
     ),
     _react2['default'].createElement(
@@ -40315,14 +40355,18 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
       'div',
       { id: 'siteTitle', className: 'spacetelecopes pure-u-1 center' },
       _react2['default'].createElement(
-        'h1',
-        null,
-        'Weltraumteleskope'
-      ),
-      _react2['default'].createElement(
-        'h3',
-        null,
-        'Augen und Ohren im All'
+        'div',
+        { id: 'siteTitleContainer' },
+        _react2['default'].createElement(
+          'h1',
+          null,
+          'Weltraumteleskope'
+        ),
+        _react2['default'].createElement(
+          'h3',
+          null,
+          'Augen und Ohren im All'
+        )
       )
     ),
     _react2['default'].createElement(
@@ -40807,14 +40851,18 @@ var SpaceflightComponent = function SpaceflightComponent(_ref) {
       "div",
       { id: "siteTitle", className: "spaceflight pure-u-1 center" },
       _react2["default"].createElement(
-        "h1",
-        null,
-        "Raumfahrt"
-      ),
-      _react2["default"].createElement(
-        "h3",
-        null,
-        "der Aufbruch in unendliche Weiten"
+        "div",
+        { id: "siteTitleContainer" },
+        _react2["default"].createElement(
+          "h1",
+          null,
+          "Raumfahrt"
+        ),
+        _react2["default"].createElement(
+          "h3",
+          null,
+          "der Aufbruch in unendliche Weiten"
+        )
       )
     ),
     _react2["default"].createElement(
@@ -40871,14 +40919,18 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
       'div',
       { id: 'siteTitle', className: 'spacewalks pure-u-1' },
       _react2['default'].createElement(
-        'h1',
-        null,
-        'Weltraumausstiege'
-      ),
-      _react2['default'].createElement(
-        'h3',
-        null,
-        '- völlig losgelöst -'
+        'div',
+        { id: 'siteTitleContainer' },
+        _react2['default'].createElement(
+          'h1',
+          null,
+          'Weltraumausstiege'
+        ),
+        _react2['default'].createElement(
+          'h3',
+          null,
+          '- völlig losgelöst -'
+        )
       )
     ),
     _react2['default'].createElement(
@@ -41264,14 +41316,18 @@ var StarsComponent = function StarsComponent(_ref) {
       'div',
       { id: 'siteTitle', className: 'stars pure-u-1 center' },
       _react2['default'].createElement(
-        'h1',
-        null,
-        'Sterne'
-      ),
-      _react2['default'].createElement(
-        'h3',
-        null,
-        'strahlende Objekte im All'
+        'div',
+        { id: 'siteTitleContainer' },
+        _react2['default'].createElement(
+          'h1',
+          null,
+          'Sterne'
+        ),
+        _react2['default'].createElement(
+          'h3',
+          null,
+          'strahlende Objekte im All'
+        )
       )
     ),
     _react2['default'].createElement(
