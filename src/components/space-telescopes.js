@@ -7,8 +7,10 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
   return (
     <main role="main" className="pure-u-1">
       <div id="siteTitle" className="spacetelecopes pure-u-1 center">
-        <h1>Weltraumteleskope</h1>
-        <h3>Augen und Ohren im All</h3>
+        <div id="siteTitleContainer">
+          <h1>Weltraumteleskope</h1>
+          <h3>Augen und Ohren im All</h3>
+        </div>
       </div>
       <div id="todo" className="pure-u-1">
         <p>@wolfram: pls edit the month in endDate to appear as word when there is no endday (to use it on demand for all dates in all pages)</p>

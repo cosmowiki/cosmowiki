@@ -10,8 +10,10 @@ const AstronautsComponent = ({groupedAstronauts}) => {
   return (
     <main role="main" className="pure-u-1">
       <div id="siteTitle" className="astronauts pure-u-1 center">
-        <h1>Raumfahrer</h1>
-        <h3>Astronauten, Komsonauten, Taikonauten</h3>
+        <div id="siteTitleContainer">
+          <h1>Raumfahrer</h1>
+          <h3>Astronauten, Komsonauten, Taikonauten</h3>
+        </div>
       </div>
       <div id="todo" className="pure-u-1">
         <p>@wolfram: same tasks as in people.js</p>

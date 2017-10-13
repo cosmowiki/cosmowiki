@@ -10,8 +10,10 @@ const PeopleComponent = ({groupedPeople}) => {
   return (
     <main role="main" className="pure-u-1">
       <div id="siteTitle" className="persons pure-u-1 center">
-        <h1>Personen</h1>
-        <h3>Entdecker, Pioniere, Wissenschaftler</h3>
+        <div id="siteTitleContainer">
+          <h1>Personen</h1>
+          <h3>Entdecker, Pioniere, Wissenschaftler</h3>
+        </div>
       </div>
       <div id="todo" className="pure-u-1">
         <p>@wolfram: pls make the filter work with FilterRows as in stars-site</p>

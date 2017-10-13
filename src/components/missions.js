@@ -6,8 +6,10 @@ const MissionsComponent = ({missions}) => {
   return (
     <main role="main" className="missions pure-u-1 center">
       <div id="siteTitle" className="missions pure-u-1">
-        <h1>Missionen</h1>
-        <h3>3 ... 2 ... 1 ... Lift-off!</h3>
+        <div id="siteTitleContainer">
+          <h1>Missionen</h1>
+          <h3>3 ... 2 ... 1 ... Lift-off!</h3>
+        </div>
       </div>
       <div id="todo" className="pure-u-1">
         <p>@wolfram: pls make the filter work with FilterRows as in stars-site</p>

@@ -4,8 +4,10 @@ const ObjectsComponent = ({appUrl}) => {
   return (
     <main role="main" className="pure-u-1">
       <div id="siteTitle" className="objects pure-u-1 center">
-        <h1>Objekte</h1>
-        <h3>Himmelsk&ouml;rper, Raumfahrzeuge, Instrumente</h3>
+        <div id="siteTitleContainer">
+          <h1>Objekte</h1>
+          <h3>Himmelsk&ouml;rper, Raumfahrzeuge, Instrumente</h3>
+        </div>
       </div>
       <div id="pageSubMenuContainer">
         <ul id="pageSubMenu" className="pure-u-1 center">

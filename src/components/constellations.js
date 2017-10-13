@@ -6,8 +6,10 @@ const ConstellationsComponent = ({constellations}) => {
   return (
     <main role="main" className="pure-u-1">
       <div id="siteTitle" className="constellations pure-u-1 center">
-        <h1>Sternbilder</h1>
-        <h3>Figuren am Firmament</h3>
+        <div id="siteTitleContainer">
+          <h1>Sternbilder</h1>
+          <h3>Figuren am Firmament</h3>
+        </div>
       </div>
       <div id="todo" className="pure-u-1">
         <p>@wolfram: pls make the filter work with FilterRows as in stars-site</p>

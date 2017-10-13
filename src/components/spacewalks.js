@@ -6,8 +6,10 @@ const SpacewalksComponent = ({spacewalks}) => {
   return (
     <main role="main" className="spacewalks pure-u-1 center">
       <div id="siteTitle" className="spacewalks pure-u-1">
-        <h1>Weltraumausstiege</h1>
-        <h3>- völlig losgelöst -</h3>
+        <div id="siteTitleContainer">
+          <h1>Weltraumausstiege</h1>
+          <h3>- völlig losgelöst -</h3>
+        </div>
       </div>
       <Summary>
         <p className="summary-text">

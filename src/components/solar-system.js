@@ -6,8 +6,10 @@ const SolarSystemComponent = () => {
   return (
     <main role="main" className="pure-u-1">
       <div id="siteTitle" className="solar-system pure-u-1 center">
-        <h1>das Sonnensystem</h1>
-        <h3>unsere kosmische Heimat</h3>
+        <div id="siteTitleContainer">
+          <h1>das Sonnensystem</h1>
+          <h3>unsere kosmische Heimat</h3>
+        </div>
       </div>
       <div id="todo" className="pure-u-1">
         <p>@wolfram: pls make it work according to the conditions in sites/solar-system.js</p>

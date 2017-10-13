@@ -10,8 +10,10 @@ const ScientistsComponent = ({groupedScientists}) => {
   return (
     <main role="main" className="pure-u-1">
       <div id="siteTitle" className="scientists pure-u-1 center">
-        <h1>Wissenschaftler</h1>
-        <h3>Astronomen, Kosmologen, Physiker</h3>
+        <div id="siteTitleContainer">
+          <h1>Wissenschaftler</h1>
+          <h3>Astronomen, Kosmologen, Physiker</h3>
+        </div>
       </div>
       <div id="todo" className="pure-u-1">
         <p>@wolfram: same tasks as in people.js</p>

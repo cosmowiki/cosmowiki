@@ -10,8 +10,10 @@ const StarsComponent = ({groupedStars, constellations}) => {
   return (
     <main role="main" className="pure-u-1">
       <div id="siteTitle" className="stars pure-u-1 center">
-        <h1>Sterne</h1>
-        <h3>strahlende Objekte im All</h3>
+        <div id="siteTitleContainer">
+          <h1>Sterne</h1>
+          <h3>strahlende Objekte im All</h3>
+        </div>
       </div>
       <div id="todo" className="pure-u-1">
         <p>@wolfram: pls make the sorter and filter work</p>

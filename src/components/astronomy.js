@@ -4,8 +4,10 @@ const AstronomyComponent = ({appUrl}) => {
   return (
     <main role="main" className="pure-u-1">
       <div id="siteTitle" className="pure-u-1 astronomy center">
-        <h1>Astronomie</h1>
-        <h3>der Blick zu den Sternen</h3>
+				<div id="siteTitleContainer">
+					<h1>Astronomie</h1>
+          <h3>der Blick zu den Sternen</h3>
+        </div>
       </div>
       <div id="pageSubMenuContainer">
         <ul id="pageSubMenu" className="pure-u-1 center">

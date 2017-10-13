@@ -29,8 +29,10 @@ export default class ChronicleComponent extends React.Component {
     return (
       <main role="main" className="pure-u-1">
         <div id="siteTitle" className="events pure-u-1 center">
-          <h1>Chronik</h1>
-          <h3>Meilensteine der Astronomie und Raumfahrt</h3>
+          <div id="siteTitleContainer">
+            <h1>Chronik</h1>
+            <h3>Meilensteine der Astronomie und Raumfahrt</h3>
+          </div>
         </div>
         <div id="todo" className="pure-u-1">
           <p>@wolfram: pls hide the span id="coordinates" from embedded article in vcard (i.e. Lascaux)</p>
