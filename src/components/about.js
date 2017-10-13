@@ -165,9 +165,11 @@ export default class AboutComponent extends React.Component {
 
     return (
       <main role="main" className="pure-u-1">
-        <div id="siteTitle" className="pure-u-1 about center">
-          <h1>Wir über uns</h1>
-          <h3>Ohne Idee keine Entwicklung</h3>
+        <div id="siteTitle" className="about pure-u-1 center">
+          <div id="siteTitleContainer">
+            <h1>Wir über uns</h1>
+            <h3>Ohne Idee keine Entwicklung</h3>
+          </div>
         </div>
         <div id="todo" className="pure-u-1">
           <p>@wolfram: pls when clicking on link in #footerElse jump to the question but avoid covering by branding</p>
