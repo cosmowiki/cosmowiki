@@ -13,7 +13,7 @@ export class Summary extends React.Component {
     const switchClassName = isOpen ? "expanded" : "collapsed";
     const containerClassName = isOpen ? "visible" : "minimized";
     return (
-      <div id="summary" class="module pure-u-1 left">
+      <div id="summary" className="module pure-u-1 left">
         <a id="summaryToggleSwitch" className={switchClassName} title="Artikel anzeigen / schließen" onClick={toggle}/>
         <div id="summaryContainer" className={containerClassName}>
           {this.props.children}
