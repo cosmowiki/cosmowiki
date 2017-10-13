@@ -140,7 +140,7 @@ const AstronautsComponent = ({groupedAstronauts}) => {
           </li>
           <li>
             <em>John Glenn</em> ist bislang der älteste Raumfahrer. Bei seinem Start mit
-            <em>STS-95</em> am 29. Oktober 1998 war er bereits 77 jahre alt.
+            <em>STS-95</em> am 29. Oktober 1998 war er bereits 77 Jahre alt.
           </li>
           <li>
             Der Kontrukteur <em>Konstantin Feoktistow</em> und der Arzt <em>Boris
@@ -196,7 +196,7 @@ const AstronautsComponent = ({groupedAstronauts}) => {
           </div>
           <LetterLinks letters={allFirstLetters} />
         </div>
-        <div id="peopleTable">
+        <div id="personsTable">
           {groupsIterable.map((group, idx) => <AstronautGroupComponent group={group} key={idx} />)}
         </div>
       </div>
@@ -224,44 +224,40 @@ const AstronautGroupComponent = ({group}) => {
 const AstronautComponent = ({astronaut}) => {
   return (
             <div className="astronaut-row data-row pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-              <div className="astronaut-name pure-u-1">
+              <div className="astronaut-name">
                 <a href={astronaut.link} title={astronaut.name}>{astronaut.name}</a>
                 <img src={astronaut.flag} alt={astronaut.country} title={astronaut.country} />
               </div>
-              {astronaut.imgSmallUrl ?
-              <div className="astronaut-img pure-u-1-3">
-                <a href={astronaut.imgUrl} title={astronaut.name}><img src={astronaut.imgSmallUrl} alt={astronaut.name} title={astronaut.name} /></a>
-              </div>
-              : ''}
-              <div className="astronaut-data pure-u-2-3">
-                {astronaut.born ?
-                <div className="astronaut-life pure-u-1">
-                  <p className="astronaut-born">* {astronaut.born}</p>
-                  {astronaut.died ? <p className="astronaut-died">† {astronaut.died}</p> : ''}
+              <div className="astronaut-info pure-u-1">
+                {astronaut.imgSmallUrl ?
+                <div className="astronaut-img">
+                  <a href={astronaut.imgUrl} title={astronaut.name}><img src={astronaut.imgSmallUrl} alt={astronaut.name} title={astronaut.name} /></a>
                 </div>
                 : ''}
-                {astronaut.missions ?
-                <div className="astronaut-spaceflights pure-u-1">
-                  {astronaut.numberOfMissions ?
-                  <div className="astronaut-missionsdata pure-u-1">
-                    <p className="astronaut-numberofmissions">Flüge: {astronaut.numberOfMissions}</p>
-                    <p className="astronaut-timeinspace">gesamt: {astronaut.timeInSpace}</p>
-                  </div>
+                <div className="astronaut-data pure-u-2-3">
+                  {astronaut.born ?
+                  <p className="astronaut-life">
+                    <span className="astronaut-born">* {astronaut.born}</span>
+                    {astronaut.died ? <span className="astronaut-died">† {astronaut.died}</span> : ''}
+                  </p>
                   : ''}
-                  {astronaut.firstLaunch ?
-                  <div className="astronaut-firstlaunch pure-u-1">
-                    <p>erster Raumflug: {astronaut.firstLaunch}</p>
-                  </div>
+                  {astronaut.missions ?
+                  <p className="astronaut-missions">
+                    {astronaut.numberOfMissions ?
+                    <span className="astronaut-numberofmissions">Flüge: {astronaut.numberOfMissions}</span>
+                    <span className="astronaut-timeinspace">gesamt: {astronaut.timeInSpace}</span>
+                    {astronaut.firstLaunch ?
+                    <span className="astronaut-firstflight">erster Raumflug: {astronaut.firstLaunch}</span>
+                    : ''}
+                  </p>
+                  : ''}
+                  {astronaut.numberOfSpacewalks ?
+                  <p className="astronaut-spacewalks">
+                    <span className="astronaut-numberofspacewalks">EVAs: {astronaut.numberOfSpacewalks}</span>
+                    <span className="astronaut-durationofspacewalks">Gesamtdauer: {astronaut.durationOfSpacewalks}</span>
+                  </p>
                   : ''}
                 </div>
-                : ''}
-                {astronaut.numberOfSpacewalks ?
-                <div className="astronaut-spacewalks pure-u-1">
-                  <p className="astronaut-numberofspacewalks">EVAs: {astronaut.numberOfSpacewalks}</p>
-                  <p className="astronaut-durationofspacewalks">Gesamtdauer: {astronaut.durationOfSpacewalks}</p>
-                </div>
-                : ''}
-              </div>
             </div>
   );
 };
