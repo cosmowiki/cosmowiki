@@ -407,9 +407,8 @@ footer {margin: 0 auto; background: rgba(255, 255, 255, .9);}
   #controlArea {min-height: 1.5em;}
 
 	#sitemap {text-align: left;}
-	#sitemap ul {margin-right: .5em;}
-	#sitemap ul:last-child {margin-right: 0;}
-	#sitemap li {margin: 0;}
+	#sitemap li {margin-right: .5em;}
+	#sitemap ul:last-child li {margin-right: 0;}
 	#sitemap a:before {content: "- ";}
 	#sitemap li:first-child a:before {content: "";}
 
