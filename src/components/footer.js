@@ -78,22 +78,28 @@ const Footer = ({appUrl}) => {
       </div>
 	    <div id="extras">
         <div id="extrasSelf" className="pure-u-1 pure-u-lg-1-2">
-          {[
-            {url: appUrl.aboutSite() + '#whatis', name: 'Über uns'},
-            {url: appUrl.aboutSite() + '#license', name: 'Lizenz'},
-            {url: appUrl.aboutSite() + '#contribute', name: 'Beitragen'},
-            {url: appUrl.aboutSite() + '#thanks', name: 'Danke'},
-            {url: appUrl.aboutSite() + '#contact', name: 'Kontakt'},
-            {url: appUrl.aboutSite() + '#imprint', name: 'Impressum'},
-          ].map(link =>
-            <a className="pure-u-lg-1-6" href={ link.url } target="_self" title={ link.name }>{ link.name }</a>
-          )}
+          <ul>
+            {[
+              {url: appUrl.aboutSite() + '#whatis', name: 'Über uns'},
+              {url: appUrl.aboutSite() + '#license', name: 'Lizenz'},
+              {url: appUrl.aboutSite() + '#contribute', name: 'Beitragen'},
+              {url: appUrl.aboutSite() + '#thanks', name: 'Danke'},
+              {url: appUrl.aboutSite() + '#contact', name: 'Kontakt'},
+              {url: appUrl.aboutSite() + '#imprint', name: 'Impressum'},
+            ].map(link =>
+              <li key={link.url}>
+                <a href={ link.url } target="_self" title={ link.name }>{ link.name }</a>
+              </li>
+            )}
+          </ul>
         </div>
         <div id="extrasSocial" className="pure-u-1 pure-u-lg-1-2">
-          <a id="Twitter" href="https://twitter.com/cosmowiki" title="CosmoWiki.org bei Twitter"></a>
-          <a id="Facebook" href="https://www.facebook.com/CosmoWiki.org/" title="CosmoWiki.org bei Facebook"></a>
-          <a id="GooglePlus" title="CosmoWiki.org bei Google Plus"></a>
-          <a id="Github" href="https://github.com/cosmowiki/cosmowiki" title="CosmoWiki.org bei Github"></a>
+          <ul>
+            <li><a id="Twitter" href="https://twitter.com/cosmowiki" title="CosmoWiki.org bei Twitter"></a></li>
+            <li><a id="Facebook" href="https://www.facebook.com/CosmoWiki.org/" title="CosmoWiki.org bei Facebook"></a></li>
+            <li><a id="GooglePlus" title="CosmoWiki.org bei Google Plus"></a></li>
+            <li><a id="Github" href="https://github.com/cosmowiki/cosmowiki" title="CosmoWiki.org bei Github"></a></li>
+          </ul>
         </div>
       </div>
       <div id="version" className="center">
