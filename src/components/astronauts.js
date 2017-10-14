@@ -223,7 +223,7 @@ const AstronautGroupComponent = ({group}) => {
 
 const AstronautComponent = ({astronaut}) => {
   return (
-            <div className="astronaut-card data-row pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+            <div className="astronaut-card pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
               <div className="astronaut-card-container">
                 <div className="astronaut-name">
                   <a href={astronaut.link} title={astronaut.name}>{astronaut.name}</a>
