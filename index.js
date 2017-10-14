@@ -34609,10 +34609,10 @@ var AstronautComponent = function AstronautComponent(_ref3) {
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'astronaut-info pure-u-1-3' },
+        { className: 'astronaut-info' },
         astronaut.imgSmallUrl ? _react2['default'].createElement(
           'div',
-          { className: 'astronaut-img' },
+          { className: 'astronaut-img pure-u-1-3' },
           _react2['default'].createElement(
             'a',
             { href: astronaut.imgUrl, title: astronaut.name },
