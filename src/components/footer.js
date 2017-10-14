@@ -97,7 +97,7 @@ const Footer = ({appUrl}) => {
           <ul>
             <li><a id="Twitter" href="https://twitter.com/cosmowiki" title="CosmoWiki.org bei Twitter"></a></li>
             <li><a id="Facebook" href="https://www.facebook.com/CosmoWiki.org/" title="CosmoWiki.org bei Facebook"></a></li>
-            <li><a id="GooglePlus" title="CosmoWiki.org bei Google Plus"></a></li>
+            <li><a id="GooglePlus" href="https://plus.google.com/u/0/+CosmoWikide" title="CosmoWiki.org bei Google Plus"></a></li>
             <li><a id="Github" href="https://github.com/cosmowiki/cosmowiki" title="CosmoWiki.org bei Github"></a></li>
           </ul>
         </div>
