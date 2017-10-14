@@ -229,9 +229,9 @@ const AstronautComponent = ({astronaut}) => {
                   <a href={astronaut.link} title={astronaut.name}>{astronaut.name}</a>
                   <img src={astronaut.flag} alt={astronaut.country} title={astronaut.country} />
                 </div>
-                <div className="astronaut-info pure-u-1-3">
+                <div className="astronaut-info">
                   {astronaut.imgSmallUrl ?
-                  <div className="astronaut-img">
+                  <div className="astronaut-img pure-u-1-3">
                     <a href={astronaut.imgUrl} title={astronaut.name}><img src={astronaut.imgSmallUrl} alt={astronaut.name} title={astronaut.name} /></a>
                   </div>
                   : ''}
