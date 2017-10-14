@@ -239,6 +239,7 @@ div.summary-img.width-25,
 .summary-img.width-25 img {width: 100%; height: auto;}
 .summary-img-text {margin-top: 2px; font-size: .7em;}
 
+.summary-text {text-align: justify;}
 .summary-text:nth-of-type(odd) {text-indent: 1em;}
 .summary-text:first-of-type::first-letter {font-size: 1.25em; font-weight: 900;}
 
