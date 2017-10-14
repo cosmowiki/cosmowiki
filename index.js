@@ -35934,7 +35934,7 @@ var Footer = function Footer(_ref) {
           _react2["default"].createElement(
             "li",
             null,
-            _react2["default"].createElement("a", { id: "GooglePlus", title: "CosmoWiki.org bei Google Plus" })
+            _react2["default"].createElement("a", { id: "GooglePlus", href: "https://plus.google.com/u/0/+CosmoWikide", title: "CosmoWiki.org bei Google Plus" })
           ),
           _react2["default"].createElement(
             "li",
