@@ -45,7 +45,7 @@
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only screen and (min-width: 35.5em) {
 	/* vertical line */
-	.timeline::after {left: 50%; content: '';}
+	.timeline:after {left: 50%; content: '';}
 
 	.event-circle {left: 50%;}
 	.event-container {padding: 0;}
