@@ -1,4 +1,73 @@
-#siteTitle.chronicle {
+#siteTitle.events {
+	background: url('../img/title_chronicle.jpg') center / cover no-repeat;
+}
+.timeline {
+  position: relative; margin: 0 auto; padding: 1em 0;
+	font-size: 1.125em;
+  border-bottom: 1px solid #ddd;
+}
+/* vertical line */
+.timeline::after {
+	position: absolute; top: 0; bottom: 0; left: 5%;
+	margin-left: -.25em; width: .5em;
+	content: '';
+	background-image: linear-gradient(to bottom, #ccf, #ddd);
+}
+
+.event-container {position: relative; padding: .5em 0; width: 100%;}
+
+.event-circle {
+	position: absolute; top: 50%; left: 5%; margin: -.5em 0 0 -.5em;
+	width: .5em; height: .5em; z-index: 1;
+	background: #fff;
+	border: .25em solid #55f; border-radius: 50%;
+}
+.event-arrow {
+	position: absolute; top: 50%; left: 10%;
+	margin-top: -10px; margin-left: -13px; width: 0; height: 0; z-index: 1;
+	border: medium solid #fff; border-width: 10px 10px 10px 0;
+	border-color: transparent #ddd transparent transparent;
+}
+.event-content {
+	position: relative; margin-left: 10%; width: 85%;
+	background: rgba(255, 255, 255, .3);
+	outline: 3px solid #ddd;
+}
+.event-content:focus,
+.event-content:hover,
+.event-content:active {
+	background-color: rgba(255, 255, 255, .8);
+}
+.event-content p {padding: .25em .5em .125em;}
+.event-content p:last-child {padding: .25em .5em .25em;}
+
+/*	breakpoints ------------------------------------------------------------- */
+/* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
+@media only screen and (min-width: 35.5em) {
+	/* vertical line */
+	.timeline::after {left: 50%; content: '';}
+
+	.event-circle {left: 50%;}
+	.event-container {padding: 0;}
+	.event-container:nth-of-type(odd) .event-arrow {
+		left: 45%; margin-left: 3px;
+		border-width: 10px 0 10px 10px;
+		border-color: transparent transparent transparent #ddd;
+	}
+	.event-container:nth-of-type(even) .event-arrow {
+		left: 55%;
+		border-width: 10px 10px 10px 0;
+		border-color: transparent #ddd transparent transparent;
+	}
+	.event-container:nth-of-type(odd) .event-content {
+		margin-left: 2%; width: 43%; text-align: right;
+	}
+	.event-container:nth-of-type(even) .event-content {
+		margin-left: 55%; width: 43%;
+	}
+}
+
+/*#siteTitle.chronicle {
 	background: url('/img/title_chronicle.jpg') center / cover no-repeat;
 }
 .event-row {padding: .2em 0;}
@@ -18,4 +87,4 @@
 @media only all and (min-width: 64em) {
 	.event-data1 {line-height: 1.75em;}
 	.event-data2 {font-size: 1.125em; line-height: 1.75em; text-align: left;}
-}
+}*/

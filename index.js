@@ -35695,7 +35695,7 @@ var ChronicleComponent = (function (_React$Component) {
         ),
         _react2['default'].createElement(
           'div',
-          { id: 'dataArea', className: 'events pure-u-1' },
+          { id: 'dataArea', className: 'events module pure-u-1' },
           _react2['default'].createElement(
             'div',
             { id: 'timeline' },
@@ -35723,52 +35723,29 @@ var ItemComponent = function ItemComponent(_ref) {
 
   return _react2['default'].createElement(
     'div',
-    { className: 'event-row data-row pure-u-1' },
+    { className: 'event-container' },
+    _react2['default'].createElement('div', { className: 'event-circle' }),
+    _react2['default'].createElement('div', { className: 'event-arrow' }),
     _react2['default'].createElement(
       'div',
-      { className: 'event-data1 pure-u-1 pure-u-lg-9-24' },
+      { className: 'event-content' },
       _react2['default'].createElement(
-        'div',
-        { className: 'event-date pure-u-1 pure-u-sm-11-24 pure-u-lg-1-3' },
-        _react2['default'].createElement(
-          'p',
-          null,
-          item.date
-        )
+        'p',
+        { className: 'event-date' },
+        item.date
       ),
       _react2['default'].createElement(
-        'div',
-        { className: 'event-dash pure-u-sm-1-12 pure-u-lg-1-24' },
-        _react2['default'].createElement(
-          'p',
-          null,
-          item.place ? '-' : ''
-        )
+        'p',
+        { className: 'event-place' },
+        item.place ? item.place : ''
       ),
       _react2['default'].createElement(
-        'div',
-        { className: 'event-place pure-u-1 pure-u-sm-11-24 pure-u-lg-15-24' },
+        'p',
+        { className: 'event-name', onClick: onClick },
         _react2['default'].createElement(
-          'p',
-          null,
-          item.place ? item.place : ''
-        )
-      )
-    ),
-    _react2['default'].createElement(
-      'div',
-      { className: 'event-data2 pure-u-1 pure-u-lg-15-24' },
-      _react2['default'].createElement(
-        'div',
-        { className: 'event-name pure-u-7-8 pure-u-md-1', onClick: onClick },
-        _react2['default'].createElement(
-          'p',
-          null,
-          _react2['default'].createElement(
-            'a',
-            { name: item.name },
-            item.name
-          )
+          'a',
+          { name: item.name },
+          item.name
         )
       )
     )
