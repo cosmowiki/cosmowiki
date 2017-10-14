@@ -136,7 +136,7 @@ export default class ChronicleComponent extends React.Component {
             </li>
           </ul>
         </Summary>
-        <div id="dataArea" className="events pure-u-1">
+        <div id="dataArea" className="events module pure-u-1">
           <div id="timeline">
             {items.map((item, idx) => <ItemComponent item={item} key={idx} onClick={() => showOverlay(item)} />)}
           </div>
@@ -150,22 +150,15 @@ export default class ChronicleComponent extends React.Component {
 
 const ItemComponent = ({item, onClick}) => {
   return (
-    <div className="event-row data-row pure-u-1">
-      <div className="event-data1 pure-u-1 pure-u-lg-9-24">
-        <div className="event-date pure-u-1 pure-u-sm-11-24 pure-u-lg-1-3">
-          <p>{item.date}</p>
-        </div>
-        <div className="event-dash pure-u-sm-1-12 pure-u-lg-1-24">
-          <p>{item.place ? `-` : ''}</p>
-        </div>
-        <div className="event-place pure-u-1 pure-u-sm-11-24 pure-u-lg-15-24">
-          <p>{item.place ? item.place : ''}</p>
-        </div>
-      </div>
-      <div className="event-data2 pure-u-1 pure-u-lg-15-24">
-        <div className="event-name pure-u-7-8 pure-u-md-1" onClick={onClick}>
-          <p><a name={item.name}>{item.name}</a></p>
-        </div>
+    <div className="event-container">
+      <div className="event-circle"></div>
+      <div className="event-arrow"></div>
+      <div className="event-content">
+        <p className="event-date">{item.date}</p>
+        <p className="event-place">{item.place ? item.place : ''}</p>
+        <p className="event-name" onClick={onClick}>
+          <a name={item.name}>{item.name}</a>
+        </p>
       </div>
     </div>
   )
