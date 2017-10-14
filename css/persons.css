@@ -29,24 +29,20 @@
 /*.person-life, .scientist-life {background: #ccc;}*/
 
 /*	astronaut ----------------------------------------------------------------*/
-.data-row,
-.data-row:last-child,
-.leading-letter p {border: none;}.data-row,
-.data-row:focus,
-.data-row:hover,
-.data-row:active, {background: transparent;}
-.astronaut-card {}
+.leading-letter p {border: none;}
 .astronaut-card-container {margin: .25em; background: rgba(255, 255, 255, .3);}
-.astronaut-card-container:hover {background: rgba(255, 255, 255, .8);}
+.astronaut-card-container:focus,
+.astronaut-card-container:hover,
+.astronaut-card-container:active {background: rgba(255, 255, 255, .8);}
 
 .astronaut-name,
-.astronaut-info {padding: 0 .25em;}
+.astronaut-info {padding: .25em;}
 .astronaut-name {font-size: 1.125em; background: rgba(0, 0, 255, .1);}
-.astronaut-name img {margin-left: .25em; height: .75em;}
+.astronaut-name img {margin-left: .5em; height: .75em;}
 
 .astronaut-img,
 .astronaut-data {display: inline-block;}
-.astronaut-img img {margin-left: .25em; height: 110px;}
+.astronaut-img img {height: 110px;}
 
 .astronaut-data span {margin-left: .5em;}
 .astronaut-born,

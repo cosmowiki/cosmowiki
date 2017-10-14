@@ -34593,7 +34593,7 @@ var AstronautComponent = function AstronautComponent(_ref3) {
 
   return _react2['default'].createElement(
     'div',
-    { className: 'astronaut-card data-row pure-u-1 pure-u-md-1-2 pure-u-lg-1-3' },
+    { className: 'astronaut-card pure-u-1 pure-u-md-1-2 pure-u-lg-1-3' },
     _react2['default'].createElement(
       'div',
       { className: 'astronaut-card-container' },

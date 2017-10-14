@@ -197,8 +197,8 @@ main {margin: 30px auto 0; max-width: 1000px;}
 }
 #summaryContainer.minimized {height: 1.5em;}
 #summaryShade {
-  position: absolute; height: 1.5em; width: 100%; left: 0; bottom: 0;
-	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), 20%, #ddd);
+  position: absolute; height: 1.5em; width: 100%; left: 0; bottom: 1px;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), 25%, #ddd);
 }
 .summary-text,
 div.summary-img.width-100,
