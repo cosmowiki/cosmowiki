@@ -34443,76 +34443,48 @@ var AstronautsComponent = function AstronautsComponent(_ref) {
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortAstronautsNameUp' },
-                    'Name ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortAstronautsNameDown' },
-                    'Name ↓'
+                    'Name'
                   ),
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortAstronautsBornUp' },
-                    'geboren ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortAstronautsBornDown' },
-                    'geboren ↓'
+                    'Geburtsdatum'
                   ),
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortAstronautsNumberOfMissionsUp' },
-                    'Anzahl Missionen ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortAstronautsNumberOfMissionsDown' },
-                    'Anzahl Missionen ↓'
+                    'Anzahl Missionen'
                   ),
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortAstronautsTimeInSpaceUp' },
-                    'Gesamtzeit im All ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortAstronautsTimeInSpaceDown' },
-                    'Gesamtzeit im All ↓'
+                    'Gesamtzeit im All'
                   ),
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortAstronautsFirstLaunchUp' },
-                    'erster Raumflug ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortAstronautsFirstLaunchDown' },
-                    'erster Raumflug ↓'
+                    'erster Raumflug'
                   ),
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortAstronautsNumberOfSpacewalksUp' },
-                    'Anzahl EVAs ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortAstronautsNumberOfSpacewalksDown' },
-                    'Anzahl EVAs ↓'
+                    'Anzahl EVAs'
                   ),
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortAstronautsDurationOfSpacewalksUp' },
-                    'EVA Gesamtdauer ↑'
-                  ),
-                  '// not important yet, too much items w/o dates',
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortAstronautsDurationOfSpacewalksDown' },
-                    'EVA Gesamtdauer ↓'
+                    'EVA Gesamtdauer'
                   ),
                   '// not important yet, too much items w/o dates'
                 )
+              ),
+              _react2['default'].createElement(
+                'form',
+                { id: 'sortAscDesc' },
+                _react2['default'].createElement('input', { type: 'radio', id: 'sortAsc', name: 'sortAscDesc', value: 'sortAsc', checked: 'checked' }),
+                _react2['default'].createElement('label', { 'for': 'sortAsc' }),
+                _react2['default'].createElement('input', { type: 'radio', id: 'sortDesc', name: 'sortAscDesc', value: 'sortDesc' }),
+                _react2['default'].createElement('label', { 'for': 'sortDesc' })
               )
             )
           ),
