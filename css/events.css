@@ -66,25 +66,3 @@
 		margin-left: 55%; width: 43%;
 	}
 }
-
-/*#siteTitle.chronicle {
-	background: url('/img/title_chronicle.jpg') center / cover no-repeat;
-}
-.event-row {padding: .2em 0;}
-
-.event-data1 {font-size: 1.125em; text-align: center;}
-.event-dash {display: none;}
-
-.event-data2 {font-size: 1.25em; line-height: 1.5em; text-align: center;}
-
-/* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
-@media only all and (min-width: 35.5em) {
-	.event-date {text-align: right;}
-	.event-dash {display: inline-block;}
-	.event-dash p {margin: 0 .1em;}
-	.event-place {text-align: left;}
-}
-@media only all and (min-width: 64em) {
-	.event-data1 {line-height: 1.75em;}
-	.event-data2 {font-size: 1.125em; line-height: 1.75em; text-align: left;}
-}*/
