@@ -36619,44 +36619,32 @@ var MissionsComponent = function MissionsComponent(_ref) {
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortMissionsLaunchUp' },
-                    'Startdatum ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortMissionsLaunchDown' },
-                    'Startdatum ↓'
+                    'Startdatum'
                   ),
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortMissionsEndUp' },
-                    'Missionsende ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortMissionsEndDown' },
-                    'Missionsende ↓'
+                    'Missionsende'
                   ),
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortMissionsDurationUp' },
-                    'Missionsdauer ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortMissionsDurationDown' },
-                    'Missionsdauer ↓'
+                    'Missionsdauer'
                   ),
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortMissionsNameUp' },
-                    'alphabetisch ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortMissionsNameDown' },
-                    'alphabetisch ↓'
+                    'alphabetisch'
                   )
                 )
+              ),
+              _react2['default'].createElement(
+                'form',
+                { id: 'sortAscDesc' },
+                _react2['default'].createElement('input', { type: 'radio', id: 'sortAsc', name: 'sortAscDesc', value: 'sortAsc', checked: 'checked' }),
+                _react2['default'].createElement('label', { 'for': 'sortAsc' }),
+                _react2['default'].createElement('input', { type: 'radio', id: 'sortDesc', name: 'sortAscDesc', value: 'sortDesc' }),
+                _react2['default'].createElement('label', { 'for': 'sortDesc' })
               )
             )
           ),
@@ -37734,26 +37722,23 @@ var PeopleComponent = function PeopleComponent(_ref) {
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortPeopleNameUp' },
-                    'Name ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortPeopleNameDown' },
-                    'Name ↓'
+                    'Name'
                   ),
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortPeopleBornUp' },
-                    'Geburtsdatum ↑'
-                  ),
-                  '// not important yet, too much items w/o dates',
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortPeopleBornDown' },
-                    'Geburtsdatum ↓'
+                    'Geburtsdatum'
                   ),
                   '// not important yet, too much items w/o dates'
                 )
+              ),
+              _react2['default'].createElement(
+                'form',
+                { id: 'sortAscDesc' },
+                _react2['default'].createElement('input', { type: 'radio', id: 'sortAsc', name: 'sortAscDesc', value: 'sortAsc', checked: 'checked' }),
+                _react2['default'].createElement('label', { 'for': 'sortAsc' }),
+                _react2['default'].createElement('input', { type: 'radio', id: 'sortDesc', name: 'sortAscDesc', value: 'sortDesc' }),
+                _react2['default'].createElement('label', { 'for': 'sortDesc' })
               )
             )
           ),
@@ -38428,26 +38413,23 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortScientistsNameUp' },
-                    'Name ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortScientistsNameDown' },
-                    'Name ↓'
+                    'Name'
                   ),
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortScientistsBornUp' },
-                    'Geburtsdatum ↑'
-                  ),
-                  '// not important yet, too much items w/o dates',
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortScientistsBornDown' },
-                    'Geburtsdatum ↓'
+                    'Geburtsdatum '
                   ),
                   '// not important yet, too much items w/o dates'
                 )
+              ),
+              _react2['default'].createElement(
+                'form',
+                { id: 'sortAscDesc' },
+                _react2['default'].createElement('input', { type: 'radio', id: 'sortAsc', name: 'sortAscDesc', value: 'sortAsc', checked: 'checked' }),
+                _react2['default'].createElement('label', { 'for': 'sortAsc' }),
+                _react2['default'].createElement('input', { type: 'radio', id: 'sortDesc', name: 'sortAscDesc', value: 'sortDesc' }),
+                _react2['default'].createElement('label', { 'for': 'sortDesc' })
               )
             )
           ),
@@ -40138,44 +40120,32 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortStationsLaunchUp' },
-                    'Startdatum ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortStationsLaunchDown' },
-                    'Startdatum ↓'
+                    'Startdatum'
                   ),
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortStationsNameUp' },
-                    'Name ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortStationsNameDown' },
-                    'Name ↓'
+                    'Name'
                   ),
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortStationsEndUp' },
-                    'Missionsende ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortStationsEndDown' },
-                    'Missionsende ↓'
+                    'Missionsende'
                   ),
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortStationsDurationUp' },
-                    'Dauer ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortStationsDurationDown' },
-                    'Dauer ↓'
+                    'Dauer'
                   )
                 )
+              ),
+              _react2['default'].createElement(
+                'form',
+                { id: 'sortAscDesc' },
+                _react2['default'].createElement('input', { type: 'radio', id: 'sortAsc', name: 'sortAscDesc', value: 'sortAsc', checked: 'checked' }),
+                _react2['default'].createElement('label', { 'for': 'sortAsc' }),
+                _react2['default'].createElement('input', { type: 'radio', id: 'sortDesc', name: 'sortAscDesc', value: 'sortDesc' }),
+                _react2['default'].createElement('label', { 'for': 'sortDesc' })
               )
             )
           )
@@ -40640,44 +40610,32 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortSpacetelecopesLaunchUp' },
-                    'Startdatum ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortSpacetelecopesLaunchDown' },
-                    'Startdatum ↓'
+                    'Startdatum'
                   ),
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortSpacetelecopesNameUp' },
-                    'Name ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortSpacetelecopesNameDown' },
-                    'Name ↓'
+                    'Name'
                   ),
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortSpacetelecopesEndUp' },
-                    'Missionsende ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortSpacetelecopesEndDown' },
-                    'Missionsende ↓'
+                    'Missionsende'
                   ),
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortSpacetelecopesDurationUp' },
-                    'Dauer ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortSpacetelecopesDurationDown' },
-                    'Dauer ↓'
+                    'Dauer'
                   )
                 )
+              ),
+              _react2['default'].createElement(
+                'form',
+                { id: 'sortAscDesc' },
+                _react2['default'].createElement('input', { type: 'radio', id: 'sortAsc', name: 'sortAscDesc', value: 'sortAsc', checked: 'checked' }),
+                _react2['default'].createElement('label', { 'for': 'sortAsc' }),
+                _react2['default'].createElement('input', { type: 'radio', id: 'sortDesc', name: 'sortAscDesc', value: 'sortDesc' }),
+                _react2['default'].createElement('label', { 'for': 'sortDesc' })
               )
             )
           )
@@ -41091,34 +41049,27 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortSpacewalksStartUp' },
-                    'Beginn ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortSpacewalksStartDown' },
-                    'Beginn ↓'
+                    'Beginn'
                   ),
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortSpacewalksDurationUp' },
-                    'Dauer ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortSpacewalksDurationDown' },
-                    'Dauer ↓'
+                    'Dauer'
                   ),
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortSpacewalksAstronautsUp' },
-                    'Astronauten ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortSpacewalksAstronautsDown' },
-                    'Astronauten ↓'
+                    'Astronauten'
                   )
                 )
+              ),
+              _react2['default'].createElement(
+                'form',
+                { id: 'sortAscDesc' },
+                _react2['default'].createElement('input', { type: 'radio', id: 'sortAsc', name: 'sortAscDesc', value: 'sortAsc', checked: 'checked' }),
+                _react2['default'].createElement('label', { 'for': 'sortAsc' }),
+                _react2['default'].createElement('input', { type: 'radio', id: 'sortDesc', name: 'sortAscDesc', value: 'sortDesc' }),
+                _react2['default'].createElement('label', { 'for': 'sortDesc' })
               )
             )
           )
@@ -41614,44 +41565,32 @@ var StarsComponent = function StarsComponent(_ref) {
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortStarsMagUp' },
-                    'Helligkeit ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortStarsMagDown' },
-                    'Helligkeit ↓'
+                    'Helligkeit'
                   ),
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortStarsDistanceUp' },
-                    'Entfernung ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortStarsDistanceDown' },
-                    'Entfernung ↓'
+                    'Entfernung'
                   ),
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortStarsMassUp' },
-                    'Masse ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortStarsMassDown' },
-                    'Masse ↓'
+                    'Masse'
                   ),
                   _react2['default'].createElement(
                     'option',
                     { value: 'sortStarsRadiusUp' },
-                    'Radius ↑'
-                  ),
-                  _react2['default'].createElement(
-                    'option',
-                    { value: 'sortStarsRadiusDown' },
-                    'Radius ↓'
+                    'Radius'
                   )
                 )
+              ),
+              _react2['default'].createElement(
+                'form',
+                { id: 'sortAscDesc' },
+                _react2['default'].createElement('input', { type: 'radio', id: 'sortAsc', name: 'sortAscDesc', value: 'sortAsc', checked: 'checked' }),
+                _react2['default'].createElement('label', { 'for': 'sortAsc' }),
+                _react2['default'].createElement('input', { type: 'radio', id: 'sortDesc', name: 'sortAscDesc', value: 'sortDesc' }),
+                _react2['default'].createElement('label', { 'for': 'sortDesc' })
               )
             )
           ),
