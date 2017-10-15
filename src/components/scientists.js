@@ -186,11 +186,15 @@ const ScientistsComponent = ({groupedScientists}) => {
               <div id="sortArea">
                 <form id="sortScientists" className="sort-form">
                   <select name="sortScientists" defaultValue="sortScientistsNameUp">
-                    <option value="sortScientistsNameUp">Name &uarr;</option>
-                    <option value="sortScientistsNameDown">Name &darr;</option>
-                    <option value="sortScientistsBornUp">Geburtsdatum &uarr;</option>// not important yet, too much items w/o dates
-                    <option value="sortScientistsBornDown">Geburtsdatum &darr;</option>// not important yet, too much items w/o dates
+                    <option value="sortScientistsNameUp">Name</option>
+                    <option value="sortScientistsBornUp">Geburtsdatum </option>// not important yet, too much items w/o dates
                   </select>
+                </form>
+                <form id="sortAscDesc">
+                  <input type="radio" id="sortAsc" name="sortAscDesc" value="sortAsc" checked="checked" />
+                  <label for="sortAsc"></label>
+                  <input type="radio" id="sortDesc" name="sortAscDesc" value="sortDesc" />
+                  <label for="sortDesc"></label>
                 </form>
               </div>
             </div>

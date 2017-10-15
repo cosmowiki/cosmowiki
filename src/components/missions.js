@@ -162,15 +162,17 @@ const MissionsComponent = ({missions}) => {
               <div id="sortArea">
                 <form id="sortMissions" className="sort-form">
                   <select name="sortMissions" defaultValue="sortMissionsLaunchUp">
-                    <option value="sortMissionsLaunchUp">Startdatum &uarr;</option>
-                    <option value="sortMissionsLaunchDown">Startdatum &darr;</option>
-                    <option value="sortMissionsEndUp">Missionsende &uarr;</option>
-                    <option value="sortMissionsEndDown">Missionsende &darr;</option>
-                    <option value="sortMissionsDurationUp">Missionsdauer &uarr;</option>
-                    <option value="sortMissionsDurationDown">Missionsdauer &darr;</option>
-                    <option value="sortMissionsNameUp">alphabetisch &uarr;</option>
-                    <option value="sortMissionsNameDown">alphabetisch &darr;</option>
+                    <option value="sortMissionsLaunchUp">Startdatum</option>
+                    <option value="sortMissionsEndUp">Missionsende</option>
+                    <option value="sortMissionsDurationUp">Missionsdauer</option>
+                    <option value="sortMissionsNameUp">alphabetisch</option>
                   </select>
+                </form>
+                <form id="sortAscDesc">
+                  <input type="radio" id="sortAsc" name="sortAscDesc" value="sortAsc" checked="checked" />
+                  <label for="sortAsc"></label>
+                  <input type="radio" id="sortDesc" name="sortAscDesc" value="sortDesc" />
+                  <label for="sortDesc"></label>
                 </form>
               </div>
             </div>

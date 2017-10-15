@@ -105,13 +105,16 @@ const SpacewalksComponent = ({spacewalks}) => {
               <div id="sortArea">
                 <form id="sortSpacewalks" className="sort-form">
                   <select name="sortSpacewalks" defaultValue="sortSpacewalksStartUp">
-                    <option value="sortSpacewalksStartUp">Beginn &uarr;</option>
-                    <option value="sortSpacewalksStartDown">Beginn &darr;</option>
-                    <option value="sortSpacewalksDurationUp">Dauer &uarr;</option>
-                    <option value="sortSpacewalksDurationDown">Dauer &darr;</option>
-                    <option value="sortSpacewalksAstronautsUp">Astronauten &uarr;</option>
-                    <option value="sortSpacewalksAstronautsDown">Astronauten &darr;</option>
+                    <option value="sortSpacewalksStartUp">Beginn</option>
+                    <option value="sortSpacewalksDurationUp">Dauer</option>
+                    <option value="sortSpacewalksAstronautsUp">Astronauten</option>
                   </select>
+                </form>
+                <form id="sortAscDesc">
+                  <input type="radio" id="sortAsc" name="sortAscDesc" value="sortAsc" checked="checked" />
+                  <label for="sortAsc"></label>
+                  <input type="radio" id="sortDesc" name="sortAscDesc" value="sortDesc" />
+                  <label for="sortDesc"></label>
                 </form>
               </div>
             </div>

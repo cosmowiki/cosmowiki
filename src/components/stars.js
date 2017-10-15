@@ -148,15 +148,17 @@ const StarsComponent = ({groupedStars, constellations}) => {
                   <select name="sortStars" defaultValue="sortStarsHistoricalName">
                     <option value="sortStarsHistoricalName">historischer Name</option>
                     <option value="sortStarsConstellation">Sternbild</option>
-                    <option value="sortStarsMagUp">Helligkeit &uarr;</option>
-                    <option value="sortStarsMagDown">Helligkeit &darr;</option>
-                    <option value="sortStarsDistanceUp">Entfernung &uarr;</option>
-                    <option value="sortStarsDistanceDown">Entfernung &darr;</option>
-                    <option value="sortStarsMassUp">Masse &uarr;</option>
-                    <option value="sortStarsMassDown">Masse &darr;</option>
-                    <option value="sortStarsRadiusUp">Radius &uarr;</option>
-                    <option value="sortStarsRadiusDown">Radius &darr;</option>
+                    <option value="sortStarsMagUp">Helligkeit</option>
+                    <option value="sortStarsDistanceUp">Entfernung</option>
+                    <option value="sortStarsMassUp">Masse</option>
+                    <option value="sortStarsRadiusUp">Radius</option>
                   </select>
+                </form>
+                <form id="sortAscDesc">
+                  <input type="radio" id="sortAsc" name="sortAscDesc" value="sortAsc" checked="checked" />
+                  <label for="sortAsc"></label>
+                  <input type="radio" id="sortDesc" name="sortAscDesc" value="sortDesc" />
+                  <label for="sortDesc"></label>
                 </form>
               </div>
             </div>

@@ -182,15 +182,17 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
               <div id="sortArea">
                 <form id="sortStations" className="sort-form">
                   <select name="sortStations" defaultValue="sortStationsLaunchUp">
-                    <option value="sortStationsLaunchUp">Startdatum &uarr;</option>
-                    <option value="sortStationsLaunchDown">Startdatum &darr;</option>
-                    <option value="sortStationsNameUp">Name &uarr;</option>
-                    <option value="sortStationsNameDown">Name &darr;</option>
-                    <option value="sortStationsEndUp">Missionsende &uarr;</option>
-                    <option value="sortStationsEndDown">Missionsende &darr;</option>
-                    <option value="sortStationsDurationUp">Dauer &uarr;</option>
-                    <option value="sortStationsDurationDown">Dauer &darr;</option>
+                    <option value="sortStationsLaunchUp">Startdatum</option>
+                    <option value="sortStationsNameUp">Name</option>
+                    <option value="sortStationsEndUp">Missionsende</option>
+                    <option value="sortStationsDurationUp">Dauer</option>
                   </select>
+                </form>
+                <form id="sortAscDesc">
+                  <input type="radio" id="sortAsc" name="sortAscDesc" value="sortAsc" checked="checked" />
+                  <label for="sortAsc"></label>
+                  <input type="radio" id="sortDesc" name="sortAscDesc" value="sortDesc" />
+                  <label for="sortDesc"></label>
                 </form>
               </div>
             </div>

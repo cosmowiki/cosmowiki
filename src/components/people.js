@@ -113,11 +113,15 @@ const PeopleComponent = ({groupedPeople}) => {
               <div id="sortArea">
                 <form id="sortPeople" className="sort-form">
                   <select name="sortPeople" defaultValue="sortPeopleNameUp">
-                    <option value="sortPeopleNameUp">Name &uarr;</option>
-                    <option value="sortPeopleNameDown">Name &darr;</option>
-                    <option value="sortPeopleBornUp">Geburtsdatum &uarr;</option>// not important yet, too much items w/o dates
-                    <option value="sortPeopleBornDown">Geburtsdatum &darr;</option>// not important yet, too much items w/o dates
+                    <option value="sortPeopleNameUp">Name</option>
+                    <option value="sortPeopleBornUp">Geburtsdatum</option>// not important yet, too much items w/o dates
                   </select>
+                </form>
+                <form id="sortAscDesc">
+                  <input type="radio" id="sortAsc" name="sortAscDesc" value="sortAsc" checked="checked" />
+                  <label for="sortAsc"></label>
+                  <input type="radio" id="sortDesc" name="sortAscDesc" value="sortDesc" />
+                  <label for="sortDesc"></label>
                 </form>
               </div>
             </div>
