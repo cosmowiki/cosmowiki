@@ -164,21 +164,20 @@ const AstronautsComponent = ({groupedAstronauts}) => {
               <div id="sortArea">
                 <form id="sortAstronauts" className="sort-form">
                   <select name="sortAstronauts" defaultValue="sortAstronautsNameUp">
-                    <option value="sortAstronautsNameUp">Name &uarr;</option>
-                    <option value="sortAstronautsNameDown">Name &darr;</option>
-                    <option value="sortAstronautsBornUp">geboren &uarr;</option>
-                    <option value="sortAstronautsBornDown">geboren &darr;</option>
-                    <option value="sortAstronautsNumberOfMissionsUp">Anzahl Missionen &uarr;</option>
-                    <option value="sortAstronautsNumberOfMissionsDown">Anzahl Missionen &darr;</option>
-                    <option value="sortAstronautsTimeInSpaceUp">Gesamtzeit im All &uarr;</option>
-                    <option value="sortAstronautsTimeInSpaceDown">Gesamtzeit im All &darr;</option>
-                    <option value="sortAstronautsFirstLaunchUp">erster Raumflug &uarr;</option>
-                    <option value="sortAstronautsFirstLaunchDown">erster Raumflug &darr;</option>
-                    <option value="sortAstronautsNumberOfSpacewalksUp">Anzahl EVAs &uarr;</option>
-                    <option value="sortAstronautsNumberOfSpacewalksDown">Anzahl EVAs &darr;</option>
-                    <option value="sortAstronautsDurationOfSpacewalksUp">EVA Gesamtdauer &uarr;</option>// not important yet, too much items w/o dates
-                    <option value="sortAstronautsDurationOfSpacewalksDown">EVA Gesamtdauer &darr;</option>// not important yet, too much items w/o dates
+                    <option value="sortAstronautsNameUp">Name</option>
+                    <option value="sortAstronautsBornUp">Geburtsdatum</option>
+                    <option value="sortAstronautsNumberOfMissionsUp">Anzahl Missionen</option>
+                    <option value="sortAstronautsTimeInSpaceUp">Gesamtzeit im All</option>
+                    <option value="sortAstronautsFirstLaunchUp">erster Raumflug</option>
+                    <option value="sortAstronautsNumberOfSpacewalksUp">Anzahl EVAs</option>
+                    <option value="sortAstronautsDurationOfSpacewalksUp">EVA Gesamtdauer</option>// not important yet, too much items w/o dates
                   </select>
+                </form>
+                <form id="sortAscDesc">
+                  <input type="radio" id="sortAsc" name="sortAscDesc" value="sortAsc" checked="checked" />
+                  <label for="sortAsc"></label>
+                  <input type="radio" id="sortDesc" name="sortAscDesc" value="sortDesc" />
+                  <label for="sortDesc"></label>
                 </form>
               </div>
             </div>
