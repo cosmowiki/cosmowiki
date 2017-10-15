@@ -35799,7 +35799,7 @@ var Footer = function Footer(_ref) {
       _react2["default"].createElement(
         "ul",
         { className: "pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-6" },
-        [{ url: appUrl.objectsSite(), name: 'Objekte' }, { url: appUrl.peopleSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
+        [{ url: appUrl.objectsSite(), name: 'Objekte' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
           return _react2["default"].createElement(
             "li",
             { key: link.url },
