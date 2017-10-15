@@ -24,7 +24,7 @@
 }
 .event-arrow {
 	position: absolute; top: 50%; left: 12.5%;
-	margin-top: -10px; margin-left: -13px; width: 0; height: 0; z-index: 1;
+	margin-top: -10px; margin-left: -13px; width: 0; height: 0;
 	border: medium solid #fff; border-width: 10px 10px 10px 0;
 	border-color: transparent #fff transparent transparent;
 }
@@ -50,19 +50,19 @@
 	.event-circle {left: 50%;}
 	.event-container {padding: 0;}
 	.event-container:nth-of-type(odd) .event-arrow {
-		left: 45%; margin-left: 3px;
+		left: 46%; margin-left: 3px;
 		border-width: 10px 0 10px 10px;
 		border-color: transparent transparent transparent #fff;
 	}
 	.event-container:nth-of-type(even) .event-arrow {
-		left: 55%;
+		left: 54%;
 		border-width: 10px 10px 10px 0;
 		border-color: transparent #fff transparent transparent;
 	}
 	.event-container:nth-of-type(odd) .event-content {
-		margin-left: 2%; width: 43%; text-align: right;
+		margin-left: 2%; width: 44%; text-align: right;
 	}
 	.event-container:nth-of-type(even) .event-content {
-		margin-left: 55%; width: 43%;
+		margin-left: 54%; width: 44%;
 	}
 }
