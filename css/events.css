@@ -23,15 +23,15 @@
 	border: .25em solid #55f; border-radius: 50%;
 }
 .event-arrow {
-	position: absolute; top: 50%; left: 10%;
+	position: absolute; top: 50%; left: 12.5%;
 	margin-top: -10px; margin-left: -13px; width: 0; height: 0; z-index: 1;
 	border: medium solid #fff; border-width: 10px 10px 10px 0;
-	border-color: transparent #ddd transparent transparent;
+	border-color: transparent #fff transparent transparent;
 }
 .event-content {
-	position: relative; margin-left: 10%; width: 85%;
+	position: relative; margin-left: 12.5%; width: 82.5%;
 	background: rgba(255, 255, 255, .3);
-	outline: 3px solid #ddd;
+	outline: 3px solid #fff;
 }
 .event-content:focus,
 .event-content:hover,
@@ -52,12 +52,12 @@
 	.event-container:nth-of-type(odd) .event-arrow {
 		left: 45%; margin-left: 3px;
 		border-width: 10px 0 10px 10px;
-		border-color: transparent transparent transparent #ddd;
+		border-color: transparent transparent transparent #fff;
 	}
 	.event-container:nth-of-type(even) .event-arrow {
 		left: 55%;
 		border-width: 10px 10px 10px 0;
-		border-color: transparent #ddd transparent transparent;
+		border-color: transparent #fff transparent transparent;
 	}
 	.event-container:nth-of-type(odd) .event-content {
 		margin-left: 2%; width: 43%; text-align: right;
