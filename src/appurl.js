@@ -1,7 +1,7 @@
 export default class AppUrl {
 
   welcomeSite() {
-    return '/welcome'
+    return '/'
   }
 
   eventsSite() {
