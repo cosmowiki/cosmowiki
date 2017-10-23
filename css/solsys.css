@@ -3,172 +3,170 @@
 	background: url('/img/title_solarsystem.jpg') center / cover no-repeat;
 }
 
-#solarsystemTable {
-	font-size: 1.25em;
-}
+#solarsystemTable {font-size: 1.25em;}
 #solarsystemTable div, #solarsystemTable a {display: block;}
 
-.type-2,
-.type-3,
-.type-4,
-.type-5 {margin-left: 10%; width: 90%;}
+.type2,
+.type3,
+.type4,
+.type5 {margin-left: 10%; width: 90%;}
 
 
-div.type-1,
-div.type-2,
-div.type-3,
-div.type-4,
-div.type-5 {border-top: 1px solid #fff;}
+div.type1,
+div.type2,
+div.type3,
+div.type4,
+div.type5 {border-top: 1px solid #fff;}
 
 #sun,
 div.empty {border-top: none;}
 #oortCloud {border-bottom: 1px solid #fff;}
 
-.item-name {padding: .2em;}
-.item-name.collapsed:after {content: " \25B8";}
-.item-name.collapsed:focus:after,
-.item-name.collapsed:hover:after,
-.item-name.collapsed:active:after {content: " \25BE";}
-.item-name.expanded:after {content: " \25BE";}
-.item-name.expanded:focus:after,
-.item-name.expanded:hover:after,
-.item-name.expanded:active:after {content: " \25B8";}
+#solarsystemTable div a {padding: .2em;}
+#solarsystemTable div a.collapsed:after {content: " \25B8";}
+#solarsystemTable div a.expanded:after {content: " \25BE";}
+#solarsystemTable div a.collapsed:focus:after,
+#solarsystemTable div a.collapsed:hover:after,
+#solarsystemTable div a.collapsed:active:after {content: " \25BE";}
+#solarsystemTable div a.expanded:focus:after,
+#solarsystemTable div a.expanded:hover:after,
+#solarsystemTable div a.expanded:active:after {content: " \25B8";}
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
-	.type-2,
-	.type-3,
-	.type-4,
-	.type-5 {margin-left: 15%; width: 85%;}
+	.type2,
+	.type3,
+	.type4,
+	.type5 {margin-left: 15%; width: 85%;}
 }
 @media only all and (min-width: 48em) {
-	.type-2,
-	.type-3,
-	.type-4,
-	.type-5 {width: auto;}
-	.type-2 {margin-left: 16.666%;}
-	.type-3 {margin-left: 20%;}
-	.type-4 {margin-left: 25%;}
-	.type-5 {margin-left: 33.333%;}
+	.type2,
+	.type3,
+	.type4,
+	.type5 {width: auto;}
+	.type2 {margin-left: 16.666%;}
+	.type3 {margin-left: 20%;}
+	.type4 {margin-left: 25%;}
+	.type5 {margin-left: 33.333%;}
 }
 @media only all and (min-width: 64em) {
-	.type-2 {margin-left: 20%;}
-	.type-3 {margin-left: 25%;}
-	.type-4 {margin-left: 33.333%;}
-	.type-5 {margin-left: 50%;}
+	.type2 {margin-left: 20%;}
+	.type3 {margin-left: 25%;}
+	.type4 {margin-left: 33.333%;}
+	.type5 {margin-left: 50%;}
 }
 
 /*	backgrounds and gradients */
-#sun a.item-name {
-	background-image: linear-gradient( to right, rgba(255,128,128,.7) 50%, rgba(255,128,128,0));
+#sun a {
+	background-image: linear-gradient( to right, rgba(255, 255, 112, .5) 50%, rgba(255, 255, 112, 0));
 }
-#sun a.item-name:focus,
-#sun a.item-name:hover,
-#sun a.item-name:active {
-	background-image: linear-gradient( to right, rgba(255,128,128,1) 50%, rgba(255,128,128,0));
-}
-
-.type-1.group:focus,
-.type-1.group:hover,
-.type-1.group:active {background: rgba(255,255,255,.3);}
-
-#mercury a.item-name {
-	background-image: linear-gradient( to right, rgba(238,220,130,.7) 50%, rgba(238,220,130,0));
-}
-#mercury a.item-name:focus,
-#mercury a.item-name:hover,
-#mercury a.item-name:active {
-	background-image: linear-gradient( to right, rgba(238,220,130,1) 50%, rgba(238,220,130,0));
+#sun a:focus,
+#sun a:hover,
+#sun a:active {
+	background-image: linear-gradient( to right, rgba(255, 255, 112, 1) 50%, rgba(255, 255, 112, 0));
 }
 
-#venus a.item-name {
-	background-image: linear-gradient( to right, rgba(242,217,191,.7) 50%, rgba(242,217,191,0));
+.type1.group:focus,
+.type1.group:hover,
+.type1.group:active {background: rgba(255, 255, 255, .3);}
+
+#mercury a {
+	background-image: linear-gradient( to right, rgba(238, 220, 130, .5) 50%, rgba(238, 220, 130, 0));
 }
-#venus a.item-name:focus,
-#venus a.item-name:hover,
-#venus a.item-name:active {
-	background-image: linear-gradient( to right, rgba(242,217,191,1) 50%, rgba(242,217,191,0));
+#mercury a:focus,
+#mercury a:hover,
+#mercury a:active {
+	background-image: linear-gradient( to right, rgba(238, 220, 130, 1) 50%, rgba(238, 220, 130, 0));
 }
 
-#earth a.item-name {
-	background-image: linear-gradient( to right, rgba(176,196,222,.7) 50%, rgba(176,196,222,0));
+#venus a {
+	background-image: linear-gradient( to right, rgba(242, 217, 191, .5) 50%, rgba(242, 217, 191, 0));
 }
-#earth a.item-name:focus,
-#earth a.item-name:hover,
-#earth a.item-name:active {
-	background-image: linear-gradient( to right, rgba(176,196,222,1) 50%, rgba(176,196,222,0));
-}
-
-.type-2.group a.item-name,
-.type-2.group a.item-name,
-.type-2.group a.item-name {
-	background-image: linear-gradient( to right, rgba(192,192,192,.7) 50%, rgba(192,192,192,0));
-}
-.type-2.group a.item-name:focus,
-.type-2.group a.item-name:hover,
-.type-2.group a.item-name:active {
-	background-image: linear-gradient( to right, rgba(192,192,192,1) 50%, rgba(192,192,192,0));
+#venus a:focus,
+#venus a:hover,
+#venus a:active {
+	background-image: linear-gradient( to right, rgba(242, 217, 191, 1) 50%, rgba(242, 217, 191, 0));
 }
 
-#mars a.item-name {
-	background-image: linear-gradient( to right, rgba(244,164, 96,.7) 50%, rgba(244,164, 96,0));
+#earth a {
+	background-image: linear-gradient( to right, rgba(176, 196, 222, .5) 50%, rgba(176, 196, 222, 0));
 }
-#mars a.item-name:focus,
-#mars a.item-name:hover,
-#mars a.item-name:active {
-	background-image: linear-gradient( to right, rgba(244,164, 96,1) 50%, rgba(244,164, 96,0));
-}
-
-#jupiter a.item-name {
-	background-image: linear-gradient( to right, rgba(250,250,210,.7) 50%, rgba(250,250,210,0));
-}
-#jupiter a.item-name:focus,
-#jupiter a.item-name:hover,
-#jupiter a.item-name:active {
-	background-image: linear-gradient( to right, rgba(250,250,210,1) 50%, rgba(250,250,210,0));
+#earth a:focus,
+#earth a:hover,
+#earth a:active {
+	background-image: linear-gradient( to right, rgba(176, 196, 222, 1) 50%, rgba(176, 196, 222, 0));
 }
 
-#saturn a.item-name {
-	background-image: linear-gradient( to right, rgba(240,230,140,.7) 50%, rgba(240,230,140,0));
+.type2.group a,
+.type2.group a,
+.type2.group a {
+	background-image: linear-gradient( to right, rgba(192, 192, 192, .5) 50%, rgba(192, 192, 192, 0));
 }
-#saturn a.item-name:focus,
-#saturn a.item-name:hover,
-#saturn a.item-name:active {
-	background-image: linear-gradient( to right, rgba(240,230,140,1) 50%, rgba(240,230,140,0));
-}
-
-#uranus a.item-name {
-	background-image: linear-gradient( to right, rgba(190,227,230,.7) 50%, rgba(190,227,230,0));
-}
-#uranus a.item-name:focus,
-#uranus a.item-name:hover,
-#uranus a.item-name:active {
-	background-image: linear-gradient( to right, rgba(190,227,230,1) 50%, rgba(190,227,230,0));
+.type2.group a:focus,
+.type2.group a:hover,
+.type2.group a:active {
+	background-image: linear-gradient( to right, rgba(192, 192, 192, 1) 50%, rgba(192, 192, 192, 0));
 }
 
-#neptune a.item-name {
-	background-image: linear-gradient( to right, rgba(144,208,248,.7) 50%, rgba(144,208,248,0));
+#mars a {
+	background-image: linear-gradient( to right, rgba(244, 164, 96, .5) 50%, rgba(244, 164, 96, 0));
 }
-#neptune a.item-name:focus,
-#neptune a.item-name:hover,
-#neptune a.item-name:active {
-	background-image: linear-gradient( to right, rgba(144,208,248,1) 50%, rgba(144,208,248,0));
-}
-
-#kuiperbelt a.item-name {
-	background-image: linear-gradient( to right, rgba(208,184,175,.7) 50%, rgba(208,184,175,0));
-}
-#kuiperbelt a.item-name:focus,
-#kuiperbelt a.item-name:hover,
-#kuiperbelt a.item-name:active {
-	background-image: linear-gradient( to right, rgba(208,184,175,1) 50%, rgba(208,184,175,0));
+#mars a:focus,
+#mars a:hover,
+#mars a:active {
+	background-image: linear-gradient( to right, rgba(244, 164, 96, 1) 50%, rgba(244, 164, 96, 0));
 }
 
-#periodicComets a.item-name {
-	background-image: linear-gradient( to right, rgba(191,205,217,.7) 50%, rgba(191,205,217,0));
+#jupiter a {
+	background-image: linear-gradient( to right, rgba(250, 250, 210, .5) 50%, rgba(250, 250, 210, 0));
 }
-#periodicComets a.item-name:focus,
-#periodicComets a.item-name:hover,
-#periodicComets a.item-name:active {
-	background-image: linear-gradient( to right, rgba(191,205,217,1) 50%, rgba(191,205,217,0));
+#jupiter a:focus,
+#jupiter a:hover,
+#jupiter a:active {
+	background-image: linear-gradient( to right, rgba(250, 250, 210, 1) 50%, rgba(250, 250, 210, 0));
+}
+
+#saturn a {
+	background-image: linear-gradient( to right, rgba(240, 230, 140, .5) 50%, rgba(240, 230, 140, 0));
+}
+#saturn a:focus,
+#saturn a:hover,
+#saturn a:active {
+	background-image: linear-gradient( to right, rgba(240, 230, 140, 1) 50%, rgba(240, 230, 140, 0));
+}
+
+#uranus a {
+	background-image: linear-gradient( to right, rgba(190, 227, 230, .5) 50%, rgba(190, 227, 230, 0));
+}
+#uranus a:focus,
+#uranus a:hover,
+#uranus a:active {
+	background-image: linear-gradient( to right, rgba(190, 227, 230, 1) 50%, rgba(190, 227, 230, 0));
+}
+
+#neptune a {
+	background-image: linear-gradient( to right, rgba(144, 208, 248, .5) 50%, rgba(144, 208, 248, 0));
+}
+#neptune a:focus,
+#neptune a:hover,
+#neptune a:active {
+	background-image: linear-gradient( to right, rgba(144, 208, 248, 1) 50%, rgba(144, 208, 248, 0));
+}
+
+#kuiperbelt a {
+	background-image: linear-gradient( to right, rgba(208, 184, 175, .5) 50%, rgba(208, 184, 175, 0));
+}
+#kuiperbelt a:focus,
+#kuiperbelt a:hover,
+#kuiperbelt a:active {
+	background-image: linear-gradient( to right, rgba(208, 184, 175, 1) 50%, rgba(208, 184, 175, 0));
+}
+
+#periodicComets a {
+	background-image: linear-gradient( to right, rgba(191, 205, 217, .5) 50%, rgba(191, 205, 217, 0));
+}
+#periodicComets a:focus,
+#periodicComets a:hover,
+#periodicComets a:active {
+	background-image: linear-gradient( to right, rgba(191, 205, 217, 1) 50%, rgba(191, 205, 217, 0));
 }
