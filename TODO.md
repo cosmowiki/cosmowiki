@@ -2,12 +2,11 @@
 - [x] speed up local development, using watchify?
 - make the map (places) work
 - include shariff for private social linking
-- document creation procedure of new pages in README
 - responsive nav menu with button on the right in branding bar (look at the pure js)
 - make the sorters and filters work (filters with FilterRow as in stars)
 - let the toggle switches for sort and filter hide each other onClick and :hover on small screens
 - [x] global scroll-to-top-button like [this][1]
-- create welcome page
+- [x] create welcome page
 - open the a href={item.name} in an overlay-vcard or in a separate page
 
 # nice to have
