@@ -16,47 +16,66 @@ export default class SolarSystem {
 /*
 Conditions to build the component/solar-system.js:
 
-Meaning of the itemtype in the JSON-file:
-- type-1 = the sun, group of inner planets, the asteroid-belt, group of outer planets,
-transneptunian-objects, comets and the oort-cloud = the parents of all other items.
-- type-2 = all planets and groups equal in hierarchy.
-- type-3 = trojan groups, groups of planet-moons, the sub-groups of the asteroid-belt and comet-groups.
-- type-4 = all planet-moons, asteroids of the asteroid-belt and kuiperbelt objects.
-- type-5 = only moons of kuiperbelt objects.
-
-For each item in JSON build a div like this:
-
-<div id="{item.name2}" className="{item.type} {item.category} pure-grid-class">
-</div>
+Meaning of "itemtype" in the JSON-file:
+- type1 = the sun, the group of inner planets, the asteroid-belt, the group of outer planets,
+          the group of transneptunian-objects, comets and the oort-cloud
+        = groups of celestial bodies and the parents of all other items.
+- type2 = all planets and groups of celestial bodies on the same level in hierarchy.
+- type3 = trojan groups, groups of planet-moons, the sub-groups of the asteroid-belt and comet-groups.
+- type4 = all planet-moons, asteroids of the asteroid-belt and kuiperbelt objects.
+- type5 = only moons of kuiperbelt objects.
 
 For the DOM hierarchy:
-- div.type-2 is a child of the div.type-1,
-- div.type-3 is a child of the div.type-2,
-- div.type-4 is a child of the div.type-3,
-- div.type-5 is a child of the div.type-4.
+- div.type2 is a child of the div.type1,
+- div.type3 is a child of the div.type2,
+- div.type4 is a child of the div.type3,
+- div.type5 is a child of the div.type4.
 
 For the Pure-grid-classes:
-- type-1 = pure-u-1
-- type-2 = pure-u-md-5-6 pure-lg-4-5
-- type-3 = pure-u-md-4-5 pure-lg-3-4
-- type-4 = pure-u-md-3-4 pure-lg-2-3
-- type-5 = pure-u-md-2-3 pure-lg-1-2
+- type1 = pure-u-1
+- type2 = pure-u-md-5-6 pure-lg-4-5
+- type3 = pure-u-md-4-5 pure-lg-3-4
+- type4 = pure-u-md-3-4 pure-lg-2-3
+- type5 = pure-u-md-2-3 pure-lg-1-2
 
-Some JSON items don't contain item.name and item.name2. These divs don't get an id=""
-and will only ensure a proper DOM hierarchy and Pure-grid.
+For each item in JSON build a <div></div> like this:
+<div id={item.name2} className={item.type item.category + ' pure-grid-class'}></div>
 
-For all JSON elements that have an item.name build a link as first child of the div:
+For each item in JSON that has an item.name, build a <a></a> as first child element of the <div>:
   <a href={item.wikipediaUrl} title={item.name} className="item-name">{item.name}</a>
 
-The className="item-name" in <a> is not className={item.name}!
-(I need this to control background etc.)
-
-IF item.type value is type-2, type-3, type-4 or type-5 AND item.category is "group"
-AND the element has children, THEN add CSS class "collapsed" to the <a>.
-These groups should be collapsed onLoad and expanded onClick (and again collapsed
+IF item.type value is not type1 AND item.category is "group" AND the element has children,
+THEN add the CSS class "collapsed" to the <a>.
+These groups should be collapsed onLoad and expand onClick (and again collapse
 onClick) to show their child elements.
 On click the CSS class "collapsed" should be replaced with "expanded" to change
-the icon and show all child elements. (similar to the about-site)
+the icon and to show all child elements. (similar to the about-site)
+
+Finally the structure should look like this:
+
+<div id={item.name2} className={item.type item.category + ' pure-u-1'}>// for type1
+  <a href={item.wikipediaUrl} title={item.name}>{item.name}</a>
+  <div id={item.name2} className={item.type item.category + ' pure-u-md-5-6 pure-lg-4-5'}>// for type2
+    <a href={item.wikipediaUrl} title={item.name}>{item.name}</a>
+    <div id={item.name2} className={item.type item.category + ' pure-u-md-4-5 pure-lg-3-4'}>// for type3
+      <a href={item.wikipediaUrl} title={item.name} className="collapsed">{item.name}</a>
+      <div id={item.name2} className={item.type item.category + ' pure-u-md-3-4 pure-lg-2-3'}>// for type4
+        <a href={item.wikipediaUrl} title={item.name}>{item.name}</a>
+        <div id={item.name2} className={item.type item.category + ' pure-u-md-2-3 pure-lg-1-2'}>// for type5
+          <a href={item.wikipediaUrl} title={item.name}>{item.name}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+Some JSON items have no item.name and no item.name2, their type is "3", category is "empty".
+These items stand for (yet) non-existing child elements of type2, that have child elements with type4,
+because I give moons and asteroids the same level in hierarchy.
+(i.e. the gap between type2 "Erde" and type4 "Mond")
+The divs of these items don't get an id="". I use them as placeholders for potentially upcoming groups,
+and to create a double margin (in CSS) between parent type2 and child type4.
+
 */
 
 class Item {
@@ -112,7 +131,7 @@ class Item {
 //     "itemname": "Sonne",
 //     "itemname2": "sun",
 //     "itemurl": "https://de.wikipedia.org/wiki/Sonne",
-//     "itemtype": "type-1",
+//     "itemtype": "type1",
 //     "itemcolor": "#fffacd (255,250,205)",
 //     "itemcategory": "star",
 //     "itemimgurl": "img/solarsystem/sun.jpg",
@@ -145,7 +164,7 @@ class Item {
 //     "itemname": "Innere Planeten",
 //     "itemname2": "innerPlanets",
 //     "itemurl": "https://de.wikipedia.org/wiki/Innerer_Planet",
-//     "itemtype": "type-1",
+//     "itemtype": "type1",
 //     "itemcategory": "group",
 //     "itemparent": "solar-system"
 // },
@@ -154,7 +173,7 @@ class Item {
 //     "itemname": "Merkur",
 //     "itemname2": "mercury",
 //     "itemurl": "https://de.wikipedia.org/wiki/Merkur_(Planet)",
-//     "itemtype": "type-2",
+//     "itemtype": "type2",
 //     "itemcolor": "#eedc82 (238,220,130)",
 //     "itemcategory": "planet",
 //     "itemimgsmallurl": "img/solarsystem/mercury_sm.jpg",

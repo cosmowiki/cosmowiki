@@ -110,15 +110,15 @@ a#scrollDown:before {content: '\f103';}
 }
 a#menuToggle:before {content: '\f0c9';}
 
-/*	Header ------------------------------------------------------------------ */
+/*	header ------------------------------------------------------------------ */
 header {position: fixed; top: 0; left: 0;	z-index: 10; background: #fff;}
 
-/*	Logo -------------------------------------------------------------------- */
+/*	logo -------------------------------------------------------------------- */
 #logo {min-width: 40px;}
 img#CosmoWikiLogo {display: none;}
 img#CosmoWikiIcon {display: block; height: 1.5em; padding: .25em;}
 
-/*	Nav --------------------------------------------------------------------- */
+/*	nav --------------------------------------------------------------------- */
 .pure-menu-link:focus,
 .pure-menu-link:hover,
 .pure-menu-link:active {background: #eef;}
@@ -130,7 +130,7 @@ nav ul ul li {text-align: left;}
 nav ul ul li a {background: #fff; border-bottom: 1px solid #ddd;}
 nav ul ul li:last-child a {border-bottom: none;}
 
-/*	Search ------------------------------------------------------------------ */
+/*	search ------------------------------------------------------------------ */
 #searchArea {
 /* onClick nav li.search set display to "block" to show the search form */
 	display: none; position: absolute; top: 0; left: 25%; z-index: 20;
@@ -158,10 +158,10 @@ nav ul ul li:last-child a {border-bottom: none;}
 #searchArea button:hover,
 #searchArea button:active {color:#333;}
 
-/*	Main -------------------------------------------------------------------- */
+/*	main -------------------------------------------------------------------- */
 main {margin: 30px auto 0; max-width: 1000px;}
 
-/*	Module ------------------------------------------------------------------ */
+/*	module ------------------------------------------------------------------ */
 .module {
 	background: rgba(255, 255, 255, .9);
 	border-top: 15px solid #ccf; border-bottom: 15px solid #eee;
@@ -215,14 +215,17 @@ div.summary-img.width-25,
 .summary-img:focus,
 .summary-img:hover,
 .summary-img:active {border: 1px solid #333;}
-.summary-img:nth-of-type(odd) {float: right; margin: 0 0 0 .5em;}
-.summary-img:nth-of-type(even) {float: left; margin: 0 .5em 0 0;}
+.summary-img:nth-of-type(odd),
 .summary-img.float-right {float: right; margin: 0 0 0 .5em;}
+.summary-img:nth-of-type(even),
 .summary-img.float-left {float: left; margin: 0 .5em 0 0;}
-.summary-img.width-100 {float: none; margin: auto;}
-.summary-img.width-75 {float: none; width: 75%; margin: auto;}
-.summary-img.width-50 {float: none; width: 50%; margin: auto;}
-.summary-img.width-25 {float: none; width: 50%; margin: auto;}
+.summary-img.width-100,
+.summary-img.width-75,
+.summary-img.width-50,
+.summary-img.width-25 {float: none; margin: auto;}
+.summary-img.width-75 {width: 75%;}
+.summary-img.width-50 {width: 50%;}
+.summary-img.width-25 {width: 50%;}
 
 .summary-img img {display: block; height: 6.5em;}
 
@@ -342,16 +345,13 @@ footer {margin: 0 auto; max-width: 1000px;}
 
 #extrasSelf,
 #extrasSocial {margin: .5em auto; text-align: center;}
-#extras li {margin-bottom: .5em;}
-#extrasSocial a:before {font-family: FontAwesome;}
+#extrasSelf li {margin-bottom: .5em;}
+#extrasSocial li {display: inline-block; margin: 0 2em;}
+#extrasSocial a:before {font-family: FontAwesome; font-size: 1.25em;}
 #extras #Twitter:before {content: "\f099"; color: #32bbf5;}
 #extras #Facebook:before {content: "\f09a"; color: #4273c8;}
 #extras #GooglePlus:before {content: "\f0d5"; color: #d34836;}
 #extras #Github:before {content: "\f09b"; color: #4078c0;}
-#extras #Twitter:after {content: " Twitter";}
-#extras #Facebook:after {content: " Facebook";}
-#extras #GooglePlus:after {content: " Google+";}
-#extras #Github:after {content: " Github";}
 
 #version p {margin: 0 auto; line-height: 15px; font-size: .8em;}
 
@@ -368,7 +368,7 @@ footer {margin: 0 auto; max-width: 1000px;}
 	#sitemap a:before {content: "- ";}
 	#sitemap li:first-child a:before {content: "";}
 
-	#extras li {display: inline-block; margin: 0 .5em;)
+	#extrasSelf li {display: inline-block; margin: 0 .5em;)
 }
 
 @media only screen and (min-width: 48em) {
@@ -390,6 +390,11 @@ footer {margin: 0 auto; max-width: 1000px;}
 
 	#sitemap ul:nth-of-type(n) li {margin-right: .5em;}
 	#sitemap ul:nth-of-type(3n) li {margin-right: 0;}
+
+	#extras #Twitter:after {content: " Twitter";}
+	#extras #Facebook:after {content: " Facebook";}
+	#extras #GooglePlus:after {content: " Google+";}
+	#extras #Github:after {content: " Github";}
 }
 
 @media only screen and (min-width: 64em) {
@@ -407,14 +412,9 @@ footer {margin: 0 auto; max-width: 1000px;}
 
 	#extrasSelf,
 	#extrasSocial {display: inline-block;}
-	#extrasSelf ul {text-align: left;}
-	#extrasSelf a {margin-right: 1em; text-align: left;}
+	#extrasSelf {text-align: left;}
 	#extrasSocial {text-align: right;}
-	#extrasSocial a {margin-left: 1em; text-align: right;}
-	#extras #Twitter:after {content: " Twitter";}
-	#extras #Facebook:after {content: " Facebook";}
-	#extras #GooglePlus:after {content: " Google+";}
-	#extras #Github:after {content: " Github";}
+	#extrasSocial li {margin: 0 .5em;}
 }
 
 @media only screen and (min-width: 1100px) {
