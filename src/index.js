@@ -8,7 +8,6 @@ import AppUrl from './appurl'
 import PageComponent from './components/page';
 import ContentOnlyComponent from './components/content-only';
 
-import Home from './sites/home';
 import Welcome from './sites/welcome';
 import Events from './sites/events';
 import People from './sites/people';
@@ -71,8 +70,7 @@ const urlToComponent = {
   '/spaceflight': {klass: Spaceflight},
   '/objects': {klass: Objects},
   '/about': {klass: About},
-  '/welcome': {klass: Welcome},
-  '/': {klass: Home, surroundingComponent: ContentOnlyComponent}
+  '/': {klass: Welcome},
 };
 
 const renderSite = (path, onDone) => {
