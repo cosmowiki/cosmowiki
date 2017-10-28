@@ -345,7 +345,7 @@ footer {margin: 0 auto; max-width: 1000px;}
 
 #extrasSelf,
 #extrasSocial {margin: .5em auto; text-align: center;}
-#extrasSelf li {margin-bottom: .5em;}
+#extrasSelf li {display: inline-block; width: 33.333%; margin-bottom: 1em;}
 #extrasSocial li {display: inline-block; margin: 0 2em;}
 #extrasSocial a:before {font-family: FontAwesome; font-size: 1.25em;}
 #extras #Twitter:before {content: "\f099"; color: #32bbf5;}
@@ -367,8 +367,6 @@ footer {margin: 0 auto; max-width: 1000px;}
 	#sitemap ul:nth-of-type(even) li {margin-right: 0;}
 	#sitemap a:before {content: "- ";}
 	#sitemap li:first-child a:before {content: "";}
-
-	#extrasSelf li {display: inline-block; margin: 0 .5em;)
 }
 
 @media only screen and (min-width: 48em) {
@@ -412,6 +410,7 @@ footer {margin: 0 auto; max-width: 1000px;}
 
 	#extrasSelf,
 	#extrasSocial {display: inline-block;}
+	#extrasSelf li {width: auto; margin: 0 .5em;}
 	#extrasSelf {text-align: left;}
 	#extrasSocial {text-align: right;}
 	#extrasSocial li {margin: 0 .5em;}
