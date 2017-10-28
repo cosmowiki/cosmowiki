@@ -22,7 +22,11 @@ div.type5 {border-top: 1px solid #fff;}
 div.empty {border-top: none;}
 #oortCloud {border-bottom: 1px solid #fff;}
 
-#solarsystemTable div a {padding: .2em;}
+#solarsystemTable div.type1 a {padding: 1em;}
+#solarsystemTable div.type2 a {padding: .8em;}
+#solarsystemTable div.type3 a {padding: .6em;}
+#solarsystemTable div.type4 a {padding: .4em;}
+#solarsystemTable div.type5 a {padding: .2em;}
 #solarsystemTable div a.collapsed:after {content: " \25B8";}
 #solarsystemTable div a.expanded:after {content: " \25BE";}
 #solarsystemTable div a.collapsed:focus:after,
