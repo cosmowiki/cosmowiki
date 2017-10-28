@@ -340,7 +340,6 @@ footer {margin: 0 auto; max-width: 1000px;}
 #sitemap ul {margin-bottom: .5em;}
 #sitemap a {display: block; line-height: 1.75em;}
 #sitemap li:first-child a {background: rgba(0, 0, 255, .1);}
-#sitemap ul:last-child li {margin-right: 0;}
 
 
 #extrasSelf,
@@ -363,8 +362,7 @@ footer {margin: 0 auto; max-width: 1000px;}
 
 	#summaryContainer {padding: 0 .5em;}
 
-	#sitemap ul:nth-of-type(n) li {margin-right: .5em;}
-	#sitemap ul:nth-of-type(even) li {margin-right: 0;}
+	#sitemap ul li {margin: 0 .25em;}
 	#sitemap a:before {content: "- ";}
 	#sitemap li:first-child a:before {content: "";}
 }
@@ -385,9 +383,6 @@ footer {margin: 0 auto; max-width: 1000px;}
 
 	#sortArea, #filterArea, #sort form, #filter form {display: inline;}
 	#sort a, #filter a {display: none;}
-
-	#sitemap ul:nth-of-type(n) li {margin-right: .5em;}
-	#sitemap ul:nth-of-type(3n) li {margin-right: 0;}
 
 	#extras #Twitter:after {content: " Twitter";}
 	#extras #Facebook:after {content: " Facebook";}
