@@ -6,7 +6,6 @@ import {loadRemoteFile} from './_external-deps/http-get';
 
 import AppUrl from './appurl'
 import PageComponent from './components/page';
-import ContentOnlyComponent from './components/content-only';
 
 import Welcome from './sites/welcome';
 import Events from './sites/events';
