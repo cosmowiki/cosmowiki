@@ -86,7 +86,6 @@ const Footer = ({appUrl}) => {
               {url: appUrl.aboutSite() + '#thanks', name: 'Danke'},
               {url: appUrl.aboutSite() + '#contact', name: 'Kontakt'},
               {url: appUrl.aboutSite() + '#imprint', name: 'Impressum'},
-              //TODO{url: appUrl.aboutSite() + '#blog', name: 'Blog'},
             ].map(link =>
               <li key={link.url}>
                 <a href={ link.url } target="_self" title={ link.name }>{ link.name }</a>
