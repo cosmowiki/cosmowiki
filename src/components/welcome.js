@@ -9,9 +9,9 @@ const WelcomeComponent = ({appUrl}) => {
 					<h3>auf CosmoWiki.org</h3>
 				</div>
 			</div>
-			<div id="welcomeArea" class="pure-u-1">
-				<div id="presentationEvents" class="welcome-container pure-u-1">
-					<div class="welcome">
+			<div id="welcomeArea" className="pure-u-1">
+				<div className="welcome-container pure-u-1">
+					<div id="welcomeEvents" className="module">
 						<h4>7. Januar 1610</h4>
 						<p>
 							An diesem Tag entdeckte Galileo Galilei in Padua mit einem Nachbau
@@ -19,17 +19,17 @@ const WelcomeComponent = ({appUrl}) => {
 							die vier größten Monde des Jupiter - Io, Europa, Ganymed und Kallisto.
 							Seine Beobachtungen und bahnbrechenden Erkenntnisse über den Mond,
 							das Jupiter-System und die Sterne veröffentlichte er noch im gleichen
-							Jahr in seinem Werk <i>"Sidereus nuncius"</i>. Die Ringe des Saturn
-							deutete er übrigens als Henkel des Planeten ;-)
+							Jahr in seinem Werk <i>"Sidereus nuncius"</i> - der Sternenbote. Die
+							Ringe des Saturn deutete er übrigens als Henkel des Planeten ;-)
 						</p>
 						<p>
 							Weitere <code>[numberOfEvents]-1</code> Ereignisse aus der spannenden Geschichte
-							von Astronomie und Raumfahrt finden Sie <a href="/events">> hier</a>.
+							von Astronomie und Raumfahrt finden Sie <a href="/events">hier</a>.
 						</p>
 		 	 		</div>
 		 	 	</div>
-				<div id="presentationScientists" class="presentation-container pure-u-1 pure-u-md-1-2">
-					<div class="presentation">
+				<div className="welcome-container pure-u-1 pure-u-md-1-2">
+					<div id="welcomeScientists" className="module">
 						<h4><code>[countAstronomers]</code> Astronomen!</h4>
 						<p>
 							Hier finden Sie zwar nicht alle, aber zumindest die bedeutendsten
@@ -40,12 +40,12 @@ const WelcomeComponent = ({appUrl}) => {
 							älteste Wissenschaft. Doch CosmoWiki.org bietet noch viel
 							mehr: <code>[countScientists]-[countAstronomers]</code> weitere Wissenschaftler - Physiker,
 							Mathematiker, Kosmologen und Ingenieure mit Angaben zu ihrer Person,
-							ihren größten Erfolgen und Auszeichnungen finden Sie <a href="/scientists">> hier</a>.
+							ihren größten Erfolgen und Auszeichnungen finden Sie <a href="/scientists">hier</a>.
 						</p>
 					</div>
-				</div>
-				<div id="presentationAstronauts" class="presentation-container pure-u-1 pure-u-md-1-2">
-					<div class="presentation">
+		 	 	</div>
+				<div className="welcome-container pure-u-1 pure-u-md-1-2">
+					<div id="welcomeAstronauts" className="module">
 						<h4><code>[totalAstronautsHoursInSpace]</code></h4>
 						<p>
 							Eine unglaubliche Zahl! So viele Stunden haben alle <code>[countAstronauts]</code>
