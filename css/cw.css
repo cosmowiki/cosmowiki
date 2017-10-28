@@ -164,7 +164,7 @@ main {margin: 30px auto 0; max-width: 1000px;}
 /*	module ------------------------------------------------------------------ */
 .module {
 	background: rgba(255, 255, 255, .9);
-	border-top: 15px solid #ccf; border-bottom: 15px solid #eee;
+	border-top: 15px solid #ccf; border-bottom: 15px solid #ddd;
 }
 
 /*	siteTitle --------------------------------------------------------------- */
@@ -404,8 +404,9 @@ footer {margin: 0 auto; max-width: 1000px;}
 	#controlArea {min-height: 1.5em;}
 
 	#sitemap {text-align: left;}
-	#sitemap ul:nth-of-type(n) li {margin-right: .5em;}
-	#sitemap ul:last-child li {margin-right: 0;}
+	#sitemap ul:nth-of-type(n) li {margin: 0 .25em;}
+	#sitemap ul:first-child li {margin: 0 .25em 0 0;}
+	#sitemap ul:last-child li {margin: 0 0 0 .25em;}
 	#sitemap a {padding-left: .25em;}
 
 	#extrasSelf,
