@@ -39622,7 +39622,7 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Eine der wichtigsten Erkenntnisse aus Skylab war die Notwendigkeit, eine Raumstation mit Treibstoff auf auf einfache Weise wiederzubefüllen. Durch die in einer Höhe von 300 bis 400 Kilometern zwar sehr dünne, aber immer noch existierende Erdatmosphäre wird das Raumfahrzeug so stark gebremst, dass die Umlaufbahn in gewissen zeitlichen Abständen angehoben werden muss um einen Absturz zu verhindern.'
+        'Eine der wichtigsten Erkenntnisse aus Skylab war die Notwendigkeit, eine Raumstation mit Treibstoff auf einfache Weise wiederzubefüllen. Auch in einer Höhe von 300 bis 400 Kilometern wird das Raumfahrzeug durch die zwar sehr dünne, aber immer noch existierende Erdatmosphäre so stark gebremst, dass die Umlaufbahn in gewissen zeitlichen Abständen angehoben werden muss um einen Absturz zu verhindern.'
       ),
       _react2['default'].createElement(
         'div',
