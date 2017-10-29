@@ -254,6 +254,7 @@ div.summary-img.width-25,
 	background: rgba(255, 255, 255, .8);
 	border-bottom: 1px solid #fff;
 }
+#pageSubMenu li:last-child a {border-bottom: none;}
 #pageSubMenu a:focus,
 #pageSubMenu a:hover,
 #pageSubMenu a:active {color: #fff; background: rgba(255, 255, 255, .3);}
@@ -331,7 +332,12 @@ div.summary-img.width-25,
 .notesTable {padding: .25em 1em;}
 
 /*	Footer ------------------------------------------------------------------ */
-footer {margin: 0 auto; max-width: 1000px;}
+footer {
+	position: relative; bottom: 0; left: 0;
+	background: rgba(255, 255, 255, .9);
+	border-top: 15px solid #ccf; border-bottom: 15px solid #ddd;
+}
+#footerContainer {margin: 0 auto; max-width: 1000px;}
 
 #sitemap,
 #extras,
@@ -358,7 +364,9 @@ footer {margin: 0 auto; max-width: 1000px;}
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only screen and (min-width: 35.5em) {
 	.module,
-	#siteTitle {margin-bottom: 15px;}
+	#siteTitle,
+	#pageSubMenu {margin-bottom: 15px;}
+	footer {margin-bottom: 0;}
 
 	#summaryContainer {padding: 0 .5em;}
 
