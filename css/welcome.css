@@ -1,8 +1,6 @@
 .welcome-container {}
 
 .welcome-container div {padding: .5em;}
-.welcome-container.pure-u-md-1-2:first-child div {margin-right: .5em;}
-.welcome-container.pure-u-md-1-2:last-child div {margin-left: .5em;}
 
 .welcome-img {
 	width: 8em; height: 6em; padding: 2px;
@@ -26,7 +24,8 @@
 }
 
 @media only all and (min-width: 48em) {
-
+	.welcome-container.pure-u-md-1-2:nth-of-type(odd) div {margin-left: .5em;}
+	.welcome-container.pure-u-md-1-2:nth-of-type(even) div {margin-right: .5em;}
 }
 
 @media only all and (min-width: 64em) {
