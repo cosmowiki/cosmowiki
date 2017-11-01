@@ -60,6 +60,26 @@ const WelcomeComponent = ({appUrl}) => {
 						</p>
 					</div>
 				</div>
+				<div className="welcome-container pure-u-1">
+					<div id="welcomePlaces" className="module">
+						<h4>28° 37&prime; 4&Prime; N, 80° 36&prime; 45&Prime; W</h4>
+						<p>
+							Genau dort befindet sich der Launch Complex 39, und von dort starteten
+							Neil Armstrong, Buzz Aldrin und Michael Collins am 16. Juli 1969 mit
+							Apollo 11 zu ihrem legendären Flug zum Mond. Hier begannen nicht nur
+							sämtliche Apollo-Missionen, auch alle 135 Space-Shuttle-Flüge zwischen
+							1981 und 2011 starteten	hier. LC-39 mit seinen zwei Plattformen A
+							und B ist der einzige	Startplatz des Kennedy Space Center.
+							Am Cape Canaveral befinden sich zwar über 30 weitere, meist inaktive
+							Startplätze, die allerdings zur Cape Canaveral Air Force Station (CCAFS)
+							gehören.
+						</p>
+						<p>
+							Erkunden Sie <code>[countPlaces]</code> interessante Orte der Astronomie
+							und Raumfahrt <a href="/places">hier</a>.
+						</p>
+		 	 		</div>
+		 	 	</div>
 			</div>
 		</main>
 	)
