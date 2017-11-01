@@ -26,12 +26,12 @@
 	position: absolute; top: 50%; left: 12.5%;
 	margin-top: -10px; margin-left: -13px; width: 0; height: 0;
 	border: medium solid #fff; border-width: 10px 10px 10px 0;
-	border-color: transparent #fff transparent transparent;
+	border-color: transparent #ddd transparent transparent;
 }
 .event-content {
 	position: relative; margin-left: 12.5%; width: 82.5%;
 	background: rgba(255, 255, 255, .3);
-	outline: 3px solid #fff;
+	outline: 3px solid #ddd;
 }
 .event-content:focus,
 .event-content:hover,
@@ -53,12 +53,12 @@
 	.event-container:nth-of-type(odd) .event-arrow {
 		left: 46%; margin-left: 3px;
 		border-width: 10px 0 10px 10px;
-		border-color: transparent transparent transparent #fff;
+		border-color: transparent transparent transparent #ddd;
 	}
 	.event-container:nth-of-type(even) .event-arrow {
 		left: 54%;
 		border-width: 10px 10px 10px 0;
-		border-color: transparent #fff transparent transparent;
+		border-color: transparent #ddd transparent transparent;
 	}
 	.event-container:nth-of-type(odd) .event-content {
 		margin-left: 2%; width: 44%; text-align: right;
