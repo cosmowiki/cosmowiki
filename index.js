@@ -34018,7 +34018,7 @@ var AboutComponent = (function (_React$Component) {
         ),
         _react2['default'].createElement(
           'div',
-          { id: 'about', className: 'justify' },
+          { id: 'about' },
           _react2['default'].createElement(
             'ul',
             { id: 'aboutMenu' },
@@ -42064,7 +42064,7 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 					_react2["default"].createElement(
 						"p",
 						null,
-						"Genau dort befindet sich der Launch Complex 39, und von dort starteten Neil Armstrong, Buzz Aldrin und Michael Collins am 16. Juli 1969 mit Apollo 11 zu ihrem legendären Flug zum Mond. Hier begannen nicht nur sämtliche Apollo-Missionen, auch alle 135 Space-Shuttle-Flüge zwischen 1981 und 2011 starteten hier. LC-39 mit seinen zwei Plattformen A und B ist der einzige Startplatz des Kennedy Space Center. Am Cape Canaveral befinden sich zwar über 30 weitere, meist inaktive Startplätze, die allerdings zur Cape Canaveral Air Force Station (CCAFS) gehören."
+						"Genau dort befindet sich der Launch Complex 39, und von dort starteten Neil Armstrong, Buzz Aldrin und Michael Collins am 16. Juli 1969 mit Apollo 11 zu ihrem legendären Flug zum Mond. Doch hier begannen nicht nur sämtliche Apollo-Missionen, auch alle 135 Space-Shuttle-Flüge zwischen 1981 und 2011 starteten hier. LC-39 mit seinen zwei Plattformen A und B ist der einzige Startplatz des Kennedy Space Center. Am Cape Canaveral befinden sich zwar über 30 weitere, meist inaktive Startplätze, die allerdings zur Cape Canaveral Air Force Station (CCAFS) gehören."
 					),
 					_react2["default"].createElement(
 						"p",
