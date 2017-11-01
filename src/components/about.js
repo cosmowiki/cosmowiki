@@ -175,7 +175,7 @@ export default class AboutComponent extends React.Component {
           <p>@wolfram: pls when clicking on link in #footerElse jump to the question but avoid covering by branding</p>
           <p>@wolfram: pls make the contact form work, send mail to admin@cosmowiki.org</p>
         </div>
-        <div id="about" className="justify">
+        <div id="about">
           <ul id="aboutMenu">
             {categories.map(category =>
               <Question category={category} toggleFunction={buildToggleFunctionFor(category)} isVisible={isVisible(category)} key={category} />)}
