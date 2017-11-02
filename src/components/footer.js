@@ -123,7 +123,7 @@ class ShareButtons extends React.Component {
     }
     render() {
         return (<div>
-            <div className="shariff" />
+            <div className="shariff" data-services="twitter, facebook, googleplus, info" />
         </div>);
     }
 }
