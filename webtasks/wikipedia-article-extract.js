@@ -15,6 +15,11 @@ const f = (context, cb) => {
       $('.reference').remove(); // remove all foot notes
       $('table').remove(); // inline tables are useless
 
+      // remove content at the bottom which we dont need
+      $('.printfooter').remove();
+      $('#catlinks').remove();
+      $('noscript').remove();
+
       cb(null, $('#mw-content-text').text());
     }
   });
