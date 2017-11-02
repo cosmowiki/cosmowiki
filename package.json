@@ -62,7 +62,6 @@
     "leaflet": "^1.0.1",
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
-    "react-leaflet": "^1.0.0-rc.3",
-    "shariff": "^1.26.2"
+    "react-leaflet": "^1.0.0-rc.3"
   }
 }
