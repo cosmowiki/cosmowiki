@@ -35,7 +35,6 @@ export default class ChronicleComponent extends React.Component {
           </div>
         </div>
         <div id="todo" className="pure-u-1">
-          <p>@wolfram: pls hide the span id="coordinates" from embedded article in vcard (i.e. Lascaux)</p>
           <p>@wolfram: pls hide the img src="//de.wikipedia.org/wiki/Special:CentralAuto..." on bottom of embedded article in vcard</p>
         </div>
         <Summary>

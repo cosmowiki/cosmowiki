@@ -43,7 +43,6 @@
 - [x] create summary
 - [x] rename the component, css and page files to "events"
 - [x] create a vertical timeline like [this][2]
-- hide the span id="coordinates" from embedded article in vcard (i.e. Lascaux)
 - hide the img src="//de.wikipedia.org/wiki/Special:CentralAuto..." (on bottom) of embedded article in vcard
 - complete data for launch
 
