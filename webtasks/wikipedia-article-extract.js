@@ -11,6 +11,11 @@ const f = (context, cb) => {
       $('script').remove(); // remove all scripts
       $('.thumb').remove(); // remove all images
       $('#toc').remove(); // remove the TOC
+
+      // remove the coordinates, which some articles have
+      $('#coordinates').remove();
+      $('.geo.noexcerpt').remove();
+
       $('.mw-editsection').remove(); // remove the edit controls
       $('.reference').remove(); // remove all foot notes
       $('table').remove(); // inline tables are useless
