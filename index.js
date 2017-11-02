@@ -35426,20 +35426,6 @@ var ChronicleComponent = (function (_React$Component) {
           )
         ),
         _react2['default'].createElement(
-          'div',
-          { id: 'todo', className: 'pure-u-1' },
-          _react2['default'].createElement(
-            'p',
-            null,
-            '@wolfram: pls hide the span id="coordinates" from embedded article in vcard (i.e. Lascaux)'
-          ),
-          _react2['default'].createElement(
-            'p',
-            null,
-            '@wolfram: pls hide the img src="//de.wikipedia.org/wiki/Special:CentralAuto..." on bottom of embedded article in vcard'
-          )
-        ),
-        _react2['default'].createElement(
           _chunksSummary.Summary,
           null,
           _react2['default'].createElement(
