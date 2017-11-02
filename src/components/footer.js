@@ -101,6 +101,7 @@ const Footer = ({appUrl}) => {
               <li><a id="GooglePlus" href="https://plus.google.com/u/0/+CosmoWikide" title="CosmoWiki.org bei Google Plus"></a></li>
               <li><a id="Github" href="https://github.com/cosmowiki/cosmowiki" title="CosmoWiki.org bei Github"></a></li>
             </ul>
+            <ShareButtons />
           </div>
         </div>
         <div id="version" className="center">
@@ -115,3 +116,14 @@ export default Footer;
 
 //<a className="footerLink" rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/" target="_blank"><img
 //                  title="CC-BY-SA" src="/img/cc-by-sa-88x31.png" alt="CC-By-SA"/></a>
+
+class ShareButtons extends React.Component {
+    shouldComponentUpdate() {
+        return false; // we want shariff to control this component, so dont react to updates ;) (fingers crossed)
+    }
+    render() {
+        return (<div>
+            <div className="shariff" />
+        </div>);
+    }
+}
