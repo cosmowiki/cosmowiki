@@ -42004,13 +42004,18 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 					_react2["default"].createElement(
 						"p",
 						null,
-						"Hier finden Sie zwar nicht alle, aber zumindest die bedeutendsten Astronomen der Menschheitsgeschichte. Bereits die frühen Menschen dürften sich gefragt haben, was dort oben am Himmel Nacht für Nacht vorüberzieht. In Babylonien, dem antiken China, Ägypten und Griechenland entstand aus der Astrologie allmälig die Astronomie als vielleicht älteste Wissenschaft. Doch CosmoWiki.org bietet noch viel mehr: ",
+						"Hier finden Sie zwar nicht alle, aber zumindest die bedeutendsten Astronomen der Menschheitsgeschichte. Bereits die frühen Menschen dürften sich gefragt haben, was dort oben am Himmel Tag für Tag und Nacht für Nacht vorüberzieht. In Babylonien, dem antiken China, Ägypten und Griechenland entstand aus der Astrologie allmälig die Astronomie als vielleicht älteste Wissenschaft."
+					),
+					_react2["default"].createElement(
+						"p",
+						null,
+						"Doch CosmoWiki.org bietet noch viel mehr: ",
 						_react2["default"].createElement(
 							"code",
 							null,
 							"[countScientists]-[countAstronomers]"
 						),
-						" weitere Wissenschaftler - Physiker, Mathematiker, Kosmologen und Ingenieure mit Angaben zu ihrer Person, ihren größten Erfolgen und Auszeichnungen finden Sie ",
+						"weitere Wissenschaftler - Physiker, Mathematiker, Kosmologen und Ingenieure mit Angaben zu ihrer Person, ihren größten Erfolgen und Auszeichnungen finden Sie ",
 						_react2["default"].createElement(
 							"a",
 							{ href: "/scientists" },
@@ -42050,7 +42055,12 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 							null,
 							"*"
 						),
-						" im All verbracht. Sie reisen in hauchdünnen Röhren aus Aluminium auf hunderten Tonnen hochentzündlicher Treibstoffe mit mehreren Kilometern pro Sekunde ins All. Dort erforschen sie neue Materialien und Fertigungsmethoden, führen Installationen und Reparaturen an Raumschiffen durch und setzen ihre Fußabdrücke auf fremde Himmelskörper. Sie sind die Botschafter der Menschheit im Universum. Besuchen Sie unsere Seite über ",
+						" im All verbracht. Sie reisen in hauchdünnen Röhren aus Aluminium auf hunderten Tonnen hochentzündlicher Treibstoffe mit mehreren Kilometern pro Sekunde ins All. Dort erforschen sie neue Materialien und Fertigungsmethoden, führen Installationen und Reparaturen an Raumschiffen durch und setzen ihre Fußabdrücke auf fremde Himmelskörper. Sie sind die Botschafter der Menschheit im Universum."
+					),
+					_react2["default"].createElement(
+						"p",
+						null,
+						"Besuchen Sie unsere Seite über ",
 						_react2["default"].createElement(
 							"a",
 							{ href: "/astronauts" },
