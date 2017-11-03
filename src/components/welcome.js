@@ -34,13 +34,16 @@ const WelcomeComponent = ({appUrl}) => {
 						<p>
 							Hier finden Sie zwar nicht alle, aber zumindest die bedeutendsten
 							Astronomen der Menschheitsgeschichte. Bereits die frühen Menschen
-							dürften sich gefragt haben, was dort oben am Himmel Nacht für Nacht
-							vorüberzieht. In Babylonien, dem antiken China, Ägypten und Griechenland
-							entstand aus der Astrologie allmälig die Astronomie als vielleicht
-							älteste Wissenschaft. Doch CosmoWiki.org bietet noch viel
-							mehr: <code>[countScientists]-[countAstronomers]</code> weitere Wissenschaftler - Physiker,
-							Mathematiker, Kosmologen und Ingenieure mit Angaben zu ihrer Person,
-							ihren größten Erfolgen und Auszeichnungen finden Sie <a href="/scientists">hier</a>.
+							dürften sich gefragt haben, was dort oben am Himmel Tag für Tag und
+							Nacht für Nacht	vorüberzieht. In Babylonien, dem antiken China, Ägypten
+							und Griechenland entstand aus der Astrologie allmälig die Astronomie
+							als vielleicht älteste Wissenschaft.
+						</p>
+						<p>
+							Doch CosmoWiki.org bietet noch viel mehr: <code>[countScientists]-[countAstronomers]</code>
+							weitere Wissenschaftler - Physiker, Mathematiker, Kosmologen und Ingenieure
+							mit Angaben zu ihrer Person, ihren größten Erfolgen und Auszeichnungen
+							finden Sie <a href="/scientists">hier</a>.
 						</p>
 					</div>
 		 	 	</div>
@@ -55,7 +58,10 @@ const WelcomeComponent = ({appUrl}) => {
 							ins All. Dort erforschen sie neue Materialien und Fertigungsmethoden,
 							führen Installationen und Reparaturen an Raumschiffen durch und
 							setzen ihre Fußabdrücke auf fremde Himmelskörper. Sie sind die Botschafter
-							der Menschheit im Universum. Besuchen Sie unsere Seite über <a href="/astronauts">Raumfahrer</a>.<br />
+							der Menschheit im Universum.
+						</p>
+						<p>
+							Besuchen Sie unsere Seite über <a href="/astronauts">Raumfahrer</a>.<br />
 							<sup>*</sup> <small>Stand: <code>[lastUpdated]</code></small>
 						</p>
 					</div>
