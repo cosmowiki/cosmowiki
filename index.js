@@ -42057,13 +42057,13 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 					_react2["default"].createElement(
 						"p",
 						null,
-						"Doch CosmoWiki.org bietet noch viel mehr: ",
+						"Weitere ",
 						_react2["default"].createElement(
 							"code",
 							null,
 							"[countScientists]-[countAstronomers]"
 						),
-						"weitere Wissenschaftler - Physiker, Mathematiker, Kosmologen und Ingenieure mit Angaben zu ihrer Person, ihren größten Erfolgen und Auszeichnungen finden Sie ",
+						" Astrophysiker, Kosmologen, Mathematiker und andere Wissenschaftler finden Sie ",
 						_react2["default"].createElement(
 							"a",
 							{ href: "/scientists" },
@@ -42160,11 +42160,46 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 							null,
 							"[countPlaces]"
 						),
-						" interessante Orte der Astronomie und Raumfahrt ",
+						" interessante ",
 						_react2["default"].createElement(
 							"a",
 							{ href: "/places" },
-							"hier"
+							"Orte"
+						),
+						" der Astronomie und Raumfahrt."
+					)
+				)
+			),
+			_react2["default"].createElement(
+				"div",
+				{ className: "welcome-container pure-u-1" },
+				_react2["default"].createElement(
+					"div",
+					{ id: "welcomeSolsys", className: "module" },
+					_react2["default"].createElement(
+						"h4",
+						null,
+						"Götter und Nymphen ..."
+					),
+					_react2["default"].createElement(
+						"p",
+						null,
+						"... sind die Namensgeber vieler Himmelskörper in unserem Sonnensytem. Die Planeten tragen die Namen römischer Götter. Lediglich Uranus wurde von seinem Entdecker Wilhelm Herschel im Jahr 1781 nach dem griechischen Himmelsgott Uranos benannt. Sein Sohn John Herschel gab zwei Uranus-Monden die Namen von Figuren aus Shakespeares Sommernachtstraum - Titania und Oberon."
+					),
+					_react2["default"].createElement(
+						"p",
+						null,
+						"Entdecken Sie ",
+						_react2["default"].createElement(
+							"code",
+							null,
+							"[countSolsysBodies]"
+						),
+						" Himmelskörper unseres ",
+						_react2["default"].createElement(
+							"a",
+							{ href: "/solar-system" },
+							"Sonnensystems"
 						),
 						"."
 					)
