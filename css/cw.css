@@ -90,7 +90,6 @@ a#scrollDown:before {content: '\f103';}
 /*	header ------------------------------------------------------------------ */
 header {position: fixed; top: 0; left: 0;	z-index: 10; background: #fff;}
 
-/*	logo -------------------------------------------------------------------- */
 #logo {min-width: 40px;}
 a#brand:before {
 	content: url(/img/cw_icon_30px.jpg); position: relative; top: 2px; left: 2px;
@@ -98,7 +97,6 @@ a#brand:before {
 a#navToggle {position: absolute; top: 5px; right: 5px;}
 a#navToggle:before {font-family: FontAwesome; font-size: 1.5em; content: '\f0c9';}
 
-/*	nav --------------------------------------------------------------------- */
 .pure-menu-link:focus,
 .pure-menu-link:hover,
 .pure-menu-link:active {background: #eef;}
@@ -111,7 +109,6 @@ nav ul ul li {text-align: left;}
 nav ul ul li a {background: #fff; border-bottom: 1px solid #ddd;}
 nav ul ul li:last-child a {border-bottom: none;}
 
-/*	search ------------------------------------------------------------------ */
 #searchArea {
 	display: block; position: absolute; top: 0; left: 16.666%; z-index: 20;
 	background: #fff;
@@ -124,7 +121,7 @@ nav ul ul li:last-child a {border-bottom: none;}
 	border-style: solid; border-color: #aaf;
 }
 #searchArea input {
-	width: 85%; height: 24px;
+	width: 66.666%; height: 24px;
 	-webkit-transition: width 0.4s ease-in-out; transition: width 0.4s ease-in-out;
 	border-width: 1px 0 1px 1px; border-radius: 5px 0 0 5px;
 }
