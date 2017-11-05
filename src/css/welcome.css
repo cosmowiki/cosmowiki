@@ -1,4 +1,10 @@
-.welcome-container {}
+#siteTitle.welcome {
+	background: url('/img/title_welcome.jpg') center / cover no-repeat;
+}
+
+.welcome-container .module {
+	background: url('/img/cw_icon_1000px_pale.jpg') center / cover no-repeat;
+}
 
 .welcome-container div {padding: .5em;}
 

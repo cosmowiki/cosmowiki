@@ -40,10 +40,9 @@ const WelcomeComponent = ({appUrl}) => {
 							als vielleicht älteste Wissenschaft.
 						</p>
 						<p>
-							Doch CosmoWiki.org bietet noch viel mehr: <code>[countScientists]-[countAstronomers]</code>
-							weitere Wissenschaftler - Physiker, Mathematiker, Kosmologen und Ingenieure
-							mit Angaben zu ihrer Person, ihren größten Erfolgen und Auszeichnungen
-							finden Sie <a href="/scientists">hier</a>.
+							Weitere <code>[countScientists]-[countAstronomers]</code> Astrophysiker,
+							Kosmologen, Mathematiker und andere Wissenschaftler finden
+							Sie <a href="/scientists">hier</a>.
 						</p>
 					</div>
 		 	 	</div>
@@ -80,8 +79,24 @@ const WelcomeComponent = ({appUrl}) => {
 							die allerdings zur Cape Canaveral Air Force Station (CCAFS)	gehören.
 						</p>
 						<p>
-							Erkunden Sie <code>[countPlaces]</code> interessante Orte der Astronomie
-							und Raumfahrt <a href="/places">hier</a>.
+							Erkunden Sie <code>[countPlaces]</code> interessante <a href="/places">Orte</a> der
+							Astronomie und Raumfahrt.
+						</p>
+		 	 		</div>
+		 	 	</div>
+				<div className="welcome-container pure-u-1">
+					<div id="welcomeSolsys" className="module">
+						<h4>Götter und Nymphen ...</h4>
+						<p>
+							... sind die Namensgeber vieler Himmelskörper in unserem Sonnensytem.
+							Die Planeten tragen die Namen römischer Götter. Lediglich Uranus
+							wurde von seinem Entdecker Wilhelm Herschel im Jahr 1781 nach dem
+							griechischen Himmelsgott Uranos benannt. Sein Sohn John Herschel gab
+							zwei Uranus-Monden die Namen von Figuren aus Shakespeares Sommernachtstraum
+							- Titania und Oberon.
+						</p>
+						<p>
+							Entdecken Sie <code>[countSolsysBodies]</code> Himmelskörper unseres <a href="/solar-system">Sonnensystems</a>.
 						</p>
 		 	 		</div>
 		 	 	</div>
