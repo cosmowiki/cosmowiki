@@ -35861,7 +35861,7 @@ var Footer = function Footer(_ref) {
       ),
       _react2["default"].createElement(
         "div",
-        { id: "version", className: "center" },
+        { id: "version", className: "pure-u-1-3 center" },
         _react2["default"].createElement(
           "p",
           null,
@@ -35873,9 +35873,6 @@ var Footer = function Footer(_ref) {
 };
 
 exports["default"] = Footer;
-
-//<a className="footerLink" rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/" target="_blank"><img
-//                  title="CC-BY-SA" src="/img/cc-by-sa-88x31.png" alt="CC-By-SA"/></a>
 
 var ShareButtons = (function (_React$Component) {
   _inherits(ShareButtons, _React$Component);
@@ -37787,7 +37784,7 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'summary-img float-right size-xs' },
+        { className: 'summary-img size-xs float-right' },
         _react2['default'].createElement(
           'a',
           { href: '/img/scientists/E_mc_2_IMG_0859.jpg', title: 'E = mc², Albert Einstein, 1905 - Großansicht' },
