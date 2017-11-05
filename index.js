@@ -34070,7 +34070,7 @@ var Question = function Question(_ref) {
 };
 module.exports = exports['default'];
 
-},{"react":455}],428:[function(require,module,exports){
+},{"react":454}],428:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -34660,7 +34660,7 @@ var AstronautComponent = function AstronautComponent(_ref3) {
 };
 module.exports = exports['default'];
 
-},{"./chunks/letter-links":430,"./chunks/summary":431,"./notes":439,"react":455}],429:[function(require,module,exports){
+},{"./chunks/letter-links":430,"./chunks/summary":431,"./notes":438,"react":454}],429:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34722,7 +34722,7 @@ var AstronomyComponent = function AstronomyComponent(_ref) {
 exports["default"] = AstronomyComponent;
 module.exports = exports["default"];
 
-},{"react":455}],430:[function(require,module,exports){
+},{"react":454}],430:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34771,7 +34771,7 @@ var Letter = function Letter(_ref2) {
 };
 module.exports = exports["default"];
 
-},{"react":455}],431:[function(require,module,exports){
+},{"react":454}],431:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34832,7 +34832,7 @@ var Summary = (function (_React$Component) {
 
 exports.Summary = Summary;
 
-},{"react":455}],432:[function(require,module,exports){
+},{"react":454}],432:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -35343,7 +35343,7 @@ var ConstellationComponent = function ConstellationComponent(_ref2) {
 };
 module.exports = exports['default'];
 
-},{"./chunks/summary":431,"./notes":439,"react":455}],433:[function(require,module,exports){
+},{"./chunks/summary":431,"./notes":438,"react":454}],433:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -35683,7 +35683,7 @@ var ItemComponent = function ItemComponent(_ref) {
 // <div id="timelineFooter"></div>
 module.exports = exports['default'];
 
-},{"./chunks/summary":431,"./notes":439,"./vcard":451,"react":455}],434:[function(require,module,exports){
+},{"./chunks/summary":431,"./notes":438,"./vcard":450,"react":454}],434:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -35907,7 +35907,7 @@ var ShareButtons = (function (_React$Component) {
 
 module.exports = exports["default"];
 
-},{"react":455}],435:[function(require,module,exports){
+},{"react":454}],435:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -35919,10 +35919,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'd
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
-
-var _logo = require('./logo');
-
-var _logo2 = _interopRequireDefault(_logo);
 
 var _navigation = require('./navigation');
 
@@ -35938,41 +35934,25 @@ var Header = function Header(_ref) {
   return _react2['default'].createElement(
     'header',
     { className: 'pure-u-1' },
-    _react2['default'].createElement(_logo2['default'], null),
+    _react2['default'].createElement(
+      'div',
+      { id: 'logo', className: 'pure-u-1-6 pure-u-md-1-4 pure-u-lg-1-6' },
+      _react2['default'].createElement('a', { id: 'brand', href: '/', title: 'CosmoWiki.de', rel: 'home' })
+    ),
     _react2['default'].createElement(_navigation2['default'], { appUrl: appUrl }),
-    _react2['default'].createElement(_search2['default'], null)
+    _react2['default'].createElement(_search2['default'], null),
+    _react2['default'].createElement(
+      'div',
+      { id: 'navToggle', className: 'pure-u-1-6 pure-u-md-1-4 pure-u-lg-1-6 right' },
+      _react2['default'].createElement('a', { href: '#', title: 'Navigation' })
+    )
   );
 };
 
 exports['default'] = Header;
 module.exports = exports['default'];
 
-},{"./logo":436,"./navigation":438,"./search":444,"react":455}],436:[function(require,module,exports){
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
-var Logo = function Logo() {
-  return _react2["default"].createElement(
-    "div",
-    { id: "logo", className: "pure-u-1-6 pure-u-md-1-4 pure-u-lg-1-6" },
-    _react2["default"].createElement("a", { id: "brand", href: "/", title: "CosmoWiki.de", rel: "home" }),
-    _react2["default"].createElement("a", { id: "navToggle", href: "#" })
-  );
-};
-
-exports["default"] = Logo;
-module.exports = exports["default"];
-
-},{"react":455}],437:[function(require,module,exports){
+},{"./navigation":437,"./search":443,"react":454}],436:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -36670,7 +36650,7 @@ var PadLink = function PadLink(_ref4) {
 // </div>
 module.exports = exports['default'];
 
-},{"./chunks/summary":431,"./notes":439,"react":455}],438:[function(require,module,exports){
+},{"./chunks/summary":431,"./notes":438,"react":454}],437:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -36827,7 +36807,7 @@ var Navigation = function Navigation(_ref) {
 exports["default"] = Navigation;
 module.exports = exports["default"];
 
-},{"react":455}],439:[function(require,module,exports){
+},{"react":454}],438:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -37168,7 +37148,7 @@ var StarNotes = function StarNotes() {
 };
 exports.StarNotes = StarNotes;
 
-},{"react":455}],440:[function(require,module,exports){
+},{"react":454}],439:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -37230,7 +37210,7 @@ var ObjectsComponent = function ObjectsComponent(_ref) {
 exports["default"] = ObjectsComponent;
 module.exports = exports["default"];
 
-},{"react":455}],441:[function(require,module,exports){
+},{"react":454}],440:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -37286,7 +37266,7 @@ var PageComponent = function PageComponent(_ref) {
 exports['default'] = PageComponent;
 module.exports = exports['default'];
 
-},{"./footer":434,"./header":435,"react":455}],442:[function(require,module,exports){
+},{"./footer":434,"./header":435,"react":454}],441:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -37689,7 +37669,7 @@ var PersonComponent = function PersonComponent(_ref3) {
 };
 module.exports = exports['default'];
 
-},{"./chunks/letter-links":430,"./chunks/summary":431,"./notes":439,"react":455}],443:[function(require,module,exports){
+},{"./chunks/letter-links":430,"./chunks/summary":431,"./notes":438,"react":454}],442:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -38380,7 +38360,7 @@ var ScientistComponent = function ScientistComponent(_ref3) {
 };
 module.exports = exports['default'];
 
-},{"./chunks/letter-links":430,"./chunks/summary":431,"./notes":439,"react":455}],444:[function(require,module,exports){
+},{"./chunks/letter-links":430,"./chunks/summary":431,"./notes":438,"react":454}],443:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -38400,7 +38380,7 @@ var Search = function Search() {
     _react2["default"].createElement(
       "form",
       { role: "search", method: "get", action: "" },
-      _react2["default"].createElement("input", { name: "search", type: "text", placeholder: "CosmoWiki durchsuchen", required: true }),
+      _react2["default"].createElement("input", { name: "search", type: "text", placeholder: "suchen ...", required: true }),
       _react2["default"].createElement("button", { name: "search" })
     )
   );
@@ -38409,7 +38389,7 @@ var Search = function Search() {
 exports["default"] = Search;
 module.exports = exports["default"];
 
-},{"react":455}],445:[function(require,module,exports){
+},{"react":454}],444:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -39557,7 +39537,7 @@ var SolarSystemComponent = function SolarSystemComponent() {
 exports['default'] = SolarSystemComponent;
 module.exports = exports['default'];
 
-},{"./chunks/summary":431,"./notes":439,"react":455}],446:[function(require,module,exports){
+},{"./chunks/summary":431,"./notes":438,"react":454}],445:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -40066,7 +40046,7 @@ var StationComponent = function StationComponent(_ref2) {
 };
 module.exports = exports['default'];
 
-},{"./chunks/summary":431,"./notes":439,"react":455}],447:[function(require,module,exports){
+},{"./chunks/summary":431,"./notes":438,"react":454}],446:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -40556,7 +40536,7 @@ var TelescopeComponent = function TelescopeComponent(_ref2) {
 };
 module.exports = exports['default'];
 
-},{"./chunks/summary":431,"./notes":439,"react":455}],448:[function(require,module,exports){
+},{"./chunks/summary":431,"./notes":438,"react":454}],447:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -40618,7 +40598,7 @@ var SpaceflightComponent = function SpaceflightComponent(_ref) {
 exports["default"] = SpaceflightComponent;
 module.exports = exports["default"];
 
-},{"react":455}],449:[function(require,module,exports){
+},{"react":454}],448:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -41000,7 +40980,7 @@ var SpacewalkComponent = function SpacewalkComponent(_ref2) {
 };
 module.exports = exports['default'];
 
-},{"./chunks/summary":431,"./notes":439,"react":455}],450:[function(require,module,exports){
+},{"./chunks/summary":431,"./notes":438,"react":454}],449:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -41613,7 +41593,7 @@ var StarComponent = function StarComponent(_ref4) {
 };
 module.exports = exports['default'];
 
-},{"./chunks/letter-links":430,"./chunks/summary":431,"./notes":439,"react":455}],451:[function(require,module,exports){
+},{"./chunks/letter-links":430,"./chunks/summary":431,"./notes":438,"react":454}],450:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -41949,7 +41929,7 @@ exports['default'] = VcardComponent;
 ;
 module.exports = exports['default'];
 
-},{"isomorphic-fetch":228,"react":455}],452:[function(require,module,exports){
+},{"isomorphic-fetch":228,"react":454}],451:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -42209,7 +42189,7 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 exports["default"] = WelcomeComponent;
 module.exports = exports["default"];
 
-},{"react":455}],453:[function(require,module,exports){
+},{"react":454}],452:[function(require,module,exports){
 (function (process,__dirname){
 'use strict';
 
@@ -42445,7 +42425,7 @@ if (createStaticSites) {
 }
 
 }).call(this,require('_process'),"/src")
-},{"./_external-deps/http-get":425,"./appurl":426,"./components/page":441,"./scripts/make-urls-offline":454,"./sites/about":456,"./sites/astronauts":457,"./sites/astronomy":458,"./sites/constellations":459,"./sites/events":460,"./sites/missions":462,"./sites/objects":463,"./sites/people":464,"./sites/scientists":465,"./sites/solar-system":466,"./sites/space-stations":467,"./sites/space-telescopes":468,"./sites/spaceflight":469,"./sites/spacewalks":470,"./sites/stars":471,"./sites/welcome":472,"_process":235,"babel/polyfill":3,"fs":6,"mkdirp":229,"path":233,"react":455,"react-dom":244,"react-dom/server":374}],454:[function(require,module,exports){
+},{"./_external-deps/http-get":425,"./appurl":426,"./components/page":440,"./scripts/make-urls-offline":453,"./sites/about":455,"./sites/astronauts":456,"./sites/astronomy":457,"./sites/constellations":458,"./sites/events":459,"./sites/missions":461,"./sites/objects":462,"./sites/people":463,"./sites/scientists":464,"./sites/solar-system":465,"./sites/space-stations":466,"./sites/space-telescopes":467,"./sites/spaceflight":468,"./sites/spacewalks":469,"./sites/stars":470,"./sites/welcome":471,"_process":235,"babel/polyfill":3,"fs":6,"mkdirp":229,"path":233,"react":454,"react-dom":244,"react-dom/server":374}],453:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -42461,7 +42441,7 @@ function useOfflineUrls(s) {
   return s.replace('//cdnjs.cloudflare.com/ajax/libs/', pathPrefix).replace(/\/\/yui\.yahooapis\.com\//g, pathPrefix).replace('//maxcdn.bootstrapcdn.com/', pathPrefix);
 }
 
-},{}],455:[function(require,module,exports){
+},{}],454:[function(require,module,exports){
 (function (global){
 /* global global */
 "use strict";
@@ -42474,7 +42454,7 @@ exports["default"] = react;
 module.exports = exports["default"];
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],456:[function(require,module,exports){
+},{}],455:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -42516,7 +42496,7 @@ var About = (function () {
 exports['default'] = About;
 module.exports = exports['default'];
 
-},{"../components/about":427,"react":455}],457:[function(require,module,exports){
+},{"../components/about":427,"react":454}],456:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -42674,7 +42654,7 @@ Astronaut.ASTRONOMER = 1;
 Astronaut.ASTRONAUT = 2;
 Astronaut.ASTRONOMER_AND_ASTRONAUT = 3;
 
-},{"../components/astronauts":428,"./helper/grouper":461,"react":455}],458:[function(require,module,exports){
+},{"../components/astronauts":428,"./helper/grouper":460,"react":454}],457:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -42716,7 +42696,7 @@ var Astronomy = (function () {
 exports['default'] = Astronomy;
 module.exports = exports['default'];
 
-},{"../components/astronomy":429,"react":455}],459:[function(require,module,exports){
+},{"../components/astronomy":429,"react":454}],458:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -42868,7 +42848,7 @@ var Star = (function () {
 
 module.exports = exports['default'];
 
-},{"../components/constellations":432,"react":455}],460:[function(require,module,exports){
+},{"../components/constellations":432,"react":454}],459:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -42950,7 +42930,7 @@ var Event = (function () {
 
 module.exports = exports['default'];
 
-},{"../components/events":433,"react":455}],461:[function(require,module,exports){
+},{"../components/events":433,"react":454}],460:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -42996,7 +42976,7 @@ var Grouper = (function () {
 exports['default'] = Grouper;
 module.exports = exports['default'];
 
-},{}],462:[function(require,module,exports){
+},{}],461:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -43132,7 +43112,7 @@ var Pad = function Pad(name, wikipediaUrl) {
 
 module.exports = exports['default'];
 
-},{"../components/missions":437,"react":455}],463:[function(require,module,exports){
+},{"../components/missions":436,"react":454}],462:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -43174,7 +43154,7 @@ var Objects = (function () {
 exports['default'] = Objects;
 module.exports = exports['default'];
 
-},{"../components/objects":440,"react":455}],464:[function(require,module,exports){
+},{"../components/objects":439,"react":454}],463:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -43294,7 +43274,7 @@ Person.ASTRONOMER = 1;
 Person.ASTRONAUT = 2;
 Person.ASTRONOMER_AND_ASTRONAUT = 3;
 
-},{"../components/people":442,"./helper/grouper":461,"react":455}],465:[function(require,module,exports){
+},{"../components/people":441,"./helper/grouper":460,"react":454}],464:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -43410,7 +43390,7 @@ var Scientist = (function () {
 
 exports.Scientist = Scientist;
 
-},{"../components/scientists":443,"./helper/grouper":461,"react":455}],466:[function(require,module,exports){
+},{"../components/scientists":442,"./helper/grouper":460,"react":454}],465:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -43657,7 +43637,7 @@ var Item = (function () {
 
 module.exports = exports['default'];
 
-},{"../components/solar-system":445,"react":455}],467:[function(require,module,exports){
+},{"../components/solar-system":444,"react":454}],466:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -43831,7 +43811,7 @@ var Pad = (function () {
 
 module.exports = exports['default'];
 
-},{"../components/space-stations":446,"react":455}],468:[function(require,module,exports){
+},{"../components/space-stations":445,"react":454}],467:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -43987,7 +43967,7 @@ var Pad = (function () {
 
 module.exports = exports['default'];
 
-},{"../components/space-telescopes":447,"react":455}],469:[function(require,module,exports){
+},{"../components/space-telescopes":446,"react":454}],468:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -44029,7 +44009,7 @@ var Spaceflight = (function () {
 exports['default'] = Spaceflight;
 module.exports = exports['default'];
 
-},{"../components/spaceflight":448,"react":455}],470:[function(require,module,exports){
+},{"../components/spaceflight":447,"react":454}],469:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -44151,7 +44131,7 @@ var Spacewalk = (function () {
 
 module.exports = exports['default'];
 
-},{"../components/spacewalks":449,"react":455}],471:[function(require,module,exports){
+},{"../components/spacewalks":448,"react":454}],470:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -44311,7 +44291,7 @@ var Star = (function () {
 
 module.exports = exports['default'];
 
-},{"../components/stars":450,"./helper/grouper":461,"react":455}],472:[function(require,module,exports){
+},{"../components/stars":449,"./helper/grouper":460,"react":454}],471:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -44353,4 +44333,4 @@ var Welcome = (function () {
 exports['default'] = Welcome;
 module.exports = exports['default'];
 
-},{"../components/welcome":452,"react":455}]},{},[453]);
+},{"../components/welcome":451,"react":454}]},{},[452]);
