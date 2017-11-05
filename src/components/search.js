@@ -4,7 +4,7 @@ const Search = () => {
   return (
     <div id="searchArea" className="pure-u-2-3 pure-u-md-1-2 center">
       <form role="search" method="get" action="">
-        <input name="search" type="text" placeholder="CosmoWiki durchsuchen" required />
+        <input name="search" type="text" placeholder="suchen ..." required />
         <button name="search"></button>
       </form>
     </div>

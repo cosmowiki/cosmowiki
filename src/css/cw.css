@@ -88,14 +88,21 @@ a#shariffToggleButton:before {content: '\f1e0';}
 a#scrollDown:before {content: '\f103';}
 
 /*	header ------------------------------------------------------------------ */
-header {position: fixed; top: 0; left: 0;	z-index: 10; background: #fff;}
+header {
+	position: fixed; top: 0; left: 0;	height: 34px; z-index: 10; background: #fff;
+}
 
+/*	logo */
 #logo {min-width: 40px;}
 a#brand:before {
 	content: url(/img/cw_icon_30px.jpg); position: relative; top: 2px; left: 2px;
 }
-a#navToggle {position: absolute; top: 5px; right: 5px;}
-a#navToggle:before {font-family: FontAwesome; font-size: 1.5em; content: '\f0c9';}
+
+/*	nav */
+#navToggle {position: absolute; top: 0; right: 0; padding: 5px;}
+#navToggle a:before {
+	font-family: FontAwesome; font-size: 1.5em; content: '\f0c9';
+}
 
 .pure-menu-link:focus,
 .pure-menu-link:hover,
@@ -109,32 +116,32 @@ nav ul ul li {text-align: left;}
 nav ul ul li a {background: #fff; border-bottom: 1px solid #ddd;}
 nav ul ul li:last-child a {border-bottom: none;}
 
+/*	search */
 #searchArea {
 	display: block; position: absolute; top: 0; left: 16.666%; z-index: 20;
 	background: #fff;
 }
 #searchArea input,
 #searchArea button {
-	position: relative; top: 3px;
-	line-height:20px; font-size: 16px;
-	background:#fff; box-shadow:none;
-	border-style: solid; border-color: #aaf;
+	margin: 5px auto; padding: 2px 5px;
+	line-height:20px;
+	background:#eee; box-shadow: none;
+	border: none;
 }
 #searchArea input {
-	width: 66.666%; height: 24px;
+	width: 66.666%;
 	-webkit-transition: width 0.4s ease-in-out; transition: width 0.4s ease-in-out;
-	border-width: 1px 0 1px 1px; border-radius: 5px 0 0 5px;
+
 }
 #searchArea input:focus {outline: none;}
 #searchArea button {
-	width: 24px; height: 28px; cursor: pointer;
-	font-family: FontAwesome; color: #aaf; text-align: center;
-	border-width: 1px 1px 1px 0; border-radius: 0 5px 5px 0;
+	width: 24px; cursor: pointer;
+	font-family: FontAwesome; color: #55f; text-align: center;
 }
 #searchArea button:before {content: '\f002';}
-#searchArea button:focus,
-#searchArea button:hover,
-#searchArea button:active {color:#333;}
+#searchArea button:focus:before,
+#searchArea button:hover:before,
+#searchArea button:active:before {color:#d00;}
 
 /*	main -------------------------------------------------------------------- */
 main {margin: 30px auto 0; max-width: 1000px;}
