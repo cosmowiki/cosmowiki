@@ -49,7 +49,7 @@ const ScientistsComponent = ({groupedScientists}) => {
           Frage geht der Weg zur Erkenntnis über eine zündende Idee hin zu interessanten
           Theorien und vereinfachenden Gleichungen.
         </p>
-        <div className="summary-img float-right size-xs">
+        <div className="summary-img size-xs float-right">
           <a href="/img/scientists/E_mc_2_IMG_0859.jpg" title="E = mc², Albert Einstein, 1905 - Großansicht">
             <img src="/img/scientists/E_mc_2_IMG_0859.jpg" alt="E = mc², Albert Einstein, 1905" />
           </a>
