@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navigation = ({ appUrl }) => {
   return (
-    <div id="navContainer" className="pure-u-2-3">
+    <div id="navContainer" className="pure-u-md-1-2 pure-u-lg-2-3">
       <nav className="pure-menu pure-menu-horizontal center">
         <ul id="menu" className="pure-menu-list">
           <li className="pure-menu-item">
@@ -87,8 +87,5 @@ const Navigation = ({ appUrl }) => {
     </div>
   );
 };
-          //<li className="pure-menu-item">
-          //  <a className="pure-menu-link menu-item register" href="register.php">Register</a>
-          //</li>
 
 export default Navigation;
