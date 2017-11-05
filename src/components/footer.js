@@ -104,7 +104,7 @@ const Footer = ({appUrl}) => {
             <ShareButtons />
           </div>
         </div>
-        <div id="version" className="center">
+        <div id="version" className="pure-u-1-3 center">
           <p>v. 1.0.0</p>
         </div>
       </div>
@@ -113,9 +113,6 @@ const Footer = ({appUrl}) => {
 };
 
 export default Footer;
-
-//<a className="footerLink" rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/" target="_blank"><img
-//                  title="CC-BY-SA" src="/img/cc-by-sa-88x31.png" alt="CC-By-SA"/></a>
 
 class ShareButtons extends React.Component {
     shouldComponentUpdate() {
