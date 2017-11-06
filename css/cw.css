@@ -118,22 +118,22 @@ nav ul ul li:last-child a {border-bottom: none;}
 
 /*	search */
 #searchArea {
-	display: block; position: absolute; top: 0; left: 16.666%; z-index: 20;
+	display: block; position: absolute; top: 0; left: 16.666%; height: 100%; z-index: 20;
 	background: #fff;
 }
 #searchArea input,
 #searchArea button {
-	margin: 5px auto; padding: 2px 5px;
+	margin-top: 5px; padding: 2px 5px;
 	line-height:20px;
 	background:#eee; box-shadow: none;
-	border: none;
+	border: none; border-radius: 0;
 }
 #searchArea input {
 	width: 66.666%;
 	-webkit-transition: width 0.4s ease-in-out; transition: width 0.4s ease-in-out;
-
 }
 #searchArea input:focus {outline: none;}
+
 #searchArea button {
 	width: 24px; cursor: pointer;
 	font-family: FontAwesome; color: #55f; text-align: center;
