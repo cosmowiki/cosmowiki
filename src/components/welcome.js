@@ -28,7 +28,7 @@ const WelcomeComponent = ({appUrl}) => {
 						</p>
 		 	 		</div>
 		 	 	</div>
-				<div className="welcome-container pure-u-1 pure-u-md-1-2">
+				<div className="welcome-container pure-u-1 pure-u-lg-1-2">
 					<div id="welcomeScientists" className="module">
 						<h4><code>[countAstronomers]</code> Astronomen!</h4>
 						<p>
@@ -46,7 +46,7 @@ const WelcomeComponent = ({appUrl}) => {
 						</p>
 					</div>
 		 	 	</div>
-				<div className="welcome-container pure-u-1 pure-u-md-1-2">
+				<div className="welcome-container pure-u-1 pure-u-lg-1-2">
 					<div id="welcomeAstronauts" className="module">
 						<h4><code>[totalAstronautsHoursInSpace]</code></h4>
 						<p>

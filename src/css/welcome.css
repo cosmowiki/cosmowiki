@@ -26,15 +26,15 @@
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
-
 }
 
 @media only all and (min-width: 48em) {
-	.welcome-container.pure-u-md-1-2:nth-of-type(odd) div {margin-left: .5em;}
-	.welcome-container.pure-u-md-1-2:nth-of-type(even) div {margin-right: .5em;}
 }
 
 @media only all and (min-width: 64em) {
+	.welcome-container.pure-u-lg-1-2:nth-of-type(odd) div {margin-left: .5em;}
+	.welcome-container.pure-u-lg-1-2:nth-of-type(even) div {margin-right: .5em;}
+
 	.welcome-img {border-radius: 5px;}
 	.welcome-img:hover {border-radius: 5px;}
 	.welcome-img img {border-radius: 3px;}
