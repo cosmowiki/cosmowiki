@@ -35936,8 +35936,8 @@ var Header = function Header(_ref) {
     { className: 'pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { id: 'logo', className: 'pure-u-1-6 pure-u-md-1-4 pure-u-lg-1-6' },
-      _react2['default'].createElement('a', { id: 'brand', href: '/', title: 'CosmoWiki.de', rel: 'home' })
+      { id: 'brand', className: 'pure-u-1-6 pure-u-md-1-4 pure-u-lg-1-6' },
+      _react2['default'].createElement('a', { href: '/', title: 'CosmoWiki.de', rel: 'home' })
     ),
     _react2['default'].createElement(_navigation2['default'], { appUrl: appUrl }),
     _react2['default'].createElement(_search2['default'], null),
@@ -36668,7 +36668,7 @@ var Navigation = function Navigation(_ref) {
 
   return _react2["default"].createElement(
     "div",
-    { id: "navContainer", className: "pure-u-md-1-2 pure-u-lg-2-3" },
+    { id: "navContainer", className: "pure-u-lg-2-3" },
     _react2["default"].createElement(
       "nav",
       { className: "pure-menu pure-menu-horizontal center" },
@@ -38380,8 +38380,7 @@ var Search = function Search() {
     _react2["default"].createElement(
       "form",
       { role: "search", method: "get", action: "" },
-      _react2["default"].createElement("input", { name: "search", type: "text", placeholder: "suchen ...", required: true }),
-      _react2["default"].createElement("button", { name: "search" })
+      _react2["default"].createElement("input", { name: "search", type: "text", placeholder: "suchen ...", required: true })
     )
   );
 };
@@ -42012,7 +42011,7 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 			),
 			_react2["default"].createElement(
 				"div",
-				{ className: "welcome-container pure-u-1 pure-u-md-1-2" },
+				{ className: "welcome-container pure-u-1 pure-u-lg-1-2" },
 				_react2["default"].createElement(
 					"div",
 					{ id: "welcomeScientists", className: "module" },
@@ -42052,7 +42051,7 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 			),
 			_react2["default"].createElement(
 				"div",
-				{ className: "welcome-container pure-u-1 pure-u-md-1-2" },
+				{ className: "welcome-container pure-u-1 pure-u-lg-1-2" },
 				_react2["default"].createElement(
 					"div",
 					{ id: "welcomeAstronauts", className: "module" },
