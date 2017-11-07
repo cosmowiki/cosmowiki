@@ -93,8 +93,8 @@ header {
 }
 
 /*	logo */
-#logo {min-width: 40px;}
-a#brand:before {
+#brand {min-width: 40px;}
+#brand a:before {
 	content: url(/img/cw_icon_30px.jpg); position: relative; top: 2px; left: 2px;
 }
 
@@ -118,21 +118,21 @@ nav ul ul li:last-child a {border-bottom: none;}
 
 /*	search */
 #searchArea {
-	display: block; position: absolute; top: 0; left: 16.666%; height: 100%; z-index: 20;
-	background: #fff;
+	position: absolute; top: 0; left: 16.666%; z-index: 20;	background: #fff;
 }
+#searchArea form {padding: 5px 0;}
 #searchArea input,
 #searchArea button {
-	margin-top: 5px; padding: 2px 5px;
-	line-height:20px;
+	padding: 2px 5px;
+	line-height:20px; font-size: 16px;
 	background:#eee; box-shadow: none;
 	border: none; border-radius: 0;
 }
 #searchArea input {
-	width: 66.666%;
+	width: 50%;
 	-webkit-transition: width 0.4s ease-in-out; transition: width 0.4s ease-in-out;
 }
-#searchArea input:focus {outline: none;}
+#searchArea input:focus {width: 90%; outline: none;}
 
 #searchArea button {
 	width: 24px; cursor: pointer;
@@ -144,7 +144,7 @@ nav ul ul li:last-child a {border-bottom: none;}
 #searchArea button:active:before {color:#d00;}
 
 /*	main -------------------------------------------------------------------- */
-main {margin: 30px auto 0; max-width: 1000px;}
+main {margin: 34px auto 0; max-width: 1000px;}
 
 /*	module ------------------------------------------------------------------ */
 .module {
@@ -323,7 +323,7 @@ footer {
 	background: rgba(255, 255, 255, .9);
 	border-top: 15px solid #ccf; border-bottom: 15px solid #ddd;
 }
-#footerContainer {margin: 0 auto; max-width: 1000px;}
+#footerContainer {margin: 0 auto;}
 
 #sitemap,
 #extras,
@@ -348,9 +348,6 @@ footer {
 
 /* breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em ------ */
 @media only screen and (min-width: 35.5em) {
-	.module,
-	#siteTitle,
-	#pageSubMenu {margin-bottom: 15px;}
 	footer {margin-bottom: 0;}
 
 	#summaryContainer {padding: 0 .5em;}
@@ -361,12 +358,11 @@ footer {
 }
 
 @media only screen and (min-width: 48em) {
-	a#brand:before {
+	#brand a:before {
 		content: url(/img/cw_name_30px.jpg); position: relative; top: 2px; left: 2px;
 	}
 	#searchArea {left: 25%;}
 	#searchArea input {width: 50%;}
-	#searchArea input:focus {width: 75%; outline: none;}
 
 	#siteTitle h1 {padding: .5em 0 0; font-size: 2em;}
 	#siteTitle h3 {padding: .25em 0 .75em; font-size: 1.5em;}
@@ -383,9 +379,13 @@ footer {
 }
 
 @media only screen and (min-width: 64em) {
+	main {margin-top: 50px;}
+	.module,
+	#siteTitle,
+	#pageSubMenu {margin-bottom: 15px;}
+
 	#searchArea {display: none;}
 	#navToggle {display: none;}
-	main {margin-top: 50px;}
 	nav.pure-menu-horizontal {display: block;}
 
 	#siteTitle,
