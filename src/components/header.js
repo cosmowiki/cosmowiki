@@ -5,8 +5,8 @@ import Search from './search'
 const Header = ({appUrl}) => {
   return (
     <header className="pure-u-1">
-      <div id="logo" className="pure-u-1-6 pure-u-md-1-4 pure-u-lg-1-6">
-        <a id="brand" href="/" title="CosmoWiki.de" rel="home"></a>
+      <div id="brand" className="pure-u-1-6 pure-u-md-1-4 pure-u-lg-1-6">
+        <a href="/" title="CosmoWiki.de" rel="home"></a>
       </div>
       <Navigation appUrl={appUrl} />
       <Search/>
