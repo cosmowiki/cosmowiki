@@ -350,7 +350,7 @@ footer {
 #extrasSelf,
 #extrasSocial {margin: .5em auto; text-align: center;}
 #extrasSelf li {display: inline-block; width: 33.333%; margin-bottom: 1em;}
-#extrasSocial li {display: inline-block; margin: 0 1.25em;}
+#extrasSocial li {display: inline-block; margin: 0 2em;}
 #extrasSocial a:before {font-family: FontAwesome; font-size: 1.25em;}
 #extras #Twitter:before {content: "\f099"; color: #32bbf5;}
 #extras #Facebook:before {content: "\f09a"; color: #4273c8;}
