@@ -11,10 +11,14 @@ const PageComponent = ({children, appUrl}) => {
             <a id="scrollUp" href="javascript:self.scrollTo(0,0);"></a>
           </li>
           <li>
+            <a id="toggleShariff" href="#"></a>
+          </li>
+          <li>
             <a id="scrollDown" href="javascript:self.scrollTo(0,document.body.scrollHeight);"></a>
           </li>
         </ul>
       </div>
+      <ShareButtons />
       <a id="menuToggle" href="#"></a>
       <Header appUrl={appUrl} />
       {children}
@@ -24,3 +28,17 @@ const PageComponent = ({children, appUrl}) => {
 };
 
 export default PageComponent;
+
+class ShareButtons extends React.Component {
+    shouldComponentUpdate() {
+        return false; // we want shariff to control this component, so dont react to updates ;) (fingers crossed)
+    }
+    render() {
+        return (
+          <div className="shariff pure-u-1"
+          data-services="twitter, facebook, googleplus, info"
+          data-twitter-via="cosmowiki"
+          />
+      );
+    }
+}
