@@ -86,9 +86,9 @@ a:focus img, a:hover img, a:active img {}
 #sideButtons a#toggleShariff {border-width: 0 0 0 1px;}
 #sideButtons a#scrollDown {border-width: 0 0 1px 1px;}
 a#scrollUp:before {content: '\f102';}
-a#toggleShariff:before {content: '\f1e0';}
+a#toggleShariff:before {content: '\f045';}
 a#scrollDown:before {content: '\f103';}
-#sideButtons li:hover .shariff {display: block;}
+
 /*	shariff */
 .shariff {
 	display: none;
@@ -180,13 +180,13 @@ main {margin: 34px auto 0; max-width: 1000px;}
 /*	summary ----------------------------------------------------------------- */
 #summary {position: relative;}
 
-#summaryToggleSwitch {
-	display: block; margin: .25em .25em 0 0; text-align: right;
+a#summaryToggle {
+	display: block; margin: .25em 0 0 .25em;
 	font-family: FontAwesome; font-size: 1.25em;
 	background: transparent;
 }
-#summaryToggleSwitch.expanded:after {content: '\f147';}
-#summaryToggleSwitch.collapsed:after {content: '\f196';}
+a#summaryToggle.expanded:after {content: '\f147';}
+a#summaryToggle.collapsed:after {content: '\f196';}
 
 #summaryContainer {
   position: relative; overflow: hidden; height: 100%;
@@ -350,7 +350,7 @@ footer {
 #extrasSelf,
 #extrasSocial {margin: .5em auto; text-align: center;}
 #extrasSelf li {display: inline-block; width: 33.333%; margin-bottom: 1em;}
-#extrasSocial li {display: inline-block; margin: 0 2em;}
+#extrasSocial li {display: inline-block; margin: 0 1.5em;}
 #extrasSocial a:before {font-family: FontAwesome; font-size: 1.25em;}
 #extras #Twitter:before {content: "\f099"; color: #32bbf5;}
 #extras #Facebook:before {content: "\f09a"; color: #4273c8;}
