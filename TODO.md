@@ -2,7 +2,9 @@
 - [x] speed up local development, using watchify?
 - [ ] make the map (places) work
 - [x] include shariff for private social linking
-- [ ] responsive nav menu with button on the right in branding bar (look at the pure js)
+- [ ] make the a#toggleShariff in the div#sideButtons work
+- [ ] make the a#toggleSearch in the nav work (hide nav and show #searchArea)
+- [ ] responsive nav menu with button on the right in header (look at the pure js)
 - [ ] make the sorters and filters work (filters with FilterRow as in stars)
 - [ ] let the toggle switches for sort and filter hide each other onClick and :hover on small screens
 - [x] global scroll-to-top-button like [this][1]
@@ -12,23 +14,21 @@
 # nice to have
 - simple vcard-page with abstract of first(?) paragraph from wikipedia
 - relations and breadcrumb on the vcard
-- global search with form in a layer above the header bar
-- global switch to toggle day/night & hand over the state on reload etc
+- global search
+- global switch to toggle day/night vision & hand over the state on reload etc
 
 # general questions
 - show content on a vcard? or on a page?
-- how to toggle the nav on small screens? (hamburger menu or button on lower half)
-- how to toggle the search form?
 - list related items _in spreadsheets_ only with their wikipedia url (semicolon separated) and decrypt them to get the real names?
 - open item images in a pop-up or overlay instead of a blank page?
 
 # currently to do
 
-## branding
+## header
 - [x] fix the branding on top
 - [x] place the header with nav fixed on top
 - [x] insert search form
-- insert toggle button for responsive nav menu on small screens (look at the pure js)
+- responsive nav menu for small screens (look at the pure js)
 
 ## home
 - [x] create page
@@ -166,9 +166,6 @@
 
 #### imprint
 - [x] as a transparent .gif or .png
-
-## .letter-section-header
-- [x] remove scroll-up-arrows if global scroll-to-top-button is placed
 
 ## sort and filter
 - let the toggle switches for sort and filter hide each other onClick and :hover on small screens
