@@ -6,7 +6,7 @@ const Navigation = ({ appUrl }) => {
       <nav className="pure-menu pure-menu-horizontal center">
         <ul id="menu" className="pure-menu-list">
           <li className="pure-menu-item">
-            <a className="pure-menu-link menu-item welcome" href={appUrl.welcomeSite()}></a>
+            <a id="welcomeLink" className="pure-menu-link menu-item" href={appUrl.welcomeSite()}></a>
           </li>
           <li className="pure-menu-item">
             <a className="pure-menu-link menu-item chronicle" href={appUrl.eventsSite()}>Chronik</a>
@@ -80,7 +80,7 @@ const Navigation = ({ appUrl }) => {
             </ul>
           </li>
           <li className="pure-menu-item search">
-            <a className="pure-menu-link menu-item search" href="#"></a>
+            <a id="toggleSearch" className="pure-menu-link menu-item" href="#"></a>
           </li>
         </ul>
       </nav>
