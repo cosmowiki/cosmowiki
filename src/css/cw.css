@@ -39,7 +39,7 @@ a:focus img, a:hover img, a:active img {}
 /*	Structure --------------------------------------------------------------- */
 #wrapper {
 	margin: 0 auto; min-height: 100%;
-	background: #113;
+	background: #358;
   -webkit-background-size: auto 100%;
 	-moz-background-size: cover;
   -o-background-size: cover;
@@ -72,20 +72,32 @@ a:focus img, a:hover img, a:active img {}
 }*/
 
 /*	side-buttons ---------------------------------------------------------- */
-#sideButtons {
-	position: fixed; right: 0; bottom: 20%;	z-index: 10; width: 2.5em;
-	background-color: #ddd;
-	border-width: 1px 0 1px 1px; border-style: solid; border-color: #fff;
-}
+#sideButtons {position: fixed; right: 0; bottom: 20%;	z-index: 10; width: 2.5em;}
+
+#sideButtons li {background-color: #ddd;}
+#sideButtons li:hover {background-color: #eee;}
+
 #sideButtons a {
-	display: block;	height: 1.5em;
-  line-height: 1.5em; font-size: 1.5em; font-family: FontAwesome; font-weight: bold;
+	display: block; line-height: 1.5em; font-size: 1.5em; font-family: FontAwesome;
 	text-align: center; overflow: hidden;
+	border-style: solid; border-color: #fff;
 }
-#sideButtons a:hover {background-color: #eee;}
+#sideButtons a#scrollUp {border-width: 1px 0 0 1px;}
+#sideButtons a#toggleShariff {border-width: 0 0 0 1px;}
+#sideButtons a#scrollDown {border-width: 0 0 1px 1px;}
 a#scrollUp:before {content: '\f102';}
-a#shariffToggleButton:before {content: '\f1e0';}
+a#toggleShariff:before {content: '\f1e0';}
 a#scrollDown:before {content: '\f103';}
+#sideButtons li:hover .shariff {display: block;}
+/*	shariff */
+.shariff {
+	position: fixed; right: 2.5em; bottom: 20%; bottom: calc(20% + 1px);
+	z-index: 10; padding: 36px 0; width: calc(100% - 2.5em); height: 36px;
+	letter-spacing: normal;
+	background: rgba(240, 240, 240, .95);
+	border: none;
+}
+.shariff .orientation-horizontal {width: 80%; margin: 0 auto;}
 
 /*	header ------------------------------------------------------------------ */
 header {
@@ -107,9 +119,9 @@ header {
 .pure-menu-link:focus,
 .pure-menu-link:hover,
 .pure-menu-link:active {background: #eef;}
+a#welcomeLink.pure-menu-link:before {font-family: FontAwesome; content: '\f015';}
+a#toggleSearch.pure-menu-link:before {font-family: FontAwesome; content: '\f002';}
 .pure-menu-children {border-top: 1px solid #ddd;}
-.pure-menu-link.welcome:before {font-family: FontAwesome; content: '\f015';}
-.pure-menu-link.search:before {font-family: FontAwesome; content: '\f002';}
 
 nav.pure-menu-horizontal {display: none;}
 nav ul ul li {text-align: left;}
@@ -120,7 +132,7 @@ nav ul ul li:last-child a {border-bottom: none;}
 #searchArea {
 	position: absolute; top: 0; left: 16.666%; z-index: 20;	background: #fff;
 }
-#searchArea form {padding: 5px 0;}
+#searchArea form {padding: 4px 0;}
 #searchArea input,
 #searchArea button {
 	padding: 2px 5px;
@@ -129,7 +141,7 @@ nav ul ul li:last-child a {border-bottom: none;}
 	border: none; border-radius: 0;
 }
 #searchArea input {
-	width: 50%;
+	width: 50%; border: 1px solid #aaf;
 	-webkit-transition: width 0.4s ease-in-out; transition: width 0.4s ease-in-out;
 }
 #searchArea input:focus {width: 90%; outline: none;}
@@ -348,16 +360,18 @@ footer {
 
 /* breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em ------ */
 @media only screen and (min-width: 35.5em) {
-	footer {margin-bottom: 0;}
+	.shariff .orientation-horizontal {width: 70%; margin: 0 auto;}
 
 	#summaryContainer {padding: 0 .5em;}
 
+	footer {margin-bottom: 0;}
 	#sitemap ul li {margin: 0 .25em;}
 	#sitemap a:before {content: "- ";}
 	#sitemap li:first-child a:before {content: "";}
 }
 
 @media only screen and (min-width: 48em) {
+	.shariff .orientation-horizontal {width: 60%; margin: 0 auto;}
 	#brand a:before {
 		content: url(/img/cw_name_30px.jpg); position: relative; top: 2px; left: 2px;
 	}
@@ -379,7 +393,10 @@ footer {
 }
 
 @media only screen and (min-width: 64em) {
+	.shariff .orientation-horizontal {width: 60%; margin: 0 auto;}
+
 	main {margin-top: 50px;}
+
 	.module,
 	#siteTitle,
 	#pageSubMenu {margin-bottom: 15px;}
@@ -401,17 +418,21 @@ footer {
 	#sitemap a {padding-left: .25em;}
 
 	#extrasSelf,
-	#extrasSocial {display: inline-block;}
+	#extrasSocial {display: inline-block; text-align: center;}
 	#extrasSelf li {width: auto; margin: 0 .5em;}
-	#extrasSelf {text-align: left;}
-	#extrasSocial {text-align: right;}
 	#extrasSocial li {margin: 0 .5em;}
 }
 
 @media only screen and (min-width: 1100px) {
 	#sideButtons {
 		bottom: 40%; bottom: calc(50% - 2.25em); left: calc(50% + 500px); width: 2.5em;
-		border-width: 0; border-radius: 5px;
 	}
-	#sideButtons a:hover {border-radius: 5px;}
+	#sideButtons a {border: none; border-radius: 0;}
+	#sideButtons li:first-child {border-radius: 5px 5px 0 0;}
+	#sideButtons li:last-child {border-radius: 0 0 5px 5px;}
+	.shariff {
+		bottom: 40%; bottom: calc(50% - 27px); left: calc(50% - 500px);
+		margin-right: 40px; padding: 24px 0; width: 997px;
+		border-width: 3px 0 3px 3px; border-style: solid; border-color: #ddd;
+	}
 }
