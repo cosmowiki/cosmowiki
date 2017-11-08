@@ -34811,12 +34811,12 @@ var Summary = (function (_React$Component) {
       var toggle = function toggle() {
         _this.setState({ isOpen: !isOpen });
       };
-      var switchClassName = isOpen ? "expanded" : "collapsed";
+      var toggleClassName = isOpen ? "expanded" : "collapsed";
       var containerClassName = isOpen ? "visible" : "minimized";
       return _react2["default"].createElement(
         "div",
         { id: "summary", className: "module pure-u-1 left" },
-        _react2["default"].createElement("a", { id: "summaryToggleSwitch", className: switchClassName, title: "Artikel anzeigen / schließen", onClick: toggle }),
+        _react2["default"].createElement("a", { id: "summaryToggle", className: toggleClassName, title: "Artikel anzeigen / schließen", onClick: toggle }),
         _react2["default"].createElement(
           "div",
           { id: "summaryContainer", className: containerClassName },
