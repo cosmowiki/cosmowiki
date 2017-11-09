@@ -43,15 +43,15 @@
 - [x] create summary
 - [x] rename the component, css and page files to "events"
 - [x] create a vertical timeline like [this][2]
-- complete data for launch
+- [ ] complete data for launch
 
 ## people
 - [x] create page
 - [x] style it
 - [x] make it responsive
 - [x] create summary
-- collect item images
-- complete data for launch
+- [ ] collect item images
+- [ ] complete data for launch
 
 ### astronauts
 - [x] create page
@@ -59,23 +59,23 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
-- collect item images
-- complete data for launch
+- [ ] collect item images
+- [ ] complete data for launch
 
 ### scientists
 - [x] create page
 - [x] style it
 - [x] make it responsive
 - [x] create summary
-- collect item images
-- complete data for launch
+- [ ] collect item images
+- [ ] complete data for launch
 
 ## places
-- create page
-- style it
-- make it responsive
-- create summary
-- complete data for launch
+- [ ] create page
+- [ ] style it
+- [ ] make it responsive
+- [ ] create summary
+- [ ] complete data for launch
 
 ## objects
 - [x] create page
@@ -87,9 +87,9 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
-- make it work according to the conditions in pages/solar-system.js
-- collect item images
-- complete data for launch
+- [ ] make it work according to the conditions in pages/solar-system.js
+- [ ] collect item images
+- [ ] complete data for launch
 
 ### constellations
 - [x] create page
@@ -104,27 +104,27 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
-- if stars are sorted by historical name then show only latin letters in LetterLinks
-- if stars are sorted by constellations then only show greek letters in LetterLinks
-- if stars are sorted by constellations, then sort them before by bayer name to get the correct alphabetical order of greek letters
-- complete data for launch
+- [ ] if stars are sorted by historical name then show only latin letters in LetterLinks
+- [ ] if stars are sorted by constellations then only show greek letters in LetterLinks
+- [ ] if stars are sorted by constellations, then sort them before by bayer name to get the correct alphabetical order of greek letters
+- [ ] complete data for launch
 
 ### space stations
 - [x] create page
 - [x] style it
 - [x] make it responsive
 - [x] create summary
-- collect item images
 - [x] complete data for launch
+- [ ] collect item images
 
 ### space telescopes
 - [x] create page
 - [x] style it
 - [x] make it responsive
 - [x] create summary
-- show month in endDate as word when there is no endday
-- collect item images
-- complete data for launch
+- [ ] show month in endDate as word when there is no endday
+- [ ] collect item images
+- [ ] complete data for launch
 
 ## astronomy
 - [x] create page
@@ -141,15 +141,15 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
-- collect item images
-- complete data for launch
+- [ ] collect item images
+- [ ] complete data for launch
 
 ### spacewalks
 - [x] create page
 - [x] style it
 - [x] make it responsive
-- create summary
-- complete data for launch
+- [x] create summary
+- [ ] complete data for launch
 
 ## about
 - [x] create page
@@ -157,19 +157,19 @@
 - [x] make it responsive
 - [x] when clicking about-link on footer, then jump to anchor + height of header
 - [x] create contact form
-- make the contact form work, send mail to admin@cosmowiki.org
+- [ ] make the contact form work, send mail to admin@cosmowiki.org
 
 ## footer
 - [x] style it
 - [x] make it responsive
-- [x] let the about-links in footer open the appropriate answers in the about-page
+- [x] let the self-links in footer open the appropriate answers in the about-page
 
 #### imprint
 - [x] as a transparent .gif or .png
 
 ## sort and filter
-- let the toggle switches for sort and filter hide each other onClick and :hover on small screens
 - [x] add radio-buttons for sorting ascending and descending
+- [ ] let the toggle switches for sort and filter hide each other onClick and :hover on small screens
 
 [1]: http://jsfiddle.net/yeyene/J3zyq/3/
 [2]: https://www.w3schools.com/howto/howto_css_timeline.asp
