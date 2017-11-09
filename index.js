@@ -34802,6 +34802,8 @@ var Summary = (function (_React$Component) {
     this.state = { isOpen: true };
   }
 
+  //{isOpen ? null : <div id="summaryShade" /> }
+
   _createClass(Summary, [{
     key: "render",
     value: function render() {
@@ -34821,8 +34823,7 @@ var Summary = (function (_React$Component) {
           "div",
           { id: "summaryContainer", className: containerClassName },
           this.props.children
-        ),
-        isOpen ? null : _react2["default"].createElement("div", { id: "summaryShade" })
+        )
       );
     }
   }]);
