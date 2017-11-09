@@ -253,6 +253,10 @@ div.summary-img.width-25,
 	background: rgba(255, 255, 255, .8);
 	border-bottom: 1px solid #fff;
 }
+#pageSubMenu li:first-child,
+#pageSubMenu li:first-child a {border-radius: 5px 5px 0 0;}
+#pageSubMenu li:last-child,
+#pageSubMenu li:last-child a {border-radius: 0 0 5px 5px;}
 #pageSubMenu li:last-child a {border-bottom: none;}
 #pageSubMenu a:focus,
 #pageSubMenu a:hover,
