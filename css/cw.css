@@ -32,7 +32,7 @@ a:focus img, a:hover img, a:active img {}
 .center {text-align: center;}
 .right {text-align: right;}
 .justify {text-align: justify;}
-.small {font-size: .7em;}
+.small {font-size: .7rem;}
 .visible {display: block;}
 .hidden {display: none;}
 
@@ -78,7 +78,7 @@ a:focus img, a:hover img, a:active img {}
 #sideButtons li:hover {background-color: #eee;}
 
 #sideButtons a {
-	display: block; line-height: 1.5em; font-size: 1.5em; font-family: FontAwesome;
+	display: block; line-height: 1.5em; font-size: 1.5rem; font-family: FontAwesome;
 	text-align: center; overflow: hidden;
 	border-style: solid; border-color: #fff;
 }
@@ -114,7 +114,7 @@ header {
 /*	nav */
 #navToggle {position: absolute; top: 0; right: 0; padding: 5px;}
 #navToggle a:before {
-	font-family: FontAwesome; font-size: 1.5em; content: '\f0c9';
+	font-family: FontAwesome; font-size: 1.5rem; content: '\f0c9';
 }
 
 .pure-menu-link:focus,
@@ -170,9 +170,9 @@ main {margin: 34px auto 0; max-width: 1000px;}
 #siteTitleContainer {color: #555; background: rgba(255, 255, 255, .8);}
 #siteTitle h1 {
 	padding: .5em 0 0;
-	font-size: 1.25em; text-transform: uppercase; text-shadow: 1px 1px #fff;
+	font-size: 1.25rem; text-transform: uppercase; text-shadow: 1px 1px #fff;
 }
-#siteTitle h3 {padding: .25em 0 .5em; font-size: 1em; text-shadow: 1px 1px #fff;}
+#siteTitle h3 {padding: .25em 0 .5em; text-shadow: 1px 1px #fff;}
 
 /*	todo -------------------------------------------------------------------- */
 #todo {text-align: center; background: red;}
@@ -182,7 +182,7 @@ main {margin: 34px auto 0; max-width: 1000px;}
 
 a#summaryToggle {
 	display: block; margin: .25em 0 0 .25em;
-	font-family: FontAwesome; font-size: 1.25em;
+	font-family: FontAwesome; font-size: 1.25rem;
 	background: transparent;
 }
 a#summaryToggle.expanded:after {content: '\f147';}
@@ -237,19 +237,19 @@ div.summary-img.width-25,
 .summary-img.width-75 img,
 .summary-img.width-50 img,
 .summary-img.width-25 img {width: 100%; height: auto;}
-.summary-img-text {margin-top: 2px; font-size: .7em;}
+.summary-img-text {margin-top: 2px; font-size: .7rem;}
 
 .summary-text {text-align: justify;}
 .summary-text:nth-of-type(odd) {text-indent: 1em;}
-.summary-text:first-of-type::first-letter {font-size: 1.25em; font-weight: 900;}
+.summary-text:first-of-type::first-letter {font-size: 1.25rem; font-weight: 900;}
 
-.summary-list {list-style: disc inside;}
+.summary-list {list-style: square inside;}
 .summary-list li {margin: .5em 0;}
 
 /*		pageSubMenu ----------------------------------------------------------- */
 #pageSubMenu a {
 	display: block; padding: 2em;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	background: rgba(255, 255, 255, .8);
 	border-bottom: 1px solid #fff;
 }
@@ -259,10 +259,10 @@ div.summary-img.width-25,
 #pageSubMenu a:active {color: #fff; background: rgba(255, 255, 255, .3);}
 
 /*	dataArea ---------------------------------------------------------------- */
-#dataArea {font-size: .8em;}
+#dataArea {font-size: .8rem;}
 .leading-letter p {
 	padding: .2em;
-	font-size: 1.25em; font-weight: normal;
+	font-size: 1.25rem; font-weight: normal;
 	background: rgba(0, 0, 255, .1);
 	border-bottom: 1px solid #fff;
 }
@@ -278,7 +278,7 @@ div.summary-img.width-25,
 #controllers, #letterIndex {border-bottom: 1px solid #fff;}
 #sort, #filter {
 	display: inline-block; padding: .5em 0;
-	font-size: .9em; line-height: 2em;
+	font-size: .9rem; line-height: 2em;
 }
 #filter {float: right;}
 #sortAscDesc input {margin: 0 1em; font-family: FontAwesome;}
@@ -297,13 +297,13 @@ div.summary-img.width-25,
 #filterArea form {text-align: right;}
 #sort select, #filter select {margin-left: .1em;}
 
-#letterIndex {padding: .5em 0; font-size: 1.25em;}
+#letterIndex {padding: .5em 0; font-size: 1rem;}
 #letterIndex li {display: inline-block; padding: .2em 0; margin-right: .2em;}
 #letterIndex a {display: inline-block; margin: 0 .2em;}
 
 /*	switch ------------------------------------------------------------------ */
 /*
-#switch {float: left; font-size: .8em; font-weight: 500;}
+#switch {float: left; font-size: .8rem; font-weight: 500;}
 #switch li {float: left; width: 480px;}
 #switch a {
 	display: block; float: left; width: 478px; height: 1.25em; padding-top: 4px;
@@ -317,7 +317,7 @@ div.summary-img.width-25,
 */
 
 /*	notes ------------------------------------------------------------------- */
-#notes {clear: left; font-size: .9em;}
+#notes {clear: left; font-size: .9rem;}
 #notesDefault,
 #notesConstellations,
 #notesStars {padding: .5em 0 .25em; border-bottom: 1px solid #ddd;}
@@ -340,7 +340,7 @@ footer {
 
 #sitemap,
 #extras,
-#version {padding: .5em; font-size: .9em; border-bottom: 1px solid #ddd;}
+#version {padding: .5em; font-size: .9rem; border-bottom: 1px solid #ddd;}
 #sitemap {text-align: center;}
 #sitemap ul {margin-bottom: .5em;}
 #sitemap a {display: block; line-height: 1.75em;}
@@ -351,13 +351,13 @@ footer {
 #extrasSocial {margin: .5em auto; text-align: center;}
 #extrasSelf li {display: inline-block; width: 33.333%; margin-bottom: 1em;}
 #extrasSocial li {display: inline-block; margin: 0 2em;}
-#extrasSocial a:before {font-family: FontAwesome; font-size: 1.25em;}
+#extrasSocial a:before {font-family: FontAwesome; font-size: 1.25rem;}
 #extras #Twitter:before {content: "\f099"; color: #32bbf5;}
 #extras #Facebook:before {content: "\f09a"; color: #4273c8;}
 #extras #GooglePlus:before {content: "\f0d5"; color: #d34836;}
 #extras #Github:before {content: "\f09b"; color: #4078c0;}
 
-#version p {margin: 0 auto; line-height: 15px; font-size: .8em;}
+#version p {margin: 0 auto; line-height: 15px; font-size: .8rem;}
 
 /* breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em ------ */
 @media only screen and (min-width: 35.5em) {
@@ -379,8 +379,8 @@ footer {
 	#searchArea {left: 25%;}
 	#searchArea input {width: 50%;}
 
-	#siteTitle h1 {padding: .5em 0 0; font-size: 2em;}
-	#siteTitle h3 {padding: .25em 0 .75em; font-size: 1.5em;}
+	#siteTitle h1 {padding: .5em 0 0; font-size: 2rem;}
+	#siteTitle h3 {padding: .25em 0 .75em; font-size: 1.5rem;}
 
 	#summaryContainer {padding: 0 1em;}
 
