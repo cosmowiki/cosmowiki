@@ -162,7 +162,7 @@ main {margin: 34px auto 0; max-width: 1000px;}
 /*	module ------------------------------------------------------------------ */
 .module {
 	background: rgba(255, 255, 255, .9);
-	border-top: 15px solid #ccf; border-bottom: 15px solid #ddd;
+	border-top: 15px solid #aaf; border-bottom: 15px solid #ccc;
 }
 
 /*	siteTitle --------------------------------------------------------------- */
@@ -317,14 +317,14 @@ div.summary-img.width-25,
 */
 
 /*	notes ------------------------------------------------------------------- */
-#notes {clear: left; font-size: .8em;}
+#notes {clear: left; font-size: .9em;}
 #notesDefault,
 #notesConstellations,
 #notesStars {padding: .5em 0 .25em; border-bottom: 1px solid #ddd;}
 
 #notes h4 {
 	margin: 0 .5em; padding: .25em .5em;
-	font-weight: 900;
+	color: #555;
 	background: rgba(0, 0, 255, .1);
 }
 #notes p,
@@ -334,7 +334,7 @@ div.summary-img.width-25,
 footer {
 	position: relative; bottom: 0; left: 0;
 	background: rgba(255, 255, 255, .9);
-	border-top: 15px solid #ccf; border-bottom: 15px solid #ddd;
+	border-top: 15px solid #aaf; border-bottom: 15px solid #ccc;
 }
 #footerContainer {margin: 0 auto;}
 
