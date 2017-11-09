@@ -15,8 +15,7 @@
 #welcomeImgEvents1 {float: right; margin-left: .5em;}
 
 .welcome-container h4 {
-	padding: .25em;
-	background: rgba(0, 0, 255, .1);
+	padding: .25em; color: #555; background: rgba(0, 0, 255, .1);
 }
 
 .welcome-container p {
