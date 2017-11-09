@@ -18,8 +18,9 @@ export class Summary extends React.Component {
         <div id="summaryContainer" className={containerClassName}>
           {this.props.children}
         </div>
-        {isOpen ? null : <div id="summaryShade" /> }
       </div>
     );
   }
 }
+
+//{isOpen ? null : <div id="summaryShade" /> }
