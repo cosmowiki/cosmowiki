@@ -8003,7 +8003,7 @@ if (typeof Object.create === 'function') {
 /*!
  * Determine if an object is a Buffer
  *
- * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org>
+ * @author   Feross Aboukhadijeh <https://feross.org>
  * @license  MIT
  */
 
@@ -41972,15 +41972,15 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 			{ id: "welcomeArea", className: "pure-u-1" },
 			_react2["default"].createElement(
 				"div",
-				{ className: "welcome-container pure-u-1" },
+				{ id: "welcomeEvents", className: "welcome-container" },
+				_react2["default"].createElement(
+					"h4",
+					null,
+					"7. Januar 1610"
+				),
 				_react2["default"].createElement(
 					"div",
-					{ id: "welcomeEvents", className: "module" },
-					_react2["default"].createElement(
-						"h4",
-						null,
-						"7. Januar 1610"
-					),
+					{ className: "welcome-text" },
 					_react2["default"].createElement(
 						"p",
 						null,
@@ -42013,20 +42013,20 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 			),
 			_react2["default"].createElement(
 				"div",
-				{ className: "welcome-container pure-u-1 pure-u-lg-1-2" },
+				{ id: "welcomeScientists", className: "welcome-container" },
+				_react2["default"].createElement(
+					"h4",
+					null,
+					_react2["default"].createElement(
+						"code",
+						null,
+						"[countAstronomers]"
+					),
+					" Astronomen!"
+				),
 				_react2["default"].createElement(
 					"div",
-					{ id: "welcomeScientists", className: "module" },
-					_react2["default"].createElement(
-						"h4",
-						null,
-						_react2["default"].createElement(
-							"code",
-							null,
-							"[countAstronomers]"
-						),
-						" Astronomen!"
-					),
+					{ className: "welcome-text" },
 					_react2["default"].createElement(
 						"p",
 						null,
@@ -42053,19 +42053,19 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 			),
 			_react2["default"].createElement(
 				"div",
-				{ className: "welcome-container pure-u-1 pure-u-lg-1-2" },
+				{ id: "welcomeAstronauts", className: "welcome-container" },
+				_react2["default"].createElement(
+					"h4",
+					null,
+					_react2["default"].createElement(
+						"code",
+						null,
+						"[totalAstronautsHoursInSpace]"
+					)
+				),
 				_react2["default"].createElement(
 					"div",
-					{ id: "welcomeAstronauts", className: "module" },
-					_react2["default"].createElement(
-						"h4",
-						null,
-						_react2["default"].createElement(
-							"code",
-							null,
-							"[totalAstronautsHoursInSpace]"
-						)
-					),
+					{ className: "welcome-text" },
 					_react2["default"].createElement(
 						"p",
 						null,
@@ -42115,15 +42115,15 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 			),
 			_react2["default"].createElement(
 				"div",
-				{ className: "welcome-container pure-u-1" },
+				{ id: "welcomePlaces", className: "welcome-container" },
+				_react2["default"].createElement(
+					"h4",
+					null,
+					"28° 37′ 4″ N, 80° 36′ 45″ W"
+				),
 				_react2["default"].createElement(
 					"div",
-					{ id: "welcomePlaces", className: "module" },
-					_react2["default"].createElement(
-						"h4",
-						null,
-						"28° 37′ 4″ N, 80° 36′ 45″ W"
-					),
+					{ className: "welcome-text" },
 					_react2["default"].createElement(
 						"p",
 						null,
@@ -42150,15 +42150,15 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 			),
 			_react2["default"].createElement(
 				"div",
-				{ className: "welcome-container pure-u-1" },
+				{ id: "welcomePlaces", className: "welcome-container" },
+				_react2["default"].createElement(
+					"h4",
+					null,
+					"Götter und Nymphen ..."
+				),
 				_react2["default"].createElement(
 					"div",
-					{ id: "welcomeSolsys", className: "module" },
-					_react2["default"].createElement(
-						"h4",
-						null,
-						"Götter und Nymphen ..."
-					),
+					{ className: "welcome-text" },
 					_react2["default"].createElement(
 						"p",
 						null,

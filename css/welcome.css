@@ -1,22 +1,33 @@
 #siteTitle.welcome {
 	background: url('/img/title_welcome.jpg') center / cover no-repeat;
 }
-
-.welcome-container .module {
-	background: url('/img/cw_icon_1000px_pale.jpg') center / cover no-repeat;
+#welcomeEvents {
+	background: url('/img/events/galileo_sidereus.jpg') center / cover no-repeat;
 }
 
-.welcome-container div {padding: .5em;}
-
+/*.welcome-container .module {
+	background: url('/img/cw_icon_1000px_pale.jpg') center / cover no-repeat;
+}*/
+.welcome-container {
+	position: relative; margin-bottom: 15px; height: 400px;
+	border-radius: 5px;
+}
+.welcome-container h4 {
+	padding: .25em; color: #eee; font-size: 1.5rem;
+	background: rgba(0, 0, 255, .2);
+	border-radius: 5px 5px 0 0;
+}
+.welcome-text {
+	position: absolute; bottom: 0; padding: .5em;
+	background: rgba(255, 255, 255, .5);
+	border-radius: 0 0 5px 5px;
+}
 .welcome-img {
 	width: 8em; height: 6em; padding: 2px;
 	border: 1px solid #55f;
  }
 #welcomeImgEvents1 {float: right; margin-left: .5em;}
 
-.welcome-container h4 {
-	padding: .25em; color: #555; background: rgba(0, 0, 255, .1);
-}
 
 .welcome-container p {
 	padding: .5em 0;
