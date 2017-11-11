@@ -10,9 +10,9 @@ const WelcomeComponent = ({appUrl}) => {
 				</div>
 			</div>
 			<div id="welcomeArea" className="pure-u-1">
-				<div className="welcome-container pure-u-1">
-					<div id="welcomeEvents" className="module">
-						<h4>7. Januar 1610</h4>
+				<div id="welcomeEvents" className="welcome-container">
+					<h4>7. Januar 1610</h4>
+					<div className="welcome-text">
 						<p>
 							An diesem Tag entdeckte Galileo Galilei in Padua mit einem Nachbau
 							des nur ein Jahr zuvor von Hans Lipperhey in Holland erfundenen Fernrohres
@@ -26,11 +26,11 @@ const WelcomeComponent = ({appUrl}) => {
 							Weitere <code>[numberOfEvents]-1</code> Ereignisse aus der spannenden Geschichte
 							von Astronomie und Raumfahrt finden Sie <a href="/events">hier</a>.
 						</p>
-		 	 		</div>
+					</div>
 		 	 	</div>
-				<div className="welcome-container pure-u-1 pure-u-lg-1-2">
-					<div id="welcomeScientists" className="module">
-						<h4><code>[countAstronomers]</code> Astronomen!</h4>
+				<div id="welcomeScientists" className="welcome-container">
+					<h4><code>[countAstronomers]</code> Astronomen!</h4>
+					<div className="welcome-text">
 						<p>
 							Hier finden Sie zwar nicht alle, aber zumindest die bedeutendsten
 							Astronomen der Menschheitsgeschichte. Bereits die frühen Menschen
@@ -46,9 +46,9 @@ const WelcomeComponent = ({appUrl}) => {
 						</p>
 					</div>
 		 	 	</div>
-				<div className="welcome-container pure-u-1 pure-u-lg-1-2">
-					<div id="welcomeAstronauts" className="module">
-						<h4><code>[totalAstronautsHoursInSpace]</code></h4>
+				<div id="welcomeAstronauts" className="welcome-container">
+					<h4><code>[totalAstronautsHoursInSpace]</code></h4>
+					<div className="welcome-text">
 						<p>
 							Eine unglaubliche Zahl! So viele Stunden haben alle <code>[countAstronauts]</code>
 							Astronauten zusammengerechnet bis heute<sup>*</sup> im All verbracht.
@@ -65,9 +65,9 @@ const WelcomeComponent = ({appUrl}) => {
 						</p>
 					</div>
 				</div>
-				<div className="welcome-container pure-u-1">
-					<div id="welcomePlaces" className="module">
-						<h4>28° 37&prime; 4&Prime; N, 80° 36&prime; 45&Prime; W</h4>
+				<div id="welcomePlaces" className="welcome-container">
+					<h4>28° 37&prime; 4&Prime; N, 80° 36&prime; 45&Prime; W</h4>
+					<div className="welcome-text">
 						<p>
 							Genau dort befindet sich der Launch Complex 39, und von dort starteten
 							Neil Armstrong, Buzz Aldrin und Michael Collins am 16. Juli 1969 mit
@@ -84,9 +84,9 @@ const WelcomeComponent = ({appUrl}) => {
 						</p>
 		 	 		</div>
 		 	 	</div>
-				<div className="welcome-container pure-u-1">
-					<div id="welcomeSolsys" className="module">
-						<h4>Götter und Nymphen ...</h4>
+				<div id="welcomePlaces" className="welcome-container">
+					<h4>Götter und Nymphen ...</h4>
+					<div className="welcome-text">
 						<p>
 							... sind die Namensgeber vieler Himmelskörper in unserem Sonnensytem.
 							Die Planeten tragen die Namen römischer Götter. Lediglich Uranus
