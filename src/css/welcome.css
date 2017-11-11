@@ -2,50 +2,38 @@
 	background: url('/img/title_welcome.jpg') center / cover no-repeat;
 }
 #welcomeEvents {
-	background: url('/img/events/galileo_sidereus.jpg') center / cover no-repeat;
+	background: url('/img/events/galileo_sidereus_sm.jpg') center / cover no-repeat;
 }
 
-/*.welcome-container .module {
-	background: url('/img/cw_icon_1000px_pale.jpg') center / cover no-repeat;
-}*/
-.welcome-container {
-	position: relative; margin-bottom: 15px; height: 400px;
-	border-radius: 5px;
-}
 .welcome-container h4 {
 	padding: .25em; color: #eee; font-size: 1.5rem;
 	background: rgba(0, 0, 255, .2);
-	border-radius: 5px 5px 0 0;
 }
 .welcome-text {
-	position: absolute; bottom: 0; padding: .5em;
-	background: rgba(255, 255, 255, .5);
-	border-radius: 0 0 5px 5px;
+	padding: .5em;
+	background: rgba(255, 255, 255, .7);
 }
-.welcome-img {
-	width: 8em; height: 6em; padding: 2px;
-	border: 1px solid #55f;
- }
-#welcomeImgEvents1 {float: right; margin-left: .5em;}
-
-
-.welcome-container p {
-	padding: .5em 0;
-	text-align: justify;
-}
+.welcome-container p {padding: .5em 0; text-align: justify;}
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
+
+	.welcome-container {
+		position: relative; margin-bottom: 15px; height: 400px;
+	}
+	.welcome-text {
+		position: absolute; bottom: 0; padding: .5em;
+	}
 }
 
 @media only all and (min-width: 48em) {
+	#welcomeEvents {
+		background: url('/img/events/galileo_sidereus.jpg') center / cover no-repeat;
+	}
 }
 
 @media only all and (min-width: 64em) {
-	.welcome-container.pure-u-lg-1-2:nth-of-type(odd) div {margin-left: .5em;}
-	.welcome-container.pure-u-lg-1-2:nth-of-type(even) div {margin-right: .5em;}
-
-	.welcome-img {border-radius: 5px;}
-	.welcome-img:hover {border-radius: 5px;}
-	.welcome-img img {border-radius: 3px;}
+	.welcome-container {border-radius: 5px;}
+	.welcome-container h4 {border-radius: 5px 5px 0 0;}
+	.welcome-text {border-radius: 0 0 5px 5px;}
 }
