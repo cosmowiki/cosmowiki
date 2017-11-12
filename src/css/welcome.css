@@ -1,10 +1,7 @@
 #siteTitle.welcome {
 	background: url('/img/title_welcome.jpg') center / cover no-repeat;
 }
-#welcomeEvents {
-	background: url('/img/events/galileo_sidereus_sm.jpg') center / cover no-repeat;
-}
-
+.welcome-container {background: #222;}
 .welcome-container h4 {
 	padding: .25em; color: #eee; font-size: 1.5rem;
 	background: rgba(0, 0, 255, .2);
@@ -17,9 +14,11 @@
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
-
+	#welcomeEvents {
+		background: url('/img/events/galileo_sidereus_sm.jpg') center / cover no-repeat;
+	}
 	.welcome-container {
-		position: relative; margin-bottom: 15px; height: 400px;
+		position: relative; height: 400px;
 	}
 	.welcome-text {
 		position: absolute; bottom: 0; padding: .5em;
@@ -29,6 +28,9 @@
 @media only all and (min-width: 48em) {
 	#welcomeEvents {
 		background: url('/img/events/galileo_sidereus.jpg') center / cover no-repeat;
+	}
+	.welcome-container {
+		margin-bottom: 15px;
 	}
 }
 
