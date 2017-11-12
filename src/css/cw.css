@@ -72,7 +72,7 @@ a:focus img, a:hover img, a:active img {}
 }*/
 
 /*	side-buttons ---------------------------------------------------------- */
-#sideButtons {position: fixed; right: 0; bottom: 20%;	z-index: 10; width: 2.5em;}
+#sideButtons {position: fixed; right: 0; bottom: 12%;	z-index: 10; width: 2.5em;}
 
 #sideButtons li {background-color: #ddd;}
 #sideButtons li:hover {background-color: #eee;}
@@ -92,7 +92,7 @@ a#scrollDown:before {content: '\f103';}
 /*	shariff */
 .shariff {
 	display: none;
-	position: fixed; right: 2.5em; bottom: 20%; bottom: calc(20% + 1px);
+	position: fixed; right: 2.5em; bottom: 12%; bottom: calc(20% + 1px);
 	z-index: 10; padding: 36px 0; width: calc(100% - 2.5em); height: 36px;
 	letter-spacing: normal;
 	background: rgba(240, 240, 240, .95);
