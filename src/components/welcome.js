@@ -84,7 +84,7 @@ const WelcomeComponent = ({appUrl}) => {
 						</p>
 		 	 		</div>
 		 	 	</div>
-				<div id="welcomePlaces" className="welcome-container">
+				<div id="welcomeSolsys" className="welcome-container">
 					<h4>Götter und Nymphen ...</h4>
 					<div className="welcome-text">
 						<p>
