@@ -42150,7 +42150,7 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 			),
 			_react2["default"].createElement(
 				"div",
-				{ id: "welcomePlaces", className: "welcome-container" },
+				{ id: "welcomeSolsys", className: "welcome-container" },
 				_react2["default"].createElement(
 					"h4",
 					null,
