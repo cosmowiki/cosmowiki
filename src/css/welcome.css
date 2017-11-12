@@ -17,8 +17,11 @@
 	#welcomeEvents {
 		background: url('/img/events/galileo_sidereus_sm.jpg') center / cover no-repeat;
 	}
+	#welcomeScientists {
+		background: url('/img/events/welcome_astronomers.jpg') center / cover no-repeat;
+	}
 	#welcomeAstronauts {
-		background: url('/img/events/apollo11sketch.jpg') center / cover no-repeat;
+		background: url('/img/events/welcome_astronauts.jpg') center / cover no-repeat;
 	}
 	#welcomePlaces {
 		background: url('/img/events/lc39.jpg') center / cover no-repeat;
