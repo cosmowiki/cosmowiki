@@ -13,17 +13,17 @@ const WelcomeComponent = ({appUrl}) => {
 				<div id="welcomeCosmowiki" className="welcome-container">
 					<div className="welcome-special">
 						<ul>
-							<li>423 Ereignisse</li>
-							<li>638 Wissenschaftler</li>
-							<li>387 Raumfahrer</li>
-							<li>365 Orte</li>
-							<li>226 Himmelskörper</li>
-							<li>446 Sterne</li>
-							<li>88 Sternbilder</li>
-							<li>22 Raumstationen</li>
-							<li>98 Weltraumteleskope</li>
-							<li>389 Weltraumausstiege</li>
-							<li>742 Missionen</li>
+							<li><a href="#welcomeEvents">423 Ereignisse</a></li>
+							<li><a href="#welcomeScientists">638 Wissenschaftler</a></li>
+							<li><a href="#welcomeAstronauts">387 Raumfahrer</a></li>
+							<li><a href="#welcomePlaces">365 Orte</a></li>
+							<li><a href="#welcomeSolsys">226 Himmelskörper</a></li>
+							<li><a href="#welcomeConstellations">88 Sternbilder</a></li>
+							<li><a href="#welcomeStars">446 Sterne</a></li>
+							<li><a href="#welcomeSpacestations">22 Raumstationen</a></li>
+							<li><a href="#welcomeSpacetelescopes">98 Weltraumteleskope</a></li>
+							<li><a href="#welcomeSpacewalkes">389 Weltraumausstiege</a></li>
+							<li><a href="#welcomeMissions">742 Missionen</a></li>
 						</ul>
 					</div>
 				</div>
