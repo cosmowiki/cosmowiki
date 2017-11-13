@@ -10,6 +10,23 @@ const WelcomeComponent = ({appUrl}) => {
 				</div>
 			</div>
 			<div id="welcomeArea" className="pure-u-1">
+				<div id="welcomeCosmowiki" className="welcome-container">
+					<div className="welcome-special">
+						<ul>
+							<li>423 Ereignisse</li>
+							<li>638 Wissenschaftler</li>
+							<li>387 Raumfahrer</li>
+							<li>365 Orte</li>
+							<li>226 Himmelskörper</li>
+							<li>446 Sterne</li>
+							<li>88 Sternbilder</li>
+							<li>22 Raumstationen</li>
+							<li>98 Weltraumteleskope</li>
+							<li>389 Weltraumausstiege</li>
+							<li>742 Missionen</li>
+						</ul>
+					</div>
+				</div>
 				<div id="welcomeEvents" className="welcome-container">
 					<h4>7. Januar 1610</h4>
 					<div className="welcome-text">
