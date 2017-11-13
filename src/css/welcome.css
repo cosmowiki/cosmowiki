@@ -6,19 +6,19 @@
 	padding: .25em; color: #eee; font-size: 1.25rem;
 	background: #aaf;
 }
-.welcome-text {
-	padding: .5em;
-	background: #eee;
-}
+.welcome-text {padding: .5em; background: #eee;}
 .welcome-container p {padding: .5em 0; text-align: justify;}
 
+#welcomeCosmowiki {background: #eee;}
 .welcome-special {padding: .25em;}
 .welcome-special li {display: inline-block;}
 .welcome-special a {
 	color: rgba(128, 128, 255, .8); font-size: 3em; font-weight: 900;
 }
-.welcome-special a:nth-of-type(odd) {margin: .5em 0 0 1em;}
-.welcome-special a:nth-of-type(even) {margin: -.5em 0 0 -.5em;}
+.welcome-special li:nth-of-type(2n) a {margin-left: 1em;}
+.welcome-special li:nth-of-type(3n) a {margin-left: 1.5em;}
+.welcome-special li:nth-of-type(4n) a {margin-left: 2em;}
+.welcome-special li:nth-of-type(5n) a {margin-left: 2.5em;}
 .welcome-special a:focus,
 .welcome-special a:hover,
 .welcome-special a:active {color: rgba(255, 0, 0, .8);}
@@ -49,7 +49,7 @@
 	.welcome-container h4 {font-size: 1.5rem; background: rgba(0, 0, 255, .2);}
 	.welcome-text {
 		position: absolute; bottom: 0; padding: .5em;
-		background: rgba(255, 255, 255, .7);
+		background: rgba(255, 255, 255, .8);
 	}
 }
 
@@ -63,7 +63,9 @@
 }
 
 @media only all and (min-width: 64em) {
-	.welcome-container {border-radius: 5px;}
+	.welcome-container,
+	#welcomeCosmowiki {border-radius: 5px;}
 	.welcome-container h4 {border-radius: 5px 5px 0 0;}
-	.welcome-text {border-radius: 0 0 5px 5px;}
+	.welcome-text,
+	.welcome-special {border-radius: 0 0 5px 5px;}
 }
