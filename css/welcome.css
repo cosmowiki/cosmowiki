@@ -12,8 +12,22 @@
 }
 .welcome-container p {padding: .5em 0; text-align: justify;}
 
+.welcome-special {padding: .25em;}
+.welcome-special li {display: inline-block;}
+.welcome-special a {
+	color: rgba(128, 128, 255, .8); font-size: 3em; font-weight: 900;
+}
+.welcome-special a:nth-of-type(odd) {margin: .5em 0 0 1em;}
+.welcome-special a:nth-of-type(even) {margin: -.5em 0 0 -.5em;}
+.welcome-special a:focus,
+.welcome-special a:hover,
+.welcome-special a:active {color: rgba(255, 0, 0, .8);}
+
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
+	#welcomeCosmowiki {
+		background: url('/img/welcome/welcome_cosmowiki.jpg') center / cover no-repeat;
+	}
 	#welcomeEvents {
 		background: url('/img/welcome/welcome_events_sm.jpg') center / cover no-repeat;
 	}

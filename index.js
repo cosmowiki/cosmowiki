@@ -41982,57 +41982,101 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 						_react2["default"].createElement(
 							"li",
 							null,
-							"423 Ereignisse"
+							_react2["default"].createElement(
+								"a",
+								{ href: "#welcomeEvents" },
+								"423 Ereignisse"
+							)
 						),
 						_react2["default"].createElement(
 							"li",
 							null,
-							"638 Wissenschaftler"
+							_react2["default"].createElement(
+								"a",
+								{ href: "#welcomeScientists" },
+								"638 Wissenschaftler"
+							)
 						),
 						_react2["default"].createElement(
 							"li",
 							null,
-							"387 Raumfahrer"
+							_react2["default"].createElement(
+								"a",
+								{ href: "#welcomeAstronauts" },
+								"387 Raumfahrer"
+							)
 						),
 						_react2["default"].createElement(
 							"li",
 							null,
-							"365 Orte"
+							_react2["default"].createElement(
+								"a",
+								{ href: "#welcomePlaces" },
+								"365 Orte"
+							)
 						),
 						_react2["default"].createElement(
 							"li",
 							null,
-							"226 Himmelskörper"
+							_react2["default"].createElement(
+								"a",
+								{ href: "#welcomeSolsys" },
+								"226 Himmelskörper"
+							)
 						),
 						_react2["default"].createElement(
 							"li",
 							null,
-							"446 Sterne"
+							_react2["default"].createElement(
+								"a",
+								{ href: "#welcomeConstellations" },
+								"88 Sternbilder"
+							)
 						),
 						_react2["default"].createElement(
 							"li",
 							null,
-							"88 Sternbilder"
+							_react2["default"].createElement(
+								"a",
+								{ href: "#welcomeStars" },
+								"446 Sterne"
+							)
 						),
 						_react2["default"].createElement(
 							"li",
 							null,
-							"22 Raumstationen"
+							_react2["default"].createElement(
+								"a",
+								{ href: "#welcomeSpacestations" },
+								"22 Raumstationen"
+							)
 						),
 						_react2["default"].createElement(
 							"li",
 							null,
-							"98 Weltraumteleskope"
+							_react2["default"].createElement(
+								"a",
+								{ href: "#welcomeSpacetelescopes" },
+								"98 Weltraumteleskope"
+							)
 						),
 						_react2["default"].createElement(
 							"li",
 							null,
-							"389 Weltraumausstiege"
+							_react2["default"].createElement(
+								"a",
+								{ href: "#welcomeSpacewalkes" },
+								"389 Weltraumausstiege"
+							)
 						),
 						_react2["default"].createElement(
 							"li",
 							null,
-							"742 Missionen"
+							_react2["default"].createElement(
+								"a",
+								{ href: "#welcomeMissions" },
+								"742 Missionen"
+							)
 						)
 					)
 				)
