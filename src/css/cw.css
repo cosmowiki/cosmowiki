@@ -336,7 +336,7 @@ div.summary-img.width-25,
 
 /*	Footer ------------------------------------------------------------------ */
 footer {
-	position: relative; bottom: 0; left: 0;
+	position: relative; bottom: 0; left: 0; margin-top: 30px;
 	background: rgba(255, 255, 255, .9);
 	border-top: 15px solid #aaf; border-bottom: 15px solid #ccc;
 }
