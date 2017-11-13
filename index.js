@@ -41972,6 +41972,73 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 			{ id: "welcomeArea", className: "pure-u-1" },
 			_react2["default"].createElement(
 				"div",
+				{ id: "welcomeCosmowiki", className: "welcome-container" },
+				_react2["default"].createElement(
+					"div",
+					{ className: "welcome-special" },
+					_react2["default"].createElement(
+						"ul",
+						null,
+						_react2["default"].createElement(
+							"li",
+							null,
+							"423 Ereignisse"
+						),
+						_react2["default"].createElement(
+							"li",
+							null,
+							"638 Wissenschaftler"
+						),
+						_react2["default"].createElement(
+							"li",
+							null,
+							"387 Raumfahrer"
+						),
+						_react2["default"].createElement(
+							"li",
+							null,
+							"365 Orte"
+						),
+						_react2["default"].createElement(
+							"li",
+							null,
+							"226 Himmelskörper"
+						),
+						_react2["default"].createElement(
+							"li",
+							null,
+							"446 Sterne"
+						),
+						_react2["default"].createElement(
+							"li",
+							null,
+							"88 Sternbilder"
+						),
+						_react2["default"].createElement(
+							"li",
+							null,
+							"22 Raumstationen"
+						),
+						_react2["default"].createElement(
+							"li",
+							null,
+							"98 Weltraumteleskope"
+						),
+						_react2["default"].createElement(
+							"li",
+							null,
+							"389 Weltraumausstiege"
+						),
+						_react2["default"].createElement(
+							"li",
+							null,
+							"742 Missionen"
+						)
+					)
+				)
+			),
+			_react2["default"].createElement(
+				"div",
 				{ id: "welcomeEvents", className: "welcome-container" },
 				_react2["default"].createElement(
 					"h4",
