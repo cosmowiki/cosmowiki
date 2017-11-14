@@ -11,17 +11,17 @@
 
 #welcomeCosmowiki {background: #eee;}
 .welcome-special {padding: .25em;}
-.welcome-special li {display: inline-block;}
+.welcome-special div {display: inline-block;}
 .welcome-special a {
-	color: rgba(128, 128, 255, .8); font-size: 3em; font-weight: 900;
+	color: rgba(128, 128, 255, .7); font-size: 3.5em; font-weight: 900;
 }
-.welcome-special li:nth-of-type(2n) a {margin-left: 1em;}
-.welcome-special li:nth-of-type(3n) a {margin-left: 1.5em;}
-.welcome-special li:nth-of-type(4n) a {margin-left: 2em;}
-.welcome-special li:nth-of-type(5n) a {margin-left: 2.5em;}
+.welcome-special div:nth-of-type(2n) {margin: -2em 0 0 2em;}
+.welcome-special div:nth-of-type(3n) {margin: -1.5em 0 0 2.5em;}
+.welcome-special div:nth-of-type(4n) {margin: -1em 0 0 3em;}
+.welcome-special div:nth-of-type(5n) {margin: -2.5em 0 0 1.5em;}
 .welcome-special a:focus,
 .welcome-special a:hover,
-.welcome-special a:active {color: rgba(255, 0, 0, .8);}
+.welcome-special a:active {color: rgba(221, 0, 0, .7);}
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
