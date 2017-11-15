@@ -49,7 +49,7 @@ const WelcomeComponent = ({appUrl}) => {
 				</div>
 				<div id="welcomeEvents" className="welcome-container">
 					<h4>7. Januar 1610</h4>
-					<div className="welcome-text">
+					<div className="welcome-text pure-u-1">
 						<p>
 							An diesem Tag entdeckte Galileo Galilei in Padua mit einem Nachbau
 							des nur ein Jahr zuvor von Hans Lipperhey in Holland erfundenen Fernrohres
@@ -67,7 +67,7 @@ const WelcomeComponent = ({appUrl}) => {
 		 	 	</div>
 				<div id="welcomeScientists" className="welcome-container">
 					<h4><code>[countAstronomers]</code> Astronomen!</h4>
-					<div className="welcome-text">
+					<div className="welcome-text pure-u-1">
 						<p>
 							Hier finden Sie zwar nicht alle, aber zumindest die bedeutendsten
 							Astronomen der Menschheitsgeschichte. Bereits die frühen Menschen
@@ -85,7 +85,7 @@ const WelcomeComponent = ({appUrl}) => {
 		 	 	</div>
 				<div id="welcomeAstronauts" className="welcome-container">
 					<h4><code>[totalAstronautsHoursInSpace]</code></h4>
-					<div className="welcome-text">
+					<div className="welcome-text pure-u-1">
 						<p>
 							Eine unglaubliche Zahl! So viele Stunden haben alle <code>[countAstronauts]</code>
 							Astronauten zusammengerechnet bis heute<sup>*</sup> im All verbracht.
@@ -104,7 +104,7 @@ const WelcomeComponent = ({appUrl}) => {
 				</div>
 				<div id="welcomePlaces" className="welcome-container">
 					<h4>28° 37&prime; 4&Prime; N, 80° 36&prime; 45&Prime; W</h4>
-					<div className="welcome-text">
+					<div className="welcome-text pure-u-1">
 						<p>
 							Genau dort befindet sich der Launch Complex 39, und von dort starteten
 							Neil Armstrong, Buzz Aldrin und Michael Collins am 16. Juli 1969 mit
@@ -123,7 +123,7 @@ const WelcomeComponent = ({appUrl}) => {
 		 	 	</div>
 				<div id="welcomeSolsys" className="welcome-container">
 					<h4>Götter und Nymphen ...</h4>
-					<div className="welcome-text">
+					<div className="welcome-text pure-u-1">
 						<p>
 							... sind die Namensgeber vieler Himmelskörper in unserem Sonnensytem.
 							Die Planeten tragen die Namen römischer Götter. Lediglich Uranus
@@ -135,6 +135,41 @@ const WelcomeComponent = ({appUrl}) => {
 						<p>
 							Entdecken Sie <code>[countSolsysBodies]</code> Himmelskörper unseres <a href="/solar-system">Sonnensystems</a>.
 						</p>
+		 	 		</div>
+		 	 	</div>
+				<div id="welcomeConstellations" className="welcome-container">
+					<h4></h4>
+					<div className="welcome-text pure-u-1">
+						<p></p>
+						<p></p>
+		 	 		</div>
+		 	 	</div>
+				<div id="welcomeStars" className="welcome-container">
+					<h4></h4>
+					<div className="welcome-text pure-u-1">
+						<p></p>
+						<p></p>
+		 	 		</div>
+		 	 	</div>
+				<div id="welcomeSpacestations" className="welcome-container">
+					<h4></h4>
+					<div className="welcome-text pure-u-1">
+						<p></p>
+						<p></p>
+		 	 		</div>
+		 	 	</div>
+				<div id="welcomeSpacetelescopes" className="welcome-container">
+					<h4></h4>
+					<div className="welcome-text pure-u-1">
+						<p></p>
+						<p></p>
+		 	 		</div>
+		 	 	</div>
+				<div id="welcomeMissions" className="welcome-container">
+					<h4></h4>
+					<div className="welcome-text pure-u-1">
+						<p></p>
+						<p></p>
 		 	 		</div>
 		 	 	</div>
 			</div>
