@@ -42087,7 +42087,7 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 				),
 				_react2["default"].createElement(
 					"div",
-					{ className: "welcome-text" },
+					{ className: "welcome-text pure-u-1" },
 					_react2["default"].createElement(
 						"p",
 						null,
@@ -42133,7 +42133,7 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 				),
 				_react2["default"].createElement(
 					"div",
-					{ className: "welcome-text" },
+					{ className: "welcome-text pure-u-1" },
 					_react2["default"].createElement(
 						"p",
 						null,
@@ -42172,7 +42172,7 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 				),
 				_react2["default"].createElement(
 					"div",
-					{ className: "welcome-text" },
+					{ className: "welcome-text pure-u-1" },
 					_react2["default"].createElement(
 						"p",
 						null,
@@ -42230,7 +42230,7 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 				),
 				_react2["default"].createElement(
 					"div",
-					{ className: "welcome-text" },
+					{ className: "welcome-text pure-u-1" },
 					_react2["default"].createElement(
 						"p",
 						null,
@@ -42265,7 +42265,7 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 				),
 				_react2["default"].createElement(
 					"div",
-					{ className: "welcome-text" },
+					{ className: "welcome-text pure-u-1" },
 					_react2["default"].createElement(
 						"p",
 						null,
@@ -42288,6 +42288,61 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 						),
 						"."
 					)
+				)
+			),
+			_react2["default"].createElement(
+				"div",
+				{ id: "welcomeConstellations", className: "welcome-container" },
+				_react2["default"].createElement("h4", null),
+				_react2["default"].createElement(
+					"div",
+					{ className: "welcome-text pure-u-1" },
+					_react2["default"].createElement("p", null),
+					_react2["default"].createElement("p", null)
+				)
+			),
+			_react2["default"].createElement(
+				"div",
+				{ id: "welcomeStars", className: "welcome-container" },
+				_react2["default"].createElement("h4", null),
+				_react2["default"].createElement(
+					"div",
+					{ className: "welcome-text pure-u-1" },
+					_react2["default"].createElement("p", null),
+					_react2["default"].createElement("p", null)
+				)
+			),
+			_react2["default"].createElement(
+				"div",
+				{ id: "welcomeSpacestations", className: "welcome-container" },
+				_react2["default"].createElement("h4", null),
+				_react2["default"].createElement(
+					"div",
+					{ className: "welcome-text pure-u-1" },
+					_react2["default"].createElement("p", null),
+					_react2["default"].createElement("p", null)
+				)
+			),
+			_react2["default"].createElement(
+				"div",
+				{ id: "welcomeSpacetelescopes", className: "welcome-container" },
+				_react2["default"].createElement("h4", null),
+				_react2["default"].createElement(
+					"div",
+					{ className: "welcome-text pure-u-1" },
+					_react2["default"].createElement("p", null),
+					_react2["default"].createElement("p", null)
+				)
+			),
+			_react2["default"].createElement(
+				"div",
+				{ id: "welcomeMissions", className: "welcome-container" },
+				_react2["default"].createElement("h4", null),
+				_react2["default"].createElement(
+					"div",
+					{ className: "welcome-text pure-u-1" },
+					_react2["default"].createElement("p", null),
+					_react2["default"].createElement("p", null)
 				)
 			)
 		)

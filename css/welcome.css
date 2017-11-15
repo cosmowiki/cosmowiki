@@ -6,8 +6,8 @@
 	padding: .25em; color: #eee; font-size: 1.25rem;
 	background: #aaf;
 }
-.welcome-text {padding: .5em; background: #eee;}
-.welcome-container p {padding: .5em 0; text-align: justify;}
+.welcome-text {background: #eee;}
+.welcome-text p {padding: .5em; text-align: justify;}
 
 #welcomeCosmowiki {background: #eee;}
 .welcome-special {padding: .25em;}
@@ -43,12 +43,15 @@
 	#welcomeSolsys {
 		background: url('/img/welcome/welcome_solsys.jpg') center / cover no-repeat;
 	}
+	#welcomeConstellations {
+		background: url('/img/welcome/welcome_constellations.jpg') center / cover no-repeat;
+	}
 	.welcome-container {
 		position: relative; height: 400px;
 	}
 	.welcome-container h4 {font-size: 1.5rem; background: rgba(0, 0, 255, .2);}
 	.welcome-text {
-		position: absolute; bottom: 0; padding: .5em;
+		position: absolute; bottom: 0;
 		background: rgba(255, 255, 255, .8);
 	}
 }
