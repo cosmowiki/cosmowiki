@@ -141,35 +141,35 @@ const WelcomeComponent = ({appUrl}) => {
 					<h4></h4>
 					<div className="welcome-text pure-u-1">
 						<p></p>
-						<p></p>
+						<p><a href="/constellations">Sternbilder</a></p>
 		 	 		</div>
 		 	 	</div>
 				<div id="welcomeStars" className="welcome-container">
 					<h4></h4>
 					<div className="welcome-text pure-u-1">
 						<p></p>
-						<p></p>
+						<p><a href="/stars">Sterne</a></p>
 		 	 		</div>
 		 	 	</div>
 				<div id="welcomeSpacestations" className="welcome-container">
 					<h4></h4>
 					<div className="welcome-text pure-u-1">
 						<p></p>
-						<p></p>
+						<p><a href="/space-stations">Weltraumstationen</a></p>
 		 	 		</div>
 		 	 	</div>
 				<div id="welcomeSpacetelescopes" className="welcome-container">
 					<h4></h4>
 					<div className="welcome-text pure-u-1">
 						<p></p>
-						<p></p>
+						<p><a href="/space-telescopes">Weltraumteleskope</a></p>
 		 	 		</div>
 		 	 	</div>
 				<div id="welcomeMissions" className="welcome-container">
 					<h4></h4>
 					<div className="welcome-text pure-u-1">
 						<p></p>
-						<p></p>
+						<p><a href="/missions">Missionen</a></p>
 		 	 		</div>
 		 	 	</div>
 			</div>
