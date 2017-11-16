@@ -42298,7 +42298,15 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 					"div",
 					{ className: "welcome-text pure-u-1" },
 					_react2["default"].createElement("p", null),
-					_react2["default"].createElement("p", null)
+					_react2["default"].createElement(
+						"p",
+						null,
+						_react2["default"].createElement(
+							"a",
+							{ href: "/constellations" },
+							"Sternbilder"
+						)
+					)
 				)
 			),
 			_react2["default"].createElement(
@@ -42309,7 +42317,15 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 					"div",
 					{ className: "welcome-text pure-u-1" },
 					_react2["default"].createElement("p", null),
-					_react2["default"].createElement("p", null)
+					_react2["default"].createElement(
+						"p",
+						null,
+						_react2["default"].createElement(
+							"a",
+							{ href: "/stars" },
+							"Sterne"
+						)
+					)
 				)
 			),
 			_react2["default"].createElement(
@@ -42320,7 +42336,15 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 					"div",
 					{ className: "welcome-text pure-u-1" },
 					_react2["default"].createElement("p", null),
-					_react2["default"].createElement("p", null)
+					_react2["default"].createElement(
+						"p",
+						null,
+						_react2["default"].createElement(
+							"a",
+							{ href: "/space-stations" },
+							"Weltraumstationen"
+						)
+					)
 				)
 			),
 			_react2["default"].createElement(
@@ -42331,7 +42355,15 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 					"div",
 					{ className: "welcome-text pure-u-1" },
 					_react2["default"].createElement("p", null),
-					_react2["default"].createElement("p", null)
+					_react2["default"].createElement(
+						"p",
+						null,
+						_react2["default"].createElement(
+							"a",
+							{ href: "/space-telescopes" },
+							"Weltraumteleskope"
+						)
+					)
 				)
 			),
 			_react2["default"].createElement(
@@ -42342,7 +42374,15 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 					"div",
 					{ className: "welcome-text pure-u-1" },
 					_react2["default"].createElement("p", null),
-					_react2["default"].createElement("p", null)
+					_react2["default"].createElement(
+						"p",
+						null,
+						_react2["default"].createElement(
+							"a",
+							{ href: "/missions" },
+							"Missionen"
+						)
+					)
 				)
 			)
 		)

@@ -46,6 +46,9 @@
 	#welcomeConstellations {
 		background: url('/img/welcome/welcome_constellations.jpg') center / cover no-repeat;
 	}
+	#welcomeStars {
+		background: url('/img/welcome/welcome_stars.jpg') center / cover no-repeat;
+	}
 	.welcome-container {
 		position: relative; height: 400px;
 	}
