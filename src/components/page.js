@@ -12,13 +12,13 @@ const PageComponent = ({children, appUrl}) => {
           </li>
           <li>
             <a id="toggleShariff" href="#"></a>
+            <ShareButtons />
           </li>
           <li>
             <a id="scrollDown" href="javascript:self.scrollTo(0,document.body.scrollHeight);"></a>
           </li>
         </ul>
       </div>
-      <ShareButtons />
       <a id="menuToggle" href="#"></a>
       <Header appUrl={appUrl} />
       {children}
