@@ -87,18 +87,9 @@ a:focus img, a:hover img, a:active img {}
 #sideButtons a#scrollDown {border-width: 0 0 1px 1px;}
 a#scrollUp:before {content: '\f102';}
 a#toggleShariff:before {content: '\f045';}
+a#toggleShariff:hover + .shariff {display: block;}
 a#scrollDown:before {content: '\f103';}
 
-/*	shariff */
-.shariff {
-	/*display: none;*/
-	position: fixed; right: 2.5em; bottom: 12%; bottom: calc(20% + 1px);
-	z-index: 10; padding: 36px 0; width: calc(100% - 2.5em); height: 36px;
-	letter-spacing: normal;
-	background: rgba(240, 240, 240, .95);
-	border: none;
-}
-.shariff .orientation-horizontal {width: 80%; margin: 0 auto;}
 
 /*	header ------------------------------------------------------------------ */
 header {
