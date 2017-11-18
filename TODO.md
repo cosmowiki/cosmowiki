@@ -3,6 +3,7 @@
 - [x] include shariff for private social linking
 - [x] global scroll-to-top-button like [this][1]
 - [x] create welcome page
+- [ ] make the npm run data-from-spreadsheet work with nix
 - [ ] make the a#toggleShariff in the div#sideButtons work
 - [ ] make the a#toggleSearch in the nav work for media query min-width: 64em
 - [ ] responsive nav menu with button on the right in header (look at the pure js)
