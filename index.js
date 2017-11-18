@@ -37220,7 +37220,8 @@ var PageComponent = function PageComponent(_ref) {
         _react2['default'].createElement(
           'li',
           null,
-          _react2['default'].createElement('a', { id: 'toggleShariff', href: '#' })
+          _react2['default'].createElement('a', { id: 'toggleShariff', href: '#' }),
+          _react2['default'].createElement(ShareButtons, null)
         ),
         _react2['default'].createElement(
           'li',
@@ -37229,7 +37230,6 @@ var PageComponent = function PageComponent(_ref) {
         )
       )
     ),
-    _react2['default'].createElement(ShareButtons, null),
     _react2['default'].createElement('a', { id: 'menuToggle', href: '#' }),
     _react2['default'].createElement(_header2['default'], { appUrl: appUrl }),
     children,
