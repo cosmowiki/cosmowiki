@@ -10,15 +10,10 @@
 .welcome-text p {padding: .5em; text-align: justify;}
 
 #welcomeCosmowiki {background: #eee;}
-.welcome-special {padding: .25em;}
-.welcome-special div {display: inline-block;}
+.welcome-special {padding: .5em;}
 .welcome-special a {
-	color: rgba(128, 128, 255, .7); font-size: 3.5em; font-weight: 900;
+	color: rgba(128, 128, 255, .7); font-size: 3.5rem; letter-spacing: .01rem;
 }
-.welcome-special div:nth-of-type(2n) {margin: -2em 0 0 2em;}
-.welcome-special div:nth-of-type(3n) {margin: -1.5em 0 0 2.5em;}
-.welcome-special div:nth-of-type(4n) {margin: -1em 0 0 3em;}
-.welcome-special div:nth-of-type(5n) {margin: -2.5em 0 0 1.5em;}
 .welcome-special a:focus,
 .welcome-special a:hover,
 .welcome-special a:active {color: rgba(221, 0, 0, .7);}
@@ -48,6 +43,9 @@
 	}
 	#welcomeStars {
 		background: url('/img/welcome/welcome_stars.jpg') center / cover no-repeat;
+	}
+	#welcomeSpacestations {
+		background: url('/img/welcome/welcome_spacestations.jpg') center / cover no-repeat;
 	}
 	.welcome-container {
 		position: relative; height: 400px;
