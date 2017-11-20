@@ -4,12 +4,9 @@
 - [x] global scroll-to-top-button like [this][1]
 - [x] create welcome page
 - [x] make the npm run data-from-spreadsheet work with nix
-- [ ] make the a#toggleShariff in the div#sideButtons work
-- [ ] make the a#toggleSearch in the nav work for media query min-width: 64em
-- [ ] responsive nav menu with button on the right in header (look at the pure js)
 - [ ] make the map (places) work
 - [ ] make the sorters and filters work (filters with FilterRow as in stars)
-- [ ] let the toggle switches for sort and filter hide each other onClick and :hover on small screens
+- [ ] let the toggle switches for sort and filter hide each other onClick / :hover on small screens
 - [ ] open the a href={item.name} in an overlay-vcard or in a separate page
 
 # nice to have
