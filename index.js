@@ -41972,64 +41972,78 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 			{ id: "welcomeArea", className: "pure-u-1" },
 			_react2["default"].createElement(
 				"div",
-				{ id: "welcomeCosmowiki", className: "welcome-container" },
+				{ id: "welcomeCosmowiki" },
 				_react2["default"].createElement(
 					"div",
-					{ className: "welcome-special" },
+					{ className: "welcome-cosmowiki" },
 					_react2["default"].createElement(
-						"a",
-						{ href: "#welcomeEvents" },
-						"4 2 3  E r e i g n i s s e "
-					),
-					_react2["default"].createElement(
-						"a",
-						{ href: "#welcomeScientists" },
-						" 6 3 8  W i s s e n s c h a f t l e r "
-					),
-					_react2["default"].createElement(
-						"a",
-						{ href: "#welcomeAstronauts" },
-						" 3 8 7  R a u m f a h r e r "
-					),
-					_react2["default"].createElement(
-						"a",
-						{ href: "#welcomePlaces" },
-						" 3 6 5  O r t e "
-					),
-					_react2["default"].createElement(
-						"a",
-						{ href: "#welcomeSolsys" },
-						" 2 2 6  H i m m e l s k ö r p e r "
-					),
-					_react2["default"].createElement(
-						"a",
-						{ href: "#welcomeConstellations" },
-						" 8 8  S t e r n b i l d e r "
-					),
-					_react2["default"].createElement(
-						"a",
-						{ href: "#welcomeStars" },
-						" 4 4 6  S t e r n e "
-					),
-					_react2["default"].createElement(
-						"a",
-						{ href: "#welcomeSpacestations" },
-						" 2 2  R a u m s t a t i o n e n "
-					),
-					_react2["default"].createElement(
-						"a",
-						{ href: "#welcomeSpacetelescopes" },
-						" 9 8  W e l t r a u m t e l e s k o p e "
-					),
-					_react2["default"].createElement(
-						"a",
-						{ href: "#welcomeSpacewalkes" },
-						" 3 8 9  W e l t r a u m a u s s t i e g e "
-					),
-					_react2["default"].createElement(
-						"a",
-						{ href: "#welcomeMissions" },
-						" 7 4 2  M i s s i o n e n"
+						"p",
+						null,
+						_react2["default"].createElement(
+							"a",
+							{ href: "#welcomeEvents" },
+							"423 Ereignisse"
+						),
+						" ",
+						_react2["default"].createElement(
+							"a",
+							{ href: "#welcomeScientists" },
+							"638 Wissenschaftler"
+						),
+						" ",
+						_react2["default"].createElement(
+							"a",
+							{ href: "#welcomeAstronauts" },
+							"387 Raumfahrer"
+						),
+						" ",
+						_react2["default"].createElement(
+							"a",
+							{ href: "#welcomePlaces" },
+							"365 Orte"
+						),
+						" ",
+						_react2["default"].createElement(
+							"a",
+							{ href: "#welcomeSolsys" },
+							"226 Himmelskörper"
+						),
+						" ",
+						_react2["default"].createElement(
+							"a",
+							{ href: "#welcomeConstellations" },
+							"88 Sternbilder"
+						),
+						" ",
+						_react2["default"].createElement(
+							"a",
+							{ href: "#welcomeStars" },
+							"446 Sterne"
+						),
+						" ",
+						_react2["default"].createElement(
+							"a",
+							{ href: "#welcomeSpacestations" },
+							"22 Raumstationen"
+						),
+						" ",
+						_react2["default"].createElement(
+							"a",
+							{ href: "#welcomeSpacetelescopes" },
+							"98 Weltraumteleskope"
+						),
+						" ",
+						_react2["default"].createElement(
+							"a",
+							{ href: "#welcomeSpacewalkes" },
+							"389 Weltraumausstiege"
+						),
+						" ",
+						_react2["default"].createElement(
+							"a",
+							{ href: "#welcomeMissions" },
+							"742 Missionen"
+						)
 					)
 				)
 			),
