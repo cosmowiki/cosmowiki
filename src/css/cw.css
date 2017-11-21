@@ -75,7 +75,9 @@ a:focus img, a:hover img, a:active img {}
 #sideButtons {position: fixed; right: 0; bottom: 12%;	z-index: 10; width: 2.5em;}
 
 #sideButtons li {background-color: #ddd;}
-#sideButtons li:hover {background-color: #eee;}
+#sideButtons li:focus,
+#sideButtons li:hover,
+#sideButtons li:active {background-color: #eee;}
 
 #sideButtons a {
 	display: block; line-height: 1.5em; font-size: 1.5rem; font-family: FontAwesome;
@@ -87,7 +89,9 @@ a:focus img, a:hover img, a:active img {}
 #sideButtons li#scrollDown {border-width: 0 0 1px 1px;}
 li#scrollUp a:before {content: '\f102';}
 li#toggleShariff a#toggleShariffLink:before {content: '\f045';}
-li#toggleShariff:hover div.shariff {display: block;}
+li#toggleShariff:focus,
+li#toggleShariff:hover div.shariff,
+li#toggleShariff:active div.shariff {display: block;}
 li#scrollDown a:before {content: '\f103';}
 
 
@@ -285,10 +289,18 @@ div.summary-img.width-25,
 #sortArea, #filterArea {display: none;}
 #controlArea a {display: inline; margin: .2em;}
 
+#sort:focus a.toggle-sort,
 #sort:hover a.toggle-sort,
-#filter:hover a.toggle-filter {display: none;}
+#sort:active a.toggle-sort,
+#filter:focus a.toggle-filter,
+#filter:hover a.toggle-filter,
+#filter:active a.toggle-filter {display: none;}
+#sort:focus #sortArea,
 #sort:hover #sortArea,
-#filter:hover #filterArea {display: block;}
+#sort:active #sortArea,
+#filter:focus #filterArea,
+#filter:hover #filterArea,
+#filter:active #filterArea {display: block;}
 
 #controlArea label, #controlArea form {display: inline; margin: 0 .1em;}
 #filterArea form {text-align: right;}
