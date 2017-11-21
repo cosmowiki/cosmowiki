@@ -13,7 +13,7 @@ const WelcomeComponent = ({appUrl}) => {
 				<div id="welcomeCosmowiki">
 					<div className="welcome-cosmowiki">
 						<p>
-							<a href="#welcomeEvents">423 Ereignisse</a> <a href="#welcomeScientists">638 Wissenschaftler</a> <a href="#welcomeAstronauts">387 Raumfahrer</a> <a href="#welcomePlaces">365 Orte</a> <a href="#welcomeSolsys">226 Himmelskörper</a> <a href="#welcomeConstellations">88 Sternbilder</a> <a href="#welcomeStars">446 Sterne</a> <a href="#welcomeSpacestations">22 Raumstationen</a> <a href="#welcomeSpacetelescopes">98 Weltraumteleskope</a> <a href="#welcomeSpacewalkes">389 Weltraumausstiege</a> <a href="#welcomeMissions">742 Missionen</a>
+							<a href="#welcomeEvents">4 2 3  E r e i g n i s s e </a> <a href="#welcomeScientists">6 3 8  W i s s e n s c h a f t l e r </a> <a href="#welcomeAstronauts">3 8 7  R a u m f a h r e r </a> <a href="#welcomePlaces">3 6 5  O r t e </a> <a href="#welcomeSolsys">2 2 6  H i m m e l s k ö r p e r </a> <a href="#welcomeConstellations">8 8  S t e r n b i l d e r </a> <a href="#welcomeStars">4 4 6  S t e r n e </a> <a href="#welcomeSpacestations">2 2  R a u m s t a t i o n e n </a> <a href="#welcomeSpacetelescopes">9 8  W e l t r a u m t e l e s k o p e </a> <a href="#welcomeSpacewalkes">3 8 9  W e l t r a u m a u s s t i e g e </a> <a href="#welcomeMissions">7 4 2  M i s s i o n e n</a>
 						</p>
 					</div>
 				</div>
