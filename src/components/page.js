@@ -7,15 +7,15 @@ const PageComponent = ({children, appUrl}) => {
     <div id="wrapper" className="pure-g">
       <div id="sideButtons">
         <ul>
-          <li>
-            <a id="scrollUp" href="javascript:self.scrollTo(0,0);"></a>
+          <li id="scrollUp">
+            <a href="javascript:self.scrollTo(0,0);"></a>
           </li>
-          <li>
-            <a id="toggleShariff" href="#"></a>
+          <li id="toggleShariff">
+            <a id="toggleShariffLink" href="#"></a>
             <ShareButtons />
           </li>
-          <li>
-            <a id="scrollDown" href="javascript:self.scrollTo(0,document.body.scrollHeight);"></a>
+          <li id="scrollDown">
+            <a href="javascript:self.scrollTo(0,document.body.scrollHeight);"></a>
           </li>
         </ul>
       </div>
