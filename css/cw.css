@@ -101,17 +101,19 @@ header {
 	box-shadow: 0 0 5px rgba(0, 0, 0, .5);
 }
 
-/*	logo */
-#brand {min-width: 40px;}
+/*	brand & logo */
+#brand {display: none;}
 #brand a:before {
-	content: url(/img/cw_icon_30px.jpg); position: relative; top: 2px; left: 2px;
+	content: url(/img/cw_name_30px.jpg); position: relative; top: 2px; left: 2px;
+}
+#logo {position: absolute; top: 0; right: 0;}
+#logo a:before {
+	content: url(/img/cw_icon_30px.jpg); position: relative; top: 2px; right: 2px;
 }
 
-/*	nav */
-#navToggle {position: absolute; top: 0; right: 0; padding: 5px;}
-#navToggle a:before {
-	font-family: FontAwesome; font-size: 1.5rem; content: '\f0c9';
-}
+/*	primary navigation */
+#primaryNav,
+nav.pure-menu-horizontal {display: none;}
 
 .pure-menu-link:focus,
 .pure-menu-link:hover,
@@ -120,11 +122,22 @@ a#welcomeLink.pure-menu-link:before {font-family: FontAwesome; content: '\f015';
 a#toggleSearch.pure-menu-link:before {font-family: FontAwesome; content: '\f002';}
 .pure-menu-children {border-top: 1px solid #ddd;}
 
-nav.pure-menu-horizontal {display: none;}
 nav ul ul {box-shadow: 0 5px 5px rgba(0, 0, 0, .5);}
 nav ul ul li {text-align: left;}
 nav ul ul li a {background: #fff; border-bottom: 1px solid #ddd;}
 nav ul ul li:last-child a {border-bottom: none;}
+
+/*	secondary navigation */
+#secondaryNavContainer {position: absolute; top: 0; left: 0;}
+#secondaryNavToggle {padding: 5px;}
+#secondaryNavToggle > a:before {
+	font-family: FontAwesome; font-size: 1.5rem; content: '\f0c9';
+}
+#secondaryNav {display: none; position: absolute; top: 35px; left: 0;}
+#secondaryNavToggle:focus #secondaryNav,
+#secondaryNavToggle:hover #secondaryNav,
+#secondaryNavToggle:active #secondaryNav {display: block;}
+#secondaryNav li {background: #fff;}
 
 /*	search */
 #searchArea {
@@ -383,9 +396,6 @@ footer {
 
 @media only screen and (min-width: 48em) {
 	.shariff .orientation-horizontal {width: 60%; margin: 0 auto;}
-	#brand a:before {
-		content: url(/img/cw_name_30px.jpg); position: relative; top: 2px; left: 2px;
-	}
 	#searchArea {left: 25%;}
 	#searchArea input {width: 50%;}
 
@@ -404,6 +414,7 @@ footer {
 }
 
 @media only screen and (min-width: 64em) {
+	#brand {display: inline-block;}
 	.shariff .orientation-horizontal {width: 60%; margin: 0 auto;}
 
 	main {margin-top: 50px;}
@@ -412,8 +423,10 @@ footer {
 	#siteTitle,
 	#pageSubMenu {margin-bottom: 15px;}
 
-	#searchArea {display: none;}
+	#searchArea,
+	#secondaryNavContainer,
 	#navToggle {display: none;}
+	#primaryNav {display: inline-block;}
 	nav.pure-menu-horizontal {display: block;}
 
 	#siteTitle,

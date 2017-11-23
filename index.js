@@ -35896,15 +35896,65 @@ var Header = function Header(_ref) {
     { className: 'pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { id: 'brand', className: 'pure-u-1-6 pure-u-md-1-4 pure-u-lg-1-6' },
+      { id: 'brand', className: 'pure-u-lg-1-6' },
       _react2['default'].createElement('a', { href: '/', title: 'CosmoWiki.de', rel: 'home' })
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'secondaryNavContainer', className: 'pure-u-1-6 pure-u-md-1-4' },
+      _react2['default'].createElement(
+        'div',
+        { id: 'secondaryNavToggle', className: 'pure-u-1' },
+        _react2['default'].createElement('a', { href: '#', title: 'Navigation' }),
+        _react2['default'].createElement(
+          'nav',
+          { id: 'secondaryNav', className: 'pure-u-1' },
+          _react2['default'].createElement(
+            'ul',
+            { className: 'pure-u-1' },
+            _react2['default'].createElement(
+              'li',
+              { className: 'pure-menu-item' },
+              _react2['default'].createElement(
+                'a',
+                { className: 'pure-menu-link menu-item chronicle', href: appUrl.eventsSite() },
+                'Chronik'
+              )
+            ),
+            _react2['default'].createElement(
+              'li',
+              { className: 'pure-menu-item pure-menu-has-children pure-menu-allow-hover' },
+              _react2['default'].createElement(
+                'a',
+                { className: 'pure-menu-link menu-item persons', href: appUrl.peopleSite() },
+                'Personen'
+              ),
+              _react2['default'].createElement(
+                'ul',
+                { className: 'pure-menu-children sub-menu persons' },
+                [{ url: appUrl.scientistsSite(), name: 'Wissenschaftler' }, { url: appUrl.astronautsSite(), name: 'Raumfahrer' }].map(function (link) {
+                  return _react2['default'].createElement(
+                    'li',
+                    { key: link.url, className: 'pure-menu-item' },
+                    _react2['default'].createElement(
+                      'a',
+                      { className: 'pure-menu-link sub-menu-item persons', href: link.url },
+                      link.name
+                    )
+                  );
+                })
+              )
+            )
+          )
+        )
+      )
     ),
     _react2['default'].createElement(_navigation2['default'], { appUrl: appUrl }),
     _react2['default'].createElement(_search2['default'], null),
     _react2['default'].createElement(
       'div',
-      { id: 'navToggle', className: 'pure-u-1-6 pure-u-md-1-4 pure-u-lg-1-6 right' },
-      _react2['default'].createElement('a', { href: '#', title: 'Navigation' })
+      { id: 'logo', className: 'pure-u-md-1-4 pure-u-lg-1-6 right' },
+      _react2['default'].createElement('a', { href: '/', title: 'CosmoWiki.de', rel: 'home' })
     )
   );
 };
@@ -36628,7 +36678,7 @@ var Navigation = function Navigation(_ref) {
 
   return _react2["default"].createElement(
     "div",
-    { id: "navContainer", className: "pure-u-lg-2-3" },
+    { id: "primaryNav", className: "pure-u-lg-2-3" },
     _react2["default"].createElement(
       "nav",
       { className: "pure-menu pure-menu-horizontal center" },
@@ -37230,7 +37280,6 @@ var PageComponent = function PageComponent(_ref) {
         )
       )
     ),
-    _react2['default'].createElement('a', { id: 'menuToggle', href: '#' }),
     _react2['default'].createElement(_header2['default'], { appUrl: appUrl }),
     children,
     _react2['default'].createElement(_footer2['default'], { appUrl: appUrl })
