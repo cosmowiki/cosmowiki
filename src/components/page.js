@@ -19,7 +19,6 @@ const PageComponent = ({children, appUrl}) => {
           </li>
         </ul>
       </div>
-      <a id="menuToggle" href="#"></a>
       <Header appUrl={appUrl} />
       {children}
       <Footer appUrl={appUrl} />
