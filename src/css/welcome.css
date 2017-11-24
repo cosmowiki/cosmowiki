@@ -9,7 +9,7 @@
 .welcome-text {background: #eee;}
 .welcome-text p {padding: .5em; text-align: justify;}
 
-/*#welcomeCosmowiki {background: #eee;}*/
+#welcomeCosmowiki {background: #eee;}
 .welcome-cosmowiki p {
 	width: 98%; padding: 1%;
 	word-wrap: break-word; white-space: pre-line;
