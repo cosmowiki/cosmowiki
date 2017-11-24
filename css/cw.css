@@ -111,8 +111,25 @@ header {
 	content: url(/img/cw_icon_30px.jpg); position: relative; top: 2px; right: 2px;
 }
 
-/*	primary navigation */
-#primaryNav,
+/*	mobile navigation */
+#mobileNavContainer {position: absolute; top: 0; left: 0;}
+#mobileNavToggle {padding: 5px;}
+#mobileNavToggle > a:before {
+	font-family: FontAwesome; font-size: 1.5rem; content: '\f0c9';
+}
+#mobileNav {
+	display: none; position: absolute; top: 34px; left: 0;
+}
+#mobileNavToggle:focus #mobileNav,
+#mobileNavToggle:hover #mobileNav,
+#mobileNavToggle:active #mobileNav {display: block;}
+#mobileNav ul {
+	box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+#mobileNav li {background: #fff;}
+
+/*	desktop navigation */
+#desktopNavContainer,
 nav.pure-menu-horizontal {display: none;}
 
 .pure-menu-link:focus,
@@ -122,22 +139,10 @@ a#welcomeLink.pure-menu-link:before {font-family: FontAwesome; content: '\f015';
 a#toggleSearch.pure-menu-link:before {font-family: FontAwesome; content: '\f002';}
 .pure-menu-children {border-top: 1px solid #ddd;}
 
-nav ul ul {box-shadow: 0 5px 5px rgba(0, 0, 0, .5);}
-nav ul ul li {text-align: left;}
-nav ul ul li a {background: #fff; border-bottom: 1px solid #ddd;}
-nav ul ul li:last-child a {border-bottom: none;}
-
-/*	secondary navigation */
-#secondaryNavContainer {position: absolute; top: 0; left: 0;}
-#secondaryNavToggle {padding: 5px;}
-#secondaryNavToggle > a:before {
-	font-family: FontAwesome; font-size: 1.5rem; content: '\f0c9';
-}
-#secondaryNav {display: none; position: absolute; top: 35px; left: 0;}
-#secondaryNavToggle:focus #secondaryNav,
-#secondaryNavToggle:hover #secondaryNav,
-#secondaryNavToggle:active #secondaryNav {display: block;}
-#secondaryNav li {background: #fff;}
+#desktopNav ul ul {box-shadow: 0 5px 5px rgba(0, 0, 0, .5);}
+#desktopNav ul ul li {text-align: left;}
+#desktopNav ul ul li a {background: #fff; border-bottom: 1px solid #ddd;}
+#desktopNav ul ul li:last-child a {border-bottom: none;}
 
 /*	search */
 #searchArea {
@@ -424,9 +429,9 @@ footer {
 	#pageSubMenu {margin-bottom: 15px;}
 
 	#searchArea,
-	#secondaryNavContainer,
+	#mobileNavContainer,
 	#navToggle {display: none;}
-	#primaryNav {display: inline-block;}
+	#desktopNavContainer {display: inline-block;}
 	nav.pure-menu-horizontal {display: block;}
 
 	#siteTitle,
