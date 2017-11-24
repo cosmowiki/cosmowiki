@@ -2,8 +2,8 @@ import React from 'react';
 
 const Navigation = ({ appUrl }) => {
   return (
-    <div id="primaryNav" className="pure-u-lg-2-3">
-      <nav className="pure-menu pure-menu-horizontal center">
+    <div id="desktopNavContainer" className="pure-u-lg-2-3">
+      <nav id="desktopNav" className="pure-menu pure-menu-horizontal center">
         <ul id="menu" className="pure-menu-list">
           <li className="pure-menu-item">
             <a id="welcomeLink" className="pure-menu-link menu-item" href={appUrl.welcomeSite()}></a>
