@@ -55,6 +55,9 @@
 	#welcomeSpacetelescopes {
 		background: url('/img/welcome/welcome_spacetelescopes.jpg') center / cover no-repeat;
 	}
+	#welcomeMissions {
+		background: url('/img/welcome/welcome_missions.jpg') center / cover no-repeat;
+	}
 	.welcome-container {
 		position: relative; height: 400px;
 	}
