@@ -1,7 +1,6 @@
 .shariff {
 	display: none;
-	position: fixed; right: 2.5em; bottom: 12%; bottom: calc(20% + 1px);
-	z-index: 10; padding: 36px 0; width: calc(100% - 2.5em); height: 36px;
+	z-index: 10; padding: 36px 0; height: 36px;
 	letter-spacing: normal;
 	background: rgba(240, 240, 240, .95);
 	border: none;
