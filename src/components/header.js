@@ -1,6 +1,5 @@
 import React from 'react'
 import Navigation from './navigation'
-import Search from './search'
 
 const Header = ({appUrl}) => {
   return (
@@ -8,10 +7,10 @@ const Header = ({appUrl}) => {
       <div id="brand" className="pure-u-lg-1-6">
         <a href="/" title="CosmoWiki.de" rel="home"></a>
       </div>
-      <div id="mobileNavContainer" className="pure-u-1-2">
-        <div id="mobileNavToggle" className="pure-u-1">
+      <div id="mobileMenuContainer">
+        <div id="mobileMenuToggle">
           <a href="#" title="Navigation"></a>
-          <nav id="mobileNav" className="pure-menu custom-restricted-width">
+          <nav id="mobileMenu" className="pure-menu custom-restricted-width">
             <ul className="pure-u-1">
               <li className="pure-menu-item">
                 <a className="pure-menu-link menu-item chronicle" href={appUrl.eventsSite()}>Chronik</a>
@@ -89,10 +88,6 @@ const Header = ({appUrl}) => {
         </div>
       </div>
       <Navigation appUrl={appUrl} />
-      <Search/>
-      <div id="logo" className="pure-u-md-1-4 pure-u-lg-1-6 right">
-        <a href="/" title="CosmoWiki.de" rel="home"></a>
-      </div>
     </header>
   )
 };
