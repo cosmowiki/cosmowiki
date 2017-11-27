@@ -10,10 +10,6 @@ const PageComponent = ({children, appUrl}) => {
           <li id="scrollUp">
             <a href="javascript:self.scrollTo(0,0);"></a>
           </li>
-          <li id="toggleShariff">
-            <a id="toggleShariffLink" href="#"></a>
-            <ShareButtons />
-          </li>
           <li id="scrollDown">
             <a href="javascript:self.scrollTo(0,document.body.scrollHeight);"></a>
           </li>
@@ -27,17 +23,3 @@ const PageComponent = ({children, appUrl}) => {
 };
 
 export default PageComponent;
-
-class ShareButtons extends React.Component {
-    shouldComponentUpdate() {
-        return false; // we want shariff to control this component, so dont react to updates ;) (fingers crossed)
-    }
-    render() {
-        return (
-          <div className="shariff pure-u-1"
-          data-services="twitter, facebook, googleplus, info"
-          data-twitter-via="cosmowiki"
-          />
-      );
-    }
-}
