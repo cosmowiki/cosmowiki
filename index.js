@@ -35884,10 +35884,6 @@ var _navigation = require('./navigation');
 
 var _navigation2 = _interopRequireDefault(_navigation);
 
-var _search = require('./search');
-
-var _search2 = _interopRequireDefault(_search);
-
 var Header = function Header(_ref) {
   var appUrl = _ref.appUrl;
 
@@ -35901,14 +35897,14 @@ var Header = function Header(_ref) {
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'mobileNavContainer', className: 'pure-u-1-2' },
+      { id: 'mobileMenuContainer' },
       _react2['default'].createElement(
         'div',
-        { id: 'mobileNavToggle', className: 'pure-u-1' },
+        { id: 'mobileMenuToggle' },
         _react2['default'].createElement('a', { href: '#', title: 'Navigation' }),
         _react2['default'].createElement(
           'nav',
-          { id: 'mobileNav', className: 'pure-menu custom-restricted-width' },
+          { id: 'mobileMenu', className: 'pure-menu custom-restricted-width' },
           _react2['default'].createElement(
             'ul',
             { className: 'pure-u-1' },
@@ -36030,20 +36026,14 @@ var Header = function Header(_ref) {
         )
       )
     ),
-    _react2['default'].createElement(_navigation2['default'], { appUrl: appUrl }),
-    _react2['default'].createElement(_search2['default'], null),
-    _react2['default'].createElement(
-      'div',
-      { id: 'logo', className: 'pure-u-md-1-4 pure-u-lg-1-6 right' },
-      _react2['default'].createElement('a', { href: '/', title: 'CosmoWiki.de', rel: 'home' })
-    )
+    _react2['default'].createElement(_navigation2['default'], { appUrl: appUrl })
   );
 };
 
 exports['default'] = Header;
 module.exports = exports['default'];
 
-},{"./navigation":437,"./search":443,"react":454}],436:[function(require,module,exports){
+},{"./navigation":437,"react":454}],436:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -36742,163 +36732,217 @@ var PadLink = function PadLink(_ref4) {
 module.exports = exports['default'];
 
 },{"./chunks/summary":431,"./notes":438,"react":454}],437:[function(require,module,exports){
-"use strict";
+'use strict';
 
-Object.defineProperty(exports, "__esModule", {
+Object.defineProperty(exports, '__esModule', {
   value: true
 });
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _search = require('./search');
+
+var _search2 = _interopRequireDefault(_search);
+
 var Navigation = function Navigation(_ref) {
   var appUrl = _ref.appUrl;
 
-  return _react2["default"].createElement(
-    "div",
-    { id: "desktopNavContainer", className: "pure-u-lg-2-3" },
-    _react2["default"].createElement(
-      "nav",
-      { id: "desktopNav", className: "pure-menu pure-menu-horizontal center" },
-      _react2["default"].createElement(
-        "ul",
-        { id: "menu", className: "pure-menu-list" },
-        _react2["default"].createElement(
-          "li",
-          { className: "pure-menu-item" },
-          _react2["default"].createElement("a", { id: "welcomeLink", className: "pure-menu-link menu-item", href: appUrl.welcomeSite() })
-        ),
-        _react2["default"].createElement(
-          "li",
-          { className: "pure-menu-item" },
-          _react2["default"].createElement(
-            "a",
-            { className: "pure-menu-link menu-item chronicle", href: appUrl.eventsSite() },
-            "Chronik"
+  return _react2['default'].createElement(
+    'div',
+    { id: 'desktopMenus', className: 'pure-u-lg-5-6' },
+    _react2['default'].createElement(
+      'div',
+      { id: 'desktopMenu', className: 'pure-menu pure-menu-horizontal pure-u-lg-4-5 center' },
+      _react2['default'].createElement(
+        'ul',
+        { className: 'pure-menu-list' },
+        _react2['default'].createElement(
+          'li',
+          { className: 'pure-menu-item' },
+          _react2['default'].createElement(
+            'a',
+            { className: 'pure-menu-link menu-item chronicle', href: appUrl.eventsSite() },
+            'Chronik'
           )
         ),
-        _react2["default"].createElement(
-          "li",
-          { className: "pure-menu-item pure-menu-has-children pure-menu-allow-hover" },
-          _react2["default"].createElement(
-            "a",
-            { className: "pure-menu-link menu-item persons", href: appUrl.peopleSite() },
-            "Personen"
+        _react2['default'].createElement(
+          'li',
+          { className: 'pure-menu-item pure-menu-has-children pure-menu-allow-hover' },
+          _react2['default'].createElement(
+            'a',
+            { className: 'pure-menu-link menu-item persons', href: appUrl.peopleSite() },
+            'Personen'
           ),
-          _react2["default"].createElement(
-            "ul",
-            { className: "pure-menu-children sub-menu persons" },
+          _react2['default'].createElement(
+            'ul',
+            { className: 'pure-menu-children sub-menu persons' },
             [{ url: appUrl.scientistsSite(), name: 'Wissenschaftler' }, { url: appUrl.astronautsSite(), name: 'Raumfahrer' }].map(function (link) {
-              return _react2["default"].createElement(
-                "li",
-                { key: link.url, className: "pure-menu-item" },
-                _react2["default"].createElement(
-                  "a",
-                  { className: "pure-menu-link sub-menu-item persons", href: link.url },
+              return _react2['default'].createElement(
+                'li',
+                { key: link.url, className: 'pure-menu-item' },
+                _react2['default'].createElement(
+                  'a',
+                  { className: 'pure-menu-link sub-menu-item persons', href: link.url },
                   link.name
                 )
               );
             })
           )
         ),
-        _react2["default"].createElement(
-          "li",
-          { className: "pure-menu-item" },
-          _react2["default"].createElement(
-            "a",
-            { className: "pure-menu-link menu-item places", href: "places.php" },
-            "Orte"
+        _react2['default'].createElement(
+          'li',
+          { className: 'pure-menu-item' },
+          _react2['default'].createElement(
+            'a',
+            { className: 'pure-menu-link menu-item places', href: 'places.php' },
+            'Orte'
           )
         ),
-        _react2["default"].createElement(
-          "li",
-          { className: "pure-menu-item pure-menu-has-children pure-menu-allow-hover" },
-          _react2["default"].createElement(
-            "a",
-            { className: "pure-menu-link menu-item objects", href: appUrl.objectsSite() },
-            "Objekte"
+        _react2['default'].createElement(
+          'li',
+          { className: 'pure-menu-item pure-menu-has-children pure-menu-allow-hover' },
+          _react2['default'].createElement(
+            'a',
+            { className: 'pure-menu-link menu-item objects', href: appUrl.objectsSite() },
+            'Objekte'
           ),
-          _react2["default"].createElement(
-            "ul",
-            { className: "pure-menu-children sub-menu objects" },
+          _react2['default'].createElement(
+            'ul',
+            { className: 'pure-menu-children sub-menu objects' },
             [{ url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
-              return _react2["default"].createElement(
-                "li",
-                { key: link.url, className: "pure-menu-item" },
-                _react2["default"].createElement(
-                  "a",
-                  { className: "pure-menu-link sub-menu-item objects", href: link.url },
+              return _react2['default'].createElement(
+                'li',
+                { key: link.url, className: 'pure-menu-item' },
+                _react2['default'].createElement(
+                  'a',
+                  { className: 'pure-menu-link sub-menu-item objects', href: link.url },
                   link.name
                 )
               );
             })
           )
         ),
-        _react2["default"].createElement(
-          "li",
-          { className: "pure-menu-item pure-menu-has-children pure-menu-allow-hover" },
-          _react2["default"].createElement(
-            "a",
-            { className: "pure-menu-link menu-item astronomy", href: appUrl.astronomySite() },
-            "Astronomie"
+        _react2['default'].createElement(
+          'li',
+          { className: 'pure-menu-item pure-menu-has-children pure-menu-allow-hover' },
+          _react2['default'].createElement(
+            'a',
+            { className: 'pure-menu-link menu-item astronomy', href: appUrl.astronomySite() },
+            'Astronomie'
           ),
-          _react2["default"].createElement(
-            "ul",
-            { className: "pure-menu-children sub-menu astronomy" },
+          _react2['default'].createElement(
+            'ul',
+            { className: 'pure-menu-children sub-menu astronomy' },
             [{ url: appUrl.scientistsSite(), name: 'Wissenschaftler' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
-              return _react2["default"].createElement(
-                "li",
-                { key: link.url, className: "pure-menu-item" },
-                _react2["default"].createElement(
-                  "a",
-                  { className: "pure-menu-link sub-menu-item astronomy", href: link.url },
+              return _react2['default'].createElement(
+                'li',
+                { key: link.url, className: 'pure-menu-item' },
+                _react2['default'].createElement(
+                  'a',
+                  { className: 'pure-menu-link sub-menu-item astronomy', href: link.url },
                   link.name
                 )
               );
             })
           )
         ),
-        _react2["default"].createElement(
-          "li",
-          { className: "pure-menu-item pure-menu-has-children pure-menu-allow-hover" },
-          _react2["default"].createElement(
-            "a",
-            { className: "pure-menu-link menu-item spaceflight", href: appUrl.spaceflightSite() },
-            "Raumfahrt"
+        _react2['default'].createElement(
+          'li',
+          { className: 'pure-menu-item pure-menu-has-children pure-menu-allow-hover' },
+          _react2['default'].createElement(
+            'a',
+            { className: 'pure-menu-link menu-item spaceflight', href: appUrl.spaceflightSite() },
+            'Raumfahrt'
           ),
-          _react2["default"].createElement(
-            "ul",
-            { className: "pure-menu-children sub-menu spaceflight" },
+          _react2['default'].createElement(
+            'ul',
+            { className: 'pure-menu-children sub-menu spaceflight' },
             [{ url: appUrl.astronautsSite(), name: 'Raumfahrer' }, { url: appUrl.missionsSite(), name: 'Missionen' }, { url: appUrl.spacewalksSite(), name: 'Weltraumausstiege' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
-              return _react2["default"].createElement(
-                "li",
-                { key: link.url, className: "pure-menu-item" },
-                _react2["default"].createElement(
-                  "a",
-                  { className: "pure-menu-link sub-menu-item spaceflight", href: link.url },
+              return _react2['default'].createElement(
+                'li',
+                { key: link.url, className: 'pure-menu-item' },
+                _react2['default'].createElement(
+                  'a',
+                  { className: 'pure-menu-link sub-menu-item spaceflight', href: link.url },
                   link.name
                 )
               );
             })
           )
+        )
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'desktopMenu2', className: 'pure-menu pure-menu-horizontal pure-u-lg-1-5 right' },
+      _react2['default'].createElement(
+        'ul',
+        { className: 'pure-menu-list' },
+        _react2['default'].createElement(
+          'li',
+          { id: 'toggleSearch', className: 'pure-menu-item pure-menu-allow-hover' },
+          _react2['default'].createElement('a', { id: 'toggleSearchLink', className: 'pure-menu-link menu-item', href: '#' }),
+          _react2['default'].createElement(_search2['default'], null)
         ),
-        _react2["default"].createElement(
-          "li",
-          { className: "pure-menu-item search" },
-          _react2["default"].createElement("a", { id: "toggleSearch", className: "pure-menu-link menu-item", href: "#" })
+        _react2['default'].createElement(
+          'li',
+          { id: 'toggleShariff', className: 'pure-menu-item  pure-menu-allow-hover' },
+          _react2['default'].createElement('a', { id: 'toggleShariffLink', className: 'pure-menu-link menu-item', href: '#' }),
+          _react2['default'].createElement(ShareButtons, null)
+        ),
+        _react2['default'].createElement(
+          'li',
+          { id: 'logo', className: 'pure-menu-item' },
+          _react2['default'].createElement('a', { href: '/', title: 'CosmoWiki.de', rel: 'home', className: 'pure-menu-link menu-item' })
         )
       )
     )
   );
 };
 
-exports["default"] = Navigation;
-module.exports = exports["default"];
+var ShareButtons = (function (_React$Component) {
+  _inherits(ShareButtons, _React$Component);
 
-},{"react":454}],438:[function(require,module,exports){
+  function ShareButtons() {
+    _classCallCheck(this, ShareButtons);
+
+    _get(Object.getPrototypeOf(ShareButtons.prototype), 'constructor', this).apply(this, arguments);
+  }
+
+  _createClass(ShareButtons, [{
+    key: 'shouldComponentUpdate',
+    value: function shouldComponentUpdate() {
+      return false; // we want shariff to control this component, so dont react to updates ;) (fingers crossed)
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2['default'].createElement('div', { className: 'shariff pure-u-1',
+        'data-services': 'twitter, facebook, googleplus, info',
+        'data-twitter-via': 'cosmowiki'
+      });
+    }
+  }]);
+
+  return ShareButtons;
+})(_react2['default'].Component);
+
+exports['default'] = Navigation;
+module.exports = exports['default'];
+
+},{"./search":443,"react":454}],438:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
