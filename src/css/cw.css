@@ -36,7 +36,7 @@ a:focus img, a:hover img, a:active img {}
 .visible {display: block;}
 .hidden {display: none;}
 
-/*	Structure --------------------------------------------------------------- */
+/* Structure --------------------------------------------------------------- */
 #wrapper {
 	margin: 0 auto; min-height: 100%;
 	background: #358;
@@ -72,7 +72,13 @@ a:focus img, a:hover img, a:active img {}
 }*/
 
 /*	side-buttons ---------------------------------------------------------- */
-#sideButtons {position: fixed; right: 0; bottom: 12%;	z-index: 10; width: 2.5em;}
+#sideButtons {
+	position: fixed; right: 0; bottom: 12%;	z-index: 10; width: 2.5em;
+	border-width: 1px 0 1px 1px; border-style: solid; border-color: #fff;
+}
+#sideButtons:focus,
+#sideButtons:hover,
+#sideButtons:active {border-color: #d00;}
 
 #sideButtons li {background-color: #ddd;}
 #sideButtons li:focus,
@@ -88,10 +94,6 @@ a:focus img, a:hover img, a:active img {}
 #sideButtons li#toggleShariff {border-width: 0 0 0 1px;}
 #sideButtons li#scrollDown {border-width: 0 0 1px 1px;}
 li#scrollUp a:before {content: '\f102';}
-li#toggleShariff a#toggleShariffLink:before {content: '\f045';}
-li#toggleShariff:focus,
-li#toggleShariff:hover div.shariff,
-li#toggleShariff:active div.shariff {display: block;}
 li#scrollDown a:before {content: '\f103';}
 
 
@@ -101,75 +103,150 @@ header {
 	box-shadow: 0 0 5px rgba(0, 0, 0, .5);
 }
 
-/*	brand & logo */
+/*		- brand --------------------------------------------------------------- */
 #brand {display: none;}
 #brand a:before {
 	content: url(/img/cw_name_30px.jpg); position: relative; top: 2px; left: 2px;
 }
-#logo {position: absolute; top: 0; right: 0;}
-#logo a:before {
-	content: url(/img/cw_icon_30px.jpg); position: relative; top: 2px; right: 2px;
-}
 
-/*	mobile navigation */
-#mobileNavContainer {position: absolute; top: 0; left: 0;}
-#mobileNavToggle {padding: 5px;}
-#mobileNavToggle > a:before {
-	font-family: FontAwesome; font-size: 1.5rem; content: '\f0c9';
-}
-#mobileNav {
-	display: none; position: absolute; top: 34px; left: 0;
-}
-#mobileNavToggle:focus #mobileNav,
-#mobileNavToggle:hover #mobileNav,
-#mobileNavToggle:active #mobileNav {display: block;}
-#mobileNav ul {
-	box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
-}
-#mobileNav li {background: #fff;}
+/*		- menus --------------------------------------------------------------- */
+#menus {display: inline-block;}
 
-/*	desktop navigation */
-#desktopNavContainer,
-nav.pure-menu-horizontal {display: none;}
+/*			- desktopMenu ------------------------------------------------------- */
+#desktopMenu {display: none;}
 
 .pure-menu-link:focus,
 .pure-menu-link:hover,
 .pure-menu-link:active {background: #eef;}
-a#welcomeLink.pure-menu-link:before {font-family: FontAwesome; content: '\f015';}
-a#toggleSearch.pure-menu-link:before {font-family: FontAwesome; content: '\f002';}
 .pure-menu-children {border-top: 1px solid #ddd;}
 
-#desktopNav ul ul {box-shadow: 0 5px 5px rgba(0, 0, 0, .5);}
-#desktopNav ul ul li {text-align: left;}
-#desktopNav ul ul li a {background: #fff; border-bottom: 1px solid #ddd;}
-#desktopNav ul ul li:last-child a {border-bottom: none;}
+#desktopMenu ul ul {box-shadow: 0 5px 5px rgba(0, 0, 0, .5);}
+#desktopMenu ul ul li {text-align: left;}
+#desktopMenu ul ul li a {background: #fff; border-bottom: 1px solid #ddd;}
+#desktopMenu ul ul li:last-child a {border-bottom: none;}
 
-/*	search */
-#searchArea {
-	position: absolute; top: 0; left: 16.666%; z-index: 20;	background: #fff;
+#desktopMenu2 ul {width: 100%;}
+#desktopMenu2 ul,
+#desktopMenu2 li {position: static;}
+
+/*			- mobileMenu -------------------------------------------------------- */
+#mobileMenu {position: relative;}
+
+#mobileMenu .menu-link {
+	display: block; width: 42px; height: 34px;
+	background: #fff;
 }
-#searchArea form {padding: 4px 0;}
-#searchArea input,
-#searchArea button {
-	padding: 2px 5px;
-	line-height:20px; font-size: 16px;
-	background:#eee; box-shadow: none;
-	border: none; border-radius: 0;
+/* the hamburger button */
+#mobileMenu .menu-link span,
+#mobileMenu .menu-link span:before,
+#mobileMenu .menu-link span:after {
+	width: 24px; height: 2px;
+	background-color: #55f;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
 }
+#mobileMenu .menu-link span {
+	display: block; position: relative; top: 16px; left: 9px;
+}
+#mobileMenu .menu-link span:before {
+	position: absolute; top: -8px; content: '';
+}
+#mobileMenu .menu-link span:after {
+	position: absolute; top: 8px; content: '';
+}
+
+#mobileMenu .pure-menu-list {display: none; position: absolute;}
+/* show the mobile nav */
+#mobileMenu .menu-link:focus + .pure-menu-list,
+#mobileMenu .menu-link:hover + .pure-menu-list,
+#mobileMenu .menu-link:active + .pure-menu-list {display: block;}
+/* from hamburger to cross */
+#mobileMenu .menu-link:focus span,
+#mobileMenu .menu-link:hover span,
+#mobileMenu .menu-link:active span,
+#mobileMenu .menu-link:focus span:before,
+#mobileMenu .menu-link:hover span:before,
+#mobileMenu .menu-link:hover span:before,
+#mobileMenu .menu-link:focus span:after,
+#mobileMenu .menu-link:hover span:after,
+#mobileMenu .menu-link:active span:after {background: #d00;}
+#mobileMenu .menu-link:focus span,
+#mobileMenu .menu-link:hover span,
+#mobileMenu .menu-link:active span {background: transparent;}
+#mobileMenu .menu-link:focus span:before,
+#mobileMenu .menu-link:hover span:before,
+#mobileMenu .menu-link:hover span:before {
+	-webkit-transform: rotate(315deg) translate(-5px, 6px);
+	-moz-transform: rotate(315deg) translate(-5px, 6px);
+	-ms-transform: rotate(315deg) translate(-5px, 6px);
+	-o-transform: rotate(315deg) translate(-5px, 6px);
+	transform: rotate(315deg) translate(-5px, 6px);
+}
+#mobileMenu .menu-link:focus span:after,
+#mobileMenu .menu-link:hover span:after,
+#mobileMenu .menu-link:active span:after {
+	-webkit-transform: rotate(405deg) translate(-5px, -6px);
+	-moz-transform: rotate(405deg) translate(-5px, -6px);
+	-ms-transform: rotate(405deg) translate(-5px, -6px);
+	-o-transform: rotate(405deg) translate(-5px, -6px);
+	transform: rotate(405deg) translate(-5px, -6px);
+}
+
+#mobileMenu ul {box-shadow: 3px 3px 3px -2px rgba(0, 0, 0, .5);}
+#mobileMenu li {background: #fff;}
+#mobileMenu #toggleShariff a:before {font-family: inherit; content: 'Teilen';}
+
+/*			- sideMenu ---------------------------------------------------------- */
+#sideMenu {position:absolute; top: 0; right: 0;}
+#sideMenu ul li {display: inline-block;}
+#sideMenu #toggleShariff {display: none;}
+#sideMenu #toggleShariff a:before {font-family: FontAwesome; content: '\f045';}
+
+/*				- search ---------------------------------------------------------- */
+/*#toggleSearch a:focus div#searchArea,
+#toggleSearch a:hover div#searchArea,
+#toggleSearch a:active div#searchArea {display: block;}*/
+
+#searchArea {background: #fff;}
+#sideMenu #toggleSearch {display: none;}
+#sideMenu #toggleSearch:before {font-family: FontAwesome; content: '\f002';}
+
 #searchArea input {
-	width: 50%; border: 1px solid #aaf;
+	position: relative; top: 4px; left: 0; z-index: 20;	padding: 2px 5px;
+	width: 50%; line-height:20px; font-size: 16px;
+	background:#eee; box-shadow: none;
+	border: 1px solid #aaf; border-radius: 0;
 	-webkit-transition: width 0.4s ease-in-out; transition: width 0.4s ease-in-out;
 }
-#searchArea input:focus {width: 90%; outline: none;}
 
-#searchArea button {
+#searchArea a:focus input,
+#searchArea a:hover input,
+#searchArea a:active input {display:inline-block;}
+#searchArea input:focus,
+#searchArea input:hover,
+#searchArea input:active {width: 75%; outline: none; border: 1px solid #d00;}
+
+/*#searchArea button {
 	width: 24px; cursor: pointer;
 	font-family: FontAwesome; color: #55f; text-align: center;
 }
 #searchArea button:before {content: '\f002';}
 #searchArea button:focus:before,
 #searchArea button:hover:before,
-#searchArea button:active:before {color:#d00;}
+#searchArea button:active:before {color:#d00;}*/
+
+/*			-  shariff ---------------------------------------------------------- */
+#toggleShariff a:focus div.shariff,
+#toggleShariff a:hover div.shariff,
+#toggleShariff a:active div.shariff {display: block;}
+
+/*			-  logo ------------------------------------------------------------- */
+#logo a:before {
+	content: url(/img/cw_icon_30px.jpg); position: absolute; top: 2px; right: 2px;
+}
 
 /*	main -------------------------------------------------------------------- */
 main {margin: 34px auto 30px; max-width: 1000px;}
@@ -228,7 +305,7 @@ div.summary-img.width-25,
 .summary-img {padding: 2px;	border: 1px solid #55f;}
 .summary-img:focus,
 .summary-img:hover,
-.summary-img:active {border: 1px solid #333;}
+.summary-img:active {border: 1px solid #d00;}
 .summary-img:nth-of-type(odd) {float: right; margin: 0 0 0 .5em;}
 .summary-img:nth-of-type(even) {float: left; margin: 0 .5em 0 0;}
 .summary-img.float-left {float: left; margin: 0 .5em 0 0;}
@@ -360,20 +437,26 @@ div.summary-img.width-25,
 /*	Footer ------------------------------------------------------------------ */
 footer {
 	position: relative; bottom: 0; left: 0;
-	background: rgba(255, 255, 255, .9);
+	/*background: rgba(255, 255, 255, .9);*/
+	background: #136;
 	border-top: 15px solid #aaf; border-bottom: 15px solid #ccc;
 }
+footer a:link,
+footer a:visited {color: #ddd;}
+footer a:focus,
+footer a:hover,
+footer a:active {color: #d00;}
 #footerContainer {margin: 0 auto;}
 
 #sitemap,
 #extras,
-#version {padding: .5em; font-size: .9rem; border-bottom: 1px solid #ddd;}
-#sitemap {text-align: center;}
+#version {padding: .5em; font-size: .9rem;}
+#sitemap {text-align: center; border-bottom: 1px solid #ddd;}
 #sitemap ul {margin-bottom: .5em;}
 #sitemap a {display: block; line-height: 1.75em;}
-#sitemap li:first-child a {background: rgba(0, 0, 255, .1);}
+#sitemap li:first-child a {background: rgba(255, 255, 255, .2);}
 
-
+#extras {border-bottom: 1px solid #ddd;}
 #extrasSelf,
 #extrasSocial {margin: .5em auto; text-align: center;}
 #extrasSelf li {display: inline-block; width: 33.333%; margin-bottom: 1em;}
@@ -384,12 +467,12 @@ footer {
 #extras #GooglePlus:before {content: "\f0d5"; color: #d34836;}
 #extras #Github:before {content: "\f09b"; color: #4078c0;}
 
-#version p {margin: 0 auto; line-height: 15px; font-size: .8rem;}
+#version p {margin: 0 auto; color: #ddd; line-height: 15px; font-size: .8rem;}
 
 /* -------------------------------------------------------------------------- */
 /* breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em ------ */
 @media only screen and (min-width: 35.5em) {
-	.shariff .orientation-horizontal {width: 70%; margin: 0 auto;}
+	/*.shariff .orientation-horizontal {width: 70%; margin: 0 auto;}*/
 
 	#summaryContainer {padding: 0 .5em;}
 
@@ -400,9 +483,8 @@ footer {
 }
 
 @media only screen and (min-width: 48em) {
-	.shariff .orientation-horizontal {width: 60%; margin: 0 auto;}
-	#searchArea {left: 25%;}
-	#searchArea input {width: 50%;}
+	/*.shariff .orientation-horizontal {width: 60%; margin: 0 auto;}*/
+	/*#searchArea input {width: 50%;}*/
 
 	#siteTitle h1 {padding: .5em 0 0; font-size: 2rem;}
 	#siteTitle h3 {padding: .25em 0 .75em; font-size: 1.5rem;}
@@ -419,8 +501,10 @@ footer {
 }
 
 @media only screen and (min-width: 64em) {
+	#sideButtons {border: none;}
+	#mobileMenu {display: none;}
 	#brand {display: inline-block;}
-	.shariff .orientation-horizontal {width: 60%; margin: 0 auto;}
+	#desktopMenu {display: inline-block;}
 
 	main {margin-top: 50px;}
 
@@ -428,11 +512,8 @@ footer {
 	#siteTitle,
 	#pageSubMenu {margin-bottom: 15px;}
 
-	#searchArea,
-	#mobileNavContainer,
+	#mobileMenus,
 	#navToggle {display: none;}
-	#desktopNavContainer {display: inline-block;}
-	nav.pure-menu-horizontal {display: block;}
 
 	#siteTitle,
 	#siteTitleContainer,
