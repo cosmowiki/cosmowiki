@@ -35895,137 +35895,6 @@ var Header = function Header(_ref) {
       { id: 'brand', className: 'pure-u-lg-1-6' },
       _react2['default'].createElement('a', { href: '/', title: 'CosmoWiki.de', rel: 'home' })
     ),
-    _react2['default'].createElement(
-      'div',
-      { id: 'mobileMenuContainer' },
-      _react2['default'].createElement(
-        'div',
-        { id: 'mobileMenuToggle' },
-        _react2['default'].createElement('a', { href: '#', title: 'Navigation' }),
-        _react2['default'].createElement(
-          'nav',
-          { id: 'mobileMenu', className: 'pure-menu custom-restricted-width' },
-          _react2['default'].createElement(
-            'ul',
-            { className: 'pure-u-1' },
-            _react2['default'].createElement(
-              'li',
-              { className: 'pure-menu-item' },
-              _react2['default'].createElement(
-                'a',
-                { className: 'pure-menu-link menu-item chronicle', href: appUrl.eventsSite() },
-                'Chronik'
-              )
-            ),
-            _react2['default'].createElement(
-              'li',
-              { className: 'pure-menu-item pure-menu-has-children pure-menu-allow-hover' },
-              _react2['default'].createElement(
-                'a',
-                { className: 'pure-menu-link menu-item persons', href: appUrl.peopleSite() },
-                'Personen'
-              ),
-              _react2['default'].createElement(
-                'ul',
-                { className: 'pure-menu-children sub-menu persons' },
-                [{ url: appUrl.scientistsSite(), name: 'Wissenschaftler' }, { url: appUrl.astronautsSite(), name: 'Raumfahrer' }].map(function (link) {
-                  return _react2['default'].createElement(
-                    'li',
-                    { key: link.url, className: 'pure-menu-item' },
-                    _react2['default'].createElement(
-                      'a',
-                      { className: 'pure-menu-link sub-menu-item persons', href: link.url },
-                      link.name
-                    )
-                  );
-                })
-              )
-            ),
-            _react2['default'].createElement(
-              'li',
-              { className: 'pure-menu-item' },
-              _react2['default'].createElement(
-                'a',
-                { className: 'pure-menu-link menu-item places', href: 'places.php' },
-                'Orte'
-              )
-            ),
-            _react2['default'].createElement(
-              'li',
-              { className: 'pure-menu-item pure-menu-has-children pure-menu-allow-hover' },
-              _react2['default'].createElement(
-                'a',
-                { className: 'pure-menu-link menu-item objects', href: appUrl.objectsSite() },
-                'Objekte'
-              ),
-              _react2['default'].createElement(
-                'ul',
-                { className: 'pure-menu-children sub-menu objects' },
-                [{ url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
-                  return _react2['default'].createElement(
-                    'li',
-                    { key: link.url, className: 'pure-menu-item' },
-                    _react2['default'].createElement(
-                      'a',
-                      { className: 'pure-menu-link sub-menu-item objects', href: link.url },
-                      link.name
-                    )
-                  );
-                })
-              )
-            ),
-            _react2['default'].createElement(
-              'li',
-              { className: 'pure-menu-item pure-menu-has-children pure-menu-allow-hover' },
-              _react2['default'].createElement(
-                'a',
-                { className: 'pure-menu-link menu-item astronomy', href: appUrl.astronomySite() },
-                'Astronomie'
-              ),
-              _react2['default'].createElement(
-                'ul',
-                { className: 'pure-menu-children sub-menu astronomy' },
-                [{ url: appUrl.scientistsSite(), name: 'Wissenschaftler' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
-                  return _react2['default'].createElement(
-                    'li',
-                    { key: link.url, className: 'pure-menu-item' },
-                    _react2['default'].createElement(
-                      'a',
-                      { className: 'pure-menu-link sub-menu-item astronomy', href: link.url },
-                      link.name
-                    )
-                  );
-                })
-              )
-            ),
-            _react2['default'].createElement(
-              'li',
-              { className: 'pure-menu-item pure-menu-has-children pure-menu-allow-hover' },
-              _react2['default'].createElement(
-                'a',
-                { className: 'pure-menu-link menu-item spaceflight', href: appUrl.spaceflightSite() },
-                'Raumfahrt'
-              ),
-              _react2['default'].createElement(
-                'ul',
-                { className: 'pure-menu-children sub-menu spaceflight' },
-                [{ url: appUrl.astronautsSite(), name: 'Raumfahrer' }, { url: appUrl.missionsSite(), name: 'Missionen' }, { url: appUrl.spacewalksSite(), name: 'Weltraumausstiege' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
-                  return _react2['default'].createElement(
-                    'li',
-                    { key: link.url, className: 'pure-menu-item' },
-                    _react2['default'].createElement(
-                      'a',
-                      { className: 'pure-menu-link sub-menu-item spaceflight', href: link.url },
-                      link.name
-                    )
-                  );
-                })
-              )
-            )
-          )
-        )
-      )
-    ),
     _react2['default'].createElement(_navigation2['default'], { appUrl: appUrl })
   );
 };
@@ -36761,10 +36630,151 @@ var Navigation = function Navigation(_ref) {
 
   return _react2['default'].createElement(
     'div',
-    { id: 'desktopMenus', className: 'pure-u-lg-5-6' },
+    { id: 'menus', className: 'pure-u-1 pure-u-lg-5-6' },
     _react2['default'].createElement(
-      'div',
-      { id: 'desktopMenu', className: 'pure-menu pure-menu-horizontal pure-u-lg-4-5 center' },
+      'nav',
+      { id: 'mobileMenu', className: 'pure-menu custom-restricted-width pure-u-1-6' },
+      _react2['default'].createElement(
+        'a',
+        { id: 'mobileMenuToggle', className: 'menu-link', href: '#', title: 'Navigation' },
+        _react2['default'].createElement('span', null)
+      ),
+      _react2['default'].createElement(
+        'ul',
+        { className: 'pure-menu-list' },
+        _react2['default'].createElement(
+          'li',
+          { className: 'pure-menu-item' },
+          _react2['default'].createElement(
+            'a',
+            { className: 'pure-menu-link menu-item chronicle', href: appUrl.eventsSite() },
+            'Chronik'
+          )
+        ),
+        _react2['default'].createElement(
+          'li',
+          { className: 'pure-menu-item pure-menu-has-children pure-menu-allow-hover' },
+          _react2['default'].createElement(
+            'a',
+            { className: 'pure-menu-link menu-item persons', href: appUrl.peopleSite() },
+            'Personen'
+          ),
+          _react2['default'].createElement(
+            'ul',
+            { className: 'pure-menu-children sub-menu persons' },
+            [{ url: appUrl.scientistsSite(), name: 'Wissenschaftler' }, { url: appUrl.astronautsSite(), name: 'Raumfahrer' }].map(function (link) {
+              return _react2['default'].createElement(
+                'li',
+                { key: link.url, className: 'pure-menu-item' },
+                _react2['default'].createElement(
+                  'a',
+                  { className: 'pure-menu-link sub-menu-item persons', href: link.url },
+                  link.name
+                )
+              );
+            })
+          )
+        ),
+        _react2['default'].createElement(
+          'li',
+          { className: 'pure-menu-item' },
+          _react2['default'].createElement(
+            'a',
+            { className: 'pure-menu-link menu-item places', href: 'places.php' },
+            'Orte'
+          )
+        ),
+        _react2['default'].createElement(
+          'li',
+          { className: 'pure-menu-item pure-menu-has-children pure-menu-allow-hover' },
+          _react2['default'].createElement(
+            'a',
+            { className: 'pure-menu-link menu-item objects', href: appUrl.objectsSite() },
+            'Objekte'
+          ),
+          _react2['default'].createElement(
+            'ul',
+            { className: 'pure-menu-children sub-menu objects' },
+            [{ url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
+              return _react2['default'].createElement(
+                'li',
+                { key: link.url, className: 'pure-menu-item' },
+                _react2['default'].createElement(
+                  'a',
+                  { className: 'pure-menu-link sub-menu-item objects', href: link.url },
+                  link.name
+                )
+              );
+            })
+          )
+        ),
+        _react2['default'].createElement(
+          'li',
+          { className: 'pure-menu-item pure-menu-has-children pure-menu-allow-hover' },
+          _react2['default'].createElement(
+            'a',
+            { className: 'pure-menu-link menu-item astronomy', href: appUrl.astronomySite() },
+            'Astronomie'
+          ),
+          _react2['default'].createElement(
+            'ul',
+            { className: 'pure-menu-children sub-menu astronomy' },
+            [{ url: appUrl.scientistsSite(), name: 'Wissenschaftler' }, { url: appUrl.solarSystemSite(), name: 'Sonnensystem' }, { url: appUrl.constellationsSite(), name: 'Sternbilder' }, { url: appUrl.starsSite(), name: 'Sterne' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
+              return _react2['default'].createElement(
+                'li',
+                { key: link.url, className: 'pure-menu-item' },
+                _react2['default'].createElement(
+                  'a',
+                  { className: 'pure-menu-link sub-menu-item astronomy', href: link.url },
+                  link.name
+                )
+              );
+            })
+          )
+        ),
+        _react2['default'].createElement(
+          'li',
+          { className: 'pure-menu-item pure-menu-has-children pure-menu-allow-hover' },
+          _react2['default'].createElement(
+            'a',
+            { className: 'pure-menu-link menu-item spaceflight', href: appUrl.spaceflightSite() },
+            'Raumfahrt'
+          ),
+          _react2['default'].createElement(
+            'ul',
+            { className: 'pure-menu-children sub-menu spaceflight' },
+            [{ url: appUrl.astronautsSite(), name: 'Raumfahrer' }, { url: appUrl.missionsSite(), name: 'Missionen' }, { url: appUrl.spacewalksSite(), name: 'Weltraumausstiege' }, { url: appUrl.spaceStationsSite(), name: 'Raumstationen' }, { url: appUrl.spaceTelescopesSite(), name: 'Weltraumteleskope' }].map(function (link) {
+              return _react2['default'].createElement(
+                'li',
+                { key: link.url, className: 'pure-menu-item' },
+                _react2['default'].createElement(
+                  'a',
+                  { className: 'pure-menu-link sub-menu-item spaceflight', href: link.url },
+                  link.name
+                )
+              );
+            })
+          )
+        ),
+        _react2['default'].createElement(
+          'li',
+          { id: 'toggleShariff', className: 'pure-menu-item pure-menu-has-children pure-menu-allow-hover' },
+          _react2['default'].createElement('a', { href: '#', className: 'pure-menu-link menu-item' }),
+          _react2['default'].createElement(
+            'ul',
+            { className: 'pure-menu-children sub-menu' },
+            _react2['default'].createElement(
+              'li',
+              { className: 'pure-menu-item' },
+              _react2['default'].createElement(ShareButtons, { className: 'pure-menu-children sub-menu' })
+            )
+          )
+        )
+      )
+    ),
+    _react2['default'].createElement(
+      'nav',
+      { id: 'desktopMenu', className: 'pure-menu pure-menu-horizontal pure-u-lg-5-6 center' },
       _react2['default'].createElement(
         'ul',
         { className: 'pure-menu-list' },
@@ -36886,26 +36896,25 @@ var Navigation = function Navigation(_ref) {
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'desktopMenu2', className: 'pure-menu pure-menu-horizontal pure-u-lg-1-5 right' },
+      { id: 'sideMenu', className: 'pure-u-5-6 pure-u-lg-1-6' },
       _react2['default'].createElement(
         'ul',
-        { className: 'pure-menu-list' },
+        null,
         _react2['default'].createElement(
           'li',
-          { id: 'toggleSearch', className: 'pure-menu-item pure-menu-allow-hover' },
-          _react2['default'].createElement('a', { id: 'toggleSearchLink', className: 'pure-menu-link menu-item', href: '#' }),
+          { className: 'pure-u-4-5 center' },
           _react2['default'].createElement(_search2['default'], null)
         ),
         _react2['default'].createElement(
           'li',
-          { id: 'toggleShariff', className: 'pure-menu-item  pure-menu-allow-hover' },
-          _react2['default'].createElement('a', { id: 'toggleShariffLink', className: 'pure-menu-link menu-item', href: '#' }),
+          { id: 'toggleShariff' },
+          _react2['default'].createElement('a', { href: '#' }),
           _react2['default'].createElement(ShareButtons, null)
         ),
         _react2['default'].createElement(
           'li',
-          { id: 'logo', className: 'pure-menu-item' },
-          _react2['default'].createElement('a', { href: '/', title: 'CosmoWiki.de', rel: 'home', className: 'pure-menu-link menu-item' })
+          { id: 'logo' },
+          _react2['default'].createElement('a', { href: '/', title: 'CosmoWiki.de', rel: 'home' })
         )
       )
     )
@@ -38510,12 +38519,9 @@ var _react2 = _interopRequireDefault(_react);
 var Search = function Search() {
   return _react2["default"].createElement(
     "div",
-    { id: "searchArea", className: "pure-u-2-3 pure-u-md-1-2 center" },
-    _react2["default"].createElement(
-      "form",
-      { role: "search", method: "get", action: "" },
-      _react2["default"].createElement("input", { name: "search", type: "text", placeholder: "suchen ...", required: true })
-    )
+    { id: "searchArea", className: "pure-u-1" },
+    _react2["default"].createElement("a", { id: "toggleSearch", className: "pure-menu-link menu-item", href: "#" }),
+    _react2["default"].createElement("input", { name: "search", type: "text", placeholder: "suchen ...", required: true })
   );
 };
 
