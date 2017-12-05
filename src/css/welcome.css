@@ -12,7 +12,7 @@
 #welcomeCosmowiki {background: #eee;}
 .welcome-cosmowiki p {
 	width: 98%; padding: 1%;
-	word-wrap: break-word; white-space: pre-line;
+	text-align: justify; word-wrap: break-word; white-space: pre-line;
 	word-spacing: -1rem; letter-spacing: .5rem;
 }
 .welcome-cosmowiki a {
