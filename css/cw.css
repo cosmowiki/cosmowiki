@@ -160,39 +160,39 @@ header {
 
 #mobileMenu .pure-menu-list {display: none; position: absolute;}
 /* show the mobile nav */
-#mobileMenu .menu-link:focus + .pure-menu-list,
-#mobileMenu .menu-link:hover + .pure-menu-list,
-#mobileMenu .menu-link:active + .pure-menu-list {display: block;}
+#mobileMenu:focus .pure-menu-list,
+#mobileMenu:hover .pure-menu-list,
+#mobileMenu:active .pure-menu-list {display: block;}
 /* from hamburger to cross */
-#mobileMenu .menu-link:focus span,
-#mobileMenu .menu-link:hover span,
-#mobileMenu .menu-link:active span,
-#mobileMenu .menu-link:focus span:before,
-#mobileMenu .menu-link:hover span:before,
-#mobileMenu .menu-link:hover span:before,
-#mobileMenu .menu-link:focus span:after,
-#mobileMenu .menu-link:hover span:after,
-#mobileMenu .menu-link:active span:after {background: #d00;}
-#mobileMenu .menu-link:focus span,
-#mobileMenu .menu-link:hover span,
-#mobileMenu .menu-link:active span {background: transparent;}
-#mobileMenu .menu-link:focus span:before,
-#mobileMenu .menu-link:hover span:before,
-#mobileMenu .menu-link:hover span:before {
-	-webkit-transform: rotate(315deg) translate(-5px, 6px);
-	-moz-transform: rotate(315deg) translate(-5px, 6px);
-	-ms-transform: rotate(315deg) translate(-5px, 6px);
-	-o-transform: rotate(315deg) translate(-5px, 6px);
-	transform: rotate(315deg) translate(-5px, 6px);
+#mobileMenu:focus span,
+#mobileMenu:hover span,
+#mobileMenu:active span,
+#mobileMenu:focus span:before,
+#mobileMenu:hover span:before,
+#mobileMenu:active span:before,
+#mobileMenu:focus span:after,
+#mobileMenu:hover span:after,
+#mobileMenu:active span:after {background: #d00;}
+#mobileMenu:focus span,
+#mobileMenu:hover span,
+#mobileMenu:active span {background: transparent;}
+#mobileMenu:focus span:before,
+#mobileMenu:hover span:before,
+#mobileMenu:active span:before {
+	-webkit-transform: rotate(225deg) translate3d(-7px, -5px, 0);
+	-moz-transform: rotate(225deg) translate3d(-7px, -5px, 0);
+	-ms-transform: rotate(225deg) translate3d(-7px, -5px, 0);
+	-o-transform: rotate(225deg) translate3d(-7px, -5px, 0);
+	transform: rotate(225deg) translate3d(-7px, -5px, 0);
 }
-#mobileMenu .menu-link:focus span:after,
-#mobileMenu .menu-link:hover span:after,
-#mobileMenu .menu-link:active span:after {
-	-webkit-transform: rotate(405deg) translate(-5px, -6px);
-	-moz-transform: rotate(405deg) translate(-5px, -6px);
-	-ms-transform: rotate(405deg) translate(-5px, -6px);
-	-o-transform: rotate(405deg) translate(-5px, -6px);
-	transform: rotate(405deg) translate(-5px, -6px);
+#mobileMenu:focus span:after,
+#mobileMenu:hover span:after,
+#mobileMenu:active span:after {
+	-webkit-transform: rotate(-225deg) translate3d(-6px, 4px, 0);
+	-moz-transform: rotate(-225deg) translate3d(-6px, 4px, 0);
+	-ms-transform: rotate(-225deg) translate3d(-6px, 4px, 0);
+	-o-transform: rotate(-225deg) translate3d(-6px, 4px, 0);
+	transform: rotate(-225deg) translate3d(-6px, 4px, 0);
 }
 
 #mobileMenu ul {box-shadow: 3px 3px 3px -2px rgba(0, 0, 0, .5);}
@@ -239,9 +239,9 @@ header {
 #searchArea button:active:before {color:#d00;}*/
 
 /*			-  shariff ---------------------------------------------------------- */
-#toggleShariff a:focus div.shariff,
-#toggleShariff a:hover div.shariff,
-#toggleShariff a:active div.shariff {display: block;}
+#toggleShariff:focus div.shariff,
+#toggleShariff:hover div.shariff,
+#toggleShariff:active div.shariff {display: block;}
 
 /*			-  logo ------------------------------------------------------------- */
 #logo a:before {
