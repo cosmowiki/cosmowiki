@@ -5,6 +5,7 @@
 .welcome-container h4 {
 	padding: .25em; color: #eee; font-size: 1.25rem;
 	background: #aaf;
+	border-bottom: 1px solid rgba(192, 192, 255, .3);
 }
 .welcome-text {background: #eee;}
 .welcome-text p {padding: .5em; text-align: justify;}
@@ -80,6 +81,7 @@
 
 @media only all and (min-width: 64em) {
 	.welcome-container,
+	#welcomeCosmowiki,
 	.welcome-cosmowiki {border-radius: 5px;}
 	.welcome-container h4 {border-radius: 5px 5px 0 0;}
 	.welcome-text {border-radius: 0 0 5px 5px;}
