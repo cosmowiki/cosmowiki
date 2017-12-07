@@ -42,7 +42,7 @@ const WelcomeComponent = ({appUrl}) => {
 							Hier finden Sie zwar nicht alle, aber zumindest die bedeutendsten
 							Astronomen der Menschheitsgeschichte. Bereits die frühen Menschen
 							dürften sich gefragt haben, was dort oben am Himmel Tag für Tag und
-							Nacht für Nacht	vorüberzieht. In Babylonien, dem antiken China, Ägypten
+							Nacht für Nacht vorüberzieht. In Babylonien, dem antiken China, Ägypten
 							und Griechenland entstand aus der Astrologie allmälig die Astronomie
 							als vielleicht älteste Wissenschaft.
 						</p>
@@ -79,11 +79,11 @@ const WelcomeComponent = ({appUrl}) => {
 							Genau dort befindet sich der Launch Complex 39, und von dort starteten
 							Neil Armstrong, Buzz Aldrin und Michael Collins am 16. Juli 1969 mit
 							Apollo 11 zu ihrem legendären Flug zum Mond. Doch hier begannen nicht
-							nur	sämtliche Apollo-Missionen, auch alle 135 Space-Shuttle-Flüge
-							zwischen 1981 und 2011 starteten	hier. LC-39 mit seinen zwei Plattformen
-							A	und B ist der einzige	Startplatz des Kennedy Space Center. Am Cape
-							Canaveral befinden sich zwar über 30 weitere, meist inaktive Startplätze,
-							die allerdings zur Cape Canaveral Air Force Station (CCAFS)	gehören.
+							nur sämtliche Apollo-Missionen, auch alle 135 Space-Shuttle-Flüge
+							zwischen 1981 und 2011 starteten hier. LC-39 mit seinen zwei Plattformen
+							A und B ist der einzige Startplatz des Kennedy Space Center. Am Cape
+							Canaveral befinden sich noch über 30 weitere, meist inaktive Startplätze,
+							die allerdings zur Cape Canaveral Air Force Station (CCAFS) gehören.
 						</p>
 						<p>
 							Erkunden Sie <code>[countPlaces]</code> interessante <a href="/places">Orte</a> der
@@ -100,7 +100,8 @@ const WelcomeComponent = ({appUrl}) => {
 							wurde von seinem Entdecker Wilhelm Herschel im Jahr 1781 nach dem
 							griechischen Himmelsgott Uranos benannt. Sein Sohn John Herschel gab
 							zwei Uranus-Monden die Namen von Figuren aus Shakespeares Sommernachtstraum
-							- Titania und Oberon.
+							- Titania und Oberon. Vom Saturn zum Beispiel sind bislang <code>[countSaturnMoons]</code> Monde
+							bekannt, von Jupiter sogar <code>[countJupiterMoons]</code>.
 						</p>
 						<p>
 							Entdecken Sie <code>[countSolsysBodies]</code> Himmelskörper unseres <a href="/solar-system">Sonnensystems</a>.
@@ -108,31 +109,59 @@ const WelcomeComponent = ({appUrl}) => {
 		 	 		</div>
 		 	 	</div>
 				<div id="welcomeConstellations" className="welcome-container">
-					<h4></h4>
+					<h4>Wegweiser am Nachthimmel</h4>
 					<div className="welcome-text pure-u-1">
-						<p></p>
-						<p><a href="/constellations">Sternbilder</a></p>
+						<p>Wie findet man den Polarstern? Ganz einfach, mit Hilfe von Sternbildern:
+						Fünfmal wird die Strecke zwischen den beiden hinteren Sternen des Großen
+						Wagens, der gar kein offizielles Sternbild ist, nach oben verlängert.
+						Gleichzeitig ist der Polarstern auch der letzte an der Deichsel des
+						Kleinen Wagens, und auch die Kassiopeia - das Himmels-W - zeigt auf ihn.
+						So wiesen die immer gleichen Bilder den Seeleuten und Karawanen schon
+						vor Jahrhunderten den Weg, und das alljährliche Erscheinen und Verschwinden
+						von Sternbildern wurde bestimmend - nicht nur für die Landwirtschaft.</p>
+						<p>Im Jahr 1922 wurden 88 Konstellationen von der IAU
+						definiert. <a href="/constellations">Hier</a> finden Sie alle wichtigen
+						Informationen über diese Sternbilder.</p>
 		 	 		</div>
 		 	 	</div>
 				<div id="welcomeStars" className="welcome-container">
-					<h4></h4>
+					<h4>70.000.000.000.000.000.000.000!</h4>
 					<div className="welcome-text pure-u-1">
-						<p></p>
-						<p><a href="/stars">Sterne</a></p>
+						<p>Die Zahl aller Sterne im Universum wird auf etwa 7 &times; 10<sup>22</sup> geschätzt.
+						70 Trilliarden Sterne in 100 Milliarden Galaxien - einfach unglaublich!
+						Hier auf CosmoWiki.org finden Sie natürlich nicht alle dieser Sonnen, aber
+						zu immerhin <code>[countStars]</code> von ihnen, die wichtigsten Angaben,
+						wie zum Beispiel ihre Entfernung zu uns, ihre Größe, Masse, Leuchtkraft
+						und viele weitere Daten.</p>
+						<p>Wir holen Ihnen die Sterne vom Himmel - <a href="/stars">hier</a> finden Sie sie.</p>
 		 	 		</div>
 		 	 	</div>
 				<div id="welcomeSpacestations" className="welcome-container">
-					<h4></h4>
+					<h4>Hätten Sie gedacht, ...</h4>
 					<div className="welcome-text pure-u-1">
-						<p></p>
-						<p><a href="/space-stations">Weltraumstationen</a></p>
+						<p>... dass die Sowjets in den 1970er Jahren bereits sieben Weltraumstationen
+						erfolgreich gestartet hatten? Fünf davon wurden sogar bemannt und lieferten
+						wichtige Erkenntnisse über die Auswirkungen längerer Aufenthalte von
+						Menschen im All.</p>
+						<p>Heute ist das Leben auf Weltraumstationen scheinbar zur Routine
+						geworden, doch tatsächlich ist es nur eine sehr kleine Elite, die erst
+						nach mehrjährigen Studiengängen und jahrelangem Training Plätze auf den
+						aktuellen Stationen im Orbit belegen darf.</p>
+						<p>Erkunden Sie hier bei uns vergangene und künftige <a href="/space-stations">Weltraumstationen</a>!</p>
 		 	 		</div>
 		 	 	</div>
 				<div id="welcomeSpacetelescopes" className="welcome-container">
-					<h4></h4>
+					<h4>Alles schwingt.</h4>
 					<div className="welcome-text pure-u-1">
-						<p></p>
-						<p><a href="/space-telescopes">Weltraumteleskope</a></p>
+						<p>Von Gammastrahlen bis Radiowellen, über Röntgenstrahlung, ultraviolettes,
+						sichtbares und infrarotes Licht und Mikrowellen erstreckt sich der Bereich
+						des elektromagnetischen Spektrums, aus dem Wissenschaftler rund um den
+						Globus immer wieder neue Erkenntnisse über den Aufbau und die Entstehung
+						des Universums gewinnen. Enorm viele Daten liefern ihnen dabei Weltraumteleskope,
+						die in Zukunft auch Gravitationswellen detektieren werden.
+						</p>
+						<p>Ausführliche Informationen zu <code>[countSpacetelescopes]</code> Augen
+						und Ohren im All gibt es <a href="/space-telescopes">hier</a>.</p>
 		 	 		</div>
 		 	 	</div>
 				<div id="welcomeMissions" className="welcome-container">
