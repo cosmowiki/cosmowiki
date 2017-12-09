@@ -42210,16 +42210,20 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 					_react2["default"].createElement(
 						"p",
 						null,
-						"Weitere ",
+						"Wie alt ist die Himmelsscheibe von Nebra? Wann und wo wurden die ersten Raketen gestartet? Was geschah am 30. Juni 1908 in Sibirien, und wann startete das letzte Space-Shuttle?"
+					),
+					_react2["default"].createElement(
+						"p",
+						null,
 						_react2["default"].createElement(
 							"code",
 							null,
-							"[numberOfEvents]-1"
+							"[numberOfEvents]"
 						),
-						" Ereignisse aus der spannenden Geschichte von Astronomie und Raumfahrt finden Sie ",
+						" spannende Ereignisse aus der Geschichte von Astronomie und Raumfahrt finden Sie ",
 						_react2["default"].createElement(
 							"a",
-							{ href: "/events" },
+							{ href: "/chronicle" },
 							"hier"
 						),
 						"."
@@ -42246,6 +42250,11 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 						"p",
 						null,
 						"Hier finden Sie zwar nicht alle, aber zumindest die bedeutendsten Astronomen der Menschheitsgeschichte. Bereits die frühen Menschen dürften sich gefragt haben, was dort oben am Himmel Tag für Tag und Nacht für Nacht vorüberzieht. In Babylonien, dem antiken China, Ägypten und Griechenland entstand aus der Astrologie allmälig die Astronomie als vielleicht älteste Wissenschaft."
+					),
+					_react2["default"].createElement(
+						"p",
+						null,
+						"Wer war Aryabhata und wo lebte er? Wofür legten Johannes Müller und Nikolaus von Kues im 15. Jahrhundert die Grundsteine? Welche Erkenntnisse verdanken wir Ole Rømer, und welche Edwin Hubble?"
 					),
 					_react2["default"].createElement(
 						"p",
@@ -42290,41 +42299,24 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 							null,
 							"[countAstronauts]"
 						),
-						"Astronauten zusammengerechnet bis heute",
-						_react2["default"].createElement(
-							"sup",
-							null,
-							"*"
-						),
-						" im All verbracht. Sie reisen in hauchdünnen Röhren aus Aluminium auf hunderten Tonnen hochentzündlicher Treibstoffe mit mehreren Kilometern pro Sekunde ins All. Dort erforschen sie neue Materialien und Fertigungsmethoden, führen Installationen und Reparaturen an Raumschiffen durch und setzen ihre Fußabdrücke auf fremde Himmelskörper. Sie sind die Botschafter der Menschheit im Universum."
+						"Astronauten zusammengerechnet bis heute im All verbracht. Sie reisen in hauchdünnen Röhren aus Aluminium auf hunderten Tonnen hochentzündlicher Treibstoffe mit mehreren Kilometern pro Sekunde ins All. Dort leben und arbeiten sie, manchmal monatelang."
 					),
 					_react2["default"].createElement(
 						"p",
 						null,
-						"Besuchen Sie unsere Seite über ",
+						"Wer sind diese mutigen Frauen und Männer? An welcher Mission nahm Neil Armstrong vor Apollo 11 teil? Welcher Astronaut absolvierte die längste Zeit im All, welcher die meisten Außenbordeinsätze?"
+					),
+					_react2["default"].createElement(
+						"p",
+						null,
+						"Auf unserer Seite über ",
 						_react2["default"].createElement(
 							"a",
 							{ href: "/astronauts" },
 							"Raumfahrer"
 						),
-						".",
-						_react2["default"].createElement("br", null),
-						_react2["default"].createElement(
-							"sup",
-							null,
-							"*"
-						),
-						" ",
-						_react2["default"].createElement(
-							"small",
-							null,
-							"Stand: ",
-							_react2["default"].createElement(
-								"code",
-								null,
-								"[lastUpdated]"
-							)
-						)
+						" finden Sie die Antworten.",
+						_react2["default"].createElement("br", null)
 					)
 				)
 			),
@@ -42342,7 +42334,12 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 					_react2["default"].createElement(
 						"p",
 						null,
-						"Genau dort befindet sich der Launch Complex 39, und von dort starteten Neil Armstrong, Buzz Aldrin und Michael Collins am 16. Juli 1969 mit Apollo 11 zu ihrem legendären Flug zum Mond. Doch hier begannen nicht nur sämtliche Apollo-Missionen, auch alle 135 Space-Shuttle-Flüge zwischen 1981 und 2011 starteten hier. LC-39 mit seinen zwei Plattformen A und B ist der einzige Startplatz des Kennedy Space Center. Am Cape Canaveral befinden sich noch über 30 weitere, meist inaktive Startplätze, die allerdings zur Cape Canaveral Air Force Station (CCAFS) gehören."
+						"Genau dort befindet sich der Launch Complex 39, und von dort starteten Neil Armstrong, Buzz Aldrin und Michael Collins am 16. Juli 1969 mit Apollo 11 zu ihrem legendären Flug zum Mond. Doch hier begannen nicht nur sämtliche Apollo-Missionen, auch alle 135 Space-Shuttle-Flüge zwischen 1981 und 2011 starteten hier."
+					),
+					_react2["default"].createElement(
+						"p",
+						null,
+						"Wo auf der Welt gibt es weitere Raketenstartplätze? Welche Forschungseinrichtungen gehören zur ESA? Was verbirgt sich hinter dem Namen Rasad-e Khan, und was war Uraniborg?"
 					),
 					_react2["default"].createElement(
 						"p",
@@ -42377,19 +42374,12 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 					_react2["default"].createElement(
 						"p",
 						null,
-						"... sind die Namensgeber vieler Himmelskörper in unserem Sonnensytem. Die Planeten tragen die Namen römischer Götter. Lediglich Uranus wurde von seinem Entdecker Wilhelm Herschel im Jahr 1781 nach dem griechischen Himmelsgott Uranos benannt. Sein Sohn John Herschel gab zwei Uranus-Monden die Namen von Figuren aus Shakespeares Sommernachtstraum - Titania und Oberon. Vom Saturn zum Beispiel sind bislang ",
-						_react2["default"].createElement(
-							"code",
-							null,
-							"[countSaturnMoons]"
-						),
-						" Monde bekannt, von Jupiter sogar ",
-						_react2["default"].createElement(
-							"code",
-							null,
-							"[countJupiterMoons]"
-						),
-						"."
+						"... sind die Namensgeber vieler Himmelskörper in unserem Sonnensytem. Die Planeten tragen die Namen römischer Götter. Lediglich Uranus wurde von seinem Entdecker Wilhelm Herschel im Jahr 1781 nach dem griechischen Himmelsgott Uranos benannt. Sein Sohn John Herschel gab zwei Uranus-Monden die Namen von Figuren aus Shakespeares Sommernachtstraum - Titania und Oberon."
+					),
+					_react2["default"].createElement(
+						"p",
+						null,
+						"Wieviele Monde umkreisen den Saturn, wieviele den Jupiter? Was sind Zentauren und wo befindet sich die Oortsche Wolke?"
 					),
 					_react2["default"].createElement(
 						"p",
@@ -42424,18 +42414,22 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 					_react2["default"].createElement(
 						"p",
 						null,
-						"Wie findet man den Polarstern? Ganz einfach, mit Hilfe von Sternbildern: Fünfmal wird die Strecke zwischen den beiden hinteren Sternen des Großen Wagens, der gar kein offizielles Sternbild ist, nach oben verlängert. Gleichzeitig ist der Polarstern auch der letzte an der Deichsel des Kleinen Wagens, und auch die Kassiopeia - das Himmels-W - zeigt auf ihn. So wiesen die immer gleichen Bilder den Seeleuten und Karawanen schon vor Jahrhunderten den Weg, und das alljährliche Erscheinen und Verschwinden von Sternbildern wurde bestimmend - nicht nur für die Landwirtschaft."
+						"Fünfmal wird die Strecke zwischen den beiden hinteren Sternen des Großen Wagens nach oben verlängert, und wir sehen den Polarstern, der gleichzeitig auch der letzte an der Deichsel des Kleinen Wagens ist. Auch die Kassiopeia - das Himmels-W - zeigt auf ihn."
 					),
 					_react2["default"].createElement(
 						"p",
 						null,
-						"Im Jahr 1922 wurden 88 Konstellationen von der IAU definiert. ",
+						"Welches ist das kleinste aller Sternbilder? Warum trägt eines den merkwürdigen Namen \"Luftpumpe\"? Welcher Stern ist der hellste im Orion, und welche Sternbilder sind noch am Südpol zu sehen?"
+					),
+					_react2["default"].createElement(
+						"p",
+						null,
 						_react2["default"].createElement(
 							"a",
 							{ href: "/constellations" },
 							"Hier"
 						),
-						" finden Sie alle wichtigen Informationen über diese Sternbilder."
+						" finden Sie die Antworten und viele weitere Informationen zu allen 88 Sternbildern."
 					)
 				)
 			),
@@ -42459,13 +42453,18 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 							null,
 							"22"
 						),
-						" geschätzt. 70 Trilliarden Sterne in 100 Milliarden Galaxien - einfach unglaublich! Hier auf CosmoWiki.org finden Sie natürlich nicht alle dieser Sonnen, aber zu immerhin ",
+						" geschätzt. 70 Trilliarden Sterne in 100 Milliarden Galaxien - einfach unglaublich! Hier auf CosmoWiki.org finden Sie natürlich nicht alle dieser Sonnen, aber immerhin ",
 						_react2["default"].createElement(
 							"code",
 							null,
 							"[countStars]"
 						),
 						" von ihnen, die wichtigsten Angaben, wie zum Beispiel ihre Entfernung zu uns, ihre Größe, Masse, Leuchtkraft und viele weitere Daten."
+					),
+					_react2["default"].createElement(
+						"p",
+						null,
+						"Wie weit entfernt von uns ist der Polarstern? Aus wievielen einzelnen Sternen besteht der Zwilling Castor? In welchem Sternbild ist Sirius zu finden, und welcher Stern verbirgt sich hinter α Lyrae?"
 					),
 					_react2["default"].createElement(
 						"p",
@@ -42494,12 +42493,12 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 					_react2["default"].createElement(
 						"p",
 						null,
-						"... dass die Sowjets in den 1970er Jahren bereits sieben Weltraumstationen erfolgreich gestartet hatten? Fünf davon wurden sogar bemannt und lieferten wichtige Erkenntnisse über die Auswirkungen längerer Aufenthalte von Menschen im All."
+						"... dass die Sowjets in den 1970er Jahren bereits sieben Weltraumstationen erfolgreich gestartet hatten? Fünf davon wurden sogar bemannt und lieferten wichtige Erkenntnisse über die Auswirkungen längerer Aufenthalte von Menschen im All. Heute ist das Leben auf Weltraumstationen scheinbar zur Routine geworden, doch tatsächlich ist es nur eine sehr kleine Elite, die erst nach mehrjährigen Studiengängen und jahrelangem Training Plätze auf den aktuellen Stationen im Orbit belegen darf."
 					),
 					_react2["default"].createElement(
 						"p",
 						null,
-						"Heute ist das Leben auf Weltraumstationen scheinbar zur Routine geworden, doch tatsächlich ist es nur eine sehr kleine Elite, die erst nach mehrjährigen Studiengängen und jahrelangem Training Plätze auf den aktuellen Stationen im Orbit belegen darf."
+						"Wie sahen die ersten sowjetischen Stationen aus? Wieviele Besatzungen besuchten das Skylab? Wie lange umkreiste die Raumstation Mir die Erde und wann wird die nächste chinesische Station gestartet?"
 					),
 					_react2["default"].createElement(
 						"p",
@@ -42533,6 +42532,11 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 					_react2["default"].createElement(
 						"p",
 						null,
+						"Welches Land spezialisierte sich schon sehr früh auf Röntgenteleskope im All? In welchen Wellenlängen arbeitet Hubble und wann wird sein Nachfolger, das James-Webb-Weltraumteleskop starten?"
+					),
+					_react2["default"].createElement(
+						"p",
+						null,
 						"Ausführliche Informationen zu ",
 						_react2["default"].createElement(
 							"code",
@@ -42552,19 +42556,39 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 			_react2["default"].createElement(
 				"div",
 				{ id: "welcomeMissions", className: "welcome-container" },
-				_react2["default"].createElement("h4", null),
+				_react2["default"].createElement(
+					"h4",
+					null,
+					"Einmal ins Weltall und wieder zurück, bitte."
+				),
 				_react2["default"].createElement(
 					"div",
 					{ className: "welcome-text pure-u-1" },
-					_react2["default"].createElement("p", null),
 					_react2["default"].createElement(
 						"p",
 						null,
+						"Mit dem Start von Sputnik 1 am 4. Oktober 1957 begann das Zeitalter der Raumfahrt. Von diesem Tag an wurden Tausende Satelliten, Transportraumschiffe, Sonden, bemannte Raumkapseln, Module für Weltraumstationen und Weltraumteleskope in den Erdorbit, zu anderen Planeten oder sogar an das Ende unseres Sonnensystems befördert."
+					),
+					_react2["default"].createElement(
+						"p",
+						null,
+						"Von wo startete Voyager 1? Welches Land erkundete als erstes die Venus mit einer Raumsonde? Wann kehrten die Astronauten von Apollo 13 zurück, und wie hieß der erste indische Satellit?"
+					),
+					_react2["default"].createElement(
+						"p",
+						null,
+						"Hier finden Sie umfassende Informationen über ",
 						_react2["default"].createElement(
 							"a",
 							{ href: "/missions" },
-							"Missionen"
-						)
+							_react2["default"].createElement(
+								"code",
+								null,
+								"[countMissions]"
+							),
+							" spannende Missionen"
+						),
+						", ihre Ziele und Ergebnisse. Sie werden begeistert sein!"
 					)
 				)
 			)
