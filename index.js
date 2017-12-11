@@ -36641,7 +36641,7 @@ var Navigation = function Navigation(_ref) {
       _react2['default'].createElement(
         'a',
         { id: 'mobileMenuToggle', className: 'menu-link', href: '#', title: 'Navigation' },
-        _react2['default'].createElement('span', null)
+        _react2['default'].createElement('span', { className: 'bar' })
       ),
       _react2['default'].createElement(
         'ul',
