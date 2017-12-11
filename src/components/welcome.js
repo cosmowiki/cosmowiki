@@ -26,8 +26,7 @@ const WelcomeComponent = ({appUrl}) => {
 							die vier größten Monde des Jupiter - Io, Europa, Ganymed und Kallisto.
 							Seine Beobachtungen und bahnbrechenden Erkenntnisse über den Mond,
 							das Jupiter-System und die Sterne veröffentlichte er noch im gleichen
-							Jahr in seinem Werk <i>"Sidereus nuncius"</i> - der Sternenbote. Die
-							Ringe des Saturn deutete er übrigens als Henkel des Planeten ;-)
+							Jahr in seinem Werk <i>"Sidereus nuncius"</i> - der Sternenbote.
 						</p>
 						<p>
 							Wie alt ist die Himmelsscheibe von Nebra? Wann und wo wurden die ersten
@@ -57,9 +56,8 @@ const WelcomeComponent = ({appUrl}) => {
 							verdanken wir Ole Rømer, und welche Edwin Hubble?
 						</p>
 						<p>
-							Weitere <code>[countScientists]-[countAstronomers]</code> Astrophysiker,
-							Kosmologen, Mathematiker und andere Wissenschaftler finden
-							Sie <a href="/scientists">hier</a>.
+							Erfahren Sie mehr über <a href="/scientists"><code>[countScientists]</code> Astronomen</a>,
+							Astrophysiker, Kosmologen, Mathematiker und viele weitere Wissenschaftler.
 						</p>
 					</div>
 		 	 	</div>
@@ -214,7 +212,7 @@ const WelcomeComponent = ({appUrl}) => {
 					<div className="welcome-text pure-u-1">
 						<p>
 							Mit dem Start von Sputnik 1 am 4. Oktober 1957 begann das Zeitalter
-							der Raumfahrt. Von diesem Tag an wurden Tausende Satelliten, Transportraumschiffe,
+							der Raumfahrt. Seit diesem Tag wurden Tausende Satelliten, Transportraumschiffe,
 							Sonden, bemannte Raumkapseln, Module für Weltraumstationen und Weltraumteleskope
 							in den Erdorbit, zu anderen Planeten oder sogar an das Ende unseres
 							Sonnensystems befördert.
