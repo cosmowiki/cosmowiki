@@ -35893,7 +35893,11 @@ var Header = function Header(_ref) {
     _react2['default'].createElement(
       'div',
       { id: 'brand', className: 'pure-u-lg-1-6' },
-      _react2['default'].createElement('a', { href: '/', title: 'CosmoWiki.de', rel: 'home' })
+      _react2['default'].createElement(
+        'a',
+        { href: '/', title: 'CosmoWiki.de', rel: 'home' },
+        _react2['default'].createElement('img', { src: '/img/cw_name_30px.jpg', alt: 'CosmoWiki Title' })
+      )
     ),
     _react2['default'].createElement(_navigation2['default'], { appUrl: appUrl })
   );
@@ -36774,7 +36778,7 @@ var Navigation = function Navigation(_ref) {
     ),
     _react2['default'].createElement(
       'nav',
-      { id: 'desktopMenu', className: 'pure-menu pure-menu-horizontal pure-u-lg-5-6 center' },
+      { id: 'desktopMenu', className: 'pure-menu pure-menu-horizontal pure-u-lg-4-5 center' },
       _react2['default'].createElement(
         'ul',
         { className: 'pure-menu-list' },
@@ -36896,25 +36900,30 @@ var Navigation = function Navigation(_ref) {
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'sideMenu', className: 'pure-u-5-6 pure-u-lg-1-6' },
+      { id: 'sideMenu', className: 'pure-u-5-6 pure-u-lg-1-5' },
       _react2['default'].createElement(
         'ul',
-        null,
+        { className: 'pure-u-1' },
         _react2['default'].createElement(
           'li',
-          { className: 'pure-u-4-5 center' },
+          { id: 'toggleSearch', className: 'pure-u-1-3 center' },
+          _react2['default'].createElement('a', { href: '#' }),
           _react2['default'].createElement(_search2['default'], null)
         ),
         _react2['default'].createElement(
           'li',
-          { id: 'toggleShariff' },
+          { id: 'toggleShariff', className: 'pure-u-1-3 center' },
           _react2['default'].createElement('a', { href: '#' }),
           _react2['default'].createElement(ShareButtons, null)
         ),
         _react2['default'].createElement(
           'li',
-          { id: 'logo' },
-          _react2['default'].createElement('a', { href: '/', title: 'CosmoWiki.de', rel: 'home' })
+          { id: 'logo', className: 'pure-u-1-3 center' },
+          _react2['default'].createElement(
+            'a',
+            { href: '/', title: 'CosmoWiki.de', rel: 'home' },
+            _react2['default'].createElement('img', { src: '/img/cw_icon_30px.jpg', alt: 'CosmoWiki Logo' })
+          )
         )
       )
     )
@@ -36938,9 +36947,9 @@ var ShareButtons = (function (_React$Component) {
   }, {
     key: 'render',
     value: function render() {
-      return _react2['default'].createElement('div', { className: 'shariff pure-u-1',
+      return _react2['default'].createElement('div', { className: 'shariff center',
         'data-services': 'twitter, facebook, googleplus, info',
-        'data-twitter-via': 'cosmowiki'
+        'data-twitter-via': 'cosmowiki', 'data-orientation': 'vertical'
       });
     }
   }]);
@@ -38519,8 +38528,7 @@ var _react2 = _interopRequireDefault(_react);
 var Search = function Search() {
   return _react2["default"].createElement(
     "div",
-    { id: "searchArea", className: "pure-u-1" },
-    _react2["default"].createElement("a", { id: "toggleSearch", className: "pure-menu-link menu-item", href: "#" }),
+    { id: "search", className: "pure-u-2-3 center" },
     _react2["default"].createElement("input", { name: "search", type: "text", placeholder: "suchen ...", required: true })
   );
 };
@@ -41228,7 +41236,7 @@ var StarsComponent = function StarsComponent(_ref) {
           null,
           'stellare Kernfusion'
         ),
-        ' durch die Verschmelzung von zumeist Wasserstoff zu Helium gewaltige Energiemengen, die ebenso wie ihre kräftigen Magnetfelder weit ins All hinein wirken. Auf den umlaufenden Planeten können sie dadurch Leben ermöglichen oder auch dauerhaft verhindern. Sonnensysteme mit nur einem Zentralstern wie das unsere sind eher die Seltenheit. Schätzungsweise zwei Drittel aller Sterne haben einen oder sogar mehrere Geschwister, die oft um ein gemeinsames Zentrum kreisen.'
+        ' durch die Verschmelzung von zumeist Wasserstoff zu Helium gewaltige Energiemengen, die ebenso wie ihre kräftigen Magnetfelder weit ins All hinein wirken. Befinden sich in stabilen Umlaufbahnen um einen Stern sogar Planeten, deren Materie ohne frühere, bereits gestorbene Sterne nicht existieren würde, kann die abgestrahlte Energie dort Leben ermöglichen oder auch dauerhaft verhindern. Sonnensysteme mit nur einem Zentralstern wie das unsere sind eher die Seltenheit. Schätzungsweise zwei Drittel aller Sterne haben einen oder sogar mehrere Geschwister, die oft um ein gemeinsames Zentrum kreisen.'
       ),
       _react2['default'].createElement(
         'div',
@@ -42205,7 +42213,7 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 							null,
 							"\"Sidereus nuncius\""
 						),
-						" - der Sternenbote. Die Ringe des Saturn deutete er übrigens als Henkel des Planeten ;-)"
+						" - der Sternenbote."
 					),
 					_react2["default"].createElement(
 						"p",
@@ -42259,19 +42267,18 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 					_react2["default"].createElement(
 						"p",
 						null,
-						"Weitere ",
-						_react2["default"].createElement(
-							"code",
-							null,
-							"[countScientists]-[countAstronomers]"
-						),
-						" Astrophysiker, Kosmologen, Mathematiker und andere Wissenschaftler finden Sie ",
+						"Erfahren Sie mehr über ",
 						_react2["default"].createElement(
 							"a",
 							{ href: "/scientists" },
-							"hier"
+							_react2["default"].createElement(
+								"code",
+								null,
+								"[countScientists]"
+							),
+							" Astronomen"
 						),
-						"."
+						", Astrophysiker, Kosmologen, Mathematiker und viele weitere Wissenschaftler."
 					)
 				)
 			),
@@ -42567,7 +42574,7 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 					_react2["default"].createElement(
 						"p",
 						null,
-						"Mit dem Start von Sputnik 1 am 4. Oktober 1957 begann das Zeitalter der Raumfahrt. Von diesem Tag an wurden Tausende Satelliten, Transportraumschiffe, Sonden, bemannte Raumkapseln, Module für Weltraumstationen und Weltraumteleskope in den Erdorbit, zu anderen Planeten oder sogar an das Ende unseres Sonnensystems befördert."
+						"Mit dem Start von Sputnik 1 am 4. Oktober 1957 begann das Zeitalter der Raumfahrt. Seit diesem Tag wurden Tausende Satelliten, Transportraumschiffe, Sonden, bemannte Raumkapseln, Module für Weltraumstationen und Weltraumteleskope in den Erdorbit, zu anderen Planeten oder sogar an das Ende unseres Sonnensystems befördert."
 					),
 					_react2["default"].createElement(
 						"p",

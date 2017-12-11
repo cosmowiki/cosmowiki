@@ -91,7 +91,6 @@ a:focus img, a:hover img, a:active img {}
 	border-style: solid; border-color: #fff;
 }
 #sideButtons li#scrollUp {border-width: 1px 0 0 1px;}
-#sideButtons li#toggleShariff {border-width: 0 0 0 1px;}
 #sideButtons li#scrollDown {border-width: 0 0 1px 1px;}
 li#scrollUp a:before {content: '\f102';}
 li#scrollDown a:before {content: '\f103';}
@@ -105,29 +104,9 @@ header {
 
 /*		- brand --------------------------------------------------------------- */
 #brand {display: none;}
-#brand a:before {
-	content: url(/img/cw_name_30px.jpg); position: relative; top: 2px; left: 2px;
-}
 
 /*		- menus --------------------------------------------------------------- */
 #menus {display: inline-block;}
-
-/*			- desktopMenu ------------------------------------------------------- */
-#desktopMenu {display: none;}
-
-.pure-menu-link:focus,
-.pure-menu-link:hover,
-.pure-menu-link:active {background: #eef;}
-.pure-menu-children {border-top: 1px solid #ddd;}
-
-#desktopMenu ul ul {box-shadow: 0 5px 5px rgba(0, 0, 0, .5);}
-#desktopMenu ul ul li {text-align: left;}
-#desktopMenu ul ul li a {background: #fff; border-bottom: 1px solid #ddd;}
-#desktopMenu ul ul li:last-child a {border-bottom: none;}
-
-#desktopMenu2 ul {width: 100%;}
-#desktopMenu2 ul,
-#desktopMenu2 li {position: static;}
 
 /*			- mobileMenu -------------------------------------------------------- */
 #mobileMenu {position: relative;}
@@ -199,54 +178,36 @@ header {
 #mobileMenu li {background: #fff;}
 #mobileMenu #toggleShariff a:before {font-family: inherit; content: 'Teilen';}
 
+/*			- desktopMenu ------------------------------------------------------- */
+#desktopMenu {display: none;}
+
 /*			- sideMenu ---------------------------------------------------------- */
-#sideMenu {position:absolute; top: 0; right: 0;}
-#sideMenu ul li {display: inline-block;}
-#sideMenu #toggleShariff {display: none;}
-#sideMenu #toggleShariff a:before {font-family: FontAwesome; content: '\f045';}
-
-/*				- search ---------------------------------------------------------- */
-/*#toggleSearch a:focus div#searchArea,
-#toggleSearch a:hover div#searchArea,
-#toggleSearch a:active div#searchArea {display: block;}*/
-
-#searchArea {background: #fff;}
-#sideMenu #toggleSearch {display: none;}
-#sideMenu #toggleSearch:before {font-family: FontAwesome; content: '\f002';}
-
-#searchArea input {
-	position: relative; top: 4px; left: 0; z-index: 20;	padding: 2px 5px;
-	width: 50%; line-height:20px; font-size: 16px;
+#sideMenu #toggleSearch a,
+#sideMenu #toggleShariff a {display: none;}
+#sideMenu #toggleSearch a:before,
+#sideMenu #toggleShariff a:before {font-family: FontAwesome;}
+#sideMenu #toggleSearch > a:before {content: '\f002';}
+#sideMenu #search {position: absolute; top: 0; left: 16.666%; background: #fff;}
+#sideMenu #search input {
+	display:inline-block; margin: 4px 0; padding: 2px 5px; width: 50%;
+	line-height:20px; font-size: 16px;
 	background:#eee; box-shadow: none;
 	border: 1px solid #aaf; border-radius: 0;
 	-webkit-transition: width 0.4s ease-in-out; transition: width 0.4s ease-in-out;
 }
-
-#searchArea a:focus input,
-#searchArea a:hover input,
-#searchArea a:active input {display:inline-block;}
-#searchArea input:focus,
-#searchArea input:hover,
-#searchArea input:active {width: 75%; outline: none; border: 1px solid #d00;}
-
-/*#searchArea button {
-	width: 24px; cursor: pointer;
-	font-family: FontAwesome; color: #55f; text-align: center;
+#sideMenu #search input:focus,
+#sideMenu #search input:hover,
+#sideMenu #search input:active {
+	width: 75%; outline: none; border: 1px solid #d00;
 }
-#searchArea button:before {content: '\f002';}
-#searchArea button:focus:before,
-#searchArea button:hover:before,
-#searchArea button:active:before {color:#d00;}*/
-
-/*			-  shariff ---------------------------------------------------------- */
-#toggleShariff:focus div.shariff,
-#toggleShariff:hover div.shariff,
-#toggleShariff:active div.shariff {display: block;}
+#sideMenu #toggleShariff > a:before {content: '\f045';}
+#sideMenu #toggleShariff:focus div.shariff,
+#sideMenu #toggleShariff:hover div.shariff,
+#sideMenu #toggleShariff:active div.shariff {display: block;}
 
 /*			-  logo ------------------------------------------------------------- */
-#logo a:before {
-	content: url(/img/cw_icon_30px.jpg); position: absolute; top: 2px; right: 2px;
-}
+#logo {text-align: right;}
+#logo img {padding: 2px;}
 
 /*	main -------------------------------------------------------------------- */
 main {margin: 34px auto 30px; max-width: 1000px;}
@@ -438,7 +399,7 @@ div.summary-img.width-25,
 footer {
 	position: relative; bottom: 0; left: 0;
 	/*background: rgba(255, 255, 255, .9);*/
-	background: #136;
+	background: #014;
 	border-top: 15px solid #aaf; border-bottom: 15px solid #ccc;
 }
 footer a:link,
@@ -451,12 +412,12 @@ footer a:active {color: #d00;}
 #sitemap,
 #extras,
 #version {padding: .5em; font-size: .9rem;}
-#sitemap {text-align: center; border-bottom: 1px solid #ddd;}
+#sitemap {text-align: center; border-bottom: 1px solid #333;}
 #sitemap ul {margin-bottom: .5em;}
 #sitemap a {display: block; line-height: 1.75em;}
 #sitemap li:first-child a {background: rgba(255, 255, 255, .2);}
 
-#extras {border-bottom: 1px solid #ddd;}
+#extras {border-bottom: 1px solid #333;}
 #extrasSelf,
 #extrasSocial {margin: .5em auto; text-align: center;}
 #extrasSelf li {display: inline-block; width: 33.333%; margin-bottom: 1em;}
@@ -484,7 +445,7 @@ footer a:active {color: #d00;}
 
 @media only screen and (min-width: 48em) {
 	/*.shariff .orientation-horizontal {width: 60%; margin: 0 auto;}*/
-	/*#searchArea input {width: 50%;}*/
+	/*#search input {width: 50%;}*/
 
 	#siteTitle h1 {padding: .5em 0 0; font-size: 2rem;}
 	#siteTitle h3 {padding: .25em 0 .75em; font-size: 1.5rem;}
@@ -503,8 +464,30 @@ footer a:active {color: #d00;}
 @media only screen and (min-width: 64em) {
 	#sideButtons {border: none;}
 	#mobileMenu {display: none;}
-	#brand {display: inline-block;}
+	#brand,
 	#desktopMenu {display: inline-block;}
+	#brand img {position: absolute; top: 2px; left: 2px;}
+	#desktopMenu ul ul {box-shadow: 0 5px 5px rgba(0, 0, 0, .5);}
+	#desktopMenu ul ul li {text-align: left;}
+	#desktopMenu ul ul li a {background: #fff; border-bottom: 1px solid #ddd;}
+	#desktopMenu ul ul li:last-child a {border-bottom: none;}
+	#desktopMenu .pure-menu-link:focus,
+	#desktopMenu .pure-menu-link:hover,
+	#desktopMenu .pure-menu-link:active {background: #eef;}
+	#desktopMenu .pure-menu-children {border-top: 1px solid #ddd;}
+
+	#sideMenu #toggleSearch a,
+	#sideMenu #toggleShariff a {display: block; line-height: 34px;}
+	#sideMenu #search {display: none;}
+	#sideMenu #toggleSearch:focus #search,
+	#sideMenu #toggleSearch:hover #search,
+	#sideMenu #toggleSearch:active #search {display: inline-block;}
+	#sideMenu #search input {width: 33%;}
+	#sideMenu #search input:focus,
+	#sideMenu #search input:hover,
+	#sideMenu #search input:active {width: 50%;}
+
+	#logo {text-align: center;}
 
 	main {margin-top: 50px;}
 

@@ -2,11 +2,7 @@
 	background: url('/img/title_welcome.jpg') center / cover no-repeat;
 }
 .welcome-container {background: #222;}
-.welcome-container h4 {
-	padding: .25em; color: #eee; font-size: 1.25rem;
-	background: #aaf;
-	border-bottom: 1px solid rgba(192, 192, 255, .3);
-}
+.welcome-container h4 {padding: .25em; font-size: 1.25rem; background: #eee;}
 .welcome-text {background: #eee;}
 .welcome-text p {padding: .5em; text-align: justify;}
 
@@ -62,7 +58,7 @@
 	.welcome-container {
 		position: relative; height: 400px;
 	}
-	.welcome-container h4 {font-size: 1.5rem; background: rgba(128, 128, 255, .5);}
+	.welcome-container h4 {font-size: 1.5rem; background: rgba(255, 255, 255, .8);}
 	.welcome-text {
 		position: absolute; bottom: 0;
 		background: rgba(255, 255, 255, .8);
