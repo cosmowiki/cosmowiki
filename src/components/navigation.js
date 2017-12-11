@@ -5,7 +5,9 @@ const Navigation = ({ appUrl }) => {
   return (
     <div id="menus" className="pure-u-1 pure-u-lg-5-6">
       <nav id="mobileMenu" className="pure-menu custom-restricted-width pure-u-1-6">
-        <a id="mobileMenuToggle" className="menu-link" href="#" title="Navigation"><span></span></a>
+        <a id="mobileMenuToggle" className="menu-link" href="#" title="Navigation">
+          <span className="bar"></span>
+        </a>
         <ul className="pure-menu-list">
           <li className="pure-menu-item">
             <a className="pure-menu-link menu-item chronicle" href={appUrl.eventsSite()}>Chronik</a>

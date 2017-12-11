@@ -99,7 +99,7 @@ li#scrollDown a:before {content: '\f103';}
 /*	header ------------------------------------------------------------------ */
 header {
 	position: fixed; top: 0; left: 0;	height: 34px; z-index: 10; background: #fff;
-	box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+	box-shadow: 0px 2px 4px 0px #666;
 }
 
 /*		- brand --------------------------------------------------------------- */
@@ -116,9 +116,9 @@ header {
 	background: #fff;
 }
 /* the hamburger button */
-#mobileMenu .menu-link span,
-#mobileMenu .menu-link span:before,
-#mobileMenu .menu-link span:after {
+#mobileMenu .menu-link span.bar,
+#mobileMenu .menu-link span.bar:before,
+#mobileMenu .menu-link span.bar:after {
 	width: 24px; height: 2px;
 	background-color: #55f;
 	-webkit-transition: all 0.4s;
@@ -127,13 +127,13 @@ header {
 	-o-transition: all 0.4s;
 	transition: all 0.4s;
 }
-#mobileMenu .menu-link span {
+#mobileMenu .menu-link span.bar {
 	display: block; position: relative; top: 16px; left: 9px;
 }
-#mobileMenu .menu-link span:before {
+#mobileMenu .menu-link span.bar:before {
 	position: absolute; top: -8px; content: '';
 }
-#mobileMenu .menu-link span:after {
+#mobileMenu .menu-link span.bar:after {
 	position: absolute; top: 8px; content: '';
 }
 
@@ -143,30 +143,30 @@ header {
 #mobileMenu:hover .pure-menu-list,
 #mobileMenu:active .pure-menu-list {display: block;}
 /* from hamburger to cross */
-#mobileMenu:focus span,
-#mobileMenu:hover span,
-#mobileMenu:active span,
-#mobileMenu:focus span:before,
-#mobileMenu:hover span:before,
-#mobileMenu:active span:before,
-#mobileMenu:focus span:after,
-#mobileMenu:hover span:after,
-#mobileMenu:active span:after {background: #d00;}
-#mobileMenu:focus span,
-#mobileMenu:hover span,
-#mobileMenu:active span {background: transparent;}
-#mobileMenu:focus span:before,
-#mobileMenu:hover span:before,
-#mobileMenu:active span:before {
+#mobileMenu:focus span.bar,
+#mobileMenu:hover span.bar,
+#mobileMenu:active span.bar,
+#mobileMenu:focus span.bar:before,
+#mobileMenu:hover span.bar:before,
+#mobileMenu:active span.bar:before,
+#mobileMenu:focus span.bar:after,
+#mobileMenu:hover span.bar:after,
+#mobileMenu:active span.bar:after {background: #d00;}
+#mobileMenu:focus span.bar,
+#mobileMenu:hover span.bar,
+#mobileMenu:active span.bar {background: transparent;}
+#mobileMenu:focus span.bar:before,
+#mobileMenu:hover span.bar:before,
+#mobileMenu:active span.bar:before {
 	-webkit-transform: rotate(225deg) translate3d(-7px, -5px, 0);
 	-moz-transform: rotate(225deg) translate3d(-7px, -5px, 0);
 	-ms-transform: rotate(225deg) translate3d(-7px, -5px, 0);
 	-o-transform: rotate(225deg) translate3d(-7px, -5px, 0);
 	transform: rotate(225deg) translate3d(-7px, -5px, 0);
 }
-#mobileMenu:focus span:after,
-#mobileMenu:hover span:after,
-#mobileMenu:active span:after {
+#mobileMenu:focus span.bar:after,
+#mobileMenu:hover span.bar:after,
+#mobileMenu:active span.bar:after {
 	-webkit-transform: rotate(-225deg) translate3d(-6px, 4px, 0);
 	-moz-transform: rotate(-225deg) translate3d(-6px, 4px, 0);
 	-ms-transform: rotate(-225deg) translate3d(-6px, 4px, 0);
@@ -174,9 +174,14 @@ header {
 	transform: rotate(-225deg) translate3d(-6px, 4px, 0);
 }
 
-#mobileMenu ul {box-shadow: 3px 3px 3px -2px rgba(0, 0, 0, .5);}
-#mobileMenu li {background: #fff;}
-#mobileMenu #toggleShariff a:before {font-family: inherit; content: 'Teilen';}
+#mobileMenu .pure-menu-list,
+#mobileMenu .pure-menu-children {box-shadow: 0px 2px 4px 0px #666;}
+#mobileMenu .pure-menu-item {background: #fff;}
+#mobileMenu #toggleShariff {border-top: 1px solid #ccf;}
+#mobileMenu #toggleShariff > a:before {font-family: inherit; content: 'Teilen';}
+#mobileMenu #toggleShariff:focus .shariff,
+#mobileMenu #toggleShariff:hover .shariff,
+#mobileMenu #toggleShariff:active .shariff {display: block;}
 
 /*			- desktopMenu ------------------------------------------------------- */
 #desktopMenu {display: none;}
@@ -467,7 +472,7 @@ footer a:active {color: #d00;}
 	#brand,
 	#desktopMenu {display: inline-block;}
 	#brand img {position: absolute; top: 2px; left: 2px;}
-	#desktopMenu ul ul {box-shadow: 0 5px 5px rgba(0, 0, 0, .5);}
+	#desktopMenu ul ul {box-shadow: 0px 2px 4px 0px #666;}
 	#desktopMenu ul ul li {text-align: left;}
 	#desktopMenu ul ul li a {background: #fff; border-bottom: 1px solid #ddd;}
 	#desktopMenu ul ul li:last-child a {border-bottom: none;}
@@ -523,9 +528,4 @@ footer a:active {color: #d00;}
 	#sideButtons li {border: none; border-radius: 0;}
 	#sideButtons li:first-child {border-radius: 5px 5px 0 0;}
 	#sideButtons li:last-child {border-radius: 0 0 5px 5px;}
-	.shariff {
-		bottom: 40%; bottom: calc(50% - 27px); left: calc(50% - 500px);
-		margin-right: 40px; padding: 24px 0; width: 997px;
-		border-width: 3px 0 3px 3px; border-style: solid; border-color: #ddd;
-	}
 }
