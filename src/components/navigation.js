@@ -88,7 +88,7 @@ const Navigation = ({ appUrl }) => {
           </li>
         </ul>
       </nav>
-      <nav id="desktopMenu" className="pure-menu pure-menu-horizontal pure-u-lg-5-6 center">
+      <nav id="desktopMenu" className="pure-menu pure-menu-horizontal pure-u-lg-4-5 center">
         <ul className="pure-menu-list">
           <li className="pure-menu-item">
             <a className="pure-menu-link menu-item chronicle" href={appUrl.eventsSite()}>Chronik</a>
@@ -163,17 +163,20 @@ const Navigation = ({ appUrl }) => {
           </li>
         </ul>
       </nav>
-      <div id="sideMenu" className="pure-u-5-6 pure-u-lg-1-6">
-        <ul>
-          <li className="pure-u-4-5 center">
+      <div id="sideMenu" className="pure-u-5-6 pure-u-lg-1-5">
+        <ul className="pure-u-1">
+          <li id="toggleSearch" className="pure-u-1-3 center">
+            <a href="#"></a>
             <Search />
           </li>
-          <li id="toggleShariff">
+          <li id="toggleShariff" className="pure-u-1-3 center">
             <a href="#"></a>
             <ShareButtons />
           </li>
-          <li id="logo">
-            <a href="/" title="CosmoWiki.de" rel="home"></a>
+          <li id="logo" className="pure-u-1-3 center">
+            <a href="/" title="CosmoWiki.de" rel="home">
+              <img src="/img/cw_icon_30px.jpg" alt="CosmoWiki Logo" />
+            </a>
           </li>
         </ul>
       </div>
@@ -187,9 +190,9 @@ class ShareButtons extends React.Component {
     }
     render() {
         return (
-          <div className="shariff pure-u-1"
+          <div className="shariff center"
           data-services="twitter, facebook, googleplus, info"
-          data-twitter-via="cosmowiki"
+          data-twitter-via="cosmowiki" data-orientation="vertical"
           />
       );
     }
