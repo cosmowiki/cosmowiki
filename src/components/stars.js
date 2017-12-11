@@ -40,8 +40,10 @@ const StarsComponent = ({groupedStars, constellations}) => {
         <p className="summary-text">
           In ihnen liefert die <em>stellare Kernfusion</em> durch die Verschmelzung
           von zumeist Wasserstoff zu Helium gewaltige Energiemengen, die ebenso
-          wie ihre kräftigen Magnetfelder weit ins All hinein wirken. Auf den umlaufenden
-          Planeten können sie dadurch Leben ermöglichen oder auch dauerhaft verhindern.
+          wie ihre kräftigen Magnetfelder weit ins All hinein wirken. Befinden sich
+          in stabilen Umlaufbahnen um einen Stern sogar Planeten, deren Materie 
+          ohne frühere, bereits gestorbene Sterne nicht existieren würde, kann die
+          abgestrahlte Energie dort Leben ermöglichen oder auch dauerhaft verhindern.
           Sonnensysteme mit nur einem Zentralstern wie das unsere sind eher die Seltenheit.
           Schätzungsweise zwei Drittel aller Sterne haben einen oder sogar mehrere Geschwister,
           die oft um ein gemeinsames Zentrum kreisen.
