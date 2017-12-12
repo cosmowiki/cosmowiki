@@ -212,7 +212,8 @@ header {
 
 /*			-  logo ------------------------------------------------------------- */
 #logo {text-align: right;}
-#logo img {padding: 2px;}
+#logo a {display: block;}
+#logo img {margin-top: 2px;}
 
 /*	main -------------------------------------------------------------------- */
 main {margin: 34px auto 30px; max-width: 1000px;}
