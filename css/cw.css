@@ -99,7 +99,7 @@ li#scrollDown a:before {content: '\f103';}
 /*	header ------------------------------------------------------------------ */
 header {
 	position: fixed; top: 0; left: 0;	height: 34px; z-index: 10; background: #fff;
-	box-shadow: 0px 2px 4px 0px #666;
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .75);
 }
 
 /*		- brand --------------------------------------------------------------- */
@@ -175,7 +175,7 @@ header {
 }
 
 #mobileMenu .pure-menu-list,
-#mobileMenu .pure-menu-children {box-shadow: 0px 2px 4px 0px #666;}
+#mobileMenu .pure-menu-children {box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .75);}
 #mobileMenu .pure-menu-item {background: #fff;}
 #mobileMenu #toggleShariff {border-top: 1px solid #ccf;}
 #mobileMenu #toggleShariff > a:before {font-family: inherit; content: 'Teilen';}
@@ -213,7 +213,7 @@ header {
 /*			-  logo ------------------------------------------------------------- */
 #logo {text-align: right;}
 #logo a {display: block;}
-#logo img {margin-top: 2px;}
+#logo img {margin: 2px 2px 0 0;}
 
 /*	main -------------------------------------------------------------------- */
 main {margin: 34px auto 30px; max-width: 1000px;}
@@ -252,10 +252,6 @@ a#summaryToggle.collapsed:after {content: '\f196';}
   padding: 0 .25em 0; border-bottom: 1px solid #ddd;
 }
 #summaryContainer.minimized {height: 0;}
-/*#summaryShade {
-  position: absolute; height: 1.5em; width: 100%; left: 0; bottom: 0;
-	background-image: linear-gradient(rgba(255, 255, 255, .3), rgba(204, 204, 204, .95) 75%);
-}*/
 .summary-text,
 div.summary-img.width-100,
 div.summary-img.width-75,
@@ -345,8 +341,8 @@ div.summary-img.width-25,
 }
 #filter {float: right;}
 #sortAscDesc input {margin: 0 1em; font-family: FontAwesome;}
-#sortAscDesc input#sortAsc:after {margin-left: 1.5em; content: "\f160";}
-#sortAscDesc input#sortDesc:after {margin-left: 1.5em; content: "\f161";}
+#sortAscDesc input#sortAsc label:after {margin-left: 1.5em; content: '\f160';}
+#sortAscDesc input#sortDesc label:after {margin-left: 1.5em; content: '\f161';}
 
 #sortArea, #filterArea {display: none;}
 #controlArea a {display: inline; margin: .2em;}
@@ -429,10 +425,10 @@ footer a:active {color: #d00;}
 #extrasSelf li {display: inline-block; width: 33.333%; margin-bottom: 1em;}
 #extrasSocial li {display: inline-block; margin: 0 2em;}
 #extrasSocial a:before {font-family: FontAwesome; font-size: 1.25rem;}
-#extras #Twitter:before {content: "\f099"; color: #32bbf5;}
-#extras #Facebook:before {content: "\f09a"; color: #4273c8;}
-#extras #GooglePlus:before {content: "\f0d5"; color: #d34836;}
-#extras #Github:before {content: "\f09b"; color: #4078c0;}
+#extras #Twitter:before {content: '\f099'; color: #32bbf5;}
+#extras #Facebook:before {content: '\f09a'; color: #4273c8;}
+#extras #GooglePlus:before {content: '\f0d5'; color: #d34836;}
+#extras #Github:before {content: '\f09b'; color: #4078c0;}
 
 #version p {margin: 0 auto; color: #ddd; line-height: 15px; font-size: .8rem;}
 
@@ -445,8 +441,8 @@ footer a:active {color: #d00;}
 
 	footer {margin-bottom: 0;}
 	#sitemap ul li {margin: 0 .25em;}
-	#sitemap a:before {content: "- ";}
-	#sitemap li:first-child a:before {content: "";}
+	#sitemap a:before {content: '- ';}
+	#sitemap li:first-child a:before {content: '';}
 }
 
 @media only screen and (min-width: 48em) {
@@ -461,10 +457,10 @@ footer a:active {color: #d00;}
 	#sortArea, #filterArea, #sort form, #filter form {display: inline;}
 	#sort a, #filter a {display: none;}
 
-	#extras #Twitter:after {content: " Twitter";}
-	#extras #Facebook:after {content: " Facebook";}
-	#extras #GooglePlus:after {content: " Google+";}
-	#extras #Github:after {content: " Github";}
+	#extras #Twitter:after {content: ' Twitter';}
+	#extras #Facebook:after {content: ' Facebook';}
+	#extras #GooglePlus:after {content: ' Google+';}
+	#extras #Github:after {content: ' Github';}
 }
 
 @media only screen and (min-width: 64em) {
@@ -473,7 +469,7 @@ footer a:active {color: #d00;}
 	#brand,
 	#desktopMenu {display: inline-block;}
 	#brand img {position: absolute; top: 2px; left: 2px;}
-	#desktopMenu ul ul {box-shadow: 0px 2px 4px 0px #666;}
+	#desktopMenu ul ul {box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .75);}
 	#desktopMenu ul ul li {text-align: left;}
 	#desktopMenu ul ul li a {background: #fff; border-bottom: 1px solid #ddd;}
 	#desktopMenu ul ul li:last-child a {border-bottom: none;}
@@ -488,12 +484,13 @@ footer a:active {color: #d00;}
 	#sideMenu #toggleSearch:focus #search,
 	#sideMenu #toggleSearch:hover #search,
 	#sideMenu #toggleSearch:active #search {display: inline-block;}
-	#sideMenu #search input {width: 33%;}
+	#sideMenu #search input {width: 33%; border-radius: 5px;}
 	#sideMenu #search input:focus,
 	#sideMenu #search input:hover,
 	#sideMenu #search input:active {width: 50%;}
 
 	#logo {text-align: center;}
+	#logo img {margin: 2px 0 0 0;}
 
 	main {margin-top: 50px;}
 

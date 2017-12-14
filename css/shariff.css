@@ -5,6 +5,8 @@
 .shariff ul.orientation-vertical {padding: 0 5px; width: 120px;}
 
 @media only screen and (min-width: 64em) {
-	.shariff {right: 100%; width: 150px; background: #fff;}
+	.shariff {
+		right: 100%; width: 150px; background: #fff; border-radius: 0 0 5px 5px;
+	}
 	.shariff ul.orientation-vertical {width: 140px;}
 }
