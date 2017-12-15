@@ -42,7 +42,10 @@
 
 .astronaut-img,
 .astronaut-data {display: inline-block;}
-.astronaut-img img {height: 110px;}
+.astronaut-img img {height: 110px; border: 1px solid #55f;}
+.astronaut-img img:focus,
+.astronaut-img img:hover,
+.astronaut-img img:active {border: 1px solid #d00;}
 
 .astronaut-info {
 	border-width: 0 1px 1px 1px;
