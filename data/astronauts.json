@@ -246,7 +246,6 @@
         "itemtype": 2,
         "itemcolor": "/img/flags/USA.png",
         "itemimgsmallurl": "/img/astronauts/allen_andrew.jpg",
-        "itemimgurl": "/img/astronauts/allen_andrew.jpg",
         "itemdateyear": "1955",
         "itemdatemonth": "08",
         "itemdateday": "04",
@@ -2103,7 +2102,8 @@
         "itemdescription": "STS-47, STS-60, STS-85",
         "itemtype": 2,
         "itemcolor": "/img/flags/USA.png",
-        "itemimgsmallurl": "/img/astronauts/dummy.jpg",
+        "itemimgsmallurl": "/img/astronauts/davis_nancy_sm.jpg",
+        "itemimgurl": "/img/astronauts/davis_nancy_lg.jpg",
         "itemcountry": "USA",
         "itemproperty": "Raumfahrer",
         "itemtags": "STS-47, STS-60, STS-85"
@@ -2115,7 +2115,8 @@
         "itemdescription": "Sojus TMA-1/Sojus TM-34, ISS-Expedition 20/21 Sojus TMA-15",
         "itemtype": 2,
         "itemcolor": "/img/flags/BEL.png",
-        "itemimgsmallurl": "/img/astronauts/dummy.jpg",
+        "itemimgsmallurl": "/img/astronauts/de winne_frank_sm.jpg",
+        "itemimgurl": "/img/astronauts/de winne_frank_lg.jpg",
         "itemcountry": "Belgien",
         "itemproperty": "Raumfahrer",
         "itemtags": "Sojus TMA-1, Sojus TM-34, ISS-Expedition 20, ISS-Expedition 21, Sojus TMA-15"
@@ -2127,7 +2128,8 @@
         "itemdescription": "STS-50",
         "itemtype": 2,
         "itemcolor": "/img/flags/USA.png",
-        "itemimgsmallurl": "/img/astronauts/dummy.jpg",
+        "itemimgsmallurl": "/img/astronauts/delucas_lawrence_sm.jpg",
+        "itemimgurl": "/img/astronauts/delucas_lawrence_lg.jpg",
         "itemcountry": "USA",
         "itemproperty": "Raumfahrer",
         "itemtags": "STS-50"
@@ -2139,7 +2141,8 @@
         "itemdescription": "Mir EO-18 Sojus TM-21/STS-71, ISS-Expedition 3 STS-105/STS-108",
         "itemtype": 2,
         "itemcolor": "/img/flags/RUS.png",
-        "itemimgsmallurl": "/img/astronauts/dummy.jpg",
+        "itemimgsmallurl": "/img/astronauts/deschurow_wladimir_sm.jpg",
+        "itemimgurl": "/img/astronauts/deschurow_wladimir_lg.jpg",
         "itemcountry": "SU / RUS",
         "itemproperty": "Raumfahrer",
         "itemtags": "Mir EO-18, Sojus TM-21, STS-71, ISS-Expedition 3, STS-105, STS-108"
@@ -2151,7 +2154,7 @@
         "itemdescription": "Sojus 15",
         "itemtype": 2,
         "itemcolor": "/img/flags/SU.png",
-        "itemimgsmallurl": "/img/astronauts/dummy.jpg",
+        "itemimgsmallurl": "/img/astronauts/djomin_lew.jpg",
         "itemcountry": "SU / RUS",
         "itemproperty": "Raumfahrer",
         "itemtags": "Sojus 15"
@@ -2163,7 +2166,7 @@
         "itemdescription": "Sojus 11",
         "itemtype": 2,
         "itemcolor": "/img/flags/SU.png",
-        "itemimgsmallurl": "/img/astronauts/dummy.jpg",
+        "itemimgsmallurl": "/img/astronauts/dobrowolski_georgi.jpg",
         "itemcountry": "SU / RUS",
         "itemproperty": "Raumfahrer",
         "itemtags": "Sojus 11"
@@ -2175,7 +2178,8 @@
         "itemdescription": "STS-87, STS-123",
         "itemtype": 2,
         "itemcolor": "/img/flags/JPN.png",
-        "itemimgsmallurl": "/img/astronauts/dummy.jpg",
+        "itemimgsmallurl": "/img/astronauts/doi_takao_sm.jpg",
+        "itemimgurl": "/img/astronauts/doi_takao_lg.jpg",
         "itemcountry": "Japan",
         "itemproperty": "Raumfahrer",
         "itemtags": "STS-87, STS-123"
@@ -2187,7 +2191,8 @@
         "itemdescription": "STS-118, STS-133",
         "itemtype": 2,
         "itemcolor": "/img/flags/USA.png",
-        "itemimgsmallurl": "/img/astronauts/dummy.jpg",
+        "itemimgsmallurl": "/img/astronauts/drew_alvin_sm.jpg",
+        "itemimgurl": "/img/astronauts/drew_alvin_lg.jpg",
         "itemcountry": "USA",
         "itemproperty": "Raumfahrer",
         "itemtags": "STS-118, STS-133"
@@ -2199,7 +2204,8 @@
         "itemdescription": "Sojus 27, Sojus 39, Sojus T-6, Sojus T-12, Saljut 7 EO-4 Sojus T-13",
         "itemtype": 2,
         "itemcolor": "/img/flags/SU.png",
-        "itemimgsmallurl": "/img/astronauts/dummy.jpg",
+        "itemimgsmallurl": "/img/astronauts/dschanibekow_wladimir_sm.jpg",
+        "itemimgurl": "/img/astronauts/dschanibekow_wladimir_lg.jpg",
         "itemcountry": "SU / RUS",
         "itemproperty": "Raumfahrer",
         "itemtags": "Sojus 27, Sojus 39, Sojus T-6, Sojus T-12, Saljut 7 EO-4, Sojus T-13"
@@ -2211,7 +2217,8 @@
         "itemdescription": "STS-45, STS-57, STS-72, STS-92",
         "itemtype": 2,
         "itemcolor": "/img/flags/USA.png",
-        "itemimgsmallurl": "/img/astronauts/dummy.jpg",
+        "itemimgsmallurl": "/img/astronauts/duffy_brian_sm.jpg",
+        "itemimgurl": "/img/astronauts/duffy_brian_lg.jpg",
         "itemcountry": "USA",
         "itemproperty": "Raumfahrer",
         "itemtags": "STS-45, STS-57, STS-72, STS-92"
@@ -2223,7 +2230,8 @@
         "itemdescription": "Apollo 16",
         "itemtype": 2,
         "itemcolor": "/img/flags/USA.png",
-        "itemimgsmallurl": "/img/astronauts/dummy.jpg",
+        "itemimgsmallurl": "/img/astronauts/duke_charles_sm.jpg",
+        "itemimgurl": "/img/astronauts/duke_charles_lg.jpg",
         "itemcountry": "USA",
         "itemproperty": "Raumfahrer",
         "itemtags": "Apollo 16, Mond, Mondlandung, Apollo"
@@ -2235,7 +2243,8 @@
         "itemdescription": "STS-61-A, STS-32, STS-50, STS-71, STS-89",
         "itemtype": 2,
         "itemcolor": "/img/flags/USA.png",
-        "itemimgsmallurl": "/img/astronauts/dummy.jpg",
+        "itemimgsmallurl": "/img/astronauts/dunbar_bonnie_sm.jpg",
+        "itemimgurl": "/img/astronauts/dunbar_bonnie_lg.jpg",
         "itemcountry": "USA",
         "itemproperty": "Raumfahrer",
         "itemtags": "STS-61-A, STS-32, STS-50, STS-71, STS-89"
@@ -2247,7 +2256,8 @@
         "itemdescription": "STS-95, ISS Cervantes Sojus TMA-3/Sojus TMA-2",
         "itemtype": 2,
         "itemcolor": "/img/flags/ESP.png",
-        "itemimgsmallurl": "/img/astronauts/dummy.jpg",
+        "itemimgsmallurl": "/img/astronauts/duque_pedro_sm.jpg",
+        "itemimgurl": "/img/astronauts/duque_pedro_lg.jpg",
         "itemcountry": "Spanien",
         "itemproperty": "Raumfahrer",
         "itemtags": "STS-95, ISS Cervantes, Sojus TMA-3, Sojus TMA-2"
@@ -2259,7 +2269,8 @@
         "itemdescription": "STS-35, STS-67",
         "itemtype": 2,
         "itemcolor": "/img/flags/USA.png",
-        "itemimgsmallurl": "/img/astronauts/dummy.jpg",
+        "itemimgsmallurl": "/img/astronauts/durrance_samuel_sm.jpg",
+        "itemimgurl": "/img/astronauts/durrance_samuel_lg.jpg",
         "itemcountry": "USA",
         "itemproperty": "Raumfahrer",
         "itemtags": "STS-35, STS-67"
@@ -2271,7 +2282,8 @@
         "itemdescription": "STS-131",
         "itemtype": 2,
         "itemcolor": "/img/flags/USA.png",
-        "itemimgsmallurl": "/img/astronauts/dummy.jpg",
+        "itemimgsmallurl": "/img/astronauts/dutton_james_sm.jpg",
+        "itemimgurl": "/img/astronauts/dutton_james_lg.jpg",
         "itemcountry": "USA",
         "itemproperty": "Raumfahrer",
         "itemtags": "STS-131"
