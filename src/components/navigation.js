@@ -168,11 +168,11 @@ const Navigation = ({ appUrl }) => {
       <div id="sideMenu" className="pure-u-5-6 pure-u-lg-1-5">
         <ul className="pure-u-1">
           <li id="toggleSearch" className="pure-u-1-3 center">
-            <a href="#"></a>
+            <a></a>
             <Search />
           </li>
           <li id="toggleShariff" className="pure-u-1-3 center">
-            <a href="#"></a>
+            <a></a>
             <ShareButtons />
           </li>
           <li id="logo" className="pure-u-1-3 center">
