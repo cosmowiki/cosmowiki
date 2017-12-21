@@ -36907,13 +36907,13 @@ var Navigation = function Navigation(_ref) {
         _react2['default'].createElement(
           'li',
           { id: 'toggleSearch', className: 'pure-u-1-3 center' },
-          _react2['default'].createElement('a', { href: '#' }),
+          _react2['default'].createElement('a', null),
           _react2['default'].createElement(_search2['default'], null)
         ),
         _react2['default'].createElement(
           'li',
           { id: 'toggleShariff', className: 'pure-u-1-3 center' },
-          _react2['default'].createElement('a', { href: '#' }),
+          _react2['default'].createElement('a', null),
           _react2['default'].createElement(ShareButtons, null)
         ),
         _react2['default'].createElement(

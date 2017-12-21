@@ -424,9 +424,6 @@ footer a:active {color: #d00;}
 	background: rgba(255, 255, 255, .1);
 }
 #sitemap a {display: block; line-height: 1.75em;}
-#sitemap li:first-child a {
-
-}
 
 #extras {border-bottom: 1px solid #666;}
 #extrasSelf,
