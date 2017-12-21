@@ -219,7 +219,11 @@ header {
 main {margin: 34px auto 30px; max-width: 1000px;}
 
 /*	module ------------------------------------------------------------------ */
-.module {
+	.module,
+	#siteTitle,
+	#pageSubMenu {margin-bottom: 15px;}
+
+	.module {
 	background: rgba(255, 255, 255, .9);
 	border-top: 15px solid #aaf; border-bottom: 15px solid #ccc;
 }
@@ -400,12 +404,11 @@ div.summary-img.width-25,
 /*	Footer ------------------------------------------------------------------ */
 footer {
 	position: relative; bottom: 0; left: 0;
-	/*background: rgba(255, 255, 255, .9);*/
-	background: #014;
-	border-top: 15px solid #aaf; border-bottom: 15px solid #ccc;
+	background: #081422;
+	border-top: 1px solid #666;
 }
 footer a:link,
-footer a:visited {color: #ddd;}
+footer a:visited {color: #ccc;}
 footer a:focus,
 footer a:hover,
 footer a:active {color: #d00;}
@@ -413,17 +416,27 @@ footer a:active {color: #d00;}
 
 #sitemap,
 #extras,
-#version {padding: .5em; font-size: .9rem;}
-#sitemap {text-align: center; border-bottom: 1px solid #333;}
-#sitemap ul {margin-bottom: .5em;}
+#version {padding: 1em .5em; font-size: .9rem;}
+#sitemap {text-align: center; border-bottom: 1px solid #666;}
+#sitemap ul {margin-bottom: 2em;}
+#sitemap ul li:first-child {
+	margin-bottom: .25em;
+	background: rgba(255, 255, 255, .1);
+}
 #sitemap a {display: block; line-height: 1.75em;}
-#sitemap li:first-child a {background: rgba(255, 255, 255, .2);}
+#sitemap li:first-child a {
 
-#extras {border-bottom: 1px solid #333;}
+}
+
+#extras {border-bottom: 1px solid #666;}
 #extrasSelf,
-#extrasSocial {margin: .5em auto; text-align: center;}
-#extrasSelf li {display: inline-block; width: 33.333%; margin-bottom: 1em;}
-#extrasSocial li {display: inline-block; margin: 0 2em;}
+#extrasSocial {text-align: center;}
+#extrasSelf li {
+	display: inline-block; width: 33.333%; margin-bottom: 1em; line-height: 3em;
+}
+#extrasSocial li {
+	display: inline-block; margin: 0 2em; line-height: 3em;
+}
 #extrasSocial a:before {font-family: FontAwesome; font-size: 1.25rem;}
 #extras #Twitter:before {content: '\f099'; color: #32bbf5;}
 #extras #Facebook:before {content: '\f09a'; color: #4273c8;}
@@ -440,9 +453,6 @@ footer a:active {color: #d00;}
 	#summaryContainer {padding: 0 .5em;}
 
 	footer {margin-bottom: 0;}
-	#sitemap ul li {margin: 0 .25em;}
-	#sitemap a:before {content: '- ';}
-	#sitemap li:first-child a:before {content: '';}
 }
 
 @media only screen and (min-width: 48em) {
@@ -494,10 +504,6 @@ footer a:active {color: #d00;}
 
 	main {margin-top: 50px;}
 
-	.module,
-	#siteTitle,
-	#pageSubMenu {margin-bottom: 15px;}
-
 	#mobileMenus,
 	#navToggle {display: none;}
 
@@ -508,10 +514,13 @@ footer a:active {color: #d00;}
 	#controlArea {min-height: 1.5em;}
 
 	#sitemap {text-align: left;}
+	#sitemap ul {margin-bottom: .25em;}
 	#sitemap ul:nth-of-type(n) li {margin: 0 .25em;}
 	#sitemap ul:first-child li {margin: 0 .25em 0 0;}
 	#sitemap ul:last-child li {margin: 0 0 0 .25em;}
 	#sitemap a {padding-left: .25em;}
+	#sitemap a:before {content: '- ';}
+	#sitemap li:first-child a:before {content: '';}
 
 	#extrasSelf,
 	#extrasSocial {display: inline-block; text-align: center;}
@@ -521,7 +530,8 @@ footer a:active {color: #d00;}
 
 @media only screen and (min-width: 1100px) {
 	#sideButtons {
-		bottom: 40%; bottom: calc(50% - 2.25em); left: calc(50% + 500px); width: 2.5em;
+		bottom: 40%; bottom: calc(50% - 2.25em);
+		left: calc(50% + 500px); width: 2.5em;
 	}
 	#sideButtons li {border: none; border-radius: 0;}
 	#sideButtons li:first-child {border-radius: 5px 5px 0 0;}
