@@ -22,9 +22,9 @@ h1, h2, h3, h4, h5, h6 {font-weight: normal;}
 ul {list-style-type: none;}
 
 a {font-weight: normal; text-decoration: none; cursor: pointer;}
-a, a:link, a:visited {color: #55f; transition: all ease .4s;}
+a, a:link, a:visited {color: #55f; transition: all ease .3s;}
 a img, a:link img, a:visited img {}
-a:focus, a:hover, a:active {color: #d00; transition: all ease .4s;}
+a:focus, a:hover, a:active {color: #d00; transition: all ease .3s;}
 a:focus img, a:hover img, a:active img {}
 
 /*>Global Classes ----------------------------------------------------------- */
@@ -75,16 +75,16 @@ a:focus img, a:hover img, a:active img {}
 #sideButtons {
 	position: fixed; right: 0; bottom: 12%;	z-index: 10; width: 2.5em;
 	border-width: 1px 0 1px 1px; border-style: solid; border-color: #fff;
-	transition: all ease .4s;
+	transition: all ease .3s;
 }
 #sideButtons:focus,
 #sideButtons:hover,
-#sideButtons:active {border-color: #d00; transition: all ease .4s;}
+#sideButtons:active {border-color: #d00; transition: all ease .3s;}
 
-#sideButtons li {background-color: #ddd; transition: all ease .4s;}
+#sideButtons li {background-color: #ddd; transition: all ease .3s;}
 #sideButtons li:focus,
 #sideButtons li:hover,
-#sideButtons li:active {background-color: #eee; transition: all ease .4s;}
+#sideButtons li:active {background-color: #eee; transition: all ease .3s;}
 
 #sideButtons a {
 	display: block; line-height: 1.5em; font-size: 1.5rem; font-family: FontAwesome;
@@ -122,11 +122,11 @@ header {
 #mobileMenu .menu-link span.bar:after {
 	width: 24px; height: 2px;
 	background-color: #55f;
-	-webkit-transition: all 0.4s;
-	-moz-transition: all 0.4s;
-	-ms-transition: all 0.4s;
-	-o-transition: all 0.4s;
-	transition: all 0.4s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 }
 #mobileMenu .menu-link span.bar {
 	display: block; position: relative; top: 16px; left: 9px;
@@ -199,7 +199,7 @@ header {
 	line-height:20px; font-size: 16px;
 	background:#eee; box-shadow: none;
 	border: 1px solid #aaf; border-radius: 0;
-	transition: width 0.4s ease-in-out;
+	transition: width 0.3s ease-in-out;
 }
 #sideMenu #search input:focus,
 #sideMenu #search input:hover,
@@ -423,12 +423,12 @@ footer a:active {color: #d00;}
 #sitemap ul li:first-child {
 	margin-bottom: .25em;
 	background: rgba(255, 255, 255, .1);
-	transition: background ease .4s;
+	transition: background ease .3s;
 }
 #sitemap li:focus,
 #sitemap li:hover,
 #sitemap li:active {
-	background: rgba(255, 255, 255, .1); transition: background ease .4s;
+	background: rgba(255, 255, 255, .1); transition: background ease .3s;
 }
 #sitemap a {display: block; line-height: 1.75em;}
 
@@ -447,45 +447,45 @@ footer a:active {color: #d00;}
 	background: #666;
 	border: 1px solid #ccc; border-radius: 50%;
 	box-shadow: none;
-	transition: all ease .4s;
+	transition: all ease-out 1.5s;
 }
 #extrasSocial a:before {font-family: FontAwesome; font-size: 1.5rem;}
 #extras #Twitter:before {content: '\f099';}
 #extras #Twitter:focus,
 #extras #Twitter:hover,
 #extras #Twitter:active {
-	background: transparent; border-color: #32bbf5; box-shadow: 0 0 1em #32bbf5;
+	color: #32bbf5;
+	background: transparent; border-color: #32bbf5;
+	box-shadow: 0 0 1em #32bbf5;
+	transition: all ease .3s;
 }
-#extras #Twitter:focus:before,
-#extras #Twitter:hover:before,
-#extras #Twitter:active:before {color: #32bbf5; transition: all ease .4s;}
 #extras #Facebook:before {content: '\f09a';}
 #extras #Facebook:focus,
 #extras #Facebook:hover,
 #extras #Facebook:active {
-	background: transparent; border-color: #4273c8; box-shadow: 0 0 1em #4273c8;
+	color: #4273c8;
+	background: transparent; border-color: #4273c8;
+	box-shadow: 0 0 1em #4273c8;
+	transition: all ease .3s;
 }
-#extras #Facebook:focus:before,
-#extras #Facebook:hover:before,
-#extras #Facebook:active:before {color: #4273c8; transition: all ease .4s;}
 #extras #GooglePlus:before {content: '\f0d5';}
 #extras #GooglePlus:focus,
 #extras #GooglePlus:hover,
 #extras #GooglePlus:active {
-	background: transparent; border-color: #d34836; box-shadow: 0 0 1em #d34836;
+	color: #d34836;
+	background: transparent; border-color: #d34836;
+	box-shadow: 0 0 1em #d34836;
+	transition: all ease .3s;
 }
-#extras #GooglePlus:focus:before,
-#extras #GooglePlus:hover:before,
-#extras #GooglePlus:active:before {color: #d34836; transition: all ease .4s;}
 #extras #Github:before {content: '\f09b';}
 #extras #Github:focus,
 #extras #Github:hover,
 #extras #Github:active {
-	background: transparent; border-color: #4078c0; box-shadow: 0 0 1em #4078c0;
+	color: #4078c0;
+	background: transparent; border-color: #4078c0;
+	box-shadow: 0 0 1em #4078c0;
+	transition: all ease .3s;
 }
-#extras #Github:focus:before,
-#extras #Github:hover:before,
-#extras #Github:active:before {color: #4078c0; transition: all ease .4s;}
 
 #version p {margin: 0 auto; color: #ddd; line-height: 15px; font-size: .8rem;}
 
