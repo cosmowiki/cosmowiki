@@ -77,4 +77,9 @@
 	.person-name,	.scientist-name,
 	.person-info,	.scientist-info,
 	.person-life,	.scientist-life {line-height: 1.5em; text-align: left;}
+	.astronaut-card-container,
+	.astronaut-img,
+	.astronaut-img img {border-radius: 5px;}
+	.astronaut-name {border-radius: 5px 5px 0 0;}
+	.astronaut-info {border-radius: 0 0 5px 5px;}
 }
