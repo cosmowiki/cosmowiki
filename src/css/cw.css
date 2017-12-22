@@ -445,18 +445,30 @@ footer a:active {color: #d00;}
 }
 #extrasSocial a:before {font-family: FontAwesome; font-size: 1.5rem;}
 #extras #Twitter:before {content: '\f099';}
+#extras #Twitter:focus,
+#extras #Twitter:hover,
+#extras #Twitter:active {border-color: #32bbf5;}
 #extras #Twitter:focus:before,
 #extras #Twitter:hover:before,
 #extras #Twitter:active:before {color: #32bbf5;}
 #extras #Facebook:before {content: '\f09a';}
+#extras #Facebook:focus,
+#extras #Facebook:hover,
+#extras #Facebook:active {border-color: #4273c8;}
 #extras #Facebook:focus:before,
 #extras #Facebook:hover:before,
 #extras #Facebook:active:before {color: #4273c8;}
 #extras #GooglePlus:before {content: '\f0d5';}
+#extras #GooglePlus:focus,
+#extras #GooglePlus:hover,
+#extras #GooglePlus:active {border-color: #d34836;}
 #extras #GooglePlus:focus:before,
 #extras #GooglePlus:hover:before,
 #extras #GooglePlus:active:before {color: #d34836;}
 #extras #Github:before {content: '\f09b';}
+#extras #Github:focus,
+#extras #Github:hover,
+#extras #Github:active {border-color: #4078c0;}
 #extras #Github:focus:before,
 #extras #Github:hover:before,
 #extras #Github:active:before {color: #4078c0;}
