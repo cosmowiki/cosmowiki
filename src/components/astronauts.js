@@ -1,5 +1,5 @@
 import React from 'react';
-import Notes from './notes';
+import {AstronautsNotes} from './notes';
 import LetterLinks from './chunks/letter-links';
 import {Summary} from './chunks/summary';
 
@@ -139,8 +139,8 @@ const AstronautsComponent = ({groupedAstronauts}) => {
 						August 1961 erst 25 Jahre alt. Er ist damit der jüngste Raumfahrer bisher.
 					</li>
 					<li>
-						<em>John Glenn</em> ist bislang der älteste Raumfahrer. Bei seinem Start mit
-						<em>STS-95</em> am 29. Oktober 1998 war er bereits 77 Jahre alt.
+						<em>John Glenn</em> ist bislang der älteste Raumfahrer. Bei seinem Start
+						mit <em>STS-95</em> am 29. Oktober 1998 war er bereits 77 Jahre alt.
 					</li>
 					<li>
 						Der Kontrukteur <em>Konstantin Feoktistow</em> und der Arzt <em>Boris
@@ -199,7 +199,7 @@ const AstronautsComponent = ({groupedAstronauts}) => {
 					{groupsIterable.map((group, idx) => <AstronautGroupComponent group={group} key={idx} />)}
 				</div>
 			</div>
-			<Notes />
+			<AstronautsNotes />
 		</main>
 	);
 };

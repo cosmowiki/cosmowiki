@@ -11,6 +11,18 @@ const defaultNotes = (
   </div>
 );
 
+const astronautsNotes = (
+  <div id="notesAstronauts">
+    <div id="notesGlossary" className="pure-u-1">
+      <h4>Hinweise:</h4>
+      <p>
+        Zu einigen Raumfahrern konnten wir bisher keine lizenzfreien Bilder finden.
+        Daher werden auf dieser Seite statt dessen Platzhalter-Bilder angezeigt.
+      </p>
+    </div>
+  </div>
+);
+
 const constellationNotes = (
   <div id="notesConstellations">
     <div id="notesUnits" className="pure-u-1">
@@ -88,6 +100,16 @@ const Notes = () => {
 };
 
 export default Notes;
+
+export const AstronautsNotes = () => {
+  return (
+    <div id="notes" className="module pure-u-1">
+      {defaultNotes}
+      {astronautsNotes}
+    </div>
+
+  );
+};
 
 export const ConstellationNotes = () => {
   return (
