@@ -390,17 +390,15 @@ div.summary-img.width-25,
 
 /*	notes ------------------------------------------------------------------- */
 #notes {clear: left; font-size: .9rem;}
-#notesDefault,
-#notesConstellations,
-#notesStars {padding: .5em 0 .25em; border-bottom: 1px solid #ddd;}
+#notes > div {padding: .5em 0 .25em; border-bottom: 1px solid #ddd;}
 
 #notes h4 {
-	margin: 0 .5em; padding: .25em .5em;
+	margin: 0 .5em; padding: .25em .25em;
 	color: #555;
 	background: rgba(0, 0, 255, .1);
 }
 #notes p,
-.notesTable {padding: .25em 1em;}
+.notesTable {padding: .25em .5em;}
 
 /*	Footer ------------------------------------------------------------------ */
 footer {

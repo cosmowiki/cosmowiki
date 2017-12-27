@@ -34085,8 +34085,6 @@ var _react2 = _interopRequireDefault(_react);
 
 var _notes = require('./notes');
 
-var _notes2 = _interopRequireDefault(_notes);
-
 var _chunksLetterLinks = require('./chunks/letter-links');
 
 var _chunksLetterLinks2 = _interopRequireDefault(_chunksLetterLinks);
@@ -34359,7 +34357,7 @@ var AstronautsComponent = function AstronautsComponent(_ref) {
 						null,
 						'John Glenn'
 					),
-					' ist bislang der älteste Raumfahrer. Bei seinem Start mit',
+					' ist bislang der älteste Raumfahrer. Bei seinem Start mit ',
 					_react2['default'].createElement(
 						'em',
 						null,
@@ -34535,7 +34533,7 @@ var AstronautsComponent = function AstronautsComponent(_ref) {
 				})
 			)
 		),
-		_react2['default'].createElement(_notes2['default'], null)
+		_react2['default'].createElement(_notes.AstronautsNotes, null)
 	);
 };
 
@@ -36993,6 +36991,25 @@ var defaultNotes = _react2["default"].createElement(
   )
 );
 
+var astronautsNotes = _react2["default"].createElement(
+  "div",
+  { id: "notesAstronauts" },
+  _react2["default"].createElement(
+    "div",
+    { id: "notesGlossary", className: "pure-u-1" },
+    _react2["default"].createElement(
+      "h4",
+      null,
+      "Hinweise:"
+    ),
+    _react2["default"].createElement(
+      "p",
+      null,
+      "Zu einigen Raumfahrern konnten wir bisher keine lizenzfreien Bilder finden. Daher werden auf dieser Seite statt dessen Platzhalter-Bilder angezeigt."
+    )
+  )
+);
+
 var constellationNotes = _react2["default"].createElement(
   "div",
   { id: "notesConstellations" },
@@ -37281,6 +37298,16 @@ var Notes = function Notes() {
 };
 
 exports["default"] = Notes;
+var AstronautsNotes = function AstronautsNotes() {
+  return _react2["default"].createElement(
+    "div",
+    { id: "notes", className: "module pure-u-1" },
+    defaultNotes,
+    astronautsNotes
+  );
+};
+
+exports.AstronautsNotes = AstronautsNotes;
 var ConstellationNotes = function ConstellationNotes() {
   return _react2["default"].createElement(
     "div",
