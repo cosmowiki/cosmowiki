@@ -57,7 +57,7 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
-- [ ] collect item images
+- [x] collect item images
 - [ ] complete data for launch
 
 ### scientists
