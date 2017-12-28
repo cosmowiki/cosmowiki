@@ -410,7 +410,7 @@ footer a:link,
 footer a:visited {color: #ccc;}
 footer a:focus,
 footer a:hover,
-footer a:active {color: #d00;}
+footer a:active {color: #d00; text-decoration: underline;}
 #footerContainer {margin: 0 auto;}
 
 #sitemap,
@@ -418,7 +418,7 @@ footer a:active {color: #d00;}
 #version {padding: 1em .5em; font-size: .9rem;}
 #sitemap {text-align: center; border-bottom: 1px solid #666;}
 #sitemap ul {margin-bottom: 2em;}
-#sitemap ul li:first-child {
+#sitemap li:first-child {
 	margin-bottom: .25em;
 	background: rgba(255, 255, 255, .1);
 	transition: background ease .3s;
@@ -426,7 +426,7 @@ footer a:active {color: #d00;}
 #sitemap li:focus,
 #sitemap li:hover,
 #sitemap li:active {
-	background: rgba(255, 255, 255, .1); transition: background ease .3s;
+	background: rgba(255, 255, 255, .2); transition: background ease .3s;
 }
 #sitemap a {display: block; line-height: 1.75em;}
 
@@ -436,9 +436,8 @@ footer a:active {color: #d00;}
 #extrasSelf li {
 	display: inline-block; width: 33.333%; margin-bottom: 1em; line-height: 2.5em;
 }
-#extrasSocial li {
-	display: inline-block; margin: 0 1em;
-}
+#extrasSocial li {display: inline-block; margin: 0 1em;}
+
 #extrasSocial a {
 	display: block; padding: .5em; width: 1.5em; height: 1.5em;
 	line-height: 1.5em; color: #081422;
@@ -448,6 +447,9 @@ footer a:active {color: #d00;}
 	transition: all ease-out 1.5s;
 }
 #extrasSocial a:before {font-family: FontAwesome; font-size: 1.5rem;}
+#extrasSocial a:focus,
+#extrasSocial a:hover,
+#extrasSocial a:active {text-decoration: none;}
 #extras #Twitter:before {content: '\f099';}
 #extras #Twitter:focus,
 #extras #Twitter:hover,
@@ -557,12 +559,12 @@ footer a:active {color: #d00;}
 
 	#sitemap {text-align: left;}
 	#sitemap ul {margin-bottom: .5em;}
-	#sitemap ul:nth-of-type(n) li {margin: 0 .25em .5em;}
+	#sitemap ul:nth-of-type(n) li {margin: 0 .25em .5em; border-radius: 5px;}
 	#sitemap ul:first-child li {margin: 0 .25em 0 0;}
 	#sitemap ul:last-child li {margin: 0 0 0 .25em;}
 	#sitemap a {padding-left: .25em;}
-	#sitemap a:before {content: '- ';}
-	#sitemap li:first-child a:before {content: '';}
+	/*#sitemap a:before {content: '- ';}
+	#sitemap li:first-child a:before {content: '';}*/
 
 	#extrasSelf,
 	#extrasSocial {display: inline-block; text-align: center;}
