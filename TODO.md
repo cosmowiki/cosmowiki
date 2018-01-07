@@ -32,7 +32,7 @@
 - [x] create page
 - [x] style it
 - [x] make it responsive
-- [ ] write content
+- [x] write content
 
 ## events
 - [x] create page
