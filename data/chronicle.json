@@ -22,7 +22,7 @@
         "itemtags": "Lascaux, Höhle"
     },
     {
-        "itemname": "Errichtung der Kreisgrabenanlage von Goseck",
+        "itemname": "Errichtung der Kreisgrabenanlage von Goseck mit genauer astronomischer Ausrichtung",
         "itemurl": "https://de.wikipedia.org/wiki/Kreisgrabenanlage_von_Goseck",
         "itemdateyear": "4900 v. Chr.",
         "itemcountry": "Deutschland",
@@ -33,7 +33,7 @@
         "itemtags": "Goseck, Kreisgrabenanlage, Kalender, Zeit"
     },
     {
-        "itemname": "Errichtung der Megalithanlage von Nabta-Playa",
+        "itemname": "Errichtung der Megalithanlage von Nabta-Playa - ein archäoastronomisches Monument",
         "itemurl": "https://de.wikipedia.org/wiki/Nabta-Playa",
         "itemdateyear": "4800 v. Chr.",
         "itemcountry": "Ägypten",
@@ -44,7 +44,7 @@
         "itemtags": "Nabta-Playa, Megalithanlage"
     },
     {
-        "itemname": "Beginn des Kalenders der Maya",
+        "itemname": "Beginn der \"langen Zählung\" des Maya-Kalenders",
         "itemurl": "https://de.wikipedia.org/wiki/Maya-Kalender",
         "itemdateyear": "3114 v. Chr.",
         "itemdatemonth": "08",
@@ -56,7 +56,7 @@
         "itemtags": "Maya"
     },
     {
-        "itemname": "Errichtung der Megalithanlage von Stonehenge",
+        "itemname": "Beginn der Errichtung der Megalithanlage von Stonehenge",
         "itemurl": "https://de.wikipedia.org/wiki/Stonehenge",
         "itemdateyear": "3100 v. Chr.",
         "itemcountry": "GB",
@@ -113,7 +113,7 @@
         "itemtags": "Nebra, Himmelsscheibe"
     },
     {
-        "itemname": "Amemhet baut eine Wasseruhr",
+        "itemname": "Amenemhet baut für den Pharao Amenophis I. eine technisch ausgereifte Wasseruhr",
         "itemurl": "https://de.wikipedia.org/wiki/Wasseruhr",
         "itemdateyear": "1530 v. Chr.",
         "itemcountry": "Ägypten",
@@ -209,7 +209,7 @@
         "itemtags": "Observatorium"
     },
     {
-        "itemname": "Einführung eines Schalttages alle vier Jahre",
+        "itemname": "Einführung eines Schalttages alle vier Jahre im Kanopus-Dekret",
         "itemurl": "https://de.wikipedia.org/wiki/Kanopus-Dekret",
         "itemdateyear": "238 v. Chr.",
         "itemdatemonth": "03",
@@ -244,7 +244,7 @@
         "itemtags": "Hipparchos, Sternenkatalog"
     },
     {
-        "itemname": "Bau des Mechanismus von Antikythera",
+        "itemname": "Bau des Mechanismus von Antikythera zur Darstellung astronomischer Zyklen",
         "itemurl": "https://de.wikipedia.org/wiki/Mechanismus_von_Antikythera",
         "itemdateyear": "100 v. Chr.",
         "itemcountry": "Griechenland",
@@ -268,7 +268,7 @@
         "itemtags": "Betlehem, Konjunktion, Komet, Nova"
     },
     {
-        "itemname": "Claudius Ptolemäus erstellt einen Sternenkatalog",
+        "itemname": "Claudius Ptolemäus verfasst den Almagest, eine Abhandlung zur Mathematik und Astronomie und einen Sternenkatalog",
         "itemurl": "https://de.wikipedia.org/wiki/Ptolem%C3%A4us",
         "itemdateyear": "100 – 175",
         "itemcountry": "Griechenland",
@@ -447,7 +447,7 @@
         "itemtags": "Mauerquadrant, Observatorium"
     },
     {
-        "itemname": "Johann Bayer erstellt den Himmelsatlas \"Uranometria\"",
+        "itemname": "Johann Bayer erstellt den Himmelsatlas \"Uranometria\", erstmals mit Sternen beider Hemisphären",
         "itemurl": "https://de.wikipedia.org/wiki/Uranometria",
         "itemdateyear": "1603",
         "itemcountry": "Deutschland",
@@ -2834,7 +2834,7 @@
         "itemtype": 2
     },
     {
-        "itemname": "Start von Fobos-Grunt, der russishen Raumsonde zum Marsmond Phobos mit Rückkehrkapsel",
+        "itemname": "Start von Fobos-Grunt, der russischen Raumsonde zum Marsmond Phobos mit Rückkehrkapsel",
         "itemurl": "https://de.wikipedia.org/wiki/Fobos-Grunt",
         "itemdateyear": "2011",
         "itemdatemonth": "11",

@@ -8,19 +8,19 @@
         "itemurl": "https://de.wikipedia.org/wiki/H%C3%B6hle_von_Lascaux"
     },
     {
-        "itemname": "Errichtung der Kreisgrabenanlage von Goseck",
+        "itemname": "Errichtung der Kreisgrabenanlage von Goseck mit genauer astronomischer Ausrichtung",
         "itemurl": "https://de.wikipedia.org/wiki/Kreisgrabenanlage_von_Goseck"
     },
     {
-        "itemname": "Errichtung der Megalithanlage von Nabta-Playa",
+        "itemname": "Errichtung der Megalithanlage von Nabta-Playa - ein archäoastronomisches Monument",
         "itemurl": "https://de.wikipedia.org/wiki/Nabta-Playa"
     },
     {
-        "itemname": "Beginn des Kalenders der Maya",
+        "itemname": "Beginn der \"langen Zählung\" des Maya-Kalenders",
         "itemurl": "https://de.wikipedia.org/wiki/Maya-Kalender"
     },
     {
-        "itemname": "Errichtung der Megalithanlage von Stonehenge",
+        "itemname": "Beginn der Errichtung der Megalithanlage von Stonehenge",
         "itemurl": "https://de.wikipedia.org/wiki/Stonehenge"
     },
     {
@@ -40,7 +40,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Himmelsscheibe_von_Nebra"
     },
     {
-        "itemname": "Amemhet baut eine Wasseruhr",
+        "itemname": "Amenemhet baut für den Pharao Amenophis I. eine technisch ausgereifte Wasseruhr",
         "itemurl": "https://de.wikipedia.org/wiki/Wasseruhr"
     },
     {
@@ -76,7 +76,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Chanquillo"
     },
     {
-        "itemname": "Einführung eines Schalttages alle vier Jahre",
+        "itemname": "Einführung eines Schalttages alle vier Jahre im Kanopus-Dekret",
         "itemurl": "https://de.wikipedia.org/wiki/Kanopus-Dekret"
     },
     {
@@ -88,7 +88,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Hipparchos_(Astronom)"
     },
     {
-        "itemname": "Bau des Mechanismus von Antikythera",
+        "itemname": "Bau des Mechanismus von Antikythera zur Darstellung astronomischer Zyklen",
         "itemurl": "https://de.wikipedia.org/wiki/Mechanismus_von_Antikythera"
     },
     {
@@ -96,7 +96,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Stern_von_Betlehem"
     },
     {
-        "itemname": "Claudius Ptolemäus erstellt einen Sternenkatalog",
+        "itemname": "Claudius Ptolemäus verfasst den Almagest, eine Abhandlung zur Mathematik und Astronomie und einen Sternenkatalog",
         "itemurl": "https://de.wikipedia.org/wiki/Ptolem%C3%A4us"
     },
     {
@@ -164,7 +164,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Mauerquadrant"
     },
     {
-        "itemname": "Johann Bayer erstellt den Himmelsatlas \"Uranometria\"",
+        "itemname": "Johann Bayer erstellt den Himmelsatlas \"Uranometria\", erstmals mit Sternen beider Hemisphären",
         "itemurl": "https://de.wikipedia.org/wiki/Uranometria"
     },
     {
@@ -1160,7 +1160,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Mars_500"
     },
     {
-        "itemname": "Start von Fobos-Grunt, der russishen Raumsonde zum Marsmond Phobos mit Rückkehrkapsel",
+        "itemname": "Start von Fobos-Grunt, der russischen Raumsonde zum Marsmond Phobos mit Rückkehrkapsel",
         "itemurl": "https://de.wikipedia.org/wiki/Fobos-Grunt"
     },
     {
@@ -1198,7 +1198,7 @@
     {
         "itemname": "Acaba",
         "itemurl": "https://de.wikipedia.org/wiki/Joseph_Michael_Acaba",
-        "itemname2": "Joseph Michael"
+        "itemname2": "Joseph Michael (Joe)"
     },
     {
         "itemname": "Acton",
@@ -1213,7 +1213,7 @@
     {
         "itemname": "Adamson",
         "itemurl": "https://de.wikipedia.org/wiki/James_Craig_Adamson",
-        "itemname2": "James Craig"
+        "itemname2": "James Craig (Jim)"
     },
     {
         "itemname": "Afanassjew",
@@ -1236,9 +1236,14 @@
         "itemname2": "George Biddell"
     },
     {
+        "itemname": "Ajymbetow",
+        "itemurl": "https://de.wikipedia.org/wiki/Aidyn_Ajymbetow",
+        "itemname2": "Aidyn"
+    },
+    {
         "itemname": "Akers",
         "itemurl": "https://de.wikipedia.org/wiki/Thomas_Dale_Akers",
-        "itemname2": "Thomas Dale"
+        "itemname2": "Thomas Dale (Tom)"
     },
     {
         "itemname": "Akiyama",
@@ -1276,7 +1281,7 @@
     {
         "itemname": "Aldrin",
         "itemurl": "https://de.wikipedia.org/wiki/Buzz_Aldrin",
-        "itemname2": "Edwin"
+        "itemname2": "Edwin (Buzz)"
     },
     {
         "itemname": "Alexandria",
@@ -1306,7 +1311,12 @@
     {
         "itemname": "Allen",
         "itemurl": "https://de.wikipedia.org/wiki/Andrew_M._Allen",
-        "itemname2": "Andrew Michael"
+        "itemname2": "Andrew Michael (Andy)"
+    },
+    {
+        "itemname": "Allen",
+        "itemurl": "https://de.wikipedia.org/wiki/James_van_Allen",
+        "itemname2": "James Alfred van"
     },
     {
         "itemname": "Allen",
@@ -1316,7 +1326,7 @@
     {
         "itemname": "Allen",
         "itemurl": "https://de.wikipedia.org/wiki/Joseph_P._Allen",
-        "itemname2": "Joseph Percival"
+        "itemname2": "Joseph Percival (Joe)"
     },
     {
         "itemname": "Alpher",
@@ -1340,12 +1350,12 @@
     {
         "itemname": "Anders",
         "itemurl": "https://de.wikipedia.org/wiki/William_Alison_Anders",
-        "itemname2": "William Alison"
+        "itemname2": "William Alison (Bill)"
     },
     {
         "itemname": "Anderson",
         "itemurl": "https://de.wikipedia.org/wiki/Clayton_Conrad_Anderson",
-        "itemname2": "Clayton Conrad"
+        "itemname2": "Clayton Conrad (Clay)"
     },
     {
         "itemname": "Anderson",
@@ -1365,7 +1375,7 @@
     {
         "itemname": "Antonelli",
         "itemurl": "https://de.wikipedia.org/wiki/Dominic_Anthony_Antonelli",
-        "itemname2": "Dominic Anthony"
+        "itemname2": "Dominic Anthony (Tony)"
     },
     {
         "itemname": "Antoniadi",
@@ -1375,12 +1385,12 @@
     {
         "itemname": "Apt",
         "itemurl": "https://de.wikipedia.org/wiki/Jerome_Apt",
-        "itemname2": "Jerome "
+        "itemname2": "Jerome (Jay)"
     },
     {
         "itemname": "Archambault",
         "itemurl": "https://de.wikipedia.org/wiki/Lee_Joseph_Archambault",
-        "itemname2": "Lee Joseph"
+        "itemname2": "Lee Joseph (Bru)"
     },
     {
         "itemname": "Archenhold",
@@ -1418,7 +1428,12 @@
     {
         "itemname": "Arnold",
         "itemurl": "https://de.wikipedia.org/wiki/Richard_Robert_Arnold",
-        "itemname2": "Richard Robert"
+        "itemname2": "Richard Robert (Ricky)"
+    },
+    {
+        "itemname": "Artemjew",
+        "itemurl": "https://de.wikipedia.org/wiki/Oleg_Germanowitsch_Artemjew",
+        "itemname2": "Oleg Germanowitsch"
     },
     {
         "itemname": "Artjuchin",
@@ -1442,7 +1457,7 @@
     {
         "itemname": "Ashby",
         "itemurl": "https://de.wikipedia.org/wiki/Jeffrey_Shears_Ashby",
-        "itemname2": "Jeffrey Shears"
+        "itemname2": "Jeffrey Shears (Jeff)"
     },
     {
         "itemname": "Atkow",
@@ -1472,7 +1487,7 @@
     {
         "itemname": "Bagian",
         "itemurl": "https://de.wikipedia.org/wiki/James_Philipp_Bagian",
-        "itemname2": "James Philipp"
+        "itemname2": "James Philipp (Jim)"
     },
     {
         "itemname": "Bailly",
@@ -1662,12 +1677,12 @@
     {
         "itemname": "Bluford",
         "itemurl": "https://de.wikipedia.org/wiki/Guion_Stewart_Bluford",
-        "itemname2": "Guion Stewart"
+        "itemname2": "Guion Stewart (Guy)"
     },
     {
         "itemname": "Bobko",
         "itemurl": "https://de.wikipedia.org/wiki/Karol_Joseph_Bobko",
-        "itemname2": "Karol Joseph"
+        "itemname2": "Karol Joseph (Bo)"
     },
     {
         "itemname": "Bode",
@@ -1830,6 +1845,11 @@
         "itemname2": "Wernher von"
     },
     {
+        "itemname": "Braun",
+        "itemurl": "https://de.wikipedia.org/wiki/Wernher_von_Braun",
+        "itemname2": "Wernher von"
+    },
+    {
         "itemname": "Bresnik",
         "itemurl": "https://de.wikipedia.org/wiki/Randolph_James_Bresnik",
         "itemname2": "Randolph James"
@@ -1945,7 +1965,12 @@
         "itemname2": "Louis Paul"
     },
     {
-        "itemname": "Caldwell-Dyson",
+        "itemname": "Cailletet",
+        "itemurl": "https://de.wikipedia.org/wiki/Louis_Paul_Cailletet",
+        "itemname2": "Louis Paul"
+    },
+    {
+        "itemname": "Caldwell Dyson",
         "itemurl": "https://de.wikipedia.org/wiki/Tracy_Ellen_Caldwell-Dyson",
         "itemname2": "Tracy Ellen"
     },
@@ -2190,6 +2215,11 @@
         "itemname2": "Giuseppe"
     },
     {
+        "itemname": "Colombo",
+        "itemurl": "https://de.wikipedia.org/wiki/Giuseppe_Colombo_%28Raumfahrtingenieur%29",
+        "itemname2": "Giuseppe"
+    },
+    {
         "itemname": "Common",
         "itemurl": "https://de.wikipedia.org/wiki/Andrew_Ainslie_Common",
         "itemname2": "Andrew Ainslie"
@@ -2390,6 +2420,11 @@
         "itemname2": "Giambattista"
     },
     {
+        "itemname": "Dong",
+        "itemurl": "https://de.wikipedia.org/wiki/Chen_Dong",
+        "itemname2": "Chen"
+    },
+    {
         "itemname": "Drake",
         "itemurl": "https://de.wikipedia.org/wiki/Frank_Drake",
         "itemname2": "Frank"
@@ -2516,8 +2551,8 @@
     },
     {
         "itemname": "Engle",
-        "itemurl": "https://de.wikipedia.org/wiki/Joseph_Henry_Engle",
-        "itemname2": "Joseph Henry"
+        "itemurl": "https://de.wikipedia.org/wiki/Joe_Henry_Engle",
+        "itemname2": "Joe Henry"
     },
     {
         "itemname": "Eratosthenes",
@@ -2535,7 +2570,7 @@
     },
     {
         "itemname": "Ewald",
-        "itemurl": "https://de.wikipedia.org/wiki/Reinhold_Ewald",
+        "itemurl": "https://de.wikipedia.org/wiki/Reinhold_Ewald_(Astronaut)",
         "itemname2": "Reinhold"
     },
     {
@@ -2620,7 +2655,7 @@
     },
     {
         "itemname": "Filiptschenko",
-        "itemurl": "https://de.wikipedia.org/wiki/Konstantin_Petrowitsch_Feoktistow",
+        "itemurl": "https://de.wikipedia.org/wiki/Anatoli_Wassiljewitsch_Filiptschenko",
         "itemname2": "Anatoli Wassiljewitsch"
     },
     {
@@ -2632,6 +2667,11 @@
         "itemname": "Fisher",
         "itemurl": "https://de.wikipedia.org/wiki/Anna_Lee_Tingle_Fisher",
         "itemname2": "Anna Lee Tingle"
+    },
+    {
+        "itemname": "Fisher",
+        "itemurl": "https://de.wikipedia.org/wiki/Jack_Fischer",
+        "itemname2": "Jack David"
     },
     {
         "itemname": "Fisher",
@@ -2824,6 +2864,11 @@
         "itemname2": "Michael Landon"
     },
     {
+        "itemname": "Gerst",
+        "itemurl": "https://de.wikipedia.org/wiki/Alexander_Gerst",
+        "itemname2": "Alexander"
+    },
+    {
         "itemname": "Giacconi",
         "itemurl": "https://de.wikipedia.org/wiki/Giacconi",
         "itemname2": "Riccardo"
@@ -3004,9 +3049,9 @@
         "itemname2": "Paul"
     },
     {
-        "itemname": "Gurragtschaa",
-        "itemurl": "https://de.wikipedia.org/wiki/Dschugderdemidiin_Gurragtschaa",
-        "itemname2": "Dschugderdemidiin "
+        "itemname": "Gürragtschaa",
+        "itemurl": "https://de.wikipedia.org/wiki/Dsch%C3%BCgderdemidiin_G%C3%BCrragtschaa",
+        "itemname2": "Dschügderdemidiin"
     },
     {
         "itemname": "Guth",
@@ -3027,6 +3072,11 @@
         "itemname": "Gyldén",
         "itemurl": "https://de.wikipedia.org/wiki/Hugo_Gyld%C3%A9n",
         "itemname2": "Hugo"
+    },
+    {
+        "itemname": "Haas",
+        "itemurl": "https://de.wikipedia.org/wiki/Conrad_Haas",
+        "itemname2": "Conrad"
     },
     {
         "itemname": "Haas",
@@ -3482,6 +3532,11 @@
         "itemname2": "Michail Kusmitsch"
     },
     {
+        "itemname": "Jangel",
+        "itemurl": "https://de.wikipedia.org/wiki/Michail_Kusmitsch_Jangel",
+        "itemname2": "Michail Kusmitsch"
+    },
+    {
         "itemname": "Jansky",
         "itemurl": "https://de.wikipedia.org/wiki/Karl_Guthe_Jansky",
         "itemname2": "Karl Guthe"
@@ -3781,6 +3836,11 @@
         "itemname2": "Sergei Pawlowitsch"
     },
     {
+        "itemname": "Koroljow",
+        "itemurl": "https://de.wikipedia.org/wiki/Sergei_Pawlowitsch_Koroljow",
+        "itemname2": "Sergei Pawlowitsch"
+    },
+    {
         "itemname": "Korsun",
         "itemurl": "https://de.wikipedia.org/wiki/Waleri_Grigorjewitsch_Korsun",
         "itemname2": "Waleri Grigorjewitsch"
@@ -3886,6 +3946,11 @@
         "itemname2": "Samuel Pierpont"
     },
     {
+        "itemname": "Langley",
+        "itemurl": "https://de.wikipedia.org/wiki/Samuel_Pierpont_Langley",
+        "itemname2": "Samuel Pierpont"
+    },
+    {
         "itemname": "Langren",
         "itemurl": "https://de.wikipedia.org/wiki/Michael_Florent_van_Langren",
         "itemname2": "Michael Florent van"
@@ -3914,6 +3979,11 @@
         "itemname": "Laurent",
         "itemurl": "https://de.wikipedia.org/wiki/A._Laurent",
         "itemname2": "A."
+    },
+    {
+        "itemname": "Laweikin",
+        "itemurl": "https://de.wikipedia.org/wiki/Alexander_Iwanowitsch_Laweikin",
+        "itemname2": "Alexander Iwanowitsch"
     },
     {
         "itemname": "Lawejkin",
@@ -4006,6 +4076,11 @@
         "itemname2": "Karl Wilhelm Otto"
     },
     {
+        "itemname": "Lilienthal",
+        "itemurl": "https://de.wikipedia.org/wiki/Otto_Lilienthal",
+        "itemname2": "Karl Wilhelm Otto"
+    },
+    {
         "itemname": "Lind",
         "itemurl": "https://de.wikipedia.org/wiki/Don_Leslie_Lind",
         "itemname2": "Don Leslie"
@@ -4019,6 +4094,11 @@
         "itemname": "Lindenau",
         "itemurl": "https://de.wikipedia.org/wiki/Bernhard_von_Lindenau",
         "itemname2": "Bernhard von"
+    },
+    {
+        "itemname": "Lindgren",
+        "itemurl": "https://de.wikipedia.org/wiki/Kjell_Lindgren",
+        "itemname2": "Kjell"
     },
     {
         "itemname": "Lindsey",
@@ -4252,7 +4332,7 @@
     },
     {
         "itemname": "McArthur",
-        "itemurl": "https://de.wikipedia.org/wiki/William_McArthur",
+        "itemurl": "https://de.wikipedia.org/wiki/William_S._McArthur",
         "itemname2": "William "
     },
     {
@@ -4406,6 +4486,11 @@
         "itemname2": "Charles"
     },
     {
+        "itemname": "Missurkin",
+        "itemurl": "https://de.wikipedia.org/wiki/Alexander_Alexandrowitsch_Missurkin",
+        "itemname2": "Alexander Alexandrowitsch"
+    },
+    {
         "itemname": "Mitchell",
         "itemurl": "https://de.wikipedia.org/wiki/Edgar_Dean_Mitchell",
         "itemname2": "Edgar Dean"
@@ -4421,8 +4506,13 @@
         "itemname2": "August Ferdinand"
     },
     {
-        "itemname": "Mohmand",
-        "itemurl": "https://de.wikipedia.org/wiki/Abdul_Ahad_Mohmand",
+        "itemname": "Mogensen",
+        "itemurl": "https://de.wikipedia.org/wiki/Andreas_Mogensen",
+        "itemname2": "Andreas"
+    },
+    {
+        "itemname": "Momand",
+        "itemurl": "https://de.wikipedia.org/wiki/Abdul_Ahad_Momand",
         "itemname2": "Abdul Ahad"
     },
     {
@@ -4552,7 +4642,7 @@
     },
     {
         "itemname": "Nikolajew",
-        "itemurl": "https://de.wikipedia.org/wiki/Andrijan_Grigorjewitsch_Nikolajew/",
+        "itemurl": "https://de.wikipedia.org/wiki/Andrijan_Grigorjewitsch_Nikolajew",
         "itemname2": "Andrijan Grigorjewitsch"
     },
     {
@@ -4574,6 +4664,11 @@
         "itemname": "Nowikow",
         "itemurl": "https://de.wikipedia.org/wiki/Igor_Dmitrijewitsch_Nowikow",
         "itemname2": "Igor Dmitrijewitsch"
+    },
+    {
+        "itemname": "Nowizki",
+        "itemurl": "https://de.wikipedia.org/wiki/Oleg_Wiktorowitsch_Nowizki",
+        "itemname2": "Oleg Wiktorowitsch"
     },
     {
         "itemname": "Nyberg",
@@ -4671,6 +4766,11 @@
         "itemname2": "Robert Franklyn"
     },
     {
+        "itemname": "Owtschinin",
+        "itemurl": "https://de.wikipedia.org/wiki/Alexei_Nikolajewitsch_Owtschinin",
+        "itemname2": "Alexei Nikolajewitsch"
+    },
+    {
         "itemname": "Paczyński",
         "itemurl": "https://de.wikipedia.org/wiki/Bohdan_Paczy%25C5%2584ski",
         "itemname2": "Bohdan"
@@ -4709,6 +4809,11 @@
         "itemname": "Parker",
         "itemurl": "https://de.wikipedia.org/wiki/Robert_Allan_Ridley_Parker",
         "itemname2": "Robert Allan Ridley"
+    },
+    {
+        "itemname": "Parmitano",
+        "itemurl": "https://de.wikipedia.org/wiki/Luca_Parmitano",
+        "itemname2": "Luca"
     },
     {
         "itemname": "Parsons",
@@ -4754,6 +4859,11 @@
         "itemname": "Pazajew",
         "itemurl": "https://de.wikipedia.org/wiki/Wiktor_Iwanowitsch_Pazajew",
         "itemname2": "Wiktor Iwanowitsch"
+    },
+    {
+        "itemname": "Peake",
+        "itemurl": "https://de.wikipedia.org/wiki/Timothy_Peake",
+        "itemname2": "Timothy Nigel"
     },
     {
         "itemname": "Pechüle",
@@ -5025,6 +5135,11 @@
         "itemname2": "Judith Arlene"
     },
     {
+        "itemname": "Rewin",
+        "itemurl": "https://de.wikipedia.org/wiki/Sergei_Nikolajewitsch_Rewin",
+        "itemname2": "Sergei Nikolajewitsch"
+    },
+    {
         "itemname": "Richards",
         "itemurl": "https://de.wikipedia.org/wiki/Paul_William_Richards",
         "itemname2": "Paul William"
@@ -5048,6 +5163,11 @@
         "itemname": "Ritchey",
         "itemurl": "https://de.wikipedia.org/wiki/George_Willis_Ritchey",
         "itemname2": "George Willis"
+    },
+    {
+        "itemname": "Rjasanski",
+        "itemurl": "https://de.wikipedia.org/wiki/Sergei_Nikolajewitsch_Rjasanski",
+        "itemname2": "Sergei Nikolajewitsch"
     },
     {
         "itemname": "Rjumin",
@@ -5152,6 +5272,11 @@
     {
         "itemname": "Samokutajew",
         "itemurl": "https://de.wikipedia.org/wiki/Alexander_Michailowitsch_Samokutajew",
+        "itemname2": "Alexander Michailowitsch"
+    },
+    {
+        "itemname": "Samokutjajew",
+        "itemurl": "https://de.wikipedia.org/wiki/Alexander_Michailowitsch_Samokutjajew",
         "itemname2": "Alexander Michailowitsch"
     },
     {
@@ -5390,6 +5515,11 @@
         "itemname2": "Alexander Alexandrowitsch"
     },
     {
+        "itemname": "Serowa",
+        "itemurl": "https://de.wikipedia.org/wiki/Jelena_Olegowna_Serowa",
+        "itemname2": "Jelena Olegowna"
+    },
+    {
         "itemname": "Sewastjanow",
         "itemurl": "https://de.wikipedia.org/wiki/Witali_Iwanowitsch_Sewastjanow",
         "itemname2": "Witali Iwanowitsch"
@@ -5487,7 +5617,7 @@
     {
         "itemname": "Slayton",
         "itemurl": "https://de.wikipedia.org/wiki/Deke_Slayton",
-        "itemname2": "Deke "
+        "itemname2": "Donald Kent"
     },
     {
         "itemname": "Slipher",
@@ -5562,7 +5692,7 @@
     {
         "itemname": "Stafford",
         "itemurl": "https://de.wikipedia.org/wiki/Tom_Stafford_(Astronaut)",
-        "itemname2": "Tom "
+        "itemname2": "Thomas Patten"
     },
     {
         "itemname": "Staus",
@@ -5690,6 +5820,11 @@
         "itemname2": "Joseph Richard"
     },
     {
+        "itemname": "Tarelkin",
+        "itemurl": "https://de.wikipedia.org/wiki/Jewgeni_Igorewitsch_Tarelkin",
+        "itemname2": "Jewgeni Igorewitsch"
+    },
+    {
         "itemname": "Tebbutt",
         "itemurl": "https://de.wikipedia.org/wiki/John_Tebbutt",
         "itemname2": "John"
@@ -5711,7 +5846,7 @@
     },
     {
         "itemname": "Thiele",
-        "itemurl": "https://de.wikipedia.org/wiki/Gerhard_Thiele",
+        "itemurl": "https://de.wikipedia.org/wiki/Gerhard_Thiele_(Astronaut)",
         "itemname2": "Gerhard Julius Paul"
     },
     {
@@ -6134,6 +6269,11 @@
         "itemname2": "Pawel Wladimirowitsch"
     },
     {
+        "itemname": "Wiseman",
+        "itemurl": "https://de.wikipedia.org/wiki/Reid_Wiseman",
+        "itemname2": "Gregory Reid"
+    },
+    {
         "itemname": "Wisoff",
         "itemurl": "https://de.wikipedia.org/wiki/Peter_Jeffrey_Kelsay_Wisoff",
         "itemname2": "Peter Jeffrey Kelsay"
@@ -6189,19 +6329,39 @@
         "itemname2": "Thomas"
     },
     {
+        "itemname": "Xiaoguang",
+        "itemurl": "https://de.wikipedia.org/wiki/Zhang_Xiaoguang",
+        "itemname2": "Zhang"
+    },
+    {
         "itemname": "Yamazaki",
         "itemurl": "https://de.wikipedia.org/wiki/Naoko_Yamazaki",
         "itemname2": "Naoko "
     },
     {
+        "itemname": "Yang",
+        "itemurl": "https://de.wikipedia.org/wiki/Liu_Yang_(Raumfahrerin)",
+        "itemname2": "Liu"
+    },
+    {
+        "itemname": "Yaping",
+        "itemurl": "https://de.wikipedia.org/wiki/Wang_Yaping",
+        "itemname2": "Wang"
+    },
+    {
         "itemname": "Yeager",
         "itemurl": "https://de.wikipedia.org/wiki/Chuck_Yeager",
-        "itemname2": "Chuck"
+        "itemname2": "Charles"
     },
     {
         "itemname": "Young",
         "itemurl": "https://de.wikipedia.org/wiki/John_Watts_Young",
         "itemname2": "John Watts"
+    },
+    {
+        "itemname": "Yui",
+        "itemurl": "https://de.wikipedia.org/wiki/Kimiya_Yui",
+        "itemname2": "Kimiya"
     },
     {
         "itemname": "Zach",
@@ -6232,6 +6392,11 @@
         "itemname": "Zimmermann",
         "itemurl": "https://de.wikipedia.org/wiki/Johann_Jacob_Zimmermann",
         "itemname2": "Johann Jacob"
+    },
+    {
+        "itemname": "Ziolkowski",
+        "itemurl": "https://de.wikipedia.org/wiki/Konstantin_Eduardowitsch_Ziolkowski",
+        "itemname2": "Konstantin"
     },
     {
         "itemname": "Ziolkowski",
@@ -9214,2213 +9379,1763 @@
     },
     {
         "itemname": "Acamar",
-        "itemurl": "https://de.wikipedia.org/wiki/Acamar",
-        "itemname2": "Acamar"
+        "itemurl": "https://de.wikipedia.org/wiki/Acamar"
     },
     {
         "itemname": "Acamar",
-        "itemurl": "https://de.wikipedia.org/wiki/Acamar",
-        "itemname2": "Acamar"
+        "itemurl": "https://de.wikipedia.org/wiki/Acamar"
     },
     {
-        "itemname": "θ² Eridani",
+        "itemname": "Acamar",
         "itemurl": "https://de.wikipedia.org/wiki/Acamar"
     },
     {
         "itemname": "Achernar",
-        "itemurl": "https://de.wikipedia.org/wiki/Achernar",
-        "itemname2": "Achernar"
+        "itemurl": "https://de.wikipedia.org/wiki/Achernar"
     },
     {
         "itemname": "Achird",
-        "itemurl": "https://de.wikipedia.org/wiki/Achird",
-        "itemname2": "Achird"
-    },
-    {
-        "itemname": "Achird",
-        "itemurl": "https://de.wikipedia.org/wiki/Achird",
-        "itemname2": "Achird"
-    },
-    {
-        "itemname": "η² Cassiopeiae",
         "itemurl": "https://de.wikipedia.org/wiki/Achird"
     },
     {
-        "itemname": "Acrux",
-        "itemurl": "https://de.wikipedia.org/wiki/Acrux",
-        "itemname2": "Acrux"
+        "itemname": "Achird",
+        "itemurl": "https://de.wikipedia.org/wiki/Achird"
+    },
+    {
+        "itemname": "Achird",
+        "itemurl": "https://de.wikipedia.org/wiki/Achird"
+    },
+    {
+        "itemname": "Acrab",
+        "itemurl": "https://de.wikipedia.org/wiki/Akrab"
+    },
+    {
+        "itemname": "Acrab",
+        "itemurl": "https://de.wikipedia.org/wiki/Akrab"
     },
     {
         "itemname": "Acrux",
-        "itemurl": "https://de.wikipedia.org/wiki/Acrux",
-        "itemname2": "Acrux"
+        "itemurl": "https://de.wikipedia.org/wiki/Acrux"
     },
     {
         "itemname": "Acrux",
-        "itemurl": "https://de.wikipedia.org/wiki/Acrux",
-        "itemname2": "Acrux"
+        "itemurl": "https://de.wikipedia.org/wiki/Acrux"
     },
     {
-        "itemname": "α² Crucis",
+        "itemname": "Acrux",
         "itemurl": "https://de.wikipedia.org/wiki/Acrux"
     },
     {
         "itemname": "Acubens",
-        "itemurl": "https://de.wikipedia.org/wiki/Acubens",
-        "itemname2": "Acubens"
+        "itemurl": "https://de.wikipedia.org/wiki/Acubens"
     },
     {
         "itemname": "Adhara",
-        "itemurl": "https://de.wikipedia.org/wiki/Adhara",
-        "itemname2": "Adhara"
-    },
-    {
-        "itemname": "ε¹ Canis Majoris A",
         "itemurl": "https://de.wikipedia.org/wiki/Adhara"
     },
     {
-        "itemname": "ε² Canis Majoris B",
+        "itemname": "Adhara",
+        "itemurl": "https://de.wikipedia.org/wiki/Adhara"
+    },
+    {
+        "itemname": "Adhara",
         "itemurl": "https://de.wikipedia.org/wiki/Adhara"
     },
     {
         "itemname": "Adhil",
-        "itemurl": "https://de.wikipedia.org/wiki/Xi_Andromedae",
-        "itemname2": "Adhil"
-    },
-    {
-        "itemname": "Hadar",
-        "itemurl": "https://de.wikipedia.org/wiki/Beta_Centauri",
-        "itemname2": "Hadar"
-    },
-    {
-        "itemname": "β Centauri A1",
-        "itemurl": "https://de.wikipedia.org/wiki/Beta_Centauri"
-    },
-    {
-        "itemname": "β Centauri A2",
-        "itemurl": "https://de.wikipedia.org/wiki/Beta_Centauri"
-    },
-    {
-        "itemname": "β Centauri B",
-        "itemurl": "https://de.wikipedia.org/wiki/Beta_Centauri"
+        "itemurl": "https://de.wikipedia.org/wiki/Xi_Andromedae"
     },
     {
         "itemname": "Ain",
-        "itemurl": "https://de.wikipedia.org/wiki/Ain_(Stern)",
-        "itemname2": "Ain"
-    },
-    {
-        "itemname": "Acrab",
-        "itemurl": "https://de.wikipedia.org/wiki/Akrab",
-        "itemname2": "Acrab"
-    },
-    {
-        "itemname": "Acrab",
-        "itemurl": "https://de.wikipedia.org/wiki/Akrab",
-        "itemname2": "Acrab"
-    },
-    {
-        "itemname": "β Scorpii",
-        "itemurl": "https://de.wikipedia.org/wiki/Akrab"
-    },
-    {
-        "itemname": "β Scorpii",
-        "itemurl": "https://de.wikipedia.org/wiki/Akrab"
-    },
-    {
-        "itemname": "β Scorpii",
-        "itemurl": "https://de.wikipedia.org/wiki/Akrab"
-    },
-    {
-        "itemname": "β Scorpii",
-        "itemurl": "https://de.wikipedia.org/wiki/Akrab"
-    },
-    {
-        "itemname": "β Scorpii",
-        "itemurl": "https://de.wikipedia.org/wiki/Akrab"
-    },
-    {
-        "itemname": "ρ¹ Cephei"
+        "itemurl": "https://de.wikipedia.org/wiki/Ain_(Stern)"
     },
     {
         "itemname": "Al Kalb al Rai",
-        "itemurl": "https://de.wikipedia.org/wiki/Rho2_Cephei",
-        "itemname2": "Al Kalb al Rai"
+        "itemurl": "https://de.wikipedia.org/wiki/Rho2_Cephei"
     },
     {
         "itemname": "Al Kaphrah",
-        "itemurl": "https://de.wikipedia.org/wiki/Chi_Ursae_Majoris",
-        "itemname2": "Al Kaphrah"
+        "itemurl": "https://de.wikipedia.org/wiki/Chi_Ursae_Majoris"
     },
     {
         "itemname": "Al Kurud",
-        "itemurl": "https://de.wikipedia.org/wiki/Al_Kurud",
-        "itemname2": "Al Kurud"
+        "itemurl": "https://de.wikipedia.org/wiki/Al_Kurud"
     },
     {
         "itemname": "Al Minliar al Asad",
-        "itemurl": "https://de.wikipedia.org/wiki/Al_Minliar_al_Asad",
-        "itemname2": "Al Minliar al Asad"
+        "itemurl": "https://de.wikipedia.org/wiki/Al_Minliar_al_Asad"
     },
     {
         "itemname": "Al Nair",
-        "itemurl": "https://de.wikipedia.org/wiki/Al_Nair",
-        "itemname2": "Al Nair"
+        "itemurl": "https://de.wikipedia.org/wiki/Al_Nair"
     },
     {
         "itemname": "Al Thalimain Posterior",
-        "itemurl": "https://de.wikipedia.org/wiki/Iota_Aquilae",
-        "itemname2": "Al Thalimain Posterior"
+        "itemurl": "https://de.wikipedia.org/wiki/Iota_Aquilae"
     },
     {
         "itemname": "Al Thalimain Prior",
-        "itemurl": "https://de.wikipedia.org/wiki/Lambda_Aquilae",
-        "itemname2": "Al Thalimain Prior"
+        "itemurl": "https://de.wikipedia.org/wiki/Lambda_Aquilae"
     },
     {
         "itemname": "Aladfar",
-        "itemurl": "https://de.wikipedia.org/wiki/Aladfar",
-        "itemname2": "Aladfar"
+        "itemurl": "https://de.wikipedia.org/wiki/Aladfar"
     },
     {
         "itemname": "Alamak",
-        "itemurl": "https://de.wikipedia.org/wiki/Alamak",
-        "itemname2": "Alamak"
+        "itemurl": "https://de.wikipedia.org/wiki/Alamak"
     },
     {
         "itemname": "Alamak A",
-        "itemurl": "https://de.wikipedia.org/wiki/Alamak",
-        "itemname2": "Alamak A"
+        "itemurl": "https://de.wikipedia.org/wiki/Alamak"
     },
     {
         "itemname": "Alamak BC",
-        "itemurl": "https://de.wikipedia.org/wiki/Alamak",
-        "itemname2": "Alamak BC"
+        "itemurl": "https://de.wikipedia.org/wiki/Alamak"
     },
     {
         "itemname": "Alasco",
-        "itemurl": "https://de.wikipedia.org/wiki/Eta_Ursae_Minoris",
-        "itemname2": "Alasco"
+        "itemurl": "https://de.wikipedia.org/wiki/Eta_Ursae_Minoris"
     },
     {
         "itemname": "Alathfar",
-        "itemurl": "https://de.wikipedia.org/wiki/Alathfar",
-        "itemname2": "Alathfar"
+        "itemurl": "https://de.wikipedia.org/wiki/Alathfar"
     },
     {
         "itemname": "Albaldah",
-        "itemurl": "https://de.wikipedia.org/wiki/Albaldah",
-        "itemname2": "Albaldah"
+        "itemurl": "https://de.wikipedia.org/wiki/Albaldah"
     },
     {
         "itemname": "Albali",
-        "itemurl": "https://de.wikipedia.org/wiki/Albali",
-        "itemname2": "Albali"
+        "itemurl": "https://de.wikipedia.org/wiki/Albali"
     },
     {
         "itemname": "Albireo",
-        "itemurl": "https://de.wikipedia.org/wiki/Albireo",
-        "itemname2": "Albireo"
+        "itemurl": "https://de.wikipedia.org/wiki/Albireo"
     },
     {
         "itemname": "Albireo A",
-        "itemurl": "https://de.wikipedia.org/wiki/Albireo",
-        "itemname2": "Albireo A"
+        "itemurl": "https://de.wikipedia.org/wiki/Albireo"
     },
     {
         "itemname": "Albireo B",
-        "itemurl": "https://de.wikipedia.org/wiki/Albireo",
-        "itemname2": "Albireo B"
+        "itemurl": "https://de.wikipedia.org/wiki/Albireo"
     },
     {
         "itemname": "Alchiba",
-        "itemurl": "https://de.wikipedia.org/wiki/Alchiba",
-        "itemname2": "Alchiba"
+        "itemurl": "https://de.wikipedia.org/wiki/Alchiba"
     },
     {
         "itemname": "Aldebaran",
-        "itemurl": "https://de.wikipedia.org/wiki/Aldebaran",
-        "itemname2": "Aldebaran"
+        "itemurl": "https://de.wikipedia.org/wiki/Aldebaran"
     },
     {
         "itemname": "Aldebaran A",
-        "itemurl": "https://de.wikipedia.org/wiki/Aldebaran",
-        "itemname2": "Aldebaran A"
+        "itemurl": "https://de.wikipedia.org/wiki/Aldebaran"
     },
     {
         "itemname": "Aldebaran B",
-        "itemurl": "https://de.wikipedia.org/wiki/Aldebaran",
-        "itemname2": "Aldebaran B"
+        "itemurl": "https://de.wikipedia.org/wiki/Aldebaran"
     },
     {
         "itemname": "Aldebaran C",
-        "itemurl": "https://de.wikipedia.org/wiki/Aldebaran",
-        "itemname2": "Aldebaran C"
+        "itemurl": "https://de.wikipedia.org/wiki/Aldebaran"
     },
     {
         "itemname": "Aldebaran D",
-        "itemurl": "https://de.wikipedia.org/wiki/Aldebaran",
-        "itemname2": "Aldebaran D"
+        "itemurl": "https://de.wikipedia.org/wiki/Aldebaran"
     },
     {
         "itemname": "Aldebaran E",
-        "itemurl": "https://de.wikipedia.org/wiki/Aldebaran",
-        "itemname2": "Aldebaran E"
+        "itemurl": "https://de.wikipedia.org/wiki/Aldebaran"
     },
     {
         "itemname": "Aldebaran F",
-        "itemurl": "https://de.wikipedia.org/wiki/Aldebaran",
-        "itemname2": "Aldebaran F"
+        "itemurl": "https://de.wikipedia.org/wiki/Aldebaran"
     },
     {
         "itemname": "Alderamin",
-        "itemurl": "https://de.wikipedia.org/wiki/Alderamin",
-        "itemname2": "Alderamin"
+        "itemurl": "https://de.wikipedia.org/wiki/Alderamin"
     },
     {
         "itemname": "Aldhafera",
-        "itemurl": "https://de.wikipedia.org/wiki/Aldhafera",
-        "itemname2": "Aldhafera"
+        "itemurl": "https://de.wikipedia.org/wiki/Aldhafera"
     },
     {
         "itemname": "Aldhanab",
-        "itemurl": "https://de.wikipedia.org/wiki/Aldhanab",
-        "itemname2": "Aldhanab"
+        "itemurl": "https://de.wikipedia.org/wiki/Aldhanab"
     },
     {
         "itemname": "Aldhibah",
-        "itemurl": "https://de.wikipedia.org/wiki/Aldhibah",
-        "itemname2": "Aldhibah"
+        "itemurl": "https://de.wikipedia.org/wiki/Aldhibah"
     },
     {
         "itemname": "Alfecca Meridiana",
-        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Coronae_Australis",
-        "itemname2": "Alfecca Meridiana"
+        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Coronae_Australis"
     },
     {
         "itemname": "Alfirk",
-        "itemurl": "https://de.wikipedia.org/wiki/Alfirk",
-        "itemname2": "Alfirk"
+        "itemurl": "https://de.wikipedia.org/wiki/Alfirk"
     },
     {
         "itemname": "Algenib",
-        "itemurl": "https://de.wikipedia.org/wiki/Algenib",
-        "itemname2": "Algenib"
+        "itemurl": "https://de.wikipedia.org/wiki/Algenib"
     },
     {
         "itemname": "Algieba",
-        "itemurl": "https://de.wikipedia.org/wiki/Algieba",
-        "itemname2": "Algieba"
+        "itemurl": "https://de.wikipedia.org/wiki/Algieba"
     },
     {
         "itemname": "Algiedi",
-        "itemurl": "https://de.wikipedia.org/wiki/Algiedi",
-        "itemname2": "Algiedi"
+        "itemurl": "https://de.wikipedia.org/wiki/Algiedi"
     },
     {
         "itemname": "Algiedi A",
-        "itemurl": "https://de.wikipedia.org/wiki/Algiedi",
-        "itemname2": "Algiedi A"
+        "itemurl": "https://de.wikipedia.org/wiki/Algiedi"
     },
     {
         "itemname": "Algiedi B",
-        "itemurl": "https://de.wikipedia.org/wiki/Algiedi",
-        "itemname2": "Algiedi B"
+        "itemurl": "https://de.wikipedia.org/wiki/Algiedi"
     },
     {
         "itemname": "Algol",
-        "itemurl": "https://de.wikipedia.org/wiki/Algol_(Stern)",
-        "itemname2": "Algol"
+        "itemurl": "https://de.wikipedia.org/wiki/Algol_(Stern)"
     },
     {
         "itemname": "Algorab",
-        "itemurl": "https://de.wikipedia.org/wiki/Delta_Corvi",
-        "itemname2": "Algorab"
+        "itemurl": "https://de.wikipedia.org/wiki/Delta_Corvi"
     },
     {
         "itemname": "Alhena",
-        "itemurl": "https://de.wikipedia.org/wiki/Alhena",
-        "itemname2": "Alhena"
+        "itemurl": "https://de.wikipedia.org/wiki/Alhena"
     },
     {
         "itemname": "Alioth",
-        "itemurl": "https://de.wikipedia.org/wiki/Epsilon_Ursae_Majoris",
-        "itemname2": "Alioth"
+        "itemurl": "https://de.wikipedia.org/wiki/Epsilon_Ursae_Majoris"
     },
     {
         "itemname": "Alkaid",
-        "itemurl": "https://de.wikipedia.org/wiki/Alkaid",
-        "itemname2": "Alkaid"
+        "itemurl": "https://de.wikipedia.org/wiki/Alkaid"
     },
     {
         "itemname": "Alkalurops A",
-        "itemurl": "https://de.wikipedia.org/wiki/My_Bo%C3%B6tis",
-        "itemname2": "Alkalurops A"
+        "itemurl": "https://de.wikipedia.org/wiki/My_Bo%C3%B6tis"
     },
     {
         "itemname": "Alkalurops A",
-        "itemurl": "https://de.wikipedia.org/wiki/My_Bo%C3%B6tis",
-        "itemname2": "Alkalurops A"
+        "itemurl": "https://de.wikipedia.org/wiki/My_Bo%C3%B6tis"
     },
     {
         "itemname": "Alkalurops B",
-        "itemurl": "https://de.wikipedia.org/wiki/My_Bo%C3%B6tis",
-        "itemname2": "Alkalurops B"
+        "itemurl": "https://de.wikipedia.org/wiki/My_Bo%C3%B6tis"
     },
     {
         "itemname": "Alkalurops C",
-        "itemurl": "https://de.wikipedia.org/wiki/My_Bo%C3%B6tis",
-        "itemname2": "Alkalurops C"
+        "itemurl": "https://de.wikipedia.org/wiki/My_Bo%C3%B6tis"
     },
     {
         "itemname": "Alkes",
-        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Crateris",
-        "itemname2": "Alkes"
+        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Crateris"
     },
     {
         "itemname": "Alkione",
-        "itemurl": "https://de.wikipedia.org/wiki/Alkione_(Stern)",
-        "itemname2": "Alkione"
+        "itemurl": "https://de.wikipedia.org/wiki/Alkione_(Stern)"
     },
     {
         "itemname": "Alkor",
-        "itemurl": "https://de.wikipedia.org/wiki/Alkor_(Stern)",
-        "itemname2": "Alkor"
+        "itemurl": "https://de.wikipedia.org/wiki/Alkor_(Stern)"
     },
     {
         "itemname": "Alkurah",
-        "itemurl": "https://de.wikipedia.org/wiki/Alkurah",
-        "itemname2": "Alkurah"
+        "itemurl": "https://de.wikipedia.org/wiki/Alkurah"
     },
     {
         "itemname": "Alnilam",
-        "itemurl": "https://de.wikipedia.org/wiki/Alnilam",
-        "itemname2": "Alnilam"
+        "itemurl": "https://de.wikipedia.org/wiki/Alnilam"
     },
     {
         "itemname": "Alnitak",
-        "itemurl": "https://de.wikipedia.org/wiki/Alnitak",
-        "itemname2": "Alnitak"
+        "itemurl": "https://de.wikipedia.org/wiki/Alnitak"
     },
     {
         "itemname": "Alniyat",
-        "itemurl": "https://de.wikipedia.org/wiki/Tau_Scorpii",
-        "itemname2": "Alniyat"
+        "itemurl": "https://de.wikipedia.org/wiki/Sigma_Scorpii"
     },
     {
         "itemname": "Alniyat",
-        "itemurl": "https://de.wikipedia.org/wiki/Sigma_Scorpii",
-        "itemname2": "Alniyat"
+        "itemurl": "https://de.wikipedia.org/wiki/Tau_Scorpii"
     },
     {
         "itemname": "Alphard",
-        "itemurl": "https://de.wikipedia.org/wiki/Alphard",
-        "itemname2": "Alphard"
+        "itemurl": "https://de.wikipedia.org/wiki/Alphard"
     },
     {
         "itemname": "Alrakis",
-        "itemurl": "https://de.wikipedia.org/wiki/Alrakis",
-        "itemname2": "Alrakis"
+        "itemurl": "https://de.wikipedia.org/wiki/Alrakis"
     },
     {
         "itemname": "Alrischa",
-        "itemurl": "https://de.wikipedia.org/wiki/Alrischa",
-        "itemname2": "Alrischa"
+        "itemurl": "https://de.wikipedia.org/wiki/Alrischa"
     },
     {
         "itemname": "Alrischa A",
-        "itemurl": "https://de.wikipedia.org/wiki/Alrischa",
-        "itemname2": "Alrischa A"
+        "itemurl": "https://de.wikipedia.org/wiki/Alrischa"
     },
     {
         "itemname": "Alrischa B",
-        "itemurl": "https://de.wikipedia.org/wiki/Alrischa",
-        "itemname2": "Alrischa B"
+        "itemurl": "https://de.wikipedia.org/wiki/Alrischa"
     },
     {
         "itemname": "Alsafi",
-        "itemurl": "https://de.wikipedia.org/wiki/Alsafi",
-        "itemname2": "Alsafi"
+        "itemurl": "https://de.wikipedia.org/wiki/Alsafi"
     },
     {
         "itemname": "Alschain",
-        "itemurl": "https://de.wikipedia.org/wiki/Alschain",
-        "itemname2": "Alschain"
+        "itemurl": "https://de.wikipedia.org/wiki/Alschain"
     },
     {
         "itemname": "Alschain A",
-        "itemurl": "https://de.wikipedia.org/wiki/Alschain",
-        "itemname2": "Alschain A"
+        "itemurl": "https://de.wikipedia.org/wiki/Alschain"
     },
     {
         "itemname": "Alschain A",
-        "itemurl": "https://de.wikipedia.org/wiki/Alschain",
-        "itemname2": "Alschain A"
+        "itemurl": "https://de.wikipedia.org/wiki/Alschain"
     },
     {
         "itemname": "Alschain B",
-        "itemurl": "https://de.wikipedia.org/wiki/Alschain",
-        "itemname2": "Alschain B"
+        "itemurl": "https://de.wikipedia.org/wiki/Alschain"
     },
     {
         "itemname": "Alschain C",
-        "itemurl": "https://de.wikipedia.org/wiki/Alschain",
-        "itemname2": "Alschain C"
+        "itemurl": "https://de.wikipedia.org/wiki/Alschain"
     },
     {
         "itemname": "Alshat",
-        "itemurl": "https://de.wikipedia.org/wiki/Alshat",
-        "itemname2": "Alshat"
+        "itemurl": "https://de.wikipedia.org/wiki/Alshat"
     },
     {
         "itemname": "Altair",
-        "itemurl": "https://de.wikipedia.org/wiki/Altair",
-        "itemname2": "Altair"
+        "itemurl": "https://de.wikipedia.org/wiki/Altair"
     },
     {
         "itemname": "Altais",
-        "itemurl": "https://de.wikipedia.org/wiki/Altais",
-        "itemname2": "Altais"
+        "itemurl": "https://de.wikipedia.org/wiki/Altais"
     },
     {
         "itemname": "Altarf",
-        "itemurl": "https://de.wikipedia.org/wiki/Altarf",
-        "itemname2": "Altarf"
+        "itemurl": "https://de.wikipedia.org/wiki/Altarf"
     },
     {
         "itemname": "Alterf",
-        "itemurl": "https://de.wikipedia.org/wiki/Alterf",
-        "itemname2": "Alterf"
+        "itemurl": "https://de.wikipedia.org/wiki/Alterf"
     },
     {
         "itemname": "Aludra",
-        "itemurl": "https://de.wikipedia.org/wiki/Aludra",
-        "itemname2": "Aludra"
+        "itemurl": "https://de.wikipedia.org/wiki/Aludra"
     },
     {
         "itemname": "Alula Australis A",
-        "itemurl": "https://de.wikipedia.org/wiki/Xi_Ursae_Majoris",
-        "itemname2": "Alula Australis A"
+        "itemurl": "https://de.wikipedia.org/wiki/Xi_Ursae_Majoris"
     },
     {
         "itemname": "Alula Australis A",
-        "itemurl": "https://de.wikipedia.org/wiki/Xi_Ursae_Majoris",
-        "itemname2": "Alula Australis A"
+        "itemurl": "https://de.wikipedia.org/wiki/Xi_Ursae_Majoris"
     },
     {
         "itemname": "Alula Australis B",
-        "itemurl": "https://de.wikipedia.org/wiki/Xi_Ursae_Majoris",
-        "itemname2": "Alula Australis B"
+        "itemurl": "https://de.wikipedia.org/wiki/Xi_Ursae_Majoris"
     },
     {
         "itemname": "Alula Borealis",
-        "itemurl": "https://de.wikipedia.org/wiki/Ny_Ursae_Majoris",
-        "itemname2": "Alula Borealis"
+        "itemurl": "https://de.wikipedia.org/wiki/Ny_Ursae_Majoris"
     },
     {
         "itemname": "Alwaid",
-        "itemurl": "https://de.wikipedia.org/wiki/Alwaid",
-        "itemname2": "Alwaid"
+        "itemurl": "https://de.wikipedia.org/wiki/Alwaid"
     },
     {
         "itemname": "Alya",
-        "itemurl": "https://de.wikipedia.org/wiki/Alya",
-        "itemname2": "Alya"
+        "itemurl": "https://de.wikipedia.org/wiki/Alya"
     },
     {
         "itemname": "Alzir",
-        "itemurl": "https://de.wikipedia.org/wiki/Alzir",
-        "itemname2": "Alzir"
+        "itemurl": "https://de.wikipedia.org/wiki/Alzir"
     },
     {
         "itemname": "Ancha",
-        "itemurl": "https://de.wikipedia.org/wiki/Ancha",
-        "itemname2": "Ancha"
+        "itemurl": "https://de.wikipedia.org/wiki/Ancha"
     },
     {
         "itemname": "Angetenar",
-        "itemurl": "https://de.wikipedia.org/wiki/Angetenar",
-        "itemname2": "Angetenar"
+        "itemurl": "https://de.wikipedia.org/wiki/Angetenar"
     },
     {
         "itemname": "Ankaa",
-        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Phoenicis",
-        "itemname2": "Ankaa"
+        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Phoenicis"
     },
     {
         "itemname": "Anser",
-        "itemname2": "Anser"
+        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Vulpeculae"
     },
     {
         "itemname": "Antares",
-        "itemurl": "https://de.wikipedia.org/wiki/Antares",
-        "itemname2": "Antares"
+        "itemurl": "https://de.wikipedia.org/wiki/Antares"
     },
     {
         "itemname": "Antares",
-        "itemurl": "https://de.wikipedia.org/wiki/Antares",
-        "itemname2": "Antares"
+        "itemurl": "https://de.wikipedia.org/wiki/Antares"
     },
     {
         "itemname": "Anwar Al Farkadain",
-        "itemurl": "https://de.wikipedia.org/wiki/Eta_Ursae_Minoris",
-        "itemname2": "Anwar Al Farkadain"
+        "itemurl": "https://de.wikipedia.org/wiki/Eta_Ursae_Minoris"
     },
     {
         "itemname": "Arcturus",
-        "itemurl": "https://de.wikipedia.org/wiki/Arktur",
-        "itemname2": "Arcturus"
+        "itemurl": "https://de.wikipedia.org/wiki/Arktur"
     },
     {
         "itemname": "Arkab Posterior",
-        "itemurl": "https://de.wikipedia.org/wiki/Arkab_Posterior",
-        "itemname2": "Arkab Posterior"
+        "itemurl": "https://de.wikipedia.org/wiki/Arkab_Posterior"
     },
     {
         "itemname": "Arkab Prior",
-        "itemurl": "https://de.wikipedia.org/wiki/Arkab_Prior",
-        "itemname2": "Arkab Prior"
+        "itemurl": "https://de.wikipedia.org/wiki/Arkab_Prior"
     },
     {
         "itemname": "Arm",
-        "itemurl": "https://de.wikipedia.org/wiki/Arm_(Stern)",
-        "itemname2": "Arm"
+        "itemurl": "https://de.wikipedia.org/wiki/Arm_(Stern)"
     },
     {
         "itemname": "Arneb",
-        "itemurl": "https://de.wikipedia.org/wiki/Arneb",
-        "itemname2": "Arneb"
+        "itemurl": "https://de.wikipedia.org/wiki/Arneb"
     },
     {
         "itemname": "Arrakis",
-        "itemurl": "https://de.wikipedia.org/wiki/Alrakis",
-        "itemname2": "Arrakis"
+        "itemurl": "https://de.wikipedia.org/wiki/Alrakis"
     },
     {
         "itemname": "Arrakis A",
-        "itemurl": "https://de.wikipedia.org/wiki/Alrakis",
-        "itemname2": "Arrakis A"
+        "itemurl": "https://de.wikipedia.org/wiki/Alrakis"
     },
     {
         "itemname": "Arrakis B",
-        "itemurl": "https://de.wikipedia.org/wiki/Alrakis",
-        "itemname2": "Arrakis B"
+        "itemurl": "https://de.wikipedia.org/wiki/Alrakis"
     },
     {
         "itemname": "Asellus Australis",
-        "itemurl": "https://de.wikipedia.org/wiki/Asellus_Australis",
-        "itemname2": "Asellus Australis"
+        "itemurl": "https://de.wikipedia.org/wiki/Asellus_Australis"
     },
     {
         "itemname": "Asellus Borealis",
-        "itemurl": "https://de.wikipedia.org/wiki/Asellus_Borealis",
-        "itemname2": "Asellus Borealis"
+        "itemurl": "https://de.wikipedia.org/wiki/Asellus_Borealis"
     },
     {
         "itemname": "Asellus Primus",
-        "itemurl": "https://de.wikipedia.org/wiki/Theta_Bo%C3%B6tis",
-        "itemname2": "Asellus Primus"
+        "itemurl": "https://de.wikipedia.org/wiki/Theta_Bo%C3%B6tis"
     },
     {
         "itemname": "Asellus Secundus A",
-        "itemurl": "https://de.wikipedia.org/wiki/Asellus_Secundus",
-        "itemname2": "Asellus Secundus A"
+        "itemurl": "https://de.wikipedia.org/wiki/Asellus_Secundus"
     },
     {
         "itemname": "Asellus Secundus A",
-        "itemurl": "https://de.wikipedia.org/wiki/Asellus_Secundus",
-        "itemname2": "Asellus Secundus A"
+        "itemurl": "https://de.wikipedia.org/wiki/Asellus_Secundus"
     },
     {
         "itemname": "Asellus Secundus B",
-        "itemurl": "https://de.wikipedia.org/wiki/Asellus_Secundus",
-        "itemname2": "Asellus Secundus B"
+        "itemurl": "https://de.wikipedia.org/wiki/Asellus_Secundus"
     },
     {
         "itemname": "Asellus Tertius",
-        "itemurl": "https://de.wikipedia.org/wiki/Asellus_Tertius",
-        "itemname2": "Asellus Tertius"
+        "itemurl": "https://de.wikipedia.org/wiki/Asellus_Tertius"
     },
     {
         "itemname": "Asellus Tertius A",
-        "itemurl": "https://de.wikipedia.org/wiki/Asellus_Tertius",
-        "itemname2": "Asellus Tertius A"
+        "itemurl": "https://de.wikipedia.org/wiki/Asellus_Tertius"
     },
     {
         "itemname": "Asellus Tertius B",
-        "itemurl": "https://de.wikipedia.org/wiki/Asellus_Tertius",
-        "itemname2": "Asellus Tertius B"
+        "itemurl": "https://de.wikipedia.org/wiki/Asellus_Tertius"
     },
     {
         "itemname": "Askella",
-        "itemurl": "https://de.wikipedia.org/wiki/Zeta_Sagittarii",
-        "itemname2": "Askella"
+        "itemurl": "https://de.wikipedia.org/wiki/Zeta_Sagittarii"
     },
     {
         "itemname": "Aspidiske",
-        "itemurl": "https://de.wikipedia.org/wiki/Aspidiske",
-        "itemname2": "Aspidiske"
+        "itemurl": "https://de.wikipedia.org/wiki/Aspidiske"
     },
     {
         "itemname": "Asterion",
-        "itemurl": "https://de.wikipedia.org/wiki/Beta_Canum_Venaticorum",
-        "itemname2": "Asterion"
+        "itemurl": "https://de.wikipedia.org/wiki/Beta_Canum_Venaticorum"
     },
     {
         "itemname": "Asterope",
-        "itemurl": "https://de.wikipedia.org/wiki/Asterope_(Stern)",
-        "itemname2": "Asterope"
+        "itemurl": "https://de.wikipedia.org/wiki/Asterope_(Stern)"
     },
     {
         "itemname": "Asterope",
-        "itemurl": "https://de.wikipedia.org/wiki/Asterope_(Stern)",
-        "itemname2": "Asterope"
+        "itemurl": "https://de.wikipedia.org/wiki/Asterope_(Stern)"
     },
     {
         "itemname": "Atik",
-        "itemurl": "https://de.wikipedia.org/wiki/Atik",
-        "itemname2": "Atik"
+        "itemurl": "https://de.wikipedia.org/wiki/Atik"
     },
     {
         "itemname": "Atlas",
-        "itemurl": "https://de.wikipedia.org/wiki/Atlas_(Stern)",
-        "itemname2": "Atlas"
+        "itemurl": "https://de.wikipedia.org/wiki/Atlas_(Stern)"
     },
     {
         "itemname": "Atria",
-        "itemurl": "https://de.wikipedia.org/wiki/Atria",
-        "itemname2": "Atria"
+        "itemurl": "https://de.wikipedia.org/wiki/Atria"
     },
     {
         "itemname": "Avior",
-        "itemname2": "Avior"
+        "itemurl": "https://de.wikipedia.org/wiki/Epsilon_Carinae"
     },
     {
         "itemname": "Azaleh",
-        "itemurl": "https://de.wikipedia.org/wiki/Azaleh",
-        "itemname2": "Azaleh"
+        "itemurl": "https://de.wikipedia.org/wiki/Azaleh"
     },
     {
         "itemname": "Azelfafage",
-        "itemurl": "https://de.wikipedia.org/wiki/Azelfafage",
-        "itemname2": "Azelfafage"
+        "itemurl": "https://de.wikipedia.org/wiki/Azelfafage"
     },
     {
         "itemname": "Azha",
-        "itemurl": "https://de.wikipedia.org/wiki/Azha",
-        "itemname2": "Azha"
+        "itemurl": "https://de.wikipedia.org/wiki/Azha"
     },
     {
         "itemname": "Azmidiske",
-        "itemurl": "https://de.wikipedia.org/wiki/Xi_Puppis",
-        "itemname2": "Azmidiske"
+        "itemurl": "https://de.wikipedia.org/wiki/Xi_Puppis"
     },
     {
         "itemname": "Baham",
-        "itemurl": "https://de.wikipedia.org/wiki/Baham_(Stern)",
-        "itemname2": "Baham"
+        "itemurl": "https://de.wikipedia.org/wiki/Baham_(Stern)"
     },
     {
         "itemname": "Barnards Pfeilstern",
-        "itemurl": "https://de.wikipedia.org/wiki/Barnards_Pfeilstern",
-        "itemname2": "Barnards Pfeilstern"
+        "itemurl": "https://de.wikipedia.org/wiki/Barnards_Pfeilstern"
     },
     {
         "itemname": "Baten Kaitos",
-        "itemurl": "https://de.wikipedia.org/wiki/Zeta_Ceti",
-        "itemname2": "Baten Kaitos"
+        "itemurl": "https://de.wikipedia.org/wiki/Zeta_Ceti"
     },
     {
         "itemname": "Becrux",
-        "itemurl": "https://de.wikipedia.org/wiki/Becrux",
-        "itemname2": "Becrux"
+        "itemurl": "https://de.wikipedia.org/wiki/Becrux"
     },
     {
         "itemname": "Beid",
-        "itemurl": "https://de.wikipedia.org/wiki/Beid",
-        "itemname2": "Beid"
+        "itemurl": "https://de.wikipedia.org/wiki/Beid"
     },
     {
         "itemname": "Bellatrix",
-        "itemurl": "https://de.wikipedia.org/wiki/Bellatrix",
-        "itemname2": "Bellatrix"
+        "itemurl": "https://de.wikipedia.org/wiki/Bellatrix"
     },
     {
         "itemname": "Benetnasch",
-        "itemurl": "https://de.wikipedia.org/wiki/Alkaid",
-        "itemname2": "Benetnasch"
-    },
-    {
-        "itemname": "Benetnasch",
-        "itemname2": "Benetnasch"
+        "itemurl": "https://de.wikipedia.org/wiki/Alkaid"
     },
     {
         "itemname": "Beteigeuze",
-        "itemurl": "https://de.wikipedia.org/wiki/Beteigeuze",
-        "itemname2": "Beteigeuze"
+        "itemurl": "https://de.wikipedia.org/wiki/Beteigeuze"
     },
     {
         "itemname": "Betria",
-        "itemurl": "https://de.wikipedia.org/wiki/Betria",
-        "itemname2": "Betria"
+        "itemurl": "https://de.wikipedia.org/wiki/Betria"
     },
     {
         "itemname": "Bharani",
-        "itemurl": "https://de.wikipedia.org/wiki/Bharani",
-        "itemname2": "Bharani"
+        "itemurl": "https://de.wikipedia.org/wiki/Bharani"
     },
     {
         "itemname": "Bogardus",
-        "itemurl": "https://de.wikipedia.org/wiki/Theta_Aurigae",
-        "itemname2": "Bogardus"
+        "itemurl": "https://de.wikipedia.org/wiki/Theta_Aurigae"
     },
     {
         "itemname": "Botein",
-        "itemurl": "https://de.wikipedia.org/wiki/Delta_Arietis",
-        "itemname2": "Botein"
+        "itemurl": "https://de.wikipedia.org/wiki/Delta_Arietis"
     },
     {
         "itemname": "Brachium",
-        "itemurl": "https://de.wikipedia.org/wiki/Sigma_Librae",
-        "itemname2": "Brachium"
+        "itemurl": "https://de.wikipedia.org/wiki/Sigma_Librae"
     },
     {
         "itemname": "Bunda",
-        "itemurl": "https://de.wikipedia.org/wiki/Bunda_(Stern)",
-        "itemname2": "Bunda"
+        "itemurl": "https://de.wikipedia.org/wiki/Bunda_(Stern)"
     },
     {
         "itemname": "Canopus",
-        "itemurl": "https://de.wikipedia.org/wiki/Canopus",
-        "itemname2": "Canopus"
+        "itemurl": "https://de.wikipedia.org/wiki/Canopus"
     },
     {
         "itemname": "Capella",
-        "itemurl": "https://de.wikipedia.org/wiki/Capella",
-        "itemname2": "Capella"
+        "itemurl": "https://de.wikipedia.org/wiki/Capella"
     },
     {
         "itemname": "Caph",
-        "itemurl": "https://de.wikipedia.org/wiki/Caph",
-        "itemname2": "Caph"
+        "itemurl": "https://de.wikipedia.org/wiki/Caph"
     },
     {
         "itemname": "Castor",
-        "itemurl": "https://de.wikipedia.org/wiki/Castor_(Stern)",
-        "itemname2": "Castor"
+        "itemurl": "https://de.wikipedia.org/wiki/Castor_(Stern)"
     },
     {
         "itemname": "Castor Aa",
-        "itemurl": "https://de.wikipedia.org/wiki/Castor_(Stern)",
-        "itemname2": "Castor Aa"
+        "itemurl": "https://de.wikipedia.org/wiki/Castor_(Stern)"
     },
     {
         "itemname": "Castor Ab",
-        "itemurl": "https://de.wikipedia.org/wiki/Castor_(Stern)",
-        "itemname2": "Castor Ab"
+        "itemurl": "https://de.wikipedia.org/wiki/Castor_(Stern)"
     },
     {
         "itemname": "Castor Ba",
-        "itemurl": "https://de.wikipedia.org/wiki/Castor_(Stern)",
-        "itemname2": "Castor Ba"
+        "itemurl": "https://de.wikipedia.org/wiki/Castor_(Stern)"
     },
     {
         "itemname": "Castor Bb",
-        "itemurl": "https://de.wikipedia.org/wiki/Castor_(Stern)",
-        "itemname2": "Castor Bb"
+        "itemurl": "https://de.wikipedia.org/wiki/Castor_(Stern)"
     },
     {
         "itemname": "Castor Ca",
-        "itemurl": "https://de.wikipedia.org/wiki/Castor_(Stern)",
-        "itemname2": "Castor Ca"
+        "itemurl": "https://de.wikipedia.org/wiki/Castor_(Stern)"
     },
     {
         "itemname": "Castor Cb",
-        "itemurl": "https://de.wikipedia.org/wiki/Castor_(Stern)",
-        "itemname2": "Castor Cb"
+        "itemurl": "https://de.wikipedia.org/wiki/Castor_(Stern)"
     },
     {
         "itemname": "Cebalrai",
-        "itemurl": "https://de.wikipedia.org/wiki/Cebalrai",
-        "itemname2": "Cebalrai"
+        "itemurl": "https://de.wikipedia.org/wiki/Cebalrai"
     },
     {
         "itemname": "Celaeno",
-        "itemurl": "https://de.wikipedia.org/wiki/Celaeno",
-        "itemname2": "Celaeno"
+        "itemurl": "https://de.wikipedia.org/wiki/Celaeno"
     },
     {
         "itemname": "Chertan",
-        "itemurl": "https://de.wikipedia.org/wiki/Chertan",
-        "itemname2": "Chertan"
+        "itemurl": "https://de.wikipedia.org/wiki/Chertan"
     },
     {
         "itemname": "Chow",
-        "itemname2": "Chow"
+        "itemurl": "https://de.wikipedia.org/wiki/Beta_Serpentis"
     },
     {
         "itemname": "Cor Caroli",
-        "itemurl": "https://de.wikipedia.org/wiki/Cor_Caroli",
-        "itemname2": "Cor Caroli"
+        "itemurl": "https://de.wikipedia.org/wiki/Cor_Caroli"
     },
     {
         "itemname": "Cor Caroli A",
-        "itemurl": "https://de.wikipedia.org/wiki/Cor_Caroli",
-        "itemname2": "Cor Caroli A"
+        "itemurl": "https://de.wikipedia.org/wiki/Cor_Caroli"
     },
     {
         "itemname": "Cor Caroli B",
-        "itemurl": "https://de.wikipedia.org/wiki/Cor_Caroli",
-        "itemname2": "Cor Caroli B"
+        "itemurl": "https://de.wikipedia.org/wiki/Cor_Caroli"
     },
     {
         "itemname": "Cursa",
-        "itemurl": "https://de.wikipedia.org/wiki/Cursa",
-        "itemname2": "Cursa"
+        "itemurl": "https://de.wikipedia.org/wiki/Cursa"
     },
     {
         "itemname": "Decrux",
-        "itemurl": "https://de.wikipedia.org/wiki/Decrux",
-        "itemname2": "Decrux"
+        "itemurl": "https://de.wikipedia.org/wiki/Decrux"
     },
     {
         "itemname": "Deneb",
-        "itemurl": "https://de.wikipedia.org/wiki/Deneb",
-        "itemname2": "Deneb"
+        "itemurl": "https://de.wikipedia.org/wiki/Deneb"
     },
     {
         "itemname": "Deneb Algedi",
-        "itemurl": "https://de.wikipedia.org/wiki/Deneb_Algedi",
-        "itemname2": "Deneb Algedi"
+        "itemurl": "https://de.wikipedia.org/wiki/Deneb_Algedi"
     },
     {
         "itemname": "Deneb Algenubi",
-        "itemurl": "https://de.wikipedia.org/wiki/Deneb_Algenubi",
-        "itemname2": "Deneb Algenubi"
+        "itemurl": "https://de.wikipedia.org/wiki/Deneb_Algenubi"
     },
     {
         "itemname": "Deneb Dulfim",
-        "itemurl": "https://de.wikipedia.org/wiki/Deneb_Dulfim",
-        "itemname2": "Deneb Dulfim"
+        "itemurl": "https://de.wikipedia.org/wiki/Deneb_Dulfim"
     },
     {
         "itemname": "Deneb el Okab Australis",
-        "itemurl": "https://de.wikipedia.org/wiki/Deneb_el_Okab_Australis",
-        "itemname2": "Deneb el Okab Australis"
+        "itemurl": "https://de.wikipedia.org/wiki/Deneb_el_Okab_Australis"
     },
     {
         "itemname": "Deneb el Okab Borealis",
-        "itemurl": "https://de.wikipedia.org/wiki/Deneb_el_Okab_Borealis",
-        "itemname2": "Deneb el Okab Borealis"
+        "itemurl": "https://de.wikipedia.org/wiki/Deneb_el_Okab_Borealis"
     },
     {
         "itemname": "Deneb Kaitos",
-        "itemurl": "https://de.wikipedia.org/wiki/Deneb_Kaitos",
-        "itemname2": "Deneb Kaitos"
+        "itemurl": "https://de.wikipedia.org/wiki/Deneb_Kaitos"
     },
     {
         "itemname": "Deneb Kaitos Schemali",
-        "itemurl": "https://de.wikipedia.org/wiki/Deneb_Kaitos_Schemali",
-        "itemname2": "Deneb Kaitos Schemali"
+        "itemurl": "https://de.wikipedia.org/wiki/Deneb_Kaitos_Schemali"
     },
     {
         "itemname": "Denebola",
-        "itemurl": "https://de.wikipedia.org/wiki/Denebola",
-        "itemname2": "Denebola"
-    },
-    {
-        "itemname": "Dheneb",
-        "itemname2": "Dheneb"
+        "itemurl": "https://de.wikipedia.org/wiki/Denebola"
     },
     {
         "itemname": "Diadem",
-        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Comae_Berenices",
-        "itemname2": "Diadem"
+        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Comae_Berenices"
     },
     {
         "itemname": "Diadem A",
-        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Comae_Berenices",
-        "itemname2": "Diadem A"
+        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Comae_Berenices"
     },
     {
         "itemname": "Diadem B",
-        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Comae_Berenices",
-        "itemname2": "Diadem B"
+        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Comae_Berenices"
     },
     {
         "itemname": "Dschubba",
-        "itemurl": "https://de.wikipedia.org/wiki/Dschubba",
-        "itemname2": "Dschubba"
+        "itemurl": "https://de.wikipedia.org/wiki/Dschubba"
     },
     {
         "itemname": "Dubhe",
-        "itemurl": "https://de.wikipedia.org/wiki/Dubhe",
-        "itemname2": "Dubhe"
+        "itemurl": "https://de.wikipedia.org/wiki/Dubhe"
     },
     {
         "itemname": "Dubhe A",
-        "itemurl": "https://de.wikipedia.org/wiki/Dubhe",
-        "itemname2": "Dubhe A"
+        "itemurl": "https://de.wikipedia.org/wiki/Dubhe"
     },
     {
         "itemname": "Dubhe B",
-        "itemurl": "https://de.wikipedia.org/wiki/Dubhe",
-        "itemname2": "Dubhe B"
+        "itemurl": "https://de.wikipedia.org/wiki/Dubhe"
     },
     {
         "itemname": "Dubhe C",
-        "itemurl": "https://de.wikipedia.org/wiki/Dubhe",
-        "itemname2": "Dubhe C"
+        "itemurl": "https://de.wikipedia.org/wiki/Dubhe"
     },
     {
         "itemname": "Duhr",
-        "itemurl": "https://de.wikipedia.org/wiki/Delta_Leonis",
-        "itemname2": "Duhr"
+        "itemurl": "https://de.wikipedia.org/wiki/Delta_Leonis"
     },
     {
         "itemname": "Edasich",
-        "itemurl": "https://de.wikipedia.org/wiki/Edasich",
-        "itemname2": "Edasich"
+        "itemurl": "https://de.wikipedia.org/wiki/Edasich"
     },
     {
         "itemname": "Elektra",
-        "itemurl": "https://de.wikipedia.org/wiki/Elektra_(Stern)",
-        "itemname2": "Elektra"
+        "itemurl": "https://de.wikipedia.org/wiki/Elektra_(Stern)"
     },
     {
         "itemname": "Elmuthalleth",
-        "itemurl": "https://de.wikipedia.org/wiki/Elmuthalleth",
-        "itemname2": "Elmuthalleth"
+        "itemurl": "https://de.wikipedia.org/wiki/Elmuthalleth"
     },
     {
         "itemname": "Elnath",
-        "itemurl": "https://de.wikipedia.org/wiki/Elnath",
-        "itemname2": "Elnath"
+        "itemurl": "https://de.wikipedia.org/wiki/Elnath"
     },
     {
         "itemname": "Enif",
-        "itemurl": "https://de.wikipedia.org/wiki/Enif",
-        "itemname2": "Enif"
+        "itemurl": "https://de.wikipedia.org/wiki/Enif"
     },
     {
         "itemname": "Errai",
-        "itemurl": "https://de.wikipedia.org/wiki/Errai",
-        "itemname2": "Errai"
+        "itemurl": "https://de.wikipedia.org/wiki/Errai"
     },
     {
         "itemname": "Errai A",
-        "itemurl": "https://de.wikipedia.org/wiki/Errai",
-        "itemname2": "Errai A"
+        "itemurl": "https://de.wikipedia.org/wiki/Errai"
     },
     {
         "itemname": "Errai B",
-        "itemurl": "https://de.wikipedia.org/wiki/Errai",
-        "itemname2": "Errai B"
+        "itemurl": "https://de.wikipedia.org/wiki/Errai"
     },
     {
         "itemname": "Eta Centauri",
-        "itemurl": "https://de.wikipedia.org/wiki/Eta_Centauri",
-        "itemname2": "Eta Centauri"
+        "itemurl": "https://de.wikipedia.org/wiki/Eta_Centauri"
     },
     {
         "itemname": "Etamin",
-        "itemurl": "https://de.wikipedia.org/wiki/Etamin",
-        "itemname2": "Etamin"
+        "itemurl": "https://de.wikipedia.org/wiki/Etamin"
     },
     {
         "itemname": "Fomalhaut",
-        "itemurl": "https://de.wikipedia.org/wiki/Fomalhaut",
-        "itemname2": "Fomalhaut"
+        "itemurl": "https://de.wikipedia.org/wiki/Fomalhaut"
     },
     {
         "itemname": "Fum al Samakah",
-        "itemurl": "https://de.wikipedia.org/wiki/Fum_al_Samakah",
-        "itemname2": "Fum al Samakah"
+        "itemurl": "https://de.wikipedia.org/wiki/Fum_al_Samakah"
     },
     {
         "itemname": "Furud",
-        "itemurl": "https://de.wikipedia.org/wiki/Furud",
-        "itemname2": "Furud"
+        "itemurl": "https://de.wikipedia.org/wiki/Furud"
     },
     {
         "itemname": "Furud A",
-        "itemurl": "https://de.wikipedia.org/wiki/Furud",
-        "itemname2": "Furud A"
+        "itemurl": "https://de.wikipedia.org/wiki/Furud"
     },
     {
         "itemname": "Furud B",
-        "itemurl": "https://de.wikipedia.org/wiki/Furud",
-        "itemname2": "Furud B"
+        "itemurl": "https://de.wikipedia.org/wiki/Furud"
     },
     {
         "itemname": "Gacrux",
-        "itemurl": "https://de.wikipedia.org/wiki/Gacrux",
-        "itemname2": "Gacrux"
+        "itemurl": "https://de.wikipedia.org/wiki/Gacrux"
     },
     {
         "itemname": "Gatria",
-        "itemurl": "https://de.wikipedia.org/wiki/Gatria",
-        "itemname2": "Gatria"
+        "itemurl": "https://de.wikipedia.org/wiki/Gatria"
     },
     {
         "itemname": "Gemma",
-        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Coronae_Borealis",
-        "itemname2": "Gemma"
+        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Coronae_Borealis"
     },
     {
         "itemname": "Gemma A",
-        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Coronae_Borealis",
-        "itemname2": "Gemma A"
+        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Coronae_Borealis"
     },
     {
         "itemname": "Gemma B",
-        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Coronae_Borealis",
-        "itemname2": "Gemma B"
+        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Coronae_Borealis"
     },
     {
         "itemname": "Gianfar",
-        "itemurl": "https://de.wikipedia.org/wiki/Lambda_Draconis",
-        "itemname2": "Gianfar"
+        "itemurl": "https://de.wikipedia.org/wiki/Lambda_Draconis"
     },
     {
         "itemname": "Giedi",
-        "itemurl": "https://de.wikipedia.org/wiki/Giedi",
-        "itemname2": "Giedi"
+        "itemurl": "https://de.wikipedia.org/wiki/Giedi"
     },
     {
         "itemname": "Giedi",
-        "itemurl": "https://de.wikipedia.org/wiki/Giedi",
-        "itemname2": "Giedi"
+        "itemurl": "https://de.wikipedia.org/wiki/Giedi"
     },
     {
         "itemname": "Giedi",
-        "itemurl": "https://de.wikipedia.org/wiki/Giedi",
-        "itemname2": "Giedi"
+        "itemurl": "https://de.wikipedia.org/wiki/Giedi"
     },
     {
         "itemname": "Gienah",
-        "itemurl": "https://de.wikipedia.org/wiki/Gamma_Corvi",
-        "itemname2": "Gienah"
+        "itemurl": "https://de.wikipedia.org/wiki/Gamma_Corvi"
     },
     {
         "itemname": "Gienah",
-        "itemurl": "https://de.wikipedia.org/wiki/Epsilon_Cygni",
-        "itemname2": "Gienah"
+        "itemurl": "https://de.wikipedia.org/wiki/Epsilon_Cygni"
     },
     {
         "itemname": "Girtab",
-        "itemurl": "https://de.wikipedia.org/wiki/Girtab",
-        "itemname2": "Girtab"
+        "itemurl": "https://de.wikipedia.org/wiki/Girtab"
     },
     {
         "itemname": "Gomeisa",
-        "itemurl": "https://de.wikipedia.org/wiki/Gomeisa",
-        "itemname2": "Gomeisa"
+        "itemurl": "https://de.wikipedia.org/wiki/Gomeisa"
     },
     {
         "itemname": "Gorgonea Tertia",
-        "itemurl": "https://de.wikipedia.org/wiki/Gorgonea_Tertia",
-        "itemname2": "Gorgonea Tertia"
+        "itemurl": "https://de.wikipedia.org/wiki/Gorgonea_Tertia"
     },
     {
         "itemname": "Graffias",
-        "itemurl": "https://de.wikipedia.org/wiki/Graffias",
-        "itemname2": "Graffias"
+        "itemurl": "https://de.wikipedia.org/wiki/Graffias"
     },
     {
         "itemname": "Graffias A",
-        "itemurl": "https://de.wikipedia.org/wiki/Graffias",
-        "itemname2": "Graffias A"
+        "itemurl": "https://de.wikipedia.org/wiki/Graffias"
     },
     {
         "itemname": "Graffias B",
-        "itemurl": "https://de.wikipedia.org/wiki/Graffias",
-        "itemname2": "Graffias B"
+        "itemurl": "https://de.wikipedia.org/wiki/Graffias"
     },
     {
         "itemname": "Graffias C",
-        "itemurl": "https://de.wikipedia.org/wiki/Graffias",
-        "itemname2": "Graffias C"
+        "itemurl": "https://de.wikipedia.org/wiki/Graffias"
     },
     {
         "itemname": "Graffias D",
-        "itemurl": "https://de.wikipedia.org/wiki/Graffias",
-        "itemname2": "Graffias D"
+        "itemurl": "https://de.wikipedia.org/wiki/Graffias"
     },
     {
         "itemname": "Graffias E",
-        "itemurl": "https://de.wikipedia.org/wiki/Graffias",
-        "itemname2": "Graffias E"
+        "itemurl": "https://de.wikipedia.org/wiki/Graffias"
     },
     {
         "itemname": "Graffias F",
-        "itemurl": "https://de.wikipedia.org/wiki/Graffias",
-        "itemname2": "Graffias F"
+        "itemurl": "https://de.wikipedia.org/wiki/Graffias"
     },
     {
         "itemname": "Granatstern",
-        "itemurl": "https://de.wikipedia.org/wiki/Granatstern",
-        "itemname2": "Granatstern"
+        "itemurl": "https://de.wikipedia.org/wiki/Granatstern"
     },
     {
         "itemname": "Grumium",
-        "itemurl": "https://de.wikipedia.org/wiki/Xi_Draconis",
-        "itemname2": "Grumium"
+        "itemurl": "https://de.wikipedia.org/wiki/Xi_Draconis"
     },
     {
         "itemname": "Hadar",
-        "itemurl": "https://de.wikipedia.org/wiki/Beta_Centauri",
-        "itemname2": "Hadar"
+        "itemurl": "https://de.wikipedia.org/wiki/Beta_Centauri"
+    },
+    {
+        "itemname": "Hadar",
+        "itemurl": "https://de.wikipedia.org/wiki/Beta_Centauri"
     },
     {
         "itemname": "Hadar A",
-        "itemurl": "https://de.wikipedia.org/wiki/Beta_Centauri",
-        "itemname2": "Hadar A"
+        "itemurl": "https://de.wikipedia.org/wiki/Beta_Centauri"
     },
     {
         "itemname": "Hadar B",
-        "itemurl": "https://de.wikipedia.org/wiki/Beta_Centauri",
-        "itemname2": "Hadar B"
+        "itemurl": "https://de.wikipedia.org/wiki/Beta_Centauri"
     },
     {
         "itemname": "Hadir",
-        "itemurl": "https://de.wikipedia.org/wiki/Hadir",
-        "itemname2": "Hadir"
+        "itemurl": "https://de.wikipedia.org/wiki/Hadir"
     },
     {
         "itemname": "Haldus",
-        "itemurl": "https://de.wikipedia.org/wiki/Haldus",
-        "itemname2": "Haldus"
+        "itemurl": "https://de.wikipedia.org/wiki/Haldus"
     },
     {
         "itemname": "Hamal",
-        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Arietis",
-        "itemname2": "Hamal"
+        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Arietis"
     },
     {
         "itemname": "Han",
-        "itemurl": "https://de.wikipedia.org/wiki/Han_(Stern)",
-        "itemname2": "Han"
+        "itemurl": "https://de.wikipedia.org/wiki/Han_(Stern)"
     },
     {
         "itemname": "Hassaleh",
-        "itemurl": "https://de.wikipedia.org/wiki/Iota_Aurigae",
-        "itemname2": "Hassaleh"
+        "itemurl": "https://de.wikipedia.org/wiki/Iota_Aurigae"
     },
     {
         "itemname": "Hatysa",
-        "itemurl": "https://de.wikipedia.org/wiki/Hatysa",
-        "itemname2": "Hatysa"
+        "itemurl": "https://de.wikipedia.org/wiki/Hatysa"
     },
     {
         "itemname": "Head of Hydrus",
-        "itemurl": "https://de.wikipedia.org/wiki/Head_of_Hydrus",
-        "itemname2": "Head of Hydrus"
+        "itemurl": "https://de.wikipedia.org/wiki/Head_of_Hydrus"
     },
     {
         "itemname": "Heka",
-        "itemurl": "https://de.wikipedia.org/wiki/Heka_(Stern)",
-        "itemname2": "Heka"
+        "itemurl": "https://de.wikipedia.org/wiki/Heka_(Stern)"
     },
     {
         "itemname": "Heze",
-        "itemurl": "https://de.wikipedia.org/wiki/Heze_(Stern)",
-        "itemname2": "Heze"
+        "itemurl": "https://de.wikipedia.org/wiki/Heze_(Stern)"
     },
     {
         "itemname": "Homam",
-        "itemurl": "https://de.wikipedia.org/wiki/Homam_(Stern)",
-        "itemname2": "Homam"
+        "itemurl": "https://de.wikipedia.org/wiki/Homam_(Stern)"
     },
     {
         "itemname": "Hyadum I",
-        "itemurl": "https://de.wikipedia.org/wiki/Hyadum_I",
-        "itemname2": "Hyadum I"
+        "itemurl": "https://de.wikipedia.org/wiki/Hyadum_I"
     },
     {
         "itemname": "Hyadum II",
-        "itemurl": "https://de.wikipedia.org/wiki/Hyadum_II",
-        "itemname2": "Hyadum II"
+        "itemurl": "https://de.wikipedia.org/wiki/Hyadum_II"
     },
     {
         "itemname": "Izar",
-        "itemurl": "https://de.wikipedia.org/wiki/Izar",
-        "itemname2": "Izar"
+        "itemurl": "https://de.wikipedia.org/wiki/Izar"
     },
     {
         "itemname": "Izar",
-        "itemurl": "https://de.wikipedia.org/wiki/Izar",
-        "itemname2": "Izar"
+        "itemurl": "https://de.wikipedia.org/wiki/Izar"
     },
     {
         "itemname": "Izar A",
-        "itemurl": "https://de.wikipedia.org/wiki/Izar",
-        "itemname2": "Izar A"
+        "itemurl": "https://de.wikipedia.org/wiki/Izar"
     },
     {
         "itemname": "Izar B",
-        "itemurl": "https://de.wikipedia.org/wiki/Izar",
-        "itemname2": "Izar B"
+        "itemurl": "https://de.wikipedia.org/wiki/Izar"
     },
     {
         "itemname": "Jabbah",
-        "itemurl": "https://de.wikipedia.org/wiki/Jabbah",
-        "itemname2": "Jabbah"
+        "itemurl": "https://de.wikipedia.org/wiki/Jabbah"
     },
     {
         "itemname": "Jabbah",
-        "itemurl": "https://de.wikipedia.org/wiki/Jabbah",
-        "itemname2": "Jabbah"
+        "itemurl": "https://de.wikipedia.org/wiki/Jabbah"
     },
     {
         "itemname": "Jabbah",
-        "itemurl": "https://de.wikipedia.org/wiki/Jabbah",
-        "itemname2": "Jabbah"
+        "itemurl": "https://de.wikipedia.org/wiki/Jabbah"
     },
     {
         "itemname": "Jih",
-        "itemurl": "https://de.wikipedia.org/wiki/Jih",
-        "itemname2": "Jih"
+        "itemurl": "https://de.wikipedia.org/wiki/Jih"
     },
     {
         "itemname": "Kaffaljidhm",
-        "itemurl": "https://de.wikipedia.org/wiki/Kaffaljidhm",
-        "itemname2": "Kaffaljidhm"
+        "itemurl": "https://de.wikipedia.org/wiki/Kaffaljidhm"
     },
     {
         "itemname": "Kajam",
-        "itemurl": "https://de.wikipedia.org/wiki/Omega_Herculis",
-        "itemname2": "Kajam"
+        "itemurl": "https://de.wikipedia.org/wiki/Omega_Herculis"
     },
     {
         "itemname": "Kappa Velorum",
-        "itemurl": "https://de.wikipedia.org/wiki/Kappa_Velorum",
-        "itemname2": "Kappa Velorum"
+        "itemurl": "https://de.wikipedia.org/wiki/Kappa_Velorum"
     },
     {
         "itemname": "Kapteyns Stern",
-        "itemurl": "https://de.wikipedia.org/wiki/Kapteyns_Stern",
-        "itemname2": "Kapteyns Stern"
+        "itemurl": "https://de.wikipedia.org/wiki/Kapteyns_Stern"
     },
     {
         "itemname": "Kastra",
-        "itemurl": "https://de.wikipedia.org/wiki/Kastra",
-        "itemname2": "Kastra"
+        "itemurl": "https://de.wikipedia.org/wiki/Kastra"
     },
     {
         "itemname": "Kaus Australis",
-        "itemurl": "https://de.wikipedia.org/wiki/Kaus_Australis",
-        "itemname2": "Kaus Australis"
+        "itemurl": "https://de.wikipedia.org/wiki/Kaus_Australis"
     },
     {
         "itemname": "Kaus Borealis",
-        "itemurl": "https://de.wikipedia.org/wiki/Kaus_Borealis",
-        "itemname2": "Kaus Borealis"
+        "itemurl": "https://de.wikipedia.org/wiki/Kaus_Borealis"
     },
     {
         "itemname": "Kaus Medius",
-        "itemurl": "https://de.wikipedia.org/wiki/Kaus_Medius",
-        "itemname2": "Kaus Medius"
+        "itemurl": "https://de.wikipedia.org/wiki/Kaus_Medius"
     },
     {
         "itemname": "Keid",
-        "itemurl": "https://de.wikipedia.org/wiki/Keid",
-        "itemname2": "Keid"
+        "itemurl": "https://de.wikipedia.org/wiki/Keid"
     },
     {
         "itemname": "Keid A",
-        "itemurl": "https://de.wikipedia.org/wiki/Keid",
-        "itemname2": "Keid A"
+        "itemurl": "https://de.wikipedia.org/wiki/Keid"
     },
     {
         "itemname": "Keid B",
-        "itemurl": "https://de.wikipedia.org/wiki/Keid",
-        "itemname2": "Keid B"
+        "itemurl": "https://de.wikipedia.org/wiki/Keid"
     },
     {
         "itemname": "Keid C",
-        "itemurl": "https://de.wikipedia.org/wiki/Keid",
-        "itemname2": "Keid C"
+        "itemurl": "https://de.wikipedia.org/wiki/Keid"
     },
     {
         "itemname": "Kitalpha",
-        "itemurl": "https://de.wikipedia.org/wiki/Kitalpha",
-        "itemname2": "Kitalpha"
+        "itemurl": "https://de.wikipedia.org/wiki/Kitalpha"
     },
     {
         "itemname": "Kochab",
-        "itemurl": "https://de.wikipedia.org/wiki/Kochab",
-        "itemname2": "Kochab"
+        "itemurl": "https://de.wikipedia.org/wiki/Kochab"
     },
     {
         "itemname": "Kornephoros",
-        "itemurl": "https://de.wikipedia.org/wiki/Kornephoros",
-        "itemname2": "Kornephoros"
+        "itemurl": "https://de.wikipedia.org/wiki/Kornephoros"
     },
     {
         "itemname": "Kraz",
-        "itemurl": "https://de.wikipedia.org/wiki/Beta_Corvi",
-        "itemname2": "Kraz"
+        "itemurl": "https://de.wikipedia.org/wiki/Beta_Corvi"
     },
     {
         "itemname": "Ksora",
-        "itemurl": "https://de.wikipedia.org/wiki/Ksora",
-        "itemname2": "Ksora"
+        "itemurl": "https://de.wikipedia.org/wiki/Ksora"
     },
     {
         "itemname": "Kullat Nunu",
-        "itemurl": "https://de.wikipedia.org/wiki/Kullat_Nunu",
-        "itemname2": "Kullat Nunu"
+        "itemurl": "https://de.wikipedia.org/wiki/Kullat_Nunu"
     },
     {
         "itemname": "Kuma",
-        "itemurl": "https://de.wikipedia.org/wiki/Kuma_(Stern)",
-        "itemname2": "Kuma"
+        "itemurl": "https://de.wikipedia.org/wiki/Kuma_(Stern)"
     },
     {
         "itemname": "La Superba",
-        "itemurl": "https://de.wikipedia.org/wiki/La_Superba",
-        "itemname2": "La Superba"
+        "itemurl": "https://de.wikipedia.org/wiki/La_Superba"
     },
     {
         "itemname": "Lesath",
-        "itemurl": "https://de.wikipedia.org/wiki/Lesath",
-        "itemname2": "Lesath"
+        "itemurl": "https://de.wikipedia.org/wiki/Lesath"
     },
     {
         "itemname": "Lukida",
-        "itemurl": "https://de.wikipedia.org/wiki/Lukida",
-        "itemname2": "Lukida"
+        "itemurl": "https://de.wikipedia.org/wiki/Lukida"
     },
     {
         "itemname": "Lukida Anseris",
-        "itemurl": "https://de.wikipedia.org/wiki/Lukida_Anseris",
-        "itemname2": "Lukida Anseris"
+        "itemurl": "https://de.wikipedia.org/wiki/Lukida_Anseris"
     },
     {
         "itemname": "Luytens Stern",
-        "itemurl": "https://de.wikipedia.org/wiki/Luytens_Stern",
-        "itemname2": "Luytens Stern"
+        "itemurl": "https://de.wikipedia.org/wiki/Luytens_Stern"
     },
     {
         "itemname": "Maasym",
-        "itemurl": "https://de.wikipedia.org/wiki/Lambda_Herculis",
-        "itemname2": "Maasym"
+        "itemurl": "https://de.wikipedia.org/wiki/Lambda_Herculis"
     },
     {
         "itemname": "Maia",
-        "itemurl": "https://de.wikipedia.org/wiki/Maia_(Stern)",
-        "itemname2": "Maia"
+        "itemurl": "https://de.wikipedia.org/wiki/Maia_(Stern)"
     },
     {
         "itemname": "Marfark",
-        "itemurl": "https://de.wikipedia.org/wiki/Marfark",
-        "itemname2": "Marfark"
+        "itemurl": "https://de.wikipedia.org/wiki/Marfark"
     },
     {
         "itemname": "Marfik",
-        "itemurl": "https://de.wikipedia.org/wiki/Marfik",
-        "itemname2": "Marfik"
+        "itemurl": "https://de.wikipedia.org/wiki/Marfik"
     },
     {
         "itemname": "Markab",
-        "itemurl": "https://de.wikipedia.org/wiki/HR_2948",
-        "itemname2": "Markab"
+        "itemurl": "https://de.wikipedia.org/wiki/HR_2948"
     },
     {
         "itemname": "Markab",
-        "itemurl": "https://de.wikipedia.org/wiki/HR_2949",
-        "itemname2": "Markab"
+        "itemurl": "https://de.wikipedia.org/wiki/HR_2949"
     },
     {
         "itemname": "Markab",
-        "itemurl": "https://de.wikipedia.org/wiki/Markab",
-        "itemname2": "Markab"
+        "itemurl": "https://de.wikipedia.org/wiki/Markab"
     },
     {
         "itemname": "Markab",
-        "itemurl": "https://de.wikipedia.org/wiki/Kappa_Velorum",
-        "itemname2": "Markab"
+        "itemurl": "https://de.wikipedia.org/wiki/Kappa_Velorum"
     },
     {
         "itemname": "Matar",
-        "itemurl": "https://de.wikipedia.org/wiki/Matar",
-        "itemname2": "Matar"
+        "itemurl": "https://de.wikipedia.org/wiki/Matar"
     },
     {
         "itemname": "Mebsuta",
-        "itemurl": "https://de.wikipedia.org/wiki/Mebsuta",
-        "itemname2": "Mebsuta"
+        "itemurl": "https://de.wikipedia.org/wiki/Mebsuta"
     },
     {
         "itemname": "Megrez",
-        "itemurl": "https://de.wikipedia.org/wiki/Megrez",
-        "itemname2": "Megrez"
+        "itemurl": "https://de.wikipedia.org/wiki/Megrez"
     },
     {
         "itemname": "Meissa",
-        "itemurl": "https://de.wikipedia.org/wiki/Meissa",
-        "itemname2": "Meissa"
+        "itemurl": "https://de.wikipedia.org/wiki/Meissa"
     },
     {
         "itemname": "Mekbuda",
-        "itemurl": "https://de.wikipedia.org/wiki/Mekbuda",
-        "itemname2": "Mekbuda"
+        "itemurl": "https://de.wikipedia.org/wiki/Mekbuda"
     },
     {
         "itemname": "Menchib",
-        "itemurl": "https://de.wikipedia.org/wiki/Xi_Persei",
-        "itemname2": "Menchib"
+        "itemurl": "https://de.wikipedia.org/wiki/Xi_Persei"
     },
     {
         "itemname": "Menkalinan",
-        "itemurl": "https://de.wikipedia.org/wiki/Menkalinan",
-        "itemname2": "Menkalinan"
+        "itemurl": "https://de.wikipedia.org/wiki/Menkalinan"
     },
     {
         "itemname": "Menkar",
-        "itemurl": "https://de.wikipedia.org/wiki/Menkar",
-        "itemname2": "Menkar"
+        "itemurl": "https://de.wikipedia.org/wiki/Menkar"
     },
     {
         "itemname": "Menkent",
-        "itemurl": "https://de.wikipedia.org/wiki/Menkent",
-        "itemname2": "Menkent"
+        "itemurl": "https://de.wikipedia.org/wiki/Menkent"
     },
     {
         "itemname": "Merak",
-        "itemurl": "https://de.wikipedia.org/wiki/Merak_(Stern)",
-        "itemname2": "Merak"
+        "itemurl": "https://de.wikipedia.org/wiki/Merak_(Stern)"
     },
     {
         "itemname": "Merga",
-        "itemurl": "https://de.wikipedia.org/wiki/38_Bootis",
-        "itemname2": "Merga"
+        "itemurl": "https://de.wikipedia.org/wiki/38_Bootis"
     },
     {
         "itemname": "Merope",
-        "itemurl": "https://de.wikipedia.org/wiki/Merope_(Stern)",
-        "itemname2": "Merope"
+        "itemurl": "https://de.wikipedia.org/wiki/Merope_(Stern)"
     },
     {
         "itemname": "Mesarthim",
-        "itemurl": "https://de.wikipedia.org/wiki/Mesarthim",
-        "itemname2": "Mesarthim"
+        "itemurl": "https://de.wikipedia.org/wiki/Mesarthim"
     },
     {
         "itemname": "Miaplacidus",
-        "itemurl": "https://de.wikipedia.org/wiki/Beta_Carinae",
-        "itemname2": "Miaplacidus"
+        "itemurl": "https://de.wikipedia.org/wiki/Beta_Carinae"
     },
     {
         "itemname": "Mimosa",
-        "itemurl": "https://de.wikipedia.org/wiki/Becrux",
-        "itemname2": "Mimosa"
+        "itemurl": "https://de.wikipedia.org/wiki/Becrux"
     },
     {
         "itemname": "Minchir",
-        "itemurl": "https://de.wikipedia.org/wiki/Minchir",
-        "itemname2": "Minchir"
+        "itemurl": "https://de.wikipedia.org/wiki/Minchir"
     },
     {
         "itemname": "Minelava",
-        "itemurl": "https://de.wikipedia.org/wiki/Delta_Virginis",
-        "itemname2": "Minelava"
+        "itemurl": "https://de.wikipedia.org/wiki/Delta_Virginis"
     },
     {
         "itemname": "Minkar",
-        "itemurl": "https://de.wikipedia.org/wiki/Minkar",
-        "itemname2": "Minkar"
+        "itemurl": "https://de.wikipedia.org/wiki/Minkar"
     },
     {
         "itemname": "Mintaka",
-        "itemurl": "https://de.wikipedia.org/wiki/Mintaka",
-        "itemname2": "Mintaka"
+        "itemurl": "https://de.wikipedia.org/wiki/Mintaka"
     },
     {
         "itemname": "Mira",
-        "itemurl": "https://de.wikipedia.org/wiki/Mira_(Stern)",
-        "itemname2": "Mira"
+        "itemurl": "https://de.wikipedia.org/wiki/Mira_(Stern)"
     },
     {
         "itemname": "Mirach",
-        "itemurl": "https://de.wikipedia.org/wiki/Mirach",
-        "itemname2": "Mirach"
+        "itemurl": "https://de.wikipedia.org/wiki/Mirach"
     },
     {
         "itemname": "Miram",
-        "itemurl": "https://de.wikipedia.org/wiki/Miram",
-        "itemname2": "Miram"
+        "itemurl": "https://de.wikipedia.org/wiki/Miram"
     },
     {
         "itemname": "Mirfak",
-        "itemurl": "https://de.wikipedia.org/wiki/Mirfak",
-        "itemname2": "Mirfak"
+        "itemurl": "https://de.wikipedia.org/wiki/Mirfak"
     },
     {
         "itemname": "Misam",
-        "itemurl": "https://de.wikipedia.org/wiki/Misam",
-        "itemname2": "Misam"
+        "itemurl": "https://de.wikipedia.org/wiki/Misam"
     },
     {
         "itemname": "Mizar",
-        "itemurl": "https://de.wikipedia.org/wiki/Mizar",
-        "itemname2": "Mizar"
+        "itemurl": "https://de.wikipedia.org/wiki/Mizar"
     },
     {
         "itemname": "Mufrid",
-        "itemurl": "https://de.wikipedia.org/wiki/Mufrid",
-        "itemname2": "Mufrid"
+        "itemurl": "https://de.wikipedia.org/wiki/Mufrid"
     },
     {
         "itemname": "Muhlifain",
-        "itemurl": "https://de.wikipedia.org/wiki/Muliphein",
-        "itemname2": "Muhlifain"
+        "itemurl": "https://de.wikipedia.org/wiki/Muliphein"
     },
     {
         "itemname": "Muhlifain",
-        "itemurl": "https://de.wikipedia.org/wiki/Muliphein",
-        "itemname2": "Muhlifain"
+        "itemurl": "https://de.wikipedia.org/wiki/Muliphein"
     },
     {
         "itemname": "Murzim",
-        "itemurl": "https://de.wikipedia.org/wiki/Murzim",
-        "itemname2": "Murzim"
+        "itemurl": "https://de.wikipedia.org/wiki/Murzim"
     },
     {
         "itemname": "Muscida",
-        "itemurl": "https://de.wikipedia.org/wiki/Omicron_Ursae_Majoris",
-        "itemname2": "Muscida"
+        "itemurl": "https://de.wikipedia.org/wiki/Omicron_Ursae_Majoris"
     },
     {
         "itemname": "Nair Al Saif",
-        "itemurl": "https://de.wikipedia.org/wiki/Nair_Al_Saif",
-        "itemname2": "Nair Al Saif"
+        "itemurl": "https://de.wikipedia.org/wiki/Nair_Al_Saif"
     },
     {
         "itemname": "Nair al-Zaurak",
-        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Phoenicis",
-        "itemname2": "Nair al-Zaurak"
+        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Phoenicis"
     },
     {
         "itemname": "Naos",
-        "itemurl": "https://de.wikipedia.org/wiki/Naos_(Stern)",
-        "itemname2": "Naos"
+        "itemurl": "https://de.wikipedia.org/wiki/Naos_(Stern)"
     },
     {
         "itemname": "Nasak Shamiya",
-        "itemurl": "https://de.wikipedia.org/wiki/Beta_Serpentis",
-        "itemname2": "Nasak Shamiya"
+        "itemurl": "https://de.wikipedia.org/wiki/Beta_Serpentis"
     },
     {
         "itemname": "Nasak Shamiya",
-        "itemurl": "https://de.wikipedia.org/wiki/Beta_Serpentis",
-        "itemname2": "Nasak Shamiya"
+        "itemurl": "https://de.wikipedia.org/wiki/Beta_Serpentis"
     },
     {
         "itemname": "Nasak Shamiya",
-        "itemurl": "https://de.wikipedia.org/wiki/Beta_Serpentis",
-        "itemname2": "Nasak Shamiya"
+        "itemurl": "https://de.wikipedia.org/wiki/Beta_Serpentis"
     },
     {
         "itemname": "Nash",
-        "itemurl": "https://de.wikipedia.org/wiki/Gamma_Sagittarii",
-        "itemname2": "Nash"
+        "itemurl": "https://de.wikipedia.org/wiki/Gamma_Sagittarii"
     },
     {
         "itemname": "Nashira",
-        "itemurl": "https://de.wikipedia.org/wiki/Nashira",
-        "itemname2": "Nashira"
-    },
-    {
-        "itemname": "Navi",
-        "itemname2": "Navi"
+        "itemurl": "https://de.wikipedia.org/wiki/Nashira"
     },
     {
         "itemname": "Nekkar",
-        "itemurl": "https://de.wikipedia.org/wiki/Nekkar",
-        "itemname2": "Nekkar"
+        "itemurl": "https://de.wikipedia.org/wiki/Nekkar"
     },
     {
         "itemname": "Nembus",
-        "itemurl": "https://de.wikipedia.org/wiki/Nembus",
-        "itemname2": "Nembus"
+        "itemurl": "https://de.wikipedia.org/wiki/Nembus"
     },
     {
         "itemname": "Nihal",
-        "itemurl": "https://de.wikipedia.org/wiki/Beta_Leporis",
-        "itemname2": "Nihal"
+        "itemurl": "https://de.wikipedia.org/wiki/Beta_Leporis"
     },
     {
         "itemname": "Nunki",
-        "itemurl": "https://de.wikipedia.org/wiki/Sigma_Sagittarii",
-        "itemname2": "Nunki"
+        "itemurl": "https://de.wikipedia.org/wiki/Sigma_Sagittarii"
     },
     {
         "itemname": "Nusakan",
-        "itemurl": "https://de.wikipedia.org/wiki/Beta_Coronae_Borealis",
-        "itemname2": "Nusakan"
+        "itemurl": "https://de.wikipedia.org/wiki/Beta_Coronae_Borealis"
     },
     {
         "itemname": "Okul",
-        "itemurl": "https://de.wikipedia.org/wiki/Pi_Capricorni",
-        "itemname2": "Okul"
+        "itemurl": "https://de.wikipedia.org/wiki/Pi_Capricorni"
     },
     {
         "itemname": "Peacock",
-        "itemname2": "Peacock"
+        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Pavonis"
     },
     {
         "itemname": "Phakt",
-        "itemurl": "https://de.wikipedia.org/wiki/Phakt",
-        "itemname2": "Phakt"
+        "itemurl": "https://de.wikipedia.org/wiki/Phakt"
     },
     {
         "itemname": "Phekda",
-        "itemurl": "https://de.wikipedia.org/wiki/Gamma_Ursae_Majoris",
-        "itemname2": "Phekda"
+        "itemurl": "https://de.wikipedia.org/wiki/Gamma_Ursae_Majoris"
     },
     {
         "itemname": "Pherkad",
-        "itemurl": "https://de.wikipedia.org/wiki/Pherkad",
-        "itemname2": "Pherkad"
-    },
-    {
-        "itemname": "Pherkard, Yildun",
-        "itemname2": "Pherkard, Yildun"
+        "itemurl": "https://de.wikipedia.org/wiki/Pherkad"
     },
     {
         "itemname": "Pistolenstern",
-        "itemurl": "https://de.wikipedia.org/wiki/Pistolenstern",
-        "itemname2": "Pistolenstern"
+        "itemurl": "https://de.wikipedia.org/wiki/Pistolenstern"
     },
     {
         "itemname": "Pleione",
-        "itemurl": "https://de.wikipedia.org/wiki/Pleione_(Stern)",
-        "itemname2": "Pleione"
+        "itemurl": "https://de.wikipedia.org/wiki/Pleione_(Stern)"
     },
     {
         "itemname": "Polaris Australis",
-        "itemurl": "https://de.wikipedia.org/wiki/Polaris_Australis",
-        "itemname2": "Polaris Australis"
+        "itemurl": "https://de.wikipedia.org/wiki/Polaris_Australis"
     },
     {
         "itemname": "Polarstern",
-        "itemurl": "https://de.wikipedia.org/wiki/Polarstern",
-        "itemname2": "Polarstern"
+        "itemurl": "https://de.wikipedia.org/wiki/Polarstern"
     },
     {
         "itemname": "Pollux",
-        "itemurl": "https://de.wikipedia.org/wiki/Pollux_(Stern)",
-        "itemname2": "Pollux"
+        "itemurl": "https://de.wikipedia.org/wiki/Pollux_(Stern)"
     },
     {
         "itemname": "Porrima",
-        "itemurl": "https://de.wikipedia.org/wiki/Gamma_Virginis",
-        "itemname2": "Porrima"
+        "itemurl": "https://de.wikipedia.org/wiki/Gamma_Virginis"
     },
     {
         "itemname": "Praecipua",
-        "itemurl": "https://de.wikipedia.org/wiki/46_Leonis_Minoris",
-        "itemname2": "Praecipua"
+        "itemurl": "https://de.wikipedia.org/wiki/46_Leonis_Minoris"
     },
     {
-        "itemname": "Prijipati",
-        "itemurl": "https://en.wikipedia.org/wiki/Delta_Aurigae",
-        "itemname2": "Prijipati"
+        "itemname": "Prijipati"
     },
     {
         "itemname": "Prokyon",
-        "itemurl": "https://de.wikipedia.org/wiki/Prokyon",
-        "itemname2": "Prokyon"
+        "itemurl": "https://de.wikipedia.org/wiki/Prokyon"
     },
     {
         "itemname": "Proxima Centauri",
-        "itemurl": "https://de.wikipedia.org/wiki/Proxima_Centauri",
-        "itemname2": "Proxima Centauri"
+        "itemurl": "https://de.wikipedia.org/wiki/Proxima_Centauri"
     },
     {
         "itemname": "Rana",
-        "itemurl": "https://de.wikipedia.org/wiki/Delta_Eridani",
-        "itemname2": "Rana"
+        "itemurl": "https://de.wikipedia.org/wiki/Delta_Eridani"
     },
     {
         "itemname": "Ras Algethi",
-        "itemurl": "https://de.wikipedia.org/wiki/Ras_Algethi",
-        "itemname2": "Ras Algethi"
+        "itemurl": "https://de.wikipedia.org/wiki/Ras_Algethi"
     },
     {
         "itemname": "Ras Alhague",
-        "itemurl": "https://de.wikipedia.org/wiki/Ras_Alhague",
-        "itemname2": "Ras Alhague"
+        "itemurl": "https://de.wikipedia.org/wiki/Ras_Alhague"
     },
     {
         "itemname": "Ras Elased Australis",
-        "itemurl": "https://de.wikipedia.org/wiki/Ras_Elased_Australis",
-        "itemname2": "Ras Elased Australis"
+        "itemurl": "https://de.wikipedia.org/wiki/Ras_Elased_Australis"
     },
     {
         "itemname": "Rasalas",
-        "itemurl": "https://de.wikipedia.org/wiki/Rasalas",
-        "itemname2": "Rasalas"
-    },
-    {
-        "itemname": "Regor",
-        "itemname2": "Regor"
+        "itemurl": "https://de.wikipedia.org/wiki/Rasalas"
     },
     {
         "itemname": "Regulus",
-        "itemurl": "https://de.wikipedia.org/wiki/Regulus_(Stern)",
-        "itemname2": "Regulus"
+        "itemurl": "https://de.wikipedia.org/wiki/Regulus_(Stern)"
     },
     {
         "itemname": "Rigel",
-        "itemurl": "https://de.wikipedia.org/wiki/Rigel",
-        "itemname2": "Rigel"
+        "itemurl": "https://de.wikipedia.org/wiki/Rigel"
     },
     {
         "itemname": "Rigil Kentaurus",
-        "itemname2": "Rigil Kentaurus"
+        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Centauri"
     },
     {
         "itemname": "Rijl al Awwa",
-        "itemurl": "https://de.wikipedia.org/wiki/Rijl_al_Awwa",
-        "itemname2": "Rijl al Awwa"
+        "itemurl": "https://de.wikipedia.org/wiki/Rijl_al_Awwa"
     },
     {
         "itemname": "Rotanev",
-        "itemurl": "https://de.wikipedia.org/wiki/Rotanev",
-        "itemname2": "Rotanev"
+        "itemurl": "https://de.wikipedia.org/wiki/Rotanev"
     },
     {
         "itemname": "Rukbat",
-        "itemurl": "https://de.wikipedia.org/wiki/Delta_Cassiopeiae",
-        "itemname2": "Rukbat"
+        "itemurl": "https://de.wikipedia.org/wiki/Delta_Cassiopeiae"
     },
     {
         "itemname": "Rukbat",
-        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Sagittarii",
-        "itemname2": "Rukbat"
+        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Sagittarii"
     },
     {
         "itemname": "Rukbat",
-        "itemurl": "https://de.wikipedia.org/wiki/Omega2_Cygni",
-        "itemname2": "Rukbat"
+        "itemurl": "https://de.wikipedia.org/wiki/Omega2_Cygni"
     },
     {
         "itemname": "Sabik",
-        "itemurl": "https://de.wikipedia.org/wiki/Sabik",
-        "itemname2": "Sabik"
+        "itemurl": "https://de.wikipedia.org/wiki/Sabik"
     },
     {
         "itemname": "Sadachbia",
-        "itemurl": "https://de.wikipedia.org/wiki/Sadachbia",
-        "itemname2": "Sadachbia"
+        "itemurl": "https://de.wikipedia.org/wiki/Sadachbia"
     },
     {
         "itemname": "Sadalbari",
-        "itemurl": "https://de.wikipedia.org/wiki/Sadalbari",
-        "itemname2": "Sadalbari"
+        "itemurl": "https://de.wikipedia.org/wiki/Sadalbari"
     },
     {
         "itemname": "Sadalmelik",
-        "itemurl": "https://de.wikipedia.org/wiki/Sadalmelik",
-        "itemname2": "Sadalmelik"
+        "itemurl": "https://de.wikipedia.org/wiki/Sadalmelik"
     },
     {
         "itemname": "Sadalsuud",
-        "itemurl": "https://de.wikipedia.org/wiki/Sadalsuud",
-        "itemname2": "Sadalsuud"
+        "itemurl": "https://de.wikipedia.org/wiki/Sadalsuud"
     },
     {
         "itemname": "Sadr",
-        "itemurl": "https://de.wikipedia.org/wiki/Sadr_(Stern)",
-        "itemname2": "Sadr"
+        "itemurl": "https://de.wikipedia.org/wiki/Sadr_(Stern)"
     },
     {
         "itemname": "Saiph",
-        "itemurl": "https://de.wikipedia.org/wiki/Saiph",
-        "itemname2": "Saiph"
+        "itemurl": "https://de.wikipedia.org/wiki/Saiph"
     },
     {
         "itemname": "Salm",
-        "itemurl": "https://de.wikipedia.org/wiki/Tau_Pegasi",
-        "itemname2": "Salm"
+        "itemurl": "https://de.wikipedia.org/wiki/Tau_Pegasi"
     },
     {
         "itemname": "Sargas",
-        "itemurl": "https://de.wikipedia.org/wiki/Sargas",
-        "itemname2": "Sargas"
+        "itemurl": "https://de.wikipedia.org/wiki/Sargas"
     },
     {
         "itemname": "Sarin",
-        "itemurl": "https://de.wikipedia.org/wiki/Sarin_(Stern)",
-        "itemname2": "Sarin"
+        "itemurl": "https://de.wikipedia.org/wiki/Sarin_(Stern)"
     },
     {
         "itemname": "Sarir",
-        "itemurl": "https://de.wikipedia.org/wiki/Sarir",
-        "itemname2": "Sarir"
+        "itemurl": "https://de.wikipedia.org/wiki/Sarir"
     },
     {
         "itemname": "Sceptrum",
-        "itemurl": "https://de.wikipedia.org/wiki/53_Eridani",
-        "itemname2": "Sceptrum"
+        "itemurl": "https://de.wikipedia.org/wiki/53_Eridani"
     },
     {
         "itemname": "Scheat",
-        "itemurl": "https://de.wikipedia.org/wiki/Scheat",
-        "itemname2": "Scheat"
+        "itemurl": "https://de.wikipedia.org/wiki/Scheat"
     },
     {
         "itemname": "Scheddi",
-        "itemurl": "https://de.wikipedia.org/wiki/Scheddi",
-        "itemname2": "Scheddi"
+        "itemurl": "https://de.wikipedia.org/wiki/Scheddi"
     },
     {
         "itemname": "Schedir",
-        "itemurl": "https://de.wikipedia.org/wiki/Schedir",
-        "itemname2": "Schedir"
+        "itemurl": "https://de.wikipedia.org/wiki/Schedir"
     },
     {
         "itemname": "Scutulum",
-        "itemurl": "https://de.wikipedia.org/wiki/Aspidiske",
-        "itemname2": "Scutulum"
+        "itemurl": "https://de.wikipedia.org/wiki/Aspidiske"
     },
     {
         "itemname": "Segin",
-        "itemurl": "https://de.wikipedia.org/wiki/Epsilon_Cassiopeiae",
-        "itemname2": "Segin"
+        "itemurl": "https://de.wikipedia.org/wiki/Epsilon_Cassiopeiae"
     },
     {
         "itemname": "Seginus",
-        "itemurl": "https://de.wikipedia.org/wiki/Seginus",
-        "itemname2": "Seginus"
+        "itemurl": "https://de.wikipedia.org/wiki/Seginus"
     },
     {
         "itemname": "Sham",
-        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Sagittae",
-        "itemname2": "Sham"
+        "itemurl": "https://de.wikipedia.org/wiki/Alpha_Sagittae"
     },
     {
         "itemname": "Shaula",
-        "itemurl": "https://de.wikipedia.org/wiki/Shaula",
-        "itemname2": "Shaula"
+        "itemurl": "https://de.wikipedia.org/wiki/Shaula"
     },
     {
         "itemname": "Sheliak",
-        "itemurl": "https://de.wikipedia.org/wiki/Sheliak",
-        "itemname2": "Sheliak"
+        "itemurl": "https://de.wikipedia.org/wiki/Sheliak"
     },
     {
         "itemname": "Sheratan",
-        "itemurl": "https://de.wikipedia.org/wiki/Sheratan",
-        "itemname2": "Sheratan"
+        "itemurl": "https://de.wikipedia.org/wiki/Sheratan"
     },
     {
         "itemname": "Sirius",
-        "itemurl": "https://de.wikipedia.org/wiki/Sirius",
-        "itemname2": "Sirius"
+        "itemurl": "https://de.wikipedia.org/wiki/Sirius"
     },
     {
         "itemname": "Sirrah",
-        "itemurl": "https://de.wikipedia.org/wiki/Sirrah",
-        "itemname2": "Sirrah"
+        "itemurl": "https://de.wikipedia.org/wiki/Sirrah"
     },
     {
         "itemname": "Situla",
-        "itemurl": "https://de.wikipedia.org/wiki/Situla_(Stern)",
-        "itemname2": "Situla"
+        "itemurl": "https://de.wikipedia.org/wiki/Situla_(Stern)"
     },
     {
         "itemname": "Skat",
-        "itemurl": "https://de.wikipedia.org/wiki/Delta_Aquarii",
-        "itemname2": "Skat"
+        "itemurl": "https://de.wikipedia.org/wiki/Delta_Aquarii"
     },
     {
         "itemname": "Spica",
-        "itemurl": "https://de.wikipedia.org/wiki/Spica",
-        "itemname2": "Spica"
+        "itemurl": "https://de.wikipedia.org/wiki/Spica"
     },
     {
-        "itemname": "Sterope",
-        "itemname2": "Sterope"
+        "itemname": "Sterope I",
+        "itemurl": "https://de.wikipedia.org/wiki/Asterope_(Stern)"
     },
     {
-        "itemname": "Sterope",
-        "itemname2": "Sterope"
+        "itemname": "Sterope II",
+        "itemurl": "https://de.wikipedia.org/wiki/Asterope_(Stern)"
     },
     {
         "itemname": "Sualocin",
-        "itemurl": "https://de.wikipedia.org/wiki/Sualocin",
-        "itemname2": "Sualocin"
+        "itemurl": "https://de.wikipedia.org/wiki/Sualocin"
     },
     {
         "itemname": "Subra",
-        "itemurl": "https://de.wikipedia.org/wiki/Subra",
-        "itemname2": "Subra"
+        "itemurl": "https://de.wikipedia.org/wiki/Subra"
     },
     {
         "itemname": "Suhail al-Muhlif",
-        "itemurl": "https://de.wikipedia.org/wiki/Regor",
-        "itemname2": "Suhail al-Muhlif"
+        "itemurl": "https://de.wikipedia.org/wiki/Regor"
     },
     {
         "itemname": "Suhail al-Wazn",
-        "itemurl": "https://de.wikipedia.org/wiki/Suhail",
-        "itemname2": "Suhail al-Wazn"
+        "itemurl": "https://de.wikipedia.org/wiki/Suhail"
     },
     {
         "itemname": "Sulafat",
-        "itemurl": "https://de.wikipedia.org/wiki/Sulafat",
-        "itemname2": "Sulafat"
+        "itemurl": "https://de.wikipedia.org/wiki/Sulafat"
     },
     {
         "itemname": "Syrma",
-        "itemurl": "https://de.wikipedia.org/wiki/Iota_Virginis",
-        "itemname2": "Syrma"
+        "itemurl": "https://de.wikipedia.org/wiki/Iota_Virginis"
     },
     {
         "itemname": "Tabit",
-        "itemurl": "https://de.wikipedia.org/wiki/Pi3_Orionis",
-        "itemname2": "Tabit"
+        "itemurl": "https://de.wikipedia.org/wiki/Pi3_Orionis"
     },
     {
         "itemname": "Talitha Australis",
-        "itemurl": "https://de.wikipedia.org/wiki/Kappa_Ursae_Majoris",
-        "itemname2": "Talitha Australis"
+        "itemurl": "https://de.wikipedia.org/wiki/Kappa_Ursae_Majoris"
     },
     {
         "itemname": "Talitha Borealis",
-        "itemurl": "https://de.wikipedia.org/wiki/Iota_Ursae_Majoris",
-        "itemname2": "Talitha Borealis"
+        "itemurl": "https://de.wikipedia.org/wiki/Iota_Ursae_Majoris"
     },
     {
         "itemname": "Tania Australis",
-        "itemurl": "https://de.wikipedia.org/wiki/My_Ursae_Majoris",
-        "itemname2": "Tania Australis"
+        "itemurl": "https://de.wikipedia.org/wiki/My_Ursae_Majoris"
     },
     {
         "itemname": "Tania Borealis",
-        "itemurl": "https://de.wikipedia.org/wiki/Lambda_Ursae_Majoris",
-        "itemname2": "Tania Borealis"
+        "itemurl": "https://de.wikipedia.org/wiki/Lambda_Ursae_Majoris"
     },
     {
         "itemname": "Tarazet",
-        "itemurl": "https://de.wikipedia.org/wiki/Tarazet",
-        "itemname2": "Tarazet"
+        "itemurl": "https://de.wikipedia.org/wiki/Tarazet"
     },
     {
         "itemname": "Taygeta",
-        "itemurl": "https://de.wikipedia.org/wiki/Taygeta",
-        "itemname2": "Taygeta"
+        "itemurl": "https://de.wikipedia.org/wiki/Taygeta"
     },
     {
         "itemname": "Teegardens Stern",
-        "itemurl": "https://de.wikipedia.org/wiki/Teegardens_Stern",
-        "itemname2": "Teegardens Stern"
+        "itemurl": "https://de.wikipedia.org/wiki/Teegardens_Stern"
     },
     {
         "itemname": "Tegmen",
-        "itemurl": "https://de.wikipedia.org/wiki/Zeta_Cancri",
-        "itemname2": "Tegmen"
+        "itemurl": "https://de.wikipedia.org/wiki/Zeta_Cancri"
     },
     {
         "itemname": "Tejat Posterior",
-        "itemurl": "https://de.wikipedia.org/wiki/Tejat_Posterior",
-        "itemname2": "Tejat Posterior"
+        "itemurl": "https://de.wikipedia.org/wiki/Tejat_Posterior"
     },
     {
         "itemname": "Tejat Prior",
-        "itemurl": "https://de.wikipedia.org/wiki/Tejat_Prior",
-        "itemname2": "Tejat Prior"
+        "itemurl": "https://de.wikipedia.org/wiki/Tejat_Prior"
     },
     {
         "itemname": "Terebellum",
-        "itemurl": "https://de.wikipedia.org/wiki/Terebellum",
-        "itemname2": "Terebellum"
+        "itemurl": "https://de.wikipedia.org/wiki/Terebellum"
     },
     {
         "itemname": "Terebellum",
-        "itemurl": "https://de.wikipedia.org/wiki/Terebellum",
-        "itemname2": "Terebellum"
+        "itemurl": "https://de.wikipedia.org/wiki/Terebellum"
     },
     {
         "itemname": "Terebellum",
-        "itemurl": "https://de.wikipedia.org/wiki/Terebellum",
-        "itemname2": "Terebellum"
+        "itemurl": "https://de.wikipedia.org/wiki/Terebellum"
     },
     {
         "itemname": "Terebellum",
-        "itemurl": "https://de.wikipedia.org/wiki/Terebellum",
-        "itemname2": "Terebellum"
+        "itemurl": "https://de.wikipedia.org/wiki/Terebellum"
     },
     {
         "itemname": "Thabit",
-        "itemurl": "https://de.wikipedia.org/wiki/Ypsilon_Orionis",
-        "itemname2": "Thabit"
+        "itemurl": "https://de.wikipedia.org/wiki/Ypsilon_Orionis"
     },
     {
         "itemname": "Theemin",
-        "itemurl": "https://de.wikipedia.org/wiki/Theemin",
-        "itemname2": "Theemin"
+        "itemurl": "https://de.wikipedia.org/wiki/Theemin"
     },
     {
         "itemname": "Thuban",
-        "itemurl": "https://de.wikipedia.org/wiki/Thuban",
-        "itemname2": "Thuban"
+        "itemurl": "https://de.wikipedia.org/wiki/Thuban"
     },
     {
         "itemname": "Tien Kuan",
-        "itemurl": "https://de.wikipedia.org/wiki/Zeta_Tauri",
-        "itemname2": "Tien Kuan"
-    },
-    {
-        "itemname": "Toliman",
-        "itemname2": "Toliman"
+        "itemurl": "https://de.wikipedia.org/wiki/Zeta_Tauri"
     },
     {
         "itemname": "Torcularis Septentrionalis",
-        "itemurl": "https://de.wikipedia.org/wiki/Omicron_Piscium",
-        "itemname2": "Torcularis Septentrionalis"
+        "itemurl": "https://de.wikipedia.org/wiki/Omicron_Piscium"
     },
     {
         "itemname": "Tseen Kee",
-        "itemurl": "https://de.wikipedia.org/wiki/Phi_Velorum",
-        "itemname2": "Tseen Kee"
+        "itemurl": "https://de.wikipedia.org/wiki/Phi_Velorum"
     },
     {
         "itemname": "Tsih",
-        "itemurl": "https://de.wikipedia.org/wiki/Gamma_Cassiopeiae",
-        "itemname2": "Tsih"
+        "itemurl": "https://de.wikipedia.org/wiki/Gamma_Cassiopeiae"
     },
     {
         "itemname": "Turais",
-        "itemurl": "https://de.wikipedia.org/wiki/Turais",
-        "itemname2": "Turais"
+        "itemurl": "https://de.wikipedia.org/wiki/Turais"
     },
     {
         "itemname": "Tureis",
-        "itemurl": "https://de.wikipedia.org/wiki/Aspidiske",
-        "itemname2": "Tureis"
+        "itemurl": "https://de.wikipedia.org/wiki/Aspidiske"
     },
     {
         "itemname": "Tyl",
-        "itemurl": "https://de.wikipedia.org/wiki/Epsilon_Draconis",
-        "itemname2": "Tyl"
+        "itemurl": "https://de.wikipedia.org/wiki/Epsilon_Draconis"
     },
     {
         "itemname": "Unuk",
-        "itemurl": "https://de.wikipedia.org/wiki/Unuk",
-        "itemname2": "Unuk"
+        "itemurl": "https://de.wikipedia.org/wiki/Unuk"
     },
     {
         "itemname": "Unukalhai",
-        "itemname2": "Unukalhai"
-    },
-    {
-        "itemname": "V Puppis",
-        "itemname2": "V Puppis"
+        "itemurl": "https://de.wikipedia.org/wiki/Unukalhai"
     },
     {
         "itemname": "Van Maanens Stern",
-        "itemurl": "https://de.wikipedia.org/wiki/Van_Maanens_Stern",
-        "itemname2": "Van Maanens Stern"
+        "itemurl": "https://de.wikipedia.org/wiki/Van_Maanens_Stern"
     },
     {
         "itemname": "Vindemiatrix",
-        "itemurl": "https://de.wikipedia.org/wiki/Vindemiatrix",
-        "itemname2": "Vindemiatrix"
+        "itemurl": "https://de.wikipedia.org/wiki/Vindemiatrix"
     },
     {
         "itemname": "Wasat",
-        "itemurl": "https://de.wikipedia.org/wiki/Wasat",
-        "itemname2": "Wasat"
+        "itemurl": "https://de.wikipedia.org/wiki/Wasat"
     },
     {
         "itemname": "Wega",
-        "itemurl": "https://de.wikipedia.org/wiki/Wega",
-        "itemname2": "Wega"
+        "itemurl": "https://de.wikipedia.org/wiki/Wega"
     },
     {
         "itemname": "Wei",
-        "itemurl": "https://de.wikipedia.org/wiki/Wei_(Stern)",
-        "itemname2": "Wei"
+        "itemurl": "https://de.wikipedia.org/wiki/Wei_(Stern)"
     },
     {
         "itemname": "Wezen",
-        "itemurl": "https://de.wikipedia.org/wiki/Delta_Canis_Majoris",
-        "itemname2": "Wezen"
+        "itemurl": "https://de.wikipedia.org/wiki/Delta_Canis_Majoris"
     },
     {
         "itemname": "Wezen",
-        "itemurl": "https://de.wikipedia.org/wiki/Beta_Columbae",
-        "itemname2": "Wezen"
+        "itemurl": "https://de.wikipedia.org/wiki/Beta_Columbae"
     },
     {
         "itemname": "Yed Posterior",
-        "itemurl": "https://de.wikipedia.org/wiki/Yed_Posterior",
-        "itemname2": "Yed Posterior"
+        "itemurl": "https://de.wikipedia.org/wiki/Yed_Posterior"
     },
     {
         "itemname": "Yed Prior",
-        "itemurl": "https://de.wikipedia.org/wiki/Delta_Ophiuchi",
-        "itemname2": "Yed Prior"
+        "itemurl": "https://de.wikipedia.org/wiki/Delta_Ophiuchi"
     },
     {
         "itemname": "Yildun",
-        "itemurl": "https://de.wikipedia.org/wiki/Delta_Ursae_Minoris",
-        "itemname2": "Yildun"
+        "itemurl": "https://de.wikipedia.org/wiki/Delta_Ursae_Minoris"
+    },
+    {
+        "itemname": "Yildun",
+        "itemurl": "https://de.wikipedia.org/wiki/Delta_Ursae_Minoris"
     },
     {
         "itemname": "Zaniah",
-        "itemurl": "https://de.wikipedia.org/wiki/Zaniah",
-        "itemname2": "Zaniah"
+        "itemurl": "https://de.wikipedia.org/wiki/Zaniah"
     },
     {
         "itemname": "Zaurak",
-        "itemurl": "https://de.wikipedia.org/wiki/Zaurak",
-        "itemname2": "Zaurak"
+        "itemurl": "https://de.wikipedia.org/wiki/Zaurak"
     },
     {
         "itemname": "Zavijava",
-        "itemurl": "https://de.wikipedia.org/wiki/Zavijava",
-        "itemname2": "Zavijava"
+        "itemurl": "https://de.wikipedia.org/wiki/Zavijava"
     },
     {
         "itemname": "Zeta Centauri",
-        "itemurl": "https://de.wikipedia.org/wiki/Zeta_Centauri",
-        "itemname2": "Zeta Centauri"
+        "itemurl": "https://de.wikipedia.org/wiki/Zeta_Centauri"
     },
     {
         "itemname": "Zibal",
-        "itemurl": "https://de.wikipedia.org/wiki/Zeta_Eridani",
-        "itemname2": "Zibal"
+        "itemurl": "https://de.wikipedia.org/wiki/Zeta_Eridani"
     },
     {
         "itemname": "Zosma",
-        "itemurl": "https://de.wikipedia.org/wiki/Delta_Leonis",
-        "itemname2": "Zosma"
+        "itemurl": "https://de.wikipedia.org/wiki/Delta_Leonis"
     },
     {
         "itemname": "Zuben-el-Akrab",
-        "itemurl": "https://de.wikipedia.org/wiki/Zuben-el-Akrab",
-        "itemname2": "Zuben-el-Akrab"
+        "itemurl": "https://de.wikipedia.org/wiki/Zuben-el-Akrab"
     },
     {
         "itemname": "Zuben-el-Akribi",
-        "itemurl": "https://de.wikipedia.org/wiki/Zuben-el-Akribi",
-        "itemname2": "Zuben-el-Akribi"
+        "itemurl": "https://de.wikipedia.org/wiki/Zuben-el-Akribi"
     },
     {
         "itemname": "Zuben-el-dschenubi",
-        "itemurl": "https://de.wikipedia.org/wiki/Zuben-el-dschenubi",
-        "itemname2": "Zuben-el-dschenubi"
+        "itemurl": "https://de.wikipedia.org/wiki/Zuben-el-dschenubi"
     },
     {
         "itemname": "Zuben-el-schemali",
-        "itemurl": "https://de.wikipedia.org/wiki/Zuben-el-schemali",
-        "itemname2": "Zuben-el-schemali"
+        "itemurl": "https://de.wikipedia.org/wiki/Zuben-el-schemali"
+    },
+    {
+        "itemurl": "https://de.wikipedia.org/wiki/Gamma_Cassiopeiae"
+    },
+    {
+        "itemurl": "https://de.wikipedia.org/wiki/Acrux"
+    },
+    {
+        "itemurl": "https://de.wikipedia.org/wiki/Akrab"
+    },
+    {
+        "itemurl": "https://de.wikipedia.org/wiki/Akrab"
+    },
+    {
+        "itemurl": "https://de.wikipedia.org/wiki/Akrab"
+    },
+    {
+        "itemurl": "https://de.wikipedia.org/wiki/Akrab"
+    },
+    {
+        "itemurl": "https://de.wikipedia.org/wiki/Akrab"
+    },
+    {
+        "itemurl": "https://de.wikipedia.org/wiki/Beta_Centauri"
+    },
+    {
+        "itemurl": "https://de.wikipedia.org/wiki/Beta_Centauri"
+    },
+    {
+        "itemurl": "https://de.wikipedia.org/wiki/Beta_Centauri"
+    },
+    {
+        "itemurl": "https://de.wikipedia.org/wiki/Gamma_Velorum"
     },
     {
         "itemname": "Achterdeck des Schiffs",
@@ -11563,7 +11278,7 @@
         "itemname2": "Hercules"
     },
     {
-        "itemname": "Indianer (Inder)",
+        "itemname": "Inder (Indianer)",
         "itemurl": "https://de.wikipedia.org/wiki/Indianer_(Sternbild)",
         "itemname2": "Indus"
     },
