@@ -14,7 +14,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 html, body, #app {height: 100%;}
 body, html, button, input, select, textarea,
 .pure-g [class *= 'pure-u'] {
-	color: #222; font-family: sans-serif; font-weight: 100;
+	color: #222; font-weight: 300;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {font-weight: normal;}
@@ -73,7 +74,7 @@ a:focus img, a:hover img, a:active img {}
 
 /*	side-buttons ---------------------------------------------------------- */
 #sideButtons {
-	position: fixed; right: 0; bottom: 12%;	z-index: 10; width: 2.5em;
+	position: fixed; right: 0; bottom: 12%; width: 2.5em;
 	border-width: 1px 0 1px 1px; border-style: solid; border-color: #fff;
 	transition: all ease .3s;
 }
@@ -99,8 +100,8 @@ li#scrollDown a:before {content: '\f103';}
 
 /*	header ------------------------------------------------------------------ */
 header {
-	position: fixed; top: 0; left: 0;	height: 34px; z-index: 10; background: #fff;
-	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .75);
+	position: fixed; top: 0; left: 0;	height: 34px; z-index: 5; background: #fff;
+	box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, .8);
 }
 
 /*		- brand --------------------------------------------------------------- */
@@ -176,7 +177,7 @@ header {
 }
 
 #mobileMenu .pure-menu-list,
-#mobileMenu .pure-menu-children {box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .75);}
+#mobileMenu .pure-menu-children {box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, .8);}
 #mobileMenu .pure-menu-item {background: #fff;}
 #mobileMenu #toggleShariff {border-top: 1px solid #ccf;}
 #mobileMenu #toggleShariff > a:before {font-family: inherit; content: 'Teilen';}
@@ -225,7 +226,7 @@ main {margin: 34px auto 30px; max-width: 1000px;}
 	#pageSubMenu {margin-bottom: 15px;}
 
 	.module {
-	background: rgba(255, 255, 255, .9);
+	background: rgba(255, 255, 255, .95);
 	border-top: 15px solid #aaf; border-bottom: 15px solid #ccc;
 }
 
@@ -245,8 +246,8 @@ main {margin: 34px auto 30px; max-width: 1000px;}
 #summary {position: relative;}
 
 a#summaryToggle {
-	display: block; margin: .25em 0 0 .25em;
-	font-family: FontAwesome; font-size: 1.25rem;
+	margin-left: .25em;
+	font-family: FontAwesome; font-size: 1.25rem; line-height: 1.25em;
 	background: transparent;
 }
 a#summaryToggle.expanded:after {content: '\f147';}
@@ -487,7 +488,10 @@ footer a:active {color: #d00; text-decoration: underline;}
 	transition: all ease .3s;
 }
 
-#version p {margin: 0 auto; color: #ddd; line-height: 15px; font-size: .8rem;}
+footer #version p {
+	margin: 0 auto;
+	color: #ddd; line-height: 15px; font-size: .8rem;
+}
 
 /* -------------------------------------------------------------------------- */
 /* breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em ------ */
@@ -521,7 +525,7 @@ footer a:active {color: #d00; text-decoration: underline;}
 	#brand,
 	#desktopMenu {display: inline-block;}
 	#brand img {position: absolute; top: 2px; left: 2px;}
-	#desktopMenu ul ul {box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .75);}
+	#desktopMenu ul ul {box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, .8);}
 	#desktopMenu ul ul li {text-align: left;}
 	#desktopMenu ul ul li a {background: #fff; border-bottom: 1px solid #ddd;}
 	#desktopMenu ul ul li:last-child a {border-bottom: none;}
@@ -554,6 +558,7 @@ footer a:active {color: #d00; text-decoration: underline;}
 	.module {border-radius: 5px;}
 
 	#controlArea {min-height: 1.5em;}
+	#summary h4 {border-radius: 5px;}
 	.summary-img,
 	.summary-img img {border-radius: 5px;}
 

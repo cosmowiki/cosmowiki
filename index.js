@@ -41882,211 +41882,193 @@ var VcardComponent = (function (_React$Component) {
       return _react2['default'].createElement(
         'div',
         null,
-        _react2['default'].createElement('div', { id: 'vcardBackground' }),
         _react2['default'].createElement(
           'div',
           { id: 'vcardOverlay' },
           _react2['default'].createElement(
             'div',
             { id: 'vcard' },
-            _react2['default'].createElement('a', { id: 'vcardClose', title: 'Schließen', onClick: onClose }),
             _react2['default'].createElement(
               'div',
-              { id: 'vcardContainer' },
+              { id: 'vcardHeader' },
+              _react2['default'].createElement(
+                'h3',
+                null,
+                item.name
+              ),
+              _react2['default'].createElement('a', { className: 'close-btn', title: 'Schließen', onClick: onClose })
+            ),
+            _react2['default'].createElement(
+              'div',
+              { id: 'vcardMain' },
               _react2['default'].createElement(
                 'div',
-                { id: 'vcardHeader' },
+                { id: 'vcardContent' },
                 _react2['default'].createElement(
                   'div',
-                  { id: 'vcardHistory' },
-                  'Verlauf: ',
-                  _react2['default'].createElement(
-                    'a',
-                    { href: 'path/to/home' },
-                    'Home'
-                  ),
-                  ' > ',
-                  _react2['default'].createElement(
-                    'a',
-                    {
-                      href: 'path/to/subPage' },
-                    'subPage'
-                  ),
-                  ' > ',
-                  _react2['default'].createElement(
-                    'a',
-                    {
-                      href: 'path/to/1stVisitedItem' },
-                    '1stVisitedItem'
-                  ),
-                  ' > ',
-                  _react2['default'].createElement(
-                    'a',
-                    {
-                      href: 'path/to/2ndVisitedItem' },
-                    '2ndVisitedItem'
-                  ),
-                  ' > ',
-                  _react2['default'].createElement(
-                    'a',
-                    {
-                      href: 'path/to/currentItem' },
-                    'currentItem'
-                  )
+                  { id: 'vcardArticle' },
+                  wikipediaArticle
                 )
               ),
               _react2['default'].createElement(
                 'div',
-                { id: 'vcardMain' },
+                { id: 'vcardRelations' },
                 _react2['default'].createElement(
-                  'div',
-                  { id: 'vcardContent', className: 'pure-u-1 pure-u-md-3-4 pure-u-lg-4-5' },
-                  image,
+                  'ul',
+                  null,
                   _react2['default'].createElement(
-                    'div',
-                    { id: 'vcardItemName' },
-                    _react2['default'].createElement(
-                      'h3',
-                      null,
-                      item.name
-                    )
+                    'li',
+                    { className: 'item-relations-category' },
+                    'relationCategory1'
                   ),
-                  shortName,
-                  _react2['default'].createElement(
-                    'div',
-                    { id: 'vcardItemArticle' },
-                    wikipediaArticle
-                  )
-                ),
-                _react2['default'].createElement(
-                  'div',
-                  { id: 'vcardRelations', className: 'pure-u-1 pure-u-md-1-4 pure-u-lg-1-5' },
                   _react2['default'].createElement(
                     'ul',
-                    { className: 'vcardItemRelations' },
+                    { className: 'item-relations-list' },
                     _react2['default'].createElement(
                       'li',
-                      null,
-                      'relationCategory1'
-                    ),
-                    _react2['default'].createElement(
-                      'ul',
-                      { className: 'vcardItemRelationsList' },
+                      { className: 'item-relation' },
                       _react2['default'].createElement(
-                        'li',
-                        null,
-                        _react2['default'].createElement(
-                          'a',
-                          { href: 'path/to/vcardRelatedItem' },
-                          'relatedItem1 relatedItem1'
-                        )
-                      ),
-                      _react2['default'].createElement(
-                        'li',
-                        null,
-                        _react2['default'].createElement(
-                          'a',
-                          { href: 'path/to/vcardRelatedItem' },
-                          'relatedItem2'
-                        )
-                      ),
-                      _react2['default'].createElement(
-                        'li',
-                        null,
-                        _react2['default'].createElement(
-                          'a',
-                          { href: 'path/to/vcardRelatedItem' },
-                          'relatedItem3'
-                        )
+                        'a',
+                        { href: 'path/to/vcardRelatedItem' },
+                        'relatedItem1 relatedItem1'
                       )
                     ),
                     _react2['default'].createElement(
                       'li',
-                      null,
-                      'relationCategory2'
-                    ),
-                    _react2['default'].createElement(
-                      'ul',
-                      { className: 'vcardItemRelationsList' },
+                      { className: 'item-relation' },
                       _react2['default'].createElement(
-                        'li',
-                        null,
-                        _react2['default'].createElement(
-                          'a',
-                          { href: 'path/to/vcardRelatedItem' },
-                          'relatedItem1'
-                        )
-                      ),
-                      _react2['default'].createElement(
-                        'li',
-                        null,
-                        _react2['default'].createElement(
-                          'a',
-                          { href: 'path/to/vcardRelatedItem' },
-                          'relatedItem2'
-                        )
-                      ),
-                      _react2['default'].createElement(
-                        'li',
-                        null,
-                        _react2['default'].createElement(
-                          'a',
-                          { href: 'path/to/vcardRelatedItem' },
-                          'relatedItem3'
-                        )
+                        'a',
+                        { href: 'path/to/vcardRelatedItem' },
+                        'relatedItem2'
                       )
                     ),
                     _react2['default'].createElement(
                       'li',
-                      null,
-                      'relationCategory3'
+                      { className: 'item-relation' },
+                      _react2['default'].createElement(
+                        'a',
+                        { href: 'path/to/vcardRelatedItem' },
+                        'relatedItem3'
+                      )
+                    )
+                  ),
+                  _react2['default'].createElement(
+                    'li',
+                    { className: 'item-relations-category' },
+                    'relationCategory2'
+                  ),
+                  _react2['default'].createElement(
+                    'ul',
+                    { className: 'item-relations-list' },
+                    _react2['default'].createElement(
+                      'li',
+                      { className: 'item-relation' },
+                      _react2['default'].createElement(
+                        'a',
+                        { href: 'path/to/vcardRelatedItem' },
+                        'relatedItem1'
+                      )
                     ),
                     _react2['default'].createElement(
-                      'ul',
-                      { className: 'vcardItemRelationsList' },
+                      'li',
+                      { className: 'item-relation' },
                       _react2['default'].createElement(
-                        'li',
-                        null,
-                        _react2['default'].createElement(
-                          'a',
-                          { href: 'path/to/vcardRelatedItem' },
-                          'relatedItem1'
-                        )
-                      ),
+                        'a',
+                        { href: 'path/to/vcardRelatedItem' },
+                        'relatedItem2'
+                      )
+                    ),
+                    _react2['default'].createElement(
+                      'li',
+                      { className: 'item-relation' },
                       _react2['default'].createElement(
-                        'li',
-                        null,
-                        _react2['default'].createElement(
-                          'a',
-                          { href: 'path/to/vcardRelatedItem' },
-                          'relatedItem2'
-                        )
-                      ),
+                        'a',
+                        { href: 'path/to/vcardRelatedItem' },
+                        'relatedItem3'
+                      )
+                    )
+                  ),
+                  _react2['default'].createElement(
+                    'li',
+                    { className: 'item-relations-category' },
+                    'relationCategory3'
+                  ),
+                  _react2['default'].createElement(
+                    'ul',
+                    { className: 'item-relations-list' },
+                    _react2['default'].createElement(
+                      'li',
+                      { className: 'item-relation' },
                       _react2['default'].createElement(
-                        'li',
-                        null,
-                        _react2['default'].createElement(
-                          'a',
-                          { href: 'path/to/vcardRelatedItem' },
-                          'relatedItem3'
-                        )
+                        'a',
+                        { href: 'path/to/vcardRelatedItem' },
+                        'relatedItem1'
+                      )
+                    ),
+                    _react2['default'].createElement(
+                      'li',
+                      { className: 'item-relation' },
+                      _react2['default'].createElement(
+                        'a',
+                        { href: 'path/to/vcardRelatedItem' },
+                        'relatedItem2'
+                      )
+                    ),
+                    _react2['default'].createElement(
+                      'li',
+                      { className: 'item-relation' },
+                      _react2['default'].createElement(
+                        'a',
+                        { href: 'path/to/vcardRelatedItem' },
+                        'relatedItem3'
                       )
                     )
                   )
                 )
+              )
+            ),
+            _react2['default'].createElement(
+              'div',
+              { id: 'vcardFooter' },
+              _react2['default'].createElement(
+                'div',
+                { id: 'vcardHistory' },
+                'Verlauf: ',
+                _react2['default'].createElement(
+                  'a',
+                  { href: 'path/to/subPage' },
+                  'subPage'
+                ),
+                ' > ',
+                _react2['default'].createElement(
+                  'a',
+                  {
+                    href: 'path/to/firstVisitedItem' },
+                  'firstVisitedItem'
+                ),
+                ' > ... > ',
+                _react2['default'].createElement(
+                  'a',
+                  {
+                    href: 'path/to/lastVisitedItem' },
+                  'lastVisitedItem'
+                ),
+                ' > ',
+                _react2['default'].createElement(
+                  'a',
+                  {
+                    href: 'path/to/currentItem' },
+                  item.name
+                )
               ),
               _react2['default'].createElement(
                 'div',
-                { id: 'vcardFooter' },
+                { id: 'vcardItemWpLink' },
+                'Artikel in der Wikipedia ansehen: ',
                 _react2['default'].createElement(
-                  'div',
-                  { id: 'vcardItemWpLink' },
-                  'Artikel in der Wikipedia ansehen: ',
-                  _react2['default'].createElement(
-                    'a',
-                    { href: item.link, target: '_blank' },
-                    decodeURIComponent(item.link)
-                  )
+                  'a',
+                  { href: item.link, target: '_blank' },
+                  decodeURIComponent(item.link)
                 )
               )
             )
