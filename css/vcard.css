@@ -1,9 +1,9 @@
 #vcardOverlay {
   position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 5;
-	background: rgba(0,0,0,.8);
+	background: rgba(0, 0, 0, .8);
 }
 #vcardOverlay .close-btn {
-	position: absolute; top: 1em; right: 0; width: 1.25em; height: 1.25em;
+	position: absolute; top: 0; right: 0; width: 1.25em; height: 1.25em;
 	text-align: center; font-size: 2em;
 	background: rgba(255, 255, 255, .8);
 }
@@ -13,14 +13,16 @@
 #vcardOverlay .close-btn:after {content: '\00D7';}
 
 #vcard {
-	margin: 34px 0 34px; max-height: 95%; max-height: calc(100% - 34px);
+	max-height: 100%;
 	overflow-y: scroll;
 	background: #eee;
 }
 
 #vcardHeader,
 #vcardFooter {padding: .5em;}
+
 #vcardHeader {background: #ddf;}
+
 #vcardArticle {padding: .5em; background: #fff;}
 #vcardArticle p {margin-bottom: .5em;}
 #vcardRelations {margin-top: .5em; background: #eee;}
@@ -41,23 +43,27 @@
 }
 
 @media only all and (min-width: 48em) {
+	#vcardOverlay {background: rgba(0, 0, 0, .9);}
 	#vcardMain {display: -webkit-flex; display: flex; padding: .5em;}
-	#vcardRelations {margin-top: 0; padding-top: 0; padding-left: .5em;}
+	#vcardRelations {margin-top: 0; padding-left: .5em;}
 }
 
 @media only all and (min-width: 64em) {
 	#vcard {
-		margin: 2.5em auto 0; max-width: 1000px;
-		max-height: 90%; max-height: calc(100% - 68px);
+		margin: 2.5em auto; max-width: 1000px;
+		max-height: 90%; max-height: calc(100% - 5em);
 		border: 2px solid #aaf; border-radius: 5px;
 	}
 	#vcardHeader {border-radius: 5px 5px 0 0;}
 	#vcardOverlay .close-btn {
     position: absolute; top: 0; right: 0; width: 1.25em; height: 1.25em;
     text-align: center; font-size: 2em;
-    background: rgba(255, 255, 255, .8);
+    background: #888;
 		border-radius: 0 0 0 5px;
 	}
+	#vcardOverlay .close-btn:focus,
+	#vcardOverlay .close-btn:hover,
+	#vcardOverlay .close-btn:active {background: #ddd;}
 	#vcardArticle {border-radius: 5px;}
 	.item-relations-category {border-radius: 5px 5px 0 0;}
 	.item-relation:last-child {border-radius: 0 0 5px 5px;}
