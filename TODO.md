@@ -5,6 +5,7 @@
 - [x] create welcome page
 - [x] make the npm run data-from-spreadsheet work with nix
 - [ ] make the map (places) work
+- [ ] make the solar system site work
 - [ ] make the sorters and filters work (filters with FilterRow as in stars)
 - [ ] let the toggle switches for sort and filter hide each other onClick / :hover on small screens
 - [ ] open the a href={item.name} in an overlay-vcard or in a separate page
