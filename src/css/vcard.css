@@ -1,107 +1,64 @@
-#vcardBackground {
-	position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+#vcardOverlay {
+  position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 5;
 	background: rgba(0,0,0,.8);
 }
+#vcardOverlay .close-btn {
+	position: absolute; top: 1em; right: 0; width: 1.25em; height: 1.25em;
+	text-align: center; font-size: 2em;
+	background: rgba(255, 255, 255, .8);
+}
+#vcardOverlay .close-btn:focus,
+#vcardOverlay .close-btn:hover,
+#vcardOverlay .close-btn:active {color: #d00;}
+#vcardOverlay .close-btn:after {content: '\00D7';}
 
-#vcardOverlay {
-  position: fixed; top: 0; left: 0; margin: 0;
-	width: 100%; height: 100%; z-index: 5;
+#vcard {
+	margin: 34px 0 34px; max-height: 95%; max-height: calc(100% - 34px);
+	overflow-y: scroll;
+	background: #eee;
 }
 
-#vcard {margin-top: 41px;}
+#vcardHeader,
+#vcardFooter {padding: .5em;}
+#vcardHeader {background: #ddf;}
+#vcardArticle {padding: .5em; background: #fff;}
+#vcardArticle p {margin-bottom: .5em;}
+#vcardRelations {margin-top: .5em; background: #eee;}
 
-#vcardContainer {background: #fff;}
+.item-relations-category {padding: .25em; background: #ddf;}
+.item-relations-list {padding-bottom: .5em;}
+.item-relations-list li {padding: .25em; background: #fff;}
+.item-relations-list a {white-space: nowrap;}
+.item-relations-list:last-child {padding-bottom: 10px;}
 
-#vcardClose {display: block; float: right;	margin: -.2em .25em; font-size: 2em;}
-#vcardClose:after {content: '\00D7';}
+#vcardFooter {font-size: .8em; background: #ddd;}
+#vcardFooter > div {margin: .25em 0;}
 
-#vcardHeader, #vcardMain, #vcardFooter {padding: .25em;}
-
-#vcardHeader {
-	font-size: .75em;
-	border-top: 1px solid #aaf; border-bottom: 1px solid #aaf;
-}
-
-#vcardContent {padding-right: .5em;}
-
-#vcardItemImg img {
-	float: left; margin: 0 .5em .5em 0; min-height: 150px;
-	border: 2px solid #a0a0a0;
-}
-
-#vcardItemName h3 {background: #eee;}
-
-#vcardItemArticle {clear: both; max-height: 5em; overflow-y: scroll;}
-#coordinates {display: none;}
-
-#vcardRelations {margin-top: .5em; padding-top: .5em; border-top: 1px solid #aaf;}
-
-ul.vcardItemRelations li {background: #eee;}
-ul.vcardItemRelationsList {list-style: none; padding: .5em 0 .5em;}
-ul.vcardItemRelationsList li {background: #fff;}
-ul.vcardItemRelationsList:last-child {padding-bottom: 10px;}
-li.vcardItemRelationsList {padding: .2em 0;}
-
-#vcardFooter {font-size: .75em; border-top: 1px solid #aaf;}
-
-/* global breakpoints for min-width: sm = 35.5em ---------------------------- */
+/* -------------------------------------------------------------------------- */
+/* breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em ------ */
 @media only all and (min-width: 35.5em) {
-	#vcardHeader, #vcardMain, #vcardFooter {padding: .5em;}
-	#vcardHeader {border-top: none;}
 
-	#vcardContent {padding-right: .5em;}
-
-	#vcardItemImg img {
-		float: left; margin: 0 .5em .5em 0; min-height: 150px;
-		border: 2px solid #a0a0a0;
-	}
-
-	#vcardItemName h3 {background: #eee;}
-
-	#vcardItemArticle {
-		clear: both;
-		max-height: 10em; min-height: 5em; overflow-y: scroll;
-	}
-	#coordinates {display: none;}
-	#vcardItemArticle p {margin: .5em .5em .5em 0;}
 }
-/* global breakpoints for min-width: md = 48em ------------------------------ */
+
 @media only all and (min-width: 48em) {
-	#vcard {margin: 42px auto 42px; max-width: 95%; max-height: 100%;}
-	#vcardContainer {border: 2px solid #aaf; border-radius: 5px;}
 	#vcardMain {display: -webkit-flex; display: flex; padding: .5em;}
-	#vcardRelations {
-		margin-top: 0; padding-top: 0; padding-left: .5em;
-		border-top: none; border-left: 1px solid #aaf;
-	}
-}
-/* global breakpoints for min-width: lg = 64em ------------------------------ */
-@media only all and (min-width: 64em) {
-	#vcard {margin: 3em auto 3em; max-width: 1000px; max-height: 90%;}
+	#vcardRelations {margin-top: 0; padding-top: 0; padding-left: .5em;}
 }
 
-/* global breakpoints for different min-heights ----------------------------- */
-@media only all and (min-height: 20em) {
-	#vcardItemArticle {max-height: 10em;}
-}
-@media only all and (min-height: 25em) {
-	#vcardItemArticle {max-height: 15em;}
-}
-@media only all and (min-height: 30em) {
-	#vcardItemArticle {max-height: 20em;}
-}
-@media only all and (min-height: 35em) {
-	#vcardItemArticle {max-height: 25em;}
-}
-@media only all and (min-height: 40em) {
-	#vcardItemArticle {max-height: 30em;}
-}
-@media only all and (min-height: 45em) {
-	#vcardItemArticle {max-height: 35em;}
-}
-@media only all and (min-height: 50em) {
-	#vcardItemArticle {max-height: 40em;}
-}
-@media only all and (min-height: 60em) {
-	#vcardItemArticle {max-height: 50em;}
+@media only all and (min-width: 64em) {
+	#vcard {
+		margin: 34px auto 0; max-width: 1000px;
+		max-height: 90%; max-height: calc(100% - 68px);
+		border: 2px solid #aaf; border-radius: 5px;
+	}
+	#vcardHeader {border-radius: 5px 5px 0 0;}
+	#vcardOverlay .close-btn {
+    position: absolute; top: 0; right: 0; width: 1.25em; height: 1.25em;
+    text-align: center; font-size: 2em;
+    background: rgba(255, 255, 255, .8);
+	}
+	#vcardArticle {border-radius: 5px;}
+	.item-relations-category {border-radius: 5px 5px 0 0;}
+	.item-relation:last-child {border-radius: 0 0 5px 5px;}
+	#vcardFooter {border-radius: 0 0 5px 5px;}
 }

@@ -58,56 +58,48 @@ export default class VcardComponent extends React.Component {
 
     return (
       <div>
-        <div id="vcardBackground"></div>
         <div id="vcardOverlay">
           <div id="vcard">
-            <a id="vcardClose" title="Schlie&szlig;en" onClick={ onClose }></a>
-            <div id="vcardContainer">
-              <div id="vcardHeader">
-                <div id="vcardHistory">
-                  Verlauf: <a href="path/to/home">Home</a> > <a
-                  href="path/to/subPage">subPage</a> > <a
-                  href="path/to/1stVisitedItem">1stVisitedItem</a> > <a
-                  href="path/to/2ndVisitedItem">2ndVisitedItem</a> > <a
-                  href="path/to/currentItem">currentItem</a>
-                </div>
+            <div id="vcardHeader">
+              <h3>{ item.name }</h3>
+              <a className="close-btn" title="Schlie&szlig;en" onClick={ onClose }></a>
+            </div>
+            <div id="vcardMain">
+              <div id="vcardContent">
+                <div id="vcardArticle">{ wikipediaArticle }</div>
               </div>
-              <div id="vcardMain">
-                <div id="vcardContent" className="pure-u-1 pure-u-md-3-4 pure-u-lg-4-5">
-                  { image }
-                  <div id="vcardItemName">
-                    <h3>{ item.name }</h3>
-                  </div>
-                  { shortName }
-                  <div id="vcardItemArticle">{ wikipediaArticle }</div>
-                </div>
-                <div id="vcardRelations" className="pure-u-1 pure-u-md-1-4 pure-u-lg-1-5">
-                  <ul className="vcardItemRelations">
-                    <li>relationCategory1</li>
-                    <ul className="vcardItemRelationsList">
-                      <li><a href="path/to/vcardRelatedItem">relatedItem1 relatedItem1</a></li>
-                      <li><a href="path/to/vcardRelatedItem">relatedItem2</a></li>
-                      <li><a href="path/to/vcardRelatedItem">relatedItem3</a></li>
-                    </ul>
-                    <li>relationCategory2</li>
-                    <ul className="vcardItemRelationsList">
-                      <li><a href="path/to/vcardRelatedItem">relatedItem1</a></li>
-                      <li><a href="path/to/vcardRelatedItem">relatedItem2</a></li>
-                      <li><a href="path/to/vcardRelatedItem">relatedItem3</a></li>
-                    </ul>
-                    <li>relationCategory3</li>
-                    <ul className="vcardItemRelationsList">
-                      <li><a href="path/to/vcardRelatedItem">relatedItem1</a></li>
-                      <li><a href="path/to/vcardRelatedItem">relatedItem2</a></li>
-                      <li><a href="path/to/vcardRelatedItem">relatedItem3</a></li>
-                    </ul>
+              <div id="vcardRelations">
+                <ul>
+                  <li className="item-relations-category">relationCategory1</li>
+                  <ul className="item-relations-list">
+                    <li className="item-relation"><a href="path/to/vcardRelatedItem">relatedItem1 relatedItem1</a></li>
+                    <li className="item-relation"><a href="path/to/vcardRelatedItem">relatedItem2</a></li>
+                    <li className="item-relation"><a href="path/to/vcardRelatedItem">relatedItem3</a></li>
                   </ul>
-                </div>
+                  <li className="item-relations-category">relationCategory2</li>
+                  <ul className="item-relations-list">
+                    <li className="item-relation"><a href="path/to/vcardRelatedItem">relatedItem1</a></li>
+                    <li className="item-relation"><a href="path/to/vcardRelatedItem">relatedItem2</a></li>
+                    <li className="item-relation"><a href="path/to/vcardRelatedItem">relatedItem3</a></li>
+                  </ul>
+                  <li className="item-relations-category">relationCategory3</li>
+                  <ul className="item-relations-list">
+                    <li className="item-relation"><a href="path/to/vcardRelatedItem">relatedItem1</a></li>
+                    <li className="item-relation"><a href="path/to/vcardRelatedItem">relatedItem2</a></li>
+                    <li className="item-relation"><a href="path/to/vcardRelatedItem">relatedItem3</a></li>
+                  </ul>
+                </ul>
               </div>
-              <div id="vcardFooter">
-                <div id="vcardItemWpLink">
-                  Artikel in der Wikipedia ansehen: <a href={ item.link } target="_blank">{ decodeURIComponent(item.link) }</a>
-                </div>
+            </div>
+            <div id="vcardFooter">
+              <div id="vcardHistory">
+                Verlauf: <a href="path/to/subPage">subPage</a> > <a
+                href="path/to/firstVisitedItem">firstVisitedItem</a> > ... > <a
+                href="path/to/lastVisitedItem">lastVisitedItem</a> > <a
+                href="path/to/currentItem">{ item.name }</a>
+              </div>
+              <div id="vcardItemWpLink">
+                Artikel in der Wikipedia ansehen: <a href={ item.link } target="_blank">{ decodeURIComponent(item.link) }</a>
               </div>
             </div>
           </div>
