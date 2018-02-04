@@ -177,7 +177,7 @@ header {
 }
 
 #mobileMenu .pure-menu-list,
-#mobileMenu .pure-menu-children {box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, .8);}
+#mobileMenu .pure-menu-children {box-shadow: 3px 3px 6px rgba(0, 0, 0, .5);}
 #mobileMenu .pure-menu-item {background: #fff;}
 #mobileMenu #toggleShariff {border-top: 1px solid #ccf;}
 #mobileMenu #toggleShariff > a:before {font-family: inherit; content: 'Teilen';}
@@ -302,7 +302,7 @@ div.summary-img.width-25,
 
 .summary-text {text-align: justify;}
 .summary-text:nth-of-type(odd) {text-indent: 1em;}
-.summary-text:first-of-type::first-letter {font-size: 1.25rem; font-weight: 900;}
+.summary-text:first-of-type::first-letter {font-size: 1.5rem;}
 
 .summary-list {list-style: square inside;}
 .summary-list li {margin: .5em 0;}
@@ -525,10 +525,14 @@ footer #version p {
 	#brand,
 	#desktopMenu {display: inline-block;}
 	#brand img {position: absolute; top: 2px; left: 2px;}
-	#desktopMenu ul ul {box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, .8);}
+	#desktopMenu ul ul {
+		border-radius: 0 0 5px 5px; box-shadow: 3px 3px 6px rgba(0, 0, 0, .5);
+	}
 	#desktopMenu ul ul li {text-align: left;}
 	#desktopMenu ul ul li a {background: #fff; border-bottom: 1px solid #ddd;}
-	#desktopMenu ul ul li:last-child a {border-bottom: none;}
+	#desktopMenu ul ul li:last-child a {
+		border-bottom: none; border-radius: 0 0 5px 5px;
+	}
 	#desktopMenu .pure-menu-link:focus,
 	#desktopMenu .pure-menu-link:hover,
 	#desktopMenu .pure-menu-link:active {background: #eef;}
