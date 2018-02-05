@@ -18,27 +18,32 @@
 #about .question:hover {background: rgba(255,255,255,.9);}
 #about .question-link {
   display: block; padding: 1.5em .5em;
-  font-size: 1.25em; font-weight: 100;
+  font-size: 1.25rem; font-weight: 300;
 }
 #about ul.answer {padding-top: 40px;}
 #about ul ul li p {display: block; margin: 0 1em 1em;}
-#about form {margin: 0 1em;}
-#about label,
-#about input,
-#about button {display: block; margin-bottom: 1em;}
-#about input,
-#about textarea,
-#about button {background: #fff; border: 1px solid #aaf; border-radius: 5px;}
-#about button {color: #55f;}
-#about button:focus,
-#about button:hover,
-#about button:active {color: #333; border: 1px solid #333;}
-#about input,
-#about textarea {padding: .1em;}
-#about label,
-#about input {width: 100%; text-align: left;}
-#about textarea {width: 100%; height: 8em;}
 
+#contact form {margin: 0 1em;}
+#contact label,
+#contact button {display: block;}
+#contact input,
+#contact textarea {
+  margin-top: .25em; padding: .25em; width: 100%;
+  background: #fff; border: 1px solid #aaf; border-radius: 5px;
+}
+#contact label {margin-bottom: 1em; text-align: left;}
+#contact textarea {height: 8em;}
+#contact button {
+  margin-bottom: 1em; padding: .25em .5em;
+  color: #fff;
+  background: #d00; border: none;
+}
+#contact button:focus,
+#contact button:hover,
+#contact button:active {background: #aaf;}
+
+/* -------------------------------------------------------------------------- */
+/* breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em ------ */
 @media only screen and (min-width: 64em) {
   #about ul li.question:first-child {
     border-radius: 5px 5px 0 0;
@@ -46,4 +51,5 @@
   #about ul li.question:last-child {
     border-radius: 0 0 5px 5px;
   }
+  #contact button {border-radius: 5px;}
 }
