@@ -37427,12 +37427,12 @@ var PageComponent = function PageComponent(_ref) {
         _react2['default'].createElement(
           'li',
           { id: 'scrollUp' },
-          _react2['default'].createElement('a', { href: 'javascript:self.scrollTo(0,0);' })
+          _react2['default'].createElement('a', { href: 'javascript:self.scrollTo(0,0);', title: 'scroll zum Anfang' })
         ),
         _react2['default'].createElement(
           'li',
           { id: 'scrollDown' },
-          _react2['default'].createElement('a', { href: 'javascript:self.scrollTo(0,document.body.scrollHeight);' })
+          _react2['default'].createElement('a', { href: 'javascript:self.scrollTo(0,document.body.scrollHeight);', title: 'scroll zum Ende' })
         )
       )
     ),
