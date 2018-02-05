@@ -8,10 +8,10 @@ const PageComponent = ({children, appUrl}) => {
       <div id="sideButtons">
         <ul>
           <li id="scrollUp">
-            <a href="javascript:self.scrollTo(0,0);"></a>
+            <a href="javascript:self.scrollTo(0,0);" title="scroll zum Anfang"></a>
           </li>
           <li id="scrollDown">
-            <a href="javascript:self.scrollTo(0,document.body.scrollHeight);"></a>
+            <a href="javascript:self.scrollTo(0,document.body.scrollHeight);" title="scroll zum Ende"></a>
           </li>
         </ul>
       </div>
