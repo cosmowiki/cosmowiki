@@ -35665,7 +35665,11 @@ var ItemComponent = function ItemComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'event-place' },
-        item.place ? item.place : ''
+        item.geoUri ? _react2['default'].createElement(
+          'a',
+          { href: item.geoUri },
+          item.place
+        ) : item.place
       ),
       _react2['default'].createElement(
         'p',
@@ -43369,6 +43373,9 @@ var Event = (function () {
       var town = raw.itemlocation ? raw.itemlocation + ', ' : '';
       var country = raw.itemcountry ? '' + raw.itemcountry : '';
       item.place = '' + town + country;
+      var latitude = raw.itemlatitude ? '' + raw.itemlatitude : '';
+      var longitude = raw.itemlongitude ? '' + raw.itemlongitude : '';
+      item.geoUri = raw.itemlatitude ? 'geo:' + latitude + ', ' + longitude : '';
       item.name = raw.itemname, item.latitude = raw.itemlatitude, item.longitude = raw.itemlongitude, item.link = raw.itemurl;
       //item.tags = raw.tags.split(',');
       return item;
