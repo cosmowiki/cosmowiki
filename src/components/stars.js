@@ -156,12 +156,13 @@ const StarsComponent = ({groupedStars, constellations}) => {
                     <option value="sortStarsRadiusUp">Radius</option>
                   </select>
                 </form>
-                <form id="toggleAscDesc">
+                <div id="toggleAscDesc">
                   <label>
                     <input className="switch" type="checkbox" />
                     <span className="slider"></span>
+                    <span className="text"></span>
                   </label>
-                </form>
+                </div>
               </div>
             </div>
             <div id="filter" className="missions pure-u-1-2 right">

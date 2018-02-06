@@ -35,7 +35,8 @@ const WelcomeComponent = ({appUrl}) => {
 						</p>
 						<p>
 							<code>[numberOfEvents]</code> spannende Ereignisse aus der Geschichte
-							von Astronomie und Raumfahrt finden Sie <a href="/chronicle">hier</a>.
+							von Astronomie und Raumfahrt finden Sie <a href="/chronicle">hier in der
+							Chronik</a>.
 						</p>
 					</div>
 		 	 	</div>

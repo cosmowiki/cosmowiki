@@ -110,12 +110,13 @@ const SpacewalksComponent = ({spacewalks}) => {
                     <option value="sortSpacewalksAstronautsUp">Astronauten</option>
                   </select>
                 </form>
-                <form id="toggleAscDesc">
+                <div id="toggleAscDesc">
                   <label>
                     <input className="switch" type="checkbox" />
                     <span className="slider"></span>
+                    <span className="text"></span>
                   </label>
-                </form>
+                </div>
               </div>
             </div>
           </div>

@@ -173,12 +173,13 @@ const AstronautsComponent = ({groupedAstronauts}) => {
 										<option value="sortAstronautsDurationOfSpacewalksUp">EVA Gesamtdauer</option>// not important yet, too much items w/o dates
 									</select>
 								</form>
-                <form id="toggleAscDesc">
+								<div id="toggleAscDesc">
                   <label>
                     <input className="switch" type="checkbox" />
                     <span className="slider"></span>
+                    <span className="text"></span>
                   </label>
-                </form>
+                </div>
 							</div>
 						</div>
 						<div id="filter" className="astronauts pure-u-1-2 right">
