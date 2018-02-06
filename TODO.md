@@ -17,9 +17,9 @@
 - global switch to toggle day/night vision & hand over the state on reload etc
 
 # general questions
-- show content on a vcard? or on a page?
 - list related items _in spreadsheets_ only with their wikipedia url (semicolon separated) and decrypt them to get the real names?
 - open item images in a pop-up or overlay instead of a blank page?
+- does the new Firefox 59 affect the handover of certain values in the URL?
 
 # currently to do
 
@@ -167,7 +167,7 @@
 - [x] as a transparent .gif or .png
 
 ## sort and filter
-- [x] add radio-buttons for sorting ascending and descending
+- [x] add a toggle switch for sorting both ascending and descending
 - [ ] let the toggle switches for sort and filter hide each other onClick and :hover on small screens
 
 [1]: http://jsfiddle.net/yeyene/J3zyq/3/
