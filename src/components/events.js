@@ -151,7 +151,7 @@ const ItemComponent = ({item, onClick}) => {
       <div className="event-arrow"></div>
       <div className="event-content">
         <p className="event-date">{item.date}</p>
-        <p className="event-place">{item.place ? item.place : ''}</p>
+        <p className="event-place">{item.geoUri ? <a href={item.geoUri}>{item.place}</a> : item.place}</p>
         <p className="event-name" onClick={onClick}>
           <a name={item.name}>{item.name}</a>
         </p>

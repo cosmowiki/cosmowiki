@@ -432,6 +432,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Magellansche_Wolke",
         "itemname2": "Magellansche Wolken",
         "itemdateyear": "1519 – 1522",
+        "itemcountry": "Südamerika",
         "itemperson": "https://de.wikipedia.org/wiki/Ferdinand_Magellan",
         "itemtype": 1,
         "itemtags": "Magellan"
@@ -619,6 +620,9 @@
         "itemdateyear": "1668 – 1672",
         "itemcountry": "GB",
         "itemlocation": "Cambridge",
+        "itemlatitude": "51.505981",
+        "itemlongitude": "-0.132461",
+        "itemperson": "https://de.wikipedia.org/wiki/Isaac_Newton",
         "itemtype": 1
     },
     {
@@ -628,6 +632,9 @@
         "itemdateyear": "1675",
         "itemcountry": "Frankreich",
         "itemlocation": "Paris",
+        "itemlatitude": "48.836389",
+        "itemlongitude": "2.336389",
+        "itemperson": "https://de.wikipedia.org/wiki/Giovanni_Domenico_Cassini",
         "itemtype": 1
     },
     {
@@ -635,8 +642,13 @@
         "itemurl": "https://de.wikipedia.org/wiki/Lichtgeschwindigkeit",
         "itemname2": "Lichtgeschwindigkeit - Ole Rømer",
         "itemdateyear": "1676",
+        "itemdatemonth": "11",
+        "itemdateday": "21",
         "itemcountry": "Frankreich",
         "itemlocation": "Paris",
+        "itemlatitude": "48.8574",
+        "itemlongitude": "2.337",
+        "itemperson": "https://de.wikipedia.org/wiki/Ole_R%C3%B8mer",
         "itemtype": 1
     },
     {
@@ -646,6 +658,9 @@
         "itemdateyear": "1678",
         "itemcountry": "Niederlande",
         "itemlocation": "Den Haag",
+        "itemlatitude": "52.06491",
+        "itemlongitude": "4.36254",
+        "itemperson": "https://de.wikipedia.org/wiki/Christiaan_Huygens",
         "itemtype": 1
     },
     {
@@ -1590,6 +1605,7 @@
         "itemdateyear": "1967",
         "itemdatemonth": "10",
         "itemdateday": "03",
+        "itemcountry": "USA",
         "itemtype": 2
     },
     {

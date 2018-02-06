@@ -34,6 +34,9 @@ class Event {
     const town = raw.itemlocation ? `${raw.itemlocation}, ` : '';
     const country = raw.itemcountry ? `${raw.itemcountry}` : '';
     item.place = `${town}${country}`;
+    const latitude = raw.itemlatitude ? `${raw.itemlatitude}` : '';
+    const longitude = raw.itemlongitude ? `${raw.itemlongitude}` : '';
+    item.geoUri = raw.itemlatitude ? `geo:${latitude}, ${longitude}` : '';
     item.name = raw.itemname,
     item.latitude = raw.itemlatitude,
     item.longitude = raw.itemlongitude,

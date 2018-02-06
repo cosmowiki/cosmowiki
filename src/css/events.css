@@ -41,6 +41,8 @@
 .event-content p:first-child {padding: .5em .5em .25em;}
 .event-content p:last-child {padding: .25em .5em .5em;}
 
+.event-content p.event-place a:after {font-family: FontAwesome; content: ' \f278';}
+
 /*	breakpoints ------------------------------------------------------------- */
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only screen and (min-width: 35.5em) {
