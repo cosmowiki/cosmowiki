@@ -158,11 +158,11 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
                     <option value="sortSpacetelecopesDurationUp">Dauer</option>
                   </select>
                 </form>
-                <form id="sortAscDesc">
-                  <input type="radio" id="sortAsc" name="sortAscDesc" value="sortAsc" checked="checked" />
-                  <label for="sortAsc"></label>
-                  <input type="radio" id="sortDesc" name="sortAscDesc" value="sortDesc" />
-                  <label for="sortDesc"></label>
+                <form id="toggleAscDesc">
+                  <label>
+                    <input className="switch" type="checkbox" />
+                    <span className="slider"></span>
+                  </label>
                 </form>
               </div>
             </div>

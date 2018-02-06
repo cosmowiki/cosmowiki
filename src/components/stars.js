@@ -41,7 +41,7 @@ const StarsComponent = ({groupedStars, constellations}) => {
           In ihnen liefert die <em>stellare Kernfusion</em> durch die Verschmelzung
           von zumeist Wasserstoff zu Helium gewaltige Energiemengen, die ebenso
           wie ihre kräftigen Magnetfelder weit ins All hinein wirken. Befinden sich
-          in stabilen Umlaufbahnen um einen Stern sogar Planeten, deren Materie 
+          in stabilen Umlaufbahnen um einen Stern sogar Planeten, deren Materie
           ohne frühere, bereits gestorbene Sterne nicht existieren würde, kann die
           abgestrahlte Energie dort Leben ermöglichen oder auch dauerhaft verhindern.
           Sonnensysteme mit nur einem Zentralstern wie das unsere sind eher die Seltenheit.
@@ -156,11 +156,11 @@ const StarsComponent = ({groupedStars, constellations}) => {
                     <option value="sortStarsRadiusUp">Radius</option>
                   </select>
                 </form>
-                <form id="sortAscDesc">
-                  <input type="radio" id="sortAsc" name="sortAscDesc" value="sortAsc" checked="checked" />
-                  <label for="sortAsc"></label>
-                  <input type="radio" id="sortDesc" name="sortAscDesc" value="sortDesc" />
-                  <label for="sortDesc"></label>
+                <form id="toggleAscDesc">
+                  <label>
+                    <input className="switch" type="checkbox" />
+                    <span className="slider"></span>
+                  </label>
                 </form>
               </div>
             </div>
