@@ -34482,13 +34482,14 @@ var AstronautsComponent = function AstronautsComponent(_ref) {
 								)
 							),
 							_react2['default'].createElement(
-								'form',
+								'div',
 								{ id: 'toggleAscDesc' },
 								_react2['default'].createElement(
 									'label',
 									null,
 									_react2['default'].createElement('input', { className: 'switch', type: 'checkbox' }),
-									_react2['default'].createElement('span', { className: 'slider' })
+									_react2['default'].createElement('span', { className: 'slider' }),
+									_react2['default'].createElement('span', { className: 'text' })
 								)
 							)
 						)
@@ -36370,13 +36371,14 @@ var MissionsComponent = function MissionsComponent(_ref) {
                 )
               ),
               _react2['default'].createElement(
-                'form',
+                'div',
                 { id: 'toggleAscDesc' },
                 _react2['default'].createElement(
                   'label',
                   null,
                   _react2['default'].createElement('input', { className: 'switch', type: 'checkbox' }),
-                  _react2['default'].createElement('span', { className: 'slider' })
+                  _react2['default'].createElement('span', { className: 'slider' }),
+                  _react2['default'].createElement('span', { className: 'text' })
                 )
               )
             )
@@ -37684,13 +37686,14 @@ var PeopleComponent = function PeopleComponent(_ref) {
                 )
               ),
               _react2['default'].createElement(
-                'form',
+                'div',
                 { id: 'toggleAscDesc' },
                 _react2['default'].createElement(
                   'label',
                   null,
                   _react2['default'].createElement('input', { className: 'switch', type: 'checkbox' }),
-                  _react2['default'].createElement('span', { className: 'slider' })
+                  _react2['default'].createElement('span', { className: 'slider' }),
+                  _react2['default'].createElement('span', { className: 'text' })
                 )
               )
             )
@@ -38377,13 +38380,14 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
                 )
               ),
               _react2['default'].createElement(
-                'form',
+                'div',
                 { id: 'toggleAscDesc' },
                 _react2['default'].createElement(
                   'label',
                   null,
                   _react2['default'].createElement('input', { className: 'switch', type: 'checkbox' }),
-                  _react2['default'].createElement('span', { className: 'slider' })
+                  _react2['default'].createElement('span', { className: 'slider' }),
+                  _react2['default'].createElement('span', { className: 'text' })
                 )
               )
             )
@@ -40119,13 +40123,14 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
                 )
               ),
               _react2['default'].createElement(
-                'form',
+                'div',
                 { id: 'toggleAscDesc' },
                 _react2['default'].createElement(
                   'label',
                   null,
                   _react2['default'].createElement('input', { className: 'switch', type: 'checkbox' }),
-                  _react2['default'].createElement('span', { className: 'slider' })
+                  _react2['default'].createElement('span', { className: 'slider' }),
+                  _react2['default'].createElement('span', { className: 'text' })
                 )
               )
             )
@@ -40611,13 +40616,14 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
                 )
               ),
               _react2['default'].createElement(
-                'form',
+                'div',
                 { id: 'toggleAscDesc' },
                 _react2['default'].createElement(
                   'label',
                   null,
                   _react2['default'].createElement('input', { className: 'switch', type: 'checkbox' }),
-                  _react2['default'].createElement('span', { className: 'slider' })
+                  _react2['default'].createElement('span', { className: 'slider' }),
+                  _react2['default'].createElement('span', { className: 'text' })
                 )
               )
             )
@@ -41047,13 +41053,14 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
                 )
               ),
               _react2['default'].createElement(
-                'form',
+                'div',
                 { id: 'toggleAscDesc' },
                 _react2['default'].createElement(
                   'label',
                   null,
                   _react2['default'].createElement('input', { className: 'switch', type: 'checkbox' }),
-                  _react2['default'].createElement('span', { className: 'slider' })
+                  _react2['default'].createElement('span', { className: 'slider' }),
+                  _react2['default'].createElement('span', { className: 'text' })
                 )
               )
             )
@@ -41570,13 +41577,14 @@ var StarsComponent = function StarsComponent(_ref) {
                 )
               ),
               _react2['default'].createElement(
-                'form',
+                'div',
                 { id: 'toggleAscDesc' },
                 _react2['default'].createElement(
                   'label',
                   null,
                   _react2['default'].createElement('input', { className: 'switch', type: 'checkbox' }),
-                  _react2['default'].createElement('span', { className: 'slider' })
+                  _react2['default'].createElement('span', { className: 'slider' }),
+                  _react2['default'].createElement('span', { className: 'text' })
                 )
               )
             )
@@ -42257,7 +42265,7 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 						_react2["default"].createElement(
 							"a",
 							{ href: "/chronicle" },
-							"hier"
+							"hier in der Chronik"
 						),
 						"."
 					)
