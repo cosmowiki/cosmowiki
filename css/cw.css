@@ -372,12 +372,12 @@ div.summary-img.width-25,
 	position: absolute; top: 0; left: 2em; width: 3em; height: 1em;
 	cursor: pointer;
 	background: transparent;
-	border: 2px solid #aaf; border-radius: 1em;
+	border: 1px solid #aaf; border-radius: 1em;
 	transition: all .2s ease-in-out;
 }
 #toggleAscDesc .slider:focus,
 #toggleAscDesc .slider:hover,
-#toggleAscDesc .slider:active {background: #fff; border-color: #d55;}
+#toggleAscDesc .slider:active {background: #fff;}
 
 #toggleAscDesc .slider:before {
 	position: absolute; width: .8em; height: .8em; left: 0.1em; bottom: 0.1em;
@@ -388,7 +388,7 @@ div.summary-img.width-25,
 }
 #toggleAscDesc .slider:focus:before,
 #toggleAscDesc .slider:hover:before,
-#toggleAscDesc .slider:active:before {background: #d00;}
+#toggleAscDesc .slider:active:before {}
 
 #toggleAscDesc input:checked + .slider:before {
 	-webkit-transform: translateX(2em);
