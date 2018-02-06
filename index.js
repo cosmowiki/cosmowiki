@@ -36369,11 +36369,13 @@ var MissionsComponent = function MissionsComponent(_ref) {
               ),
               _react2['default'].createElement(
                 'form',
-                { id: 'sortAscDesc' },
-                _react2['default'].createElement('input', { type: 'radio', id: 'sortAsc', name: 'sortAscDesc', value: 'sortAsc', checked: 'checked' }),
-                _react2['default'].createElement('label', { 'for': 'sortAsc' }),
-                _react2['default'].createElement('input', { type: 'radio', id: 'sortDesc', name: 'sortAscDesc', value: 'sortDesc' }),
-                _react2['default'].createElement('label', { 'for': 'sortDesc' })
+                { id: 'toggleAscDesc' },
+                _react2['default'].createElement(
+                  'label',
+                  null,
+                  _react2['default'].createElement('input', { className: 'switch', type: 'checkbox' }),
+                  _react2['default'].createElement('span', { className: 'slider' })
+                )
               )
             )
           ),

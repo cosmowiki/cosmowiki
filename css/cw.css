@@ -253,12 +253,14 @@ a#summaryToggle {
 a#summaryToggle.expanded:focus:before,
 a#summaryToggle.expanded:hover:before,
 a#summaryToggle.expanded:active:before {
-	position: relative; bottom: .3em; font-size: .7rem; content: 'Artikel verbergen ';
+	position: relative; bottom: .3em;
+	font-size: .7rem; content: 'Artikel verbergen ';
 }
 a#summaryToggle.collapsed:focus:before,
 a#summaryToggle.collapsed:hover:before,
 a#summaryToggle.collapsed:active:before {
-	position: relative; bottom: .3em; font-size: .7rem; content: 'Artikel anzeigen ';
+	position: relative; bottom: .3em;
+	font-size: .7rem; content: 'Artikel anzeigen ';
 }
 a#summaryToggle.expanded:after {
 	font-family: FontAwesome; font-size: 1.25rem; content: '\f147';
@@ -360,9 +362,48 @@ div.summary-img.width-25,
 	font-size: .9rem; line-height: 2em;
 }
 #filter {float: right;}
-#sortAscDesc input {margin: 0 1em; font-family: FontAwesome;}
-#sortAscDesc input#sortAsc label:after {margin-left: 1.5em; content: '\f160';}
-#sortAscDesc input#sortDesc label:after {margin-left: 1.5em; content: '\f161';}
+/* ----------------------------------- */
+#toggleAscDesc {margin-left: 1em;}
+#toggleAscDesc label {
+	position: relative;
+}
+#toggleAscDesc input {display: none;}
+#toggleAscDesc .slider {
+	position: absolute; top: 0; left: 2em; width: 3em; height: 1em;
+	cursor: pointer;
+	background: #fff;
+	border: 1px solid #55f; border-radius: 1em;
+	transition: all .2s ease-in-out;
+}
+#toggleAscDesc .slider:before {/* verschiebbarer Button */
+	position: absolute; width: .8em; height: .8em; left: 0.1em; bottom: 0.1em;
+	content: "";
+	background: #55f;
+	border-radius: 50%;
+	transition: all .2s ease-in-out;
+}
+#toggleAscDesc input:focus + .slider {
+	background-color: pink;
+	box-shadow: 0 0 1px #5a9900;
+}
+#toggleAscDesc input:checked + .slider:before {
+	-webkit-transform: translateX(2em);
+	-ms-transform: translateX(2em);
+	transform: translateX(2em);
+}
+#toggleAscDesc label:before {/* Text vor dem FlipFlop-Schalter */
+	position: absolute; left: .75em; bottom: -.375em;
+	font-family: FontAwesome; content: '\f160';
+}
+#toggleAscDesc label:after {/* Text hinter dem FlipFlop-Schalter */
+	position: absolute; left: 5.25em; bottom: -.375em;
+	font-family: FontAwesome; content: '\f161';
+}
+/* ----------------------------------- */
+#sortAscDesc input {margin-left: 1em;}
+#sortAscDesc label {font-family: FontAwesome;}
+#sortAscDesc label.sortAsc:after {content: '\f160';}
+#sortAscDesc label.sortDesc:after {content: '\f161';}
 
 #sortArea, #filterArea {display: none;}
 #controlArea a {display: inline; margin: .2em;}
