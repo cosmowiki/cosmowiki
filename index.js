@@ -42152,6 +42152,15 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 		),
 		_react2["default"].createElement(
 			"div",
+			{ id: "todo", className: "pure-u-1" },
+			_react2["default"].createElement(
+				"p",
+				null,
+				"@wolfram: pls find a way to calculate the numbers inside the [brackets]"
+			)
+		),
+		_react2["default"].createElement(
+			"div",
 			{ id: "welcomeArea", className: "pure-u-1" },
 			_react2["default"].createElement(
 				"div",
