@@ -45,6 +45,8 @@
 	}
 	#welcomeStars {
 		background: url('/img/welcome/welcome_stars.jpg') center / cover no-repeat;
+		background-size: 100% 100%;
+		transition: all 1s ease-in-out;
 	}
 	#welcomeSpacestations {
 		background: url('/img/welcome/welcome_spacestations.jpg') center / cover no-repeat;
@@ -54,6 +56,72 @@
 	}
 	#welcomeMissions {
 		background: url('/img/welcome/welcome_missions.jpg') center / cover no-repeat;
+	}
+	#welcomeEvents,
+	#welcomeEvents,
+	#welcomeEvents,
+	#welcomeScientists,
+	#welcomeScientists,
+	#welcomeScientists,
+	#welcomeAstronauts,
+	#welcomeAstronauts,
+	#welcomeAstronauts,
+	#welcomePlaces,
+	#welcomePlaces,
+	#welcomePlaces,
+	#welcomeSolsys,
+	#welcomeSolsys,
+	#welcomeSolsys,
+	#welcomeConstellations,
+	#welcomeConstellations,
+	#welcomeConstellations,
+	#welcomeStars,
+	#welcomeStars,
+	#welcomeStars,
+	#welcomeSpacestations,
+	#welcomeSpacestations,
+	#welcomeSpacestations,
+	#welcomeSpacetelescopes,
+	#welcomeSpacetelescopes,
+	#welcomeSpacetelescopes,
+	#welcomeMissions,
+	#welcomeMissions,
+	#welcomeMissions {
+		background-size: 100% 100%;
+		transition: all 1s ease-in-out;
+	}
+	#welcomeEvents:focus,
+	#welcomeEvents:hover,
+	#welcomeEvents:active,
+	#welcomeScientists:focus,
+	#welcomeScientists:hover,
+	#welcomeScientists:active,
+	#welcomeAstronauts:focus,
+	#welcomeAstronauts:hover,
+	#welcomeAstronauts:active,
+	#welcomePlaces:focus,
+	#welcomePlaces:hover,
+	#welcomePlaces:active,
+	#welcomeSolsys:focus,
+	#welcomeSolsys:hover,
+	#welcomeSolsys:active,
+	#welcomeConstellations:focus,
+	#welcomeConstellations:hover,
+	#welcomeConstellations:active,
+	#welcomeStars:focus,
+	#welcomeStars:hover,
+	#welcomeStars:active,
+	#welcomeSpacestations:focus,
+	#welcomeSpacestations:hover,
+	#welcomeSpacestations:active,
+	#welcomeSpacetelescopes:focus,
+	#welcomeSpacetelescopes:hover,
+	#welcomeSpacetelescopes:active,
+	#welcomeMissions:focus,
+	#welcomeMissions:hover,
+	#welcomeMissions:active {
+		background-size: 120% 120%;
+		transition: all 1s ease-in-out;
 	}
 	.welcome-container {
 		position: relative; height: 400px;
@@ -68,6 +136,14 @@
 @media only all and (min-width: 48em) {
 	#welcomeEvents {
 		background: url('/img/welcome/welcome_events.jpg') center / cover no-repeat;
+		background-size: 100% 100%;
+		transition: all 1s ease-in-out;
+	}
+	#welcomeEvents:focus,
+	#welcomeEvents:hover,
+	#welcomeEvents:active {
+		background-size: 120% 120%;
+		transition: all 1s ease-in-out;
 	}
 	.welcome-cosmowiki,
 	.welcome-container {
