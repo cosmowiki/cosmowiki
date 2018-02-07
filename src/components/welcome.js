@@ -9,6 +9,9 @@ const WelcomeComponent = ({appUrl}) => {
 					<h3>auf CosmoWiki.org</h3>
 				</div>
 			</div>
+      <div id="todo" className="pure-u-1">
+        <p>@wolfram: pls find a way to calculate the numbers inside the [brackets]</p>
+      </div>
 			<div id="welcomeArea" className="pure-u-1">
 				<div id="welcomeCosmowiki">
 					<div className="welcome-cosmowiki">
