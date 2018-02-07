@@ -34442,40 +34442,40 @@ var AstronautsComponent = function AstronautsComponent(_ref) {
 								{ id: 'sortAstronauts', className: 'sort-form' },
 								_react2['default'].createElement(
 									'select',
-									{ name: 'sortAstronauts', defaultValue: 'sortAstronautsNameUp' },
+									{ name: 'sortAstronauts', defaultValue: 'sortAstronautsName' },
 									_react2['default'].createElement(
 										'option',
-										{ value: 'sortAstronautsNameUp' },
+										{ value: 'sortAstronautsName' },
 										'Name'
 									),
 									_react2['default'].createElement(
 										'option',
-										{ value: 'sortAstronautsBornUp' },
+										{ value: 'sortAstronautsBorn' },
 										'Geburtsdatum'
 									),
 									_react2['default'].createElement(
 										'option',
-										{ value: 'sortAstronautsNumberOfMissionsUp' },
+										{ value: 'sortAstronautsNumberOfMissions' },
 										'Anzahl Missionen'
 									),
 									_react2['default'].createElement(
 										'option',
-										{ value: 'sortAstronautsTimeInSpaceUp' },
+										{ value: 'sortAstronautsTimeInSpace' },
 										'Gesamtzeit im All'
 									),
 									_react2['default'].createElement(
 										'option',
-										{ value: 'sortAstronautsFirstLaunchUp' },
+										{ value: 'sortAstronautsFirstLaunch' },
 										'erster Raumflug'
 									),
 									_react2['default'].createElement(
 										'option',
-										{ value: 'sortAstronautsNumberOfSpacewalksUp' },
+										{ value: 'sortAstronautsNumberOfSpacewalks' },
 										'Anzahl EVAs'
 									),
 									_react2['default'].createElement(
 										'option',
-										{ value: 'sortAstronautsDurationOfSpacewalksUp' },
+										{ value: 'sortAstronautsDurationOfSpacewalks' },
 										'EVA Gesamtdauer'
 									),
 									'// not important yet, too much items w/o dates'
@@ -35173,6 +35173,48 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
         _react2['default'].createElement(
           'div',
           { id: 'controllers', className: 'pure-u-1' },
+          _react2['default'].createElement(
+            'div',
+            { id: 'sort', className: 'constellations pure-u-1-2 left' },
+            _react2['default'].createElement(
+              'a',
+              { href: '#', className: 'toggle-sort', name: 'toggle-sort' },
+              'Sortieren'
+            ),
+            _react2['default'].createElement(
+              'div',
+              { id: 'sortArea' },
+              _react2['default'].createElement(
+                'form',
+                { id: 'sortConstellations', className: 'sort-form' },
+                _react2['default'].createElement(
+                  'select',
+                  { name: 'sortConstellations', defaultValue: 'sortConstellationsName' },
+                  _react2['default'].createElement(
+                    'option',
+                    { value: 'sortConstellationsName' },
+                    'Name'
+                  ),
+                  _react2['default'].createElement(
+                    'option',
+                    { value: 'sortConstellationsSquaredegrees' },
+                    'Fläche'
+                  )
+                )
+              ),
+              _react2['default'].createElement(
+                'div',
+                { id: 'toggleAscDesc' },
+                _react2['default'].createElement(
+                  'label',
+                  null,
+                  _react2['default'].createElement('input', { className: 'switch', type: 'checkbox' }),
+                  _react2['default'].createElement('span', { className: 'slider' }),
+                  _react2['default'].createElement('span', { className: 'text' })
+                )
+              )
+            )
+          ),
           _react2['default'].createElement(
             'div',
             { id: 'filter', className: 'constellations pure-u-1-2 right' },
@@ -36351,25 +36393,25 @@ var MissionsComponent = function MissionsComponent(_ref) {
                 { id: 'sortMissions', className: 'sort-form' },
                 _react2['default'].createElement(
                   'select',
-                  { name: 'sortMissions', defaultValue: 'sortMissionsLaunchUp' },
+                  { name: 'sortMissions', defaultValue: 'sortMissionsLaunch' },
                   _react2['default'].createElement(
                     'option',
-                    { value: 'sortMissionsLaunchUp' },
+                    { value: 'sortMissionsLaunch' },
                     'Startdatum'
                   ),
                   _react2['default'].createElement(
                     'option',
-                    { value: 'sortMissionsEndUp' },
+                    { value: 'sortMissionsEnd' },
                     'Missionsende'
                   ),
                   _react2['default'].createElement(
                     'option',
-                    { value: 'sortMissionsDurationUp' },
+                    { value: 'sortMissionsDuration' },
                     'Missionsdauer'
                   ),
                   _react2['default'].createElement(
                     'option',
-                    { value: 'sortMissionsNameUp' },
+                    { value: 'sortMissionsName' },
                     'alphabetisch'
                   )
                 )
@@ -37675,15 +37717,15 @@ var PeopleComponent = function PeopleComponent(_ref) {
                 { id: 'sortPeople', className: 'sort-form' },
                 _react2['default'].createElement(
                   'select',
-                  { name: 'sortPeople', defaultValue: 'sortPeopleNameUp' },
+                  { name: 'sortPeople', defaultValue: 'sortPeopleName' },
                   _react2['default'].createElement(
                     'option',
-                    { value: 'sortPeopleNameUp' },
+                    { value: 'sortPeopleName' },
                     'Name'
                   ),
                   _react2['default'].createElement(
                     'option',
-                    { value: 'sortPeopleBornUp' },
+                    { value: 'sortPeopleBorn' },
                     'Geburtsdatum'
                   ),
                   '// not important yet, too much items w/o dates'
@@ -38369,15 +38411,15 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
                 { id: 'sortScientists', className: 'sort-form' },
                 _react2['default'].createElement(
                   'select',
-                  { name: 'sortScientists', defaultValue: 'sortScientistsNameUp' },
+                  { name: 'sortScientists', defaultValue: 'sortScientistsName' },
                   _react2['default'].createElement(
                     'option',
-                    { value: 'sortScientistsNameUp' },
+                    { value: 'sortScientistsName' },
                     'Name'
                   ),
                   _react2['default'].createElement(
                     'option',
-                    { value: 'sortScientistsBornUp' },
+                    { value: 'sortScientistsBorn' },
                     'Geburtsdatum '
                   ),
                   '// not important yet, too much items w/o dates'
@@ -40103,25 +40145,25 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
                 { id: 'sortStations', className: 'sort-form' },
                 _react2['default'].createElement(
                   'select',
-                  { name: 'sortStations', defaultValue: 'sortStationsLaunchUp' },
+                  { name: 'sortStations', defaultValue: 'sortStationsLaunch' },
                   _react2['default'].createElement(
                     'option',
-                    { value: 'sortStationsLaunchUp' },
+                    { value: 'sortStationsLaunch' },
                     'Startdatum'
                   ),
                   _react2['default'].createElement(
                     'option',
-                    { value: 'sortStationsNameUp' },
+                    { value: 'sortStationsName' },
                     'Name'
                   ),
                   _react2['default'].createElement(
                     'option',
-                    { value: 'sortStationsEndUp' },
+                    { value: 'sortStationsEnd' },
                     'Missionsende'
                   ),
                   _react2['default'].createElement(
                     'option',
-                    { value: 'sortStationsDurationUp' },
+                    { value: 'sortStationsDuration' },
                     'Dauer'
                   )
                 )
@@ -40596,25 +40638,25 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
                 { id: 'sortSpacetelecopes', className: 'sort-form' },
                 _react2['default'].createElement(
                   'select',
-                  { name: 'sortSpacetelecopes', defaultValue: 'sortSpacetelecopesLaunchUp' },
+                  { name: 'sortSpacetelecopes', defaultValue: 'sortSpacetelecopesLaunch' },
                   _react2['default'].createElement(
                     'option',
-                    { value: 'sortSpacetelecopesLaunchUp' },
+                    { value: 'sortSpacetelecopesLaunch' },
                     'Startdatum'
                   ),
                   _react2['default'].createElement(
                     'option',
-                    { value: 'sortSpacetelecopesNameUp' },
+                    { value: 'sortSpacetelecopesName' },
                     'Name'
                   ),
                   _react2['default'].createElement(
                     'option',
-                    { value: 'sortSpacetelecopesEndUp' },
+                    { value: 'sortSpacetelecopesEnd' },
                     'Missionsende'
                   ),
                   _react2['default'].createElement(
                     'option',
-                    { value: 'sortSpacetelecopesDurationUp' },
+                    { value: 'sortSpacetelecopesDuration' },
                     'Dauer'
                   )
                 )
@@ -41038,20 +41080,20 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
                 { id: 'sortSpacewalks', className: 'sort-form' },
                 _react2['default'].createElement(
                   'select',
-                  { name: 'sortSpacewalks', defaultValue: 'sortSpacewalksStartUp' },
+                  { name: 'sortSpacewalks', defaultValue: 'sortSpacewalksStart' },
                   _react2['default'].createElement(
                     'option',
-                    { value: 'sortSpacewalksStartUp' },
+                    { value: 'sortSpacewalksStart' },
                     'Beginn'
                   ),
                   _react2['default'].createElement(
                     'option',
-                    { value: 'sortSpacewalksDurationUp' },
+                    { value: 'sortSpacewalksDuration' },
                     'Dauer'
                   ),
                   _react2['default'].createElement(
                     'option',
-                    { value: 'sortSpacewalksAstronautsUp' },
+                    { value: 'sortSpacewalksAstronauts' },
                     'Astronauten'
                   )
                 )
