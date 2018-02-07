@@ -42477,12 +42477,13 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 					_react2["default"].createElement(
 						"p",
 						null,
+						"Die Antworten darauf und viele weitere Informationen finden Sie auf unserer Seite ",
 						_react2["default"].createElement(
 							"a",
 							{ href: "/constellations" },
-							"Hier"
+							"zu allen 88 Sternbildern"
 						),
-						" finden Sie die Antworten und viele weitere Informationen zu allen 88 Sternbildern."
+						"."
 					)
 				)
 			),
@@ -42522,13 +42523,13 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 					_react2["default"].createElement(
 						"p",
 						null,
-						"Wir holen Ihnen die Sterne vom Himmel - ",
+						"Wir holen Ihnen die Sterne vom Himmel - besuchen Sie die ",
 						_react2["default"].createElement(
 							"a",
 							{ href: "/stars" },
-							"hier"
+							"Seite"
 						),
-						" finden Sie sie."
+						"."
 					)
 				)
 			),
@@ -42596,11 +42597,11 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 							null,
 							"[countSpacetelescopes]"
 						),
-						" Augen und Ohren im All gibt es ",
+						" Augen und Ohren im All gibt es auf unserer Seite über ",
 						_react2["default"].createElement(
 							"a",
 							{ href: "/space-telescopes" },
-							"hier"
+							"Weltraumteleskope"
 						),
 						"."
 					)
@@ -42641,7 +42642,7 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 							),
 							" spannende Missionen"
 						),
-						", ihre Ziele und Ergebnisse. Sie werden begeistert sein!"
+						", ihre Ziele und Ergebnisse."
 					)
 				)
 			)
