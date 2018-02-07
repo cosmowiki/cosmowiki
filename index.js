@@ -43375,7 +43375,7 @@ var Event = (function () {
       item.place = '' + town + country;
       var latitude = raw.itemlatitude ? '' + raw.itemlatitude : '';
       var longitude = raw.itemlongitude ? '' + raw.itemlongitude : '';
-      item.geoUri = raw.itemlatitude ? 'geo:' + latitude + ', ' + longitude : '';
+      item.geoUri = raw.itemlatitude ? 'geo:' + latitude + ',' + longitude : '';
       item.name = raw.itemname, item.latitude = raw.itemlatitude, item.longitude = raw.itemlongitude, item.link = raw.itemurl;
       //item.tags = raw.tags.split(',');
       return item;
