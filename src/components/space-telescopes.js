@@ -151,11 +151,11 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
               <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
               <div id="sortArea">
                 <form id="sortSpacetelecopes" className="sort-form">
-                  <select name="sortSpacetelecopes" defaultValue="sortSpacetelecopesLaunchUp">
-                    <option value="sortSpacetelecopesLaunchUp">Startdatum</option>
-                    <option value="sortSpacetelecopesNameUp">Name</option>
-                    <option value="sortSpacetelecopesEndUp">Missionsende</option>
-                    <option value="sortSpacetelecopesDurationUp">Dauer</option>
+                  <select name="sortSpacetelecopes" defaultValue="sortSpacetelecopesLaunch">
+                    <option value="sortSpacetelecopesLaunch">Startdatum</option>
+                    <option value="sortSpacetelecopesName">Name</option>
+                    <option value="sortSpacetelecopesEnd">Missionsende</option>
+                    <option value="sortSpacetelecopesDuration">Dauer</option>
                   </select>
                 </form>
                 <div id="toggleAscDesc">

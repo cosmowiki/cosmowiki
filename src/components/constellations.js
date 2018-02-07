@@ -123,6 +123,24 @@ const ConstellationsComponent = ({constellations}) => {
       <div id="dataArea" className="constellations module pure-u-1">
         <div id="controlArea" className="constellations pure-u-1">
           <div id="controllers" className="pure-u-1">
+            <div id="sort" className="constellations pure-u-1-2 left">
+              <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
+              <div id="sortArea">
+                <form id="sortConstellations" className="sort-form">
+                  <select name="sortConstellations" defaultValue="sortConstellationsName">
+                    <option value="sortConstellationsName">Name</option>
+                    <option value="sortConstellationsSquaredegrees">Fläche</option>
+                  </select>
+                </form>
+                <div id="toggleAscDesc">
+                  <label>
+                    <input className="switch" type="checkbox" />
+                    <span className="slider"></span>
+                    <span className="text"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
             <div id="filter" className="constellations pure-u-1-2 right">
               <a href="#" className="toggle-filter" name="toggle-filter">Filtern</a>
               <div id="filterArea">

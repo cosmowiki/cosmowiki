@@ -163,14 +163,14 @@ const AstronautsComponent = ({groupedAstronauts}) => {
 							<a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
 							<div id="sortArea">
 								<form id="sortAstronauts" className="sort-form">
-									<select name="sortAstronauts" defaultValue="sortAstronautsNameUp">
-										<option value="sortAstronautsNameUp">Name</option>
-										<option value="sortAstronautsBornUp">Geburtsdatum</option>
-										<option value="sortAstronautsNumberOfMissionsUp">Anzahl Missionen</option>
-										<option value="sortAstronautsTimeInSpaceUp">Gesamtzeit im All</option>
-										<option value="sortAstronautsFirstLaunchUp">erster Raumflug</option>
-										<option value="sortAstronautsNumberOfSpacewalksUp">Anzahl EVAs</option>
-										<option value="sortAstronautsDurationOfSpacewalksUp">EVA Gesamtdauer</option>// not important yet, too much items w/o dates
+									<select name="sortAstronauts" defaultValue="sortAstronautsName">
+										<option value="sortAstronautsName">Name</option>
+										<option value="sortAstronautsBorn">Geburtsdatum</option>
+										<option value="sortAstronautsNumberOfMissions">Anzahl Missionen</option>
+										<option value="sortAstronautsTimeInSpace">Gesamtzeit im All</option>
+										<option value="sortAstronautsFirstLaunch">erster Raumflug</option>
+										<option value="sortAstronautsNumberOfSpacewalks">Anzahl EVAs</option>
+										<option value="sortAstronautsDurationOfSpacewalks">EVA Gesamtdauer</option>// not important yet, too much items w/o dates
 									</select>
 								</form>
 								<div id="toggleAscDesc">

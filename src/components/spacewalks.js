@@ -104,10 +104,10 @@ const SpacewalksComponent = ({spacewalks}) => {
               <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
               <div id="sortArea">
                 <form id="sortSpacewalks" className="sort-form">
-                  <select name="sortSpacewalks" defaultValue="sortSpacewalksStartUp">
-                    <option value="sortSpacewalksStartUp">Beginn</option>
-                    <option value="sortSpacewalksDurationUp">Dauer</option>
-                    <option value="sortSpacewalksAstronautsUp">Astronauten</option>
+                  <select name="sortSpacewalks" defaultValue="sortSpacewalksStart">
+                    <option value="sortSpacewalksStart">Beginn</option>
+                    <option value="sortSpacewalksDuration">Dauer</option>
+                    <option value="sortSpacewalksAstronauts">Astronauten</option>
                   </select>
                 </form>
                 <div id="toggleAscDesc">

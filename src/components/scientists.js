@@ -185,9 +185,9 @@ const ScientistsComponent = ({groupedScientists}) => {
               <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>
               <div id="sortArea">
                 <form id="sortScientists" className="sort-form">
-                  <select name="sortScientists" defaultValue="sortScientistsNameUp">
-                    <option value="sortScientistsNameUp">Name</option>
-                    <option value="sortScientistsBornUp">Geburtsdatum </option>// not important yet, too much items w/o dates
+                  <select name="sortScientists" defaultValue="sortScientistsName">
+                    <option value="sortScientistsName">Name</option>
+                    <option value="sortScientistsBorn">Geburtsdatum </option>// not important yet, too much items w/o dates
                   </select>
                 </form>
                 <div id="toggleAscDesc">
