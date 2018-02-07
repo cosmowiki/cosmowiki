@@ -42,6 +42,7 @@
 - [x] create summary
 - [x] rename the component, css and page files to "events"
 - [x] create a vertical timeline like [this][2]
+- [ ] let the locations open in a map (on places site or in an overlay?)
 - [ ] complete data for launch
 
 ## people
