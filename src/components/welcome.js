@@ -141,8 +141,8 @@ const WelcomeComponent = ({appUrl}) => {
 							und welche Sternbilder sind noch am Südpol zu sehen?
 						</p>
 						<p>
-							<a href="/constellations">Hier</a> finden Sie die Antworten und viele
-							weitere Informationen zu allen 88 Sternbildern.
+							Die Antworten darauf und viele weitere Informationen finden Sie auf
+							unserer Seite <a href="/constellations">zu allen 88 Sternbildern</a>.
 						</p>
 		 	 		</div>
 		 	 	</div>
@@ -163,7 +163,7 @@ const WelcomeComponent = ({appUrl}) => {
 							zu finden, und welcher Stern verbirgt sich hinter α Lyrae?
 						</p>
 						<p>
-							Wir holen Ihnen die Sterne vom Himmel - <a href="/stars">hier</a> finden Sie sie.
+							Wir holen Ihnen die Sterne vom Himmel - besuchen Sie die <a href="/stars">Seite</a>.
 						</p>
 		 	 		</div>
 		 	 	</div>
@@ -207,7 +207,7 @@ const WelcomeComponent = ({appUrl}) => {
 						</p>
 						<p>
 							Ausführliche Informationen zu <code>[countSpacetelescopes]</code> Augen
-							und Ohren im All gibt es <a href="/space-telescopes">hier</a>.
+							und Ohren im All gibt es auf unserer Seite über <a href="/space-telescopes">Weltraumteleskope</a>.
 						</p>
 		 	 		</div>
 		 	 	</div>
@@ -229,7 +229,7 @@ const WelcomeComponent = ({appUrl}) => {
 						<p>
 							Hier finden Sie umfassende Informationen
 							über <a href="/missions"><code>[countMissions]</code> spannende Missionen</a>,
-							ihre Ziele und Ergebnisse. Sie werden begeistert sein!
+							ihre Ziele und Ergebnisse.
 						</p>
 		 	 		</div>
 		 	 	</div>
