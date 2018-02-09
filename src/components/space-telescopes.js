@@ -183,17 +183,17 @@ export default SpaceTelescopesComponent;
 const TelescopeComponent = ({ telescope }) => {
   return (
     <div className="spacetelescope-row data-row pure-u-1">
-      <div className="spacetelescope-img pure-u-1 pure-u-sm-1-4 pure-u-md-1-3 center">
+      <div className="spacetelescope-img pure-u-1 pure-u-sm-1-3 center">
         {telescope.imageUrl ? <a href={telescope.imageUrl} title={telescope.name}><img src={telescope.imageSmallUrl} alt={telescope.name} /></a> : ''}
         {telescope.imageUrl ? <small>Bild: {telescope.imageSrc}</small> : ''}
         {telescope.imageLicenseUrl ? <small><a href={telescope.imageLicenseUrl}>{telescope.imageLicence}</a></small> : ''}
       </div>
-      <div className="spacetelescope-info pure-u-1 pure-u-sm-1-2 pure-u-md-2-3 center">
-        <div className="spacetelescope-name pure-u-1 pure-u-md-1-2">
+      <div className="spacetelescope-info pure-u-1 pure-u-sm-2-3 center">
+        <div className="spacetelescope-info1 pure-u-1 pure-u-md-1-2">
           <p className="spacetelescope-name"><a href={telescope.wikipediaUrl} title={telescope.name}>{telescope.name}</a></p>
           {telescope.alternativename ? <p className="spacetelescope-alternative-name">({telescope.alternativename})</p> : ''}
         </div>
-        <div className="spacetelescope-data pure-u-1 pure-u-md-1-2">
+        <div className="spacetelescope-info2 pure-u-1 pure-u-md-1-2">
           {telescope.operator ? <p className="spacetelescope-data">Betreiber: {telescope.operator}</p> : ''}
           {telescope.purpose ? <p className="spacetelescope-data">{telescope.purpose}</p> : ''}
           <p className="spacetelescope-data">{telescope.endDate ? `von ${telescope.launchDate} bis ${telescope.endDate}` : `Start: ${telescope.launchDate}`}</p>

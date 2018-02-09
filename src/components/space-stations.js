@@ -213,20 +213,21 @@ export default SpaceStationsComponent;
 const StationComponent = ({spaceStation:station}) => {
   return (
     <div className="station-row data-row pure-u-1">
-      <div className="station-img pure-u-1 pure-u-sm-1-4 pure-u-md-1-3 center">
+      <div className="station-img pure-u-1 pure-u-sm-1-3 center">
         {station.imageUrl ? <a href={station.imageUrl} title={station.name}><img src={station.imageSmallUrl} alt={station.name} /></a> : ''}
         {station.imageUrl ? <small>Bild: {station.imageSrc}</small> : ''}
         {station.imageLicenseUrl ? <small><a href={station.imageLicenseUrl}>{station.imageLicence}</a></small> : <small>{station.imageLicence}</small>}
       </div>
-      <div className="station-info pure-u-1 pure-u-sm-1-2 pure-u-md-2-3 center">
-        <div className="station-name pure-u-1 pure-u-md-1-2">
+      <div className="station-info pure-u-1 pure-u-sm-2-3 center">
+        <div className="station-info1 pure-u-1 pure-u-md-1-2">
           <p className="station-name"><a href={station.wikipediaUrl} title={station.name}>{station.name}</a></p>
-          {station.operator ? <p className="station-operator">Betreiber: {station.operator}</p> : ''}
+          {station.operator ? <p className="station-operator">({station.operator})</p> : ''}
           </div>
-        <div className="station-data pure-u-1 pure-u-md-1-2">
-          {station.duration ? <p className="station-data">Zeit im All: {station.duration}</p> : ''}
-          <p className="station-data">{station.reenterDate ? `von ${station.launchDate} bis ${station.reenterDate}` : `Start: ${station.launchDate} - ${station.status}`}</p>
-          {station.volume ? <p className="station-data">Masse: {station.mass}, Volumen (unter Druck): {station.volume}</p> : ''}
+        <div className="station-info2 pure-u-1 pure-u-md-1-2">
+          {station.duration ? <p className="station-duration">Zeit im All: {station.duration}</p> : ''}
+          <p className="station-reenter">{station.reenterDate ? `${station.launchDate} - ${station.reenterDate}` : `Start: ${station.launchDate} - ${station.status}`}</p>
+          {station.volume ? <p className="station-volume">Volumen (unter Druck): {station.volume}</p> : ''}
+          {station.mass ? <p className="station-mass">Masse: {station.mass}</p> : ''}
         </div>
       </div>
     </div>

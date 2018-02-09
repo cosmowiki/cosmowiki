@@ -7,16 +7,17 @@
 
 .constellation-img {overflow: hidden;}
 .constellation-img img {width: 100px; height: 100px;}
-.constellation-img small {display: block; font-size: .8em;}
+.constellation-img small {display: block; font-size: .65rem;}
 .constellation-img small:last-child {margin-left: .5em;}
 div.constellation-name {margin-top: .5em;}
-.constellation-name {font-size: 1.25em;}
-p.constellation-latin-name {margin: 0 0 .5em; font-size: .8em;}
+.constellation-name {font-size: 1rem;}
+p.constellation-latin-name {margin: 0 0 .5em; font-size: .8rem;}
 div.constellation-data {display: none;}
-div.constellation-data p {margin: .5em 0; font-size: 1em;}
+div.constellation-data p {margin: .5em 0; font-size: .8rem;}
 .constellation-data2,
 .constellation-data3 {display: none;}
 
+/*	breakpoints ------------------------------------------------------------- */
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
   div.constellation-name {margin-top: 1.25em;}

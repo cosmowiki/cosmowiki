@@ -13,7 +13,7 @@ const SpacewalksComponent = ({spacewalks}) => {
       </div>
       <Summary>
         <p className="summary-text">
-          <em>Der Weltraumausstieg</em>, auch <em>EVA</em> (extra-vehicular activity = Außenbordaktivität)
+          Der <em>Weltraumausstieg</em>, auch <em>EVA</em> (extra-vehicular activity = Außenbordaktivität)
           oder <em>spacewalk</em> genannt, ist ein Begriff für den Aufenthalt von
           Astronauten außerhalb eines Raumfahrzeuges im Vakuum des Weltalls oder
           auf einem anderen Himmelskörper. (z. B. <em>Lunar Extra Vehicular Activity</em> = LEVA)
@@ -141,13 +141,11 @@ const SpacewalkComponent = ({spacewalk}) => {
         </div>
       </div>
       <div className="spacewalk-info pure-u-1 pure-u-lg-3-4">
-        <div className="spacewalk-dates pure-u-1 pure-u-md-1-2 pure-u-lg-5-12 center">
-          <p className="spacewalk-start pure-u-1-2 center">{spacewalk.startDate}{spacewalk.startTime ? ` - ${spacewalk.startTime}` : ''}</p>
-          <p className="spacewalk-end pure-u-1-2 center">{spacewalk.startDate != spacewalk.endDate ? `bis ${spacewalk.endDate}` : ''}
-          {spacewalk.startDate != spacewalk.endDate && spacewalk.endTime ? ` - ${spacewalk.endTime}` : ''}
-          {spacewalk.startDate == spacewalk.endDate && spacewalk.endTime ? `bis ${spacewalk.endTime}` : ''}</p>
+        <div className="spacewalk-dates pure-u-lg-1-3 center">
+          <p className="spacewalk-day pure-u-1-2 center">{spacewalk.startDate}</p>
+          <p className="spacewalk-duration pure-u-1-2 center">{spacewalk.duration}</p>
         </div>
-        <div className="spacewalk-astronauts pure-u-1 pure-u-md-1-2 pure-u-lg-7-12 center">
+        <div className="spacewalk-astronauts pure-u-lg-2-3 center">
           <p className="spacewalk-astronaut1 pure-u-sm-1-3"><a href={spacewalk.astronaut1Url} title={spacewalk.astronaut1}>{spacewalk.astronaut1}</a> ({spacewalk.countSpacewalks1}/{spacewalk.totalSpacewalks1})</p>
           {spacewalk.astronaut2 ? <p className="spacewalk-astronaut2 pure-u-sm-1-3"><a href={spacewalk.astronaut2Url} title={spacewalk.astronaut2}>{spacewalk.astronaut2}</a> ({spacewalk.countSpacewalks2}/{spacewalk.totalSpacewalks2})</p> : ''}
           {spacewalk.astronaut3 ? <p className="spacewalk-astronaut3 pure-u-sm-1-3"><a href={spacewalk.astronaut3Url} title={spacewalk.astronaut3}>{spacewalk.astronaut3}</a> ({spacewalk.countSpacewalks3}/{spacewalk.totalSpacewalks3})</p> : ''}
