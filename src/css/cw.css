@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {font-weight: normal;}
 
 ul {list-style-type: none;}
 
-a {font-weight: normal; text-decoration: none; cursor: pointer;}
+a {text-decoration: none; cursor: pointer;}
 a, a:link, a:visited {color: #55f; transition: all ease .3s;}
 a img, a:link img, a:visited img {}
 a:focus, a:hover, a:active {color: #d00; transition: all ease .3s;}
@@ -270,8 +270,9 @@ a#summaryToggle.collapsed:after {
 }
 
 #summaryContainer {
-  position: relative; margin-top: 1.75em; overflow: hidden; height: 100%;
-  padding: 0 .25em 0; border-bottom: 1px solid #ddd;
+  position: relative; margin-top: 1.75em; padding: 0 .25em 0; height: 100%;
+  overflow: hidden;
+	border-bottom: 1px solid #ddd;
 }
 #summaryContainer.minimized {height: 0;}
 .summary-text,
@@ -340,7 +341,7 @@ div.summary-img.width-25,
 #pageSubMenu a:active {color: #fff; background: rgba(255, 255, 255, .3);}
 
 /*	dataArea ---------------------------------------------------------------- */
-#dataArea {font-size: .8rem;}
+#dataArea {font-size: .9rem;}
 .leading-letter p {
 	padding: .2em;
 	font-size: 1.25rem; font-weight: normal;
