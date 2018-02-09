@@ -5,14 +5,15 @@
 
 .star-row {padding: .2em 0;}
 
-.star-name div {display: block; font-size: 1.25em; text-align: center;}
+.star-name div {display: block; font-size: 1rem; text-align: center;}
 .star-data1 div,
-.star-data2 div {display: inline-block; font-size: 1.125em;}
+.star-data2 div {display: inline-block; font-size: .9rem;}
 
 /* only for visualisation ----------------------------------------------------*/
 /*.star-name div, .star-data1 div, .star-data2 div {outline: 1px solid blue;}*/
 /* ---------------------------------------------------------------------------*/
 
+/*	breakpoints ------------------------------------------------------------- */
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 48em) {
 	.star-name div {display: block;}
@@ -24,7 +25,7 @@
 @media only all and (min-width: 64em) {
 	.star-name div,
 	.star-data1 div,
-	.star-data2 div {font-size: 1.125em; line-height: 1.75em;}
+	.star-data2 div {font-size: .9rem; line-height: 1.75em;}
 
 	.star-name div {display: inline-block; text-align: left;}
 	.star-data1 div {text-align: left;}

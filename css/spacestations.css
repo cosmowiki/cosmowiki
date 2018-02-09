@@ -3,20 +3,24 @@
 	background: url('/img/title_spacestations.jpg') center / cover no-repeat;
 }
 
-.station-row {padding: .5em 0;}
+.station-row {padding: .5em 0; font-size: 1rem;}
 
 .station-img {overflow: hidden;}
 .station-img img {height: 100px;}
-.station-img small {display: block; font-size: .8em;}
+.station-img small {display: block; font-size: .65em;}
 .station-img small:last-child {margin-left: .5em;}
-p.station-name {margin: .5em 0 0; font-size: 1.25em;}
-p.station-operator, p.station-data {margin: .25em 0 0; font-size: 1em;}
 
+.station-name {margin-top: .5em;}
+.station-operator {font-size: .8rem;}
+
+/*	breakpoints ------------------------------------------------------------- */
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
-  p.station-name {margin: .75em 0 0; font-size: 1.25em;}
+	.station-info {text-align: left;}
+	.station-name {margin-top: 0;}
 }
 @media only all and (min-width: 48em) {
-  .station-name {margin-top: 2.5em;}
-  .station-data {margin-top: 2.5em;}
+	.station-row {display: flex; align-items: center;}
+	.station-info {display: flex; align-items: center;}
+  .station-info1 {text-align: center;}
 }

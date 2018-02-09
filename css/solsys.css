@@ -3,7 +3,7 @@
 	background: url('/img/title_solarsystem.jpg') center / cover no-repeat;
 }
 
-#solarsystemTable {font-size: 1.25em;}
+#solarsystemTable {font-size: 1rem;}
 #solarsystemTable div, #solarsystemTable a {display: block;}
 
 .type2,
@@ -36,6 +36,7 @@ div.empty {border-top: none;}
 #solarsystemTable div a.expanded:hover:after,
 #solarsystemTable div a.expanded:active:after {content: " \25B8";}
 
+/*	breakpoints ------------------------------------------------------------- */
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
 	.type2,

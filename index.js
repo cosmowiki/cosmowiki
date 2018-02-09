@@ -40205,7 +40205,7 @@ var StationComponent = function StationComponent(_ref2) {
     { className: 'station-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'station-img pure-u-1 pure-u-sm-1-4 pure-u-md-1-3 center' },
+      { className: 'station-img pure-u-1 pure-u-sm-1-3 center' },
       station.imageUrl ? _react2['default'].createElement(
         'a',
         { href: station.imageUrl, title: station.name },
@@ -40233,10 +40233,10 @@ var StationComponent = function StationComponent(_ref2) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'station-info pure-u-1 pure-u-sm-1-2 pure-u-md-2-3 center' },
+      { className: 'station-info pure-u-1 pure-u-sm-2-3 center' },
       _react2['default'].createElement(
         'div',
-        { className: 'station-name pure-u-1 pure-u-md-1-2' },
+        { className: 'station-info1 pure-u-1 pure-u-md-1-2' },
         _react2['default'].createElement(
           'p',
           { className: 'station-name' },
@@ -40249,31 +40249,36 @@ var StationComponent = function StationComponent(_ref2) {
         station.operator ? _react2['default'].createElement(
           'p',
           { className: 'station-operator' },
-          'Betreiber: ',
-          station.operator
+          '(',
+          station.operator,
+          ')'
         ) : ''
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'station-data pure-u-1 pure-u-md-1-2' },
+        { className: 'station-info2 pure-u-1 pure-u-md-1-2' },
         station.duration ? _react2['default'].createElement(
           'p',
-          { className: 'station-data' },
+          { className: 'station-duration' },
           'Zeit im All: ',
           station.duration
         ) : '',
         _react2['default'].createElement(
           'p',
-          { className: 'station-data' },
-          station.reenterDate ? 'von ' + station.launchDate + ' bis ' + station.reenterDate : 'Start: ' + station.launchDate + ' - ' + station.status
+          { className: 'station-reenter' },
+          station.reenterDate ? station.launchDate + ' - ' + station.reenterDate : 'Start: ' + station.launchDate + ' - ' + station.status
         ),
         station.volume ? _react2['default'].createElement(
           'p',
-          { className: 'station-data' },
-          'Masse: ',
-          station.mass,
-          ', Volumen (unter Druck): ',
+          { className: 'station-volume' },
+          'Volumen (unter Druck): ',
           station.volume
+        ) : '',
+        station.mass ? _react2['default'].createElement(
+          'p',
+          { className: 'station-mass' },
+          'Masse: ',
+          station.mass
         ) : ''
       )
     )
@@ -40698,7 +40703,7 @@ var TelescopeComponent = function TelescopeComponent(_ref2) {
     { className: 'spacetelescope-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'spacetelescope-img pure-u-1 pure-u-sm-1-4 pure-u-md-1-3 center' },
+      { className: 'spacetelescope-img pure-u-1 pure-u-sm-1-3 center' },
       telescope.imageUrl ? _react2['default'].createElement(
         'a',
         { href: telescope.imageUrl, title: telescope.name },
@@ -40722,10 +40727,10 @@ var TelescopeComponent = function TelescopeComponent(_ref2) {
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'spacetelescope-info pure-u-1 pure-u-sm-1-2 pure-u-md-2-3 center' },
+      { className: 'spacetelescope-info pure-u-1 pure-u-sm-2-3 center' },
       _react2['default'].createElement(
         'div',
-        { className: 'spacetelescope-name pure-u-1 pure-u-md-1-2' },
+        { className: 'spacetelescope-info1 pure-u-1 pure-u-md-1-2' },
         _react2['default'].createElement(
           'p',
           { className: 'spacetelescope-name' },
@@ -40745,7 +40750,7 @@ var TelescopeComponent = function TelescopeComponent(_ref2) {
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'spacetelescope-data pure-u-1 pure-u-md-1-2' },
+        { className: 'spacetelescope-info2 pure-u-1 pure-u-md-1-2' },
         telescope.operator ? _react2['default'].createElement(
           'p',
           { className: 'spacetelescope-data' },
@@ -40885,10 +40890,11 @@ var SpacewalksComponent = function SpacewalksComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
+        'Der ',
         _react2['default'].createElement(
           'em',
           null,
-          'Der Weltraumausstieg'
+          'Weltraumausstieg'
         ),
         ', auch ',
         _react2['default'].createElement(
@@ -41155,24 +41161,21 @@ var SpacewalkComponent = function SpacewalkComponent(_ref2) {
       { className: 'spacewalk-info pure-u-1 pure-u-lg-3-4' },
       _react2['default'].createElement(
         'div',
-        { className: 'spacewalk-dates pure-u-1 pure-u-md-1-2 pure-u-lg-5-12 center' },
+        { className: 'spacewalk-dates pure-u-lg-1-3 center' },
         _react2['default'].createElement(
           'p',
-          { className: 'spacewalk-start pure-u-1-2 center' },
-          spacewalk.startDate,
-          spacewalk.startTime ? ' - ' + spacewalk.startTime : ''
+          { className: 'spacewalk-day pure-u-1-2 center' },
+          spacewalk.startDate
         ),
         _react2['default'].createElement(
           'p',
-          { className: 'spacewalk-end pure-u-1-2 center' },
-          spacewalk.startDate != spacewalk.endDate ? 'bis ' + spacewalk.endDate : '',
-          spacewalk.startDate != spacewalk.endDate && spacewalk.endTime ? ' - ' + spacewalk.endTime : '',
-          spacewalk.startDate == spacewalk.endDate && spacewalk.endTime ? 'bis ' + spacewalk.endTime : ''
+          { className: 'spacewalk-duration pure-u-1-2 center' },
+          spacewalk.duration
         )
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'spacewalk-astronauts pure-u-1 pure-u-md-1-2 pure-u-lg-7-12 center' },
+        { className: 'spacewalk-astronauts pure-u-lg-2-3 center' },
         _react2['default'].createElement(
           'p',
           { className: 'spacewalk-astronaut1 pure-u-sm-1-3' },
