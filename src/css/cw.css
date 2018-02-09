@@ -24,9 +24,9 @@ h1, h2, h3, h4, h5, h6 {font-weight: normal;}
 ul {list-style-type: none;}
 
 a {text-decoration: none; cursor: pointer;}
-a, a:link, a:visited {color: #55f; transition: all ease .3s;}
+a, a:link, a:visited {color: #55f; transition: all ease .2s;}
 a img, a:link img, a:visited img {}
-a:focus, a:hover, a:active {color: #d00; transition: all ease .3s;}
+a:focus, a:hover, a:active {color: #d00; transition: all ease .2s;}
 a:focus img, a:hover img, a:active img {}
 
 /*>Global Classes ----------------------------------------------------------- */
