@@ -25,7 +25,7 @@ const f = (context, cb) => {
       $('#catlinks').remove();
       $('noscript').remove();
 
-      cb(null, $('#mw-content-text').text());
+      cb(null, $('#mw-content-text'));
     }
   });
 };
