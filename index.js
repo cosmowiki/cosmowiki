@@ -34571,7 +34571,7 @@ var AstronautComponent = function AstronautComponent(_ref3) {
 
 	return _react2['default'].createElement(
 		'div',
-		{ className: 'astronaut-card pure-u-1 pure-u-md-1-2 pure-u-lg-1-3' },
+		{ className: 'astronaut-card' },
 		_react2['default'].createElement(
 			'div',
 			{ className: 'astronaut-card-container' },
@@ -34590,7 +34590,7 @@ var AstronautComponent = function AstronautComponent(_ref3) {
 				{ className: 'astronaut-info' },
 				astronaut.imgSmallUrl ? _react2['default'].createElement(
 					'div',
-					{ className: 'astronaut-img pure-u-1-3' },
+					{ className: 'astronaut-img' },
 					_react2['default'].createElement(
 						'a',
 						{ href: astronaut.imgUrl, title: astronaut.name },
@@ -34599,7 +34599,7 @@ var AstronautComponent = function AstronautComponent(_ref3) {
 				) : '',
 				_react2['default'].createElement(
 					'div',
-					{ className: 'astronaut-data pure-u-2-3' },
+					{ className: 'astronaut-data' },
 					astronaut.born ? _react2['default'].createElement(
 						'p',
 						{ className: 'astronaut-life' },
@@ -35707,9 +35707,9 @@ var ItemComponent = function ItemComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'event-place' },
-        item.geoUri ? _react2['default'].createElement(
+        item.geoUrl ? _react2['default'].createElement(
           'a',
-          { href: item.geoUri },
+          { href: item.geoUrl, title: item.place + ' auf der Karte anzeigen' },
           item.place
         ) : item.place
       ),
@@ -35725,10 +35725,6 @@ var ItemComponent = function ItemComponent(_ref) {
     )
   );
 };
-
-// <div id="timelineHeader"></div>
-// {items.map((item, idx) => <ItemComponent item={item} key={idx} onClick={() => showOverlay(item)} />)}
-// <div id="timelineFooter"></div>
 module.exports = exports['default'];
 
 },{"./chunks/summary":431,"./notes":438,"./vcard":450,"react":454}],434:[function(require,module,exports){
@@ -36550,76 +36546,63 @@ var MissionComponent = function MissionComponent(_ref2) {
     { className: 'mission-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'mission-name pure-u-1 pure-u-sm-9-24 center' },
+      { className: 'mission-info pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 center' },
       _react2['default'].createElement(
-        'div',
-        { className: 'pure-u-1' },
+        'p',
+        { className: 'mission-name' },
         _react2['default'].createElement(
-          'p',
-          null,
-          _react2['default'].createElement(
-            'a',
-            { href: mission.link },
-            mission.name
-          )
+          'a',
+          { href: mission.link },
+          mission.name
         )
+      ),
+      mission.operator ? _react2['default'].createElement(
+        'p',
+        { className: 'mission-operator' },
+        '(',
+        mission.operator,
+        ' - ',
+        mission.country,
+        ')'
+      ) : _react2['default'].createElement(
+        'p',
+        { className: 'mission-operator' },
+        '(',
+        mission.country,
+        ')'
       )
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'mission-dates pure-u-1-2 pure-u-sm-6-24' },
+      { className: 'mission-data pure-u-1 pure-u-sm-1-2 pure-u-md-2-3 center' },
       _react2['default'].createElement(
         'div',
-        { className: 'mission-launch pure-u-lg-1-2' },
+        { className: 'mission-data1' },
         _react2['default'].createElement(
           'p',
-          null,
-          'Start: ',
+          { className: 'mission-launch' },
           mission.launchDate
-        )
-      ),
-      _react2['default'].createElement(
-        'div',
-        { className: 'mission-end pure-u-lg-1-2' },
+        ),
         mission.endDate ? _react2['default'].createElement(
           'p',
-          null,
-          'Ende: ',
-          mission.endDate
-        ) : _react2['default'].createElement(
-          'p',
-          null,
-          'Status: ',
-          mission.status
-        )
-      )
-    ),
-    _react2['default'].createElement(
-      'div',
-      { className: 'mission-info pure-u-1-2 pure-u-sm-9-24 left' },
-      _react2['default'].createElement(
-        'div',
-        { className: 'mission-operator' },
-        mission.operator ? _react2['default'].createElement(
-          'p',
-          null,
-          'Betreiber: ',
-          mission.operator,
+          { className: 'mission-end' },
           ' - ',
-          mission.country
-        ) : _react2['default'].createElement(
+          mission.endDate
+        ) : '',
+        mission.duration ? _react2['default'].createElement(
           'p',
-          null,
-          'Land: ',
-          mission.country
-        )
+          { className: 'mission-duration' },
+          '(',
+          mission.duration,
+          ')'
+        ) : ''
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'mission-destination' },
+        { className: 'mission-data2' },
         _react2['default'].createElement(
           'p',
-          null,
+          { className: 'mission-destination' },
           'Ziel: ',
           mission.destination
         )
@@ -43430,7 +43413,7 @@ var Event = (function () {
       item.place = '' + town + country;
       var latitude = raw.itemlatitude ? '' + raw.itemlatitude : '';
       var longitude = raw.itemlongitude ? '' + raw.itemlongitude : '';
-      item.geoUri = raw.itemlatitude ? 'geo:' + latitude + ',' + longitude : '';
+      item.geoUrl = raw.itemlatitude ? 'geo:' + latitude + ',' + longitude : '';
       item.name = raw.itemname, item.latitude = raw.itemlatitude, item.longitude = raw.itemlongitude, item.link = raw.itemurl;
       //item.tags = raw.tags.split(',');
       return item;

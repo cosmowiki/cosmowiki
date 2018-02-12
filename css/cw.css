@@ -398,12 +398,12 @@ div.summary-img.width-25,
 	transition: color .2s ease-in-out;
 }
 #toggleAscDesc input:checked ~ .text:before {
-	color: #222;
+	color: #aaa;
 	transition: color .2s ease-in-out;
 }
 #toggleAscDesc .text:after {
 	position: absolute; left: 5.25em; bottom: -.375em;
-	font-family: FontAwesome; content: '\f161';}
+	color: #aaa; font-family: FontAwesome; content: '\f161';}
 #toggleAscDesc input:checked ~ .text:after {
 	color: #55f;
 	transition: color .2s ease-in-out;
@@ -644,3 +644,9 @@ footer #version p {
 	#sideButtons li:first-child {border-radius: 5px 5px 0 0;}
 	#sideButtons li:last-child {border-radius: 0 0 5px 5px;}
 }
+/*main {max-width: inherit; margin-bottom: 25em; z-index: 3; text-align: center; background: #358;}
+#siteTitle,
+#summary,
+#dataArea,
+#notes {max-width: 1000px; margin: 0 auto 15px;}
+footer {position: fixed;}*/

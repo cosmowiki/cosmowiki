@@ -30,6 +30,8 @@
 
 /*	astronaut ----------------------------------------------------------------*/
 .leading-letter p {border: none;}
+
+.astronaut-card {display: inline-block; width: 100%; font-size: .9rem;}
 .astronaut-card-container {margin: .25em; background: rgba(255, 255, 255, .3);}
 .astronaut-card-container:focus,
 .astronaut-card-container:hover,
@@ -37,9 +39,14 @@
 
 .astronaut-name,
 .astronaut-info {padding: .25em;}
-.astronaut-name {font-size: .9rem; background: rgba(0, 0, 255, .1);}
+.astronaut-name {background: rgba(0, 0, 255, .1);}
 .astronaut-name img {margin-left: .5em; height: .75em;}
 
+.astronaut-info {
+	display: flex; align-items: top;
+	border-width: 0 1px 1px 1px; border-style: solid;
+	border-color: rgba(0, 0, 255, .1);
+}
 .astronaut-img,
 .astronaut-data {display: inline-block;}
 .astronaut-img img {height: 110px; border: 1px solid #55f;}
@@ -47,16 +54,10 @@
 .astronaut-img img:hover,
 .astronaut-img img:active {border: 1px solid #d00;}
 
-.astronaut-info {
-	border-width: 0 1px 1px 1px;
-	border-style: solid;
-	border-color: rgba(0, 0, 255, .1);
-}
 .astronaut-data span {margin-left: .5em;}
 .astronaut-born,
 .astronaut-died,
 .astronaut-numberofmissions,
-.astronaut-timeinspace,
 .astronaut-numberofspacewalks,
 .astronaut-durationofspacewalks {display: inline;}
 .astronaut-firstflight {display: block;}
@@ -66,6 +67,12 @@
 
 /*	breakpoints ------------------------------------------------------------- */
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
+@media only all and (min-width: 675px) {
+	.astronaut-card {width: 50%;}
+}
+@media only all and (min-width: 1000px) {
+	.astronaut-card {width: 33.333%;}
+}
 @media only all and (min-width: 48em) {
 	.person-name,	.scientist-name {line-height: 2.5em; font-size: .9rem;}
 	.person-name,	.scientist-name,
