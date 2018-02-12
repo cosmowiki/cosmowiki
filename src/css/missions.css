@@ -3,35 +3,25 @@
 	background: url('/img/title_missions.jpg') center / cover no-repeat;
 }
 
-.mission-row div {padding: .2em 0;}
+.mission-row div {font-size: .9rem;}
 
-/*.missionImg {min-width: 150px;}
-.missionImg img {width: 150px; display: block; margin: 2% auto;}
-.missionImg small {margin-left: 50%; font-size: .8em;}*/
+.mission-operator {font-size: .65rem;}
+.mission-launch,
+.mission-end {display: inline;}
+.mission-duration {font-size: .65rem;}
 
-.mission-name div {font-size: 1.25em;}
-.mission-dates div,
-.mission-info div {display: block; font-size: 1.125em;}
-.mission-dates div {text-align: right;}
-.mission-dates p {margin-right: .5em;}
-.mission-info p {margin-left: .5em;}
-
+/*	breakpoints ------------------------------------------------------------- */
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
-  .mission-name div {line-height: 2.25em;}
-  .mission-dates div, .missionInfo div {text-align: left;}
-  .mission-dates p {margin: 0 0 0 .2em;}
-  .mission-info p {margin: 0;}
+	.mission-row {display: flex; padding: .25em 0; align-items: center;}
+}
+@media only all and (min-width: 48em) {
+	.mission-data {display: flex; align-items: center;}
+	.mission-launch,
+	.mission-end,
+	.mission-duration {display: inline;}
+	.mission-duration,
+	.mission-destination {margin-left: 1em;}
 }
 @media only all and (min-width: 64em) {
-  .mission-name div,
-  .mission-dates div,
-  .mission-info div {font-size: 1.125em; line-height: 1.75em;}
-  .mission-dates div,
-  .mission-info div {display: inline-block;}
-  .mission-dates {text-align: left;}
-  .mission-dates p,
-  .mission-info p {margin: 0;}
-  .mission-operator {min-width: 140px;}
-  .mission-destination {margin-left: .5em;}
 }

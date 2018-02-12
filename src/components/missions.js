@@ -222,25 +222,18 @@ export default MissionsComponent;
 const MissionComponent = ({mission}) => {
   return (
     <div className="mission-row data-row pure-u-1">
-      <div className="mission-name pure-u-1 pure-u-sm-9-24 center">
-        <div className="pure-u-1">
-          <p><a href={mission.link}>{mission.name}</a></p>
-        </div>
+      <div className="mission-info pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 center">
+        <p className="mission-name"><a href={mission.link}>{mission.name}</a></p>
+        {mission.operator ? <p className="mission-operator">({mission.operator} - {mission.country})</p> : <p className="mission-operator">({mission.country})</p>}
       </div>
-      <div className="mission-dates pure-u-1-2 pure-u-sm-6-24">
-        <div className="mission-launch pure-u-lg-1-2">
-          <p>Start: {mission.launchDate}</p>
+      <div className="mission-data pure-u-1 pure-u-sm-1-2 pure-u-md-2-3 center">
+        <div className="mission-data1">
+          <p className="mission-launch">{mission.launchDate}</p>
+          {mission.endDate ? <p className="mission-end"> - {mission.endDate}</p> : ''}
+          {mission.duration ? <p className="mission-duration">({mission.duration})</p> : ''}
         </div>
-        <div className="mission-end pure-u-lg-1-2">
-          {mission.endDate ? <p>Ende: {mission.endDate}</p> : <p>Status: {mission.status}</p>}
-        </div>
-      </div>
-      <div className="mission-info pure-u-1-2 pure-u-sm-9-24 left">
-        <div className="mission-operator">
-          {mission.operator ? <p>Betreiber: {mission.operator} - {mission.country}</p> : <p>Land: {mission.country}</p>}
-        </div>
-        <div className="mission-destination">
-          <p>Ziel: {mission.destination}</p>
+        <div className="mission-data2">
+          <p className="mission-destination">Ziel: {mission.destination}</p>
         </div>
       </div>
     </div>
