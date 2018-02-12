@@ -151,7 +151,7 @@ const ItemComponent = ({item, onClick}) => {
       <div className="event-arrow"></div>
       <div className="event-content">
         <p className="event-date">{item.date}</p>
-        <p className="event-place">{item.geoUri ? <a href={item.geoUri}>{item.place}</a> : item.place}</p>
+        <p className="event-place">{item.geoUrl ? <a href={item.geoUrl} title={item.place + ' auf der Karte anzeigen'}>{item.place}</a> : item.place}</p>
         <p className="event-name" onClick={onClick}>
           <a name={item.name}>{item.name}</a>
         </p>
@@ -159,7 +159,3 @@ const ItemComponent = ({item, onClick}) => {
     </div>
   )
 };
-
-// <div id="timelineHeader"></div>
-// {items.map((item, idx) => <ItemComponent item={item} key={idx} onClick={() => showOverlay(item)} />)}
-// <div id="timelineFooter"></div>
