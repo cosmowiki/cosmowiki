@@ -42114,7 +42114,7 @@ var VcardComponent = (function (_React$Component) {
                   'a',
                   {
                     href: 'path/to/currentItem' },
-                  item.name
+                  decodeURIComponent(item.link).replace('https://de.wikipedia.org/wiki/', '').replace(/_/gi, ' ')
                 )
               ),
               _react2['default'].createElement(
@@ -42124,7 +42124,7 @@ var VcardComponent = (function (_React$Component) {
                 _react2['default'].createElement(
                   'a',
                   { href: item.link, target: '_blank' },
-                  decodeURIComponent(item.link)
+                  decodeURIComponent(item.link).replace('https://de.wikipedia.org/wiki/', '').replace(/_/gi, ' ')
                 )
               )
             )
