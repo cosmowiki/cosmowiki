@@ -24,7 +24,8 @@
 #vcardArticle {padding: .5em; background: #fff;}
 #vcardArticle p {margin-bottom: .5em;}
 #vcardRelations {margin-top: .5em; background: #eee;}
-
+#vcardHistory {white-space: nowrap; overflow: hidden;}
+#vcardHistory a {text-overflow: ellipsis;}
 .item-relations-category {padding: .25em; background: #ddf;}
 .item-relations-list {padding-bottom: .5em;}
 .item-relations-list li {padding: .25em; background: #fff;}
