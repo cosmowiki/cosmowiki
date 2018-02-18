@@ -36553,7 +36553,7 @@ var targets = function targets(destinations) {
     return _react2['default'].createElement(
       'a',
       { href: destination, title: destination, key: destination },
-      decodeURIComponent(destination).replace('https://de.wikipedia.org/wiki/', '').replace(/_\(\D+\)/gi, ' ').replace(/_/gi, ' ')
+      decodeURIComponent(destination).replace('https://de.wikipedia.org/wiki/', '').replace(/_\(.+\)/, '').replace(/_/gi, ' ')
     );
   });
   return _react2['default'].createElement(
@@ -36576,10 +36576,17 @@ var MissionComponent = function MissionComponent(_ref2) {
         { className: 'mission-name' },
         _react2['default'].createElement(
           'a',
-          { href: mission.link },
+          { href: mission.link, title: mission.name },
           mission.name
         )
       ),
+      mission.name2 ? _react2['default'].createElement(
+        'p',
+        { className: 'mission-name2' },
+        '(',
+        mission.name2,
+        ')'
+      ) : '',
       mission.countries.length == 0 ? '' : flags(mission.countries)
     ),
     _react2['default'].createElement(
@@ -36587,21 +36594,25 @@ var MissionComponent = function MissionComponent(_ref2) {
       { className: 'mission-data pure-u-1 pure-u-sm-1-2 pure-u-md-2-3 pure-u-lg-3-5 center' },
       _react2['default'].createElement(
         'div',
-        { className: 'mission-data1 pure-u-lg-1-2' },
+        { className: 'mission-data1 pure-u-md-3-5 pure-u-lg-1-2' },
         _react2['default'].createElement(
           'p',
-          { className: 'mission-launch' },
+          { className: 'mission-launch pure-u-md-7-24 center' },
           mission.launchDate
         ),
         mission.endDate ? _react2['default'].createElement(
           'p',
-          { className: 'mission-end' },
-          ' - ',
+          { className: 'mission-dash pure-u-md-1-24 center' },
+          ' - '
+        ) : _react2['default'].createElement('p', { className: 'mission-dash pure-u-md-1-24 center empty' }),
+        mission.endDate ? _react2['default'].createElement(
+          'p',
+          { className: 'mission-end pure-u-md-7-24 center' },
           mission.endDate
-        ) : '',
+        ) : _react2['default'].createElement('p', { className: 'mission-end pure-u-md-7-24 center empty' }),
         mission.duration ? _react2['default'].createElement(
           'p',
-          { className: 'mission-duration' },
+          { className: 'mission-duration pure-u-md-9-24' },
           '(',
           mission.duration,
           ')'
@@ -36609,7 +36620,7 @@ var MissionComponent = function MissionComponent(_ref2) {
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'mission-data2 pure-u-lg-1-2' },
+        { className: 'mission-data2 pure-u-md-2-5 pure-u-lg-1-2' },
         targets(mission.destinations)
       )
     )
@@ -43536,6 +43547,7 @@ var Mission = (function () {
       var launchday = raw.itemdateday ? raw.itemdateday + '.' : '';
       mission.launchDate = '' + launchday + launchmonth + launchyear;
       mission.name = raw.itemname;
+      mission.name2 = raw.itemname2 ? raw.itemname2 : '';
       mission.link = raw.itemurl;
       mission.countries = raw.itemcountry ? raw.itemcountry.split(';').map(function (country) {
         return country.trim();
