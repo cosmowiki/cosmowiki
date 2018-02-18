@@ -36538,6 +36538,30 @@ var MissionsComponent = function MissionsComponent(_ref) {
 
 exports['default'] = MissionsComponent;
 
+var flags = function flags(countries) {
+  var flagimages = countries.map(function (country) {
+    return _react2['default'].createElement('img', { src: "/img/flags/" + country + ".png", alt: country, title: country, key: country });
+  });
+  return _react2['default'].createElement(
+    'p',
+    { className: 'mission-country' },
+    flagimages
+  );
+};
+var targets = function targets(destinations) {
+  var targetlinks = destinations.map(function (destination) {
+    return _react2['default'].createElement(
+      'a',
+      { href: destination, title: destination, key: destination },
+      decodeURIComponent(destination).replace('https://de.wikipedia.org/wiki/', '').replace(/_\(\D+\)/gi, ' ').replace(/_/gi, ' ')
+    );
+  });
+  return _react2['default'].createElement(
+    'p',
+    { className: 'mission-destination' },
+    targetlinks
+  );
+};
 var MissionComponent = function MissionComponent(_ref2) {
   var mission = _ref2.mission;
 
@@ -36546,7 +36570,7 @@ var MissionComponent = function MissionComponent(_ref2) {
     { className: 'mission-row data-row pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { className: 'mission-info pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 center' },
+      { className: 'mission-info pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-2-5 center' },
       _react2['default'].createElement(
         'p',
         { className: 'mission-name' },
@@ -36556,28 +36580,14 @@ var MissionComponent = function MissionComponent(_ref2) {
           mission.name
         )
       ),
-      mission.operator ? _react2['default'].createElement(
-        'p',
-        { className: 'mission-operator' },
-        '(',
-        mission.operator,
-        ' - ',
-        mission.country,
-        ')'
-      ) : _react2['default'].createElement(
-        'p',
-        { className: 'mission-operator' },
-        '(',
-        mission.country,
-        ')'
-      )
+      mission.countries.length == 0 ? '' : flags(mission.countries)
     ),
     _react2['default'].createElement(
       'div',
-      { className: 'mission-data pure-u-1 pure-u-sm-1-2 pure-u-md-2-3 center' },
+      { className: 'mission-data pure-u-1 pure-u-sm-1-2 pure-u-md-2-3 pure-u-lg-3-5 center' },
       _react2['default'].createElement(
         'div',
-        { className: 'mission-data1' },
+        { className: 'mission-data1 pure-u-lg-1-2' },
         _react2['default'].createElement(
           'p',
           { className: 'mission-launch' },
@@ -36599,13 +36609,8 @@ var MissionComponent = function MissionComponent(_ref2) {
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'mission-data2' },
-        _react2['default'].createElement(
-          'p',
-          { className: 'mission-destination' },
-          'Ziel: ',
-          mission.destination
-        )
+        { className: 'mission-data2 pure-u-lg-1-2' },
+        targets(mission.destinations)
       )
     )
   );
@@ -43532,14 +43537,18 @@ var Mission = (function () {
       mission.launchDate = '' + launchday + launchmonth + launchyear;
       mission.name = raw.itemname;
       mission.link = raw.itemurl;
-      mission.country = raw.itemcountry;
+      mission.countries = raw.itemcountry ? raw.itemcountry.split(';').map(function (country) {
+        return country.trim();
+      }) : []; // not using .split('; ') to avoid errors?
+      mission.destinations = raw.itemdestination ? raw.itemdestination.split(';').map(function (destination) {
+        return destination.trim();
+      }) : [];
       if (raw.itemparent) {
         mission.rocket = new Rocket(raw.itemparent, raw.itemparenturl);
       }
       if (raw.itemlocation) {
         mission.pad = new Pad(raw.itemlocation, raw.itemlocationurl);
       }
-      mission.destination = raw.itemdestination;
       mission.crew = raw.itemcrew;
       mission.duration = raw.itemduration;
       var endyear = raw.itemdate2year ? '' + raw.itemdate2year : '';
