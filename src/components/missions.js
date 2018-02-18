@@ -223,23 +223,25 @@ const flags = (countries) => {
   return <p className="mission-country">{flagimages}</p>
 };
 const targets = (destinations) => {
-  const targetlinks = destinations.map(destination => <a href={destination} title={destination} key={destination}>{decodeURIComponent(destination).replace('https://de.wikipedia.org/wiki/','').replace(/_\(\D+\)/gi,' ').replace(/_/gi,' ')}</a>);
+  const targetlinks = destinations.map(destination => <a href={destination} title={destination} key={destination}>{decodeURIComponent(destination).replace('https://de.wikipedia.org/wiki/','').replace(/_\(.+\)/,'').replace(/_/gi,' ')}</a>);
   return <p className="mission-destination">{targetlinks}</p>
 };
 const MissionComponent = ({mission}) => {
   return (
     <div className="mission-row data-row pure-u-1">
       <div className="mission-info pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-2-5 center">
-        <p className="mission-name"><a href={mission.link}>{mission.name}</a></p>
+        <p className="mission-name"><a href={mission.link} title={mission.name}>{mission.name}</a></p>
+        {mission.name2 ? <p className="mission-name2">({mission.name2})</p> : ''}
         {mission.countries.length == 0 ? '' : flags(mission.countries)}
       </div>
       <div className="mission-data pure-u-1 pure-u-sm-1-2 pure-u-md-2-3 pure-u-lg-3-5 center">
-        <div className="mission-data1 pure-u-lg-1-2">
-          <p className="mission-launch">{mission.launchDate}</p>
-          {mission.endDate ? <p className="mission-end"> - {mission.endDate}</p> : ''}
-          {mission.duration ? <p className="mission-duration">({mission.duration})</p> : ''}
+        <div className="mission-data1 pure-u-md-3-5 pure-u-lg-1-2">
+          <p className="mission-launch pure-u-md-7-24 center">{mission.launchDate}</p>
+          {mission.endDate ? <p className="mission-dash pure-u-md-1-24 center"> - </p> : <p className="mission-dash pure-u-md-1-24 center empty"></p>}
+          {mission.endDate ? <p className="mission-end pure-u-md-7-24 center">{mission.endDate}</p> : <p className="mission-end pure-u-md-7-24 center empty"></p>}
+          {mission.duration ? <p className="mission-duration pure-u-md-9-24">({mission.duration})</p> : ''}
         </div>
-        <div className="mission-data2 pure-u-lg-1-2">
+        <div className="mission-data2 pure-u-md-2-5 pure-u-lg-1-2">
           {targets(mission.destinations)}
         </div>
       </div>

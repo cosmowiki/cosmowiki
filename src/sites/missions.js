@@ -23,6 +23,7 @@ class Mission {
     const launchday = raw.itemdateday ? `${raw.itemdateday}.` : '';
     mission.launchDate = `${launchday}${launchmonth}${launchyear}`;
     mission.name = raw.itemname;
+    mission.name2 = raw.itemname2 ? raw.itemname2 : '';
     mission.link = raw.itemurl;
     mission.countries = raw.itemcountry ? raw.itemcountry.split(';').map(country => country.trim()) : [];// not using .split('; ') to avoid errors?
     mission.destinations = raw.itemdestination ? raw.itemdestination.split(';').map(destination => destination.trim()) : [];
