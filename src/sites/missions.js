@@ -24,14 +24,14 @@ class Mission {
     mission.launchDate = `${launchday}${launchmonth}${launchyear}`;
     mission.name = raw.itemname;
     mission.link = raw.itemurl;
-    mission.country = raw.itemcountry;
+    mission.countries = raw.itemcountry ? raw.itemcountry.split(';').map(country => country.trim()) : [];// not using .split('; ') to avoid errors?
+    mission.destinations = raw.itemdestination ? raw.itemdestination.split(';').map(destination => destination.trim()) : [];
     if (raw.itemparent) {
       mission.rocket = new Rocket(raw.itemparent, raw.itemparenturl);
     }
     if (raw.itemlocation) {
       mission.pad = new Pad(raw.itemlocation, raw.itemlocationurl);
     }
-    mission.destination = raw.itemdestination;
     mission.crew = raw.itemcrew;
     mission.duration = raw.itemduration;
     const endyear = raw.itemdate2year ? `${raw.itemdate2year}`: '';

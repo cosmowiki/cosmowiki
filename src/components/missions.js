@@ -218,22 +218,29 @@ const MissionsComponent = ({missions}) => {
 };
 
 export default MissionsComponent;
-
+const flags = (countries) => {
+  const flagimages = countries.map(country => <img src={"/img/flags/" + country + ".png"} alt={country} title={country} key={country} />);
+  return <p className="mission-country">{flagimages}</p>
+};
+const targets = (destinations) => {
+  const targetlinks = destinations.map(destination => <a href={destination} title={destination} key={destination}>{decodeURIComponent(destination).replace('https://de.wikipedia.org/wiki/','').replace(/_\(\D+\)/gi,' ').replace(/_/gi,' ')}</a>);
+  return <p className="mission-destination">{targetlinks}</p>
+};
 const MissionComponent = ({mission}) => {
   return (
     <div className="mission-row data-row pure-u-1">
-      <div className="mission-info pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 center">
+      <div className="mission-info pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-2-5 center">
         <p className="mission-name"><a href={mission.link}>{mission.name}</a></p>
-        {mission.operator ? <p className="mission-operator">({mission.operator} - {mission.country})</p> : <p className="mission-operator">({mission.country})</p>}
+        {mission.countries.length == 0 ? '' : flags(mission.countries)}
       </div>
-      <div className="mission-data pure-u-1 pure-u-sm-1-2 pure-u-md-2-3 center">
-        <div className="mission-data1">
+      <div className="mission-data pure-u-1 pure-u-sm-1-2 pure-u-md-2-3 pure-u-lg-3-5 center">
+        <div className="mission-data1 pure-u-lg-1-2">
           <p className="mission-launch">{mission.launchDate}</p>
           {mission.endDate ? <p className="mission-end"> - {mission.endDate}</p> : ''}
           {mission.duration ? <p className="mission-duration">({mission.duration})</p> : ''}
         </div>
-        <div className="mission-data2">
-          <p className="mission-destination">Ziel: {mission.destination}</p>
+        <div className="mission-data2 pure-u-lg-1-2">
+          {targets(mission.destinations)}
         </div>
       </div>
     </div>

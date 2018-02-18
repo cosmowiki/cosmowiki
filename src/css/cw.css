@@ -227,7 +227,7 @@ main {margin: 34px auto 30px; max-width: 1000px;}
 	#pageSubMenu {margin-bottom: 15px;}
 
 	.module {
-	background: rgba(255, 255, 255, .95);
+	background: rgba(255, 255, 255, .9);
 	border-top: 15px solid #aaf; border-bottom: 15px solid #ccc;
 }
 
@@ -462,11 +462,8 @@ div.summary-img.width-25,
 .notesTable {padding: .25em .5em;}
 
 /*	Footer ------------------------------------------------------------------ */
-footer {
-	position: relative; bottom: 0; left: 0;
-	background: #081422;
-	border-top: 1px solid #666;
-}
+footer {position: relative; bottom: 0; left: 0; background: #081422;}
+
 footer a:link,
 footer a:visited {color: #ccc;}
 footer a:focus,

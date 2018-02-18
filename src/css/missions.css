@@ -5,10 +5,12 @@
 
 .mission-row div {font-size: .9rem;}
 
-.mission-operator {font-size: .65rem;}
+.mission-country {font-size: .75rem;}
+.mission-country img {margin: .25em 0 .25em .25em; height: 12px;}
+.mission-country img:first-child {margin-left: 0;}
 .mission-launch,
 .mission-end {display: inline;}
-.mission-duration {font-size: .65rem;}
+.mission-duration {font-size: .75rem;}
 
 /*	breakpoints ------------------------------------------------------------- */
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
@@ -22,6 +24,17 @@
 	.mission-duration {display: inline;}
 	.mission-duration,
 	.mission-destination {margin-left: 1em;}
+	.mission-destination a {margin-left: .25em;}
+	.mission-destination a:first-child {margin-left: .25em;}
 }
 @media only all and (min-width: 64em) {
+	.mission-info {margin-right: 1em; text-align: right;}
+	.mission-name,
+	.mission-country,
+	.mission-country img {display: inline;}
+	.mission-country {margin-left: .5em;}
+	.mission-country img {margin: 0 0 0 .25em; height: 12px;}
+	.mission-country img:first-child {margin-left: 0;}
+	.mission-data1,
+	.mission-data2 {text-align: left;}
 }
