@@ -36640,6 +36640,8 @@ var targets = function targets(destinations) {
       { href: destination, title: destination, key: destination },
       decodeURIComponent(destination).replace('https://de.wikipedia.org/wiki/', '').replace(/_\(.+\)/, '').replace(/_/gi, ' ')
     );
+  }).map(function (item, index) {
+    return [index > 0 && ', ', item];
   });
   return _react2['default'].createElement(
     'p',
