@@ -223,7 +223,7 @@ const flags = (countries) => {
   return <p className="mission-country">{flagimages}</p>
 };
 const targets = (destinations) => {
-  const targetlinks = destinations.map(destination => <a href={destination} title={destination} key={destination}>{decodeURIComponent(destination).replace('https://de.wikipedia.org/wiki/','').replace(/_\(.+\)/,'').replace(/_/gi,' ')}</a>);
+  const targetlinks = destinations.map(destination => <a href={destination} title={destination} key={destination}>{decodeURIComponent(destination).replace('https://de.wikipedia.org/wiki/','').replace(/_\(.+\)/,'').replace(/_/gi,' ')}</a>).map((item, index) => [index > 0 && ', ', item ]);
   return <p className="mission-destination">{targetlinks}</p>
 };
 const MissionComponent = ({mission}) => {
