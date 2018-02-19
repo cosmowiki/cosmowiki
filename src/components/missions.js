@@ -231,8 +231,8 @@ const MissionComponent = ({mission}) => {
     <div className="mission-row data-row pure-u-1">
       <div className="mission-info pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-2-5 center">
         <p className="mission-name"><a href={mission.link} title={mission.name}>{mission.name}</a></p>
-        {mission.name2 ? <p className="mission-name2">({mission.name2})</p> : ''}
         {mission.countries.length == 0 ? '' : flags(mission.countries)}
+        {mission.name2 ? <p className="mission-name2">({mission.name2})</p> : ''}
       </div>
       <div className="mission-data pure-u-1 pure-u-sm-1-2 pure-u-md-2-3 pure-u-lg-3-5 center">
         <div className="mission-data1 pure-u-md-3-5 pure-u-lg-1-2">
