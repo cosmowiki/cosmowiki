@@ -36634,7 +36634,7 @@ var flags = function flags(countries) {
   );
 };
 var targets = function targets(destinations) {
-  var targetlinks = destinations.map(function (destination) {
+  var targetLinks = destinations.map(function (destination) {
     return _react2['default'].createElement(
       'a',
       { href: destination, title: destination, key: destination },
@@ -36646,7 +36646,7 @@ var targets = function targets(destinations) {
   return _react2['default'].createElement(
     'p',
     { className: 'mission-destination' },
-    targetlinks
+    targetLinks
   );
 };
 var MissionComponent = function MissionComponent(_ref2) {
@@ -43692,24 +43692,21 @@ var Pad = function Pad(name, wikipediaUrl) {
 }
 
 // {
-//     "itemname": "testItem 0123456789",
-//     "itemurl": "https://de.wikipedia.org/wiki/testitem",
-//     "itemdescription": "Sputnik 1 (russisch Спутник für Begleiter (der Erde)) war der erste künstliche Erdsatellit. Mit ihm begann am 4. Oktober 1957 das Zeitalter der Raumfahrt. Der Satellit war zwar von der Sowjetunion für den Verlauf des Internationalen Geophysikalischen Jahres (IGY 1957-58) angekündigt worden, doch rechnete die westliche Fachwelt erst Mitte 1958 mit der Fertigstellung der sowjetischen Entwicklungen und wurde durch den Start überrascht. Auch in der westlichen Öffentlichkeit löste der Start Besorgnisse aus; diese wurden mit dem Begriff Sputnik-Schock benannt. Dieser Sputnik - späteres Synonym für alle sowjetischen Satelliten, auch der Kosmos-Serie und anderer „Sputniks“ - wog 83,6 kg und damit fünfmal mehr als der US-Explorer 1 vom 31. Januar 1958 und war eine mit Stickstoff gefüllte, hochglanzpolierte Aluminiumkugel. Sie bestand aus 2 mm starkem Blech aus der Aluminiumlegierung AlMg6T, hatte 58 cm Durchmesser und zwei Antennenpaare (je 2,4 m bzw. 2,9 m lang) ragten aus ihr heraus. Die Trägerrakete R-7 des Satelliten war eine Weiterentwicklung militärischer Interkontinentalraketen durch den Konstrukteur Sergei Pawlowitsch Koroljow. Der Satellit trug zwei Funksender vom Typ D 200 mit einem Watt Leistung für codierte Kurzwellensignale, in denen Innendruck und -temperatur verschlüsselt waren, auf einer Frequenz von 20,005 und 40,002 MHz, die 21 Tage funktionsfähig blieben. Die „piepsenden“ Signale des Sputnik konnten an sich auf der ganzen Welt empfangen werden, wenn der verwendete Empfänger für die schwachen 1-Watt-Signale empfindlich genug war. Im westlichen Europa konnte dabei ein Astronom den ersten Erfolg verkünden: Heinz Kaminski von der Volkssternwarte Bochum. Nach 92 Tagen trat Sputnik 1 in die dichteren Atmosphärenschichten ein und verglühte am 4. Januar 19507.",
-//     "itemdateyear": "2000",
-//     "itemdatemonth": 10,
-//     "itemdateday": 30,
-//     "itemdate2year": "2000",
-//     "itemdate2month": 12,
-//     "itemdate2day": 30,
-//     "itemduration": "22a 222d",
-//     "itemparent": "testRocket 123",
-//     "itemparenturl": "https://de.wikipedia.org/wiki/testrocket",
-//     "itemcountry": "SU/RU, USA, EU, Japan",
-//     "itemdestination": "Erdorbit, ISS, Mond, Mars",
-//     "itemlocation": "Ba LC-1/5",
-//     "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
-//     "itemlatitude": "45.92",
-//     "itemlongitude": "63.342"
+//     "itemname": "Cassini-Huygens",
+//     "itemurl": "https://de.wikipedia.org/wiki/Cassini-Huygens",
+//     "itemdescription": "Erforschung des Planeten Saturn, seiner Monde - besonders Titan und des RingSonnes, erfolgreicher Saturn-Orbiter Cassini und Titan-Lander Huygens, zwei Venus-Vorbeiflüge am 207.04.1998 und 24.007.19908. Am 1. Juli 2004 schwenkte Cassini in die Umlaufbahn um den Saturn ein, und am 14. Januar 2005 landete Huygens drei Wochen nach der Trennung von Cassini auf Titan und sandte 72 Minuten lang Daten, die das Verständnis über den Mond deutlich verbesserten.",
+//     "itemdateyear": "1997",
+//     "itemdatemonth": "10",
+//     "itemdateday": "15",
+//     "itemduration": "aktiv",
+//     "itemparent": "Titan Centaur 401B",
+//     "itemparenturl": "https://de.wikipedia.org/wiki/Titan_%28Rakete%29",
+//     "itemcountry": "US;ESA;IT",
+//     "itemdestination": "https://de.wikipedia.org/wiki/Saturn_(Planet);https://de.wikipedia.org/wiki/Titan_(Mond)",
+//     "itemlocation": "CCAFS LC-40",
+//     "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_40",
+//     "itemlatitude": "207.562",
+//     "itemlongitude": "--85772"
 // },
 ;
 
