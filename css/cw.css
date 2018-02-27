@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {font-weight: normal;}
 ul {list-style-type: none;}
 
 a {text-decoration: none; cursor: pointer;}
-a, a:link, a:visited {color: #55f; transition: all ease .2s;}
+a, a:link, a:visited {color: #55f; transition: all ease 1s;}
 a img, a:link img, a:visited img {}
 a:focus, a:hover, a:active {color: #d00; transition: all ease .2s;}
 a:focus img, a:hover img, a:active img {}
@@ -74,29 +74,29 @@ a:focus img, a:hover img, a:active img {}
 }*/
 
 /*	side-buttons ---------------------------------------------------------- */
-#sideButtons {
+#scrollButtons {
 	position: fixed; right: 0; bottom: 12%; width: 2.5em; z-index: 5;
 	border-width: 1px 0 1px 1px; border-style: solid; border-color: #fff;
 	transition: all ease .3s;
 }
-#sideButtons:focus,
-#sideButtons:hover,
-#sideButtons:active {border-color: #d00; transition: all ease .3s;}
+#scrollButtons:focus,
+#scrollButtons:hover,
+#scrollButtons:active {border-color: #d00; transition: all ease .3s;}
 
-#sideButtons li {background-color: #ddd; transition: all ease .3s;}
-#sideButtons li:focus,
-#sideButtons li:hover,
-#sideButtons li:active {background-color: #eee; transition: all ease .3s;}
+#scrollButtons li {background-color: #ddd; transition: all ease .3s;}
+#scrollButtons li:focus,
+#scrollButtons li:hover,
+#scrollButtons li:active {background-color: #eee; transition: all ease .3s;}
 
-#sideButtons a {
+#scrollButtons a {
 	display: block; line-height: 1.5em; font-size: 1.5rem; font-family: FontAwesome;
 	text-align: center; overflow: hidden;
 	border-style: solid; border-color: #fff;
 }
-#sideButtons li#scrollUp {border-width: 1px 0 0 1px;}
-#sideButtons li#scrollDown {border-width: 0 0 1px 1px;}
-li#scrollUp a:before {content: '\f102';}
-li#scrollDown a:before {content: '\f103';}
+#scrollButtons li#scrollUp {border-width: 1px 0 0 1px;}
+#scrollButtons li#scrollDown {border-width: 0 0 1px 1px;}
+li#scrollUp a:before {margin-left: -.125em; content: '\f102';}
+li#scrollDown a:before {margin-left: -.125em; content: '\f103';}
 
 
 /*	header ------------------------------------------------------------------ */
@@ -228,7 +228,7 @@ main {margin: 34px auto 30px; max-width: 1000px;}
 
 	.module {
 	background: rgba(255, 255, 255, .9);
-	border-top: 15px solid #aaf; border-bottom: 15px solid #ccc;
+	/*border-top: 15px solid #aaf;*/ border-bottom: 5px solid #ccc;
 }
 
 /*	siteTitle --------------------------------------------------------------- */
@@ -247,7 +247,7 @@ main {margin: 34px auto 30px; max-width: 1000px;}
 #summary {position: relative;}
 
 a#summaryToggle {
-	position: absolute; top: 0; right: 0; margin: .25em .5em .5em;
+	position: absolute; top: 5px; right: 7px;
 	background: transparent;
 }
 a#summaryToggle.expanded:focus:before,
@@ -330,15 +330,16 @@ div.summary-img.width-25,
 	font-size: 1.5rem;
 	background: rgba(255, 255, 255, .8);
 	border-bottom: 1px solid #fff;
+	transition: all ease 1s;
 }
-#pageSubMenu li:first-child,
-#pageSubMenu li:first-child a {border-radius: 5px 5px 0 0;}
-#pageSubMenu li:last-child,
-#pageSubMenu li:last-child a {border-radius: 0 0 5px 5px;}
 #pageSubMenu li:last-child a {border-bottom: none;}
 #pageSubMenu a:focus,
 #pageSubMenu a:hover,
-#pageSubMenu a:active {color: #fff; background: rgba(255, 255, 255, .3);}
+#pageSubMenu a:active {
+	color: #fff;
+	background: rgba(255, 255, 255, .3);
+	transition: all ease .2s;
+}
 
 /*	dataArea ---------------------------------------------------------------- */
 #dataArea {font-size: .9rem;}
@@ -347,6 +348,7 @@ div.summary-img.width-25,
 	font-size: 1.25rem; font-weight: normal;
 	background: rgba(0, 0, 255, .1);
 	border-bottom: 1px solid #fff;
+	transition: all ease 1s;
 }
 
 .data-row {display: inline-block;	border-bottom: 1px solid #fff;}
@@ -354,7 +356,10 @@ div.summary-img.width-25,
 
 .data-row:focus,
 .data-row:hover,
-.data-row:active {background: rgba(255, 255, 255, .5);}
+.data-row:active {
+	background: rgba(255, 255, 255, .5);
+	transition: all ease .2s;
+}
 
 /*	controlArea ------------------------------------------------------------- */
 #controlArea {background: #eee;}
@@ -398,12 +403,12 @@ div.summary-img.width-25,
 	transition: color .2s ease-in-out;
 }
 #toggleAscDesc input:checked ~ .text:before {
-	color: #aaa;
+	color: #ccc;
 	transition: color .2s ease-in-out;
 }
 #toggleAscDesc .text:after {
 	position: absolute; left: 5.25em; bottom: -.375em;
-	color: #aaa; font-family: FontAwesome; content: '\f161';}
+	color: #ccc; font-family: FontAwesome; content: '\f161';}
 #toggleAscDesc input:checked ~ .text:after {
 	color: #55f;
 	transition: color .2s ease-in-out;
@@ -572,18 +577,18 @@ footer #version p {
 }
 
 @media only screen and (min-width: 64em) {
-	#sideButtons {border: none;}
+	#scrollButtons {border: 1px solid #fff;}
 	#mobileMenu {display: none;}
 	#brand,
 	#desktopMenu {display: inline-block;}
 	#brand img {position: absolute; top: 2px; left: 2px;}
 	#desktopMenu ul ul {
-		border-radius: 0 0 5px 5px; box-shadow: 3px 3px 6px rgba(0, 0, 0, .5);
+		/*border-radius: 0 0 5px 5px;*/ box-shadow: 3px 3px 6px rgba(0, 0, 0, .5);
 	}
 	#desktopMenu ul ul li {text-align: left;}
 	#desktopMenu ul ul li a {background: #fff; border-bottom: 1px solid #ddd;}
 	#desktopMenu ul ul li:last-child a {
-		border-bottom: none; border-radius: 0 0 5px 5px;
+		border-bottom: none; /*border-radius: 0 0 5px 5px;*/
 	}
 	#desktopMenu .pure-menu-link:focus,
 	#desktopMenu .pure-menu-link:hover,
@@ -596,7 +601,7 @@ footer #version p {
 	#sideMenu #toggleSearch:focus #search,
 	#sideMenu #toggleSearch:hover #search,
 	#sideMenu #toggleSearch:active #search {display: inline-block;}
-	#sideMenu #search input {width: 33%; border-radius: 5px;}
+	#sideMenu #search input {width: 33%; /*border-radius: 5px;*/}
 	#sideMenu #search input:focus,
 	#sideMenu #search input:hover,
 	#sideMenu #search input:active {width: 50%;}
@@ -609,18 +614,11 @@ footer #version p {
 	#mobileMenus,
 	#navToggle {display: none;}
 
-	#siteTitle,
-	#siteTitleContainer,
-	.module {border-radius: 5px;}
-
 	#controlArea {min-height: 1.5em;}
-	#summary h4 {border-radius: 5px;}
-	.summary-img,
-	.summary-img img {border-radius: 5px;}
 
 	#sitemap {margin: 0 auto; padding: 1em 0; max-width: 1000px; text-align: left;}
 	#sitemap ul {margin-bottom: .5em;}
-	#sitemap ul:nth-of-type(n) li {margin: 0 .25em .5em; border-radius: 5px;}
+	#sitemap ul:nth-of-type(n) li {margin: 0 .25em .5em; /*border-radius: 5px;*/}
 	#sitemap ul:first-child li {margin: 0 .25em 0 0;}
 	#sitemap ul:last-child li {margin: 0 0 0 .25em;}
 	#sitemap a {padding-left: .25em;}
@@ -633,17 +631,8 @@ footer #version p {
 }
 
 @media only screen and (min-width: 1100px) {
-	#sideButtons {
+	#scrollButtons {
 		bottom: 40%; bottom: calc(50% - 2.25em);
-		left: calc(50% + 500px); width: 2.5em;
+		left: calc(50% + 505px); width: 2.5em;
 	}
-	#sideButtons li {border: none; border-radius: 0;}
-	#sideButtons li:first-child {border-radius: 5px 5px 0 0;}
-	#sideButtons li:last-child {border-radius: 0 0 5px 5px;}
 }
-/*main {max-width: inherit; margin-bottom: 25em; z-index: 3; text-align: center; background: #358;}
-#siteTitle,
-#summary,
-#dataArea,
-#notes {max-width: 1000px; margin: 0 auto 15px;}
-footer {position: fixed;}*/

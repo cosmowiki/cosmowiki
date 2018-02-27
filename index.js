@@ -37558,7 +37558,7 @@ var PageComponent = function PageComponent(_ref) {
     { id: 'wrapper', className: 'pure-g' },
     _react2['default'].createElement(
       'div',
-      { id: 'sideButtons' },
+      { id: 'scrollButtons' },
       _react2['default'].createElement(
         'ul',
         null,
@@ -39882,7 +39882,7 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
     { role: 'main', className: 'pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { id: 'siteTitle', className: 'stations pure-u-1 center' },
+      { id: 'siteTitle', className: 'spacestations pure-u-1 center' },
       _react2['default'].createElement(
         'div',
         { id: 'siteTitleContainer' },
@@ -40208,7 +40208,7 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
     ),
     _react2['default'].createElement(
       'div',
-      { id: 'dataArea', className: 'stations module pure-u-1' },
+      { id: 'dataArea', className: 'spacestations module pure-u-1' },
       _react2['default'].createElement(
         'div',
         { id: 'controlArea', className: 'stations pure-u-1' },
@@ -40399,7 +40399,7 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
     { role: 'main', className: 'pure-u-1' },
     _react2['default'].createElement(
       'div',
-      { id: 'siteTitle', className: 'spacetelecopes pure-u-1 center' },
+      { id: 'siteTitle', className: 'spacetelescopes pure-u-1 center' },
       _react2['default'].createElement(
         'div',
         { id: 'siteTitleContainer' },
@@ -40709,7 +40709,7 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
       { id: 'dataArea', className: 'spacetelescopes module pure-u-1' },
       _react2['default'].createElement(
         'div',
-        { id: 'controlArea', className: 'spacetelecopes pure-u-1' },
+        { id: 'controlArea', className: 'spacetelescopes pure-u-1' },
         _react2['default'].createElement(
           'div',
           { id: 'controllers', className: 'pure-u-1' },

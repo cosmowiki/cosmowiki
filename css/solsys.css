@@ -1,6 +1,6 @@
 #pageSubMenu li.solarsystem,
-#siteTitle.solarsystem {
-	background: url('/img/title_solarsystem.jpg') center / cover no-repeat;
+#siteTitle.solar-system {
+	background: url('../img/title_solarsystem.jpg') center / cover no-repeat;
 }
 
 #solarsystemTable {font-size: 1rem;}
@@ -10,7 +10,6 @@
 .type3,
 .type4,
 .type5 {margin-left: 10%; width: 90%;}
-
 
 div.type1,
 div.type2,

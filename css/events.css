@@ -4,6 +4,7 @@
 #timeline {
   position: relative; margin: 0 auto; padding: 1em 0;
 	font-size: .9rem;
+	border-top: 5px solid #aaf;
 }
 /* vertical line */
 #timeline:after {
@@ -31,11 +32,13 @@
 	position: relative; margin-left: 12.5%; width: 82.5%;
 	background: rgba(255, 255, 255, .3);
 	outline: 3px solid #ddd;
+	transition: all ease 1s;
 }
 .event-content:focus,
 .event-content:hover,
 .event-content:active {
 	background-color: rgba(255, 255, 255, .8);
+	transition: all ease .2s;
 }
 .event-content p {padding: .25em .5em;}
 .event-content p:first-child {padding: .5em .5em .25em;}

@@ -4,7 +4,7 @@
 }
 
 .mission-row {padding: .5em 0;}
-.mission-row div {font-size: .9rem;}
+.mission-row div {font-size: 1rem;}
 
 .mission-name2,
 .mission-country,
@@ -33,6 +33,7 @@
 	.mission-duration {display: inline-block;}
 }
 @media only all and (min-width: 64em) {
+	.mission-row {padding: .75em 0;}
 	.mission-info {margin-right: 1em; text-align: right;}
 	.mission-name,
 	.mission-country,

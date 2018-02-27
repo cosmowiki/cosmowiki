@@ -1,6 +1,6 @@
 #pageSubMenu li.spacestations,
 #siteTitle.spacestations {
-	background: url('/img/title_spacestations.jpg') center / cover no-repeat;
+	background: url('../img/title_spacestations.jpg') center / cover no-repeat;
 }
 
 .station-row {padding: .5em 0; font-size: 1rem;}
