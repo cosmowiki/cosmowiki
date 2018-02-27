@@ -6,7 +6,7 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
 
   return (
     <main role="main" className="pure-u-1">
-      <div id="siteTitle" className="spacetelecopes pure-u-1 center">
+      <div id="siteTitle" className="spacetelescopes pure-u-1 center">
         <div id="siteTitleContainer">
           <h1>Weltraumteleskope</h1>
           <h3>Augen und Ohren im All</h3>
@@ -145,7 +145,7 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
         </ul>
       </Summary>
       <div id="dataArea" className="spacetelescopes module pure-u-1">
-        <div id="controlArea" className="spacetelecopes pure-u-1">
+        <div id="controlArea" className="spacetelescopes pure-u-1">
           <div id="controllers" className="pure-u-1">
             <div id="sort" className="spacetelecopes pure-u-1-2 left">
               <a href="#" className="toggle-sort" name="toggle-sort">Sortieren</a>

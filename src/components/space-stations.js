@@ -5,7 +5,7 @@ import {Summary} from './chunks/summary';
 const SpaceStationsComponent = ({spaceStations:stations}) => {
   return (
     <main role="main" className="pure-u-1">
-      <div id="siteTitle" className="stations pure-u-1 center">
+      <div id="siteTitle" className="spacestations pure-u-1 center">
         <div id="siteTitleContainer">
           <h1>Raumstationen</h1>
           <h3>künstliche Habitate im All</h3>
@@ -174,7 +174,7 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
           </li>
         </ul>
       </Summary>
-      <div id="dataArea" className="stations module pure-u-1">
+      <div id="dataArea" className="spacestations module pure-u-1">
         <div id="controlArea" className="stations pure-u-1">
           <div id="controllers" className="pure-u-1">
             <div id="sort" className="stations pure-u-1-2 left">

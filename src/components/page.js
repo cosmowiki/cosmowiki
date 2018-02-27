@@ -5,7 +5,7 @@ import Footer from './footer';
 const PageComponent = ({children, appUrl}) => {
   return (
     <div id="wrapper" className="pure-g">
-      <div id="sideButtons">
+      <div id="scrollButtons">
         <ul>
           <li id="scrollUp">
             <a href="javascript:self.scrollTo(0,0);" title="scroll zum Anfang"></a>
