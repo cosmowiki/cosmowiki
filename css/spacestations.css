@@ -12,6 +12,8 @@
 
 .station-name {margin-top: .5em;}
 .station-operator {font-size: .8rem;}
+.station-operator img {margin: .25em 0 .25em .1em; height: .75rem;}
+.station-operator img:first-child {margin-left: 0;}
 
 /*	breakpoints ------------------------------------------------------------- */
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */

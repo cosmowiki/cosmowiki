@@ -40336,6 +40336,17 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
 
 exports['default'] = SpaceStationsComponent;
 
+var flags = function flags(operators) {
+  var flagimages = operators.map(function (operator) {
+    return _react2['default'].createElement('img', { src: "/img/flags/" + operator + ".png", alt: operator, title: operator, key: operator });
+  });
+  return _react2['default'].createElement(
+    'p',
+    { className: 'station-operator' },
+    flagimages
+  );
+};
+
 var StationComponent = function StationComponent(_ref2) {
   var station = _ref2.spaceStation;
 
@@ -40385,13 +40396,7 @@ var StationComponent = function StationComponent(_ref2) {
             station.name
           )
         ),
-        station.operator ? _react2['default'].createElement(
-          'p',
-          { className: 'station-operator' },
-          '(',
-          station.operator,
-          ')'
-        ) : ''
+        station.operators.length == 0 ? '' : flags(station.operators)
       ),
       _react2['default'].createElement(
         'div',
@@ -43706,10 +43711,10 @@ var Mission = (function () {
       mission.name = raw.itemname;
       mission.name2 = raw.itemname2 ? raw.itemname2 : '';
       mission.link = raw.itemurl;
-      mission.countries = raw.itemcountry ? raw.itemcountry.split(';').map(function (country) {
+      mission.countries = raw.itemcountry ? raw.itemcountry.split(', ').map(function (country) {
         return country.trim();
       }) : []; // not using .split('; ') to avoid errors?
-      mission.destinations = raw.itemdestination ? raw.itemdestination.split(';').map(function (destination) {
+      mission.destinations = raw.itemdestination ? raw.itemdestination.split(', ').map(function (destination) {
         return destination.trim();
       }) : [];
       if (raw.itemparent) {
@@ -44369,7 +44374,9 @@ var SpaceStation = (function () {
       station.imageSrc = raw.itemimgsrc;
       station.imageLicence = raw.itemimglicence;
       station.imageLicenseUrl = raw.itemimglicenceurl;
-      station.operator = raw.itemoperator;
+      station.operators = raw.itemoperator ? raw.itemoperator.split(', ').map(function (operator) {
+        return operator.trim();
+      }) : [];
 
       var launchyear = raw.itemdateyear ? raw.itemdateyear : '';
       var launchmonth = raw.itemdatemonth ? raw.itemdatemonth + '.' : '';
