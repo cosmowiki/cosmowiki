@@ -34336,7 +34336,7 @@ var AstronautsComponent = function AstronautsComponent(_ref) {
 					null,
 					'G-Kräfte'
 				),
-				' während eines Raumfluges zu überstehen, sind ausgiebige Belastungsproben in der Zentrifuge nötig. So traten bei den Starts der US-amerikanischen Space-Shuttles etwa 3 bis 4 g auf, die Kosmonauten in den Sojus-Kapseln sind hingegen bei der Landung bis zu 10 g ausgesetzt.'
+				' während des Starts und der Landung eines Raumfluges zu überstehen, sind ausgiebige Übungen in der Zentrifuge nötig. So traten bei den Starts der US-amerikanischen Space-Shuttles etwa 3 bis 4 g auf, die Kosmonauten in den Sojus-Kapseln sind hingegen bei der Landung bis zu 10 g ausgesetzt.'
 			),
 			_react2['default'].createElement(
 				'div',
@@ -35004,7 +35004,7 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
           null,
           'Pollux'
         ),
-        ' - wir alle kennen mindestens ein Sternbild (Konstellation) und können es aus dem Stehgreif am Nachthimmel finden. Die Figuren weisen seit Jahrhunderten Reisenden den Weg.'
+        ' - wir alle kennen mindestens ein Sternbild und können es aus dem Stehgreif am Nachthimmel finden. Diese Figuren weisen seit Jahrhunderten Reisenden den Weg.'
       ),
       _react2['default'].createElement(
         'div',
@@ -35083,7 +35083,7 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Sternbilder dürften schon in vielen frühgeschichtlichen Kulturen bekannt gewesen sein. Die heute verwendeten haben ihren Ursprung in den 12 Tierkreiszeichen aus Babylonien und dem Ägypten des Altertums. Mitte des 2. Jahrhunderts n. Chr. erstellte ',
+        'Sternbilder dürften schon in vielen frühgeschichtlichen Kulturen bekannt gewesen sein. Die heute verwendeten Konstellationen haben ihren Ursprung in den 12 Tierkreiszeichen aus Babylonien und dem Ägypten des Altertums. Mitte des 2. Jahrhunderts n. Chr. erstellte ',
         _react2['default'].createElement(
           'em',
           null,
@@ -35145,7 +35145,7 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
           null,
           'Frederick de Houtman'
         ),
-        ' zurückgingen. Der Astronomen ',
+        ' zurückgingen. Die Astronomen ',
         _react2['default'].createElement(
           'em',
           null,
@@ -35616,7 +35616,7 @@ var ChronicleComponent = (function (_React$Component) {
           _react2['default'].createElement(
             'p',
             { className: 'summary-text' },
-            'Zeit und Raum waren bestimmbar geworden. Die große Frage der Himmelskunde nach dem Zentrum der Welt bewegte die Astronomen des Mittelalters. Im Spannungsfeld zwischen Wissenschaft und kulturell-religiösen Traditionen setzten sich bahnbrechende Erkenntnisse jedoch nur langsam durch.'
+            'Zeit und Raum waren bestimmbar geworden. Die große Frage der Himmelskunde nach dem Zentrum der Schöpfung bewegte die Astronomen des Mittelalters. Im Spannungsfeld zwischen Wissenschaft und kulturell-religiösen Traditionen setzten sich bahnbrechende Erkenntnisse jedoch nur langsam durch.'
           ),
           _react2['default'].createElement(
             'p',
@@ -35703,7 +35703,7 @@ var ChronicleComponent = (function (_React$Component) {
               null,
               'Dunkle Materie'
             ),
-            ' - immer weiter dringt die Menschheit in die Geheimnissefen des Universums vor. Mit Augen, Ohren und Raumsonden greifen wir nach den Sternen, und jedes gelöste Rätsel wirft neue Fragen auf. Willkommen in der Gegenwart!'
+            ' - immer weiter dringt die Menschheit in die Geheimnisse des Universums vor. Mit Augen, Ohren und Raumsonden greifen wir nach den Sternen, und jedes gelöste Rätsel wirft neue Fragen auf. Willkommen in der Gegenwart!'
           ),
           _react2['default'].createElement(
             'h4',
@@ -36374,19 +36374,31 @@ var MissionsComponent = function MissionsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Doch Raumfahrt ist nicht mehr länger die Domäne von Staaten und Raumfahrtorganisationen. Durch den Einstieg privater Unternehmen gelangen neue Impulse in die Branche. Preisgünstige Konzepte um ins All zu fliegen werden nicht nur den ',
+        'Doch Raumfahrt ist nicht mehr länger die Domäne von Staaten und Raumfahrtorganisationen. Durch den Einstieg privater Unternehmen wie ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Virgin Galactic'
+        ),
+        ', ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Space X'
+        ),
+        ' oder ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Blue Origin'
+        ),
+        ' gelangen neue Impulse in die Branche. Preisgünstige Konzepte um ins All zu fliegen werden nicht nur den ',
         _react2['default'].createElement(
           'em',
           null,
           'Weltraumtourismus'
         ),
-        ' fördern. Die Errichtung einer ',
-        _react2['default'].createElement(
-          'em',
-          null,
-          'Mondbasis'
-        ),
-        ' und großer ',
+        ' fördern. Die Errichtung von Basen auf dem Mond und dem Mars sowie großer ',
         _react2['default'].createElement(
           'em',
           null,
@@ -36446,6 +36458,17 @@ var MissionsComponent = function MissionsComponent(_ref) {
             'Sojus TM-32'
           ),
           ' zur Internationalen Raumstation.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Die Schwerlast-Rakete ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Falcon Heavy'
+          ),
+          ' des Unternehmens Space X startete am 6. Februar 2018 zu ihrem erfolgreichen Jungfernflug.'
         )
       )
     ),
@@ -37655,7 +37678,7 @@ var PeopleComponent = function PeopleComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Naturwissenschaftler und Raumfahrer – seit Jahrtausenden entdecken und erobern sie neue Welten und Räume, sie erkennen Zusammenhänge und Naturgesetze. Als Pioniere erweitern sie ständig den Horizont der Erkenntnis.'
+        'Naturwissenschaftler und Raumfahrer – seit Jahrtausenden entdecken und erobern sie neue Welten und Räume, sie erkennen Zusammenhänge und Naturgesetze. Als Pioniere erweitern sie ständig den Horizont menschlicher Erkenntnis.'
       ),
       _react2['default'].createElement(
         'div',
@@ -37674,7 +37697,7 @@ var PeopleComponent = function PeopleComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Aus Schamanen und Priestern wurden Astrologen und Philosophen, später dann Quantenphysiker und Bordingenieure. Ihr steter Drang nach der Erforschung des Unbekannten sind bis heute der Motor der Wissenschaft.'
+        'Aus Schamanen und Priestern wurden Astrologen und Philosophen, später dann Ingenieure und Quantenphysiker. Ihr steter Drang nach der Erklärung von Beobachtungen und der Erforschung des Unbekannten ist bis heute der Motor der Wissenschaft.'
       ),
       _react2['default'].createElement(
         'p',
@@ -37684,7 +37707,7 @@ var PeopleComponent = function PeopleComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Neben den großen Namen gibt es viele unbekannte Akademiker und Amateure, die im kleinen und großen Maßstab Bedeutendes geleistet haben. Wie Zahnräder in einem Getriebe greifen ihre Arbeiten ineinander und treiben die Wissenschaft voran in Richtung Zukunft.'
+        'Neben den großen Namen gibt es viele unbekannte Akademiker und Amateure, die im kleinen und großen Maßstab Bedeutendes geleistet haben. Wie Zahnräder in einem Getriebe greifen ihre Arbeiten über die Jahrhunderte hinweg ineinander und treiben die Wissenschaft voran in Richtung Zukunft.'
       ),
       _react2['default'].createElement(
         'div',
@@ -37693,7 +37716,7 @@ var PeopleComponent = function PeopleComponent(_ref) {
         _react2['default'].createElement(
           'p',
           { className: 'summary-img-text' },
-          'Aristoteles, A. Shepard, I. Newton, E. Halley, V. Tereschkowa, A. Einstein, N. Kopernikus, J. Gagarin, G. Galilei, S. Hawking, T. Brahe, N. Armstrong'
+          'v.l.n.r.: Aristoteles, Alan Shepard, Isaac Newton, Edmund Halley, Valentina Tereschkowa, Albert Einstein, Nikolaus Kopernikus, Juri Gagarin, Galileo Galilei, Stephen Hawking, Tycho Brahe, Neil Armstrong'
         )
       ),
       _react2['default'].createElement(
@@ -37718,7 +37741,7 @@ var PeopleComponent = function PeopleComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Aus dem Fall eines Apfels ein Naturgesetz abzuleiten, mit akribischer Denkarbeit die Relativität von Raum und Zeit zu formulieren oder jahrzehntelang mit riesigen Detektoren nach Elementarteilchen zu suchen, bringt die Menschheit ebenso voran wie die Ergebnisse biomedizinischer Forschung, die Entwicklung neuer Materialien oder die Reparatur eines Solarpanels an einer Raumstation.'
+        'Aus dem Fall eines Apfels ein Naturgesetz abzuleiten, mit akribischer Denkarbeit die Relativität von Raum und Zeit zu formulieren oder jahrzehntelang mit riesigen Detektoren nach Elementarteilchen zu suchen bringt die Menschheit ebenso voran wie die Ergebnisse biomedizinischer Forschung, die Entwicklung neuer Materialien oder die Reparatur eines Solarpanels an einer Raumstation.'
       ),
       _react2['default'].createElement(
         'p',
@@ -38118,7 +38141,7 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Beobachten und experimentieren, protokollieren und berechnen, schlussfolgern und beweisen - systematisch und gewissenhaft arbeiten Forscher an Schreibtischen, im Labor oder im Observatorium, und doch ist es oft der Zufall, die Inspiration oder der fallende Apfel, der die Lösung bringt. So arbeitet sich die Wissenschaft vor bis an die Grenzen des Begreifbaren, und über all den kleinen und großen Rätseln steht am Ende die eine zentrale Frage nach dem Ursprung der Welt, nach der Schöpfung selbst, nach dem Göttlichen in uns. 42 ;-)'
+        'Beobachten und experimentieren, protokollieren und berechnen, schlussfolgern und beweisen - systematisch und gewissenhaft arbeiten Forscher an Schreibtischen, im Labor oder im Observatorium, und doch ist es oft der Zufall, die Inspiration oder ein fallender Apfel, der die Lösung bringt. So arbeitet sich die Wissenschaft vor bis an die Grenzen des Begreifbaren, und über all den kleinen und großen Rätseln steht am Ende die eine zentrale Frage nach dem Ursprung der Welt, nach der Schöpfung selbst, nach dem Göttlichen in uns. 42 ;-)'
       ),
       _react2['default'].createElement(
         'div',
@@ -38186,7 +38209,7 @@ var ScientistsComponent = function ScientistsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Wie Perlen auf einer Schnur reihen sich die Erkenntnisse über unsere Welt aneinander. Als um 1500 im arabischen Raum der Islam und die Astronomie gleichermaßen ihre höchste Blüte erreichen, explodiert auch in Europa nach den Jahrhunderten des finsteren Mittelalters der Forscherdrang. Von ',
+        'Wie Perlen auf einer Schnur reihen sich die Erkenntnisse über unsere Welt in der Geschichte aneinander. Als um 1500 im arabischen Raum der Islam und die Astronomie gleichermaßen ihre höchste Blüte erreichen, explodiert auch in Europa nach den Jahrhunderten des finsteren Mittelalters der Forscherdrang. Von ',
         _react2['default'].createElement(
           'em',
           null,
@@ -38910,13 +38933,18 @@ var SolarSystemComponent = function SolarSystemComponent() {
           null,
           'Pluto'
         ),
-        ' im Jahr 2006 zum Zwergplanten herabstufte. Die Entfernungen dabei sind riesig. So beträgt der mittlere Abstand zwischen Sonne und Erde ca. 150 Millionen Kilometer, oder eine ',
+        ' im Jahr 2006 zum Zwergplanten herabstufte. Die Entfernungen dabei sind riesig. Der mittlere Abstand zwischen Sonne und Erde beträgt ca. 150 Millionen Kilometer, oder eine ',
         _react2['default'].createElement(
           'em',
           null,
           'Astronomische Einheit'
         ),
-        ' (AU). Die Inneren Planeten Merkur, Venus, Erde und Mars sind Gesteinsplaneten, deren Atmosphären zwischen sehr dicht (Venus) und sehr dünn (Mars) variieren. Merkur verfügt über keine nennenswerte Gashülle. Die sonnenächsten Körper Merkur und Venus besitzen keine Monde, während die Erde von einem und der Mars von den zwei Trabanten ',
+        ' (AU), während Saturn schon etwa zehnmal so weit von der Sonne entfernt ist und Neptun ca. das 30-fache.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Die Inneren Planeten Merkur, Venus, Erde und Mars sind Gesteinsplaneten, deren Atmosphären zwischen sehr dicht (Venus) und sehr dünn (Mars) variieren. Merkur verfügt über keine nennenswerte Gashülle. Die sonnenächsten Körper Merkur und Venus besitzen keine Monde, während die Erde von einem und der Mars von zwei Trabanten - ',
         _react2['default'].createElement(
           'em',
           null,
@@ -39146,6 +39174,17 @@ var SolarSystemComponent = function SolarSystemComponent() {
             'Styx'
           ),
           ' umkreisen Pluto.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Am 19. Oktober 2017 wurde mit dem Asteroiden  ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            '1I/ʻOumuamua'
+          ),
+          ' das erste interstellare Objekt in unserem Sonnensystem entdeckt.'
         )
       )
     ),
@@ -39904,7 +39943,7 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Schon lange sahen Visionäre die Notwendigkeit, das Leben im All zu erproben. Langfristig werden wir wohl längere Reisen durch den Kosmos unternehmen, ob zum Mond oder Mars oder später sogar über die Grenzen unseres Sonnensystems hinaus. Der Aufenthalt im Weltall wird Teil der menschlichen Zukunft sein. Doch wir sind nicht für ein Überleben im All geschaffen. Dort draußen fehlt es an Luft, Wasser und Nahrung, die Strahlung ist hochgradig zellschädigend, und Mikrometeoriten sind eine reale Gefahr. Nach den ersten bemannten Raumflügen der 1960er Jahre wollten wir nun Astronauten auch für längere Zeit in den Weltraum schicken.'
+        'Schon lange sahen Visionäre die Notwendigkeit, das Leben im All zu erproben. Langfristig werden wir wohl längere Reisen durch den Kosmos unternehmen, ob zum Mond oder Mars oder später sogar über die Grenzen unseres Sonnensystems hinaus. Der Aufenthalt im Weltall wird Teil der menschlichen Zukunft sein. Doch wir sind nicht für ein Überleben dort draußen geschaffen. Es fehlt an Luft, Wasser und Nahrung, die Strahlung ist hochgradig zellschädigend, und Mikrometeoriten sind eine reale Gefahr. Dennoch wollten wir nach den ersten bemannten Raumflügen der 1960er Jahre Astronauten auch für längere Zeit in den Weltraum schicken.'
       ),
       _react2['default'].createElement(
         'div',
@@ -39923,7 +39962,7 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Man nehme also Luft zum Atmen, ausreichend Trinkwasser und getrocknete oder auf anderem Weg konservierte Nahrung und Treibstoff, umhülle alles mit einigen Millimetern Aluminiumblech und einer Isolierung gegen die Kälte des Alls und transportiere dieses Gebilde mit einer Rakete auf in einen Orbit um die Erde. Fertig ist das Habitat im All.'
+        'Man nehme also Luft zum Atmen, ausreichend Trinkwasser und getrocknete oder auf anderem Weg konservierte Nahrung und Treibstoff, umhülle alles mit einigen Millimetern Aluminiumblech und einer Isolierung gegen die Kälte des Alls und transportiere dieses Gebilde mit einer Rakete auf einen Orbit um die Erde. Fertig ist das Habitat im All.'
       ),
       _react2['default'].createElement(
         'div',
@@ -39973,7 +40012,7 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
           null,
           'Apollo-Programm'
         ),
-        ' investiert und so den Wettlauf zum Mond gewonnen hatten, konzentrierten sich die Sowjets ab Mitte der 1960er Jahre wieder mehr auf bemannte Raumfahrt im Erdorbit. Mit ',
+        ' investiert und so den Wettlauf zum Mond gewonnen hatten, konzentrierten sich die Sowjets ab Mitte der 1960er Jahre wieder mehr auf die bemannte Raumfahrt im Erdorbit. Mit ',
         _react2['default'].createElement(
           'em',
           null,
@@ -39991,12 +40030,12 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
           null,
           'Skylab'
         ),
-        ' (1973 bis 1979).'
+        ' von 1973 bis 1979.'
       ),
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Eine der wichtigsten Erkenntnisse aus Skylab war die Notwendigkeit, eine Raumstation mit Treibstoff auf einfache Weise wiederzubefüllen. Auch in einer Höhe von 300 bis 400 Kilometern wird das Raumfahrzeug durch die zwar sehr dünne, aber immer noch existierende Erdatmosphäre so stark gebremst, dass die Umlaufbahn in gewissen zeitlichen Abständen angehoben werden muss um einen Absturz zu verhindern.'
+        'Eine der wichtigsten Erkenntnisse aus Skylab war die Notwendigkeit, eine Raumstation mit Treibstoff auf einfache Weise wiederbefüllen zu können. Auch in einer Höhe von 300 bis 400 Kilometern wird das Raumfahrzeug durch die zwar sehr dünne, aber immer noch existierende Erdatmosphäre so stark gebremst, dass die Umlaufbahn in gewissen zeitlichen Abständen angehoben werden muss um einen Absturz zu verhindern.'
       ),
       _react2['default'].createElement(
         'div',
@@ -40015,7 +40054,7 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Ein weiterer, essentieller Bestandteil einer Raumstation sind die Andockstellen. Raumtransporter müssen an die Station andocken können, um die Besatzungen auszutauschen, Material zu liefern und Abfall zu entsorgen oder um weitere Module hinzu zu fügen.'
+        'Ein weiterer, essentieller Bestandteil einer Raumstation sind die Andockstellen. Nur so kann mit Versorgungsschiffen wichtiger Nachschub an Nahrung und Material geliefert, aber auch Abfall entsorgt werden. Raumtransporter docken an Schleusen an und ermöglichen so den Austausch der Besatzungen, und auch die für den schrittweisen Ausbau einer Station erforderlichen Module und Verbundungsknoten müssen miteinander verbunden werden.'
       ),
       _react2['default'].createElement(
         'div',
@@ -40057,7 +40096,7 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
           null,
           'Sarja'
         ),
-        ' - das erste Modul für die Internationale Raumstation ISS aus russischer Produktion wurde Ende 1998 gestartet und legte den Grundstein für das größte aller bisherigen Raumfahrtprojekte. Seit dem ist viel passiert.'
+        ' - das erste ISS-Modul aus russischer Produktion wurde Ende 1998 gestartet und legte den Grundstein für das größte aller bisherigen Raumfahrtprojekte. Seit dem ist viel passiert.'
       ),
       _react2['default'].createElement(
         'div',
@@ -40076,7 +40115,21 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Die ISS wurde kontinuierlich ausgebaut und verfügt heute über mehrere Labor-, Wohn- und Servicemodule, Verbindungsknoten, Luftschleusen für Außenbordeinsätze, Solarmodule mit insgesamt 4500 m² Fläche, einen Roboterarm und mehrere Kräne sowie die berühmte Aussichtskuppel Cupola. Weiterhin existieren etliche Plattformen an den äußeren Strukturen der Station für Experimente im luftleeren Raum.'
+        'Die ISS wurde kontinuierlich ausgebaut und verfügt heute über mehrere Labor-, Wohn- und Servicemodule, Verbindungsknoten, Luftschleusen für Außenbordeinsätze, Solarmodule mit insgesamt 4500 m² Fläche, einen Roboterarm und mehrere Kräne sowie die berühmte Aussichtskuppel Cupola. Weiterhin existieren etliche Plattformen an den äußeren Strukturen der Station für Experimente bei Mikrogravitation im luftleeren Raum.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img size-lg' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/spacestations/Spacecolony3edit.jpeg_lg.jpg', title: 'O’Neill-Kolonie - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/spacestations/Spacecolony3edit.jpeg_sm.jpg', alt: 'O’Neill-Kolonie' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'O’Neill-Kolonie'
+        )
       ),
       _react2['default'].createElement(
         'p',
@@ -40122,13 +40175,13 @@ var SpaceStationsComponent = function SpaceStationsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Eines Tages wird die ISS durch einen Nachfolger abgelöst werden, und in noch fernerer Zukunft werden Menschen große Raumstationen im Orbit um andere Himmelskörper, auf oder sogar unter ihrer Oberfläche errichten. Vielleicht wird es sogar irgendwann einmal die schon 1976 vorgestellten ',
+        'Eines Tages wird die ISS durch einen Nachfolger abgelöst werden müssen, und in noch fernerer Zukunft werden Menschen große Raumstationen im Orbit um andere Himmelskörper, auf oder sogar unter ihrer Oberfläche errichten. Vielleicht wird es sogar eines Tages die schon 1976 vorgestellten ',
         _react2['default'].createElement(
           'em',
           null,
           'O’Neill-Kolonien'
         ),
-        ' geben. Bis dahin ist es noch ein weiter und vor allem teurer Weg, den die Menschheit hoffentlich gemeinsam gehen wird.'
+        ' geben. Doch bis dahin ist es noch ein weiter und vor allem teurer Weg, den die Menschheit nur gemeinsam gehen kann.'
       ),
       _react2['default'].createElement(
         'h4',
@@ -40442,7 +40495,7 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
           null,
           'Hubble-Weltraumteleskop'
         ),
-        ' (HST) im Jahr 2004 der Blick in 13 Milliarden Lichtjahre entfernte Regionen des Weltraums und damit in eine Zeit, in der das Universum geade einmal 800 Millionen Jahre alt war. Es zeigte auf spektakuläre Weise die Leistungsfähigkeit von Teleskopen im All und wurde 2012 vom ',
+        ' (HST) im Jahr 2004 der Blick in 13 Milliarden Lichtjahre entfernte Regionen des Weltraums und damit in eine Zeit, in der das Universum gerade einmal 800 Millionen Jahre alt war. Es zeigte auf spektakuläre Weise die Leistungsfähigkeit von Teleskopen im All und wurde 2012 vom ',
         _react2['default'].createElement(
           'em',
           null,
@@ -40467,7 +40520,7 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Weltraumteleskope, die in extreme Tiefe des Alls blicken, können also Zeitmaschinen sein. Ungestört von atmosphärischen Einflüssen enthüllen sie zum Beispiel, welche Eigenschaften die frühen Galaxien aufwiesen. Doch nicht nur die enorme zeitliche und räumliche Tiefe ist ein wichtiges Forschungsfeld der Astronomen. Auch nicht so extrem weit entfernte, beziehungsweise alte Objekte können Dank der enormen Detailgenauigkeit unserer Augen und Ohren im All genauestens untersucht werden.'
+        'Weltraumteleskope, die in die extreme Tiefe des Alls blicken, können also Zeitmaschinen sein. Ungestört von atmosphärischen Einflüssen enthüllen sie zum Beispiel, welche Eigenschaften die frühen Galaxien aufwiesen. Doch nicht nur die enorme zeitliche und räumliche Tiefe ist ein wichtiges Forschungsfeld der Astronomen. Auch nicht so extrem weit entfernte, beziehungsweise alte Objekte können Dank der enormen Detailgenauigkeit unserer Augen und Ohren im All genauestens untersucht werden.'
       ),
       _react2['default'].createElement(
         'div',
@@ -40497,7 +40550,7 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
           null,
           'Radio Astronomy Explorer A'
         ),
-        ' (1968) erforschte Radioquellen in unserer Heimatgalaxie, der Milchstraße. Auch die Teleskope der folgenden 20 Jahre arbeiteten nicht im Bereich des sichtbaren Lichtes, sondern zeichneten ultraviolettes oder infrarotes Licht, Röntgen- oder Gammastrahlung auf.'
+        ' (1968) erforschte Radioquellen in unserer Heimatgalaxie, der Milchstraße. Auch die Weltraumteleskope der folgenden 20 Jahre arbeiteten nicht im Bereich des sichtbaren Lichtes, sondern zeichneten ultraviolettes oder infrarotes Licht, Röntgen- oder Gammastrahlung auf.'
       ),
       _react2['default'].createElement(
         'div',
@@ -40576,13 +40629,13 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Damit Weltraumteleskope auch von kosmischen Effekten ungestört arbeiten können, müssen sie häufig an speziellen Orten im All, den ',
+        'Damit Weltraumteleskope auch von kosmischen Effekten weitestgehend ungestört arbeiten können, müssen sie häufig an speziellen Orten im All, den ',
         _react2['default'].createElement(
           'em',
           null,
           'Lagrange-Punkten'
         ),
-        ' des Sonne-Erde-Systems, genauer im Orbit um diese Punkte herum, platziert werden. An diesen Punkten heben sich die Anziehungskräfte von Sonne und Erde auf, so dass sehr stabile Beobachtungspositionen ohne umfangreiche Bahnkorrekturen besetzt werden können.'
+        ' des Sonne-Erde-Systems, genauer im Orbit um diese Punkte herum platziert werden. An diesen Punkten heben sich die Anziehungskräfte von Sonne und Erde auf, so dass sehr stabile Beobachtungspositionen ohne umfangreiche Bahnkorrekturen besetzt werden können.'
       ),
       _react2['default'].createElement(
         'div',
@@ -40613,30 +40666,42 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
           null,
           'Planck'
         ),
-        ' zum Teil bis 0,1 Kelvin.'
-      ),
-      _react2['default'].createElement(
-        'p',
-        { className: 'summary-text' },
-        'Von Teleskopen im Weltraum sind auch in der Zukunft spektakuläre Ergebnisse zu erwarten. Wissenschaftler auf der ganzen Welt warten gespannt auf Daten des ',
-        _react2['default'].createElement(
-          'em',
-          null,
-          'James Web Space Telescopes'
-        ),
-        ' (JWST), dem Nachfolger von Hubble, und des ',
-        _react2['default'].createElement(
-          'em',
-          null,
-          'Euclid'
-        ),
-        ' genannten und für das Jahr 2020 geplanten Weltraumteleskops der ',
+        ' zum Teil bis 0,1 Kelvin. Der Lagrange-Punkt L2 bietet hier den zusätzlichen Vorteil des Erdschattens und ist somit bestens für den Betrieb von Infrarot-Weltraumteleskopen geeignet. Die ',
         _react2['default'].createElement(
           'em',
           null,
           'ESA'
         ),
-        '.'
+        ' stationierte nicht nur Planck, sondern auch das Teleskop ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Herschel'
+        ),
+        ' sowie die Raumsonde ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Gaia'
+        ),
+        ' dort, und auch das ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'James Webb Space Telescope'
+        ),
+        ' (JWST) der NASA wird dort plaziert werden.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Von Teleskopen im Weltraum sind auch in der Zukunft spektakuläre Ergebnisse zu erwarten. Wissenschaftler auf der ganzen Welt sind gespannt und hoffen auf einzigartige Daten des JWST und des ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Euclid'
+        ),
+        ' genannten und für das Jahr 2020 geplanten Weltraumteleskops der ESA.'
       ),
       _react2['default'].createElement(
         'h4',
@@ -41413,13 +41478,18 @@ var StarsComponent = function StarsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'In ihnen liefert die ',
+        'Sterne sind Elementfabriken. In ihnen liefert die ',
         _react2['default'].createElement(
           'em',
           null,
           'stellare Kernfusion'
         ),
-        ' durch die Verschmelzung von zumeist Wasserstoff zu Helium gewaltige Energiemengen, die ebenso wie ihre kräftigen Magnetfelder weit ins All hinein wirken. Befinden sich in stabilen Umlaufbahnen um einen Stern sogar Planeten, deren Materie ohne frühere, bereits gestorbene Sterne nicht existieren würde, kann die abgestrahlte Energie dort Leben ermöglichen oder auch dauerhaft verhindern. Sonnensysteme mit nur einem Zentralstern wie das unsere sind eher die Seltenheit. Schätzungsweise zwei Drittel aller Sterne haben einen oder sogar mehrere Geschwister, die oft um ein gemeinsames Zentrum kreisen.'
+        ' durch die Verschmelzung von Wasserstoff zu Helium gewaltige Energiemengen, die auch in Form von extrem kräftigen Magnetfeldern weit ins All hinein wirken. Doch nicht nur leichte Elemente wie Helium, Kohlenstoff oder Eisen verdanken wir stellaren Prozessen. Endet ein Stern in einer Supernova, einer gewaltigen Explosion, "erbrütet" er dabei auch schwerere Elemente wie etwa Kupfer, Gold oder Uran. Planeten, ihre Monde, Asteroiden und Kometen und letztlich wir selbst sind also Produkte von Sternen. Wir sind Sternenstaub ;-)'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Die von einem Stern abgestrahlte Energie kann auf Planeten Leben ermöglichen oder auch dauerhaft verhindern. Sonnensysteme mit nur einem Zentralstern wie das unsere sind eher die Seltenheit. Schätzungsweise zwei Drittel aller Sterne haben ein oder sogar mehrere Geschwister, die oft um ein gemeinsames Zentrum kreisen.'
       ),
       _react2['default'].createElement(
         'div',
@@ -41469,7 +41539,7 @@ var StarsComponent = function StarsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Mit bloßem Auge sind von der Erde aus höchstens 5000 bis 6000 Sterne zu erkennen. Der Mensch sah in ihnen Götter, er verband sie zu Sternbildern und nutzt sie bis heute zur Navigation. Die ersten Namen von Sternen, die heute noch gebräuchlich sind, stammen oft aus der arabischen oder griechisch-hellenistischen Antike, so zum Beispiel Beteigeuze oder Sirius. Neuere Bezeichnungen entstanden mit der Erstellung großer ',
+        'Mit bloßem Auge sind von der Erde aus höchstens 5000 bis 6000 Sterne zu erkennen. Der Mensch sah in ihnen Götter, er verband sie zu Sternbildern und nutzt sie bis heute zur Navigation - auf der Erde und in der Raumfahrt. Die ältesten Namen von Sternen, die heute noch gebräuchlich sind, stammen oft aus der arabischen oder griechisch-hellenistischen Antike, so zum Beispiel Beteigeuze oder Sirius. Neuere Bezeichnungen entstanden mit der Erstellung großer ',
         _react2['default'].createElement(
           'em',
           null,
@@ -41525,7 +41595,7 @@ var StarsComponent = function StarsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Von der Frühgeschichte des Menschen bis heute beobachten, katalogisieren und vermessen wir also Sterne. Schon im Altertum wurden dazu von China über Ägypten bis nach Südamerika große Observatorien errichtet. Heute bauen wir riesige ',
+        'Von der Frühgeschichte des Menschen bis heute beobachten, katalogisieren und vermessen wir also Sterne. Schon die ersten Hochkulturen errichteten in China, Ägypten und Südamerika große Observatorien. Heute bauen wir riesige ',
         _react2['default'].createElement(
           'em',
           null,
@@ -41562,7 +41632,7 @@ var StarsComponent = function StarsComponent(_ref) {
       _react2['default'].createElement(
         'p',
         { className: 'summary-text' },
-        'Mit ihnen entstehen nicht nur phantastische Aufnahmen, die uns begeistern. Vor allem geht es um die Bestimmung von Eigenschaften wie Leuchtkraft und Alter, Größe, Masse, Zusammensetzung und Bewegung. Der Lebenszyklus von Sternen kann heute schon gut beschrieben werden. Astronomen setzen die gewonnenen Informationen zueinander ins Verhältnis und teilen Sterne danach in verschiedene Klassen ein. Daraus gingen wichtige Darstellungen wie beispielsweise das ',
+        'Mit ihnen entstehen nicht nur phantastische Aufnahmen, die uns begeistern. Vor allem geht es um die Bestimmung von Eigenschaften wie Leuchtkraft und Alter, Größe, Masse, Zusammensetzung und Bewegung der Sterne. Ihr Lebenszyklus kann heute schon gut beschrieben werden. Astronomen setzen die gewonnenen Informationen zueinander ins Verhältnis und teilen Sterne danach in verschiedene Klassen ein. Daraus gingen wichtige Darstellungen wie beispielsweise das ',
         _react2['default'].createElement(
           'em',
           null,
@@ -41609,7 +41679,7 @@ var StarsComponent = function StarsComponent(_ref) {
           null,
           'Pulsare'
         ),
-        ' geben den Forschern bis heute noch viele Rätsel auf und bleiben dadurch absolut spannend.'
+        ' geben jedoch den Forschern immer noch noch viele Rätsel auf und bleiben dadurch absolut spannend.'
       ),
       _react2['default'].createElement(
         'h4',
@@ -41649,7 +41719,7 @@ var StarsComponent = function StarsComponent(_ref) {
         _react2['default'].createElement(
           'li',
           null,
-          'Sirius, der schon vor 5000 Jahren in Ägypten eine kalendarische Funktion hatte, ist mit −1,46 mag der hellste Stern am Nachthimmel.'
+          'Sirius, der schon um 5000 v. Chr. in Ägypten eine kalendarische Funktion hatte, ist mit −1,46 mag der hellste Stern am Nachthimmel.'
         )
       )
     ),
