@@ -219,6 +219,10 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
 };
 
 export default SpaceStationsComponent;
+const flags = (operators) => {
+  const flagimages = operators.map(operator => <img src={"/img/flags/" + operator + ".png"} alt={operator} title={operator} key={operator} />);
+  return <p className="station-operator">{flagimages}</p>
+};
 
 const StationComponent = ({spaceStation:station}) => {
   return (
@@ -231,7 +235,7 @@ const StationComponent = ({spaceStation:station}) => {
       <div className="station-info pure-u-1 pure-u-sm-2-3 center">
         <div className="station-info1 pure-u-1 pure-u-md-1-2">
           <p className="station-name"><a href={station.wikipediaUrl} title={station.name}>{station.name}</a></p>
-          {station.operator ? <p className="station-operator">({station.operator})</p> : ''}
+          {station.operators.length == 0 ? '' : flags(station.operators)}
           </div>
         <div className="station-info2 pure-u-1 pure-u-md-1-2">
           {station.duration ? <p className="station-duration">Zeit im All: {station.duration}</p> : ''}

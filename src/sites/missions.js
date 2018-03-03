@@ -25,8 +25,8 @@ class Mission {
     mission.name = raw.itemname;
     mission.name2 = raw.itemname2 ? raw.itemname2 : '';
     mission.link = raw.itemurl;
-    mission.countries = raw.itemcountry ? raw.itemcountry.split(';').map(country => country.trim()) : [];// not using .split('; ') to avoid errors?
-    mission.destinations = raw.itemdestination ? raw.itemdestination.split(';').map(destination => destination.trim()) : [];
+    mission.countries = raw.itemcountry ? raw.itemcountry.split(', ').map(country => country.trim()) : [];// not using .split('; ') to avoid errors?
+    mission.destinations = raw.itemdestination ? raw.itemdestination.split(', ').map(destination => destination.trim()) : [];
     if (raw.itemparent) {
       mission.rocket = new Rocket(raw.itemparent, raw.itemparenturl);
     }

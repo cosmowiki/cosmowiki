@@ -25,7 +25,7 @@ class SpaceStation {
     station.imageSrc = raw.itemimgsrc;
     station.imageLicence = raw.itemimglicence;
     station.imageLicenseUrl = raw.itemimglicenceurl;
-    station.operator = raw.itemoperator;
+    station.operators = raw.itemoperator ? raw.itemoperator.split(', ').map(operator => operator.trim()) : [];
 
     const launchyear = raw.itemdateyear ? raw.itemdateyear : '';
     const launchmonth = raw.itemdatemonth ? `${raw.itemdatemonth}.` : '';
