@@ -17,9 +17,9 @@ const ConstellationsComponent = ({constellations}) => {
       <Summary>
         <p className="summary-text">
           <em>Orion</em>, <em>Kassiopeia</em> oder die beiden <em>Zwillinge</em> <em>Castor</em> und <em>Pollux</em> -
-          wir alle kennen mindestens ein Sternbild (Konstellation) und können es
-          aus dem Stehgreif am Nachthimmel finden. Die Figuren weisen seit Jahrhunderten
-          Reisenden den Weg.
+          wir alle kennen mindestens ein Sternbild und können es aus dem Stehgreif
+          am Nachthimmel finden. Diese Figuren weisen seit Jahrhunderten Reisenden
+          den Weg.
         </p>
         <div className="summary-img size-lg">
           <a href="/img/constellations/Ursa_Major_(Bode).jpg" title="Großer Bär, Kupferstich aus dem Sternatlas von Johann Elert Bode - Großansicht">
@@ -53,12 +53,12 @@ const ConstellationsComponent = ({constellations}) => {
         </p>
         <p className="summary-text">
           Sternbilder dürften schon in vielen frühgeschichtlichen Kulturen bekannt
-          gewesen sein. Die heute verwendeten haben ihren Ursprung in den 12 Tierkreiszeichen
-          aus Babylonien und dem Ägypten des Altertums. Mitte des 2. Jahrhunderts
-          n. Chr. erstellte <em>Claudius Ptolemäus</em> dann mit dem <em>Almagest</em> eines
-          der größten Werke der antiken Astronomie. Dieses für die folgenden 1500
-          Jahre prägende Lehrbuch enthielt auch einen Sternenkatalog mit Angaben
-          zu 1025 Sternen in 48 Sternbildern.
+          gewesen sein. Die heute verwendeten Konstellationen haben ihren Ursprung
+          in den 12 Tierkreiszeichen aus Babylonien und dem Ägypten des Altertums.
+          Mitte des 2. Jahrhunderts n. Chr. erstellte <em>Claudius Ptolemäus</em> dann
+          mit dem <em>Almagest</em> eines der größten Werke der antiken Astronomie.
+          Dieses für die folgenden 1500 Jahre prägende Lehrbuch enthielt auch einen
+          Sternenkatalog mit Angaben zu 1025 Sternen in 48 Sternbildern.
         </p>
         <div className="summary-img">
           <a href="/img/constellations/Planisphaerium_Coeleste_lg.jpg" title="Planisphaerium Coeleste von Georg Christoph Eimmart, 1705 - Großansicht">
@@ -73,7 +73,7 @@ const ConstellationsComponent = ({constellations}) => {
           <em>Johann Bayer</em> übernahm dann 1603 in seiner <em>Uranometria</em> einige
           Konstellationen aus Himmelsgloben des <em>Petrus Plancius</em>, die auf
           die niederländischen Navigatoren <em>Pieter Dirkszoon Keyser</em> und <em>Frederick
-          de Houtman</em> zurückgingen. Der Astronomen <em>Johannes
+          de Houtman</em> zurückgingen. Die Astronomen <em>Johannes
           Hevelius</em> und <em>Nicolas-Louis de Lacaille</em> fügten weitere hinzu.
         </p>
         <p className="summary-text">

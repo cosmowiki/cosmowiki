@@ -23,7 +23,7 @@ const PeopleComponent = ({groupedPeople}) => {
         <p className="summary-text">
           Naturwissenschaftler und Raumfahrer – seit Jahrtausenden entdecken und
           erobern sie neue Welten und Räume, sie erkennen Zusammenhänge und Naturgesetze.
-          Als Pioniere erweitern sie ständig den Horizont der Erkenntnis.
+          Als Pioniere erweitern sie ständig den Horizont menschlicher Erkenntnis.
         </p>
         <div className="summary-img float-right size-lg">
           <a href="/img/persons/claudius_ptolemaeus_lg.jpg" title="Claudius Ptolemäus aus der Margarita Philosophica von Gregor Reisch - Großansicht">
@@ -35,8 +35,9 @@ const PeopleComponent = ({groupedPeople}) => {
         </div>
         <p className="summary-text">
           Aus Schamanen und Priestern wurden Astrologen und Philosophen, später
-          dann Quantenphysiker und Bordingenieure. Ihr steter Drang nach der Erforschung
-          des Unbekannten sind bis heute der Motor der Wissenschaft.
+          dann Ingenieure und Quantenphysiker. Ihr steter Drang nach der Erklärung
+          von Beobachtungen und der Erforschung des Unbekannten ist bis heute der
+          Motor der Wissenschaft.
         </p>
         <p className="summary-text">
           Sie stellen die entscheidenden Fragen und suchen nach deren Antworten.
@@ -48,13 +49,15 @@ const PeopleComponent = ({groupedPeople}) => {
         <p className="summary-text">
           Neben den großen Namen gibt es viele unbekannte Akademiker und Amateure,
           die im kleinen und großen Maßstab Bedeutendes geleistet haben. Wie Zahnräder
-          in einem Getriebe greifen ihre Arbeiten ineinander und treiben die Wissenschaft
-          voran in Richtung Zukunft.
+          in einem Getriebe greifen ihre Arbeiten über die Jahrhunderte hinweg ineinander
+          und treiben die Wissenschaft voran in Richtung Zukunft.
         </p>
         <div className="summary-img width-75 center">
           <img src="/img/persons/people_collage.jpg" alt="Collage berühmter Personen" />
           <p className="summary-img-text">
-            Aristoteles, A. Shepard, I. Newton, E. Halley, V. Tereschkowa, A. Einstein, N. Kopernikus, J. Gagarin, G. Galilei, S. Hawking, T. Brahe, N. Armstrong
+            v.l.n.r.: Aristoteles, Alan Shepard, Isaac Newton, Edmund Halley, Valentina
+            Tereschkowa, Albert Einstein, Nikolaus Kopernikus, Juri Gagarin, Galileo
+            Galilei, Stephen Hawking, Tycho Brahe, Neil Armstrong
           </p>
         </div>
         <p className="summary-text">
@@ -74,7 +77,7 @@ const PeopleComponent = ({groupedPeople}) => {
         <p className="summary-text">
           Aus dem Fall eines Apfels ein Naturgesetz abzuleiten, mit akribischer
           Denkarbeit die Relativität von Raum und Zeit zu formulieren oder jahrzehntelang
-          mit riesigen Detektoren nach Elementarteilchen zu suchen, bringt die Menschheit
+          mit riesigen Detektoren nach Elementarteilchen zu suchen bringt die Menschheit
           ebenso voran wie die Ergebnisse biomedizinischer Forschung, die Entwicklung
           neuer Materialien oder die Reparatur eines Solarpanels an einer Raumstation.
         </p>

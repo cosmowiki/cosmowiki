@@ -17,11 +17,11 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
           Langfristig werden wir wohl längere Reisen durch den Kosmos unternehmen,
           ob zum Mond oder Mars oder später sogar über die Grenzen unseres Sonnensystems
           hinaus. Der Aufenthalt im Weltall wird Teil der menschlichen Zukunft sein.
-          Doch wir sind nicht für ein Überleben im All geschaffen. Dort
-          draußen fehlt es an Luft, Wasser und Nahrung, die Strahlung ist hochgradig
-          zellschädigend, und Mikrometeoriten sind eine reale Gefahr. Nach den ersten
-          bemannten Raumflügen der 1960er Jahre wollten wir nun Astronauten auch
-          für längere Zeit in den Weltraum schicken.
+          Doch wir sind nicht für ein Überleben dort draußen geschaffen. Es fehlt
+          an Luft, Wasser und Nahrung, die Strahlung ist hochgradig zellschädigend,
+          und Mikrometeoriten sind eine reale Gefahr. Dennoch wollten wir nach den
+          ersten bemannten Raumflügen der 1960er Jahre Astronauten auch für längere
+          Zeit in den Weltraum schicken.
         </p>
         <div className="summary-img size-lg">
           <a href="/img/spacestations/Von_Braun_1952_Space_Station_Concept_lg.jpg" title="Konzept einer Raumstation, v. Braun - Großansicht">
@@ -36,7 +36,7 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
           oder auf anderem Weg konservierte Nahrung und Treibstoff, umhülle alles
           mit einigen Millimetern Aluminiumblech und einer Isolierung gegen die
           Kälte des Alls und transportiere dieses Gebilde mit einer Rakete auf
-          in einen Orbit um die Erde. Fertig ist das Habitat im All.
+          einen Orbit um die Erde. Fertig ist das Habitat im All.
         </p>
         <div className="summary-img">
           <a href="/img/spacestations/Salyut_1_lg.png" title="Saljut 1 mit Sojus-Raumschiff - Großansicht">
@@ -66,15 +66,15 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
         <p className="summary-text">
           Nachdem die Amerikaner viel Arbeit und Energie in das <em>Apollo-Programm</em> investiert
           und so den Wettlauf zum Mond gewonnen hatten, konzentrierten
-          sich die Sowjets ab Mitte der 1960er Jahre wieder mehr auf bemannte Raumfahrt
-          im Erdorbit. Mit <em>Saljut 1</em> (1971) bis <em>Saljut 7</em> (1982 bis 1986)
-          sammelten sie enorm wichtige Erfahrungen über Langzeitaufenthalte und den Bau komplexer
-          Strukturen im All. Die erste und bisher einzige US-amerikanische Raumstation
-          war <em>Skylab</em> (1973 bis 1979).
+          sich die Sowjets ab Mitte der 1960er Jahre wieder mehr auf die bemannte
+          Raumfahrt im Erdorbit. Mit <em>Saljut 1</em> (1971) bis <em>Saljut 7</em> (1982
+            bis 1986) sammelten sie enorm wichtige Erfahrungen über Langzeitaufenthalte
+            und den Bau komplexer Strukturen im All. Die erste und bisher einzige
+            US-amerikanische Raumstation war <em>Skylab</em> von 1973 bis 1979.
         </p>
         <p className="summary-text">
           Eine der wichtigsten Erkenntnisse aus Skylab war die Notwendigkeit, eine
-          Raumstation mit Treibstoff auf einfache Weise wiederzubefüllen.
+          Raumstation mit Treibstoff auf einfache Weise wiederbefüllen zu können.
           Auch in einer Höhe von 300 bis 400 Kilometern wird das Raumfahrzeug durch
           die zwar sehr dünne, aber immer noch existierende Erdatmosphäre so stark
           gebremst, dass die Umlaufbahn in gewissen zeitlichen Abständen angehoben
@@ -90,9 +90,11 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
         </div>
         <p className="summary-text">
           Ein weiterer, essentieller Bestandteil einer Raumstation sind die Andockstellen.
-          Raumtransporter müssen an die Station andocken können, um die Besatzungen
-          auszutauschen, Material zu liefern und Abfall zu entsorgen oder um weitere
-          Module hinzu zu fügen.
+          Nur so kann mit Versorgungsschiffen wichtiger Nachschub an Nahrung und
+          Material geliefert, aber auch Abfall entsorgt werden. Raumtransporter
+          docken an Schleusen an und ermöglichen so den Austausch der Besatzungen,
+          und auch die für den schrittweisen Ausbau einer Station erforderlichen
+          Module und Verbundungsknoten müssen miteinander verbunden werden.
         </p>
         <div className="summary-img size-xxl">
           <a href="/img/spacestations/ISS_June_1999_lg.jpg" title="ISS 1999, Sarja und Unity - Großansicht">
@@ -112,10 +114,10 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
           im Weltraum von <em>Waleri Poljakow</em> mit 437 Tagen.
         </p>
         <p className="summary-text">
-          Nach beinahe 20 Jahren Planung war es dann soweit. <em>Sarja</em> - das erste Modul
-          für die Internationale Raumstation ISS aus russischer Produktion wurde
-          Ende 1998 gestartet und legte den Grundstein für das größte aller bisherigen
-          Raumfahrtprojekte. Seit dem ist viel passiert.
+          Nach beinahe 20 Jahren Planung war es dann soweit. <em>Sarja</em> - das
+          erste ISS-Modul aus russischer Produktion wurde Ende 1998 gestartet und
+          legte den Grundstein für das größte aller bisherigen Raumfahrtprojekte.
+          Seit dem ist viel passiert.
         </p>
         <div className="summary-img">
           <a href="/img/spacestations/ISS_configuration_2017-06_de.svg_lg.png" title="ISS, Stand 2017 - Großansicht">
@@ -131,8 +133,16 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
           Außenbordeinsätze, Solarmodule mit insgesamt 4500 m² Fläche, einen
           Roboterarm und mehrere Kräne sowie die berühmte Aussichtskuppel Cupola.
           Weiterhin existieren etliche Plattformen an den äußeren Strukturen der
-          Station für Experimente im luftleeren Raum.
+          Station für Experimente bei Mikrogravitation im luftleeren Raum.
         </p>
+        <div className="summary-img size-lg">
+          <a href="/img/spacestations/Spacecolony3edit.jpeg_lg.jpg" title="O’Neill-Kolonie - Großansicht">
+            <img src="/img/spacestations/Spacecolony3edit.jpeg_sm.jpg" alt="O’Neill-Kolonie" />
+          </a>
+          <p className="summary-img-text">
+            O’Neill-Kolonie
+          </p>
+        </div>
         <p className="summary-text">
           Für den Betrieb und die Versorgung großer Habitate im All ist internationale
           Kooperation nötig. Russland (<em>Roskosmos</em>), die USA (<em>NASA</em>),
@@ -143,12 +153,12 @@ const SpaceStationsComponent = ({spaceStations:stations}) => {
           zunehmend in diese gewaltigen Projekte mit ein.
         </p>
         <p className="summary-text">
-          Eines Tages wird die ISS durch einen Nachfolger abgelöst werden, und
-          in noch fernerer Zukunft werden Menschen große Raumstationen im Orbit um andere
-          Himmelskörper, auf oder sogar unter ihrer Oberfläche errichten. Vielleicht
-          wird es sogar irgendwann einmal die schon 1976 vorgestellten <em>O’Neill-Kolonien</em> geben.
-          Bis dahin ist es noch ein weiter und vor allem teurer Weg, den die Menschheit
-          hoffentlich gemeinsam gehen wird.
+          Eines Tages wird die ISS durch einen Nachfolger abgelöst werden müssen,
+          und in noch fernerer Zukunft werden Menschen große Raumstationen im Orbit
+          um andere Himmelskörper, auf oder sogar unter ihrer Oberfläche errichten.
+          Vielleicht wird es sogar eines Tages die schon 1976 vorgestellten <em>O’Neill-Kolonien</em> geben.
+          Doch bis dahin ist es noch ein weiter und vor allem teurer Weg, den die
+          Menschheit nur gemeinsam gehen kann.
         </p>
         <h4>Wussten Sie schon?</h4>
         <ul className="summary-list">

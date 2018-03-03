@@ -79,7 +79,7 @@ const ScientistsComponent = ({groupedScientists}) => {
           Beobachten und experimentieren, protokollieren und berechnen, schlussfolgern
           und beweisen - systematisch und gewissenhaft arbeiten Forscher an Schreibtischen,
           im Labor oder im Observatorium, und doch ist es oft der Zufall, die Inspiration
-          oder der fallende Apfel, der die Lösung bringt. So arbeitet sich die Wissenschaft
+          oder ein fallender Apfel, der die Lösung bringt. So arbeitet sich die Wissenschaft
           vor bis an die Grenzen des Begreifbaren, und über all den kleinen und
           großen Rätseln steht am Ende die eine zentrale Frage nach dem Ursprung
           der Welt, nach der Schöpfung selbst, nach dem Göttlichen in uns. 42 ;-)
@@ -110,9 +110,9 @@ const ScientistsComponent = ({groupedScientists}) => {
         </div>
         <p className="summary-text">
           Wie Perlen auf einer Schnur reihen sich die Erkenntnisse über unsere Welt
-          aneinander. Als um 1500 im arabischen Raum der Islam und die Astronomie
-          gleichermaßen ihre höchste Blüte erreichen, explodiert auch in Europa
-          nach den Jahrhunderten des finsteren Mittelalters der Forscherdrang.
+          in der Geschichte aneinander. Als um 1500 im arabischen Raum der Islam
+          und die Astronomie gleichermaßen ihre höchste Blüte erreichen, explodiert
+          auch in Europa nach den Jahrhunderten des finsteren Mittelalters der Forscherdrang.
           Von <em>Regiomontanus</em>, <em>Nikolaus Kopernikus</em> und <em>Tycho
           Brahe</em> zieht sich eine Linie über <em>Johann Bayer</em>, <em>Johannes
           Kepler</em> und <em>Galileo Galilei</em> bis hin zu <em>Christiaan

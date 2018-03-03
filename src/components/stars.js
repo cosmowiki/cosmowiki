@@ -38,15 +38,21 @@ const StarsComponent = ({groupedStars, constellations}) => {
           </p>
         </div>
         <p className="summary-text">
-          In ihnen liefert die <em>stellare Kernfusion</em> durch die Verschmelzung
-          von zumeist Wasserstoff zu Helium gewaltige Energiemengen, die ebenso
-          wie ihre kräftigen Magnetfelder weit ins All hinein wirken. Befinden sich
-          in stabilen Umlaufbahnen um einen Stern sogar Planeten, deren Materie
-          ohne frühere, bereits gestorbene Sterne nicht existieren würde, kann die
-          abgestrahlte Energie dort Leben ermöglichen oder auch dauerhaft verhindern.
-          Sonnensysteme mit nur einem Zentralstern wie das unsere sind eher die Seltenheit.
-          Schätzungsweise zwei Drittel aller Sterne haben einen oder sogar mehrere Geschwister,
-          die oft um ein gemeinsames Zentrum kreisen.
+          Sterne sind Elementfabriken. In ihnen liefert die <em>stellare Kernfusion</em> durch
+          die Verschmelzung von Wasserstoff zu Helium gewaltige Energiemengen, die
+          auch in Form von extrem kräftigen Magnetfeldern weit ins All hinein wirken.
+          Doch nicht nur leichte Elemente wie Helium, Kohlenstoff oder Eisen verdanken
+          wir stellaren Prozessen. Endet ein Stern in einer Supernova, einer gewaltigen
+          Explosion, "erbrütet" er dabei auch schwerere Elemente wie etwa Kupfer,
+          Gold oder Uran. Planeten, ihre Monde, Asteroiden und Kometen und letztlich
+          wir selbst sind also Produkte von Sternen. Wir sind Sternenstaub ;-)
+        </p>
+        <p className="summary-text">
+          Die von einem Stern abgestrahlte Energie kann auf Planeten Leben ermöglichen
+          oder auch dauerhaft verhindern. Sonnensysteme mit nur einem Zentralstern wie das
+          unsere sind eher die Seltenheit. Schätzungsweise zwei Drittel aller Sterne
+          haben ein oder sogar mehrere Geschwister, die oft um ein gemeinsames
+          Zentrum kreisen.
         </p>
         <div className="summary-img">
           <a href="/img/stars/cluster_ngc1783_lg.jpg" title="Sternhaufen NGC 1783 - Großansicht">
@@ -68,10 +74,11 @@ const StarsComponent = ({groupedStars, constellations}) => {
         <p className="summary-text">
           Mit bloßem Auge sind von der Erde aus höchstens 5000 bis 6000 Sterne zu
           erkennen. Der Mensch sah in ihnen Götter, er verband sie zu Sternbildern
-          und nutzt sie bis heute zur Navigation. Die ersten Namen von Sternen,
-          die heute noch gebräuchlich sind, stammen oft aus der arabischen oder
-          griechisch-hellenistischen Antike, so zum Beispiel Beteigeuze oder Sirius.
-          Neuere Bezeichnungen entstanden mit der Erstellung großer <em>Himmelsatlanten</em> und <em>Sternenkataloge</em>,
+          und nutzt sie bis heute zur Navigation - auf der Erde und in der Raumfahrt.
+          Die ältesten Namen von Sternen, die heute noch gebräuchlich sind, stammen
+          oft aus der arabischen oder griechisch-hellenistischen Antike, so zum
+          Beispiel Beteigeuze oder Sirius. Neuere Bezeichnungen entstanden mit der
+          Erstellung großer <em>Himmelsatlanten</em> und <em>Sternenkataloge</em>,
           wie der <em>Uranometria</em> von <em>Johann Bayer</em> (1603) oder dem <em>Hipparcos-Katalog</em> (HIP).
         </p>
         <div className="summary-img size-md">
@@ -85,10 +92,10 @@ const StarsComponent = ({groupedStars, constellations}) => {
         </div>
         <p className="summary-text">
           Von der Frühgeschichte des Menschen bis heute beobachten, katalogisieren
-          und vermessen wir also Sterne. Schon im Altertum wurden dazu von China
-          über Ägypten bis nach Südamerika große Observatorien errichtet. Heute
-          bauen wir riesige <em>Radioteleskope</em>, wie zum Beispiel das <em>Very
-          Large Array</em> (VLA) in New Mexico, oder wir schicken Weltraumteleskope
+          und vermessen wir also Sterne. Schon die ersten Hochkulturen errichteten
+          in China, Ägypten und Südamerika große Observatorien. Heute bauen wir
+          riesige <em>Radioteleskope</em>, wie zum Beispiel das <em>Very Large
+          Array</em> (VLA) in New Mexico, oder wir schicken Weltraumteleskope
           ins All, die Röntgenstrahlen, Mikrowellen oder einen großen Bereich des
           Lichtspektrums beobachten können, wie das <em>Hubble Space Telescope</em> (HST).
         </p>
@@ -103,8 +110,8 @@ const StarsComponent = ({groupedStars, constellations}) => {
         <p className="summary-text">
           Mit ihnen entstehen nicht nur phantastische Aufnahmen, die uns begeistern.
           Vor allem geht es um die Bestimmung von Eigenschaften wie Leuchtkraft
-          und Alter, Größe, Masse, Zusammensetzung und Bewegung. Der Lebenszyklus
-          von Sternen kann heute schon gut beschrieben werden. Astronomen setzen
+          und Alter, Größe, Masse, Zusammensetzung und Bewegung der Sterne. Ihr
+          Lebenszyklus kann heute schon gut beschrieben werden. Astronomen setzen
           die gewonnenen Informationen zueinander ins Verhältnis und teilen Sterne
           danach in verschiedene Klassen ein. Daraus gingen wichtige Darstellungen
           wie beispielsweise das <em>Hertzsprung-Russell-Diagramm</em> (HDR) hervor,
@@ -117,8 +124,9 @@ const StarsComponent = ({groupedStars, constellations}) => {
           unterschieden. Weiterhin differenziert man Sterne anhand ihres individuellen
           Alters, ihrer Zugehörigkeit zu Regionen und Sternhaufen, teilt sie in
           Größen- und <em>Spektralklassen</em> ein. Ihre extremsten Erscheinungsformen
-          und Phänomene, wie zum Beispiel <em>Neutronensterne</em>, <em>Supernovae</em>, <em>Schwarze Löcher</em> oder <em>Pulsare</em> geben
-          den Forschern bis heute noch viele Rätsel auf und bleiben dadurch absolut spannend.
+          und Phänomene, wie zum Beispiel <em>Neutronensterne</em>, <em>Supernovae</em>, <em>Schwarze
+          Löcher</em> oder <em>Pulsare</em> geben jedoch den Forschern immer noch
+          noch viele Rätsel auf und bleiben dadurch absolut spannend.
         </p>
         <h4>Wussten Sie schon?</h4>
         <ul className="summary-list">
@@ -135,7 +143,7 @@ const StarsComponent = ({groupedStars, constellations}) => {
             drei Sternpaaren, also sechs Sternen insgesamt.
           </li>
           <li>
-            Sirius, der schon vor 5000 Jahren in Ägypten eine kalendarische Funktion
+            Sirius, der schon um 5000 v. Chr. in Ägypten eine kalendarische Funktion
             hatte, ist mit −1,46 mag der hellste Stern am Nachthimmel.
           </li>
         </ul>

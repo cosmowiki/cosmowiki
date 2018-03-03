@@ -78,7 +78,7 @@ export default class ChronicleComponent extends React.Component {
           </p>
           <p className="summary-text">
             Zeit und Raum waren bestimmbar geworden. Die große Frage der Himmelskunde
-            nach dem Zentrum der Welt bewegte die Astronomen des Mittelalters.
+            nach dem Zentrum der Schöpfung bewegte die Astronomen des Mittelalters.
             Im Spannungsfeld zwischen Wissenschaft und kulturell-religiösen
             Traditionen setzten sich bahnbrechende Erkenntnisse jedoch nur langsam durch.
           </p>
@@ -112,7 +112,7 @@ export default class ChronicleComponent extends React.Component {
           <p className="summary-text">
             <em>Urknall</em>, <em>Raumzeit</em> und <em>Quantenmechanik</em>, die Kräfte
             im <em>Atom</em>, <em>Schwarze Löcher</em> und <em>Dunkle Materie</em> - immer
-            weiter dringt die Menschheit in die Geheimnissefen des Universums vor.
+            weiter dringt die Menschheit in die Geheimnisse des Universums vor.
             Mit Augen, Ohren und Raumsonden greifen wir nach den Sternen, und jedes
             gelöste Rätsel wirft neue Fragen auf. Willkommen in der Gegenwart!
           </p>

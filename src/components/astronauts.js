@@ -83,10 +83,10 @@ const AstronautsComponent = ({groupedAstronauts}) => {
 				</div>
 				<p className="summary-text">
 					Das Training der Astronauten ist legendär. Allein um die <em>G-Kräfte</em> während
-					eines Raumfluges zu überstehen, sind ausgiebige Belastungsproben in
-					der Zentrifuge nötig. So traten bei den Starts der US-amerikanischen
-					Space-Shuttles etwa 3 bis 4 g auf, die Kosmonauten in den Sojus-Kapseln
-					sind hingegen bei der Landung bis zu 10 g ausgesetzt.
+					des Starts und der Landung eines Raumfluges zu überstehen, sind ausgiebige
+					Übungen in der Zentrifuge nötig. So traten bei den Starts der
+					US-amerikanischen Space-Shuttles etwa 3 bis 4 g auf, die Kosmonauten in 
+					den Sojus-Kapseln sind hingegen bei der Landung bis zu 10 g ausgesetzt.
 				</p>
 				<div className="summary-img">
 					<a href="/img/astronauts/NASA_Apollo_17_Lunar_Roving_Vehicle_lg.jpg" title="Lunar Roving Vehicle - Großansicht">

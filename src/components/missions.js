@@ -129,13 +129,15 @@ const MissionsComponent = ({missions}) => {
         </div>
         <p className="summary-text">
           Doch Raumfahrt ist nicht mehr länger die Domäne von Staaten und Raumfahrtorganisationen.
-          Durch den Einstieg privater Unternehmen gelangen neue Impulse in die Branche.
+          Durch den Einstieg privater Unternehmen wie <em>Virgin Galactic</em>, <em>Space
+          X</em> oder <em>Blue Origin</em> gelangen neue Impulse in die Branche.
           Preisgünstige Konzepte um ins All zu fliegen werden nicht nur den <em>Weltraumtourismus</em> fördern.
-          Die Errichtung einer <em>Mondbasis</em> und großer <em>Raumstationen</em> steht
-          ebenso auf der Agenda wie die Förderung von Seltenen Erden und anderen wertvollen Metallen auf Asteroiden.
-          Mit neuen Antrieben werden Menschen eines fernen Tages auch Reisen antreten,
-          die heute noch unvorstellbar sind. Bis dahin ist jede einzelne Raumfahrtmission
-          ein großer Schritt für die Menschheit.
+          Die Errichtung von Basen auf dem Mond und dem Mars sowie großer <em>Raumstationen</em> steht
+          ebenso auf der Agenda wie die Förderung von Seltenen Erden und anderen
+          wertvollen Metallen auf Asteroiden. Mit neuen Antrieben werden Menschen
+          eines fernen Tages auch Reisen antreten, die heute noch unvorstellbar
+          sind. Bis dahin ist jede einzelne Raumfahrtmission ein großer Schritt
+          für die Menschheit.
         </p>
 
         <h4>Wussten Sie schon?</h4>
@@ -151,6 +153,10 @@ const MissionsComponent = ({missions}) => {
           <li>
             Am 28. April 2001 startete <em>Dennis Tito</em> als erster Weltraumtourist
             an Bord von <em>Sojus TM-32</em> zur Internationalen Raumstation.
+          </li>
+          <li>
+            Die Schwerlast-Rakete <em>Falcon Heavy</em> des Unternehmens Space X
+            startete am 6. Februar 2018 zu ihrem erfolgreichen Jungfernflug.
           </li>
         </ul>
       </Summary>

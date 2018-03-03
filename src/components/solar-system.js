@@ -65,13 +65,15 @@ const SolarSystemComponent = () => {
           So umkreisen heute acht Planeten unseren Zentralstern, seit die <em>Internationale
           Astronomische Union</em> (IAU) den früher als Planet geführten <em>Pluto</em> im
           Jahr 2006 zum Zwergplanten herabstufte. Die Entfernungen dabei sind riesig.
-          So beträgt der mittlere Abstand zwischen Sonne und Erde ca. 150 Millionen
-          Kilometer, oder eine <em>Astronomische Einheit</em> (AU). Die Inneren Planeten
-          Merkur, Venus, Erde und Mars sind Gesteinsplaneten, deren Atmosphären
-          zwischen sehr dicht (Venus) und sehr dünn (Mars) variieren. Merkur verfügt
-          über keine nennenswerte Gashülle. Die sonnenächsten Körper Merkur und
-          Venus besitzen keine Monde, während die Erde von einem und der Mars von
-          den zwei Trabanten <em>Phobos</em> und <em>Deimos</em> begleitet wird.
+          Der mittlere Abstand zwischen Sonne und Erde beträgt ca. 150 Millionen
+          Kilometer, oder eine <em>Astronomische Einheit</em> (AU), während Saturn
+          schon etwa zehnmal so weit von der Sonne entfernt ist und Neptun ca. das 30-fache.
+        </p>
+        <p className="summary-text">Die Inneren Planeten Merkur, Venus, Erde und Mars sind Gesteinsplaneten,
+          deren Atmosphären zwischen sehr dicht (Venus) und sehr dünn (Mars) variieren.
+          Merkur verfügt über keine nennenswerte Gashülle. Die sonnenächsten Körper
+          Merkur und Venus besitzen keine Monde, während die Erde von einem und
+          der Mars von zwei Trabanten - <em>Phobos</em> und <em>Deimos</em> begleitet wird.
         </p>
         <div className="summary-img float-right">
           <a href="/img/solarsystem/saturn_lg.jpg" title="Saturn - Großansicht">
@@ -154,6 +156,10 @@ const SolarSystemComponent = () => {
           </li>
           <li>
             Auch Asteroiden und Zwergplaneten können Monde besitzen. <em>Charon</em>, <em>Nix</em>, <em>Hydra</em>, <em>Kerberos</em> und <em>Styx</em> umkreisen Pluto.
+          </li>
+          <li>
+            Am 19. Oktober 2017 wurde mit dem Asteroiden  <em>1I/ʻOumuamua</em> das
+            erste interstellare Objekt in unserem Sonnensystem entdeckt.
           </li>
         </ul>
       </Summary>

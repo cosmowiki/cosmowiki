@@ -20,7 +20,7 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
           Mit der Aufnahme <em>Hubble Ultra Deep Field</em> (HUDF) gelang
           dem <em>Hubble-Weltraumteleskop</em> (HST) im Jahr 2004 der Blick in 13
           Milliarden Lichtjahre entfernte Regionen des Weltraums und damit in eine
-          Zeit, in der das Universum geade einmal 800 Millionen Jahre alt war.
+          Zeit, in der das Universum gerade einmal 800 Millionen Jahre alt war.
           Es zeigte auf spektakuläre Weise die Leistungsfähigkeit von Teleskopen
           im All und wurde 2012 vom <em>Hubble Extreme Deep Field</em> (XDF)
           noch um 200 Millionen Lichtjahre übertroffen.
@@ -34,7 +34,7 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
           </p>
         </div>
         <p className="summary-text">
-          Weltraumteleskope, die in extreme Tiefe des Alls blicken, können also
+          Weltraumteleskope, die in die extreme Tiefe des Alls blicken, können also
           Zeitmaschinen sein. Ungestört von atmosphärischen Einflüssen enthüllen
           sie zum Beispiel, welche Eigenschaften die frühen Galaxien aufwiesen.
           Doch nicht nur die enorme zeitliche und räumliche Tiefe ist ein wichtiges
@@ -54,9 +54,10 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
           Sichtbares Licht ist nur ein Bereich von vielen im elektromagnetischen
           Spektrum, der hohen Erkenntnisgewinn verspricht. Das erste Weltraumteleskop
           in der Geschichte - <em>Radio Astronomy Explorer A</em> (1968) erforschte Radioquellen
-          in unserer Heimatgalaxie, der Milchstraße. Auch die Teleskope der folgenden
-          20 Jahre arbeiteten nicht im Bereich des sichtbaren Lichtes, sondern
-          zeichneten ultraviolettes oder infrarotes Licht, Röntgen- oder Gammastrahlung auf.
+          in unserer Heimatgalaxie, der Milchstraße. Auch die Weltraumteleskope
+          der folgenden 20 Jahre arbeiteten nicht im Bereich des sichtbaren Lichtes,
+          sondern zeichneten ultraviolettes oder infrarotes Licht, Röntgen- oder
+          Gammastrahlung auf.
         </p>
         <div className="summary-img">
           <a href="/img/spacetelescopes/COBE_cmb_fluctuations_lg.png" title="COBE - kosmische Hintergrundstrahlung - Großansicht">
@@ -93,9 +94,9 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
           </p>
         </div>
         <p className="summary-text">
-          Damit Weltraumteleskope auch von kosmischen Effekten ungestört arbeiten
-          können, müssen sie häufig an speziellen Orten im All, den <em>Lagrange-Punkten</em> des
-          Sonne-Erde-Systems, genauer im Orbit um diese Punkte herum, platziert
+          Damit Weltraumteleskope auch von kosmischen Effekten weitestgehend ungestört
+          arbeiten können, müssen sie häufig an speziellen Orten im All, den <em>Lagrange-Punkten</em> des
+          Sonne-Erde-Systems, genauer im Orbit um diese Punkte herum platziert
           werden. An diesen Punkten heben sich die Anziehungskräfte von Sonne und
           Erde auf, so dass sehr stabile Beobachtungspositionen ohne umfangreiche
           Bahnkorrekturen besetzt werden können.
@@ -116,13 +117,17 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
           im All sind Vorkehrungen gegen störende Einflüsse nötig. Die Instrumente
           des <em>Spitzer Space Telescope</em> (SST) mussten auf 2 Kelvin heruntergekühlt
           werden, die des Weltraumteleskopes <em>Planck</em> zum Teil bis 0,1 Kelvin.
+          Der Lagrange-Punkt L2 bietet hier den zusätzlichen Vorteil des Erdschattens
+          und ist somit bestens für den Betrieb von Infrarot-Weltraumteleskopen
+          geeignet. Die <em>ESA</em> stationierte nicht nur Planck, sondern auch das Teleskop <em>Herschel</em> sowie
+          die Raumsonde <em>Gaia</em> dort, und auch das <em>James Webb Space Telescope</em> (JWST)
+          der NASA wird dort plaziert werden.
         </p>
         <p className="summary-text">
           Von Teleskopen im Weltraum sind auch in der Zukunft spektakuläre Ergebnisse
-          zu erwarten. Wissenschaftler auf der ganzen Welt warten gespannt auf Daten
-          des <em>James Web Space Telescopes</em> (JWST), dem Nachfolger von Hubble, und
-          des <em>Euclid</em> genannten und für das Jahr 2020 geplanten Weltraumteleskops
-          der <em>ESA</em>.
+          zu erwarten. Wissenschaftler auf der ganzen Welt sind gespannt und hoffen
+          auf einzigartige Daten des JWST und des <em>Euclid</em> genannten und
+          für das Jahr 2020 geplanten Weltraumteleskops der ESA.
         </p>
         <h4>Wussten Sie schon?</h4>
         <ul className="summary-list">

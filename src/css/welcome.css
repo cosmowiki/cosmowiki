@@ -1,6 +1,7 @@
 #siteTitle.welcome {
-	background: url('/img/title_welcome.jpg') center / cover no-repeat;
+	background: url('/img/title_welcome.jpg') center top / cover no-repeat;
 }
+#welcomeArea > div {margin-bottom: 15px;}
 .welcome-container {background: #222;}
 .welcome-container h4 {padding: .25em; font-size: 1.25rem; background: #eee;}
 .welcome-text {background: #eee;}
@@ -26,69 +27,49 @@
 		background: url('/img/welcome/welcome_cosmowiki.jpg') center no-repeat;
 	}
 	#welcomeEvents {
-		background: url('/img/welcome/welcome_events_sm.jpg') center / cover no-repeat;
+		background: url('/img/welcome/welcome_events_sm.jpg');
 	}
 	#welcomeScientists {
-		background: url('/img/welcome/welcome_astronomers.jpg') center / cover no-repeat;
+		background: url('/img/welcome/welcome_astronomers_sm.jpg');
 	}
 	#welcomeAstronauts {
-		background: url('/img/welcome/welcome_astronauts.jpg') center / cover no-repeat;
+		background: url('/img/welcome/welcome_astronauts_sm.jpg');
 	}
 	#welcomePlaces {
-		background: url('/img/welcome/welcome_places.jpg') center / cover no-repeat;
+		background: url('/img/welcome/welcome_places_sm.jpg');
 	}
 	#welcomeSolsys {
-		background: url('/img/welcome/welcome_solsys.jpg') center / cover no-repeat;
+		background: url('/img/welcome/welcome_solsys_sm.jpg');
 	}
 	#welcomeConstellations {
-		background: url('/img/welcome/welcome_constellations.jpg') center / cover no-repeat;
+		background: url('/img/welcome/welcome_constellations_sm.jpg');
 	}
 	#welcomeStars {
-		background: url('/img/welcome/welcome_stars.jpg') center / cover no-repeat;
-		background-size: 100% 100%;
-		transition: all 1s ease-in-out;
+		background: url('/img/welcome/welcome_stars_sm.jpg');
 	}
 	#welcomeSpacestations {
-		background: url('/img/welcome/welcome_spacestations.jpg') center / cover no-repeat;
+		background: url('/img/welcome/welcome_spacestations_sm.jpg');
 	}
 	#welcomeSpacetelescopes {
-		background: url('/img/welcome/welcome_spacetelescopes.jpg') center / cover no-repeat;
+		background: url('/img/welcome/welcome_spacetelescopes_sm.jpg');
 	}
 	#welcomeMissions {
-		background: url('/img/welcome/welcome_missions.jpg') center / cover no-repeat;
+		background: url('/img/welcome/welcome_missions_sm.jpg');
 	}
 	#welcomeEvents,
-	#welcomeEvents,
-	#welcomeEvents,
-	#welcomeScientists,
-	#welcomeScientists,
 	#welcomeScientists,
 	#welcomeAstronauts,
-	#welcomeAstronauts,
-	#welcomeAstronauts,
-	#welcomePlaces,
-	#welcomePlaces,
 	#welcomePlaces,
 	#welcomeSolsys,
-	#welcomeSolsys,
-	#welcomeSolsys,
-	#welcomeConstellations,
-	#welcomeConstellations,
 	#welcomeConstellations,
 	#welcomeStars,
-	#welcomeStars,
-	#welcomeStars,
-	#welcomeSpacestations,
-	#welcomeSpacestations,
 	#welcomeSpacestations,
 	#welcomeSpacetelescopes,
-	#welcomeSpacetelescopes,
-	#welcomeSpacetelescopes,
-	#welcomeMissions,
-	#welcomeMissions,
 	#welcomeMissions {
-		background-size: 100% 100%;
-		transition: all 1s ease-in-out;
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		transition: background-size 1s ease-in-out;
 	}
 	#welcomeEvents:focus,
 	#welcomeEvents:hover,
@@ -120,7 +101,7 @@
 	#welcomeMissions:focus,
 	#welcomeMissions:hover,
 	#welcomeMissions:active {
-		background-size: 120% 120%;
+		background-size: 120%;
 		transition: all 1s ease-in-out;
 	}
 	.welcome-container {
@@ -134,19 +115,88 @@
 }
 
 @media only all and (min-width: 48em) {
-	#welcomeEvents {
-		background: url('/img/welcome/welcome_events.jpg') center / cover no-repeat;
-		background-size: 100% 100%;
-		transition: all 1s ease-in-out;
-	}
-	#welcomeEvents:focus,
-	#welcomeEvents:hover,
-	#welcomeEvents:active {
-		background-size: 120% 120%;
-		transition: all 1s ease-in-out;
-	}
 	.welcome-cosmowiki,
 	.welcome-container {
 		margin-bottom: 15px;
+	}
+}
+@media only all and (min-width: 64em) {
+	#welcomeEvents {
+		background: url('/img/welcome/welcome_events.jpg') center top / cover no-repeat;
+	}
+	#welcomeScientists {
+		background: url('/img/welcome/welcome_astronomers.jpg') center top / cover no-repeat;
+	}
+	#welcomeAstronauts {
+		background: url('/img/welcome/welcome_astronauts.jpg') center top / cover no-repeat;
+	}
+	#welcomePlaces {
+		background: url('/img/welcome/welcome_places.jpg') center top / cover no-repeat;
+	}
+	#welcomeSolsys {
+		background: url('/img/welcome/welcome_solsys.jpg') center top / cover no-repeat;
+	}
+	#welcomeConstellations {
+		background: url('/img/welcome/welcome_constellations.jpg') center top / cover no-repeat;
+	}
+	#welcomeStars {
+		background: url('/img/welcome/welcome_stars.jpg') center top / cover no-repeat;
+	}
+	#welcomeSpacestations {
+		background: url('/img/welcome/welcome_spacestations.jpg') center top / cover no-repeat;
+	}
+	#welcomeSpacetelescopes {
+		background: url('/img/welcome/welcome_spacetelescopes.jpg') center top / cover no-repeat;
+	}
+	#welcomeMissions {
+		background: url('/img/welcome/welcome_missions.jpg') center top / cover no-repeat;
+	}
+	#welcomeEvents,
+	#welcomeScientists,
+	#welcomeAstronauts,
+	#welcomePlaces,
+	#welcomeSolsys,
+	#welcomeConstellations,
+	#welcomeStars,
+	#welcomeSpacestations,
+	#welcomeSpacetelescopes,
+	#welcomeMissions {
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		transition: background-size 1s ease-in-out;
+	}
+	#welcomeEvents:focus,
+	#welcomeEvents:hover,
+	#welcomeEvents:active,
+	#welcomeScientists:focus,
+	#welcomeScientists:hover,
+	#welcomeScientists:active,
+	#welcomeAstronauts:focus,
+	#welcomeAstronauts:hover,
+	#welcomeAstronauts:active,
+	#welcomePlaces:focus,
+	#welcomePlaces:hover,
+	#welcomePlaces:active,
+	#welcomeSolsys:focus,
+	#welcomeSolsys:hover,
+	#welcomeSolsys:active,
+	#welcomeConstellations:focus,
+	#welcomeConstellations:hover,
+	#welcomeConstellations:active,
+	#welcomeStars:focus,
+	#welcomeStars:hover,
+	#welcomeStars:active,
+	#welcomeSpacestations:focus,
+	#welcomeSpacestations:hover,
+	#welcomeSpacestations:active,
+	#welcomeSpacetelescopes:focus,
+	#welcomeSpacetelescopes:hover,
+	#welcomeSpacetelescopes:active,
+	#welcomeMissions:focus,
+	#welcomeMissions:hover,
+	#welcomeMissions:active {
+		background-size: 120%;
+		transition: all 1s ease-in-out;
 	}
 }
