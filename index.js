@@ -40640,7 +40640,7 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
           null,
           'Lagrange-Punkten'
         ),
-        ' des Sonne-Erde-Systems, genauer im Orbit um diese Punkte herum platziert werden. An diesen Punkten heben sich die Anziehungskräfte von Sonne und Erde auf, so dass sehr stabile Beobachtungspositionen ohne umfangreiche Bahnkorrekturen besetzt werden können.'
+        ' des Sonne-Erde-Systems, genauer im Orbit um diese Punkte herum platziert werden. Dort heben sich die Anziehungskräfte von Sonne und Erde auf, so dass sehr stabile Beobachtungspositionen ohne umfangreiche Bahnkorrekturen besetzt werden können.'
       ),
       _react2['default'].createElement(
         'div',
