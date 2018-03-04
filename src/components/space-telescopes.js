@@ -184,6 +184,10 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
 };
 
 export default SpaceTelescopesComponent;
+const flags = (countries) => {
+  const flagimages = countries.map(country => <img src={"/img/flags/" + country + ".png"} alt={country} title={country} key={country} />);
+  return <p className="spacetelescope-country">{flagimages}</p>
+};
 
 const TelescopeComponent = ({ telescope }) => {
   return (
@@ -199,7 +203,7 @@ const TelescopeComponent = ({ telescope }) => {
           {telescope.alternativename ? <p className="spacetelescope-alternative-name">({telescope.alternativename})</p> : ''}
         </div>
         <div className="spacetelescope-info2 pure-u-1 pure-u-md-1-2">
-          {telescope.operator ? <p className="spacetelescope-data">Betreiber: {telescope.operator}</p> : ''}
+          {telescope.countries.length == 0 ? '' : flags(telescope.countries)}
           {telescope.purpose ? <p className="spacetelescope-data">{telescope.purpose}</p> : ''}
           <p className="spacetelescope-data">{telescope.endDate ? `von ${telescope.launchDate} bis ${telescope.endDate}` : `Start: ${telescope.launchDate}`}</p>
           {telescope.status ? <p className="spacetelescope-data">Status: {telescope.status}</p> : ''}

@@ -11,9 +11,9 @@
         "itemdateyear": "1968",
         "itemdatemonth": "07",
         "itemdateday": "04",
-        "itemduration": "49 a 201 d (Stand: 21.01.2018)",
+        "itemduration": "49 a 243 d (Stand: 04.03.2018)",
         "itemstatus": "beendet",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Radiowellen"
     },
@@ -29,7 +29,7 @@
         "itemdate2year": 1973,
         "itemdate2month": "01",
         "itemduration": "4 a 0M",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Ultraviolettstrahlung"
     },
@@ -52,7 +52,7 @@
         "itemdate3day": "05",
         "itemduration": "2 a 2M",
         "itemstatus": "beendet",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Röntgenstrahlung"
     },
@@ -63,8 +63,8 @@
         "itemdateyear": "1971",
         "itemdatemonth": "04",
         "itemdateday": "19",
-        "itemduration": "46 a 277 d (Stand: 21.01.2018)",
-        "itemcountry": "UdSSR / Russland",
+        "itemduration": "46 a 319 d (Stand: 04.03.2018)",
+        "itemcountry": "SU, RU",
         "itemoperator": "IKI",
         "itempurpose": "Ultraviolettstrahlung"
     },
@@ -81,8 +81,8 @@
         "itemdateyear": "1972",
         "itemdatemonth": "04",
         "itemdateday": "16",
-        "itemduration": "45 a 280 d (Stand: 21.01.2018)",
-        "itemcountry": "USA",
+        "itemduration": "45 a 322 d (Stand: 04.03.2018)",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Ultraviolettstrahlung"
     },
@@ -102,7 +102,7 @@
         "itemdate2month": "02",
         "itemduration": "8 a 5M",
         "itemstatus": "beendet",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Ultraviolettstrahlung, Röntgenstrahlung"
     },
@@ -118,8 +118,8 @@
         "itemdateyear": "1972",
         "itemdatemonth": "11",
         "itemdateday": "15",
-        "itemduration": "45 a 67 d (Stand: 21.01.2018)",
-        "itemcountry": "USA",
+        "itemduration": "45 a 109 d (Stand: 04.03.2018)",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Gammastrahlung"
     },
@@ -138,7 +138,7 @@
         "itemdate2year": 1977,
         "itemduration": "3 a",
         "itemstatus": "beendet",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Radiowellen"
     },
@@ -149,8 +149,8 @@
         "itemdateyear": "1973",
         "itemdatemonth": "12",
         "itemdateday": "18",
-        "itemduration": "44 a 34 d (Stand: 21.01.2018)",
-        "itemcountry": "UdSSR / Russland",
+        "itemduration": "44 a 76 d (Stand: 04.03.2018)",
+        "itemcountry": "SU, RU",
         "itemoperator": "IKI",
         "itempurpose": "Ultraviolettstrahlung"
     },
@@ -166,8 +166,8 @@
         "itemdateyear": "1974",
         "itemdatemonth": "08",
         "itemdateday": "30",
-        "itemduration": "43 a 144 d (Stand: 21.01.2018)",
-        "itemcountry": "Niederlande",
+        "itemduration": "43 a 186 d (Stand: 04.03.2018)",
+        "itemcountry": "NL",
         "itemoperator": "SRON",
         "itempurpose": "Ultraviolettstrahlung"
     },
@@ -183,8 +183,8 @@
         "itemdateyear": "1974",
         "itemdatemonth": "10",
         "itemdateday": "15",
-        "itemduration": "43 a 98 d (Stand: 21.01.2018)",
-        "itemcountry": "GB, USA",
+        "itemduration": "43 a 140 d (Stand: 04.03.2018)",
+        "itemcountry": "GB, US",
         "itemoperator": "SRC, NASA",
         "itempurpose": "Röntgenstrahlung"
     },
@@ -199,8 +199,8 @@
         "itemdateyear": "1975",
         "itemdatemonth": "04",
         "itemdateday": "19",
-        "itemduration": "42 a 277 d (Stand: 21.01.2018)",
-        "itemcountry": "Indien",
+        "itemduration": "42 a 319 d (Stand: 04.03.2018)",
+        "itemcountry": "IN",
         "itemoperator": "ISRO",
         "itempurpose": "Röntgenstrahlung"
     },
@@ -216,8 +216,8 @@
         "itemdateyear": "1975",
         "itemdatemonth": "05",
         "itemdateday": "07",
-        "itemduration": "42 a 259 d (Stand: 21.01.2018)",
-        "itemcountry": "USA",
+        "itemduration": "42 a 301 d (Stand: 04.03.2018)",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Röntgenstrahlung"
     },
@@ -238,7 +238,7 @@
         "itemdate2day": "25",
         "itemduration": "6 a 260 d",
         "itemstatus": "beendet",
-        "itemcountry": "EU",
+        "itemcountry": "ESA",
         "itemoperator": "ESA",
         "itempurpose": "Gammastrahlung"
     },
@@ -254,8 +254,8 @@
         "itemdateyear": "1977",
         "itemdatemonth": "08",
         "itemdateday": "12",
-        "itemduration": "40 a 162 d (Stand: 21.01.2018)",
-        "itemcountry": "USA",
+        "itemduration": "40 a 204 d (Stand: 04.03.2018)",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Röntgenstrahlung"
     },
@@ -276,7 +276,7 @@
         "itemdate2day": "30",
         "itemduration": "18 a 247 d",
         "itemstatus": "inaktiv",
-        "itemcountry": "USA, EU, GB",
+        "itemcountry": "US, ESA, GB",
         "itemoperator": "NASA, ESA, SERC",
         "itempurpose": "Ultraviolettstrahlung"
     },
@@ -292,8 +292,8 @@
         "itemdateyear": "1978",
         "itemdatemonth": "11",
         "itemdateday": "13",
-        "itemduration": "39 a 69 d (Stand: 21.01.2018)",
-        "itemcountry": "USA",
+        "itemduration": "39 a 111 d (Stand: 04.03.2018)",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Röntgenstrahlung"
     },
@@ -309,8 +309,8 @@
         "itemdateyear": "1979",
         "itemdatemonth": "02",
         "itemdateday": "21",
-        "itemduration": "38 a 334 d (Stand: 21.01.2018)",
-        "itemcountry": "Japan",
+        "itemduration": "39 a 11 d (Stand: 04.03.2018)",
+        "itemcountry": "JP",
         "itemoperator": "ISAS",
         "itempurpose": "Röntgenstrahlung"
     },
@@ -326,8 +326,8 @@
         "itemdateyear": "1979",
         "itemdatemonth": "09",
         "itemdateday": "20",
-        "itemduration": "38 a 123 d (Stand: 21.01.2018)",
-        "itemcountry": "USA",
+        "itemduration": "38 a 165 d (Stand: 04.03.2018)",
+        "itemcountry": "US",
         "itemoperator": "NASA"
     },
     {
@@ -347,7 +347,7 @@
         "itemdate2day": "23",
         "itemduration": "301 d",
         "itemstatus": "beendet",
-        "itemcountry": "USA, Niederlande, GB",
+        "itemcountry": "US, NL, GB",
         "itemoperator": "NASA, NIVR, SERC",
         "itempurpose": "Infrarotstrahlung"
     },
@@ -363,8 +363,8 @@
         "itemdateyear": "1983",
         "itemdatemonth": "02",
         "itemdateday": "20",
-        "itemduration": "34 a 335 d (Stand: 21.01.2018)",
-        "itemcountry": "Japan",
+        "itemduration": "35 a 12 d (Stand: 04.03.2018)",
+        "itemcountry": "JP",
         "itemoperator": "ISAS",
         "itempurpose": "Röntgenstrahlung"
     },
@@ -382,7 +382,7 @@
         "itemdate2year": 1989,
         "itemduration": "5 a",
         "itemstatus": "beendet",
-        "itemcountry": "UdSSR",
+        "itemcountry": "SU",
         "itemoperator": "RAW",
         "itempurpose": "Ultraviolettstrahlung, Röntgenstrahlung"
     },
@@ -406,7 +406,7 @@
         "itemdate3day": "06",
         "itemduration": "2 a 319 d",
         "itemstatus": "beendet",
-        "itemcountry": "EU",
+        "itemcountry": "ESA",
         "itemoperator": "ESA",
         "itempurpose": "Röntgenstrahlung"
     },
@@ -430,7 +430,7 @@
         "itemdate3day": "01",
         "itemduration": "4 a 269 d",
         "itemstatus": "beendet",
-        "itemcountry": "Japan",
+        "itemcountry": "JP",
         "itemoperator": "ISAS",
         "itempurpose": "Röntgenstrahlung"
     },
@@ -453,7 +453,7 @@
         "itemdate2day": "15",
         "itemduration": "4 a 7 d",
         "itemstatus": "beendet",
-        "itemcountry": "EU",
+        "itemcountry": "ESA",
         "itemoperator": "ESA",
         "itempurpose": "sichtbares Licht "
     },
@@ -474,7 +474,7 @@
         "itemdate2day": "23",
         "itemduration": "4 a 35 d",
         "itemstatus": "beendet",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "kosmische Hintergrundstrahlung"
     },
@@ -489,8 +489,8 @@
         "itemdateyear": "1989",
         "itemdatemonth": "12",
         "itemdateday": "01",
-        "itemduration": "28 a 51 d (Stand: 21.01.2018)",
-        "itemcountry": "UdSSR / Russland, Frankreich, Dänemark, Bulgarien",
+        "itemduration": "28 a 93 d (Stand: 04.03.2018)",
+        "itemcountry": "SU, RU, FR, DK, BG",
         "itemoperator": "IKI"
     },
     {
@@ -505,9 +505,9 @@
         "itemdateyear": "1990",
         "itemdatemonth": "04",
         "itemdateday": "24",
-        "itemduration": "27 a 272 d (Stand: 21.01.2018)",
+        "itemduration": "27 a 314 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "USA, EU",
+        "itemcountry": "US, ESA",
         "itemoperator": "NASA, ESA",
         "itempurpose": "Ultraviolettstrahlung, sichtbares Licht, Infrarotstrahlung"
     },
@@ -527,7 +527,7 @@
         "itemdate3day": "23",
         "itemduration": "8 a 256 d",
         "itemstatus": "beendet",
-        "itemcountry": "Deutschland",
+        "itemcountry": "DE",
         "itemoperator": "DLR",
         "itempurpose": "Röntgenstrahlung"
     },
@@ -538,8 +538,8 @@
         "itemdateyear": "1990",
         "itemdatemonth": "07",
         "itemdateday": "11",
-        "itemduration": "27 a 194 d (Stand: 21.01.2018)",
-        "itemcountry": "UdSSR, Frankreich",
+        "itemduration": "27 a 236 d (Stand: 04.03.2018)",
+        "itemcountry": "SU, FR",
         "itemoperator": "IKI, CNES, RSA"
     },
     {
@@ -553,8 +553,8 @@
         "itemdateyear": "1990",
         "itemdatemonth": "12",
         "itemdateday": "02",
-        "itemduration": "27 a 50 d (Stand: 21.01.2018)",
-        "itemcountry": "USA",
+        "itemduration": "27 a 92 d (Stand: 04.03.2018)",
+        "itemcountry": "US",
         "itemoperator": "NASA"
     },
     {
@@ -577,7 +577,7 @@
         "itemdate3day": "04",
         "itemduration": "9 a 60 d",
         "itemstatus": "beendet",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Gammastrahlungstrahlen"
     },
@@ -600,7 +600,7 @@
         "itemdate3day": "12",
         "itemduration": "10 a 106 d",
         "itemstatus": "beendet",
-        "itemcountry": "Japan",
+        "itemcountry": "JP",
         "itemoperator": "ISAS",
         "itempurpose": "Röntgenstrahlung"
     },
@@ -624,7 +624,7 @@
         "itemdate3day": "30",
         "itemduration": "8 a 233 d",
         "itemstatus": "beendet",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Ultraviolettstrahlung"
     },
@@ -648,7 +648,7 @@
         "itemdate3day": "13",
         "itemduration": "11 a 362 d",
         "itemstatus": "beendet",
-        "itemcountry": "USA, Deutschland",
+        "itemcountry": "US, DE",
         "itemoperator": "NASA, MPE",
         "itempurpose": "kosmische Teilchenstrahlung"
     },
@@ -672,7 +672,7 @@
         "itemdate3day": "02",
         "itemduration": "7 a 144 d",
         "itemstatus": "beendet",
-        "itemcountry": "Japan, USA",
+        "itemcountry": "JP, US",
         "itemoperator": "ISAS, NASA",
         "itempurpose": "Röntgenstrahlung"
     },
@@ -688,8 +688,8 @@
         "itemdateyear": "1993",
         "itemdatemonth": "04",
         "itemdateday": "25",
-        "itemduration": "24 a 271 d (Stand: 21.01.2018)",
-        "itemcountry": "USA",
+        "itemduration": "24 a 313 d (Stand: 04.03.2018)",
+        "itemcountry": "US",
         "itemoperator": "LANL"
     },
     {
@@ -703,8 +703,8 @@
         "itemdateyear": "1995",
         "itemdatemonth": "03",
         "itemdateday": "02",
-        "itemduration": "22 a 325 d (Stand: 21.01.2018)",
-        "itemcountry": "USA",
+        "itemduration": "23 a 2 d (Stand: 04.03.2018)",
+        "itemcountry": "US",
         "itemoperator": "NASA"
     },
     {
@@ -719,8 +719,8 @@
         "itemdateyear": "1995",
         "itemdatemonth": "03",
         "itemdateday": "18",
-        "itemduration": "22 a 309 d (Stand: 21.01.2018)",
-        "itemcountry": "Japan",
+        "itemduration": "22 a 351 d (Stand: 04.03.2018)",
+        "itemcountry": "JP",
         "itemoperator": "ISAS, NASDA"
     },
     {
@@ -737,7 +737,7 @@
         "itemdate2day": "16",
         "itemduration": "2 a 181 d",
         "itemstatus": "beendet",
-        "itemcountry": "EU",
+        "itemcountry": "ESA",
         "itemoperator": "ESA",
         "itempurpose": "Infrarotstrahlung"
     },
@@ -753,9 +753,9 @@
         "itemdateyear": "1995",
         "itemdatemonth": "12",
         "itemdateday": "02",
-        "itemduration": "22 a 50 d (Stand: 21.01.2018)",
+        "itemduration": "22 a 93 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "USA, EU",
+        "itemcountry": "US, ESA",
         "itemoperator": "NASA, ESA",
         "itempurpose": "sichtbares Licht, Ultraviolettstrahlung"
     },
@@ -779,7 +779,7 @@
         "itemdate3day": "05",
         "itemduration": "16 a 6 d",
         "itemstatus": "beendet",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Röntgenstrahlung"
     },
@@ -795,7 +795,8 @@
         "itemdateyear": "1996",
         "itemdatemonth": "04",
         "itemdateday": "24",
-        "itemduration": "21 a 272 d (Stand: 21.01.2018)",
+        "itemduration": "21 a 314 d (Stand: 04.03.2018)",
+        "itemcountry": "ES",
         "itemoperator": "USN"
     },
     {
@@ -817,7 +818,7 @@
         "itemdate3day": "30",
         "itemduration": "6 a",
         "itemstatus": "beendet",
-        "itemcountry": "Italien, Niederlande",
+        "itemcountry": "IT, NL",
         "itemoperator": "ASI, NIVR",
         "itempurpose": "Röntgenstrahlung"
     },
@@ -830,8 +831,8 @@
         "itemdateyear": "1997",
         "itemdatemonth": "02",
         "itemdateday": "12",
-        "itemduration": "20 a 343 d (Stand: 21.01.2018)",
-        "itemcountry": "Japan",
+        "itemduration": "21 a 20 d (Stand: 04.03.2018)",
+        "itemcountry": "JP",
         "itemoperator": "ISAS"
     },
     {
@@ -843,7 +844,7 @@
         "itemdateyear": "1997",
         "itemdatemonth": "05",
         "itemdateday": "19",
-        "itemduration": "20 a 247 d (Stand: 21.01.2018)",
+        "itemduration": "20 a 289 d (Stand: 04.03.2018)",
         "itemoperator": "INTA"
     },
     {
@@ -863,7 +864,7 @@
         "itemdate2day": "22",
         "itemduration": "12 a 81 d",
         "itemstatus": "beendet",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "sichtbares Licht, Ultraviolettstrahlung"
     },
@@ -881,8 +882,8 @@
         "itemdateyear": "1998",
         "itemdatemonth": "06",
         "itemdateday": "02",
-        "itemduration": "19 a 233 d (Stand: 21.01.2018)",
-        "itemcountry": "USA",
+        "itemduration": "19 a 275 d (Stand: 04.03.2018)",
+        "itemcountry": "US",
         "itemoperator": "NASA"
     },
     {
@@ -897,8 +898,8 @@
         "itemdateyear": "1998",
         "itemdatemonth": "12",
         "itemdateday": "06",
-        "itemduration": "19 a 46 d (Stand: 21.01.2018)",
-        "itemcountry": "USA",
+        "itemduration": "19 a 88 d (Stand: 04.03.2018)",
+        "itemcountry": "US",
         "itemoperator": "NASA"
     },
     {
@@ -913,8 +914,8 @@
         "itemdateyear": "1999",
         "itemdatemonth": "03",
         "itemdateday": "05",
-        "itemduration": "18 a 322 d (Stand: 21.01.2018)",
-        "itemcountry": "USA",
+        "itemduration": "18 a 364 d (Stand: 04.03.2018)",
+        "itemcountry": "US",
         "itemoperator": "NASA"
     },
     {
@@ -929,8 +930,8 @@
         "itemdateyear": "1999",
         "itemdatemonth": "04",
         "itemdateday": "28",
-        "itemduration": "18 a 268 d (Stand: 21.01.2018)",
-        "itemcountry": "Deutschland",
+        "itemduration": "18 a 310 d (Stand: 04.03.2018)",
+        "itemcountry": "DE",
         "itemoperator": "DLR"
     },
     {
@@ -953,7 +954,7 @@
         "itemdate3day": "18",
         "itemduration": "8 a 116 d",
         "itemstatus": "beendet",
-        "itemcountry": "USA, Frankreich, Kanada",
+        "itemcountry": "US, FR, CA",
         "itemoperator": "NASA, CNES, CSA",
         "itempurpose": "Ultraviolettstrahlung"
     },
@@ -968,9 +969,9 @@
         "itemdateyear": "1999",
         "itemdatemonth": "07",
         "itemdateday": "23",
-        "itemduration": "18 a 182 d (Stand: 21.01.2018)",
+        "itemduration": "18 a 224 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Röntgenstrahlung"
     },
@@ -986,9 +987,9 @@
         "itemdateyear": "1999",
         "itemdatemonth": "12",
         "itemdateday": "10",
-        "itemduration": "18 a 42 d (Stand: 21.01.2018)",
+        "itemduration": "18 a 84 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "EU",
+        "itemcountry": "ESA",
         "itemoperator": "ESA",
         "itempurpose": "Röntgenstrahlung"
     },
@@ -1004,8 +1005,8 @@
         "itemdateyear": "2000",
         "itemdatemonth": "10",
         "itemdateday": "09",
-        "itemduration": "17 a 104 d (Stand: 21.01.2018)",
-        "itemcountry": "USA",
+        "itemduration": "17 a 146 d (Stand: 04.03.2018)",
+        "itemcountry": "US",
         "itemoperator": "NASA"
     },
     {
@@ -1016,8 +1017,8 @@
         "itemdateyear": "2001",
         "itemdatemonth": "02",
         "itemdateday": "20",
-        "itemduration": "16 a 335 d (Stand: 21.01.2018)",
-        "itemcountry": "Schweden",
+        "itemduration": "17 a 12 d (Stand: 04.03.2018)",
+        "itemcountry": "SE",
         "itemoperator": "Swedish Space Corporation"
     },
     {
@@ -1040,7 +1041,7 @@
         "itemdate3day": "20",
         "itemduration": "9 a 82 d",
         "itemstatus": "beendet",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Mikrowellen"
     },
@@ -1056,9 +1057,9 @@
         "itemdateyear": "2002",
         "itemdatemonth": "02",
         "itemdateday": "05",
-        "itemduration": "15 a 350 d (Stand: 21.01.2018)",
+        "itemduration": "16 a 27 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Röntgenstrahlung, Gammastrahlung"
     },
@@ -1076,9 +1077,9 @@
         "itemdateyear": "2002",
         "itemdatemonth": "10",
         "itemdateday": "17",
-        "itemduration": "15 a 96 d (Stand: 21.01.2018)",
+        "itemduration": "15 a 138 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "EU",
+        "itemcountry": "ESA",
         "itemoperator": "ESA",
         "itempurpose": "Gammastrahlung"
     },
@@ -1094,8 +1095,8 @@
         "itemdateyear": "2003",
         "itemdatemonth": "01",
         "itemdateday": "13",
-        "itemduration": "15 a 8 d (Stand: 21.01.2018)",
-        "itemcountry": "USA",
+        "itemduration": "15 a 50 d (Stand: 04.03.2018)",
+        "itemcountry": "US",
         "itemoperator": "NASA"
     },
     {
@@ -1110,9 +1111,9 @@
         "itemdateyear": "2003",
         "itemdatemonth": "04",
         "itemdateday": "28",
-        "itemduration": "14 a 268 d (Stand: 21.01.2018)",
+        "itemduration": "14 a 310 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Ultraviolettstrahlung"
     },
@@ -1125,9 +1126,9 @@
         "itemdateyear": "2003",
         "itemdatemonth": "06",
         "itemdateday": "30",
-        "itemduration": "14 a 205 d (Stand: 21.01.2018)",
+        "itemduration": "14 a 247 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "Kanada",
+        "itemcountry": "CA",
         "itemoperator": "CSA, DRDC",
         "itempurpose": "sichtbares Licht"
     },
@@ -1143,9 +1144,9 @@
         "itemdateyear": "2003",
         "itemdatemonth": "08",
         "itemdateday": "25",
-        "itemduration": "14 a 149 d (Stand: 21.01.2018)",
+        "itemduration": "14 a 191 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Infrarotstrahlung"
     },
@@ -1158,8 +1159,8 @@
         "itemdateyear": "2003",
         "itemdatemonth": "09",
         "itemdateday": "27",
-        "itemduration": "14 a 116 d (Stand: 21.01.2018)",
-        "itemcountry": "Südkorea",
+        "itemduration": "14 a 158 d (Stand: 04.03.2018)",
+        "itemcountry": "KR",
         "itemoperator": "KARI"
     },
     {
@@ -1174,9 +1175,9 @@
         "itemdateyear": "2004",
         "itemdatemonth": "11",
         "itemdateday": "20",
-        "itemduration": "13 a 62 d (Stand: 21.01.2018)",
+        "itemduration": "13 a 104 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Gammastrahlung"
     },
@@ -1192,9 +1193,9 @@
         "itemdateyear": "2005",
         "itemdatemonth": "07",
         "itemdateday": "10",
-        "itemduration": "12 a 195 d (Stand: 21.01.2018)",
+        "itemduration": "12 a 237 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "Japan, USA",
+        "itemcountry": "JP, US",
         "itemoperator": "JAXA, NASA",
         "itempurpose": "Röntgenstrahlung"
     },
@@ -1210,7 +1211,7 @@
         "itemdate2year": 2011,
         "itemdate3year": 2011,
         "itemduration": "4 a",
-        "itemcountry": "Japan",
+        "itemcountry": "JP",
         "itemoperator": "JAXA",
         "itempurpose": "Infrarotstrahlung"
     },
@@ -1228,7 +1229,8 @@
         "itemdateyear": "2006",
         "itemdatemonth": "05",
         "itemdateday": "15",
-        "itemduration": "11 a 251 d (Stand: 21.01.2018)"
+        "itemduration": "11 a 293 d (Stand: 04.03.2018)",
+        "itemcountry": "RU"
     },
     {
         "itemname": "Hinode",
@@ -1242,9 +1244,9 @@
         "itemdateyear": "2006",
         "itemdatemonth": "09",
         "itemdateday": "22",
-        "itemduration": "11 a 121 d (Stand: 21.01.2018)",
+        "itemduration": "11 a 163 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "Japan, EU, GB",
+        "itemcountry": "JP, ESA, GB",
         "itemoperator": "JAXA, ESA, PPARC, MSFC",
         "itempurpose": "Röntgenstrahlung, extreme Ultraviolettstrahlung, sichtbares Licht"
     },
@@ -1260,9 +1262,9 @@
         "itemdateyear": "2006",
         "itemdatemonth": "10",
         "itemdateday": "26",
-        "itemduration": "11 a 87 d (Stand: 21.01.2018)",
+        "itemduration": "11 a 129 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Ultraviolettstrahlung"
     },
@@ -1278,9 +1280,9 @@
         "itemdateyear": "2006",
         "itemdatemonth": "10",
         "itemdateday": "26",
-        "itemduration": "11 a 87 d (Stand: 21.01.2018)",
+        "itemduration": "11 a 129 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Ultraviolettstrahlung"
     },
@@ -1298,9 +1300,9 @@
         "itemdateyear": "2006",
         "itemdatemonth": "12",
         "itemdateday": "27",
-        "itemduration": "11 a 25 d (Stand: 21.01.2018)",
+        "itemduration": "11 a 67 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "EU",
+        "itemcountry": "ESA",
         "itemoperator": "CNES, ESA",
         "itempurpose": "sichtbares Licht"
     },
@@ -1318,9 +1320,9 @@
         "itemdateyear": "2007",
         "itemdatemonth": "04",
         "itemdateday": "23",
-        "itemduration": "10 a 273 d (Stand: 21.01.2018)",
+        "itemduration": "10 a 315 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "Italien",
+        "itemcountry": "IT",
         "itemoperator": "ASI",
         "itempurpose": "Gammastrahlung"
     },
@@ -1336,9 +1338,9 @@
         "itemdateyear": "2008",
         "itemdatemonth": "06",
         "itemdateday": "11",
-        "itemduration": "9 a 224 d (Stand: 21.01.2018)",
+        "itemduration": "9 a 266 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Gammastrahlung"
     },
@@ -1354,8 +1356,8 @@
         "itemdateyear": "2008",
         "itemdatemonth": "10",
         "itemdateday": "19",
-        "itemduration": "9 a 94 d (Stand: 21.01.2018)",
-        "itemcountry": "USA",
+        "itemduration": "9 a 136 d (Stand: 04.03.2018)",
+        "itemcountry": "US",
         "itemoperator": "NASA"
     },
     {
@@ -1369,9 +1371,9 @@
         "itemdateyear": "2009",
         "itemdatemonth": "03",
         "itemdateday": "07",
-        "itemduration": "8 a 320 d (Stand: 21.01.2018)",
+        "itemduration": "8 a 362 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "sichtbares Licht, Infrarotstrahlung"
     },
@@ -1394,7 +1396,7 @@
         "itemdate3day": "29",
         "itemduration": "3 a 350 d",
         "itemstatus": "beendet",
-        "itemcountry": "EU",
+        "itemcountry": "ESA",
         "itemoperator": "ESA",
         "itempurpose": "Infrarotstrahlung"
     },
@@ -1419,7 +1421,7 @@
         "itemdate3day": "14",
         "itemduration": "4 a 92 d",
         "itemstatus": "beendet",
-        "itemcountry": "EU",
+        "itemcountry": "ESA",
         "itemoperator": "ESA",
         "itempurpose": "Mikrowellen"
     },
@@ -1435,9 +1437,9 @@
         "itemdateyear": "2009",
         "itemdatemonth": "12",
         "itemdateday": "14",
-        "itemduration": "8 a 38 d (Stand: 21.01.2018)",
+        "itemduration": "8 a 80 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Infrarotstrahlung"
     },
@@ -1455,8 +1457,8 @@
         "itemdateyear": "2010",
         "itemdatemonth": "05",
         "itemdateday": "21",
-        "itemduration": "7 a 245 d (Stand: 21.01.2018)",
-        "itemcountry": "Japan",
+        "itemduration": "7 a 287 d (Stand: 04.03.2018)",
+        "itemcountry": "JP",
         "itemoperator": "JAXA",
         "itempurpose": "Gammastrahlung"
     },
@@ -1474,8 +1476,8 @@
         "itemdateyear": "2011",
         "itemdatemonth": "05",
         "itemdateday": "16",
-        "itemduration": "6 a 250 d (Stand: 21.01.2018)",
-        "itemcountry": "USA",
+        "itemduration": "6 a 292 d (Stand: 04.03.2018)",
+        "itemcountry": "US",
         "itemoperator": "NASA"
     },
     {
@@ -1487,9 +1489,9 @@
         "itemdateyear": "2011",
         "itemdatemonth": "07",
         "itemdateday": "18",
-        "itemduration": "6 a 187 d (Stand: 21.01.2018)",
+        "itemduration": "6 a 229 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "UdSSR / Russland",
+        "itemcountry": "SU, RU",
         "itemoperator": "Lebedew-Institut für Physik",
         "itempurpose": "Mikrowellen"
     },
@@ -1505,9 +1507,9 @@
         "itemdateyear": "2012",
         "itemdatemonth": "06",
         "itemdateday": "13",
-        "itemduration": "5 a 222 d (Stand: 21.01.2018)",
+        "itemduration": "5 a 264 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Röntgenstrahlung"
     },
@@ -1520,9 +1522,9 @@
         "itemdateyear": "2013",
         "itemdatemonth": "02",
         "itemdateday": "25",
-        "itemduration": "4 a 330 d (Stand: 21.01.2018)",
+        "itemduration": "5 a 7 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "Kanada",
+        "itemcountry": "CA",
         "itemoperator": "CSA, DRDC",
         "itempurpose": "sichtbares Licht"
     },
@@ -1535,8 +1537,8 @@
         "itemdateyear": "2013",
         "itemdatemonth": "02",
         "itemdateday": "25",
-        "itemduration": "4 a 330 d (Stand: 21.01.2018)",
-        "itemcountry": "Österreich, Polen, Kanada",
+        "itemduration": "5 a 7 d (Stand: 04.03.2018)",
+        "itemcountry": "AT, PL, CA",
         "itemoperator": "Austria, Canada, Poland"
     },
     {
@@ -1551,8 +1553,8 @@
         "itemdateyear": "2013",
         "itemdatemonth": "06",
         "itemdateday": "27",
-        "itemduration": "4 a 208 d (Stand: 21.01.2018)",
-        "itemcountry": "USA",
+        "itemduration": "4 a 250 d (Stand: 04.03.2018)",
+        "itemcountry": "US",
         "itemoperator": "NASA"
     },
     {
@@ -1569,8 +1571,8 @@
         "itemdateyear": "2013",
         "itemdatemonth": "09",
         "itemdateday": "14",
-        "itemduration": "4 a 129 d (Stand: 21.01.2018)",
-        "itemcountry": "Japan",
+        "itemduration": "4 a 171 d (Stand: 04.03.2018)",
+        "itemcountry": "JP",
         "itemoperator": "JAXA"
     },
     {
@@ -1582,8 +1584,8 @@
         "itemdateyear": "2013",
         "itemdatemonth": "11",
         "itemdateday": "26",
-        "itemduration": "4 a 56 d (Stand: 21.01.2018)",
-        "itemcountry": "USA",
+        "itemduration": "4 a 98 d (Stand: 04.03.2018)",
+        "itemcountry": "US",
         "itemoperator": "NASA"
     },
     {
@@ -1599,9 +1601,9 @@
         "itemdateyear": "2013",
         "itemdatemonth": "12",
         "itemdateday": "19",
-        "itemduration": "4 a 33 d (Stand: 21.01.2018)",
+        "itemduration": "4 a 75 d (Stand: 04.03.2018)",
         "itemstatus": "aktiv",
-        "itemcountry": "EU",
+        "itemcountry": "ESA",
         "itemoperator": "ESA",
         "itempurpose": "sichtbares Licht"
     },
@@ -1614,8 +1616,8 @@
         "itemdateyear": "2015",
         "itemdatemonth": "12",
         "itemdateday": "17",
-        "itemduration": "2 a 35 d (Stand: 21.01.2018)",
-        "itemcountry": "China",
+        "itemduration": "2 a 77 d (Stand: 04.03.2018)",
+        "itemcountry": "CN",
         "itemoperator": "CNSA"
     },
     {
@@ -1626,8 +1628,8 @@
         "itemdateyear": "2015",
         "itemdatemonth": "09",
         "itemdateday": "28",
-        "itemduration": "2 a 115 d (Stand: 21.01.2018)",
-        "itemcountry": "Indien",
+        "itemduration": "2 a 157 d (Stand: 04.03.2018)",
+        "itemcountry": "IN",
         "itemoperator": "ISRO"
     },
     {
@@ -1643,7 +1645,7 @@
         "itemdatemonth": "02",
         "itemdateday": "17",
         "itemstatus": "geplant",
-        "itemcountry": "Japan, USA, EU",
+        "itemcountry": "JP, US, ESA",
         "itemoperator": "JAXA, NASA, ESA",
         "itempurpose": "Röntgenstrahlung"
     },
@@ -1653,7 +1655,7 @@
         "itemname2": "HXMT",
         "itemcategory": "Weltraumteleskop, ",
         "itemdateyear": "2017",
-        "itemcountry": "China",
+        "itemcountry": "CN",
         "itemoperator": "CNSA"
     },
     {
@@ -1665,7 +1667,7 @@
         "itemimgurl": "/img/spacetelescopes/TESS_lg.png",
         "itemimgsrc": "NASA",
         "itemdateyear": "2017",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA"
     },
     {
@@ -1678,7 +1680,7 @@
         "itemimglicence": "CC-BY-SA-3.0",
         "itemimglicenceurl": "https://creativecommons.org/licenses/by-sa/3.0/",
         "itemdateyear": "2018",
-        "itemcountry": "UdSSR / Russland",
+        "itemcountry": "SU, RU",
         "itemoperator": "IKI, ESA, MPI, University of Leicester"
     },
     {
@@ -1691,7 +1693,7 @@
         "itemimgsrc": "NASA",
         "itemdateyear": "2018",
         "itemstatus": "geplant",
-        "itemcountry": "USA, EU, Kanada",
+        "itemcountry": "US, ESA, CA",
         "itemoperator": "NASA, ESA, CSA",
         "itempurpose": "Infrarotstrahlung"
     },
@@ -1706,7 +1708,7 @@
         "itemimglicenceurl": "http://www.esa.int/spaceinimages/ESA_Multimedia/Copyright_Notice_Images",
         "itemdateyear": "2019",
         "itemstatus": "geplant",
-        "itemcountry": "EU",
+        "itemcountry": "ESA",
         "itemoperator": "ESA",
         "itempurpose": "sichtbares Licht, nahe Infrarotstrahlung"
     },
@@ -1720,7 +1722,7 @@
         "itemimgsrc": "MSFC Advanced Concepts Office",
         "itemdateyear": "2025",
         "itemstatus": "geplant",
-        "itemcountry": "USA",
+        "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Ultraviolettstrahlung, sichtbares Licht, Infrarotstrahlung"
     }

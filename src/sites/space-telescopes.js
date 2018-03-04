@@ -40,7 +40,7 @@ class Telescope {
     telescope.rocket = Rocket.fromRawData(raw);
     telescope.pad = Pad.fromRawData(raw);
     telescope.status = raw.itemstatus;
-    telescope.country = raw.itemcountry;
+    telescope.countries = raw.itemcountry ? raw.itemcountry.split(', ').map(country => country.trim()) : [];
     telescope.operator = raw.itemoperator;
     telescope.purpose = raw.itempurpose;
 
