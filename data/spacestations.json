@@ -377,7 +377,7 @@
         "itemstatus": "im Orbit",
         "itemparent": "Dnepr",
         "itemparenturl": "https://de.wikipedia.org/wiki/Dnepr_%28Rakete%29",
-        "itemoperator": "Bigelow Aerospace",
+        "itemoperator": "Bigelow",
         "itemlocation": "Jasny",
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kosmodrom_Jasny",
         "itemfarthest": "568 km",
@@ -402,7 +402,7 @@
         "itemstatus": "im Orbit",
         "itemparent": "Dnepr",
         "itemparenturl": "https://de.wikipedia.org/wiki/Dnepr_%28Rakete%29",
-        "itemoperator": "Bigelow Aerospace",
+        "itemoperator": "Bigelow",
         "itemlocation": "Jasny",
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kosmodrom_Jasny",
         "itemfarthest": "551 km",
@@ -476,7 +476,7 @@
         "itemname": "Space Complex Alpha",
         "itemdateyear": 2020,
         "itemstatus": "geplant",
-        "itemoperator": "Bigelow Aerospace",
+        "itemoperator": "Bigelow",
         "itemproperty": "3+"
     },
     {
