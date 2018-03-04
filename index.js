@@ -40851,6 +40851,17 @@ var SpaceTelescopesComponent = function SpaceTelescopesComponent(_ref) {
 
 exports['default'] = SpaceTelescopesComponent;
 
+var flags = function flags(countries) {
+  var flagimages = countries.map(function (country) {
+    return _react2['default'].createElement('img', { src: "/img/flags/" + country + ".png", alt: country, title: country, key: country });
+  });
+  return _react2['default'].createElement(
+    'p',
+    { className: 'spacetelescope-country' },
+    flagimages
+  );
+};
+
 var TelescopeComponent = function TelescopeComponent(_ref2) {
   var telescope = _ref2.telescope;
 
@@ -40907,12 +40918,7 @@ var TelescopeComponent = function TelescopeComponent(_ref2) {
       _react2['default'].createElement(
         'div',
         { className: 'spacetelescope-info2 pure-u-1 pure-u-md-1-2' },
-        telescope.operator ? _react2['default'].createElement(
-          'p',
-          { className: 'spacetelescope-data' },
-          'Betreiber: ',
-          telescope.operator
-        ) : '',
+        telescope.countries.length == 0 ? '' : flags(telescope.countries),
         telescope.purpose ? _react2['default'].createElement(
           'p',
           { className: 'spacetelescope-data' },
@@ -44565,7 +44571,9 @@ var Telescope = (function () {
       telescope.rocket = Rocket.fromRawData(raw);
       telescope.pad = Pad.fromRawData(raw);
       telescope.status = raw.itemstatus;
-      telescope.country = raw.itemcountry;
+      telescope.countries = raw.itemcountry ? raw.itemcountry.split(', ').map(function (country) {
+        return country.trim();
+      }) : [];
       telescope.operator = raw.itemoperator;
       telescope.purpose = raw.itempurpose;
 

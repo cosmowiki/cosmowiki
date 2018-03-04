@@ -12,6 +12,9 @@
 
 .spacetelescope-name {margin-top: .5em;}
 p.spacetelescope-alternative-name {font-size: .8rem;}
+.spacetelescope-country {font-size: .8rem;}
+.spacetelescope-country img {margin: .25em 0 .25em .1em; height: .75rem;}
+.spacetelescope-country img:first-child {margin-left: 0;}
 
 /*	breakpoints ------------------------------------------------------------- */
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
