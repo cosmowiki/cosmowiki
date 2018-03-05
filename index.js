@@ -42457,7 +42457,11 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 				_react2["default"].createElement(
 					"h4",
 					null,
-					"7. Januar 1610"
+					_react2["default"].createElement(
+						"a",
+						{ href: "/chronicle" },
+						"7. Januar 1610"
+					)
 				),
 				_react2["default"].createElement(
 					"div",
@@ -42503,11 +42507,15 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 					"h4",
 					null,
 					_react2["default"].createElement(
-						"code",
-						null,
-						"[countAstronomers]"
-					),
-					" Astronomen!"
+						"a",
+						{ href: "/scientists" },
+						_react2["default"].createElement(
+							"code",
+							null,
+							"[countAstronomers]"
+						),
+						" Astronomen!"
+					)
 				),
 				_react2["default"].createElement(
 					"div",
@@ -42547,9 +42555,13 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 					"h4",
 					null,
 					_react2["default"].createElement(
-						"code",
-						null,
-						"[totalAstronautsHoursInSpace]"
+						"a",
+						{ href: "/astronauts" },
+						_react2["default"].createElement(
+							"code",
+							null,
+							"[totalAstronautsHoursInSpace]"
+						)
 					)
 				),
 				_react2["default"].createElement(
@@ -42591,7 +42603,11 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 				_react2["default"].createElement(
 					"h4",
 					null,
-					"28° 37′ 4″ N, 80° 36′ 45″ W"
+					_react2["default"].createElement(
+						"a",
+						{ href: "/places" },
+						"28° 37′ 4″ N, 80° 36′ 45″ W"
+					)
 				),
 				_react2["default"].createElement(
 					"div",
@@ -42631,7 +42647,11 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 				_react2["default"].createElement(
 					"h4",
 					null,
-					"Götter und Nymphen ..."
+					_react2["default"].createElement(
+						"a",
+						{ href: "/solar-system" },
+						"Götter und Nymphen ..."
+					)
 				),
 				_react2["default"].createElement(
 					"div",
@@ -42671,7 +42691,11 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 				_react2["default"].createElement(
 					"h4",
 					null,
-					"Wegweiser am Nachthimmel"
+					_react2["default"].createElement(
+						"a",
+						{ href: "/constellations" },
+						"Wegweiser am Nachthimmel"
+					)
 				),
 				_react2["default"].createElement(
 					"div",
@@ -42705,7 +42729,11 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 				_react2["default"].createElement(
 					"h4",
 					null,
-					"70.000.000.000.000.000.000.000!"
+					_react2["default"].createElement(
+						"a",
+						{ href: "/stars" },
+						"70.000.000.000.000.000.000.000!"
+					)
 				),
 				_react2["default"].createElement(
 					"div",
@@ -42751,7 +42779,11 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 				_react2["default"].createElement(
 					"h4",
 					null,
-					"Hätten Sie gedacht, ..."
+					_react2["default"].createElement(
+						"a",
+						{ href: "/space-stations" },
+						"Hätten Sie gedacht, ..."
+					)
 				),
 				_react2["default"].createElement(
 					"div",
@@ -42785,7 +42817,11 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 				_react2["default"].createElement(
 					"h4",
 					null,
-					"Alles schwingt."
+					_react2["default"].createElement(
+						"a",
+						{ href: "/space-telescopes" },
+						"Alles schwingt."
+					)
 				),
 				_react2["default"].createElement(
 					"div",
@@ -42825,7 +42861,11 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 				_react2["default"].createElement(
 					"h4",
 					null,
-					"Einmal ins Weltall und wieder zurück, bitte."
+					_react2["default"].createElement(
+						"a",
+						{ href: "/missions" },
+						"Einmal ins Weltall und wieder zurück, bitte."
+					)
 				),
 				_react2["default"].createElement(
 					"div",
