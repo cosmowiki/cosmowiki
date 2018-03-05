@@ -21,7 +21,7 @@ const WelcomeComponent = ({appUrl}) => {
 					</div>
 				</div>
 				<div id="welcomeEvents" className="welcome-container">
-					<h4>7. Januar 1610</h4>
+					<h4><a href="/chronicle">7. Januar 1610</a></h4>
 					<div className="welcome-text pure-u-1">
 						<p>
 							An diesem Tag entdeckte Galileo Galilei in Padua mit einem Nachbau
@@ -44,7 +44,7 @@ const WelcomeComponent = ({appUrl}) => {
 					</div>
 		 	 	</div>
 				<div id="welcomeScientists" className="welcome-container">
-					<h4><code>[countAstronomers]</code> Astronomen!</h4>
+					<h4><a href="/scientists"><code>[countAstronomers]</code> Astronomen!</a></h4>
 					<div className="welcome-text pure-u-1">
 						<p>
 							Hier finden Sie zwar nicht alle, aber zumindest die bedeutendsten
@@ -66,7 +66,7 @@ const WelcomeComponent = ({appUrl}) => {
 					</div>
 		 	 	</div>
 				<div id="welcomeAstronauts" className="welcome-container">
-					<h4><code>[totalAstronautsHoursInSpace]</code></h4>
+					<h4><a href="/astronauts"><code>[totalAstronautsHoursInSpace]</code></a></h4>
 					<div className="welcome-text pure-u-1">
 						<p>
 							Eine unglaubliche Zahl! So viele Stunden haben alle <code>[countAstronauts]</code>
@@ -86,7 +86,7 @@ const WelcomeComponent = ({appUrl}) => {
 					</div>
 				</div>
 				<div id="welcomePlaces" className="welcome-container">
-					<h4>28° 37&prime; 4&Prime; N, 80° 36&prime; 45&Prime; W</h4>
+					<h4><a href="/places">28° 37&prime; 4&Prime; N, 80° 36&prime; 45&Prime; W</a></h4>
 					<div className="welcome-text pure-u-1">
 						<p>
 							Genau dort befindet sich der Launch Complex 39, und von dort starteten
@@ -107,7 +107,7 @@ const WelcomeComponent = ({appUrl}) => {
 		 	 		</div>
 		 	 	</div>
 				<div id="welcomeSolsys" className="welcome-container">
-					<h4>Götter und Nymphen ...</h4>
+					<h4><a href="/solar-system">Götter und Nymphen ...</a></h4>
 					<div className="welcome-text pure-u-1">
 						<p>
 							... sind die Namensgeber vieler Himmelskörper in unserem Sonnensytem.
@@ -127,7 +127,7 @@ const WelcomeComponent = ({appUrl}) => {
 		 	 		</div>
 		 	 	</div>
 				<div id="welcomeConstellations" className="welcome-container">
-					<h4>Wegweiser am Nachthimmel</h4>
+					<h4><a href="/constellations">Wegweiser am Nachthimmel</a></h4>
 					<div className="welcome-text pure-u-1">
 						<p>
 							Fünfmal wird die Strecke zwischen den beiden hinteren Sternen des
@@ -147,7 +147,7 @@ const WelcomeComponent = ({appUrl}) => {
 		 	 		</div>
 		 	 	</div>
 				<div id="welcomeStars" className="welcome-container">
-					<h4>70.000.000.000.000.000.000.000!</h4>
+					<h4><a href="/stars">70.000.000.000.000.000.000.000!</a></h4>
 					<div className="welcome-text pure-u-1">
 						<p>
 							Die Zahl aller Sterne im Universum wird auf etwa 7 &times; 10<sup>22</sup> geschätzt.
@@ -168,7 +168,7 @@ const WelcomeComponent = ({appUrl}) => {
 		 	 		</div>
 		 	 	</div>
 				<div id="welcomeSpacestations" className="welcome-container">
-					<h4>Hätten Sie gedacht, ...</h4>
+					<h4><a href="/space-stations">Hätten Sie gedacht, ...</a></h4>
 					<div className="welcome-text pure-u-1">
 						<p>
 							... dass die Sowjets in den 1970er Jahren bereits sieben Weltraumstationen
@@ -190,7 +190,7 @@ const WelcomeComponent = ({appUrl}) => {
 		 	 		</div>
 		 	 	</div>
 				<div id="welcomeSpacetelescopes" className="welcome-container">
-					<h4>Alles schwingt.</h4>
+					<h4><a href="/space-telescopes">Alles schwingt.</a></h4>
 					<div className="welcome-text pure-u-1">
 						<p>
 							Von Gammastrahlen bis Radiowellen, über Röntgenstrahlung, ultraviolettes,
@@ -212,7 +212,7 @@ const WelcomeComponent = ({appUrl}) => {
 		 	 		</div>
 		 	 	</div>
 				<div id="welcomeMissions" className="welcome-container">
-					<h4>Einmal ins Weltall und wieder zurück, bitte.</h4>
+					<h4><a href="/missions">Einmal ins Weltall und wieder zurück, bitte.</a></h4>
 					<div className="welcome-text pure-u-1">
 						<p>
 							Mit dem Start von Sputnik 1 am 4. Oktober 1957 begann das Zeitalter
