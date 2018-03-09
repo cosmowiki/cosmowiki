@@ -14,8 +14,12 @@
 	word-spacing: -1rem; letter-spacing: .5rem;
 }
 .welcome-cosmowiki a {
+	display: block;
 	font-size: 2.5rem; color: rgba(128, 128, 255, .7);
-	text-transform: uppercase;
+	letter-spacing: 20px; text-transform: uppercase;
+}
+.welcome-cosmowiki a:nth-child(even) {
+	text-align: right;
 }
 .welcome-cosmowiki a:focus,
 .welcome-cosmowiki a:hover,

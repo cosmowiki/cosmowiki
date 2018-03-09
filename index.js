@@ -40913,12 +40913,12 @@ var TelescopeComponent = function TelescopeComponent(_ref2) {
           '(',
           telescope.alternativename,
           ')'
-        ) : ''
+        ) : '',
+        telescope.countries.length == 0 ? '' : flags(telescope.countries)
       ),
       _react2['default'].createElement(
         'div',
         { className: 'spacetelescope-info2 pure-u-1 pure-u-md-1-2' },
-        telescope.countries.length == 0 ? '' : flags(telescope.countries),
         telescope.purpose ? _react2['default'].createElement(
           'p',
           { className: 'spacetelescope-data' },
@@ -42386,67 +42386,57 @@ var WelcomeComponent = function WelcomeComponent(_ref) {
 						_react2["default"].createElement(
 							"a",
 							{ href: "#welcomeEvents" },
-							"4 2 3  E r e i g n i s s e "
+							"423 Ereignisse"
 						),
-						" ",
 						_react2["default"].createElement(
 							"a",
 							{ href: "#welcomeScientists" },
-							"6 3 8  W i s s e n s c h a f t l e r "
+							"638 Wissenschaftler"
 						),
-						" ",
 						_react2["default"].createElement(
 							"a",
 							{ href: "#welcomeAstronauts" },
-							"3 8 7  R a u m f a h r e r "
+							"387 Raumfahrer"
 						),
-						" ",
 						_react2["default"].createElement(
 							"a",
 							{ href: "#welcomePlaces" },
-							"3 6 5  O r t e "
+							"365 Orte"
 						),
-						" ",
 						_react2["default"].createElement(
 							"a",
 							{ href: "#welcomeSolsys" },
-							"2 2 6  H i m m e l s k ö r p e r "
+							"226 Himmelskörper"
 						),
-						" ",
 						_react2["default"].createElement(
 							"a",
 							{ href: "#welcomeConstellations" },
-							"8 8  S t e r n b i l d e r "
+							"88 Sternbilder"
 						),
-						" ",
 						_react2["default"].createElement(
 							"a",
 							{ href: "#welcomeStars" },
-							"4 4 6  S t e r n e "
+							"446 Sterne"
 						),
-						" ",
 						_react2["default"].createElement(
 							"a",
 							{ href: "#welcomeSpacestations" },
-							"2 2  R a u m s t a t i o n e n "
+							"22 Raumstationen"
 						),
-						" ",
 						_react2["default"].createElement(
 							"a",
 							{ href: "#welcomeSpacetelescopes" },
-							"9 8  W e l t r a u m t e l e s k o p e "
+							"98 Weltraumteleskope"
 						),
-						" ",
 						_react2["default"].createElement(
 							"a",
 							{ href: "#welcomeSpacewalkes" },
-							"3 8 9  W e l t r a u m a u s s t i e g e "
+							"389 Weltraumausstiege"
 						),
-						" ",
 						_react2["default"].createElement(
 							"a",
 							{ href: "#welcomeMissions" },
-							"7 4 2  M i s s i o n e n"
+							"742 Missionen"
 						)
 					)
 				)
