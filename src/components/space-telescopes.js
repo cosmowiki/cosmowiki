@@ -97,7 +97,7 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
           Damit Weltraumteleskope auch von kosmischen Effekten weitestgehend ungestört
           arbeiten können, müssen sie häufig an speziellen Orten im All, den <em>Lagrange-Punkten</em> des
           Sonne-Erde-Systems, genauer im Orbit um diese Punkte herum platziert
-          werden. An diesen Punkten heben sich die Anziehungskräfte von Sonne und
+          werden. Dort heben sich die Anziehungskräfte von Sonne und
           Erde auf, so dass sehr stabile Beobachtungspositionen ohne umfangreiche
           Bahnkorrekturen besetzt werden können.
         </p>

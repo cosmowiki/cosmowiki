@@ -34,6 +34,7 @@
 - [x] style it
 - [x] make it responsive
 - [x] write content
+- [ ] set links from welcome-container to sites
 
 ## events
 - [x] create page
@@ -43,6 +44,7 @@
 - [x] rename the component, css and page files to "events"
 - [x] create a vertical timeline like [this][2]
 - [ ] let the locations open in a map (on places site or in an overlay?)
+- [ ] set anchor to each event div
 - [ ] complete data for launch
 
 ## people
@@ -50,6 +52,7 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
+- [ ] set anchor to each person div
 - [ ] collect item images
 - [ ] complete data for launch
 
@@ -60,6 +63,7 @@
 - [x] make it responsive
 - [x] create summary
 - [x] collect item images
+- [ ] set anchor to each astronaut div
 - [ ] complete data for launch
 
 ### scientists
@@ -67,6 +71,7 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
+- [ ] set anchor to each scientist div
 - [ ] collect item images
 - [ ] complete data for launch
 
@@ -87,6 +92,7 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
+- [ ] set anchor to each body div
 - [ ] make it work according to the conditions in pages/solar-system.js
 - [ ] collect item images
 - [ ] complete data for launch
@@ -98,12 +104,14 @@
 - [x] create summary
 - [x] collect item images
 - [x] complete data for launch
+- [ ] set anchor to each constellation div
 
 ### stars
 - [x] create page
 - [x] style it
 - [x] make it responsive
 - [x] create summary
+- [ ] set anchor to each star div
 - [ ] if stars are sorted by historical name then show only latin letters in LetterLinks
 - [ ] if stars are sorted by constellations then only show greek letters in LetterLinks
 - [ ] if stars are sorted by constellations, then sort them before by bayer name to get the correct alphabetical order of greek letters
@@ -115,6 +123,7 @@
 - [x] make it responsive
 - [x] create summary
 - [x] complete data for launch
+- [ ] set anchor to each station div
 - [ ] collect item images
 
 ### space telescopes
@@ -122,6 +131,7 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
+- [ ] set anchor to each telescope div
 - [ ] show month in endDate as word when there is no endday
 - [ ] collect item images
 - [ ] complete data for launch
@@ -141,6 +151,7 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
+- [ ] set anchor to each mission div
 - [ ] collect item images
 - [ ] complete data for launch
 
@@ -149,6 +160,7 @@
 - [x] style it
 - [x] make it responsive
 - [x] create summary
+- [ ] set anchor to each spacewalk div
 - [ ] complete data for launch
 
 ## about
