@@ -1,310 +1,386 @@
 [
     {
         "itemname": "steinzeitliche Menschen erschaffen den Ishango-Knochen",
-        "itemurl": "https://de.wikipedia.org/wiki/Ishango-Knochen"
+        "itemurl": "https://de.wikipedia.org/wiki/Ishango-Knochen",
+        "itemname2": "Ishango-Knochen"
     },
     {
         "itemname": "Entstehung der Malereien in der Höhle von Lascaux",
-        "itemurl": "https://de.wikipedia.org/wiki/H%C3%B6hle_von_Lascaux"
+        "itemurl": "https://de.wikipedia.org/wiki/H%C3%B6hle_von_Lascaux",
+        "itemname2": "Lascaux"
     },
     {
-        "itemname": "Errichtung der Kreisgrabenanlage von Goseck mit genauer astronomischer Ausrichtung",
-        "itemurl": "https://de.wikipedia.org/wiki/Kreisgrabenanlage_von_Goseck"
+        "itemname": "Errichtung der Kreisgrabenanlage von Goseck",
+        "itemurl": "https://de.wikipedia.org/wiki/Kreisgrabenanlage_von_Goseck",
+        "itemname2": "Goseck"
     },
     {
-        "itemname": "Errichtung der Megalithanlage von Nabta-Playa - ein archäoastronomisches Monument",
-        "itemurl": "https://de.wikipedia.org/wiki/Nabta-Playa"
+        "itemname": "Errichtung der Megalithanlage von Nabta-Playa",
+        "itemurl": "https://de.wikipedia.org/wiki/Nabta-Playa",
+        "itemname2": "Nabta-Playa"
     },
     {
         "itemname": "Beginn der \"langen Zählung\" des Maya-Kalenders",
-        "itemurl": "https://de.wikipedia.org/wiki/Maya-Kalender"
+        "itemurl": "https://de.wikipedia.org/wiki/Maya-Kalender",
+        "itemname2": "Maya-Kalender"
     },
     {
         "itemname": "Beginn der Errichtung der Megalithanlage von Stonehenge",
-        "itemurl": "https://de.wikipedia.org/wiki/Stonehenge"
+        "itemurl": "https://de.wikipedia.org/wiki/Stonehenge",
+        "itemname2": "Stonehenge"
     },
     {
         "itemname": "Errichtung der Megalithanlage von Mnajdra",
-        "itemurl": "https://de.wikipedia.org/wiki/Mnajdra"
+        "itemurl": "https://de.wikipedia.org/wiki/Mnajdra",
+        "itemname2": "Mnajdra"
     },
     {
         "itemname": "Einführung des 365-Tage-Kalenders",
-        "itemurl": "https://de.wikipedia.org/wiki/%C3%84gyptischer_Kalender"
+        "itemurl": "https://de.wikipedia.org/wiki/%C3%84gyptischer_Kalender",
+        "itemname2": "365-Tage-Kalender"
     },
     {
         "itemname": "belegte Beobachtung einer Sonnenfinsternis",
-        "itemurl": "https://de.wikipedia.org/wiki/Xi_und_He"
+        "itemurl": "https://de.wikipedia.org/wiki/Xi_und_He",
+        "itemname2": "Sonnenfinsternis-China"
     },
     {
         "itemname": "Herstellung der Himmelsscheibe von Nebra",
-        "itemurl": "https://de.wikipedia.org/wiki/Himmelsscheibe_von_Nebra"
+        "itemurl": "https://de.wikipedia.org/wiki/Himmelsscheibe_von_Nebra",
+        "itemname2": "Himmelsscheibe-Nebra"
     },
     {
-        "itemname": "Amenemhet baut für den Pharao Amenophis I. eine technisch ausgereifte Wasseruhr",
-        "itemurl": "https://de.wikipedia.org/wiki/Wasseruhr"
+        "itemname": "Amenemhet baut eine technisch ausgereifte Wasseruhr",
+        "itemurl": "https://de.wikipedia.org/wiki/Wasseruhr",
+        "itemname2": "Wasseruhr des Amenemhet"
     },
     {
         "itemname": "Entstehung der Nazca-Linien",
-        "itemurl": "https://de.wikipedia.org/wiki/Nazca-Linien"
+        "itemurl": "https://de.wikipedia.org/wiki/Nazca-Linien",
+        "itemname2": "Nazca-Linien"
     },
     {
         "itemname": "belegte Beobachtung einer Sonnenfinsternis",
-        "itemurl": "https://de.wikipedia.org/wiki/Sonnenfinsternis_vom_15._Juni_763_v._Chr."
+        "itemurl": "https://de.wikipedia.org/wiki/Sonnenfinsternis_vom_15._Juni_763_v._Chr.",
+        "itemname2": "Sonnenfinsternis-Assyrien"
     },
     {
         "itemname": "mutmaßliche Beobachtung des späteren Kometen Halley",
-        "itemurl": "https://de.wikipedia.org/wiki/Geschichte_der_Astronomie"
+        "itemurl": "https://de.wikipedia.org/wiki/Geschichte_der_Astronomie",
+        "itemname2": "Komet Halley"
     },
     {
         "itemname": "der chinesische Astronom Shi Shen erstellt einen Sternenkatalog",
-        "itemurl": "http://en.wikipedia.org/wiki/Shi_Shen"
+        "itemurl": "http://en.wikipedia.org/wiki/Shi_Shen",
+        "itemname2": "Sternenkatalog - Shi Shen"
     },
     {
         "itemname": "Aristoteles entdeckt das Prinzip der Camera obscura",
-        "itemurl": "https://de.wikipedia.org/wiki/Camera_obscura"
+        "itemurl": "https://de.wikipedia.org/wiki/Camera_obscura",
+        "itemname2": "Camera obscura - Aristoteles"
     },
     {
         "itemname": "Aristoteles beschreibt das geozentrische Weltbild",
-        "itemurl": "https://de.wikipedia.org/wiki/Geozentrisches_Weltbild"
+        "itemurl": "https://de.wikipedia.org/wiki/Geozentrisches_Weltbild",
+        "itemname2": "geozentrisches Weltbild - Aristoteles"
     },
     {
         "itemname": "Aristarchos von Samos beschreibt das heliozentrische Weltbild",
-        "itemurl": "https://de.wikipedia.org/wiki/Aristarchos_von_Samos"
+        "itemurl": "https://de.wikipedia.org/wiki/Aristarchos_von_Samos",
+        "itemname2": "heliozentrisches Weltbild - Aristarchos"
     },
     {
         "itemname": "Bau eines Sonnenobservatoriums durch unbekannte Kultur",
-        "itemurl": "https://de.wikipedia.org/wiki/Chanquillo"
+        "itemurl": "https://de.wikipedia.org/wiki/Chanquillo",
+        "itemname2": "Sonnenobservatorium - Peru"
     },
     {
         "itemname": "Einführung eines Schalttages alle vier Jahre im Kanopus-Dekret",
-        "itemurl": "https://de.wikipedia.org/wiki/Kanopus-Dekret"
+        "itemurl": "https://de.wikipedia.org/wiki/Kanopus-Dekret",
+        "itemname2": "Schalttag"
     },
     {
         "itemname": "Eratosthenes von Kyrene berechnet den Umfang der Erde",
-        "itemurl": "https://de.wikipedia.org/wiki/Eratosthenes"
+        "itemurl": "https://de.wikipedia.org/wiki/Eratosthenes",
+        "itemname2": "Eratosthenes - Erdumfang"
     },
     {
         "itemname": "Hipparchos erstellt einen Sternenkatalog",
-        "itemurl": "https://de.wikipedia.org/wiki/Hipparchos_(Astronom)"
+        "itemurl": "https://de.wikipedia.org/wiki/Hipparchos_(Astronom)",
+        "itemname2": "Sternenkatalog - Hipparchos"
     },
     {
-        "itemname": "Bau des Mechanismus von Antikythera zur Darstellung astronomischer Zyklen",
-        "itemurl": "https://de.wikipedia.org/wiki/Mechanismus_von_Antikythera"
+        "itemname": "Bau des Mechanismus von Antikythera",
+        "itemurl": "https://de.wikipedia.org/wiki/Mechanismus_von_Antikythera",
+        "itemname2": "Mechanismus von Antikythera"
     },
     {
         "itemname": "Was war der Stern von Betlehem?",
-        "itemurl": "https://de.wikipedia.org/wiki/Stern_von_Betlehem"
+        "itemurl": "https://de.wikipedia.org/wiki/Stern_von_Betlehem",
+        "itemname2": "Stern von Betlehem"
     },
     {
-        "itemname": "Claudius Ptolemäus verfasst den Almagest, eine Abhandlung zur Mathematik und Astronomie und einen Sternenkatalog",
-        "itemurl": "https://de.wikipedia.org/wiki/Ptolem%C3%A4us"
+        "itemname": "Claudius Ptolemäus verfasst unter anderem den Almagest",
+        "itemurl": "https://de.wikipedia.org/wiki/Ptolem%C3%A4us",
+        "itemname2": "Almagest - Claudius Ptolemäus"
     },
     {
         "itemname": "Errichtung des Turmbaus von Palenque",
-        "itemurl": "https://de.wikipedia.org/wiki/Palenque"
+        "itemurl": "https://de.wikipedia.org/wiki/Palenque",
+        "itemname2": "Turmbau von Palenque"
     },
     {
         "itemname": "Bau des Observatoriums von Cheomseongdae",
-        "itemurl": "https://de.wikipedia.org/wiki/Cheomseongdae"
+        "itemurl": "https://de.wikipedia.org/wiki/Cheomseongdae",
+        "itemname2": "Observatorium von Cheomseongdae"
     },
     {
         "itemname": "der arabische Astronom as-Sufi erstellt das \"Buch der Fixsterne\"",
-        "itemurl": "https://de.wikipedia.org/wiki/Abd_ar-Rahman_as-Sufi"
+        "itemurl": "https://de.wikipedia.org/wiki/Abd_ar-Rahman_as-Sufi",
+        "itemname2": "Buch der Fixsterne - as-Sufi"
     },
     {
         "itemname": "die Supernova von 1054 lässt den Krebsnebel entstehen",
-        "itemurl": "https://de.wikipedia.org/wiki/Supernova_1054"
+        "itemurl": "https://de.wikipedia.org/wiki/Supernova_1054",
+        "itemname2": "Supernova 1054"
     },
     {
         "itemname": "Einsatz von Raketen zu militärischen Zwecken",
-        "itemurl": "https://de.wikipedia.org/wiki/Rakete"
+        "itemurl": "https://de.wikipedia.org/wiki/Rakete",
+        "itemname2": "Raketeneinsatz China"
     },
     {
         "itemname": "Errichtung des Observatoriums Rasad-e Khan",
-        "itemurl": "https://de.wikipedia.org/wiki/Maragha"
+        "itemurl": "https://de.wikipedia.org/wiki/Maragha",
+        "itemname2": "Rasad-e Khan"
     },
     {
         "itemname": "Errichtung des Gaocheng-Observatoriums",
-        "itemurl": "https://de.wikipedia.org/wiki/Gaocheng-Observatorium"
+        "itemurl": "https://de.wikipedia.org/wiki/Gaocheng-Observatorium",
+        "itemname2": "Gaocheng"
     },
     {
         "itemname": "Errichtung des Observatoriums Gurkani Zij",
-        "itemurl": "https://de.wikipedia.org/wiki/Ulug_Begs_Observatorium"
+        "itemurl": "https://de.wikipedia.org/wiki/Ulug_Begs_Observatorium",
+        "itemname2": "Gurkani Zij"
     },
     {
         "itemname": "Nicolaus von Kues (Cusanus) veröffentlicht \"De docta ignorantia\"",
-        "itemurl": "https://de.wikipedia.org/wiki/Nikolaus_von_Kues"
+        "itemurl": "https://de.wikipedia.org/wiki/Nikolaus_von_Kues",
+        "itemname2": "De docta ignorantia"
     },
     {
-        "itemname": "Wan Hu versucht auf einem Stuhl mit Feuerwerksraketen zu starten (chin. Sage)",
-        "itemurl": "https://de.wikipedia.org/wiki/Wan_Hu"
+        "itemname": "Wan Hu versucht auf einem Stuhl mit Feuerwerksraketen zu starten",
+        "itemurl": "https://de.wikipedia.org/wiki/Wan_Hu",
+        "itemname2": "Raketen - Wan Hu"
     },
     {
-        "itemname": "Fernão de Magalhães (Ferdinand Magellan) beschreibt die Magellanschen Wolken",
-        "itemurl": "https://de.wikipedia.org/wiki/Magellansche_Wolke"
+        "itemname": "Fernão de Magalhães beschreibt die Magellanschen Wolken",
+        "itemurl": "https://de.wikipedia.org/wiki/Magellansche_Wolke",
+        "itemname2": "Magellansche Wolken"
     },
     {
-        "itemname": "Nicolaus Copernicus veröffentlicht \"De revolutionibus orbium coelestium\"",
-        "itemurl": "https://de.wikipedia.org/wiki/De_Revolutionibus_Orbium_Coelestium"
+        "itemname": "Kopernikus veröffentlicht \"De revolutionibus orbium coelestium\"",
+        "itemurl": "https://de.wikipedia.org/wiki/De_Revolutionibus_Orbium_Coelestium",
+        "itemname2": "De revolutionibus orbium coelestium"
     },
     {
-        "itemname": "Daniele Barbaro setzt geschliffenen Linsen in der Camera obscura ein",
-        "itemurl": "https://de.wikipedia.org/wiki/Camera_obscura"
+        "itemname": "Daniele Barbaro setzt geschliffene Linsen in der Camera obscura ein",
+        "itemurl": "https://de.wikipedia.org/wiki/Camera_obscura",
+        "itemname2": "Linsen - Daniele Barbaro"
     },
     {
         "itemname": "Tycho Brahe und die Supernova von 1572",
-        "itemurl": "https://de.wikipedia.org/wiki/Supernova_1572"
+        "itemurl": "https://de.wikipedia.org/wiki/Supernova_1572",
+        "itemname2": "Supernova 1572 - Brahe"
     },
     {
         "itemname": "Tycho Brahe beschreibt Kometen als ferne Himmelskörper",
-        "itemurl": "https://de.wikipedia.org/wiki/Tycho_Brahe"
+        "itemurl": "https://de.wikipedia.org/wiki/Tycho_Brahe",
+        "itemname2": "Kometen - Brahe"
     },
     {
         "itemname": "Tycho Brahe setzt seinen präzisen Mauerquadranten ein",
-        "itemurl": "https://de.wikipedia.org/wiki/Mauerquadrant"
+        "itemurl": "https://de.wikipedia.org/wiki/Mauerquadrant",
+        "itemname2": "Mauerquadrant - Brahe"
     },
     {
-        "itemname": "Johann Bayer erstellt den Himmelsatlas \"Uranometria\", erstmals mit Sternen beider Hemisphären",
-        "itemurl": "https://de.wikipedia.org/wiki/Uranometria"
+        "itemname": "Johann Bayer erstellt den Himmelsatlas \"Uranometria\"",
+        "itemurl": "https://de.wikipedia.org/wiki/Uranometria",
+        "itemname2": "Uranometria - Bayer"
     },
     {
         "itemname": "Hans Lipperhey erfindet das Linsenfernrohr",
-        "itemurl": "https://de.wikipedia.org/wiki/Hans_Lipperhey"
+        "itemurl": "https://de.wikipedia.org/wiki/Hans_Lipperhey",
+        "itemname2": "Fernrohr - Lipperhey"
     },
     {
         "itemname": "Johannes Kepler veröffentlicht die Gesetze der Planetenbahnen",
-        "itemurl": "https://de.wikipedia.org/wiki/Keplersche_Gesetze"
+        "itemurl": "https://de.wikipedia.org/wiki/Keplersche_Gesetze",
+        "itemname2": "Planetenbahnen - Kepler"
     },
     {
-        "itemname": "Galileo Galilei entdeckt mit einem Fernrohr die vier größten Jupitermonde",
-        "itemurl": "https://de.wikipedia.org/wiki/Galileische_Monde"
+        "itemname": "Galilei entdeckt mit einem Fernrohr die vier größten Jupitermonde",
+        "itemurl": "https://de.wikipedia.org/wiki/Galileische_Monde",
+        "itemname2": "Jupitermonde - Galilei"
     },
     {
-        "itemname": "Galilei veröffentlicht in \"Siderius nuncius\" die Ergebnisse seiner Beobachtungen mit dem Fernrohr",
-        "itemurl": "https://de.wikipedia.org/wiki/Sidereus_Nuncius"
+        "itemname": "Galilei veröffentlicht in \"Siderius nuncius\" seine Beobachtungen",
+        "itemurl": "https://de.wikipedia.org/wiki/Sidereus_Nuncius",
+        "itemname2": "Siderius nuncius - Galilei"
     },
     {
-        "itemname": "Niccolò Zucchi (Nicolaus Zucchius) beschreibt erstmals das Spiegelteleskop",
-        "itemurl": "https://de.wikipedia.org/wiki/Spiegelteleskop"
+        "itemname": "Niccolò Zucchi beschreibt erstmals das Spiegelteleskop",
+        "itemurl": "https://de.wikipedia.org/wiki/Spiegelteleskop",
+        "itemname2": "Spiegelteleskop - Niccolo Zucchi"
     },
     {
         "itemname": "Jeremia Horrocks beobachtet erstmals einen Venustransit",
-        "itemurl": "https://de.wikipedia.org/wiki/Jeremia_Horrocks"
+        "itemurl": "https://de.wikipedia.org/wiki/Jeremia_Horrocks",
+        "itemname2": "Venustransit - Jeremia Horrocks"
     },
     {
-        "itemname": "Christiaan Huygens beschreibt den Saturnring und entdeckte den Mond Titan",
-        "itemurl": "https://de.wikipedia.org/wiki/Saturnringe"
+        "itemname": "Christiaan Huygens beschreibt den Saturnring und entdeckt den Titan",
+        "itemurl": "https://de.wikipedia.org/wiki/Saturnringe",
+        "itemname2": "Saturnring, Titan - Huygens"
     },
     {
         "itemname": "Isaac Newton verbessert das Spiegelteleskop",
-        "itemurl": "https://de.wikipedia.org/wiki/Spiegelteleskop"
+        "itemurl": "https://de.wikipedia.org/wiki/Spiegelteleskop",
+        "itemname2": "Spiegelteleskop - Newton"
     },
     {
         "itemname": "Giovanni Cassini entdeckt eine Lücke zwischen Saturnringen",
-        "itemurl": "https://de.wikipedia.org/wiki/Cassinische_Teilung"
+        "itemurl": "https://de.wikipedia.org/wiki/Cassinische_Teilung",
+        "itemname2": "Saturnringe - Cassini"
     },
     {
         "itemname": "Ole Rømer belegt die Endlichkeit der Lichtgeschwindigkeit",
-        "itemurl": "https://de.wikipedia.org/wiki/Lichtgeschwindigkeit"
+        "itemurl": "https://de.wikipedia.org/wiki/Lichtgeschwindigkeit",
+        "itemname2": "Lichtgeschwindigkeit - Ole Rømer"
     },
     {
-        "itemname": "Christiaan Huygens berechnet erstmals die Lichtgeschwindigkeit mit 213.000 km/s",
-        "itemurl": "https://de.wikipedia.org/wiki/Lichtgeschwindigkeit"
+        "itemname": "Christiaan Huygens berechnet erstmals die Lichtgeschwindigkeit",
+        "itemurl": "https://de.wikipedia.org/wiki/Lichtgeschwindigkeit",
+        "itemname2": "Lichtgeschwindigkeit - Huygens"
     },
     {
         "itemname": "Isaac Newton veröffentlicht das Gravitationsgesetz",
-        "itemurl": "https://de.wikipedia.org/wiki/Newtonsches_Gravitationsgesetz"
+        "itemurl": "https://de.wikipedia.org/wiki/Newtonsches_Gravitationsgesetz",
+        "itemname2": "Gravitation - Newton"
     },
     {
-        "itemname": "Christiaan Huygens schreibt über andere Sonnen, Planeten und außerirdisches Leben",
-        "itemurl": "https://de.wikipedia.org/wiki/Christiaan_Huygens"
+        "itemname": "Huygens schreibt in \"Cosmotheoros\" auch über außerirdisches Leben",
+        "itemurl": "https://de.wikipedia.org/wiki/Christiaan_Huygens",
+        "itemname2": "Cosmotheoros - Huygens"
     },
     {
         "itemname": "Edmund Halley weist die Wiederkehr eines Kometen nach",
-        "itemurl": "https://de.wikipedia.org/wiki/Halleyscher_Komet"
+        "itemurl": "https://de.wikipedia.org/wiki/Halleyscher_Komet",
+        "itemname2": "Komet - Halley"
     },
     {
         "itemname": "Maharaja Jai Singh II lässt die fünf Jantar Mantar-Sternwarten bauen",
-        "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar"
+        "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar",
+        "itemname2": "Jantar Mantar-Sternwarten"
     },
     {
-        "itemname": "Immanuel Kant veröffentlicht die erste Theorie über Entstehung unseres Sonnensystems",
-        "itemurl": "https://de.wikipedia.org/wiki/Allgemeine_Naturgeschichte_und_Theorie_des_Himmels"
+        "itemname": "Kant veröffentlicht Theorie über Entstehung unseres Sonnensystems",
+        "itemurl": "https://de.wikipedia.org/wiki/Allgemeine_Naturgeschichte_und_Theorie_des_Himmels",
+        "itemname2": "Sonnensystem - Kant"
     },
     {
-        "itemname": "Charles Messier erstellt seinen Katalog von Galaxien, Sternhaufen und Nebeln",
-        "itemurl": "https://de.wikipedia.org/wiki/Messier-Katalog"
+        "itemname": "Messier erstellt Katalog von Galaxien, Sternhaufen und Nebeln",
+        "itemurl": "https://de.wikipedia.org/wiki/Messier-Katalog",
+        "itemname2": "Katalog - Messier"
     },
     {
         "itemname": "Friedrich Wilhelm Herschel entdeckt den Planeten Uranus",
-        "itemurl": "https://de.wikipedia.org/wiki/Uranus_(Planet)"
+        "itemurl": "https://de.wikipedia.org/wiki/Uranus_(Planet)",
+        "itemname2": "Uranus - Herschel"
     },
     {
-        "itemname": "Friedrich Wilhelm Herschel entdeckt die Uranusmonde Oberon und Titania",
-        "itemurl": "https://de.wikipedia.org/wiki/Oberon_(Mond)"
+        "itemname": "Herschel entdeckt die Uranusmonde Oberon und Titania",
+        "itemurl": "https://de.wikipedia.org/wiki/Oberon_(Mond)",
+        "itemname2": "Uranusmonde - Herschel"
     },
     {
-        "itemname": "Alexander von Humboldt beobachtet einen Meteorschauer der Leoniden",
-        "itemurl": "https://de.wikipedia.org/wiki/Alexander_von_Humboldt"
+        "itemname": "Alexander v. Humboldt beobachtet einen Schauer der Leoniden",
+        "itemurl": "https://de.wikipedia.org/wiki/Alexander_von_Humboldt",
+        "itemname2": "Leoniden - Humboldt"
     },
     {
         "itemname": "Friedrich Wilhelm Herschel entdeckt die Infrarotstrahlung",
-        "itemurl": "https://de.wikipedia.org/wiki/Infrarotstrahlung"
+        "itemurl": "https://de.wikipedia.org/wiki/Infrarotstrahlung",
+        "itemname2": "Infrarotstrahlung - Herschel"
     },
     {
         "itemname": "Giuseppe Piazzi entdeckt mit Ceres den ersten Asteroiden",
-        "itemurl": "https://de.wikipedia.org/wiki/Ceres_(Zwergplanet)"
+        "itemurl": "https://de.wikipedia.org/wiki/Ceres_(Zwergplanet)",
+        "itemname2": "Ceres - Piazzi"
     },
     {
-        "itemname": "John William Draper fertigt die erste gesicherte Aufnahme des Mondes an",
-        "itemurl": "https://de.wikipedia.org/wiki/John_William_Draper"
+        "itemname": "John Draper fertigt die erste gesicherte Aufnahme des Mondes an",
+        "itemurl": "https://de.wikipedia.org/wiki/John_William_Draper",
+        "itemname2": "Aufnahme - Draper"
     },
     {
         "itemname": "Johann Galle entdeckt den Planeten Neptun",
-        "itemurl": "https://de.wikipedia.org/wiki/Neptun_(Planet)"
+        "itemurl": "https://de.wikipedia.org/wiki/Neptun_(Planet)",
+        "itemname2": "Neptun - Galle"
     },
     {
-        "itemname": "Robert Wilhelm Bunsen und Gustav Robert Kirchhoff begründen die Spektrometrie",
-        "itemurl": "https://de.wikipedia.org/wiki/Spektroskopie"
+        "itemname": "Robert Bunsen und Gustav Kirchhoff begründen die Spektrometrie",
+        "itemurl": "https://de.wikipedia.org/wiki/Spektroskopie",
+        "itemname2": "Spektrometrie - Bunsen, Kirchhoff"
     },
     {
-        "itemname": "James Clerk Maxwell leitet den Strahlungsdruck aus seinen Gleichungen ab",
-        "itemurl": "https://de.wikipedia.org/wiki/Strahlungsdruck"
+        "itemname": "James Maxwell leitet den Strahlungsdruck aus seinen Gleichungen ab",
+        "itemurl": "https://de.wikipedia.org/wiki/Strahlungsdruck",
+        "itemname2": "Strahlungsdruck - Maxwell"
     },
     {
-        "itemname": "Louis Paul Cilletet gelingt die Verflüssigung von Sauerstoff und Stickstoff",
-        "itemurl": "https://de.wikipedia.org/wiki/Louis_Paul_Cailletet"
+        "itemname": "Louis Cilletet gelingt die Verflüssigung von Sauerstoff und Stickstoff",
+        "itemurl": "https://de.wikipedia.org/wiki/Louis_Paul_Cailletet",
+        "itemname2": "Flüssiggase - Cilletet"
     },
     {
-        "itemname": "Henry Draper fertigt die erste Fotografie eines Deep-Sky-Objektes, des Orionnebels",
-        "itemurl": "https://de.wikipedia.org/wiki/Henry_Draper"
+        "itemname": "Henry Draper fertigt die erste Fotografie eines Deep-Sky-Objektes an",
+        "itemurl": "https://de.wikipedia.org/wiki/Henry_Draper",
+        "itemname2": "Fotografie - Draper"
     },
     {
-        "itemname": "Eröffnung des Lick-Observatoriums, \"Erstes Licht\" des 91-cm-Teleskopes",
-        "itemurl": "https://de.wikipedia.org/wiki/Lick-Observatorium"
+        "itemname": "Eröffnung des Lick-Observatoriums",
+        "itemurl": "https://de.wikipedia.org/wiki/Lick-Observatorium",
+        "itemname2": "Lick-Observatorium"
     },
     {
-        "itemname": "Otto Lilienthal veröffentlicht sein Buch \"Der Vogelflug als Grundlage der Fliegekunst\"",
-        "itemurl": "https://de.wikipedia.org/wiki/Otto_Lilienthal"
+        "itemname": "Lilienthal veröffentlicht \"Der Vogelflug als Grundlage der Fliegekunst\"",
+        "itemurl": "https://de.wikipedia.org/wiki/Otto_Lilienthal",
+        "itemname2": "Lilienthal"
     },
     {
-        "itemname": "Max Planck leitet das Strahlungsgesetz her, Geburt der Quantenphysik",
-        "itemurl": "https://de.wikipedia.org/wiki/Plancksches_Strahlungsgesetz"
+        "itemname": "Planck leitet das Strahlungsgesetz her, Geburt der Quantenphysik",
+        "itemurl": "https://de.wikipedia.org/wiki/Plancksches_Strahlungsgesetz",
+        "itemname2": "Strahlungsgesetz - Planck"
     },
     {
         "itemname": "Konstantin Ziolkowski stellt die Raketengrundgleichung auf",
-        "itemurl": "https://de.wikipedia.org/wiki/Raketengrundgleichung"
+        "itemurl": "https://de.wikipedia.org/wiki/Raketengrundgleichung",
+        "itemname2": "Raketengrundgleichung - Ziolkowski"
     },
     {
         "itemname": "Albert Einsteins Spezielle Relativitätstheorie (SRT) wird veröffentlicht",
-        "itemurl": "https://de.wikipedia.org/wiki/Spezielle_Relativit%C3%A4tstheorie"
+        "itemurl": "https://de.wikipedia.org/wiki/Spezielle_Relativit%C3%A4tstheorie",
+        "itemname2": "SRT - Einstein"
     },
     {
-        "itemname": "Gründung der Versuchsanstalt der Motorluftschiff-Studiengesellschaft",
-        "itemurl": "https://de.wikipedia.org/wiki/Aerodynamische_Versuchsanstalt"
+        "itemname": "Gründung der Modellversuchsanstalt für Aerodynamik der Motorluftschiff-Studiengesellschaft",
+        "itemurl": "https://de.wikipedia.org/wiki/Aerodynamische_Versuchsanstalt",
+        "itemname2": "Versuchsanstalt der Motorluftschiff-Studiengesellschaft"
     },
     {
-        "itemname": "Einschlag eines Asteroiden mit einer oder mehreren schwere Explosionen",
+        "itemname": "Asteroideneinschlag mit einer oder mehreren schweren Explosionen",
         "itemurl": "https://de.wikipedia.org/wiki/Tunguska-Ereignis"
     },
     {
@@ -312,7 +388,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Deutsche_Versuchsanstalt_f%C3%BCr_Luftfahrt"
     },
     {
-        "itemname": "Henry Russel entwickelt nach Arbeiten von Ejnar Hertzsprung das Hertzsprung-Russel-Diagramm",
+        "itemname": "Henry Norris Russel entwickelt nach Arbeiten von Ejnar Hertzsprung das Hertzsprung-Russel-Diagramm",
         "itemurl": "https://de.wikipedia.org/wiki/Hertzsprung-Russell-Diagramm"
     },
     {
@@ -320,11 +396,11 @@
         "itemurl": "https://de.wikipedia.org/wiki/Allgemeine_Relativit%C3%A4tstheorie"
     },
     {
-        "itemname": "Anny J. Cannon veröffentlicht den Henry-Draper-Katalog mit heute über 35.000 Sternen",
+        "itemname": "Anny J. Cannon veröffentlicht den Henry-Draper-Katalog",
         "itemurl": "https://de.wikipedia.org/wiki/Henry-Draper-Katalog"
     },
     {
-        "itemname": "Edwin Hubble identifiziert den Andromedanebel als extragalaktisches Objekt",
+        "itemname": "Hubble identifiziert den Andromedanebel als extragalaktisches Objekt",
         "itemurl": "https://de.wikipedia.org/wiki/Andromedagalaxie"
     },
     {
@@ -332,11 +408,11 @@
         "itemurl": "https://de.wikipedia.org/wiki/Robert_Goddard"
     },
     {
-        "itemname": "George Lemaître postuliert die Entstehung des Universums aus einem Uratom",
+        "itemname": "Lemaître postuliert die Entstehung des Universums aus einem Uratom",
         "itemurl": "https://de.wikipedia.org/wiki/Georges_Lema%C3%AEtre"
     },
     {
-        "itemname": "Hubble beschreibt die Ausdehnungsrate des Universums mit einer Konstante",
+        "itemname": "Hubble beschreibt die Ausdehnung des Universums mit einer Konstante",
         "itemurl": "https://de.wikipedia.org/wiki/Hubble-Konstante"
     },
     {
@@ -348,7 +424,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Deutsche_Forschungsanstalt_f%C3%BCr_Luftfahrt"
     },
     {
-        "itemname": "Wernher von Braun führt die ertsen Raketenversuche in der Heeresversuchsanstalt durch",
+        "itemname": "Wernher von Braun führt die ersten Raketenversuche durch",
         "itemurl": "https://de.wikipedia.org/wiki/Heeresversuchsanstalt_Peenem%C3%BCnde"
     },
     {
@@ -356,7 +432,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Bethe-Weizs%C3%A4cker-Zyklus"
     },
     {
-        "itemname": "Erich Warsitz fliegt das erste strahlgetriebene Flugzeug, die Heinkel He-178",
+        "itemname": "Erich Warsitz fliegt das erste strahlgetriebene Flugzeug, die He-178",
         "itemurl": "https://de.wikipedia.org/wiki/Heinkel_He_178"
     },
     {
@@ -364,7 +440,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/A4_(Rakete)"
     },
     {
-        "itemname": "Edgeworth stellt eine These über einen Staub-Bereich jenseits der Neptunbahn auf (Kuiper 1951)",
+        "itemname": "Edgeworth postuliert Staub-Gürtel jenseits des Neptun (Kuiper 1951)",
         "itemurl": "https://de.wikipedia.org/wiki/Kuiper-G%C3%BCrtel"
     },
     {
@@ -6414,6 +6490,465 @@
         "itemname2": "Fritz"
     },
     {
+        "itemname": "Langley Research Center",
+        "itemurl": "https://de.wikipedia.org/wiki/Langley_Research_Center",
+        "itemname2": "LaRC"
+    },
+    {
+        "itemname": "Fundort des Mechanismus von Antikythera",
+        "itemurl": "https://de.wikipedia.org/wiki/Mechanismus_von_Antikythera"
+    },
+    {
+        "itemname": "Fundort der Himmelsscheibe von Nebra",
+        "itemurl": "https://de.wikipedia.org/wiki/Himmelsscheibe_von_Nebra"
+    },
+    {
+        "itemname": "Liquid Propulsion Sonnes Centre",
+        "itemurl": "http://en.wikipedia.org/wiki/Liquid_Propulsion_Sonnes_Centre",
+        "itemname2": "LPSC"
+    },
+    {
+        "itemname": "Glenn Research Center",
+        "itemurl": "https://de.wikipedia.org/wiki/Glenn_Research_Center",
+        "itemname2": "GRC"
+    },
+    {
+        "itemname": "Marshall Space Flight Center",
+        "itemurl": "https://de.wikipedia.org/wiki/Marshall_Space_Flight_Center",
+        "itemname2": "MSFC"
+    },
+    {
+        "itemname": "Institut für Werkstoff-Forschung",
+        "itemurl": "https://de.wikipedia.org/wiki/Institut_f%C3%BCr_Werkstoff-Forschung"
+    },
+    {
+        "itemname": "David Florida Laboratory",
+        "itemurl": "https://de.wikipedia.org/wiki/David_Florida_Laboratory",
+        "itemname2": "DFL"
+    },
+    {
+        "itemname": "Zentrum für angewandte Raumfahrttechnologie und Mikrogravitation",
+        "itemurl": "https://de.wikipedia.org/wiki/Fallturm_Bremen"
+    },
+    {
+        "itemname": "NASA Astrobiology Institute",
+        "itemurl": "https://de.wikipedia.org/wiki/NASA_Astrobiology_Institute",
+        "itemname2": "NAI"
+    },
+    {
+        "itemname": "Satellitenstation Graz-Lustbühel",
+        "itemurl": "https://de.wikipedia.org/wiki/Satellitenstation_Graz-Lustb%C3%BChel"
+    },
+    {
+        "itemname": "Galileo-Galilei-Haus",
+        "itemurl": "https://de.wikipedia.org/wiki/Galileo_Galilei"
+    },
+    {
+        "itemname": "John H. Chapman Space Center",
+        "itemurl": "https://de.wikipedia.org/wiki/John_H._Chapman_Space_Centre"
+    },
+    {
+        "itemname": "Institute of Space and Astronautical Science",
+        "itemurl": "https://de.wikipedia.org/wiki/Institute_of_Space_and_Astronautical_Science",
+        "itemname2": "ISAS"
+    },
+    {
+        "itemname": "Johannes-Kepler-Haus",
+        "itemurl": "https://de.wikipedia.org/wiki/Keplersche_Gesetze"
+    },
+    {
+        "itemname": "Tsukuba Space Center",
+        "itemurl": "https://de.wikipedia.org/wiki/Tsukuba_Space_Center",
+        "itemname2": "TKSC"
+    },
+    {
+        "itemname": "Kreisgrabenanlage von Goseck",
+        "itemurl": "https://de.wikipedia.org/wiki/Kreisgrabenanlage_von_Goseck"
+    },
+    {
+        "itemname": "Kennedy Space Center Shuttle Landing Facility",
+        "itemurl": "https://de.wikipedia.org/wiki/Shuttle_Landing_Facility",
+        "itemname2": "KSC SLF"
+    },
+    {
+        "itemname": "Department of Applied Mathematics and Theoretical Physics",
+        "itemurl": "http://en.wikipedia.org/wiki/DAMTP"
+    },
+    {
+        "itemname": "European Space Operations Centre",
+        "itemurl": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Raumflugkontrollzentrum",
+        "itemname2": "ESOC"
+    },
+    {
+        "itemname": "Michoud Assembly Facility",
+        "itemurl": "https://de.wikipedia.org/wiki/Michoud_Assembly_Facility",
+        "itemname2": "MAF"
+    },
+    {
+        "itemname": "White Sands Test Facility",
+        "itemurl": "http://en.wikipedia.org/wiki/White_Sands_Test_Facility",
+        "itemname2": "WSTF"
+    },
+    {
+        "itemname": "Heeresversuchsanstalt Peenemünde",
+        "itemurl": "https://de.wikipedia.org/wiki/Heeresversuchsanstalt_Peenem%C3%BCnde",
+        "itemname2": "HVA"
+    },
+    {
+        "itemname": "Palmachim Raketentestgelände",
+        "itemurl": "https://de.wikipedia.org/wiki/Palmachim"
+    },
+    {
+        "itemname": "Applied Physics Laboratory",
+        "itemurl": "https://de.wikipedia.org/wiki/Applied_Physics_Laboratory",
+        "itemname2": "APL"
+    },
+    {
+        "itemname": "Centre Spacial Guyanais",
+        "itemurl": "https://de.wikipedia.org/wiki/Centre_Spatial_Guyanais",
+        "itemname2": "CSG (Centre Spacial Guyanais)"
+    },
+    {
+        "itemname": "Kosmonautentrainingszentrum J. A. Gagarin",
+        "itemurl": "https://de.wikipedia.org/wiki/Juri-Gagarin-Kosmonautentrainingszentrum",
+        "itemname2": "ZPK"
+    },
+    {
+        "itemname": "Jet Propulsion Laboratory",
+        "itemurl": "https://de.wikipedia.org/wiki/Jet_Propulsion_Laboratory",
+        "itemname2": "JPL"
+    },
+    {
+        "itemname": "John C. Stennis Space Center",
+        "itemurl": "https://de.wikipedia.org/wiki/John_C._Stennis_Space_Center",
+        "itemname2": "SSC"
+    },
+    {
+        "itemname": "Dryden Research Flight Center",
+        "itemurl": "https://de.wikipedia.org/wiki/Dryden_Flight_Research_Center",
+        "itemname2": "DFRC"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_Air_Force_Base",
+        "itemname2": "VAFB"
+    },
+    {
+        "itemname": "Goddard Space Flight Center",
+        "itemurl": "https://de.wikipedia.org/wiki/Goddard_Space_Flight_Center",
+        "itemname2": "GSFC"
+    },
+    {
+        "itemname": "Noshiro Testing Center",
+        "itemurl": "http://en.wikipedia.org/wiki/Noshiro_Testing_Center",
+        "itemname2": "NTC"
+    },
+    {
+        "itemname": "European Space Astronomy Centre",
+        "itemurl": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Weltraumastronomiezentrum",
+        "itemname2": "ESAC"
+    },
+    {
+        "itemname": "European Astronaut Centre",
+        "itemurl": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Astronautenzentrum",
+        "itemname2": "EAC"
+    },
+    {
+        "itemname": "Ames Research Center",
+        "itemurl": "https://de.wikipedia.org/wiki/Ames_Research_Center",
+        "itemname2": "ARC"
+    },
+    {
+        "itemname": "Lyndon B. Johnson Space Center",
+        "itemurl": "https://de.wikipedia.org/wiki/Lyndon_B._Johnson_Space_Center",
+        "itemname2": "JSC"
+    },
+    {
+        "itemname": "European Space Research and Technology Centre",
+        "itemurl": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Weltraumforschungs-_und_Technologiezentrum",
+        "itemname2": "ESTEC"
+    },
+    {
+        "itemname": "European Space Research Institute",
+        "itemurl": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Weltraumforschungsinstitut",
+        "itemname2": "ESRIN"
+    },
+    {
+        "itemname": "Carr-House",
+        "itemurl": "https://de.wikipedia.org/wiki/Jeremia_Horrocks"
+    },
+    {
+        "itemname": "Kaifeng",
+        "itemurl": "https://de.wikipedia.org/wiki/Rakete"
+    },
+    {
+        "itemname": "Lascaux-Höhlen",
+        "itemurl": "https://de.wikipedia.org/wiki/H%C3%B6hle_von_Lascaux"
+    },
+    {
+        "itemname": "Megalithanlage von Mnajdra",
+        "itemurl": "https://de.wikipedia.org/wiki/Mnajdra"
+    },
+    {
+        "itemname": "Megalithanlage von Nabta Playa",
+        "itemurl": "https://de.wikipedia.org/wiki/Nabta-Playa"
+    },
+    {
+        "itemname": "Megalithanlage von Stonehenge",
+        "itemurl": "https://de.wikipedia.org/wiki/Stonehenge"
+    },
+    {
+        "itemname": "NASA Institute for Advanced Concepts",
+        "itemurl": "https://de.wikipedia.org/wiki/NASA_Institute_for_Advanced_Concepts",
+        "itemname2": "NIAC"
+    },
+    {
+        "itemname": "Nazca-Linien",
+        "itemurl": "https://de.wikipedia.org/wiki/Nazca-Linien"
+    },
+    {
+        "itemname": "Search for Extraterrestrial Intelligence Institute",
+        "itemurl": "https://de.wikipedia.org/wiki/SETI-Institut",
+        "itemname2": "SETI"
+    },
+    {
+        "itemname": "Siding-Spring-Observatory",
+        "itemurl": "https://de.wikipedia.org/wiki/Siding-Spring-Observatorium"
+    },
+    {
+        "itemname": "Space Dynamics Laboratory",
+        "itemurl": "http://en.wikipedia.org/wiki/Space_Dynamics_Laboratory",
+        "itemname2": "SDL"
+    },
+    {
+        "itemname": "St Laurence's Church",
+        "itemurl": "https://de.wikipedia.org/wiki/Slough"
+    },
+    {
+        "itemname": "Tunguska-Ereignis",
+        "itemurl": "https://de.wikipedia.org/wiki/Tunguska-Ereignis"
+    },
+    {
+        "itemname": "Canberra Deep Space Communication Complex",
+        "itemurl": "https://de.wikipedia.org/wiki/Canberra_Deep_Space_Communication_Complex",
+        "itemname2": "CDSCC"
+    },
+    {
+        "itemname": "Centre Spacial Guyanais",
+        "itemurl": "https://de.wikipedia.org/wiki/Centre_Spatial_Guyanais",
+        "itemname2": "CSG (Centre Spacial Guyanais)"
+    },
+    {
+        "itemname": "Deep Space Network",
+        "itemurl": "https://de.wikipedia.org/wiki/Deep_Space_Network",
+        "itemname2": "DSN"
+    },
+    {
+        "itemname": "Deutsches Raumfahrt-Kontrollzentrum",
+        "itemurl": "https://de.wikipedia.org/wiki/Deutsches_Raumfahrt-Kontrollzentrum",
+        "itemname2": "GSOC"
+    },
+    {
+        "itemname": "ESA tracking stations",
+        "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
+        "itemname2": "ESTRACK"
+    },
+    {
+        "itemname": "ESTRACK Ground station Argentienien, Malargüe",
+        "itemurl": "http://en.wikipedia.org/wiki/Malarg%C3%BCe_Station",
+        "itemname2": "ESTRACK"
+    },
+    {
+        "itemname": "ESTRACK Ground station Australien, New Norcia",
+        "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
+        "itemname2": "ESTRACK"
+    },
+    {
+        "itemname": "ESTRACK Ground station Australien, Perth",
+        "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
+        "itemname2": "ESTRACK"
+    },
+    {
+        "itemname": "ESTRACK Ground station Belgien, Redu",
+        "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
+        "itemname2": "ESTRACK"
+    },
+    {
+        "itemname": "ESTRACK Ground station Französisch Guyana, Kourou",
+        "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
+        "itemname2": "ESTRACK"
+    },
+    {
+        "itemname": "ESTRACK Ground station Portugal, Santa Maria",
+        "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
+        "itemname2": "ESTRACK"
+    },
+    {
+        "itemname": "ESTRACK Ground station Schweden, Kiruna",
+        "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
+        "itemname2": "ESTRACK"
+    },
+    {
+        "itemname": "ESTRACK Ground station Spanien, Cerebros",
+        "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
+        "itemname2": "ESTRACK"
+    },
+    {
+        "itemname": "ESTRACK Ground station Spanien, Maspalomas",
+        "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
+        "itemname2": "ESTRACK"
+    },
+    {
+        "itemname": "ESTRACK Ground station Spanien, Villafranca del Castillo",
+        "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
+        "itemname2": "ESTRACK"
+    },
+    {
+        "itemname": "European Space Operations Centre",
+        "itemurl": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Raumflugkontrollzentrum",
+        "itemname2": "ESOC"
+    },
+    {
+        "itemname": "Goldstone Deep Space Communications Complex",
+        "itemurl": "https://de.wikipedia.org/wiki/Goldstone_Deep_Space_Communications_Complex"
+    },
+    {
+        "itemname": "Madrid Deep Space Communications Complex",
+        "itemurl": "https://de.wikipedia.org/wiki/Madrid_Deep_Space_Communications_Complex"
+    },
+    {
+        "itemname": "Titow-Bodenstation",
+        "itemurl": "https://de.wikipedia.org/wiki/Krasnosnamensk"
+    },
+    {
+        "itemname": "Tsukuba Space Center",
+        "itemurl": "https://de.wikipedia.org/wiki/Tsukuba_Space_Center",
+        "itemname2": "TKSC"
+    },
+    {
+        "itemname": "Usuda Deep Space Center",
+        "itemurl": "https://de.wikipedia.org/wiki/Usuda_Deep_Space_Center",
+        "itemname2": "UDSC"
+    },
+    {
+        "itemname": "Beijing Aerospace Command and Control Center"
+    },
+    {
+        "itemname": "Roskosmos-Kontrollzentrum",
+        "itemurl": "https://de.wikipedia.org/wiki/Koroljow"
+    },
+    {
+        "itemname": "John H. Chapman Space Centre",
+        "itemurl": "https://de.wikipedia.org/wiki/John_H._Chapman_Space_Centre"
+    },
+    {
+        "itemname": "Observatorum von Cheomseongdae",
+        "itemurl": "https://de.wikipedia.org/wiki/Cheomseongdae"
+    },
+    {
+        "itemname": "Gaocheng-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Gaocheng-Observatorium"
+    },
+    {
+        "itemname": "Rasad-e Khan",
+        "itemurl": "https://de.wikipedia.org/wiki/Maragha"
+    },
+    {
+        "itemname": "Calar-Alto-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Calar-Alto-Observatorium"
+    },
+    {
+        "itemname": "Chanquillo-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Chanquillo"
+    },
+    {
+        "itemname": "Harvard-College-Observatory",
+        "itemurl": "https://de.wikipedia.org/wiki/Harvard_College_Observatory"
+    },
+    {
+        "itemname": "United States Naval Observatory",
+        "itemurl": "https://de.wikipedia.org/wiki/United_States_Naval_Observatory",
+        "itemname2": "USNO"
+    },
+    {
+        "itemname": "Uraniborg, Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Uraniborg"
+    },
+    {
+        "itemname": "Mauna-Kea-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Mauna-Kea-Observatorium"
+    },
+    {
+        "itemname": "La-Silla-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/La-Silla-Observatorium"
+    },
+    {
+        "itemname": "Lick-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Lick-Observatorium"
+    },
+    {
+        "itemname": "Mount-Stromlo-Observatory",
+        "itemurl": "https://de.wikipedia.org/wiki/Mount-Stromlo-Observatorium"
+    },
+    {
+        "itemname": "Observatorio del Teide",
+        "itemurl": "https://de.wikipedia.org/wiki/Observatorio_del_Teide"
+    },
+    {
+        "itemname": "Paranal-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Paranal-Observatorium"
+    },
+    {
+        "itemname": "Roque-de-los-Muchachos-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Roque-de-los-Muchachos-Observatorium",
+        "itemname2": "ORM"
+    },
+    {
+        "itemname": "Gurkani Zij, Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Ulug_Begs_Observatorium"
+    },
+    {
+        "itemname": "Parkes-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Parkes-Observatorium"
+    },
+    {
+        "itemname": "Observatory House",
+        "itemurl": "http://en.wikipedia.org/wiki/Observatory_House"
+    },
+    {
+        "itemname": "Herschel Museum of Astronomy",
+        "itemurl": "https://de.wikipedia.org/wiki/Wilhelm_Herschel"
+    },
+    {
+        "itemname": "Carr-House",
+        "itemurl": "https://de.wikipedia.org/wiki/Carr_House_(Lancashire)"
+    },
+    {
+        "itemname": "Jantar Mantar in Delhi",
+        "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar"
+    },
+    {
+        "itemname": "Jantar Mantar in Jaipur",
+        "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar"
+    },
+    {
+        "itemname": "Jantar Mantar in Ujjain",
+        "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar"
+    },
+    {
+        "itemname": "Jantar Mantar in Varanasi",
+        "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar"
+    },
+    {
+        "itemname": "Jantar Mantar in Mathura",
+        "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar"
+    },
+    {
+        "itemname": "#REF!",
+        "itemurl": "#REF!",
+        "itemname2": "#REF!"
+    },
+    {
         "itemname": "Sputnik 1",
         "itemurl": "https://de.wikipedia.org/wiki/Sputnik_1"
     },
@@ -7106,8 +7641,9 @@
         "itemurl": "https://de.wikipedia.org/wiki/European_Space_Research_Organisation"
     },
     {
-        "itemname": "Radio Astronomy Explorer A",
-        "itemurl": "https://de.wikipedia.org/wiki/Radio_Astronomy_Explorer"
+        "itemname": "RAE-A",
+        "itemurl": "https://de.wikipedia.org/wiki/Radio_Astronomy_Explorer",
+        "itemname2": "Radio Astronomy Explorer"
     },
     {
         "itemname": "Zond 5",
@@ -7139,7 +7675,8 @@
     },
     {
         "itemname": "HEOS-1",
-        "itemurl": "https://de.wikipedia.org/wiki/HEOS-1"
+        "itemurl": "https://de.wikipedia.org/wiki/HEOS-1",
+        "itemname2": "Highly Eccentric Orbit Satellite"
     },
     {
         "itemname": "Apollo 8",
@@ -7239,7 +7776,8 @@
     },
     {
         "itemname": "AZUR",
-        "itemurl": "https://de.wikipedia.org/wiki/Azur_(Satellit)"
+        "itemurl": "https://de.wikipedia.org/wiki/Azur_(Satellit)",
+        "itemname2": "GRS A, GRS 1, German Research Satellite"
     },
     {
         "itemname": "Apollo 12",
@@ -7251,7 +7789,8 @@
     },
     {
         "itemname": "Dial",
-        "itemurl": "https://de.wikipedia.org/wiki/Dial"
+        "itemurl": "https://de.wikipedia.org/wiki/Dial",
+        "itemname2": "Diamant Allemagne"
     },
     {
         "itemname": "Apollo 13",
@@ -7339,7 +7878,8 @@
     },
     {
         "itemname": "HEOS-2",
-        "itemurl": "https://de.wikipedia.org/wiki/European_Space_Research_Organisation"
+        "itemurl": "https://de.wikipedia.org/wiki/European_Space_Research_Organisation",
+        "itemname2": "Highly Eccentric Orbit Satellite"
     },
     {
         "itemname": "Luna 20",
@@ -7366,7 +7906,7 @@
         "itemurl": "https://de.wikipedia.org/wiki/Saljut_2"
     },
     {
-        "itemname": "Orbiting Astronomical Observatory 3",
+        "itemname": "OAO 3",
         "itemurl": "https://de.wikipedia.org/wiki/Orbiting_Astronomical_Observatory_3"
     },
     {
@@ -7406,8 +7946,9 @@
         "itemurl": "https://de.wikipedia.org/wiki/Skylab_2"
     },
     {
-        "itemname": "Radio Astronomy Explorer B",
-        "itemurl": "https://de.wikipedia.org/wiki/Explorer_49"
+        "itemname": "RAE-B",
+        "itemurl": "https://de.wikipedia.org/wiki/Explorer_49",
+        "itemname2": "Radio Astronomy Explorer"
     },
     {
         "itemname": "Mars 4",
@@ -7515,15 +8056,18 @@
     },
     {
         "itemname": "Sojus 19",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_19"
+        "itemurl": "https://de.wikipedia.org/wiki/Sojus_19",
+        "itemname2": "ASTP"
     },
     {
         "itemname": "Cosmic Ray Satellite B",
-        "itemurl": "https://de.wikipedia.org/wiki/COS-B"
+        "itemurl": "https://de.wikipedia.org/wiki/COS-B",
+        "itemname2": "Cosmic Ray Satellite B"
     },
     {
         "itemname": "GOES 1",
-        "itemurl": "https://de.wikipedia.org/wiki/GOES"
+        "itemurl": "https://de.wikipedia.org/wiki/GOES",
+        "itemname2": "Geostationary Operational Environmental Satellite"
     },
     {
         "itemname": "Sojus 20",
@@ -7559,7 +8103,8 @@
     },
     {
         "itemname": "GOES 2",
-        "itemurl": "https://de.wikipedia.org/wiki/GOES"
+        "itemurl": "https://de.wikipedia.org/wiki/GOES",
+        "itemname2": "Geostationary Operational Environmental Satellite"
     },
     {
         "itemname": "Voyager 2",
@@ -7579,7 +8124,8 @@
     },
     {
         "itemname": "ISEE-1, ISEE-2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISEE/ICE-Programm"
+        "itemurl": "https://de.wikipedia.org/wiki/ISEE/ICE-Programm",
+        "itemname2": "International Sun Earth Explorer"
     },
     {
         "itemname": "Sojus 26",
@@ -7611,7 +8157,8 @@
     },
     {
         "itemname": "GOES 3",
-        "itemurl": "https://de.wikipedia.org/wiki/GOES"
+        "itemurl": "https://de.wikipedia.org/wiki/GOES",
+        "itemname2": "Geostationary Operational Environmental Satellite"
     },
     {
         "itemname": "Sojus 30",
@@ -7623,7 +8170,8 @@
     },
     {
         "itemname": "ISEE-3",
-        "itemurl": "https://de.wikipedia.org/wiki/ISEE-3/ICE"
+        "itemurl": "https://de.wikipedia.org/wiki/ISEE-3/ICE",
+        "itemname2": "International Sun Earth Explorer"
     },
     {
         "itemname": "Sojus 31",
@@ -7683,7 +8231,8 @@
     },
     {
         "itemname": "GOES 4",
-        "itemurl": "https://de.wikipedia.org/wiki/GOES"
+        "itemurl": "https://de.wikipedia.org/wiki/GOES",
+        "itemname2": "Geostationary Operational Environmental Satellite"
     },
     {
         "itemname": "Sojus T-3",
@@ -7711,7 +8260,8 @@
     },
     {
         "itemname": "GOES 5",
-        "itemurl": "https://de.wikipedia.org/wiki/GOES"
+        "itemurl": "https://de.wikipedia.org/wiki/GOES",
+        "itemname2": "Geostationary Operational Environmental Satellite"
     },
     {
         "itemname": "Venera 13",
@@ -7754,8 +8304,9 @@
         "itemurl": "https://de.wikipedia.org/wiki/STS-5"
     },
     {
-        "itemname": "Infrared Astronomical Satellite",
-        "itemurl": "https://de.wikipedia.org/wiki/Infrared_Astronomical_Satellite"
+        "itemname": "IRAS",
+        "itemurl": "https://de.wikipedia.org/wiki/Infrared_Astronomical_Satellite",
+        "itemname2": "Infrared Astronomical Satellite"
     },
     {
         "itemname": "ASTRO-B",
@@ -7775,11 +8326,13 @@
     },
     {
         "itemname": "GOES 6",
-        "itemurl": "https://de.wikipedia.org/wiki/GOES"
+        "itemurl": "https://de.wikipedia.org/wiki/GOES",
+        "itemname2": "Geostationary Operational Environmental Satellite"
     },
     {
-        "itemname": "European X-Ray Observatory Satellite",
-        "itemurl": "https://de.wikipedia.org/wiki/EXOSAT"
+        "itemname": "EXOSAT",
+        "itemurl": "https://de.wikipedia.org/wiki/EXOSAT",
+        "itemname2": "European X-Ray Observatory Satellite"
     },
     {
         "itemname": "Venera 15",
@@ -7830,8 +8383,8 @@
         "itemurl": "https://de.wikipedia.org/wiki/Sojus_T-12"
     },
     {
-        "itemname": "Eutelsat 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-41-D"
+        "itemname": "Eutelsat I-F2",
+        "itemurl": "https://de.wikipedia.org/wiki/European_Communications_Satellite"
     },
     {
         "itemname": "STS-41-D",
@@ -7895,7 +8448,8 @@
     },
     {
         "itemname": "ICE",
-        "itemurl": "https://de.wikipedia.org/wiki/ISEE-3/ICE"
+        "itemurl": "https://de.wikipedia.org/wiki/ISEE-3/ICE",
+        "itemname2": "International Cometary Explorer"
     },
     {
         "itemname": "Sojus T-14",
@@ -7927,7 +8481,8 @@
     },
     {
         "itemname": "GOES-G",
-        "itemurl": "https://de.wikipedia.org/wiki/GOES"
+        "itemurl": "https://de.wikipedia.org/wiki/GOES",
+        "itemname2": "Geostationary Operational Environmental Satellite"
     },
     {
         "itemname": "Sojus TM-1",
@@ -8014,8 +8569,9 @@
         "itemurl": "https://de.wikipedia.org/wiki/STS-30"
     },
     {
-        "itemname": "High Precision Parallax Collecting Satellite",
-        "itemurl": "https://de.wikipedia.org/wiki/Hipparcos"
+        "itemname": "Hipparcos",
+        "itemurl": "https://de.wikipedia.org/wiki/Hipparcos",
+        "itemname2": "High Precision Parallax Collecting Satellite"
     },
     {
         "itemname": "STS-28",
@@ -8034,8 +8590,9 @@
         "itemurl": "https://de.wikipedia.org/wiki/STS-34"
     },
     {
-        "itemname": "Cosmic Background Explorer",
-        "itemurl": "https://de.wikipedia.org/wiki/COBE"
+        "itemname": "COBE",
+        "itemurl": "https://de.wikipedia.org/wiki/COBE",
+        "itemname2": "Cosmic Background Explorer"
     },
     {
         "itemname": "STS-33",
@@ -8059,7 +8616,8 @@
     },
     {
         "itemname": "Hubble-Weltraumteleskop",
-        "itemurl": "https://de.wikipedia.org/wiki/Hubble-Weltraumteleskop"
+        "itemurl": "https://de.wikipedia.org/wiki/Hubble-Weltraumteleskop",
+        "itemname2": "HST"
     },
     {
         "itemname": "STS-31",
@@ -8115,7 +8673,8 @@
     },
     {
         "itemname": "ERS-1",
-        "itemurl": "https://de.wikipedia.org/wiki/ERS-1"
+        "itemurl": "https://de.wikipedia.org/wiki/ERS-1",
+        "itemname2": "European Remote Sensing Satellites"
     },
     {
         "itemname": "STS-43",
@@ -8154,8 +8713,9 @@
         "itemurl": "https://de.wikipedia.org/wiki/STS-49"
     },
     {
-        "itemname": "Extreme Ultraviolet Explorer",
-        "itemurl": "https://de.wikipedia.org/wiki/Extreme_Ultraviolet_Explorer"
+        "itemname": "EUVE",
+        "itemurl": "https://de.wikipedia.org/wiki/Extreme_Ultraviolet_Explorer",
+        "itemname2": "Extreme Ultraviolet Explorer"
     },
     {
         "itemname": "STS-50",
@@ -8251,7 +8811,8 @@
     },
     {
         "itemname": "GOES 8",
-        "itemurl": "https://de.wikipedia.org/wiki/GOES"
+        "itemurl": "https://de.wikipedia.org/wiki/GOES",
+        "itemname2": "Geostationary Operational Environmental Satellite"
     },
     {
         "itemname": "Sojus TM-19",
@@ -8291,11 +8852,13 @@
     },
     {
         "itemname": "ERS-2",
-        "itemurl": "https://de.wikipedia.org/wiki/ERS-1"
+        "itemurl": "https://de.wikipedia.org/wiki/ERS-1",
+        "itemname2": "European Remote Sensing Satellites"
     },
     {
         "itemname": "GOES 9",
-        "itemurl": "https://de.wikipedia.org/wiki/GOES"
+        "itemurl": "https://de.wikipedia.org/wiki/GOES",
+        "itemname2": "Geostationary Operational Environmental Satellite"
     },
     {
         "itemname": "STS-71",
@@ -8322,16 +8885,19 @@
         "itemurl": "https://de.wikipedia.org/wiki/STS-74"
     },
     {
-        "itemname": "Infrared Space Observatory",
-        "itemurl": "https://de.wikipedia.org/wiki/Infrared_Space_Observatory"
+        "itemname": "ISO",
+        "itemurl": "https://de.wikipedia.org/wiki/Infrared_Space_Observatory",
+        "itemname2": "Infrared Space Observatory"
     },
     {
-        "itemname": "Solar and Heliospheric Observatory",
-        "itemurl": "https://de.wikipedia.org/wiki/SOHO"
+        "itemname": "SOHO",
+        "itemurl": "https://de.wikipedia.org/wiki/SOHO",
+        "itemname2": "Solar and Heliospheric Observatory"
     },
     {
-        "itemname": "Rossi X-Ray Timing Explorer",
-        "itemurl": "https://de.wikipedia.org/wiki/Rossi_X-ray_Timing_Explorer"
+        "itemname": "RXTE",
+        "itemurl": "https://de.wikipedia.org/wiki/Rossi_X-ray_Timing_Explorer",
+        "itemname2": "Rossi X-Ray Timing Explorer"
     },
     {
         "itemname": "STS-72",
@@ -8339,7 +8905,8 @@
     },
     {
         "itemname": "NEAR Shoemaker",
-        "itemurl": "https://de.wikipedia.org/wiki/NEAR_Shoemaker"
+        "itemurl": "https://de.wikipedia.org/wiki/NEAR_Shoemaker",
+        "itemname2": "Near Earth Asteroid Rendezvous"
     },
     {
         "itemname": "Sojus TM-23",
@@ -8406,16 +8973,13 @@
         "itemurl": "https://de.wikipedia.org/wiki/HALCA"
     },
     {
-        "itemname": "HALCA",
-        "itemurl": "https://de.wikipedia.org/wiki/HALCA"
-    },
-    {
         "itemname": "STS-83",
         "itemurl": "https://de.wikipedia.org/wiki/STS-83"
     },
     {
         "itemname": "GOES 10",
-        "itemurl": "https://de.wikipedia.org/wiki/GOES"
+        "itemurl": "https://de.wikipedia.org/wiki/GOES",
+        "itemname2": "Geostationary Operational Environmental Satellite"
     },
     {
         "itemname": "STS-84",
@@ -8435,7 +8999,8 @@
     },
     {
         "itemname": "ACE",
-        "itemurl": "https://de.wikipedia.org/wiki/Advanced_Composition_Explorer"
+        "itemurl": "https://de.wikipedia.org/wiki/Advanced_Composition_Explorer",
+        "itemname2": "Advanced Composition Explorer, Explorer 71"
     },
     {
         "itemname": "STS-86",
@@ -8451,7 +9016,8 @@
     },
     {
         "itemname": "ETS-VII",
-        "itemurl": "https://de.wikipedia.org/wiki/ETS-VII"
+        "itemurl": "https://de.wikipedia.org/wiki/ETS-VII",
+        "itemname2": "Engineering Test Satellite"
     },
     {
         "itemname": "Lunar Prospector",
@@ -8483,7 +9049,8 @@
     },
     {
         "itemname": "Deep Space 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Deep_Space_1"
+        "itemurl": "https://de.wikipedia.org/wiki/Deep_Space_1",
+        "itemname2": "DS1"
     },
     {
         "itemname": "STS-95",
@@ -8498,8 +9065,9 @@
         "itemurl": "https://de.wikipedia.org/wiki/STS-88"
     },
     {
-        "itemname": "Mars Climate Orbiter",
-        "itemurl": "https://de.wikipedia.org/wiki/Mars_Climate_Orbiter"
+        "itemname": "MCO",
+        "itemurl": "https://de.wikipedia.org/wiki/Mars_Climate_Orbiter",
+        "itemname2": "Mars Climate Orbiter"
     },
     {
         "itemname": "AsiaSat 3",
@@ -8519,19 +9087,22 @@
     },
     {
         "itemname": "WIRE",
-        "itemurl": "https://de.wikipedia.org/wiki/Stardust_(Sonde)"
+        "itemurl": "https://de.wikipedia.org/wiki/Wide_Field_Infrared_Explorer",
+        "itemname2": "Wide-Field Infrared Survey Explorer"
     },
     {
         "itemname": "STS-96",
         "itemurl": "https://de.wikipedia.org/wiki/STS-96"
     },
     {
-        "itemname": "Far Ultraviolet Spectroscopic Explorer",
-        "itemurl": "https://de.wikipedia.org/wiki/Far_Ultraviolet_Spectroscopic_Explorer"
+        "itemname": "FUSE",
+        "itemurl": "https://de.wikipedia.org/wiki/Far_Ultraviolet_Spectroscopic_Explorer",
+        "itemname2": "Far Ultraviolet Spectroscopic Explorer"
     },
     {
-        "itemname": "Chandra X-Ray Observatory",
-        "itemurl": "https://de.wikipedia.org/wiki/Chandra_(Teleskop)"
+        "itemname": "Chandra",
+        "itemurl": "https://de.wikipedia.org/wiki/Chandra_(Teleskop)",
+        "itemname2": "Chandra X-Ray Observatory"
     },
     {
         "itemname": "STS-93",
@@ -8543,7 +9114,8 @@
     },
     {
         "itemname": "XMM-Newton",
-        "itemurl": "https://de.wikipedia.org/wiki/Xmm_newton"
+        "itemurl": "https://de.wikipedia.org/wiki/Xmm_newton",
+        "itemname2": "X-ray Multi-Mirror"
     },
     {
         "itemname": "STS-103",
@@ -8563,7 +9135,8 @@
     },
     {
         "itemname": "GOES 11",
-        "itemurl": "https://de.wikipedia.org/wiki/GOES"
+        "itemurl": "https://de.wikipedia.org/wiki/GOES",
+        "itemname2": "Geostationary Operational Environmental Satellite"
     },
     {
         "itemname": "STS-101",
@@ -8575,7 +9148,8 @@
     },
     {
         "itemname": "CHAMP",
-        "itemurl": "https://de.wikipedia.org/wiki/CHAMP"
+        "itemurl": "https://de.wikipedia.org/wiki/CHAMP",
+        "itemname2": "CHAllenging Minisatellite Payload"
     },
     {
         "itemname": "Cluster",
@@ -8631,7 +9205,8 @@
     },
     {
         "itemname": "GOES 12",
-        "itemurl": "https://de.wikipedia.org/wiki/GOES"
+        "itemurl": "https://de.wikipedia.org/wiki/GOES",
+        "itemname2": "Geostationary Operational Environmental Satellite"
     },
     {
         "itemname": "Genesis",
@@ -8651,7 +9226,8 @@
     },
     {
         "itemname": "Envisat",
-        "itemurl": "https://de.wikipedia.org/wiki/Envisat"
+        "itemurl": "https://de.wikipedia.org/wiki/Envisat",
+        "itemname2": "Environmental Satellite"
     },
     {
         "itemname": "STS-109",
@@ -8659,7 +9235,8 @@
     },
     {
         "itemname": "GRACE",
-        "itemurl": "https://de.wikipedia.org/wiki/GRACE"
+        "itemurl": "https://de.wikipedia.org/wiki/GRACE",
+        "itemname2": "Gravity Recovery And Climate Experiment"
     },
     {
         "itemname": "Shenzhou 3",
@@ -8679,15 +9256,17 @@
     },
     {
         "itemname": "CONTOUR",
-        "itemurl": "https://de.wikipedia.org/wiki/CONTOUR"
+        "itemurl": "https://de.wikipedia.org/wiki/CONTOUR",
+        "itemname2": "Comet Nucleus Tour"
     },
     {
         "itemname": "STS-112",
         "itemurl": "https://de.wikipedia.org/wiki/STS-112"
     },
     {
-        "itemname": "International Gamma-Ray Astrophysics Laboratory",
-        "itemurl": "https://de.wikipedia.org/wiki/Integral_%28Satellit%29"
+        "itemname": "Integral",
+        "itemurl": "https://de.wikipedia.org/wiki/Integral_%28Satellit%29",
+        "itemname2": "International Gamma-Ray Astrophysics Laboratory"
     },
     {
         "itemname": "Sojus TMA-1",
@@ -8710,8 +9289,9 @@
         "itemurl": "https://de.wikipedia.org/wiki/Sojus_TMA-2"
     },
     {
-        "itemname": "Galaxy Evolution Explorer",
-        "itemurl": "https://de.wikipedia.org/wiki/Galaxy_Evolution_Explorer"
+        "itemname": "GALEX",
+        "itemurl": "https://de.wikipedia.org/wiki/Galaxy_Evolution_Explorer",
+        "itemname2": "Galaxy Evolution Explorer"
     },
     {
         "itemname": "Hayabusa",
@@ -8722,16 +9302,19 @@
         "itemurl": "https://de.wikipedia.org/wiki/Mars_Express"
     },
     {
-        "itemname": "Mars Exploration Rover Spirit",
-        "itemurl": "https://de.wikipedia.org/wiki/Spirit_%28Raumsonde%29"
+        "itemname": "MER-A (Spirit)",
+        "itemurl": "https://de.wikipedia.org/wiki/Spirit_%28Raumsonde%29",
+        "itemname2": "Mars Exploration Rover Spirit"
     },
     {
-        "itemname": "Microvariability & Oscillations of Stars",
-        "itemurl": "https://de.wikipedia.org/wiki/MOST_%28Satellit%29"
+        "itemname": "MOST",
+        "itemurl": "https://de.wikipedia.org/wiki/MOST_%28Satellit%29",
+        "itemname2": "Microvariability & Oscillations of Stars"
     },
     {
-        "itemname": "Mars Exploration Rover Opportunity",
-        "itemurl": "https://de.wikipedia.org/wiki/Opportunity"
+        "itemname": "MER-B (Opportunity)",
+        "itemurl": "https://de.wikipedia.org/wiki/Opportunity",
+        "itemname2": "Mars Exploration Rover Opportunity"
     },
     {
         "itemname": "Spitzer Space Telescope",
@@ -8739,7 +9322,8 @@
     },
     {
         "itemname": "SMART-1",
-        "itemurl": "https://de.wikipedia.org/wiki/SMART-1"
+        "itemurl": "https://de.wikipedia.org/wiki/SMART-1",
+        "itemname2": "Small Missions for Advanced Research in Technology"
     },
     {
         "itemname": "Shenzhou 5",
@@ -8767,7 +9351,8 @@
     },
     {
         "itemname": "MESSENGER",
-        "itemurl": "https://de.wikipedia.org/wiki/MESSENGER"
+        "itemurl": "https://de.wikipedia.org/wiki/MESSENGER",
+        "itemname2": "Mercury Surface, Space Environment, Geochemistry and Ranging"
     },
     {
         "itemname": "SpaceShipOne 16P",
@@ -8783,7 +9368,8 @@
     },
     {
         "itemname": "Swift Gamma Ray Explorer",
-        "itemurl": "https://de.wikipedia.org/wiki/Swift_%28Satellit%29"
+        "itemurl": "https://de.wikipedia.org/wiki/Swift_%28Satellit%29",
+        "itemname2": "Swift Gamma Ray Explorer"
     },
     {
         "itemname": "Deep Impact",
@@ -8802,8 +9388,9 @@
         "itemurl": "https://de.wikipedia.org/wiki/STS-114"
     },
     {
-        "itemname": "Mars Reconnaissance Orbiter",
-        "itemurl": "https://de.wikipedia.org/wiki/Mars_Reconnaissance_Orbiter"
+        "itemname": "MRO",
+        "itemurl": "https://de.wikipedia.org/wiki/Mars_Reconnaissance_Orbiter",
+        "itemname2": "Mars Reconnaissance Orbiter"
     },
     {
         "itemname": "Sojus TMA-7",
@@ -8831,7 +9418,8 @@
     },
     {
         "itemname": "ALOS",
-        "itemurl": "https://de.wikipedia.org/wiki/Advanced_Land_Observing_Satellit"
+        "itemurl": "https://de.wikipedia.org/wiki/Advanced_Land_Observing_Satellit",
+        "itemname2": "Advanced Land Observing Satellite"
     },
     {
         "itemname": "ASTRO-F",
@@ -8843,7 +9431,8 @@
     },
     {
         "itemname": "GOES 13",
-        "itemurl": "https://de.wikipedia.org/wiki/GOES"
+        "itemurl": "https://de.wikipedia.org/wiki/GOES",
+        "itemname2": "Geostationary Operational Environmental Satellite"
     },
     {
         "itemname": "STS-121",
@@ -8858,12 +9447,14 @@
         "itemurl": "https://de.wikipedia.org/wiki/Sojus_TMA-9"
     },
     {
-        "itemname": "Solar TErrestrial RElations Observatory A",
-        "itemurl": "https://de.wikipedia.org/wiki/STEREO"
+        "itemname": "STEREO A",
+        "itemurl": "https://de.wikipedia.org/wiki/STEREO",
+        "itemname2": "Solar TErrestrial RElations Observatory A"
     },
     {
-        "itemname": "Solar TErrestrial RElations Observatory B",
-        "itemurl": "https://de.wikipedia.org/wiki/STEREO"
+        "itemname": "STEREO B",
+        "itemurl": "https://de.wikipedia.org/wiki/STEREO",
+        "itemname2": "Solar TErrestrial RElations Observatory B"
     },
     {
         "itemname": "STS-116",
@@ -8871,19 +9462,22 @@
     },
     {
         "itemname": "ETS-VIII",
-        "itemurl": "https://de.wikipedia.org/wiki/Japan_Aerospace_Exploration_Agency"
+        "itemurl": "https://de.wikipedia.org/wiki/Japan_Aerospace_Exploration_Agency",
+        "itemname2": "Engineering Test Satellite"
     },
     {
-        "itemname": "Convection, Rotation et Transits planétaires",
-        "itemurl": "https://de.wikipedia.org/wiki/COROT_%28Weltraumteleskop%29"
+        "itemname": "COROT",
+        "itemurl": "https://de.wikipedia.org/wiki/COROT_%28Weltraumteleskop%29",
+        "itemname2": "Convection, Rotation et Transits planétaires"
     },
     {
         "itemname": "Sojus TMA-10",
         "itemurl": "https://de.wikipedia.org/wiki/Sojus_TMA-10"
     },
     {
-        "itemname": "Astro-rivelatore Gamma a Immagini Leggero",
-        "itemurl": "https://de.wikipedia.org/wiki/AGILE"
+        "itemname": "AGILE",
+        "itemurl": "https://de.wikipedia.org/wiki/AGILE",
+        "itemname2": "Astro-rivelatore Gamma a Immagini Leggero"
     },
     {
         "itemname": "STS-117",
@@ -8927,7 +9521,8 @@
     },
     {
         "itemname": "ATV-1",
-        "itemurl": "https://de.wikipedia.org/wiki/Automated_Transfer_Vehicle"
+        "itemurl": "https://de.wikipedia.org/wiki/Automated_Transfer_Vehicle",
+        "itemname2": "Automated Transfer Vehicle"
     },
     {
         "itemname": "STS-123",
@@ -8942,8 +9537,9 @@
         "itemurl": "https://de.wikipedia.org/wiki/STS-124"
     },
     {
-        "itemname": "Fermi Gamma-ray Space Telescope",
-        "itemurl": "https://de.wikipedia.org/wiki/Fermi_Gamma-ray_Space_Telescope"
+        "itemname": "FGST",
+        "itemurl": "https://de.wikipedia.org/wiki/Fermi_Gamma-ray_Space_Telescope",
+        "itemname2": "Fermi Gamma-ray Space Telescope"
     },
     {
         "itemname": "Shenzhou 7",
@@ -8975,7 +9571,8 @@
     },
     {
         "itemname": "GOCE",
-        "itemurl": "https://de.wikipedia.org/wiki/GOCE"
+        "itemurl": "https://de.wikipedia.org/wiki/Gravity_field_and_steady-state_ocean_circulation_explorer",
+        "itemname2": "Gravity field and steady-state ocean circulation explorer"
     },
     {
         "itemname": "Sojus TMA-14",
@@ -8999,15 +9596,18 @@
     },
     {
         "itemname": "LCROSS",
-        "itemurl": "https://de.wikipedia.org/wiki/Lunar_Reconnaissance_Orbiter"
+        "itemurl": "https://de.wikipedia.org/wiki/Lunar_Reconnaissance_Orbiter",
+        "itemname2": "Lunar CRater Observation and Sensing Satellite"
     },
     {
-        "itemname": "Lunar Reconnaissance Orbiter LRO",
-        "itemurl": "https://de.wikipedia.org/wiki/Lunar_Reconnaissance_Orbiter"
+        "itemname": "LRO",
+        "itemurl": "https://de.wikipedia.org/wiki/Lunar_Reconnaissance_Orbiter",
+        "itemname2": "Lunar Reconnaissance Orbiter"
     },
     {
         "itemname": "GOES 14",
-        "itemurl": "https://de.wikipedia.org/wiki/GOES"
+        "itemurl": "https://de.wikipedia.org/wiki/GOES",
+        "itemname2": "Geostationary Operational Environmental Satellite"
     },
     {
         "itemname": "STS-127",
@@ -9019,7 +9619,8 @@
     },
     {
         "itemname": "HTV-1",
-        "itemurl": "https://de.wikipedia.org/wiki/H-2_Transfer_Vehicle"
+        "itemurl": "https://de.wikipedia.org/wiki/H-2_Transfer_Vehicle",
+        "itemname2": "H-2 Transfer Vehicle"
     },
     {
         "itemname": "Sojus TMA-16",
@@ -9030,8 +9631,9 @@
         "itemurl": "https://de.wikipedia.org/wiki/STS-129"
     },
     {
-        "itemname": "Wide-Field Infrared Survey Explorer",
-        "itemurl": "https://de.wikipedia.org/wiki/Wide-Field_Infrared_Survey_Explorer"
+        "itemname": "WISE",
+        "itemurl": "https://de.wikipedia.org/wiki/Wide-Field_Infrared_Survey_Explorer",
+        "itemname2": "Wide-Field Infrared Survey Explorer"
     },
     {
         "itemname": "Sojus TMA-17",
@@ -9042,12 +9644,14 @@
         "itemurl": "https://de.wikipedia.org/wiki/STS-130"
     },
     {
-        "itemname": "Solar Dynamics Observatory SDO",
-        "itemurl": "https://de.wikipedia.org/wiki/Solar_Dynamics_Observatory"
+        "itemname": "SDO",
+        "itemurl": "https://de.wikipedia.org/wiki/Solar_Dynamics_Observatory",
+        "itemname2": "Solar Dynamics Observatory"
     },
     {
         "itemname": "GOES 15",
-        "itemurl": "https://de.wikipedia.org/wiki/GOES"
+        "itemurl": "https://de.wikipedia.org/wiki/GOES",
+        "itemname2": "Geostationary Operational Environmental Satellite"
     },
     {
         "itemname": "Sojus TMA-18",
@@ -9063,7 +9667,8 @@
     },
     {
         "itemname": "OTV-1",
-        "itemurl": "https://de.wikipedia.org/wiki/Boeing_X-37"
+        "itemurl": "https://de.wikipedia.org/wiki/Boeing_X-37",
+        "itemname2": "Orbital Test Vehicle"
     },
     {
         "itemname": "STS-132",
@@ -9075,7 +9680,8 @@
     },
     {
         "itemname": "IKAROS",
-        "itemurl": "https://de.wikipedia.org/wiki/Akatsuki"
+        "itemurl": "https://de.wikipedia.org/wiki/IKAROS",
+        "itemname2": "Interplanetary Kite-craft Accelerated by Radiation Of the Sun"
     },
     {
         "itemname": "Sojus TMA-19",
@@ -9095,11 +9701,13 @@
     },
     {
         "itemname": "HTV-2",
-        "itemurl": "https://de.wikipedia.org/wiki/H-2_Transfer_Vehicle"
+        "itemurl": "https://de.wikipedia.org/wiki/H-2_Transfer_Vehicle",
+        "itemname2": "H-2 Transfer Vehicle"
     },
     {
         "itemname": "ATV-2",
-        "itemurl": "https://de.wikipedia.org/wiki/Automated_Transfer_Vehicle"
+        "itemurl": "https://de.wikipedia.org/wiki/Automated_Transfer_Vehicle",
+        "itemname2": "Automated Transfer Vehicle"
     },
     {
         "itemname": "STS-133",
@@ -9111,7 +9719,8 @@
     },
     {
         "itemname": "OTV-2",
-        "itemurl": "https://de.wikipedia.org/wiki/Boeing_X-37"
+        "itemurl": "https://de.wikipedia.org/wiki/Boeing_X-37",
+        "itemname2": "Orbital Test Vehicle"
     },
     {
         "itemname": "STS-134",
@@ -9131,7 +9740,8 @@
     },
     {
         "itemname": "Juno",
-        "itemurl": "https://de.wikipedia.org/wiki/Juno_(Raumsonde)"
+        "itemurl": "https://de.wikipedia.org/wiki/Juno_(Raumsonde)",
+        "itemname2": "Jupiter Polar Orbiter"
     },
     {
         "itemname": "Tiangong 1",
@@ -9163,15 +9773,17 @@
     },
     {
         "itemname": "ATV-3",
-        "itemurl": "https://de.wikipedia.org/wiki/Automated_Transfer_Vehicle"
+        "itemurl": "https://de.wikipedia.org/wiki/Automated_Transfer_Vehicle",
+        "itemname2": "Automated Transfer Vehicle"
     },
     {
         "itemname": "Sojus TMA-04M",
         "itemurl": "https://de.wikipedia.org/wiki/Sojus_TMA-04M"
     },
     {
-        "itemname": "Nuclear Spectroscopic Telescope Array",
-        "itemurl": "https://de.wikipedia.org/wiki/Nuclear_Spectroscopic_Telescope_Array"
+        "itemname": "NuSTAR",
+        "itemurl": "https://de.wikipedia.org/wiki/Nuclear_Spectroscopic_Telescope_Array",
+        "itemname2": "Nuclear Spectroscopic Telescope Array, Exoplorer 93"
     },
     {
         "itemname": "Shenzhou 9",
@@ -9183,7 +9795,12 @@
     },
     {
         "itemname": "HTV-3",
-        "itemurl": "https://de.wikipedia.org/wiki/H-2_Transfer_Vehicle"
+        "itemurl": "https://de.wikipedia.org/wiki/H-2_Transfer_Vehicle",
+        "itemname2": "H-2 Transfer Vehicle"
+    },
+    {
+        "itemname": "Galileo IOV3, IOV4",
+        "itemurl": "https://de.wikipedia.org/wiki/Galileo_(Satellitennavigation)"
     },
     {
         "itemname": "Sojus TMA-06M",
@@ -9191,15 +9808,17 @@
     },
     {
         "itemname": "OTV-3",
-        "itemurl": "https://de.wikipedia.org/wiki/Boeing_X-37"
+        "itemurl": "https://de.wikipedia.org/wiki/Boeing_X-37",
+        "itemname2": "Orbital Test Vehicle"
     },
     {
         "itemname": "Sojus TMA-07M",
         "itemurl": "https://de.wikipedia.org/wiki/Sojus_TMA-07M"
     },
     {
-        "itemname": "Near Earth Object Surveillance Satellite",
-        "itemurl": "https://de.wikipedia.org/wiki/NEOSSat"
+        "itemname": "NEOSSat",
+        "itemurl": "https://de.wikipedia.org/wiki/NEOSSat",
+        "itemname2": "Near Earth Object Surveillance Satellite"
     },
     {
         "itemname": "Sojus TMA-08M",
@@ -9215,7 +9834,8 @@
     },
     {
         "itemname": "ATV-4",
-        "itemurl": "https://de.wikipedia.org/wiki/Automated_Transfer_Vehicle"
+        "itemurl": "https://de.wikipedia.org/wiki/Automated_Transfer_Vehicle",
+        "itemname2": "Automated Transfer Vehicle"
     },
     {
         "itemname": "Shenzhou 10",
@@ -9227,19 +9847,22 @@
     },
     {
         "itemname": "HTV-4",
-        "itemurl": "https://de.wikipedia.org/wiki/H-2_Transfer_Vehicle"
+        "itemurl": "https://de.wikipedia.org/wiki/H-2_Transfer_Vehicle",
+        "itemname2": "H-2 Transfer Vehicle"
     },
     {
         "itemname": "LADEE",
-        "itemurl": "https://de.wikipedia.org/wiki/Lunar_Atmosphere_and_Dust_Environment_Explorer"
+        "itemurl": "https://de.wikipedia.org/wiki/Lunar_Atmosphere_and_Dust_Environment_Explorer",
+        "itemname2": "Lunar Atmosphere and Dust Environment Explorer"
     },
     {
         "itemname": "CASSIOPE",
-        "itemurl": "https://de.wikipedia.org/wiki/CASSIOPE"
+        "itemurl": "https://de.wikipedia.org/wiki/CASSIOPE",
+        "itemname2": "CAScade, Smallsat and IOnospheric Polar Explorer"
     },
     {
-        "itemname": "SPIRIT-A",
-        "itemurl": "http://en.wikipedia.org/wiki/SPRINT-A"
+        "itemname": "Hisaki",
+        "itemurl": "https://de.wikipedia.org/wiki/Hisaki"
     },
     {
         "itemname": "Sojus TMA-10M",
@@ -9247,7 +9870,8 @@
     },
     {
         "itemname": "MAVEN",
-        "itemurl": "https://de.wikipedia.org/wiki/MAVEN"
+        "itemurl": "https://de.wikipedia.org/wiki/MAVEN",
+        "itemname2": "Mars Atmosphere and Volatile EvolutioN"
     },
     {
         "itemname": "Sojus TMA-11M",
@@ -9283,7 +9907,8 @@
     },
     {
         "itemname": "OTV-4",
-        "itemurl": "https://de.wikipedia.org/wiki/Boeing_X-37"
+        "itemurl": "https://de.wikipedia.org/wiki/Boeing_X-37",
+        "itemname2": "Orbital Test Vehicle"
     },
     {
         "itemname": "Sojus TMA-17M",
@@ -9291,7 +9916,8 @@
     },
     {
         "itemname": "HTV-5",
-        "itemurl": "https://de.wikipedia.org/wiki/H-2_Transfer_Vehicle"
+        "itemurl": "https://de.wikipedia.org/wiki/H-2_Transfer_Vehicle",
+        "itemname2": "H-2 Transfer Vehicle"
     },
     {
         "itemname": "Sojus TMA-18M",
@@ -9299,55 +9925,88 @@
     },
     {
         "itemname": "LISA Pathfinder",
-        "itemurl": "https://de.wikipedia.org/wiki/LISA_Pathfinder"
+        "itemurl": "https://de.wikipedia.org/wiki/LISA_Pathfinder",
+        "itemname2": "Laser Interferometry Space Antenna Pathfinder"
     },
     {
         "itemname": "Sojus TMA-19M",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TMA-18M"
+        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TMA-19M"
+    },
+    {
+        "itemname": "Hitomi",
+        "itemurl": "https://de.wikipedia.org/wiki/ASTRO-H",
+        "itemname2": "ASTRO-H"
     },
     {
         "itemname": "ExoMars",
         "itemurl": "https://de.wikipedia.org/wiki/ExoMars"
     },
     {
-        "itemname": "GOES-R",
-        "itemurl": "https://de.wikipedia.org/wiki/GOES"
-    },
-    {
-        "itemname": "ASTRO-H",
-        "itemurl": "https://de.wikipedia.org/wiki/ASTRO-H"
+        "itemname": "Sojus TMA-20M",
+        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TMA-20M"
     },
     {
         "itemname": "Sojus MS-01",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TMA-18M"
+        "itemurl": "https://de.wikipedia.org/wiki/Sojus_MS-01"
     },
     {
-        "itemname": "Sojus TMA-20M",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TMA-18M"
+        "itemname": "Sojus MS-02",
+        "itemurl": "https://de.wikipedia.org/wiki/Sojus_MS-02"
     },
     {
-        "itemname": "SpX-DM1",
-        "itemurl": "https://de.wikipedia.org/wiki/SpX-DM2"
+        "itemname": "Sojus MS-03",
+        "itemurl": "https://de.wikipedia.org/wiki/Sojus_MS-03"
+    },
+    {
+        "itemname": "GOES 16",
+        "itemurl": "https://de.wikipedia.org/wiki/GOES",
+        "itemname2": "Geostationary Operational Environmental Satellite"
+    },
+    {
+        "itemname": "Sojus MS-04",
+        "itemurl": "https://de.wikipedia.org/wiki/Sojus_MS-04"
+    },
+    {
+        "itemname": "Sojus MS-05",
+        "itemurl": "https://de.wikipedia.org/wiki/Sojus_MS-05"
+    },
+    {
+        "itemname": "Sojus MS-06",
+        "itemurl": "https://de.wikipedia.org/wiki/Sojus_MS-06"
+    },
+    {
+        "itemname": "Sojus MS-07",
+        "itemurl": "https://de.wikipedia.org/wiki/Sojus_MS-07"
+    },
+    {
+        "itemname": "GOES S",
+        "itemurl": "https://de.wikipedia.org/wiki/GOES",
+        "itemname2": "Geostationary Operational Environmental Satellite"
+    },
+    {
+        "itemname": "Sojus MS-08",
+        "itemurl": "https://de.wikipedia.org/wiki/Sojus_MS-08"
+    },
+    {
+        "itemname": "Sojus MS-09",
+        "itemurl": "https://de.wikipedia.org/wiki/Sojus_MS-09"
+    },
+    {
+        "itemname": "Sojus MS-10",
+        "itemurl": "https://de.wikipedia.org/wiki/Sojus_MS-10"
     },
     {
         "itemname": "BepiColombo",
         "itemurl": "https://de.wikipedia.org/wiki/BepiColombo"
     },
     {
-        "itemname": "GOES S",
-        "itemurl": "https://de.wikipedia.org/wiki/GOES"
+        "itemname": "Sojus MS-11",
+        "itemurl": "https://de.wikipedia.org/wiki/Sojus_MS-11"
     },
     {
-        "itemname": "KuaFu",
-        "itemurl": "https://de.wikipedia.org/wiki/KuaFu"
-    },
-    {
-        "itemname": "Sojus MS-02",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TMA-18M"
-    },
-    {
-        "itemname": "Sojus MS-03",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TMA-18M"
+        "itemname": "SpX-DM1",
+        "itemurl": "https://de.wikipedia.org/wiki/SpX-DM2",
+        "itemname2": "SpaceX Dragon Mission 1"
     },
     {
         "itemname": "SpX-DM2",
@@ -9362,16 +10021,17 @@
         "itemurl": "https://de.wikipedia.org/wiki/Solar_Orbiter"
     },
     {
-        "itemname": "Mars Sample Return",
-        "itemurl": "https://de.wikipedia.org/wiki/Mars_Sample_Return"
+        "itemname": "Sojus MS-12",
+        "itemurl": "https://de.wikipedia.org/wiki/Sojus_MS-12"
     },
     {
         "itemname": "Euclid Weltraumteleskop",
-        "itemurl": "https://de.wikipedia.org/wiki/Euclid_%28Weltraumteleskop%29"
+        "itemurl": "https://de.wikipedia.org/wiki/Euclid_(Weltraumteleskop)"
     },
     {
         "itemname": "JUICE",
-        "itemurl": "https://de.wikipedia.org/wiki/JUICE"
+        "itemurl": "https://de.wikipedia.org/wiki/JUICE",
+        "itemname2": "Jupiter Icy Moon Explorer"
     },
     {
         "itemname": "Venera D",
@@ -11642,25 +12302,22 @@
         "itemurl": "https://de.wikipedia.org/wiki/Tiangong_1"
     },
     {
-        "itemname": "Tiangong 2"
+        "itemname": "Tiangong 2",
+        "itemurl": "https://de.wikipedia.org/wiki/Tiangong_2"
+    },
+    {
+        "itemname": "Große Raumstation",
+        "itemurl": "https://en.wikipedia.org/wiki/Chinese_large_modular_space_station"
     },
     {
         "itemname": "Space Complex Alpha"
     },
     {
-        "itemname": "Space Complex Bravo"
+        "itemname": "OPSEK",
+        "itemurl": "https://en.wikipedia.org/wiki/Orbital_Piloted_Assembly_and_Experiment_Complex"
     },
     {
-        "itemname": "Tiangong 3"
-    },
-    {
-        "itemname": "OPSEK"
-    },
-    {
-        "itemname": "Chinesische Raumstation"
-    },
-    {
-        "itemname": "Almaz"
+        "itemname": "Excalibur Almaz"
     },
     {
         "itemname": "Radio Astronomy Explorer A",

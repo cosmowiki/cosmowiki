@@ -1553,6 +1553,21 @@
         "itemproperty": "Astronom"
     },
     {
+        "itemname": "Doppelmayr",
+        "itemurl": "https://de.wikipedia.org/wiki/Johann_Gabriel_Doppelmayr",
+        "itemname2": "Johann Gabriel",
+        "itemdescription": "Er gab wichtige Werke zur Instrumentenkunde heraus und übersetzte einige Fachbücher ins Deutsche. Ab 1728 baute er zusammen mit Johann Georg Puschner Erd- und Himmelsgloben. 1742 erschien sein Neuer Himmelsatlas, in dem auf prächtigen Karten das astronomische Wissen seiner Zeit zusammengefasst ist.",
+        "itemtype": 1,
+        "itemdateyear": "1677",
+        "itemdatemonth": "09",
+        "itemdateday": "27",
+        "itemdate2year": "1750",
+        "itemdate2month": "12",
+        "itemdate2day": "01",
+        "itemcountry": "Deutschland",
+        "itemproperty": "Mathematiker, Astronom"
+    },
+    {
         "itemname": "Drake",
         "itemurl": "https://de.wikipedia.org/wiki/Frank_Drake",
         "itemname2": "Frank",
@@ -1661,6 +1676,36 @@
         "itemtype": 1,
         "itemcountry": "Estland",
         "itemproperty": "Astrophysiker"
+    },
+    {
+        "itemname": "Einmart",
+        "itemurl": "https://de.wikipedia.org/wiki/Georg_Christoph_Eimmart",
+        "itemname2": "Georg Christoph",
+        "itemdescription": "Gründer der ersten Nürnberger Sternwarte, Mathematiker und Kupferstecher",
+        "itemtype": 1,
+        "itemdateyear": "1638",
+        "itemdatemonth": "08",
+        "itemdateday": "22",
+        "itemdate2year": "1705",
+        "itemdate2month": "01",
+        "itemdate2day": "05",
+        "itemcountry": "Deutschland",
+        "itemproperty": "Mathematiker, Kupferstecher"
+    },
+    {
+        "itemname": "Einmart",
+        "itemurl": "https://de.wikipedia.org/wiki/Maria_Clara_Eimmart",
+        "itemname2": "Maria Clara",
+        "itemdescription": "eigenständige astronomische Beobachterin an der Sternwarte ihres Vaters Georg Christoph Einmart",
+        "itemtype": 1,
+        "itemdateyear": "1676",
+        "itemdatemonth": "05",
+        "itemdateday": "27",
+        "itemdate2year": "1705",
+        "itemdate2month": "10",
+        "itemdate2day": "29",
+        "itemcountry": "Deutschland",
+        "itemproperty": "Kupferstecher, Astronom"
     },
     {
         "itemname": "Einstein",
