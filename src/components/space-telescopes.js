@@ -201,9 +201,9 @@ const TelescopeComponent = ({ telescope }) => {
         <div className="spacetelescope-info1 pure-u-1 pure-u-md-1-2">
           <p className="spacetelescope-name"><a href={telescope.wikipediaUrl} title={telescope.name}>{telescope.name}</a></p>
           {telescope.alternativename ? <p className="spacetelescope-alternative-name">({telescope.alternativename})</p> : ''}
+          {telescope.countries.length == 0 ? '' : flags(telescope.countries)}
         </div>
         <div className="spacetelescope-info2 pure-u-1 pure-u-md-1-2">
-          {telescope.countries.length == 0 ? '' : flags(telescope.countries)}
           {telescope.purpose ? <p className="spacetelescope-data">{telescope.purpose}</p> : ''}
           <p className="spacetelescope-data">{telescope.endDate ? `von ${telescope.launchDate} bis ${telescope.endDate}` : `Start: ${telescope.launchDate}`}</p>
           {telescope.status ? <p className="spacetelescope-data">Status: {telescope.status}</p> : ''}

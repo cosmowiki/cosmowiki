@@ -13,7 +13,7 @@
 .spacetelescope-name {margin-top: .5em;}
 p.spacetelescope-alternative-name {font-size: .8rem;}
 .spacetelescope-country {font-size: .8rem;}
-.spacetelescope-country img {margin: .25em 0 .25em .1em; height: .75rem;}
+.spacetelescope-country img {margin: .25em 0 .25em .25em; height: .75rem;}
 .spacetelescope-country img:first-child {margin-left: 0;}
 
 /*	breakpoints ------------------------------------------------------------- */
@@ -27,3 +27,6 @@ p.spacetelescope-alternative-name {font-size: .8rem;}
 	.spacetelescope-info {display: flex; align-items: center;}
   .spacetelescope-info1 {text-align: center;}
 }
+@media only all and (min-width: 64em) {
+	.spacetelescope-info2 {text-align: center;}
+	}
