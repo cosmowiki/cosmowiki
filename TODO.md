@@ -1,3 +1,8 @@
+# general questions
+- how to list the related items _in spreadsheets_ to get them logically arranged in the vcard? (e.g. rockets: link, link; astronauts: link, link)
+- open item images in a pop-up or overlay instead of a blank page?
+- does the new Firefox 59 affect the handover of certain values in the URL?
+
 # Roadmap until first release
 - [x] speed up local development, using watchify?
 - [x] include shariff for private social linking
@@ -15,11 +20,6 @@
 - relations and breadcrumb on the vcard
 - global search
 - global switch to toggle day/night vision & hand over the state on reload etc
-
-# general questions
-- list related items _in spreadsheets_ only with their wikipedia url (semicolon separated) and decrypt them to get the real names?
-- open item images in a pop-up or overlay instead of a blank page?
-- does the new Firefox 59 affect the handover of certain values in the URL?
 
 # currently to do
 
