@@ -36657,11 +36657,12 @@ var flags = function flags(countries) {
   );
 };
 var targets = function targets(destinations) {
+  var wikipediaPath = "https://de.wikipedia.org/wiki/";
   var targetLinks = destinations.map(function (destination) {
-    return _react2['default'].createElement(
+    destination.indexOf(wikipediaPath) !== -1 ? destination : _react2['default'].createElement(
       'a',
       { href: destination, title: destination, key: destination },
-      decodeURIComponent(destination).replace('https://de.wikipedia.org/wiki/', '').replace(/_\(.+\)/, '').replace(/_/gi, ' ')
+      decodeURIComponent(destination).replace(wikipediaPath, '').replace(/_\(.+\)/, '').replace(/_/gi, ' ')
     );
   }).map(function (item, index) {
     return [index > 0 && ', ', item];
@@ -36690,14 +36691,14 @@ var MissionComponent = function MissionComponent(_ref2) {
           mission.name
         )
       ),
-      mission.countries.length == 0 ? '' : flags(mission.countries),
       mission.name2 ? _react2['default'].createElement(
         'p',
-        { className: 'mission-name2' },
+        { className: 'mission-name2 pure-u-lg-1' },
         '(',
         mission.name2,
         ')'
-      ) : ''
+      ) : '',
+      mission.countries.length == 0 ? '' : flags(mission.countries)
     ),
     _react2['default'].createElement(
       'div',
