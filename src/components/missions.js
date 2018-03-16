@@ -229,7 +229,13 @@ const flags = (countries) => {
   return <p className="mission-country">{flagimages}</p>
 };
 const targets = (destinations) => {
-  const targetLinks = destinations.map(destination => <a href={destination} title={destination} key={destination}>{decodeURIComponent(destination).replace('https://de.wikipedia.org/wiki/','').replace(/_\(.+\)/,'').replace(/_/gi,' ')}</a>).map((item, index) => [index > 0 && ', ', item ]);
+  const wikipediaPath = "https://de.wikipedia.org/wiki/";
+  const targetLinks = destinations.map(destination => {
+    destination.indexOf(wikipediaPath) !== -1 ?
+    destination
+    :
+    <a href={destination} title={destination} key={destination}>{decodeURIComponent(destination).replace(wikipediaPath,'').replace(/_\(.+\)/,'').replace(/_/gi,' ')}</a>
+  }).map((item, index) => [index > 0 && ', ', item ]);
   return <p className="mission-destination">{targetLinks}</p>
 };
 const MissionComponent = ({mission}) => {
@@ -237,8 +243,8 @@ const MissionComponent = ({mission}) => {
     <div className="mission-row data-row pure-u-1">
       <div className="mission-info pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-2-5 center">
         <p className="mission-name"><a href={mission.link} title={mission.name}>{mission.name}</a></p>
+        {mission.name2 ? <p className="mission-name2 pure-u-lg-1">({mission.name2})</p> : ''}
         {mission.countries.length == 0 ? '' : flags(mission.countries)}
-        {mission.name2 ? <p className="mission-name2">({mission.name2})</p> : ''}
       </div>
       <div className="mission-data pure-u-1 pure-u-sm-1-2 pure-u-md-2-3 pure-u-lg-3-5 center">
         <div className="mission-data1 pure-u-md-1-2 pure-u-lg-1-3">
