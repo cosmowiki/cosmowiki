@@ -24,6 +24,7 @@
 }
 @media only all and (min-width: 48em) {
 	.mission-data {display: flex; align-items: center;}
+	.mission-data1 {text-align: center;}
 	.mission-data2 {text-align: left;}
 	.mission-launch,
 	.mission-dash,
@@ -34,11 +35,13 @@
 }
 @media only all and (min-width: 64em) {
 	.mission-row {padding: .75em 0;}
-	.mission-info {margin-right: 1em; text-align: right;}
+	.mission-info {margin-right: 1.5em; text-align: right;}
 	.mission-name,
 	.mission-country,
 	.mission-country img {display: inline;}
 	.mission-country {margin-left: .5em;}
 	.mission-country img {margin: 0 0 0 .25em; height: 12px;}
 	.mission-country img:first-child {margin-left: 0;}
+	.mission-duration {text-align: center;}
+	.mission-data2 {margin-left: 1.5em;}
 }
