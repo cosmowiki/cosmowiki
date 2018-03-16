@@ -36659,11 +36659,11 @@ var flags = function flags(countries) {
 var targets = function targets(destinations) {
   var wikipediaPath = "https://de.wikipedia.org/wiki/";
   var targetLinks = destinations.map(function (destination) {
-    destination.indexOf(wikipediaPath) !== -1 ? destination : _react2['default'].createElement(
+    return destination.indexOf(wikipediaPath) !== -1 ? _react2['default'].createElement(
       'a',
       { href: destination, title: destination, key: destination },
       decodeURIComponent(destination).replace(wikipediaPath, '').replace(/_\(.+\)/, '').replace(/_/gi, ' ')
-    );
+    ) : destination;
   }).map(function (item, index) {
     return [index > 0 && ', ', item];
   });
