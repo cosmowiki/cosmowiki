@@ -35445,11 +35445,11 @@ var ConstellationComponent = function ConstellationComponent(_ref2) {
           { className: 'constellation-data3' },
           'hellster Stern:',
           _react2['default'].createElement('br', null),
-          item.brightestUrl ? _react2['default'].createElement(
+          item.brightestStarUrl ? _react2['default'].createElement(
             'a',
-            { href: item.brightestUrl, title: item.brightest },
-            item.brightest
-          ) : '' + item.brightest,
+            { href: item.brightestStarUrl, title: item.brightestStar },
+            item.brightestStar
+          ) : '' + item.brightestStar,
           ' (',
           item.highestBrightness,
           ' mag)'
@@ -36704,25 +36704,31 @@ var MissionComponent = function MissionComponent(_ref2) {
       { className: 'mission-data pure-u-1 pure-u-sm-1-2 pure-u-md-2-3 pure-u-lg-3-5 center' },
       _react2['default'].createElement(
         'div',
-        { className: 'mission-data1 pure-u-md-3-5 pure-u-lg-1-2' },
+        { className: 'mission-data1 pure-u-md-1-2 pure-u-lg-1-3' },
         _react2['default'].createElement(
           'p',
-          { className: 'mission-launch pure-u-md-7-24 center' },
+          { className: 'mission-launch pure-u-md-7-24 pure-u-lg-11-24 center' },
           mission.launchDate
         ),
         mission.endDate ? _react2['default'].createElement(
           'p',
-          { className: 'mission-dash pure-u-md-1-24 center' },
+          { className: 'mission-dash pure-u-md-1-12 pure-u-lg-1-12 center' },
           ' - '
-        ) : _react2['default'].createElement('p', { className: 'mission-dash pure-u-md-1-24 center empty' }),
+        ) : '',
         mission.endDate ? _react2['default'].createElement(
           'p',
-          { className: 'mission-end pure-u-md-7-24 center' },
+          { className: 'mission-end pure-u-md-7-24 pure-u-lg-11-24 center' },
           mission.endDate
-        ) : _react2['default'].createElement('p', { className: 'mission-end pure-u-md-7-24 center empty' }),
-        mission.duration ? _react2['default'].createElement(
+        ) : _react2['default'].createElement(
           'p',
-          { className: 'mission-duration pure-u-md-9-24' },
+          { className: 'mission-end pure-u-md-7-24 pure-u-lg-11-24 center' },
+          ' (',
+          mission.duration,
+          ')'
+        ),
+        mission.endDate ? _react2['default'].createElement(
+          'p',
+          { className: 'mission-duration pure-u-md-1' },
           '(',
           mission.duration,
           ')'
@@ -36730,7 +36736,7 @@ var MissionComponent = function MissionComponent(_ref2) {
       ),
       _react2['default'].createElement(
         'div',
-        { className: 'mission-data2 pure-u-md-2-5 pure-u-lg-1-2' },
+        { className: 'mission-data2 pure-u-md-1-2 pure-u-lg-2-3' },
         targets(mission.destinations)
       )
     )
@@ -43473,14 +43479,14 @@ var Constellation = (function () {
       item.author = Author.fromRawData(raw);
       item.brightestStar = Star.fromRawData(raw);
       item.year = raw.itemdateyear;
-      item.visibility = raw.itemproperty;
-      item.visibleFrom = raw.itemproperty2;
-      item.visibleTo = raw.itemproperty3;
-      item.squareDegrees = raw.itemproperty4;
-      item.starsOver3Mag = raw['itemproperty5'];
-      item.highestBrightness = raw.itemproperty6;
-      item.brightest = raw.itemproperty7;
-      item.brightestUrl = raw.itemproperty8;
+      item.visibility = raw.itemvisibility;
+      item.visibleFrom = raw.itemvisiblefrom;
+      item.visibleTo = raw.itemvisibleto;
+      item.squareDegrees = raw.itemsquaredegrees;
+      item.starsOver3Mag = raw['itemstarsover3mag'];
+      item.highestBrightness = raw.itemhighestbrightness;
+      item.brightestStar = raw.itembrighteststar;
+      item.brightestStarUrl = raw.itembrighteststarurl;
       return item;
     }
   }]);
@@ -44427,11 +44433,11 @@ var SpaceStation = (function () {
       station.status = raw.itemstatus ? raw.itemstatus : '';
       station.rocket = Rocket.fromRawData(raw);
       station.pad = Pad.fromRawData(raw);
-      station.crewSize = raw.itemproperty;
-      station.daysOccupied = raw.itemproperty2;
-      station.visitors = raw.itemproperty3;
-      station.crews = raw.itemproperty4;
-      station.mannedDocks = raw.itemproperty5;
+      station.crewSize = raw.itemCrewSize;
+      station.daysOccupied = raw.itemDaysOccupied;
+      station.visitors = raw.itemVisitors;
+      station.crews = raw.itemCrews;
+      station.mannedDocks = raw.itemmannedDocks;
       station.unmannedDocks = raw.itemproperty6;
       station.apo = raw.itemnearest;
       station.peri = raw.itemfarthest;
