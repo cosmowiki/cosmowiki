@@ -230,12 +230,12 @@ const flags = (countries) => {
 };
 const targets = (destinations) => {
   const wikipediaPath = "https://de.wikipedia.org/wiki/";
-  const targetLinks = destinations.map(destination => {
+  const targetLinks = destinations.map(destination =>
     destination.indexOf(wikipediaPath) !== -1 ?
-    destination
-    :
     <a href={destination} title={destination} key={destination}>{decodeURIComponent(destination).replace(wikipediaPath,'').replace(/_\(.+\)/,'').replace(/_/gi,' ')}</a>
-  }).map((item, index) => [index > 0 && ', ', item ]);
+    :
+    destination
+  ).map((item, index) => [index > 0 && ', ', item ]);
   return <p className="mission-destination">{targetLinks}</p>
 };
 const MissionComponent = ({mission}) => {
