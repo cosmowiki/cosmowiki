@@ -26,12 +26,12 @@
         "iteminclination": "51,6°",
         "itemmass": "18,4 t",
         "itemvolume": "100 m³",
-        "itemproperty": 3,
-        "itemproperty2": 24,
-        "itemproperty3": 6,
-        "itemproperty4": 1,
-        "itemproperty5": 2,
-        "itemproperty6": 0
+        "itemcrewsize": 3,
+        "itemdaysoccupied": 24,
+        "itemvisitors": 6,
+        "itemcrews": 1,
+        "itemmanneddocks": 2,
+        "itemunmanneddocks": 0
     },
     {
         "itemname": "Saljut 2",
@@ -60,12 +60,12 @@
         "iteminclination": "51,6°",
         "itemmass": "18,5 t",
         "itemvolume": 0,
-        "itemproperty": 0,
-        "itemproperty2": 0,
-        "itemproperty3": 0,
-        "itemproperty4": 0,
-        "itemproperty5": 0,
-        "itemproperty6": 0
+        "itemcrewsize": 0,
+        "itemdaysoccupied": 0,
+        "itemvisitors": 0,
+        "itemcrews": 0,
+        "itemmanneddocks": 0,
+        "itemunmanneddocks": 0
     },
     {
         "itemname": "Kosmos 557",
@@ -94,12 +94,12 @@
         "iteminclination": "51,6°",
         "itemmass": "19,4 t",
         "itemvolume": 0,
-        "itemproperty": 0,
-        "itemproperty2": 0,
-        "itemproperty3": 0,
-        "itemproperty4": 0,
-        "itemproperty5": 0,
-        "itemproperty6": 0
+        "itemcrewsize": 0,
+        "itemdaysoccupied": 0,
+        "itemvisitors": 0,
+        "itemcrews": 0,
+        "itemmanneddocks": 0,
+        "itemunmanneddocks": 0
     },
     {
         "itemname": "Skylab",
@@ -127,12 +127,12 @@
         "iteminclination": "50°",
         "itemmass": "77 t",
         "itemvolume": "360 m³",
-        "itemproperty": 3,
-        "itemproperty2": 171,
-        "itemproperty3": 9,
-        "itemproperty4": 3,
-        "itemproperty5": 3,
-        "itemproperty6": 0
+        "itemcrewsize": 3,
+        "itemdaysoccupied": 171,
+        "itemvisitors": 9,
+        "itemcrews": 3,
+        "itemmanneddocks": 3,
+        "itemunmanneddocks": 0
     },
     {
         "itemname": "Saljut 3",
@@ -161,12 +161,12 @@
         "iteminclination": "51,6°",
         "itemmass": "18,9 t",
         "itemvolume": "90 m³",
-        "itemproperty": 2,
-        "itemproperty2": 15,
-        "itemproperty3": 2,
-        "itemproperty4": 1,
-        "itemproperty5": 1,
-        "itemproperty6": 0
+        "itemcrewsize": 2,
+        "itemdaysoccupied": 15,
+        "itemvisitors": 2,
+        "itemcrews": 1,
+        "itemmanneddocks": 1,
+        "itemunmanneddocks": 0
     },
     {
         "itemname": "Saljut 4",
@@ -195,12 +195,12 @@
         "iteminclination": "51,6°",
         "itemmass": "18,9 t",
         "itemvolume": "90 m³",
-        "itemproperty": 2,
-        "itemproperty2": 92,
-        "itemproperty3": 4,
-        "itemproperty4": 2,
-        "itemproperty5": 2,
-        "itemproperty6": 1
+        "itemcrewsize": 2,
+        "itemdaysoccupied": 92,
+        "itemvisitors": 4,
+        "itemcrews": 2,
+        "itemmanneddocks": 2,
+        "itemunmanneddocks": 1
     },
     {
         "itemname": "Saljut 5",
@@ -229,12 +229,12 @@
         "iteminclination": "51,6°",
         "itemmass": "19 t",
         "itemvolume": "100 m³",
-        "itemproperty": 2,
-        "itemproperty2": 67,
-        "itemproperty3": 4,
-        "itemproperty4": 2,
-        "itemproperty5": 3,
-        "itemproperty6": 0
+        "itemcrewsize": 2,
+        "itemdaysoccupied": 67,
+        "itemvisitors": 4,
+        "itemcrews": 2,
+        "itemmanneddocks": 3,
+        "itemunmanneddocks": 0
     },
     {
         "itemname": "Saljut 6",
@@ -263,12 +263,12 @@
         "iteminclination": "51,6°",
         "itemmass": "9 t",
         "itemvolume": "90 m³",
-        "itemproperty": 2,
-        "itemproperty2": 683,
-        "itemproperty3": 33,
-        "itemproperty4": 6,
-        "itemproperty5": 16,
-        "itemproperty6": 14
+        "itemcrewsize": 2,
+        "itemdaysoccupied": 683,
+        "itemvisitors": 33,
+        "itemcrews": 6,
+        "itemmanneddocks": 16,
+        "itemunmanneddocks": 14
     },
     {
         "itemname": "Saljut 7",
@@ -297,12 +297,12 @@
         "iteminclination": "51,6°",
         "itemmass": "19 t",
         "itemvolume": "90 m³",
-        "itemproperty": 3,
-        "itemproperty2": 861,
-        "itemproperty3": 22,
-        "itemproperty4": 5,
-        "itemproperty5": 10,
-        "itemproperty6": 15
+        "itemcrewsize": 3,
+        "itemdaysoccupied": 861,
+        "itemvisitors": 22,
+        "itemcrews": 5,
+        "itemmanneddocks": 10,
+        "itemunmanneddocks": 15
     },
     {
         "itemname": "Mir",
@@ -330,12 +330,12 @@
         "iteminclination": "51,6°",
         "itemmass": "129,7 t",
         "itemvolume": "350 m³",
-        "itemproperty": 3,
-        "itemproperty2": 4594,
-        "itemproperty3": 125,
-        "itemproperty4": 28,
-        "itemproperty5": 39,
-        "itemproperty6": 68
+        "itemcrewsize": 3,
+        "itemdaysoccupied": 4594,
+        "itemvisitors": 125,
+        "itemcrews": 28,
+        "itemmanneddocks": 39,
+        "itemunmanneddocks": 68
     },
     {
         "itemname": "International Space Station ISS",
@@ -348,7 +348,7 @@
         "itemdateyear": "1998",
         "itemdatemonth": "11",
         "itemdateday": "20",
-        "itemduration": "19 a 109 d (Stand: 09.03.2018)",
+        "itemduration": "19 a 116 d (Stand: 16.03.2018)",
         "itemstatus": "im Orbit",
         "itemparent": "Proton-K",
         "itemparenturl": "https://de.wikipedia.org/wiki/Proton_%28Rakete%29",
@@ -360,11 +360,11 @@
         "iteminclination": "51,65°",
         "itemmass": "417,3 t",
         "itemvolume": "907 m³",
-        "itemproperty": 6,
-        "itemproperty2": 5409,
-        "itemproperty3": 215,
-        "itemproperty5": 75,
-        "itemproperty6": 72
+        "itemcrewsize": 6,
+        "itemdaysoccupied": 5409,
+        "itemvisitors": 215,
+        "itemmanneddocks": 75,
+        "itemunmanneddocks": 72
     },
     {
         "itemname": "Genesis I",
@@ -373,7 +373,7 @@
         "itemdateyear": "2006",
         "itemdatemonth": "07",
         "itemdateday": "12",
-        "itemduration": "11 a 240 d (Stand: 09.03.2018)",
+        "itemduration": "11 a 247 d (Stand: 16.03.2018)",
         "itemstatus": "im Orbit",
         "itemparent": "Dnepr",
         "itemparenturl": "https://de.wikipedia.org/wiki/Dnepr_%28Rakete%29",
@@ -385,11 +385,11 @@
         "iteminclination": "64,51°",
         "itemmass": "1,360 t",
         "itemvolume": "11,5 m³",
-        "itemproperty": 0,
-        "itemproperty2": 0,
-        "itemproperty3": 0,
-        "itemproperty5": 0,
-        "itemproperty6": 0
+        "itemcrewsize": 0,
+        "itemdaysoccupied": 0,
+        "itemvisitors": 0,
+        "itemmanneddocks": 0,
+        "itemunmanneddocks": 0
     },
     {
         "itemname": "Genesis II",
@@ -398,7 +398,7 @@
         "itemdateyear": "2007",
         "itemdatemonth": "06",
         "itemdateday": "28",
-        "itemduration": "10 a 254 d (Stand: 09.03.2018)",
+        "itemduration": "10 a 261 d (Stand: 16.03.2018)",
         "itemstatus": "im Orbit",
         "itemparent": "Dnepr",
         "itemparenturl": "https://de.wikipedia.org/wiki/Dnepr_%28Rakete%29",
@@ -410,11 +410,11 @@
         "iteminclination": "64,51°",
         "itemmass": "1,360 t",
         "itemvolume": "11,5 m³",
-        "itemproperty": 0,
-        "itemproperty2": 0,
-        "itemproperty3": 0,
-        "itemproperty5": 0,
-        "itemproperty6": 0
+        "itemcrewsize": 0,
+        "itemdaysoccupied": 0,
+        "itemvisitors": 0,
+        "itemmanneddocks": 0,
+        "itemunmanneddocks": 0
     },
     {
         "itemname": "Tiangong 1",
@@ -429,7 +429,7 @@
         "itemdateyear": "2011",
         "itemdatemonth": "09",
         "itemdateday": "29",
-        "itemduration": "6 a 161 d (Stand: 09.03.2018)",
+        "itemduration": "6 a 168 d (Stand: 16.03.2018)",
         "itemstatus": "im Orbit",
         "itemparent": "Langer Marsch 2F",
         "itemparenturl": "https://de.wikipedia.org/wiki/Langer_Marsch_2",
@@ -441,12 +441,12 @@
         "iteminclination": "42,77°",
         "itemmass": "8,506 t",
         "itemvolume": "15 m³",
-        "itemproperty": 3,
-        "itemproperty2": 25,
-        "itemproperty3": 6,
-        "itemproperty4": 2,
-        "itemproperty5": 2,
-        "itemproperty6": 1
+        "itemcrewsize": 3,
+        "itemdaysoccupied": 25,
+        "itemvisitors": 6,
+        "itemcrews": 2,
+        "itemmanneddocks": 2,
+        "itemunmanneddocks": 1
     },
     {
         "itemname": "Tiangong 2",
@@ -455,14 +455,14 @@
         "itemdateyear": "2016",
         "itemdatemonth": "09",
         "itemdateday": "15",
-        "itemduration": "1 a 175 d (Stand: 09.03.2018)",
+        "itemduration": "1 a 182 d (Stand: 16.03.2018)",
         "itemstatus": "im Orbit",
         "itemparent": "Langer Marsch 2F",
         "itemparenturl": "https://de.wikipedia.org/wiki/Langer_Marsch_2",
         "itemoperator": "CN",
         "itemlocation": "Jiuquan LA-4/SLS-1",
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kosmodrom_Jiuquan",
-        "itemproperty": 3
+        "itemcrewsize": 3
     },
     {
         "itemname": "Große Raumstation",
@@ -470,14 +470,14 @@
         "itemdateyear": 2019,
         "itemstatus": "geplant",
         "itemoperator": "CN",
-        "itemproperty": 3
+        "itemcrewsize": 3
     },
     {
         "itemname": "Space Complex Alpha",
         "itemdateyear": 2020,
         "itemstatus": "geplant",
         "itemoperator": "Bigelow",
-        "itemproperty": "3+"
+        "itemcrewsize": "3+"
     },
     {
         "itemname": "OPSEK",
@@ -485,12 +485,12 @@
         "itemdateyear": 2025,
         "itemstatus": "geplant",
         "itemoperator": "RU",
-        "itemproperty": "2+"
+        "itemcrewsize": "2+"
     },
     {
         "itemname": "Excalibur Almaz",
         "itemstatus": "geplant",
         "itemoperator": "Excalibur Almaz",
-        "itemproperty": "4+"
+        "itemcrewsize": "4+"
     }
 ]

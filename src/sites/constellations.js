@@ -34,14 +34,14 @@ class Constellation {
     item.author = Author.fromRawData(raw);
     item.brightestStar = Star.fromRawData(raw);
     item.year = raw.itemdateyear;
-    item.visibility = raw.itemproperty;
-    item.visibleFrom = raw.itemproperty2;
-    item.visibleTo = raw.itemproperty3;
-    item.squareDegrees = raw.itemproperty4;
-    item.starsOver3Mag = raw['itemproperty5'];
-    item.highestBrightness = raw.itemproperty6;
-    item.brightest = raw.itemproperty7;
-    item.brightestUrl = raw.itemproperty8;
+    item.visibility = raw.itemvisibility;
+    item.visibleFrom = raw.itemvisiblefrom;
+    item.visibleTo = raw.itemvisibleto;
+    item.squareDegrees = raw.itemsquaredegrees;
+    item.starsOver3Mag = raw['itemstarsover3mag'];
+    item.highestBrightness = raw.itemhighestbrightness;
+    item.brightestStar = raw.itembrighteststar;
+    item.brightestStarUrl = raw.itembrighteststarurl;
     return item;
   }
 

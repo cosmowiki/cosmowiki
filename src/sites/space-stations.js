@@ -40,11 +40,11 @@ class SpaceStation {
     station.status = raw.itemstatus ? raw.itemstatus : '';
     station.rocket = Rocket.fromRawData(raw);
     station.pad = Pad.fromRawData(raw);
-    station.crewSize = raw.itemproperty;
-    station.daysOccupied = raw.itemproperty2;
-    station.visitors = raw.itemproperty3;
-    station.crews = raw.itemproperty4;
-    station.mannedDocks = raw.itemproperty5;
+    station.crewSize = raw.itemCrewSize;
+    station.daysOccupied = raw.itemDaysOccupied;
+    station.visitors = raw.itemVisitors;
+    station.crews = raw.itemCrews;
+    station.mannedDocks = raw.itemmannedDocks;
     station.unmannedDocks = raw.itemproperty6;
     station.apo = raw.itemnearest;
     station.peri = raw.itemfarthest;
