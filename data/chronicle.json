@@ -8,6 +8,7 @@
         "itemlocation": "Ishango",
         "itemlatitude": "-0.126969",
         "itemlongitude": "29.600403",
+        "relatedplaces": "https://de.wikipedia.org/wiki/Eduardsee",
         "itemtype": 1,
         "itemtags": "Ishango"
     },
@@ -20,6 +21,7 @@
         "itemlocation": "Lascaux",
         "itemlatitude": "45.053806",
         "itemlongitude": "1.170833",
+        "relatedplaces": "https://de.wikipedia.org/wiki/H%C3%B6hle_von_Lascaux",
         "itemtype": 1,
         "itemtags": "Lascaux, Höhle"
     },
@@ -32,6 +34,7 @@
         "itemlocation": "Goseck",
         "itemlatitude": "51.198333",
         "itemlongitude": "11.864597",
+        "relatedplaces": "https://de.wikipedia.org/wiki/Kreisgrabenanlage_von_Goseck",
         "itemtype": 1,
         "itemtags": "Goseck, Kreisgrabenanlage, Kalender, Zeit"
     },
@@ -44,6 +47,7 @@
         "itemlocation": "Nabta-Playa",
         "itemlatitude": "22.533333",
         "itemlongitude": "30.7",
+        "relatedplaces": "https://de.wikipedia.org/wiki/Nabta-Playa",
         "itemtype": 1,
         "itemtags": "Nabta-Playa, Megalithanlage"
     },
@@ -69,6 +73,7 @@
         "itemlocation": "Stonehenge",
         "itemlatitude": "51.178889",
         "itemlongitude": "-1.826389",
+        "relatedplaces": "https://de.wikipedia.org/wiki/Stonehenge",
         "itemtype": 1,
         "itemtags": "Stonehenge, Megalithanlage, Kalender, Zeit"
     },
@@ -81,6 +86,7 @@
         "itemlocation": "Mnajdra",
         "itemlatitude": "35.826667",
         "itemlongitude": "14.436389",
+        "relatedplaces": "https://de.wikipedia.org/wiki/Mnajdra",
         "itemtype": 1,
         "itemtags": "Mnajdra, Megalithanlage"
     },
@@ -107,6 +113,8 @@
         "itemlocation": "Dengfeng",
         "itemlatitude": "34.46",
         "itemlongitude": "113.03",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Xi_und_He",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Xi_und_He",
         "itemtype": 1,
         "itemtags": "Sonnenfinsternis"
     },
@@ -125,13 +133,13 @@
     {
         "itemname": "Amenemhet baut eine technisch ausgereifte Wasseruhr",
         "itemurl": "https://de.wikipedia.org/wiki/Wasseruhr",
-        "itemname2": "Wasseruhr des Amenemhet",
+        "itemname2": "Wasseruhr-Amenemhet",
         "itemdateyear": "1530 v. Chr.",
         "itemcountry": "Ägypten",
         "itemlocation": "Achet-Aton",
         "itemlatitude": "27.661667",
         "itemlongitude": "30.905556",
-        "itemperson": "https://de.wikipedia.org/wiki/Amenemhet_(18._Dynastie)",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Amenemhet_(18._Dynastie)",
         "itemtype": 1,
         "itemtags": "Wasseruhr, Uhr, Zeit"
     },
@@ -172,7 +180,7 @@
     {
         "itemname": "der chinesische Astronom Shi Shen erstellt einen Sternenkatalog",
         "itemurl": "http://en.wikipedia.org/wiki/Shi_Shen",
-        "itemname2": "Sternenkatalog - Shi Shen",
+        "itemname2": "Sternenkatalog-Shi Shen",
         "itemdateyear": "4. Jhdt. v. Chr.",
         "itemcountry": "China",
         "itemlatitude": "34.79",
@@ -183,39 +191,39 @@
     {
         "itemname": "Aristoteles entdeckt das Prinzip der Camera obscura",
         "itemurl": "https://de.wikipedia.org/wiki/Camera_obscura",
-        "itemname2": "Camera obscura - Aristoteles",
+        "itemname2": "Camera obscura-Aristoteles",
         "itemdateyear": "4. Jhdt. v. Chr.",
         "itemcountry": "Griechenland",
         "itemlocation": "Athen",
         "itemlatitude": "37.9925",
         "itemlongitude": "23.708056",
-        "itemperson": "https://de.wikipedia.org/wiki/Aristoteles",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Aristoteles",
         "itemtype": 1,
         "itemtags": "Aristoteles, Camera obscura"
     },
     {
         "itemname": "Aristoteles beschreibt das geozentrische Weltbild",
         "itemurl": "https://de.wikipedia.org/wiki/Geozentrisches_Weltbild",
-        "itemname2": "geozentrisches Weltbild - Aristoteles",
+        "itemname2": "geozentrisches Weltbild-Aristoteles",
         "itemdateyear": "384 – 322 v. Chr.",
         "itemcountry": "Griechenland",
         "itemlocation": "Athen",
         "itemlatitude": "37.9925",
         "itemlongitude": "23.708056",
-        "itemperson": "https://de.wikipedia.org/wiki/Aristoteles",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Aristoteles",
         "itemtype": 1,
         "itemtags": "Aristoteles, Weltbild, geozentrisch"
     },
     {
         "itemname": "Aristarchos von Samos beschreibt das heliozentrische Weltbild",
         "itemurl": "https://de.wikipedia.org/wiki/Aristarchos_von_Samos",
-        "itemname2": "heliozentrisches Weltbild - Aristarchos",
+        "itemname2": "heliozentrisches Weltbild-Aristarchos",
         "itemdateyear": "310 – 230 v. Chr.",
         "itemcountry": "Griechenland",
         "itemlocation": "Samos",
         "itemlatitude": "37.727778",
         "itemlongitude": "26.823056",
-        "itemperson": "https://de.wikipedia.org/wiki/Aristarchos_von_Samos",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Aristarchos_von_Samos",
         "itemtype": 1,
         "itemtags": "Aristarchos, Weltbild, heliozentrisch"
     },
@@ -254,7 +262,7 @@
         "itemlocation": "Alexandria",
         "itemlatitude": "31.2135",
         "itemlongitude": "29.927661",
-        "itemperson": "https://de.wikipedia.org/wiki/Eratosthenes",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Eratosthenes",
         "itemtype": 1,
         "itemtags": "Eratosthenes, Umfang, Erde"
     },
@@ -267,7 +275,8 @@
         "itemlocation": "Nicäa",
         "itemlatitude": "40.429167",
         "itemlongitude": "29.721111",
-        "itemperson": "https://de.wikipedia.org/wiki/Hipparchos_(Astronom)",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Hipparchos_(Astronom)",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Hipparchos_(Astronom)",
         "itemtype": 1,
         "itemtags": "Hipparchos, Sternenkatalog"
     },
@@ -306,7 +315,8 @@
         "itemlocation": "Ägypten",
         "itemlatitude": "31.2135",
         "itemlongitude": "29.927661",
-        "itemperson": "https://de.wikipedia.org/wiki/Claudius_Ptolem%C3%A4us",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Claudius_Ptolem%C3%A4us",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Claudius_Ptolem%C3%A4us",
         "itemtype": 1,
         "itemtags": "Sternenkatalog"
     },
@@ -343,7 +353,8 @@
         "itemlocation": "Isfahan",
         "itemlatitude": "32.6575",
         "itemlongitude": "51.676667",
-        "itemperson": "https://de.wikipedia.org/wiki/Abd_ar-Rahman_as-Sufi",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Abd_ar-Rahman_as-Sufi",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Abd_ar-Rahman_as-Sufi",
         "itemtype": 1,
         "itemtags": "Sternenkatalog, Sternbild"
     },
@@ -413,7 +424,8 @@
         "itemlocation": "Kues",
         "itemlatitude": "49.916111",
         "itemlongitude": "7.069444",
-        "itemperson": "https://de.wikipedia.org/wiki/Nikolaus_von_Kues",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Nikolaus_von_Kues",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Nikolaus_von_Kues",
         "itemtype": 1,
         "itemtags": "Kosmologie"
     },
@@ -423,7 +435,7 @@
         "itemname2": "Raketen - Wan Hu",
         "itemdateyear": "1500",
         "itemcountry": "China",
-        "itemperson": "https://de.wikipedia.org/wiki/Wan_Hu",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Wan_Hu",
         "itemtype": 2,
         "itemtags": "Rakete"
     },
@@ -433,7 +445,8 @@
         "itemname2": "Magellansche Wolken",
         "itemdateyear": "1519 – 1522",
         "itemcountry": "Südamerika",
-        "itemperson": "https://de.wikipedia.org/wiki/Ferdinand_Magellan",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Ferdinand_Magellan",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Ferdinand_Magellan",
         "itemtype": 1,
         "itemtags": "Magellan"
     },
@@ -446,20 +459,22 @@
         "itemlocation": "Frauenburg",
         "itemlatitude": "54.35",
         "itemlongitude": "19.683333",
-        "itemperson": "https://de.wikipedia.org/wiki/Nikolaus_Kopernikus",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Nikolaus_Kopernikus",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Nikolaus_Kopernikus",
         "itemtype": 1,
         "itemtags": "Weltbild, heliozentrisch, Planetenbahn"
     },
     {
         "itemname": "Daniele Barbaro beschreibt geschliffene Linse in der Camera obscura",
-        "itemurl": "https://de.wikipedia.org/wiki/Camera_obscura",
-        "itemname2": "Linsen - Daniele Barbaro",
+        "itemurl": "https://de.wikipedia.org/wiki/Daniele_Barbaro",
+        "itemname2": "Daniele Barbaro-Linsen",
         "itemdateyear": "1568",
         "itemcountry": "Italien",
         "itemlocation": "Venedig",
         "itemlatitude": "45.811944",
         "itemlongitude": "11.976389",
-        "itemperson": "https://de.wikipedia.org/wiki/Daniele_Barbaro",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Daniele_Barbaro",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Daniele_Barbaro",
         "itemtype": 1,
         "itemtags": "Linse, Kamera"
     },
@@ -474,7 +489,8 @@
         "itemlocation": "Kloster Herrevad",
         "itemlatitude": "56.087778",
         "itemlongitude": "13.2325",
-        "itemperson": "https://de.wikipedia.org/wiki/Tycho_Brahe",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Tycho_Brahe",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Tycho_Brahe",
         "itemtype": 1,
         "itemtags": "Supernova"
     },
@@ -485,9 +501,11 @@
         "itemdateyear": "1577",
         "itemcountry": "Dänemark",
         "itemlocation": "Uraniborg",
+        "itemlocationurl": "https://de.wikipedia.org/wiki/Uraniborg",
         "itemlatitude": "55.907833",
         "itemlongitude": "12.696222",
-        "itemperson": "https://de.wikipedia.org/wiki/Tycho_Brahe",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Tycho_Brahe",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Tycho_Brahe",
         "itemtype": 1,
         "itemtags": "Komet"
     },
@@ -498,9 +516,11 @@
         "itemdateyear": "1600",
         "itemcountry": "Dänemark",
         "itemlocation": "Uraniborg",
+        "itemlocationurl": "https://de.wikipedia.org/wiki/Uraniborg",
         "itemlatitude": "55.907833",
         "itemlongitude": "12.696222",
-        "itemperson": "https://de.wikipedia.org/wiki/Tycho_Brahe",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Tycho_Brahe",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Tycho_Brahe",
         "itemtype": 1,
         "itemtags": "Mauerquadrant, Observatorium"
     },
@@ -513,7 +533,8 @@
         "itemlocation": "Augsburg",
         "itemlatitude": "48.371667",
         "itemlongitude": "10.898333",
-        "itemperson": "https://de.wikipedia.org/wiki/Johann_Bayer",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Johann_Bayer",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Johann_Bayer",
         "itemtype": 1,
         "itemtags": "Himmelsatlas, Sternenkatalog, Sternbild, Stern"
     },
@@ -526,7 +547,8 @@
         "itemlocation": "Middelburg",
         "itemlatitude": "51.499622",
         "itemlongitude": "3.613528",
-        "itemperson": "https://de.wikipedia.org/wiki/Hans_Lipperhey",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Hans_Lipperhey",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Hans_Lipperhey",
         "itemtype": 1,
         "itemtags": "Fernrohr, Teleskop, Optik"
     },
@@ -539,7 +561,8 @@
         "itemlocation": "Prag",
         "itemlatitude": "50.085972",
         "itemlongitude": "14.414861",
-        "itemperson": "https://de.wikipedia.org/wiki/Johannes_Kepler",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Johannes_Kepler",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Johannes_Kepler",
         "itemtype": 1,
         "itemtags": "Planet, Gesetz"
     },
@@ -554,7 +577,8 @@
         "itemlocation": "Padua",
         "itemlatitude": "45.416667",
         "itemlongitude": "11.866667",
-        "itemperson": "https://de.wikipedia.org/wiki/Galileo_Galilei",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Galileo_Galilei",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Galileo_Galilei",
         "itemtype": 1,
         "itemtags": "Jupiter, Mond, Io, Europa, Ganymed, Kallisto, Fernrohr"
     },
@@ -569,7 +593,8 @@
         "itemlocation": "Padua",
         "itemlatitude": "45.416667",
         "itemlongitude": "11.866667",
-        "itemperson": "https://de.wikipedia.org/wiki/Galileo_Galilei",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Galileo_Galilei",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Galileo_Galilei",
         "itemtype": 1,
         "itemtags": "Stern, Jupiter, Mond, Io, Europa, Ganymed, Kallisto, Fernrohr"
     },
@@ -582,7 +607,8 @@
         "itemlocation": "Rom",
         "itemlatitude": "41.898947",
         "itemlongitude": "12.484558",
-        "itemperson": "https://de.wikipedia.org/wiki/Nicolaus_Zucchius",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Nicolaus_Zucchius",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Nicolaus_Zucchius",
         "itemtype": 1,
         "itemtags": "Spiegelteleskop"
     },
@@ -595,9 +621,11 @@
         "itemdateday": "04",
         "itemcountry": "GB",
         "itemlocation": "Much Hoole",
-        "itemlatitude": "53.6869",
-        "itemlongitude": "-2.815",
-        "itemperson": "https://de.wikipedia.org/wiki/Jeremia_Horrocks",
+        "itemlocationurl": "https://de.wikipedia.org/wiki/Carr_House_(Lancashire)",
+        "itemlatitude": "53.686621",
+        "itemlongitude": "-2.814756",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Jeremia_Horrocks",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Jeremia_Horrocks",
         "itemtype": 1,
         "itemtags": "Venus, Transit"
     },
@@ -610,7 +638,8 @@
         "itemlocation": "Den Haag",
         "itemlatitude": "52.06491",
         "itemlongitude": "4.36254",
-        "itemperson": "https://de.wikipedia.org/wiki/Christiaan_Huygens",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Christiaan_Huygens",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Christiaan_Huygens",
         "itemtype": 1
     },
     {
@@ -620,9 +649,11 @@
         "itemdateyear": "1668 – 1672",
         "itemcountry": "GB",
         "itemlocation": "Cambridge",
+        "itemlocationurl": "https://de.wikipedia.org/wiki/University_of_Cambridge",
         "itemlatitude": "51.505981",
         "itemlongitude": "-0.132461",
-        "itemperson": "https://de.wikipedia.org/wiki/Isaac_Newton",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Isaac_Newton",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Isaac_Newton",
         "itemtype": 1
     },
     {
@@ -634,7 +665,8 @@
         "itemlocation": "Paris",
         "itemlatitude": "48.836389",
         "itemlongitude": "2.336389",
-        "itemperson": "https://de.wikipedia.org/wiki/Giovanni_Domenico_Cassini",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Giovanni_Domenico_Cassini",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Giovanni_Domenico_Cassini",
         "itemtype": 1
     },
     {
@@ -648,7 +680,8 @@
         "itemlocation": "Paris",
         "itemlatitude": "48.8574",
         "itemlongitude": "2.337",
-        "itemperson": "https://de.wikipedia.org/wiki/Ole_R%C3%B8mer",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Ole_R%C3%B8mer",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Ole_R%C3%B8mer",
         "itemtype": 1
     },
     {
@@ -660,7 +693,8 @@
         "itemlocation": "Den Haag",
         "itemlatitude": "52.06491",
         "itemlongitude": "4.36254",
-        "itemperson": "https://de.wikipedia.org/wiki/Christiaan_Huygens",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Christiaan_Huygens",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Christiaan_Huygens",
         "itemtype": 1
     },
     {
@@ -670,6 +704,11 @@
         "itemdateyear": "1687",
         "itemcountry": "England",
         "itemlocation": "Cambridge",
+        "itemlocationurl": "https://de.wikipedia.org/wiki/University_of_Cambridge",
+        "itemlatitude": "52.205278",
+        "itemlongitude": "0.117222",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Isaac_Newton, https://de.wikipedia.org/wiki/Edmond_Halley",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Isaac_Newton, https://de.wikipedia.org/wiki/Edmond_Halley",
         "itemtype": 1
     },
     {
@@ -679,6 +718,10 @@
         "itemdateyear": "1698",
         "itemcountry": "Niederlande",
         "itemlocation": "Den Haag",
+        "itemlatitude": "52.06491",
+        "itemlongitude": "4.36254",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Christiaan_Huygens",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Christiaan_Huygens",
         "itemtype": 1
     },
     {
@@ -688,14 +731,24 @@
         "itemdateyear": "1705",
         "itemcountry": "GB",
         "itemlocation": "Oxford",
+        "itemlocationurl": "https://de.wikipedia.org/wiki/University_of_Oxford",
+        "itemlatitude": "51.761111",
+        "itemlongitude": "-1.25333",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Edmond_Halley",
+        "relatedscientists": "https://de.wikipedia.org/wiki/Edmond_Halley",
         "itemtype": 1
     },
     {
-        "itemname": "Maharaja Jai Singh II lässt die fünf Jantar Mantar-Sternwarten bauen",
+        "itemname": "Maharaja Jai Singh II lässt die erste der fünf Jantar Mantar-Sternwarten bauen",
         "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar",
         "itemname2": "Jantar Mantar-Sternwarten",
         "itemdateyear": "1724 – 1734",
         "itemcountry": "Indien",
+        "itemlocation": "Rajasthan, Jaipur",
+        "itemlocationurl": "https://de.wikipedia.org/wiki/Jantar_Mantar",
+        "itemlatitude": "26.924571",
+        "itemlongitude": "75.824257",
+        "relatedpersons": "https://de.wikipedia.org/wiki/Jai_Singh_II.",
         "itemtype": 1
     },
     {

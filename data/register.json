@@ -52,7 +52,7 @@
     {
         "itemname": "Amenemhet baut eine technisch ausgereifte Wasseruhr",
         "itemurl": "https://de.wikipedia.org/wiki/Wasseruhr",
-        "itemname2": "Wasseruhr des Amenemhet"
+        "itemname2": "Wasseruhr-Amenemhet"
     },
     {
         "itemname": "Entstehung der Nazca-Linien",
@@ -72,22 +72,22 @@
     {
         "itemname": "der chinesische Astronom Shi Shen erstellt einen Sternenkatalog",
         "itemurl": "http://en.wikipedia.org/wiki/Shi_Shen",
-        "itemname2": "Sternenkatalog - Shi Shen"
+        "itemname2": "Sternenkatalog-Shi Shen"
     },
     {
         "itemname": "Aristoteles entdeckt das Prinzip der Camera obscura",
         "itemurl": "https://de.wikipedia.org/wiki/Camera_obscura",
-        "itemname2": "Camera obscura - Aristoteles"
+        "itemname2": "Camera obscura-Aristoteles"
     },
     {
         "itemname": "Aristoteles beschreibt das geozentrische Weltbild",
         "itemurl": "https://de.wikipedia.org/wiki/Geozentrisches_Weltbild",
-        "itemname2": "geozentrisches Weltbild - Aristoteles"
+        "itemname2": "geozentrisches Weltbild-Aristoteles"
     },
     {
         "itemname": "Aristarchos von Samos beschreibt das heliozentrische Weltbild",
         "itemurl": "https://de.wikipedia.org/wiki/Aristarchos_von_Samos",
-        "itemname2": "heliozentrisches Weltbild - Aristarchos"
+        "itemname2": "heliozentrisches Weltbild-Aristarchos"
     },
     {
         "itemname": "Bau eines Sonnenobservatoriums durch unbekannte Kultur",
@@ -185,9 +185,9 @@
         "itemname2": "De revolutionibus orbium coelestium"
     },
     {
-        "itemname": "Daniele Barbaro setzt geschliffene Linsen in der Camera obscura ein",
-        "itemurl": "https://de.wikipedia.org/wiki/Camera_obscura",
-        "itemname2": "Linsen - Daniele Barbaro"
+        "itemname": "Daniele Barbaro beschreibt geschliffene Linse in der Camera obscura",
+        "itemurl": "https://de.wikipedia.org/wiki/Daniele_Barbaro",
+        "itemname2": "Daniele Barbaro-Linsen"
     },
     {
         "itemname": "Tycho Brahe und die Supernova von 1572",
@@ -280,7 +280,7 @@
         "itemname2": "Komet - Halley"
     },
     {
-        "itemname": "Maharaja Jai Singh II lässt die fünf Jantar Mantar-Sternwarten bauen",
+        "itemname": "Maharaja Jai Singh II lässt die erste der fünf Jantar Mantar-Sternwarten bauen",
         "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar",
         "itemname2": "Jantar Mantar-Sternwarten"
     },
@@ -3997,6 +3997,11 @@
         "itemname2": "Claes-Ingvar"
     },
     {
+        "itemname": "Lagrange",
+        "itemurl": "https://de.wikipedia.org/wiki/Joseph-Louis_Lagrange",
+        "itemname2": "Joseph-Louis"
+    },
+    {
         "itemname": "Lalande",
         "itemurl": "https://de.wikipedia.org/wiki/J%C3%A9r%C3%B4me_Lalande",
         "itemname2": "Joseph Jérôme Lefrançais de"
@@ -6490,113 +6495,9 @@
         "itemname2": "Fritz"
     },
     {
-        "itemname": "Langley Research Center",
-        "itemurl": "https://de.wikipedia.org/wiki/Langley_Research_Center",
-        "itemname2": "LaRC"
-    },
-    {
-        "itemname": "Fundort des Mechanismus von Antikythera",
-        "itemurl": "https://de.wikipedia.org/wiki/Mechanismus_von_Antikythera"
-    },
-    {
-        "itemname": "Fundort der Himmelsscheibe von Nebra",
-        "itemurl": "https://de.wikipedia.org/wiki/Himmelsscheibe_von_Nebra"
-    },
-    {
-        "itemname": "Liquid Propulsion Sonnes Centre",
-        "itemurl": "http://en.wikipedia.org/wiki/Liquid_Propulsion_Sonnes_Centre",
-        "itemname2": "LPSC"
-    },
-    {
-        "itemname": "Glenn Research Center",
-        "itemurl": "https://de.wikipedia.org/wiki/Glenn_Research_Center",
-        "itemname2": "GRC"
-    },
-    {
-        "itemname": "Marshall Space Flight Center",
-        "itemurl": "https://de.wikipedia.org/wiki/Marshall_Space_Flight_Center",
-        "itemname2": "MSFC"
-    },
-    {
-        "itemname": "Institut für Werkstoff-Forschung",
-        "itemurl": "https://de.wikipedia.org/wiki/Institut_f%C3%BCr_Werkstoff-Forschung"
-    },
-    {
-        "itemname": "David Florida Laboratory",
-        "itemurl": "https://de.wikipedia.org/wiki/David_Florida_Laboratory",
-        "itemname2": "DFL"
-    },
-    {
-        "itemname": "Zentrum für angewandte Raumfahrttechnologie und Mikrogravitation",
-        "itemurl": "https://de.wikipedia.org/wiki/Fallturm_Bremen"
-    },
-    {
-        "itemname": "NASA Astrobiology Institute",
-        "itemurl": "https://de.wikipedia.org/wiki/NASA_Astrobiology_Institute",
-        "itemname2": "NAI"
-    },
-    {
-        "itemname": "Satellitenstation Graz-Lustbühel",
-        "itemurl": "https://de.wikipedia.org/wiki/Satellitenstation_Graz-Lustb%C3%BChel"
-    },
-    {
-        "itemname": "Galileo-Galilei-Haus",
-        "itemurl": "https://de.wikipedia.org/wiki/Galileo_Galilei"
-    },
-    {
-        "itemname": "John H. Chapman Space Center",
-        "itemurl": "https://de.wikipedia.org/wiki/John_H._Chapman_Space_Centre"
-    },
-    {
-        "itemname": "Institute of Space and Astronautical Science",
-        "itemurl": "https://de.wikipedia.org/wiki/Institute_of_Space_and_Astronautical_Science",
-        "itemname2": "ISAS"
-    },
-    {
-        "itemname": "Johannes-Kepler-Haus",
-        "itemurl": "https://de.wikipedia.org/wiki/Keplersche_Gesetze"
-    },
-    {
-        "itemname": "Tsukuba Space Center",
-        "itemurl": "https://de.wikipedia.org/wiki/Tsukuba_Space_Center",
-        "itemname2": "TKSC"
-    },
-    {
-        "itemname": "Kreisgrabenanlage von Goseck",
-        "itemurl": "https://de.wikipedia.org/wiki/Kreisgrabenanlage_von_Goseck"
-    },
-    {
-        "itemname": "Kennedy Space Center Shuttle Landing Facility",
-        "itemurl": "https://de.wikipedia.org/wiki/Shuttle_Landing_Facility",
-        "itemname2": "KSC SLF"
-    },
-    {
-        "itemname": "Department of Applied Mathematics and Theoretical Physics",
-        "itemurl": "http://en.wikipedia.org/wiki/DAMTP"
-    },
-    {
-        "itemname": "European Space Operations Centre",
-        "itemurl": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Raumflugkontrollzentrum",
-        "itemname2": "ESOC"
-    },
-    {
-        "itemname": "Michoud Assembly Facility",
-        "itemurl": "https://de.wikipedia.org/wiki/Michoud_Assembly_Facility",
-        "itemname2": "MAF"
-    },
-    {
-        "itemname": "White Sands Test Facility",
-        "itemurl": "http://en.wikipedia.org/wiki/White_Sands_Test_Facility",
-        "itemname2": "WSTF"
-    },
-    {
-        "itemname": "Heeresversuchsanstalt Peenemünde",
-        "itemurl": "https://de.wikipedia.org/wiki/Heeresversuchsanstalt_Peenem%C3%BCnde",
-        "itemname2": "HVA"
-    },
-    {
-        "itemname": "Palmachim Raketentestgelände",
-        "itemurl": "https://de.wikipedia.org/wiki/Palmachim"
+        "itemname": "Ames Research Center",
+        "itemurl": "https://de.wikipedia.org/wiki/Ames_Research_Center",
+        "itemname2": "ARC"
     },
     {
         "itemname": "Applied Physics Laboratory",
@@ -6604,24 +6505,257 @@
         "itemname2": "APL"
     },
     {
+        "itemname": "Beijing Aerospace Command and Control Center"
+    },
+    {
+        "itemname": "Calar-Alto-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Calar-Alto-Observatorium"
+    },
+    {
+        "itemname": "Canberra Deep Space Communication Complex",
+        "itemurl": "https://de.wikipedia.org/wiki/Canberra_Deep_Space_Communication_Complex",
+        "itemname2": "CDSCC"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station",
+        "itemname2": "CCAFS"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 1",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_1",
+        "itemname2": "CCAFS LC-1"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 10",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_10",
+        "itemname2": "CCAFS LC-10"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 11",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_11",
+        "itemname2": "CCAFS LC-11"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 12",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_12",
+        "itemname2": "CCAFS LC-12"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 13",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_13",
+        "itemname2": "CCAFS LC-13"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 14",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_14",
+        "itemname2": "CCAFS LC-14"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 15",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_15",
+        "itemname2": "CCAFS LC-15"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 16",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_16",
+        "itemname2": "CCAFS LC-16"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 17",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_17",
+        "itemname2": "CCAFS LC-17"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 18",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_18",
+        "itemname2": "CCAFS LC-18"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 19",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_19",
+        "itemname2": "CCAFS LC-19"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 2",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_2",
+        "itemname2": "CCAFS LC-2"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 20",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_20",
+        "itemname2": "CCAFS LC-20"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 21",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_21",
+        "itemname2": "CCAFS LC-21"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 22",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_22",
+        "itemname2": "CCAFS LC-22"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 26",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_26",
+        "itemname2": "CCAFS LC-26"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 29",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_29",
+        "itemname2": "CCAFS LC-29"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 3",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_3",
+        "itemname2": "CCAFS LC-3"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 30",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_30",
+        "itemname2": "CCAFS LC-30"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 31",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_31",
+        "itemname2": "CCAFS LC-31"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 32",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_32",
+        "itemname2": "CCAFS LC-32"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 34",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_34",
+        "itemname2": "CCAFS LC-34"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 36",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_36",
+        "itemname2": "CCAFS LC-36"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 4",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_4",
+        "itemname2": "CCAFS LC-4"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 40",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_40",
+        "itemname2": "CCAFS LC-40"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 41",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_41",
+        "itemname2": "CCAFS LC-41"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 43",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_43",
+        "itemname2": "CCAFS LC-43"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 46",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_46",
+        "itemname2": "CCAFS LC-46"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 47",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_47",
+        "itemname2": "CCAFS LC-47"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 5",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_5",
+        "itemname2": "CCAFS LC-5"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 6",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_6",
+        "itemname2": "CCAFS LC-6"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Launch Complex 9",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_9",
+        "itemname2": "CCAFS LC-9"
+    },
+    {
+        "itemname": "Cape Canaveral Air Force Station Space Launch Complex 37",
+        "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_37",
+        "itemname2": "CCAFS SLC-37"
+    },
+    {
+        "itemname": "Carr-House",
+        "itemurl": "https://de.wikipedia.org/wiki/Carr_House_(Lancashire)"
+    },
+    {
         "itemname": "Centre Spacial Guyanais",
         "itemurl": "https://de.wikipedia.org/wiki/Centre_Spatial_Guyanais",
         "itemname2": "CSG (Centre Spacial Guyanais)"
     },
     {
-        "itemname": "Kosmonautentrainingszentrum J. A. Gagarin",
-        "itemurl": "https://de.wikipedia.org/wiki/Juri-Gagarin-Kosmonautentrainingszentrum",
-        "itemname2": "ZPK"
+        "itemname": "Centro de Lançamento de Alcântara",
+        "itemurl": "https://de.wikipedia.org/wiki/Centro_de_Lan%C3%A7amento_de_Alc%C3%A2ntara",
+        "itemname2": "CLA"
     },
     {
-        "itemname": "Jet Propulsion Laboratory",
-        "itemurl": "https://de.wikipedia.org/wiki/Jet_Propulsion_Laboratory",
-        "itemname2": "JPL"
+        "itemname": "Chanquillo-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Chanquillo"
     },
     {
-        "itemname": "John C. Stennis Space Center",
-        "itemurl": "https://de.wikipedia.org/wiki/John_C._Stennis_Space_Center",
-        "itemname2": "SSC"
+        "itemname": "CSG Ensemble de Lancement Soyouz",
+        "itemurl": "https://de.wikipedia.org/wiki/ELS_(Startrampe)",
+        "itemname2": "CSG ELS"
+    },
+    {
+        "itemname": "CSG Ensembles de Lancement Ariane 1",
+        "itemurl": "https://de.wikipedia.org/wiki/ELV_%28Startrampe%29",
+        "itemname2": "CSG ELA-1"
+    },
+    {
+        "itemname": "CSG Ensembles de Lancement Ariane 2",
+        "itemurl": "https://de.wikipedia.org/wiki/ELA-2",
+        "itemname2": "CSG ELA-2"
+    },
+    {
+        "itemname": "CSG Ensembles de Lancement Ariane 3",
+        "itemurl": "https://de.wikipedia.org/wiki/ELA-3",
+        "itemname2": "CSG ELA-3"
+    },
+    {
+        "itemname": "CSG Ensembles de Lancement Vega",
+        "itemurl": "https://de.wikipedia.org/wiki/ELV_%28Startrampe%29",
+        "itemname2": "CSG ELV"
+    },
+    {
+        "itemname": "CSG l’Ensemble de Lancement Europa",
+        "itemurl": "https://de.wikipedia.org/wiki/Centre_Spatial_Guyanais",
+        "itemname2": "CSG ELE"
+    },
+    {
+        "itemname": "David Florida Laboratory",
+        "itemurl": "https://de.wikipedia.org/wiki/David_Florida_Laboratory",
+        "itemname2": "DFL"
+    },
+    {
+        "itemname": "Deep Space Network",
+        "itemurl": "https://de.wikipedia.org/wiki/Deep_Space_Network",
+        "itemname2": "DSN"
+    },
+    {
+        "itemname": "Department of Applied Mathematics and Theoretical Physics",
+        "itemurl": "http://en.wikipedia.org/wiki/DAMTP"
+    },
+    {
+        "itemname": "Deutsches Raumfahrt-Kontrollzentrum",
+        "itemurl": "https://de.wikipedia.org/wiki/Deutsches_Raumfahrt-Kontrollzentrum",
+        "itemname2": "GSOC"
+    },
+    {
+        "itemname": "Dombarovsky",
+        "itemurl": "https://de.wikipedia.org/wiki/Kosmodrom_Jasny"
     },
     {
         "itemname": "Dryden Research Flight Center",
@@ -6629,24 +6763,59 @@
         "itemname2": "DFRC"
     },
     {
-        "itemname": "Vandenberg Air Force Base",
-        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_Air_Force_Base",
-        "itemname2": "VAFB"
+        "itemname": "ESA tracking stations",
+        "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
+        "itemname2": "ESTRACK"
     },
     {
-        "itemname": "Goddard Space Flight Center",
-        "itemurl": "https://de.wikipedia.org/wiki/Goddard_Space_Flight_Center",
-        "itemname2": "GSFC"
+        "itemname": "ESTRACK Ground station Argentienien, Malargüe",
+        "itemurl": "http://en.wikipedia.org/wiki/Malarg%C3%BCe_Station",
+        "itemname2": "ESTRACK"
     },
     {
-        "itemname": "Noshiro Testing Center",
-        "itemurl": "http://en.wikipedia.org/wiki/Noshiro_Testing_Center",
-        "itemname2": "NTC"
+        "itemname": "ESTRACK Ground station Australien, New Norcia",
+        "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
+        "itemname2": "ESTRACK"
     },
     {
-        "itemname": "European Space Astronomy Centre",
-        "itemurl": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Weltraumastronomiezentrum",
-        "itemname2": "ESAC"
+        "itemname": "ESTRACK Ground station Australien, Perth",
+        "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
+        "itemname2": "ESTRACK"
+    },
+    {
+        "itemname": "ESTRACK Ground station Belgien, Redu",
+        "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
+        "itemname2": "ESTRACK"
+    },
+    {
+        "itemname": "ESTRACK Ground station Französisch Guyana, Kourou",
+        "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
+        "itemname2": "ESTRACK"
+    },
+    {
+        "itemname": "ESTRACK Ground station Portugal, Santa Maria",
+        "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
+        "itemname2": "ESTRACK"
+    },
+    {
+        "itemname": "ESTRACK Ground station Schweden, Kiruna",
+        "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
+        "itemname2": "ESTRACK"
+    },
+    {
+        "itemname": "ESTRACK Ground station Spanien, Cerebros",
+        "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
+        "itemname2": "ESTRACK"
+    },
+    {
+        "itemname": "ESTRACK Ground station Spanien, Maspalomas",
+        "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
+        "itemname2": "ESTRACK"
+    },
+    {
+        "itemname": "ESTRACK Ground station Spanien, Villafranca del Castillo",
+        "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
+        "itemname2": "ESTRACK"
     },
     {
         "itemname": "European Astronaut Centre",
@@ -6654,14 +6823,19 @@
         "itemname2": "EAC"
     },
     {
-        "itemname": "Ames Research Center",
-        "itemurl": "https://de.wikipedia.org/wiki/Ames_Research_Center",
-        "itemname2": "ARC"
+        "itemname": "European Space and Sounding Rocket Range",
+        "itemurl": "https://de.wikipedia.org/wiki/Esrange",
+        "itemname2": "Esrange"
     },
     {
-        "itemname": "Lyndon B. Johnson Space Center",
-        "itemurl": "https://de.wikipedia.org/wiki/Lyndon_B._Johnson_Space_Center",
-        "itemname2": "JSC"
+        "itemname": "European Space Astronomy Centre",
+        "itemurl": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Weltraumastronomiezentrum",
+        "itemname2": "ESAC"
+    },
+    {
+        "itemname": "European Space Operations Centre",
+        "itemurl": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Raumflugkontrollzentrum",
+        "itemname2": "ESOC"
     },
     {
         "itemname": "European Space Research and Technology Centre",
@@ -6674,16 +6848,214 @@
         "itemname2": "ESRIN"
     },
     {
-        "itemname": "Carr-House",
-        "itemurl": "https://de.wikipedia.org/wiki/Jeremia_Horrocks"
+        "itemname": "Fundort der Himmelsscheibe von Nebra",
+        "itemurl": "https://de.wikipedia.org/wiki/Himmelsscheibe_von_Nebra"
+    },
+    {
+        "itemname": "Fundort des Ishango-Knochens",
+        "itemurl": "https://de.wikipedia.org/wiki/Ishango-Knochen"
+    },
+    {
+        "itemname": "Fundort des Mechanismus von Antikythera",
+        "itemurl": "https://de.wikipedia.org/wiki/Mechanismus_von_Antikythera"
+    },
+    {
+        "itemname": "Galileo-Galilei-Haus",
+        "itemurl": "https://de.wikipedia.org/wiki/Galileo_Galilei"
+    },
+    {
+        "itemname": "Gaocheng-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Gaocheng-Observatorium"
+    },
+    {
+        "itemname": "Glenn Research Center",
+        "itemurl": "https://de.wikipedia.org/wiki/Glenn_Research_Center",
+        "itemname2": "GRC"
+    },
+    {
+        "itemname": "Goddard Space Flight Center",
+        "itemurl": "https://de.wikipedia.org/wiki/Goddard_Space_Flight_Center",
+        "itemname2": "GSFC"
+    },
+    {
+        "itemname": "Goldstone Deep Space Communications Complex",
+        "itemurl": "https://de.wikipedia.org/wiki/Goldstone_Deep_Space_Communications_Complex"
+    },
+    {
+        "itemname": "Gurkani Zij, Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Ulug_Begs_Observatorium"
+    },
+    {
+        "itemname": "Harvard-College-Observatory",
+        "itemurl": "https://de.wikipedia.org/wiki/Harvard_College_Observatory"
+    },
+    {
+        "itemname": "Heeresversuchsanstalt Peenemünde",
+        "itemurl": "https://de.wikipedia.org/wiki/Heeresversuchsanstalt_Peenem%C3%BCnde",
+        "itemname2": "HVA"
+    },
+    {
+        "itemname": "Herschel Museum of Astronomy",
+        "itemurl": "https://de.wikipedia.org/wiki/Wilhelm_Herschel"
+    },
+    {
+        "itemname": "Institut für Werkstoff-Forschung",
+        "itemurl": "https://de.wikipedia.org/wiki/Institut_f%C3%BCr_Werkstoff-Forschung"
+    },
+    {
+        "itemname": "Institute of Space and Astronautical Science",
+        "itemurl": "https://de.wikipedia.org/wiki/Institute_of_Space_and_Astronautical_Science",
+        "itemname2": "ISAS"
+    },
+    {
+        "itemname": "Jantar Mantar in Delhi",
+        "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar"
+    },
+    {
+        "itemname": "Jantar Mantar in Jaipur",
+        "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar"
+    },
+    {
+        "itemname": "Jantar Mantar in Mathura",
+        "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar"
+    },
+    {
+        "itemname": "Jantar Mantar in Ujjain",
+        "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar"
+    },
+    {
+        "itemname": "Jantar Mantar in Varanasi",
+        "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar"
+    },
+    {
+        "itemname": "Jet Propulsion Laboratory",
+        "itemurl": "https://de.wikipedia.org/wiki/Jet_Propulsion_Laboratory",
+        "itemname2": "JPL"
+    },
+    {
+        "itemname": "Johannes-Kepler-Haus",
+        "itemurl": "https://de.wikipedia.org/wiki/Keplersche_Gesetze"
+    },
+    {
+        "itemname": "John C. Stennis Space Center",
+        "itemurl": "https://de.wikipedia.org/wiki/John_C._Stennis_Space_Center",
+        "itemname2": "SSC"
+    },
+    {
+        "itemname": "John H. Chapman Space Center",
+        "itemurl": "https://de.wikipedia.org/wiki/John_H._Chapman_Space_Centre"
+    },
+    {
+        "itemname": "John H. Chapman Space Centre",
+        "itemurl": "https://de.wikipedia.org/wiki/John_H._Chapman_Space_Centre"
     },
     {
         "itemname": "Kaifeng",
         "itemurl": "https://de.wikipedia.org/wiki/Rakete"
     },
     {
+        "itemname": "Kapustin Jar",
+        "itemurl": "https://de.wikipedia.org/wiki/Kapustin_Jar"
+    },
+    {
+        "itemname": "Kennedy Space Center",
+        "itemurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center",
+        "itemname2": "KSC"
+    },
+    {
+        "itemname": "Kennedy Space Center Launch Complex 39",
+        "itemurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
+        "itemname2": "KSC LC 39"
+    },
+    {
+        "itemname": "Kennedy Space Center Shuttle Landing Facility",
+        "itemurl": "https://de.wikipedia.org/wiki/Shuttle_Landing_Facility",
+        "itemname2": "KSC SLF"
+    },
+    {
+        "itemname": "Kosmodrom Baikonur",
+        "itemurl": "https://de.wikipedia.org/wiki/Baikonur"
+    },
+    {
+        "itemname": "Kosmodrom Jiuquan",
+        "itemurl": "https://de.wikipedia.org/wiki/Kosmodrom_Jiuquan"
+    },
+    {
+        "itemname": "Kosmodrom Swobodny",
+        "itemurl": "https://de.wikipedia.org/wiki/Swobodny_(Startplatzplatz)"
+    },
+    {
+        "itemname": "Kosmodrom Wenchang",
+        "itemurl": "https://de.wikipedia.org/wiki/Kosmodrom_Wenchang"
+    },
+    {
+        "itemname": "Kosmodrom Wostotschny",
+        "itemurl": "https://de.wikipedia.org/wiki/Kosmodrom_Wostotschny"
+    },
+    {
+        "itemname": "Kosmodrom Wostotschny LC-1",
+        "itemurl": "https://de.wikipedia.org/wiki/Kosmodrom_Wostotschny"
+    },
+    {
+        "itemname": "Kosmodrom Wostotschny LC-2",
+        "itemurl": "https://de.wikipedia.org/wiki/Kosmodrom_Wostotschny"
+    },
+    {
+        "itemname": "Kosmodrom Xichang",
+        "itemurl": "https://de.wikipedia.org/wiki/Kosmodrom_Xichang"
+    },
+    {
+        "itemname": "KosmodromPlessezk",
+        "itemurl": "https://de.wikipedia.org/wiki/Plessezk"
+    },
+    {
+        "itemname": "Kosmonautentrainingszentrum J. A. Gagarin",
+        "itemurl": "https://de.wikipedia.org/wiki/Juri-Gagarin-Kosmonautentrainingszentrum",
+        "itemname2": "ZPK"
+    },
+    {
+        "itemname": "Kreisgrabenanlage von Goseck",
+        "itemurl": "https://de.wikipedia.org/wiki/Kreisgrabenanlage_von_Goseck"
+    },
+    {
+        "itemname": "La-Silla-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/La-Silla-Observatorium"
+    },
+    {
+        "itemname": "Langley Research Center",
+        "itemurl": "https://de.wikipedia.org/wiki/Langley_Research_Center",
+        "itemname2": "LaRC"
+    },
+    {
         "itemname": "Lascaux-Höhlen",
         "itemurl": "https://de.wikipedia.org/wiki/H%C3%B6hle_von_Lascaux"
+    },
+    {
+        "itemname": "Lick-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Lick-Observatorium"
+    },
+    {
+        "itemname": "Liquid Propulsion Sonnes Centre",
+        "itemurl": "http://en.wikipedia.org/wiki/Liquid_Propulsion_Sonnes_Centre",
+        "itemname2": "LPSC"
+    },
+    {
+        "itemname": "Lyndon B. Johnson Space Center",
+        "itemurl": "https://de.wikipedia.org/wiki/Lyndon_B._Johnson_Space_Center",
+        "itemname2": "JSC"
+    },
+    {
+        "itemname": "Madrid Deep Space Communications Complex",
+        "itemurl": "https://de.wikipedia.org/wiki/Madrid_Deep_Space_Communications_Complex"
+    },
+    {
+        "itemname": "Marshall Space Flight Center",
+        "itemurl": "https://de.wikipedia.org/wiki/Marshall_Space_Flight_Center",
+        "itemname2": "MSFC"
+    },
+    {
+        "itemname": "Mauna-Kea-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Mauna-Kea-Observatorium"
     },
     {
         "itemname": "Megalithanlage von Mnajdra",
@@ -6698,6 +7070,24 @@
         "itemurl": "https://de.wikipedia.org/wiki/Stonehenge"
     },
     {
+        "itemname": "Michoud Assembly Facility",
+        "itemurl": "https://de.wikipedia.org/wiki/Michoud_Assembly_Facility",
+        "itemname2": "MAF"
+    },
+    {
+        "itemname": "Mojave Air & Space Port",
+        "itemurl": "https://de.wikipedia.org/wiki/Mojave_Air_%26_Space_Port"
+    },
+    {
+        "itemname": "Mount-Stromlo-Observatory",
+        "itemurl": "https://de.wikipedia.org/wiki/Mount-Stromlo-Observatorium"
+    },
+    {
+        "itemname": "NASA Astrobiology Institute",
+        "itemurl": "https://de.wikipedia.org/wiki/NASA_Astrobiology_Institute",
+        "itemname2": "NAI"
+    },
+    {
         "itemname": "NASA Institute for Advanced Concepts",
         "itemurl": "https://de.wikipedia.org/wiki/NASA_Institute_for_Advanced_Concepts",
         "itemname2": "NIAC"
@@ -6705,6 +7095,62 @@
     {
         "itemname": "Nazca-Linien",
         "itemurl": "https://de.wikipedia.org/wiki/Nazca-Linien"
+    },
+    {
+        "itemname": "Noshiro Testing Center",
+        "itemurl": "http://en.wikipedia.org/wiki/Noshiro_Testing_Center",
+        "itemname2": "NTC"
+    },
+    {
+        "itemname": "Observatorio del Teide",
+        "itemurl": "https://de.wikipedia.org/wiki/Observatorio_del_Teide"
+    },
+    {
+        "itemname": "Observatorum von Cheomseongdae",
+        "itemurl": "https://de.wikipedia.org/wiki/Cheomseongdae"
+    },
+    {
+        "itemname": "Observatory House",
+        "itemurl": "http://en.wikipedia.org/wiki/Observatory_House"
+    },
+    {
+        "itemname": "Palmachim Raketentestgelände",
+        "itemurl": "https://de.wikipedia.org/wiki/Palmachim"
+    },
+    {
+        "itemname": "Paranal-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Paranal-Observatorium"
+    },
+    {
+        "itemname": "Parkes-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Parkes-Observatorium"
+    },
+    {
+        "itemname": "Rasad-e Khan",
+        "itemurl": "https://de.wikipedia.org/wiki/Maragha"
+    },
+    {
+        "itemname": "Roque-de-los-Muchachos-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Roque-de-los-Muchachos-Observatorium",
+        "itemname2": "ORM"
+    },
+    {
+        "itemname": "Roskosmos-Kontrollzentrum",
+        "itemurl": "https://de.wikipedia.org/wiki/Koroljow"
+    },
+    {
+        "itemname": "San Marco Equatorial Range",
+        "itemurl": "https://de.wikipedia.org/wiki/San-Marco-Plattform",
+        "itemname2": "SMER"
+    },
+    {
+        "itemname": "Satellitenstation Graz-Lustbühel",
+        "itemurl": "https://de.wikipedia.org/wiki/Satellitenstation_Graz-Lustb%C3%BChel"
+    },
+    {
+        "itemname": "Satish Dhawan Space Centre",
+        "itemurl": "https://de.wikipedia.org/wiki/Satish_Dhawan_Space_Centre",
+        "itemname2": "SHAR"
     },
     {
         "itemname": "Search for Extraterrestrial Intelligence Institute",
@@ -6721,12 +7167,247 @@
         "itemname2": "SDL"
     },
     {
+        "itemname": "Spaceport America",
+        "itemurl": "https://de.wikipedia.org/wiki/Spaceport_America"
+    },
+    {
         "itemname": "St Laurence's Church",
         "itemurl": "https://de.wikipedia.org/wiki/Slough"
     },
     {
+        "itemname": "Tanegashima Space Center",
+        "itemurl": "https://de.wikipedia.org/wiki/Tanegashima_Space_Center",
+        "itemname2": "TNSC"
+    },
+    {
+        "itemname": "Titow-Bodenstation",
+        "itemurl": "https://de.wikipedia.org/wiki/Krasnosnamensk"
+    },
+    {
+        "itemname": "Tsukuba Space Center",
+        "itemurl": "https://de.wikipedia.org/wiki/Tsukuba_Space_Center",
+        "itemname2": "TKSC"
+    },
+    {
+        "itemname": "Tsukuba Space Center",
+        "itemurl": "https://de.wikipedia.org/wiki/Tsukuba_Space_Center",
+        "itemname2": "TKSC"
+    },
+    {
         "itemname": "Tunguska-Ereignis",
         "itemurl": "https://de.wikipedia.org/wiki/Tunguska-Ereignis"
+    },
+    {
+        "itemname": "Uchinoura Space Center",
+        "itemurl": "https://de.wikipedia.org/wiki/Uchinoura_Space_Center",
+        "itemname2": "USC"
+    },
+    {
+        "itemname": "United States Naval Observatory",
+        "itemurl": "https://de.wikipedia.org/wiki/United_States_Naval_Observatory",
+        "itemname2": "USNO"
+    },
+    {
+        "itemname": "Uraniborg, Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Uraniborg"
+    },
+    {
+        "itemname": "Usuda Deep Space Center",
+        "itemurl": "https://de.wikipedia.org/wiki/Usuda_Deep_Space_Center",
+        "itemname2": "UDSC"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_Air_Force_Base",
+        "itemname2": "VAFB"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Bomarc Complex",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Bomarc_Complex"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Launch Complex 395",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Complex_395",
+        "itemname2": "VAFB LC-395"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Launch Complex 4300",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Complex_4300",
+        "itemname2": "VAFB LC-4300"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Launch Complex 576",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Complex_576",
+        "itemname2": "VAFB LC-576"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Launch Complex A",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Complex_A",
+        "itemname2": "VAFB LC-A (früher auch PALC-A)"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Launch Complex B",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Complex_B",
+        "itemname2": "VAFB LC-B (früher auch PALC-B)"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Launch Complex Operational Suitability Test Facility",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Operational_Suitability_Test_Facility",
+        "itemname2": "VAFB OSTF"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Launch Emplacement 8",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Emplacement_8",
+        "itemname2": "VAFB LE-8 (früher auch 75-2-8)"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Launch Facility 02",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_02",
+        "itemname2": "VAFB LF-02"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Launch Facility 03",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_03",
+        "itemname2": "VAFB LF-03"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Launch Facility 04",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_04",
+        "itemname2": "VAFB LF-04"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Launch Facility 05",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_05",
+        "itemname2": "VAFB LF-05"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Launch Facility 06",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_06",
+        "itemname2": "VAFB LF-06"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Launch Facility 07",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_07",
+        "itemname2": "VAFB LF-07"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Launch Facility 08",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_08",
+        "itemname2": "VAFB LF-08"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Launch Facility 09",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_09",
+        "itemname2": "VAFB LF-09"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Launch Facility 10",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_10",
+        "itemname2": "VAFB LF-10"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Launch Facility 21",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_21",
+        "itemname2": "VAFB LF-21"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Launch Facility 22",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_22",
+        "itemname2": "VAFB LF-22"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Launch Facility 23",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_23",
+        "itemname2": "VAFB LF-23"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Launch Facility 24",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_24",
+        "itemname2": "VAFB LF-24"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Launch Facility 25",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_25",
+        "itemname2": "VAFB LF-25"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Launch Facility 26",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_26",
+        "itemname2": "VAFB LF-26"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Probe Launch Complex C",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Probe_Launch_Complex_C",
+        "itemname2": "VAFB PLC-C"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Silo Launch Test Facility",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Silo_Launch_Test_Facility",
+        "itemname2": "VAFB SLTF"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Space Launch Complex 1",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_1",
+        "itemname2": "VAFB Space Launch Complex 1 (Space Launch Complex 1)"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Space Launch Complex 10",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_10",
+        "itemname2": "VAFB Space Launch Complex 10 (Space Launch Complex 10)"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Space Launch Complex 2",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_2",
+        "itemname2": "VAFB Space Launch Complex 2 (Space Launch Complex 2)"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Space Launch Complex 3",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_3",
+        "itemname2": "VAFB Space Launch Complex 3 (Space Launch Complex 3)"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Space Launch Complex 4",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_4",
+        "itemname2": "VAFB Space Launch Complex 4 (Space Launch Complex 4)"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Space Launch Complex 5",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_5",
+        "itemname2": "VAFB Space Launch Complex 5 (Space Launch Complex 5)"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Space Launch Complex 6",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_6",
+        "itemname2": "VAFB Space Launch Complex 6 (Space Launch Complex 6)"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Space Launch Complex 8",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_8",
+        "itemname2": "VAFB Space Launch Complex 8 (Space Launch Complex 8)"
+    },
+    {
+        "itemname": "Vandenberg Air Force Base Test Pad 01",
+        "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_TP-01",
+        "itemname2": "VAFB TP-01"
+    },
+    {
+        "itemname": "Wallops Flight Facility",
+        "itemurl": "https://de.wikipedia.org/wiki/Wallops_Flight_Facility",
+        "itemname2": "WFF"
+    },
+    {
+        "itemname": "White Sands Test Facility",
+        "itemurl": "http://en.wikipedia.org/wiki/White_Sands_Test_Facility",
+        "itemname2": "WSTF"
+    },
+    {
+        "itemname": "Woomera Range Complex",
+        "itemurl": "https://de.wikipedia.org/wiki/Woomera_Prohibited_Area",
+        "itemname2": "WRC"
+    },
+    {
+        "itemname": "Zentrum für angewandte Raumfahrttechnologie und Mikrogravitation",
+        "itemurl": "https://de.wikipedia.org/wiki/Fallturm_Bremen"
     },
     {
         "itemname": "Canberra Deep Space Communication Complex",
@@ -6842,86 +7523,32 @@
         "itemurl": "https://de.wikipedia.org/wiki/John_H._Chapman_Space_Centre"
     },
     {
-        "itemname": "Observatorum von Cheomseongdae",
-        "itemurl": "https://de.wikipedia.org/wiki/Cheomseongdae"
-    },
-    {
-        "itemname": "Gaocheng-Observatorium",
-        "itemurl": "https://de.wikipedia.org/wiki/Gaocheng-Observatorium"
-    },
-    {
-        "itemname": "Rasad-e Khan",
-        "itemurl": "https://de.wikipedia.org/wiki/Maragha"
-    },
-    {
         "itemname": "Calar-Alto-Observatorium",
         "itemurl": "https://de.wikipedia.org/wiki/Calar-Alto-Observatorium"
+    },
+    {
+        "itemname": "Carr-House",
+        "itemurl": "https://de.wikipedia.org/wiki/Carr_House_(Lancashire)"
     },
     {
         "itemname": "Chanquillo-Observatorium",
         "itemurl": "https://de.wikipedia.org/wiki/Chanquillo"
     },
     {
-        "itemname": "Harvard-College-Observatory",
-        "itemurl": "https://de.wikipedia.org/wiki/Harvard_College_Observatory"
-    },
-    {
-        "itemname": "United States Naval Observatory",
-        "itemurl": "https://de.wikipedia.org/wiki/United_States_Naval_Observatory",
-        "itemname2": "USNO"
-    },
-    {
-        "itemname": "Uraniborg, Observatorium",
-        "itemurl": "https://de.wikipedia.org/wiki/Uraniborg"
-    },
-    {
-        "itemname": "Mauna-Kea-Observatorium",
-        "itemurl": "https://de.wikipedia.org/wiki/Mauna-Kea-Observatorium"
-    },
-    {
-        "itemname": "La-Silla-Observatorium",
-        "itemurl": "https://de.wikipedia.org/wiki/La-Silla-Observatorium"
-    },
-    {
-        "itemname": "Lick-Observatorium",
-        "itemurl": "https://de.wikipedia.org/wiki/Lick-Observatorium"
-    },
-    {
-        "itemname": "Mount-Stromlo-Observatory",
-        "itemurl": "https://de.wikipedia.org/wiki/Mount-Stromlo-Observatorium"
-    },
-    {
-        "itemname": "Observatorio del Teide",
-        "itemurl": "https://de.wikipedia.org/wiki/Observatorio_del_Teide"
-    },
-    {
-        "itemname": "Paranal-Observatorium",
-        "itemurl": "https://de.wikipedia.org/wiki/Paranal-Observatorium"
-    },
-    {
-        "itemname": "Roque-de-los-Muchachos-Observatorium",
-        "itemurl": "https://de.wikipedia.org/wiki/Roque-de-los-Muchachos-Observatorium",
-        "itemname2": "ORM"
+        "itemname": "Gaocheng-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Gaocheng-Observatorium"
     },
     {
         "itemname": "Gurkani Zij, Observatorium",
         "itemurl": "https://de.wikipedia.org/wiki/Ulug_Begs_Observatorium"
     },
     {
-        "itemname": "Parkes-Observatorium",
-        "itemurl": "https://de.wikipedia.org/wiki/Parkes-Observatorium"
-    },
-    {
-        "itemname": "Observatory House",
-        "itemurl": "http://en.wikipedia.org/wiki/Observatory_House"
+        "itemname": "Harvard-College-Observatory",
+        "itemurl": "https://de.wikipedia.org/wiki/Harvard_College_Observatory"
     },
     {
         "itemname": "Herschel Museum of Astronomy",
         "itemurl": "https://de.wikipedia.org/wiki/Wilhelm_Herschel"
-    },
-    {
-        "itemname": "Carr-House",
-        "itemurl": "https://de.wikipedia.org/wiki/Carr_House_(Lancashire)"
     },
     {
         "itemname": "Jantar Mantar in Delhi",
@@ -6929,6 +7556,10 @@
     },
     {
         "itemname": "Jantar Mantar in Jaipur",
+        "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar"
+    },
+    {
+        "itemname": "Jantar Mantar in Mathura",
         "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar"
     },
     {
@@ -6940,8 +7571,58 @@
         "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar"
     },
     {
-        "itemname": "Jantar Mantar in Mathura",
-        "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar"
+        "itemname": "La-Silla-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/La-Silla-Observatorium"
+    },
+    {
+        "itemname": "Lick-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Lick-Observatorium"
+    },
+    {
+        "itemname": "Mauna-Kea-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Mauna-Kea-Observatorium"
+    },
+    {
+        "itemname": "Mount-Stromlo-Observatory",
+        "itemurl": "https://de.wikipedia.org/wiki/Mount-Stromlo-Observatorium"
+    },
+    {
+        "itemname": "Observatorio del Teide",
+        "itemurl": "https://de.wikipedia.org/wiki/Observatorio_del_Teide"
+    },
+    {
+        "itemname": "Observatorum von Cheomseongdae",
+        "itemurl": "https://de.wikipedia.org/wiki/Cheomseongdae"
+    },
+    {
+        "itemname": "Observatory House",
+        "itemurl": "http://en.wikipedia.org/wiki/Observatory_House"
+    },
+    {
+        "itemname": "Paranal-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Paranal-Observatorium"
+    },
+    {
+        "itemname": "Parkes-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Parkes-Observatorium"
+    },
+    {
+        "itemname": "Rasad-e Khan",
+        "itemurl": "https://de.wikipedia.org/wiki/Maragha"
+    },
+    {
+        "itemname": "Roque-de-los-Muchachos-Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Roque-de-los-Muchachos-Observatorium",
+        "itemname2": "ORM"
+    },
+    {
+        "itemname": "United States Naval Observatory",
+        "itemurl": "https://de.wikipedia.org/wiki/United_States_Naval_Observatory",
+        "itemname2": "USNO"
+    },
+    {
+        "itemname": "Uraniborg, Observatorium",
+        "itemurl": "https://de.wikipedia.org/wiki/Uraniborg"
     },
     {
         "itemname": "#REF!",

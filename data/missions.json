@@ -40,7 +40,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Laika (Hündin)"
+        "relatedastronauts": "https://de.wikipedia.org/wiki/Laika"
     },
     {
         "itemname": "Explorer 1",
@@ -560,7 +560,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Wallops_Flight_Facility",
         "itemlatitude": "37.850205",
         "itemlongitude": "-75.471121",
-        "itemperson": "Sam (Rhesusaffe)"
+        "relatedastronauts": "Sam (Rhesusaffe)"
     },
     {
         "itemname": "Mercury-Little-Joe 1B",
@@ -581,7 +581,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Wallops_Flight_Facility",
         "itemlatitude": "37.850205",
         "itemlongitude": "-75.471121",
-        "itemperson": "Miss Sam (Rhesusäffin)"
+        "relatedastronauts": "Miss Sam (Rhesusäffin)"
     },
     {
         "itemname": "Pioneer 5",
@@ -745,7 +745,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Strelka (Hündin), Belka (Hündin)"
+        "relatedastronauts": "Strelka (Hündin), Belka (Hündin)"
     },
     {
         "itemname": "Pioneer P-30",
@@ -870,7 +870,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Pchelka (Hündin), Mushka (Hündin)"
+        "relatedastronauts": "Pchelka (Hündin), Mushka (Hündin)"
     },
     {
         "itemname": "Pioneer P-31",
@@ -932,7 +932,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_5",
         "itemlatitude": "28.439444",
         "itemlongitude": "-80.573333",
-        "itemperson": "Ham (Schimpanse)"
+        "relatedastronauts": "Ham (Schimpanse)"
     },
     {
         "itemname": "Sputnik 7",
@@ -1016,7 +1016,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Chernushka (Hund)"
+        "relatedastronauts": "Chernushka (Hund)"
     },
     {
         "itemname": "Mercury-Little-Joe 5A",
@@ -1078,7 +1078,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Swjosdotschka (Hund)"
+        "relatedastronauts": "Swjosdotschka (Hund)"
     },
     {
         "itemname": "Wostok 1",
@@ -1100,7 +1100,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Juri Alexejewitsch Gagarin"
+        "relatedastronauts": "Juri Alexejewitsch Gagarin"
     },
     {
         "itemname": "Mercury-Atlas 3",
@@ -1183,7 +1183,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_5",
         "itemlatitude": "28.439444",
         "itemlongitude": "-80.573333",
-        "itemperson": "Alan Bartlett Shepard"
+        "relatedastronauts": "Alan Bartlett Shepard"
     },
     {
         "itemname": "Mercury-Redstone 4",
@@ -1204,7 +1204,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_5",
         "itemlatitude": "28.439444",
         "itemlongitude": "-80.573333",
-        "itemperson": "Virgil Ivan Grissom"
+        "relatedastronauts": "Virgil Ivan Grissom"
     },
     {
         "itemname": "Wostok 2",
@@ -1226,7 +1226,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "German Stepanowitsch Titow"
+        "relatedastronauts": "German Stepanowitsch Titow"
     },
     {
         "itemname": "Ranger 1",
@@ -1309,7 +1309,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_14",
         "itemlatitude": "28.49",
         "itemlongitude": "0.5469",
-        "itemperson": "Enos (Schimpanse)"
+        "relatedastronauts": "Enos (Schimpanse)"
     },
     {
         "itemname": "Ranger 3",
@@ -1348,7 +1348,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_14",
         "itemlatitude": "28.49",
         "itemlongitude": "0.5469",
-        "itemperson": "John Herschel Glenn"
+        "relatedastronauts": "John Herschel Glenn"
     },
     {
         "itemname": "Kosmos 1",
@@ -1490,7 +1490,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_14",
         "itemlatitude": "28.49",
         "itemlongitude": "0.5469",
-        "itemperson": "Malcolm Scott Carpenter"
+        "relatedastronauts": "Malcolm Scott Carpenter"
     },
     {
         "itemname": "Mariner 1",
@@ -1533,7 +1533,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Andrijan Grigorjewitsch Nikolajew"
+        "relatedastronauts": "Andrijan Grigorjewitsch Nikolajew"
     },
     {
         "itemname": "Wostok 4",
@@ -1555,7 +1555,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Pawel Romanowitsch Popowitsch"
+        "relatedastronauts": "Pawel Romanowitsch Popowitsch"
     },
     {
         "itemname": "Venera 2MV-1 Nr.1",
@@ -1677,7 +1677,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_14",
         "itemlatitude": "28.49",
         "itemlongitude": "0.5469",
-        "itemperson": "Walter Marty Schirra"
+        "relatedastronauts": "Walter Marty Schirra"
     },
     {
         "itemname": "Ranger 5",
@@ -1839,7 +1839,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_14",
         "itemlatitude": "28.49",
         "itemlongitude": "0.5469",
-        "itemperson": "Gordon Cooper"
+        "relatedastronauts": "Gordon Cooper"
     },
     {
         "itemname": "Wostok 5",
@@ -1861,7 +1861,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Waleri Fjodorowitsch Bykowski"
+        "relatedastronauts": "Waleri Fjodorowitsch Bykowski"
     },
     {
         "itemname": "Wostok 6",
@@ -1883,7 +1883,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Walentina Wladimirowna Tereschkowa"
+        "relatedastronauts": "Walentina Wladimirowna Tereschkowa"
     },
     {
         "itemname": "X-15",
@@ -1902,7 +1902,7 @@
         "itemdestination": "suborbital",
         "itemlocation": "B-52",
         "itemlocationurl": "https://de.wikipedia.org/wiki/Boeing_B-52",
-        "itemperson": "Joseph Albert Walker"
+        "relatedastronauts": "Joseph Albert Walker"
     },
     {
         "itemname": "X-15",
@@ -1921,7 +1921,7 @@
         "itemdestination": "suborbital",
         "itemlocation": "B-52",
         "itemlocationurl": "https://de.wikipedia.org/wiki/Boeing_B-52",
-        "itemperson": "Joseph Albert Walker"
+        "relatedastronauts": "Joseph Albert Walker"
     },
     {
         "itemname": "Kosmos 21",
@@ -2128,9 +2128,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Wladimir Michailowitsch Komarow",
-        "itemperson2": "Boris Borissowitsch Jegorow",
-        "itemperson3": "Konstantin Feoktistow"
+        "relatedastronauts": "Wladimir Michailowitsch Komarow, Boris Borissowitsch Jegorow, Konstantin Feoktistow"
     },
     {
         "itemname": "Mariner 3",
@@ -2294,8 +2292,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Pawel Iwanowitsch Beljajew",
-        "itemperson2": "Alexei Archipowitsch Leonow"
+        "relatedastronauts": "Pawel Iwanowitsch Beljajew, Alexei Archipowitsch Leonow"
     },
     {
         "itemname": "Ranger 9",
@@ -2338,8 +2335,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_19",
         "itemlatitude": "28.5067",
         "itemlongitude": "-80.5546",
-        "itemperson": "Virgil Ivan Grissom",
-        "itemperson2": "John Watts Young"
+        "relatedastronauts": "Virgil Ivan Grissom, John Watts Young"
     },
     {
         "itemname": "Luna 1965A",
@@ -2403,8 +2399,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_19",
         "itemlatitude": "28.5067",
         "itemlongitude": "-80.5546",
-        "itemperson": "James Alton McDivitt",
-        "itemperson2": "Edward Higgins White"
+        "relatedastronauts": "James Alton McDivitt, Edward Higgins White"
     },
     {
         "itemname": "Luna 6",
@@ -2462,8 +2457,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_19",
         "itemlatitude": "28.5067",
         "itemlongitude": "-80.5546",
-        "itemperson": "Leroy Gordon Cooper",
-        "itemperson2": "Charles Conrad"
+        "relatedastronauts": "Leroy Gordon Cooper, Charles Conrad"
     },
     {
         "itemname": "Luna 7",
@@ -2606,8 +2600,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_19",
         "itemlatitude": "28.5067",
         "itemlongitude": "-80.5546",
-        "itemperson": "Frank Frederick Borman",
-        "itemperson2": "James Arthur Lovell"
+        "relatedastronauts": "Frank Frederick Borman, James Arthur Lovell"
     },
     {
         "itemname": "Gemini 6",
@@ -2629,8 +2622,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_19",
         "itemlatitude": "28.5067",
         "itemlongitude": "-80.5546",
-        "itemperson": "Walter Marty Schirra",
-        "itemperson2": "Thomas Patten Stafford"
+        "relatedastronauts": "Walter Marty Schirra, Thomas Patten Stafford"
     },
     {
         "itemname": "Pioneer 6",
@@ -2711,8 +2703,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_19",
         "itemlatitude": "28.5067",
         "itemlongitude": "-80.5546",
-        "itemperson": "Neil Alden Armstrong",
-        "itemperson2": "David Randolph Scott"
+        "relatedastronauts": "Neil Alden Armstrong, David Randolph Scott"
     },
     {
         "itemname": "Luna 10",
@@ -2776,8 +2767,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_19",
         "itemlatitude": "28.5067",
         "itemlongitude": "-80.5546",
-        "itemperson": "Thomas Patten Stafford",
-        "itemperson2": "Eugene Andrew Cernan"
+        "relatedastronauts": "Thomas Patten Stafford, Eugene Andrew Cernan"
     },
     {
         "itemname": "IMP-D",
@@ -2819,8 +2809,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_19",
         "itemlatitude": "28.5067",
         "itemlongitude": "-80.5546",
-        "itemperson": "John Watts Young",
-        "itemperson2": "Michael Collins"
+        "relatedastronauts": "John Watts Young, Michael Collins"
     },
     {
         "itemname": "Lunar Orbiter 1",
@@ -2902,8 +2891,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_19",
         "itemlatitude": "28.5067",
         "itemlongitude": "-80.5546",
-        "itemperson": "Charles Conrad",
-        "itemperson2": "Richard Francis Gordon"
+        "relatedastronauts": "Charles Conrad, Richard Francis Gordon"
     },
     {
         "itemname": "Surveyor 2",
@@ -2988,8 +2976,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_19",
         "itemlatitude": "28.5067",
         "itemlongitude": "-80.5546",
-        "itemperson": "James Arthur Lovell",
-        "itemperson2": "Edwin Eugene Aldrin"
+        "relatedastronauts": "James Arthur Lovell, Edwin Eugene Aldrin"
     },
     {
         "itemname": "Luna 13",
@@ -3074,7 +3061,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Wladimir Michailowitsch Komarow"
+        "relatedastronauts": "Wladimir Michailowitsch Komarow"
     },
     {
         "itemname": "Lunar Orbiter 4",
@@ -3673,9 +3660,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Walter Marty Schirra",
-        "itemperson2": "Donn Fulton Eisele",
-        "itemperson3": "Ronnie Walter „Walt“ Cunningham"
+        "relatedastronauts": "Walter Marty Schirra, Donn Fulton Eisele, Ronnie Walter „Walt“ Cunningham"
     },
     {
         "itemname": "Sojus 2",
@@ -3718,7 +3703,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.996111",
         "itemlongitude": "63.564167",
-        "itemperson": "Georgi Timofejewitsch Beregowoi"
+        "relatedastronauts": "Georgi Timofejewitsch Beregowoi"
     },
     {
         "itemname": "Pioneer 9",
@@ -3803,9 +3788,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Frank Frederick Borman",
-        "itemperson2": "James Arthur Lovell",
-        "itemperson3": "William Alison Anders"
+        "relatedastronauts": "Frank Frederick Borman, James Arthur Lovell, William Alison Anders"
     },
     {
         "itemname": "Venera 5",
@@ -3869,7 +3852,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.996111",
         "itemlongitude": "63.564167",
-        "itemperson": "Wladimir Alexandrowitsch Schatalow"
+        "relatedastronauts": "Wladimir Alexandrowitsch Schatalow"
     },
     {
         "itemname": "Sojus 5",
@@ -3891,9 +3874,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Boris Walentinowitsch Wolynow",
-        "itemperson2": "Jewgeni Wassiljewitsch Chrunow",
-        "itemperson3": "Alexei Stanislawowitsch Jelissejew"
+        "relatedastronauts": "Boris Walentinowitsch Wolynow, Jewgeni Wassiljewitsch Chrunow, Alexei Stanislawowitsch Jelissejew"
     },
     {
         "itemname": "Zond 1969A",
@@ -3995,9 +3976,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "James Alton McDivitt",
-        "itemperson2": "David Randolph Scott",
-        "itemperson3": "Russell Louis Schweickart"
+        "relatedastronauts": "James Alton McDivitt, David Randolph Scott, Russell Louis Schweickart"
     },
     {
         "itemname": "Mariner 7",
@@ -4037,9 +4016,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Thomas Patten Stafford",
-        "itemperson2": "John Watts Young",
-        "itemperson3": "Eugene Andrew Cernan"
+        "relatedastronauts": "Thomas Patten Stafford, John Watts Young, Eugene Andrew Cernan"
     },
     {
         "itemname": "Luna 1969B",
@@ -4123,9 +4100,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Neil Alden Armstrong",
-        "itemperson2": "Edwin Eugene Aldrin",
-        "itemperson3": "Michael Collins"
+        "relatedastronauts": "Neil Alden Armstrong, Edwin Eugene Aldrin, Michael Collins"
     },
     {
         "itemname": "Zond 7",
@@ -4226,8 +4201,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.996111",
         "itemlongitude": "63.564167",
-        "itemperson": "Georgi Stepanowitsch Schonin",
-        "itemperson2": "Waleri Nikolajewitsch Kubassow"
+        "relatedastronauts": "Georgi Stepanowitsch Schonin, Waleri Nikolajewitsch Kubassow"
     },
     {
         "itemname": "Sojus 7",
@@ -4249,9 +4223,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Anatoli Wassiljewitsch Filiptschenko",
-        "itemperson2": "Wladislaw Nikolajewitsch Wolkow",
-        "itemperson3": "Wiktor Wassiljewitsch Gorbatko"
+        "relatedastronauts": "Anatoli Wassiljewitsch Filiptschenko, Wladislaw Nikolajewitsch Wolkow, Wiktor Wassiljewitsch Gorbatko"
     },
     {
         "itemname": "Sojus 8",
@@ -4273,8 +4245,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.996111",
         "itemlongitude": "63.564167",
-        "itemperson": "Wladimir Alexandrowitsch Schatalow",
-        "itemperson2": "Alexej Stanislawowitsch Jelissejew"
+        "relatedastronauts": "Wladimir Alexandrowitsch Schatalow, Alexej Stanislawowitsch Jelissejew"
     },
     {
         "itemname": "Kosmos 305",
@@ -4334,9 +4305,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Charles Conrad",
-        "itemperson2": "Richard Francis Gordon",
-        "itemperson3": "Alan LaVern Bean"
+        "relatedastronauts": "Charles Conrad, Richard Francis Gordon, Alan LaVern Bean"
     },
     {
         "itemname": "Luna 1970A",
@@ -4400,9 +4369,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "James Arthur Lovell",
-        "itemperson2": "Fred Haise",
-        "itemperson3": "John Leonard Swigert"
+        "relatedastronauts": "James Arthur Lovell, Fred Haise, John Leonard Swigert"
     },
     {
         "itemname": "Dongfanghong 1",
@@ -4444,8 +4411,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.996111",
         "itemlongitude": "63.564167",
-        "itemperson": "Andrijan Grigorjewitsch Nikolajew",
-        "itemperson2": "Witali Iwanowitsch Sewastjanow"
+        "relatedastronauts": "Andrijan Grigorjewitsch Nikolajew, Witali Iwanowitsch Sewastjanow"
     },
     {
         "itemname": "Venera 7",
@@ -4587,9 +4553,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Stuart Allen Roosa",
-        "itemperson2": "Alan Bartlett Shepard",
-        "itemperson3": "Edgar Dean Mitchell"
+        "relatedastronauts": "Stuart Allen Roosa, Alan Bartlett Shepard, Edgar Dean Mitchell"
     },
     {
         "itemname": "Saljut 1",
@@ -4632,9 +4596,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Wladimir Alexandrowitsch Schatalow",
-        "itemperson2": "Alexej Stanislawowitsch Jelissejew",
-        "itemperson3": "Nikolai Nikolajewitsch Rukawischnikow"
+        "relatedastronauts": "Wladimir Alexandrowitsch Schatalow, Alexej Stanislawowitsch Jelissejew, Nikolai Nikolajewitsch Rukawischnikow"
     },
     {
         "itemname": "Mariner 8",
@@ -4737,9 +4699,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Georgi Timofejewitsch Dobrowolski",
-        "itemperson2": "Wiktor Iwanowitsch Pazajew",
-        "itemperson3": "Wladislaw Nikolajewitsch Wolkow"
+        "relatedastronauts": "Georgi Timofejewitsch Dobrowolski, Wiktor Iwanowitsch Pazajew, Wladislaw Nikolajewitsch Wolkow"
     },
     {
         "itemname": "Apollo 15",
@@ -4761,9 +4721,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "David Randolph Scott",
-        "itemperson2": "Alfred Merrill Worden",
-        "itemperson3": "James Benson Irwin"
+        "relatedastronauts": "David Randolph Scott, Alfred Merrill Worden, James Benson Irwin"
     },
     {
         "itemname": "Luna 18",
@@ -4947,9 +4905,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "John Watts Young",
-        "itemperson2": "Thomas Kenneth Mattingly",
-        "itemperson3": "Charles Moss Duke"
+        "relatedastronauts": "John Watts Young, Thomas Kenneth Mattingly, Charles Moss Duke"
     },
     {
         "itemname": "Saljut 2 A",
@@ -5030,9 +4986,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Eugene Andrew Cernan",
-        "itemperson2": "Ronald Ellwin Evans",
-        "itemperson3": "Harrison Hagan Schmitt"
+        "relatedastronauts": "Eugene Andrew Cernan, Ronald Ellwin Evans, Harrison Hagan Schmitt"
     },
     {
         "itemname": "AEROS A",
@@ -5176,9 +5130,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Charles Conrad",
-        "itemperson2": "Paul Joseph Weitz",
-        "itemperson3": "Joseph Peter Kerwin"
+        "relatedastronauts": "Charles Conrad, Paul Joseph Weitz, Joseph Peter Kerwin"
     },
     {
         "itemname": "RAE-B",
@@ -5256,9 +5208,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Alan LaVern Bean",
-        "itemperson2": "Jack Robert Lousma",
-        "itemperson3": "Owen Kay Garriott"
+        "relatedastronauts": "Alan LaVern Bean, Jack Robert Lousma, Owen Kay Garriott"
     },
     {
         "itemname": "Mars 6",
@@ -5319,8 +5269,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Oleg Grigorjewitsch Makarow",
-        "itemperson2": "Wassili Grigorjewitsch Lasarew"
+        "relatedastronauts": "Oleg Grigorjewitsch Makarow, Wassili Grigorjewitsch Lasarew"
     },
     {
         "itemname": "Mariner 10",
@@ -5362,9 +5311,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Gerald Paul Carr",
-        "itemperson2": "William Reid Pogue",
-        "itemperson3": "Edward George Gibson"
+        "relatedastronauts": "Gerald Paul Carr, William Reid Pogue, Edward George Gibson"
     },
     {
         "itemname": "Sojus 13",
@@ -5386,8 +5333,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Pjotr Iljitsch Klimuk",
-        "itemperson2": "Walentin Witaljewitsch Lebedew"
+        "relatedastronauts": "Pjotr Iljitsch Klimuk, Walentin Witaljewitsch Lebedew"
     },
     {
         "itemname": "Luna 22",
@@ -5451,8 +5397,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Pawel Romanowitsch Popowitsch",
-        "itemperson2": "Juri Petrowitsch Artjuchi"
+        "relatedastronauts": "Pawel Romanowitsch Popowitsch, Juri Petrowitsch Artjuchi"
     },
     {
         "itemname": "AEROS B",
@@ -5494,8 +5439,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Gennadi Wassiljewitsch Sarafanow",
-        "itemperson2": "Lew Stepanowitsch Djomin"
+        "relatedastronauts": "Gennadi Wassiljewitsch Sarafanow, Lew Stepanowitsch Djomin"
     },
     {
         "itemname": "Ariel 5",
@@ -5558,8 +5502,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Anatoli Wassiljewitsch Filiptschenko",
-        "itemperson2": "Nikolai Nikolajewitsch Rukawischnikow"
+        "relatedastronauts": "Anatoli Wassiljewitsch Filiptschenko, Nikolai Nikolajewitsch Rukawischnikow"
     },
     {
         "itemname": "Helios 1",
@@ -5622,8 +5565,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Alexei Alexandrowitsch Gubarew",
-        "itemperson2": "Georgi Michailowitsch Gretschko"
+        "relatedastronauts": "Alexei Alexandrowitsch Gubarew, Georgi Michailowitsch Gretschko"
     },
     {
         "itemname": "Sojus 18-1",
@@ -5645,8 +5587,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Wassili Grigorjewitsch Lasarew",
-        "itemperson2": "Oleg Grigorjewitsch Makarow"
+        "relatedastronauts": "Wassili Grigorjewitsch Lasarew, Oleg Grigorjewitsch Makarow"
     },
     {
         "itemname": "Aryabhata",
@@ -5688,8 +5629,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Pjotr Iljitsch Klimuk",
-        "itemperson2": "Witali Iwanowitsch Sewastjanow"
+        "relatedastronauts": "Pjotr Iljitsch Klimuk, Witali Iwanowitsch Sewastjanow"
     },
     {
         "itemname": "Venera 9",
@@ -5753,9 +5693,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Thomas Stafford",
-        "itemperson2": "Vance DeVoe Brand",
-        "itemperson3": "Deke Slayton"
+        "relatedastronauts": "Thomas Stafford, Vance DeVoe Brand, Deke Slayton"
     },
     {
         "itemname": "Sojus 19",
@@ -5778,8 +5716,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Alexei Archipowitsch Leonow",
-        "itemperson2": "Waleri Nikolajewitsch Kubassow"
+        "relatedastronauts": "Alexei Archipowitsch Leonow, Waleri Nikolajewitsch Kubassow"
     },
     {
         "itemname": "Cosmic Ray Satellite B",
@@ -5817,7 +5754,7 @@
         "itemparent": "Delta 2914",
         "itemparenturl": "https://de.wikipedia.org/wiki/Delta_%28Rakete%29",
         "itemcountry": "US",
-        "itemdestination": "geostationäre Bahn",
+        "itemdestination": "https://de.wikipedia.org/wiki/Geosynchrone_Umlaufbahn",
         "itemlocation": "CCAFS LC-17B",
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_17",
         "itemlatitude": "28.446667",
@@ -5905,8 +5842,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Boris Walentinowitsch Wolynow",
-        "itemperson2": "Witali Michailowitsch Scholobow"
+        "relatedastronauts": "Boris Walentinowitsch Wolynow, Witali Michailowitsch Scholobow"
     },
     {
         "itemname": "Luna 24",
@@ -5949,8 +5885,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Waleri Fjodorowitsch Bykowski",
-        "itemperson2": "Wladimir Wiktorowitsch Aksjonow"
+        "relatedastronauts": "Waleri Fjodorowitsch Bykowski, Wladimir Wiktorowitsch Aksjonow"
     },
     {
         "itemname": "Sojus 23",
@@ -5972,8 +5907,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Wjatscheslaw Dmitrijewitsch Sudow",
-        "itemperson2": "Waleri Iljitsch Roschdestwenski"
+        "relatedastronauts": "Wjatscheslaw Dmitrijewitsch Sudow, Waleri Iljitsch Roschdestwenski"
     },
     {
         "itemname": "Sojus 24",
@@ -5995,8 +5929,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Wiktor Wassiljewitsch Gorbatko",
-        "itemperson2": "Juri Nikolajewitsch Glaskow"
+        "relatedastronauts": "Wiktor Wassiljewitsch Gorbatko, Juri Nikolajewitsch Glaskow"
     },
     {
         "itemname": "GOES 2",
@@ -6013,7 +5946,7 @@
         "itemparent": "Delta 2914",
         "itemparenturl": "https://de.wikipedia.org/wiki/Delta_%28Rakete%29",
         "itemcountry": "US",
-        "itemdestination": "geostationäre Bahn",
+        "itemdestination": "https://de.wikipedia.org/wiki/Geosynchrone_Umlaufbahn",
         "itemlocation": "CCAFS LC-17B",
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_17",
         "itemlatitude": "28.446667",
@@ -6096,8 +6029,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Wladimir Wassiljewitsch Kowaljonok",
-        "itemperson2": "Waleri Wiktorowitsch Rjumin"
+        "relatedastronauts": "Wladimir Wassiljewitsch Kowaljonok, Waleri Wiktorowitsch Rjumin"
     },
     {
         "itemname": "ISEE-1, ISEE-2",
@@ -6140,8 +6072,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Juri Wiktorowitsch Romanenko",
-        "itemperson2": "Georgi Michailowitsch Gretschko"
+        "relatedastronauts": "Juri Wiktorowitsch Romanenko, Georgi Michailowitsch Gretschko"
     },
     {
         "itemname": "Sojus 27",
@@ -6163,8 +6094,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Wladimir Alexandrowitsch Dschanibekow",
-        "itemperson2": "Oleg Grigorjewitsch Makarow"
+        "relatedastronauts": "Wladimir Alexandrowitsch Dschanibekow, Oleg Grigorjewitsch Makarow"
     },
     {
         "itemname": "International Ultraviolet Explorer",
@@ -6223,8 +6153,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Alexei Alexandrowitsch Gubarew",
-        "itemperson2": "Vladimír Remek"
+        "relatedastronauts": "Alexei Alexandrowitsch Gubarew, Vladimír Remek"
     },
     {
         "itemname": "Pioneer-Venus 1",
@@ -6267,8 +6196,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Wladimir Wassiljewitsch Kowaljonok",
-        "itemperson2": "Alexander Sergejewitsch Iwantschenkow"
+        "relatedastronauts": "Wladimir Wassiljewitsch Kowaljonok, Alexander Sergejewitsch Iwantschenkow"
     },
     {
         "itemname": "GOES 3",
@@ -6282,7 +6210,7 @@
         "itemparent": "Delta 2914",
         "itemparenturl": "https://de.wikipedia.org/wiki/Delta_%28Rakete%29",
         "itemcountry": "US",
-        "itemdestination": "geostationäre Bahn",
+        "itemdestination": "https://de.wikipedia.org/wiki/Geosynchrone_Umlaufbahn",
         "itemlocation": "CCAFS LC-17B",
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_17",
         "itemlatitude": "28.446667",
@@ -6308,8 +6236,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Pjotr Iljitsch Klimuk",
-        "itemperson2": "Mirosław Hermaszewski"
+        "relatedastronauts": "Pjotr Iljitsch Klimuk, Mirosław Hermaszewski"
     },
     {
         "itemname": "Pioneer-Venus 2",
@@ -6373,8 +6300,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Waleri Fjodorowitsch Bykowski",
-        "itemperson2": "Sigmund Jähn"
+        "relatedastronauts": "Waleri Fjodorowitsch Bykowski, Sigmund Jähn"
     },
     {
         "itemname": "Venera 11",
@@ -6458,8 +6384,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.996111",
         "itemlongitude": "63.564167",
-        "itemperson": "Wladimir Afanassjewitsch Ljachow",
-        "itemperson2": "Waleri Wiktorowitsch Rjumin"
+        "relatedastronauts": "Wladimir Afanassjewitsch Ljachow, Waleri Wiktorowitsch Rjumin"
     },
     {
         "itemname": "Sojus 33",
@@ -6481,8 +6406,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.996111",
         "itemlongitude": "63.564167",
-        "itemperson": "Nikolai Nikolajewitsch Rukawischnikow",
-        "itemperson2": "Georgi Iwanow"
+        "relatedastronauts": "Nikolai Nikolajewitsch Rukawischnikow, Georgi Iwanow"
     },
     {
         "itemname": "Ariel 6",
@@ -6524,8 +6448,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.996111",
         "itemlongitude": "63.564167",
-        "itemperson": "Wladimir Afanassjewitsch Ljachow",
-        "itemperson2": "Waleri Wiktorowitsch Rjumin"
+        "relatedastronauts": "Wladimir Afanassjewitsch Ljachow, Waleri Wiktorowitsch Rjumin"
     },
     {
         "itemname": "Sojus T-1",
@@ -6568,8 +6491,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.996111",
         "itemlongitude": "63.564167",
-        "itemperson": "Leonid Iwanowitsch Popow",
-        "itemperson2": "Waleri Wiktorowitsch Rjumin"
+        "relatedastronauts": "Leonid Iwanowitsch Popow, Waleri Wiktorowitsch Rjumin"
     },
     {
         "itemname": "Sojus 36",
@@ -6591,8 +6513,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.996111",
         "itemlongitude": "63.564167",
-        "itemperson": "Waleri Nikolajewitsch Kubassow",
-        "itemperson2": "Bertalan Farkas"
+        "relatedastronauts": "Waleri Nikolajewitsch Kubassow, Bertalan Farkas"
     },
     {
         "itemname": "Sojus T-2",
@@ -6614,8 +6535,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Juri Wassiljewitsch Malyschew",
-        "itemperson2": "Wladimir Wiktorowitsch Aksjonow"
+        "relatedastronauts": "Juri Wassiljewitsch Malyschew, Wladimir Wiktorowitsch Aksjonow"
     },
     {
         "itemname": "Sojus 37",
@@ -6637,8 +6557,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Wiktor Wassiljewitsch Gorbatko",
-        "itemperson2": "Phạm Tuân"
+        "relatedastronauts": "Wiktor Wassiljewitsch Gorbatko, Phạm Tuân"
     },
     {
         "itemname": "Sojus 38",
@@ -6660,8 +6579,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Juri Wiktorowitsch Romanenko",
-        "itemperson2": "Arnaldo Tamayo Méndez"
+        "relatedastronauts": "Juri Wiktorowitsch Romanenko, Arnaldo Tamayo Méndez"
     },
     {
         "itemname": "GOES 4",
@@ -6678,7 +6596,7 @@
         "itemparent": "Delta 3914",
         "itemparenturl": "https://de.wikipedia.org/wiki/Delta_%28Rakete%29",
         "itemcountry": "US",
-        "itemdestination": "geostationäre Bahn",
+        "itemdestination": "https://de.wikipedia.org/wiki/Geosynchrone_Umlaufbahn",
         "itemlocation": "CCAFS LC-17A",
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_17",
         "itemlatitude": "28.446667",
@@ -6704,9 +6622,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Leonid Denissowitsch Kisim",
-        "itemperson2": "Oleg Grigorjewitsch Makarow",
-        "itemperson3": "Gennadi Michailowitsch Strekalow"
+        "relatedastronauts": "Leonid Denissowitsch Kisim, Oleg Grigorjewitsch Makarow, Gennadi Michailowitsch Strekalow"
     },
     {
         "itemname": "ASTRO-A",
@@ -6748,8 +6664,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Wladimir Wassiljewitsch Kowaljonok",
-        "itemperson2": "Wiktor Petrowitsch Sawinych"
+        "relatedastronauts": "Wladimir Wassiljewitsch Kowaljonok, Wiktor Petrowitsch Sawinych"
     },
     {
         "itemname": "Sojus 39",
@@ -6771,8 +6686,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Wladimir Alexandrowitsch Dschanibekow",
-        "itemperson2": "Dschugderdemidiin Gurragtschaa"
+        "relatedastronauts": "Wladimir Alexandrowitsch Dschanibekow, Dschugderdemidiin Gurragtschaa"
     },
     {
         "itemname": "STS-1",
@@ -6794,8 +6708,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "John Watts Young",
-        "itemperson2": "Robert Laurel Crippen"
+        "relatedastronauts": "John Watts Young, Robert Laurel Crippen"
     },
     {
         "itemname": "Sojus 40",
@@ -6817,8 +6730,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Leonid Iwanowitsch Popow",
-        "itemperson2": "Dumitru Dorin Prunariu"
+        "relatedastronauts": "Leonid Iwanowitsch Popow, Dumitru Dorin Prunariu"
     },
     {
         "itemname": "GOES 5",
@@ -6835,7 +6747,7 @@
         "itemparent": "Delta 3914",
         "itemparenturl": "https://de.wikipedia.org/wiki/Delta_%28Rakete%29",
         "itemcountry": "US",
-        "itemdestination": "geostationäre Bahn",
+        "itemdestination": "https://de.wikipedia.org/wiki/Geosynchrone_Umlaufbahn",
         "itemlocation": "CCAFS LC-17A",
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_17",
         "itemlatitude": "28.446667",
@@ -6903,8 +6815,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Joe Henry Engle",
-        "itemperson2": "Richard Harrison Truly"
+        "relatedastronauts": "Joe Henry Engle, Richard Harrison Truly"
     },
     {
         "itemname": "STS-3",
@@ -6926,8 +6837,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Jack Robert Lousma",
-        "itemperson2": "Charles Gordon Fullerton"
+        "relatedastronauts": "Jack Robert Lousma, Charles Gordon Fullerton"
     },
     {
         "itemname": "Saljut 7",
@@ -6970,8 +6880,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Anatoli Nikolajewitsch Beresowoi",
-        "itemperson2": "Walentin Witaljewitsch Lebedew"
+        "relatedastronauts": "Anatoli Nikolajewitsch Beresowoi, Walentin Witaljewitsch Lebedew"
     },
     {
         "itemname": "Sojus T-6",
@@ -6993,9 +6902,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Wladimir Alexandrowitsch Dschanibekow",
-        "itemperson2": "Alexander Sergejewitsch Iwantschenkow",
-        "itemperson3": "Jean-Loup Chrétien"
+        "relatedastronauts": "Wladimir Alexandrowitsch Dschanibekow, Alexander Sergejewitsch Iwantschenkow, Jean-Loup Chrétien"
     },
     {
         "itemname": "STS-4",
@@ -7017,8 +6924,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Thomas Kenneth Mattingly",
-        "itemperson2": "Henry Warren Hartsfield"
+        "relatedastronauts": "Thomas Kenneth Mattingly, Henry Warren Hartsfield"
     },
     {
         "itemname": "Sojus T-7",
@@ -7040,9 +6946,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Leonid Iwanowitsch Popow",
-        "itemperson2": "Alexander Alexandrowitsch Serebrow",
-        "itemperson3": "Swetlana Jewgenjewna Sawizkaja"
+        "relatedastronauts": "Leonid Iwanowitsch Popow, Alexander Alexandrowitsch Serebrow, Swetlana Jewgenjewna Sawizkaja"
     },
     {
         "itemname": "STS-5",
@@ -7064,10 +6968,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Vance DeVoe Brand",
-        "itemperson2": "Robert Franklyn Overmyer",
-        "itemperson3": "Joseph Percival Allen",
-        "itemperson4": "William Benjamin Lenoir"
+        "relatedastronauts": "Vance DeVoe Brand, Robert Franklyn Overmyer, Joseph Percival Allen, William Benjamin Lenoir"
     },
     {
         "itemname": "IRAS",
@@ -7147,10 +7048,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Paul Joseph Weitz",
-        "itemperson2": "Karol Joseph Bobko",
-        "itemperson3": "Donald Herod Peterson",
-        "itemperson4": "Story Musgrave"
+        "relatedastronauts": "Paul Joseph Weitz, Karol Joseph Bobko, Donald Herod Peterson, Story Musgrave"
     },
     {
         "itemname": "Sojus T-8",
@@ -7172,9 +7070,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Wladimir Georgjewitsch Titow",
-        "itemperson2": "Gennadi Michailowitsch Strekalow",
-        "itemperson3": "Alexander Alexandrowitsch Serebrow"
+        "relatedastronauts": "Wladimir Georgjewitsch Titow, Gennadi Michailowitsch Strekalow, Alexander Alexandrowitsch Serebrow"
     },
     {
         "itemname": "GOES 6",
@@ -7191,7 +7087,7 @@
         "itemparent": "Delta 3914",
         "itemparenturl": "https://de.wikipedia.org/wiki/Delta_%28Rakete%29",
         "itemcountry": "US",
-        "itemdestination": "geostationäre Bahn",
+        "itemdestination": "https://de.wikipedia.org/wiki/Geosynchrone_Umlaufbahn",
         "itemlocation": "CCAFS LC-17A",
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_17",
         "itemlatitude": "28.446667",
@@ -7280,11 +7176,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Robert Laurel Crippen",
-        "itemperson2": "Frederick Hamilton Hauck",
-        "itemperson3": "John McCreary Fabian",
-        "itemperson4": "Sally Ride",
-        "itemperson5": "Norman Earl Thagard"
+        "relatedastronauts": "Robert Laurel Crippen, Frederick Hamilton Hauck, John McCreary Fabian, Sally Ride, Norman Earl Thagard"
     },
     {
         "itemname": "Sojus T-9",
@@ -7306,8 +7198,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Wladimir Ljachow",
-        "itemperson2": "Alexander Alexandrow"
+        "relatedastronauts": "Wladimir Ljachow, Alexander Alexandrow"
     },
     {
         "itemname": "STS-8",
@@ -7329,11 +7220,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Richard Harrison Truly",
-        "itemperson2": "Daniel Charles Brandenstein",
-        "itemperson3": "Dale Allan Gardner",
-        "itemperson4": "Guion Stewart Bluford",
-        "itemperson5": "William Edgar Thornton"
+        "relatedastronauts": "Richard Harrison Truly, Daniel Charles Brandenstein, Dale Allan Gardner, Guion Stewart Bluford, William Edgar Thornton"
     },
     {
         "itemname": "Sojus T-10-1",
@@ -7355,8 +7242,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Wladimir Georgjewitsch Titow",
-        "itemperson2": "Gennadi Michailowitsch Strekalow"
+        "relatedastronauts": "Wladimir Georgjewitsch Titow, Gennadi Michailowitsch Strekalow"
     },
     {
         "itemname": "STS-9",
@@ -7378,12 +7264,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "John Watts Young",
-        "itemperson2": "Brewster Hopkinson Shaw",
-        "itemperson3": "Owen Kay Garriott",
-        "itemperson4": "Robert Allan Ridley Parker",
-        "itemperson5": "Byron Kurt Lichtenberg",
-        "itemperson6": "Ulf Merbold"
+        "relatedastronauts": "John Watts Young, Brewster Hopkinson Shaw, Owen Kay Garriott, Robert Allan Ridley Parker, Byron Kurt Lichtenberg, Ulf Merbold"
     },
     {
         "itemname": "STS-41-B",
@@ -7405,11 +7286,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Vance DeVoe Brand",
-        "itemperson2": "Robert Lee Gibson",
-        "itemperson3": "Bruce McCandless",
-        "itemperson4": "Ronald McNair",
-        "itemperson5": "Robert Lee Stewart"
+        "relatedastronauts": "Vance DeVoe Brand, Robert Lee Gibson, Bruce McCandless, Ronald McNair, Robert Lee Stewart"
     },
     {
         "itemname": "Sojus T-10",
@@ -7431,9 +7308,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.996111",
         "itemlongitude": "63.564167",
-        "itemperson": "Leonid Denissowitsch Kisim",
-        "itemperson2": "Wladimir Alexejewitsch Solowjow",
-        "itemperson3": "Oleg Jurjewitsch Atkow"
+        "relatedastronauts": "Leonid Denissowitsch Kisim, Wladimir Alexejewitsch Solowjow, Oleg Jurjewitsch Atkow"
     },
     {
         "itemname": "Sojus T-11",
@@ -7455,9 +7330,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.996111",
         "itemlongitude": "63.564167",
-        "itemperson": "Juri Wassiljewitsch Malyschew",
-        "itemperson2": "Gennadi Michailowitsch Strekalow",
-        "itemperson3": "Rakesh Sharma"
+        "relatedastronauts": "Juri Wassiljewitsch Malyschew, Gennadi Michailowitsch Strekalow, Rakesh Sharma"
     },
     {
         "itemname": "STS-41-C",
@@ -7479,11 +7352,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Robert Laurel Crippen",
-        "itemperson2": "Francis Richard Scobee",
-        "itemperson3": "Terry Jonathan Hart",
-        "itemperson4": "James Dougal Adrianus van Hoften",
-        "itemperson5": "George Driver Nelson"
+        "relatedastronauts": "Robert Laurel Crippen, Francis Richard Scobee, Terry Jonathan Hart, James Dougal Adrianus van Hoften, George Driver Nelson"
     },
     {
         "itemname": "Sojus T-12",
@@ -7505,9 +7374,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.996111",
         "itemlongitude": "63.564167",
-        "itemperson": "Wladimir Alexandrowitsch Dschanibekow",
-        "itemperson2": "Swetlana Jewgenjewna Sawizkaja",
-        "itemperson3": "Igor Petrowitsch Wolk"
+        "relatedastronauts": "Wladimir Alexandrowitsch Dschanibekow, Swetlana Jewgenjewna Sawizkaja, Igor Petrowitsch Wolk"
     },
     {
         "itemname": "Eutelsat I-F2",
@@ -7549,12 +7416,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Henry Warren Hartsfield",
-        "itemperson2": "Michael Lloyd Coats",
-        "itemperson3": "Judith Resnik",
-        "itemperson4": "Steven Alan Hawley",
-        "itemperson5": "Richard Michael Mullane",
-        "itemperson6": "Charles David Walker"
+        "relatedastronauts": "Henry Warren Hartsfield, Michael Lloyd Coats, Judith Resnik, Steven Alan Hawley, Richard Michael Mullane, Charles David Walker"
     },
     {
         "itemname": "STS-41-G",
@@ -8136,7 +7998,7 @@
         "itemparent": "Delta 3914",
         "itemparenturl": "https://de.wikipedia.org/wiki/Delta_%28Rakete%29",
         "itemcountry": "US",
-        "itemdestination": "geostationäre Bahn",
+        "itemdestination": "https://de.wikipedia.org/wiki/Geosynchrone_Umlaufbahn",
         "itemlocation": "CCAFS LC-17A",
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_17",
         "itemlatitude": "28.446667",
@@ -8487,7 +8349,7 @@
         "itemparent": "Ariane 44 LP",
         "itemparenturl": "https://de.wikipedia.org/wiki/Ariane_4",
         "itemcountry": "ESA",
-        "itemdestination": "geostationäre Bahn",
+        "itemdestination": "https://de.wikipedia.org/wiki/Geosynchrone_Umlaufbahn",
         "itemlocation": "CSG ELA-2",
         "itemlocationurl": "https://de.wikipedia.org/wiki/ELA-2",
         "itemlatitude": "5.2322",
@@ -9712,7 +9574,7 @@
         "itemparent": "Atlas I",
         "itemparenturl": "https://de.wikipedia.org/wiki/Atlas_%28Rakete%29",
         "itemcountry": "US",
-        "itemdestination": "geostationäre Bahn",
+        "itemdestination": "https://de.wikipedia.org/wiki/Geosynchrone_Umlaufbahn",
         "itemlocation": "CCAFS SSLC-37B",
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_37",
         "itemlatitude": "28.4998",
@@ -9943,7 +9805,7 @@
         "itemparent": "Atlas I",
         "itemparenturl": "https://de.wikipedia.org/wiki/Atlas_%28Rakete%29",
         "itemcountry": "US",
-        "itemdestination": "geostationäre Bahn",
+        "itemdestination": "https://de.wikipedia.org/wiki/Geosynchrone_Umlaufbahn",
         "itemlocation": "CCAFS SSLC-37B",
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_37",
         "itemlatitude": "28.4998",
@@ -10547,7 +10409,7 @@
         "itemparent": "Atlas I",
         "itemparenturl": "https://de.wikipedia.org/wiki/Atlas_%28Rakete%29",
         "itemcountry": "US",
-        "itemdestination": "geostationäre Bahn",
+        "itemdestination": "https://de.wikipedia.org/wiki/Geosynchrone_Umlaufbahn",
         "itemlocation": "CCAFS SSLC-37B",
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_37",
         "itemlatitude": "28.4998",
@@ -11303,7 +11165,7 @@
         "itemparent": "Atlas IIA",
         "itemparenturl": "https://de.wikipedia.org/wiki/Atlas_%28Rakete%29",
         "itemcountry": "US",
-        "itemdestination": "geostationäre Bahn",
+        "itemdestination": "https://de.wikipedia.org/wiki/Geosynchrone_Umlaufbahn",
         "itemlocation": "CCAFS SSLC-37A",
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_37",
         "itemlatitude": "28.4998",
@@ -11644,7 +11506,7 @@
         "itemparent": "Atlas IIA",
         "itemparenturl": "https://de.wikipedia.org/wiki/Atlas_%28Rakete%29",
         "itemcountry": "US",
-        "itemdestination": "geostationäre Bahn",
+        "itemdestination": "https://de.wikipedia.org/wiki/Geosynchrone_Umlaufbahn",
         "itemlocation": "CCAFS SSLC-37A",
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_37",
         "itemlatitude": "28.4998",
@@ -12709,7 +12571,7 @@
         "itemparent": "Delta IV-M+(4,2)",
         "itemparenturl": "https://de.wikipedia.org/wiki/Delta_IV",
         "itemcountry": "US",
-        "itemdestination": "geostationäre Bahn",
+        "itemdestination": "https://de.wikipedia.org/wiki/Geosynchrone_Umlaufbahn",
         "itemlocation": "CCAFS SSLC-37B",
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_37",
         "itemlatitude": "28.4998",
@@ -13524,7 +13386,7 @@
         "itemparent": "Delta IV-M+(4,2)",
         "itemparenturl": "https://de.wikipedia.org/wiki/Delta_IV",
         "itemcountry": "US",
-        "itemdestination": "geostationäre Bahn",
+        "itemdestination": "https://de.wikipedia.org/wiki/Geosynchrone_Umlaufbahn",
         "itemlocation": "CCAFS SSLC-37B",
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_37",
         "itemlatitude": "28.4998",
@@ -13726,7 +13588,7 @@
         "itemparent": "Delta IV-M+(4,2)",
         "itemparenturl": "https://de.wikipedia.org/wiki/Delta_IV",
         "itemcountry": "US",
-        "itemdestination": "geostationäre Bahn",
+        "itemdestination": "https://de.wikipedia.org/wiki/Geosynchrone_Umlaufbahn",
         "itemlocation": "CCAFS SSLC-37B",
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_37",
         "itemlatitude": "28.4998",
@@ -13888,9 +13750,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Fjodor Nikolajewitsch Jurtschichin",
-        "itemperson2": "Shannon Walker",
-        "itemperson3": "Douglas Wheelock"
+        "relatedastronauts": "Fjodor Nikolajewitsch Jurtschichin, Shannon Walker, Douglas Wheelock"
     },
     {
         "itemname": "Sojus TMA-01M",
@@ -13912,9 +13772,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Alexander Jurjewitsch Kaleri",
-        "itemperson2": "Oleg Iwanowitsch Skripotschka",
-        "itemperson3": "Scott Joseph Kelly"
+        "relatedastronauts": "Alexander Jurjewitsch Kaleri, Oleg Iwanowitsch Skripotschka, Scott Joseph Kelly"
     },
     {
         "itemname": "SpaceShipTwo",
@@ -13935,8 +13793,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Mojave_Air_%26_Space_Port",
         "itemlatitude": "35.059364",
         "itemlongitude": "118.151856",
-        "itemperson": "Siebold",
-        "itemperson2": "Alsbury"
+        "relatedastronauts": "Siebold, Alsbury"
     },
     {
         "itemname": "Sojus TMA-20",
@@ -13958,9 +13815,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Dmitri Jurjewitsch Kondratjew",
-        "itemperson2": "Catherine Grace Coleman",
-        "itemperson3": "Paolo Nespoli"
+        "relatedastronauts": "Dmitri Jurjewitsch Kondratjew, Catherine Grace Coleman, Paolo Nespoli"
     },
     {
         "itemname": "HTV-2",
@@ -14024,12 +13879,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Steven Lindsey",
-        "itemperson2": "Eric Allen Boe",
-        "itemperson3": "Stephen Gerard Bowen",
-        "itemperson4": "Benjamin Alvin Drew",
-        "itemperson5": "Michael Reed Barratt",
-        "itemperson6": "Nicole Passonno Stott"
+        "relatedastronauts": "Steven Lindsey, Eric Allen Boe, Stephen Gerard Bowen, Benjamin Alvin Drew, Michael Reed Barratt, Nicole Passonno Stott"
     },
     {
         "itemname": "Sojus TMA-21",
@@ -14051,9 +13901,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Alexander Michailowitsch Samokutjajew",
-        "itemperson2": "Andrei Iwanowitsch Borissenko",
-        "itemperson3": "Ronald John Garan"
+        "relatedastronauts": "Alexander Michailowitsch Samokutjajew, Andrei Iwanowitsch Borissenko, Ronald John Garan"
     },
     {
         "itemname": "OTV-2",
@@ -14096,12 +13944,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Mark Edward Kelly",
-        "itemperson2": "Gregory Harold Johnson",
-        "itemperson3": "Edward Michael Fincke",
-        "itemperson4": "Gregory Errol Chamitoff",
-        "itemperson5": "Andrew Jay Feustel",
-        "itemperson6": "Roberto Vittori"
+        "relatedastronauts": "Mark Edward Kelly, Gregory Harold Johnson, Edward Michael Fincke, Gregory Errol Chamitoff, Andrew Jay Feustel, Roberto Vittori"
     },
     {
         "itemname": "Sojus TMA-02M",
@@ -14123,9 +13966,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Sergei Alexandrowitsch Wolkow",
-        "itemperson2": "Michael Edward Fossum",
-        "itemperson3": "Satoshi Furukawa"
+        "relatedastronauts": "Sergei Alexandrowitsch Wolkow, Michael Edward Fossum, Satoshi Furukawa"
     },
     {
         "itemname": "STS-135",
@@ -14147,10 +13988,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemlatitude": "28.6178",
         "itemlongitude": "-80.6125",
-        "itemperson": "Christopher John Ferguson",
-        "itemperson2": "Douglas Gerald Hurley",
-        "itemperson3": "Sandra Hall Magnus",
-        "itemperson4": "Rex Joseph Walheim"
+        "relatedastronauts": "Christopher John Ferguson, Douglas Gerald Hurley, Sandra Hall Magnus, Rex Joseph Walheim"
     },
     {
         "itemname": "RadioAstron",
@@ -14282,9 +14120,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Anton Nikolajewitsch Schkaplerow",
-        "itemperson2": "Anatoli Alexejewitsch Iwanischin",
-        "itemperson3": "Daniel Christopher Burbank"
+        "relatedastronauts": "Anton Nikolajewitsch Schkaplerow, Anatoli Alexejewitsch Iwanischin, Daniel Christopher Burbank"
     },
     {
         "itemname": "Mars Science Laboratory",
@@ -14324,9 +14160,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Oleg Kononenko",
-        "itemperson2": "Donald Pettit",
-        "itemperson3": "André Kuipers"
+        "relatedastronauts": "Oleg Kononenko, Donald Pettit, André Kuipers"
     },
     {
         "itemname": "ATV-3",
@@ -14369,9 +14203,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Gennadi Iwanowitsch Padalka",
-        "itemperson2": "Sergei Nikolajewitsch Rewin",
-        "itemperson3": "Joseph Michael Acaba"
+        "relatedastronauts": "Gennadi Iwanowitsch Padalka, Sergei Nikolajewitsch Rewin, Joseph Michael Acaba"
     },
     {
         "itemname": "NuSTAR",
@@ -14411,9 +14243,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kosmodrom_Jiuquan",
         "itemlatitude": "40.956944",
         "itemlongitude": "0.29222222",
-        "itemperson": "Jing Haipeng",
-        "itemperson2": "Liu Wang",
-        "itemperson3": "Liu Yang"
+        "relatedastronauts": "Jing Haipeng, Liu Wang, Liu Yang"
     },
     {
         "itemname": "Sojus TMA-05M",
@@ -14435,9 +14265,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Juri Iwanowitsch Malentschenko",
-        "itemperson2": "Sunita Lyn Williams",
-        "itemperson3": "Akihiko Hoshide"
+        "relatedastronauts": "Juri Iwanowitsch Malentschenko, Sunita Lyn Williams, Akihiko Hoshide"
     },
     {
         "itemname": "HTV-3",
@@ -14497,9 +14325,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Oleg Wiktorowitsch Nowizki",
-        "itemperson2": "Jewgeni Igorewitsch Tarelkin",
-        "itemperson3": "Kevin Anthony Ford"
+        "relatedastronauts": "Oleg Wiktorowitsch Nowizki, Jewgeni Igorewitsch Tarelkin, Kevin Anthony Ford"
     },
     {
         "itemname": "OTV-3",
@@ -14542,9 +14368,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Roman Jurjewitsch Romanenko",
-        "itemperson2": "Chris Austin Hadfield",
-        "itemperson3": "Thomas Henry Marshburn"
+        "relatedastronauts": "Roman Jurjewitsch Romanenko, Chris Austin Hadfield, Thomas Henry Marshburn"
     },
     {
         "itemname": "NEOSSat",
@@ -14584,9 +14408,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Pawel Wladimirowitsch Winogradow",
-        "itemperson2": "Alexander Alexandrowitsch Missurkin",
-        "itemperson3": "Christopher John Cassidy"
+        "relatedastronauts": "Pawel Wladimirowitsch Winogradow, Alexander Alexandrowitsch Missurkin, Christopher John Cassidy"
     },
     {
         "itemname": "SpaceShipTwo",
@@ -14607,8 +14429,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Mojave_Air_%26_Space_Port",
         "itemlatitude": "35.059364",
         "itemlongitude": "118.151856",
-        "itemperson": "Stucky",
-        "itemperson2": "Alsbury"
+        "relatedastronauts": "Stucky, Alsbury"
     },
     {
         "itemname": "Sojus TMA-09M",
@@ -14630,9 +14451,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Fjodor Nikolajewitsch Jurtschichin",
-        "itemperson2": "Luca Parmitano",
-        "itemperson3": "Karen Lujean Nyberg"
+        "relatedastronauts": "Fjodor Nikolajewitsch Jurtschichin, Luca Parmitano, Karen Lujean Nyberg"
     },
     {
         "itemname": "ATV-4",
@@ -14674,9 +14493,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Kosmodrom_Jiuquan",
         "itemlatitude": "40.956944",
         "itemlongitude": "0.29222222",
-        "itemperson": "Nie Haisheng",
-        "itemperson2": "Zhang Xiaoguang",
-        "itemperson3": "Wang Yaping"
+        "relatedastronauts": "Nie Haisheng, Zhang Xiaoguang, Wang Yaping"
     },
     {
         "itemname": "IRIS",
@@ -14790,9 +14607,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "45.92",
-        "itemperson": "Oleg Walerjewitsch Kotow",
-        "itemperson2": "Sergei Nikolajewitsch Rjasanski",
-        "itemperson3": "Michael Scott Hopkins"
+        "relatedastronauts": "Oleg Walerjewitsch Kotow, Sergei Nikolajewitsch Rjasanski, Michael Scott Hopkins"
     },
     {
         "itemname": "MAVEN",
@@ -14833,9 +14648,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Michail Wladislawowitsch Tjurin",
-        "itemperson2": "Richard Alan Mastracchio",
-        "itemperson3": "Kōichi Wakata"
+        "relatedastronauts": "Michail Wladislawowitsch Tjurin, Richard Alan Mastracchio, Kōichi Wakata"
     },
     {
         "itemname": "Gaia",
@@ -14875,9 +14688,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Alexander Alexandrowitsch Skworzow",
-        "itemperson2": "Oleg Germanowitsch Artemjew",
-        "itemperson3": "Steven Ray Swanson"
+        "relatedastronauts": "Alexander Alexandrowitsch Skworzow, Oleg Germanowitsch Artemjew, Steven Ray Swanson"
     },
     {
         "itemname": "Sojus TMA-13M",
@@ -14899,8 +14710,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Maxim Wiktorowitsch Surajew. Gregory Reid Wiseman",
-        "itemperson2": "Alexander Gerst"
+        "relatedastronauts": "Maxim Wiktorowitsch Surajew. Gregory Reid Wiseman, Alexander Gerst"
     },
     {
         "itemname": "Sojus TMA-14M",
@@ -14922,9 +14732,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Alexander Michailowitsch Samokutjajew",
-        "itemperson2": "Jelena Olegowna Serowa",
-        "itemperson3": "Barry Eugene Wilmore"
+        "relatedastronauts": "Alexander Michailowitsch Samokutjajew, Jelena Olegowna Serowa, Barry Eugene Wilmore"
     },
     {
         "itemname": "Sojus TMA-15M",
@@ -14946,9 +14754,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Anton Nikolajewitsch Schkaplerow",
-        "itemperson2": "Samantha Cristoforetti",
-        "itemperson3": "Terry Wayne Virts"
+        "relatedastronauts": "Anton Nikolajewitsch Schkaplerow, Samantha Cristoforetti, Terry Wayne Virts"
     },
     {
         "itemname": "Hayabusa 2",
@@ -14987,9 +14793,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Gennadi Iwanowitsch Padalka",
-        "itemperson2": "Michail Borissowitsch Kornijenko",
-        "itemperson3": "Scott Joseph Kelly"
+        "relatedastronauts": "Gennadi Iwanowitsch Padalka, Michail Borissowitsch Kornijenko, Scott Joseph Kelly"
     },
     {
         "itemname": "OTV-4",
@@ -15029,9 +14833,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Oleg Dmitrijewitsch Kononenko",
-        "itemperson2": "Kimiya Yui",
-        "itemperson3": "Kjell Lindgren"
+        "relatedastronauts": "Oleg Dmitrijewitsch Kononenko, Kimiya Yui, Kjell Lindgren"
     },
     {
         "itemname": "HTV-5",
@@ -15073,9 +14875,7 @@
         "itemlocationurl": "https://de.wikipedia.org/wiki/Baikonur",
         "itemlatitude": "45.92",
         "itemlongitude": "63.342",
-        "itemperson": "Sergei Alexandrowitsch Wolkow",
-        "itemperson2": "Andreas Mogensen",
-        "itemperson3": "Aidyn Aimbetow"
+        "relatedastronauts": "Sergei Alexandrowitsch Wolkow, Andreas Mogensen, Aidyn Aimbetow"
     },
     {
         "itemname": "LISA Pathfinder",
@@ -15243,7 +15043,7 @@
         "itemparent": "Atlas V 541",
         "itemparenturl": "https://de.wikipedia.org/wiki/Atlas_V",
         "itemcountry": "US",
-        "itemdestination": "geostationäre Bahn",
+        "itemdestination": "https://de.wikipedia.org/wiki/Geosynchrone_Umlaufbahn",
         "itemlocation": "CCAFS SLC-41",
         "itemlocationurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_41",
         "itemlatitude": "28.5833",
@@ -15335,7 +15135,7 @@
         "itemparent": "Atlas V 541",
         "itemparenturl": "https://de.wikipedia.org/wiki/Atlas_V",
         "itemcountry": "US",
-        "itemdestination": "geostationäre Bahn"
+        "itemdestination": "https://de.wikipedia.org/wiki/Geosynchrone_Umlaufbahn"
     },
     {
         "itemname": "Sojus MS-08",
