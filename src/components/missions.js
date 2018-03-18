@@ -248,9 +248,9 @@ const MissionComponent = ({mission}) => {
       </div>
       <div className="mission-data pure-u-1 pure-u-sm-1-2 pure-u-md-2-3 pure-u-lg-3-5 center">
         <div className="mission-data1 pure-u-md-1-2 pure-u-lg-1-3">
-          <p className="mission-launch pure-u-md-7-24 pure-u-lg-11-24 center">{mission.launchDate}</p>
+          <p className="mission-launch pure-u-md-9-24 pure-u-lg-11-24 center">{mission.launchDate}</p>
           {mission.endDate ? <p className="mission-dash pure-u-md-1-12 pure-u-lg-1-12 center"> - </p> : ''}
-          {mission.endDate ? <p className="mission-end pure-u-md-7-24 pure-u-lg-11-24 center">{mission.endDate}</p> : <p className="mission-end pure-u-md-7-24 pure-u-lg-11-24 center"> ({mission.duration})</p>}
+          {mission.endDate ? <p className="mission-end pure-u-md-9-24 pure-u-lg-11-24 center">{mission.endDate}</p> : <p className="mission-end pure-u-md-7-24 pure-u-lg-11-24 center"> ({mission.duration})</p>}
           {mission.endDate ? <p className="mission-duration pure-u-md-1">({mission.duration})</p> : ''}
         </div>
         <div className="mission-data2 pure-u-md-1-2 pure-u-lg-2-3">
