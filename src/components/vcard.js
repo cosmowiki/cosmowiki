@@ -93,13 +93,15 @@ export default class VcardComponent extends React.Component {
             </div>
             <div id="vcardFooter">
               <div id="vcardHistory">
-                Verlauf: <a href="path/to/subPage">subPage</a> > <a
-                href="path/to/firstVisitedItem">firstVisitedItem</a> > ... > <a
-                href="path/to/lastVisitedItem">lastVisitedItem</a> > <a
-                href="path/to/currentItem">{decodeURIComponent(item.link).replace('https://de.wikipedia.org/wiki/','').replace(/_/gi,' ') }</a>
+                <p>Verlauf: </p>
+                <p className="vcardHistoryLink"><a href="path/to/firstVisitedItem">firstVisitedItem</a></p>
+                <p>> ... ></p>
+                <p className="vcardHistoryLink"><a href="path/to/lastVisitedItem">lastVisitedItem</a></p>
+                <p>></p>
+                <p className="vcardHistoryLink"><a href="path/to/currentItem">{decodeURIComponent(item.link).replace('https://de.wikipedia.org/wiki/','').replace(/_/gi,' ') }</a></p>
               </div>
               <div id="vcardItemWpLink">
-                Artikel in der Wikipedia ansehen: <a href={ item.link } target="_blank">{ decodeURIComponent(item.link).replace('https://de.wikipedia.org/wiki/','').replace(/_/gi,' ') }</a>
+                Artikel in der Wikipedia ansehen: <a href={ item.link } target="_blank">{item.link}</a>
               </div>
             </div>
           </div>
