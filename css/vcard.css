@@ -12,7 +12,7 @@
 #vcardOverlay .close-btn:active {
 	color: #d00; background: rgba(192, 192, 192, .9);
 }
-#vcardOverlay .close-btn:after {content: '\00D7';}
+#vcardOverlay .close-btn:after {margin-top: -.125em; content: '\00D7';}
 
 #vcard {max-height: 100%; overflow-y: scroll; background: #eee;}
 
@@ -21,16 +21,20 @@
 
 #vcardHeader {background: #ddf;}
 
-#vcardArticle {padding: .5em; background: #fff;}
+#vcardArticle {padding: .5em; background: #fff; border-bottom: 5px solid #ccc;}
 #vcardArticle p {margin-bottom: .5em;}
 #vcardRelations {margin-top: .5em; background: #eee;}
 #vcardHistory {white-space: nowrap; overflow: hidden;}
-#vcardHistory a {text-overflow: ellipsis;}
-.item-relations-category {padding: .25em; background: #ddf;}
-.item-relations-list {padding-bottom: .5em;}
+#vcardHistory p {
+  display: inline; margin-right: .5em;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+#vcardHistory p.vcardHistoryLink {text-overflow: ellipsis;}
+
+.item-relations-category {padding: .25em .25em; background: #ddf;}
+.item-relations-list {margin-bottom: .5em; border-bottom: 5px solid #ccc;}
 .item-relations-list li {padding: .25em; background: #fff;}
 .item-relations-list a {white-space: nowrap;}
-.item-relations-list:last-child {padding-bottom: 10px;}
 
 #vcardFooter {font-size: .8em; background: #ddd;}
 #vcardFooter > div {margin: .25em 0;}
@@ -51,20 +55,18 @@
 	#vcard {
 		margin: 2.5em auto; max-width: 1000px;
 		max-height: 90%; max-height: calc(100% - 5em - 4px);
-		border: 2px solid #aaf; border-radius: 5px;
+		border: 2px solid #aaf;
 	}
 	#vcardHeader {border-radius: 5px 5px 0 0;}
 	#vcardOverlay .close-btn {
     position: absolute; top: 0; right: 0; width: 1.225em; height: 1.225em;
     text-align: center; font-size: 2em;
     background: #aaa;
-		border-radius: 0 0 0 5px;
+    border-width: 0 0 1px 1px;
+    border-style: solid;
+    border-color: #aaf;
 	}
 	#vcardOverlay .close-btn:focus,
 	#vcardOverlay .close-btn:hover,
-	#vcardOverlay .close-btn:active {background: #eee;}
-	#vcardArticle {border-radius: 5px;}
-	.item-relations-category {border-radius: 5px 5px 0 0;}
-	.item-relation:last-child {border-radius: 0 0 5px 5px;}
-	#vcardFooter {border-radius: 0 0 5px 5px;}
+	#vcardOverlay .close-btn:active {background: #eee; border-color: #d00;}
 }

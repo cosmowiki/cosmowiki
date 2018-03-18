@@ -36708,7 +36708,7 @@ var MissionComponent = function MissionComponent(_ref2) {
         { className: 'mission-data1 pure-u-md-1-2 pure-u-lg-1-3' },
         _react2['default'].createElement(
           'p',
-          { className: 'mission-launch pure-u-md-7-24 pure-u-lg-11-24 center' },
+          { className: 'mission-launch pure-u-md-9-24 pure-u-lg-11-24 center' },
           mission.launchDate
         ),
         mission.endDate ? _react2['default'].createElement(
@@ -36718,7 +36718,7 @@ var MissionComponent = function MissionComponent(_ref2) {
         ) : '',
         mission.endDate ? _react2['default'].createElement(
           'p',
-          { className: 'mission-end pure-u-md-7-24 pure-u-lg-11-24 center' },
+          { className: 'mission-end pure-u-md-9-24 pure-u-lg-11-24 center' },
           mission.endDate
         ) : _react2['default'].createElement(
           'p',
@@ -42280,32 +42280,47 @@ var VcardComponent = (function (_React$Component) {
               _react2['default'].createElement(
                 'div',
                 { id: 'vcardHistory' },
-                'Verlauf: ',
                 _react2['default'].createElement(
-                  'a',
-                  { href: 'path/to/subPage' },
-                  'subPage'
+                  'p',
+                  null,
+                  'Verlauf: '
                 ),
-                ' > ',
                 _react2['default'].createElement(
-                  'a',
-                  {
-                    href: 'path/to/firstVisitedItem' },
-                  'firstVisitedItem'
+                  'p',
+                  { className: 'vcardHistoryLink' },
+                  _react2['default'].createElement(
+                    'a',
+                    { href: 'path/to/firstVisitedItem' },
+                    'firstVisitedItem'
+                  )
                 ),
-                ' > ... > ',
                 _react2['default'].createElement(
-                  'a',
-                  {
-                    href: 'path/to/lastVisitedItem' },
-                  'lastVisitedItem'
+                  'p',
+                  null,
+                  '> ... >'
                 ),
-                ' > ',
                 _react2['default'].createElement(
-                  'a',
-                  {
-                    href: 'path/to/currentItem' },
-                  decodeURIComponent(item.link).replace('https://de.wikipedia.org/wiki/', '').replace(/_/gi, ' ')
+                  'p',
+                  { className: 'vcardHistoryLink' },
+                  _react2['default'].createElement(
+                    'a',
+                    { href: 'path/to/lastVisitedItem' },
+                    'lastVisitedItem'
+                  )
+                ),
+                _react2['default'].createElement(
+                  'p',
+                  null,
+                  '>'
+                ),
+                _react2['default'].createElement(
+                  'p',
+                  { className: 'vcardHistoryLink' },
+                  _react2['default'].createElement(
+                    'a',
+                    { href: 'path/to/currentItem' },
+                    decodeURIComponent(item.link).replace('https://de.wikipedia.org/wiki/', '').replace(/_/gi, ' ')
+                  )
                 )
               ),
               _react2['default'].createElement(
@@ -42315,7 +42330,7 @@ var VcardComponent = (function (_React$Component) {
                 _react2['default'].createElement(
                   'a',
                   { href: item.link, target: '_blank' },
-                  decodeURIComponent(item.link).replace('https://de.wikipedia.org/wiki/', '').replace(/_/gi, ' ')
+                  item.link
                 )
               )
             )
