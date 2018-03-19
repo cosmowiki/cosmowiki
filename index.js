@@ -34159,7 +34159,7 @@ module.exports = exports['default'];
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
-	value: true
+  value: true
 });
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
@@ -34177,572 +34177,583 @@ var _chunksLetterLinks2 = _interopRequireDefault(_chunksLetterLinks);
 var _chunksSummary = require('./chunks/summary');
 
 var AstronautsComponent = function AstronautsComponent(_ref) {
-	var groupedAstronauts = _ref.groupedAstronauts;
+  var groupedAstronauts = _ref.groupedAstronauts;
 
-	var allFirstLetters = Object.keys(groupedAstronauts);
-	var groupsIterable = allFirstLetters.map(function (key) {
-		return groupedAstronauts[key];
-	});
+  var allFirstLetters = Object.keys(groupedAstronauts);
+  var groupsIterable = allFirstLetters.map(function (key) {
+    return groupedAstronauts[key];
+  });
 
-	return _react2['default'].createElement(
-		'main',
-		{ role: 'main', className: 'pure-u-1' },
-		_react2['default'].createElement(
-			'div',
-			{ id: 'siteTitle', className: 'astronauts pure-u-1 center' },
-			_react2['default'].createElement(
-				'div',
-				{ id: 'siteTitleContainer' },
-				_react2['default'].createElement(
-					'h1',
-					null,
-					'Raumfahrer'
-				),
-				_react2['default'].createElement(
-					'h3',
-					null,
-					'Astronauten, Komsonauten, Taikonauten'
-				)
-			)
-		),
-		_react2['default'].createElement(
-			'div',
-			{ id: 'todo', className: 'pure-u-1' },
-			_react2['default'].createElement(
-				'p',
-				null,
-				'@wolfram: same tasks as in people.js'
-			)
-		),
-		_react2['default'].createElement(
-			_chunksSummary.Summary,
-			null,
-			_react2['default'].createElement(
-				'p',
-				{ className: 'summary-text' },
-				'Nach der Definition der ',
-				_react2['default'].createElement(
-					'em',
-					null,
-					'Fédération Aéronautique Internationale'
-				),
-				' (FAI) beginnt der Weltraum in einer Höhe von 100 km über der Erdoberfläche. Die ',
-				_react2['default'].createElement(
-					'em',
-					null,
-					'International Association of Space Explorers'
-				),
-				' (ASE) und alle internationalen Raumfahrtagenturen erkennen nur solche Personen als Raumfahrer an, welche bei einem Raumflug mindestens eine Erdumkreisung absolviert haben. Somit ist ein Mensch ein Raumfahrer, wenn er die 100-Kilometer-Marke überflogen und dabei mindestens einmal die Erde umkreist hat.'
-			),
-			_react2['default'].createElement(
-				'div',
-				{ className: 'summary-img size-xl' },
-				_react2['default'].createElement(
-					'a',
-					{ href: '/img/astronauts/Jeffrey_Williams_inside_the_Soyuz_TMA-8_spacecraft_lg.jpg', title: 'Jeffrey Williams in der Sojus-TMA-8-Kapsel - Großansicht' },
-					_react2['default'].createElement('img', { src: '/img/astronauts/Jeffrey_Williams_inside_the_Soyuz_TMA-8_spacecraft_sm.jpg', alt: 'Jeffrey Williams in der Sojus-TMA-8-Kapsel' })
-				),
-				_react2['default'].createElement(
-					'p',
-					{ className: 'summary-img-text' },
-					'Jeffrey Williams in der Sojus-TMA-8-Kapsel'
-				)
-			),
-			_react2['default'].createElement(
-				'p',
-				{ className: 'summary-text' },
-				'Doch auch über diese Merkmale hinaus sind Raumfahrer außergewöhnliche Menschen. Enorme körperliche und psychische Belastbarkeit sind nur zwei von vielen Punkten in ihrem Anforderungsprofil. Sie sind hochintelligent und haben viele Jahre an Universitäten und Hochschulen studiert. Studienabschlüsse als Ingenieur, in Naturwissenschaften oder Medizin sind in ihren Lebensläufen zu finden - oft sogar mehrere davon.'
-			),
-			_react2['default'].createElement(
-				'p',
-				{ className: 'summary-text' },
-				'Bemannte Raumfahrt zu betreiben, war ein prestigeträchtiges Unterfangen für eine Nation. Zwischen den beiden Supermächten UdSSR und USA entbrannte ein Wettstreit darum, welches Land den ersten Menschen ins All schicken würde.'
-			),
-			_react2['default'].createElement(
-				'div',
-				{ className: 'summary-img size-lg' },
-				_react2['default'].createElement('img', { src: '/img/astronauts/Gagarin_in_Sweden.jpg', alt: 'Juri Gagarin' }),
-				_react2['default'].createElement(
-					'p',
-					{ className: 'summary-img-text' },
-					'Juri Gagarin'
-				)
-			),
-			_react2['default'].createElement(
-				'p',
-				{ className: 'summary-text' },
-				_react2['default'].createElement(
-					'em',
-					null,
-					'Juri Gagarin'
-				),
-				' umrundete dann am 12. April 1961 mit ',
-				_react2['default'].createElement(
-					'em',
-					null,
-					'Wostok 1'
-				),
-				' als erster Mensch die Erde - die Sowjets hatten dieses Rennen also gewonnen. Der erste US-Amerikaner im All war dann ',
-				_react2['default'].createElement(
-					'em',
-					null,
-					'Alan Shepard'
-				),
-				'. Am 5. Mai 1961 absolvierte er mit ',
-				_react2['default'].createElement(
-					'em',
-					null,
-					'Mercury-Redstone 3'
-				),
-				' einen suborbitalen Flug mit einer Gipfelhöhe von 187 Kilometern. Den ersten amerikanischen Orbitalflug führte ',
-				_react2['default'].createElement(
-					'em',
-					null,
-					'John Glenn'
-				),
-				' am 20. Februar 1962 mit ',
-				_react2['default'].createElement(
-					'em',
-					null,
-					'Mercury-Atlas 6'
-				),
-				' durch.'
-			),
-			_react2['default'].createElement(
-				'p',
-				{ className: 'summary-text' },
-				'In den ersten Jahren der bemannten Raumfahrt wurden Astronauten, oder Kosmonauten, wie sie in der damaligen Sowjetunion genannt wurden, fast ausschließlich aus dem Militär rekrutiert. Langjährige Erfahrungen als Kampf- und Testpiloten und hohes technisches Verständnis qualifizierten nur eine kleine Elite für den vielleicht interessantesten Beruf überhaupt. Diese Auserwählten besetzten die ersten Raumstationen und blieben bis zu mehreren hundert Tagen im All.'
-			),
-			_react2['default'].createElement(
-				'div',
-				{ className: 'summary-img size-sm' },
-				_react2['default'].createElement(
-					'a',
-					{ href: '/img/astronauts/20G_centrifuge_lg.jpg', title: '20-g-Zentrifuge im Ames Research Center der NASA - Großansicht' },
-					_react2['default'].createElement('img', { src: '/img/astronauts/20G_centrifuge_sm.jpg', alt: '20-g-Zentrifuge im Ames Research Center der NASA' })
-				),
-				_react2['default'].createElement(
-					'p',
-					{ className: 'summary-img-text' },
-					'20-g-Zentrifuge, Ames Research Center, NASA'
-				)
-			),
-			_react2['default'].createElement(
-				'p',
-				{ className: 'summary-text' },
-				'Das Training der Astronauten ist legendär. Allein um die ',
-				_react2['default'].createElement(
-					'em',
-					null,
-					'G-Kräfte'
-				),
-				' während des Starts und der Landung eines Raumfluges zu überstehen, sind ausgiebige Übungen in der Zentrifuge nötig. So traten bei den Starts der US-amerikanischen Space-Shuttles etwa 3 bis 4 g auf, die Kosmonauten in den Sojus-Kapseln sind hingegen bei der Landung bis zu 10 g ausgesetzt.'
-			),
-			_react2['default'].createElement(
-				'div',
-				{ className: 'summary-img' },
-				_react2['default'].createElement(
-					'a',
-					{ href: '/img/astronauts/NASA_Apollo_17_Lunar_Roving_Vehicle_lg.jpg', title: 'Lunar Roving Vehicle - Großansicht' },
-					_react2['default'].createElement('img', { src: '/img/astronauts/NASA_Apollo_17_Lunar_Roving_Vehicle_sm.jpg', alt: 'Lunar Roving Vehicle' })
-				),
-				_react2['default'].createElement(
-					'p',
-					{ className: 'summary-img-text' },
-					'Lunar Roving Vehicle'
-				)
-			),
-			_react2['default'].createElement(
-				'p',
-				{ className: 'summary-text' },
-				'Die Schwerelosigkeit im All stellt wiederum völlig andere Anforderungen an den menschlichen Körper, besonders an den Gleichgewichtssinn. Muskel- und Knochenschwund sind die bekanntesten Nebenwirkungen eines Aufenthaltes im Weltall. Für die Raumfahrer auf Langzeitmissionen bedeutet dies, ein intensives Sportprogramm abzuleisten - jeden Tag.'
-			),
-			_react2['default'].createElement(
-				'div',
-				{ className: 'summary-img' },
-				_react2['default'].createElement(
-					'a',
-					{ href: '/img/astronauts/Concept_Mars_colony_lg.jpg', title: 'Besiedlung des Mars - Großansicht' },
-					_react2['default'].createElement('img', { src: '/img/astronauts/Concept_Mars_colony_sm.jpg', alt: 'Besiedlung des Mars' })
-				),
-				_react2['default'].createElement(
-					'p',
-					{ className: 'summary-img-text' },
-					'Besiedlung des Mars'
-				)
-			),
-			_react2['default'].createElement(
-				'p',
-				{ className: 'summary-text' },
-				'In der Ausbildung der Astronauten ist das physische Training hingegen nur ein kleiner Teil. Für eine Mission zur ',
-				_react2['default'].createElement(
-					'em',
-					null,
-					'Internationalen Raumstation'
-				),
-				' (ISS) werden die heutigen Raumfahrer insgesamt zwei Jahre lang geschult. Um überhaupt ausgewählt zu werden, bedarf es einer Menge Durchhaltevermögen und auch Glück. Unter vielen Tausenden Bewerbern schafft es am Ende nur eine Handvoll Kandidaten.'
-			),
-			_react2['default'].createElement(
-				'p',
-				{ className: 'summary-text' },
-				'Die Aufgaben der künftigen Raumfahrer werden sich Schritt für Schritt erweitern. 1972 setzte ',
-				_react2['default'].createElement(
-					'em',
-					null,
-					'Eugene Cernan'
-				),
-				' als bislang letzter Mensch seinen Fuß auf einen anderen Himmelskörper, den ',
-				_react2['default'].createElement(
-					'em',
-					null,
-					'Mond'
-				),
-				'. Die Verlagerung künstlicher Habitate von Raumstationen auf (oder unter) die Oberfläche von Mond und ',
-				_react2['default'].createElement(
-					'em',
-					null,
-					'Mars'
-				),
-				' wird der nächste Meilenstein der bemannten Raumfahrt sein.'
-			),
-			_react2['default'].createElement(
-				'p',
-				{ className: 'summary-text' },
-				'Auch wenn aus Kostengründen künftig mehr und mehr Roboter im All zum Einsatz kommen, wird unser Pioniergeist immer wieder Menschen dort hoch schicken. Die Raumfahrer der Zukunft werden nicht nur fremde Planeten erkunden. Sie werden Botschafter der Menschheit in den Weiten des Weltalls sein.'
-			),
-			_react2['default'].createElement(
-				'h4',
-				null,
-				'Wussten Sie schon?'
-			),
-			_react2['default'].createElement(
-				'ul',
-				{ className: 'summary-list' },
-				_react2['default'].createElement(
-					'li',
-					null,
-					_react2['default'].createElement(
-						'em',
-						null,
-						'German Titow'
-					),
-					' war bei seinem Flug mit ',
-					_react2['default'].createElement(
-						'em',
-						null,
-						'Wostok 2'
-					),
-					' am 6. August 1961 erst 25 Jahre alt. Er ist damit der jüngste Raumfahrer bisher.'
-				),
-				_react2['default'].createElement(
-					'li',
-					null,
-					_react2['default'].createElement(
-						'em',
-						null,
-						'John Glenn'
-					),
-					' ist bislang der älteste Raumfahrer. Bei seinem Start mit ',
-					_react2['default'].createElement(
-						'em',
-						null,
-						'STS-95'
-					),
-					' am 29. Oktober 1998 war er bereits 77 Jahre alt.'
-				),
-				_react2['default'].createElement(
-					'li',
-					null,
-					'Der Kontrukteur ',
-					_react2['default'].createElement(
-						'em',
-						null,
-						'Konstantin Feoktistow'
-					),
-					' und der Arzt ',
-					_react2['default'].createElement(
-						'em',
-						null,
-						'Boris Jegorow'
-					),
-					' an Bord von ',
-					_react2['default'].createElement(
-						'em',
-						null,
-						'Woschod 1'
-					),
-					' waren die ersten Zivilisten im All.'
-				),
-				_react2['default'].createElement(
-					'li',
-					null,
-					'Der Kosmonaut ',
-					_react2['default'].createElement(
-						'em',
-						null,
-						'Waleri Bykowski'
-					),
-					' hält mit vier Tagen und 23 Stunden den Rekord für den längsten Soloflug der Raumfahrtgeschichte.'
-				),
-				_react2['default'].createElement(
-					'li',
-					null,
-					_react2['default'].createElement(
-						'em',
-						null,
-						'Yang Liwei'
-					),
-					' startete am 15. Oktober 2003 als erster chinesischer Raumfahrer, auch Taikonaut genannt, mit ',
-					_react2['default'].createElement(
-						'em',
-						null,
-						'Shenzhou 5'
-					),
-					' ins All.'
-				)
-			)
-		),
-		_react2['default'].createElement(
-			'div',
-			{ id: 'dataArea', className: 'people module pure-u-1' },
-			_react2['default'].createElement(
-				'div',
-				{ id: 'controlArea', className: 'people pure-u-1' },
-				_react2['default'].createElement(
-					'div',
-					{ id: 'controllers', className: 'pure-u-1' },
-					_react2['default'].createElement(
-						'div',
-						{ id: 'sort', className: 'people pure-u-1-2 left' },
-						_react2['default'].createElement(
-							'a',
-							{ href: '#', className: 'toggle-sort', name: 'toggle-sort' },
-							'Sortieren'
-						),
-						_react2['default'].createElement(
-							'div',
-							{ id: 'sortArea' },
-							_react2['default'].createElement(
-								'form',
-								{ id: 'sortAstronauts', className: 'sort-form' },
-								_react2['default'].createElement(
-									'select',
-									{ name: 'sortAstronauts', defaultValue: 'sortAstronautsName' },
-									_react2['default'].createElement(
-										'option',
-										{ value: 'sortAstronautsName' },
-										'Name'
-									),
-									_react2['default'].createElement(
-										'option',
-										{ value: 'sortAstronautsBorn' },
-										'Geburtsdatum'
-									),
-									_react2['default'].createElement(
-										'option',
-										{ value: 'sortAstronautsNumberOfMissions' },
-										'Anzahl Missionen'
-									),
-									_react2['default'].createElement(
-										'option',
-										{ value: 'sortAstronautsTimeInSpace' },
-										'Gesamtzeit im All'
-									),
-									_react2['default'].createElement(
-										'option',
-										{ value: 'sortAstronautsFirstLaunch' },
-										'erster Raumflug'
-									),
-									_react2['default'].createElement(
-										'option',
-										{ value: 'sortAstronautsNumberOfSpacewalks' },
-										'Anzahl EVAs'
-									),
-									_react2['default'].createElement(
-										'option',
-										{ value: 'sortAstronautsDurationOfSpacewalks' },
-										'EVA Gesamtdauer'
-									),
-									'// not important yet, too much items w/o dates'
-								)
-							),
-							_react2['default'].createElement(
-								'div',
-								{ id: 'toggleAscDesc' },
-								_react2['default'].createElement(
-									'label',
-									null,
-									_react2['default'].createElement('input', { className: 'switch', type: 'checkbox' }),
-									_react2['default'].createElement('span', { className: 'slider' }),
-									_react2['default'].createElement('span', { className: 'text' })
-								)
-							)
-						)
-					),
-					_react2['default'].createElement(
-						'div',
-						{ id: 'filter', className: 'astronauts pure-u-1-2 right' },
-						_react2['default'].createElement(
-							'a',
-							{ href: '#', className: 'toggle-filter', name: 'toggle-filter' },
-							'Filtern'
-						),
-						_react2['default'].createElement(
-							'div',
-							{ id: 'filterArea' },
-							_react2['default'].createElement(
-								'form',
-								{ id: 'filterAstronautsByCountry', className: 'filter-form' },
-								_react2['default'].createElement(
-									'label',
-									null,
-									'Land:'
-								),
-								_react2['default'].createElement(
-									'select',
-									{ name: 'astronautsCountries', defaultValue: 'showAllCountries' },
-									_react2['default'].createElement(
-										'option',
-										{ value: 'showAllCountries' },
-										'alle'
-									)
-								)
-							)
-						)
-					)
-				),
-				_react2['default'].createElement(_chunksLetterLinks2['default'], { letters: allFirstLetters })
-			),
-			_react2['default'].createElement(
-				'div',
-				{ id: 'personsTable' },
-				groupsIterable.map(function (group, idx) {
-					return _react2['default'].createElement(AstronautGroupComponent, { group: group, key: idx });
-				})
-			)
-		),
-		_react2['default'].createElement(_notes.AstronautsNotes, null)
-	);
+  return _react2['default'].createElement(
+    'main',
+    { role: 'main', className: 'pure-u-1' },
+    _react2['default'].createElement(
+      'div',
+      { id: 'siteTitle', className: 'astronauts pure-u-1 center' },
+      _react2['default'].createElement(
+        'div',
+        { id: 'siteTitleContainer' },
+        _react2['default'].createElement(
+          'h1',
+          null,
+          'Raumfahrer'
+        ),
+        _react2['default'].createElement(
+          'h3',
+          null,
+          'Astronauten, Komsonauten, Taikonauten'
+        )
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'todo', className: 'pure-u-1' },
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@wolfram: same tasks as in people.js'
+      )
+    ),
+    _react2['default'].createElement(
+      _chunksSummary.Summary,
+      null,
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Nach der Definition der ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Fédération Aéronautique Internationale'
+        ),
+        ' (FAI) beginnt der Weltraum in einer Höhe von 100 km über der Erdoberfläche. Die ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'International Association of Space Explorers'
+        ),
+        ' (ASE) und alle internationalen Raumfahrtagenturen erkennen nur solche Personen als Raumfahrer an, welche bei einem Raumflug mindestens eine Erdumkreisung absolviert haben. Somit ist ein Mensch ein Raumfahrer, wenn er die 100-Kilometer-Marke überflogen und dabei mindestens einmal die Erde umkreist hat.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img size-xl' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/astronauts/Jeffrey_Williams_inside_the_Soyuz_TMA-8_spacecraft_lg.jpg', title: 'Jeffrey Williams in der Sojus-TMA-8-Kapsel - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/astronauts/Jeffrey_Williams_inside_the_Soyuz_TMA-8_spacecraft_sm.jpg', alt: 'Jeffrey Williams in der Sojus-TMA-8-Kapsel' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Jeffrey Williams in der Sojus-TMA-8-Kapsel'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Doch auch über diese Merkmale hinaus sind Raumfahrer außergewöhnliche Menschen. Enorme körperliche und psychische Belastbarkeit sind nur zwei von vielen Punkten in ihrem Anforderungsprofil. Sie sind hochintelligent und haben viele Jahre an Universitäten und Hochschulen studiert. Studienabschlüsse als Ingenieur, in Naturwissenschaften oder Medizin sind in ihren Lebensläufen zu finden - oft sogar mehrere davon.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Bemannte Raumfahrt zu betreiben, war ein prestigeträchtiges Unterfangen für eine Nation. Zwischen den beiden Supermächten UdSSR und USA entbrannte ein Wettstreit darum, welches Land den ersten Menschen ins All schicken würde.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img size-lg' },
+        _react2['default'].createElement('img', { src: '/img/astronauts/Gagarin_in_Sweden.jpg', alt: 'Juri Gagarin' }),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Juri Gagarin'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Juri Gagarin'
+        ),
+        ' umrundete dann am 12. April 1961 mit ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Wostok 1'
+        ),
+        ' als erster Mensch die Erde - die Sowjets hatten dieses Rennen also gewonnen. Der erste US-Amerikaner im All war dann ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Alan Shepard'
+        ),
+        '. Am 5. Mai 1961 absolvierte er mit ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Mercury-Redstone 3'
+        ),
+        ' einen suborbitalen Flug mit einer Gipfelhöhe von 187 Kilometern. Den ersten amerikanischen Orbitalflug führte ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'John Glenn'
+        ),
+        ' am 20. Februar 1962 mit ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Mercury-Atlas 6'
+        ),
+        ' durch.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'In den ersten Jahren der bemannten Raumfahrt wurden Astronauten, oder Kosmonauten, wie sie in der damaligen Sowjetunion genannt wurden, fast ausschließlich aus dem Militär rekrutiert. Langjährige Erfahrungen als Kampf- und Testpiloten und hohes technisches Verständnis qualifizierten nur eine kleine Elite für den vielleicht interessantesten Beruf überhaupt. Diese Auserwählten besetzten die ersten Raumstationen und blieben bis zu mehreren hundert Tagen im All.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img size-sm' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/astronauts/20G_centrifuge_lg.jpg', title: '20-g-Zentrifuge im Ames Research Center der NASA - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/astronauts/20G_centrifuge_sm.jpg', alt: '20-g-Zentrifuge im Ames Research Center der NASA' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          '20-g-Zentrifuge, Ames Research Center, NASA'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Das Training der Astronauten ist legendär. Allein um die ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'G-Kräfte'
+        ),
+        ' während des Starts und der Landung eines Raumfluges zu überstehen, sind ausgiebige Übungen in der Zentrifuge nötig. So traten bei den Starts der US-amerikanischen Space-Shuttles etwa 3 bis 4 g auf, die Kosmonauten in den Sojus-Kapseln sind hingegen bei der Landung bis zu 10 g ausgesetzt.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/astronauts/NASA_Apollo_17_Lunar_Roving_Vehicle_lg.jpg', title: 'Lunar Roving Vehicle - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/astronauts/NASA_Apollo_17_Lunar_Roving_Vehicle_sm.jpg', alt: 'Lunar Roving Vehicle' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Lunar Roving Vehicle'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Die Schwerelosigkeit im All stellt wiederum völlig andere Anforderungen an den menschlichen Körper, besonders an den Gleichgewichtssinn. Muskel- und Knochenschwund sind die bekanntesten Nebenwirkungen eines Aufenthaltes im Weltall. Für die Raumfahrer auf Langzeitmissionen bedeutet dies, ein intensives Sportprogramm abzuleisten - jeden Tag.'
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'summary-img' },
+        _react2['default'].createElement(
+          'a',
+          { href: '/img/astronauts/Concept_Mars_colony_lg.jpg', title: 'Besiedlung des Mars - Großansicht' },
+          _react2['default'].createElement('img', { src: '/img/astronauts/Concept_Mars_colony_sm.jpg', alt: 'Besiedlung des Mars' })
+        ),
+        _react2['default'].createElement(
+          'p',
+          { className: 'summary-img-text' },
+          'Besiedlung des Mars'
+        )
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'In der Ausbildung der Astronauten ist das physische Training hingegen nur ein kleiner Teil. Für eine Mission zur ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Internationalen Raumstation'
+        ),
+        ' (ISS) werden die heutigen Raumfahrer insgesamt zwei Jahre lang geschult. Um überhaupt ausgewählt zu werden, bedarf es einer Menge Durchhaltevermögen und auch Glück. Unter vielen Tausenden Bewerbern schafft es am Ende nur eine Handvoll Kandidaten.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Die Aufgaben der künftigen Raumfahrer werden sich Schritt für Schritt erweitern. 1972 setzte ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Eugene Cernan'
+        ),
+        ' als bislang letzter Mensch seinen Fuß auf einen anderen Himmelskörper, den ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Mond'
+        ),
+        '. Die Verlagerung künstlicher Habitate von Raumstationen auf (oder unter) die Oberfläche von Mond und ',
+        _react2['default'].createElement(
+          'em',
+          null,
+          'Mars'
+        ),
+        ' wird der nächste Meilenstein der bemannten Raumfahrt sein.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Auch wenn aus Kostengründen künftig mehr und mehr Roboter im All zum Einsatz kommen, wird unser Pioniergeist immer wieder Menschen dort hoch schicken. Die Raumfahrer der Zukunft werden nicht nur fremde Planeten erkunden. Sie werden Botschafter der Menschheit in den Weiten des Weltalls sein.'
+      ),
+      _react2['default'].createElement(
+        'h4',
+        null,
+        'Wussten Sie schon?'
+      ),
+      _react2['default'].createElement(
+        'ul',
+        { className: 'summary-list' },
+        _react2['default'].createElement(
+          'li',
+          null,
+          _react2['default'].createElement(
+            'em',
+            null,
+            'German Titow'
+          ),
+          ' war bei seinem Flug mit ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Wostok 2'
+          ),
+          ' am 6. August 1961 erst 25 Jahre alt. Er ist damit der jüngste Raumfahrer bisher.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          _react2['default'].createElement(
+            'em',
+            null,
+            'John Glenn'
+          ),
+          ' ist bislang der älteste Raumfahrer. Bei seinem Start mit ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'STS-95'
+          ),
+          ' am 29. Oktober 1998 war er bereits 77 Jahre alt.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Der Kontrukteur ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Konstantin Feoktistow'
+          ),
+          ' und der Arzt ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Boris Jegorow'
+          ),
+          ' an Bord von ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Woschod 1'
+          ),
+          ' waren die ersten Zivilisten im All.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          'Der Kosmonaut ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Waleri Bykowski'
+          ),
+          ' hält mit vier Tagen und 23 Stunden den Rekord für den längsten Soloflug der Raumfahrtgeschichte.'
+        ),
+        _react2['default'].createElement(
+          'li',
+          null,
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Yang Liwei'
+          ),
+          ' startete am 15. Oktober 2003 als erster chinesischer Raumfahrer, auch Taikonaut genannt, mit ',
+          _react2['default'].createElement(
+            'em',
+            null,
+            'Shenzhou 5'
+          ),
+          ' ins All.'
+        )
+      )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'dataArea', className: 'people module pure-u-1' },
+      _react2['default'].createElement(
+        'div',
+        { id: 'controlArea', className: 'people pure-u-1' },
+        _react2['default'].createElement(
+          'div',
+          { id: 'controllers', className: 'pure-u-1' },
+          _react2['default'].createElement(
+            'div',
+            { id: 'sort', className: 'people pure-u-1-2 left' },
+            _react2['default'].createElement(
+              'a',
+              { href: '#', className: 'toggle-sort', name: 'toggle-sort' },
+              'Sortieren'
+            ),
+            _react2['default'].createElement(
+              'div',
+              { id: 'sortArea' },
+              _react2['default'].createElement(
+                'form',
+                { id: 'sortAstronauts', className: 'sort-form' },
+                _react2['default'].createElement(
+                  'select',
+                  { name: 'sortAstronauts', defaultValue: 'sortAstronautsName' },
+                  _react2['default'].createElement(
+                    'option',
+                    { value: 'sortAstronautsName' },
+                    'Name'
+                  ),
+                  _react2['default'].createElement(
+                    'option',
+                    { value: 'sortAstronautsBorn' },
+                    'Geburtsdatum'
+                  ),
+                  _react2['default'].createElement(
+                    'option',
+                    { value: 'sortAstronautsNumberOfMissions' },
+                    'Anzahl Missionen'
+                  ),
+                  _react2['default'].createElement(
+                    'option',
+                    { value: 'sortAstronautsTimeInSpace' },
+                    'Gesamtzeit im All'
+                  ),
+                  _react2['default'].createElement(
+                    'option',
+                    { value: 'sortAstronautsFirstLaunch' },
+                    'erster Raumflug'
+                  ),
+                  _react2['default'].createElement(
+                    'option',
+                    { value: 'sortAstronautsNumberOfSpacewalks' },
+                    'Anzahl EVAs'
+                  ),
+                  _react2['default'].createElement(
+                    'option',
+                    { value: 'sortAstronautsDurationOfSpacewalks' },
+                    'EVA Gesamtdauer'
+                  ),
+                  '// not important yet, too much items w/o dates'
+                )
+              ),
+              _react2['default'].createElement(
+                'div',
+                { id: 'toggleAscDesc' },
+                _react2['default'].createElement(
+                  'label',
+                  null,
+                  _react2['default'].createElement('input', { className: 'switch', type: 'checkbox' }),
+                  _react2['default'].createElement('span', { className: 'slider' }),
+                  _react2['default'].createElement('span', { className: 'text' })
+                )
+              )
+            )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { id: 'filter', className: 'astronauts pure-u-1-2 right' },
+            _react2['default'].createElement(
+              'a',
+              { href: '#', className: 'toggle-filter', name: 'toggle-filter' },
+              'Filtern'
+            ),
+            _react2['default'].createElement(
+              'div',
+              { id: 'filterArea' },
+              _react2['default'].createElement(
+                'form',
+                { id: 'filterAstronautsByCountry', className: 'filter-form' },
+                _react2['default'].createElement(
+                  'label',
+                  null,
+                  'Land:'
+                ),
+                _react2['default'].createElement(
+                  'select',
+                  { name: 'astronautsCountries', defaultValue: 'showAllCountries' },
+                  _react2['default'].createElement(
+                    'option',
+                    { value: 'showAllCountries' },
+                    'alle'
+                  )
+                )
+              )
+            )
+          )
+        ),
+        _react2['default'].createElement(_chunksLetterLinks2['default'], { letters: allFirstLetters })
+      ),
+      _react2['default'].createElement(
+        'div',
+        { id: 'personsTable' },
+        groupsIterable.map(function (group, idx) {
+          return _react2['default'].createElement(AstronautGroupComponent, { group: group, key: idx });
+        })
+      )
+    ),
+    _react2['default'].createElement(_notes.AstronautsNotes, null)
+  );
 };
 
 exports['default'] = AstronautsComponent;
 
+var flags = function flags(countries) {
+  var flagimages = countries.map(function (country) {
+    return _react2['default'].createElement('img', { src: "/img/flags/" + country + ".png", alt: country, title: country, key: country });
+  });
+  return _react2['default'].createElement(
+    'p',
+    { className: 'astronaut-country' },
+    flagimages
+  );
+};
+
 var AstronautGroupComponent = function AstronautGroupComponent(_ref2) {
-	var group = _ref2.group;
+  var group = _ref2.group;
 
-	var groupKey = group.key;
-	var astronauts = group.data;
+  var groupKey = group.key;
+  var astronauts = group.data;
 
-	return _react2['default'].createElement(
-		'div',
-		{ id: groupKey, className: 'letter-section pure-u-1' },
-		_react2['default'].createElement(
-			'div',
-			{ className: 'leading-letter pure-u-1 center' },
-			_react2['default'].createElement(
-				'p',
-				{ name: '#' + groupKey },
-				groupKey
-			)
-		),
-		astronauts.map(function (astronaut, idx) {
-			return _react2['default'].createElement(AstronautComponent, { astronaut: astronaut, key: idx });
-		})
-	);
+  return _react2['default'].createElement(
+    'div',
+    { id: groupKey, className: 'letter-section pure-u-1' },
+    _react2['default'].createElement(
+      'div',
+      { className: 'leading-letter pure-u-1 center' },
+      _react2['default'].createElement(
+        'p',
+        { name: '#' + groupKey },
+        groupKey
+      )
+    ),
+    astronauts.map(function (astronaut, idx) {
+      return _react2['default'].createElement(AstronautComponent, { astronaut: astronaut, key: idx });
+    })
+  );
 };
 
 var AstronautComponent = function AstronautComponent(_ref3) {
-	var astronaut = _ref3.astronaut;
+  var astronaut = _ref3.astronaut;
 
-	return _react2['default'].createElement(
-		'div',
-		{ className: 'astronaut-card' },
-		_react2['default'].createElement(
-			'div',
-			{ className: 'astronaut-card-container' },
-			_react2['default'].createElement(
-				'div',
-				{ className: 'astronaut-name' },
-				_react2['default'].createElement(
-					'a',
-					{ href: astronaut.link, title: astronaut.name },
-					astronaut.name
-				),
-				_react2['default'].createElement('img', { src: astronaut.flag, alt: astronaut.country, title: astronaut.country })
-			),
-			_react2['default'].createElement(
-				'div',
-				{ className: 'astronaut-info' },
-				astronaut.imgSmallUrl ? _react2['default'].createElement(
-					'div',
-					{ className: 'astronaut-img' },
-					_react2['default'].createElement(
-						'a',
-						{ href: astronaut.imgUrl, title: astronaut.name },
-						_react2['default'].createElement('img', { src: astronaut.imgSmallUrl, alt: astronaut.name, title: astronaut.name })
-					)
-				) : '',
-				_react2['default'].createElement(
-					'div',
-					{ className: 'astronaut-data' },
-					astronaut.born ? _react2['default'].createElement(
-						'p',
-						{ className: 'astronaut-life' },
-						_react2['default'].createElement(
-							'span',
-							{ className: 'astronaut-born' },
-							'* ',
-							astronaut.born
-						),
-						astronaut.died ? _react2['default'].createElement(
-							'span',
-							{ className: 'astronaut-died' },
-							'† ',
-							astronaut.died
-						) : ''
-					) : '',
-					astronaut.missions ? _react2['default'].createElement(
-						'p',
-						{ className: 'astronaut-missions' },
-						astronaut.numberOfMissions ? _react2['default'].createElement(
-							'span',
-							{ className: 'astronaut-numberofmissions' },
-							'Flüge: ',
-							astronaut.numberOfMissions
-						) : '',
-						astronaut.timeInSpace ? _react2['default'].createElement(
-							'span',
-							{ className: 'astronaut-timeinspace' },
-							'gesamt: ',
-							astronaut.timeInSpace
-						) : '',
-						astronaut.firstLaunch ? _react2['default'].createElement(
-							'span',
-							{ className: 'astronaut-firstflight' },
-							'erster Flug: ',
-							astronaut.firstLaunch
-						) : ''
-					) : '',
-					astronaut.numberOfSpacewalks ? _react2['default'].createElement(
-						'p',
-						{ className: 'astronaut-spacewalks' },
-						_react2['default'].createElement(
-							'span',
-							{ className: 'astronaut-numberofspacewalks' },
-							'EVAs: ',
-							astronaut.numberOfSpacewalks
-						),
-						_react2['default'].createElement(
-							'span',
-							{ className: 'astronaut-durationofspacewalks' },
-							'Gesamtdauer: ',
-							astronaut.durationOfSpacewalks
-						)
-					) : ''
-				)
-			)
-		)
-	);
+  return _react2['default'].createElement(
+    'div',
+    { className: 'astronaut-card' },
+    _react2['default'].createElement(
+      'div',
+      { className: 'astronaut-card-container' },
+      _react2['default'].createElement(
+        'div',
+        { className: 'astronaut-name' },
+        _react2['default'].createElement(
+          'a',
+          { href: astronaut.link, title: astronaut.name },
+          astronaut.name
+        ),
+        astronaut.countries.length == 0 ? '' : flags(astronaut.countries)
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'astronaut-info' },
+        astronaut.imgSmallUrl ? _react2['default'].createElement(
+          'div',
+          { className: 'astronaut-img' },
+          _react2['default'].createElement(
+            'a',
+            { href: astronaut.imgUrl, title: astronaut.name },
+            _react2['default'].createElement('img', { src: astronaut.imgSmallUrl, alt: astronaut.name, title: astronaut.name })
+          )
+        ) : '',
+        _react2['default'].createElement(
+          'div',
+          { className: 'astronaut-data' },
+          astronaut.born ? _react2['default'].createElement(
+            'p',
+            { className: 'astronaut-life' },
+            _react2['default'].createElement(
+              'span',
+              { className: 'astronaut-born' },
+              '* ',
+              astronaut.born
+            ),
+            astronaut.died ? _react2['default'].createElement(
+              'span',
+              { className: 'astronaut-died' },
+              '† ',
+              astronaut.died
+            ) : ''
+          ) : '',
+          astronaut.missions ? _react2['default'].createElement(
+            'p',
+            { className: 'astronaut-missions' },
+            astronaut.numberOfMissions ? _react2['default'].createElement(
+              'span',
+              { className: 'astronaut-numberofmissions' },
+              'Flüge: ',
+              astronaut.numberOfMissions
+            ) : '',
+            astronaut.timeInSpace ? _react2['default'].createElement(
+              'span',
+              { className: 'astronaut-timeinspace' },
+              'gesamt: ',
+              astronaut.timeInSpace
+            ) : '',
+            astronaut.firstLaunch ? _react2['default'].createElement(
+              'span',
+              { className: 'astronaut-firstflight' },
+              'erster Flug: ',
+              astronaut.firstLaunch
+            ) : ''
+          ) : '',
+          astronaut.numberOfSpacewalks ? _react2['default'].createElement(
+            'p',
+            { className: 'astronaut-spacewalks' },
+            _react2['default'].createElement(
+              'span',
+              { className: 'astronaut-numberofspacewalks' },
+              'EVAs: ',
+              astronaut.numberOfSpacewalks
+            ),
+            _react2['default'].createElement(
+              'span',
+              { className: 'astronaut-durationofspacewalks' },
+              'Gesamtdauer: ',
+              astronaut.durationOfSpacewalks
+            )
+          ) : ''
+        )
+      )
+    )
+  );
 };
 module.exports = exports['default'];
 
@@ -43300,7 +43311,9 @@ var Astronaut = (function () {
     this.link = link;
     this.imgSmallUrl = imgSmallUrl;
     this.imgUrl = imgUrl;
-    this.country = country;
+    this.countries = country.split(',').map(function (country) {
+      return country.trim();
+    });
     this.flag = flag;
     this.agency = agency;
     this.agencyurl = agencyUrl;

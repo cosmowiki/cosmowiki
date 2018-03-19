@@ -10,7 +10,7 @@
 	background: url('../img/title_astronomers.jpg') center / cover no-repeat;
 }
 
-/*	person & scientist -------------------------------------------------------*/
+/*	persons & scientists -------------------------------------------------------*/
 .person-row, .scientist-row {padding: .2em 0;}
 
 .person-name, .scientist-name {font-size: 1rem; text-align: center;}
@@ -23,7 +23,7 @@
 .person-born p, .scientist-born p {margin-right: .2em; text-align: right;}
 .person-died p, .scientist-died p {margin-left: .2em; text-align: left;}
 
-/*	astronaut ----------------------------------------------------------------*/
+/*	astronauts ----------------------------------------------------------------*/
 .leading-letter p {border: none;}
 
 .astronaut-card {display: inline-block; width: 100%; font-size: .9rem;}
@@ -42,6 +42,8 @@
 .astronaut-name,
 .astronaut-info {padding: .25em;}
 .astronaut-name {background: rgba(0, 0, 255, .1);}
+.astronaut-name a,
+.astronaut-name p.astronaut-country {display: inline;}
 .astronaut-name img {margin-left: .5em; height: .75em;}
 
 .astronaut-info {
