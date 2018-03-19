@@ -165,7 +165,7 @@
         "itemdate3year": 1976,
         "itemdate3month": "09",
         "itemdate3day": "15",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 22, Saljut 6, Sojus T-2"
     },
     {
@@ -213,28 +213,6 @@
     },
     {
         "itemname": "Alexandrow",
-        "itemurl": "https://de.wikipedia.org/wiki/Alexander_Pawlowitsch_Alexandrow",
-        "itemname2": "Alexander Pawlowitsch",
-        "itemdescription": "Sojus T-9, Sojus TM-3",
-        "itemmissions": 2,
-        "itemtype": "2",
-        "itemcolor": "/img/flags/SU.png",
-        "itemcategory": "Raumfahrer",
-        "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemdateyear": "1943",
-        "itemdatemonth": "02",
-        "itemdateday": "20",
-        "itemtime2": "309 d 18:02 h",
-        "itemdate3year": 1983,
-        "itemdate3month": "06",
-        "itemdate3day": "27",
-        "itemduration": "5:44 h",
-        "itemstatus": 2,
-        "itemcountry": "SU, RU",
-        "itemtags": "Sojus T-9, Saljut 7, Sojus TM-3, Mir"
-    },
-    {
-        "itemname": "Alexandrow",
         "itemurl": "https://de.wikipedia.org/wiki/Alexandar_Panaiotow_Alexandrow",
         "itemname2": "Alexandar Panaiotow",
         "itemdescription": "Sojus TM-5/Sojus TM-4 (Mir EP-2)",
@@ -252,6 +230,48 @@
         "itemdate3day": "07",
         "itemcountry": "BG",
         "itemtags": "Sojus 33, Saljut 6, Sojus TM-5, Mir"
+    },
+    {
+        "itemname": "Alexandrow",
+        "itemurl": "https://de.wikipedia.org/wiki/Alexander_Pawlowitsch_Alexandrow",
+        "itemname2": "Alexander Pawlowitsch",
+        "itemdescription": "Sojus T-9, Sojus TM-3",
+        "itemmissions": 2,
+        "itemtype": "2",
+        "itemcolor": "/img/flags/SU.png",
+        "itemcategory": "Raumfahrer",
+        "itemimgsmallurl": "/img/astronauts/dummy.jpg",
+        "itemdateyear": "1943",
+        "itemdatemonth": "02",
+        "itemdateday": "20",
+        "itemtime2": "309 d 18:02 h",
+        "itemdate3year": 1983,
+        "itemdate3month": "06",
+        "itemdate3day": "27",
+        "itemduration": "5:44 h",
+        "itemstatus": 2,
+        "itemcountry": "SU",
+        "itemtags": "Sojus T-9, Saljut 7, Sojus TM-3, Mir"
+    },
+    {
+        "itemname": "Allen",
+        "itemurl": "https://de.wikipedia.org/wiki/Andrew_M._Allen",
+        "itemname2": "Andrew Michael (Andy)",
+        "itemdescription": "STS-46, STS-62, STS-75",
+        "itemmissions": 3,
+        "itemtype": "2",
+        "itemcolor": "/img/flags/USA.png",
+        "itemcategory": "Raumfahrer",
+        "itemimgsmallurl": "/img/astronauts/allen_andrew.jpg",
+        "itemdateyear": "1955",
+        "itemdatemonth": "08",
+        "itemdateday": "04",
+        "itemtime2": "37 d 16:12 h",
+        "itemdate3year": 1992,
+        "itemdate3month": "07",
+        "itemdate3day": "31",
+        "itemcountry": "US",
+        "itemtags": "STS-46, Atlantis, EURECA, STS-62, Columbia, STS-75"
     },
     {
         "itemname": "Allen",
@@ -293,26 +313,6 @@
         "itemstatus": 2,
         "itemcountry": "US",
         "itemtags": "STS-5, Columbia, STS-51-A, Discovery"
-    },
-    {
-        "itemname": "Allen",
-        "itemurl": "https://de.wikipedia.org/wiki/Andrew_M._Allen",
-        "itemname2": "Andrew Michael (Andy)",
-        "itemdescription": "STS-46, STS-62, STS-75",
-        "itemmissions": 3,
-        "itemtype": "2",
-        "itemcolor": "/img/flags/USA.png",
-        "itemcategory": "Raumfahrer",
-        "itemimgsmallurl": "/img/astronauts/allen_andrew.jpg",
-        "itemdateyear": "1955",
-        "itemdatemonth": "08",
-        "itemdateday": "04",
-        "itemtime2": "37 d 16:12 h",
-        "itemdate3year": 1992,
-        "itemdate3month": "07",
-        "itemdate3day": "31",
-        "itemcountry": "US",
-        "itemtags": "STS-46, Atlantis, EURECA, STS-62, Columbia, STS-75"
     },
     {
         "itemname": "Altman",
@@ -552,7 +552,7 @@
         "itemdateyear": "1970",
         "itemdatemonth": "12",
         "itemdateday": "28",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "ISS-Expedition 39/ISS-Expedition 40 (Sojus TMA-12M), vorgesehen für ISS-Expedition 55/56 (Sojus MS-08)"
     },
     {
@@ -575,7 +575,7 @@
         "itemdate3year": 1974,
         "itemdate3month": "07",
         "itemdate3day": "03",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 14"
     },
     {
@@ -597,7 +597,7 @@
         "itemdate3day": "18",
         "itemduration": "32:17 h",
         "itemstatus": 6,
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus TM-12"
     },
     {
@@ -638,7 +638,7 @@
         "itemdate3year": 1984,
         "itemdate3month": "02",
         "itemdate3day": "08",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Saljut 7 EO-3, Sojus T-10, Sojus T-11"
     },
     {
@@ -658,7 +658,7 @@
         "itemdate3year": 1991,
         "itemdate3month": "10",
         "itemdate3day": "02",
-        "itemcountry": "SU, RU",
+        "itemcountry": "KZ",
         "itemtags": "Sojus TM-13, Sojus TM-12"
     },
     {
@@ -680,7 +680,7 @@
         "itemdate3day": "27",
         "itemduration": "42:02 h",
         "itemstatus": 10,
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Mir EO-12, Sojus TM-15, Mir EO-20, Euromir 95, Sojus TM-22, Sojus TM-28"
     },
     {
@@ -765,7 +765,7 @@
         "itemdate3day": "11",
         "itemduration": "10:47 h",
         "itemstatus": 2,
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus TM-9"
     },
     {
@@ -865,7 +865,7 @@
         "itemdateyear": "1949",
         "itemdatemonth": "06",
         "itemdateday": "12",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Mir EP-4 Sojus TM-28, Sojus TM-27, Sojus TM-32, Sojus TM-31, Weltraumtourist"
     },
     {
@@ -936,7 +936,7 @@
         "itemdate2year": "1970",
         "itemdate2month": "01",
         "itemdate2day": "10",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Woschod 2, Außenbordeinsatz, Weltraumausstieg, EVA"
     },
     {
@@ -972,7 +972,7 @@
         "itemdate2year": "1995",
         "itemdate2month": "06",
         "itemdate2day": "30",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 3"
     },
     {
@@ -991,7 +991,7 @@
         "itemdate2year": "2014",
         "itemdate2month": "09",
         "itemdate2day": "20",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus T-5"
     },
     {
@@ -1172,7 +1172,7 @@
         "itemdateyear": "1964",
         "itemdatemonth": "04",
         "itemdateday": "17",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TMA-21"
     },
     {
@@ -1353,23 +1353,6 @@
     },
     {
         "itemname": "Brown",
-        "itemurl": "https://de.wikipedia.org/wiki/Mark_Neil_Brown",
-        "itemname2": "Mark Neil",
-        "itemdescription": "STS-28, STS-48",
-        "itemmissions": 2,
-        "itemtype": "3",
-        "itemcolor": "/img/flags/USA.png",
-        "itemcategory": "Raumfahrer, Pilot",
-        "itemimgsmallurl": "/img/astronauts/brown_mark_sm.jpg",
-        "itemimgurl": "/img/astronauts/brown_mark_lg.jpg",
-        "itemdateyear": "1951",
-        "itemdatemonth": "11",
-        "itemdateday": "18",
-        "itemcountry": "US",
-        "itemtags": "STS-28, STS-48"
-    },
-    {
-        "itemname": "Brown",
         "itemurl": "https://de.wikipedia.org/wiki/Curtis_Brown_(Astronaut)",
         "itemname2": "Curtis ",
         "itemdescription": "STS-47, STS-66, STS-77, STS-85, STS-95, STS-103",
@@ -1404,6 +1387,23 @@
         "itemdate2day": "01",
         "itemcountry": "US",
         "itemtags": "STS-107"
+    },
+    {
+        "itemname": "Brown",
+        "itemurl": "https://de.wikipedia.org/wiki/Mark_Neil_Brown",
+        "itemname2": "Mark Neil",
+        "itemdescription": "STS-28, STS-48",
+        "itemmissions": 2,
+        "itemtype": "3",
+        "itemcolor": "/img/flags/USA.png",
+        "itemcategory": "Raumfahrer, Pilot",
+        "itemimgsmallurl": "/img/astronauts/brown_mark_sm.jpg",
+        "itemimgurl": "/img/astronauts/brown_mark_lg.jpg",
+        "itemdateyear": "1951",
+        "itemdatemonth": "11",
+        "itemdateday": "18",
+        "itemcountry": "US",
+        "itemtags": "STS-28, STS-48"
     },
     {
         "itemname": "Buchli",
@@ -1453,7 +1453,7 @@
         "itemdateyear": "1953",
         "itemdatemonth": "04",
         "itemdateday": "29",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "STS-71, Koppelung, Space Shuttle, MIR, Sojus TM-27, ISS-Expedition 6, STS-113, Sojus TMA-1"
     },
     {
@@ -1503,7 +1503,7 @@
         "itemdateyear": "1934",
         "itemdatemonth": "08",
         "itemdateday": "02",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Wostok 5, Sojus 22, Sojus 31, Saljut 6 EP-4, Sojus 29"
     },
     {
@@ -1850,7 +1850,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 5, Sojus 4"
     },
     {
@@ -2245,7 +2245,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/deschurow_wladimir_sm.jpg",
         "itemimgurl": "/img/astronauts/deschurow_wladimir_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Mir EO-18, Sojus TM-21, STS-71, ISS-Expedition 3, STS-105, STS-108"
     },
     {
@@ -2258,7 +2258,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/djomin_lew.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 15"
     },
     {
@@ -2271,7 +2271,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dobrowolski_georgi.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 11"
     },
     {
@@ -2329,7 +2329,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dschanibekow_wladimir_sm.jpg",
         "itemimgurl": "/img/astronauts/dschanibekow_wladimir_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 27, Sojus 39, Sojus T-6, Sojus T-12, Saljut 7 EO-4, Sojus T-13"
     },
     {
@@ -2582,7 +2582,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Woschod 1"
     },
     {
@@ -2637,7 +2637,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 7, Sojus 16"
     },
     {
@@ -2656,6 +2656,20 @@
     },
     {
         "itemname": "Fisher",
+        "itemurl": "https://de.wikipedia.org/wiki/Anna_Lee_Tingle_Fisher",
+        "itemname2": "Anna Lee Tingle",
+        "itemdescription": "STS-51-A",
+        "itemmissions": 1,
+        "itemtype": "2",
+        "itemcolor": "/img/flags/USA.png",
+        "itemcategory": "Raumfahrer",
+        "itemimgsmallurl": "/img/astronauts/fisher_anna_sm.jpg",
+        "itemimgurl": "/img/astronauts/fisher_anna_lg.jpg",
+        "itemcountry": "US",
+        "itemtags": "STS-51-A"
+    },
+    {
+        "itemname": "Fisher",
         "itemurl": "https://de.wikipedia.org/wiki/Jack_Fischer",
         "itemname2": "Jack David",
         "itemdescription": "ISS-Expedition 51/52 (Sojus MS-04)",
@@ -2670,20 +2684,6 @@
         "itemdateday": "23",
         "itemcountry": "US",
         "itemtags": "ISS-Expedition 51/52 (Sojus MS-04)"
-    },
-    {
-        "itemname": "Fisher",
-        "itemurl": "https://de.wikipedia.org/wiki/Anna_Lee_Tingle_Fisher",
-        "itemname2": "Anna Lee Tingle",
-        "itemdescription": "STS-51-A",
-        "itemmissions": 1,
-        "itemtype": "2",
-        "itemcolor": "/img/flags/USA.png",
-        "itemcategory": "Raumfahrer",
-        "itemimgsmallurl": "/img/astronauts/fisher_anna_sm.jpg",
-        "itemimgurl": "/img/astronauts/fisher_anna_lg.jpg",
-        "itemcountry": "US",
-        "itemtags": "STS-51-A"
     },
     {
         "itemname": "Fisher",
@@ -2893,7 +2893,7 @@
         "itemimgsmallurl": "/img/astronauts/gagarin_juri.jpg",
         "itemdateyear": "1934",
         "itemdate2year": "1968",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Wostok 1"
     },
     {
@@ -2968,20 +2968,6 @@
     },
     {
         "itemname": "Garriott",
-        "itemurl": "https://de.wikipedia.org/wiki/Richard_Garriott",
-        "itemname2": "Richard",
-        "itemdescription": "Sojus TMA-13/Sojus TMA-12",
-        "itemmissions": 1,
-        "itemtype": "2",
-        "itemcolor": "/img/flags/USA.png",
-        "itemcategory": "Raumfahrer",
-        "itemimgsmallurl": "/img/astronauts/garriott_richard_sm.jpg",
-        "itemimgurl": "/img/astronauts/garriott_richard_lg.jpg",
-        "itemcountry": "US",
-        "itemtags": "Sojus TMA-13/Sojus TMA-12"
-    },
-    {
-        "itemname": "Garriott",
         "itemurl": "https://de.wikipedia.org/wiki/Owen_Kay_Garriott",
         "itemname2": "Owen Kay",
         "itemdescription": "Skylab 3, STS-9",
@@ -2993,6 +2979,20 @@
         "itemimgurl": "/img/astronauts/garriott_owen_lg.jpg",
         "itemcountry": "US",
         "itemtags": "Skylab 3, STS-9"
+    },
+    {
+        "itemname": "Garriott",
+        "itemurl": "https://de.wikipedia.org/wiki/Richard_Garriott",
+        "itemname2": "Richard",
+        "itemdescription": "Sojus TMA-13/Sojus TMA-12",
+        "itemmissions": 1,
+        "itemtype": "2",
+        "itemcolor": "/img/flags/USA.png",
+        "itemcategory": "Raumfahrer",
+        "itemimgsmallurl": "/img/astronauts/garriott_richard_sm.jpg",
+        "itemimgurl": "/img/astronauts/garriott_richard_lg.jpg",
+        "itemcountry": "US",
+        "itemtags": "Sojus TMA-13/Sojus TMA-12"
     },
     {
         "itemname": "Gemar",
@@ -3078,7 +3078,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/gidsenko_juri_sm.jpg",
         "itemimgurl": "/img/astronauts/gidsenko_juri_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TM-22, ISS-Expedition 1, Sojus TM-31, STS-102"
     },
     {
@@ -3091,7 +3091,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/glaskow_juri.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 24"
     },
     {
@@ -3163,7 +3163,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/gorbatko_wiktor_sm.jpg",
         "itemimgurl": "/img/astronauts/gorbatko_wiktor_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 7, Sojus 24, Sojus 37"
     },
     {
@@ -3246,7 +3246,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 17, Sojus 26, Saljut 7 EO-4 Sojus T-14/Sojus T-13"
     },
     {
@@ -3301,7 +3301,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 17, Sojus 28"
     },
     {
@@ -3872,7 +3872,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/iwanischin_anatoli_sm.jpg",
         "itemimgurl": "/img/astronauts/iwanischin_anatoli_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TMA-22"
     },
     {
@@ -3899,7 +3899,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/iwantschenkow_alexander.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 29, Sojus T-6"
     },
     {
@@ -3935,7 +3935,7 @@
         "itemdate2year": "1971",
         "itemdate2month": "10",
         "itemdate2day": "25",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "R-12, R-16, Nedelin"
     },
     {
@@ -3963,7 +3963,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/jegorow_boris_sm.jpg",
         "itemimgurl": "/img/astronauts/jegorow_boris_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Woschod 1"
     },
     {
@@ -3976,7 +3976,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 5, Sojus 4, Sojus 8, Sojus 10"
     },
     {
@@ -4088,7 +4088,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/jurtschichin_fjodor_sm.jpg",
         "itemimgurl": "/img/astronauts/jurtschichin_fjodor_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "STS-112, ISS-Expedition 15, Sojus TMA-10, ISS-Expedition 24, ISS-Expedition 25, Sojus TMA-19"
     },
     {
@@ -4116,7 +4116,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/kaleri_alexander_sm.jpg",
         "itemimgurl": "/img/astronauts/kaleri_alexander_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TM-14, Sojus TM-24, Sojus TM-30, ISS-Expedition 8, Sojus TMA-3, ISS-Expedition 25, ISS-Expedition 26 Sojus TMA-01M"
     },
     {
@@ -4230,7 +4230,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/kisim_leonid_sm.jpg",
         "itemimgurl": "/img/astronauts/kisim_leonid_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus T-3, Saljut 7 EO-3, Sojus T-10, Sojus T-11, Sojus T-15"
     },
     {
@@ -4260,7 +4260,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 13, Sojus 18, Sojus 30"
     },
     {
@@ -4293,7 +4293,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Woschod 1, Sojus 1"
     },
     {
@@ -4307,7 +4307,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/kondakowa_jelena_sm.jpg",
         "itemimgurl": "/img/astronauts/kondakowa_jelena_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TM-20, STS-84"
     },
     {
@@ -4321,7 +4321,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/kondratjew_dmitri_sm.jpg",
         "itemimgurl": "/img/astronauts/kondratjew_dmitri_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TMA-20"
     },
     {
@@ -4335,7 +4335,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/kononenko_oleg_sm.jpg",
         "itemimgurl": "/img/astronauts/kononenko_oleg_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "ISS-Expedition 17, Sojus TMA-12, Sojus TMA-03M"
     },
     {
@@ -4363,7 +4363,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/kornijenko_michail_sm.jpg",
         "itemimgurl": "/img/astronauts/kornijenko_michail_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "ISS-Expedition 23, ISS-Expedition 24, Sojus TMA-18"
     },
     {
@@ -4383,7 +4383,7 @@
         "itemdate2year": "1966",
         "itemdate2month": "01",
         "itemdate2day": "14",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "R-7, Sputnik 1, Wostok 1, Gagarin"
     },
     {
@@ -4397,7 +4397,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/korsun_waleri_sm.jpg",
         "itemimgurl": "/img/astronauts/korsun_waleri_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TM-24, ISS-Expedition 5, STS-111, STS-113"
     },
     {
@@ -4411,7 +4411,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/kosejew_konstantin_sm.jpg",
         "itemimgurl": "/img/astronauts/kosejew_konstantin_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TM-33"
     },
     {
@@ -4425,7 +4425,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/kotow_oleg_sm.jpg",
         "itemimgurl": "/img/astronauts/kotow_oleg_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "ISS-Expedition 15, Sojus TMA-10, Sojus TMA-17"
     },
     {
@@ -4438,7 +4438,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 25, Sojus 29, Sojus T-4"
     },
     {
@@ -4480,7 +4480,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/kubassow_waleri_sm.jpg",
         "itemimgurl": "/img/astronauts/kubassow_waleri_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 6, Sojus 19, Sojus 36"
     },
     {
@@ -4537,7 +4537,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 12"
     },
     {
@@ -4550,7 +4550,7 @@
         "itemcolor": "/img/flags/RUS.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TM-25"
     },
     {
@@ -4566,7 +4566,7 @@
         "itemdateyear": "1951",
         "itemdatemonth": "04",
         "itemdateday": "21",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus TM-2 (Mir EO-2)"
     },
     {
@@ -4579,7 +4579,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus TM-2"
     },
     {
@@ -4606,7 +4606,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 13, Sojus T-5"
     },
     {
@@ -4662,7 +4662,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/leonow_alexei_sm.jpg",
         "itemimgurl": "/img/astronauts/leonow_alexei_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Woschod 2, Sojus 19, Weltraumausstieg, Außenbordeinsatz, EVA"
     },
     {
@@ -4689,7 +4689,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus TM-4"
     },
     {
@@ -4836,7 +4836,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 32/Sojus 34, Sojus T-9, Sojus TM-6/Sojus TM-5"
     },
     {
@@ -4864,7 +4864,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/lontschakow_juri_sm.jpg",
         "itemimgurl": "/img/astronauts/lontschakow_juri_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "STS-100, Sojus TMA-1/Sojus TM-34, ISS-Expedition 18, Sojus TMA-13"
     },
     {
@@ -5017,7 +5017,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/makarow_oleg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 12, Sojus 27, Sojus T-3"
     },
     {
@@ -5031,7 +5031,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/malentschenko_juri_sm.jpg",
         "itemimgurl": "/img/astronauts/malentschenko_juri_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TM-19, STS-106, ISS-Expedition 7, Sojus TMA-2, ISS-Expedition 16, Sojus TMA-11"
     },
     {
@@ -5059,7 +5059,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/malyschew_juri_sm.jpg",
         "itemimgurl": "/img/astronauts/malyschew_juri_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus T-2, Sojus T-11"
     },
     {
@@ -5085,7 +5085,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus TM-4/Sojus TM-6, Sojus TM-11"
     },
     {
@@ -5429,7 +5429,7 @@
         "itemdateyear": "1977",
         "itemdatemonth": "09",
         "itemdateday": "23",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TMA-08M (ISS-Expedition 35, ISS-Expedition 36), Sojus MS-06 (ISS-Expedition 53, ISS-Expedition 54)"
     },
     {
@@ -5529,7 +5529,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/morukow_boris_sm.jpg",
         "itemimgurl": "/img/astronauts/morukow_boris_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "STS-106"
     },
     {
@@ -5688,7 +5688,7 @@
         "itemdate2year": "2004",
         "itemdate2month": "07",
         "itemdate2day": "03",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Wostok 3, Sojus 9"
     },
     {
@@ -5733,7 +5733,7 @@
         "itemdateyear": "1971",
         "itemdatemonth": "10",
         "itemdateday": "12",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TMA-06M, ISS-Expedition 50/51 (Sojus MS-03)"
     },
     {
@@ -5858,7 +5858,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/onufrijenko_juri_sm.jpg",
         "itemimgurl": "/img/astronauts/onufrijenko_juri_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TM-23, ISS-Expedition 4, STS-108, STS-111"
     },
     {
@@ -5903,7 +5903,7 @@
         "itemdateyear": "1971",
         "itemdatemonth": "09",
         "itemdateday": "28",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "ISS-Expedition 47/48 (Sojus TMA-20M), vorgesehen für ISS-Expedition 57/58 (Sojus MS-10)"
     },
     {
@@ -5917,7 +5917,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/padalka_gennadi_sm.jpg",
         "itemimgurl": "/img/astronauts/padalka_gennadi_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TM-28, ISS-Expedition 9, Sojus TMA-4, ISS-Expedition 19, Sojus TMA-14"
     },
     {
@@ -6060,7 +6060,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/pazajew_wiktor_sm.jpg",
         "itemimgurl": "/img/astronauts/pazajew_wiktor_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 11"
     },
     {
@@ -6188,7 +6188,7 @@
         "itemcolor": "/img/flags/RUS.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TM-16"
     },
     {
@@ -6228,7 +6228,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 35, Sojus 40, Sojus T-7"
     },
     {
@@ -6247,7 +6247,7 @@
         "itemdate2year": "2009",
         "itemdate2month": "09",
         "itemdate2day": "29",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Wostok 4, Sojus 14"
     },
     {
@@ -6402,7 +6402,7 @@
         "itemdateyear": "1966",
         "itemdatemonth": "01",
         "itemdateday": "12",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "ISS-Expedition 31/32 Sojus TMA-04M"
     },
     {
@@ -6461,7 +6461,7 @@
         "itemdateyear": "1974",
         "itemdatemonth": "11",
         "itemdateday": "13",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "ISS-Expedition 37/38 (Sojus TMA-10M), ISS-Expedition 52/53 (Sojus MS-05)"
     },
     {
@@ -6502,7 +6502,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 26, Sojus 38, Sojus TM-2"
     },
     {
@@ -6516,7 +6516,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/romanenko_roman_sm.jpg",
         "itemimgurl": "/img/astronauts/romanenko_roman_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "ISS-Expedition 20, ISS-Expedition 21 Sojus TMA-15"
     },
     {
@@ -6557,7 +6557,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 23"
     },
     {
@@ -6584,7 +6584,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/rukawischnikow_nikolai.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 10, Sojus 16, Sojus 33"
     },
     {
@@ -6626,7 +6626,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/saljotin_sergei_sm.jpg",
         "itemimgurl": "/img/astronauts/saljotin_sergei_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TM-30, Sojus TMA-1, Sojus TM-34"
     },
     {
@@ -6640,7 +6640,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/samokutajew_alexander_sm.jpg",
         "itemimgurl": "/img/astronauts/samokutajew_alexander_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TMA-21"
     },
     {
@@ -6657,7 +6657,7 @@
         "itemdateyear": "1970",
         "itemdatemonth": "03",
         "itemdateday": "13",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TMA-21 (ISS-Expedition 27, ISS-Expedition 28), Sojus TMA-14M (ISS-Expedition 41, ISS-Expedition 42), vorgesehen für ISS-Expedition 56/57 (Sojus MS-09)"
     },
     {
@@ -6670,7 +6670,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 15"
     },
     {
@@ -6698,7 +6698,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/sawinych_wiktor_sm.jpg",
         "itemimgurl": "/img/astronauts/sawinych_wiktor_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus T-4, Saljut 7 EO-4, Sojus T-13, Sojus T-14, Sojus TM-5"
     },
     {
@@ -6711,7 +6711,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus T-7, Sojus T-12"
     },
     {
@@ -6725,7 +6725,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/schargin_juri_sm.jpg",
         "itemimgurl": "/img/astronauts/schargin_juri_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TMA-4, Sojus TMA-5"
     },
     {
@@ -6739,7 +6739,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/scharipow_salischan_sm.jpg",
         "itemimgurl": "/img/astronauts/scharipow_salischan_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "STS-89, ISS-Expedition 10, Sojus TMA-5"
     },
     {
@@ -6753,7 +6753,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/schatalow_wladimir_sm.jpg",
         "itemimgurl": "/img/astronauts/schatalow_wladimir_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 4, Sojus 8, Sojus 10"
     },
     {
@@ -6787,7 +6787,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/schkaplerow_anton_sm.jpg",
         "itemimgurl": "/img/astronauts/schkaplerow_anton_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TMA-22"
     },
     {
@@ -6828,7 +6828,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 21"
     },
     {
@@ -6842,7 +6842,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/schonin_georgi_sm.jpg",
         "itemimgurl": "/img/astronauts/schonin_georgi_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 6"
     },
     {
@@ -7011,7 +7011,7 @@
         "itemdateyear": "1976",
         "itemdatemonth": "04",
         "itemdateday": "22",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TMA-14M"
     },
     {
@@ -7024,7 +7024,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 9, Sojus 18"
     },
     {
@@ -7192,7 +7192,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/skripotschka_oleg_sm.jpg",
         "itemimgurl": "/img/astronauts/skripotschka_oleg_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "ISS-Expedition 25, ISS-Expedition 26, Sojus TMA-01M"
     },
     {
@@ -7206,7 +7206,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/skworzow_alexander_sm.jpg",
         "itemimgurl": "/img/astronauts/skworzow_alexander_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "ISS-Expedition 23, ISS-Expedition 24, Sojus TMA-18"
     },
     {
@@ -7303,7 +7303,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Saljut 7, EO-3, Sojus T-10, Sojus T-11, Mir EO-1 Sojus T-15"
     },
     {
@@ -7442,7 +7442,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 23"
     },
     {
@@ -7470,7 +7470,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/surajew_maxim_sm.jpg",
         "itemimgurl": "/img/astronauts/surajew_maxim_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "ISS-Expedition 21, Sojus TMA-16"
     },
     {
@@ -7543,7 +7543,7 @@
         "itemdateyear": "1974",
         "itemdatemonth": "12",
         "itemdateday": "29",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "ISS-Expedition 33/34 (Sojus TMA-06M)"
     },
     {
@@ -7557,7 +7557,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/tereschkowa_walentina_sm.jpg",
         "itemimgurl": "/img/astronauts/tereschkowa_walentina_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Wostok 6, Frau"
     },
     {
@@ -7697,7 +7697,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/titow_german_sm.jpg",
         "itemimgurl": "/img/astronauts/titow_german_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Wostok 2"
     },
     {
@@ -7725,7 +7725,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/tjurin_michail_sm.jpg",
         "itemimgurl": "/img/astronauts/tjurin_michail_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "ISS-Expedition 3, STS-105, STS-108, ISS-Expedition 14, Sojus TMA-9"
     },
     {
@@ -7753,7 +7753,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/tokarew_waleri_sm.jpg",
         "itemimgurl": "/img/astronauts/tokarew_waleri_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "STS-96, ISS-Expedition 12, Sojus TMA-7"
     },
     {
@@ -7767,7 +7767,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/treschtschow_sergei_sm.jpg",
         "itemimgurl": "/img/astronauts/treschtschow_sergei_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "ISS-Expedition 5, STS-111, STS-113"
     },
     {
@@ -7836,7 +7836,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/ussatschow_juri_sm.jpg",
         "itemimgurl": "/img/astronauts/ussatschow_juri_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TM-18, Sojus TM-23, STS-101, ISS-Expedition 2, STS-102, STS-105"
     },
     {
@@ -7994,20 +7994,6 @@
     },
     {
         "itemname": "Walker",
-        "itemurl": "https://de.wikipedia.org/wiki/Shannon_Walker",
-        "itemname2": "Shannon ",
-        "itemdescription": "ISS-Expedition 24/25 Sojus TMA-19",
-        "itemmissions": 1,
-        "itemtype": "2",
-        "itemcolor": "/img/flags/USA.png",
-        "itemcategory": "Raumfahrer",
-        "itemimgsmallurl": "/img/astronauts/walker_shannon_sm.jpg",
-        "itemimgurl": "/img/astronauts/walker_shannon_lg.jpg",
-        "itemcountry": "US",
-        "itemtags": "ISS-Expedition 24, ISS-Expedition 25, Sojus TMA-19"
-    },
-    {
-        "itemname": "Walker",
         "itemurl": "https://de.wikipedia.org/wiki/Joseph_Albert_Walker",
         "itemname2": "Joseph Albert",
         "itemdescription": "flog mit dem X-15 Flug 90 auf 106.010 m Höhe, mit X-15 Flug 91 auf 107.960 m Höhe",
@@ -8019,6 +8005,20 @@
         "itemimgurl": "/img/astronauts/walker_joseph_lg.jpg",
         "itemcountry": "US",
         "itemtags": "X-15, XB-70, Lunar Landing Research Vehicle, LLRV"
+    },
+    {
+        "itemname": "Walker",
+        "itemurl": "https://de.wikipedia.org/wiki/Shannon_Walker",
+        "itemname2": "Shannon ",
+        "itemdescription": "ISS-Expedition 24/25 Sojus TMA-19",
+        "itemmissions": 1,
+        "itemtype": "2",
+        "itemcolor": "/img/flags/USA.png",
+        "itemcategory": "Raumfahrer",
+        "itemimgsmallurl": "/img/astronauts/walker_shannon_sm.jpg",
+        "itemimgurl": "/img/astronauts/walker_shannon_lg.jpg",
+        "itemcountry": "US",
+        "itemtags": "ISS-Expedition 24, ISS-Expedition 25, Sojus TMA-19"
     },
     {
         "itemname": "Walter",
@@ -8086,7 +8086,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Saljut 7 EO-4, Sojus T-14"
     },
     {
@@ -8353,7 +8353,7 @@
         "itemcolor": "/img/flags/SU.png",
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/dummy.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus T-12"
     },
     {
@@ -8380,7 +8380,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/wolkow_sergei_sm.jpg",
         "itemimgurl": "/img/astronauts/wolkow_sergei_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "ISS-Expedition 17 Sojus TMA-12, Sojus TMA-02M"
     },
     {
@@ -8394,7 +8394,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/wolkow_wladislaw_sm.jpg",
         "itemimgurl": "/img/astronauts/wolkow_wladislaw_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 7, Sojus 11"
     },
     {
@@ -8408,7 +8408,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/wolynow_boris_sm.jpg",
         "itemimgurl": "/img/astronauts/wolynow_boris_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "SU",
         "itemtags": "Sojus 5, Sojus 21"
     },
     {
@@ -8569,7 +8569,7 @@
         "itemcategory": "Raumfahrer",
         "itemimgsmallurl": "/img/astronauts/ziblijew_wassili_sm.jpg",
         "itemimgurl": "/img/astronauts/ziblijew_wassili_lg.jpg",
-        "itemcountry": "SU, RU",
+        "itemcountry": "RU",
         "itemtags": "Sojus TM-17, Sojus TM-25"
     },
     {
@@ -8588,6 +8588,6 @@
         "itemdate2year": "1935",
         "itemdate2month": "09",
         "itemdate2day": "19",
-        "itemcountry": "SU, RU"
+        "itemcountry": "RU, SU"
     }
 ]

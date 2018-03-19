@@ -22,7 +22,7 @@ export class Astronaut {
     this.link = link;
     this.imgSmallUrl = imgSmallUrl;
     this.imgUrl = imgUrl;
-    this.country = country;
+    this.countries = country.split(',').map(country => country.trim());
     this.flag = flag;
     this.agency = agency;
     this.agencyurl = agencyUrl;
