@@ -3,14 +3,13 @@
 	background: url('/img/title_spacewalks.jpg') center / cover no-repeat;
 }
 
+.spacewalk-row {font-size: 1rem;}
 .spacewalk-row div {padding: .2em 0;}
 
-.spacewalk-name p {font-size: 1.25rem;}
-.spacewalk-info p {font-size: 1.125rem;}
 .spacewalk-dates p {display: inline;}
 .spacewalk-duration {margin-left: 1em;}
 
-.spacewalk-astronauts p {display: block; font-size: 1.125rem;}
+.spacewalk-astronauts p {display: block;}
 
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
