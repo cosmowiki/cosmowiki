@@ -42,10 +42,32 @@ const questions = {
           Wir hoffen auch, CosmoWiki.org bald in anderen Sprachen anbieten zu können.
         </p>
         <p>
-          Die Community ist das Zentrum dieser Seite. Wir setzen auf den
+          Die Community soll das Zentrum dieser Seite sein. Wir setzen auf den
           Enthusiasmus von Amateuren genauso wie auf die Fachkenntnisse von
           Wissenschaftlern und Historikern um ein Werk zu schaffen, das auch
           kritischen Analysen standhält.
+        </p>
+        <p>
+          Grundsätzliches:
+        </p>
+        <p>
+          CosmoWiki wird und kann niemals die Ansprüche auf Richtigkeit, Vollständigkeit
+          und Aktualität der hier angezeigten Daten erheben. Wir stützen uns hauptsächlich
+          auf die Informationen der Wikimedia-Gemeinde, was gewisse Problemstellungen
+          in sich birgt. Einerseits können auch die fleißigsten Autoren nicht die
+          unglaubliche Flut von wissenschaftlichen Veröffentlichungen zeitnah und
+          in Gänze in ihre Artikel einpflegen - und auch wir können nicht rund um
+          die Uhr an diesem Projekt arbeiten.
+        </p>
+        <p>
+          Andererseits existieren zum Teil widersprüchliche Aussagen verschiedener
+          Quellen zu einer Sache, denn auch Forschungsergebnisse lassen sich häufig
+          auf unterschiedliche Weise interpretieren. Ergeben sich zum Beispiel
+          schon zwischen verschiedensprachigen Wikipedia-Artikeln zu den selben
+          Objekten inhaltliche Unterschiede, beruhen diese möglicherweise auf einer
+          unklaren Quellenlage, auf Übersetzungs- und auch Schreibfehlern. Verlässliche
+          Informationen aufzubereiten ist so gesehen keine leichte Aufgabe, doch
+          wir bemühen uns mit größtmöglicher Sorgfalt, Fehler zu vermeiden.
         </p>
       </li>
   },
