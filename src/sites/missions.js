@@ -25,7 +25,8 @@ class Mission {
     mission.name = raw.itemname;
     mission.name2 = raw.itemname2 ? raw.itemname2 : '';
     mission.link = raw.itemurl;
-    mission.countries = raw.itemcountry ? raw.itemcountry.split(', ').map(country => country.trim()) : [];// not using .split('; ') to avoid errors?
+    mission.id = raw.itemindex ? raw.itemindex : '';
+    mission.countries = raw.itemcountry ? raw.itemcountry.split(',').map(country => country.trim()) : [];
     mission.destinations = raw.itemdestination ? raw.itemdestination.split(', ').map(destination => destination.trim()) : [];
     if (raw.itemparent) {
       mission.rocket = new Rocket(raw.itemparent, raw.itemparenturl);
@@ -34,7 +35,7 @@ class Mission {
       mission.pad = new Pad(raw.itemlocation, raw.itemlocationurl);
     }
     mission.crew = raw.itemcrew;
-    mission.duration = raw.itemduration;
+    mission.duration = raw.itemtime3 ? raw.itemtime3 : '';
     const endyear = raw.itemdate2year ? `${raw.itemdate2year}`: '';
     const endmonth = raw.itemdate2month ? `${raw.itemdate2month}.` : '';
     const endday = raw.itemdate2day ? `${raw.itemdate2day}.` : '';

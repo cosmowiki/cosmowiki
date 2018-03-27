@@ -70,14 +70,14 @@ export class Astronaut {
       flag: raw.itemcolor,
       agency: raw.itemparent,
       agencyUrl: raw.itemparenturl,
-      numberOfMissions: raw.itemmissions,
+      numberOfMissions: raw.itemcountmissions,
       missions: raw.itemdescription,
       born: [raw.itemdateday, raw.itemdatemonth, raw.itemdateyear].filter(v => v).join('.'),
       died: [raw.itemdate2day, raw.itemdate2month, raw.itemdate2year].filter(v => v).join('.'),
       timeInSpace: raw.itemtime2,
       firstLaunch: [raw.itemdate3day, raw.itemdate3month, raw.itemdate3year].filter(v => v).join('.'),
       numberOfSpacewalks: raw.itemstatus,
-      durationOfSpacewalks: raw.itemduration,
+      durationOfSpacewalks: raw.itemtime3 ? raw.itemtime3 : '',
       type: raw.itemtype
     };
     //item.tags = raw.tags.split(',');

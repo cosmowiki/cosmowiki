@@ -20,7 +20,7 @@ class Telescope {
     telescope.name = raw.itemname;
     telescope.alternativename = raw.itemname2 ? raw.itemname2 : '';
     telescope.wikipediaUrl = raw.itemurl ? raw.itemurl : '';
-    telescope.id = raw.itemid;
+    telescope.id = raw.itemindex ? raw.itemindex : '';
     telescope.imageSmallUrl = raw.itemimgsmallurl;
     telescope.imageUrl = raw.itemimgurl;
     telescope.imageSrc = raw.itemimgsrc;
@@ -35,7 +35,7 @@ class Telescope {
     const endmonth = raw.itemdate2month ? `${raw.itemdate2month}.` : '';
     const endday = raw.itemdate2day ? `${raw.itemdate2day}.` : '';
     telescope.endDate = `${endday}${endmonth}${endyear}`;
-    telescope.duration = raw.itemduration ? raw.itemduration : '';
+    telescope.duration = raw.itemtime3 ? raw.itemtime3 : '';
     telescope.status = raw.itemstatus ? raw.itemstatus : '';
     telescope.rocket = Rocket.fromRawData(raw);
     telescope.pad = Pad.fromRawData(raw);

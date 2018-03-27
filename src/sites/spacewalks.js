@@ -35,7 +35,7 @@ class Spacewalk {
     const endday = raw.itemdate2day ? `${raw.itemdate2day}.` : '';
     spacewalk.endDate = `${endday}${endmonth}${endyear}`;
     spacewalk.endTime = raw.itemtime2;
-    spacewalk.duration = raw.itemduration;
+    spacewalk.duration = raw.itemtime3;
     spacewalk.astronaut1 = raw.itemperson ? raw.itemperson : '';
     spacewalk.astronaut1Url = raw.itempersonurl ? raw.itempersonurl : '';
     spacewalk.astronaut2 = raw.itemperson2 ? raw.itemperson2 : '';

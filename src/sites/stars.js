@@ -47,15 +47,19 @@ class Star {
     star.name = new StarName({
       historical: raw.itemname,
       aternative: raw.itemname3,
-      bayer: raw.itemname4,
-      short: raw.itemname5,
-      flamsteed: raw.itemname6,
-      hr: raw.itemname7,
-      hd: raw.itemname8,
+      bayer: raw.itemnamebayer,
+      short: raw.itemnamebayershort,
+      flamsteed: raw.itemnameflamsteed,
+      hr: raw.itemnamehr,
+      hd: raw.itemnamehd,
     });
     star.link = raw.itemurl;
-    star.hip = raw.itemname9;
-    star.sao = raw.itemname10;
+    star.hip = raw.itemnamehip;
+    star.sao = raw.itemnamesao;
+    star.tycho = raw.itemnametycho;
+    star.bd = raw.itemnamebd;
+    star.cd = raw.itemnamecd;
+    star.else = raw.itemnameelse;
 
     star.constellation = raw.itemparent;
     star.constLink = raw.itemparenturl; // TODO make it a real ref to the constellation

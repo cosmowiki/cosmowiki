@@ -25,6 +25,7 @@ class SpaceStation {
     station.imageSrc = raw.itemimgsrc;
     station.imageLicence = raw.itemimglicence;
     station.imageLicenseUrl = raw.itemimglicenceurl;
+    station.id = raw.itemindex ? raw.itemindex : '';
     station.operators = raw.itemoperator ? raw.itemoperator.split(', ').map(operator => operator.trim()) : [];
 
     const launchyear = raw.itemdateyear ? raw.itemdateyear : '';
@@ -36,7 +37,7 @@ class SpaceStation {
     const reentermonth = raw.itemdate3month ? `${raw.itemdate3month}.` : '';
     const reenterday = raw.itemdate3day ? `${raw.itemdate3day}.` : '';
     station.reenterDate = `${reenterday}${reentermonth}${reenteryear}`;
-    station.duration = raw.itemduration ? raw.itemduration : '';
+    station.duration = raw.itemtime3 ? raw.itemtime3 : '';
     station.status = raw.itemstatus ? raw.itemstatus : '';
     station.rocket = Rocket.fromRawData(raw);
     station.pad = Pad.fromRawData(raw);
