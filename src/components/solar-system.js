@@ -165,237 +165,283 @@ const SolarSystemComponent = () => {
       </Summary>
       <div id="dataArea" className="solar-system module pure-u-1">
         <div id="solarsystemTable">
-          <div id="sun" className="type1 star pure-u-1">
+          <div id="sun" className="type1 star sun pure-u-1">
             <a href="#" title="item-name">Sonne</a>
           </div>
-          <div id="innerPlanets" className="type1 group pure-u-1">
+          <div id="innerPlanets" className="type1 innerPlanets group pure-u-1">
             <a href="#" title="item-name">Innere Planeten</a>
-            <div id="mercury" className="type2 pure-u-md-5-6 pure-lg-4-5">
+            <div id="mercury" className="type2 mercury planet pure-u-md-7-8">
               <a href="#" title="item-name">Merkur</a>
             </div>
-            <div id="venus" className="type2 pure-u-md-5-6 pure-lg-4-5">
+            <div id="venus" className="type2 venus planet pure-u-md-7-8">
               <a href="#" title="item-name">Venus</a>
             </div>
-            <div id="atenAsteroids" className="type2 group pure-u-md-5-6 pure-lg-4-5">
-              <a href="#" title="item-name" className="collapsed">Aten-Typ-Asteroiden</a>
-              <div className="type3 empty pure-u-md-4-5 pure-lg-3-4">
-                <div id="2062aten" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">(2062) Aten</a>
-                </div>
-              </div>
-            </div>
-            <div id="earth" className="type2 pure-u-md-5-6 pure-lg-4-5">
+            <div id="earth" className="type2 earth planet pure-u-md-7-8">
               <a href="#" title="item-name">Erde</a>
-              <div className="type3 empty pure-u-md-4-5 pure-lg-3-4">
-                <div id="moon" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">Mond</a>
-                </div>
-              </div>
-              <div id="nearEarthObjects" className="type3 group pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name">erdnahe Objekte</a>
-              </div>
             </div>
-            <div id="apolloAsteroids" className="type2 group pure-u-md-5-6 pure-lg-4-5">
-              <a href="#" title="item-name" className="collapsed">Apollo-Typ-Asteroiden</a>
-              <div className="type3 empty pure-u-md-4-5 pure-lg-3-4">
-                <div id="1862apollo" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">(1862) Apollo</a>
-                </div>
-              </div>
+            <div id="earthTrojans" className="type4 earth group pure-u-md-5-8">
+              <a href="#" title="item-name" className="expanded">Erd-Trojaner</a>
             </div>
-            <div id="mars" className="type2 pure-u-md-5-6 pure-lg-4-5">
+            <div id="2010tk7" className="type6 earth object pure-u-md-3-8">
+              <a href="#" title="item-name">(2010) TK7</a>
+            </div>
+            <div id="earthMoon" className="type4 earth moon pure-u-md-5-8">
+              <a href="#" title="item-name">Mond</a>
+            </div>
+            <div id="nearEarthobjects" className="type3 asteroids group pure-u-md-6-8">
+              <a href="#" title="item-name" className="expanded">erdnahe Objekte</a>
+            </div>
+            <div id="atenAsteroids" className="type4 asteroids group pure-u-md-5-8">
+              <a href="#" title="item-name" className="expanded">Aten-Typ-Asteroiden</a>
+            </div>
+            <div id="2062aten" className="type6 asteroids object pure-u-md-3-8">
+              <a href="#" title="item-name">(2062) Aten</a>
+            </div>
+            <div id="apolloAsteroids" className="type4 asteroids group pure-u-md-5-8">
+              <a href="#" title="item-name" className="expanded">Apollo-Typ-Asteroiden</a>
+            </div>
+            <div id="1862apollo" className="type6 asteroids object pure-u-md-3-8">
+              <a href="#" title="item-name">(1862) Apollo</a>
+            </div>
+            <div id="amorAsteroids" className="type4 asteroids group pure-u-md-5-8">
+              <a href="#" title="item-name" className="expanded">Amor-Typ-Asteroiden</a>
+            </div>
+            <div id="amor1Asteroids" className="type5 asteroids group pure-u-md-4-8">
+              <a href="#" title="item-name" className="expanded">Amor-I-Asteroiden</a>
+            </div>
+            <div id="433eros" className="type6 asteroids object pure-u-md-3-8">
+              <a href="#" title="item-name">(433) Eros</a>
+            </div>
+            <div id="amor2Asteroids" className="type5 asteroids group pure-u-md-4-8">
+              <a href="#" title="item-name" className="expanded">Amor-II-Asteroiden</a>
+            </div>
+            <div id="1221amor" className="type6 asteroids object pure-u-md-3-8">
+              <a href="#" title="item-name">(1221) Amor</a>
+            </div>
+            <div id="amor3Asteroids" className="type5 asteroids group pure-u-md-4-8">
+              <a href="#" title="item-name" className="expanded">Amor-III-Asteroiden</a>
+            </div>
+            <div id="1036ganymed" className="type6 asteroids object pure-u-md-3-8">
+              <a href="#" title="item-name">(1036) Ganymed</a>
+            </div>
+            <div id="amor4Asteroids" className="type5 asteroids group pure-u-md-4-8">
+              <a href="#" title="item-name" className="expanded">Amor-IV-Asteroiden</a>
+            </div>
+            <div id="3552donquixote" className="type6 asteroids object pure-u-md-3-8">
+              <a href="#" title="item-name">(3552) Don Quixote</a>
+            </div>
+            <div id="mars" className="type2 mars planet pure-u-md-7-8">
               <a href="#" title="item-name">Mars</a>
-              <div className="type3 empty pure-u-md-4-5 pure-lg-3-4">
-                <div id="phobos" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">Phobos</a>
-                </div>
-                <div id="deimos" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">Deimos</a>
-                </div>
-              </div>
-              <div id="marsTrojanGroup" className="type3 group pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name">Mars-Trojaner</a>
-              </div>
             </div>
-            <div id="amorAsteroids" className="type2 group pure-u-md-5-6 pure-lg-4-5">
-              <a href="#" title="item-name" className="collapsed">Amor-Typ-Asteroiden</a>
-              <div id="amor1Asteroids" className="type3 pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name">Amor-I-Asteroiden</a>
-              </div>
-              <div id="amor2Asteroids" className="type3 group pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name" className="collapsed">Amor-II-Asteroiden</a>
-                <div id="1221amor" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">(1221) Amor</a>
-                </div>
-              </div>
-              <div id="amor3Asteroids" className="type3 group pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name" className="collapsed">Amor-III-Asteroiden</a>
-                <div id="1036ganymed" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">(1036) Ganymed</a>
-                </div>
-              </div>
-              <div id="amor4Asteroids" className="type3 group pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name" className="collapsed">Amor-IV-Asteroiden</a>
-                <div id="3552donquixote" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">(3552) Don Quixote</a>
-                </div>
-              </div>
+            <div id="marsTrojanGroup" className="type4 mars group pure-u-md-5-8">
+              <a href="#" title="item-name" className="expanded">Mars-Trojaner</a>
+            </div>
+            <div id="marsLagrange4Group" className="type5 mars group pure-u-md-4-8">
+              <a href="#" title="item-name" className="collapsed">Lagrange-Punkt L4</a>
+            </div>
+            <div id="marsLagrange5Group" className="type5 mars group pure-u-md-4-8">
+              <a href="#" title="item-name" className="expanded">Lagrange-Punkt L5</a>
+            </div>
+            <div id="5261eureka" className="type6 mars object pure-u-md-3-8">
+              <a href="#" title="item-name">(5261) Eureka</a>
+            </div>
+            <div id="3119992007ns2" className="type6 mars object pure-u-md-3-8">
+              <a href="#" title="item-name">(311999) 2007 NS2</a>
+            </div>
+            <div id="phobos" className="type4 mars moon pure-u-md-5-8">
+              <a href="#" title="item-name">Phobos</a>
+            </div>
+            <div id="deimos" className="type4 mars moon pure-u-md-5-8">
+              <a href="#" title="item-name">Deimos</a>
             </div>
           </div>
-          <div id="asteroidBelt" className="type1 group pure-u-1">
+          <div id="asteroidBelt" className="type1 asteroidbelt group pure-u-1">
             <a href="#" title="item-name">Asteroidengürtel</a>
-            <div id="innerMainbelt" className="type2 group pure-u-md-5-6 pure-lg-4-5">
-              <a href="#" title="item-name" className="collapsed">Innerer Hauptgürtel</a>
-              <div id="floraGroup" className="type3 group pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name" className="collapsed">Flora-Gruppe</a>
-                <div id="8flora" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">(8) Flora</a>
-                </div>
-              </div>
-              <div id="vestaGroup" className="type3 group pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name" className="collapsed">Vesta-Gruppe</a>
-                <div id="4vesta" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">(4) Vesta</a>
-                </div>
-              </div>
-              <div id="nysaGroup" className="type3 group pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name" className="collapsed">Nysa-Gruppe</a>
-                <div id="44nysa" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">(44) Nysa</a>
-                </div>
-              </div>
+            <div id="1ceres" className="type6 asteroids object pure-u-md-3-8">
+              <a href="#" title="item-name">(1) Ceres</a>
             </div>
-            <div id="middleMainbelt" className="type2 group pure-u-md-5-6 pure-lg-4-5">
-              <a href="#" title="item-name" className="collapsed">Mittlerer Hauptgürtel</a>
-              <div id="eunomiaGroup" className="type3 group pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name" className="collapsed">Eunomia-Gruppe</a>
-                <div id="15eunomia" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">(15) Eunomia</a>
-                </div>
-              </div>
-              <div id="gefionGroup" className="type3 group pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name" className="collapsed">Gefion-Gruppe</a>
-                <div id="1272gefion" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">(1272) Gefion</a>
-                </div>
-              </div>
+            <div id="innerMainbelt" className="type4 asteroids group pure-u-md-5-8">
+              <a href="#" title="item-name" className="expanded">Innerer Hauptgürtel</a>
             </div>
-            <div id="outerMainbelt" className="type2 group pure-u-md-5-6 pure-lg-4-5">
-              <a href="#" title="item-name" className="collapsed">Äußerer Hauptgürtel</a>
-              <div id="koronisGroup" className="type3 group pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name" className="collapsed">Koronis-Gruppe</a>
-                <div id="158koronis" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">(158) Koronis</a>
-                </div>
-              </div>
-              <div id="eosGroup" className="type3 group pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name" className="collapsed">Eos-Gruppe</a>
-                <div id="221eos" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">(221) Eos</a>
-                </div>
-              </div>
-              <div id="themisGroup" className="type3 group pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name" className="collapsed">Themis-Gruppe</a>
-                <div id="24themis" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">(24) Themis</a>
-                </div>
-              </div>
-              <div id="hygieaGroup" className="type3 group pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name" className="collapsed">Hygiea-Gruppe</a>
-                <div id="10hygiea" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">(10) Hygiea</a>
-                </div>
-              </div>
+            <div id="floraGroup" className="type5 asteroids group pure-u-md-4-8">
+              <a href="#" title="item-name" className="expanded">Flora-Gruppe</a>
+            </div>
+            <div id="8flora" className="type6 asteroids object pure-u-md-3-8">
+              <a href="#" title="item-name">(8) Flora</a>
+            </div>
+            <div id="vestaGroup" className="type5 asteroids group pure-u-md-4-8">
+              <a href="#" title="item-name" className="expanded">Vesta-Gruppe</a>
+            </div>
+            <div id="4vesta" className="type6 asteroids object pure-u-md-3-8">
+              <a href="#" title="item-name">(4) Vesta</a>
+            </div>
+            <div id="nysaGroup" className="type5 asteroids group pure-u-md-4-8">
+              <a href="#" title="item-name" className="expanded">Nysa-Gruppe</a>
+            </div>
+            <div id="44nysa" className="type6 asteroids object pure-u-md-3-8">
+              <a href="#" title="item-name">(44) Nysa</a>
+            </div>
+            <div id="middleMainbelt" className="type4 asteroids group pure-u-md-5-8">
+              <a href="#" title="item-name" className="expanded">Mittlerer Hauptgürtel</a>
+            </div>
+            <div id="eunomiaGroup" className="type5 asteroids group pure-u-md-4-8">
+              <a href="#" title="item-name" className="expanded">Eunomia-Gruppe</a>
+            </div>
+            <div id="15eunomia" className="type6 asteroids object pure-u-md-3-8">
+              <a href="#" title="item-name">(15) Eunomia</a>
+            </div>
+            <div id="gefionGroup" className="type5 asteroids group pure-u-md-4-8">
+              <a href="#" title="item-name" className="expanded">Gefion-Gruppe</a>
+            </div>
+            <div id="1272gefion" className="type6 asteroids object pure-u-md-3-8">
+              <a href="#" title="item-name">(1272) Gefion</a>
+            </div>
+            <div id="outerMainbelt" className="type4 asteroids group pure-u-md-5-8">
+              <a href="#" title="item-name" className="expanded">Äußerer Hauptgürtel</a>
+            </div>
+            <div id="koronisGroup" className="type5 asteroids group pure-u-md-4-8">
+              <a href="#" title="item-name" className="expanded">Koronis-Gruppe</a>
+            </div>
+            <div id="158koronis" className="type6 asteroids object pure-u-md-3-8">
+              <a href="#" title="item-name">(158) Koronis</a>
+            </div>
+            <div id="243ida" className="type6 asteroids object pure-u-md-3-8">
+              <a href="#" title="item-name">(243) Ida</a>
+            </div>
+            <div id="dactyl" className="type7 asteroids moon pure-u-md-2-8">
+              <a href="#" title="item-name">Dactyl</a>
+            </div>
+            <div id="eosGroup" className="type5 asteroids group pure-u-md-4-8">
+              <a href="#" title="item-name" className="expanded">Eos-Gruppe</a>
+            </div>
+            <div id="221eos" className="type6 asteroids object pure-u-md-3-8">
+              <a href="#" title="item-name">(221) Eos</a>
+            </div>
+            <div id="themisGroup" className="type5 asteroids group pure-u-md-4-8">
+              <a href="#" title="item-name" className="expanded">Themis-Gruppe</a>
+            </div>
+            <div id="24themis" className="type6 asteroids object pure-u-md-3-8">
+              <a href="#" title="item-name">(24) Themis</a>
+            </div>
+            <div id="hygieaGroup" className="type5 asteroids group pure-u-md-4-8">
+              <a href="#" title="item-name" className="expanded">Hygiea-Gruppe</a>
+            </div>
+            <div id="10hygiea" className="type6 asteroids object pure-u-md-3-8">
+              <a href="#" title="item-name">(10) Hygiea</a>
             </div>
           </div>
-          <div id="outerPlanets" className="type1 group pure-u-1">
+          <div id="outerPlanets" className="type1 outerPlanets group pure-u-1">
             <a href="#" title="item-name">Äußere Planeten</a>
-            <div id="jupiter" className="type2 pure-u-md-5-6 pure-lg-4-5">
+            <div id="jupiter" className="type2 jupiter planet pure-u-md-7-8">
               <a href="#" title="item-name">Jupiter</a>
-              <div id="jupiterMoons" className="type3 group pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name" className="collapsed">Jupiter-Monde</a>
-                <div id="io" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">Io</a>
-                </div>
-              </div>
-              <div id="jupiterTrojans" className="type3 group pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name">Jupiter-Trojaner</a>
-              </div>
             </div>
-            <div id="centaurs1" className="type2 group pure-u-md-5-6 pure-lg-4-5">
-              <a href="#" title="item-name">Zentauren</a>
+            <div id="jupiterTrojans" className="type4 jupiter group pure-u-md-5-8">
+              <a href="#" title="item-name" className="expanded">Jupiter-Trojaner</a>
             </div>
-            <div id="saturn" className="type2 pure-u-md-5-6 pure-lg-4-5">
+            <div id="jupiterLagrange4Group" className="type5 jupiter group pure-u-md-4-8">
+              <a href="#" title="item-name" className="collapsed">Lagrange-Punkt L4</a>
+            </div>
+            <div id="jupiterLagrange5Group" className="type5 jupiter group pure-u-md-4-8">
+              <a href="#" title="item-name" className="collapsed">Lagrange-Punkt L5</a>
+            </div>
+            <div id="jupiterMoons" className="type3 jupiter group pure-u-md-6-8">
+              <a href="#" title="item-name" className="expanded">Jupiter-Monde</a>
+            </div>
+            <div id="io" className="type4 jupiter moon pure-u-md-5-8">
+              <a href="#" title="item-name">Io</a>
+            </div>
+            <div id="saturn" className="type2 saturn planet pure-u-md-7-8">
               <a href="#" title="item-name">Saturn</a>
-              <div id="saturnMoons" className="type3 group pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name" className="collapsed">Saturn-Monde</a>
-                <div id="mimas" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">Mimas</a>
-                </div>
-              </div>
             </div>
-            <div id="centaurs2" className="type2 group pure-u-md-5-6 pure-lg-4-5">
-              <a href="#" title="item-name">Zentauren</a>
+            <div id="saturnMoons" className="type3 saturn group pure-u-md-6-8">
+              <a href="#" title="item-name" className="expanded">Saturn-Monde</a>
             </div>
-            <div id="uranus" className="type2 pure-u-md-5-6 pure-lg-4-5">
+            <div id="mimas" className="type4 saturn moon pure-u-md-5-8">
+              <a href="#" title="item-name">Mimas</a>
+            </div>
+            <div id="uranus" className="type2 uranus planet pure-u-md-7-8">
               <a href="#" title="item-name">Uranus</a>
-              <div id="uranusMoons" className="type3 group pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name" className="collapsed">Uranus-Monde</a>
-                <div id="ariel" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">Ariel</a>
-                </div>
-              </div>
             </div>
-            <div id="centaurs3" className="type2 group pure-u-md-5-6 pure-lg-4-5">
-              <a href="#" title="item-name">Zentauren</a>
+            <div id="uranusMoons" className="type3 uranus group pure-u-md-6-8">
+              <a href="#" title="item-name" className="expanded">Uranus-Monde</a>
             </div>
-            <div id="neptune" className="type2 pure-u-md-5-6 pure-lg-4-5">
+            <div id="ariel" className="type4 uranus moon pure-u-md-5-8">
+              <a href="#" title="item-name">Ariel</a>
+            </div>
+            <div id="neptune" className="type2 neptune planet pure-u-md-7-8">
               <a href="#" title="item-name">Neptun</a>
-              <div id="neptuneMoons" className="type3 group pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name" className="collapsed">Neptun-Monde</a>
-                <div id="triton" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">Triton</a>
-                </div>
-              </div>
-              <div id="neptuneTrojans" className="type3 group pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name">Neptun-Trojaner</a>
-              </div>
+            </div>
+            <div id="neptuneTrojans" className="type4 neptune group pure-u-md-5-8">
+              <a href="#" title="item-name" className="expanded">Neptun-Trojaner</a>
+            </div>
+            <div id="neptuneLagrange4Group" className="type5 neptune group pure-u-md-4-8">
+              <a href="#" title="item-name" className="collapsed">Lagrange-Punkt L4</a>
+            </div>
+            <div id="neptuneLagrange5Group" className="type5 neptune group pure-u-md-4-8">
+              <a href="#" title="item-name" className="collapsed">Lagrange-Punkt L5</a>
+            </div>
+            <div id="neptuneMoons" className="type3 neptune group pure-u-md-5-8">
+              <a href="#" title="item-name" className="expanded">Neptun-Monde</a>
+            </div>
+            <div id="triton" className="type4 neptune moon pure-u-md-5-8">
+              <a href="#" title="item-name">Triton</a>
             </div>
           </div>
-          <div id="transneptunianObjects" className="type1 group pure-u-1">
+          <div id="centaurs" className="type1 centaurs group pure-u-1">
+            <a href="#" title="item-name">Zentauren</a>
+          </div>
+          <div id="transneptunianobjects" className="type1 transneptunianobjects group pure-u-1">
             <a href="#" title="item-name">Transneptunische Objekte (TNO)</a>
-            <div id="kuiperbelt" className="type2 group pure-u-md-5-6 pure-lg-4-5">
-              <a href="#" title="item-name" className="collapsed">Kuipergürtel</a>
-              <div id="kuiperbeltObjects" className ="type3 group pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name" className="collapsed">Kuipergürtelobjekte (KBO)</a>
-                <div id="pluto" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">Pluto</a>
-                  <div id="charon" className="type5 pure-u-md-2-3 pure-lg-1-2">
-                    <a href="#" title="item-name">Charon</a>
-                  </div>
-                </div>
-              </div>
-              <div id="sednoidGroup" className="type3 group pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name" className="collapsed">Sednoiden</a>
-                <div id="sedna" className="type4 pure-u-md-3-4 pure-lg-2-3">
-                  <a href="#" title="item-name">Sedna</a>
-                </div>
-              </div>
+            <div id="kuiperbelt" className="type2 kuiperbelt group pure-u-md-7-8">
+              <a href="#" title="item-name" className="expanded">Kuipergürtel</a>
+            </div>
+            <div id="kuiperbeltobjects" className ="type3 kuiperbelt group pure-u-md-6-8">
+              <a href="#" title="item-name" className="expanded">Kuipergürtelobjekte (KBO)</a>
+            </div>
+            <div id="pluto" className="type5 kuiperbelt object pure-u-md-4-8">
+              <a href="#" title="item-name">Pluto</a>
+            </div>
+            <div id="charon" className="type6 kuiperbelt moon pure-u-md-3-8">
+              <a href="#" title="item-name">Charon</a>
+            </div>
+            <div id="hydra" className="type6 kuiperbelt moon pure-u-md-3-8">
+              <a href="#" title="item-name">Hydra</a>
+            </div>
+            <div id="nix" className="type6 kuiperbelt moon pure-u-md-3-8">
+              <a href="#" title="item-name">Nix</a>
+            </div>
+            <div id="kerberos" className="type6 kuiperbelt moon pure-u-md-3-8">
+              <a href="#" title="item-name">Kerberos</a>
+            </div>
+            <div id="styx" className="type6 kuiperbelt moon pure-u-md-3-8">
+              <a href="#" title="item-name">Styx</a>
+            </div>
+            <div id="sednoids" className="type4 kuiperbelt group pure-u-md-5-8">
+              <a href="#" title="item-name" className="expanded">Sednoiden</a>
+            </div>
+            <div id="sedna" className="type5 kuiperbelt object pure-u-md-4-8">
+              <a href="#" title="item-name">Sedna</a>
             </div>
           </div>
-          <div id="comets" className="type1 group pure-u-1">
+          <div id="comets" className="type1 comets group pure-u-1">
             <a href="#" title="item-name">Kometen</a>
-            <div id="periodicComets" className="type2 group pure-u-md-5-6 pure-lg-4-5">
-              <a href="#" title="item-name" className="collapsed">periodische Kometen</a>
-              <div id="1phalley" className ="type3 pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name">1P/Halley</a>
-              </div>
-              <div id="2pencke" className="type3 pure-u-md-4-5 pure-lg-3-4">
-                <a href="#" title="item-name">2P/Encke</a>
-              </div>
+            <div id="periodicComets" className="type4 periodiccomets group pure-u-md-5-8">
+              <a href="#" title="item-name" className="expanded">periodische Kometen</a>
+            </div>
+            <div id="1phalley" className ="type6 periodiccomets object pure-u-md-3-8">
+              <a href="#" title="item-name">1P/Halley</a>
+            </div>
+            <div id="2pencke" className="type6 periodiccomets object pure-u-md-3-8">
+              <a href="#" title="item-name">2P/Encke</a>
+            </div>
+            <div id="3dbiela" className ="type6 periodiccomets object pure-u-md-3-8">
+              <a href="#" title="item-name">3D/Biela</a>
+            </div>
+            <div id="4pfaye" className="type6 periodiccomets object pure-u-md-3-8">
+              <a href="#" title="item-name">4P/Faye</a>
             </div>
           </div>
-          <div id="oortCloud" className="type1 group pure-u-1">
+          <div id="oortCloud" className="type1 oortCloud group pure-u-1">
             <a href="#" title="item-name">Oortsche Wolke</a>
           </div>
         </div>

@@ -13,71 +13,6 @@ export default class SolarSystem {
 
 }
 
-/*
-Conditions to build the component/solar-system.js:
-
-Meaning of "itemtype" in the JSON-file:
-- type1 = the sun, the group of inner planets, the asteroid-belt, the group of outer planets,
-          the group of transneptunian-objects, comets and the oort-cloud
-        = groups of celestial bodies and the parents of all other items.
-- type2 = all planets and groups of celestial bodies on the same level in hierarchy.
-- type3 = trojan groups, groups of planet-moons, the sub-groups of the asteroid-belt and comet-groups.
-- type4 = all planet-moons, asteroids of the asteroid-belt and kuiperbelt objects.
-- type5 = only moons of kuiperbelt objects.
-
-For the DOM hierarchy:
-- div.type2 is a child of the div.type1,
-- div.type3 is a child of the div.type2,
-- div.type4 is a child of the div.type3,
-- div.type5 is a child of the div.type4.
-
-For the Pure-grid-classes:
-- type1 = pure-u-1
-- type2 = pure-u-md-5-6 pure-lg-4-5
-- type3 = pure-u-md-4-5 pure-lg-3-4
-- type4 = pure-u-md-3-4 pure-lg-2-3
-- type5 = pure-u-md-2-3 pure-lg-1-2
-
-For each item in JSON build a <div></div> like this:
-<div id={item.name2} className={item.type item.category + ' pure-grid-class'}></div>
-
-For each item in JSON that has an item.name, build a <a></a> as first child element of the <div>:
-  <a href={item.wikipediaUrl} title={item.name} className="item-name">{item.name}</a>
-
-IF item.type value is not type1 AND item.category is "group" AND the element has children,
-THEN add the CSS class "collapsed" to the <a>.
-These groups should be collapsed onLoad and expand onClick (and again collapse
-onClick) to show their child elements.
-On click the CSS class "collapsed" should be replaced with "expanded" to change
-the icon and to show all child elements. (similar to the about-site)
-
-Finally the structure should look like this:
-
-<div id={item.name2} className={item.type item.category + ' pure-u-1'}>// for type1
-  <a href={item.wikipediaUrl} title={item.name}>{item.name}</a>
-  <div id={item.name2} className={item.type item.category + ' pure-u-md-5-6 pure-lg-4-5'}>// for type2
-    <a href={item.wikipediaUrl} title={item.name}>{item.name}</a>
-    <div id={item.name2} className={item.type item.category + ' pure-u-md-4-5 pure-lg-3-4'}>// for type3
-      <a href={item.wikipediaUrl} title={item.name} className="collapsed">{item.name}</a>
-      <div id={item.name2} className={item.type item.category + ' pure-u-md-3-4 pure-lg-2-3'}>// for type4
-        <a href={item.wikipediaUrl} title={item.name}>{item.name}</a>
-        <div id={item.name2} className={item.type item.category + ' pure-u-md-2-3 pure-lg-1-2'}>// for type5
-          <a href={item.wikipediaUrl} title={item.name}>{item.name}</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-Some JSON items have no item.name and no item.name2, their type is "3", category is "empty".
-These items stand for (yet) non-existing child elements of type2, that have child elements with type4,
-because I give moons and asteroids the same level in hierarchy.
-(i.e. the gap between type2 "Erde" and type4 "Mond")
-The divs of these items don't get an id="". I use them as placeholders for potentially upcoming groups,
-and to create a double margin (in CSS) between parent type2 and child type4.
-
-*/
-
 class Item {
 
   static fromRawData(raw) {
@@ -89,7 +24,7 @@ class Item {
     item.alternativeName = `${alternativename1}${alternativename2}`;
     item.type = raw.itemtype;//to control the Pure grid
     item.category = raw.itemcategory;//star, group, planet, moon, object
-    item.parent = raw.itemparent;
+    item.parent = raw.itemparent;//solar-system, inner-planets, Earth, apollo-type-astroids ...
     item.color = raw.itemcolor;
     item.wikipediaUrl = raw.itemurl ? raw.itemurl : '#';
     item.imageSmallUrl = raw.itemimgsmallurl ? raw.itemimgsmallurl : '';
