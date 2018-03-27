@@ -30,8 +30,18 @@ const SpacewalksComponent = ({spacewalks}) => {
         </div>
         <p className="summary-text">
           Die Raumfahrer sind hierbei nur durch einen speziellen Raumanzug vor
-          dem Vakuum und der Strahlung des Weltraums sowie vor Mikrometeoriten geschützt.
-          Die Strahlenbelastung ist dabei etwa doppelt so hoch wie im Raumfahrzeug.
+          dem Vakuum, der Kälte und der Strahlung des Weltraums sowie vor Mikrometeoriten
+          geschützt. Die Strahlenbelastung ist dabei etwa doppelt so hoch wie im
+          Raumfahrzeug.
+        </p>
+        <p className="summary-text">
+          Weltraumausstiege müssen im Rahmen der Missionsvorbereitung besonders
+          trainiert werden. Ein Raumanzug ist kein bequemer Blaumann und die Handschuhe
+          sind nur für das Greifen von Gegenständen mit mehreren Zentimetern Größe
+          geeignet. Die Handgriffe müssen präzise auf einander abgestimmt und technische
+          Details sowie der Umgang mit den nicht alltäglichen Werkzeugen in der
+          Schwerelosigkeit erlernt werden. Weltraumausstiege werden deshalb auch
+          immer von Raumfahrern ausgeführt, die gemeinsam ins All fliegen.
         </p>
         <p className="summary-text">
           Bei der so genannten <em>Stand-Up-EVA</em> (SEVA) steht ein Raumfahrer in der
