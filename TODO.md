@@ -9,6 +9,7 @@
 - [x] global scroll-to-top-button like [this][1]
 - [x] create welcome page
 - [x] make the npm run data-from-spreadsheet work with nix
+- [ ] re-organize the spreadsheets (same columns, same related items)
 - [ ] make the map (places) work
 - [ ] make the solar system site work
 - [ ] make the sorters and filters work (filters with FilterRow as in stars)
