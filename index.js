@@ -35475,7 +35475,7 @@ var ConstellationComponent = function ConstellationComponent(_ref2) {
             'a',
             { href: item.brightestStarUrl, title: item.brightestStar },
             item.brightestStar
-          ) : '' + item.brightestStar,
+          ) : item.brightestStar,
           ' (',
           item.highestBrightness,
           ' mag)'
@@ -38782,7 +38782,9 @@ var _notes2 = _interopRequireDefault(_notes);
 
 var _chunksSummary = require('./chunks/summary');
 
-var SolarSystemComponent = function SolarSystemComponent() {
+var SolarSystemComponent = function SolarSystemComponent(_ref) {
+  var items = _ref.items;
+
   return _react2['default'].createElement(
     'main',
     { role: 'main', className: 'pure-u-1' },
@@ -39227,843 +39229,693 @@ var SolarSystemComponent = function SolarSystemComponent() {
       _react2['default'].createElement(
         'div',
         { id: 'solarsystemTable' },
-        _react2['default'].createElement(
-          'div',
-          { id: 'sun', className: 'type1 star sun pure-u-1' },
-          _react2['default'].createElement(
-            'a',
-            { href: '#', title: 'item-name' },
-            'Sonne'
-          )
-        ),
-        _react2['default'].createElement(
-          'div',
-          { id: 'innerPlanets', className: 'type1 innerPlanets group pure-u-1' },
-          _react2['default'].createElement(
-            'a',
-            { href: '#', title: 'item-name' },
-            'Innere Planeten'
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'mercury', className: 'type2 mercury planet pure-u-md-7-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Merkur'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'venus', className: 'type2 venus planet pure-u-md-7-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Venus'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'earth', className: 'type2 earth planet pure-u-md-7-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Erde'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'earthTrojans', className: 'type4 earth group pure-u-md-5-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Erd-Trojaner'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '2010tk7', className: 'type6 earth object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '(2010) TK7'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'earthMoon', className: 'type4 earth moon pure-u-md-5-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Mond'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'nearEarthobjects', className: 'type3 asteroids group pure-u-md-6-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'erdnahe Objekte'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'atenAsteroids', className: 'type4 asteroids group pure-u-md-5-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Aten-Typ-Asteroiden'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '2062aten', className: 'type6 asteroids object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '(2062) Aten'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'apolloAsteroids', className: 'type4 asteroids group pure-u-md-5-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Apollo-Typ-Asteroiden'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '1862apollo', className: 'type6 asteroids object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '(1862) Apollo'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'amorAsteroids', className: 'type4 asteroids group pure-u-md-5-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Amor-Typ-Asteroiden'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'amor1Asteroids', className: 'type5 asteroids group pure-u-md-4-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Amor-I-Asteroiden'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '433eros', className: 'type6 asteroids object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '(433) Eros'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'amor2Asteroids', className: 'type5 asteroids group pure-u-md-4-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Amor-II-Asteroiden'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '1221amor', className: 'type6 asteroids object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '(1221) Amor'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'amor3Asteroids', className: 'type5 asteroids group pure-u-md-4-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Amor-III-Asteroiden'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '1036ganymed', className: 'type6 asteroids object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '(1036) Ganymed'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'amor4Asteroids', className: 'type5 asteroids group pure-u-md-4-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Amor-IV-Asteroiden'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '3552donquixote', className: 'type6 asteroids object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '(3552) Don Quixote'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'mars', className: 'type2 mars planet pure-u-md-7-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Mars'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'marsTrojanGroup', className: 'type4 mars group pure-u-md-5-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Mars-Trojaner'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'marsLagrange4Group', className: 'type5 mars group pure-u-md-4-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'collapsed' },
-              'Lagrange-Punkt L4'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'marsLagrange5Group', className: 'type5 mars group pure-u-md-4-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Lagrange-Punkt L5'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '5261eureka', className: 'type6 mars object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '(5261) Eureka'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '3119992007ns2', className: 'type6 mars object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '(311999) 2007 NS2'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'phobos', className: 'type4 mars moon pure-u-md-5-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Phobos'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'deimos', className: 'type4 mars moon pure-u-md-5-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Deimos'
-            )
-          )
-        ),
-        _react2['default'].createElement(
-          'div',
-          { id: 'asteroidBelt', className: 'type1 asteroidbelt group pure-u-1' },
-          _react2['default'].createElement(
-            'a',
-            { href: '#', title: 'item-name' },
-            'Asteroidengürtel'
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '1ceres', className: 'type6 asteroids object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '(1) Ceres'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'innerMainbelt', className: 'type4 asteroids group pure-u-md-5-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Innerer Hauptgürtel'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'floraGroup', className: 'type5 asteroids group pure-u-md-4-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Flora-Gruppe'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '8flora', className: 'type6 asteroids object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '(8) Flora'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'vestaGroup', className: 'type5 asteroids group pure-u-md-4-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Vesta-Gruppe'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '4vesta', className: 'type6 asteroids object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '(4) Vesta'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'nysaGroup', className: 'type5 asteroids group pure-u-md-4-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Nysa-Gruppe'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '44nysa', className: 'type6 asteroids object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '(44) Nysa'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'middleMainbelt', className: 'type4 asteroids group pure-u-md-5-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Mittlerer Hauptgürtel'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'eunomiaGroup', className: 'type5 asteroids group pure-u-md-4-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Eunomia-Gruppe'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '15eunomia', className: 'type6 asteroids object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '(15) Eunomia'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'gefionGroup', className: 'type5 asteroids group pure-u-md-4-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Gefion-Gruppe'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '1272gefion', className: 'type6 asteroids object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '(1272) Gefion'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'outerMainbelt', className: 'type4 asteroids group pure-u-md-5-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Äußerer Hauptgürtel'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'koronisGroup', className: 'type5 asteroids group pure-u-md-4-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Koronis-Gruppe'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '158koronis', className: 'type6 asteroids object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '(158) Koronis'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '243ida', className: 'type6 asteroids object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '(243) Ida'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'dactyl', className: 'type7 asteroids moon pure-u-md-2-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Dactyl'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'eosGroup', className: 'type5 asteroids group pure-u-md-4-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Eos-Gruppe'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '221eos', className: 'type6 asteroids object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '(221) Eos'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'themisGroup', className: 'type5 asteroids group pure-u-md-4-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Themis-Gruppe'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '24themis', className: 'type6 asteroids object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '(24) Themis'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'hygieaGroup', className: 'type5 asteroids group pure-u-md-4-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Hygiea-Gruppe'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '10hygiea', className: 'type6 asteroids object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '(10) Hygiea'
-            )
-          )
-        ),
-        _react2['default'].createElement(
-          'div',
-          { id: 'outerPlanets', className: 'type1 outerPlanets group pure-u-1' },
-          _react2['default'].createElement(
-            'a',
-            { href: '#', title: 'item-name' },
-            'Äußere Planeten'
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'jupiter', className: 'type2 jupiter planet pure-u-md-7-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Jupiter'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'jupiterTrojans', className: 'type4 jupiter group pure-u-md-5-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Jupiter-Trojaner'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'jupiterLagrange4Group', className: 'type5 jupiter group pure-u-md-4-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'collapsed' },
-              'Lagrange-Punkt L4'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'jupiterLagrange5Group', className: 'type5 jupiter group pure-u-md-4-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'collapsed' },
-              'Lagrange-Punkt L5'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'jupiterMoons', className: 'type3 jupiter group pure-u-md-6-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Jupiter-Monde'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'io', className: 'type4 jupiter moon pure-u-md-5-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Io'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'saturn', className: 'type2 saturn planet pure-u-md-7-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Saturn'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'saturnMoons', className: 'type3 saturn group pure-u-md-6-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Saturn-Monde'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'mimas', className: 'type4 saturn moon pure-u-md-5-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Mimas'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'uranus', className: 'type2 uranus planet pure-u-md-7-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Uranus'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'uranusMoons', className: 'type3 uranus group pure-u-md-6-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Uranus-Monde'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'ariel', className: 'type4 uranus moon pure-u-md-5-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Ariel'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'neptune', className: 'type2 neptune planet pure-u-md-7-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Neptun'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'neptuneTrojans', className: 'type4 neptune group pure-u-md-5-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Neptun-Trojaner'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'neptuneLagrange4Group', className: 'type5 neptune group pure-u-md-4-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'collapsed' },
-              'Lagrange-Punkt L4'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'neptuneLagrange5Group', className: 'type5 neptune group pure-u-md-4-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'collapsed' },
-              'Lagrange-Punkt L5'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'neptuneMoons', className: 'type3 neptune group pure-u-md-5-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Neptun-Monde'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'triton', className: 'type4 neptune moon pure-u-md-5-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Triton'
-            )
-          )
-        ),
-        _react2['default'].createElement(
-          'div',
-          { id: 'centaurs', className: 'type1 centaurs group pure-u-1' },
-          _react2['default'].createElement(
-            'a',
-            { href: '#', title: 'item-name' },
-            'Zentauren'
-          )
-        ),
-        _react2['default'].createElement(
-          'div',
-          { id: 'transneptunianobjects', className: 'type1 transneptunianobjects group pure-u-1' },
-          _react2['default'].createElement(
-            'a',
-            { href: '#', title: 'item-name' },
-            'Transneptunische Objekte (TNO)'
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'kuiperbelt', className: 'type2 kuiperbelt group pure-u-md-7-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Kuipergürtel'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'kuiperbeltobjects', className: 'type3 kuiperbelt group pure-u-md-6-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Kuipergürtelobjekte (KBO)'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'pluto', className: 'type5 kuiperbelt object pure-u-md-4-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Pluto'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'charon', className: 'type6 kuiperbelt moon pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Charon'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'hydra', className: 'type6 kuiperbelt moon pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Hydra'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'nix', className: 'type6 kuiperbelt moon pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Nix'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'kerberos', className: 'type6 kuiperbelt moon pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Kerberos'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'styx', className: 'type6 kuiperbelt moon pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Styx'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'sednoids', className: 'type4 kuiperbelt group pure-u-md-5-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'Sednoiden'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'sedna', className: 'type5 kuiperbelt object pure-u-md-4-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              'Sedna'
-            )
-          )
-        ),
-        _react2['default'].createElement(
-          'div',
-          { id: 'comets', className: 'type1 comets group pure-u-1' },
-          _react2['default'].createElement(
-            'a',
-            { href: '#', title: 'item-name' },
-            'Kometen'
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: 'periodicComets', className: 'type4 periodiccomets group pure-u-md-5-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name', className: 'expanded' },
-              'periodische Kometen'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '1phalley', className: 'type6 periodiccomets object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '1P/Halley'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '2pencke', className: 'type6 periodiccomets object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '2P/Encke'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '3dbiela', className: 'type6 periodiccomets object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '3D/Biela'
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            { id: '4pfaye', className: 'type6 periodiccomets object pure-u-md-3-8' },
-            _react2['default'].createElement(
-              'a',
-              { href: '#', title: 'item-name' },
-              '4P/Faye'
-            )
-          )
-        ),
-        _react2['default'].createElement(
-          'div',
-          { id: 'oortCloud', className: 'type1 oortCloud group pure-u-1' },
-          _react2['default'].createElement(
-            'a',
-            { href: '#', title: 'item-name' },
-            'Oortsche Wolke'
-          )
-        )
+        items.filter(function (item) {
+          return item.index === '0';
+        }).map(function (item, idx) {
+          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+        }),
+        items.filter(function (item) {
+          return item.index === '1';
+        }).map(function (item, idx) {
+          return _react2['default'].createElement(
+            ItemComponent,
+            { item: item, key: idx },
+            items.filter(function (item) {
+              return item.index === '1.1';
+            }).map(function (item, idx) {
+              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+            }),
+            items.filter(function (item) {
+              return item.index === '1.2';
+            }).map(function (item, idx) {
+              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+            }),
+            items.filter(function (item) {
+              return item.index === '1.3';
+            }).map(function (item, idx) {
+              return _react2['default'].createElement(
+                ItemComponent,
+                { item: item, key: idx },
+                items.filter(function (item) {
+                  return item.index === '1.3.1';
+                }).map(function (item, idx) {
+                  return _react2['default'].createElement(
+                    ItemComponent,
+                    { item: item, key: idx },
+                    items.filter(function (item) {
+                      return item.index.startsWith('1.3.1.');
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                    })
+                  );
+                }),
+                items.filter(function (item) {
+                  return item.index === '1.3.2';
+                }).map(function (item, idx) {
+                  return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                }),
+                items.filter(function (item) {
+                  return item.index === '1.3.3';
+                }).map(function (item, idx) {
+                  return _react2['default'].createElement(
+                    ItemComponent,
+                    { item: item, key: idx },
+                    items.filter(function (item) {
+                      return item.index === '1.3.3.1';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index.startsWith('1.3.3.1.');
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                        })
+                      );
+                    }),
+                    items.filter(function (item) {
+                      return item.index === '1.3.3.2';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index.startsWith('1.3.3.2.');
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                        })
+                      );
+                    }),
+                    items.filter(function (item) {
+                      return item.index === '1.3.3.3';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index === '1.3.3.3.1';
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('1.3.3.3.1.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
+                        }),
+                        items.filter(function (item) {
+                          return item.index === '1.3.3.3.2';
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('1.3.3.3.2.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
+                        }),
+                        items.filter(function (item) {
+                          return item.index === '1.3.3.3.3';
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('1.3.3.3.3.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
+                        }),
+                        items.filter(function (item) {
+                          return item.index === '1.3.3.3.4';
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('1.3.3.3.4.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
+                        })
+                      );
+                    }),
+                    items.filter(function (item) {
+                      return item.index === '1.3.3.4';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index.startsWith('1.3.3.4.');
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                        })
+                      );
+                    })
+                  );
+                })
+              );
+            }),
+            items.filter(function (item) {
+              return item.index === '1.4';
+            }).map(function (item, idx) {
+              return _react2['default'].createElement(
+                ItemComponent,
+                { item: item, key: idx },
+                items.filter(function (item) {
+                  return item.index === '1.4.1';
+                }).map(function (item, idx) {
+                  return _react2['default'].createElement(
+                    ItemComponent,
+                    { item: item, key: idx },
+                    items.filter(function (item) {
+                      return item.index === '1.4.1.1';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index.startsWith('1.4.1.1.');
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                        })
+                      );
+                    }),
+                    items.filter(function (item) {
+                      return item.index === '1.4.1.2';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index.startsWith('1.4.1.2.');
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                        })
+                      );
+                    })
+                  );
+                }),
+                items.filter(function (item) {
+                  return item.index === '1.4.2';
+                }).map(function (item, idx) {
+                  return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                }),
+                items.filter(function (item) {
+                  return item.index === '1.4.3';
+                }).map(function (item, idx) {
+                  return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                })
+              );
+            })
+          );
+        }),
+        items.filter(function (item) {
+          return item.index === '2';
+        }).map(function (item, idx) {
+          return _react2['default'].createElement(
+            ItemComponent,
+            { item: item, key: idx },
+            items.filter(function (item) {
+              return item.index.startsWith('2.0');
+            }).map(function (item, idx) {
+              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+            }),
+            items.filter(function (item) {
+              return item.index === '2.1';
+            }).map(function (item, idx) {
+              return _react2['default'].createElement(
+                ItemComponent,
+                { item: item, key: idx },
+                items.filter(function (item) {
+                  return item.index === '2.1';
+                }).map(function (item, idx) {
+                  return _react2['default'].createElement(
+                    ItemComponent,
+                    { item: item, key: idx },
+                    items.filter(function (item) {
+                      return item.index === '2.1.1';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index.startsWith('2.1.1.');
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                        })
+                      );
+                    }),
+                    items.filter(function (item) {
+                      return item.index === '2.1.2';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index.startsWith('2.1.2.');
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                        })
+                      );
+                    }),
+                    items.filter(function (item) {
+                      return item.index === '2.1.3';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index.startsWith('2.1.3.');
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                        })
+                      );
+                    })
+                  );
+                }),
+                items.filter(function (item) {
+                  return item.index === '2.2';
+                }).map(function (item, idx) {
+                  return _react2['default'].createElement(
+                    ItemComponent,
+                    { item: item, key: idx },
+                    items.filter(function (item) {
+                      return item.index === '2.2.1';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index.startsWith('2.2.1.');
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                        })
+                      );
+                    }),
+                    items.filter(function (item) {
+                      return item.index === '2.2.2';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index.startsWith('2.2.2.');
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                        })
+                      );
+                    })
+                  );
+                }),
+                items.filter(function (item) {
+                  return item.index === '2.3';
+                }).map(function (item, idx) {
+                  return _react2['default'].createElement(
+                    ItemComponent,
+                    { item: item, key: idx },
+                    items.filter(function (item) {
+                      return item.index === '2.3.1';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index.startsWith('2.3.1.');
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                        })
+                      );
+                    }),
+                    items.filter(function (item) {
+                      return item.index === '2.3.2';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index.startsWith('2.3.2.');
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                        })
+                      );
+                    }),
+                    items.filter(function (item) {
+                      return item.index === '2.3.3';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index.startsWith('2.3.3.');
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                        })
+                      );
+                    }),
+                    items.filter(function (item) {
+                      return item.index === '2.3.4';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index.startsWith('2.3.4.');
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                        })
+                      );
+                    })
+                  );
+                })
+              );
+            })
+          );
+        }),
+        items.filter(function (item) {
+          return item.index === '3';
+        }).map(function (item, idx) {
+          return _react2['default'].createElement(
+            ItemComponent,
+            { item: item, key: idx },
+            items.filter(function (item) {
+              return item.index === '3.1';
+            }).map(function (item, idx) {
+              return _react2['default'].createElement(
+                ItemComponent,
+                { item: item, key: idx },
+                items.filter(function (item) {
+                  return item.index === '3.1.1';
+                }).map(function (item, idx) {
+                  return _react2['default'].createElement(
+                    ItemComponent,
+                    { item: item, key: idx },
+                    items.filter(function (item) {
+                      return item.index === '3.1.1.1';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index.startsWith('3.1.1.1.');
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                        })
+                      );
+                    }),
+                    items.filter(function (item) {
+                      return item.index === '3.1.1.2';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index.startsWith('3.1.1.2.');
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                        })
+                      );
+                    })
+                  );
+                }),
+                items.filter(function (item) {
+                  return item.index === '3.1.2';
+                }).map(function (item, idx) {
+                  return _react2['default'].createElement(
+                    ItemComponent,
+                    { item: item, key: idx },
+                    items.filter(function (item) {
+                      return item.index.startsWith('3.1.2.');
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                    })
+                  );
+                })
+              );
+            }),
+            items.filter(function (item) {
+              return item.index === '3.2';
+            }).map(function (item, idx) {
+              return _react2['default'].createElement(
+                ItemComponent,
+                { item: item, key: idx },
+                items.filter(function (item) {
+                  return item.index === '3.2.1';
+                }).map(function (item, idx) {
+                  return _react2['default'].createElement(
+                    ItemComponent,
+                    { item: item, key: idx },
+                    items.filter(function (item) {
+                      return item.index.startsWith('3.2.1.');
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                    })
+                  );
+                })
+              );
+            }),
+            items.filter(function (item) {
+              return item.index === '3.3';
+            }).map(function (item, idx) {
+              return _react2['default'].createElement(
+                ItemComponent,
+                { item: item, key: idx },
+                items.filter(function (item) {
+                  return item.index === '3.3.1';
+                }).map(function (item, idx) {
+                  return _react2['default'].createElement(
+                    ItemComponent,
+                    { item: item, key: idx },
+                    items.filter(function (item) {
+                      return item.index.startsWith('3.3.1.');
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                    })
+                  );
+                }),
+                items.filter(function (item) {
+                  return item.index === '3.3.2';
+                }).map(function (item, idx) {
+                  return _react2['default'].createElement(
+                    ItemComponent,
+                    { item: item, key: idx },
+                    items.filter(function (item) {
+                      return item.index.startsWith('3.3.2.');
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                    })
+                  );
+                })
+              );
+            }),
+            items.filter(function (item) {
+              return item.index === '3.4';
+            }).map(function (item, idx) {
+              return _react2['default'].createElement(
+                ItemComponent,
+                { item: item, key: idx },
+                items.filter(function (item) {
+                  return item.index === '3.4.1';
+                }).map(function (item, idx) {
+                  return _react2['default'].createElement(
+                    ItemComponent,
+                    { item: item, key: idx },
+                    items.filter(function (item) {
+                      return item.index === '3.4.1.1';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index.startsWith('3.4.1.1.');
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                        })
+                      );
+                    }),
+                    items.filter(function (item) {
+                      return item.index === '3.4.1.2';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index.startsWith('3.4.1.2.');
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                        })
+                      );
+                    })
+                  );
+                }),
+                items.filter(function (item) {
+                  return item.index === '3.4.2';
+                }).map(function (item, idx) {
+                  return _react2['default'].createElement(
+                    ItemComponent,
+                    { item: item, key: idx },
+                    items.filter(function (item) {
+                      return item.index.startsWith('3.4.2.');
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                    })
+                  );
+                })
+              );
+            })
+          );
+        }),
+        items.filter(function (item) {
+          return item.index === '4';
+        }).map(function (item, idx) {
+          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+        }),
+        items.filter(function (item) {
+          return item.index === '5';
+        }).map(function (item, idx) {
+          return _react2['default'].createElement(
+            ItemComponent,
+            { item: item, key: idx },
+            items.filter(function (item) {
+              return item.index === '5.1';
+            }).map(function (item, idx) {
+              return _react2['default'].createElement(
+                ItemComponent,
+                { item: item, key: idx },
+                items.filter(function (item) {
+                  return item.index === '5.1.1';
+                }).map(function (item, idx) {
+                  return _react2['default'].createElement(
+                    ItemComponent,
+                    { item: item, key: idx },
+                    items.filter(function (item) {
+                      return item.index === '5.1.1.1';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index.startsWith('5.1.1.1.');
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                        })
+                      );
+                    }),
+                    items.filter(function (item) {
+                      return item.index === '5.1.1.2';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index === '5.1.1.2.1';
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index === '5.1.1.2.1.1';
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(
+                                ItemComponent,
+                                { item: item, key: idx },
+                                items.filter(function (item) {
+                                  return item.index.startsWith('5.1.1.2.1.1.');
+                                }).map(function (item, idx) {
+                                  return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                                })
+                              );
+                            })
+                          );
+                        }),
+                        items.filter(function (item) {
+                          return item.index === '5.1.1.2.2';
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('5.1.1.2.2.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
+                        })
+                      );
+                    }),
+                    items.filter(function (item) {
+                      return item.index === '5.1.1.3';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index.startsWith('5.1.1.3.');
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                        })
+                      );
+                    }),
+                    items.filter(function (item) {
+                      return item.index === '5.1.1.4';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index === '5.1.1.4.1';
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('5.1.1.4.1.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
+                        })
+                      );
+                    })
+                  );
+                })
+              );
+            })
+          );
+        }),
+        items.filter(function (item) {
+          return item.index === '6';
+        }).map(function (item, idx) {
+          return _react2['default'].createElement(
+            ItemComponent,
+            { item: item, key: idx },
+            items.filter(function (item) {
+              return item.index === '6.1';
+            }).map(function (item, idx) {
+              return _react2['default'].createElement(
+                ItemComponent,
+                { item: item, key: idx },
+                items.filter(function (item) {
+                  return item.index.startsWith('6.1.');
+                }).map(function (item, idx) {
+                  return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                })
+              );
+            })
+          );
+        }),
+        items.filter(function (item) {
+          return item.index === '7';
+        }).map(function (item, idx) {
+          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+        })
       )
     ),
     _react2['default'].createElement(_notes2['default'], null)
@@ -40071,6 +39923,38 @@ var SolarSystemComponent = function SolarSystemComponent() {
 };
 
 exports['default'] = SolarSystemComponent;
+
+var ItemComponent = function ItemComponent(_ref2) {
+  var item = _ref2.item;
+  var children = _ref2.children;
+
+  var pureWidth = item.type;
+  if (pureWidth === 'level-1') {
+    pureWidth = 'pure-u-1';
+  } else {
+    pureWidth = 'pure-u-5-6 pure-u-md-4-5';
+  }
+  var itemDivStyles = item.type + ' ' + pureWidth + ' ' + item.color;
+
+  return _react2['default'].createElement(
+    'div',
+    { id: item.name2, className: itemDivStyles },
+    _react2['default'].createElement(
+      'p',
+      null,
+      item.wikipediaUrl ? _react2['default'].createElement(
+        'a',
+        { href: item.wikipediaUrl, title: item.name },
+        item.name
+      ) : _react2['default'].createElement(
+        'span',
+        null,
+        item.name
+      )
+    ),
+    children
+  );
+};
 module.exports = exports['default'];
 
 },{"./chunks/summary":431,"./notes":438,"react":454}],445:[function(require,module,exports){
@@ -44331,8 +44215,8 @@ var SolarSystem = (function () {
 
   _createClass(SolarSystem, null, [{
     key: 'componentWithData',
-    value: function componentWithData(_, appUrl) {
-      return _react2['default'].createElement(_componentsSolarSystem2['default'], { appUrl: appUrl });
+    value: function componentWithData(items) {
+      return _react2['default'].createElement(_componentsSolarSystem2['default'], { items: items });
     }
   }, {
     key: 'fromRawData',
@@ -44436,16 +44320,17 @@ var Item = (function () {
     key: 'fromRawData',
     value: function fromRawData(raw) {
       var item = new Item();
+      item.index = raw.itemindex;
       item.name = raw.itemname;
-      item.name2 = raw.itemname2; //to use in id=""
+      item.name2 = raw.itemname2 ? raw.itemname2 : ''; //to use in id=""
       var alternativename1 = raw.itemname3 ? raw.itemname3 : '';
       var alternativename2 = raw.itemname4 ? ', ' + raw.itemname4 : '';
       item.alternativeName = '' + alternativename1 + alternativename2;
-      item.type = raw.itemtype; //to control the Pure grid
-      item.category = raw.itemcategory; //star, group, planet, moon, object
-      item.parent = raw.itemparent; //solar-system, inner-planets, Earth, apollo-type-astroids ...
-      item.color = raw.itemcolor;
-      item.wikipediaUrl = raw.itemurl ? raw.itemurl : '#';
+      item.type = raw.itemtype ? raw.itemtype : ''; //to control the Pure width
+      item.category = raw.itemcategory ? raw.itemcategory : ''; //star, group, planet, moon, object
+      item.parent = raw.itemparent ? raw.itemparent : ''; //solar-system, inner-planets, Earth, apollo-type-astroids ...
+      item.color = raw.itemcolor ? raw.itemcolor : '';
+      item.wikipediaUrl = raw.itemurl ? raw.itemurl : '';
       item.imageSmallUrl = raw.itemimgsmallurl ? raw.itemimgsmallurl : '';
       item.imageUrl = raw.itemimgurl ? raw.itemimgurl : '';
       item.imageSrc = raw.itemimgsrc ? raw.itemimgsrc : '';

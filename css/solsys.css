@@ -3,176 +3,180 @@
 	background: url('../img/title_solarsystem.jpg') center / cover no-repeat;
 }
 
-#solarsystemTable {font-size: 1rem;}
-#solarsystemTable div, #solarsystemTable a {display: block;}
-
-/*.type2,
-.type3,
-.type4,
-.type5,
-.type6 {margin-left: 10%; width: 90%;}*/
-
-div.type1,
-div.type2,
-div.type3,
-div.type4,
-div.type5,
-div.type6,
-div.type7,
-div.type8 {border-top: 1px solid #fff;}
-
-#sun,
-div.empty {border-top: none;}
+#solarsystemTable div {border-top: 1px solid #fff;}
+#sun {border-top: none;}
 #oortCloud {border-bottom: 1px solid #fff;}
 
-#solarsystemTable div.type1 a {padding: 1.6em;}
-#solarsystemTable div.type2 a {padding: 1.4em;}
-#solarsystemTable div.type3 a {padding: 1.2em;}
-#solarsystemTable div.type4 a {padding: 1em;}
-#solarsystemTable div.type5 a {padding: .8em;}
-#solarsystemTable div.type6 a {padding: .6em;}
-#solarsystemTable div.type7 a {padding: .4em;}
-#solarsystemTable div.type8 a {padding: .2em;}
-#solarsystemTable div a.collapsed:after {content: " \25B8";}
-#solarsystemTable div a.expanded:after {content: " \25BE";}
-#solarsystemTable div a.collapsed:focus:after,
-#solarsystemTable div a.collapsed:hover:after,
-#solarsystemTable div a.collapsed:active:after {content: " \25BE";}
-#solarsystemTable div a.expanded:focus:after,
-#solarsystemTable div a.expanded:hover:after,
-#solarsystemTable div a.expanded:active:after {content: " \25B8";}
+#solarsystemTable div a,
+#solarsystemTable div span {display: block;}
+
+#solarsystemTable div.pure-u-5-6 {margin-left: 16.666%;}
+#solarsystemTable div.pure-u-md-4-5 {margin-left: 20%;}
+
+#solarsystemTable div.level-1 a,
+#solarsystemTable div.level-1 span {padding: .9em; font-size: 1.15rem;}
+
+#solarsystemTable div.level-2 a,
+#solarsystemTable div.level-2 span {padding: .8em; font-size: 1.1rem;}
+
+#solarsystemTable div.level-3 a,
+#solarsystemTable div.level-3 span {padding: .7em; font-size: 1.05rem;}
+
+#solarsystemTable div.level-4 a,
+#solarsystemTable div.level-4 span {padding: .6em; font-size: 1rem;}
+
+#solarsystemTable div.level-5 a,
+#solarsystemTable div.level-5 span {padding: .5em; font-size: .95rem;}
+
+#solarsystemTable div.level-6 a,
+#solarsystemTable div.level-6 span {padding: .4em; font-size: .9rem;}
+
+#solarsystemTable div.level-7 a,
+#solarsystemTable div.level-7 span {padding: .3em; font-size: .85rem;}
+
+#solarsystemTable div.collapsed:after {content: " \25B8";}
+#solarsystemTable div.expanded:after {content: " \25BE";}
+#solarsystemTable div.collapsed:focus:after,
+#solarsystemTable div.collapsed:hover:after,
+#solarsystemTable div.collapsed:active:after {content: " \25BE";}
+#solarsystemTable div.expanded:focus:after,
+#solarsystemTable div.expanded:hover:after,
+#solarsystemTable div.expanded:active:after {content: " \25B8";}
 
 /*	breakpoints ------------------------------------------------------------- */
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
-	/*.type2,
-	.type3,
-	.type4,
-	.type5,
-	.type6 {margin-left: 15%; width: 85%;}*/
+
 }
 @media only all and (min-width: 48em) {
-	.type2 {margin-left: 12.5%;}
-	.type3 {margin-left: 25%;}
-	.type4 {margin-left: 37.5%;}
-	.type5 {margin-left: 50%;}
-	.type6 {margin-left: 62.5%;}
-	.type7 {margin-left: 75%;}
-	.type8 {margin-left: 87.5%;}
+
 }
 @media only all and (min-width: 64em) {
 
 }
 
 /*	backgrounds and gradients */
-.type1.group:focus,
-.type1.group:hover,
-.type1.group:active {background: rgba(255, 255, 255, .5);}
+/*transparent*/
+.transparent:focus,
+.transparent:hover,
+.transparent:active {background: rgba(255, 255, 255, .5);}
 
-.sun a {
+/*sun-yellow = #fffacd rgba(255, 250, 205)*/
+.sun-yellow p {
 	background-image: linear-gradient( to right, rgba(255, 255, 112, .5) 50%, rgba(255, 255, 112, 0));
 }
-.sun a:focus,
-.sun a:hover,
-.sun a:active {
+.sun-yellow p:focus,
+.sun-yellow p:hover,
+.sun-yellow p:active {
 	background-image: linear-gradient( to right, rgba(255, 255, 112, 1) 50%, rgba(255, 255, 112, 0));
 }
 
-.mercury a {
+/*mercury-orange = #eedc82 rgba(238, 220, 130)*/
+.mercury-orange p {
 	background-image: linear-gradient( to right, rgba(238, 220, 130, .5) 50%, rgba(238, 220, 130, 0));
 }
-.mercury a:focus,
-.mercury a:hover,
-.mercury a:active {
+.mercury-orange p:focus,
+.mercury-orange p:hover,
+.mercury-orange p:active {
 	background-image: linear-gradient( to right, rgba(238, 220, 130, 1) 50%, rgba(238, 220, 130, 0));
 }
 
-.venus a {
+/*venus-pink = #f2d9bf rgba(242, 217, 191)*/
+.venus-pink p {
 	background-image: linear-gradient( to right, rgba(242, 217, 191, .5) 50%, rgba(242, 217, 191, 0));
 }
-.venus a:focus,
-.venus a:hover,
-.venus a:active {
+.venus-pink p:focus,
+.venus-pink p:hover,
+.venus-pink p:active  {
 	background-image: linear-gradient( to right, rgba(242, 217, 191, 1) 50%, rgba(242, 217, 191, 0));
 }
 
-.earth a {
+/*earth-blue = #b0c4de rgba(176, 196, 222)*/
+.earth-blue p {
 	background-image: linear-gradient( to right, rgba(176, 196, 222, .5) 50%, rgba(176, 196, 222, 0));
 }
-.earth a:focus,
-.earth a:hover,
-.earth a:active {
+.earth-blue p:focus,
+.earth-blue p:hover,
+.earth-blue p:active {
 	background-image: linear-gradient( to right, rgba(176, 196, 222, 1) 50%, rgba(176, 196, 222, 0));
 }
 
-.asteroids a {
+/*asteroids-grey = #c0c0c0 rgba(192, 192, 192)*/
+.asteroid-grey p {
 	background-image: linear-gradient( to right, rgba(192, 192, 192, .5) 50%, rgba(192, 192, 192, 0));
 }
-.asteroids a:focus,
-.asteroids a:hover,
-.asteroids a:active {
+.asteroid-grey p:focus,
+.asteroid-grey p:hover,
+.asteroid-grey p:active {
 	background-image: linear-gradient( to right, rgba(192, 192, 192, 1) 50%, rgba(192, 192, 192, 0));
 }
 
-.mars a {
+/*mars-red = #f4a460 rgba(244, 164, 96)*/
+.mars-red p {
 	background-image: linear-gradient( to right, rgba(244, 164, 96, .5) 50%, rgba(244, 164, 96, 0));
 }
-.mars a:focus,
-.mars a:hover,
-.mars a:active {
+.mars-red p:focus,
+.mars-red p:hover,
+.mars-red p:active {
 	background-image: linear-gradient( to right, rgba(244, 164, 96, 1) 50%, rgba(244, 164, 96, 0));
 }
 
-.jupiter a {
+/*jupiter-yellow = #fafad2 rgba(250, 250, 210)*/
+.jupiter-yellow p {
 	background-image: linear-gradient( to right, rgba(250, 250, 210, .5) 50%, rgba(250, 250, 210, 0));
 }
-.jupiter a:focus,
-.jupiter a:hover,
-.jupiter a:active {
+.jupiter-yellow p:focus,
+.jupiter-yellow p:hover,
+.jupiter-yellow p:active {
 	background-image: linear-gradient( to right, rgba(250, 250, 210, 1) 50%, rgba(250, 250, 210, 0));
 }
 
-.saturn a {
+/*saturn-orange = #f0e68c rgba(240, 230, 140)*/
+.saturn-orange p {
 	background-image: linear-gradient( to right, rgba(240, 230, 140, .5) 50%, rgba(240, 230, 140, 0));
 }
-.saturn a:focus,
-.saturn a:hover,
-.saturn a:active {
+.saturn-orange p:focus,
+.saturn-orange p:hover,
+.saturn-orange p:active {
 	background-image: linear-gradient( to right, rgba(240, 230, 140, 1) 50%, rgba(240, 230, 140, 0));
 }
 
-.uranus a {
+/*uranus-grey = #bee3e6 rgba(190, 227, 230)*/
+.uranus-grey p {
 	background-image: linear-gradient( to right, rgba(190, 227, 230, .5) 50%, rgba(190, 227, 230, 0));
 }
-.uranus a:focus,
-.uranus a:hover,
-.uranus a:active {
+.uranus-grey p:focus,
+.uranus-grey p:hover,
+.uranus-grey p:active {
 	background-image: linear-gradient( to right, rgba(190, 227, 230, 1) 50%, rgba(190, 227, 230, 0));
 }
 
-.neptune a {
+/*neptune-blue = #90d0f8 rgba(144, 208, 248)*/
+.neptune-blue p {
 	background-image: linear-gradient( to right, rgba(144, 208, 248, .5) 50%, rgba(144, 208, 248, 0));
 }
-.neptune a:focus,
-.neptune a:hover,
-.neptune a:active {
+.neptune-blue p:focus,
+.neptune-blue p:hover,
+.neptune-blue p:active {
 	background-image: linear-gradient( to right, rgba(144, 208, 248, 1) 50%, rgba(144, 208, 248, 0));
 }
 
-.kuiperbelt a {
+/*kuiperbelt-brown = #c1a081 rgba(193, 160, 129)*/
+.kuiperbelt-brown p {
 	background-image: linear-gradient( to right, rgba(208, 184, 175, .5) 50%, rgba(208, 184, 175, 0));
 }
-.kuiperbelt a:focus,
-.kuiperbelt a:hover,
-.kuiperbelt a:active {
+.kuiperbelt-brown p:focus,
+.kuiperbelt-brown p:hover,
+.kuiperbelt-brown p:active {
 	background-image: linear-gradient( to right, rgba(208, 184, 175, 1) 50%, rgba(208, 184, 175, 0));
 }
 
-.periodiccomets a {
+/*comet-grey = #bfcdd9 rgba(191, 205, 217)*/
+.comet-grey p {
 	background-image: linear-gradient( to right, rgba(191, 205, 217, .5) 50%, rgba(191, 205, 217, 0));
 }
-.periodiccomets a:focus,
-.periodiccomets a:hover,
-.periodiccomets a:active {
+.comet-grey p:focus,
+.comet-grey p:hover,
+.comet-grey p:active {
 	background-image: linear-gradient( to right, rgba(191, 205, 217, 1) 50%, rgba(191, 205, 217, 0));
 }
