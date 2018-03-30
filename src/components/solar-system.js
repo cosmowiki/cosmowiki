@@ -345,7 +345,7 @@ const ItemComponent = ({ item, children }) => {
   } else {
     pureWidth = 'pure-u-5-6 pure-u-md-4-5';
   }
-  const itemDivStyles = `${item.type} ${pureWidth} ${item.color}`;
+  const itemDivStyles = `${item.type} ${item.category} ${pureWidth} ${item.color}`;
 
   return (
           <div id={item.name2} className={itemDivStyles}>
