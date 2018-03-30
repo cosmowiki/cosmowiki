@@ -39934,7 +39934,7 @@ var ItemComponent = function ItemComponent(_ref2) {
   } else {
     pureWidth = 'pure-u-5-6 pure-u-md-4-5';
   }
-  var itemDivStyles = item.type + ' ' + pureWidth + ' ' + item.color;
+  var itemDivStyles = item.type + ' ' + item.category + ' ' + pureWidth + ' ' + item.color;
 
   return _react2['default'].createElement(
     'div',
