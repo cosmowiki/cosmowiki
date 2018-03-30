@@ -3,8 +3,8 @@ import SolarSystemComponent from '../components/solar-system';
 
 export default class SolarSystem {
 
-  static componentWithData(_, appUrl) {
-    return <SolarSystemComponent appUrl={appUrl} />;
+  static componentWithData(items) {
+    return <SolarSystemComponent items={items} />;
   }
 
   static fromRawData(rawData) {
@@ -17,16 +17,17 @@ class Item {
 
   static fromRawData(raw) {
     const item = new Item();
+    item.index = raw.itemindex;
     item.name = raw.itemname;
-    item.name2 = raw.itemname2;//to use in id=""
+    item.name2 = raw.itemname2 ? raw.itemname2 : '';//to use in id=""
     const alternativename1 = raw.itemname3 ? raw.itemname3 : '';
     const alternativename2 = raw.itemname4 ? `, ${raw.itemname4}`: '';
     item.alternativeName = `${alternativename1}${alternativename2}`;
-    item.type = raw.itemtype;//to control the Pure grid
-    item.category = raw.itemcategory;//star, group, planet, moon, object
-    item.parent = raw.itemparent;//solar-system, inner-planets, Earth, apollo-type-astroids ...
-    item.color = raw.itemcolor;
-    item.wikipediaUrl = raw.itemurl ? raw.itemurl : '#';
+    item.type = raw.itemtype ? raw.itemtype : '';//to control the Pure width
+    item.category = raw.itemcategory ? raw.itemcategory : '';//star, group, planet, moon, object
+    item.parent = raw.itemparent ? raw.itemparent : '';//solar-system, inner-planets, Earth, apollo-type-astroids ...
+    item.color = raw.itemcolor ? raw.itemcolor : '';
+    item.wikipediaUrl = raw.itemurl ? raw.itemurl : '';
     item.imageSmallUrl = raw.itemimgsmallurl ? raw.itemimgsmallurl : '';
     item.imageUrl = raw.itemimgurl ? raw.itemimgurl : '';
     item.imageSrc = raw.itemimgsrc ? raw.itemimgsrc : '';
