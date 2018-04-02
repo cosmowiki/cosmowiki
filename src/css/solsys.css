@@ -10,8 +10,7 @@
 #solarsystemTable div a,
 #solarsystemTable div span {display: block;}
 
-#solarsystemTable div.pure-u-5-6 {margin-left: 16.666%;}
-#solarsystemTable div.pure-u-md-4-5 {margin-left: 20%;}
+#solarsystemTable div.pure-u-11-12 {margin-left: 8.333%;}
 
 #solarsystemTable div.level-1 a,
 #solarsystemTable div.level-1 span {padding: .9em; font-size: 1.15rem;}
@@ -34,6 +33,9 @@
 #solarsystemTable div.level-7 a,
 #solarsystemTable div.level-7 span {padding: .3em; font-size: .85rem;}
 
+#solarsystemTable div.placeholder {border: none;}
+#solarsystemTable div.placeholder > p {display: none;}
+
 #solarsystemTable div.collapsed:after {content: " \25B8";}
 #solarsystemTable div.expanded:after {content: " \25BE";}
 #solarsystemTable div.collapsed:focus:after,
@@ -46,10 +48,10 @@
 /*	breakpoints ------------------------------------------------------------- */
 /* global breakpoints min-width: sm = 35.5em, md = 48em, lg = 64em, xl = 80em */
 @media only all and (min-width: 35.5em) {
-
+	#solarsystemTable div.pure-u-sm-7-8 {margin-left: 12.5%;}
 }
 @media only all and (min-width: 48em) {
-
+	#solarsystemTable div.pure-u-md-4-5 {margin-left: 20%;}
 }
 @media only all and (min-width: 64em) {
 
