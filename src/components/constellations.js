@@ -107,7 +107,7 @@ const ConstellationsComponent = ({constellations}) => {
         <h4>Wussten Sie schon?</h4>
         <ul className="summary-list">
           <li>
-            Durch die <em>Präzessionsbwegung der Erde</em> war das Kreuz des Südens in
+            Durch die <em>Präzessionsbewegung der Erde</em> war das Kreuz des Südens in
             der Antike auch im Mittelmeerraum sichtbar.
           </li>
           <li>

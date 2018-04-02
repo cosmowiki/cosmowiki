@@ -51,10 +51,11 @@ export default class ChronicleComponent extends React.Component {
             </p>
           </div>
           <p className="summary-text">
-            Täglich ziehen Sonne und Mond am Firmament entlang und bestimmen den Rhythmus
-            des Lebens auf der Erde. Schon in den ersten menschlichen Gesellschaften
-            erkannten Priester und Schamanen kosmische Zyklen und nutzten
-            ihr Wissen. Aussaat und Ernte richteten sich danach, kultische Riten entstanden.
+            Täglich ziehen Sonne, Mond und Sterne am Firmament entlang und bestimmen
+            den Rhythmus des Lebens auf der Erde. Schon in den ersten menschlichen
+            Gesellschaften erkannten Priester und Schamanen kosmische Zyklen und
+            nutzten ihr Wissen. Aussaat und Ernte richteten sich danach, kultische
+            Riten entstanden.
           </p>
           <p className="summary-text">
             Rund um den Globus besaßen die Erbauer der ersten Observatorien
