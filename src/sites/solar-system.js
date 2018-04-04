@@ -17,7 +17,7 @@ class Item {
 
   static fromRawData(raw) {
     const item = new Item();
-    item.index = raw.itemindex.replace('.0','.');
+    item.index = raw.itemindex.replace(/0/g,'');
     item.name = raw.itemname;
     item.name2 = raw.itemname2 ? raw.itemname2 : '';//to use in id=""
     const alternativename1 = raw.itemname3 ? raw.itemname3 : '';
