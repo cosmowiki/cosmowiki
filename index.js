@@ -35247,7 +35247,7 @@ var ConstellationsComponent = function ConstellationsComponent(_ref) {
           _react2['default'].createElement(
             'em',
             null,
-            'Präzessionsbwegung der Erde'
+            'Präzessionsbewegung der Erde'
           ),
           ' war das Kreuz des Südens in der Antike auch im Mittelmeerraum sichtbar.'
         ),
@@ -35613,7 +35613,7 @@ var ChronicleComponent = (function (_React$Component) {
           _react2['default'].createElement(
             'p',
             { className: 'summary-text' },
-            'Täglich ziehen Sonne und Mond am Firmament entlang und bestimmen den Rhythmus des Lebens auf der Erde. Schon in den ersten menschlichen Gesellschaften erkannten Priester und Schamanen kosmische Zyklen und nutzten ihr Wissen. Aussaat und Ernte richteten sich danach, kultische Riten entstanden.'
+            'Täglich ziehen Sonne, Mond und Sterne am Firmament entlang und bestimmen den Rhythmus des Lebens auf der Erde. Schon in den ersten menschlichen Gesellschaften erkannten Priester und Schamanen kosmische Zyklen und nutzten ihr Wissen. Aussaat und Ernte richteten sich danach, kultische Riten entstanden.'
           ),
           _react2['default'].createElement(
             'p',
@@ -39028,7 +39028,7 @@ var SolarSystemComponent = function SolarSystemComponent(_ref) {
           null,
           'Neptun'
         ),
-        ' sind. Im Innern besitzen sie wahrscheinlich alle einen kleinen, festen Kern aus Gestein und Eis. Die vier Riesen verfügen zusätzlich auch über Ringsysteme aus Gesteins- oder Eispartikeln unterschiedlicher Größe. Auf den Äquatorebenen der Planeten rotieren sie in mehreren Ringscheiben um sie herum. Jupiter wird von 62 Monden umkreist, Saturn sogar von 67! Die Eisriesen Uranus und Neptun verfügen über 27, bzw. 14 Monde.'
+        ' sind. Im Innern besitzen sie wahrscheinlich alle einen kleinen, festen Kern aus Gestein und Eis. Die vier Riesen verfügen zusätzlich auch über Ringsysteme aus Gesteins- oder Eispartikeln unterschiedlicher Größe. Auf den Äquatorebenen der Planeten rotieren sie in mehreren Ringscheiben um sie herum. Jupiter wird von 69 bekannten Monden umkreist, Saturn von 62! Die Eisriesen Uranus und Neptun verfügen über 27, bzw. 14 Monde.'
       ),
       _react2['default'].createElement(
         'div',
@@ -39263,16 +39263,40 @@ var SolarSystemComponent = function SolarSystemComponent(_ref) {
                     ItemComponent,
                     { item: item, key: idx },
                     items.filter(function (item) {
-                      return item.index.startsWith('1.3.1.');
+                      return item.index === '1.3.1.1';
                     }).map(function (item, idx) {
-                      return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index === '1.3.1.1.1';
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('1.3.1.1.1.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
+                        })
+                      );
                     })
                   );
                 }),
                 items.filter(function (item) {
                   return item.index === '1.3.2';
                 }).map(function (item, idx) {
-                  return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                  return _react2['default'].createElement(
+                    ItemComponent,
+                    { item: item, key: idx },
+                    items.filter(function (item) {
+                      return item.index.startsWith('1.3.2.');
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                    })
+                  );
                 }),
                 items.filter(function (item) {
                   return item.index === '1.3.3';
@@ -39287,9 +39311,17 @@ var SolarSystemComponent = function SolarSystemComponent(_ref) {
                         ItemComponent,
                         { item: item, key: idx },
                         items.filter(function (item) {
-                          return item.index.startsWith('1.3.3.1.');
+                          return item.index === '1.3.3.1.1';
                         }).map(function (item, idx) {
-                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('1.3.3.1.1.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
                         })
                       );
                     }),
@@ -39300,9 +39332,17 @@ var SolarSystemComponent = function SolarSystemComponent(_ref) {
                         ItemComponent,
                         { item: item, key: idx },
                         items.filter(function (item) {
-                          return item.index.startsWith('1.3.3.2.');
+                          return item.index === '1.3.3.2.1';
                         }).map(function (item, idx) {
-                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('1.3.3.2.1.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
                         })
                       );
                     }),
@@ -39365,19 +39405,6 @@ var SolarSystemComponent = function SolarSystemComponent(_ref) {
                           );
                         })
                       );
-                    }),
-                    items.filter(function (item) {
-                      return item.index === '1.3.3.4';
-                    }).map(function (item, idx) {
-                      return _react2['default'].createElement(
-                        ItemComponent,
-                        { item: item, key: idx },
-                        items.filter(function (item) {
-                          return item.index.startsWith('1.3.3.4.');
-                        }).map(function (item, idx) {
-                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
-                        })
-                      );
                     })
                   );
                 })
@@ -39402,9 +39429,17 @@ var SolarSystemComponent = function SolarSystemComponent(_ref) {
                         ItemComponent,
                         { item: item, key: idx },
                         items.filter(function (item) {
-                          return item.index.startsWith('1.4.1.1.');
+                          return item.index === '1.4.1.1.1';
                         }).map(function (item, idx) {
-                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('1.4.1.1.1.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
                         })
                       );
                     }),
@@ -39415,9 +39450,17 @@ var SolarSystemComponent = function SolarSystemComponent(_ref) {
                         ItemComponent,
                         { item: item, key: idx },
                         items.filter(function (item) {
-                          return item.index.startsWith('1.4.1.2.');
+                          return item.index === '1.4.1.2.1';
                         }).map(function (item, idx) {
-                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('1.4.1.2.1.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
                         })
                       );
                     })
@@ -39444,152 +39487,272 @@ var SolarSystemComponent = function SolarSystemComponent(_ref) {
             ItemComponent,
             { item: item, key: idx },
             items.filter(function (item) {
-              return item.index.startsWith('2.0');
-            }).map(function (item, idx) {
-              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
-            }),
-            items.filter(function (item) {
               return item.index === '2.1';
             }).map(function (item, idx) {
               return _react2['default'].createElement(
                 ItemComponent,
                 { item: item, key: idx },
                 items.filter(function (item) {
-                  return item.index === '2.1';
+                  return item.index === '2.1.1';
                 }).map(function (item, idx) {
                   return _react2['default'].createElement(
                     ItemComponent,
                     { item: item, key: idx },
                     items.filter(function (item) {
-                      return item.index === '2.1.1';
+                      return item.index === '2.1.1.1';
                     }).map(function (item, idx) {
                       return _react2['default'].createElement(
                         ItemComponent,
                         { item: item, key: idx },
                         items.filter(function (item) {
-                          return item.index.startsWith('2.1.1.');
+                          return item.index === '2.1.1.1.1';
                         }).map(function (item, idx) {
-                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
-                        })
-                      );
-                    }),
-                    items.filter(function (item) {
-                      return item.index === '2.1.2';
-                    }).map(function (item, idx) {
-                      return _react2['default'].createElement(
-                        ItemComponent,
-                        { item: item, key: idx },
-                        items.filter(function (item) {
-                          return item.index.startsWith('2.1.2.');
-                        }).map(function (item, idx) {
-                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
-                        })
-                      );
-                    }),
-                    items.filter(function (item) {
-                      return item.index === '2.1.3';
-                    }).map(function (item, idx) {
-                      return _react2['default'].createElement(
-                        ItemComponent,
-                        { item: item, key: idx },
-                        items.filter(function (item) {
-                          return item.index.startsWith('2.1.3.');
-                        }).map(function (item, idx) {
-                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('2.1.1.1.1.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
                         })
                       );
                     })
                   );
-                }),
+                })
+              );
+            }),
+            items.filter(function (item) {
+              return item.index === '2.2';
+            }).map(function (item, idx) {
+              return _react2['default'].createElement(
+                ItemComponent,
+                { item: item, key: idx },
                 items.filter(function (item) {
-                  return item.index === '2.2';
+                  return item.index === '2.2.1';
                 }).map(function (item, idx) {
                   return _react2['default'].createElement(
                     ItemComponent,
                     { item: item, key: idx },
                     items.filter(function (item) {
-                      return item.index === '2.2.1';
+                      return item.index === '2.2.1.1';
                     }).map(function (item, idx) {
                       return _react2['default'].createElement(
                         ItemComponent,
                         { item: item, key: idx },
                         items.filter(function (item) {
-                          return item.index.startsWith('2.2.1.');
+                          return item.index === '2.2.1.1.1';
                         }).map(function (item, idx) {
-                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('2.2.1.1.1.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
                         })
                       );
                     }),
                     items.filter(function (item) {
-                      return item.index === '2.2.2';
+                      return item.index === '2.2.1.2';
                     }).map(function (item, idx) {
                       return _react2['default'].createElement(
                         ItemComponent,
                         { item: item, key: idx },
                         items.filter(function (item) {
-                          return item.index.startsWith('2.2.2.');
+                          return item.index === '2.2.1.2.1';
                         }).map(function (item, idx) {
-                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('2.2.1.2.1.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
+                        })
+                      );
+                    }),
+                    items.filter(function (item) {
+                      return item.index === '2.2.1.3';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index === '2.2.1.3.1';
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('2.2.1.3.1.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
                         })
                       );
                     })
                   );
-                }),
+                })
+              );
+            }),
+            items.filter(function (item) {
+              return item.index === '2.3';
+            }).map(function (item, idx) {
+              return _react2['default'].createElement(
+                ItemComponent,
+                { item: item, key: idx },
                 items.filter(function (item) {
-                  return item.index === '2.3';
+                  return item.index === '2.3.1';
                 }).map(function (item, idx) {
                   return _react2['default'].createElement(
                     ItemComponent,
                     { item: item, key: idx },
                     items.filter(function (item) {
-                      return item.index === '2.3.1';
+                      return item.index === '2.3.1.1';
                     }).map(function (item, idx) {
                       return _react2['default'].createElement(
                         ItemComponent,
                         { item: item, key: idx },
                         items.filter(function (item) {
-                          return item.index.startsWith('2.3.1.');
+                          return item.index === '2.3.1.1.1';
                         }).map(function (item, idx) {
-                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('2.3.1.1.1.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
                         })
                       );
                     }),
                     items.filter(function (item) {
-                      return item.index === '2.3.2';
+                      return item.index === '2.3.1.2';
                     }).map(function (item, idx) {
                       return _react2['default'].createElement(
                         ItemComponent,
                         { item: item, key: idx },
                         items.filter(function (item) {
-                          return item.index.startsWith('2.3.2.');
+                          return item.index === '2.3.1.2.1';
                         }).map(function (item, idx) {
-                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('2.3.1.2.1.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
+                        })
+                      );
+                    })
+                  );
+                })
+              );
+            }),
+            items.filter(function (item) {
+              return item.index === '2.4';
+            }).map(function (item, idx) {
+              return _react2['default'].createElement(
+                ItemComponent,
+                { item: item, key: idx },
+                items.filter(function (item) {
+                  return item.index === '2.4.1';
+                }).map(function (item, idx) {
+                  return _react2['default'].createElement(
+                    ItemComponent,
+                    { item: item, key: idx },
+                    items.filter(function (item) {
+                      return item.index === '2.4.1.1';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index === '2.4.1.1.1';
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('2.4.1.1.1.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
                         })
                       );
                     }),
                     items.filter(function (item) {
-                      return item.index === '2.3.3';
+                      return item.index === '2.4.1.2';
                     }).map(function (item, idx) {
                       return _react2['default'].createElement(
                         ItemComponent,
                         { item: item, key: idx },
                         items.filter(function (item) {
-                          return item.index.startsWith('2.3.3.');
+                          return item.index === '2.4.1.2.1';
                         }).map(function (item, idx) {
-                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('2.4.1.2.1.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
                         })
                       );
                     }),
                     items.filter(function (item) {
-                      return item.index === '2.3.4';
+                      return item.index === '2.4.1.3';
                     }).map(function (item, idx) {
                       return _react2['default'].createElement(
                         ItemComponent,
                         { item: item, key: idx },
                         items.filter(function (item) {
-                          return item.index.startsWith('2.3.4.');
+                          return item.index === '2.4.1.3.1';
                         }).map(function (item, idx) {
-                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('2.4.1.3.1.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
+                        })
+                      );
+                    }),
+                    items.filter(function (item) {
+                      return item.index === '2.4.1.4';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index === '2.4.1.4.1';
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('2.4.1.4.1.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
                         })
                       );
                     })
@@ -39624,39 +39787,39 @@ var SolarSystemComponent = function SolarSystemComponent(_ref) {
                         ItemComponent,
                         { item: item, key: idx },
                         items.filter(function (item) {
-                          return item.index.startsWith('3.1.1.1.');
+                          return item.index === '3.1.1.1.1';
                         }).map(function (item, idx) {
-                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
-                        })
-                      );
-                    }),
-                    items.filter(function (item) {
-                      return item.index === '3.1.1.2';
-                    }).map(function (item, idx) {
-                      return _react2['default'].createElement(
-                        ItemComponent,
-                        { item: item, key: idx },
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('3.1.1.1.1.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
+                        }),
                         items.filter(function (item) {
-                          return item.index.startsWith('3.1.1.2.');
+                          return item.index === '3.1.1.1.2';
                         }).map(function (item, idx) {
-                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('3.1.1.1.2.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
                         })
                       );
                     })
                   );
                 }),
                 items.filter(function (item) {
-                  return item.index === '3.1.2';
+                  return item.index.startsWith('3.1.2');
                 }).map(function (item, idx) {
-                  return _react2['default'].createElement(
-                    ItemComponent,
-                    { item: item, key: idx },
-                    items.filter(function (item) {
-                      return item.index.startsWith('3.1.2.');
-                    }).map(function (item, idx) {
-                      return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
-                    })
-                  );
+                  return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
                 })
               );
             }),
@@ -39667,17 +39830,9 @@ var SolarSystemComponent = function SolarSystemComponent(_ref) {
                 ItemComponent,
                 { item: item, key: idx },
                 items.filter(function (item) {
-                  return item.index === '3.2.1';
+                  return item.index.startsWith('3.2.');
                 }).map(function (item, idx) {
-                  return _react2['default'].createElement(
-                    ItemComponent,
-                    { item: item, key: idx },
-                    items.filter(function (item) {
-                      return item.index.startsWith('3.2.1.');
-                    }).map(function (item, idx) {
-                      return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
-                    })
-                  );
+                  return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
                 })
               );
             }),
@@ -39694,24 +39849,32 @@ var SolarSystemComponent = function SolarSystemComponent(_ref) {
                     ItemComponent,
                     { item: item, key: idx },
                     items.filter(function (item) {
-                      return item.index.startsWith('3.3.1.');
+                      return item.index === '3.3.1.1';
                     }).map(function (item, idx) {
-                      return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index === '3.3.1.1.1';
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('3.3.1.1.1.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
+                        })
+                      );
                     })
                   );
                 }),
                 items.filter(function (item) {
-                  return item.index === '3.3.2';
+                  return item.index.startsWith('3.3.2.');
                 }).map(function (item, idx) {
-                  return _react2['default'].createElement(
-                    ItemComponent,
-                    { item: item, key: idx },
-                    items.filter(function (item) {
-                      return item.index.startsWith('3.3.2.');
-                    }).map(function (item, idx) {
-                      return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
-                    })
-                  );
+                  return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
                 })
               );
             }),
@@ -39734,9 +39897,17 @@ var SolarSystemComponent = function SolarSystemComponent(_ref) {
                         ItemComponent,
                         { item: item, key: idx },
                         items.filter(function (item) {
-                          return item.index.startsWith('3.4.1.1.');
+                          return item.index === '3.4.1.1.1';
                         }).map(function (item, idx) {
-                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('3.4.1.1.1.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
                         })
                       );
                     }),
@@ -39747,26 +39918,26 @@ var SolarSystemComponent = function SolarSystemComponent(_ref) {
                         ItemComponent,
                         { item: item, key: idx },
                         items.filter(function (item) {
-                          return item.index.startsWith('3.4.1.2.');
+                          return item.index === '3.4.1.2.1';
                         }).map(function (item, idx) {
-                          return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('3.4.1.2.1.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
                         })
                       );
                     })
                   );
                 }),
                 items.filter(function (item) {
-                  return item.index === '3.4.2';
+                  return item.index.startsWith('3.4.2.');
                 }).map(function (item, idx) {
-                  return _react2['default'].createElement(
-                    ItemComponent,
-                    { item: item, key: idx },
-                    items.filter(function (item) {
-                      return item.index.startsWith('3.4.2.');
-                    }).map(function (item, idx) {
-                      return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
-                    })
-                  );
+                  return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
                 })
               );
             })
@@ -39928,13 +40099,18 @@ var ItemComponent = function ItemComponent(_ref2) {
   var item = _ref2.item;
   var children = _ref2.children;
 
-  var pureWidth = item.type;
-  if (pureWidth === 'level-1') {
-    pureWidth = 'pure-u-1';
+  var pureGridWith = item.type;
+  if (pureGridWith === 'level-1') {
+    pureGridWith = 'pure-u-1';
   } else {
-    pureWidth = 'pure-u-5-6 pure-u-md-4-5';
+    pureGridWith = 'pure-u-11-12 pure-u-sm-7-8 pure-u-md-4-5';
   }
-  var itemDivStyles = item.type + ' ' + item.category + ' ' + pureWidth + ' ' + item.color;
+  var itemDivStyles = undefined;
+  if (item.name) {
+    itemDivStyles = item.index + ' ' + item.type + ' ' + item.category + ' ' + pureGridWith + ' ' + item.color;
+  } else {
+    itemDivStyles = pureGridWith + ' placeholder';
+  }
 
   return _react2['default'].createElement(
     'div',
@@ -44320,7 +44496,7 @@ var Item = (function () {
     key: 'fromRawData',
     value: function fromRawData(raw) {
       var item = new Item();
-      item.index = raw.itemindex;
+      item.index = raw.itemindex.replace(/0/g, '');
       item.name = raw.itemname;
       item.name2 = raw.itemname2 ? raw.itemname2 : ''; //to use in id=""
       var alternativename1 = raw.itemname3 ? raw.itemname3 : '';
