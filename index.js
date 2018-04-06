@@ -40100,16 +40100,12 @@ var ItemComponent = function ItemComponent(_ref2) {
   var children = _ref2.children;
 
   var pureGridWith = item.type;
-  if (pureGridWith === 'level-1') {
-    pureGridWith = 'pure-u-1';
-  } else {
-    pureGridWith = 'pure-u-11-12 pure-u-sm-7-8 pure-u-md-4-5';
+  {
+    pureGridWith === 'level-1' ? pureGridWith = 'pure-u-1' : pureGridWith = 'pure-u-11-12 pure-u-sm-7-8 pure-u-md-4-5';
   }
   var itemDivStyles = undefined;
-  if (item.name) {
-    itemDivStyles = item.index + ' ' + item.type + ' ' + item.category + ' ' + pureGridWith + ' ' + item.color;
-  } else {
-    itemDivStyles = pureGridWith + ' placeholder';
+  {
+    item.name ? itemDivStyles = item.index + ' ' + item.type + ' ' + item.category + ' ' + pureGridWith + ' ' + item.color : itemDivStyles = pureGridWith + ' placeholder';
   }
 
   return _react2['default'].createElement(
@@ -44496,7 +44492,7 @@ var Item = (function () {
     key: 'fromRawData',
     value: function fromRawData(raw) {
       var item = new Item();
-      item.index = raw.itemindex.replace(/0/g, '');
+      item.index = raw.itemindex;
       item.name = raw.itemname;
       item.name2 = raw.itemname2 ? raw.itemname2 : ''; //to use in id=""
       var alternativename1 = raw.itemname3 ? raw.itemname3 : '';
