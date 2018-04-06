@@ -383,17 +383,9 @@ export default SolarSystemComponent;
 
 const ItemComponent = ({ item, children }) => {
   let pureGridWith = item.type;
-  if (pureGridWith === 'level-1') {
-    pureGridWith = 'pure-u-1';
-  } else {
-    pureGridWith = 'pure-u-11-12 pure-u-sm-7-8 pure-u-md-4-5';
-  }
+  {pureGridWith === 'level-1' ? pureGridWith = 'pure-u-1' : pureGridWith = 'pure-u-11-12 pure-u-sm-7-8 pure-u-md-4-5';}
   let itemDivStyles;
-  if (item.name) {
-    itemDivStyles = `${item.index} ${item.type} ${item.category} ${pureGridWith} ${item.color}`;
-  } else {
-    itemDivStyles = `${pureGridWith} placeholder`;
-  }
+  {item.name ? itemDivStyles = `${item.index} ${item.type} ${item.category} ${pureGridWith} ${item.color}` : itemDivStyles = `${pureGridWith} placeholder`;}
 
   return (
           <div id={item.name2} className={itemDivStyles}>
