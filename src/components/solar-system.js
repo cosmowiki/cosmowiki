@@ -363,13 +363,16 @@ const renderItemsFrom1 = (items, startAt) => {
   );
 };
 
+const findSubItemNumbers = (items, startAt) => {
+  const findChildrenOfStartAt = new RegExp(`^${startAt}\\.\\d+$`);
+  return items
+    .filter(item => findChildrenOfStartAt.test(item.index))
+    .map(item => parseInt(item.index.replace(`${startAt}.`, '')));
+}
+
 const renderItemsFrom = (items, startAt) => {
   const item = items.find(item => item.index === startAt);
-  const findChildrenOfStartAt = new RegExp(`^${startAt}\\.\\d+$`);
-  const subItemNumbers = items
-    .filter(item => findChildrenOfStartAt.test(item.index))
-    .map(item => parseInt(item.index.replace(`${startAt}.`, '')))
-  ;
+  const subItemNumbers = findSubItemNumbers(items, startAt);
   return (
     <ItemComponent item={item} key={startAt}>
       {subItemNumbers.map(num => multiItems(items, `${startAt}.${num}`))}
