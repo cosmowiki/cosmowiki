@@ -369,8 +369,9 @@ const SolarSystemComponent = ({ items }) => {
 };
 
 const renderItemsFrom = (items, startAt) => {
+  const item = items.find(item => item.index === startAt); 
   return (
-    items.filter(item => item.index === startAt).map((item, idx) => <ItemComponent item={ item } key={idx}>
+    <ItemComponent item={item} key={startAt}>
       {[1,2,3,4].map(num => {
           const item = items.find(item => item.index === `${startAt}.${num}`); 
           return <ItemComponent item={item} key={num}>
@@ -379,7 +380,7 @@ const renderItemsFrom = (items, startAt) => {
           </ItemComponent>;
         }
       )}
-    </ItemComponent>)
+    </ItemComponent>
   );
 };
 
