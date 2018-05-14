@@ -168,86 +168,16 @@ const SolarSystemComponent = ({ items }) => {
         <div id="solarsystemTable">
           {items.filter(item => item.index === '0').map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
           {items.filter(item => item.index === '1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-            {items.filter(item => item.index === '1.1').map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
-            {items.filter(item => item.index === '1.2').map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
-            {items.filter(item => item.index === '1.3').map((item, idx) => <ItemComponent item={ item } key={idx}>
-              {renderItemsFrom1(items, '1.3.1')}
-              {renderItemsFrom1(items, '1.3.2')}
-              {renderItemsFrom1(items, '1.3.3')}
-            </ItemComponent>)}
-            {items.filter(item => item.index === '1.4').map((item, idx) => <ItemComponent item={ item } key={idx}>
-              {renderItemsFrom1(items, '1.4.1')}
-              {renderItemsFrom1(items, '1.4.2')}
-              {renderItemsFrom1(items, '1.4.3')}
-            </ItemComponent>)}
+            {renderItemsFrom2(items, '1.1')}
+            {renderItemsFrom2(items, '1.2')}
+            {renderItemsFrom2(items, '1.3')}
+            {renderItemsFrom2(items, '1.4')}
           </ItemComponent>)}
           {items.filter(item => item.index === '2').map((item, idx) => <ItemComponent item={ item } key={idx}>
-            {items.filter(item => item.index === '2.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-              {items.filter(item => item.index === '2.1.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                {items.filter(item => item.index === '2.1.1.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                  {items.filter(item => item.index === '2.1.1.1.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                    {items.filter(item => item.index.startsWith('2.1.1.1.1.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
-                  </ItemComponent>)}
-                </ItemComponent>)}
-              </ItemComponent>)}
-            </ItemComponent>)}
-            {items.filter(item => item.index === '2.2').map((item, idx) => <ItemComponent item={ item } key={idx}>
-              {items.filter(item => item.index === '2.2.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                {items.filter(item => item.index === '2.2.1.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                  {items.filter(item => item.index === '2.2.1.1.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                    {items.filter(item => item.index.startsWith('2.2.1.1.1.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
-                  </ItemComponent>)}
-                </ItemComponent>)}
-                {items.filter(item => item.index === '2.2.1.2').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                  {items.filter(item => item.index === '2.2.1.2.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                    {items.filter(item => item.index.startsWith('2.2.1.2.1.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
-                  </ItemComponent>)}
-                </ItemComponent>)}
-                {items.filter(item => item.index === '2.2.1.3').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                  {items.filter(item => item.index === '2.2.1.3.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                    {items.filter(item => item.index.startsWith('2.2.1.3.1.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
-                  </ItemComponent>)}
-                </ItemComponent>)}
-              </ItemComponent>)}
-            </ItemComponent>)}
-            {items.filter(item => item.index === '2.3').map((item, idx) => <ItemComponent item={ item } key={idx}>
-              {items.filter(item => item.index === '2.3.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                {items.filter(item => item.index === '2.3.1.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                  {items.filter(item => item.index === '2.3.1.1.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                    {items.filter(item => item.index.startsWith('2.3.1.1.1.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
-                  </ItemComponent>)}
-                </ItemComponent>)}
-                {items.filter(item => item.index === '2.3.1.2').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                  {items.filter(item => item.index === '2.3.1.2.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                    {items.filter(item => item.index.startsWith('2.3.1.2.1.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
-                  </ItemComponent>)}
-                </ItemComponent>)}
-              </ItemComponent>)}
-            </ItemComponent>)}
-            {items.filter(item => item.index === '2.4').map((item, idx) => <ItemComponent item={ item } key={idx}>
-              {items.filter(item => item.index === '2.4.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                {items.filter(item => item.index === '2.4.1.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                  {items.filter(item => item.index === '2.4.1.1.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                    {items.filter(item => item.index.startsWith('2.4.1.1.1.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
-                  </ItemComponent>)}
-                </ItemComponent>)}
-                {items.filter(item => item.index === '2.4.1.2').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                  {items.filter(item => item.index === '2.4.1.2.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                    {items.filter(item => item.index.startsWith('2.4.1.2.1.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
-                  </ItemComponent>)}
-                </ItemComponent>)}
-                {items.filter(item => item.index === '2.4.1.3').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                  {items.filter(item => item.index === '2.4.1.3.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                    {items.filter(item => item.index.startsWith('2.4.1.3.1.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
-                  </ItemComponent>)}
-                </ItemComponent>)}
-                {items.filter(item => item.index === '2.4.1.4').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                  {items.filter(item => item.index === '2.4.1.4.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                    {items.filter(item => item.index.startsWith('2.4.1.4.1.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
-                  </ItemComponent>)}
-                </ItemComponent>)}
-              </ItemComponent>)}
-            </ItemComponent>)}
+            {renderItemsFrom2(items, '2.1')}
+            {renderItemsFrom2(items, '2.2')}
+            {renderItemsFrom2(items, '2.3')}
+            {renderItemsFrom2(items, '2.4')}
           </ItemComponent>)}
           {items.filter(item => item.index === '3').map((item, idx) => <ItemComponent item={ item } key={idx}>
             {items.filter(item => item.index === '3.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
@@ -341,6 +271,16 @@ const findSubItemNumbers = (items, startAt) => {
     .filter(item => findChildrenOfStartAt.test(item.index))
     .map(item => item.index.replace(`${startAt}.`, ''));
 }
+
+const renderItemsFrom2 = (items, startAt) => {
+  const item = items.find(item => item.index === startAt);
+  const subItemNumbers = findSubItemNumbers(items, startAt);
+  return (
+    <ItemComponent item={ item } key={startAt}>
+      {subItemNumbers.map(num => renderItemsFrom1(items, `${startAt}.${num}`))}
+    </ItemComponent>
+  );
+};
 
 const renderItemsFrom1 = (items, startAt) => {
   const item = items.find(item => item.index === startAt);
