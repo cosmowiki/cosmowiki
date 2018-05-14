@@ -379,10 +379,10 @@ const renderItemsFrom = (items, startAt) => {
 
 const multiItems = (items, startAt) => {
   const item = items.find(item => item.index === startAt);
-  const filteredItems = items.filter(item => item.index.startsWith(`${startAt}.`));
+  const subItems = items.filter(item => item.index.startsWith(`${startAt}.`));
   return (
     <ItemComponent item={item} key={startAt}>
-      {filteredItems.map((item, idx) => <ItemComponent item={item} key={idx} />)}
+      {subItems.map((item, idx) => <ItemComponent item={item} key={idx} />)}
     </ItemComponent>
   );
 }
