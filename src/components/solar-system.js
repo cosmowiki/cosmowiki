@@ -369,10 +369,15 @@ const SolarSystemComponent = ({ items }) => {
 };
 
 const renderItemsFrom = (items, startAt) => {
-  const item = items.find(item => item.index === startAt); 
+  const item = items.find(item => item.index === startAt);
+  const findChildrenOfStartAt = new RegExp(`^${startAt}\\.\\d+$`);
+  const subItemNumbers = items
+    .filter(item => findChildrenOfStartAt.test(item.index))
+    .map(item => parseInt(item.index.replace(`${startAt}.`, '')))
+  ;
   return (
     <ItemComponent item={item} key={startAt}>
-      {[1,2,3,4].map(num => multiItems(items, `${startAt}.${num}`))}
+      {subItemNumbers.map(num => multiItems(items, `${startAt}.${num}`))}
     </ItemComponent>
   );
 };
