@@ -356,9 +356,10 @@ const SolarSystemComponent = ({ items }) => {
 
 const renderItemsFrom1 = (items, startAt) => {
   const item = items.find(item => item.index === startAt);
+  const subItemNumbers = findSubItemNumbers(items, startAt);
   return (
     <ItemComponent item={ item } key={startAt}>
-      {[1,2,3].map(num => renderItemsFrom(items, `${startAt}.${num}`))}
+      {subItemNumbers.map(num => renderItemsFrom(items, `${startAt}.${num}`))}
     </ItemComponent>
   );
 };
