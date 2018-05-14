@@ -354,6 +354,13 @@ const SolarSystemComponent = ({ items }) => {
   );
 };
 
+const findSubItemNumbers = (items, startAt) => {
+  const findChildrenOfStartAt = new RegExp(`^${startAt}\\.\\d+$`);
+  return items
+    .filter(item => findChildrenOfStartAt.test(item.index))
+    .map(item => parseInt(item.index.replace(`${startAt}.`, '')));
+}
+
 const renderItemsFrom1 = (items, startAt) => {
   const item = items.find(item => item.index === startAt);
   const subItemNumbers = findSubItemNumbers(items, startAt);
@@ -363,13 +370,6 @@ const renderItemsFrom1 = (items, startAt) => {
     </ItemComponent>
   );
 };
-
-const findSubItemNumbers = (items, startAt) => {
-  const findChildrenOfStartAt = new RegExp(`^${startAt}\\.\\d+$`);
-  return items
-    .filter(item => findChildrenOfStartAt.test(item.index))
-    .map(item => parseInt(item.index.replace(`${startAt}.`, '')));
-}
 
 const renderItemsFrom = (items, startAt) => {
   const item = items.find(item => item.index === startAt);
