@@ -358,7 +358,7 @@ const findSubItemNumbers = (items, startAt) => {
   const findChildrenOfStartAt = new RegExp(`^${startAt}\\.\\d+$`);
   return items
     .filter(item => findChildrenOfStartAt.test(item.index))
-    .map(item => parseInt(item.index.replace(`${startAt}.`, '')));
+    .map(item => item.index.replace(`${startAt}.`, ''));
 }
 
 const renderItemsFrom1 = (items, startAt) => {
