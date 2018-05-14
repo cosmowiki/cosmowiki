@@ -376,12 +376,12 @@ const renderItemsFrom = (items, startAt) => {
   const subItemNumbers = findSubItemNumbers(items, startAt);
   return (
     <ItemComponent item={item} key={startAt}>
-      {subItemNumbers.map(num => multiItems(items, `${startAt}.${num}`))}
+      {subItemNumbers.map(num => lastLevelItems(items, `${startAt}.${num}`))}
     </ItemComponent>
   );
 };
 
-const multiItems = (items, startAt) => {
+const lastLevelItems = (items, startAt) => {
   const item = items.find(item => item.index === startAt);
   const subItems = items.filter(item => item.index.startsWith(`${startAt}.`));
   return (
