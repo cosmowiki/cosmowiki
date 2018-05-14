@@ -371,9 +371,11 @@ const SolarSystemComponent = ({ items }) => {
 const renderItemsFrom = (items, startAt) => {
   return (
     items.filter(item => item.index === startAt).map((item, idx) => <ItemComponent item={ item } key={idx}>
-      {items.filter(item => item.index === `${startAt}.1`).map((item, idx) => <ItemComponent item={ item } key={idx}>
-        {items.filter(item => item.index.startsWith(`${startAt}.1.`)).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
-      </ItemComponent>)}
+      {[1].map(num =>
+        items.filter(item => item.index === `${startAt}.${num}`).map((item, idx) => <ItemComponent item={ item } key={idx}>
+          {items.filter(item => item.index.startsWith(`${startAt}.${num}.`)).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
+        </ItemComponent>)
+      )}
       {items.filter(item => item.index === `${startAt}.2`).map((item, idx) => <ItemComponent item={ item } key={idx}>
         {items.filter(item => item.index.startsWith(`${startAt}.2.`)).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
       </ItemComponent>)}
