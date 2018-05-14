@@ -372,17 +372,20 @@ const renderItemsFrom = (items, startAt) => {
   const item = items.find(item => item.index === startAt); 
   return (
     <ItemComponent item={item} key={startAt}>
-      {[1,2,3,4].map(num => {
-          const item = items.find(item => item.index === `${startAt}.${num}`); 
-          return <ItemComponent item={item} key={num}>
-            {items.filter(item => item.index.startsWith(`${startAt}.${num}.`)).map((item, idx) => <ItemComponent
-              item={item} key={idx}></ItemComponent>)}
-          </ItemComponent>;
-        }
-      )}
+      {[1,2,3,4].map(num => multiItems(items, `${startAt}.${num}`))}
     </ItemComponent>
   );
 };
+
+const multiItems = (items, startAt) => {
+  const item = items.find(item => item.index === startAt);
+  const filteredItems = items.filter(item => item.index.startsWith(`${startAt}.`));
+  return (
+    <ItemComponent item={item} key={startAt}>
+      {filteredItems.map((item, idx) => <ItemComponent item={item} key={idx} />)}
+    </ItemComponent>
+  );
+}
 
 export default SolarSystemComponent;
 
