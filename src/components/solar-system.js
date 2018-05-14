@@ -358,9 +358,7 @@ const renderItemsFrom1 = (items, startAt) => {
   const item = items.find(item => item.index === startAt);
   return (
     <ItemComponent item={ item } key={startAt}>
-      {renderItemsFrom(items, `${startAt}.1`)}
-      {renderItemsFrom(items, `${startAt}.2`)}
-      {renderItemsFrom(items, `${startAt}.3`)}
+      {[1,2,3].map(num => renderItemsFrom(items, `${startAt}.${num}`))}
     </ItemComponent>
   );
 };
