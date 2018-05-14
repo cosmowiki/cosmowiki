@@ -181,13 +181,7 @@ const SolarSystemComponent = ({ items }) => {
               {items.filter(item => item.index === '1.3.2').map((item, idx) => <ItemComponent item={ item } key={idx}>
                 {items.filter(item => item.index.startsWith('1.3.2.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
               </ItemComponent>)}
-              {items.filter(item => item.index === '1.3.3').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                
-                {renderItemsFrom(items, '1.3.3.1')}
-                {renderItemsFrom(items, '1.3.3.2')}
-                {renderItemsFrom(items, '1.3.3.3')}
-                
-              </ItemComponent>)}
+              {renderItemsFrom1(items, '1.3.3')}
             </ItemComponent>)}
             {items.filter(item => item.index === '1.4').map((item, idx) => <ItemComponent item={ item } key={idx}>
               {items.filter(item => item.index === '1.4.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
@@ -358,6 +352,14 @@ const SolarSystemComponent = ({ items }) => {
       <Notes />
     </main>
   );
+};
+
+const renderItemsFrom1 = (items, startAt) => {
+  return items.filter(item => item.index === startAt).map((item, idx) => <ItemComponent item={ item } key={idx}>
+    {renderItemsFrom(items, `${startAt}.1`)}
+    {renderItemsFrom(items, `${startAt}.2`)}
+    {renderItemsFrom(items, `${startAt}.3`)}
+  </ItemComponent>)
 };
 
 const renderItemsFrom = (items, startAt) => {
