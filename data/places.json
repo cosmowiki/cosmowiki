@@ -3,25 +3,25 @@
         "itemname": "Ames Research Center",
         "itemurl": "https://de.wikipedia.org/wiki/Ames_Research_Center",
         "itemname2": "ARC",
+        "itemtype": 2,
         "itemcountry": "USA",
         "itemoperator": "NASA",
         "itempurpose": "Zentrum zur Grundlagenforschung für die Luftfahrtechnik",
         "itemlocation": "Kalifornien, Moffett Field",
         "itemlatitude": "37.415",
-        "itemlongitude": "-122.0625",
-        "itemtype": 2
+        "itemlongitude": "-122.0625"
     },
     {
         "itemname": "Applied Physics Laboratory",
         "itemurl": "https://de.wikipedia.org/wiki/Applied_Physics_Laboratory",
         "itemname2": "APL",
+        "itemtype": 2,
         "itemcountry": "USA",
         "itemoperator": "Johns Hopkins University, NASA",
         "itempurpose": "Raumfahrtwissenschaften, Entwurf und Herstellung von Raumfahrzeugen, Betreuung von Raumfahrtmissionen",
         "itemlocation": "Maryland, Laurel",
         "itemlatitude": "39.163015",
-        "itemlongitude": "-76.899438",
-        "itemtype": 2
+        "itemlongitude": "-76.899438"
     },
     {
         "itemname": "Beijing Aerospace Command and Control Center",
@@ -34,1061 +34,1061 @@
     {
         "itemname": "Calar-Alto-Observatorium",
         "itemurl": "https://de.wikipedia.org/wiki/Calar-Alto-Observatorium",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "ES",
         "itemoperator": "MPI für Astronomie, Andalusisches Institut für Astrophysik",
         "itempurpose": "Observatorium",
         "itemlocation": "Calar Alto",
         "itemlatitude": "37.220867",
-        "itemlongitude": "-2.546686",
-        "itemtype": 1
+        "itemlongitude": "-2.546686"
     },
     {
         "itemname": "Canberra Deep Space Communication Complex",
         "itemurl": "https://de.wikipedia.org/wiki/Canberra_Deep_Space_Communication_Complex",
         "itemname2": "CDSCC",
+        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "AU",
         "itemoperator": "DSN, CSIRO, NASA",
         "itempurpose": "Bodenstation zur Kommunikation mit Raumfahrzeugen (Apollo, Skylab, Voyager)",
         "itemlocation": "New South Wales, Canberra",
         "itemlatitude": "-35.401464",
-        "itemlongitude": "148.981790",
-        "itemtype": 2
+        "itemlongitude": "148.981790"
     },
     {
         "itemname": "Cape Canaveral Air Force Station",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station",
         "itemname2": "CCAFS",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.488889",
-        "itemlongitude": "-80.577778",
-        "itemtype": 2
+        "itemlongitude": "-80.577778"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 1",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_1",
         "itemname2": "CCAFS LC-1",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.465",
-        "itemlongitude": "-80.5375",
-        "itemtype": 2
+        "itemlongitude": "-80.5375"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 10",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_10",
         "itemname2": "CCAFS LC-10",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.4501",
-        "itemlongitude": "-80.5565",
-        "itemtype": 2
+        "itemlongitude": "-80.5565"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 11",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_11",
         "itemname2": "CCAFS LC-11",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "SCORE (der erste Kommunikationssatellit)",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.4753",
-        "itemlongitude": "-80.5395",
-        "itemtype": 2
+        "itemlongitude": "-80.5395"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 12",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_12",
         "itemname2": "CCAFS LC-12",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "Pioneer C, Pioneer D, Ranger 1, Ranger 2, Ranger 3, Ranger 4, Ranger 5, Ranger 6, Ranger 7, Ranger 8, Ranger 9, Mariner 4, Mariner 5",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.4805",
-        "itemlongitude": "-80.542",
-        "itemtype": 2
+        "itemlongitude": "-80.542"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 13",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_13",
         "itemname2": "CCAFS LC-13",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "Vela 2, Vela 3, Vela 5, Mariner 3, alle Lunar Orbiter (1 – 5)",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.4859",
-        "itemlongitude": "-80.5444",
-        "itemtype": 2
+        "itemlongitude": "-80.5444"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 14",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_14",
         "itemname2": "CCAFS LC-14",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "Pioneer P3, Mercury-Big-Joe 1, alle Mercury-Atlas (1 – 9), Gemini 6, Gemini 8, Gemini 9, Gemini 10, Gemini 11, Gemini 12",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.49",
-        "itemlongitude": "-80.5469",
-        "itemtype": 2
+        "itemlongitude": "-80.5469"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 15",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_15",
         "itemname2": "CCAFS LC-15",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.4963",
-        "itemlongitude": "-80.5493",
-        "itemtype": 2
+        "itemlongitude": "-80.5493"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 16",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_16",
         "itemname2": "CCAFS LC-16",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force, US Army",
         "itempurpose": "Triebwerktest des Apollo-Service-Moduls",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.5017",
-        "itemlongitude": "-80.5518",
-        "itemtype": 2
+        "itemlongitude": "-80.5518"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 17",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_17",
         "itemname2": "CCAFS LC-17",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "Pioneer 0, Pioneer 1, Pioneer 2, Pioneer 5, Pioneer 6, Pioneer 7, Pioneer 8, Pioneer 9, Pioneer E, div. GPS-Satelliten, NEAR Shoemaker, Mars Global Surveyor, Mars Pathfinder, Deep Space 1, Mars Climate Orbiter, Mars Polar Lander, Stardust, FUSE, WMAP, Mars Odyssey, Genesis, CONTOUR, Mars Exploration Rover A (Spirit), Mars Exploration Rover B (Opportunity), MESSENGER, Deep Impact, STEREO, Dawn, Fermi Gamma-ray Space Telescope, Kepler, GRAIL",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.4465",
-        "itemlongitude": "-80.5652",
-        "itemtype": 2
+        "itemlongitude": "-80.5652"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 18",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_18",
         "itemname2": "CCAFS LC-18",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "Vanguard",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.4493",
-        "itemlongitude": "-80.5623",
-        "itemtype": 2
+        "itemlongitude": "-80.5623"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 19",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_19",
         "itemname2": "CCAFS LC-19",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "alle Gemini-Missionen",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.5067",
-        "itemlongitude": "-80.5546",
-        "itemtype": 2
+        "itemlongitude": "-80.5546"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 2",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_2",
         "itemname2": "CCAFS LC-2",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.4657",
-        "itemlongitude": "-80.5369",
-        "itemtype": 2
+        "itemlongitude": "-80.5369"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 20",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_20",
         "itemname2": "CCAFS LC-20",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Höhenforschungsraketen",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.5119",
-        "itemlongitude": "-80.557",
-        "itemtype": 2
+        "itemlongitude": "-80.557"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 21",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_21",
         "itemname2": "CCAFS LC-21",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.4616",
-        "itemlongitude": "-80.5416",
-        "itemtype": 2
+        "itemlongitude": "-80.5416"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 22",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_22",
         "itemname2": "CCAFS LC-22",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.461",
-        "itemlongitude": "-80.5398",
-        "itemtype": 2
+        "itemlongitude": "-80.5398"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 26",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_26",
         "itemname2": "CCAFS LC-26",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "Explorer 1, Explorer 2, Explorer S-46, Explorer 8, Explorer 11, Bioflight 1, Bioflight 2, Bioflight 3",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.4442",
-        "itemlongitude": "-80.5714",
-        "itemtype": 2
+        "itemlongitude": "-80.5714"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 29",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_29",
         "itemname2": "CCAFS LC-29",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.4296",
-        "itemlongitude": "-80.5771",
-        "itemtype": 2
+        "itemlongitude": "-80.5771"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 3",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_3",
         "itemname2": "CCAFS LC-3",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "Bumper-Rakete (A4)",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.4657",
-        "itemlongitude": "-80.5369",
-        "itemtype": 2
+        "itemlongitude": "-80.5369"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 30",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_30",
         "itemname2": "CCAFS LC-30",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.4296",
-        "itemlongitude": "-80.5771",
-        "itemtype": 2
+        "itemlongitude": "-80.5771"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 31",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_31",
         "itemname2": "CCAFS LC-31",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.4513",
-        "itemlongitude": "-80.5562",
-        "itemtype": 2
+        "itemlongitude": "-80.5562"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 32",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_32",
         "itemname2": "CCAFS LC-32",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.4531",
-        "itemlongitude": "-80.5546",
-        "itemtype": 2
+        "itemlongitude": "-80.5546"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 34",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_34",
         "itemname2": "CCAFS LC-34",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "Saturn 1, Saturn 1B, Apollo 7 (NASA)",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.52182",
-        "itemlongitude": "-80.561258",
-        "itemtype": 2
+        "itemlongitude": "-80.561258"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 36",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_36",
         "itemname2": "CCAFS LC-36",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "Surveyor 1, Surveyor 2, Surveyor 3, Surveyor 4, Surveyor 5, Surveyor 6, Surveyor 7, Mariner 6, Mariner 7, Mariner 9, Pioneer 10, Pioneer 11, Pioneer-Venus-Orbiter, div. Intelsat-Missionen, SOHO (NASA)",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.4696",
-        "itemlongitude": "-80.5394",
-        "itemtype": 2
+        "itemlongitude": "-80.5394"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 4",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_4",
         "itemname2": "CCAFS LC-4",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "Redstone-Rakete",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.4669",
-        "itemlongitude": "-80.5356",
-        "itemtype": 2
+        "itemlongitude": "-80.5356"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 40",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_40",
         "itemname2": "CCAFS LC-40",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force, Space X",
         "itempurpose": "Mars Observer, Cassini-Huygens, Dragon COTS-1",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.562",
-        "itemlongitude": "-80.5772",
-        "itemtype": 2
+        "itemlongitude": "-80.5772"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 41",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_41",
         "itemname2": "CCAFS LC-41",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force, NASA",
         "itempurpose": "Helios 1, Helios 2, Viking 1, Viking 2, Voyager 1, Voyager 2, Mars Reconnaissance Orbiter, New Horizons, LCROSS, Solar Dynamics Observatory, Juno, Mars Science Laboratory, Boeing X-37",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.5833",
-        "itemlongitude": "-80.5831",
-        "itemtype": 2
+        "itemlongitude": "-80.5831"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 43",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_43",
         "itemname2": "CCAFS LC-43",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "Höhenforschungsraketen",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.4667",
-        "itemlongitude": "-80.5585",
-        "itemtype": 2
+        "itemlongitude": "-80.5585"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 46",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_46",
         "itemname2": "CCAFS LC-46",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "Lunar Prospector",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.4585",
-        "itemlongitude": "-80.5284",
-        "itemtype": 2
+        "itemlongitude": "-80.5284"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 47",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_47",
         "itemname2": "CCAFS LC-47",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "Höhenforschungsraketen",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.549",
-        "itemlongitude": "-80.5678",
-        "itemtype": 2
+        "itemlongitude": "-80.5678"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 5",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_5",
         "itemname2": "CCAFS LC-5",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "Jupiter, Juno II, Explorr 3, Explorer 4, Explorer 5, Explorer S-1, Explorer 7, Mercury-Redstone 1, Mercury-Redstone 1A, Mercury-Redstone 2, Mercury-Redstone BD, Mercury-Redstone 3 (Freedom 7), Mercury-Redstone 4 (Liberty Bell 7), Pioneer 3, Pioneer 4",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.4394",
-        "itemlongitude": "-80.5734",
-        "itemtype": 2
+        "itemlongitude": "-80.5734"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 6",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_6",
         "itemname2": "CCAFS LC-6",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "Redstone, Jupiter-A, Jupiter-C",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.4407",
-        "itemlongitude": "-80.5725",
-        "itemtype": 2
+        "itemlongitude": "-80.5725"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Launch Complex 9",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_9",
         "itemname2": "CCAFS LC-9",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.452",
-        "itemlongitude": "-80.5562",
-        "itemtype": 2
+        "itemlongitude": "-80.5562"
     },
     {
         "itemname": "Cape Canaveral Air Force Station Space Launch Complex 37",
         "itemurl": "https://de.wikipedia.org/wiki/Cape_Canaveral_AFS_Launch_Complex_37",
         "itemname2": "CCAFS SLC-37",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "NASA, US Air Force",
         "itempurpose": "Saturn 1, Saturn 1B, Apollo 5",
         "itemlocation": "Florida, Cape Canaveral",
         "itemlatitude": "28.4998",
-        "itemlongitude": "-80.5531",
-        "itemtype": 2
+        "itemlongitude": "-80.5531"
     },
     {
         "itemname": "Carr-House",
         "itemurl": "https://de.wikipedia.org/wiki/Carr_House_(Lancashire)",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "GB",
         "itemoperator": "Jeremiah Horrocks",
         "itempurpose": "Wohn- u. Arbeitsstätte von Jermiah Horrocks",
         "itemlocation": "England, Much Hoole",
         "itemlatitude": "53.6869",
-        "itemlongitude": "-2.815",
-        "itemtype": 1
+        "itemlongitude": "-2.815"
     },
     {
         "itemname": "Centre Spacial Guyanais",
         "itemurl": "https://de.wikipedia.org/wiki/Centre_Spatial_Guyanais",
         "itemname2": "CSG (Centre Spacial Guyanais)",
+        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "FR",
         "itemoperator": "ESA",
         "itempurpose": "Raumfahrtzentrum der ESA, Kontrollzentrum",
-        "itemlocation": "Kourou",
-        "itemtype": 2
+        "itemlocation": "Kourou"
     },
     {
         "itemname": "Centro de Lançamento de Alcântara",
         "itemurl": "https://de.wikipedia.org/wiki/Centro_de_Lan%C3%A7amento_de_Alc%C3%A2ntara",
         "itemname2": "CLA",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "BR",
         "itemoperator": "AEB",
         "itemlocation": "Brasilien, Alcântara",
         "itemlatitude": "-2.373056",
-        "itemlongitude": "-44.396389",
-        "itemtype": 2
+        "itemlongitude": "-44.396389"
     },
     {
         "itemname": "Chanquillo-Observatorium",
         "itemurl": "https://de.wikipedia.org/wiki/Chanquillo",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "PE",
         "itemoperator": "indianische Völker",
         "itempurpose": "Observatorium",
         "itemlocation": "Chanquillo",
         "itemlatitude": "-9.556667",
-        "itemlongitude": "-78.235833",
-        "itemtype": 1
+        "itemlongitude": "-78.235833"
     },
     {
         "itemname": "CSG Ensemble de Lancement Soyouz",
         "itemurl": "https://de.wikipedia.org/wiki/ELS_(Startrampe)",
         "itemname2": "CSG ELS",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "FR",
         "itemoperator": "ESA",
         "itempurpose": "Sojus, Navigationssatelliten Galileo",
         "itemlocation": "Kourou",
         "itemlatitude": "5.30186",
-        "itemlongitude": "-52.834582",
-        "itemtype": 2
+        "itemlongitude": "-52.834582"
     },
     {
         "itemname": "CSG Ensembles de Lancement Ariane 1",
         "itemurl": "https://de.wikipedia.org/wiki/ELV_%28Startrampe%29",
         "itemname2": "CSG ELA-1",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "FR",
         "itemoperator": "ESA",
         "itempurpose": "Ariane 2, Ariane 3, Vega",
         "itemlocation": "Kourou",
         "itemlatitude": "5.236",
-        "itemlongitude": "-52.775",
-        "itemtype": 2
+        "itemlongitude": "-52.775"
     },
     {
         "itemname": "CSG Ensembles de Lancement Ariane 2",
         "itemurl": "https://de.wikipedia.org/wiki/ELA-2",
         "itemname2": "CSG ELA-2",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "FR",
         "itemoperator": "ESA",
         "itempurpose": "Ariane 2, Ariane 3, Ariane 4",
         "itemlocation": "Kourou",
         "itemlatitude": "5.2322",
-        "itemlongitude": "-52.7755",
-        "itemtype": 2
+        "itemlongitude": "-52.7755"
     },
     {
         "itemname": "CSG Ensembles de Lancement Ariane 3",
         "itemurl": "https://de.wikipedia.org/wiki/ELA-3",
         "itemname2": "CSG ELA-3",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "FR",
         "itemoperator": "ESA",
         "itempurpose": "Ariane 5",
         "itemlocation": "Kourou",
         "itemlatitude": "5.2406",
-        "itemlongitude": "-52.7708",
-        "itemtype": 2
+        "itemlongitude": "-52.7708"
     },
     {
         "itemname": "CSG Ensembles de Lancement Vega",
         "itemurl": "https://de.wikipedia.org/wiki/ELV_%28Startrampe%29",
         "itemname2": "CSG ELV",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "FR",
         "itemoperator": "ESA",
         "itempurpose": "Vega",
         "itemlocation": "Kourou",
         "itemlatitude": "5.236",
-        "itemlongitude": "-52.775",
-        "itemtype": 2
+        "itemlongitude": "-52.775"
     },
     {
         "itemname": "CSG l’Ensemble de Lancement Europa",
         "itemurl": "https://de.wikipedia.org/wiki/Centre_Spatial_Guyanais",
         "itemname2": "CSG ELE",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "FR",
         "itemoperator": "ESA",
         "itempurpose": "Höhenforschungsraketen, Europa-2",
-        "itemlocation": "Kourou",
-        "itemtype": 2
+        "itemlocation": "Kourou"
     },
     {
         "itemname": "David Florida Laboratory",
         "itemurl": "https://de.wikipedia.org/wiki/David_Florida_Laboratory",
         "itemname2": "DFL",
+        "itemtype": 2,
         "itemcountry": "Kanada",
         "itemoperator": "CSA",
         "itempurpose": "Entwicklung, Bau und Test von Satelliten und Satellitensystemen",
-        "itemlocation": "Ontario, Shilreys Bay",
-        "itemtype": 2
+        "itemlocation": "Ontario, Shilreys Bay"
     },
     {
         "itemname": "Deep Space Network",
         "itemurl": "https://de.wikipedia.org/wiki/Deep_Space_Network",
         "itemname2": "DSN",
+        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemoperator": "JPL, NASA",
         "itempurpose": "Netzwerk von Bodenstationen zur Kommunikation mit Raumflugkörpern sowie radar- und radioastronomische Forschungszwecke",
-        "itemlocation": "globales Netzwerk",
-        "itemtype": 2
+        "itemlocation": "globales Netzwerk"
     },
     {
         "itemname": "Department of Applied Mathematics and Theoretical Physics",
         "itemurl": "http://en.wikipedia.org/wiki/DAMTP",
+        "itemtype": 2,
         "itemcountry": "GB",
         "itemoperator": "University of Cambridge",
         "itempurpose": "mathematisches und physikalisches Forschungszentrum",
-        "itemlocation": "England, Cambridge",
-        "itemtype": 2
+        "itemlocation": "England, Cambridge"
     },
     {
         "itemname": "Deutsches Raumfahrt-Kontrollzentrum",
         "itemurl": "https://de.wikipedia.org/wiki/Deutsches_Raumfahrt-Kontrollzentrum",
         "itemname2": "GSOC",
+        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "DE",
         "itemoperator": "DLR",
         "itempurpose": "Betrieb und Forschung für die Raumfahrt, Kommunikation mit Raumflugkörpern",
-        "itemlocation": "Oberpfaffenhofen",
-        "itemtype": 2
+        "itemlocation": "Oberpfaffenhofen"
     },
     {
         "itemname": "Dombarovsky",
         "itemurl": "https://de.wikipedia.org/wiki/Kosmodrom_Jasny",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "RU",
         "itemoperator": "WWS (russ. Luftwaffe)",
         "itempurpose": "Genesis 1, Genesis 2 (Bigelow Aerospace)",
-        "itemlocation": "Orenburg",
-        "itemtype": 2
+        "itemlocation": "Orenburg"
     },
     {
         "itemname": "Dryden Research Flight Center",
         "itemurl": "https://de.wikipedia.org/wiki/Dryden_Flight_Research_Center",
         "itemname2": "DFRC",
+        "itemtype": 2,
         "itemcountry": "USA",
         "itemoperator": "NASA",
         "itempurpose": "Tests von technologische Neuerungen im Flugzeugbau, Überschallflüge (Bell X-1, Lunar Landing Research Vehicle (LLRV))",
-        "itemlocation": "Kalifornien, Lancaster",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lancaster"
     },
     {
         "itemname": "ESA tracking stations",
         "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
         "itemname2": "ESTRACK",
+        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemoperator": "ESA",
         "itempurpose": "Netzwerk von Bodenstationen zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
-        "itemlocation": "globales Netzwerk von Bodenstationen",
-        "itemtype": 2
+        "itemlocation": "globales Netzwerk von Bodenstationen"
     },
     {
         "itemname": "ESTRACK Ground station Argentienien, Malargüe",
         "itemurl": "http://en.wikipedia.org/wiki/Malarg%C3%BCe_Station",
         "itemname2": "ESTRACK",
+        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "AR",
         "itemoperator": "ESTRACK",
         "itempurpose": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
-        "itemlocation": "Malargüe",
-        "itemtype": 2
+        "itemlocation": "Malargüe"
     },
     {
         "itemname": "ESTRACK Ground station Australien, New Norcia",
         "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
         "itemname2": "ESTRACK",
+        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "AU",
         "itemoperator": "ESTRACK",
         "itempurpose": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
-        "itemlocation": "Western Australia, New Norcia",
-        "itemtype": 2
+        "itemlocation": "Western Australia, New Norcia"
     },
     {
         "itemname": "ESTRACK Ground station Australien, Perth",
         "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
         "itemname2": "ESTRACK",
+        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "AU",
         "itemoperator": "ESTRACK",
         "itempurpose": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
-        "itemlocation": "Western Australia, Perth",
-        "itemtype": 2
+        "itemlocation": "Western Australia, Perth"
     },
     {
         "itemname": "ESTRACK Ground station Belgien, Redu",
         "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
         "itemname2": "ESTRACK",
+        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "BE",
         "itemoperator": "ESTRACK",
         "itempurpose": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
-        "itemlocation": "Redu",
-        "itemtype": 2
+        "itemlocation": "Redu"
     },
     {
         "itemname": "ESTRACK Ground station Französisch Guyana, Kourou",
         "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
         "itemname2": "ESTRACK",
+        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "FR",
         "itemoperator": "ESTRACK",
         "itempurpose": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
-        "itemlocation": "Kourou",
-        "itemtype": 2
+        "itemlocation": "Kourou"
     },
     {
         "itemname": "ESTRACK Ground station Portugal, Santa Maria",
         "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
         "itemname2": "ESTRACK",
+        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "PT",
         "itemoperator": "ESTRACK",
         "itempurpose": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
-        "itemlocation": "Santa Maria",
-        "itemtype": 2
+        "itemlocation": "Santa Maria"
     },
     {
         "itemname": "ESTRACK Ground station Schweden, Kiruna",
         "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
         "itemname2": "ESTRACK",
+        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "SE",
         "itemoperator": "ESTRACK",
         "itempurpose": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
-        "itemlocation": "Kiruna",
-        "itemtype": 2
+        "itemlocation": "Kiruna"
     },
     {
         "itemname": "ESTRACK Ground station Spanien, Cerebros",
         "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
         "itemname2": "ESTRACK",
+        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "ES",
         "itemoperator": "ESTRACK",
         "itempurpose": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
-        "itemlocation": "Cerebros",
-        "itemtype": 2
+        "itemlocation": "Cerebros"
     },
     {
         "itemname": "ESTRACK Ground station Spanien, Maspalomas",
         "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
         "itemname2": "ESTRACK",
+        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "ES",
         "itemoperator": "ESTRACK",
         "itempurpose": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
-        "itemlocation": "Maspalomas",
-        "itemtype": 2
+        "itemlocation": "Maspalomas"
     },
     {
         "itemname": "ESTRACK Ground station Spanien, Villafranca del Castillo",
         "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
         "itemname2": "ESTRACK",
+        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "ES",
         "itemoperator": "ESTRACK",
         "itempurpose": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
-        "itemlocation": "Villafranca del Castillo",
-        "itemtype": 2
+        "itemlocation": "Villafranca del Castillo"
     },
     {
         "itemname": "European Astronaut Centre",
         "itemurl": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Astronautenzentrum",
         "itemname2": "EAC",
+        "itemtype": 2,
         "itemcountry": "Deutschland",
         "itemoperator": "ESA",
         "itempurpose": "Zentrum zur Ausbildung von Raumfahrern der ESA",
-        "itemlocation": "Köln-Porz",
-        "itemtype": 2
+        "itemlocation": "Köln-Porz"
     },
     {
         "itemname": "European Space and Sounding Rocket Range",
         "itemurl": "https://de.wikipedia.org/wiki/Esrange",
         "itemname2": "Esrange",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "SE",
         "itemoperator": "Swedish Space Corporation SSC, ESA",
-        "itemlocation": "Kiruna",
-        "itemtype": 2
+        "itemlocation": "Kiruna"
     },
     {
         "itemname": "European Space Astronomy Centre",
         "itemurl": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Weltraumastronomiezentrum",
         "itemname2": "ESAC",
+        "itemtype": 1,
         "itemcountry": "Spanien",
         "itemoperator": "ESA",
         "itempurpose": "Zentrum zur Archivierung und Auswertung von Daten wissenschaftlicher Weltraummissionen der ESA",
-        "itemlocation": "Villafranca del Castillo",
-        "itemtype": 1
+        "itemlocation": "Villafranca del Castillo"
     },
     {
         "itemname": "European Space Operations Centre",
         "itemurl": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Raumflugkontrollzentrum",
         "itemname2": "ESOC",
+        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "DE",
         "itemoperator": "ESA",
         "itempurpose": "Missionskontrollzentrum für die meisten Weltraumprojekte der ESA, Bodenstation",
-        "itemlocation": "Darmstadt",
-        "itemtype": 2
+        "itemlocation": "Darmstadt"
     },
     {
         "itemname": "European Space Research and Technology Centre",
         "itemurl": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Weltraumforschungs-_und_Technologiezentrum",
         "itemname2": "ESTEC",
+        "itemtype": 2,
         "itemcountry": "Niederlande",
         "itemoperator": "ESA",
         "itempurpose": "Zentrum zur Planung von Weltraummissionen der ESA, technische Tests und Materialprüfungen",
-        "itemlocation": "Noordwijk",
-        "itemtype": 2
+        "itemlocation": "Noordwijk"
     },
     {
         "itemname": "European Space Research Institute",
         "itemurl": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Weltraumforschungsinstitut",
         "itemname2": "ESRIN",
+        "itemtype": 2,
         "itemcountry": "Italien",
         "itemoperator": "ESA",
         "itempurpose": "Zentrum zur Verarbeitung der Daten von Erdbeobachtungsmissionen der ESA",
-        "itemlocation": "Frascati",
-        "itemtype": 2
+        "itemlocation": "Frascati"
     },
     {
         "itemname": "Fundort der Himmelsscheibe von Nebra",
         "itemurl": "https://de.wikipedia.org/wiki/Himmelsscheibe_von_Nebra",
+        "itemtype": 1,
         "itemcategory": "Artefakt",
         "itemcountry": "Deutschland",
         "itemoperator": "bronzezeitliche Menschen",
         "itempurpose": "Bronzeplatte mit Applikationen aus Gold, Darstellung von Himmelskörpern und Konstellationen, vermutlich kalendarische Funktion",
-        "itemlocation": "Nebra",
-        "itemtype": 1
+        "itemlocation": "Nebra"
     },
     {
         "itemname": "Fundort des Ishango-Knochens",
         "itemurl": "https://de.wikipedia.org/wiki/Ishango-Knochen",
+        "itemtype": 1,
         "itemcategory": "Artefakt",
         "itemcountry": "Griechenland",
         "itempurpose": "ältester erhaltener Analogrechner zur Berechnung verschiedener Kalender",
-        "itemlocation": "Antikythera",
-        "itemtype": 1
+        "itemlocation": "Antikythera"
     },
     {
         "itemname": "Fundort des Mechanismus von Antikythera",
         "itemurl": "https://de.wikipedia.org/wiki/Mechanismus_von_Antikythera",
+        "itemtype": 1,
         "itemcategory": "Artefakt",
         "itemcountry": "Griechenland",
         "itempurpose": "ältester erhaltener Analogrechner zur Berechnung verschiedener Kalender",
-        "itemlocation": "Antikythera",
-        "itemtype": 1
+        "itemlocation": "Antikythera"
     },
     {
         "itemname": "Galileo-Galilei-Haus",
         "itemurl": "https://de.wikipedia.org/wiki/Galileo_Galilei",
+        "itemtype": 1,
         "itemcountry": "Italien",
         "itemoperator": "Galileo Galilei",
         "itempurpose": "Galileo Galilei entdeckt mit Fernrohr die vier größten Jupitermonde und veröffentlicht in \"Siderius nuncius\" (Sternenbote) seine Ergebnisse",
-        "itemlocation": "Padua",
-        "itemtype": 1
+        "itemlocation": "Padua"
     },
     {
         "itemname": "Gaocheng-Observatorium",
         "itemurl": "https://de.wikipedia.org/wiki/Gaocheng-Observatorium",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "CN",
         "itemoperator": "Kublai Khan",
         "itempurpose": "hist. Observatorium, das älteste in China erhaltene Observatorium, Mongolen-Fürst Kublai Khan ließ 1276 in der frühen Yuan-Dynastie das erste von 27 Großobservatorien für die Erstellung des neuen Shoushi-Kalenders errichten",
         "itemlocation": "Henan, Gaocheng",
         "itemlatitude": "34.402406",
-        "itemlongitude": "113.140711",
-        "itemtype": 1
+        "itemlongitude": "113.140711"
     },
     {
         "itemname": "Glenn Research Center",
         "itemurl": "https://de.wikipedia.org/wiki/Glenn_Research_Center",
         "itemname2": "GRC",
+        "itemtype": 2,
         "itemcountry": "USA",
         "itemoperator": "NASA",
         "itempurpose": "Entwicklung von Luft- und Raumfahrttechnologien (u.a. Wasserstoff-Raketenmotor J-2 für Apollo-Programm, Ionenantrieb)",
-        "itemlocation": "Ohio, Cleveland",
-        "itemtype": 2
+        "itemlocation": "Ohio, Cleveland"
     },
     {
         "itemname": "Goddard Space Flight Center",
         "itemurl": "https://de.wikipedia.org/wiki/Goddard_Space_Flight_Center",
         "itemname2": "GSFC",
+        "itemtype": 2,
         "itemcountry": "USA",
         "itemoperator": "NASA",
         "itempurpose": "wissenschaftliches Forschungslabor für unbemannte Raumfahrt",
-        "itemlocation": "Maryland, Greenbelt",
-        "itemtype": 2
+        "itemlocation": "Maryland, Greenbelt"
     },
     {
         "itemname": "Goldstone Deep Space Communications Complex",
         "itemurl": "https://de.wikipedia.org/wiki/Goldstone_Deep_Space_Communications_Complex",
+        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "US",
         "itemoperator": "DSN, JPL, NASA",
         "itempurpose": "Bodenstation, Antennenanlage zur Kommunikation mit Raumsonden und Satelliten, Teil des Deep Space Network (DSN)",
-        "itemlocation": "Kalifornien, Barstow",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Barstow"
     },
     {
         "itemname": "Gurkani Zij, Observatorium",
         "itemurl": "https://de.wikipedia.org/wiki/Ulug_Begs_Observatorium",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "UZ",
         "itemoperator": "Ulug Beg",
         "itempurpose": "hist. Observatorium für die Astronomen an der Ulugbek-Madrasa",
         "itemlocation": "Samarkand",
         "itemlatitude": "39.674736",
-        "itemlongitude": "67.005661",
-        "itemtype": 1
+        "itemlongitude": "67.005661"
     },
     {
         "itemname": "Harvard-College-Observatory",
         "itemurl": "https://de.wikipedia.org/wiki/Harvard_College_Observatory",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "US",
         "itemoperator": "Harvard University",
         "itempurpose": "Observatorium",
         "itemlocation": "Massachusetts, Cambridge",
         "itemlatitude": "42.381529",
-        "itemlongitude": "-71.128367",
-        "itemtype": 1
+        "itemlongitude": "-71.128367"
     },
     {
         "itemname": "Heeresversuchsanstalt Peenemünde",
         "itemurl": "https://de.wikipedia.org/wiki/Heeresversuchsanstalt_Peenem%C3%BCnde",
         "itemname2": "HVA",
+        "itemtype": 2,
         "itemcountry": "Deutschland",
         "itemoperator": "Deutschland",
         "itempurpose": "Raketentestgelände- und Startplatz im Dritten Reich",
-        "itemlocation": "Peenemünde",
-        "itemtype": 2
+        "itemlocation": "Peenemünde"
     },
     {
         "itemname": "Herschel Museum of Astronomy",
         "itemurl": "https://de.wikipedia.org/wiki/Wilhelm_Herschel",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "GB",
         "itemoperator": "Friedrich Wilhelm Herschel",
         "itempurpose": "hist. Observatorium, Wohn- u. Arbeitsstätte des Friedrich Wilhelm Herschel, Friedrich Wilhelm Herschel entdeckt hier den Planeten Uranus (1781)",
         "itemlocation": "England, Bath",
         "itemlatitude": "51.3825",
-        "itemlongitude": "-2.3667",
-        "itemtype": 1
+        "itemlongitude": "-2.3667"
     },
     {
         "itemname": "Institut für Werkstoff-Forschung",
         "itemurl": "https://de.wikipedia.org/wiki/Institut_f%C3%BCr_Werkstoff-Forschung",
+        "itemtype": 2,
         "itemcountry": "Deutschland",
         "itemoperator": "DLR",
         "itempurpose": "Entwicklung von Werkstofflösungen und deren Prozesstechniken für Anwendungen in der Luftfahrt, Energietechnik, Raumfahrt sowie im Verkehr",
-        "itemlocation": "Köln-Porz",
-        "itemtype": 2
+        "itemlocation": "Köln-Porz"
     },
     {
         "itemname": "Institute of Space and Astronautical Science",
         "itemurl": "https://de.wikipedia.org/wiki/Institute_of_Space_and_Astronautical_Science",
         "itemname2": "ISAS",
+        "itemtype": 2,
         "itemcountry": "Japan",
         "itemoperator": "JAXA",
         "itempurpose": "Institut für Weltraumforschung, dazu gehören das Uchinoura Space Center (USC), das Noshiro Testing Center (NTC), das Sanriku Balloon Center (SBC) und das Usuda Deep Space Center (UDSC). Am 1. Oktober 2003 ging es zusammen mit NASDA und NAL in der neuen Raumfahrtagentur JAXA auf. ISAS betrieb den Startplatzplatz Kagoshima Space Center.",
-        "itemlocation": "Sagamihara Campus",
-        "itemtype": 2
+        "itemlocation": "Sagamihara Campus"
     },
     {
         "itemname": "Jantar Mantar in Delhi",
         "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "IN",
         "itemoperator": "Maharaja Jai Singh II.",
         "itempurpose": "hist. Observatorium",
         "itemlocation": "Delhi",
         "itemlatitude": "28.627108",
-        "itemlongitude": "77.216478",
-        "itemtype": 1
+        "itemlongitude": "77.216478"
     },
     {
         "itemname": "Jantar Mantar in Jaipur",
         "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "IN",
         "itemoperator": "Maharaja Jai Singh II.",
         "itempurpose": "hist. Observatorium",
         "itemlocation": "Rajasthan, Jaipur",
         "itemlatitude": "26.924571",
-        "itemlongitude": "75.824257",
-        "itemtype": 1
+        "itemlongitude": "75.824257"
     },
     {
         "itemname": "Jantar Mantar in Mathura",
         "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "IN",
         "itemoperator": "Maharaja Jai Singh II.",
         "itempurpose": "hist. Observatorium",
-        "itemlocation": "Uttar Pradesh, Mathura",
-        "itemtype": 1
+        "itemlocation": "Uttar Pradesh, Mathura"
     },
     {
         "itemname": "Jantar Mantar in Ujjain",
         "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "IN",
         "itemoperator": "Maharaja Jai Singh II.",
         "itempurpose": "hist. Observatorium",
         "itemlocation": "Madhya Pradesh, Ujjain",
         "itemlatitude": "23.171292",
-        "itemlongitude": "75.766478",
-        "itemtype": 1
+        "itemlongitude": "75.766478"
     },
     {
         "itemname": "Jantar Mantar in Varanasi",
         "itemurl": "https://de.wikipedia.org/wiki/Jantar_Mantar",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "IN",
         "itemoperator": "Maharaja Jai Singh II.",
         "itempurpose": "hist. Observatorium",
         "itemlocation": "Uttar Pradesh, Varanasi",
         "itemlatitude": "25.307721",
-        "itemlongitude": "83.010701",
-        "itemtype": 1
+        "itemlongitude": "83.010701"
     },
     {
         "itemname": "Jet Propulsion Laboratory",
         "itemurl": "https://de.wikipedia.org/wiki/Jet_Propulsion_Laboratory",
         "itemname2": "JPL",
+        "itemtype": 2,
         "itemcountry": "USA",
         "itemoperator": "CalTech",
         "itempurpose": "Steuerung von Satelliten und Raumsonden",
-        "itemlocation": "Kalifornien, Pasadena",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Pasadena"
     },
     {
         "itemname": "Johannes-Kepler-Haus",
         "itemurl": "https://de.wikipedia.org/wiki/Keplersche_Gesetze",
+        "itemtype": 1,
         "itemcountry": "Tschechien",
         "itemoperator": "Johannes Kepler",
         "itempurpose": "Johannes Kepler veröffentlicht die Gesetze der Planetenbahnen in \"Astronomia nova\"",
-        "itemlocation": "Prag",
-        "itemtype": 1
+        "itemlocation": "Prag"
     },
     {
         "itemname": "John C. Stennis Space Center",
         "itemurl": "https://de.wikipedia.org/wiki/John_C._Stennis_Space_Center",
         "itemname2": "SSC",
+        "itemtype": 2,
         "itemcountry": "USA",
         "itemoperator": "NASA",
         "itempurpose": "Test von Raketenmotoren",
-        "itemlocation": "Mississippi, Hancock County",
-        "itemtype": 2
+        "itemlocation": "Mississippi, Hancock County"
     },
     {
         "itemname": "John H. Chapman Space Center",
         "itemurl": "https://de.wikipedia.org/wiki/John_H._Chapman_Space_Centre",
+        "itemtype": 2,
         "itemcountry": "Kanada",
         "itemoperator": "CSA",
         "itempurpose": "Hauptsitz der kanadischen Raumfahrtbehörde (CSA)",
-        "itemlocation": "Québec, Longueuil",
-        "itemtype": 2
+        "itemlocation": "Québec, Longueuil"
     },
     {
         "itemname": "John H. Chapman Space Centre",
@@ -1104,1026 +1104,1026 @@
     {
         "itemname": "Kaifeng",
         "itemurl": "https://de.wikipedia.org/wiki/Rakete",
+        "itemtype": 2,
         "itemcountry": "China",
         "itemoperator": "unbekannt",
-        "itemlocation": "Henan, Kaifeng",
-        "itemtype": 2
+        "itemlocation": "Henan, Kaifeng"
     },
     {
         "itemname": "Kapustin Jar",
         "itemurl": "https://de.wikipedia.org/wiki/Kapustin_Jar",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "RU",
         "itemoperator": "sowj. Streitkräfte",
-        "itemlocation": "Snamensk",
-        "itemtype": 2
+        "itemlocation": "Snamensk"
     },
     {
         "itemname": "Kennedy Space Center",
         "itemurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center",
         "itemname2": "KSC",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "NASA",
-        "itemlocation": "Florida, Merritt Island",
-        "itemtype": 2
+        "itemlocation": "Florida, Merritt Island"
     },
     {
         "itemname": "Kennedy Space Center Launch Complex 39",
         "itemurl": "https://de.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39",
         "itemname2": "KSC LC 39",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "NASA",
         "itempurpose": "Apollo, Skylab, Space Shuttle",
-        "itemlocation": "Florida, Merritt Island",
-        "itemtype": 2
+        "itemlocation": "Florida, Merritt Island"
     },
     {
         "itemname": "Kennedy Space Center Shuttle Landing Facility",
         "itemurl": "https://de.wikipedia.org/wiki/Shuttle_Landing_Facility",
         "itemname2": "KSC SLF",
+        "itemtype": 2,
         "itemcountry": "USA",
         "itemoperator": "NASA",
         "itempurpose": "Landebahn für Space Shuttles",
-        "itemlocation": "Florida, Merritt Island",
-        "itemtype": 2
+        "itemlocation": "Florida, Merritt Island"
     },
     {
         "itemname": "Kosmodrom Baikonur",
         "itemurl": "https://de.wikipedia.org/wiki/Baikonur",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "KZ",
         "itemoperator": "Roskosmos",
         "itempurpose": "Sputnik 1, Luna-Programm, Sojus",
-        "itemlocation": "Baikonur",
-        "itemtype": 2
+        "itemlocation": "Baikonur"
     },
     {
         "itemname": "Kosmodrom Jiuquan",
         "itemurl": "https://de.wikipedia.org/wiki/Kosmodrom_Jiuquan",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "CN",
         "itemoperator": "CNSA",
-        "itemlocation": "Innere Mongolei, Jiuquan",
-        "itemtype": 2
+        "itemlocation": "Innere Mongolei, Jiuquan"
     },
     {
         "itemname": "Kosmodrom Swobodny",
         "itemurl": "https://de.wikipedia.org/wiki/Swobodny_(Startplatzplatz)",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "RU",
-        "itemlocation": "Swobodny",
-        "itemtype": 2
+        "itemlocation": "Swobodny"
     },
     {
         "itemname": "Kosmodrom Wenchang",
         "itemurl": "https://de.wikipedia.org/wiki/Kosmodrom_Wenchang",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "CN",
         "itemoperator": "CNSA",
-        "itemlocation": "Hainan, Wenchang",
-        "itemtype": 2
+        "itemlocation": "Hainan, Wenchang"
     },
     {
         "itemname": "Kosmodrom Wostotschny",
         "itemurl": "https://de.wikipedia.org/wiki/Kosmodrom_Wostotschny",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "RU",
         "itemoperator": "Roskosmos",
         "itempurpose": "Ersatz für Baikonur",
         "itemlocation": "Swobodny",
         "itemlatitude": "51.815556",
-        "itemlongitude": "128.294722",
-        "itemtype": 2
+        "itemlongitude": "128.294722"
     },
     {
         "itemname": "Kosmodrom Wostotschny LC-1",
         "itemurl": "https://de.wikipedia.org/wiki/Kosmodrom_Wostotschny",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "RU",
         "itemoperator": "Roskosmos",
         "itempurpose": "Ersatz für Baikonur",
         "itemlocation": "Swobodny",
         "itemlatitude": "51.884333",
-        "itemlongitude": "128.334591",
-        "itemtype": 2
+        "itemlongitude": "128.334591"
     },
     {
         "itemname": "Kosmodrom Wostotschny LC-2",
         "itemurl": "https://de.wikipedia.org/wiki/Kosmodrom_Wostotschny",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "RU",
         "itemoperator": "Roskosmos",
         "itempurpose": "Ersatz für Baikonur",
-        "itemlocation": "Swobodny",
-        "itemtype": 2
+        "itemlocation": "Swobodny"
     },
     {
         "itemname": "Kosmodrom Xichang",
         "itemurl": "https://de.wikipedia.org/wiki/Kosmodrom_Xichang",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "CN",
         "itemoperator": "CNSA",
-        "itemlocation": "Sichuan, Xichang",
-        "itemtype": 2
+        "itemlocation": "Sichuan, Xichang"
     },
     {
         "itemname": "KosmodromPlessezk",
         "itemurl": "https://de.wikipedia.org/wiki/Plessezk",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "RU",
         "itemoperator": "KWR (russ. Weltraumstreitkräfte)",
-        "itemlocation": "Mirny",
-        "itemtype": 2
+        "itemlocation": "Mirny"
     },
     {
         "itemname": "Kosmonautentrainingszentrum J. A. Gagarin",
         "itemurl": "https://de.wikipedia.org/wiki/Juri-Gagarin-Kosmonautentrainingszentrum",
         "itemname2": "ZPK",
+        "itemtype": 2,
         "itemcountry": "Russland",
         "itemoperator": "Roskosmos",
         "itempurpose": "sowj./russ. Zentrum zur Ausbildung von Raumfahrern",
-        "itemlocation": "Schtscholkowo",
-        "itemtype": 2
+        "itemlocation": "Schtscholkowo"
     },
     {
         "itemname": "Kreisgrabenanlage von Goseck",
         "itemurl": "https://de.wikipedia.org/wiki/Kreisgrabenanlage_von_Goseck",
+        "itemtype": 1,
         "itemcategory": "Artefakt",
         "itemcountry": "Deutschland",
         "itemoperator": "steinzeitliche Menschen",
         "itempurpose": "kultische Handlungen, Ausrichtung der Anlage nach astronomischen Ereignissen (Winter- bzw. Sommersonnenwende)",
-        "itemlocation": "Goseck",
-        "itemtype": 1
+        "itemlocation": "Goseck"
     },
     {
         "itemname": "La-Silla-Observatorium",
         "itemurl": "https://de.wikipedia.org/wiki/La-Silla-Observatorium",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "CL",
         "itemoperator": "ESO",
         "itempurpose": "Observatorium, das erste Observatorium der Europäischen Südsternwarte (ESO) in Chile",
         "itemlocation": "La Silla",
         "itemlatitude": "-29.256389",
-        "itemlongitude": "-70.738056",
-        "itemtype": 1
+        "itemlongitude": "-70.738056"
     },
     {
         "itemname": "Langley Research Center",
         "itemurl": "https://de.wikipedia.org/wiki/Langley_Research_Center",
         "itemname2": "LaRC",
+        "itemtype": 2,
         "itemcountry": "USA",
         "itemoperator": "NASA",
         "itempurpose": "aeronautische Forschung zur Mitarbeit an den Weltraumprojekten der NASA",
-        "itemlocation": "Virginia, Hampton",
-        "itemtype": 2
+        "itemlocation": "Virginia, Hampton"
     },
     {
         "itemname": "Lascaux-Höhlen",
         "itemurl": "https://de.wikipedia.org/wiki/H%C3%B6hle_von_Lascaux",
+        "itemtype": 1,
         "itemcategory": "Artefakt",
         "itemcountry": "Frankreich",
         "itemoperator": "steinzeitliche Menschen",
-        "itemlocation": "Lascaux",
-        "itemtype": 1
+        "itemlocation": "Lascaux"
     },
     {
         "itemname": "Lick-Observatorium",
         "itemurl": "https://de.wikipedia.org/wiki/Lick-Observatorium",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "US",
         "itemoperator": "University of California",
         "itempurpose": "Observatorium, das erste Observatorium, das auf dem Gipfel eines Berges errichtet wurde",
         "itemlocation": "Kalifornien, San Jose",
         "itemlatitude": "37.342778",
-        "itemlongitude": "-121.63694",
-        "itemtype": 1
+        "itemlongitude": "-121.63694"
     },
     {
         "itemname": "Liquid Propulsion Sonnes Centre",
         "itemurl": "http://en.wikipedia.org/wiki/Liquid_Propulsion_Sonnes_Centre",
         "itemname2": "LPSC",
+        "itemtype": 2,
         "itemcountry": "Indien",
         "itemoperator": "ISRO",
         "itempurpose": "Entwicklung flüssiger und tiefgekühlter Brennstoffe",
-        "itemlocation": "Nedumangad",
-        "itemtype": 2
+        "itemlocation": "Nedumangad"
     },
     {
         "itemname": "Lyndon B. Johnson Space Center",
         "itemurl": "https://de.wikipedia.org/wiki/Lyndon_B._Johnson_Space_Center",
         "itemname2": "JSC",
+        "itemtype": 2,
         "itemcountry": "USA",
         "itemoperator": "NASA",
         "itempurpose": "Zentrum zur Koordinierung des bemannten Raumfahrtprogramms der USA (seit Gemini 4)",
-        "itemlocation": "Texas, Houston",
-        "itemtype": 2
+        "itemlocation": "Texas, Houston"
     },
     {
         "itemname": "Madrid Deep Space Communications Complex",
         "itemurl": "https://de.wikipedia.org/wiki/Madrid_Deep_Space_Communications_Complex",
+        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "ES",
         "itemoperator": "DSN, JPL, NASA",
         "itempurpose": "Bodenstation, Radioteleskop-Anlage des Deep Space Network (DSN) zur Verfolgung von Raumsonden",
-        "itemlocation": "Madrid",
-        "itemtype": 2
+        "itemlocation": "Madrid"
     },
     {
         "itemname": "Marshall Space Flight Center",
         "itemurl": "https://de.wikipedia.org/wiki/Marshall_Space_Flight_Center",
         "itemname2": "MSFC",
+        "itemtype": 2,
         "itemcountry": "USA",
         "itemoperator": "NASA",
         "itempurpose": "Entwicklung von Raketentriebwerken, Computer- und Netzwerktechnologien, sowie Programmen zum Informationsmanagement",
-        "itemlocation": "Alabama, Huntsville",
-        "itemtype": 2
+        "itemlocation": "Alabama, Huntsville"
     },
     {
         "itemname": "Mauna-Kea-Observatorium",
         "itemurl": "https://de.wikipedia.org/wiki/Mauna-Kea-Observatorium",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "US",
         "itemoperator": "international",
         "itempurpose": "Observatorium für verschiedene Universitäten und Institutionen aus insgesamt 11 Nationen",
         "itemlocation": "Hawaiʻi, Vulkan Mauna Kea",
         "itemlatitude": "19.759",
-        "itemlongitude": "-155.456333",
-        "itemtype": 1
+        "itemlongitude": "-155.456333"
     },
     {
         "itemname": "Megalithanlage von Mnajdra",
         "itemurl": "https://de.wikipedia.org/wiki/Mnajdra",
+        "itemtype": 1,
         "itemcategory": "Artefakt",
         "itemcountry": "Malta",
         "itemoperator": "steinzeitliche Menschen",
-        "itemlocation": "Malta, Mnajdra",
-        "itemtype": 1
+        "itemlocation": "Malta, Mnajdra"
     },
     {
         "itemname": "Megalithanlage von Nabta Playa",
         "itemurl": "https://de.wikipedia.org/wiki/Nabta-Playa",
+        "itemtype": 1,
         "itemcategory": "Artefakt",
         "itemcountry": "Ägypten",
         "itemoperator": "steinzeitliche Menschen",
-        "itemlocation": "Nabta Playa",
-        "itemtype": 1
+        "itemlocation": "Nabta Playa"
     },
     {
         "itemname": "Megalithanlage von Stonehenge",
         "itemurl": "https://de.wikipedia.org/wiki/Stonehenge",
+        "itemtype": 1,
         "itemcategory": "Artefakt",
         "itemcountry": "GB",
         "itemoperator": "steinzeitliche Menschen",
-        "itemlocation": "England, Stonehenge",
-        "itemtype": 1
+        "itemlocation": "England, Stonehenge"
     },
     {
         "itemname": "Michoud Assembly Facility",
         "itemurl": "https://de.wikipedia.org/wiki/Michoud_Assembly_Facility",
         "itemname2": "MAF",
+        "itemtype": 2,
         "itemcountry": "USA",
         "itemoperator": "NASA, MSFC",
         "itempurpose": "Montage der Saturn V-Raketenstufen, später des Außentanks der Space-Shuttles",
-        "itemlocation": "Louisiana, New Orleans",
-        "itemtype": 2
+        "itemlocation": "Louisiana, New Orleans"
     },
     {
         "itemname": "Mojave Air & Space Port",
         "itemurl": "https://de.wikipedia.org/wiki/Mojave_Air_%26_Space_Port",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itempurpose": "wird von mehreren privaten Raumfahrtunternehmen als Testgelände genutzt",
-        "itemlocation": "Kalifornien, Mojave",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Mojave"
     },
     {
         "itemname": "Mount-Stromlo-Observatory",
         "itemurl": "https://de.wikipedia.org/wiki/Mount-Stromlo-Observatorium",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "AU",
         "itemoperator": "Australian National University",
         "itempurpose": "Observatorium, eines der traditionsreichsten astronomischen Observatorien der südlichen Hemisphäre",
         "itemlocation": "New South Wales, Mt. Stromlo",
         "itemlatitude": "-35.320278",
-        "itemlongitude": "149.006944",
-        "itemtype": 1
+        "itemlongitude": "149.006944"
     },
     {
         "itemname": "NASA Astrobiology Institute",
         "itemurl": "https://de.wikipedia.org/wiki/NASA_Astrobiology_Institute",
         "itemname2": "NAI",
+        "itemtype": 1,
         "itemcountry": "USA",
         "itemoperator": "NASA",
         "itempurpose": "Forschungseinrichtung, mit dem Ziel, die Astrobiologie und ihr dienende Raumflugmissionen voranzutreiben",
-        "itemlocation": "virtuell",
-        "itemtype": 1
+        "itemlocation": "virtuell"
     },
     {
         "itemname": "NASA Institute for Advanced Concepts",
         "itemurl": "https://de.wikipedia.org/wiki/NASA_Institute_for_Advanced_Concepts",
         "itemname2": "NIAC",
+        "itemtype": 2,
         "itemcountry": "USA",
         "itemoperator": "NASA",
-        "itemlocation": "Georgia, Atlanta",
-        "itemtype": 2
+        "itemlocation": "Georgia, Atlanta"
     },
     {
         "itemname": "Nazca-Linien",
         "itemurl": "https://de.wikipedia.org/wiki/Nazca-Linien",
+        "itemtype": 1,
         "itemcategory": "Artefakt",
         "itemcountry": "Peru",
         "itemoperator": "indianische Hochkultur",
-        "itemlocation": "Nazca",
-        "itemtype": 1
+        "itemlocation": "Nazca"
     },
     {
         "itemname": "Noshiro Testing Center",
         "itemurl": "http://en.wikipedia.org/wiki/Noshiro_Testing_Center",
         "itemname2": "NTC",
+        "itemtype": 2,
         "itemcountry": "Japan",
         "itemoperator": "JAXA",
         "itempurpose": "Zentrum für Raketentests der JAXA",
-        "itemlocation": "Noshiro",
-        "itemtype": 2
+        "itemlocation": "Noshiro"
     },
     {
         "itemname": "Observatorio del Teide",
         "itemurl": "https://de.wikipedia.org/wiki/Observatorio_del_Teide",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "ES",
         "itemoperator": "Instituto de Astrofísica de Canarias (IAC)",
         "itempurpose": "Observatorium, gehört zum Instituto de Astrofísica de Canarias (IAC), bildet zusammen mit dem Roque-de-los-Muchachos-Observatorium das European Northern Observatory",
         "itemlocation": "Teneriffa, Izaña",
         "itemlatitude": "28.3",
-        "itemlongitude": "-16.509722",
-        "itemtype": 1
+        "itemlongitude": "-16.509722"
     },
     {
         "itemname": "Observatorum von Cheomseongdae",
         "itemurl": "https://de.wikipedia.org/wiki/Cheomseongdae",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "KR",
         "itemoperator": "unbekannt",
         "itempurpose": "hist. Observatorium, Beobachtung der Sterne, um Wettervorhersagen zu treffen",
         "itemlocation": "Gyeongju",
         "itemlatitude": "35.836394",
-        "itemlongitude": "129.221749",
-        "itemtype": 1
+        "itemlongitude": "129.221749"
     },
     {
         "itemname": "Observatory House",
         "itemurl": "http://en.wikipedia.org/wiki/Observatory_House",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "GB",
         "itemoperator": "Friedrich Wilhelm Herschel",
         "itempurpose": "hist. Observatorium, Wohn- u. Arbeitsstätte des Friedrich Wilhelm Herschel und seiner Schwester Caroline, hier stand das berühmte 40-Fuß-Teleskop - das größte seiner Zeit, er entdeckte hier die Saturnmonde Oberon und Titania (1787) und die Infrarotstrahlung (1800), Friedrich Wilhelm Herschel starb hier am 206.007.1822",
         "itemlocation": "England, Slough",
         "itemlatitude": "51.5082",
-        "itemlongitude": "-0.5954",
-        "itemtype": 1
+        "itemlongitude": "-0.5954"
     },
     {
         "itemname": "Palmachim Raketentestgelände",
         "itemurl": "https://de.wikipedia.org/wiki/Palmachim",
+        "itemtype": 2,
         "itemcountry": "Israel",
         "itemoperator": "ISA",
         "itempurpose": "Raketenversuchsgelände, von diesem Areal werden die Shavit-Raketen mit den Ofeq-Satelliten gestartet",
-        "itemlocation": "Palmachim",
-        "itemtype": 2
+        "itemlocation": "Palmachim"
     },
     {
         "itemname": "Paranal-Observatorium",
         "itemurl": "https://de.wikipedia.org/wiki/Paranal-Observatorium",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "CL",
         "itemoperator": "ESO",
         "itempurpose": "Observatorium, Standort des Very Large Telescope (VLT) und des Very Large Telescope Interferometer (VLTI)",
         "itemlocation": "Cerro Paranal",
         "itemlatitude": "-24.627222",
-        "itemlongitude": "-70.404167",
-        "itemtype": 1
+        "itemlongitude": "-70.404167"
     },
     {
         "itemname": "Parkes-Observatorium",
         "itemurl": "https://de.wikipedia.org/wiki/Parkes-Observatorium",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "AU",
         "itemoperator": "Australia Telescope National Facility",
         "itempurpose": "Observatorium, wurde vor allem durch die Übertragung der ersten Mondlandung an den Rest der Welt bekannt, Hauptinstrument ist das Parkes-Radioteleskop, das mit 64 Meter Antennendurchmesser lange das größte bewegliche Teleskop seiner Art in der südlichen Hemisphäre war",
         "itemlocation": "New South Wales, Parkes",
         "itemlatitude": "-33",
-        "itemlongitude": "148.262222",
-        "itemtype": 1
+        "itemlongitude": "148.262222"
     },
     {
         "itemname": "Rasad-e Khan",
         "itemurl": "https://de.wikipedia.org/wiki/Maragha",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "IR",
         "itemoperator": "Nasir ad-Din at-Tusi",
         "itempurpose": "hist. Observatorium",
         "itemlocation": "Talebkhan",
         "itemlatitude": "37.396078",
-        "itemlongitude": "46.209158",
-        "itemtype": 1
+        "itemlongitude": "46.209158"
     },
     {
         "itemname": "Roque-de-los-Muchachos-Observatorium",
         "itemurl": "https://de.wikipedia.org/wiki/Roque-de-los-Muchachos-Observatorium",
         "itemname2": "ORM",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "ES",
         "itemoperator": "Instituto de Astrofísica de Canarias (IAC)",
         "itempurpose": "Observatorium, zusammen mit dem Teide Observatorium auf Teneriffa bildet das ORM das European Northern Observatory",
         "itemlocation": "La Palma, Roque d. l. Muchachos",
         "itemlatitude": "28.759722",
-        "itemlongitude": "-17.89",
-        "itemtype": 1
+        "itemlongitude": "-17.89"
     },
     {
         "itemname": "Roskosmos-Kontrollzentrum",
         "itemurl": "https://de.wikipedia.org/wiki/Koroljow",
+        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "RU",
         "itemoperator": "Roskosmos",
         "itempurpose": "Kontrollzentrum von Roskosmos",
         "itemlocation": "Koroljow",
         "itemlatitude": "55.916667",
-        "itemlongitude": "37.816667",
-        "itemtype": 2
+        "itemlongitude": "37.816667"
     },
     {
         "itemname": "San Marco Equatorial Range",
         "itemurl": "https://de.wikipedia.org/wiki/San-Marco-Plattform",
         "itemname2": "SMER",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "KE",
         "itemoperator": "ASI",
         "itempurpose": "vor der Küste Kenias, für Feststoffraketen",
-        "itemlocation": "Malindi",
-        "itemtype": 2
+        "itemlocation": "Malindi"
     },
     {
         "itemname": "Satellitenstation Graz-Lustbühel",
         "itemurl": "https://de.wikipedia.org/wiki/Satellitenstation_Graz-Lustb%C3%BChel",
+        "itemtype": 2,
         "itemcountry": "Österreich",
         "itemoperator": "ÖAW",
         "itempurpose": "Fundamentalstation für die Kosmische- und Satellitengeodäsie zur Verankerung eines hochpräzisen geodätischen Koordinatenrahmens auf der Erdoberfläche",
-        "itemlocation": "Graz",
-        "itemtype": 2
+        "itemlocation": "Graz"
     },
     {
         "itemname": "Satish Dhawan Space Centre",
         "itemurl": "https://de.wikipedia.org/wiki/Satish_Dhawan_Space_Centre",
         "itemname2": "SHAR",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "IN",
         "itemoperator": "ISRO",
-        "itemlocation": "Andhra Pradesh, Sriharikota",
-        "itemtype": 2
+        "itemlocation": "Andhra Pradesh, Sriharikota"
     },
     {
         "itemname": "Search for Extraterrestrial Intelligence Institute",
         "itemurl": "https://de.wikipedia.org/wiki/SETI-Institut",
         "itemname2": "SETI",
+        "itemtype": 1,
         "itemcountry": "USA",
         "itemoperator": "privat, NASA, Sun, HP",
-        "itemlocation": "Mountain View",
-        "itemtype": 1
+        "itemlocation": "Mountain View"
     },
     {
         "itemname": "Siding-Spring-Observatory",
         "itemurl": "https://de.wikipedia.org/wiki/Siding-Spring-Observatorium",
+        "itemtype": 1,
         "itemcountry": "Australien",
         "itemoperator": "Australia National University",
-        "itemlocation": "Coonabarabran",
-        "itemtype": 1
+        "itemlocation": "Coonabarabran"
     },
     {
         "itemname": "Space Dynamics Laboratory",
         "itemurl": "http://en.wikipedia.org/wiki/Space_Dynamics_Laboratory",
         "itemname2": "SDL",
+        "itemtype": 2,
         "itemcountry": "USA",
         "itemoperator": "Utah State University",
-        "itemlocation": "Utah, Logan",
-        "itemtype": 2
+        "itemlocation": "Utah, Logan"
     },
     {
         "itemname": "Spaceport America",
         "itemurl": "https://de.wikipedia.org/wiki/Spaceport_America",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "Virgin Galactic",
-        "itemlocation": "New Mexico, Upham",
-        "itemtype": 2
+        "itemlocation": "New Mexico, Upham"
     },
     {
         "itemname": "St Laurence's Church",
         "itemurl": "https://de.wikipedia.org/wiki/Slough",
+        "itemtype": 1,
         "itemcountry": "GB",
         "itemoperator": "Friedrich Wilhelm Herschel",
-        "itemlocation": "England, Slough",
-        "itemtype": 1
+        "itemlocation": "England, Slough"
     },
     {
         "itemname": "Tanegashima Space Center",
         "itemurl": "https://de.wikipedia.org/wiki/Tanegashima_Space_Center",
         "itemname2": "TNSC",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "JP",
         "itemoperator": "JAXA",
-        "itemlocation": "Minamitane",
-        "itemtype": 2
+        "itemlocation": "Minamitane"
     },
     {
         "itemname": "Titow-Bodenstation",
         "itemurl": "https://de.wikipedia.org/wiki/Krasnosnamensk",
+        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "RU",
         "itemoperator": "russische Weltraumtruppen",
         "itempurpose": "Bodenstation, Kontrollzentrum",
         "itemlocation": "Krasnosnamensk",
         "itemlatitude": "55.594",
-        "itemlongitude": "37.047",
-        "itemtype": 2
+        "itemlongitude": "37.047"
     },
     {
         "itemname": "Tsukuba Space Center",
         "itemurl": "https://de.wikipedia.org/wiki/Tsukuba_Space_Center",
         "itemname2": "TKSC",
+        "itemtype": 2,
         "itemcountry": "Japan",
         "itemoperator": "JAXA",
         "itempurpose": "Kontroll-, Forschungs- und Entwicklungszentrum",
-        "itemlocation": "Tsukuba",
-        "itemtype": 2
+        "itemlocation": "Tsukuba"
     },
     {
         "itemname": "Tsukuba Space Center",
         "itemurl": "https://de.wikipedia.org/wiki/Tsukuba_Space_Center",
         "itemname2": "TKSC",
+        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "JP",
         "itemoperator": "JAXA",
         "itempurpose": "Kontroll-, Forschungs- und Entwicklungszentrum, Bodenstation",
-        "itemlocation": "Tsukuba",
-        "itemtype": 2
+        "itemlocation": "Tsukuba"
     },
     {
         "itemname": "Tunguska-Ereignis",
         "itemurl": "https://de.wikipedia.org/wiki/Tunguska-Ereignis",
+        "itemtype": 1,
         "itemcountry": "Russland",
-        "itemlocation": "Tunguska",
-        "itemtype": 1
+        "itemlocation": "Tunguska"
     },
     {
         "itemname": "Uchinoura Space Center",
         "itemurl": "https://de.wikipedia.org/wiki/Uchinoura_Space_Center",
         "itemname2": "USC",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "JP",
         "itemoperator": "JAXA",
-        "itemlocation": "Uchinoura",
-        "itemtype": 2
+        "itemlocation": "Uchinoura"
     },
     {
         "itemname": "United States Naval Observatory",
         "itemurl": "https://de.wikipedia.org/wiki/United_States_Naval_Observatory",
         "itemname2": "USNO",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "US",
         "itemoperator": "US Navy",
         "itempurpose": "Observatorium",
         "itemlocation": "Washington D.C.",
         "itemlatitude": "38.921472",
-        "itemlongitude": "-77.066947",
-        "itemtype": 1
+        "itemlongitude": "-77.066947"
     },
     {
         "itemname": "Uraniborg, Observatorium",
         "itemurl": "https://de.wikipedia.org/wiki/Uraniborg",
+        "itemtype": 1,
         "itemcategory": "Observatorium",
         "itemcountry": "DK",
         "itemoperator": "Tycho Brahe",
         "itempurpose": "hist. Observatorium",
         "itemlocation": "Ven",
         "itemlatitude": "55.907833",
-        "itemlongitude": "12.696222",
-        "itemtype": 1
+        "itemlongitude": "12.696222"
     },
     {
         "itemname": "Usuda Deep Space Center",
         "itemurl": "https://de.wikipedia.org/wiki/Usuda_Deep_Space_Center",
         "itemname2": "UDSC",
+        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "JP",
         "itemoperator": "JAXA",
         "itempurpose": "Bodenstation",
-        "itemlocation": "Usuda",
-        "itemtype": 2
+        "itemlocation": "Usuda"
     },
     {
         "itemname": "Vandenberg Air Force Base",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_Air_Force_Base",
         "itemname2": "VAFB",
+        "itemtype": 2,
         "itemcountry": "USA",
         "itemoperator": "US Air Force",
         "itempurpose": "US-Luftwaffenbasis mit mehreren Raketenstartplätzen",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Bomarc Complex",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Bomarc_Complex",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Launch Complex 395",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Complex_395",
         "itemname2": "VAFB LC-395",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Launch Complex 4300",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Complex_4300",
         "itemname2": "VAFB LC-4300",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Launch Complex 576",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Complex_576",
         "itemname2": "VAFB LC-576",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Launch Complex A",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Complex_A",
         "itemname2": "VAFB LC-A (früher auch PALC-A)",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force, US Navy, NASA",
         "itempurpose": "Höhenforschungsraketen",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Launch Complex B",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Complex_B",
         "itemname2": "VAFB LC-B (früher auch PALC-B)",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "Höhenforschungsraketen",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Launch Complex Operational Suitability Test Facility",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Operational_Suitability_Test_Facility",
         "itemname2": "VAFB OSTF",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "bei Unfall am 03.12.1960 fast völlig zerstört",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Launch Emplacement 8",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Emplacement_8",
         "itemname2": "VAFB LE-8 (früher auch 75-2-8)",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Launch Facility 02",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_02",
         "itemname2": "VAFB LF-02",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Launch Facility 03",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_03",
         "itemname2": "VAFB LF-03",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Launch Facility 04",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_04",
         "itemname2": "VAFB LF-04",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Launch Facility 05",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_05",
         "itemname2": "VAFB LF-05",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Launch Facility 06",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_06",
         "itemname2": "VAFB LF-06",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Launch Facility 07",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_07",
         "itemname2": "VAFB LF-07",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Launch Facility 08",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_08",
         "itemname2": "VAFB LF-08",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "Astrid-Testvehikel – Laser-Pumped-Propulsion-Antrieb (04.02.1994)",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Launch Facility 09",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_09",
         "itemname2": "VAFB LF-09",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Launch Facility 10",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_10",
         "itemname2": "VAFB LF-10",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Launch Facility 21",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_21",
         "itemname2": "VAFB LF-21",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Launch Facility 22",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_22",
         "itemname2": "VAFB LF-22",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Launch Facility 23",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_23",
         "itemname2": "VAFB LF-23",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Launch Facility 24",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_24",
         "itemname2": "VAFB LF-24",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Launch Facility 25",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_25",
         "itemname2": "VAFB LF-25",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Launch Facility 26",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Launch_Facility_26",
         "itemname2": "VAFB LF-26",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Probe Launch Complex C",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Probe_Launch_Complex_C",
         "itemname2": "VAFB PLC-C",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "Höhenforschungsraketen",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Silo Launch Test Facility",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Silo_Launch_Test_Facility",
         "itemname2": "VAFB SLTF",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "Silo Launch Test Facility",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Space Launch Complex 1",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_1",
         "itemname2": "VAFB Space Launch Complex 1 (Space Launch Complex 1)",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "div. Keyhole-Spionagesatelliten, OSCAR 1, OSCAR 2",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Space Launch Complex 10",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_10",
         "itemname2": "VAFB Space Launch Complex 10 (Space Launch Complex 10)",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force, Royal Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Space Launch Complex 2",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_2",
         "itemname2": "VAFB Space Launch Complex 2 (Space Launch Complex 2)",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "div. Keyhole-Spionagesatelliten, Alouette 1, Alouette 2, Explorer 31, Explorer 34, Explorer 36, Explorer 38, Explorer 41, Explorer 51, Explorer 54, OSCAR 5, OSCAR 6, div. Iridium-Kommunikationssatelliten, COBE, Gravity Probe B, WISE",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Space Launch Complex 3",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_3",
         "itemname2": "VAFB Space Launch Complex 3 (Space Launch Complex 3)",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "div. Keyhole-Spionagesatelliten, Geosat, Terra",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Space Launch Complex 4",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_4",
         "itemname2": "VAFB Space Launch Complex 4 (Space Launch Complex 4)",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "div. Keyhole-Spionagesatelliten, Clementine",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Space Launch Complex 5",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_5",
         "itemname2": "VAFB Space Launch Complex 5 (Space Launch Complex 5)",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
         "itempurpose": "Explorer 19, Explorer 20, Explorer 22, Explorer 24, Explorer 25, Explorer 39, Explorer 40, Explorer 52, Explorer 56, AZUR",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Space Launch Complex 6",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_6",
         "itemname2": "VAFB Space Launch Complex 6 (Space Launch Complex 6)",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Space Launch Complex 8",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_Space_Launch_Complex_8",
         "itemname2": "VAFB Space Launch Complex 8 (Space Launch Complex 8)",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Vandenberg Air Force Base Test Pad 01",
         "itemurl": "https://de.wikipedia.org/wiki/Vandenberg_AFB_TP-01",
         "itemname2": "VAFB TP-01",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "US Air Force",
-        "itemlocation": "Kalifornien, Lompoc",
-        "itemtype": 2
+        "itemlocation": "Kalifornien, Lompoc"
     },
     {
         "itemname": "Wallops Flight Facility",
         "itemurl": "https://de.wikipedia.org/wiki/Wallops_Flight_Facility",
         "itemname2": "WFF",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "US",
         "itemoperator": "NASA, Goddard Space Flight Center",
         "itempurpose": "Gravity Probe A",
-        "itemlocation": "Virginia, Wallops Island",
-        "itemtype": 2
+        "itemlocation": "Virginia, Wallops Island"
     },
     {
         "itemname": "White Sands Test Facility",
         "itemurl": "http://en.wikipedia.org/wiki/White_Sands_Test_Facility",
         "itemname2": "WSTF",
+        "itemtype": 2,
         "itemcountry": "USA",
         "itemoperator": "NASA",
         "itempurpose": "Raketentestgelände",
-        "itemlocation": "New Mexico, Las Cruces",
-        "itemtype": 2
+        "itemlocation": "New Mexico, Las Cruces"
     },
     {
         "itemname": "Woomera Range Complex",
         "itemurl": "https://de.wikipedia.org/wiki/Woomera_Prohibited_Area",
         "itemname2": "WRC",
+        "itemtype": 2,
         "itemcategory": "Startplatz",
         "itemcountry": "AU",
         "itemoperator": "Royal Australian Air Force",
         "itempurpose": "Prosperro (Black Arrow R3), WRESAT (Sparta)",
         "itemlocation": "South Australia, Woomera",
         "itemlatitude": "-30.9553",
-        "itemlongitude": "136.5322",
-        "itemtype": 2
+        "itemlongitude": "136.5322"
     },
     {
         "itemname": "Zentrum für angewandte Raumfahrttechnologie und Mikrogravitation",
         "itemurl": "https://de.wikipedia.org/wiki/Fallturm_Bremen",
+        "itemtype": 2,
         "itemcountry": "Deutschland",
         "itemoperator": "Universität Bremen",
         "itempurpose": "Erforschung von Phänomenen unter dem Einfluss von Schwerelosigkeit und Fragen zur Raumfahrttechnologie",
-        "itemlocation": "Bremen",
-        "itemtype": 2
+        "itemlocation": "Bremen"
     }
 ]
