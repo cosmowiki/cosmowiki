@@ -368,20 +368,20 @@ const SolarSystemComponent = ({ items }) => {
   );
 };
 
-const renderItemsFrom = (items) => {
+const renderItemsFrom = (items, startAt) => {
   return (
-    items.filter(item => item.index === '1.3.3.3').map((item, idx) => <ItemComponent item={ item } key={idx}>
-      {items.filter(item => item.index === '1.3.3.3.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-        {items.filter(item => item.index.startsWith('1.3.3.3.1.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
+    items.filter(item => item.index === startAt).map((item, idx) => <ItemComponent item={ item } key={idx}>
+      {items.filter(item => item.index === `${startAt}.1`).map((item, idx) => <ItemComponent item={ item } key={idx}>
+        {items.filter(item => item.index.startsWith(`${startAt}.1.`)).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
       </ItemComponent>)}
-      {items.filter(item => item.index === '1.3.3.3.2').map((item, idx) => <ItemComponent item={ item } key={idx}>
-        {items.filter(item => item.index.startsWith('1.3.3.3.2.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
+      {items.filter(item => item.index === `${startAt}.2`).map((item, idx) => <ItemComponent item={ item } key={idx}>
+        {items.filter(item => item.index.startsWith(`${startAt}.2.`)).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
       </ItemComponent>)}
-      {items.filter(item => item.index === '1.3.3.3.3').map((item, idx) => <ItemComponent item={ item } key={idx}>
-        {items.filter(item => item.index.startsWith('1.3.3.3.3.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
+      {items.filter(item => item.index === `${startAt}.3`).map((item, idx) => <ItemComponent item={ item } key={idx}>
+        {items.filter(item => item.index.startsWith(`${startAt}.3.`)).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
       </ItemComponent>)}
-      {items.filter(item => item.index === '1.3.3.3.4').map((item, idx) => <ItemComponent item={ item } key={idx}>
-        {items.filter(item => item.index.startsWith('1.3.3.3.4.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
+      {items.filter(item => item.index === `${startAt}.4`).map((item, idx) => <ItemComponent item={ item } key={idx}>
+        {items.filter(item => item.index.startsWith(`${startAt}.4.`)).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
       </ItemComponent>)}
     </ItemComponent>)
   );
