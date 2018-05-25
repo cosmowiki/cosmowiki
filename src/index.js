@@ -12,6 +12,11 @@ import Events from './sites/events';
 import People from './sites/people';
 import Scientists from './sites/scientists';
 import Astronauts from './sites/astronauts';
+import Places from './sites/places';
+import Artifacts from './sites/artifacts';
+import Groundstations from './sites/groundstations';
+import Observatories from './sites/observatories';
+import Launchpads from './sites/launchpads';
 import Objects from './sites/objects';
 import SolarSystem from './sites/solar-system';
 import Constellations from './sites/constellations';
@@ -57,6 +62,12 @@ const urlToComponent = {
   '/chronicle': {klass: Events, fileName: 'data/chronicle.json'},
   '/people': {klass: People, fileName: 'data/people.json'},
   '/scientists': {klass: Scientists, fileName: 'data/scientists.json'},
+  '/astronauts': {klass: Astronauts, fileName: 'data/astronauts.json'},
+  '/places': {klass: Places, fileName: 'data/places.json'},
+  '/artifacts': {klass: Artifacts, fileName: 'data/artifacts.json'},
+  '/groundstations': {klass: Groundstations, fileName: 'data/groundstations.json'},
+  '/observatories': {klass: Observatories, fileName: 'data/observatories.json'},
+  '/launchpads': {klass: Launchpads, fileName: 'data/launchpads.json'},
   '/astronauts': {klass: Astronauts, fileName: 'data/astronauts.json'},
   '/solar-system': {klass: SolarSystem, fileName: 'data/solarsystem.json'},
   '/constellations': {klass: Constellations, fileName: 'data/constellations.json'},

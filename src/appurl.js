@@ -16,6 +16,26 @@ export default class AppUrl {
     return '/scientists'
   }
 
+  placesSite() {
+    return '/places'
+  }
+
+  artifactsSite() {
+    return '/artifacts'
+  }
+
+  groundstationsSite() {
+    return '/groundstations'
+  }
+
+  observatoriesSite() {
+    return '/observatories'
+  }
+
+  launchpadsSite() {
+    return '/launchpads'
+  }
+
   astronomySite() {
     return '/astronomy'
   }
