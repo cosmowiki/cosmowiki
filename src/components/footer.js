@@ -28,8 +28,8 @@ const Footer = ({appUrl}) => {
           <ul className="pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-6">
             {[
               {url: appUrl.placesSite(), name: 'Orte'},
-              {url: appUrl.artifactsSite(), name: 'Artefakte'},
               {url: appUrl.groundstationsSite(), name: 'Bodenstationen'},
+              {url: appUrl.artifactsSite(), name: 'Fundorte'},
               {url: appUrl.observatoriesSite(), name: 'Observatorien'},
               {url: appUrl.launchpadsSite(), name: 'Startplätze'},
             ].map(link =>

@@ -30,8 +30,8 @@ const Navigation = ({ appUrl }) => {
             <a className="pure-menu-link menu-item places" href={appUrl.placesSite()}>Orte</a>
             <ul className="pure-menu-children sub-menu places">
               {[
-                {url: appUrl.artifactsSite(), name: 'Artefakte'},
                 {url: appUrl.groundstationsSite(), name: 'Bodenstationen'},
+                {url: appUrl.artifactsSite(), name: 'Fundorte'},
                 {url: appUrl.observatoriesSite(), name: 'Observatorien'},
                 {url: appUrl.launchpadsSite(), name: 'Startplätze'},
 
@@ -126,8 +126,8 @@ const Navigation = ({ appUrl }) => {
             <a className="pure-menu-link menu-item places" href={appUrl.placesSite()}>Orte</a>
             <ul className="pure-menu-children sub-menu places">
               {[
-                {url: appUrl.artifactsSite(), name: 'Artefakte'},
                 {url: appUrl.groundstationsSite(), name: 'Bodenstationen'},
+                {url: appUrl.artifactsSite(), name: 'Fundorte'},
                 {url: appUrl.observatoriesSite(), name: 'Observatorien'},
                 {url: appUrl.launchpadsSite(), name: 'Startplätze'},
 
