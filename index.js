@@ -36015,7 +36015,7 @@ var Footer = function Footer(_ref) {
         _react2["default"].createElement(
           "ul",
           { className: "pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-6" },
-          [{ url: appUrl.placesSite(), name: 'Orte' }, { url: appUrl.groundstationsSite(), name: 'Bodenstationen' }, { url: appUrl.artifactsSite(), name: 'Fundorte' }, { url: appUrl.observatoriesSite(), name: 'Observatorien' }, { url: appUrl.launchpadsSite(), name: 'Startplätze' }].map(function (link) {
+          [{ url: appUrl.placesSite(), name: 'Orte' }].map(function (link) {
             return _react2["default"].createElement(
               "li",
               { key: link.url },
@@ -37085,21 +37085,6 @@ var Navigation = function Navigation(_ref) {
             'a',
             { className: 'pure-menu-link menu-item places', href: appUrl.placesSite() },
             'Orte'
-          ),
-          _react2['default'].createElement(
-            'ul',
-            { className: 'pure-menu-children sub-menu places' },
-            [{ url: appUrl.groundstationsSite(), name: 'Bodenstationen' }, { url: appUrl.artifactsSite(), name: 'Fundorte' }, { url: appUrl.observatoriesSite(), name: 'Observatorien' }, { url: appUrl.launchpadsSite(), name: 'Startplätze' }].map(function (link) {
-              return _react2['default'].createElement(
-                'li',
-                { key: link.url, className: 'pure-menu-item' },
-                _react2['default'].createElement(
-                  'a',
-                  { className: 'pure-menu-link sub-menu-item places', href: link.url },
-                  link.name
-                )
-              );
-            })
           )
         ),
         _react2['default'].createElement(
@@ -37231,26 +37216,11 @@ var Navigation = function Navigation(_ref) {
         ),
         _react2['default'].createElement(
           'li',
-          { className: 'pure-menu-item pure-menu-has-children pure-menu-allow-hover' },
+          { className: 'pure-menu-item' },
           _react2['default'].createElement(
             'a',
             { className: 'pure-menu-link menu-item places', href: appUrl.placesSite() },
             'Orte'
-          ),
-          _react2['default'].createElement(
-            'ul',
-            { className: 'pure-menu-children sub-menu places' },
-            [{ url: appUrl.groundstationsSite(), name: 'Bodenstationen' }, { url: appUrl.artifactsSite(), name: 'Fundorte' }, { url: appUrl.observatoriesSite(), name: 'Observatorien' }, { url: appUrl.launchpadsSite(), name: 'Startplätze' }].map(function (link) {
-              return _react2['default'].createElement(
-                'li',
-                { key: link.url, className: 'pure-menu-item' },
-                _react2['default'].createElement(
-                  'a',
-                  { className: 'pure-menu-link sub-menu-item places', href: link.url },
-                  link.name
-                )
-              );
-            })
           )
         ),
         _react2['default'].createElement(
@@ -38327,68 +38297,70 @@ var PersonComponent = function PersonComponent(_ref3) {
 module.exports = exports['default'];
 
 },{"./chunks/letter-links":431,"./chunks/summary":432,"./notes":441,"react":459}],446:[function(require,module,exports){
-"use strict";
+'use strict';
 
-Object.defineProperty(exports, "__esModule", {
+Object.defineProperty(exports, '__esModule', {
   value: true
 });
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _chunksSummary = require('./chunks/summary');
+
 var PlacesComponent = function PlacesComponent(_ref) {
   var appUrl = _ref.appUrl;
 
-  return _react2["default"].createElement(
-    "main",
-    { role: "main", className: "pure-u-1" },
-    _react2["default"].createElement(
-      "div",
-      { id: "siteTitle", className: "pure-u-1 places center" },
-      _react2["default"].createElement(
-        "div",
-        { id: "siteTitleContainer" },
-        _react2["default"].createElement(
-          "h1",
+  return _react2['default'].createElement(
+    'main',
+    { role: 'main', className: 'pure-u-1' },
+    _react2['default'].createElement(
+      'div',
+      { id: 'siteTitle', className: 'pure-u-1 places center' },
+      _react2['default'].createElement(
+        'div',
+        { id: 'siteTitleContainer' },
+        _react2['default'].createElement(
+          'h1',
           null,
-          "Orte"
+          'Orte'
         ),
-        _react2["default"].createElement(
-          "h3",
+        _react2['default'].createElement(
+          'h3',
           null,
-          "der Blick zu den Sternen"
+          'Wo ist was?'
         )
       )
     ),
-    _react2["default"].createElement(
-      "div",
-      { id: "pageSubMenuContainer" },
-      _react2["default"].createElement(
-        "ul",
-        { id: "pageSubMenu", className: "pure-u-1 center" },
-        [{ url: appUrl.artifactsSite(), style: 'artifacts', name: 'Fundorte' }, { url: appUrl.groundstationsSite(), style: 'groundstations', name: 'Bodenstationen' }, { url: appUrl.observatoriesSite(), style: 'observatories', name: 'Observatorien' }, { url: appUrl.launchpadsSite(), style: 'launchpads', name: 'Startplätze' }].map(function (link) {
-          return _react2["default"].createElement(
-            "li",
-            { className: link.style, key: link.url + link.name },
-            _react2["default"].createElement(
-              "a",
-              { href: link.url },
-              link.name
-            )
-          );
-        })
+    _react2['default'].createElement(
+      _chunksSummary.Summary,
+      null,
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Wie hat sich das Wissen der Menschheit entwickelt? Was wussten die Menschen vor 500 Jahren über die Gestirne, und was wussten sie noch nicht? Wo forschten die Astronomen des Mittelalters, und mit welchen Hilfsmitteln beobachteten die Philosophen der Antike den Himmel? Welche astronomischen Kenntnisse enthüllen die Höhlenmalereien steinzeitlicher Menschen? Die Archäologie liefert viele Puzzleteile für die Wissenschaftsgeschichte.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Artefakte wie der Mechanismus von Antikythera oder Bauwerke wie die Kreisgrabenanlage von Goseck werden gefunden, doch ihre Bedeutung bleibt meist noch lange im Dunkeln. Ist die geografische Ausrichtung einer Kultstätte von Bedeutung? Wurde sie genau so ausgerichtet, damit Schamanen und Priester zuverlässig den richtigen Zeitpunkt für Aussaat oder Ernte der Feldfrüchte bestimmen konnten? Die Archäoastronomie konnte in den letzten Jahrzehnten viele solcher Fragen beantworten. Doch manche Geheimnisse können oft erst nach vielen Jahren interdisziplinärer Forschung entschlüsselt werden.'
+      ),
+      _react2['default'].createElement(
+        'p',
+        { className: 'summary-text' },
+        'Auch heute noch werden Observatorien nach konkreten Vorgaben errichtet. Trocken, frei von Verschmutzung und arm an Turbulenzen muss die Luft sein, um möglichst klare Aufnahmen zu erzielen. Doch wo genau stehen die aktuell leistungsfähigsten Teleskope? In den chilenischen Anden, auf Hawaii, in Arizona oder auf den Kanarischen Inseln?'
       )
     )
   );
 };
 
-exports["default"] = PlacesComponent;
-module.exports = exports["default"];
+exports['default'] = PlacesComponent;
+module.exports = exports['default'];
 
-},{"react":459}],447:[function(require,module,exports){
+},{"./chunks/summary":432,"react":459}],447:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -39155,7 +39127,7 @@ var SolarSystemComponent = function SolarSystemComponent(_ref) {
       _react2['default'].createElement(
         'p',
         null,
-        '@wolfram: pls make it work according to the conditions in sites/solar-system.js'
+        '@wolfram: pls make it work'
       )
     ),
     _react2['default'].createElement(
