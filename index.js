@@ -38311,6 +38311,10 @@ var _react2 = _interopRequireDefault(_react);
 
 var _chunksSummary = require('./chunks/summary');
 
+var _notes = require('./notes');
+
+var _notes2 = _interopRequireDefault(_notes);
+
 var PlacesComponent = function PlacesComponent(_ref) {
   var appUrl = _ref.appUrl;
 
@@ -38352,15 +38356,35 @@ var PlacesComponent = function PlacesComponent(_ref) {
         'p',
         { className: 'summary-text' },
         'Auch heute noch werden Observatorien nach konkreten Vorgaben errichtet. Trocken, frei von Verschmutzung und arm an Turbulenzen muss die Luft sein, um möglichst klare Aufnahmen zu erzielen. Doch wo genau stehen die aktuell leistungsfähigsten Teleskope? In den chilenischen Anden, auf Hawaii, in Arizona oder auf den Kanarischen Inseln?'
+      ),
+      _react2['default'].createElement(
+        'h4',
+        null,
+        'Wussten Sie schon?'
+      ),
+      _react2['default'].createElement(
+        'ul',
+        { className: 'summary-list' },
+        _react2['default'].createElement('li', null)
       )
-    )
+    ),
+    _react2['default'].createElement(
+      'div',
+      { id: 'dataArea', className: 'places module pure-u-1' },
+      _react2['default'].createElement(
+        'div',
+        { id: 'placesMap' },
+        'Place the map here.'
+      )
+    ),
+    _react2['default'].createElement(_notes2['default'], null)
   );
 };
 
 exports['default'] = PlacesComponent;
 module.exports = exports['default'];
 
-},{"./chunks/summary":432,"react":459}],447:[function(require,module,exports){
+},{"./chunks/summary":432,"./notes":441,"react":459}],447:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
