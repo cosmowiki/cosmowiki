@@ -13,7 +13,7 @@ const SolarSystemComponent = ({ items }) => {
         </div>
       </div>
       <div id="todo" className="pure-u-1">
-        <p>@wolfram: pls make it work according to the conditions in sites/solar-system.js</p>
+        <p>@wolfram: pls make it work</p>
       </div>
       <Summary>
         <p className="summary-text">
