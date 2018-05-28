@@ -233,7 +233,7 @@ main {margin: 34px auto 30px; max-width: 1000px;}
 
 /*	siteTitle --------------------------------------------------------------- */
 #siteTitle {background: transparent;}
-#siteTitleContainer {color: #555; background: rgba(255, 255, 255, .8);}
+#siteTitleContainer {color: #555; background: rgba(224, 224, 224, .8);}
 #siteTitle h1 {
 	padding: .5em 0 0;
 	font-size: 1.25rem; text-transform: uppercase; text-shadow: 1px 1px #fff;
@@ -328,7 +328,7 @@ div.summary-img.width-25,
 #pageSubMenu a {
 	display: block; padding: 2em;
 	font-size: 1.5rem;
-	background: rgba(255, 255, 255, .8);
+	background: rgba(224, 224, 224, .8);
 	border-bottom: 1px solid #fff;
 	transition: all ease 1s;
 }

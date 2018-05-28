@@ -28,19 +28,6 @@ const Navigation = ({ appUrl }) => {
           </li>
           <li className="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
             <a className="pure-menu-link menu-item places" href={appUrl.placesSite()}>Orte</a>
-            <ul className="pure-menu-children sub-menu places">
-              {[
-                {url: appUrl.groundstationsSite(), name: 'Bodenstationen'},
-                {url: appUrl.artifactsSite(), name: 'Fundorte'},
-                {url: appUrl.observatoriesSite(), name: 'Observatorien'},
-                {url: appUrl.launchpadsSite(), name: 'Startplätze'},
-
-              ].map(link =>
-                <li key={link.url} className="pure-menu-item">
-                  <a className="pure-menu-link sub-menu-item places" href={ link.url }>{ link.name }</a>
-                </li>
-              )}
-            </ul>
           </li>
           <li className="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
             <a className="pure-menu-link menu-item objects" href={appUrl.objectsSite()}>Objekte</a>
@@ -122,21 +109,8 @@ const Navigation = ({ appUrl }) => {
               )}
             </ul>
           </li>
-          <li className="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+          <li className="pure-menu-item">
             <a className="pure-menu-link menu-item places" href={appUrl.placesSite()}>Orte</a>
-            <ul className="pure-menu-children sub-menu places">
-              {[
-                {url: appUrl.groundstationsSite(), name: 'Bodenstationen'},
-                {url: appUrl.artifactsSite(), name: 'Fundorte'},
-                {url: appUrl.observatoriesSite(), name: 'Observatorien'},
-                {url: appUrl.launchpadsSite(), name: 'Startplätze'},
-
-              ].map(link =>
-                <li key={link.url} className="pure-menu-item">
-                  <a className="pure-menu-link sub-menu-item places" href={ link.url }>{ link.name }</a>
-                </li>
-              )}
-            </ul>
           </li>
           <li className="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
             <a className="pure-menu-link menu-item objects" href={appUrl.objectsSite()}>Objekte</a>
