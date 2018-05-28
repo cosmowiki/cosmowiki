@@ -1,5 +1,6 @@
 import React from 'react';
 import {Summary} from './chunks/summary';
+import Notes from './notes';
 
 const PlacesComponent = ({appUrl}) => {
   return (
@@ -32,7 +33,19 @@ const PlacesComponent = ({appUrl}) => {
           Doch wo genau stehen die aktuell leistungsfähigsten Teleskope?
           In den chilenischen Anden, auf Hawaii, in Arizona oder auf den Kanarischen Inseln?
         </p>
+        <h4>Wussten Sie schon?</h4>
+        <ul className="summary-list">
+          <li>
+
+          </li>
+        </ul>
       </Summary>
+      <div id="dataArea" className="places module pure-u-1">
+        <div id="placesMap">
+          Place the map here.
+        </div>
+      </div>
+      <Notes />
     </main>
   );
 };
