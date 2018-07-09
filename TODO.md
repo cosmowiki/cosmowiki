@@ -9,14 +9,15 @@
 - [x] global scroll-to-top-button like [this][1]
 - [x] create welcome page
 - [x] make the npm run data-from-spreadsheet work with nix
-- [ ] re-organize the spreadsheets (same columns, same related items)
-- [ ] make the map (places) work
+- [x] re-organize the spreadsheets (same columns, same related items)
 - [ ] make the solar system site work
+- [ ] make the map (places) work
 - [ ] make the sorters and filters work (filters with FilterRow as in stars)
 - [ ] let the toggle switches for sort and filter hide each other onClick / :hover on small screens
 - [ ] open the a href={item.name} in an overlay-vcard or in a separate page
 
 # nice to have
+- a script to extract data from wikipedia articles i.e. birth dates of persons
 - simple vcard-page with abstract of first(?) paragraph from wikipedia
 - relations and breadcrumb on the vcard
 - global search
