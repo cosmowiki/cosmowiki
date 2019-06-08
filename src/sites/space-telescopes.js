@@ -31,9 +31,11 @@ class Telescope {
     const launchmonth = raw.itemdatemonth ? `${raw.itemdatemonth}.` : '';
     const launchday = raw.itemdateday ? `${raw.itemdateday}.` : '';
     telescope.launchDate = `${launchday}${launchmonth}${launchyear}`;
-    const endyear = raw.itemdate2year ? raw.itemdate2year : '';
-    const endmonth = raw.itemdate2month ? `${raw.itemdate2month}.` : '';
     const endday = raw.itemdate2day ? `${raw.itemdate2day}.` : '';
+    const monthNames = ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"];
+    telescope.endmonth = raw.itemdate2day ? raw.itemdate2month : monthNames[Number(raw.itemdate2month)];
+    const endmonth = raw.itemdate2month ? `${telescope.endmonth}. ` : '';
+    const endyear = raw.itemdate2year ? raw.itemdate2year : '';
     telescope.endDate = `${endday}${endmonth}${endyear}`;
     telescope.duration = raw.itemtime3 ? raw.itemtime3 : '';
     telescope.status = raw.itemstatus ? raw.itemstatus : '';
