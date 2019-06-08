@@ -12,19 +12,7 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
           <h3>Augen und Ohren im All</h3>
         </div>
       </div>
-      <div id="todo" className="pure-u-1">
-        <p>@wolfram: pls edit the month in endDate to appear as word when there is no endday (to use it on demand for all dates in all pages)</p>
-      </div>
       <Summary>
-        <p className="summary-text">
-          Mit der Aufnahme <em>Hubble Ultra Deep Field</em> (HUDF) gelang
-          dem <em>Hubble-Weltraumteleskop</em> (HST) im Jahr 2004 der Blick in 13
-          Milliarden Lichtjahre entfernte Regionen des Weltraums und damit in eine
-          Zeit, in der das Universum gerade einmal 800 Millionen Jahre alt war.
-          Es zeigte auf spektakuläre Weise die Leistungsfähigkeit von Teleskopen
-          im All und wurde 2012 vom <em>Hubble Extreme Deep Field</em> (XDF)
-          noch um 200 Millionen Lichtjahre übertroffen.
-        </p>
         <div className="summary-img size-xl">
           <a href="/img/spacetelescopes/Hubble_Extreme_Deep_Field_lg.jpg" title="Hubble Extreme Deep Field (XDF) - Großansicht">
             <img src="/img/spacetelescopes/Hubble_Extreme_Deep_Field_sm.jpg" alt="Hubble Extreme Deep Field (XDF)" />
@@ -34,13 +22,21 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
           </p>
         </div>
         <p className="summary-text">
+          Mit der Aufnahme <em>Hubble Ultra Deep Field</em> (HUDF) gelang
+          dem <em>Hubble-Weltraumteleskop</em> (HST) im Jahr 2004 der Blick in 13
+          Milliarden Lichtjahre entfernte Regionen des Weltraums und damit in eine
+          Zeit, in der das Universum gerade einmal 800 Millionen Jahre alt war.
+          Es zeigte auf spektakuläre Weise die Leistungsfähigkeit von Teleskopen
+          im All - einer Technologie, die bereits im Jahr 1946 von dem US-amerikanischen
+          Astrophysiker <em>Lyman Spitzer</em> konzipiert worden war.
+        </p>
+        <p className="summary-text">
           Weltraumteleskope, die in die extreme Tiefe des Alls blicken, können also
-          Zeitmaschinen sein. Ungestört von atmosphärischen Einflüssen enthüllen
-          sie zum Beispiel, welche Eigenschaften die frühen Galaxien aufwiesen.
-          Doch nicht nur die enorme zeitliche und räumliche Tiefe ist ein wichtiges
-          Forschungsfeld der Astronomen. Auch nicht so extrem weit entfernte,
-          beziehungsweise alte Objekte können Dank der enormen Detailgenauigkeit
-          unserer Augen und Ohren im All genauestens untersucht werden.
+          Zeitmaschinen sein. Ungestört von atmosphärischen Einflüssen blicken sie
+          zurück in die Kindheit unseres Universums und zeigen uns, wie kosmische
+          Strukturen entstehen. Doch nicht nur die zeitliche und räumliche Tiefe
+          ist ein wichtiges Forschungsfeld der Astronomen. Nahgelegene Objekte
+          können mit einer enormen Detailgenauigkeit untersucht werden.
         </p>
         <div className="summary-img size-lg">
           <a href="/img/spacetelescopes/Electromagnetic_spectrum_lg.png" title="elektromagnetisches Spektrum - Großansicht">
@@ -51,13 +47,12 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
           </p>
         </div>
         <p className="summary-text">
-          Sichtbares Licht ist nur ein Bereich von vielen im elektromagnetischen
-          Spektrum, der hohen Erkenntnisgewinn verspricht. Das erste Weltraumteleskop
-          in der Geschichte - <em>Radio Astronomy Explorer A</em> (1968) erforschte Radioquellen
-          in unserer Heimatgalaxie, der Milchstraße. Auch die Weltraumteleskope
-          der folgenden 20 Jahre arbeiteten nicht im Bereich des sichtbaren Lichtes,
-          sondern zeichneten ultraviolettes oder infrarotes Licht, Röntgen- oder
-          Gammastrahlung auf.
+          Dabei ist sichtbares Licht nur ein kleiner Bereich im elektromagnetischen
+          Spektrum. Das erste Weltraumteleskop - <em>Radio Astronomy Explorer A</em> (1968)
+          erforschte Radioquellen in unserer Heimatgalaxie, der Milchstraße. Auch
+          die Weltraumteleskope der folgenden 20 Jahre arbeiteten nicht nur im Bereich
+          des sichtbaren Lichtes, sondern zeichneten ultraviolettes oder infrarotes
+          Licht, Röntgen- oder Gammastrahlung auf.
         </p>
         <div className="summary-img">
           <a href="/img/spacetelescopes/COBE_cmb_fluctuations_lg.png" title="COBE - kosmische Hintergrundstrahlung - Großansicht">
@@ -77,13 +72,12 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
         </p>
         <p className="summary-text">
           Doch nicht nur die verschiedenen Bereiche des Spektrums sind interessant.
-          Weltraumteleskope helfen auch, Sternenkataloge zu erstellen, so zum
-          Beispiel <em>HIPPARCOS</em> (1989). Mit seinen Instrumenten - in der Hauptsache ein
-          Spiegelteleskop für sichtbares Licht - durchmusterte es das Weltall
-          und lieferte Daten über Position, Entfernung und Bewegung von Sternen.
-          So entstanden mit dem <em>Hipparcos-Katalog</em> (HIP) sowie dem <em>Tycho-Katalog</em> zwei
-          Standardwerke für die großen Observatorien der Welt, aber auch für
-          Hobbyastronomen, die Informationen über 1 Million Sterne enthalten.
+          Weltraumteleskope helfen auch, das Weltall zu kartieren, wie zum Beispiel
+          das von der <em>ESA</em> betriebene Teleskop <em>HIPPARCOS</em> (ebenfalls 1989).
+          Mit seinen Instrumenten durchmusterte es das All und lieferte Daten über
+          Position, Entfernung und Bewegung von über 1 Million Sternen. So entstanden
+          mit dem <em>Hipparcos-Katalog</em> (HIP) sowie dem <em>Tycho-Katalog</em> zwei
+          Standardwerke für die großen Observatorien der Welt, aber auch für Hobbyastronomen.
         </p>
         <div className="summary-img size-lg">
           <a href="/img/spacetelescopes/STEREO_overlap.png" title="STEREO - Großansicht">
@@ -95,10 +89,10 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
         </div>
         <p className="summary-text">
           Damit Weltraumteleskope auch von kosmischen Effekten weitestgehend ungestört
-          arbeiten können, müssen sie häufig an speziellen Orten im All, den <em>Lagrange-Punkten</em> des
-          Sonne-Erde-Systems, genauer im Orbit um diese Punkte herum platziert
-          werden. Dort heben sich die Anziehungskräfte von Sonne und
-          Erde auf, so dass sehr stabile Beobachtungspositionen ohne umfangreiche
+          arbeiten können, müssen sie häufig an besonderen Orten im All platziert
+          werden, zum Beispiel in einem Orbit um einen so genannten <em>Lagrange-Punkt</em> des
+          Sonne-Erde-Systems herum. Dort heben sich die Anziehungskräfte von Sonne
+          und Erde auf, so dass sehr stabile Beobachtungspositionen ohne umfangreiche
           Bahnkorrekturen besetzt werden können.
         </p>
         <div className="summary-img size-sm">
@@ -111,23 +105,26 @@ const SpaceTelescopesComponent = ({ telescopes }) => {
         </div>
         <p className="summary-text">
           Teleskope, die im infraroten Bereich arbeiten, sind auf der Erde eher
-          selten, da die Atmosphäre dieses Licht stark absorbiert. Nur an hohen,
-          besonders trockenen Standorten können brauchbare Ergebnisse erzielt werden.
-          Ideal für die IR-Astronomie sind dagegen Weltraumteleskope. Doch selbst
-          im All sind Vorkehrungen gegen störende Einflüsse nötig. Die Instrumente
-          des <em>Spitzer Space Telescope</em> (SST) mussten auf 2 Kelvin heruntergekühlt
-          werden, die des Weltraumteleskopes <em>Planck</em> zum Teil bis 0,1 Kelvin.
-          Der Lagrange-Punkt L2 bietet hier den zusätzlichen Vorteil des Erdschattens
-          und ist somit bestens für den Betrieb von Infrarot-Weltraumteleskopen
-          geeignet. Die <em>ESA</em> stationierte nicht nur Planck, sondern auch das Teleskop <em>Herschel</em> sowie
-          die Raumsonde <em>Gaia</em> dort, und auch das <em>James Webb Space Telescope</em> (JWST)
+          selten, da die Atmosphäre Licht dieser Wellenlänge stark absorbiert.
+          Nur an hoch gelegenen und besonders trockenen Standorten können brauchbare
+          Ergebnisse erzielt werden. Ideal für die IR-Astronomie sind Teleskope
+          im All. Doch selbst dort sind Vorkehrungen gegen störende Einflüsse nötig.
+          So mussten die Instrumente des <em>Spitzer Space Telescope</em> (SST)
+          auf 2 Kelvin heruntergekühlt werden, die von <em>Planck</em> zum Teil
+          bis auf 0,1 Kelvin. Der Lagrange-Punkt L2 bietet hier den zusätzlichen
+          Vorteil des Erdschattens und ist somit bestens für die IR-Astronomie geeignet.
+        </p>
+        <p className="summary-text">
+          Die ESA stationierte deshalb nicht nur Planck, sondern auch das nach dem
+          Entdecker der Infrarotstrahlung Wilhelm Herschel benannte <em>Herschel Space Observatory</em> sowie
+          die Raumsonde <em>Gaia</em> dort. Auch das <em>James Webb Space Telescope</em> (JWST)
           der NASA wird dort plaziert werden.
         </p>
         <p className="summary-text">
           Von Teleskopen im Weltraum sind auch in der Zukunft spektakuläre Ergebnisse
           zu erwarten. Wissenschaftler auf der ganzen Welt sind gespannt und hoffen
-          auf einzigartige Daten des JWST und des <em>Euclid</em> genannten und
-          für das Jahr 2020 geplanten Weltraumteleskops der ESA.
+          auf einzigartige Daten von Projekten wie dem <em>JWST</em> und dem für
+          das Jahr 2020 geplanten Weltraumteleskop der ESA mit dem Namen <em>Euclid</em>.
         </p>
         <h4>Wussten Sie schon?</h4>
         <ul className="summary-list">

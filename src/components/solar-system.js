@@ -63,7 +63,7 @@ const SolarSystemComponent = ({ items }) => {
           </p>
         </div>
         <p className="summary-text">
-          So umkreisen heute acht Planeten unseren Zentralstern, seit die <em>Internationale
+          Heute umkreisen acht Planeten unseren Zentralstern, seit die <em>Internationale
           Astronomische Union</em> (IAU) den früher als Planet geführten <em>Pluto</em> im
           Jahr 2006 zum Zwergplanten herabstufte. Die Entfernungen dabei sind riesig.
           Der mittlere Abstand zwischen Sonne und Erde beträgt ca. 150 Millionen
