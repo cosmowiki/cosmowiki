@@ -3555,8 +3555,7 @@
         "itemdescription": "STS-58",
         "itemtype": "2",
         "itemcategory": "Raumfahrer",
-        "itemcountry": "USA",
-        "relatedartifacts": "relatedArtifacts"
+        "itemcountry": "USA"
     },
     {
         "itemname": "Feustel",
@@ -6614,8 +6613,7 @@
         "itemcategory": "Optiker",
         "itemdateyear": "1570",
         "itemdate2year": "1619",
-        "itemcountry": "Niederlande",
-        "relatedartifacts": "relatedArtifacts"
+        "itemcountry": "Niederlande"
     },
     {
         "itemname": "Liwei",

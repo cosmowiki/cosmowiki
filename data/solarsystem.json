@@ -218,7 +218,7 @@
         "itemtype": "level-3",
         "itemcategory": "near-earth-group",
         "itemparent": "earth",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1",
@@ -228,7 +228,7 @@
         "itemtype": "level-4",
         "itemcategory": "asteroid-main-group",
         "itemparent": "near-earth-objects",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1",
@@ -242,7 +242,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.002",
@@ -252,7 +252,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.003",
@@ -262,7 +262,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.004",
@@ -272,7 +272,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.005",
@@ -282,7 +282,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.006",
@@ -292,7 +292,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.007",
@@ -302,7 +302,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.008",
@@ -312,7 +312,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.009",
@@ -322,7 +322,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.010",
@@ -332,7 +332,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.011",
@@ -342,7 +342,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.012",
@@ -352,7 +352,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.013",
@@ -362,7 +362,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.014",
@@ -372,7 +372,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.015",
@@ -382,7 +382,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.016",
@@ -392,7 +392,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.017",
@@ -402,7 +402,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.018",
@@ -412,7 +412,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.2",
@@ -422,7 +422,7 @@
         "itemtype": "level-4",
         "itemcategory": "asteroid-main-group",
         "itemparent": "near-earth-objects",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.2.1",
@@ -436,7 +436,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "apollo-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.3",
@@ -446,7 +446,7 @@
         "itemtype": "level-4",
         "itemcategory": "asteroid-main-group",
         "itemparent": "near-earth-objects",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.3.1",
@@ -455,7 +455,7 @@
         "itemtype": "level-5",
         "itemcategory": "asteroid-group",
         "itemparent": "amor-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.3.1.001",
@@ -465,7 +465,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "amor-1-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.3.2",
@@ -474,7 +474,7 @@
         "itemtype": "level-5",
         "itemcategory": "asteroid-group",
         "itemparent": "amor-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.3.2.001",
@@ -484,7 +484,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "amor-2-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.3.3",
@@ -493,7 +493,7 @@
         "itemtype": "level-5",
         "itemcategory": "asteroid-group",
         "itemparent": "amor-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.3.3.001",
@@ -503,7 +503,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "amor-3-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.3.3.002",
@@ -513,7 +513,7 @@
         "itemtype": "level-6",
         "itemcategory": "object",
         "itemparent": "amor-3-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.3.4",
@@ -522,7 +522,7 @@
         "itemtype": "level-5",
         "itemcategory": "asteroid-group",
         "itemparent": "amor-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.3.4.001",
@@ -532,7 +532,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "amor-4-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.4",
@@ -8508,7 +8508,13 @@
     },
     {
         "itemindex": "3.3.1.1.1",
-        "itemtype": "level-5"
+        "itemname": "Lagrange-Punkt L4",
+        "itemurl": "https://de.wikipedia.org/wiki/Lagrange-Punkte",
+        "itemname2": "lagrangePoint4",
+        "itemtype": "level-5",
+        "itemcategory": "trojan-lagrange-group",
+        "itemparent": "uranus-trojan-group",
+        "itemcolor": "uranus-grey"
     },
     {
         "itemindex": "3.3.1.1.1.1",
@@ -10020,19 +10026,21 @@
     },
     {
         "itemindex": "5.1.1.1",
-        "itemname": "klassische KBOs",
-        "itemname2": "classicalKBOs",
+        "itemname": "klassische KBO",
+        "itemname2": "classicalKBO",
         "itemtype": "level-4",
-        "itemcategory": "kuiperbelt-object",
-        "itemparent": "kuiperbelt-object-group"
+        "itemcategory": "kuiperbelt-main-group",
+        "itemparent": "kuiperbelt-object-group",
+        "itemcolor": "kuiperbelt-brown"
     },
     {
         "itemindex": "5.1.1.2",
-        "itemname": "resonante KBOs",
-        "itemname2": "resonantKBOs",
+        "itemname": "resonante KBO",
+        "itemname2": "resonantKBO",
         "itemtype": "level-4",
-        "itemcategory": "kuiperbelt-object",
-        "itemparent": "kuiperbelt-object-group"
+        "itemcategory": "kuiperbelt-main-group",
+        "itemparent": "kuiperbelt-object-group",
+        "itemcolor": "kuiperbelt-brown"
     },
     {
         "itemindex": "5.1.1.2.1",
@@ -10040,7 +10048,9 @@
         "itemurl": "https://de.wikipedia.org/wiki/Plutino",
         "itemname2": "plutinos",
         "itemtype": "level-5",
-        "itemparent": "resonant-kbo-group"
+        "itemcategory": "kuiperbelt-sub-group",
+        "itemparent": "kuiperbelt-main-group",
+        "itemcolor": "kuiperbelt-brown"
     },
     {
         "itemindex": "5.1.1.2.1.1",
@@ -10050,7 +10060,7 @@
         "itemname3": "(134340) Pluto",
         "itemtype": "level-6",
         "itemcategory": "kuiperbelt-object",
-        "itemparent": "plutino-group",
+        "itemparent": "kuiperbelt-sub-group",
         "itemimgsmallurl": "img/solarsystem/pluto_sm.jpg",
         "itemimgurl": "img/solarsystem/pluto_lg.jpg",
         "itemimgsrc": "NASA",
@@ -10107,36 +10117,58 @@
         "itemcolor": "kuiperbelt-brown"
     },
     {
-        "itemindex": "5.1.1.2.1.1.06",
+        "itemindex": "5.1.1.2.1.2",
         "itemname": "Orcus",
         "itemurl": "https://de.wikipedia.org/wiki/(90482)_Orcus",
         "itemname2": "orcus",
         "itemname3": "(90482) Orcus",
-        "itemtype": "level-7",
-        "itemcategory": "kuiperbelt-object-moon",
-        "itemparent": "pluto",
+        "itemtype": "level-6",
+        "itemcategory": "kuiperbelt-object",
+        "itemparent": "kuiperbelt-sub-group",
         "itemcolor": "kuiperbelt-brown"
     },
     {
-        "itemindex": "5.1.1.2.1.1.07",
+        "itemindex": "5.1.1.2.1.2.1",
+        "itemname": "Vanth",
+        "itemurl": "https://de.wikipedia.org/wiki/Vanth_(Mond)",
+        "itemname2": "vanth",
+        "itemname3": "(90482) Orcus I (Vanth) ",
+        "itemtype": "level-7",
+        "itemcategory": "kuiperbelt-object-moon",
+        "itemparent": "orcus",
+        "itemcolor": "kuiperbelt-brown"
+    },
+    {
+        "itemindex": "5.1.1.2.1.3",
         "itemname": "Ixion",
         "itemurl": "https://de.wikipedia.org/wiki/(28978)_Ixion",
         "itemname2": "ixion",
         "itemname3": "(28978) Ixion",
-        "itemtype": "level-7",
-        "itemcategory": "kuiperbelt-object-moon",
-        "itemparent": "pluto",
+        "itemtype": "level-6",
+        "itemcategory": "kuiperbelt-object",
+        "itemparent": "kuiperbelt-sub-group",
         "itemcolor": "kuiperbelt-brown"
     },
     {
-        "itemindex": "5.1.1.2.1.1.08",
+        "itemindex": "5.1.1.2.1.4",
         "itemname": "Huya",
         "itemurl": "https://de.wikipedia.org/wiki/(38628)_Huya",
         "itemname2": "huya",
         "itemname3": "(38628) Huya",
+        "itemtype": "level-6",
+        "itemcategory": "kuiperbelt-object",
+        "itemparent": "kuiperbelt-sub-group",
+        "itemcolor": "kuiperbelt-brown"
+    },
+    {
+        "itemindex": "5.1.1.2.1.4.1",
+        "itemname": "S/2012 (38628) 1",
+        "itemurl": "https://de.wikipedia.org/wiki/S/2012_(38628)_1",
+        "itemname2": "s2012_38628_1",
+        "itemname3": "S/2012 (38628) 1",
         "itemtype": "level-7",
         "itemcategory": "kuiperbelt-object-moon",
-        "itemparent": "pluto",
+        "itemparent": "huya",
         "itemcolor": "kuiperbelt-brown"
     },
     {
@@ -10144,24 +10176,27 @@
         "itemname": "Twotinos",
         "itemname2": "twotinos",
         "itemtype": "level-5",
-        "itemparent": "resonant-kbo-group"
+        "itemcategory": "kuiperbelt-sub-group",
+        "itemparent": "kuiperbelt-main-group",
+        "itemcolor": "kuiperbelt-brown"
     },
     {
         "itemindex": "5.1.1.3",
-        "itemname": "gestreute KBOs",
-        "itemname2": "scatteredKBOs",
+        "itemname": "gestreute KBO",
+        "itemname2": "scatteredKBO",
         "itemname3": "Scattered disk objects",
         "itemname4": "SDO",
         "itemtype": "level-4",
-        "itemcategory": "kuiperbelt-object",
-        "itemparent": "kuiperbelt-object-group"
+        "itemcategory": "kuiperbelt-main-group",
+        "itemparent": "kuiperbelt-object-group",
+        "itemcolor": "kuiperbelt-brown"
     },
     {
         "itemindex": "5.1.1.4",
         "itemname": "Sednoiden",
         "itemname2": "sednoidGroup",
         "itemtype": "level-4",
-        "itemcategory": "kuiperbelt-object",
+        "itemcategory": "kuiperbelt-main-group",
         "itemparent": "kuiperbelt-object-group",
         "itemcolor": "kuiperbelt-brown"
     },
@@ -10173,7 +10208,7 @@
         "itemname3": "(90377) Sedna",
         "itemtype": "level-3",
         "itemcategory": "asteroid",
-        "itemparent": "sednoid-group",
+        "itemparent": "kuiperbelt-main-group",
         "itemcolor": "kuiperbelt-brown"
     },
     {
