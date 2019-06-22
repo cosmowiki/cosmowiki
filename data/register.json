@@ -13490,18 +13490,19 @@
         "itemname2": "venus"
     },
     {
+        "itemname": "Aten-Typ-Asteroiden",
+        "itemurl": "https://de.wikipedia.org/wiki/Aten-Typ",
+        "itemname2": "atenAsteroids"
+    },
+    {
+        "itemname": "(2062) Aten",
+        "itemurl": "https://de.wikipedia.org/wiki/(2062)_Aten",
+        "itemname2": "2062aten"
+    },
+    {
         "itemname": "Erde",
         "itemurl": "https://de.wikipedia.org/wiki/Erde",
         "itemname2": "earth"
-    },
-    {
-        "itemname": "Erd-Trojaner",
-        "itemname2": "earthTrojans"
-    },
-    {
-        "itemname": "2010 TK7",
-        "itemurl": "https://de.wikipedia.org/wiki/2010_TK7",
-        "itemname2": "2010_tk7"
     },
     {
         "itemname": "Mond",
@@ -13509,202 +13510,24 @@
         "itemname2": "moon"
     },
     {
-        "itemname": "erdnahe Objekte (NEO)",
-        "itemurl": "https://de.wikipedia.org/wiki/Erdnahes_Objekt",
+        "itemname": "erdnahe Objekte",
+        "itemurl": "https://de.wikipedia.org/wiki/Erdbahnkreuzer",
         "itemname2": "nearEarthObjects"
-    },
-    {
-        "itemname": "Aten-Typ-Asteroiden",
-        "itemurl": "https://de.wikipedia.org/wiki/Aten-Typ",
-        "itemname2": "atenTypeAsteroids"
-    },
-    {
-        "itemname": "(2062) Aten",
-        "itemurl": "https://de.wikipedia.org/wiki/(2062)_Aten",
-        "itemname2": "2062_aten"
-    },
-    {
-        "itemname": "(2100) Ra-Shalom",
-        "itemurl": "https://de.wikipedia.org/wiki/(2100)_Ra-Shalom",
-        "itemname2": "2100_rashalom"
-    },
-    {
-        "itemname": "(2340) Hathor",
-        "itemurl": "https://de.wikipedia.org/wiki/(2340)_Hathor",
-        "itemname2": "2340_hathor"
-    },
-    {
-        "itemname": "(3362) Khufu",
-        "itemurl": "https://de.wikipedia.org/wiki/(3362)_Khufu",
-        "itemname2": "3362_khufu"
-    },
-    {
-        "itemname": "(3554) Amun",
-        "itemurl": "https://de.wikipedia.org/wiki/(3554)_Amun",
-        "itemname2": "3554_amun"
-    },
-    {
-        "itemname": "(3753) Cruithne",
-        "itemurl": "https://de.wikipedia.org/wiki/(3753)_Cruithne",
-        "itemname2": "3753_cruithne"
-    },
-    {
-        "itemname": "(5381) Sekhmet",
-        "itemurl": "https://de.wikipedia.org/wiki/(5381)_Sekhmet",
-        "itemname2": "5381_sekhmet"
-    },
-    {
-        "itemname": "(5590) 1990 VA",
-        "itemurl": "https://de.wikipedia.org/wiki/(5590)_1990_VA",
-        "itemname2": "5590_1990_va"
-    },
-    {
-        "itemname": "(5604) 1992 FE",
-        "itemurl": "https://de.wikipedia.org/wiki/(5604)_1992_FE",
-        "itemname2": "5604_1992_fe"
-    },
-    {
-        "itemname": "(66391) 1999 KW4",
-        "itemurl": "https://de.wikipedia.org/wiki/(66391)_1999_KW4",
-        "itemname2": "66391_1999_kw4"
-    },
-    {
-        "itemname": "(33342) 1998 WT24",
-        "itemurl": "https://de.wikipedia.org/wiki/(33342)_1998_WT24",
-        "itemname2": "33342_1998_wt24"
-    },
-    {
-        "itemname": "(99942) Apophis",
-        "itemurl": "https://de.wikipedia.org/wiki/(99942)_Apophis",
-        "itemname2": "99942_apophis"
-    },
-    {
-        "itemname": "(367943) Duende",
-        "itemurl": "https://de.wikipedia.org/wiki/(367943)_Duende",
-        "itemname2": "367943_duende"
-    },
-    {
-        "itemname": "2002 AA29",
-        "itemurl": "https://de.wikipedia.org/wiki/2002_AA29",
-        "itemname2": "2002_aa29"
-    },
-    {
-        "itemname": "2003 YN107",
-        "itemurl": "https://de.wikipedia.org/wiki/2003_YN107",
-        "itemname2": "2003_yn107"
-    },
-    {
-        "itemname": "2004 FH",
-        "itemurl": "https://de.wikipedia.org/wiki/2004_FH",
-        "itemname2": "2004_fh"
-    },
-    {
-        "itemname": "2004 FU162",
-        "itemurl": "https://de.wikipedia.org/wiki/2004_FU162",
-        "itemname2": "2004_fu162"
-    },
-    {
-        "itemname": "2011 CQ1",
-        "itemurl": "https://de.wikipedia.org/wiki/2011_CQ1",
-        "itemname2": "2011_cq1"
     },
     {
         "itemname": "Apollo-Typ-Asteroiden",
         "itemurl": "https://de.wikipedia.org/wiki/Apollo-Typ",
-        "itemname2": "apolloTypeAsteroids"
+        "itemname2": "apolloAsteroids"
     },
     {
         "itemname": "(1862) Apollo",
         "itemurl": "https://de.wikipedia.org/wiki/(1862)_Apollo",
-        "itemname2": "1862_apollo"
-    },
-    {
-        "itemname": "Amor-Typ-Asteroiden",
-        "itemurl": "https://de.wikipedia.org/wiki/Amor-Typ",
-        "itemname2": "amorTypeAsteroids"
-    },
-    {
-        "itemname": "Amor-I-Asteroiden",
-        "itemname2": "amor1Asteroids"
-    },
-    {
-        "itemname": "(433) Eros",
-        "itemurl": "https://de.wikipedia.org/wiki/(433)_Eros",
-        "itemname2": "433_eros"
-    },
-    {
-        "itemname": "Amor-II-Asteroiden",
-        "itemname2": "amor2Asteroids"
-    },
-    {
-        "itemname": "(1221) Amor",
-        "itemurl": "https://de.wikipedia.org/wiki/(1221)_Amor",
-        "itemname2": "1221_amor"
-    },
-    {
-        "itemname": "Amor-III-Asteroiden",
-        "itemname2": "amor3Asteroids"
-    },
-    {
-        "itemname": "(719) Albert",
-        "itemurl": "https://de.wikipedia.org/wiki/(719)_Albert",
-        "itemname2": "719_albert"
-    },
-    {
-        "itemname": "(1036) Ganymed",
-        "itemurl": "https://de.wikipedia.org/wiki/(1036)_Ganymed",
-        "itemname2": "1036_ganymed"
-    },
-    {
-        "itemname": "Amor-IV-Asteroiden",
-        "itemname2": "amor4Asteroids"
-    },
-    {
-        "itemname": "(3552) Don Quixote",
-        "itemurl": "https://de.wikipedia.org/wiki/(3552)_Don_Quixote",
-        "itemname2": "3552_don_quixote"
+        "itemname2": "1862apollo"
     },
     {
         "itemname": "Mars",
         "itemurl": "https://de.wikipedia.org/wiki/Mars_(Planet)",
         "itemname2": "mars"
-    },
-    {
-        "itemname": "Mars-Trojaner",
-        "itemurl": "https://de.wikipedia.org/wiki/Trojaner_(Astronomie)",
-        "itemname2": "marsTrojans"
-    },
-    {
-        "itemname": "Lagrange-Punkt L4",
-        "itemurl": "https://de.wikipedia.org/wiki/Lagrange-Punkte",
-        "itemname2": "lagrangePoint4"
-    },
-    {
-        "itemname": "(121514) 1999 UJ7",
-        "itemname2": "121514_1999_uj7"
-    },
-    {
-        "itemname": "Lagrange-Punkt L5",
-        "itemurl": "https://de.wikipedia.org/wiki/Lagrange-Punkte",
-        "itemname2": "lagrangePoint5"
-    },
-    {
-        "itemname": "(5261) Eureka",
-        "itemurl": "https://de.wikipedia.org/wiki/(5261)_Eureka",
-        "itemname2": "5261_eureka"
-    },
-    {
-        "itemname": "(101429) 1998 VF31",
-        "itemname2": "101429_1998_vf31"
-    },
-    {
-        "itemname": "(311999) 2007 NS2",
-        "itemurl": "https://de.wikipedia.org/wiki/(311999)_2007_NS2",
-        "itemname2": "311999_2007_ns2"
-    },
-    {
-        "itemname": "(385250) 2001 DH47",
-        "itemname2": "385250_2001_dh47"
     },
     {
         "itemname": "Phobos",
@@ -13717,18 +13540,54 @@
         "itemname2": "deimos"
     },
     {
-        "itemname": "Asteroidengürtel",
-        "itemurl": "https://de.wikipedia.org/wiki/Asteroideng%C3%BCrtel",
-        "itemname2": "asteroidBelt"
+        "itemname": "Mars-Trojaner",
+        "itemurl": "https://de.wikipedia.org/wiki/Trojaner_(Astronomie)",
+        "itemname2": "marsTrojans"
     },
     {
-        "itemname": "(1) Ceres",
-        "itemurl": "https://de.wikipedia.org/wiki/(1)_Ceres",
-        "itemname2": "1ceres"
+        "itemname": "Amor-Typ-Asteroiden",
+        "itemurl": "https://de.wikipedia.org/wiki/Amor-Typ",
+        "itemname2": "amorAsteroids"
+    },
+    {
+        "itemname": "Amor-I-Asteroiden",
+        "itemname2": "amor1Asteroids"
+    },
+    {
+        "itemname": "Amor-II-Asteroiden",
+        "itemname2": "amor2Asteroids"
+    },
+    {
+        "itemname": "(1221) Amor",
+        "itemurl": "https://de.wikipedia.org/wiki/(1221)_Amor",
+        "itemname2": "1221amor"
+    },
+    {
+        "itemname": "Amor-III-Asteroiden",
+        "itemname2": "amor3Asteroids"
+    },
+    {
+        "itemname": "(1036) Ganymed",
+        "itemurl": "https://de.wikipedia.org/wiki/(1036)_Ganymed",
+        "itemname2": "1036ganymed"
+    },
+    {
+        "itemname": "Amor-IV-Asteroiden",
+        "itemname2": "amor4Asteroids"
+    },
+    {
+        "itemname": "(3552) Don Quixote",
+        "itemurl": "https://de.wikipedia.org/wiki/(3552)_Don_Quixote",
+        "itemname2": "3552donquixote"
+    },
+    {
+        "itemname": "Asteroidengürtel",
+        "itemurl": "https://de.wikipedia.org/wiki/Asteroideng%C3%BCrtel",
+        "itemname2": "asteroidbelt"
     },
     {
         "itemname": "Innerer Hauptgürtel",
-        "itemname2": "innerMainBelt"
+        "itemname2": "innerMainbelt"
     },
     {
         "itemname": "Flora-Gruppe",
@@ -13737,7 +13596,7 @@
     {
         "itemname": "(8) Flora",
         "itemurl": "https://de.wikipedia.org/wiki/(8)_Flora",
-        "itemname2": "8_flora"
+        "itemname2": "8flora"
     },
     {
         "itemname": "Vesta-Gruppe",
@@ -13746,7 +13605,7 @@
     {
         "itemname": "(4) Vesta",
         "itemurl": "https://de.wikipedia.org/wiki/(4)_Vesta",
-        "itemname2": "4_vesta"
+        "itemname2": "4vesta"
     },
     {
         "itemname": "Nysa-Gruppe",
@@ -13755,11 +13614,11 @@
     {
         "itemname": "(44) Nysa",
         "itemurl": "https://de.wikipedia.org/wiki/(44)_Nysa",
-        "itemname2": "44_nysa"
+        "itemname2": "44nysa"
     },
     {
         "itemname": "Mittlerer Hauptgürtel",
-        "itemname2": "middleMainBelt"
+        "itemname2": "middleMainbelt"
     },
     {
         "itemname": "Eunomia-Gruppe",
@@ -13768,7 +13627,7 @@
     {
         "itemname": "(15) Eunomia",
         "itemurl": "https://de.wikipedia.org/wiki/(15)_Eunomia",
-        "itemname2": "15_eunomia"
+        "itemname2": "15eunomia"
     },
     {
         "itemname": "Gefion-Gruppe",
@@ -13777,11 +13636,11 @@
     {
         "itemname": "(1272) Gefion",
         "itemurl": "https://de.wikipedia.org/wiki/(1272)_Gefion",
-        "itemname2": "1272_gefion"
+        "itemname2": "1272gefion"
     },
     {
         "itemname": "Äußerer Hauptgürtel",
-        "itemname2": "outerMainBelt"
+        "itemname2": "outerMainbelt"
     },
     {
         "itemname": "Koronis-Gruppe",
@@ -13790,17 +13649,7 @@
     {
         "itemname": "(158) Koronis",
         "itemurl": "https://de.wikipedia.org/wiki/(158)_Koronis",
-        "itemname2": "158_koronis"
-    },
-    {
-        "itemname": "(243) Ida",
-        "itemurl": "https://de.wikipedia.org/wiki/(243)_Ida",
-        "itemname2": "243_ida"
-    },
-    {
-        "itemname": "Dactyl",
-        "itemurl": "https://de.wikipedia.org/wiki/Dactyl_(Mond)",
-        "itemname2": "dactyl"
+        "itemname2": "1548koronis"
     },
     {
         "itemname": "Eos-Gruppe",
@@ -13809,7 +13658,7 @@
     {
         "itemname": "(221) Eos",
         "itemurl": "https://de.wikipedia.org/wiki/(221)_Eos",
-        "itemname2": "221_eos"
+        "itemname2": "221eos"
     },
     {
         "itemname": "Themis-Gruppe",
@@ -13818,7 +13667,7 @@
     {
         "itemname": "(24) Themis",
         "itemurl": "https://de.wikipedia.org/wiki/(24)_Themis",
-        "itemname2": "24_themis"
+        "itemname2": "24themis"
     },
     {
         "itemname": "Hygiea-Gruppe",
@@ -13827,7 +13676,7 @@
     {
         "itemname": "(10) Hygiea",
         "itemurl": "https://de.wikipedia.org/wiki/(10)_Hygiea",
-        "itemname2": "10_hygiea"
+        "itemname2": "10hygiea"
     },
     {
         "itemname": "Äußere Planeten",
@@ -13840,1213 +13689,9 @@
         "itemname2": "jupiter"
     },
     {
-        "itemname": "Jupiter-Trojaner",
-        "itemurl": "https://de.wikipedia.org/wiki/Trojaner_(Astronomie)",
-        "itemname2": "jupiterTrojans"
-    },
-    {
-        "itemname": "Lagrange-Punkt L4",
-        "itemurl": "https://de.wikipedia.org/wiki/Lagrange-Punkte",
-        "itemname2": "lagrangePoint4"
-    },
-    {
-        "itemname": "(588) Achilles",
-        "itemurl": "https://de.wikipedia.org/wiki/(588)_Achilles",
-        "itemname2": "588_achilles"
-    },
-    {
-        "itemname": "(624) Hektor",
-        "itemurl": "https://de.wikipedia.org/wiki/(624)_Hektor",
-        "itemname2": "624_hektor"
-    },
-    {
-        "itemname": "(659) Nestor",
-        "itemurl": "https://de.wikipedia.org/wiki/(659)_Nestor",
-        "itemname2": "659_nestor"
-    },
-    {
-        "itemname": "(911) Agamemnon",
-        "itemurl": "https://de.wikipedia.org/wiki/(911)_Agamemnon",
-        "itemname2": "911_agamemnon"
-    },
-    {
-        "itemname": "(1143) Odysseus",
-        "itemurl": "https://de.wikipedia.org/wiki/(1143)_Odysseus",
-        "itemname2": "1143_odysseus"
-    },
-    {
-        "itemname": "(1404) Ajax",
-        "itemurl": "https://de.wikipedia.org/wiki/(1404)_Ajax",
-        "itemname2": "1404_ajax"
-    },
-    {
-        "itemname": "(1437) Diomedes",
-        "itemurl": "https://de.wikipedia.org/wiki/(1437)_Diomedes",
-        "itemname2": "1437_diomedes"
-    },
-    {
-        "itemname": "(1583) Antilochus",
-        "itemurl": "https://de.wikipedia.org/wiki/(1583)_Antilochus",
-        "itemname2": "1583_antilochus"
-    },
-    {
-        "itemname": "(1647) Menelaus",
-        "itemurl": "https://de.wikipedia.org/wiki/(1647)_Menelaus",
-        "itemname2": "1647_menelaus"
-    },
-    {
-        "itemname": "(1749) Telamon",
-        "itemurl": "https://de.wikipedia.org/wiki/(1749)_Telamon",
-        "itemname2": "1749_telamon"
-    },
-    {
-        "itemname": "(1868) Thersites",
-        "itemurl": "https://de.wikipedia.org/wiki/(1868)_Thersites",
-        "itemname2": "1868_thersites"
-    },
-    {
-        "itemname": "(1869) Philoctetes",
-        "itemurl": "https://de.wikipedia.org/wiki/(1869)_Philoctetes",
-        "itemname2": "1869_philoctetes"
-    },
-    {
-        "itemname": "(2146) Stentor",
-        "itemurl": "https://de.wikipedia.org/wiki/(2146)_Stentor",
-        "itemname2": "2146_stentor"
-    },
-    {
-        "itemname": "(2148) Epeios",
-        "itemurl": "https://de.wikipedia.org/wiki/(2148)_Epeios",
-        "itemname2": "2148_epeios"
-    },
-    {
-        "itemname": "(2260) Neoptolemus",
-        "itemurl": "https://de.wikipedia.org/wiki/(2260)_Neoptolemus",
-        "itemname2": "2260_neoptolemus"
-    },
-    {
-        "itemname": "(2456) Palamedes",
-        "itemurl": "https://de.wikipedia.org/wiki/(2456)_Palamedes",
-        "itemname2": "2456_palamedes"
-    },
-    {
-        "itemname": "(2759) Idomeneus",
-        "itemurl": "https://de.wikipedia.org/wiki/(2759)_Idomeneus",
-        "itemname2": "2759_idomeneus"
-    },
-    {
-        "itemname": "(2797) Teucer",
-        "itemurl": "https://de.wikipedia.org/wiki/(2797)_Teucer",
-        "itemname2": "2797_teucer"
-    },
-    {
-        "itemname": "(2920) Automedon",
-        "itemurl": "https://de.wikipedia.org/wiki/(2920)_Automedon",
-        "itemname2": "2920_automedon"
-    },
-    {
-        "itemname": "(3063) Makhaon",
-        "itemurl": "https://de.wikipedia.org/wiki/(3063)_Makhaon",
-        "itemname2": "3063_makhaon"
-    },
-    {
-        "itemname": "(3391) Sinon",
-        "itemurl": "https://de.wikipedia.org/wiki/(3391)_Sinon",
-        "itemname2": "3391_sinon"
-    },
-    {
-        "itemname": "(3540) Protesilaos",
-        "itemurl": "https://de.wikipedia.org/wiki/(3540)_Protesilaos",
-        "itemname2": "3540_protesilaos"
-    },
-    {
-        "itemname": "(3548) Eurybates",
-        "itemurl": "https://de.wikipedia.org/wiki/(3548)_Eurybates",
-        "itemname2": "3548_eurybates"
-    },
-    {
-        "itemname": "(3564) Talthybius",
-        "itemurl": "https://de.wikipedia.org/wiki/(3564)_Talthybius",
-        "itemname2": "3564_talthybius"
-    },
-    {
-        "itemname": "(3596) Meriones",
-        "itemurl": "https://de.wikipedia.org/wiki/(3596)_Meriones",
-        "itemname2": "3596_meriones"
-    },
-    {
-        "itemname": "(3709) Polypoites",
-        "itemurl": "https://de.wikipedia.org/wiki/(3709)_Polypoites",
-        "itemname2": "3709_polypoites"
-    },
-    {
-        "itemname": "(3793) Leonteus",
-        "itemurl": "https://de.wikipedia.org/wiki/(3793)_Leonteus",
-        "itemname2": "3793_leonteus"
-    },
-    {
-        "itemname": "(3794) Sthenelos",
-        "itemurl": "https://de.wikipedia.org/wiki/(3794)_Sthenelos",
-        "itemname2": "3794_sthenelos"
-    },
-    {
-        "itemname": "(3801) Thrasymedes",
-        "itemurl": "https://de.wikipedia.org/wiki/(3801)_Thrasymedes",
-        "itemname2": "3801_thrasymedes"
-    },
-    {
-        "itemname": "(4007) Euryalos",
-        "itemurl": "https://de.wikipedia.org/wiki/(4007)_Euryalos",
-        "itemname2": "4007_euryalos"
-    },
-    {
-        "itemname": "(4035) 1986 WD",
-        "itemurl": "https://de.wikipedia.org/wiki/(4035)_1986_WD",
-        "itemname2": "4035_1986_wd"
-    },
-    {
-        "itemname": "(4057) Demophon",
-        "itemurl": "https://de.wikipedia.org/wiki/(4057)_Demophon",
-        "itemname2": "4057_demophon"
-    },
-    {
-        "itemname": "(4060) Deipylos",
-        "itemurl": "https://de.wikipedia.org/wiki/(4060)_Deipylos",
-        "itemname2": "4060_deipylos"
-    },
-    {
-        "itemname": "(4063) Euforbo",
-        "itemurl": "https://de.wikipedia.org/wiki/(4063)_Euforbo",
-        "itemname2": "4063_euforbo"
-    },
-    {
-        "itemname": "(4068) Menestheus",
-        "itemurl": "https://de.wikipedia.org/wiki/(4068)_Menestheus",
-        "itemname2": "4068_menestheus"
-    },
-    {
-        "itemname": "(4086) Podalirius",
-        "itemurl": "https://de.wikipedia.org/wiki/(4086)_Podalirius",
-        "itemname2": "4086_podalirius"
-    },
-    {
-        "itemname": "(4138) Kalchas",
-        "itemurl": "https://de.wikipedia.org/wiki/(4138)_Kalchas",
-        "itemname2": "4138_kalchas"
-    },
-    {
-        "itemname": "(4489) 1988 AK",
-        "itemurl": "https://de.wikipedia.org/wiki/(4489)_1988_AK",
-        "itemname2": "4489_1988_ak"
-    },
-    {
-        "itemname": "(4501) Eurypylos",
-        "itemurl": "https://de.wikipedia.org/wiki/(4501)_Eurypylos",
-        "itemname2": "4501_eurypylos"
-    },
-    {
-        "itemname": "(4543) Phoinix",
-        "itemurl": "https://de.wikipedia.org/wiki/(4543)_Phoinix",
-        "itemname2": "4543_phoinix"
-    },
-    {
-        "itemname": "(4833) Meges",
-        "itemurl": "https://de.wikipedia.org/wiki/(4833)_Meges",
-        "itemname2": "4833_meges"
-    },
-    {
-        "itemname": "(4834) Thoas",
-        "itemurl": "https://de.wikipedia.org/wiki/(4834)_Thoas",
-        "itemname2": "4834_thoas"
-    },
-    {
-        "itemname": "(4835) 1989 BQ",
-        "itemurl": "https://de.wikipedia.org/wiki/(4835)_1989_BQ",
-        "itemname2": "4835_1989_bq"
-    },
-    {
-        "itemname": "(4836) Medon",
-        "itemurl": "https://de.wikipedia.org/wiki/(4836)_Medon",
-        "itemname2": "4836_medon"
-    },
-    {
-        "itemname": "(4902) Thessandrus",
-        "itemurl": "https://de.wikipedia.org/wiki/(4902)_Thessandrus",
-        "itemname2": "4902_thessandrus"
-    },
-    {
-        "itemname": "(4946) Askalaphus",
-        "itemurl": "https://de.wikipedia.org/wiki/(4946)_Askalaphus",
-        "itemname2": "4946_askalaphus"
-    },
-    {
-        "itemname": "(5012) Eurymedon",
-        "itemurl": "https://de.wikipedia.org/wiki/(5012)_Eurymedon",
-        "itemname2": "5012_eurymedon"
-    },
-    {
-        "itemname": "(5023) Agapenor",
-        "itemurl": "https://de.wikipedia.org/wiki/(5023)_Agapenor",
-        "itemname2": "5023_agapenor"
-    },
-    {
-        "itemname": "(5025) 1986 TS6",
-        "itemname2": "5025_1986_ts6"
-    },
-    {
-        "itemname": "(5027) Androgeos",
-        "itemurl": "https://de.wikipedia.org/wiki/(5027)_Androgeos",
-        "itemname2": "5027_androgeos"
-    },
-    {
-        "itemname": "(5028) Halaesus",
-        "itemname2": "5028_halaesus"
-    },
-    {
-        "itemname": "(5041) Theotes",
-        "itemurl": "https://de.wikipedia.org/wiki/(5041)_Theotes",
-        "itemname2": "5041_theotes"
-    },
-    {
-        "itemname": "(5123) 1989 BL",
-        "itemname2": "5123_1989_bl"
-    },
-    {
-        "itemname": "(5126) Achaemenides",
-        "itemurl": "https://de.wikipedia.org/wiki/(5126)_Achaemenides",
-        "itemname2": "5126_achaemenides"
-    },
-    {
-        "itemname": "(5209) 1989 CW1",
-        "itemname2": "5209_1989_cw1"
-    },
-    {
-        "itemname": "(5244) Amphilochos",
-        "itemurl": "https://de.wikipedia.org/wiki/(5244)_Amphilochos",
-        "itemname2": "5244_amphilochos"
-    },
-    {
-        "itemname": "(5254) Ulysses",
-        "itemurl": "https://de.wikipedia.org/wiki/(5254)_Ulysses",
-        "itemname2": "5254_ulysses"
-    },
-    {
-        "itemname": "(5258) 1989 AU1",
-        "itemname2": "5258_1989_au1"
-    },
-    {
-        "itemname": "(5259) Epeigeus",
-        "itemurl": "https://de.wikipedia.org/wiki/(5259)_Epeigeus",
-        "itemname2": "5259_epeigeus"
-    },
-    {
-        "itemname": "(5264) Telephus",
-        "itemurl": "https://de.wikipedia.org/wiki/(5264)_Telephus",
-        "itemname2": "5264_telephus"
-    },
-    {
-        "itemname": "(5283) Pyrrhus",
-        "itemurl": "https://de.wikipedia.org/wiki/(5283)_Pyrrhus",
-        "itemname2": "5283_pyrrhus"
-    },
-    {
-        "itemname": "(5284) Orsilocus",
-        "itemurl": "https://de.wikipedia.org/wiki/(5284)_Orsilocus",
-        "itemname2": "5284_orsilocus"
-    },
-    {
-        "itemname": "(5285) Krethon",
-        "itemurl": "https://de.wikipedia.org/wiki/(5285)_Krethon",
-        "itemname2": "5285_krethon"
-    },
-    {
-        "itemname": "(5436) Eumelos",
-        "itemurl": "https://de.wikipedia.org/wiki/(5436)_Eumelos",
-        "itemname2": "5436_eumelos"
-    },
-    {
-        "itemname": "(5652) Amphimachus",
-        "itemname2": "5652_amphimachus"
-    },
-    {
-        "itemname": "(6090) 1989 DJ",
-        "itemname2": "6090_1989_dj"
-    },
-    {
-        "itemname": "(6545) 1986 TR6",
-        "itemname2": "6545_1986_tr6"
-    },
-    {
-        "itemname": "(7119) Hiera",
-        "itemname2": "7119_hiera"
-    },
-    {
-        "itemname": "(7152) Euneus",
-        "itemurl": "https://de.wikipedia.org/wiki/(7152)_Euneus",
-        "itemname2": "7152_euneus"
-    },
-    {
-        "itemname": "(7214) Anticlus",
-        "itemurl": "https://de.wikipedia.org/wiki/(7214)_Anticlus",
-        "itemname2": "7214_anticlus"
-    },
-    {
-        "itemname": "(7543) Prylis",
-        "itemurl": "https://de.wikipedia.org/wiki/(7543)_Prylis",
-        "itemname2": "7543_prylis"
-    },
-    {
-        "itemname": "(7641) 1986 TT6",
-        "itemname2": "7641_1986_tt6"
-    },
-    {
-        "itemname": "(8060) Anius",
-        "itemurl": "https://de.wikipedia.org/wiki/(8060)_Anius",
-        "itemname2": "8060_anius"
-    },
-    {
-        "itemname": "(8125) Tyndareus",
-        "itemurl": "https://de.wikipedia.org/wiki/(8125)_Tyndareus",
-        "itemname2": "8125_tyndareus"
-    },
-    {
-        "itemname": "(8241) Agrius",
-        "itemurl": "https://de.wikipedia.org/wiki/(8241)_Agrius",
-        "itemname2": "8241_agrius"
-    },
-    {
-        "itemname": "(8317) Eurysaces",
-        "itemurl": "https://de.wikipedia.org/wiki/(8317)_Eurysaces",
-        "itemname2": "8317_eurysaces"
-    },
-    {
-        "itemname": "(9431) 1996 PS1",
-        "itemname2": "9431_1996_ps1"
-    },
-    {
-        "itemname": "(9694) Lycomedes",
-        "itemurl": "https://de.wikipedia.org/wiki/(9694)_Lycomedes",
-        "itemname2": "9694_lycomedes"
-    },
-    {
-        "itemname": "(9712) Nauplius",
-        "itemurl": "https://de.wikipedia.org/wiki/(9712)_Nauplius",
-        "itemname2": "9712_nauplius"
-    },
-    {
-        "itemname": "(9713) Oceax",
-        "itemurl": "https://de.wikipedia.org/wiki/(9713)_Oceax",
-        "itemname2": "9713_oceax"
-    },
-    {
-        "itemname": "(9817) Thersander",
-        "itemurl": "https://de.wikipedia.org/wiki/(9817)_Thersander",
-        "itemname2": "9817_thersander"
-    },
-    {
-        "itemname": "(9818) Eurymachos",
-        "itemurl": "https://de.wikipedia.org/wiki/(9818)_Eurymachos",
-        "itemname2": "9818_eurymachos"
-    },
-    {
-        "itemname": "(9828) Antimachos",
-        "itemname2": "9828_antimachos"
-    },
-    {
-        "itemname": "(9907) Oileus",
-        "itemurl": "https://de.wikipedia.org/wiki/(9907)_Oileus",
-        "itemname2": "9907_oileus"
-    },
-    {
-        "itemname": "(10247) Amphiaraos",
-        "itemurl": "https://de.wikipedia.org/wiki/(10247)_Amphiaraos",
-        "itemname2": "10247_amphiaraos"
-    },
-    {
-        "itemname": "(10664) Phemios",
-        "itemname2": "10664_phemios"
-    },
-    {
-        "itemname": "(10989) Dolios",
-        "itemname2": "10989_dolios"
-    },
-    {
-        "itemname": "(11251) Icarion",
-        "itemname2": "11251_icarion"
-    },
-    {
-        "itemname": "(11252) Laërtes",
-        "itemurl": "https://de.wikipedia.org/wiki/(11252)_La%C3%ABrtes",
-        "itemname2": "11252_lartes"
-    },
-    {
-        "itemname": "(11428) Alcinoos",
-        "itemurl": "https://de.wikipedia.org/wiki/(11428)_Alcinoos",
-        "itemname2": "11428_alcinoos"
-    },
-    {
-        "itemname": "(11429) Demodokus",
-        "itemurl": "https://de.wikipedia.org/wiki/(11429)_Demodokus",
-        "itemname2": "11429_demodokus"
-    },
-    {
-        "itemname": "(12238) Actor",
-        "itemname2": "12238_actor"
-    },
-    {
-        "itemname": "(12658) Peiraios",
-        "itemurl": "https://de.wikipedia.org/wiki/(12658)_Peiraios",
-        "itemname2": "12658_peiraios"
-    },
-    {
-        "itemname": "(12714) Alkimos",
-        "itemname2": "12714_alkimos"
-    },
-    {
-        "itemname": "(12916) Eteoneus",
-        "itemname2": "12916_eteoneus"
-    },
-    {
-        "itemname": "(12917) 1998 TG16",
-        "itemname2": "12917_1998_tg16"
-    },
-    {
-        "itemname": "(12921) 1998 WZ5",
-        "itemname2": "12921_1998_wz5"
-    },
-    {
-        "itemname": "(12929) 1999 TZ1",
-        "itemname2": "12929_1999_tz1"
-    },
-    {
-        "itemname": "(12972) Eumaios",
-        "itemname2": "12972_eumaios"
-    },
-    {
-        "itemname": "(12973) Melanthios",
-        "itemname2": "12973_melanthios"
-    },
-    {
-        "itemname": "(12974) Halitherses",
-        "itemname2": "12974_halitherses"
-    },
-    {
-        "itemname": "(13062) Podarkes",
-        "itemname2": "13062_podarkes"
-    },
-    {
-        "itemname": "(13181) Peneleos",
-        "itemname2": "13181_peneleos"
-    },
-    {
-        "itemname": "(13184) Augeias",
-        "itemurl": "https://de.wikipedia.org/wiki/(13184)_Augeias",
-        "itemname2": "13184_augeias"
-    },
-    {
-        "itemname": "(13185) Agasthenes",
-        "itemurl": "https://de.wikipedia.org/wiki/(13185)_Agasthenes",
-        "itemname2": "13185_agasthenes"
-    },
-    {
-        "itemname": "(13229) Echion",
-        "itemurl": "https://de.wikipedia.org/wiki/(13229)_Echion",
-        "itemname2": "13229_echion"
-    },
-    {
-        "itemname": "(13387) Irus",
-        "itemname2": "13387_irus"
-    },
-    {
-        "itemname": "(13463) Antiphos",
-        "itemurl": "https://de.wikipedia.org/wiki/(13463)_Antiphos",
-        "itemname2": "13463_antiphos"
-    },
-    {
-        "itemname": "(13475) Orestes",
-        "itemurl": "https://de.wikipedia.org/wiki/(13475)_Orestes",
-        "itemname2": "13475_orestes"
-    },
-    {
-        "itemname": "(14791) Atreus",
-        "itemurl": "https://de.wikipedia.org/wiki/(14791)_Atreus",
-        "itemname2": "14791_atreus"
-    },
-    {
-        "itemname": "(14792) Thyestes",
-        "itemurl": "https://de.wikipedia.org/wiki/(14792)_Thyestes",
-        "itemname2": "14792_thyestes"
-    },
-    {
-        "itemname": "(15398) 1997 UZ23",
-        "itemname2": "15398_1997_uz23"
-    },
-    {
-        "itemname": "(15651) Tlepolemos",
-        "itemurl": "https://de.wikipedia.org/wiki/(15651)_Tlepolemos",
-        "itemname2": "15651_tlepolemos"
-    },
-    {
-        "itemname": "(15663) Periphas",
-        "itemurl": "https://de.wikipedia.org/wiki/(15663)_Periphas",
-        "itemname2": "15663_periphas"
-    },
-    {
-        "itemname": "(15913) Telemachus",
-        "itemurl": "https://de.wikipedia.org/wiki/(15913)_Telemachus",
-        "itemname2": "15913_telemachus"
-    },
-    {
-        "itemname": "(16152) 1999 YN12",
-        "itemurl": "https://de.wikipedia.org/wiki/(16152)_1999_YN12",
-        "itemname2": "16152_1999_yn12"
-    },
-    {
-        "itemname": "(16974) 1998 WR21",
-        "itemname2": "16974_1998_wr21"
-    },
-    {
-        "itemname": "(17351) Pheidippos",
-        "itemurl": "https://de.wikipedia.org/wiki/(17351)_Pheidippos",
-        "itemname2": "17351_pheidippos"
-    },
-    {
-        "itemname": "(18263) Anchialos",
-        "itemname2": "18263_anchialos"
-    },
-    {
-        "itemname": "(19913) Aigyptios",
-        "itemname2": "19913_aigyptios"
-    },
-    {
-        "itemname": "(20424) 1998 VF30",
-        "itemurl": "https://de.wikipedia.org/wiki/(20424)_1998_VF30",
-        "itemname2": "20424_1998_vf30"
-    },
-    {
-        "itemname": "(20947) Polyneikes",
-        "itemurl": "https://de.wikipedia.org/wiki/(20947)_Polyneikes",
-        "itemname2": "20947_polyneikes"
-    },
-    {
-        "itemname": "(20952) Tydeus",
-        "itemurl": "https://de.wikipedia.org/wiki/(20952)_Tydeus",
-        "itemname2": "20952_tydeus"
-    },
-    {
-        "itemname": "(20961) Arkesilaos",
-        "itemurl": "https://de.wikipedia.org/wiki/(20961)_Arkesilaos",
-        "itemname2": "20961_arkesilaos"
-    },
-    {
-        "itemname": "(21602) Ialmenus",
-        "itemname2": "21602_ialmenus"
-    },
-    {
-        "itemname": "(22199) Klonios",
-        "itemname2": "22199_klonios"
-    },
-    {
-        "itemname": "(22203) Prothoenor",
-        "itemurl": "https://de.wikipedia.org/wiki/(22203)_Prothoenor",
-        "itemname2": "22203_prothoenor"
-    },
-    {
-        "itemname": "(22222) Hodios",
-        "itemurl": "https://de.wikipedia.org/wiki/(22222)_Hodios",
-        "itemname2": "22222_hodios"
-    },
-    {
-        "itemname": "(22227) Polyxenos",
-        "itemname2": "22227_polyxenos"
-    },
-    {
-        "itemname": "(22503) Thalpius",
-        "itemname2": "22503_thalpius"
-    },
-    {
-        "itemname": "(23355) Elephenor",
-        "itemurl": "https://de.wikipedia.org/wiki/(23355)_Elephenor",
-        "itemname2": "23355_elephenor"
-    },
-    {
-        "itemname": "(23382) Epistrophos",
-        "itemname2": "23382_epistrophos"
-    },
-    {
-        "itemname": "(23383) Schedios",
-        "itemname2": "23383_schedios"
-    },
-    {
-        "itemname": "(24587) Kapaneus",
-        "itemurl": "https://de.wikipedia.org/wiki/(24587)_Kapaneus",
-        "itemname2": "24587_kapaneus"
-    },
-    {
-        "itemname": "(24603) Mekistheus",
-        "itemurl": "https://de.wikipedia.org/wiki/(24603)_Mekistheus",
-        "itemname2": "24603_mekistheus"
-    },
-    {
-        "itemname": "(26057) Ankaios",
-        "itemname2": "26057_ankaios"
-    },
-    {
-        "itemname": "(26510) 2000 CZ34",
-        "itemname2": "26510_2000_cz34"
-    },
-    {
-        "itemname": "(26763) Peirithoos",
-        "itemurl": "https://de.wikipedia.org/wiki/(26763)_Peirithoos",
-        "itemname2": "26763_peirithoos"
-    },
-    {
-        "itemname": "(34993) Euaimon",
-        "itemname2": "34993_euaimon"
-    },
-    {
-        "itemname": "(37732) 1996 TY68",
-        "itemname2": "37732_1996_ty68"
-    },
-    {
-        "itemname": "(39463) Phyleus",
-        "itemname2": "39463_phyleus"
-    },
-    {
-        "itemname": "(42403) Andraimon",
-        "itemname2": "42403_andraimon"
-    },
-    {
-        "itemname": "(43706) Iphiklos",
-        "itemname2": "43706_iphiklos"
-    },
-    {
-        "itemname": "(58096) Oineus",
-        "itemname2": "58096_oineus"
-    },
-    {
-        "itemname": "(65583) Theoklymenos",
-        "itemname2": "65583_theoklymenos"
-    },
-    {
-        "itemname": "(73637) Guneus",
-        "itemname2": "73637_guneus"
-    },
-    {
-        "itemname": "(85030) Admetos",
-        "itemurl": "https://de.wikipedia.org/wiki/(85030)_Admetos",
-        "itemname2": "85030_admetos"
-    },
-    {
-        "itemname": "(99950) Euchenor",
-        "itemname2": "99950_euchenor"
-    },
-    {
-        "itemname": "(136557) Neleus",
-        "itemurl": "https://de.wikipedia.org/wiki/(136557)_Neleus",
-        "itemname2": "136557_neleus"
-    },
-    {
-        "itemname": "(171433) Prothous",
-        "itemname2": "171433_prothous"
-    },
-    {
-        "itemname": "(173086) Nireus",
-        "itemurl": "https://de.wikipedia.org/wiki/(173086)_Nireus",
-        "itemname2": "173086_nireus"
-    },
-    {
-        "itemname": "(173117) Promachus",
-        "itemname2": "173117_promachus"
-    },
-    {
-        "itemname": "(192220) Oicles",
-        "itemurl": "https://de.wikipedia.org/wiki/(192220)_Oicles",
-        "itemname2": "192220_oicles"
-    },
-    {
-        "itemname": "(221917) Opites",
-        "itemurl": "https://de.wikipedia.org/wiki/(221917)_Opites",
-        "itemname2": "221917_opites"
-    },
-    {
-        "itemname": "Lagrange-Punkt L5",
-        "itemurl": "https://de.wikipedia.org/wiki/Lagrange-Punkte",
-        "itemname2": "lagrangePoint5"
-    },
-    {
-        "itemname": "(617) Patroclus",
-        "itemurl": "https://de.wikipedia.org/wiki/(617)_Patroclus",
-        "itemname2": "617_patroclus"
-    },
-    {
-        "itemname": "(884) Priamus",
-        "itemurl": "https://de.wikipedia.org/wiki/(884)_Priamus",
-        "itemname2": "884_priamus"
-    },
-    {
-        "itemname": "(1172) Äneas",
-        "itemurl": "https://de.wikipedia.org/wiki/(1172)_%C3%84neas",
-        "itemname2": "1172_neas"
-    },
-    {
-        "itemname": "(1173) Anchises",
-        "itemurl": "https://de.wikipedia.org/wiki/(1173)_Anchises",
-        "itemname2": "1173_anchises"
-    },
-    {
-        "itemname": "(1208) Troilus",
-        "itemurl": "https://de.wikipedia.org/wiki/(1208)_Troilus",
-        "itemname2": "1208_troilus"
-    },
-    {
-        "itemname": "(1867) Deiphobus",
-        "itemurl": "https://de.wikipedia.org/wiki/(1867)_Deiphobus",
-        "itemname2": "1867_deiphobus"
-    },
-    {
-        "itemname": "(1870) Glaukos",
-        "itemurl": "https://de.wikipedia.org/wiki/(1870)_Glaukos",
-        "itemname2": "1870_glaukos"
-    },
-    {
-        "itemname": "(1871) Astyanax",
-        "itemurl": "https://de.wikipedia.org/wiki/(1871)_Astyanax",
-        "itemname2": "1871_astyanax"
-    },
-    {
-        "itemname": "(1872) Helenos",
-        "itemurl": "https://de.wikipedia.org/wiki/(1872)_Helenos",
-        "itemname2": "1872_helenos"
-    },
-    {
-        "itemname": "(1873) Agenor",
-        "itemurl": "https://de.wikipedia.org/wiki/(1873)_Agenor",
-        "itemname2": "1873_agenor"
-    },
-    {
-        "itemname": "(2207) Antenor",
-        "itemurl": "https://de.wikipedia.org/wiki/(2207)_Antenor",
-        "itemname2": "2207_antenor"
-    },
-    {
-        "itemname": "(2223) Sarpedon",
-        "itemurl": "https://de.wikipedia.org/wiki/(2223)_Sarpedon",
-        "itemname2": "2223_sarpedon"
-    },
-    {
-        "itemname": "(2241) Alcathous",
-        "itemurl": "https://de.wikipedia.org/wiki/(2241)_Alcathous",
-        "itemname2": "2241_alcathous"
-    },
-    {
-        "itemname": "(2357) Phereclos",
-        "itemurl": "https://de.wikipedia.org/wiki/(2357)_Phereclos",
-        "itemname2": "2357_phereclos"
-    },
-    {
-        "itemname": "(2363) Cebriones",
-        "itemurl": "https://de.wikipedia.org/wiki/(2363)_Cebriones",
-        "itemname2": "2363_cebriones"
-    },
-    {
-        "itemname": "(2594) Acamas",
-        "itemurl": "https://de.wikipedia.org/wiki/(2594)_Acamas",
-        "itemname2": "2594_acamas"
-    },
-    {
-        "itemname": "(2674) Pandarus",
-        "itemurl": "https://de.wikipedia.org/wiki/(2674)_Pandarus",
-        "itemname2": "2674_pandarus"
-    },
-    {
-        "itemname": "(2893) Peiroos",
-        "itemurl": "https://de.wikipedia.org/wiki/(2893)_Peiroos",
-        "itemname2": "2893_peiroos"
-    },
-    {
-        "itemname": "(2895) Memnon",
-        "itemurl": "https://de.wikipedia.org/wiki/(2895)_Memnon",
-        "itemname2": "2895_memnon"
-    },
-    {
-        "itemname": "(3240) Laocoon",
-        "itemurl": "https://de.wikipedia.org/wiki/(3240)_Laocoon",
-        "itemname2": "3240_laocoon"
-    },
-    {
-        "itemname": "(3317) Paris",
-        "itemurl": "https://de.wikipedia.org/wiki/(3317)_Paris",
-        "itemname2": "3317_paris"
-    },
-    {
-        "itemname": "(3451) Mentor",
-        "itemurl": "https://de.wikipedia.org/wiki/(3451)_Mentor",
-        "itemname2": "3451_mentor"
-    },
-    {
-        "itemname": "(3708) 1974 FV1",
-        "itemurl": "https://de.wikipedia.org/wiki/(3708)_1974_FV1",
-        "itemname2": "3708_1974_fv1"
-    },
-    {
-        "itemname": "(4348) Poulydamas",
-        "itemurl": "https://de.wikipedia.org/wiki/(4348)_Poulydamas",
-        "itemname2": "4348_poulydamas"
-    },
-    {
-        "itemname": "(4707) Khryses",
-        "itemurl": "https://de.wikipedia.org/wiki/(4707)_Khryses",
-        "itemname2": "4707_khryses"
-    },
-    {
-        "itemname": "(4708) Polydoros",
-        "itemurl": "https://de.wikipedia.org/wiki/(4708)_Polydoros",
-        "itemname2": "4708_polydoros"
-    },
-    {
-        "itemname": "(4709) Ennomos",
-        "itemurl": "https://de.wikipedia.org/wiki/(4709)_Ennomos",
-        "itemname2": "4709_ennomos"
-    },
-    {
-        "itemname": "(4715) 1989 TS1",
-        "itemurl": "https://de.wikipedia.org/wiki/(4715)_1989_TS1",
-        "itemname2": "4715_1989_ts1"
-    },
-    {
-        "itemname": "(4722) Agelaos",
-        "itemurl": "https://de.wikipedia.org/wiki/(4722)_Agelaos",
-        "itemname2": "4722_agelaos"
-    },
-    {
-        "itemname": "(4754) Panthoos",
-        "itemurl": "https://de.wikipedia.org/wiki/(4754)_Panthoos",
-        "itemname2": "4754_panthoos"
-    },
-    {
-        "itemname": "(4791) Iphidamas",
-        "itemurl": "https://de.wikipedia.org/wiki/(4791)_Iphidamas",
-        "itemname2": "4791_iphidamas"
-    },
-    {
-        "itemname": "(4792) Lykaon",
-        "itemurl": "https://de.wikipedia.org/wiki/(4792)_Lykaon",
-        "itemname2": "4792_lykaon"
-    },
-    {
-        "itemname": "(4805) Asteropaios",
-        "itemurl": "https://de.wikipedia.org/wiki/(4805)_Asteropaios",
-        "itemname2": "4805_asteropaios"
-    },
-    {
-        "itemname": "(4827) Dares",
-        "itemurl": "https://de.wikipedia.org/wiki/(4827)_Dares",
-        "itemname2": "4827_dares"
-    },
-    {
-        "itemname": "(4828) Misenus",
-        "itemurl": "https://de.wikipedia.org/wiki/(4828)_Misenus",
-        "itemname2": "4828_misenus"
-    },
-    {
-        "itemname": "(4829) Sergestus",
-        "itemurl": "https://de.wikipedia.org/wiki/(4829)_Sergestus",
-        "itemname2": "4829_sergestus"
-    },
-    {
-        "itemname": "(4832) Palinurus",
-        "itemurl": "https://de.wikipedia.org/wiki/(4832)_Palinurus",
-        "itemname2": "4832_palinurus"
-    },
-    {
-        "itemname": "(4867) Polites",
-        "itemurl": "https://de.wikipedia.org/wiki/(4867)_Polites",
-        "itemname2": "4867_polites"
-    },
-    {
-        "itemname": "(5119) 1988 RA1",
-        "itemname2": "5119_1988_ra1"
-    },
-    {
-        "itemname": "(5120) Bitias",
-        "itemname2": "5120_bitias"
-    },
-    {
-        "itemname": "(5130) Ilioneus",
-        "itemurl": "https://de.wikipedia.org/wiki/(5130)_Ilioneus",
-        "itemname2": "5130_ilioneus"
-    },
-    {
-        "itemname": "(5144) Achates",
-        "itemurl": "https://de.wikipedia.org/wiki/(5144)_Achates",
-        "itemname2": "5144_achates"
-    },
-    {
-        "itemname": "(5233) 1988 RL10",
-        "itemname2": "5233_1988_rl10"
-    },
-    {
-        "itemname": "(5257) 1988 RS10",
-        "itemname2": "5257_1988_rs10"
-    },
-    {
-        "itemname": "(5476) 1989 TO11",
-        "itemname2": "5476_1989_to11"
-    },
-    {
-        "itemname": "(5511) Cloanthus",
-        "itemname2": "5511_cloanthus"
-    },
-    {
-        "itemname": "(5637) Gyas",
-        "itemname2": "5637_gyas"
-    },
-    {
-        "itemname": "(5638) Deikoon",
-        "itemname2": "5638_deikoon"
-    },
-    {
-        "itemname": "(5648) 1990 VU1",
-        "itemname2": "5648_1990_vu1"
-    },
-    {
-        "itemname": "(5907) 1989 TU5",
-        "itemname2": "5907_1989_tu5"
-    },
-    {
-        "itemname": "(6002) 1988 RO",
-        "itemname2": "6002_1988_ro"
-    },
-    {
-        "itemname": "(6443) 1988 RH12",
-        "itemname2": "6443_1988_rh12"
-    },
-    {
-        "itemname": "(6997) Laomedon",
-        "itemurl": "https://de.wikipedia.org/wiki/(6997)_Laomedon",
-        "itemname2": "6997_laomedon"
-    },
-    {
-        "itemname": "(6998) Tithonus",
-        "itemurl": "https://de.wikipedia.org/wiki/(6998)_Tithonus",
-        "itemname2": "6998_tithonus"
-    },
-    {
-        "itemname": "(7352) 1994 CO",
-        "itemname2": "7352_1994_co"
-    },
-    {
-        "itemname": "(7815) Dolon",
-        "itemurl": "https://de.wikipedia.org/wiki/(7815)_Dolon",
-        "itemname2": "7815_dolon"
-    },
-    {
-        "itemname": "(9023) Mnesthus",
-        "itemname2": "9023_mnesthus"
-    },
-    {
-        "itemname": "(9030) 1989 UX5",
-        "itemname2": "9030_1989_ux5"
-    },
-    {
-        "itemname": "(9142) Rhesus",
-        "itemurl": "https://de.wikipedia.org/wiki/(9142)_Rhesus",
-        "itemname2": "9142_rhesus"
-    },
-    {
-        "itemname": "(9430) Erichthonios",
-        "itemname2": "9430_erichthonios"
-    },
-    {
-        "itemname": "(11509) Thersilochos",
-        "itemname2": "11509_thersilochos"
-    },
-    {
-        "itemname": "(11552) Boucolion",
-        "itemname2": "11552_boucolion"
-    },
-    {
-        "itemname": "(11554) Asios",
-        "itemurl": "https://de.wikipedia.org/wiki/(11554)_Asios",
-        "itemname2": "11554_asios"
-    },
-    {
-        "itemname": "(11668) Balios",
-        "itemurl": "https://de.wikipedia.org/wiki/(11668)_Balios",
-        "itemname2": "11668_balios"
-    },
-    {
-        "itemname": "(11887) Echemmon",
-        "itemname2": "11887_echemmon"
-    },
-    {
-        "itemname": "(12052) Aretaon",
-        "itemname2": "12052_aretaon"
-    },
-    {
-        "itemname": "(12242) Koon",
-        "itemname2": "12242_koon"
-    },
-    {
-        "itemname": "(12444) Prothoon",
-        "itemurl": "https://de.wikipedia.org/wiki/(12444)_Prothoon",
-        "itemname2": "12444_prothoon"
-    },
-    {
-        "itemname": "(12649) Ascanios",
-        "itemurl": "https://de.wikipedia.org/wiki/(12649)_Ascanios",
-        "itemname2": "12649_ascanios"
-    },
-    {
-        "itemname": "(15977) 1998 MA11",
-        "itemurl": "https://de.wikipedia.org/wiki/(15977)_1998_MA11",
-        "itemname2": "15977_1998_ma11"
-    },
-    {
-        "itemname": "(16560) Daitor",
-        "itemurl": "https://de.wikipedia.org/wiki/(16560)_Daitor",
-        "itemname2": "16560_daitor"
-    },
-    {
-        "itemname": "(16956) 1998 MQ11",
-        "itemurl": "https://de.wikipedia.org/wiki/(16956)_1998_MQ11",
-        "itemname2": "16956_1998_mq11"
-    },
-    {
-        "itemname": "(17314) Aisakos",
-        "itemurl": "https://de.wikipedia.org/wiki/(17314)_Aisakos",
-        "itemname2": "17314_aisakos"
-    },
-    {
-        "itemname": "(17492) Hippasos",
-        "itemurl": "https://de.wikipedia.org/wiki/(17492)_Hippasos",
-        "itemname2": "17492_hippasos"
-    },
-    {
-        "itemname": "(18228) Hyperenor",
-        "itemurl": "https://de.wikipedia.org/wiki/(18228)_Hyperenor",
-        "itemname2": "18228_hyperenor"
-    },
-    {
-        "itemname": "(18268) Dardanos",
-        "itemurl": "https://de.wikipedia.org/wiki/(18268)_Dardanos",
-        "itemname2": "18268_dardanos"
-    },
-    {
-        "itemname": "(18278) Drymas",
-        "itemname2": "18278_drymas"
-    },
-    {
-        "itemname": "(18281) Tros",
-        "itemurl": "https://de.wikipedia.org/wiki/(18281)_Tros",
-        "itemname2": "18281_tros"
-    },
-    {
-        "itemname": "(18282) Ilos",
-        "itemname2": "18282_ilos"
-    },
-    {
-        "itemname": "(30698) Hippokoon",
-        "itemurl": "https://de.wikipedia.org/wiki/(30698)_Hippokoon",
-        "itemname2": "30698_hippokoon"
-    },
-    {
-        "itemname": "(30704) Phegeus",
-        "itemurl": "https://de.wikipedia.org/wiki/(30704)_Phegeus",
-        "itemname2": "30704_phegeus"
-    },
-    {
-        "itemname": "(30705) Idaios",
-        "itemurl": "https://de.wikipedia.org/wiki/(30705)_Idaios",
-        "itemname2": "30705_idaios"
-    },
-    {
-        "itemname": "(30708) Echepolos",
-        "itemname2": "30708_echepolos"
-    },
-    {
-        "itemname": "(31037) Mydon",
-        "itemname2": "31037_mydon"
-    },
-    {
-        "itemname": "(32720) Simoeisios",
-        "itemurl": "https://de.wikipedia.org/wiki/(32720)_Simoeisios",
-        "itemname2": "32720_simoeisios"
-    },
-    {
-        "itemname": "(32726) Chromios",
-        "itemurl": "https://de.wikipedia.org/wiki/(32726)_Chromios",
-        "itemname2": "32726_chromios"
-    },
-    {
-        "itemname": "(32811) Apisaon",
-        "itemname2": "32811_apisaon"
-    },
-    {
-        "itemname": "(37519) Amphios",
-        "itemname2": "37519_amphios"
-    },
-    {
-        "itemname": "(48373) Gorgythion",
-        "itemname2": "48373_gorgythion"
-    },
-    {
-        "itemname": "(55676) Klythios",
-        "itemname2": "55676_klythios"
-    },
-    {
-        "itemname": "(55678) Lampos",
-        "itemname2": "55678_lampos"
-    },
-    {
-        "itemname": "(55701) Ukalegon",
-        "itemname2": "55701_ukalegon"
-    },
-    {
-        "itemname": "(55702) Thymoitos",
-        "itemname2": "55702_thymoitos"
-    },
-    {
-        "itemname": "(58084) Hiketaon",
-        "itemname2": "58084_hiketaon"
-    },
-    {
-        "itemname": "(65590) Archeptolemos",
-        "itemname2": "65590_archeptolemos"
-    },
-    {
-        "itemname": "(129137) Hippolochos",
-        "itemname2": "129137_hippolochos"
-    },
-    {
-        "itemname": "(134329) Cycnos",
-        "itemname2": "134329_cycnos"
-    },
-    {
-        "itemname": "(181279) Iapyx",
-        "itemname2": "181279_iapyx"
-    },
-    {
-        "itemname": "(184280) Yperion",
-        "itemname2": "184280_yperion"
-    },
-    {
-        "itemname": "(188847) Rhipeus",
-        "itemname2": "188847_rhipeus"
-    },
-    {
-        "itemname": "(189004) Capys",
-        "itemurl": "https://de.wikipedia.org/wiki/(189004)_Capys",
-        "itemname2": "189004_capys"
-    },
-    {
-        "itemname": "(189310) Polydamas",
-        "itemname2": "189310_polydamas"
-    },
-    {
-        "itemname": "(382238) Euphemus",
-        "itemname2": "382238_euphemus"
+        "itemname": "Jupiter-Monde",
+        "itemurl": "https://de.wikipedia.org/wiki/Liste_der_Jupitermonde",
+        "itemname2": "jupiterMoons"
     },
     {
         "itemname": "Io",
@@ -15056,7 +13701,7 @@
     {
         "itemname": "Europa",
         "itemurl": "https://de.wikipedia.org/wiki/Europa_(Mond)",
-        "itemname2": "europa"
+        "itemname2": "europe"
     },
     {
         "itemname": "Ganymed",
@@ -15066,7 +13711,7 @@
     {
         "itemname": "Kallisto",
         "itemurl": "https://de.wikipedia.org/wiki/Kallisto_(Mond)",
-        "itemname2": "kallisto"
+        "itemname2": "callisto"
     },
     {
         "itemname": "Amalthea",
@@ -15299,104 +13944,24 @@
         "itemname2": "herse"
     },
     {
-        "itemname": "S/2010 J 1",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2010_J_1",
-        "itemname2": "s2010_j_1"
+        "itemname": "Jupiter-Trojaner",
+        "itemurl": "https://de.wikipedia.org/wiki/Trojaner_(Astronomie)",
+        "itemname2": "jupiterTrojans"
     },
     {
-        "itemname": "S/2010 J 2",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2010_J_2",
-        "itemname2": "s2010_j_2"
-    },
-    {
-        "itemname": "Dia",
-        "itemurl": "https://de.wikipedia.org/wiki/Dia_(Mond)",
-        "itemname2": "dia"
-    },
-    {
-        "itemname": "S/2016 J 1",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2016_J_1",
-        "itemname2": "s2016_j_1"
-    },
-    {
-        "itemname": "S/2003 J 18",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2003_J_18",
-        "itemname2": "s2003_j_18"
-    },
-    {
-        "itemname": "S/2011 J 2",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2011_J_2",
-        "itemname2": "s2011_j_2"
-    },
-    {
-        "itemname": "S/2003 J 5",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2003_J_5",
-        "itemname2": "s2003_j_5"
-    },
-    {
-        "itemname": "S/2003 J 15",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2003_J_15",
-        "itemname2": "s2003_j_15"
-    },
-    {
-        "itemname": "S/2017 J 1",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2017_J_1",
-        "itemname2": "s2017_j_1"
-    },
-    {
-        "itemname": "S/2003 J 3",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2003_J_3",
-        "itemname2": "s2003_j_3"
-    },
-    {
-        "itemname": "S/2003 J 2",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2003_J_2",
-        "itemname2": "s2003_j_2"
-    },
-    {
-        "itemname": "S/2003 J 4",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2003_J_4",
-        "itemname2": "s2003_j_4"
-    },
-    {
-        "itemname": "S/2003 J 9",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2003_J_9",
-        "itemname2": "s2003_j_9"
-    },
-    {
-        "itemname": "S/2003 J 10",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2003_J_10",
-        "itemname2": "s2003_j_10"
-    },
-    {
-        "itemname": "S/2003 J 12",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2003_J_12",
-        "itemname2": "s2003_j_12"
-    },
-    {
-        "itemname": "S/2003 J 16",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2003_J_16",
-        "itemname2": "s2003_j_16"
-    },
-    {
-        "itemname": "S/2003 J 19",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2003_J_19",
-        "itemname2": "s2003_j_19"
-    },
-    {
-        "itemname": "S/2003 J 23",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2003_J_23",
-        "itemname2": "s2003_j_23"
-    },
-    {
-        "itemname": "S/2011 J 1",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2011_J_1",
-        "itemname2": "s2011_j_1"
+        "itemname": "Zentauren",
+        "itemurl": "https://de.wikipedia.org/wiki/Zentaur_(Asteroid)",
+        "itemname2": "centaurs1"
     },
     {
         "itemname": "Saturn",
         "itemurl": "https://de.wikipedia.org/wiki/Saturn_(Planet)",
         "itemname2": "saturn"
+    },
+    {
+        "itemname": "Saturn-Monde",
+        "itemurl": "https://de.wikipedia.org/wiki/Liste_der_Saturnmonde",
+        "itemname2": "saturnMoons"
     },
     {
         "itemname": "Mimas",
@@ -15664,49 +14229,9 @@
         "itemname2": "aegaeon"
     },
     {
-        "itemname": "S/2004 S 7",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2004_S_7",
-        "itemname2": "s2004_s_7"
-    },
-    {
-        "itemname": "S/2004 S 12",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2004_S_12",
-        "itemname2": "s2004_s_12"
-    },
-    {
-        "itemname": "S/2004 S 13",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2004_S_13",
-        "itemname2": "s2004_s_13"
-    },
-    {
-        "itemname": "S/2004 S 17",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2004_S_17",
-        "itemname2": "s2004_s_17"
-    },
-    {
-        "itemname": "S/2006 S 1",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2006_S_1",
-        "itemname2": "s2006_s_1"
-    },
-    {
-        "itemname": "S/2006 S 3",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2006_S_3",
-        "itemname2": "s2006_s_3"
-    },
-    {
-        "itemname": "S/2007 S 2",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2007_S_2",
-        "itemname2": "s2007_s_2"
-    },
-    {
-        "itemname": "S/2007 S 3",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2007_S_3",
-        "itemname2": "s2007_s_3"
-    },
-    {
-        "itemname": "S/2009 S 1",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2009_S_1",
-        "itemname2": "s2009_s_1"
+        "itemname": "Zentauren",
+        "itemurl": "https://de.wikipedia.org/wiki/Zentaur_(Asteroid)",
+        "itemname2": "centaurs2"
     },
     {
         "itemname": "Uranus",
@@ -15714,14 +14239,9 @@
         "itemname2": "uranus"
     },
     {
-        "itemname": "Uranus-Trojaner",
-        "itemurl": "https://de.wikipedia.org/wiki/Trojaner_(Astronomie)",
-        "itemname2": "jupiterTrojans"
-    },
-    {
-        "itemname": "2011 QF99",
-        "itemurl": "https://de.wikipedia.org/wiki/2011_QF99",
-        "itemname2": "2011_qf99"
+        "itemname": "Uranus-Monde",
+        "itemurl": "https://de.wikipedia.org/wiki/Liste_der_Uranusmonde",
+        "itemname2": "uranusMoons"
     },
     {
         "itemname": "Ariel",
@@ -15859,64 +14379,19 @@
         "itemname2": "cupid"
     },
     {
+        "itemname": "Zentauren",
+        "itemurl": "https://de.wikipedia.org/wiki/Zentaur_(Asteroid)",
+        "itemname2": "centaurs3"
+    },
+    {
         "itemname": "Neptun",
         "itemurl": "https://de.wikipedia.org/wiki/Neptun_(Planet)",
-        "itemname2": "neptune"
+        "itemname2": "neptun"
     },
     {
-        "itemname": "Neptun-Trojaner",
-        "itemurl": "https://de.wikipedia.org/wiki/Trojaner_(Astronomie)",
-        "itemname2": "neptuneTrojans"
-    },
-    {
-        "itemname": "Lagrange-Punkt L4",
-        "itemurl": "https://de.wikipedia.org/wiki/Lagrange-Punkte",
-        "itemname2": "lagrangePoint4"
-    },
-    {
-        "itemname": "2001 QR322",
-        "itemurl": "https://de.wikipedia.org/wiki/2001_QR322",
-        "itemname2": "2001_qr322"
-    },
-    {
-        "itemname": "(385571) Otrera",
-        "itemurl": "https://de.wikipedia.org/wiki/(385571)_Otrera",
-        "itemname2": "385571_otrera"
-    },
-    {
-        "itemname": "2005 TN53",
-        "itemurl": "https://de.wikipedia.org/wiki/2005_TN53",
-        "itemname2": "2005_tn53"
-    },
-    {
-        "itemname": "(385695) 2005 TO74",
-        "itemurl": "https://de.wikipedia.org/wiki/(385695)_2005_TO74",
-        "itemname2": "385695_2005_to74"
-    },
-    {
-        "itemname": "2006 RJ103",
-        "itemurl": "https://de.wikipedia.org/wiki/2006_RJ103",
-        "itemname2": "2006_rj103"
-    },
-    {
-        "itemname": "2007 VL305",
-        "itemurl": "https://de.wikipedia.org/wiki/2007_VL305",
-        "itemname2": "2007_vl305"
-    },
-    {
-        "itemname": "Lagrange-Punkt L5",
-        "itemurl": "https://de.wikipedia.org/wiki/Lagrange-Punkte",
-        "itemname2": "lagrangePoint5"
-    },
-    {
-        "itemname": "2008 LC18",
-        "itemurl": "https://de.wikipedia.org/wiki/2008_LC18",
-        "itemname2": "2008_lc18"
-    },
-    {
-        "itemname": "2011 HM102",
-        "itemurl": "https://de.wikipedia.org/wiki/2011_HM102",
-        "itemname2": "2011_hm102"
+        "itemname": "Neptun-Monde",
+        "itemurl": "https://de.wikipedia.org/wiki/Liste_der_Neptunmonde",
+        "itemname2": "neptuneMoons"
     },
     {
         "itemname": "Triton",
@@ -15984,17 +14459,12 @@
         "itemname2": "neso"
     },
     {
-        "itemname": "S/2004 N 1",
-        "itemurl": "https://de.wikipedia.org/wiki/S/2004_N_1",
-        "itemname2": "s2004_n_1"
+        "itemname": "Neptun-Trojaner",
+        "itemurl": "https://de.wikipedia.org/wiki/Trojaner_(Astronomie)",
+        "itemname2": "neptuneTrojans"
     },
     {
-        "itemname": "Zentauren",
-        "itemurl": "https://de.wikipedia.org/wiki/Zentaur_(Asteroid)",
-        "itemname2": "centaurs"
-    },
-    {
-        "itemname": "Transneptunische Objekte (TNO)",
+        "itemname": "Transneptunische Objekte",
         "itemurl": "https://de.wikipedia.org/wiki/Transneptunische_Objekte",
         "itemname2": "transneptunianObjects"
     },
@@ -16004,21 +14474,8 @@
         "itemname2": "kuiperbelt"
     },
     {
-        "itemname": "Kuipergürtelobjekte (KBO)",
+        "itemname": "Kuipergürtelobjekte",
         "itemname2": "kuiperbeltObjects"
-    },
-    {
-        "itemname": "klassische KBO",
-        "itemname2": "classicalKBO"
-    },
-    {
-        "itemname": "resonante KBO",
-        "itemname2": "resonantKBO"
-    },
-    {
-        "itemname": "Plutinos",
-        "itemurl": "https://de.wikipedia.org/wiki/Plutino",
-        "itemname2": "plutinos"
     },
     {
         "itemname": "Pluto",
@@ -16031,9 +14488,9 @@
         "itemname2": "charon"
     },
     {
-        "itemname": "Hydra",
-        "itemurl": "https://de.wikipedia.org/wiki/Hydra_(Mond)",
-        "itemname2": "hydra"
+        "itemname": "Styx",
+        "itemurl": "https://de.wikipedia.org/wiki/Styx_(Mond)",
+        "itemname2": "styx"
     },
     {
         "itemname": "Nix",
@@ -16046,9 +14503,9 @@
         "itemname2": "kerberos"
     },
     {
-        "itemname": "Styx",
-        "itemurl": "https://de.wikipedia.org/wiki/Styx_(Mond)",
-        "itemname2": "styx"
+        "itemname": "Hydra",
+        "itemurl": "https://de.wikipedia.org/wiki/Hydra_(Mond)",
+        "itemname2": "hydra"
     },
     {
         "itemname": "Orcus",
@@ -16066,21 +14523,13 @@
         "itemname2": "huya"
     },
     {
-        "itemname": "Twotinos",
-        "itemname2": "twotinos"
-    },
-    {
-        "itemname": "gestreute KBO",
-        "itemname2": "scatteredKBO"
-    },
-    {
         "itemname": "Sednoiden",
         "itemname2": "sednoidGroup"
     },
     {
-        "itemname": "SednaX",
+        "itemname": "Sedna",
         "itemurl": "https://de.wikipedia.org/wiki/(90377)_Sedna",
-        "itemname2": "sednax"
+        "itemname2": "sedna"
     },
     {
         "itemname": "Kometen",
@@ -16102,1207 +14551,1494 @@
         "itemname2": "2pencke"
     },
     {
-        "itemname": "3D/Biela",
-        "itemurl": "https://de.wikipedia.org/wiki/Biela_(Komet)",
-        "itemname2": "3dbiela"
-    },
-    {
-        "itemname": "4P/Faye",
-        "itemurl": "https://de.wikipedia.org/wiki/4P/Faye",
-        "itemname2": "4pfaye"
-    },
-    {
         "itemname": "Oortsche Wolke",
         "itemurl": "https://de.wikipedia.org/wiki/Oortsche_Wolke",
         "itemname2": "oortCloud"
     },
     {
         "itemname": "Woschod 2 EVA",
-        "itemurl": "https://de.wikipedia.org/wiki/Woschod_2"
+        "itemurl": "https://de.wikipedia.org/wiki/Woschod_2",
+        "itemname2": "Woschod 2"
     },
     {
         "itemname": "Gemini 4 EVA",
-        "itemurl": "https://de.wikipedia.org/wiki/Gemini_4"
+        "itemurl": "https://de.wikipedia.org/wiki/Gemini_4",
+        "itemname2": "Gemini 4"
     },
     {
         "itemname": "Gemini 9 EVA",
-        "itemurl": "https://de.wikipedia.org/wiki/Gemini_9"
+        "itemurl": "https://de.wikipedia.org/wiki/Gemini_9",
+        "itemname2": "Gemini 9"
     },
     {
-        "itemname": "Gemini 10 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Gemini_10"
+        "itemname": "Gemini 10 EVA 1 (SEVA)",
+        "itemurl": "https://de.wikipedia.org/wiki/Gemini_10",
+        "itemname2": "Gemini 10"
     },
     {
         "itemname": "Gemini 10 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Gemini_10"
+        "itemurl": "https://de.wikipedia.org/wiki/Gemini_10",
+        "itemname2": "Gemini 10"
     },
     {
         "itemname": "Gemini 11 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Gemini_11"
+        "itemurl": "https://de.wikipedia.org/wiki/Gemini_11",
+        "itemname2": "Gemini 11"
     },
     {
         "itemname": "Gemini 11 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Gemini_11"
+        "itemurl": "https://de.wikipedia.org/wiki/Gemini_11",
+        "itemname2": "Gemini 11"
     },
     {
-        "itemname": "Gemini 12 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Gemini_12"
+        "itemname": "Gemini 12 EVA 1 (SEVA)",
+        "itemurl": "https://de.wikipedia.org/wiki/Gemini_12",
+        "itemname2": "Gemini 12"
     },
     {
         "itemname": "Gemini 12 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Gemini_12"
+        "itemurl": "https://de.wikipedia.org/wiki/Gemini_12",
+        "itemname2": "Gemini 12"
     },
     {
-        "itemname": "Gemini 12 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/Gemini_12"
+        "itemname": "Gemini 12 EVA 3 (SEVA)",
+        "itemurl": "https://de.wikipedia.org/wiki/Gemini_12",
+        "itemname2": "Gemini 12"
     },
     {
         "itemname": "Sojus 4 - Sojus 5 - Umstieg",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_5"
+        "itemurl": "https://de.wikipedia.org/wiki/Sojus_5",
+        "itemname2": "Sojus 4"
     },
     {
-        "itemname": "Apollo 9 EVA",
-        "itemurl": "https://de.wikipedia.org/wiki/Apollo_9"
+        "itemname": "Apollo 9 SEVA",
+        "itemurl": "https://de.wikipedia.org/wiki/Apollo_9",
+        "itemname2": "Apollo 9"
     },
     {
         "itemname": "Apollo 11 - Mondausflug",
-        "itemurl": "https://de.wikipedia.org/wiki/Apollo_9"
+        "itemurl": "https://de.wikipedia.org/wiki/Apollo_9",
+        "itemname2": "Apollo 11"
     },
     {
         "itemname": "Apollo 12 - 1. Mondausflug",
-        "itemurl": "https://de.wikipedia.org/wiki/Apollo_12"
+        "itemurl": "https://de.wikipedia.org/wiki/Apollo_12",
+        "itemname2": "Apollo 12"
     },
     {
         "itemname": "Apollo 12 - 2. Mondausflug",
-        "itemurl": "https://de.wikipedia.org/wiki/Apollo_12"
+        "itemurl": "https://de.wikipedia.org/wiki/Apollo_12",
+        "itemname2": "Apollo 12"
     },
     {
         "itemname": "Apollo 14 - 1. Mondausflug",
-        "itemurl": "https://de.wikipedia.org/wiki/Apollo_14"
+        "itemurl": "https://de.wikipedia.org/wiki/Apollo_14",
+        "itemname2": "Apollo 14"
     },
     {
         "itemname": "Apollo 14 - 2. Mondausflug",
-        "itemurl": "https://de.wikipedia.org/wiki/Apollo_14"
+        "itemurl": "https://de.wikipedia.org/wiki/Apollo_14",
+        "itemname2": "Apollo 14"
     },
     {
-        "itemname": "Apollo 15 EVA",
-        "itemurl": "https://de.wikipedia.org/wiki/Apollo_15"
+        "itemname": "Apollo 15 SEVA",
+        "itemurl": "https://de.wikipedia.org/wiki/Apollo_15",
+        "itemname2": "Apollo 15"
     },
     {
         "itemname": "Apollo 15 - 1. Mondausflug",
-        "itemurl": "https://de.wikipedia.org/wiki/Apollo_15"
+        "itemurl": "https://de.wikipedia.org/wiki/Apollo_15",
+        "itemname2": "Apollo 15"
     },
     {
         "itemname": "Apollo 15 - 2. Mondausflug",
-        "itemurl": "https://de.wikipedia.org/wiki/Apollo_15"
+        "itemurl": "https://de.wikipedia.org/wiki/Apollo_15",
+        "itemname2": "Apollo 15"
     },
     {
         "itemname": "Apollo 15 - 3. Mondausflug",
-        "itemurl": "https://de.wikipedia.org/wiki/Apollo_15"
+        "itemurl": "https://de.wikipedia.org/wiki/Apollo_15",
+        "itemname2": "Apollo 15"
     },
     {
-        "itemname": "Apollo 15 - Rückflug EVA",
-        "itemurl": "https://de.wikipedia.org/wiki/Apollo_15"
+        "itemname": "Apollo 15 - Rückflug SEVA",
+        "itemurl": "https://de.wikipedia.org/wiki/Apollo_15",
+        "itemname2": "Apollo 15"
     },
     {
         "itemname": "Apollo 16 - 1. Mondausflug",
-        "itemurl": "https://de.wikipedia.org/wiki/Apollo_16"
+        "itemurl": "https://de.wikipedia.org/wiki/Apollo_16",
+        "itemname2": "Apollo 16"
     },
     {
         "itemname": "Apollo 16 - 2. Mondausflug",
-        "itemurl": "https://de.wikipedia.org/wiki/Apollo_16"
+        "itemurl": "https://de.wikipedia.org/wiki/Apollo_16",
+        "itemname2": "Apollo 16"
     },
     {
         "itemname": "Apollo 16 - 3. Mondausflug",
-        "itemurl": "https://de.wikipedia.org/wiki/Apollo_16"
+        "itemurl": "https://de.wikipedia.org/wiki/Apollo_16",
+        "itemname2": "Apollo 16"
     },
     {
-        "itemname": "Apollo 16 - Rückflug EVA",
-        "itemurl": "https://de.wikipedia.org/wiki/Apollo_16"
+        "itemname": "Apollo 16 - Rückflug SEVA",
+        "itemurl": "https://de.wikipedia.org/wiki/Apollo_16",
+        "itemname2": "Apollo 16"
     },
     {
         "itemname": "Apollo 17 - 1. Mondausflug",
-        "itemurl": "https://de.wikipedia.org/wiki/Apollo_17"
+        "itemurl": "https://de.wikipedia.org/wiki/Apollo_17",
+        "itemname2": "Apollo 17"
     },
     {
         "itemname": "Apollo 17 - 2. Mondausflug",
-        "itemurl": "https://de.wikipedia.org/wiki/Apollo_17"
+        "itemurl": "https://de.wikipedia.org/wiki/Apollo_17",
+        "itemname2": "Apollo 17"
     },
     {
         "itemname": "Apollo 17 - 3. Mondausflug",
-        "itemurl": "https://de.wikipedia.org/wiki/Apollo_17"
+        "itemurl": "https://de.wikipedia.org/wiki/Apollo_17",
+        "itemname2": "Apollo 17"
     },
     {
-        "itemname": "Apollo 17 - Rückflug EVA",
-        "itemurl": "https://de.wikipedia.org/wiki/Apollo_17"
+        "itemname": "Apollo 17 - Rückflug SEVA",
+        "itemurl": "https://de.wikipedia.org/wiki/Apollo_17",
+        "itemname2": "Apollo 17"
     },
     {
-        "itemname": "Skylab 2 CM EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Skylab_2"
+        "itemname": "Skylab 2 CM EVA 1 (SEVA)",
+        "itemurl": "https://de.wikipedia.org/wiki/Skylab_2",
+        "itemname2": "Skylab 2 CM"
     },
     {
         "itemname": "Skylab 2 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Skylab_2"
+        "itemurl": "https://de.wikipedia.org/wiki/Skylab_2",
+        "itemname2": "Skylab 2"
     },
     {
         "itemname": "Skylab 2 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/Skylab_2"
+        "itemurl": "https://de.wikipedia.org/wiki/Skylab_2",
+        "itemname2": "Skylab 2"
     },
     {
         "itemname": "Skylab 3 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Skylab_3"
+        "itemurl": "https://de.wikipedia.org/wiki/Skylab_3",
+        "itemname2": "Skylab 3"
     },
     {
         "itemname": "Skylab 3 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Skylab_3"
+        "itemurl": "https://de.wikipedia.org/wiki/Skylab_3",
+        "itemname2": "Skylab 3"
     },
     {
         "itemname": "Skylab 3 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/Skylab_3"
+        "itemurl": "https://de.wikipedia.org/wiki/Skylab_3",
+        "itemname2": "Skylab 3"
     },
     {
         "itemname": "Skylab 4 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Skylab_4"
+        "itemurl": "https://de.wikipedia.org/wiki/Skylab_4",
+        "itemname2": "Skylab 4"
     },
     {
         "itemname": "Skylab 4 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Skylab_4"
+        "itemurl": "https://de.wikipedia.org/wiki/Skylab_4",
+        "itemname2": "Skylab 4"
     },
     {
         "itemname": "Skylab 4 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/Skylab_4"
+        "itemurl": "https://de.wikipedia.org/wiki/Skylab_4",
+        "itemname2": "Skylab 4"
     },
     {
         "itemname": "Skylab 4 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/Skylab_4"
+        "itemurl": "https://de.wikipedia.org/wiki/Skylab_4",
+        "itemname2": "Skylab 4"
     },
     {
-        "itemname": "Saljut 6 EO-1 EVA",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_26"
+        "itemname": "Saljut 6 EO-1 SEVA",
+        "itemurl": "https://de.wikipedia.org/wiki/Saljut_6",
+        "itemname2": "Sojus 26"
     },
     {
-        "itemname": "Saljut 6 EO-2 EVA",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_29"
+        "itemname": "Saljut 6 EO-2 SEVA",
+        "itemurl": "https://de.wikipedia.org/wiki/Saljut_6",
+        "itemname2": "Sojus 29"
     },
     {
         "itemname": "Saljut 6 EO-3 EVA",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_34"
+        "itemurl": "https://de.wikipedia.org/wiki/Saljut_6",
+        "itemname2": "Sojus 34"
     },
     {
-        "itemname": "Saljut 7 EO-1 EVA",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_T-5"
+        "itemname": "Saljut 7 EO-1 SEVA",
+        "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
+        "itemname2": "Sojus T-5"
     },
     {
         "itemname": "STS-6 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-6"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-6",
+        "itemname2": "STS-6"
     },
     {
         "itemname": "Saljut 7 EO-2 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_T-9"
+        "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
+        "itemname2": "Sojus T-9"
     },
     {
         "itemname": "Saljut 7 EO-2 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_T-9"
+        "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
+        "itemname2": "Sojus T-9"
     },
     {
         "itemname": "STS-41-B EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-41-B"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-41-B",
+        "itemname2": "STS-41-B"
     },
     {
         "itemname": "STS-41-B EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-41-B"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-41-B",
+        "itemname2": "STS-41-B"
     },
     {
         "itemname": "STS-41-C EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-41-C"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-41-C",
+        "itemname2": "STS-41-C"
     },
     {
         "itemname": "STS-41-C EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-41-C"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-41-C",
+        "itemname2": "STS-41-C"
     },
     {
         "itemname": "Saljut 7 EO-3 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_T-11"
+        "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
+        "itemname2": "Sojus T-11"
     },
     {
         "itemname": "Saljut 7 EO-3 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_T-11"
+        "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
+        "itemname2": "Sojus T-11"
     },
     {
         "itemname": "Saljut 7 EO-3 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_T-11"
+        "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
+        "itemname2": "Sojus T-11"
     },
     {
         "itemname": "Saljut 7 EO-3 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_T-11"
+        "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
+        "itemname2": "Sojus T-11"
     },
     {
         "itemname": "Saljut 7 EO-3 EVA 5",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_T-11"
+        "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
+        "itemname2": "Sojus T-11"
     },
     {
         "itemname": "Saljut 7 - VE-4 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_T-12"
+        "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
+        "itemname2": "Sojus T-12"
     },
     {
         "itemname": "Saljut 7 EO-3 EVA 6",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_T-11"
+        "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
+        "itemname2": "Sojus T-11"
     },
     {
         "itemname": "STS-41-G EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-41-G"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-41-G",
+        "itemname2": "STS-41-G"
     },
     {
         "itemname": "STS-51-A EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-51-A"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-51-A",
+        "itemname2": "STS-51-A"
     },
     {
         "itemname": "STS-51-A EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-51-A"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-51-A",
+        "itemname2": "STS-51-A"
     },
     {
         "itemname": "STS-51-D EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-51-D"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-51-D",
+        "itemname2": "STS-51-D"
     },
     {
         "itemname": "Saljut 7 EO-4 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_T-13"
+        "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
+        "itemname2": "Sojus T-13"
     },
     {
         "itemname": "STS-51-I EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-51-I"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-51-I",
+        "itemname2": "STS-51-I"
     },
     {
         "itemname": "STS-51-I EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-51-I"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-51-I",
+        "itemname2": "STS-51-I"
     },
     {
         "itemname": "STS-61-B EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-61-B"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-61-B",
+        "itemname2": "STS-61-B"
     },
     {
         "itemname": "STS-61-B EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-61-B"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-61-B",
+        "itemname2": "STS-61-B"
     },
     {
         "itemname": "Saljut 7 EO-6 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_T-15"
+        "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
+        "itemname2": "Sojus T-15"
     },
     {
         "itemname": "Saljut 7 EO-6 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_T-15"
+        "itemurl": "https://de.wikipedia.org/wiki/Saljut_7",
+        "itemname2": "Sojus T-15"
     },
     {
         "itemname": "Mir EO-2 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-2"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-2"
     },
     {
         "itemname": "Mir EO-2 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-2"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-2"
     },
     {
         "itemname": "Mir EO-2 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-2"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-2"
     },
     {
         "itemname": "Mir EO-3 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-4"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-4"
     },
     {
         "itemname": "Mir EO-3 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-4"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-4"
     },
     {
         "itemname": "Mir EO-3 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-4"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-4"
     },
     {
         "itemname": "Mir EO-4 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-7"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-7"
     },
     {
         "itemname": "Mir EO-5 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-8"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-8"
     },
     {
         "itemname": "Mir EO-5 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-8"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-8"
     },
     {
         "itemname": "Mir EO-5 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-8"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-8"
     },
     {
         "itemname": "Mir EO-5 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-8"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-8"
     },
     {
         "itemname": "Mir EO-5 EVA 5",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-8"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-8"
     },
     {
         "itemname": "Mir EO-6 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-9"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-9"
     },
     {
         "itemname": "Mir EO-6 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-9"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-9"
     },
     {
         "itemname": "Mir EO-7 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-10"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-10"
     },
     {
         "itemname": "Mir EO-8 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-11"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-11"
     },
     {
         "itemname": "Mir EO-8 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-11"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-11"
     },
     {
         "itemname": "Mir EO-8 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-11"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-11"
     },
     {
         "itemname": "STS-37 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-37"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-37",
+        "itemname2": "STS-37"
     },
     {
         "itemname": "STS-37 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-37"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-37",
+        "itemname2": "STS-37"
     },
     {
         "itemname": "Mir EO-8 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-11"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-11"
     },
     {
         "itemname": "Mir EO-9 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-12"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-12"
     },
     {
         "itemname": "Mir EO-9 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-12"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-12"
     },
     {
         "itemname": "Mir EO-9 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-12"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-12"
     },
     {
         "itemname": "Mir EO-9 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-12"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-12"
     },
     {
         "itemname": "Mir EO-9 EVA 5",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-12"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-12"
     },
     {
         "itemname": "Mir EO-9 EVA 6",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-12"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-12"
     },
     {
         "itemname": "Mir EO-10 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-13"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-13"
     },
     {
         "itemname": "STS-49 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-49"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-49",
+        "itemname2": "STS-49"
     },
     {
         "itemname": "STS-49 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-49"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-49",
+        "itemname2": "STS-49"
     },
     {
         "itemname": "STS-49 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-49"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-49",
+        "itemname2": "STS-49"
     },
     {
         "itemname": "STS-49 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-49"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-49",
+        "itemname2": "STS-49"
     },
     {
         "itemname": "Mir EO-11 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-14"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-14"
     },
     {
         "itemname": "Mir EO-12 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-15"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-15"
     },
     {
         "itemname": "Mir EO-12 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-15"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-15"
     },
     {
         "itemname": "Mir EO-12 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-15"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-15"
     },
     {
         "itemname": "Mir EO-12 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-15"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-15"
     },
     {
         "itemname": "STS-54 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-54"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-54",
+        "itemname2": "STS-54"
     },
     {
         "itemname": "Mir EO-13 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-16"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-16"
     },
     {
         "itemname": "Mir EO-13 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-16"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-16"
     },
     {
         "itemname": "STS-57 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-57"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-57",
+        "itemname2": "STS-57"
     },
     {
         "itemname": "Mir EO-14 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-17"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-17"
     },
     {
         "itemname": "STS-51 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-51"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-51",
+        "itemname2": "STS-51"
     },
     {
         "itemname": "Mir EO-14 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-17"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-17"
     },
     {
         "itemname": "Mir EO-14 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-17"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-17"
     },
     {
         "itemname": "Mir EO-14 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-17"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-17"
     },
     {
         "itemname": "Mir EO-14 EVA 5",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-17"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-17"
     },
     {
         "itemname": "STS-61 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-61"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-61",
+        "itemname2": "STS-61"
     },
     {
         "itemname": "STS-61 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-61"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-61",
+        "itemname2": "STS-61"
     },
     {
         "itemname": "STS-61 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-61"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-61",
+        "itemname2": "STS-61"
     },
     {
         "itemname": "STS-61 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-61"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-61",
+        "itemname2": "STS-61"
     },
     {
         "itemname": "STS-61 EVA 5",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-61"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-61",
+        "itemname2": "STS-61"
     },
     {
         "itemname": "Mir EO-16 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-19"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-19"
     },
     {
         "itemname": "Mir EO-16 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-19"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-19"
     },
     {
         "itemname": "STS-64 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-64"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-64",
+        "itemname2": "STS-64"
     },
     {
         "itemname": "STS-63 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-63"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-63",
+        "itemname2": "STS-63"
     },
     {
         "itemname": "Mir EO-18 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-21"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-21"
     },
     {
         "itemname": "Mir EO-18 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-21"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-21"
     },
     {
         "itemname": "Mir EO-18 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-21"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-21"
     },
     {
         "itemname": "Mir EO-18 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-21"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-21"
     },
     {
         "itemname": "Mir EO-18 EVA 5",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-21"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-21"
     },
     {
         "itemname": "Mir EO-19 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-71"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "STS-71"
     },
     {
         "itemname": "Mir EO-19 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-71"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "STS-71"
     },
     {
         "itemname": "Mir EO-19 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-71"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "STS-71"
     },
     {
         "itemname": "STS-69 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-69"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-69",
+        "itemname2": "STS-69"
     },
     {
         "itemname": "Mir EO-20 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-22"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-22"
     },
     {
         "itemname": "Mir EO-20 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-22"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-22"
     },
     {
         "itemname": "STS-72 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-72"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-72",
+        "itemname2": "STS-72"
     },
     {
         "itemname": "STS-72 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-72"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-72",
+        "itemname2": "STS-72"
     },
     {
         "itemname": "Mir EO-20 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-22"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-22"
     },
     {
         "itemname": "Mir EO-21 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-23"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-23"
     },
     {
         "itemname": "STS-76/Mir EO-21 EVA",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-76"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "STS-76"
     },
     {
         "itemname": "Mir EO-21 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-23"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-23"
     },
     {
         "itemname": "Mir EO-21 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-23"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-23"
     },
     {
         "itemname": "Mir EO-21 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-23"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-23"
     },
     {
         "itemname": "Mir EO-21 EVA 5",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-23"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-23"
     },
     {
         "itemname": "Mir EO-21 EVA 6",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-23"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-23"
     },
     {
         "itemname": "Mir EO-22 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-24"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-24"
     },
     {
         "itemname": "Mir EO-22 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-24"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-24"
     },
     {
         "itemname": "STS-82 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-82"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-82",
+        "itemname2": "STS-82"
     },
     {
         "itemname": "STS-82 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-82"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-82",
+        "itemname2": "STS-82"
     },
     {
         "itemname": "STS-82 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-82"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-82",
+        "itemname2": "STS-82"
     },
     {
         "itemname": "STS-82 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-82"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-82",
+        "itemname2": "STS-82"
     },
     {
         "itemname": "STS-82 EVA 5",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-82"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-82",
+        "itemname2": "STS-82"
     },
     {
         "itemname": "Mir EO-23 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-25"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-25"
     },
     {
         "itemname": "Mir EO-24 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-26"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-26"
     },
     {
         "itemname": "Mir EO-24 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-26"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-26"
     },
     {
         "itemname": "STS-86 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-86"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-86",
+        "itemname2": "STS-86"
     },
     {
         "itemname": "Mir EO-24 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-26"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-26"
     },
     {
         "itemname": "Mir EO-24 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-26"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-26"
     },
     {
         "itemname": "Mir EO-24 EVA 5",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-26"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-26"
     },
     {
         "itemname": "STS-87 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-87"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-87",
+        "itemname2": "STS-87"
     },
     {
         "itemname": "STS-87 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-87"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-87",
+        "itemname2": "STS-87"
     },
     {
         "itemname": "Mir EO-24 EVA 6",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-26"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-26"
     },
     {
         "itemname": "Mir EO-24 EVA 7",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-26"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-26"
     },
     {
         "itemname": "Mir EO-25 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-27"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-27"
     },
     {
         "itemname": "Mir EO-25 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-27"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-27"
     },
     {
         "itemname": "Mir EO-25 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-27"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-27"
     },
     {
         "itemname": "Mir EO-25 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-27"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-27"
     },
     {
         "itemname": "Mir EO-25 EVA 5",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-27"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-27"
     },
     {
         "itemname": "Mir EO-26 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-28"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-28"
     },
     {
         "itemname": "Mir EO-26 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-28"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-28"
     },
     {
         "itemname": "STS-88 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-88"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-88",
+        "itemname2": "STS-88"
     },
     {
         "itemname": "STS-88 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-88"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-88",
+        "itemname2": "STS-88"
     },
     {
         "itemname": "STS-88 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-88"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-88",
+        "itemname2": "STS-88"
     },
     {
         "itemname": "Mir EO-27 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-29"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-29"
     },
     {
         "itemname": "STS-96 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-96"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-96",
+        "itemname2": "STS-96"
     },
     {
         "itemname": "Mir EO-27 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-29"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-28"
     },
     {
         "itemname": "Mir EO-27 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-29"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-28"
     },
     {
         "itemname": "STS-103 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-103"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-103",
+        "itemname2": "STS-103"
     },
     {
         "itemname": "STS-103 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-103"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-103",
+        "itemname2": "STS-103"
     },
     {
         "itemname": "STS-103 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-103"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-103",
+        "itemname2": "STS-103"
     },
     {
         "itemname": "Mir EO-28 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/Sojus_TM-30"
+        "itemurl": "https://de.wikipedia.org/wiki/Mir_(Raumstation)",
+        "itemname2": "Sojus TM-30"
     },
     {
         "itemname": "STS-101 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-101"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-101",
+        "itemname2": "STS-101"
     },
     {
         "itemname": "STS-106 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-106"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-106",
+        "itemname2": "STS-106"
     },
     {
         "itemname": "STS-92 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-92"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-92",
+        "itemname2": "STS-92"
     },
     {
         "itemname": "STS-92 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-92"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-92",
+        "itemname2": "STS-92"
     },
     {
         "itemname": "STS-92 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-92"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-92",
+        "itemname2": "STS-92"
     },
     {
         "itemname": "STS-92 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-92"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-92",
+        "itemname2": "STS-92"
     },
     {
         "itemname": "STS-97 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-97"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-97",
+        "itemname2": "STS-97"
     },
     {
         "itemname": "STS-97 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-97"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-97",
+        "itemname2": "STS-97"
     },
     {
         "itemname": "STS-97 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-97"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-97",
+        "itemname2": "STS-97"
     },
     {
         "itemname": "STS-98 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-98"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-98",
+        "itemname2": "STS-98"
     },
     {
         "itemname": "STS-98 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-98"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-98",
+        "itemname2": "STS-98"
     },
     {
         "itemname": "STS-98 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-98"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-98",
+        "itemname2": "STS-98"
     },
     {
         "itemname": "STS-102 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-102"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-102",
+        "itemname2": "STS-102"
     },
     {
         "itemname": "STS-102 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-102"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-102",
+        "itemname2": "STS-102"
     },
     {
         "itemname": "STS-100 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-100"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-100",
+        "itemname2": "STS-100"
     },
     {
         "itemname": "STS-100 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-100"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-100",
+        "itemname2": "STS-100"
     },
     {
         "itemname": "ISS-Expedition 2 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_2"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_2",
+        "itemname2": "STS-102"
     },
     {
         "itemname": "STS-104 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-104"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-104",
+        "itemname2": "STS-104"
     },
     {
         "itemname": "STS-104 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-104"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-104",
+        "itemname2": "STS-104"
     },
     {
         "itemname": "STS-104 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-104"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-104",
+        "itemname2": "STS-104"
     },
     {
         "itemname": "STS-105 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-105"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-105",
+        "itemname2": "STS-105"
     },
     {
         "itemname": "STS-105 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-105"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-105",
+        "itemname2": "STS-105"
     },
     {
         "itemname": "ISS-Expedition 3 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_3"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_3",
+        "itemname2": "STS-105"
     },
     {
         "itemname": "ISS-Expedition 3 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_3"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_3",
+        "itemname2": "STS-105"
     },
     {
         "itemname": "ISS-Expedition 3 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_3"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_3",
+        "itemname2": "STS-105"
     },
     {
         "itemname": "ISS-Expedition 3 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_3"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_3",
+        "itemname2": "STS-105"
     },
     {
         "itemname": "STS-108 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-108"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-108",
+        "itemname2": "STS-108"
     },
     {
         "itemname": "ISS-Expedition 4 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_4"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_4",
+        "itemname2": "STS-108"
     },
     {
         "itemname": "ISS-Expedition 4 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_4"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_4",
+        "itemname2": "STS-108"
     },
     {
         "itemname": "ISS-Expedition 4 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_4"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_4",
+        "itemname2": "STS-108"
     },
     {
         "itemname": "STS-109 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-109"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-109",
+        "itemname2": "STS-109"
     },
     {
         "itemname": "STS-109 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-109"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-109",
+        "itemname2": "STS-109"
     },
     {
         "itemname": "STS-109 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-109"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-109",
+        "itemname2": "STS-109"
     },
     {
         "itemname": "STS-109 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-109"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-109",
+        "itemname2": "STS-109"
     },
     {
         "itemname": "STS-109 EVA 5",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-109"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-109",
+        "itemname2": "STS-109"
     },
     {
         "itemname": "STS-110 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-110"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-110",
+        "itemname2": "STS-110"
     },
     {
         "itemname": "STS-110 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-110"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-110",
+        "itemname2": "STS-110"
     },
     {
         "itemname": "STS-110 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-110"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-110",
+        "itemname2": "STS-110"
     },
     {
         "itemname": "STS-110 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-110"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-110",
+        "itemname2": "STS-110"
     },
     {
         "itemname": "STS-111 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-111"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-111",
+        "itemname2": "STS-111"
     },
     {
         "itemname": "STS-111 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-111"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-111",
+        "itemname2": "STS-111"
     },
     {
         "itemname": "STS-111 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-111"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-111",
+        "itemname2": "STS-111"
     },
     {
         "itemname": "ISS-Expedition 5 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_5"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_5",
+        "itemname2": "STS-111"
     },
     {
         "itemname": "ISS-Expedition 5 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_5"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_5",
+        "itemname2": "STS-111"
     },
     {
         "itemname": "STS-112 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-112"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-112",
+        "itemname2": "STS-112"
     },
     {
         "itemname": "STS-112 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-112"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-112",
+        "itemname2": "STS-112"
     },
     {
         "itemname": "STS-112 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-112"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-112",
+        "itemname2": "STS-112"
     },
     {
         "itemname": "STS-113 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-113"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-113",
+        "itemname2": "STS-113"
     },
     {
         "itemname": "STS-113 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-113"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-113",
+        "itemname2": "STS-113"
     },
     {
         "itemname": "STS-113 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-113"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-113",
+        "itemname2": "STS-113"
     },
     {
         "itemname": "ISS-Expedition 6 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_6"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_6",
+        "itemname2": "STS-113"
     },
     {
         "itemname": "ISS-Expedition 6 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_6"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_6",
+        "itemname2": "STS-113"
     },
     {
         "itemname": "ISS-Expedition 8 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_8"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_8",
+        "itemname2": "Sojus TMA-3"
     },
     {
         "itemname": "ISS-Expedition 9 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_9"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_9",
+        "itemname2": "Sojus TMA-4"
     },
     {
         "itemname": "ISS-Expedition 9 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_9"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_9",
+        "itemname2": "Sojus TMA-4"
     },
     {
         "itemname": "ISS-Expedition 9 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_9"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_9",
+        "itemname2": "Sojus TMA-4"
     },
     {
         "itemname": "ISS-Expedition 9 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_9"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_9",
+        "itemname2": "Sojus TMA-4"
     },
     {
         "itemname": "ISS-Expedition 10 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_10"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_10",
+        "itemname2": "Sojus TMA-5"
     },
     {
         "itemname": "ISS-Expedition 10 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_10"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_10",
+        "itemname2": "Sojus TMA-5"
     },
     {
         "itemname": "STS-114 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-114"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-114",
+        "itemname2": "STS-114"
     },
     {
         "itemname": "STS-114 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-114"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-114",
+        "itemname2": "STS-114"
     },
     {
         "itemname": "STS-114 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-114"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-114",
+        "itemname2": "STS-114"
     },
     {
         "itemname": "ISS-Expedition 11 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_11"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_11",
+        "itemname2": "Sojus TMA-6"
     },
     {
         "itemname": "ISS-Expedition 12 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_12"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_12",
+        "itemname2": "Sojus TMA-7"
     },
     {
         "itemname": "ISS-Expedition 12 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_12"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_12",
+        "itemname2": "Sojus TMA-7"
     },
     {
         "itemname": "ISS-Expedition 13 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_13"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_13",
+        "itemname2": "Sojus TMA-8"
     },
     {
         "itemname": "STS-121 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-121"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-121",
+        "itemname2": "STS-121"
     },
     {
         "itemname": "STS-121 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-121"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-121",
+        "itemname2": "STS-121"
     },
     {
         "itemname": "STS-121 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-121"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-121",
+        "itemname2": "STS-121"
     },
     {
         "itemname": "ISS-Expedition 13 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_13"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_13",
+        "itemname2": "Sojus TMA-8"
     },
     {
         "itemname": "STS-115 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-115"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-115",
+        "itemname2": "STS-115"
     },
     {
         "itemname": "STS-115 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-115"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-115",
+        "itemname2": "STS-115"
     },
     {
         "itemname": "STS-115 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-115"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-115",
+        "itemname2": "STS-115"
     },
     {
         "itemname": "ISS-Expedition 14 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_14"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_14",
+        "itemname2": "Sojus TMA-9"
     },
     {
         "itemname": "STS-116 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-116"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-116",
+        "itemname2": "STS-116"
     },
     {
         "itemname": "STS-116 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-116"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-116",
+        "itemname2": "STS-116"
     },
     {
         "itemname": "STS-116 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-116"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-116",
+        "itemname2": "STS-116"
     },
     {
         "itemname": "STS-116 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-116"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-116",
+        "itemname2": "STS-116"
     },
     {
         "itemname": "ISS-Expedition 14 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_14"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_14",
+        "itemname2": "Sojus TMA-9"
     },
     {
         "itemname": "ISS-Expedition 14 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_14"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_14",
+        "itemname2": "Sojus TMA-9"
     },
     {
         "itemname": "ISS-Expedition 14 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_14"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_14",
+        "itemname2": "Sojus TMA-9"
     },
     {
         "itemname": "ISS-Expedition 14 EVA 5",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_14"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_14",
+        "itemname2": "Sojus TMA-9"
     },
     {
         "itemname": "ISS-Expedition 15 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_15"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_15",
+        "itemname2": "Sojus TMA-10"
     },
     {
         "itemname": "ISS-Expedition 15 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_15"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_15",
+        "itemname2": "Sojus TMA-10"
     },
     {
         "itemname": "STS-117 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-117"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-117",
+        "itemname2": "STS-117"
     },
     {
         "itemname": "STS-117 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-117"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-117",
+        "itemname2": "STS-117"
     },
     {
         "itemname": "STS-117 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-117"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-117",
+        "itemname2": "STS-117"
     },
     {
         "itemname": "STS-117 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-117"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-117",
+        "itemname2": "STS-117"
     },
     {
         "itemname": "ISS-Expedition 15 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_15"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_15",
+        "itemname2": "Sojus TMA-10"
     },
     {
         "itemname": "STS-118 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-118"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-118",
+        "itemname2": "STS-118"
     },
     {
         "itemname": "STS-118 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-118"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-118",
+        "itemname2": "STS-118"
     },
     {
         "itemname": "STS-118 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-118"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-118",
+        "itemname2": "STS-118"
     },
     {
         "itemname": "STS-118 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-118"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-118",
+        "itemname2": "STS-118"
     },
     {
         "itemname": "STS-120 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-120"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-120",
+        "itemname2": "STS-120"
     },
     {
         "itemname": "STS-120 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-120"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-120",
+        "itemname2": "STS-120"
     },
     {
         "itemname": "STS-120 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-120"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-120",
+        "itemname2": "STS-120"
     },
     {
         "itemname": "STS-120 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-120"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-120",
+        "itemname2": "STS-120"
     },
     {
         "itemname": "ISS-Expedition 16 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_16"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_16",
+        "itemname2": "Sojus TMA-11"
     },
     {
         "itemname": "ISS-Expedition 16 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_16"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_16",
+        "itemname2": "Sojus TMA-11"
     },
     {
         "itemname": "ISS-Expedition 16 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_16"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_16",
+        "itemname2": "Sojus TMA-11"
     },
     {
         "itemname": "ISS-Expedition 16 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_16"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_16",
+        "itemname2": "Sojus TMA-11"
     },
     {
         "itemname": "ISS-Expedition 16 EVA 5",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_16"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_16",
+        "itemname2": "Sojus TMA-11"
     },
     {
         "itemname": "STS-122 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-122"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-122",
+        "itemname2": "STS-122"
     },
     {
         "itemname": "STS-122 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-122"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-122",
+        "itemname2": "STS-122"
     },
     {
         "itemname": "STS-122 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-122"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-122",
+        "itemname2": "STS-122"
     },
     {
         "itemname": "STS-123 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-123"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-123",
+        "itemname2": "STS-123"
     },
     {
         "itemname": "STS-123 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-123"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-123",
+        "itemname2": "STS-123"
     },
     {
         "itemname": "STS-123 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-123"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-123",
+        "itemname2": "STS-123"
     },
     {
         "itemname": "STS-123 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-123"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-123",
+        "itemname2": "STS-123"
     },
     {
         "itemname": "STS-123 EVA 5",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-123"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-123",
+        "itemname2": "STS-123"
     },
     {
         "itemname": "STS-124 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-124"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-124",
+        "itemname2": "STS-124"
     },
     {
         "itemname": "STS-124 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-124"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-124",
+        "itemname2": "STS-124"
     },
     {
         "itemname": "STS-124 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-124"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-124",
+        "itemname2": "STS-124"
     },
     {
         "itemname": "ISS-Expedition 17 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_17"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_17",
+        "itemname2": "Sojus TMA-12"
     },
     {
         "itemname": "ISS-Expedition 17 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_17"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_17",
+        "itemname2": "Sojus TMA-12"
     },
     {
         "itemname": "Shenzhou 7 EVA",
@@ -17310,398 +16046,452 @@
     },
     {
         "itemname": "STS-126 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-126"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-126",
+        "itemname2": "STS-126"
     },
     {
         "itemname": "STS-126 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-126"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-126",
+        "itemname2": "STS-126"
     },
     {
         "itemname": "STS-126 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-126"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-126",
+        "itemname2": "STS-126"
     },
     {
         "itemname": "STS-126 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-126"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-126",
+        "itemname2": "STS-126"
     },
     {
         "itemname": "ISS-Expedition 18 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_18"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_18",
+        "itemname2": "Sojus TMA-13"
     },
     {
         "itemname": "ISS-Expedition 18 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_18"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_18",
+        "itemname2": "Sojus TMA-13"
     },
     {
         "itemname": "STS-119 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-119"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-119",
+        "itemname2": "STS-119"
     },
     {
         "itemname": "STS-119 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-119"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-119",
+        "itemname2": "STS-119"
     },
     {
         "itemname": "STS-119 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-119"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-119",
+        "itemname2": "STS-119"
     },
     {
         "itemname": "STS-125 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-125"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-125",
+        "itemname2": "STS-125"
     },
     {
         "itemname": "STS-125 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-125"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-125",
+        "itemname2": "STS-125"
     },
     {
         "itemname": "STS-125 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-125"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-125",
+        "itemname2": "STS-125"
     },
     {
         "itemname": "STS-125 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-125"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-125",
+        "itemname2": "STS-125"
     },
     {
         "itemname": "STS-125 EVA 5",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-125"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-125",
+        "itemname2": "STS-125"
     },
     {
         "itemname": "ISS-Expedition 20 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_20"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_20",
+        "itemname2": "Sojus TMA-14"
     },
     {
         "itemname": "ISS-Expedition 20 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_20"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_20",
+        "itemname2": "Sojus TMA-14"
     },
     {
         "itemname": "STS-127 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-127"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-127",
+        "itemname2": "STS-127"
     },
     {
         "itemname": "STS-127 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-127"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-127",
+        "itemname2": "STS-127"
     },
     {
         "itemname": "STS-127 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-127"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-127",
+        "itemname2": "STS-127"
     },
     {
         "itemname": "STS-127 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-127"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-127",
+        "itemname2": "STS-127"
     },
     {
         "itemname": "STS-127 EVA 5",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-127"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-127",
+        "itemname2": "STS-127"
     },
     {
         "itemname": "STS-128 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-128"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-128",
+        "itemname2": "STS-128"
     },
     {
         "itemname": "STS-128 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-128"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-128",
+        "itemname2": "STS-128"
     },
     {
         "itemname": "STS-128 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-128"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-128",
+        "itemname2": "STS-128"
     },
     {
         "itemname": "STS-129 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-129"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-129",
+        "itemname2": "STS-129"
     },
     {
         "itemname": "STS-129 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-129"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-129",
+        "itemname2": "STS-129"
     },
     {
         "itemname": "STS-129 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-129"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-129",
+        "itemname2": "STS-129"
     },
     {
         "itemname": "ISS-Expedition 22 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_22"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_22",
+        "itemname2": "Sojus TMA-17"
     },
     {
         "itemname": "STS-130 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-130"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-130",
+        "itemname2": "STS-130"
     },
     {
         "itemname": "STS-130 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-130"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-130",
+        "itemname2": "STS-130"
     },
     {
         "itemname": "STS-130 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-130"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-130",
+        "itemname2": "STS-130"
     },
     {
         "itemname": "STS-131 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-131"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-131",
+        "itemname2": "STS-131"
     },
     {
         "itemname": "STS-131 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-131"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-131",
+        "itemname2": "STS-131"
     },
     {
         "itemname": "STS-131 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-131"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-131",
+        "itemname2": "STS-131"
     },
     {
         "itemname": "STS-132 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-132"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-132",
+        "itemname2": "STS-132"
     },
     {
         "itemname": "STS-132 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-132"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-132",
+        "itemname2": "STS-132"
     },
     {
         "itemname": "STS-132 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-132"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-132",
+        "itemname2": "STS-132"
     },
     {
         "itemname": "ISS-Expedition 24 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_24"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_24",
+        "itemname2": "Sojus TMA-18"
     },
     {
         "itemname": "ISS-Expedition 24 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_24"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_24",
+        "itemname2": "Sojus TMA-19"
     },
     {
         "itemname": "ISS-Expedition 24 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_24"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_24",
+        "itemname2": "Sojus TMA-19"
     },
     {
         "itemname": "ISS-Expedition 24 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_24"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_24",
+        "itemname2": "Sojus TMA-19"
     },
     {
         "itemname": "ISS-Expedition 25 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_25"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_25",
+        "itemname2": "Sojus TMA-19"
     },
     {
         "itemname": "ISS-Expedition 26 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_26"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_26",
+        "itemname2": "Sojus TMA-20"
     },
     {
         "itemname": "ISS-Expedition 26 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_26"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_26",
+        "itemname2": "Sojus TMA-20"
     },
     {
         "itemname": "STS-133 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-133"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-133",
+        "itemname2": "STS-133"
     },
     {
         "itemname": "STS-133 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-133"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-133",
+        "itemname2": "STS-133"
     },
     {
         "itemname": "STS-134 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-134"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-134",
+        "itemname2": "STS-134"
     },
     {
         "itemname": "STS-134 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-134"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-134",
+        "itemname2": "STS-134"
     },
     {
         "itemname": "STS-134 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-134"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-134",
+        "itemname2": "STS-134"
     },
     {
         "itemname": "STS-134 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/STS-134"
+        "itemurl": "https://de.wikipedia.org/wiki/STS-134",
+        "itemname2": "STS-134"
     },
     {
         "itemname": "ISS-Expedition 28 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_28"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_28",
+        "itemname2": "Sojus TMA-21"
     },
     {
         "itemname": "ISS-Expedition 28 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_28"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_28",
+        "itemname2": "Sojus TMA-02M"
     },
     {
         "itemname": "ISS-Expedition 30 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_30"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_30",
+        "itemname2": "Sojus TMA-22"
     },
     {
         "itemname": "ISS-Expedition 32 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_32"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_32",
+        "itemname2": "Sojus TMA-04M"
     },
     {
         "itemname": "ISS-Expedition 32 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_32"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_32",
+        "itemname2": "Sojus TMA-05M"
     },
     {
         "itemname": "ISS-Expedition 32 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_32"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_32",
+        "itemname2": "Sojus TMA-05M"
     },
     {
         "itemname": "ISS-Expedition 33 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_33"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_33",
+        "itemname2": "Sojus TMA-05M"
     },
     {
         "itemname": "ISS-Expedition 35 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_35"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_35",
+        "itemname2": "Sojus TMA-08M"
     },
     {
         "itemname": "ISS-Expedition 35 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_35"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_35",
+        "itemname2": "Sojus TMA-08M"
     },
     {
         "itemname": "ISS-Expedition 36 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_36"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_36",
+        "itemname2": "Sojus TMA-09M"
     },
     {
         "itemname": "ISS-Expedition 36 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_36"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_36",
+        "itemname2": "Sojus TMA-08M"
     },
     {
         "itemname": "ISS-Expedition 36 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_36"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_36",
+        "itemname2": "Sojus TMA-08M"
     },
     {
         "itemname": "ISS-Expedition 36 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_36"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_36",
+        "itemname2": "Sojus TMA-09M"
     },
     {
         "itemname": "ISS-Expedition 36 EVA 5",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_36"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_36",
+        "itemname2": "Sojus TMA-09M"
     },
     {
         "itemname": "ISS-Expedition 37 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_37"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_37",
+        "itemname2": "Sojus TMA-10M"
     },
     {
         "itemname": "ISS-Expedition 38 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_38"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_38",
+        "itemname2": "Sojus TMA-11M"
     },
     {
         "itemname": "ISS-Expedition 38 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_38"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_38",
+        "itemname2": "Sojus TMA-11M"
     },
     {
         "itemname": "ISS-Expedition 38 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_38"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_38",
+        "itemname2": "Sojus TMA-10M"
     },
     {
         "itemname": "ISS-Expedition 38 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_38"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_38",
+        "itemname2": "Sojus TMA-10M"
     },
     {
         "itemname": "ISS-Expedition 39 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_39"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_39",
+        "itemname2": "Sojus TMA-11M"
     },
     {
         "itemname": "ISS-Expedition 40 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_40"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_40",
+        "itemname2": "Sojus TMA-12M"
     },
     {
         "itemname": "ISS-Expedition 40 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_40"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_40",
+        "itemname2": "Sojus TMA-12M"
     },
     {
         "itemname": "ISS-Expedition 41 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_41"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_41",
+        "itemname2": "Sojus TMA-13M"
     },
     {
         "itemname": "ISS-Expedition 41 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_41"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_41",
+        "itemname2": "Sojus TMA-13M"
     },
     {
         "itemname": "ISS-Expedition 41 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_41"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_41",
+        "itemname2": "Sojus TMA-13M"
     },
     {
         "itemname": "ISS-Expedition 42 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_42"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_42",
+        "itemname2": "Sojus TMA-14M"
     },
     {
         "itemname": "ISS-Expedition 42 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_42"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_42",
+        "itemname2": "Sojus TMA-14M"
     },
     {
         "itemname": "ISS-Expedition 42 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_42"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_42",
+        "itemname2": "Sojus TMA-14M"
     },
     {
         "itemname": "ISS-Expedition 44 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_44"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_44",
+        "itemname2": "Sojus TMA-16M"
     },
     {
         "itemname": "ISS-Expedition 45 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_45"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_45",
+        "itemname2": "Sojus TMA-16M"
     },
     {
         "itemname": "ISS-Expedition 45 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_45"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_45",
+        "itemname2": "Sojus TMA-16M"
     },
     {
         "itemname": "ISS-Expedition 46 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_46"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_46",
+        "itemname2": "Sojus TMA-16M"
     },
     {
         "itemname": "ISS-Expedition 46 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_46"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_46",
+        "itemname2": "Sojus TMA-19M"
     },
     {
         "itemname": "ISS-Expedition 46 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_46"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_46",
+        "itemname2": "Sojus TMA-18M"
     },
     {
         "itemname": "ISS-Expedition 48 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_48"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_48",
+        "itemname2": "Sojus TMA-20M"
     },
     {
         "itemname": "ISS-Expedition 48 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_48"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_48",
+        "itemname2": "Sojus TMA-20M"
     },
     {
         "itemname": "ISS-Expedition 50 EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_50"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_50",
+        "itemname2": "Sojus MS-02"
     },
     {
         "itemname": "ISS-Expedition 50 EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_50"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_50",
+        "itemname2": "Sojus MS-02"
     },
     {
         "itemname": "ISS-Expedition 50 EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_50"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_50",
+        "itemname2": "Sojus MS-02"
     },
     {
         "itemname": "ISS-Expedition 50 EVA 4",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_50"
-    },
-    {
-        "itemname": "ISS-Expedition 51: EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_51"
-    },
-    {
-        "itemname": "ISS-Expedition 51: EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_51"
-    },
-    {
-        "itemname": "ISS-Expedition 52: EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_52"
-    },
-    {
-        "itemname": "ISS-Expedition 53: EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_53"
-    },
-    {
-        "itemname": "ISS-Expedition 53: EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_53"
-    },
-    {
-        "itemname": "ISS-Expedition 53: EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_53"
-    },
-    {
-        "itemname": "ISS-Expedition 54: EVA 1",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_54"
-    },
-    {
-        "itemname": "ISS-Expedition 54: EVA 2",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_54"
-    },
-    {
-        "itemname": "ISS-Expedition 54: EVA 3",
-        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_54"
+        "itemurl": "https://de.wikipedia.org/wiki/ISS-Expedition_50",
+        "itemname2": "Sojus MS-03"
     }
 ]

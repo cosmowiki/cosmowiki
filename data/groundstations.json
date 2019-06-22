@@ -4,256 +4,255 @@
         "itemurl": "https://de.wikipedia.org/wiki/Canberra_Deep_Space_Communication_Complex",
         "itemname2": "CDSCC",
         "itemdescription": "Bodenstation",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "AU",
         "itemoperator": "DSN, CSIRO, NASA",
         "itempurpose": "Bodenstation zur Kommunikation mit Raumfahrzeugen (Apollo, Skylab, Voyager)",
         "itemlocation": "New South Wales, Canberra",
         "itemlatitude": "-35.401464",
-        "itemlongitude": "148.981790"
+        "itemlongitude": "148.981790",
+        "itemtype": 2
     },
     {
         "itemname": "Centre Spacial Guyanais",
         "itemurl": "https://de.wikipedia.org/wiki/Centre_Spatial_Guyanais",
         "itemname2": "CSG (Centre Spacial Guyanais)",
         "itemdescription": "Kontrollzentrum",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "FR",
         "itemoperator": "ESA",
         "itempurpose": "Raumfahrtzentrum der ESA, Kontrollzentrum",
-        "itemlocation": "Kourou"
+        "itemlocation": "Kourou",
+        "itemtype": 2
     },
     {
         "itemname": "Deep Space Network",
         "itemurl": "https://de.wikipedia.org/wiki/Deep_Space_Network",
         "itemname2": "DSN",
         "itemdescription": "Netzwerk",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemoperator": "JPL, NASA",
         "itempurpose": "Netzwerk von Bodenstationen zur Kommunikation mit Raumflugkörpern sowie radar- und radioastronomische Forschungszwecke",
-        "itemlocation": "globales Netzwerk"
+        "itemlocation": "globales Netzwerk",
+        "itemtype": 2
     },
     {
         "itemname": "Deutsches Raumfahrt-Kontrollzentrum",
         "itemurl": "https://de.wikipedia.org/wiki/Deutsches_Raumfahrt-Kontrollzentrum",
         "itemname2": "GSOC",
         "itemdescription": "Netzwerk",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "DE",
         "itemoperator": "DLR",
         "itempurpose": "Betrieb und Forschung für die Raumfahrt, Kommunikation mit Raumflugkörpern",
-        "itemlocation": "Oberpfaffenhofen"
+        "itemlocation": "Oberpfaffenhofen",
+        "itemtype": 2
     },
     {
         "itemname": "ESA tracking stations",
         "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
         "itemname2": "ESTRACK",
         "itemdescription": "Bodenstation",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemoperator": "ESA",
         "itempurpose": "Netzwerk von Bodenstationen zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
-        "itemlocation": "globales Netzwerk von Bodenstationen"
+        "itemlocation": "globales Netzwerk von Bodenstationen",
+        "itemtype": 2
     },
     {
         "itemname": "ESTRACK Ground station Argentienien, Malargüe",
         "itemurl": "http://en.wikipedia.org/wiki/Malarg%C3%BCe_Station",
         "itemname2": "ESTRACK",
         "itemdescription": "Bodenstation",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "AR",
         "itemoperator": "ESTRACK",
         "itempurpose": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
-        "itemlocation": "Malargüe"
+        "itemlocation": "Malargüe",
+        "itemtype": 2
     },
     {
         "itemname": "ESTRACK Ground station Australien, New Norcia",
         "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
         "itemname2": "ESTRACK",
         "itemdescription": "Bodenstation",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "AU",
         "itemoperator": "ESTRACK",
         "itempurpose": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
-        "itemlocation": "Western Australia, New Norcia"
+        "itemlocation": "Western Australia, New Norcia",
+        "itemtype": 2
     },
     {
         "itemname": "ESTRACK Ground station Australien, Perth",
         "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
         "itemname2": "ESTRACK",
         "itemdescription": "Bodenstation",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "AU",
         "itemoperator": "ESTRACK",
         "itempurpose": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
-        "itemlocation": "Western Australia, Perth"
+        "itemlocation": "Western Australia, Perth",
+        "itemtype": 2
     },
     {
         "itemname": "ESTRACK Ground station Belgien, Redu",
         "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
         "itemname2": "ESTRACK",
         "itemdescription": "Bodenstation",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "BE",
         "itemoperator": "ESTRACK",
         "itempurpose": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
-        "itemlocation": "Redu"
+        "itemlocation": "Redu",
+        "itemtype": 2
     },
     {
         "itemname": "ESTRACK Ground station Französisch Guyana, Kourou",
         "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
         "itemname2": "ESTRACK",
         "itemdescription": "Bodenstation",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "FR",
         "itemoperator": "ESTRACK",
         "itempurpose": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
-        "itemlocation": "Kourou"
+        "itemlocation": "Kourou",
+        "itemtype": 2
     },
     {
         "itemname": "ESTRACK Ground station Portugal, Santa Maria",
         "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
         "itemname2": "ESTRACK",
         "itemdescription": "Bodenstation",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "PT",
         "itemoperator": "ESTRACK",
         "itempurpose": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
-        "itemlocation": "Santa Maria"
+        "itemlocation": "Santa Maria",
+        "itemtype": 2
     },
     {
         "itemname": "ESTRACK Ground station Schweden, Kiruna",
         "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
         "itemname2": "ESTRACK",
         "itemdescription": "Bodenstation",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "SE",
         "itemoperator": "ESTRACK",
         "itempurpose": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
-        "itemlocation": "Kiruna"
+        "itemlocation": "Kiruna",
+        "itemtype": 2
     },
     {
         "itemname": "ESTRACK Ground station Spanien, Cerebros",
         "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
         "itemname2": "ESTRACK",
         "itemdescription": "Bodenstation",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "ES",
         "itemoperator": "ESTRACK",
         "itempurpose": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
-        "itemlocation": "Cerebros"
+        "itemlocation": "Cerebros",
+        "itemtype": 2
     },
     {
         "itemname": "ESTRACK Ground station Spanien, Maspalomas",
         "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
         "itemname2": "ESTRACK",
         "itemdescription": "Bodenstation",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "ES",
         "itemoperator": "ESTRACK",
         "itempurpose": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
-        "itemlocation": "Maspalomas"
+        "itemlocation": "Maspalomas",
+        "itemtype": 2
     },
     {
         "itemname": "ESTRACK Ground station Spanien, Villafranca del Castillo",
         "itemurl": "https://de.wikipedia.org/wiki/ESTRACK",
         "itemname2": "ESTRACK",
         "itemdescription": "Bodenstation",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "ES",
         "itemoperator": "ESTRACK",
         "itempurpose": "Bodenstation zur Verbindung von Raumflugkörpern mit dem Europäischen Raumflugkontrollzentrum (ESOC)",
-        "itemlocation": "Villafranca del Castillo"
+        "itemlocation": "Villafranca del Castillo",
+        "itemtype": 2
     },
     {
         "itemname": "European Space Operations Centre",
         "itemurl": "https://de.wikipedia.org/wiki/Europ%C3%A4isches_Raumflugkontrollzentrum",
         "itemname2": "ESOC",
         "itemdescription": "Kontrollzentrum",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "DE",
         "itemoperator": "ESA",
         "itempurpose": "Missionskontrollzentrum für die meisten Weltraumprojekte der ESA, Bodenstation",
-        "itemlocation": "Darmstadt"
+        "itemlocation": "Darmstadt",
+        "itemtype": 2
     },
     {
         "itemname": "Goldstone Deep Space Communications Complex",
         "itemurl": "https://de.wikipedia.org/wiki/Goldstone_Deep_Space_Communications_Complex",
         "itemdescription": "Bodenstation",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "US",
         "itemoperator": "DSN, JPL, NASA",
         "itempurpose": "Bodenstation, Antennenanlage zur Kommunikation mit Raumsonden und Satelliten, Teil des Deep Space Network (DSN)",
-        "itemlocation": "Kalifornien, Barstow"
+        "itemlocation": "Kalifornien, Barstow",
+        "itemtype": 2
     },
     {
         "itemname": "Madrid Deep Space Communications Complex",
         "itemurl": "https://de.wikipedia.org/wiki/Madrid_Deep_Space_Communications_Complex",
         "itemdescription": "Bodenstation",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "ES",
         "itemoperator": "DSN, JPL, NASA",
         "itempurpose": "Bodenstation, Radioteleskop-Anlage des Deep Space Network (DSN) zur Verfolgung von Raumsonden",
-        "itemlocation": "Madrid"
+        "itemlocation": "Madrid",
+        "itemtype": 2
     },
     {
         "itemname": "Titow-Bodenstation",
         "itemurl": "https://de.wikipedia.org/wiki/Krasnosnamensk",
         "itemdescription": "Kontrollzentrum",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "RU",
         "itemoperator": "russische Weltraumtruppen",
         "itempurpose": "Bodenstation, Kontrollzentrum",
         "itemlocation": "Krasnosnamensk",
         "itemlatitude": "55.594",
-        "itemlongitude": "37.047"
+        "itemlongitude": "37.047",
+        "itemtype": 2
     },
     {
         "itemname": "Tsukuba Space Center",
         "itemurl": "https://de.wikipedia.org/wiki/Tsukuba_Space_Center",
         "itemname2": "TKSC",
         "itemdescription": "Kontrollzentrum",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "JP",
         "itemoperator": "JAXA",
         "itempurpose": "Kontroll-, Forschungs- und Entwicklungszentrum, Bodenstation",
-        "itemlocation": "Tsukuba"
+        "itemlocation": "Tsukuba",
+        "itemtype": 2
     },
     {
         "itemname": "Usuda Deep Space Center",
         "itemurl": "https://de.wikipedia.org/wiki/Usuda_Deep_Space_Center",
         "itemname2": "UDSC",
         "itemdescription": "Bodenstation",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "JP",
         "itemoperator": "JAXA",
         "itempurpose": "Bodenstation",
-        "itemlocation": "Usuda"
+        "itemlocation": "Usuda",
+        "itemtype": 2
     },
     {
         "itemname": "Beijing Aerospace Command and Control Center",
         "itemdescription": "Kontrollzentrum",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "CN",
         "itemoperator": "CNSA",
@@ -264,20 +263,19 @@
         "itemname": "Roskosmos-Kontrollzentrum",
         "itemurl": "https://de.wikipedia.org/wiki/Koroljow",
         "itemdescription": "Kontrollzentrum",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "RU",
         "itemoperator": "Roskosmos",
         "itempurpose": "Kontrollzentrum von Roskosmos",
         "itemlocation": "Koroljow",
         "itemlatitude": "55.916667",
-        "itemlongitude": "37.816667"
+        "itemlongitude": "37.816667",
+        "itemtype": 2
     },
     {
         "itemname": "John H. Chapman Space Centre",
         "itemurl": "https://de.wikipedia.org/wiki/John_H._Chapman_Space_Centre",
         "itemdescription": "Kontrollzentrum",
-        "itemtype": 2,
         "itemcategory": "Kontrollzentrum / Bodenstation",
         "itemcountry": "CA",
         "itemoperator": "CSA",

@@ -13,9 +13,7 @@ const SolarSystemComponent = ({ items }) => {
         </div>
       </div>
       <div id="todo" className="pure-u-1">
-        <p>@wolfram: for each level-1 item make one ItemComponent (full width),</p>
-        <p>for each level-2 item inside a level-1 item make one ItemComponent (80% width of level-1),</p>
-        <p>for each level-3 item inside a level-2 item make one ItemComponent (80% width of level-2) and so on</p>
+        <p>@wolfram: pls make it work</p>
       </div>
       <Summary>
         <p className="summary-text">
@@ -274,12 +272,7 @@ const SolarSystemComponent = ({ items }) => {
               {items.filter(item => item.index === '2.4.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
                 {items.filter(item => item.index === '2.4.1.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
                   {items.filter(item => item.index === '2.4.1.1.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                    {items.filter(item => item.index === '2.4.1.1.1.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                      {items.filter(item => item.index.startsWith('2.4.1.1.1.1.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
-                    </ItemComponent>)}
-                    {items.filter(item => item.index === '2.4.1.1.1.2').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                      {items.filter(item => item.index.startsWith('2.4.1.1.1.2.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
-                    </ItemComponent>)}
+                    {items.filter(item => item.index.startsWith('2.4.1.1.1.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
                   </ItemComponent>)}
                 </ItemComponent>)}
                 {items.filter(item => item.index === '2.4.1.2').map((item, idx) => <ItemComponent item={ item } key={idx}>
@@ -355,13 +348,6 @@ const SolarSystemComponent = ({ items }) => {
                   {items.filter(item => item.index === '5.1.1.2.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
                     {items.filter(item => item.index === '5.1.1.2.1.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
                       {items.filter(item => item.index.startsWith('5.1.1.2.1.1.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
-                    </ItemComponent>)}
-                    {items.filter(item => item.index === '5.1.1.2.1.2').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                      {items.filter(item => item.index.startsWith('5.1.1.2.1.2.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
-                    </ItemComponent>)}
-                    {items.filter(item => item.index === '5.1.1.2.1.3').map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
-                    {items.filter(item => item.index === '5.1.1.2.1.4').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                      {items.filter(item => item.index.startsWith('5.1.1.2.1.4.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
                     </ItemComponent>)}
                   </ItemComponent>)}
                   {items.filter(item => item.index === '5.1.1.2.2').map((item, idx) => <ItemComponent item={ item } key={idx}>
