@@ -39661,17 +39661,7 @@ var SolarSystemComponent = function SolarSystemComponent(_ref) {
       _react2['default'].createElement(
         'p',
         null,
-        '@wolfram: for each level-1 item make one ItemComponent (full width),'
-      ),
-      _react2['default'].createElement(
-        'p',
-        null,
-        'for each level-2 item inside a level-1 item make one ItemComponent (80% width of level-1),'
-      ),
-      _react2['default'].createElement(
-        'p',
-        null,
-        'for each level-3 item inside a level-2 item make one ItemComponent (80% width of level-2) and so on'
+        '@wolfram: pls make it work'
       )
     ),
     _react2['default'].createElement(
@@ -40544,30 +40534,9 @@ var SolarSystemComponent = function SolarSystemComponent(_ref) {
                             ItemComponent,
                             { item: item, key: idx },
                             items.filter(function (item) {
-                              return item.index === '2.4.1.1.1.1';
+                              return item.index.startsWith('2.4.1.1.1.');
                             }).map(function (item, idx) {
-                              return _react2['default'].createElement(
-                                ItemComponent,
-                                { item: item, key: idx },
-                                items.filter(function (item) {
-                                  return item.index.startsWith('2.4.1.1.1.1.');
-                                }).map(function (item, idx) {
-                                  return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
-                                })
-                              );
-                            }),
-                            items.filter(function (item) {
-                              return item.index === '2.4.1.1.1.2';
-                            }).map(function (item, idx) {
-                              return _react2['default'].createElement(
-                                ItemComponent,
-                                { item: item, key: idx },
-                                items.filter(function (item) {
-                                  return item.index.startsWith('2.4.1.1.1.2.');
-                                }).map(function (item, idx) {
-                                  return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
-                                })
-                              );
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
                             })
                           );
                         })
@@ -40879,37 +40848,6 @@ var SolarSystemComponent = function SolarSystemComponent(_ref) {
                                 { item: item, key: idx },
                                 items.filter(function (item) {
                                   return item.index.startsWith('5.1.1.2.1.1.');
-                                }).map(function (item, idx) {
-                                  return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
-                                })
-                              );
-                            }),
-                            items.filter(function (item) {
-                              return item.index === '5.1.1.2.1.2';
-                            }).map(function (item, idx) {
-                              return _react2['default'].createElement(
-                                ItemComponent,
-                                { item: item, key: idx },
-                                items.filter(function (item) {
-                                  return item.index.startsWith('5.1.1.2.1.2.');
-                                }).map(function (item, idx) {
-                                  return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
-                                })
-                              );
-                            }),
-                            items.filter(function (item) {
-                              return item.index === '5.1.1.2.1.3';
-                            }).map(function (item, idx) {
-                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
-                            }),
-                            items.filter(function (item) {
-                              return item.index === '5.1.1.2.1.4';
-                            }).map(function (item, idx) {
-                              return _react2['default'].createElement(
-                                ItemComponent,
-                                { item: item, key: idx },
-                                items.filter(function (item) {
-                                  return item.index.startsWith('5.1.1.2.1.4.');
                                 }).map(function (item, idx) {
                                   return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
                                 })
@@ -45641,7 +45579,7 @@ var Item = (function () {
     key: 'fromRawData',
     value: function fromRawData(raw) {
       var item = new Item();
-      item.index = raw.itemindex != '0' ? raw.itemindex.replace(/0/g, '') : raw.itemindex;
+      item.index = raw.itemindex;
       item.name = raw.itemname;
       item.name2 = raw.itemname2 ? raw.itemname2 : ''; //to use in id=""
       var alternativename1 = raw.itemname3 ? raw.itemname3 : '';
