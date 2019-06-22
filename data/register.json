@@ -15719,6 +15719,11 @@
         "itemname2": "jupiterTrojans"
     },
     {
+        "itemname": "Lagrange-Punkt L4",
+        "itemurl": "https://de.wikipedia.org/wiki/Lagrange-Punkte",
+        "itemname2": "lagrangePoint4"
+    },
+    {
         "itemname": "2011 QF99",
         "itemurl": "https://de.wikipedia.org/wiki/2011_QF99",
         "itemname2": "2011_qf99"
@@ -16056,6 +16061,11 @@
         "itemname2": "orcus"
     },
     {
+        "itemname": "Vanth",
+        "itemurl": "https://de.wikipedia.org/wiki/Vanth_(Mond)",
+        "itemname2": "vanth"
+    },
+    {
         "itemname": "Ixion",
         "itemurl": "https://de.wikipedia.org/wiki/(28978)_Ixion",
         "itemname2": "ixion"
@@ -16064,6 +16074,11 @@
         "itemname": "Huya",
         "itemurl": "https://de.wikipedia.org/wiki/(38628)_Huya",
         "itemname2": "huya"
+    },
+    {
+        "itemname": "S/2012 (38628) 1",
+        "itemurl": "https://de.wikipedia.org/wiki/S/2012_(38628)_1",
+        "itemname2": "s2012_38628_1"
     },
     {
         "itemname": "Twotinos",
@@ -16078,9 +16093,9 @@
         "itemname2": "sednoidGroup"
     },
     {
-        "itemname": "SednaX",
+        "itemname": "Sedna",
         "itemurl": "https://de.wikipedia.org/wiki/(90377)_Sedna",
-        "itemname2": "sednax"
+        "itemname2": "sedna"
     },
     {
         "itemname": "Kometen",
