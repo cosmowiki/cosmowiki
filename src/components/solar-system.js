@@ -12,6 +12,10 @@ const SolarSystemComponent = ({ items }) => {
           <h3>unsere kosmische Heimat</h3>
         </div>
       </div>
+      <div id="todo" className="pure-u-1">
+        <p>@wolfram: Is there a way to loop through the items an build the structure
+        automatically w/o writing all the components for each body or group of bodies?</p>
+      </div>
       <Summary>
         <p className="summary-text">
           In klaren Nächten sehen wir manchmal <em>Merkur</em>, <em>Venus</em>, <em>Mars</em>, <em>Jupiter</em> oder <em>Saturn</em> einzeln
@@ -201,6 +205,11 @@ const SolarSystemComponent = ({ items }) => {
                   </ItemComponent>)}
                   {items.filter(item => item.index === '1.3.3.3.4').map((item, idx) => <ItemComponent item={ item } key={idx}>
                     {items.filter(item => item.index.startsWith('1.3.3.3.4.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
+                  </ItemComponent>)}
+                </ItemComponent>)}
+                {items.filter(item => item.index === '1.3.3.4').map((item, idx) => <ItemComponent item={ item } key={idx}>
+                  {items.filter(item => item.index === '1.3.3.4.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
+                    {items.filter(item => item.index.startsWith('1.3.3.4.1.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
                   </ItemComponent>)}
                 </ItemComponent>)}
               </ItemComponent>)}
