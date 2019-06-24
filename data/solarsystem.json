@@ -176,7 +176,7 @@
         "itemdatemonth": "10",
         "itemdateday": "01",
         "itemcolor": "earth-blue",
-        "itemlocation": "L4",
+        "itemlocation": "Erde L4",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Wide-Field_Infrared_Survey_Explorer"
     },
     {
@@ -606,7 +606,7 @@
         "itemdatemonth": "10",
         "itemdateday": "30",
         "itemcolor": "mars-red",
-        "itemlocation": "L4",
+        "itemlocation": "Mars L4",
         "semimajoraxis": "1,52 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Lincoln_Near_Earth_Asteroid_Research"
     },
@@ -632,7 +632,7 @@
         "itemdatemonth": "06",
         "itemdateday": "20",
         "itemcolor": "mars-red",
-        "itemlocation": "L5",
+        "itemlocation": "Mars L5",
         "semimajoraxis": "1,52 AE",
         "itemdiameter": "2 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Henry_E._Holt, https://de.wikipedia.org/wiki/David_H._Levy"
@@ -648,7 +648,7 @@
         "itemdatemonth": "11",
         "itemdateday": "13",
         "itemcolor": "mars-red",
-        "itemlocation": "L5",
+        "itemlocation": "Mars L5",
         "semimajoraxis": "1,52 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Lincoln_Near_Earth_Asteroid_Research"
     },
@@ -664,7 +664,7 @@
         "itemdatemonth": "07",
         "itemdateday": "14",
         "itemcolor": "mars-red",
-        "itemlocation": "L5",
+        "itemlocation": "Mars L5",
         "semimajoraxis": "1,52 AE",
         "itemdiameter": "1 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Observatorio_Astron%C3%B3mico_de_La_Sagra"
@@ -680,7 +680,7 @@
         "itemdatemonth": "02",
         "itemdateday": "20",
         "itemcolor": "mars-red",
-        "itemlocation": "L5",
+        "itemlocation": "Mars L5",
         "semimajoraxis": "1,52 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Lincoln_Near_Earth_Asteroid_Research"
     },
@@ -1131,7 +1131,7 @@
         "itemdatemonth": "02",
         "itemdateday": "22",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,192 AE",
         "itemdiameter": "135,5 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Max_Wolf"
@@ -1148,7 +1148,7 @@
         "itemdatemonth": "02",
         "itemdateday": "10",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,223 AE",
         "itemdiameter": "370 × 195 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/August_Kopff"
@@ -1165,7 +1165,7 @@
         "itemdatemonth": "03",
         "itemdateday": "23",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,202 AE",
         "itemdiameter": "108,9 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Max_Wolf"
@@ -1182,7 +1182,7 @@
         "itemdatemonth": "03",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,251 AE",
         "itemdiameter": "167 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Karl_Wilhelm_Reinmuth"
@@ -1199,7 +1199,7 @@
         "itemdatemonth": "01",
         "itemdateday": "28",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,257 AE",
         "itemdiameter": "125,6 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Karl_Wilhelm_Reinmuth"
@@ -1216,7 +1216,7 @@
         "itemdatemonth": "08",
         "itemdateday": "17",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,303 AE",
         "itemdiameter": "81,7 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Karl_Wilhelm_Reinmuth"
@@ -1233,7 +1233,7 @@
         "itemdatemonth": "08",
         "itemdateday": "03",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,157 AE",
         "itemdiameter": "164,3 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Karl_Wilhelm_Reinmuth"
@@ -1250,7 +1250,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,106 AE",
         "itemdiameter": "101,6 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Sylvain_Julien_Victor_Arend"
@@ -1267,7 +1267,7 @@
         "itemdatemonth": "06",
         "itemdateday": "23",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,233 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Seth_Barnes_Nicholson"
     },
@@ -1283,7 +1283,7 @@
         "itemdatemonth": "09",
         "itemdateday": "23",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,173 AE",
         "itemdiameter": "81,1 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Karl_Wilhelm_Reinmuth"
@@ -1300,7 +1300,7 @@
         "itemdatemonth": "09",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,307 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -1316,7 +1316,7 @@
         "itemdatemonth": "09",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,28 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -1332,7 +1332,7 @@
         "itemdatemonth": "10",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,201 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Richard_Martin_West"
     },
@@ -1348,7 +1348,7 @@
         "itemdatemonth": "10",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,204 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Richard_Martin_West"
     },
@@ -1364,7 +1364,7 @@
         "itemdatemonth": "11",
         "itemdateday": "26",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,19 AE",
         "itemdiameter": "71,7 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Purple-Mountain-Observatorium"
@@ -1381,7 +1381,7 @@
         "itemdatemonth": "01",
         "itemdateday": "30",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,138 AE",
         "itemdiameter": "91,7 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Purple-Mountain-Observatorium"
@@ -1398,7 +1398,7 @@
         "itemdatemonth": "04",
         "itemdateday": "14",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,168 AE",
         "itemdiameter": "61 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Edward_L._G._Bowell"
@@ -1415,7 +1415,7 @@
         "itemdatemonth": "06",
         "itemdateday": "04",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,106 AE",
         "itemdiameter": "111,1 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Edward_L._G._Bowell"
@@ -1432,7 +1432,7 @@
         "itemdatemonth": "05",
         "itemdateday": "03",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,114 AE",
         "itemdiameter": "111 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Edward_L._G._Bowell"
@@ -1449,7 +1449,7 @@
         "itemdatemonth": "08",
         "itemdateday": "04",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,184 AE",
         "itemdiameter": "116,1 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Ljudmila_Georgijewna_Karatschkina"
@@ -1466,7 +1466,7 @@
         "itemdatemonth": "02",
         "itemdateday": "18",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,295 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Hiroki_K%C5%8Dsai, https://de.wikipedia.org/wiki/Kiichir%C5%8D_Furukawa"
     },
@@ -1482,7 +1482,7 @@
         "itemdatemonth": "10",
         "itemdateday": "27",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,251 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Freimut_B%C3%B6rngen"
     },
@@ -1498,7 +1498,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,159 AE",
         "itemdiameter": "72,1 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten"
@@ -1515,7 +1515,7 @@
         "itemdatemonth": "10",
         "itemdateday": "15",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,227 AE",
         "itemdiameter": "68,9 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Edward_L._G._Bowell"
@@ -1532,7 +1532,7 @@
         "itemdatemonth": "11",
         "itemdateday": "14",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,144 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Poul_Jensen_(Astronom), https://de.wikipedia.org/wiki/Karl_Augustesen"
     },
@@ -1548,7 +1548,7 @@
         "itemdatemonth": "10",
         "itemdateday": "14",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,261 AE",
         "itemdiameter": "99,1 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
@@ -1565,7 +1565,7 @@
         "itemdatemonth": "10",
         "itemdateday": "11",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,201 AE",
         "itemdiameter": "86,3 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
@@ -1582,7 +1582,7 @@
         "itemdatemonth": "10",
         "itemdateday": "12",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,196 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
     },
@@ -1598,7 +1598,7 @@
         "itemdatemonth": "11",
         "itemdateday": "06",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,319 AE",
         "itemdiameter": "18,9 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Spacewatch"
@@ -1615,7 +1615,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,163 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -1631,7 +1631,7 @@
         "itemdatemonth": "11",
         "itemdateday": "22",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,283 AE",
         "itemdiameter": "68,5 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Kenz%C5%8D_Suzuki_(Astronom), https://de.wikipedia.org/wiki/Takeshi_Urata"
@@ -1648,7 +1648,7 @@
         "itemdatemonth": "10",
         "itemdateday": "15",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,266 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Edward_L._G._Bowell"
     },
@@ -1664,7 +1664,7 @@
         "itemdatemonth": "12",
         "itemdateday": "17",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,257 AE",
         "itemdiameter": "79,2 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Eric_Walter_Elst, https://de.wikipedia.org/wiki/Guido_Pizarro"
@@ -1681,7 +1681,7 @@
         "itemdatemonth": "02",
         "itemdateday": "01",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,171 AE",
         "itemdiameter": "102,5 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Observatorium_San_Vittore"
@@ -1698,7 +1698,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,182 AE",
         "itemdiameter": "62,4 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Tom_Gehrels"
@@ -1715,7 +1715,7 @@
         "itemdatemonth": "11",
         "itemdateday": "09",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,236 AE",
         "itemdiameter": "86,9 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Ljudmyla_Schurawlowa"
@@ -1732,7 +1732,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,151 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -1748,7 +1748,7 @@
         "itemdatemonth": "01",
         "itemdateday": "15",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,262 AE",
         "itemdiameter": "92,9 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Edward_L._G._Bowell"
@@ -1765,7 +1765,7 @@
         "itemdatemonth": "02",
         "itemdateday": "04",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,189 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Eric_Walter_Elst"
     },
@@ -1781,7 +1781,7 @@
         "itemdatemonth": "02",
         "itemdateday": "02",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,103 AE",
         "itemdiameter": "62,8 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
@@ -1798,7 +1798,7 @@
         "itemdatemonth": "01",
         "itemdateday": "08",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,249 AE",
         "itemdiameter": "87,3 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
@@ -1815,7 +1815,7 @@
         "itemdatemonth": "01",
         "itemdateday": "11",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,237 AE",
         "itemdiameter": "86,8 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
@@ -1832,7 +1832,7 @@
         "itemdatemonth": "01",
         "itemdateday": "29",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,188 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Masayuki_Iwamoto, https://de.wikipedia.org/wiki/Toshimasa_Furuta"
     },
@@ -1848,7 +1848,7 @@
         "itemdatemonth": "02",
         "itemdateday": "02",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,181 AE",
         "itemdiameter": "67,7 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
@@ -1865,7 +1865,7 @@
         "itemdatemonth": "01",
         "itemdateday": "09",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,209 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
     },
@@ -1881,7 +1881,7 @@
         "itemdatemonth": "01",
         "itemdateday": "21",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,319 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker, https://de.wikipedia.org/wiki/Eugene_Shoemaker"
     },
@@ -1897,7 +1897,7 @@
         "itemdatemonth": "10",
         "itemdateday": "17",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,268 AE",
         "itemdiameter": "18,3 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Tom_Gehrels"
@@ -1914,7 +1914,7 @@
         "itemdatemonth": "10",
         "itemdateday": "11",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,197 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker, https://de.wikipedia.org/wiki/Eugene_Shoemaker"
     },
@@ -1929,7 +1929,7 @@
         "itemdatemonth": "10",
         "itemdateday": "05",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,206 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Milan_Antal"
     },
@@ -1945,7 +1945,7 @@
         "itemdatemonth": "01",
         "itemdateday": "21",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,302 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
     },
@@ -1960,7 +1960,7 @@
         "itemdatemonth": "01",
         "itemdateday": "23",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,253 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
     },
@@ -1976,7 +1976,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,163 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -1991,7 +1991,7 @@
         "itemdatemonth": "01",
         "itemdateday": "28",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,24 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Yoshiaki_%C5%8Cshima"
     },
@@ -2007,7 +2007,7 @@
         "itemdatemonth": "02",
         "itemdateday": "01",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,236 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
     },
@@ -2022,7 +2022,7 @@
         "itemdatemonth": "02",
         "itemdateday": "13",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,164 AE",
         "itemdiameter": "56,41 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Tsutomu_Seki"
@@ -2039,7 +2039,7 @@
         "itemdatemonth": "09",
         "itemdateday": "29",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,163 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2055,7 +2055,7 @@
         "itemdatemonth": "11",
         "itemdateday": "07",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,238 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Eric_Walter_Elst"
     },
@@ -2070,7 +2070,7 @@
         "itemdatemonth": "01",
         "itemdateday": "01",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5221 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Yoshiaki_%C5%8Cshima"
     },
@@ -2086,7 +2086,7 @@
         "itemdatemonth": "01",
         "itemdateday": "30",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,196 AE",
         "itemdiameter": "42,59 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker, https://de.wikipedia.org/wiki/Eugene_Shoemaker"
@@ -2103,7 +2103,7 @@
         "itemdatemonth": "05",
         "itemdateday": "17",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,205 AE",
         "itemdiameter": "73,26 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker, https://de.wikipedia.org/wiki/Eugene_Shoemaker"
@@ -2120,7 +2120,7 @@
         "itemdatemonth": "01",
         "itemdateday": "31",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,197 AE",
         "itemdiameter": "64,58 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
@@ -2137,7 +2137,7 @@
         "itemdatemonth": "02",
         "itemdateday": "01",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,219 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker, https://de.wikipedia.org/wiki/Eugene_Shoemaker"
     },
@@ -2153,7 +2153,7 @@
         "itemdatemonth": "03",
         "itemdateday": "09",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,149 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
     },
@@ -2169,7 +2169,7 @@
         "itemdatemonth": "02",
         "itemdateday": "20",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,201 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker, https://de.wikipedia.org/wiki/Eugene_Shoemaker"
     },
@@ -2184,7 +2184,7 @@
         "itemdatemonth": "04",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,2 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker, https://de.wikipedia.org/wiki/Eugene_Shoemaker"
     },
@@ -2199,7 +2199,7 @@
         "itemdatemonth": "02",
         "itemdateday": "27",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,314 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Henri_Debehogne"
     },
@@ -2214,7 +2214,7 @@
         "itemdatemonth": "10",
         "itemdateday": "05",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,127 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Milan_Antal"
     },
@@ -2229,7 +2229,7 @@
         "itemdatemonth": "01",
         "itemdateday": "11",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,179 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker, https://de.wikipedia.org/wiki/Eugene_Shoemaker"
     },
@@ -2245,7 +2245,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,159 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2261,7 +2261,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,154 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2277,7 +2277,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,172 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2292,7 +2292,7 @@
         "itemdatemonth": "10",
         "itemdateday": "05",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,221 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Milan_Antal"
     },
@@ -2308,7 +2308,7 @@
         "itemdatemonth": "09",
         "itemdateday": "01",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,171 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2324,7 +2324,7 @@
         "itemdatemonth": "09",
         "itemdateday": "30",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,159 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2340,7 +2340,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,128 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2356,7 +2356,7 @@
         "itemdatemonth": "09",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,276 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2371,7 +2371,7 @@
         "itemdatemonth": "08",
         "itemdateday": "12",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,132 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Farra-d%E2%80%99Isonzo-Observatorium"
     },
@@ -2387,7 +2387,7 @@
         "itemdatemonth": "09",
         "itemdateday": "26",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,168 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2403,7 +2403,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,231 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2419,7 +2419,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,194 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2435,7 +2435,7 @@
         "itemdatemonth": "09",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,298 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2451,7 +2451,7 @@
         "itemdatemonth": "09",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,249 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2466,7 +2466,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,171 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2482,7 +2482,7 @@
         "itemdatemonth": "09",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,303 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2498,7 +2498,7 @@
         "itemdatemonth": "09",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,233 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2513,7 +2513,7 @@
         "itemdatemonth": "09",
         "itemdateday": "25",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,162 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2528,7 +2528,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,161 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2543,7 +2543,7 @@
         "itemdatemonth": "09",
         "itemdateday": "20",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,156 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2559,7 +2559,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,157 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2575,7 +2575,7 @@
         "itemdatemonth": "09",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,314 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2591,7 +2591,7 @@
         "itemdatemonth": "09",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,293 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2606,7 +2606,7 @@
         "itemdatemonth": "12",
         "itemdateday": "17",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,167 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Eric_Walter_Elst, https://de.wikipedia.org/wiki/Guido_Pizarro"
     },
@@ -2622,7 +2622,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,139 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2637,7 +2637,7 @@
         "itemdatemonth": "04",
         "itemdateday": "15",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,215 AE",
         "itemdiameter": "61,04 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker, https://de.wikipedia.org/wiki/Eugene_Shoemaker"
@@ -2653,7 +2653,7 @@
         "itemdatemonth": "10",
         "itemdateday": "13",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,207 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/OCA-DLR_Asteroid_Survey"
     },
@@ -2668,7 +2668,7 @@
         "itemdatemonth": "10",
         "itemdateday": "13",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,23 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Korado_Korlevi%C4%87"
     },
@@ -2683,7 +2683,7 @@
         "itemdatemonth": "11",
         "itemdateday": "20",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,24 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Yoshisada_Shimizu, https://de.wikipedia.org/wiki/Takeshi_Urata"
     },
@@ -2698,7 +2698,7 @@
         "itemdatemonth": "10",
         "itemdateday": "02",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,216 AE",
         "itemdiscoverer": "C. W. Juels"
     },
@@ -2713,7 +2713,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,144 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2728,7 +2728,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,136 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2743,7 +2743,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,178 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2758,7 +2758,7 @@
         "itemdatemonth": "04",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,137 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker, https://de.wikipedia.org/wiki/Eugene_Shoemaker"
     },
@@ -2773,7 +2773,7 @@
         "itemdatemonth": "09",
         "itemdateday": "11",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,213 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Uppsala-DLR_Trojan_Survey"
     },
@@ -2789,7 +2789,7 @@
         "itemdatemonth": "10",
         "itemdateday": "04",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,15 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Eric_Walter_Elst"
     },
@@ -2805,7 +2805,7 @@
         "itemdatemonth": "10",
         "itemdateday": "05",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,182 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Eric_Walter_Elst"
     },
@@ -2821,7 +2821,7 @@
         "itemdatemonth": "11",
         "itemdateday": "02",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,23 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Jana_Tich%C3%A1, https://de.wikipedia.org/wiki/Milo%C5%A1_Tich%C3%BD"
     },
@@ -2836,7 +2836,7 @@
         "itemdatemonth": "12",
         "itemdateday": "22",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,219 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Farra-d%E2%80%99Isonzo-Observatorium"
     },
@@ -2852,7 +2852,7 @@
         "itemdatemonth": "09",
         "itemdateday": "25",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,167 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2868,7 +2868,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,181 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2884,7 +2884,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,137 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2900,7 +2900,7 @@
         "itemdatemonth": "09",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,155 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2915,7 +2915,7 @@
         "itemdatemonth": "10",
         "itemdateday": "30",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,13 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Brian_A._Skiff"
     },
@@ -2931,7 +2931,7 @@
         "itemdatemonth": "10",
         "itemdateday": "22",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,265 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2947,7 +2947,7 @@
         "itemdatemonth": "09",
         "itemdateday": "29",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,178 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -2963,7 +2963,7 @@
         "itemdatemonth": "10",
         "itemdateday": "01",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,2 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Uppsala-DLR_Trojan_Survey"
     },
@@ -2979,7 +2979,7 @@
         "itemdatemonth": "12",
         "itemdateday": "30",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,1199 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Luciano_Tesi, https://de.wikipedia.org/wiki/Maura_Tombelli"
     },
@@ -2994,7 +2994,7 @@
         "itemdatemonth": "11",
         "itemdateday": "18",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,2061 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/LINEAR"
     },
@@ -3010,7 +3010,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,169 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3025,7 +3025,7 @@
         "itemdatemonth": "09",
         "itemdateday": "25",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,159 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3040,7 +3040,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,161 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3056,7 +3056,7 @@
         "itemdatemonth": "11",
         "itemdateday": "10",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,214 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/LINEAR"
     },
@@ -3072,7 +3072,7 @@
         "itemdatemonth": "09",
         "itemdateday": "29",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,106 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3088,7 +3088,7 @@
         "itemdatemonth": "09",
         "itemdateday": "25",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,186 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3104,7 +3104,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,143 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3119,7 +3119,7 @@
         "itemdatemonth": "12",
         "itemdateday": "17",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,188 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Milo%C5%A1_Tich%C3%BD, https://de.wikipedia.org/wiki/Zden%C4%9Bk_Moravec"
     },
@@ -3134,7 +3134,7 @@
         "itemdatemonth": "09",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,331 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3150,7 +3150,7 @@
         "itemdatemonth": "09",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,227 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3166,7 +3166,7 @@
         "itemdatemonth": "09",
         "itemdateday": "30",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,093 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3181,7 +3181,7 @@
         "itemdatemonth": "09",
         "itemdateday": "25",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,224 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3196,7 +3196,7 @@
         "itemdatemonth": "10",
         "itemdateday": "07",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,232 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Milo%C5%A1_Tich%C3%BD, https://de.wikipedia.org/wiki/Zden%C4%9Bk_Moravec"
     },
@@ -3212,7 +3212,7 @@
         "itemdatemonth": "10",
         "itemdateday": "17",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,27 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3227,7 +3227,7 @@
         "itemdatemonth": "09",
         "itemdateday": "30",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,206 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3242,7 +3242,7 @@
         "itemdatemonth": "09",
         "itemdateday": "25",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,221 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3258,7 +3258,7 @@
         "itemdatemonth": "09",
         "itemdateday": "30",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,168 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3274,7 +3274,7 @@
         "itemdatemonth": "09",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,179 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3289,7 +3289,7 @@
         "itemdatemonth": "09",
         "itemdateday": "30",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,215 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3304,7 +3304,7 @@
         "itemdatemonth": "02",
         "itemdateday": "02",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,2693 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/LINEAR"
     },
@@ -3320,7 +3320,7 @@
         "itemdatemonth": "09",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,318 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3335,7 +3335,7 @@
         "itemdatemonth": "09",
         "itemdateday": "20",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,174 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3350,7 +3350,7 @@
         "itemdatemonth": "10",
         "itemdateday": "10",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,228 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Claes-Ingvar_Lagerkvist"
     },
@@ -3365,7 +3365,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,147 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3380,7 +3380,7 @@
         "itemdatemonth": "09",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,305 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3395,7 +3395,7 @@
         "itemdatemonth": "09",
         "itemdateday": "29",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,137 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3410,7 +3410,7 @@
         "itemdatemonth": "09",
         "itemdateday": "29",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,201 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3425,7 +3425,7 @@
         "itemdatemonth": "09",
         "itemdateday": "30",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,204 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3440,7 +3440,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,175 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3456,7 +3456,7 @@
         "itemdatemonth": "09",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,324 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3471,7 +3471,7 @@
         "itemdatemonth": "09",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,136 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3487,7 +3487,7 @@
         "itemdatemonth": "09",
         "itemdateday": "25",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,1935 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3502,7 +3502,7 @@
         "itemdatemonth": "09",
         "itemdateday": "07",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,2179 AE",
         "itemdiscoverer": "J. Lacruz"
     },
@@ -3518,7 +3518,7 @@
         "itemdatemonth": "09",
         "itemdateday": "08",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,1171 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Michel_Ory"
     },
@@ -3533,7 +3533,7 @@
         "itemdatemonth": "09",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,1537 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -3549,7 +3549,7 @@
         "itemdatemonth": "09",
         "itemdateday": "14",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,1911 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Erwin_Schwab, https://de.wikipedia.org/wiki/Rainer_Kling"
     },
@@ -3565,7 +3565,7 @@
         "itemdatemonth": "09",
         "itemdateday": "26",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L4",
+        "itemlocation": "Jupiter L4",
         "semimajoraxis": "5,278 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Erwin_Schwab, S. Karge"
     },
@@ -3591,7 +3591,7 @@
         "itemdatemonth": "10",
         "itemdateday": "17",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,228 AE",
         "itemdiameter": "105 × 95 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/August_Kopff"
@@ -3608,7 +3608,7 @@
         "itemdatemonth": "09",
         "itemdateday": "22",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,164 AE",
         "itemdiameter": "117 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Max_Wolf"
@@ -3625,7 +3625,7 @@
         "itemdatemonth": "10",
         "itemdateday": "30",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,192 AE",
         "itemdiameter": "142,8 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Karl_Wilhelm_Reinmuth"
@@ -3642,7 +3642,7 @@
         "itemdatemonth": "10",
         "itemdateday": "17",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,325 AE",
         "itemdiameter": "126,3 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Karl_Wilhelm_Reinmuth"
@@ -3659,7 +3659,7 @@
         "itemdatemonth": "12",
         "itemdateday": "31",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,236 AE",
         "itemdiameter": "103,3 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Karl_Wilhelm_Reinmuth"
@@ -3676,7 +3676,7 @@
         "itemdatemonth": "03",
         "itemdateday": "03",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,135 AE",
         "itemdiameter": "122,7 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carlos_Ulrrico_Cesco"
@@ -3693,7 +3693,7 @@
         "itemdatemonth": "03",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,255 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten"
     },
@@ -3709,7 +3709,7 @@
         "itemdatemonth": "03",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,292 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten"
     },
@@ -3725,7 +3725,7 @@
         "itemdatemonth": "03",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,289 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten"
     },
@@ -3741,7 +3741,7 @@
         "itemdatemonth": "03",
         "itemdateday": "24",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,251 AE",
         "itemdiameter": "53,8 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten"
@@ -3758,7 +3758,7 @@
         "itemdatemonth": "08",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,126 AE",
         "itemdiameter": "85,1 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Nikolai_Stepanowitsch_Tschernych"
@@ -3775,7 +3775,7 @@
         "itemdatemonth": "10",
         "itemdateday": "04",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,195 AE",
         "itemdiameter": "94,6 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Purple-Mountain-Observatorium"
@@ -3792,7 +3792,7 @@
         "itemdatemonth": "11",
         "itemdateday": "22",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,208 AE",
         "itemdiameter": "114,6 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Charles_Thomas_Kowal"
@@ -3809,7 +3809,7 @@
         "itemdatemonth": "01",
         "itemdateday": "01",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,192 AE",
         "itemdiameter": "94,9 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Edward_L._G._Bowell"
@@ -3826,7 +3826,7 @@
         "itemdatemonth": "10",
         "itemdateday": "04",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,161 AE",
         "itemdiameter": "81,8 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Purple-Mountain-Observatorium"
@@ -3843,7 +3843,7 @@
         "itemdatemonth": "10",
         "itemdateday": "04",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,091 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Charles_Thomas_Kowal"
     },
@@ -3859,7 +3859,7 @@
         "itemdatemonth": "04",
         "itemdateday": "14",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,172 AE",
         "itemdiameter": "98,1 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Oak-Ridge-Observatorium"
@@ -3876,7 +3876,7 @@
         "itemdatemonth": "08",
         "itemdateday": "30",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,18 AE",
         "itemdiameter": "87,5 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Felix-Aguilar-Observatorium"
@@ -3893,7 +3893,7 @@
         "itemdatemonth": "01",
         "itemdateday": "10",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,232 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Norman_G._Thomas"
     },
@@ -3909,7 +3909,7 @@
         "itemdatemonth": "11",
         "itemdateday": "07",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,2563 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Eleanor_Helin, https://de.wikipedia.org/wiki/Schelte_John_Bus"
     },
@@ -3925,7 +3925,7 @@
         "itemdatemonth": "05",
         "itemdateday": "26",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,216 AE",
         "itemdiameter": "116,3 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker, https://de.wikipedia.org/wiki/Eugene_Shoemaker"
@@ -3942,7 +3942,7 @@
         "itemdatemonth": "04",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,095 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Anton%C3%ADn_Mrkos"
     },
@@ -3958,7 +3958,7 @@
         "itemdatemonth": "03",
         "itemdateday": "21",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,222 AE",
         "itemdiameter": "79,6 km",
         "itemdiscoverer": "Universität Chile"
@@ -3975,7 +3975,7 @@
         "itemdatemonth": "09",
         "itemdateday": "11",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,247 AE",
         "itemdiameter": "47,9 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
@@ -3992,7 +3992,7 @@
         "itemdatemonth": "08",
         "itemdateday": "13",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,177 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
     },
@@ -4008,7 +4008,7 @@
         "itemdatemonth": "09",
         "itemdateday": "11",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,277 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
     },
@@ -4024,7 +4024,7 @@
         "itemdatemonth": "10",
         "itemdateday": "12",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,221 AE",
         "itemdiameter": "80,8 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
@@ -4041,7 +4041,7 @@
         "itemdatemonth": "10",
         "itemdateday": "09",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,114 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Yoshiaki_%C5%8Cshima"
     },
@@ -4057,7 +4057,7 @@
         "itemdatemonth": "10",
         "itemdateday": "16",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,214 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -4073,7 +4073,7 @@
         "itemdatemonth": "10",
         "itemdateday": "16",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,217 AE",
         "itemdiameter": "53,2 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Tom_Gehrels"
@@ -4090,7 +4090,7 @@
         "itemdatemonth": "08",
         "itemdateday": "14",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,176 AE",
         "itemdiameter": "57,8 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
@@ -4107,7 +4107,7 @@
         "itemdatemonth": "09",
         "itemdateday": "10",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,267 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
     },
@@ -4123,7 +4123,7 @@
         "itemdatemonth": "11",
         "itemdateday": "13",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,225 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
     },
@@ -4139,7 +4139,7 @@
         "itemdatemonth": "08",
         "itemdateday": "17",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,121 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
     },
@@ -4155,7 +4155,7 @@
         "itemdatemonth": "09",
         "itemdateday": "11",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,181 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
     },
@@ -4171,7 +4171,7 @@
         "itemdatemonth": "09",
         "itemdateday": "10",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,12 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
     },
@@ -4187,7 +4187,7 @@
         "itemdatemonth": "10",
         "itemdateday": "12",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,255 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
     },
@@ -4203,7 +4203,7 @@
         "itemdatemonth": "09",
         "itemdateday": "27",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,158 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
     },
@@ -4218,7 +4218,7 @@
         "itemdatemonth": "09",
         "itemdateday": "08",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,197 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Poul_Jensen_(Astronom)"
     },
@@ -4233,7 +4233,7 @@
         "itemdatemonth": "10",
         "itemdateday": "13",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,285 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
     },
@@ -4249,7 +4249,7 @@
         "itemdatemonth": "09",
         "itemdateday": "30",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,235 AE",
         "itemdiameter": "59,4 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
@@ -4266,7 +4266,7 @@
         "itemdatemonth": "12",
         "itemdateday": "02",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,211 AE",
         "itemdiameter": "91,91 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker"
@@ -4282,7 +4282,7 @@
         "itemdatemonth": "09",
         "itemdateday": "14",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,152 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Schelte_John_Bus"
     },
@@ -4297,7 +4297,7 @@
         "itemdatemonth": "09",
         "itemdateday": "14",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,181 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Schelte_John_Bus"
     },
@@ -4312,7 +4312,7 @@
         "itemdatemonth": "10",
         "itemdateday": "02",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,111 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Schelte_John_Bus"
     },
@@ -4327,7 +4327,7 @@
         "itemdatemonth": "10",
         "itemdateday": "08",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,22 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker, https://de.wikipedia.org/wiki/Eugene_Shoemaker"
     },
@@ -4342,7 +4342,7 @@
         "itemdatemonth": "09",
         "itemdateday": "10",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,118 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker, https://de.wikipedia.org/wiki/Eugene_Shoemaker"
     },
@@ -4357,7 +4357,7 @@
         "itemdatemonth": "10",
         "itemdateday": "10",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,268 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker, https://de.wikipedia.org/wiki/Eugene_Shoemaker"
     },
@@ -4372,7 +4372,7 @@
         "itemdatemonth": "11",
         "itemdateday": "11",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,164 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Kin_Endate, K. Watanabe"
     },
@@ -4387,7 +4387,7 @@
         "itemdatemonth": "10",
         "itemdateday": "02",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,147 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Schelte_John_Bus"
     },
@@ -4402,7 +4402,7 @@
         "itemdatemonth": "09",
         "itemdateday": "08",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,214 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Poul_Jensen_(Astronom)"
     },
@@ -4417,7 +4417,7 @@
         "itemdatemonth": "09",
         "itemdateday": "14",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,25 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Schelte_John_Bus"
     },
@@ -4433,7 +4433,7 @@
         "itemdatemonth": "10",
         "itemdateday": "16",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,182 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -4449,7 +4449,7 @@
         "itemdatemonth": "10",
         "itemdateday": "16",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,195 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -4464,7 +4464,7 @@
         "itemdatemonth": "02",
         "itemdateday": "04",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,152 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Seiji_Ueda, https://de.wikipedia.org/wiki/Hiroshi_Kaneda"
     },
@@ -4480,7 +4480,7 @@
         "itemdatemonth": "08",
         "itemdateday": "21",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,291 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Eric_Walter_Elst"
     },
@@ -4495,7 +4495,7 @@
         "itemdatemonth": "09",
         "itemdateday": "10",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,246 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker, https://de.wikipedia.org/wiki/Eugene_Shoemaker"
     },
@@ -4510,7 +4510,7 @@
         "itemdatemonth": "10",
         "itemdateday": "30",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,206 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Schelte_John_Bus"
     },
@@ -4526,7 +4526,7 @@
         "itemdatemonth": "10",
         "itemdateday": "16",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,187 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -4541,7 +4541,7 @@
         "itemdatemonth": "04",
         "itemdateday": "17",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,282 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Eric_Walter_Elst"
     },
@@ -4556,7 +4556,7 @@
         "itemdatemonth": "11",
         "itemdateday": "15",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,181 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Eric_Walter_Elst"
     },
@@ -4571,7 +4571,7 @@
         "itemdatemonth": "01",
         "itemdateday": "27",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,219 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Eric_Walter_Elst"
     },
@@ -4587,7 +4587,7 @@
         "itemdatemonth": "01",
         "itemdateday": "22",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,244 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Eric_Walter_Elst"
     },
@@ -4603,7 +4603,7 @@
         "itemdatemonth": "11",
         "itemdateday": "03",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,185 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Petr_Pravec"
     },
@@ -4618,7 +4618,7 @@
         "itemdatemonth": "10",
         "itemdateday": "14",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,187 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Freimut_B%C3%B6rngen, https://de.wikipedia.org/wiki/Lutz_D._Schmadel"
     },
@@ -4633,7 +4633,7 @@
         "itemdatemonth": "05",
         "itemdateday": "03",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,263 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Eric_Walter_Elst"
     },
@@ -4648,7 +4648,7 @@
         "itemdatemonth": "08",
         "itemdateday": "18",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,101 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Carolyn_Jean_Spellmann_Shoemaker, https://de.wikipedia.org/wiki/Eugene_Shoemaker"
     },
@@ -4664,7 +4664,7 @@
         "itemdatemonth": "04",
         "itemdateday": "15",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,256 AE",
         "itemdiameter": "64,31 km",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Eric_Walter_Elst"
@@ -4681,7 +4681,7 @@
         "itemdatemonth": "10",
         "itemdateday": "15",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,142 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -4697,7 +4697,7 @@
         "itemdatemonth": "06",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,202 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/LINEAR"
     },
@@ -4713,7 +4713,7 @@
         "itemdatemonth": "11",
         "itemdateday": "02",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,0682 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Eric_Walter_Elst"
     },
@@ -4729,7 +4729,7 @@
         "itemdatemonth": "06",
         "itemdateday": "19",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,2516 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/LINEAR"
     },
@@ -4745,7 +4745,7 @@
         "itemdatemonth": "03",
         "itemdateday": "25",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,178 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -4761,7 +4761,7 @@
         "itemdatemonth": "12",
         "itemdateday": "10",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,112 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Freimut_B%C3%B6rngen"
     },
@@ -4777,7 +4777,7 @@
         "itemdatemonth": "03",
         "itemdateday": "26",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,278 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -4793,7 +4793,7 @@
         "itemdatemonth": "10",
         "itemdateday": "16",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,165 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -4808,7 +4808,7 @@
         "itemdatemonth": "10",
         "itemdateday": "16",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,198 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -4824,7 +4824,7 @@
         "itemdatemonth": "10",
         "itemdateday": "16",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,175 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -4839,7 +4839,7 @@
         "itemdatemonth": "10",
         "itemdateday": "16",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,215 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -4855,7 +4855,7 @@
         "itemdatemonth": "10",
         "itemdateday": "16",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,2 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -4871,7 +4871,7 @@
         "itemdatemonth": "10",
         "itemdateday": "16",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,194 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -4887,7 +4887,7 @@
         "itemdatemonth": "10",
         "itemdateday": "16",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,224 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -4902,7 +4902,7 @@
         "itemdatemonth": "10",
         "itemdateday": "16",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,228 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -4917,7 +4917,7 @@
         "itemdatemonth": "04",
         "itemdateday": "20",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,257 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Eric_Walter_Elst"
     },
@@ -4933,7 +4933,7 @@
         "itemdatemonth": "10",
         "itemdateday": "16",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,197 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -4949,7 +4949,7 @@
         "itemdatemonth": "10",
         "itemdateday": "16",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,224 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -4964,7 +4964,7 @@
         "itemdatemonth": "10",
         "itemdateday": "14",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,24 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Freimut_B%C3%B6rngen, https://de.wikipedia.org/wiki/Lutz_D._Schmadel"
     },
@@ -4979,7 +4979,7 @@
         "itemdatemonth": "10",
         "itemdateday": "16",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,205 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -4994,7 +4994,7 @@
         "itemdatemonth": "10",
         "itemdateday": "16",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,194 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -5009,7 +5009,7 @@
         "itemdatemonth": "03",
         "itemdateday": "26",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,245 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -5024,7 +5024,7 @@
         "itemdatemonth": "03",
         "itemdateday": "26",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,228 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -5039,7 +5039,7 @@
         "itemdatemonth": "10",
         "itemdateday": "17",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,157 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -5054,7 +5054,7 @@
         "itemdatemonth": "10",
         "itemdateday": "17",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,215 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -5069,7 +5069,7 @@
         "itemdatemonth": "10",
         "itemdateday": "17",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,205 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -5084,7 +5084,7 @@
         "itemdatemonth": "10",
         "itemdateday": "17",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,241 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -5099,7 +5099,7 @@
         "itemdatemonth": "01",
         "itemdateday": "13",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,1585 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Michel_Ory"
     },
@@ -5114,7 +5114,7 @@
         "itemdatemonth": "10",
         "itemdateday": "16",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,1677 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -5129,7 +5129,7 @@
         "itemdatemonth": "01",
         "itemdateday": "22",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,1964 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Jean-Claude_Merlin"
     },
@@ -5144,7 +5144,7 @@
         "itemdatemonth": "01",
         "itemdateday": "13",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,2549 AE",
         "itemdiscoverer": "Jarnac Observatory"
     },
@@ -5159,7 +5159,7 @@
         "itemdatemonth": "03",
         "itemdateday": "23",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,1954 AE",
         "itemdiscoverer": "Calvin-Rehoboth-Observatorium"
     },
@@ -5175,7 +5175,7 @@
         "itemdatemonth": "10",
         "itemdateday": "16",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,2004 AE",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Cornelis_Johannes_van_Houten, https://de.wikipedia.org/wiki/Ingrid_van_Houten-Groeneveld, https://de.wikipedia.org/wiki/Tom_Gehrels"
     },
@@ -5190,7 +5190,7 @@
         "itemdatemonth": "01",
         "itemdateday": "03",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,2185 AE",
         "itemdiscoverer": "I. R. Ferrin"
     },
@@ -5205,7 +5205,7 @@
         "itemdatemonth": "07",
         "itemdateday": "08",
         "itemcolor": "jupiter-yellow",
-        "itemlocation": "L5",
+        "itemlocation": "Jupiter L5",
         "semimajoraxis": "5,1282 AE",
         "itemdiscoverer": "L. Elenin"
     },
@@ -8525,7 +8525,7 @@
         "itemcategory": "trojan",
         "itemparent": "uranus-trojan-group",
         "itemcolor": "uranus-turq",
-        "itemlocation": "L4",
+        "itemlocation": "Uranus L4",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Canada-France-Hawaii_Telescope"
     },
     {
@@ -9456,7 +9456,7 @@
         "itemcategory": "trojan-lagrange-group",
         "itemparent": "neptune-trojan-group",
         "itemcolor": "neptune-blue",
-        "itemlocation": "L4"
+        "itemlocation": "Neptun L4"
     },
     {
         "itemindex": "3.4.1.1.1.01",
@@ -9467,7 +9467,7 @@
         "itemcategory": "trojan",
         "itemparent": "neptune-trojan-lagrange4",
         "itemcolor": "neptune-blue",
-        "itemlocation": "L4",
+        "itemlocation": "Neptun L4",
         "itemdiscoverer": "Lowell DES"
     },
     {
@@ -9479,7 +9479,7 @@
         "itemcategory": "trojan",
         "itemparent": "neptune-trojan-lagrange4",
         "itemcolor": "neptune-blue",
-        "itemlocation": "L4",
+        "itemlocation": "Neptun L4",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Scott_S._Sheppard, https://de.wikipedia.org/wiki/Chad_Trujillo, https://de.wikipedia.org/wiki/David_C._Jewitt"
     },
     {
@@ -9491,7 +9491,7 @@
         "itemcategory": "trojan",
         "itemparent": "neptune-trojan-lagrange4",
         "itemcolor": "neptune-blue",
-        "itemlocation": "L4",
+        "itemlocation": "Neptun L4",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Scott_S._Sheppard, https://de.wikipedia.org/wiki/Chad_Trujillo, https://de.wikipedia.org/wiki/David_C._Jewitt"
     },
     {
@@ -9503,7 +9503,7 @@
         "itemcategory": "trojan",
         "itemparent": "neptune-trojan-lagrange4",
         "itemcolor": "neptune-blue",
-        "itemlocation": "L4",
+        "itemlocation": "Neptun L4",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Scott_S._Sheppard, https://de.wikipedia.org/wiki/Chad_Trujillo, https://de.wikipedia.org/wiki/David_C._Jewitt"
     },
     {
@@ -9515,7 +9515,7 @@
         "itemcategory": "trojan",
         "itemparent": "neptune-trojan-lagrange4",
         "itemcolor": "neptune-blue",
-        "itemlocation": "L4",
+        "itemlocation": "Neptun L4",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Sloan_Digital_Sky_Survey"
     },
     {
@@ -9527,7 +9527,7 @@
         "itemcategory": "trojan",
         "itemparent": "neptune-trojan-lagrange4",
         "itemcolor": "neptune-blue",
-        "itemlocation": "L4",
+        "itemlocation": "Neptun L4",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Sloan_Digital_Sky_Survey"
     },
     {
@@ -9549,7 +9549,7 @@
         "itemcategory": "trojan",
         "itemparent": "neptune-trojan-lagrange5",
         "itemcolor": "neptune-blue",
-        "itemlocation": "L5",
+        "itemlocation": "Neptun L5",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Scott_S._Sheppard, https://de.wikipedia.org/wiki/Chad_Trujillo"
     },
     {
@@ -9561,7 +9561,7 @@
         "itemcategory": "trojan",
         "itemparent": "neptune-trojan-lagrange5",
         "itemcolor": "neptune-blue",
-        "itemlocation": "L5",
+        "itemlocation": "Neptun L5",
         "itemdiscoverer": "Alex H. Parker"
     },
     {
