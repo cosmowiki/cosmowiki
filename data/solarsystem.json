@@ -535,6 +535,122 @@
         "itemcolor": "earth-blue"
     },
     {
+        "itemindex": "1.3.3.4",
+        "itemname": "Atira-Typ-Asteroiden",
+        "itemurl": "https://de.wikipedia.org/wiki/Aten-Typ",
+        "itemname2": "atenTypeAsteroids",
+        "itemtype": "level-4",
+        "itemcategory": "asteroid-main-group",
+        "itemparent": "near-earth-objects",
+        "itemcolor": "earth-blue"
+    },
+    {
+        "itemindex": "1.3.3.4.1",
+        "itemtype": "level-5"
+    },
+    {
+        "itemindex": "1.3.3.4.1.001",
+        "itemname": "(163693) Atira",
+        "itemurl": "https://de.wikipedia.org/wiki/(163693)_Atira",
+        "itemname2": "163693_atira",
+        "itemtype": "level-6",
+        "itemcategory": "asteroid",
+        "itemparent": "atira-type-asteroids",
+        "itemcolor": "earth-blue"
+    },
+    {
+        "itemindex": "1.3.3.4.1.002",
+        "itemname": "(164294) 2004 XZ130",
+        "itemurl": "https://de.wikipedia.org/wiki/(164294)_2004_XZ130",
+        "itemname2": "164294_2004_xz130",
+        "itemtype": "level-6",
+        "itemcategory": "asteroid",
+        "itemparent": "atira-type-asteroids",
+        "itemcolor": "earth-blue"
+    },
+    {
+        "itemindex": "1.3.3.4.1.003",
+        "itemname": "(413563) 2005 TG45",
+        "itemname2": "413563_2005_tg45",
+        "itemtype": "level-6",
+        "itemcategory": "asteroid",
+        "itemparent": "atira-type-asteroids",
+        "itemcolor": "earth-blue"
+    },
+    {
+        "itemindex": "1.3.3.4.1.004",
+        "itemname": "(418265) 2008 EA32",
+        "itemname2": "418265_2008_ea32",
+        "itemtype": "level-6",
+        "itemcategory": "asteroid",
+        "itemparent": "atira-type-asteroids",
+        "itemcolor": "earth-blue"
+    },
+    {
+        "itemindex": "1.3.3.4.1.005",
+        "itemname": "(434326) 2004 JG6",
+        "itemurl": "https://de.wikipedia.org/wiki/(434326)_2004_JG6",
+        "itemname2": "434326_2004_jg6",
+        "itemtype": "level-6",
+        "itemcategory": "asteroid",
+        "itemparent": "atira-type-asteroids",
+        "itemcolor": "earth-blue"
+    },
+    {
+        "itemindex": "1.3.3.4.1.006",
+        "itemname": "(459883) 2014 JX55",
+        "itemname2": "459883_2014_jx55",
+        "itemtype": "level-6",
+        "itemcategory": "asteroid",
+        "itemparent": "atira-type-asteroids",
+        "itemcolor": "earth-blue"
+    },
+    {
+        "itemindex": "1.3.3.4.1.007",
+        "itemname": "(481817) 2008 UL90",
+        "itemname2": "481817_2008_ul90",
+        "itemtype": "level-6",
+        "itemcategory": "asteroid",
+        "itemparent": "atira-type-asteroids",
+        "itemcolor": "earth-blue"
+    },
+    {
+        "itemindex": "1.3.3.4.1.008",
+        "itemname": "1998 DK36",
+        "itemname2": "1998_dk36",
+        "itemtype": "level-6",
+        "itemcategory": "asteroid",
+        "itemparent": "atira-type-asteroids",
+        "itemcolor": "earth-blue"
+    },
+    {
+        "itemindex": "1.3.3.4.1.009",
+        "itemname": "2006 WE4",
+        "itemname2": "2006_we4",
+        "itemtype": "level-6",
+        "itemcategory": "asteroid",
+        "itemparent": "atira-type-asteroids",
+        "itemcolor": "earth-blue"
+    },
+    {
+        "itemindex": "1.3.3.4.1.010",
+        "itemname": "2010 XB11",
+        "itemname2": "2010_xb11",
+        "itemtype": "level-6",
+        "itemcategory": "asteroid",
+        "itemparent": "atira-type-asteroids",
+        "itemcolor": "earth-blue"
+    },
+    {
+        "itemindex": "1.3.3.4.1.011",
+        "itemname": "2013 JX28",
+        "itemname2": "2013_jx28",
+        "itemtype": "level-6",
+        "itemcategory": "asteroid",
+        "itemparent": "atira-type-asteroids",
+        "itemcolor": "earth-blue"
+    },
+    {
         "itemindex": "1.4",
         "itemname": "Mars",
         "itemurl": "https://de.wikipedia.org/wiki/Mars_(Planet)",
