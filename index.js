@@ -39656,6 +39656,15 @@ var SolarSystemComponent = function SolarSystemComponent(_ref) {
       )
     ),
     _react2['default'].createElement(
+      'div',
+      { id: 'todo', className: 'pure-u-1' },
+      _react2['default'].createElement(
+        'p',
+        null,
+        '@wolfram: Is there a way to loop through the items an build the structure automatically w/o writing all the components for each body or group of bodies?'
+      )
+    ),
+    _react2['default'].createElement(
       _chunksSummary.Summary,
       null,
       _react2['default'].createElement(
@@ -40239,6 +40248,27 @@ var SolarSystemComponent = function SolarSystemComponent(_ref) {
                             { item: item, key: idx },
                             items.filter(function (item) {
                               return item.index.startsWith('1.3.3.3.4.');
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            })
+                          );
+                        })
+                      );
+                    }),
+                    items.filter(function (item) {
+                      return item.index === '1.3.3.4';
+                    }).map(function (item, idx) {
+                      return _react2['default'].createElement(
+                        ItemComponent,
+                        { item: item, key: idx },
+                        items.filter(function (item) {
+                          return item.index === '1.3.3.4.1';
+                        }).map(function (item, idx) {
+                          return _react2['default'].createElement(
+                            ItemComponent,
+                            { item: item, key: idx },
+                            items.filter(function (item) {
+                              return item.index.startsWith('1.3.3.4.1.');
                             }).map(function (item, idx) {
                               return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
                             })
