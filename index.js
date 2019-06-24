@@ -45579,7 +45579,7 @@ var Item = (function () {
     key: 'fromRawData',
     value: function fromRawData(raw) {
       var item = new Item();
-      item.index = raw.itemindex;
+      item.index = raw.itemindex != '0' ? raw.itemindex.replace(/0/g, '') : raw.itemindex;
       item.name = raw.itemname;
       item.name2 = raw.itemname2 ? raw.itemname2 : ''; //to use in id=""
       var alternativename1 = raw.itemname3 ? raw.itemname3 : '';
