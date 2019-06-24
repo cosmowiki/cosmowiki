@@ -39656,15 +39656,6 @@ var SolarSystemComponent = function SolarSystemComponent(_ref) {
       )
     ),
     _react2['default'].createElement(
-      'div',
-      { id: 'todo', className: 'pure-u-1' },
-      _react2['default'].createElement(
-        'p',
-        null,
-        '@wolfram: pls make it work'
-      )
-    ),
-    _react2['default'].createElement(
       _chunksSummary.Summary,
       null,
       _react2['default'].createElement(
@@ -40534,9 +40525,30 @@ var SolarSystemComponent = function SolarSystemComponent(_ref) {
                             ItemComponent,
                             { item: item, key: idx },
                             items.filter(function (item) {
-                              return item.index.startsWith('2.4.1.1.1.');
+                              return item.index === '2.4.1.1.1.1';
                             }).map(function (item, idx) {
-                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                              return _react2['default'].createElement(
+                                ItemComponent,
+                                { item: item, key: idx },
+                                items.filter(function (item) {
+                                  return item.index.startsWith('2.4.1.1.1.1.');
+                                }).map(function (item, idx) {
+                                  return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                                })
+                              );
+                            }),
+                            items.filter(function (item) {
+                              return item.index === '2.4.1.1.1.2';
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(
+                                ItemComponent,
+                                { item: item, key: idx },
+                                items.filter(function (item) {
+                                  return item.index.startsWith('2.4.1.1.1.2.');
+                                }).map(function (item, idx) {
+                                  return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                                })
+                              );
                             })
                           );
                         })
@@ -40848,6 +40860,37 @@ var SolarSystemComponent = function SolarSystemComponent(_ref) {
                                 { item: item, key: idx },
                                 items.filter(function (item) {
                                   return item.index.startsWith('5.1.1.2.1.1.');
+                                }).map(function (item, idx) {
+                                  return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                                })
+                              );
+                            }),
+                            items.filter(function (item) {
+                              return item.index === '5.1.1.2.1.2';
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(
+                                ItemComponent,
+                                { item: item, key: idx },
+                                items.filter(function (item) {
+                                  return item.index.startsWith('5.1.1.2.1.2.');
+                                }).map(function (item, idx) {
+                                  return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                                })
+                              );
+                            }),
+                            items.filter(function (item) {
+                              return item.index === '5.1.1.2.1.3';
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
+                            }),
+                            items.filter(function (item) {
+                              return item.index === '5.1.1.2.1.4';
+                            }).map(function (item, idx) {
+                              return _react2['default'].createElement(
+                                ItemComponent,
+                                { item: item, key: idx },
+                                items.filter(function (item) {
+                                  return item.index.startsWith('5.1.1.2.1.4.');
                                 }).map(function (item, idx) {
                                   return _react2['default'].createElement(ItemComponent, { item: item, key: idx });
                                 })
