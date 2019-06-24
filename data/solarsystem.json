@@ -218,7 +218,7 @@
         "itemtype": "level-3",
         "itemcategory": "near-earth-group",
         "itemparent": "earth",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1",
@@ -228,7 +228,7 @@
         "itemtype": "level-4",
         "itemcategory": "asteroid-main-group",
         "itemparent": "near-earth-objects",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1",
@@ -242,7 +242,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.002",
@@ -252,7 +252,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.003",
@@ -262,7 +262,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.004",
@@ -272,7 +272,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.005",
@@ -282,7 +282,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.006",
@@ -292,7 +292,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.007",
@@ -302,7 +302,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.008",
@@ -312,7 +312,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.009",
@@ -322,7 +322,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.010",
@@ -332,7 +332,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.011",
@@ -342,7 +342,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.012",
@@ -352,7 +352,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.013",
@@ -362,7 +362,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.014",
@@ -372,7 +372,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.015",
@@ -382,7 +382,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.016",
@@ -392,7 +392,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.017",
@@ -402,7 +402,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.1.1.018",
@@ -412,7 +412,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "aten-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.2",
@@ -422,7 +422,7 @@
         "itemtype": "level-4",
         "itemcategory": "asteroid-main-group",
         "itemparent": "near-earth-objects",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.2.1",
@@ -436,7 +436,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "apollo-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.3",
@@ -446,7 +446,7 @@
         "itemtype": "level-4",
         "itemcategory": "asteroid-main-group",
         "itemparent": "near-earth-objects",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.3.1",
@@ -455,7 +455,7 @@
         "itemtype": "level-5",
         "itemcategory": "asteroid-group",
         "itemparent": "amor-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.3.1.001",
@@ -465,7 +465,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "amor-1-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.3.2",
@@ -474,7 +474,7 @@
         "itemtype": "level-5",
         "itemcategory": "asteroid-group",
         "itemparent": "amor-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.3.2.001",
@@ -484,7 +484,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "amor-2-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.3.3",
@@ -493,7 +493,7 @@
         "itemtype": "level-5",
         "itemcategory": "asteroid-group",
         "itemparent": "amor-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.3.3.001",
@@ -503,7 +503,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "amor-3-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.3.3.002",
@@ -513,7 +513,7 @@
         "itemtype": "level-6",
         "itemcategory": "object",
         "itemparent": "amor-3-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.3.4",
@@ -522,7 +522,7 @@
         "itemtype": "level-5",
         "itemcategory": "asteroid-group",
         "itemparent": "amor-type-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.3.3.3.4.001",
@@ -532,7 +532,7 @@
         "itemtype": "level-6",
         "itemcategory": "asteroid",
         "itemparent": "amor-4-asteroids",
-        "itemcolor": "asteroid-grey"
+        "itemcolor": "earth-blue"
     },
     {
         "itemindex": "1.4",
@@ -8504,11 +8504,17 @@
         "itemtype": "level-4",
         "itemcategory": "trojan-group",
         "itemparent": "uranus",
-        "itemcolor": "uranus-grey"
+        "itemcolor": "uranus-turq"
     },
     {
         "itemindex": "3.3.1.1.1",
-        "itemtype": "level-5"
+        "itemname": "Lagrange-Punkt L4",
+        "itemurl": "https://de.wikipedia.org/wiki/Lagrange-Punkte",
+        "itemname2": "lagrangePoint4",
+        "itemtype": "level-5",
+        "itemcategory": "trojan-lagrange-group",
+        "itemparent": "uranus-trojan-group",
+        "itemcolor": "uranus-turq"
     },
     {
         "itemindex": "3.3.1.1.1.1",
@@ -8518,7 +8524,7 @@
         "itemtype": "level-6",
         "itemcategory": "trojan",
         "itemparent": "uranus-trojan-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "itemlocation": "L4",
         "itemdiscoverer": "https://de.wikipedia.org/wiki/Canada-France-Hawaii_Telescope"
     },
@@ -8531,7 +8537,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "190.900 km",
         "itemapoapsis": "191.130 km",
         "itemperiapsis": "190.670 km",
@@ -8564,7 +8570,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "266.300 km",
         "itemapoapsis": "267.500 km",
         "itemperiapsis": "265.100 km",
@@ -8596,7 +8602,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "436.300 km",
         "itemapoapsis": "436.800 km",
         "itemperiapsis": "435.800 km",
@@ -8628,7 +8634,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "583.519 km",
         "itemapoapsis": "584.336 km",
         "itemperiapsis": "582.702 km",
@@ -8660,7 +8666,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "129.872 km",
         "itemapoapsis": "130.041 km",
         "itemperiapsis": "129.703 km",
@@ -8694,7 +8700,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "49.751,722 ± 0,149 km",
         "itemapoapsis": "49.764,657 km",
         "itemperiapsis": "49.738,787 km",
@@ -8727,7 +8733,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "53.763,390 ± 0,847 km",
         "itemapoapsis": "54.296,723 km",
         "itemperiapsis": "53.230,057 km",
@@ -8760,7 +8766,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "59.165,550 ± 0,045 km",
         "itemapoapsis": "59.219,982 km",
         "itemperiapsis": "59.111,118 km",
@@ -8793,7 +8799,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "61.766,73 ± 0.05 km",
         "itemapoapsis": "61.789 km",
         "itemperiapsis": "61.744 km",
@@ -8826,7 +8832,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "62.658,364 ± 0,047 km",
         "itemapoapsis": "62.666,509 km",
         "itemperiapsis": "62.650,218 km",
@@ -8859,7 +8865,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "64.358,222 ± 0,048 km",
         "itemapoapsis": "64.400,698 km",
         "itemperiapsis": "64.315,746 km",
@@ -8892,7 +8898,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "66.097,265 ± 0,050 km",
         "itemapoapsis": "66.100,570 km",
         "itemperiapsis": "66.093,960 km",
@@ -8925,7 +8931,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "69.926,795 ± 0,053 km",
         "itemapoapsis": "69.934,487 km",
         "itemperiapsis": "69.919,103 km",
@@ -8958,7 +8964,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "75.255,613 ± 0,057 km",
         "itemapoapsis": "75.260,881 km",
         "itemperiapsis": "75.250,345 km",
@@ -8991,7 +8997,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "86.004,44 ± 0,06 km",
         "itemapoapsis": "86.015 km",
         "itemperiapsis": "85.994 km",
@@ -9023,7 +9029,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "7.164.900 km",
         "itemapoapsis": "7.730.700 km",
         "itemperiapsis": "6.599.100 km",
@@ -9056,7 +9062,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "12.175.560 km",
         "itemapoapsis": "18.393.380 km",
         "itemperiapsis": "5.957.740 km",
@@ -9087,7 +9093,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "16.162.240 km",
         "itemapoapsis": "21.489.900 km",
         "itemperiapsis": "10.834.570 km",
@@ -9118,7 +9124,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "17.419.270 km",
         "itemapoapsis": "27.386.730 km",
         "itemperiapsis": "7.451.800 km",
@@ -9150,7 +9156,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "7.952.320 km",
         "itemapoapsis": "9.100.340 km",
         "itemperiapsis": "6.804.300 km",
@@ -9182,7 +9188,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "8.501.260 km",
         "itemapoapsis": "10.352.280 km",
         "itemperiapsis": "6.650.240 km",
@@ -9213,7 +9219,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "4.275.910 km",
         "itemapoapsis": "4.861.340 km",
         "itemperiapsis": "3.690.480 km",
@@ -9245,7 +9251,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "14.420.340 km",
         "itemapoapsis": "25.926.970 km",
         "itemperiapsis": "2.913.700 km",
@@ -9276,7 +9282,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "20.507.100 km",
         "itemapoapsis": "29.350.350 km",
         "itemperiapsis": "11.663.850 km",
@@ -9307,7 +9313,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "76.417 ± 1 km",
         "itemapoapsis": "76.509 km",
         "itemperiapsis": "76.325 km",
@@ -9339,7 +9345,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "97.736 km",
         "itemapoapsis": "97.980 km",
         "itemperiapsis": "97.492 km",
@@ -9368,7 +9374,7 @@
         "itemtype": "level-3",
         "itemcategory": "planet-moon",
         "itemparent": "uranus-moon-group",
-        "itemcolor": "uranus-grey",
+        "itemcolor": "uranus-turq",
         "semimajoraxis": "74.392 km",
         "itemapoapsis": "74.489 km",
         "itemperiapsis": "74.295 km",
@@ -10020,19 +10026,21 @@
     },
     {
         "itemindex": "5.1.1.1",
-        "itemname": "klassische KBOs",
-        "itemname2": "classicalKBOs",
+        "itemname": "klassische KBO",
+        "itemname2": "classicalKBO",
         "itemtype": "level-4",
-        "itemcategory": "kuiperbelt-object",
-        "itemparent": "kuiperbelt-object-group"
+        "itemcategory": "kuiperbelt-main-group",
+        "itemparent": "kuiperbelt-object-group",
+        "itemcolor": "kuiperbelt-brown"
     },
     {
         "itemindex": "5.1.1.2",
-        "itemname": "resonante KBOs",
-        "itemname2": "resonantKBOs",
+        "itemname": "resonante KBO",
+        "itemname2": "resonantKBO",
         "itemtype": "level-4",
-        "itemcategory": "kuiperbelt-object",
-        "itemparent": "kuiperbelt-object-group"
+        "itemcategory": "kuiperbelt-main-group",
+        "itemparent": "kuiperbelt-object-group",
+        "itemcolor": "kuiperbelt-brown"
     },
     {
         "itemindex": "5.1.1.2.1",
@@ -10040,7 +10048,9 @@
         "itemurl": "https://de.wikipedia.org/wiki/Plutino",
         "itemname2": "plutinos",
         "itemtype": "level-5",
-        "itemparent": "resonant-kbo-group"
+        "itemcategory": "kuiperbelt-sub-group",
+        "itemparent": "kuiperbelt-main-group",
+        "itemcolor": "kuiperbelt-brown"
     },
     {
         "itemindex": "5.1.1.2.1.1",
@@ -10050,7 +10060,7 @@
         "itemname3": "(134340) Pluto",
         "itemtype": "level-6",
         "itemcategory": "kuiperbelt-object",
-        "itemparent": "plutino-group",
+        "itemparent": "kuiperbelt-sub-group",
         "itemimgsmallurl": "img/solarsystem/pluto_sm.jpg",
         "itemimgurl": "img/solarsystem/pluto_lg.jpg",
         "itemimgsrc": "NASA",
@@ -10107,36 +10117,58 @@
         "itemcolor": "kuiperbelt-brown"
     },
     {
-        "itemindex": "5.1.1.2.1.1.06",
+        "itemindex": "5.1.1.2.1.2",
         "itemname": "Orcus",
         "itemurl": "https://de.wikipedia.org/wiki/(90482)_Orcus",
         "itemname2": "orcus",
         "itemname3": "(90482) Orcus",
-        "itemtype": "level-7",
-        "itemcategory": "kuiperbelt-object-moon",
-        "itemparent": "pluto",
+        "itemtype": "level-6",
+        "itemcategory": "kuiperbelt-object",
+        "itemparent": "kuiperbelt-sub-group",
         "itemcolor": "kuiperbelt-brown"
     },
     {
-        "itemindex": "5.1.1.2.1.1.07",
+        "itemindex": "5.1.1.2.1.2.1",
+        "itemname": "Vanth",
+        "itemurl": "https://de.wikipedia.org/wiki/Vanth_(Mond)",
+        "itemname2": "vanth",
+        "itemname3": "(90482) Orcus I (Vanth) ",
+        "itemtype": "level-7",
+        "itemcategory": "kuiperbelt-object-moon",
+        "itemparent": "orcus",
+        "itemcolor": "kuiperbelt-brown"
+    },
+    {
+        "itemindex": "5.1.1.2.1.3",
         "itemname": "Ixion",
         "itemurl": "https://de.wikipedia.org/wiki/(28978)_Ixion",
         "itemname2": "ixion",
         "itemname3": "(28978) Ixion",
-        "itemtype": "level-7",
-        "itemcategory": "kuiperbelt-object-moon",
-        "itemparent": "pluto",
+        "itemtype": "level-6",
+        "itemcategory": "kuiperbelt-object",
+        "itemparent": "kuiperbelt-sub-group",
         "itemcolor": "kuiperbelt-brown"
     },
     {
-        "itemindex": "5.1.1.2.1.1.08",
+        "itemindex": "5.1.1.2.1.4",
         "itemname": "Huya",
         "itemurl": "https://de.wikipedia.org/wiki/(38628)_Huya",
         "itemname2": "huya",
         "itemname3": "(38628) Huya",
+        "itemtype": "level-6",
+        "itemcategory": "kuiperbelt-object",
+        "itemparent": "kuiperbelt-sub-group",
+        "itemcolor": "kuiperbelt-brown"
+    },
+    {
+        "itemindex": "5.1.1.2.1.4.1",
+        "itemname": "S/2012 (38628) 1",
+        "itemurl": "https://de.wikipedia.org/wiki/S/2012_(38628)_1",
+        "itemname2": "s2012_38628_1",
+        "itemname3": "S/2012 (38628) 1",
         "itemtype": "level-7",
         "itemcategory": "kuiperbelt-object-moon",
-        "itemparent": "pluto",
+        "itemparent": "huya",
         "itemcolor": "kuiperbelt-brown"
     },
     {
@@ -10144,24 +10176,27 @@
         "itemname": "Twotinos",
         "itemname2": "twotinos",
         "itemtype": "level-5",
-        "itemparent": "resonant-kbo-group"
+        "itemcategory": "kuiperbelt-sub-group",
+        "itemparent": "kuiperbelt-main-group",
+        "itemcolor": "kuiperbelt-brown"
     },
     {
         "itemindex": "5.1.1.3",
-        "itemname": "gestreute KBOs",
-        "itemname2": "scatteredKBOs",
+        "itemname": "gestreute KBO",
+        "itemname2": "scatteredKBO",
         "itemname3": "Scattered disk objects",
         "itemname4": "SDO",
         "itemtype": "level-4",
-        "itemcategory": "kuiperbelt-object",
-        "itemparent": "kuiperbelt-object-group"
+        "itemcategory": "kuiperbelt-main-group",
+        "itemparent": "kuiperbelt-object-group",
+        "itemcolor": "kuiperbelt-brown"
     },
     {
         "itemindex": "5.1.1.4",
         "itemname": "Sednoiden",
         "itemname2": "sednoidGroup",
         "itemtype": "level-4",
-        "itemcategory": "kuiperbelt-object",
+        "itemcategory": "kuiperbelt-main-group",
         "itemparent": "kuiperbelt-object-group",
         "itemcolor": "kuiperbelt-brown"
     },
@@ -10173,7 +10208,7 @@
         "itemname3": "(90377) Sedna",
         "itemtype": "level-3",
         "itemcategory": "asteroid",
-        "itemparent": "sednoid-group",
+        "itemparent": "kuiperbelt-main-group",
         "itemcolor": "kuiperbelt-brown"
     },
     {
