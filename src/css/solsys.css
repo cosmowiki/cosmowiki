@@ -64,7 +64,7 @@
 .transparent:active {background: rgba(255, 255, 255, .3);}
 
 /*sun-yellow = #fffacd rgba(255, 250, 205)*/
-.sun-yellow.star > p > a:after {content: '\2609'; margin-left: .25em;}
+.sun > p > a:after {content: '\2609'; margin-left: .25em;}
 .sun-yellow {
 	background-image: linear-gradient( to right, rgba(255, 255, 112, .3) 50%, rgba(255, 255, 112, 0));
 }
@@ -75,7 +75,7 @@
 }
 
 /*mercury-orange = #eedc82 rgba(238, 220, 130)*/
-.mercury-orange.planet > p > a:after {content: '\263F'; margin-left: .25em;}
+.mercury > p > a:after {content: '\263F'; margin-left: .25em;}
 .mercury-orange {
 	background-image: linear-gradient( to right, rgba(238, 220, 130, .3) 50%, rgba(238, 220, 130, 0));
 }
@@ -86,7 +86,7 @@
 }
 
 /*venus-pink = #f2d9bf rgba(242, 217, 191)*/
-.venus-pink.planet > p > a:after {content: '\2640'; margin-left: .25em;}
+.venus > p > a:after {content: '\2640'; margin-left: .25em;}
 .venus-pink {
 	background-image: linear-gradient( to right, rgba(242, 217, 191, .3) 50%, rgba(242, 217, 191, 0));
 }
@@ -97,7 +97,7 @@
 }
 
 /*earth-blue = #b0c4de rgba(176, 196, 222)*/
-.earth-blue.planet > p > a:after {content: '\2641'; margin-left: .25em;}
+.earth > p > a:after {content: '\2641'; margin-left: .25em;}
 .earth-blue {
 	background-image: linear-gradient( to right, rgba(176, 196, 222, .3) 50%, rgba(176, 196, 222, 0));
 }
@@ -118,7 +118,7 @@
 }
 
 /*mars-red = #f4a460 rgba(244, 164, 96)*/
-.mars-red.planet > p > a:after {content: '\2642'; margin-left: .25em;}
+.mars > p > a:after {content: '\2642'; margin-left: .25em;}
 .mars-red {
 	background-image: linear-gradient( to right, rgba(244, 164, 96, .3) 50%, rgba(244, 164, 96, 0));
 }
@@ -129,7 +129,7 @@
 }
 
 /*jupiter-yellow = ##d2ceb7 rgba(210, 206, 183)*/
-.jupiter-yellow.planet > p > a:after {content: '\2643'; margin-left: .25em;}
+.jupiter > p > a:after {content: '\2643'; margin-left: .25em;}
 .jupiter-yellow {
 	background-image: linear-gradient( to right, rgba(210, 206, 183, .3) 50%, rgba(210, 206, 183, 0));
 }
@@ -140,7 +140,7 @@
 }
 
 /*saturn-orange = #f0e68c rgba(240, 230, 140)*/
-.saturn-orange.planet > p > a:after {content: '\2644'; margin-left: .25em;}
+.saturn > p > a:after {content: '\2644'; margin-left: .25em;}
 .saturn-orange {
 	background-image: linear-gradient( to right, rgba(240, 230, 140, .3) 50%, rgba(240, 230, 140, 0));
 }
@@ -151,7 +151,7 @@
 }
 
 /*uranus-turq = #bee3e6 rgba(190, 227, 230)*/
-.uranus-turq.planet > p > a:after {content: '\2645'; margin-left: .25em;}
+.uranus > p > a:after {content: '\2645'; margin-left: .25em;}
 .uranus-turq {
 	background-image: linear-gradient( to right, rgba(190, 227, 230, .3) 50%, rgba(190, 227, 230, 0));
 }
@@ -162,7 +162,7 @@
 }
 
 /*neptune-blue = #90d0f8 rgba(144, 208, 248)*/
-.neptune-blue.planet > p > a:after {content: '\2646'; margin-left: .25em;}
+.neptune > p > a:after {content: '\2646'; margin-left: .25em;}
 .neptune-blue {
 	background-image: linear-gradient( to right, rgba(144, 208, 248, .3) 50%, rgba(144, 208, 248, 0));
 }

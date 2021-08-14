@@ -3,56 +3,59 @@
 >
 <!DOCTYPE html>
 <html lang="de-DE">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="//cdnjs.cloudflare.com/ajax/libs/react/15.4.0/react-with-addons.js"></script>
-<title>CosmoWiki.de | die Online-Enzyklop&auml;die &uuml;ber Astronomie und Raumfahrt</title>
-<link rel="stylesheet" href="//yui.yahooapis.com/pure/0.6.0/pure-min.css">
-<!--[if lte IE 8]>
-<link rel="stylesheet" href="//yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/react/15.4.0/react-with-addons.js"></script>
+    <title>CosmoWiki.de | die Online-Enzyklop&auml;die &uuml;ber Astronomie und Raumfahrt</title>
+    <link rel="stylesheet" href="/css/pure/0.6.0/pure-min.css">
+    <!--[if lte IE 8]>
+<link rel="stylesheet" href="/css/pure/0.6.0/grids-responsive-old-ie-min.css">
 <![endif]-->
-<!--[if gt IE 8]><!-->
-<link rel="stylesheet" href="//yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
-<!--<![endif]-->
-<!--<link rel="stylesheet" type="text/css" href="shariff/build/shariff.complete.css" />-->
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" media="all" href="/css/cw.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/shariff.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/home.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/welcome.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/about.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/astronomy.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/constellations.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/events.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/galaxies.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/missions.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/objects.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/persons.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/places.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/probes.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/register.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/rockets.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/satellites.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/solsys.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/spaceflight.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/spacestations.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/spacetelescopes.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/spacewalks.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/stars.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/telescopes.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/vcard.css" />
-<!--<script type='text/javascript' src="js/cw.js"></script>-->
-<!--<script type='text/javascript' src="js/menus.js"></script>-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shariff/1.26.2/shariff.min.css" />
-<script type='text/javascript' src='https://platform.twitter.com/widgets.js?ver=4.0.1'></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/shariff/1.26.2/shariff.min.js"></script>
-<link rel='canonical' href='http://de.cosmowiki.org/' />
-<link rel='shortlink' href='http://de.cosmowiki.org/' />
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="/css/pure/0.6.0/grids-responsive-min.css">
+    <!--<![endif]-->
+    <!--<link rel="stylesheet" type="text/css" href="shariff/build/shariff.complete.css" />-->
+    <link rel="stylesheet" href="/css/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="all" href="/css/cw.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/shariff.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/home.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/welcome.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/about.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/astronomy.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/constellations.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/events.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/galaxies.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/missions.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/objects.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/persons.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/places.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/probes.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/register.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/rockets.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/satellites.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/solsys.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/spaceflight.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/spacestations.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/spacetelescopes.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/spacewalks.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/stars.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/telescopes.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/vcard.css" />
+    <!--<script type='text/javascript' src="js/cw.js"></script>-->
+    <!--<script type='text/javascript' src="js/menus.js"></script>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shariff/1.26.2/shariff.min.css" />
+    <script type='text/javascript' src='https://platform.twitter.com/widgets.js?ver=4.0.1'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/shariff/1.26.2/shariff.min.js"></script>
+    <link rel='canonical' href='http://de.cosmowiki.org/' />
+    <link rel='shortlink' href='http://de.cosmowiki.org/' />
 </head>
+
 <body>
-  <div id="app"></div>
-  <script type='text/javascript' src="/index.min.js"></script>
+    <div id="app"></div>
+    <script type='text/javascript' src="/index.min.js"></script>
 
 </body>
+
 </html>

@@ -23,8 +23,9 @@ class Item {
     const alternativename1 = raw.itemname3 ? raw.itemname3 : '';
     const alternativename2 = raw.itemname4 ? `, ${raw.itemname4}`: '';
     item.alternativeName = `${alternativename1}${alternativename2}`;
+    item.description = raw.itemdescription ? raw.itemdescription : '';//star, group, planet, moon, object
     item.type = raw.itemtype ? raw.itemtype : '';//to control the Pure width
-    item.category = raw.itemcategory ? raw.itemcategory : '';//star, group, planet, moon, object
+    item.category = raw.itemcategory ? raw.itemcategory : '';//group or not group to collapse/expand the div
     item.parent = raw.itemparent ? raw.itemparent : '';//solar-system, inner-planets, Earth, apollo-type-astroids ...
     item.color = raw.itemcolor ? raw.itemcolor : '';
     item.wikipediaUrl = raw.itemurl ? raw.itemurl : '';

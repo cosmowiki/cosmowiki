@@ -197,15 +197,6 @@ const SolarSystemComponent = ({ items }) => {
                   {items.filter(item => item.index === '1.3.3.3.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
                     {items.filter(item => item.index.startsWith('1.3.3.3.1.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
                   </ItemComponent>)}
-                  {items.filter(item => item.index === '1.3.3.3.2').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                    {items.filter(item => item.index.startsWith('1.3.3.3.2.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
-                  </ItemComponent>)}
-                  {items.filter(item => item.index === '1.3.3.3.3').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                    {items.filter(item => item.index.startsWith('1.3.3.3.3.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
-                  </ItemComponent>)}
-                  {items.filter(item => item.index === '1.3.3.3.4').map((item, idx) => <ItemComponent item={ item } key={idx}>
-                    {items.filter(item => item.index.startsWith('1.3.3.3.4.')).map((item, idx) => <ItemComponent item={ item } key={idx}></ItemComponent>)}
-                  </ItemComponent>)}
                 </ItemComponent>)}
                 {items.filter(item => item.index === '1.3.3.4').map((item, idx) => <ItemComponent item={ item } key={idx}>
                   {items.filter(item => item.index === '1.3.3.4.1').map((item, idx) => <ItemComponent item={ item } key={idx}>
@@ -403,7 +394,7 @@ const ItemComponent = ({ item, children }) => {
   let pureGridWith = item.type;
   {pureGridWith === 'level-1' ? pureGridWith = 'pure-u-1' : pureGridWith = 'pure-u-11-12 pure-u-sm-7-8 pure-u-md-4-5';}
   let itemDivStyles;
-  {item.name ? itemDivStyles = `${item.index} ${item.type} ${item.category} ${pureGridWith} ${item.color}` : itemDivStyles = `${pureGridWith} placeholder`;}
+  {item.name ? itemDivStyles = `${item.name2} ${item.type} ${item.category} ${pureGridWith} ${item.color}` : itemDivStyles = `${pureGridWith} placeholder`;}
 
   return (
           <div id={item.name2} className={itemDivStyles}>
